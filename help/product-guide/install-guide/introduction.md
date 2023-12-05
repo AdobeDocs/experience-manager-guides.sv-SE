@@ -1,15 +1,15 @@
 ---
-title: Om den här guiden
+title: Lokal installation
 description: Lär dig hur du hämtar, installerar och konfigurerar AEM.
 exl-id: 90d5ad94-eb68-4d73-9b23-a1f3d4b802ba
-source-git-commit: b8fba97d5e686fd09b094a6cf5b52aa08ef2d069
+source-git-commit: 02b33615669945cf65f70d6fd2de81bfd340a0ab
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '581'
 ht-degree: 0%
 
 ---
 
-# Om den här guiden {#id175MC0P0S5Z}
+# Lokal installation {#id175MC0P0S5Z}
 
 Adobe Experience Manager Guides \(kallas senare *AEM stödlinjer*\) är en kraftfull innehållshanteringslösning på enterprisenivå \(CCMS\). Det möjliggör inbyggt DITA-stöd i Adobe Experience Manager, vilket gör det möjligt för AEM att hantera DITA-baserad framtagning och leverans av innehåll. Man kan skapa material med hjälp av valfritt DITA-verktyg, t.ex. Adobe FrameMaker eller en lättanvänd webbredigerare.
 
