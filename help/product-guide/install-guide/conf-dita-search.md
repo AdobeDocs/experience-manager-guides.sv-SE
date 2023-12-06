@@ -2,9 +2,9 @@
 title: Konfigurera sökning i AEM Assets UI
 description: Lär dig hur du konfigurerar sökning efter AEM Assets-användargränssnitt
 exl-id: b920ba7f-e8fc-4af6-aa8a-b8516b1cffc0
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: 247f4d8fe744b6f9d285a7f61c2b31628de2bb36
 workflow-type: tm+mt
-source-wordcount: '1697'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -135,15 +135,15 @@ En regel består av följande:
 
 xpath : Det här är XPath-frågan som hämtar element eller attribut från DITA-filer. Standardkonfigurationen för elementregeln hämtar alla `prolog` -element. Och standardkonfigurationen för attributregeln hämtar alla attribut för `prolog` -element. Du kan ange en XPath-fråga för att serialisera de element eller attribut som du vill söka efter.
 
-    XPath-frågan innehåller dokumenttypens klassnamn. Klassen &quot;topic/topic&quot; används för ämnet DITA-dokument. Om du vill skapa en regel för andra DITA-dokument måste du använda följande klassnamn:
-    
-    |Dokumenttyp|Klassnamn|
-    |—|—|
-    |Ämne|- ämne/ämne|
-    |Aktivitet|- ämne/ämne aktivitet/aktivitet|
-    |Koncept|- ämne/ämne begrepp/begrepp|
-    |Referens|- ämne/ämnesreferens/referens|
-    |Karta|- karta/karta|
+XPath-frågan innehåller dokumenttypens klassnamn. The `topic/topic` -klassen används för ämnestyp DITA-dokument. Om du vill skapa en regel för andra DITA-dokument måste du använda följande klassnamn:
+
+| Dokumenttyp | Klassnamn |
+|-------------|----------|
+| Ämne | - ämne |
+| Uppgift | - ämne/ämne uppgift/uppgift |
+| Koncept | - ämne/ämne/begrepp |
+| Referens | - ämnesreferens/referens |
+| Karta | - karta/karta |
 
 text: Om du vill söka efter texten i det angivna elementet anger du yes-värdet. Om du anger nej som värde serialiseras bara attributen i elementet. Attributen som du vill söka efter måste anges i attributuppsättningsavsnittet.
 
