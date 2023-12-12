@@ -2,7 +2,7 @@
 title: Lokal installation
 description: Lär dig hur du hämtar, installerar och konfigurerar AEM.
 exl-id: 90d5ad94-eb68-4d73-9b23-a1f3d4b802ba
-source-git-commit: 02b33615669945cf65f70d6fd2de81bfd340a0ab
+source-git-commit: 31dc283a5e51fc9c504ac4e75a9719dc247e90eb
 workflow-type: tm+mt
 source-wordcount: '581'
 ht-degree: 0%
@@ -27,39 +27,22 @@ Den här guiden är avsedd för följande typer av målgrupper:
 Informationen i den här handboken är ordnad enligt följande:
 
 - [Om den här guiden](#id175MC0P0S5Z): Det här avsnittet innehåller en introduktion till den här guiden, avsedd målgrupp och hur informationen är organiserad i den här handboken.
-
 - [Hämta och installera](download-install.md#): I det här avsnittet beskrivs hur du hämtar, installerar eller uppgraderar AEM.
-
 - [Användaradministration och -säkerhet](user-admin-sec.md#): I det här avsnittet beskrivs grundkonceptet för användare och autentisering i AEM och standardanvändargrupper som skapas av AEM.
-
 - [Använd anpassad DITA-OT- och DITA-specialisering](dita-ot-specialization.md#)I det här avsnittet beskrivs hur du konfigurerar anpassade DITA-OT-plugin-program och använder DITA-specialisering.
-
 - [Konfigurera dokumentlägen](customize-doc-state.md#): I det här avsnittet beskrivs hur du konfigurerar anpassade lägen för DITA-dokument.
-
 - [Migrera befintligt innehåll](migrate-content.md#): I det här avsnittet beskrivs hur du lägger in befintligt innehåll i AEM.
-
 - [Konfigurera filnamn](conf-file-names.md#): I det här avsnittet beskrivs hur du konfigurerar inställningar för att automatiskt tilldela filnamn och definiera regex för giltiga filnamnstecken.
-
 - [Konfigurera ämne- och mappningsmallar](conf-template-tags.md#): I det här avsnittet beskrivs hur du konfigurerar ämne- och mappningsmallar så att de uppfyller dina redigeringsbehov. Lär dig mer om taggningssystem i AEM och hur du konfigurerar taggar så att de fungerar med AEM stödlinjer.
-
 - [Anpassa Web Editor](conf-web-editor.md#): I det här avsnittet förklaras de olika anpassningar du kan göra i Web Editor för att förbättra dess funktioner.
-
 - [Ange avancerad kartredigerare som standard](conf-map-editor.md#id194GHE0I0CW)I det här avsnittet beskrivs hur du konfigurerar den avancerade kartredigeraren som standardredigerare för kartfiler.
-
 - [Inkludera @navtitle-attribut som standard](auto-add-navtitle.md#): I det här avsnittet beskrivs hur du lägger till `@navtitle` som standard till en referensfil på en karta.
-
 - [Konfigurera globala profiler eller profiler på mappnivå](conf-folder-level.md#): I det här avsnittet beskrivs hur du skapar mappprofiler och ger behörigheter till specifika användare.
-
 - [Versionshantering](version-management.md#): Det här avsnittet beskriver hur du konfigurerar automatisk utcheckning av filer som har öppnats för redigering i Web Editor.
-
 - [Integrera skrivbordsbaserade XML-redigerare](integrate-desktop-editors.md#): Det här avsnittet beskriver de inställningar du behöver för att aktivera redigering av dokument i en extern XML-redigerare.
-
 - [Konfigurera inställningar för utdatagenerering](conf-output-generation.md#): I det här avsnittet beskrivs de olika konfigurationer som du kan göra för att anpassa standardprocessen för generering av utdata.
-
 - [Konfigurera och anpassa arbetsflöden](customize-workflows.md#): I det här avsnittet beskrivs de olika konfigurationerna för att anpassa standardarbetsflödena som levereras i AEM.
-
 - [Översätta innehåll](translation.md#): Det här avsnittet innehåller länkar till relevanta hjälpartiklar i AEM som hjälper dig förstå och konfigurera översättningsramverket. Lär dig även hur du aktiverar komponentbaserade arbetsflöden för översättning.
-
 - [Konfigurera sökning i AEM Assets UI](conf-dita-search.md#): I det här avsnittet beskrivs hur du konfigurerar sökning efter DITA-innehåll i resursgränssnittet och lägger till anpassade attribut i sökningen.
 
 

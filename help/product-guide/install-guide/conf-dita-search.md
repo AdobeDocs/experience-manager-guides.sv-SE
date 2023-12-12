@@ -2,9 +2,9 @@
 title: Konfigurera sökning i AEM Assets UI
 description: Lär dig hur du konfigurerar sökning efter AEM Assets-användargränssnitt
 exl-id: b920ba7f-e8fc-4af6-aa8a-b8516b1cffc0
-source-git-commit: 247f4d8fe744b6f9d285a7f61c2b31628de2bb36
+source-git-commit: 31dc283a5e51fc9c504ac4e75a9719dc247e90eb
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1696'
 ht-degree: 0%
 
 ---
@@ -70,6 +70,7 @@ Gör följande för att lägga till UUID-baserad sökkomponent i AEM Assets UI:
 
    - **Fältetikett**: UUID
    - **Egenskapsnamn**: jcr:content/fmUuid
+
 1. Klicka **Klar** för att spara ändringarna.
 
    När du öppnar alternativet Filter i resursgränssnittet får du det UIS-baserade sökfilteralternativet.
@@ -118,7 +119,7 @@ Med standardsökkonfigurationen kan du söka efter alla element och attribut i D
 >
 > Om du vill använda standardsökkonfigurationen i `prolog` kan du hoppa över den här processen.
 
-Filen innehåller två huvudavsnitt - attributuppsättning och regeluppsättning. Nedan visas ett utdrag av regeluppsättningsavsnittet:
+Den här filen innehåller två huvudsektioners attributuppsättning och regeluppsättning. Nedan visas ett utdrag av regeluppsättningsavsnittet:
 
 ```XML
 <ruleset filetypes="xml dita"><!-- Element rules --><rule xpath="//[contains(@class, 'topic/topic')]/[contains(@class, 'topic/prolog')]//*[not(*)]" text="yes" attributeset="all-attrs" /><!-- Attribute rules --><rule xpath="//[contains(@class, 'topic/topic')]/[contains(@class, 'topic/prolog')]///@[local-name() != 'class']" /></ruleset>
@@ -127,7 +128,6 @@ Filen innehåller två huvudavsnitt - attributuppsättning och regeluppsättning
 I avsnittet Regeluppsättning kan du ange:
 
 - Regler för att extrahera elementen
-
 - Regler för att extrahera attribut
 
 
