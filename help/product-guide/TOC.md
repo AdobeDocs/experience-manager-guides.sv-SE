@@ -2,9 +2,9 @@
 user-guide-title: Stödlinjer för Experience Manager
 user-guide-description: Läs produktdokumentationen för Adobe Experience Manager Guides.
 breadcrumb-title: Stödlinjer för AEM
-source-git-commit: 31dc283a5e51fc9c504ac4e75a9719dc247e90eb
+source-git-commit: 757371f7d9e9029096abd2f269b3bdd715d1c965
 workflow-type: tm+mt
-source-wordcount: '1639'
+source-wordcount: '1635'
 ht-degree: 1%
 
 ---
@@ -213,8 +213,8 @@ ht-degree: 1%
       + Migrering av innehåll {#content-migration}
          + [Migrering av icke-UID till UUID-innehåll](./install-guide/migrate-uuid-non-uuid.md)
          + Migreringsprocess {#migration-process}
-            + [Migrera icke-UID-innehåll med versioner](./install-guide/migrate-non-uuid-uuid-with-versions.md)
-            + [Migrera icke-UID-innehåll utan versioner](./install-guide/migrate-non-uuid-uuid-without-versions.md)
+            + [Migrera versionshanterat innehåll](./install-guide/migrate-non-uuid-uuid-with-versions.md)
+            + [Migrera oversionshanterat innehåll](./install-guide/migrate-non-uuid-uuid-without-versions.md)
          + [Migrera befintligt innehåll](./install-guide/migrate-content.md)
          + [Överför befintligt DITA-innehåll](./install-guide/migrate-content-upload-existing-dita-content.md)
          + [Migrera icke-DITA-innehåll](./install-guide/migrate-content-non-dita.md)
