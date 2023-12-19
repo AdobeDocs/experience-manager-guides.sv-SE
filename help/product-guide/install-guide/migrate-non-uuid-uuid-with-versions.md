@@ -1,7 +1,7 @@
 ---
 title: Konvertera icke-UID-innehåll med versioner till UUID-innehåll
 description: Lär dig hur du migrerar icke-UID-innehåll med versioner till UUID-innehåll.
-source-git-commit: 4888bd4647a7ec8bbd4e53786b267cca96630219
+source-git-commit: b4ba381cad13960f2fd514b23c66016f0e08e273
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 0%
@@ -54,8 +54,7 @@ Utför följande kontroller för den version som inte är UUID (4.1 icke-UID ell
    >* Du måste ha administratörsbehörighet för att kunna utföra migreringen.
    >* Du bör åtgärda filerna med fel innan du fortsätter med migreringen.
 
-1. (Valfritt) Rensa innehållet i version för att ta bort onödiga versioner och snabba upp migreringsprocessen. Markera alternativet om du vill rensa versionen
-   **Rensa version** från migreringsskärmen och gå till användargränssnittet med URL:en `http://<server- name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
+1. (Valfritt) Rensa innehållet i version för att ta bort onödiga versioner och snabba upp migreringsprocessen. Markera alternativet om du vill rensa versionen **Rensa version** från migreringsskärmen och gå till användargränssnittet med URL:en `http://<server- name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
    >[!NOTE]
    >
    >Verktyget tar inte bort versioner som används i baslinjer eller granskningar och har inga etiketter.
