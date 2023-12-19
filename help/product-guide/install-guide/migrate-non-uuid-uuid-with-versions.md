@@ -1,9 +1,9 @@
 ---
 title: Konvertera icke-UID-innehåll med versioner till UUID-innehåll
 description: Lär dig hur du migrerar icke-UID-innehåll med versioner till UUID-innehåll.
-source-git-commit: 72cdc50df0dfb4af8c798bd1a488c852ed054707
+source-git-commit: 0d985688af601ca51822b116ea4baafce19f0658
 workflow-type: tm+mt
-source-wordcount: '782'
+source-wordcount: '755'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ Utför de här stegen för att migrera ditt icke-UID-versionshanterade innehåll
 
 >[!NOTE]
 >
->Följ uppgraderingsinstruktionerna i enlighet med din version innan du migrerar till den UUID-version som krävs.
+>Följ [uppgraderingsinstruktioner](./upgrade-xml-documentation.md) specifikt för den licensierade versionen av din produkt.
 
 ## Kompatibilitetsmatris
 
@@ -26,10 +26,9 @@ Utför de här stegen för att migrera ditt icke-UID-versionshanterade innehåll
 
 ## Paketinstallation
 
-Hämta de paket som behövs från Adobe Software Distribution Portal, baserat på version, och installera dem:
+Hämta de paket som behövs från Adobe Software Distribution Portal, baserat på din version:
 <details>
-<summary>  Paket för version 4.1 </summary>
-Om du använder version 4.1 som inte är UUID måste du installera version 4.1 UUID innan du installerar följande paket:
+<summary>  Paket för uppgraderingssökväg till version 4.1</summary>
 
 1. **Före migrering**: [com.adobe.guides.pre-uid-migration-1.0.9.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F1-0%2Fcom.adobe.guides.pre-uuid-migration-1.0.9.zip)
 1. **Migrering**: [com.adobe.guides.uid-upgrade-1.0.19.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F1-0%2Fcom.adobe.guides.uuid-upgrade-1.0.19.zip)
@@ -37,8 +36,7 @@ Om du använder version 4.1 som inte är UUID måste du installera version 4.1 U
 
 
 <details>
-<summary> Paket för version 4.3.1</summary>
-Om du använder version 4.3 som inte är UUID måste du installera version 4.3.1 UUID innan du installerar följande paket:
+<summary> Paket för uppgraderingssökväg till version 4.3.1</summary>
 
 1. **Före migrering**: [com.adobe.guides.pre-uid-migration-1.1.3.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2Fcom.adobe.guides.pre-uuid-migration-1.1.3.zip)
 1. **Migrering**: [com.adobe.guides.uid-upgrade-1.1.15.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2Fcom.adobe.guides.uuid-upgrade-1.1.15.zip)
@@ -47,17 +45,18 @@ Om du använder version 4.3 som inte är UUID måste du installera version 4.3.1
 
 ## Före migrering
 
-1. (Valfritt) Rensa innehållet i version för att ta bort onödiga versioner och snabba upp migreringsprocessen. Markera alternativet om du vill rensa versionen **Rensa version** från migreringsskärmen och gå till användargränssnittet med URL:en `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
+Utför följande kontroller för den version som inte är UUID (4.1 icke-UID eller 4.3.0 icke-UUID):
 
-   >[!NOTE]
-   >
-   >Verktyget tar inte bort versioner som används i baslinjer eller granskningar och har inga etiketter.
 1. Installera förmigreringspaketet enligt din version.
 
    >[!NOTE]
    >
    >* Du måste ha administratörsbehörighet för att kunna utföra migreringen.
    >* Du bör åtgärda filerna med fel innan du fortsätter med migreringen.
+1. (Valfritt) Rensa innehållet i version för att ta bort onödiga versioner och snabba upp migreringsprocessen. Markera alternativet om du vill rensa versionen **Rensa version** från migreringsskärmen och gå till användargränssnittet med URL:en `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
+   >[!NOTE]
+   >
+   >Verktyget tar inte bort versioner som används i baslinjer eller granskningar och har inga etiketter.
 1. Starta `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
 1. Välj **Kompatibilitetsbedömning**  från den vänstra panelen och bläddra i en mappsökväg.
 1. Kontrollera kompatibiliteten för att lista följande information:
@@ -100,7 +99,7 @@ Om du använder version 4.3 som inte är UUID måste du installera version 4.3.1
 1. Inaktivera egenskapen Aktivera validering (`validation.enabled`) in Day CQ Tagging Service.
 
 1. Se till att `uuid.regex` egenskapsmappen är korrekt inställd i `com.adobe.fmdita.config.ConfigManager`. Om det är tomt anger du standardvärdet - `^GUID-(?<id>.*)`.
-1. Lägg till en separat loggare för `com.adobe.fmdita.uuid.upgrade.UuidUpgrade` Webbläsarsvaret finns också på `/content/uuid-upgrade/logs`.
+1. Lägg till en separat loggare för `com.adobe.fmdita.uuid` Webbläsarsvaret finns också på `/content/uuid-upgrade/logs`.
 
 ### Steg 2: Kör migreringen och validera
 
