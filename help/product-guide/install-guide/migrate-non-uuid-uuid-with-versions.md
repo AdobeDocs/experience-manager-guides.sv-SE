@@ -1,7 +1,7 @@
 ---
 title: Konvertera icke-UID-innehåll med versioner till UUID-innehåll
 description: Lär dig hur du migrerar icke-UID-innehåll med versioner till UUID-innehåll.
-source-git-commit: b57364fa52d48791fbab07125f13007c563b7781
+source-git-commit: 4888bd4647a7ec8bbd4e53786b267cca96630219
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 0%
@@ -59,7 +59,7 @@ Utför följande kontroller för den version som inte är UUID (4.1 icke-UID ell
    >[!NOTE]
    >
    >Verktyget tar inte bort versioner som används i baslinjer eller granskningar och har inga etiketter.
-1. Starta `http://<server- name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
+1. Starta `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
 1. Välj **Kompatibilitetsbedömning**  från den vänstra panelen och bläddra i en mappsökväg.
 1. Kontrollera kompatibiliteten för att lista följande information:
    * Totalt antal filer
