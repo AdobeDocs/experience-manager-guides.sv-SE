@@ -2,9 +2,9 @@
 title: Extension Framework of AEM Guides - Customize Web-Editor and Review UI
 description: Med hjälp av ramverket för Guides-tillägget kan du anpassa de önskade avsnitten i Granska användargränssnitt eller Webbredigerare med hjälp av JSON, CSS och JavaScript som är enkla att uppdatera.
 exl-id: 7b2efae3-be8c-4259-babb-f28a6903116a
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: 9406895007386cbd15d5a9412457333493d7bb36
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '364'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Under den här sessionen får du veta mer om:
 
 - **Dokumenterade användningsfall** - [på Experience League](https://guides-extension.vercel.app/docs/aem_guides_framework/basic_customisation)
 
-- **Offentlig databas med exempel** - [på GIT](https://github.com/adobe/guides-extension/tree/sc-expert-session). Referera till sc-expert-session
+- **Offentlig databas med exempel** - [på GIT](https://github.com/adobe/guides-extension/tree/sc-expert-session). Se session mellan en filial och en expert
 
 
 >[!NOTE]
