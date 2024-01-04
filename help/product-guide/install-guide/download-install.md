@@ -1,11 +1,11 @@
 ---
 title: Hämta och installera
-description: Lär dig hur du hämtar och installerar AEM
+description: Läs om hur du hämtar och installerar AEM Guides
 exl-id: 40ea0510-b25e-4180-b076-c4f771071dda
 source-git-commit: 31dc283a5e51fc9c504ac4e75a9719dc247e90eb
 workflow-type: tm+mt
 source-wordcount: '136'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 

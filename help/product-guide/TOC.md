@@ -1,11 +1,11 @@
 ---
-user-guide-title: Stödlinjer för Experience Manager
+user-guide-title: Experience Manager Guides
 user-guide-description: Läs produktdokumentationen för Adobe Experience Manager Guides.
-breadcrumb-title: Stödlinjer för AEM
+breadcrumb-title: Användarhandbok om AEM Guides
 source-git-commit: 9406895007386cbd15d5a9412457333493d7bb36
 workflow-type: tm+mt
 source-wordcount: '1638'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 

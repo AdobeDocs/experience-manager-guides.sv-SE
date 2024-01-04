@@ -1,12 +1,12 @@
 ---
 title: Om Adobe Experience Manager Guides
-description: Läs mer om Adobe Experience Manager Guides, en DITA-baserad lösning för innehållshantering i enterpriseklass. Lär dig AEM Guides.
-short-description: Läs mer om AEM Guides, en DITA-baserad lösning för innehållshantering av komponenter i enterpriseklass.
+description: Läs mer om Adobe Experience Manager Guides, en DITA-baserad lösning för innehållshantering i storföretagsklass. Lär dig om fördelarna med AEM Guides.
+short-description: Läs mer om AEM Guides, en DITA-baserad lösning för innehållshantering av komponenter i storföretagsklass.
 exl-id: 474e7eab-3474-4362-9f1d-17cc98e53184
 source-git-commit: b8fba97d5e686fd09b094a6cf5b52aa08ef2d069
 workflow-type: tm+mt
 source-wordcount: '279'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
