@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Läs produktdokumentationen för Adobe Experience Manager Guides.
 breadcrumb-title: Användarhandbok om AEM Guides
-source-git-commit: 9754536b7954d63d80746b34ff2cf35716086fdf
+source-git-commit: 6dedfb51c9f32c5f621c3672735ecc07be3d619d
 workflow-type: tm+mt
-source-wordcount: '1644'
+source-wordcount: '1652'
 ht-degree: 2%
 
 ---
@@ -392,8 +392,12 @@ ht-degree: 2%
             + Schematron {#schematron}
                + [Schematronvalidering](./knowledge-base/kb-articles/authoring/webeditor/schematron/vailidating-with-schematron.md)
       + Guides Exention Framework {#extention-framework}
-         + [Introduktion](./guides-ui-extensions/getting-started/Introduction.md)
-         + [Installationsguide](./guides-ui-extensions/getting-started/integrating-customisations.md)
+         + Komma igång {#getting-started}
+            + [Introduktion](./guides-ui-extensions/getting-started/Introduction.md)
+            + [Installationsguide](./guides-ui-extensions/getting-started/integrating-customisations.md)
+            + [Extension Repositry Inro](./guides-ui-extensions/getting-started/extension-repo-intro.md)
+         + Anpassningar {#customisations}
+            + [Enkel anpassning](./guides-ui-extensions/customisations/add-button.md)
       + Publicering {#publishing}
          + [Configuring AEM Environment for Native PDF publishing](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
          + [FMPS och stödlinjer](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
