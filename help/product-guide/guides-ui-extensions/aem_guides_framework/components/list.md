@@ -1,12 +1,12 @@
 ---
-sidebar_position: 5
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+title: Lista
+description: Lista
+source-git-commit: dfd4c898d3c093bfee1a8a6efff4e395efd20c60
 workflow-type: tm+mt
-source-wordcount: '57'
+source-wordcount: '59'
 ht-degree: 0%
 
 ---
-
 
 # Lista
 
@@ -33,7 +33,7 @@ const listJSON =  {
 },
 ```
 
-Oftast är itemConfig en `widget`. Om du vill veta mer om widgetar går du till [Widgetar](../Widgets/basic_widget.md)
+Oftast är itemConfig en `widget`. Om du vill veta mer om widgetar går du till [Widgetar](../Widgets/basic-widget.md)
 
 Den återgivna listan ser ut så här:
 

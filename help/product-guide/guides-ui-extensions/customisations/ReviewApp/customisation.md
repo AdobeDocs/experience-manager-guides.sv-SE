@@ -1,10 +1,14 @@
 ---
-source-git-commit: 5962414dfc065543b946cac1468a5f62013073cf
+title: Anpassa
+description: Anpassa granskningsappen
+source-git-commit: a61abc0d2b480e276991db916ba0cbf630ca7996
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
+
+
 # Anpassa granskningsappen
 
 För att göra det enklare att anpassa granskningsappen har vi tagit fram några krokar som listas och förklaras nedan:
@@ -14,7 +18,7 @@ För att göra det enklare att anpassa granskningsappen har vi tagit fram några
 - id: `review_comment`
 - krok: `this.updateExtraProps`:
 
-Som diskuterades [här](../../aem_guides_framework/basic_customisation.md)och alla nya attribut som läggs till under anpassningen hamnar under `this.model.extraProps`. Metoden `updateExtraProps` I kan du lägga till attribut i en granskningskommentar och även hantera uppdatering och lagring av det tillagda attributet på servern.
+Som diskuterades [här](../../aem_guides_framework/basic-customisation.md)och alla nya attribut som läggs till under anpassningen hamnar under `this.model.extraProps`. Metoden `updateExtraProps` I kan du lägga till attribut i en granskningskommentar och även hantera uppdatering och lagring av det tillagda attributet på servern.
 
 ### Exempel på användning
 

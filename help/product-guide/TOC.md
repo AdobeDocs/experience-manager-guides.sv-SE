@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Läs produktdokumentationen för Adobe Experience Manager Guides.
 breadcrumb-title: Användarhandbok om AEM Guides
-source-git-commit: 5962414dfc065543b946cac1468a5f62013073cf
+source-git-commit: 2f5e951d3452e05fb307d6c34487269b5172000e
 workflow-type: tm+mt
-source-wordcount: '1660'
+source-wordcount: '1679'
 ht-degree: 2%
 
 ---
@@ -392,6 +392,18 @@ ht-degree: 2%
             + Schematron {#schematron}
                + [Schematronvalidering](./knowledge-base/kb-articles/authoring/webeditor/schematron/vailidating-with-schematron.md)
       + Guides Exention Framework {#extention-framework}
+         + Aem Guides Framework {#aem-guides-framework}
+            + [Grundläggande anpassningar](./guides-ui-extensions/aem_guides_framework/basic-customisation.md)
+            + [JUI Framework](./guides-ui-extensions/aem_guides_framework/jui-framework.md)
+            + Komponenter {#framework-components}
+               + [Knapp](./guides-ui-extensions/aem_guides_framework/components/button.md)
+               + [Ikon](./guides-ui-extensions/aem_guides_framework/components/icon.md)
+               + [Etikett](./guides-ui-extensions/aem_guides_framework/components/label.md)
+               + [Lista](./guides-ui-extensions/aem_guides_framework/components/list.md)
+               + [Textområde](./guides-ui-extensions/aem_guides_framework/components/textArea.md)
+            + Widgetar {#framework-widgets}
+               + [Återgivningswidgetar](./guides-ui-extensions/aem_guides_framework/Widgets/rendering-widget.md)
+               + [Grundläggande widgetar](./guides-ui-extensions/aem_guides_framework/Widgets/basic-widget.md)
          + Komma igång {#getting-started}
             + [Introduktion](./guides-ui-extensions/getting-started/Introduction.md)
             + [Installationsguide](./guides-ui-extensions/getting-started/integrating-customisations.md)
@@ -400,8 +412,9 @@ ht-degree: 2%
             + [Enkel anpassning](./guides-ui-extensions/customisations/add-button.md)
             + [Anpassa snabbmenyer](./guides-ui-extensions/customisations/context-menus.md)
             + [Anpassa verktygsfältet och verktygsfältet](./guides-ui-extensions/customisations/toolbar-topbar.md)
-         + Granska{#review-app-customisations}
-            + [Komponenter](./guides-ui-extensions/customisations/ReviewApp/components.md)
+            + Granska{#review-app-customisations}
+               + [Komponenter](./guides-ui-extensions/customisations/ReviewApp/components.md)
+               + [Anpassa](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
       + Publicering {#publishing}
          + [Configuring AEM Environment for Native PDF publishing](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
          + [FMPS och stödlinjer](./knowledge-base/kb-articles/publishing/fmpsandguides.md)

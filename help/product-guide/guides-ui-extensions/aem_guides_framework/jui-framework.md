@@ -1,8 +1,9 @@
 ---
-sidebar_position: 4
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+title: Jui Framework
+description: Förstå Jui Framework
+source-git-commit: a61abc0d2b480e276991db916ba0cbf630ca7996
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -23,7 +24,7 @@ JUI-React-Spectrum-biblioteket har wrapper-widgetar för Adobe React Spectrum-ko
 
 ### MVC UI Design
 
-![Alt-text](./imgs/jui-mvc-flow.png)
+![JUI MVC-flöde](./imgs/jui-mvc-flow.png)
 
 ### Widget
 
@@ -35,7 +36,7 @@ JUI-React-Spectrum-biblioteket har wrapper-widgetar för Adobe React Spectrum-ko
 - Kan ha andra widgetar
 - Appen är en widget
 
-![Alt-text](./imgs/jui-widget.png)
+![JUI-widget](./imgs/jui-widget.png)
 
 ### Element
 
@@ -76,4 +77,4 @@ JUI-React-Spectrum-biblioteket har wrapper-widgetar för Adobe React Spectrum-ko
 
 ### Exempel på appdesign
 
-![Alt-text](./imgs/jui-sample-app.png)
+![Exempelapp](./imgs/jui-sample-app.png)
