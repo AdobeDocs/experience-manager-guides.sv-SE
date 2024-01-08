@@ -1,7 +1,7 @@
 ---
 title: Händelsehanterare för slutförd gruppaktivering
 description: Läs om händelsehanterare för massaktivering
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: 8f1bb12a92ab9a63aef1765e51159644242683a0
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 0%
@@ -11,7 +11,6 @@ ht-degree: 0%
 # Händelsehanterare för slutförd gruppaktivering
 
 Stödlinjer i Experience Manager visar `com/adobe/fmdita/replication/complete` händelse som används för att utföra åtgärder efter att en gruppaktiveringsprocess har slutförts. Den här händelsen utlöses när en gruppaktiveringsprocess slutförs. Om du t.ex. kör gruppaktiveringen av en förinställning för AEM plats för en karta anropas den här händelsen när aktiveringsprocessen har avslutats.
-
 
 Du måste skapa en AEM händelsehanterare för att kunna läsa de egenskaper som är tillgängliga i den här händelsen och utföra ytterligare bearbetning.
 

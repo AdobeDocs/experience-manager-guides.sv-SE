@@ -2,9 +2,9 @@
 title: Rapporter i AEM
 description: Ta reda på vilka rapporter som finns tillgängliga i AEM för att hjälpa användarna att förbättra innehållskvaliteten.
 exl-id: f0d761ff-efea-452c-bb8e-865f34a182fc
-source-git-commit: 0afe8bf9b16b1d1367971462b0d44f1721b317c5
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,6 @@ I en organisatorisk konfiguration vill du kontrollera att innehållet är fullst
 ## Sessionsöversikt
 
 Under den här sessionen har vi visat användningsklara rapporter som är tillgängliga för användare. Vi har i stort sett behandlat följande:
-
 - Dokument- (karta) och ämnesrapporter
 - Metadatarapporter och hanteringsalternativ för massmetadata
 - Återanvändningsrapporter
@@ -41,7 +40,6 @@ Under den här sessionen har vi visat användningsklara rapporter som är tillg�
 ## Viktiga uppgifter
 
 Under den här sessionen får du veta mer om följande:
-
 - Rapporternas betydelse i CCMS
 - som finns i kartongen
 - exempel på rapporter om innehåll
@@ -53,14 +51,13 @@ Under den här sessionen får du veta mer om följande:
 
 - **Videofilmer** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/working-with-reports.html?lang=en)
 
-- **Användarhandbok** - [Skapa innehåll](/help/product-guide/user-guide/reports-intro.md)
+- **Användarhandbok** - [Skapa innehåll](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Freports-intro.html)
 
 - **Community Forum** - Om du vill ha sessionsspecifika communityinteraktioner på Experience League går du till  [AEM Guides Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
 > Funktionerna som visas under den här sessionen finns i följande versioner av AEM.
->
 > - Lokalt: 4.2 eller senare
 > - Cloud Service: 2302 eller senare
 

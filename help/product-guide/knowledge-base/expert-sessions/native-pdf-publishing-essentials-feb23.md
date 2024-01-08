@@ -2,9 +2,9 @@
 title: Grundläggande publicering i PDF
 description: Lär dig hur du publicerar PDF med den inbyggda PDF-motorn i AEM.
 exl-id: e7ba6d2d-ebfb-4400-9b10-c4fb173123cf
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '204'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,6 @@ Under den här sessionen får du lära dig hur du publicerar PDF med den inbyggd
 ## Viktiga uppgifter
 
 Under den här sessionen får du lära dig mer om följande:
-
 - PDF Publishing Essentials
 - Skapa och anpassa olika komponenter i PDF-mallen
 - Strukturera och utforma innehåll för publicering
@@ -42,14 +41,13 @@ Under den här sessionen får du lära dig mer om följande:
 
 - **Videofilmer** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
 
-- **Användarhandbok** - [PDF](/help/product-guide/native-pdf/pdf-template.md)
+- **Användarhandbok** - [PDF](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/configuring/config-native-pdf-publish/pdf-template.html?lang=en)
 
 - **Community Forum** - Om du vill ha sessionsspecifika communityinteraktioner på Experience League går du till  [AEM Guides Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
 > Funktionerna som visas under den här sessionen finns i följande versioner av AEM.
->
 > - On-prem 4.2 eller senare
 > - Cloud Service 2211 och senare
 

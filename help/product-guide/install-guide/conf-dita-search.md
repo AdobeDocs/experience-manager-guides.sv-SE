@@ -2,9 +2,9 @@
 title: Konfigurera sökning i AEM Assets UI
 description: Lär dig hur du konfigurerar sökning efter AEM Assets-användargränssnitt
 exl-id: b920ba7f-e8fc-4af6-aa8a-b8516b1cffc0
-source-git-commit: 31dc283a5e51fc9c504ac4e75a9719dc247e90eb
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '1696'
+source-wordcount: '1697'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,6 @@ Gör följande för att lägga till UUID-baserad sökkomponent i AEM Assets UI:
 
    - **Fältetikett**: UUID
    - **Egenskapsnamn**: jcr:content/fmUuid
-
 1. Klicka **Klar** för att spara ändringarna.
 
    När du öppnar alternativet Filter i resursgränssnittet får du det UIS-baserade sökfilteralternativet.
@@ -119,7 +118,7 @@ Med standardsökkonfigurationen kan du söka efter alla element och attribut i D
 >
 > Om du vill använda standardsökkonfigurationen i `prolog` kan du hoppa över den här processen.
 
-Den här filen innehåller två huvudsektioners attributuppsättning och regeluppsättning. Nedan visas ett utdrag av regeluppsättningsavsnittet:
+Filen innehåller två huvudavsnitt - attributuppsättning och regeluppsättning. Nedan visas ett utdrag av regeluppsättningsavsnittet:
 
 ```XML
 <ruleset filetypes="xml dita"><!-- Element rules --><rule xpath="//[contains(@class, 'topic/topic')]/[contains(@class, 'topic/prolog')]//*[not(*)]" text="yes" attributeset="all-attrs" /><!-- Attribute rules --><rule xpath="//[contains(@class, 'topic/topic')]/[contains(@class, 'topic/prolog')]///@[local-name() != 'class']" /></ruleset>
@@ -128,6 +127,7 @@ Den här filen innehåller två huvudsektioners attributuppsättning och regelup
 I avsnittet Regeluppsättning kan du ange:
 
 - Regler för att extrahera elementen
+
 - Regler för att extrahera attribut
 
 
@@ -135,15 +135,15 @@ En regel består av följande:
 
 xpath : Det här är XPath-frågan som hämtar element eller attribut från DITA-filer. Standardkonfigurationen för elementregeln hämtar alla `prolog` -element. Och standardkonfigurationen för attributregeln hämtar alla attribut för `prolog` -element. Du kan ange en XPath-fråga för att serialisera de element eller attribut som du vill söka efter.
 
-XPath-frågan innehåller dokumenttypens klassnamn. The `topic/topic` -klassen används för ämnestyp DITA-dokument. Om du vill skapa en regel för andra DITA-dokument måste du använda följande klassnamn:
-
-| Dokumenttyp | Klassnamn |
-|-------------|----------|
-| Ämne | - ämne |
-| Uppgift | - ämne/ämne uppgift/uppgift |
-| Koncept | - ämne/ämne/begrepp |
-| Referens | - ämnesreferens/referens |
-| Karta | - karta/karta |
+    XPath-frågan innehåller dokumenttypens klassnamn. Klassen &quot;topic/topic&quot; används för ämnet DITA-dokument. Om du vill skapa en regel för andra DITA-dokument måste du använda följande klassnamn:
+    
+    |Dokumenttyp|Klassnamn|
+    |—|—|
+    |Ämne|- ämne/ämne|
+    |Aktivitet|- ämne/ämne aktivitet/aktivitet|
+    |Koncept|- ämne/ämne begrepp/begrepp|
+    |Referens|- ämne/ämnesreferens/referens|
+    |Karta|- karta/karta|
 
 text: Om du vill söka efter texten i det angivna elementet anger du yes-värdet. Om du anger nej som värde serialiseras bara attributen i elementet. Attributen som du vill söka efter måste anges i attributuppsättningsavsnittet.
 

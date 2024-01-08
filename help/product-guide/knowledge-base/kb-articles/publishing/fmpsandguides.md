@@ -2,9 +2,9 @@
 title: Publicera med FrameMaker Publishing Server (FMPS) i AEM
 description: Publicera med FMPS via AEM
 exl-id: 05d4d876-f83b-473c-bf31-14d6565e80e2
-source-git-commit: c31a569c009155dacef00b6b3f1e6d64e556cf29
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ Artikeln hjälper dig att konfigurera och köra FMPS med AEM stödlinjer.
 
 ## FMPS-kompatibilitet med AEM stödlinjer
 
-- Kompatibilitet med 4.1-AEM: [4.1 kompatibilitetsmatris](/help/product-guide/release-info/release-notes-4.1.md#compatibility-matrix)
+- Kompatibilitet med 4.1-AEM: [4.1 kompatibilitetsmatris](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/release-notes/on-prem-release-notes/release-notes-4.1.html?lang=en/#compatibility-matrix)
 - Kompatibilitet med 4.0-AEM: [4.0 kompatibilitetsmatris](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html/#Compatibility%20matrix)
-- Senaste versionen: [Senaste versionsinformation](/help/product-guide/release-info/latest-release-info.md)
+- Senaste versionen: [Senaste versionsinformation](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/latest-release-info.html?lang=en)
 
 ## Installation
 

@@ -2,9 +2,9 @@
 title: Hantera innehåll med hjälp av baslinjer
 description: Lär dig hur du använder baslinjer för att hantera ditt innehåll effektivt.
 exl-id: 3fc2e889-b255-4e8d-9750-ab61337107ae
-source-git-commit: 0afe8bf9b16b1d1367971462b0d44f1721b317c5
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '183'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,6 @@ Under den här sessionen får du lära dig hur du använder baslinjer för att h
 ## Viktiga uppgifter
 
 Under den här sessionen får du lära dig mer om följande:
-
 - Olika baslinjeåtgärder i AEM
 - Hämta, publicera och översätta med en baslinje
 - Bästa tillvägagångssätt för att använda en baslinje
@@ -41,14 +40,13 @@ Under den här sessionen får du lära dig mer om följande:
 
 - **Videofilmer** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
 
-- **Användarhandbok** - [Arbeta med baslinje](/help/product-guide/user-guide/generate-output-use-baseline-for-publishing.md)
+- **Användarhandbok** - [Arbeta med baslinje](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html)
 
 - **Community Forum** - Om du vill ha sessionsspecifika communityinteraktioner på Experience League går du till [AEM Guides Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
 >Funktionerna som visas under den här sessionen finns i följande versioner av AEM.
->
 > - On-prem 4.1 och senare
 > - Cloud Service 2211 och senare
 

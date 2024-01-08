@@ -1,8 +1,8 @@
 ---
 sidebar_position: 8
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '371'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ I den här filen beräknar och tilldelar vi det unika kommentar-ID som anges i `
 5. [Panelen Ämnesgranskningar](../../src/review_app_examples/topic_reviews.ts): Den här filen utökas [Panelen Textgranskning](../../src/review_app_examples/inline_review_panel.ts) så att nya anpassningar även fungerar på sidan Granska app.
 
 6. [Acceptera med ändringsdialogruta](../../src/review_app_examples/accept_with_modification_dialog.ts)
-Det här är ett exempel på hur du lägger till en ny widget i programmet. Här har vi skapat en ny dialogruta med två inmatningsfält: `Revised Text` och `Adjudicator Comment Rationale`
+Det här är ett exempel på hur du lägger till nya widgetar i programmet. Här har vi skapat en ny dialogruta med två inmatningsfält: `Revised Text` och `Adjudicator Comment Rationale`
 
 ![Dialogrutan Acceptera med ändring](./imgs/accept_with_modification_dialogue.png)
 

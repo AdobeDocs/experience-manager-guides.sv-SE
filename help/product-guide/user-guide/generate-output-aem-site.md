@@ -2,9 +2,9 @@
 title: AEM
 description: Skapa och konfigurera AEM webbplatsförinställning i AEM. Använd AEM webbplatsstöd för att generera artikelbaserade utdata, skapa länkade ämnen för utdata, publicera conref och söka efter en sträng i innehållet.
 exl-id: 019d9fbf-2f23-4669-8022-d693be75c1c3
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: b8c90eb8d1acfe6777a615bd71367027cd8d1c3b
 workflow-type: tm+mt
-source-wordcount: '2570'
+source-wordcount: '2577'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ Följande alternativ är tillgängliga för AEM platsutdata:
 
 Du kan skapa AEM platsförinställning på två sätt:
 
-**Från webbredigeraren:** Öppna DITA-schemafilen i Kartvyn på panelen Databas, välj ikonen + på fliken Utdata för att skapa en utdatainställning och välj sedan AEM Plats i listrutan i dialogrutan Lägg till förinställning.I webbredigeraren har konfigurationerna ordnats under flikarna Allmänt och Avancerat:
+**Från webbredigeraren:** Öppna DITA-schemafilen i Kartvyn på panelen Databas, välj ikonen + på fliken Utdata för att skapa en förinställning och välj sedan AEM Plats i listrutan Typ i dialogrutan Lägg till förinställning. I webbredigeraren har konfigurationerna ordnats under flikarna Allmänt och Avancerat:
 
 **Allmänt**
 
@@ -65,7 +65,7 @@ Följande alternativ är tillgängliga för AEM platsutdata:
 | Generera separata PDF för varje ämne | Om du väljer det här alternativet skapas även ett PDF för varje avsnitt på DITA-kartan. När du väljer det här alternativet visas ett nytt alternativ för Delad PDF-bana.<br><br>I fältet Delad PDF-sökväg anger du sökvägen för att lagra PDF som genereras för varje ämne.<br><br>**Anteckning**: AEM Guides använder DITA-OT-pluginen pdfx för att generera PDF för varje ämne. Denna plugin medföljer DITA-OT-paketet som levereras i kartong. Du kan anpassa det här plugin-programmet för att skapa PDF efter dina behov. Om du använder en anpassad DITA-OT-plugin måste du integrera pdfx-pluginen för att kunna skapa PDF på ämnesnivå. |
 | Kör arbetsflöde efter generering | När du väljer det här alternativet visas en ny arbetsflödeslista som innehåller alla arbetsflöden som är konfigurerade i AEM. Du måste välja ett arbetsflöde som du vill köra när arbetsflödet för generering av utdata har slutförts. |
 | Använd baslinje | Om du har skapat en baslinje för den valda DITA-kartan väljer du det här alternativet för att ange vilken version du vill publicera.<br><br>**Viktigt**: När du genererar inkrementella utdata för den AEM platsen skapas utdata med den aktuella versionen av filerna och inte med den kopplade baslinjen.<br><br>Se [Arbeta med baslinje](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) för mer information. |
-| Egenskaper | Välj de egenskaper som du vill bearbeta som metadata. Dessa egenskaper ställs in från sidan Egenskaper i DITA-kartan eller bokmappningsfilen. Egenskaperna som du väljer i listrutan visas under fältet Egenskaper och tas bort från listrutan.<br><br>**Anteckning**: Metadataegenskaperna är skiftlägeskänsliga.<br><br>*Om du har valt en baslinje baseras värdena för egenskaperna på versionen av den valda baslinjen.<br>* Om du inte har valt en baslinje baseras värdena för egenskaperna på den senaste versionen.<br><br>Du kan också skicka metadata till utdata med DITA-OT-publicering. Mer information finns i [Skicka metadata till utdata med DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA).<br><br>**Anteckning**: Om du inte har definierat `cq:tags` i alternativet Egenskaper, sedan värdena för `cq:tags` väljs från den aktuella arbetskopian även om du har valt en baslinje för publicering. |
+| Egenskaper | Välj de egenskaper som du vill bearbeta som metadata. Dessa egenskaper ställs in från sidan Egenskaper i DITA-kartan eller bokmappningsfilen. De egenskaper du väljer i listrutan visas under **Egenskaper** fält. Markera kryssikonen bredvid egenskapen för att ta bort den. <br><br>**Anteckning**: Metadataegenskaperna är skiftlägeskänsliga.<br><br>*Om du har valt en baslinje baseras värdena för egenskaperna på versionen av den valda baslinjen.<br>* Om du inte har valt en baslinje baseras värdena för egenskaperna på den senaste versionen.<br><br>Du kan också skicka metadata till utdata med DITA-OT-publicering. Mer information finns i [Skicka metadata till utdata med DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA).<br><br>**Anteckning**: Om du inte har definierat `cq:tags` i alternativet Egenskaper, sedan värdena för `cq:tags` väljs från den aktuella arbetskopian även om du har valt en baslinje för publicering. |
 | Använd kartegenskaper om de saknas i ämne | Om du väljer det här alternativet kopieras även de egenskaper som definierats för kartfilen till de avsnitt där sådana egenskaper inte har definierats. Tänk på följande när du använder det här alternativet:<br><br>*Endast egenskaperna String, Date och Long (en och flera värden) kan skickas till AEM Site-sidor.<br>* Metadatavärdena för en String-typegenskap stöder inte några specialtecken (till exempel `@, #, " "`).<br>* Det här alternativet bör användas tillsammans med `Properties` alternativ. |
 
 ## Ytterligare information om AEM
@@ -78,7 +78,7 @@ Du kan generera AEM för ett eller flera ämnen eller hela DITA-kartan från Web
 
 Det är ett mycket vanligt scenario att ha en stor uppsättning dokumentation spridda över flera mappar och DITA-kartor. Det blir extremt komplext att publicera innehåll som är länkat från olika platser. Som standard är alla länkar `<xref>` skapas med `local` `@scope`. Publicering av sådana ämnen innebär inga utmaningar eftersom den använder direktlänk till ämnet. Om ämnet ligger utanför den aktuella DITA-kartan visas inte det länkade innehållet i länken.
 
-Ett annat sätt att länka innehåll är att skapa en länk med `peer` `@scope`. För sådant innehåll löses länken vid körning genom att det konfigurerade sammanhanget för det länkade ämnet väljs från DITA-kartans publiceringskontext. På följande skärmbild visas egenskapspanelen för en länk med `peer` `@scope`:
+Ett annat sätt att länka innehåll är att skapa en länk med `peer` `@scope`. För sådant innehåll löses länken vid körning genom att filens namn och det konfigurerade sammanhanget för det länkade ämnet väljs från DITA-kartans publiceringskontext. På följande skärmbild visas egenskapspanelen för en länk med `peer` `@scope`:
 
 ![](images/peer-link-scope-link.png){width="800" align="left"}
 

@@ -2,9 +2,9 @@
 title: Lägga till anpassade format i guidade redigeringsprogram
 description: Lär dig hur du lägger till anpassade format för att ändra utseendet på webbredigeraren för stödlinjer.
 exl-id: 03143fb2-d05d-4103-b172-8b91880b7f9e
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,6 @@ Använd mappprofilerna för att kontrollera *css_layout.css* under fliken XML-re
 [använd den här länken om du vill veta mer om mappprofil och hur du konfigurerar CSS-mallayout](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=en#customize-the-css-template-layout)
 
 Använd följande för att konfigurera ovanstående format i din webbredigerare:
-
 - Använd [css_layout.css](../../../assets/authoring/webeditor-customstyles-css_layout.css) och ladda upp den till valfri mappprofil
 - Installera det bifogade paketet [webeditor-styles-resources.zip](../../../assets/authoring/webeditor-styles-resources.zip) använda AEM pakethanterare för att installera resurserna som används i ovanstående CSS-fil
 
@@ -57,4 +56,4 @@ Please note this is compatible to AEM Guides version 4.2 and AEM Guides cloud ve
 
 ## Referenser
 
-Du kan också vara intresserad av expertsessionen runt webbdesignerkonfigurationer och anpassningar som beskrivs i [Expertsession på webbadministratören](/help/product-guide/knowledge-base/expert-sessions/webbased-authoring-jan2023.md)
+Du kan också vara intresserad av expertsessionen runt webbdesignerkonfigurationer och anpassningar som beskrivs i [Expertsession på webbadministratören](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/webbased-authoring-jan2023.html?lang=en)

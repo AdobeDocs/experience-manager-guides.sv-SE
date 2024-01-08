@@ -2,9 +2,9 @@
 title: Bekanta dig med Web Editors funktioner
 description: Upptäck funktionerna i webbredigeraren i AEM. Lär dig webbredigerarens gränssnitt, inklusive huvudverktygsfältet, det sekundära verktygsfältet, den vänstra panelen, området för innehållsredigering och den högra panelen.
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: 9d9a1f270873869ce8261aae439f0ecd7d9fea94
 workflow-type: tm+mt
-source-wordcount: '17222'
+source-wordcount: '17364'
 ht-degree: 0%
 
 ---
@@ -147,9 +147,11 @@ I skärmbilden nedan visas endast 3 av 4 konfigurerade element från den föreg�
 
   ![](images/editor-setting-add-attributes-list.png-to-element.PNG){width="300" align="left"}
 
-- **Publicera profil**: Detta innehåller de publiceringsprofiler som kan användas för att publicera kunskapsbasutdata. Du kan skapa en ny profil för en vald konsumenttyp. Till exempel Salesforce.
+- **Publicera profil**: Detta innehåller de publiceringsprofiler som kan användas för att publicera **Knowledge Base** utdata. Du kan skapa en ny profil för en målkunskapsbas. Till exempel Salesforce eller ServiceNow.
 
-   - **Krav för att skapa en Salesforce-publiceringsprofil**
+   - **Skapa en Salesforce-publiceringsprofil**
+
+     **Förutsättningar**
 
       - Skapa en ansluten app för Salesforce. Mer information finns i [Aktivera OAuth-inställningar för API-integrering](https://help.salesforce.com/s/articleView?id=sf.connected_app_create_api_integration.htm&amp;type=5).
 
@@ -157,7 +159,7 @@ I skärmbilden nedan visas endast 3 av 4 konfigurerade element från den föreg�
 
          - Ange återanropet.
 
-           `URL: http://: <server name>:<port>/bin/dxml/thirdparty/callback/salesforce`
+           `URL: http://<server name>:<port>/bin/dxml/thirdparty/callback/salesforce`
 
          - Välj följande OAuth-scope:
             - Fullständig åtkomst (fullständig)
@@ -166,18 +168,38 @@ I skärmbilden nedan visas endast 3 av 4 konfigurerade element från den föreg�
   När appen har konfigurerats tillhandahåller Salesforce en **Konsumentnyckel** och **Konsumenthemlighet**.
 
   Dessa kan användas för att skapa Salesforce-publiceringsprofilen.
-  ![profiler i redigeringsinställningarna](./images/create-profile-editor-settings.png){width="300" align="left"}
 
 
+   - Om du vill skapa en Salesforce-publiceringsprofil väljer du **Salesforce** Knowledge Base från **Servertyp** nedrullningsbar meny. Ange ett profilnamn. I **Webbplats-URL**, anger konsumentwebbplatsen som du vill använda för att publicera utdata och lägger sedan till **Konsumentnyckel** och **Konsumenthemlighet** tillhandahålls av Salesforce-konsumentwebbplatsen. Sedan **Validera** och **Spara** den nya profilen.
+     ![Salesforce-publiceringsprofil i redigeringsinställningarna](./images/salesforce-publish-profile.png){width="550" align="left"}
 
-- Om du vill skapa en publiceringsprofil kan du välja en kunskapsbas som Salesforce från **Servertyp** nedrullningsbar meny. Ange ett profilnamn. I **Webbplats-URL** ange den konsumentwebbplats som du vill använda för publicering av utdata och sedan lägga till **Konsumentnyckel** och **Konsumenthemlighet** tillhandahålls av konsumentwebbplatsen som Salesforce. Logga sedan in på den nya profilen.
-
-  >[!NOTE]
-  >
-  >Om du vill konfigurera en proxy för Salesforce i Experience Manager-guider använder du Apache HTTP Components Proxy Configuration i AEM. Lär dig hur [konfigurera proxy för AEM Länkkontroll](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
+     >[!NOTE]
+     >
+     >Om du vill konfigurera en proxy för Salesforce i Experience Manager-guider använder du Apache HTTP Components Proxy Configuration i AEM. Lär dig hur [konfigurera proxy för AEM Länkkontroll](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
 
 
-  När du har loggat in kan du välja publiceringsprofilen i förinställningarna för en DITA-karta och använda för att generera utdata för valda artiklar. Mer information finns i [Artikelbaserad publicering från webbredigeraren](../install-guide/configure-article-based-publishing.md) i installations- och konfigureringshandboken.
+   - **Skapa en ServiceNow-publiceringsprofil**
+
+     **Förutsättningar**
+
+     Konfigurera ServiceNow-servern för överföring av resurserna.
+      - Anslut till **ServiceNow** server.
+      - Navigera till **Systemegenskaper** > **Säkerhet**.
+      - Avmarkera följande alternativ:
+
+        **Den här egenskapen måste vara inställd för att aktivera MIME-typkontroll för överföringar (Alla versioner Eureka och senare). Aktiverar (true) eller inaktiverar (false) MIME-typvalidering för de bifogade filerna. Filtillägg som konfigurerats via glide.attachment.extensions kontrolleras för MIME-typen under överföringen.**
+
+      - Klicka **Spara**.
+
+     När du har konfigurerat programmet skapar du **ServiceNow** Publicera profil.
+   - Om du vill skapa en publiceringsprofil väljer du ServiceNow Knowledge Base på menyn **Servertyp** nedrullningsbar meny. Ange en profil **Namn**. I **ServiceNow URL**, anger konsumentwebbplatsen som du vill använda för publicering av utdata och lägger sedan till **Användarnamn** och **Lösenord** tillhandahålls av ServiceNow-konsumentwebbplatsen. Sedan **Validera** och **Spara** den nya profilen.
+
+     ![ServiceNow-publiceringsprofil](./images/service-now-publish-profile.png){width="550" align="left"}
+
+  När du har validerat kan du välja publiceringsprofilen i förinställningarna för en DITA-karta och använda den för att generera utdata till  **Salesforce** eller **ServiceNow** som du har valt.
+
+  Läs mer om [Knowledge Base](../user-guide/generate-output-knowledge-base.md) förinställning för utdata.
+
 
 - **Validering**: Den här fliken innehåller alternativ för att konfigurera schematranvalideringar i webbredigeraren. Du kan aktivera följande funktioner:
 
@@ -186,7 +208,7 @@ I skärmbilden nedan visas endast 3 av 4 konfigurerade element från den föreg�
      >[!NOTE]
      >De markerade schematrons-filerna behålls för den valda mappprofilen.
 
-     ![Validering i redigeringsinställningar](./images/editor-setting-validation.png){width="300" align="left"}
+     ![Validering i redigeringsinställningar](./images/editor-setting-validation.png){width="550" align="left"}
 Detta förhindrar att användarna sparar filer som bryter en regel som definierats i de valda Schematron-filerna. Om detta inte är markerat kommer filen inte att valideras innan ändringarna sparas.
 
    - **Tillåt alla användare att lägga till schematron-filer på valideringspanelen**: Välj det här alternativet om du vill tillåta användare att lägga till schemafiler på valideringspanelen i Web Editor. Detta gör att användarna kan lägga till Schematron-filer och sedan validera ämnena mot Schematron-filen. Om detta inte är markerat **Lägg till schemaradfil** knappen är inte tillgänglig för användarna i **Valideringspanelen** i Web Editor.
@@ -232,9 +254,8 @@ Användarinställningarna är tillgängliga för alla författare. Med hjälp av
 
 - **Välj rotkarta**: Välj en DITA-kartfil för att lösa nyckelreferenser eller ordlisteposter. Den markerade rotkartan har högsta prioritet för att lösa nyckelreferenser. Mer information finns i [Lös nyckelreferenser](map-editor-other-features.md#id176GD01H05Z).
 
-
 >[!NOTE]
->
+> 
 > Om du inte vill använda något rotschema kontrollerar du att **Välj rotkarta** fältet är tomt.
 
 **Författare, Källa och Förhandsgranska**
@@ -666,7 +687,7 @@ Med AEM stödlinjer kan du ange etiketter i ett frihandstextformat eller använd
 
 Dessa etiketter visas i en nedrullningsbar lista för författare där de behöver ange en etikett. Detta garanterar att endast fördefinierade, konsekventa etiketter används i systemet.
 
-Det finns olika metoder att använda etiketter på dina ämnen - [Tidigare versioner](web-editor-use-label.md#) i resursens gränssnitt, [Baslinjer](/help/product-guide/user-guide/generate-output-use-baseline-for-publishing.md#id184KD0T305Z) Gränssnitt och webbredigerare. Med funktionen Versionsetikett i Web Editor kan man snabbt och enkelt tilldela etiketter till sina ämnen.
+Det finns olika metoder att använda etiketter på dina ämnen - [Tidigare versioner](web-editor-use-label.md) i resursens gränssnitt, [Baslinjer](/help/product-guide/user-guide/generate-output-use-baseline-for-publishing.md) Gränssnitt och webbredigerare. Med funktionen Versionsetikett i Web Editor kan man snabbt och enkelt tilldela etiketter till sina ämnen.
 
 Gör så här om du vill lägga till etiketter i ett ämne från Web Editor:
 

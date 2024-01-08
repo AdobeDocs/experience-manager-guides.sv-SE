@@ -2,9 +2,9 @@
 title: Skapa och anpassa inbyggda PDF-mallar
 description: Lär dig hur du skapar och anpassar mallar för inbyggda PDF.
 exl-id: 7660da8e-8a1e-4493-b99b-9b5de9a7483f
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '1153'
+source-wordcount: '1154'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ Välj det här alternativet om du vill visa och redigera mallens egenskaper. Du 
 Välj det här alternativet om du vill visa mallen i resursgränssnittet. När mallens rotplats öppnas kan du visa alla resurser i mallen.
 
 När du har skapat den anpassade mallen kan du välja den bland sidlayouterna i PDF-förinställningen.
-Lär dig hur [publicera PDF](/help/product-guide/web-editor/native-pdf-web-editor.md).
+Lär dig hur [publicera PDF](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=en).
 
 >[!NOTE]
 >
@@ -112,7 +112,6 @@ Mer information om hur du konfigurerar globala profiler och profiler på mappniv
 Du kan anpassa mallar genom att justera mallkomponenterna och använda formatformat med hjälp av formatmallar.
 
 Så här anpassar du en PDF-mall:
-
 1. Gå till webbredigeraren **Utdata** -fliken.
 1. Expandera den vänstra sidlisten och välj **Mallar**.
 

@@ -2,9 +2,9 @@
 title: Inbyggd PDF-publicering"Hands on lab - BYOS" - Interaktiv inlärning
 description: Denna 'Hands-on Lab - BYOS'-session erbjuder en djupgående undersökning av Native PDF publishing. Utforska olika användningsexempel, utnyttja viktiga funktioner och samarbeta direkt med experter på Adobe för att ta itu med just era problemuttalanden och krav.
 exl-id: 55c276d8-8611-4050-be5f-7f9854f94228
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '325'
 ht-degree: 0%
 
 ---
@@ -46,18 +46,17 @@ Under den här sessionen får du veta mer om Native PDF:
 
 ## Relaterade resurser
 
-- **Installationssteg för PDF** - [Experience League](/help/product-guide/knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
+- **Installationssteg för PDF** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.html?lang=en)
 
-- **Funktionell översikt över Native PDF publishing** - [på Experience League](/help/product-guide/knowledge-base/expert-sessions/native-pdf-publishing-essentials-feb23.md)
+- **Funktionell översikt över Native PDF publishing** - [på Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23.html?lang=en)
 
-- **Dokumenterade användningsfall** - [på Experience League](/help/product-guide/native-pdf/stylesheet.md)
+- **Dokumenterade användningsfall** - [på Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/content-styles/stylesheet.html?lang=en)
 
 - **Community Forum** - Om du vill ha sessionsspecifika communityinteraktioner på Experience League går du till  [AEM Guides Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
 > Funktionerna som visas under den här sessionen finns i följande versioner av AEM.
->
 > - On-prem 4.2 eller senare
 > - Cloud Service 2309 och senare
 

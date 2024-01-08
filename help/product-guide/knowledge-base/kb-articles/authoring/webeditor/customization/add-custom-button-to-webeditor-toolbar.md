@@ -2,9 +2,9 @@
 title: Lägg till en ny anpassad åtgärdsknapp i webbredigeringsverktygsfältet
 description: Lär dig hur du lägger till en ny anpassad knapp i webbredigeringsverktygsfältet och anropar javascript för att anpassa funktionen.
 exl-id: 34999db6-027a-4d93-944f-b285b4a44288
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '528'
 ht-degree: 0%
 
 ---
@@ -60,10 +60,7 @@ Använd mappprofilerna för att kontrollera *ui_config.json* under fliken Konfig
 
 ### Hantera on-click-händelsen för den nya knappen
 
->[!NOTE]
->
->Steg som anges nedan är tillgängliga som paket som bifogas detta inlägg
-
+    Obs! Steg som nämns nedan är tillgängliga som paket som bifogas i det här inlägget
 
 
 - När du har sparat mappprofilen skapar du en&quot;cq:ClientLibraryFolder&quot; under en projektkatalog (kan finnas under */apps*) och lägg till egenskaper enligt skärmbilden nedan:

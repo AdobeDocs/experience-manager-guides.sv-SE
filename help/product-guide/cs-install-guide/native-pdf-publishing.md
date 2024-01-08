@@ -2,9 +2,9 @@
 title: Anpassa och konfigurera publiceringsfunktionen för PDF
 description: Lär dig hur du anpassar och konfigurerar de olika komponenterna i funktionen PDF.
 exl-id: 00bc894a-031e-4d09-bd30-331399fedbc8
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: c79f1d114d8a708cd088f2846243bbcfeed6e620
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '195'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,7 @@ Mer information finns i:
 * [Komponenter i en PDF-mall](../native-pdf/components-pdf-template.md)
 * [Designa en sidlayout](../native-pdf/design-page-layout.md)
 * [Stöd för språkvariabler](../native-pdf/native-pdf-language-variables.md)
+* [Variabler i utdata från PDF](../native-pdf/native-pdf-variables.md)
 * Vanliga innehållsformat {#content-styles}
    * [Arbeta med vanliga innehållsformat](../native-pdf/stylesheet.md)
    * [Arbeta med anpassade ändringsfältstilar](../native-pdf/change-bar-style.md)

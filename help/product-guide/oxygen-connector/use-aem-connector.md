@@ -4,9 +4,9 @@ description: Lär dig hur du använder Syre Plugin för Adobe Experience Manager
 hide: true
 hidefromtoc: true
 exl-id: 9a140564-27eb-404e-93a5-f5c81364e7f7
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: 0e19b870541e8e65dc371eb01fc3256f172c1a91
 workflow-type: tm+mt
-source-wordcount: '6101'
+source-wordcount: '6294'
 ht-degree: 0%
 
 ---
@@ -246,22 +246,21 @@ Utför följande steg för att konfigurera profileringsattribut och korsreferens
 
    ![dokumenttypsassociation](images/document_type_association.png){width="650" align="left"}
 
-1. I **Klassökväg** väljer du com.adobe.o2.connector i **Använd inläsare för överordnad klass från plugin-program med ID** nedrullningsbar meny.
+1. I **Klassökväg** flik, välja `com.adobe.o2.connector` i **Använd inläsare för överordnad klass från plugin-program med ID** nedrullningsbar meny.
 
    ![Fliken Klasssökväg](images/dita-extension.png){width="650" align="left"}
 
 1. I **Tillägg** gör du följande ändringar:
-   - Klicka **Välj** bredvid **Avlyssnare för författartilläggsstatus** under **Individuella tillägg** och väljer CustomAuthorExtensionStateListener - com.adobe.o2.framework.extn i **Klass** lista. Klicka **OK**.
-   - Klicka **Välj** bredvid **Redigerare för anpassat attributvärde** under **Individuella tillägg** och väljer CustomValueEditor - com.adobe.o2.framework.extn i **Klass** lista. Klicka **OK**.
-På följande skärmbild visas den konfigurerade **Tillägg** för DITA-ämnen:
 
-     ![Konfigurerat tillägg för DITA-avsnitt](images/dita-topic-extension-tab.png){width="650" align="left"}
-
-   - Klicka **Välj** bredvid **Tillägg** och väljer LinkResolverExtensionBundle - com.adobe.o2.framework.extn i **Klass** lista. Klicka **OK**.
-
+   - Klicka **Välj** bredvid **Tillägg** och markera   `LinkResolverExtensionBundle - com.adobe.o2.framework.extn` i **Klass** lista. Klicka **OK**.
      ![Konfigurerat tillägg för DITA-avsnitt](images/dita-map-extenstion-link-resolve.png) {width="650" align="left"}
+   - Klicka **Välj** bredvid **Avlyssnare för författartilläggsstatus** under **Individuella tillägg** och markera `CustomAuthorExtensionStateListener - com.adobe.o2.framework.extn` i **Klass** lista. Klicka **OK**.
+   - Klicka **Välj** bredvid **Redigerare för anpassat attributvärde** under **Individuella tillägg** och markera `CustomValueEditor - com.adobe.o2.framework.extn` i **Klass** lista. Klicka **OK**.
+   - Klicka **Välj** bredvid **Skapa en extern hanterare för objektinfogning** under **Individuella tillägg** och markera `CustomURLInsertionHandler - com.adobe.o2.ui ` i **Klass** lista. Klicka **OK**.
 
 
+   På följande skärmbild visas den konfigurerade **Tillägg** för DITA-ämnen:
+   <img src="images/dita-topic-extension-tab.png" alt="Konfigurerat tillägg för DITA-avsnitt" width="650" border="2px">
 1. Klicka **OK** i alla dialogrutor för att spara ändringarna.
 
 ### Konfigurera DITA-mappningstillägg
@@ -270,20 +269,23 @@ Konfiguration av DITA-mappningstillägg krävs för att aktivera öppning av map
 
 Utför följande steg för att konfigurera DITA-mappningstillägget:
 
-1. I Syrgas XML Author klickar du på&#x200B;**Alternativ** \> **Inställningar**.
+1. I Syrgas XML Author klickar du på **Alternativ** \> **Inställningar**.
 1. I **Dokumenttypsassociation** flik, välja **DITA-karta** och klicka sedan på **Utöka**.
 1. I **Klassökväg** väljer du com.adobe.o2.connector i **Använd inläsare för överordnad klass från plugin-program med ID** nedrullningsbar meny.
 1. I **Tillägg** gör du följande ändringar:
-1. 
-   - Klicka **Välj** bredvid **Avlyssnare för författartilläggsstatus** under **Individuella tillägg** och väljer CustomDITAMapAuthorExtensionStateListener - com.adobe.o2.framework.extn i dialogrutan **Klass** lista. Klicka **OK**.
-- Klicka **Välj** bredvid **Redigerare för anpassat attributvärde** under **Individuella tillägg** och väljer CustomValueEditor - com.adobe.o2.framework.extn i **Klass** lista. Klicka **OK**.
-- *\(Valfritt\)* Om du inte vill lösa referenser när du öppnar en kartfil måste du göra följande ytterligare konfiguration:
+   - Klicka **Välj** bredvid **Tillägg** och markera   `com.adobe.o2.framework.extn.LinkResolverDITAMapExtensionBundle` i **Klass** lista. Klicka **OK**.
 
-  Klicka **Välj** bredvid **Referenshanteraren** under **Individuella tillägg** och väljer CustomDITAMapReferenceResolver - com.adobe.o2.framework.extn i **Klass** lista. Klicka **OK**.
+   - Klicka **Välj** bredvid **Avlyssnare för författartilläggsstatus** under **Individuella tillägg** och markera `CustomDITAMapAuthorExtensionStateListener - com.adobe.o2.framework.extn` i **Klass** lista. Klicka **OK**.
 
-  På följande skärmbild visas den konfigurerade **Tillägg** tab:
+   - Klicka **Välj** bredvid **Skapa en extern hanterare för objektinfogning** under **Individuella tillägg** och markera `CustomURLInsertionHandler - com.adobe.o2.ui ` i **Klass** lista. Klicka **OK**.
 
-  ![Konfigurerat tillägg för DITA-karta](images/dita-map-extension-tab.png){width="650" align="left"}
+   - Klicka **Välj** bredvid **Redigerare för anpassat attributvärde** under **Individuella tillägg** och markera `CustomValueEditor - com.adobe.o2.framework.extn` i **Klass** lista. Klicka **OK**.
+
+   - Klicka **Välj** bredvid **Referenslösare** under **Individuella tillägg** och markera `CustomDITAMapReferenceResolver - com.adobe.o2` i **Klass** lista. Klicka **OK**.
+   - *\(Valfritt\)* Om du inte vill lösa referenser när du öppnar en kartfil måste du göra följande ytterligare konfiguration:
+
+   På följande skärmbild visas den konfigurerade **Tillägg** tab:
+   <img src="images/dita-map-extension-tab.png" alt="Konfigurerat tillägg för DITA-karta" width="650" border="2px">
 
 1. Klicka **OK** i alla dialogrutor för att spara ändringarna.
 
@@ -440,7 +442,7 @@ När du checkar in en fil lagras den lokala kopian från systemet i AEM och fill
 
    ![Dialogrutan Checka in](images/checkin-dropdown-labels.png){width="550" align="left"}
 
-   Du kan lägga till flera etiketter (avgränsade med kommatecken) i samma version av ett ämne.  Till exempel: *Adobe*, *AEM*,*Stödlinjer*
+   Du kan lägga till flera etiketter (avgränsade med kommatecken) i samma version av ett ämne.  Till exempel: *Adobe*, *AEM*, *Stödlinjer*.
 Du kan dock inte lägga till samma etikett till olika versioner av ett ämne. Om du lägger till en etikett som du redan har lagt till i en tidigare version läggs den till i den senaste versionen och tas bort från den tidigare versionen.
 
    >[!NOTE]
@@ -511,7 +513,7 @@ Följande punkter måste beaktas när innehåll flyttas eller kopieras från dit
 
 - När du checkar ut innehåll från AEM databas och gör ändringar i det lokala systemet, kontrollerar du att filnamnet inte ändras när du överför filen.
 
-- När du infogar en referens i DITA Maps Manager visas filens namn och inte UUID:t. Om titeln inte finns visas filnamnet.
+- När du infogar en referens i DITA Maps Manager eller Editor visas filens namn och inte UUID:t. Om titeln inte finns visas filnamnet.
 
 ### Lägg till eller ta bort favoriter {#id195HC04405P}
 
@@ -607,6 +609,24 @@ Utför följande steg för att redigera ett DITA-ämne i Sygen XML Author:
    >[!NOTE]
    >
    >Kontrollera att du checkar in ämnet med Syrgas-plugin för AEM Guides. Om du checkar in från AEM webbgränssnitt sparas inte ändringarna du gör i Sygen XML Author i den incheckade versionen av ämnet.
+
+**Infoga en referens till ett ämne från databasen med stödlinjer i Experience Manager**
+
+Du kan också dra och släppa ett ämne för att infoga referensen i ett ämne eller en DITA-karta.
+>[!NOTE]
+>
+> Du måste checka ut en fil innan du lägger till en referens till den.
+
+Följande element läggs till baserat på typen av referenser:
+
+Om du släpper till Redigeraren med ett öppet ämne:
+- En referens läggs till med `<image>` bildelementet.
+- Ett objektelement läggs till för en video eller ett ljud.
+- The `<xref>`  -element läggs till för alla andra referenser, som ämne, karta, DITAVAL, PDF, ZIP och XML.
+
+Om du släpper till Editor eller DITA Maps Manager med en öppen karta:
+- The `<mapref>` -element läggs till för kartreferenser, som innehåller en DITA-karta, en bokkarta eller ett ämnesschema.
+- The `<topicref>` -element läggs till för alla andra referenser, som ämne, karta, DITAVAL, PDF, ZIP och XML.
 
 
 ## Arbeta med attributprofiler {#id1827JA002YK}

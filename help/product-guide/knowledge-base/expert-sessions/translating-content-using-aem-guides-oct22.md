@@ -2,9 +2,9 @@
 title: Översätta innehåll
 description: Lär dig hur du översätter innehåll till flera språk.
 exl-id: c8dacbdc-4b0b-44ca-82d4-889cd83741ff
-source-git-commit: 0afe8bf9b16b1d1367971462b0d44f1721b317c5
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,6 @@ Under den här sessionen får du lära dig mer om översättningsprocessen, inte
 ## Viktiga uppgifter
 
 Under den här sessionen får du lära dig mer om följande:
-
 - Varför företagen investerar i översättning för att förbättra sin verksamhet
 - Tillgänglig ramverksmekanism och översättningsprocess
 - Automatisering av arbetsflöde för översättning, API:er och kontrollpanel
@@ -41,14 +40,13 @@ Under den här sessionen får du lära dig mer om följande:
 
 - **Videofilmer** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
 
-- **Användarhandbok** - [Översätta innehåll](/help/product-guide/install-guide/translation.md)
+- **Användarhandbok** - [Översätta innehåll](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Ftranslation.html)
 
 - **Community Forum** - Om du vill ha sessionsspecifika communityinteraktioner på Experience League går du till [AEM Guides Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)
 
 >[!NOTE]
 >
 > Funktionerna som visas under den här sessionen finns i följande versioner av AEM.
->
 > - On-prem 4.1 eller senare
 > - Cloud Service 2207 eller senare
 

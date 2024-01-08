@@ -2,9 +2,9 @@
 title: Innehåll och mallar
 description: Läs mer om hur du ställer in innehåll och mallar i AEM.
 exl-id: f125bad9-33a2-4de5-b43f-d6368d61879b
-source-git-commit: 0afe8bf9b16b1d1367971462b0d44f1721b317c5
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ Den mängd innehåll som du hanterar i ett system, för olika typer av dokument 
 ## Sessionsöversikt
 
 Under denna session gick vi i stort sett igenom följande:
-
 - olika aspekter av innehållsinställningen (kategorisering, klassificering, metadata),
 - konfigurera innehållsmallar (ämnesmallar, mappningsmallar, fragment)
+
 
 
 ## Sessionsregistrering
@@ -38,7 +38,6 @@ Under denna session gick vi i stort sett igenom följande:
 ## Viktiga uppgifter
 
 Under den här sessionen får du veta mer om följande:
-
 - Lägg tid på att analysera och tänka innan du importerar/skapar innehåll
 - Klassificera och kategorisera innehållet så att det passar olika användarsegment (slutanvändare eller författare)
 - Utnyttja metadatafunktionerna för att öka användarnas produktivitet
@@ -52,14 +51,13 @@ Under den här sessionen får du veta mer om följande:
 
 - **Videofilmer** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/folder-profiles.html)
 
-- **Användarhandbok** - [Skapa innehåll](/help/product-guide/user-guide/reports-intro.md)
+- **Användarhandbok** - [Skapa innehåll](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Freports-intro.html)
 
 - **Community Forum** - Om du vill ha sessionsspecifika communityinteraktioner på Experience League går du till  [AEM Guides Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
 > Funktionerna som visas under den här sessionen finns i följande versioner av AEM.
->
 > - Lokalt: 4.2 eller senare
 > - Cloud Service: 2303 eller senare
 

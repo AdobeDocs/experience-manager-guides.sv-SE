@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Läs produktdokumentationen för Adobe Experience Manager Guides.
 breadcrumb-title: Användarhandbok om AEM Guides
-source-git-commit: 2f5e951d3452e05fb307d6c34487269b5172000e
+source-git-commit: 2c81d111dede5301366169ba5f4c3825ac39c491
 workflow-type: tm+mt
-source-wordcount: '1679'
+source-wordcount: '1686'
 ht-degree: 2%
 
 ---
@@ -155,6 +155,7 @@ ht-degree: 2%
       + Förinställningar för utdata AEM stödlinjer {#output-presets-aemg}
          + [AEM](./user-guide/generate-output-aem-site.md)
          + [PDF](./user-guide/generate-output-pdf.md)
+         + [Knowledge Base](./user-guide/generate-output-knowledge-base.md)
          + [HTML5](./user-guide/generate-output-html5.md)
          + [EPUB](./user-guide/generate-output-epub.md)
          + [Egen](./user-guide/generate-output-custom.md)
@@ -266,6 +267,7 @@ ht-degree: 2%
             + [PDF-mall](./native-pdf/pdf-template.md)
             + [Komponenter i en PDF-mall](./native-pdf/components-pdf-template.md)
             + [Designa en sidlayout](./native-pdf/design-page-layout.md)
+            + [Variabler i utdata från PDF](./native-pdf/native-pdf-variables.md)
             + [Stöd för språkvariabler](./native-pdf/native-pdf-language-variables.md)
             + Vanliga innehållsformat {#content-styles}
                + [Arbeta med vanliga innehållsformat](./native-pdf/stylesheet.md)
@@ -430,3 +432,4 @@ ht-degree: 2%
          + [Arbeta med villkorligt innehåll](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
          + [Arbeta med tangenter](./knowledge-base/kb-articles/content-architecture/working-with-keys.md)
    + [Använd syreanslutning](./oxygen-connector/use-aem-connector.md)
+

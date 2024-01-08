@@ -2,9 +2,9 @@
 title: Versionsinformation | Adobe Experience Manager Guides as a Cloud Service, februari 2023-versionen
 description: Februariversion av Adobe Experience Manager Guides as a Cloud Service
 exl-id: 090eaf94-fe3a-47e9-9937-f84f8434550d
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '1425'
+source-wordcount: '1426'
 ht-degree: 0%
 
 ---
@@ -121,13 +121,13 @@ Med den nya publiceringsmikrotjänsten kan du köra stora publiceringsarbetsbela
 
 För varje publiceringsbegäran AEM Guides as a Cloud Service körs en separat behållare som skalas vågrätt efter användarens önskemål. På så sätt kan du köra flera publiceringsbegäranden och få bättre prestanda.
 
-Mer information finns i [Konfigurera ny mikrotjänstbaserad publicering för AEM Guides as a Cloud Service](/help/product-guide/knowledge-base/publishing/configure-microservices.md).
+Mer information finns i [Konfigurera ny mikrotjänstbaserad publicering för AEM Guides as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/publishing/configure-microservices.md).
 
-## PDF | Lägg till ett eget bokmärke i utdata från PDF
+## PDF | Lägga till ett eget bokmärke i utdata från PDF
 
 Nu kan du lägga till ett eget bokmärke för ett visst innehåll i det slutliga PDF-resultatet för enkel navigering. Detta läggs till i innehållsförteckningen som skapas från avsnittet eller avsnittsrubrikerna på din DITA-karta.
 
-## PDF | Använd egen stil på innehållsförteckningsposter och ämnesinnehåll
+## PDF | Tillämpa egna format på innehållsförteckningsposter och ämnesinnehåll
 
 I AEM kan du använda anpassade format för innehållsförteckningsposterna eller ett visst ämne i PDF. Du kan till exempel ändra färg på texten i innehållsförteckningen och ämnestiteln. Du kan också använda format på hela innehållet i ämnet.
 
@@ -136,7 +136,7 @@ I AEM kan du använda anpassade format för innehållsförteckningsposterna elle
 
 Nu kan du formatera sidmarkören i fotnoterna. Du kan till exempel lägga till hakparenteser eller ändra deras färg. Dessa format gör det enkelt för användarna att identifiera sidmarkörerna i dokumentet.
 
-## PDF | Ändringsfält för att ange ändrade ämnen i innehållsförteckningen
+## PDF | Ändra fält för att ange ändrade ämnen i innehållsförteckningen
 
 AEM Guides gör att du snabbt kan identifiera ändrade ämnen i innehållsförteckningen för PDF.  Det visas ett ändringsfält till vänster om de ändrade ämnena i innehållsförteckningen. Du kan klicka på ämnet i innehållsförteckningen och visa de detaljerade ändringarna.
 

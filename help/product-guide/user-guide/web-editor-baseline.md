@@ -2,9 +2,9 @@
 title: Skapa och hantera baslinjer från Web Editor
 description: Skapa och hantera baslinjer från webbredigeraren i AEM. Lär dig hur du skapar baslinjer baserat på etiketter och tillämpar filter på baslinjerna.
 exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: f02a9e4a71796996a4ea933cb3c5b983103a251b
 workflow-type: tm+mt
-source-wordcount: '1468'
+source-wordcount: '1617'
 ht-degree: 0%
 
 ---
@@ -26,13 +26,13 @@ Du kan skapa en baslinje i Web Editor genom att utföra följande steg:
 
    ![Baslinjepanelen](images/baseline-manage.png){width="800" align="left"}
 
-1. På **Baslinje** klickar du på +-ikonen längst upp till höger. Du kan skapa en baslinje med en specifik version av ämnen och refererat innehåll som är tillgängligt på ett visst datum och en viss tid, eller med en etikett definierad för en version av ämnen.
-1. Ange ett namn för baslinjen i **Originalnamn**.
-1. I **Baslinjealternativ** kan du antingen välja **Använd filversion** eller **Använd etiketter** alternativ:
+1. På **Baslinje** väljer du ikonen + längst upp till höger för att börja skapa en baslinje.
+1. Ange ett namn för baslinjen i **Namn**.
+1. I **Konfiguration** kan du antingen välja **Manuell uppdatering** eller **Automatisk uppdatering** alternativ:
 
-   **Använd filversion**: Du kan skapa en statisk baslinje med en specifik version av ämnen och refererat innehåll som är tillgängligt på ett visst datum och en viss tid, eller med en etikett som är definierad för en ämnesversion:
+   **Manuell uppdatering**: Du kan skapa en statisk baslinje manuellt med en specifik version av ämnen och refererat innehåll som är tillgängligt på ett visst datum och en viss tid, eller med en etikett som är definierad för en ämnesversion:
 
-   - I **Ange den senaste versionen baserat på** Välj något av följande alternativ:
+   - I **Välj version baserad på** Välj något av följande alternativ:
 
 
       1. **Datum** &lt;time stamp=&quot;&quot;>: Hämtar ämnesversionen som angivet datum och angiven tid.
@@ -52,9 +52,9 @@ Du kan skapa en baslinje i Web Editor genom att utföra följande steg:
 
          När du har markerat en etikett eller version som den är, markeras alla refererade ämnen och mediefiler på kartan därefter. Det här valet av ämnen visas inte i användargränssnittet, men sparas i serverdelen.
 
-   **Använd etiketter**: Välj det här alternativet för att skapa baslinjen om du vill välja ämnen enligt den etikett som används på dem.
+   **Automatisk uppdatering**: Välj det här alternativet för att skapa baslinjer om du automatiskt vill välja ämnen enligt den etikett som används på dem.
 
-   Baslinjer som baseras på etiketter uppdateras dynamiskt. Om du genererar en baslinje, hämtar en baslinje eller skapar ett översättningsprojekt med hjälp av en baslinje, hämtas filerna dynamiskt baserat på de uppdaterade etiketterna. Om du till exempel har använt version 1.2 av ett ämne med Label Release 1.0 för baslinjen och senare uppdaterat version 1.5 med Label Release 1.0, uppdateras baslinjen dynamiskt och version 1.5 används.
+   Baslinjer som skapas med automatisk uppdatering uppdateras dynamiskt. Om du genererar en baslinje, hämtar en baslinje eller skapar ett översättningsprojekt med hjälp av en baslinje, hämtas filerna dynamiskt baserat på de uppdaterade etiketterna. Om du till exempel har använt version 1.2 av ett ämne med Label Release 1.0 för baslinjen och senare uppdaterat version 1.5 med Label Release 1.0, uppdateras baslinjen dynamiskt och version 1.5 används.
 
    ![Skapa en baslinje](images/dynamic-baseline.png){width="550" align="left"}
 
@@ -78,16 +78,7 @@ Du kan hantera befintliga baslinjer med hjälp av de olika funktionerna på kont
 
 - Du kan söka efter en befintlig baslinje med textrutan på panelen Baslinje. Använd **Använd filter** om du vill visa alla baslinjer eller visa baslinjer med status Slutfört, Pågående eller Misslyckat när de skapas.
 - Använd **Uppdatera** på panelen Baslinje om du vill kontrollera om det finns alla baslinjer och visa en ny lista med baslinjer för DITA-kartan som öppnas i Kartvyn.
-- Du kan visa eller redigera innehållet i en befintlig statisk baslinje genom att dubbelklicka på baslinjen i listan på panelen Baslinje. Baslinjeredigeringsfönstret i mitten visar DITA-kartfilen, kartans innehåll eller ämnen samt det refererade innehållet.
-
-
-  ![alternativ för en baslinje](images/baseline-options.png){width="800" align="left"}
-
-
-
-  Du kan även utföra följande åtgärder på baslinjen på Alternativ-menyn:
-
-- **Redigera**, **Duplicera,** **Byt namn**, eller **Ta bort** en befintlig baslinje.
+- Du kan visa eller redigera innehållet i en befintlig statisk baslinje genom att dubbelklicka på baslinjen i listan i dialogrutan **Baslinje** -panelen. Baslinjeredigeringsfönstret i mitten visar DITA-kartfilen, kartans innehåll eller ämnen samt det refererade innehållet.
 
   >[!NOTE]
   >
@@ -95,7 +86,25 @@ Du kan hantera befintliga baslinjer med hjälp av de olika funktionerna på kont
   >
   >Redigera om det är en dynamisk baslinje kan du redigera egenskaperna för baslinjen eftersom referenserna för dynamiska baslinjer genereras vid körning med hjälp av etiketterna.
 
-- Lägg till, ta bort eller ändra befintliga etiketter från **Hantera etiketter** för statiska baslinjer. Om administratören har konfigurerat fördefinierade etiketter visas dessa i listrutan Lägg till etikett. Mer information om hur du lägger till etiketter finns i [Använd etiketter](web-editor-use-label.md#).
+  ![alternativ för en baslinje](images/baseline-options.png){width="800" align="left"}
+
+
+
+  Du kan även utföra följande åtgärder på baslinjen på Alternativ-menyn:
+- **Duplicera en baslinje**: Du kan duplicera en baslinje och ändra den efter dina behov.
+  ![duplicera en baslinje](images/baseline-duplicate.png){width="300" align="left"}
+  *Duplicera en baslinje baserat på en etikett eller skapa en exakt kopia.*
+
+   1. Välj **Duplicera** på Alternativ-menyn för en baslinje. The **Duplicera baslinje** öppnas.
+      >[!NOTE]
+      > 
+      >Baslinjens standardnamn är `<selected baseline name>`_suffix (som exempel-baseline_1). Du kan ändra namnet enligt dina önskemål.
+   1. I **Välj version baserad på** kan du antingen välja **Exakt kopia** eller **Etikett** alternativ:
+      - **Exakt kopia**: Stödlinjerna för Experience Manager väljer samma version av alla ämnen och skapar en exakt kopia av den duplicerade baslinjen.
+      - **Etikett**: Du kan välja en etikett i listrutan. Med stödlinjerna för Experience Manager väljs de versioner av avsnitten som har den valda etiketten definierad för sig, medan versionen från den duplicerade baslinjen väljs för de återstående avsnitten. Du kan till exempel välja etiketten `Release 1.0` i listrutan väljs de versioner av ämnena som du har definierat den här etiketten för. För alla andra ämnen väljs versionen från den duplicerade baslinjen.
+   1. Klicka **Duplicera**.
+- **Byt namn**, eller **Ta bort** en befintlig baslinje.
+- Lägg till, ta bort eller ändra befintliga etiketter från **Hantera etiketter** för statiska baslinjer. Om administratören har konfigurerat fördefinierade etiketter visas dessa etiketter i listrutan Lägg till etikett. Mer information om hur du lägger till etiketter finns i [Använd etiketter](web-editor-use-label.md#).
 
   >[!NOTE]
   >
@@ -123,3 +132,4 @@ Använda ikonen Filter i **Baslinjefilter** kan du använda filter på baslinjen
 När du har redigerat baslinjen kan du klicka på **Spara** överst för att spara ändringarna i baslinjen. Du kan klicka på **Återställ** om du inte vill spara ändringen och återställa baslinjen. Klicka på **Återställ** visas en varning om att ändringar som inte sparats går förlorade.
 
 **Överordnat ämne:**[ Arbeta med webbredigeraren](web-editor.md)
+

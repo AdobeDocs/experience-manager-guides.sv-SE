@@ -2,9 +2,9 @@
 title: Hantera taggar för DITA-filer i AEM
 description: En kort artikel om hur du hanterar cq:taggar i AEM Guides
 exl-id: 2d805c26-df9b-405a-81ca-7aa84c6f86c8
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '280'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Du kan också ta bort befintliga taggar som är gemensamma för markerade filer.
 
 ### Listan i manage->metadata är tom eller ofullständig
 
-Om listan är tom eller ofullständig kan du behöva köra indexeringen på din dimap. Du kan läsa [Uppgraderingsinstruktioner (indexera ditt innehåll)](/help/product-guide/install-guide/upgrade-xml-documentation.md#steps-to-index-the-existing-content-to-use-the-new-find-and-replace%3A)
+`If list is empty or  incomplete then you may need to run the indexing on your ditamap, You can refer` [Uppgraderingsinstruktioner (indexera ditt innehåll)](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/download-install-upgrade-aemg/upgrade-xml-documentation.html?lang=en#steps-to-index-the-existing-content-to-use-the-new-find-and-replace%3A)
 
 ### Anpassade metadata visas inte i listan
 
@@ -54,8 +54,8 @@ Om listan är tom eller ofullständig kan du behöva köra indexeringen på din 
 
 ## Andra användbara resurser
 
-- [Masstaggning med hjälp av kartkontrollpanelen (resursgränssnittet)](/help/product-guide/user-guide/map-editor-bulk-tagging.md)
-- [Ditamap-rapporter i webbredigeraren](/help/product-guide/user-guide/reports-web-editor.md)
+- [Masstaggning med hjälp av kartkontrollpanelen (resursgränssnittet)](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/manaege-metadata/map-editor-bulk-tagging.html?lang=en)
+- [Ditamap-rapporter i webbredigeraren](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/reports-aem-guide/reports-web-editor.html?lang=en)
 - [Tagga i AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/configuring/tagging.html?lang=en)
 
 

@@ -1,9 +1,9 @@
 ---
 title: Versionsinformation | Nyheter i Adobe Experience Manager Guides, december 2023-versionen
 description: Läs om de nya och förbättrade funktionerna i december 2023-utgåvan av Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: a2605a7758f53fd877f28cad98a1ef17f9f87b50
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1017'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,15 @@ I den här artikeln beskrivs de nya och förbättrade funktionerna i Adobe Exper
 Mer information om uppgraderingsinstruktioner, kompatibilitetsmatris och problemen som åtgärdas i den här versionen finns i [Versionsinformation](release-notes-2023.12.0.md).
 
 
-## Använd variabler i utdata från Native PDF
+## Använd variabler i PDF-utdata
 
-Du kan använda variabeluppsättningar för att dynamiskt infoga och hantera information som kan ändras baserat på specifika villkor som produktnamn och versioner. Med den här funktionen kan du använda samma PDF-layout och generera utdata med olika värden. Du behöver inte skapa separata layouter för varje värdeuppsättning.
+Du kan använda variabler för att dynamiskt infoga och hantera återanvändbar information. Med stödlinjerna i Experience Manager kan du skapa, redigera och förhandsgranska variabler när du genererar PDF. Du kan snabbt ändra variabelvärdena och göra dokumenten portabla och enkla att uppdatera.
 
-Du kan till exempel skapa en variabeluppsättning för varje produkt. Den här variabeluppsättningen kan bestå av variabler för olika produktdetaljer som ProductName, VersionNumber och ReleaseDate. Sedan kan du lägga till olika värden för dessa variabler.
+![inbyggda PDF-variabler](assets/add-variable-default.png){width="800" align="left"}
+
+*Skapa och hantera variabler i Web Editor.*
+
+Du kan också skapa variabeluppsättningar som åsidosätter standardvärdena och tilldelar alternativa värden till variablerna. Om du infogar dessa variabler i sidlayouten och använder samma PDF-layout behöver du inte skapa separata layouter för varje värdeuppsättning. Du kan till exempel skapa en variabeluppsättning för varje produktrelease. Den här variabeluppsättningen kan bestå av variabler för olika produktdetaljer som produktnamn, versionsnummer och releasedatum. Sedan kan du lägga till olika värden för dessa variabler.
 
 **Variabeluppsättning 1: Adobe-set1**
 
@@ -27,30 +31,25 @@ Du kan till exempel skapa en variabeluppsättning för varje produkt. Den här v
 * Versionsnummer: 2311
 * Releasedatum: 2023-11-02
 
-**Variabeluppsättning 1: Adobe-set2**
+**Variabeluppsättning 2: Adobe-set2**
 
 * ProductName: Experience Manager Guides
 * Versionsnummer: 2310
 * Releasedatum: 2023-09-27
 
 
-![inbyggda PDF-variabler](assets/native-pdf-variables.png){width="800" align="left"}
-
-*Skapa variabler på fliken Utdata i Web Editor.*
-
-Du kan också skapa variabler med värden som har HTML-taggar. Lägg till exempel till bilder från innehålls-DAM med `<img>` -tagg.
-
-När du har skapat variablerna kan du lägga till variablerna på lämpliga platser i dokumentet med hjälp av sidlayouterna i utdatamallarna. Värdena hämtas automatiskt i utdata från PDF baserat på den variabeluppsättning som du väljer i utdataförinställningen.
-
-
 
 <img src="./assets/native-pdf-variable-output.png" alt="Sidfot i utdata från PDF" width="500" border="2px">
 
-*Generera utdata för PDF med hjälp av variabler i layouten PDF.*
+*Generera utdata från PDF med hjälp av variabler i layouten PDF.*
 
-Med den här funktionen kan du generera skräddarsytt material med dynamiskt innehåll i dokumentationen och hantera ändringarna effektivt. Du kan också använda format och formatera variablerna med HTML.
+Du kan använda format och formatera variablerna med HTML.  Du kan också snabbt uppdatera värdena för variablerna när det behövs och återskapa utdata. Om du till exempel behöver uppdatera informationen för en version kan du redigera värdet för versionen i variabeln VersionNumber och generera om utdata.
 
-Du kan också snabbt uppdatera värdena för variabeluppsättningar när det behövs och återskapa utdata. Om du till exempel behöver uppdatera informationen för en version kan du uppdatera värdet för versionen i VersionNumber och generera om utdata.
+
+Läs mer om hur du använder [variabler i utdata från PDF](../native-pdf/native-pdf-variables.md).
+
+
+
 
 
 ## Förbättrad upplevelse för att redigera attributen
@@ -89,6 +88,7 @@ Med den här funktionen kan du publicera innehåll, som text, videoklipp och bil
 
 *Skapa en förinställning för utdata för kunskapsbasen ServiceNow.*
 
+Läs mer om [Knowledge Base](../user-guide/generate-output-knowledge-base.md) förinställningar för utdata.
 
 ## Förbättrad kontrollpanel för kartsamling
 
@@ -124,6 +124,8 @@ Du kan också duplicera en baslinje baserat på etiketten. Referensversionen vä
 ![duplicera en baslinje ](assets/duplicate-baseline.png) {width="300" align="left"}
 
 *Duplicera en baslinje baserat på en etikett eller skapa en exakt kopia.*
+
+Läs mer om hur [skapa och hantera baslinjer från Web Editor](../user-guide/web-editor-baseline.md).
 
 ## Förbättrad process för att skapa kartsamling med massaktivering
 
