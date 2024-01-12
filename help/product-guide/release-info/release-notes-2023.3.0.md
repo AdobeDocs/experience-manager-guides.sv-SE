@@ -1,8 +1,10 @@
 ---
-title: Versionsinformation | Adobe Experience Manager Guides as a Cloud Service, mars 2023-utgåvan
+title: Versionsinformation | Adobe Experience Manager Guides as a Cloud Service, mars 2023-versionen
 description: Mars-utgåvan av Adobe Experience Manager Guides as a Cloud Service
 exl-id: 6a0bba92-7d7d-4b20-ad46-0eacc91268da
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 0%
@@ -61,7 +63,7 @@ De buggar som har åtgärdats i olika områden listas nedan:
 * JSON-utdata | Mappa metadata med egenskapsvärde som `"value in spaces and double quotes"` leder till ett publiceringsfel. (11438)
 * Det går inte att infoga multimediefiler för ljud och video i YouTube-format med **Infoga multimedia** -ikon. (11320)
 * Valideringsfel uppstår när en karta skapas med mallen som har ett specialiserat rubrikelement. (11212)
-* PDF | fotnot i tabellrubrik leder till fet och centrerad text i motsvarande sidfot i PDF-utdata. 10610
+* PDF | fotnot i tabellhuvudet leder till fet och centrerad text i motsvarande sidfot i PDF-utdata. 10610
 >[!NOTE]
 >
 >Om du vill spegla ändringen i PDF tar du bort mappen PDF som finns i /content/dam/dita-templates och uppgraderar sedan till den senaste versionen. 10610

@@ -1,7 +1,9 @@
 ---
 title: Versionsinformation | Uppgraderingsinstruktioner och åtgärdade fel i Adobe Experience Manager Guides, december 2023-versionen
 description: Lär dig mer om felkorrigeringarna och hur du uppgraderar till december 2023-utgåvan av Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1319'
 ht-degree: 0%

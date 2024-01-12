@@ -2,7 +2,9 @@
 title: Versionsinformation | Adobe Experience Manager Guides as a Cloud Service, februari 2023-versionen
 description: Februariversion av Adobe Experience Manager Guides as a Cloud Service
 exl-id: c639b136-11ed-4a8b-a595-4bb5da879747
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 0%
@@ -78,9 +80,9 @@ De buggar som har åtgärdats i olika områden listas nedan:
 
 * Om du kopierar en DITA-mappningsresurs (från tillgångsgränssnittet) skapas felaktiga baslinjer i den kopierade resursen. (11218)
 * Varningsmeddelande visas inte vid överföring av en fil som är större än den gräns som tillåts i AEM (2 GB som standard). (10817)
-* Web Editor-Baseline | Beteendet för den senaste kolumnen skiljer sig åt i den nya baslinjepanelen i Web Editor. (10808)
+* Web Editor-Baseline | Beteendet för den senaste kolumnen skiljer sig åt på den nya baslinjepanelen i Web Editor. (10808)
 * Översättning | Översättningsjobbet kommer inte igång på grund av ogiltig /libs/fmdita/i18n/ja.json. (10543)
-* Översättning | Ett fel inträffar i ett omfångsöversättningsprojekt som skapats från översättningens kontrollpanel (mänsklig översättning). (10526)
+* Översättning | Ett fel inträffar i ett omfångsöversättningsprojekt som har skapats från översättningsinstrumentpanelen (mänsklig översättning). (10526)
 * Översättning | Efterbearbetning blockeras för hela språkmappen vars resurser finns i ett aktivt översättningsprojekt. (10332)
 * Flera popup-fönster visas för alla resurser om versionen ändras och sparas i Baslinjeredigeraren. (10399)
 * Sessionsläckan inträffar vid `com.day.cq.search.impl.builder.QueryBuilderImpl.createResourceResolver(QueryBuilderImpl.java:210)`. (10279)
@@ -89,12 +91,12 @@ De buggar som har åtgärdats i olika områden listas nedan:
 
 * Omgenerering av ämnen fungerar inte i vissa scenarier. (10635)
 * Publiceringslyssnaren visar inte begärda data i informationsloggar, och den innehåller även skräppostloggar.( 10567)
-* PDF | När du skapar en utdatainställning med alternativet Lägg till i mappprofil misslyckas genereringen av PDF med ett Null-pekarundantag. (10950)
+* PDF | När du skapar en förinställning med alternativet Lägg till i mappprofil misslyckas genereringen av PDF med ett Null-pekarundantag. (10950)
 * PDF | Problem uppstår när tabellrubriken roteras. (10555)
-* PDF | Kapslade `<indexterm>` är inte kapslade vid export i PDF. (10521)
+* PDF | Kapslad `<indexterm>` är inte kapslade vid export i PDF. (10521)
 * PDF | Kapslade topicref i tillägg omformas alla till h1 i det temporära HTML. 10454
 * Baslinjepublicering misslyckas för PDF som genereras med FrameMaker Publishing Server 2020. (10551)
 * PDF | Lägger till `xref` till en bild återges inte bilden på det genererade PDF. (11346)
-* PDF | Taggen Bild lägger till ett visningsinfogat attribut i alla bilder. (10653)
+* PDF | Bild-taggen lägger till attribut för inline-visning i alla bilder. (10653)
 * PDF | Utkastkommentarer är dolda som standard i genererade utdata. (10560)
 * PDF | navtitle stöds inte för topichead. (10509)

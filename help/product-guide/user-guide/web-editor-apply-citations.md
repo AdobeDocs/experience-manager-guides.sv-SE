@@ -2,7 +2,9 @@
 title: Lägga till och hantera citat i ditt innehåll
 description: Lägg till och hantera citat i AEM. Lär dig hur du använder, importerar, filtrerar, söker, ändrar format för citat, redigerar, förhandsgranskar, infogar, tar bort och genererar innehållsutdata med citationer.
 exl-id: 685d747d-e017-4350-a6bf-822fd55c76e8
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Authoring, Features of Web Editor
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '1887'
 ht-degree: 0%
@@ -133,7 +135,7 @@ Följande alternativ är tillgängliga i listrutan:
 | MLA | APA | Chicago | IEEE | AHA |
 |---|---|---|---|---|
 | Modernt språkassociationsformat <br> | American Psychological Association Style | Chicago Manual of Style | Institute for Electrical and Electronics Engineers Style | American Heart Association Style |
-| Exempel:<br> Crawford, Claire, et al. *Emotionellt innehåll i mörka minnen* Redigerad av Memory, 16, 2010, Amsterdam. | Exempel: <br> Crawford, C., J. och C. (2010) *Emotionellt innehåll i mörka minnen* (505-16 ed.). 10.1080/ 09658210902067289 | Exempel: <br> Crawford, Claire, et al. *Emotionellt innehåll i mörka minnen*. 505-16, 2010. | Exempel: <br> C. Crawford, J. och C. , *Emotionellt innehåll i mörka minnen*. Amsterdam 2010. | Exempel: <br> C. Crawford, J. och C. , *Emotionellt innehåll i mörka minnen*. Amsterdam 2010. |
+| Exempel:<br> Crawford, Claire, et al. *Emotionellt innehåll i mörka minnen* Redigerad av Memory, 16, 2010, Amsterdam. | Exempel: <br> Crawford, C., J., &amp;, C. (2010). *Emotionellt innehåll i mörka minnen* (505-16 ed.). 10.1080/ 09658210902067289 | Exempel: <br> Crawford, Claire, et al. *Emotionellt innehåll i mörka minnen*. 505-16, 2010. | Exempel: <br> C. Crawford, J. och C. , *Emotionellt innehåll i mörka minnen*. Amsterdam 2010. | Exempel: <br> C. Crawford, J. och C. , *Emotionellt innehåll i mörka minnen*. Amsterdam 2010. |
 
 
 ## Redigera en källhänvisning

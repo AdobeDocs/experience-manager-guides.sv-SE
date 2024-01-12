@@ -2,7 +2,9 @@
 title: Versionsinformation för [!DNL AEM Guides], januari 2022-versionen
 description: Januariversion av [!DNL Adobe Experience Manager Guides] as a Cloud Service
 exl-id: b2da77fa-f17c-440b-be59-acaafcd9a57c
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '2441'
 ht-degree: 0%
@@ -195,7 +197,7 @@ De buggar som har åtgärdats i olika områden listas nedan:
 ### Kartkontrollpanel
 
 * Det går inte att se generiskt innehåll i titeln för ett ämne på fliken med ämnen eller rapporter på kontrollpanelen för kartor. 8263
-* AEM Sites Output | jcr:titeln för den genererade webbplatssidan uppdateras inte när DITA-avsnittsrubriken uppdateras. (8131)
+* AEM Sites Output | jcr:titeln för den genererade webbplatssidan uppdateras inte när DITA-avsnittets titel uppdateras. (8131)
 * Ladda ned MAP hämtar inte de videofiler som används i avsnitten. 8070
 * Mediefiler laddas inte ned när object-taggen används via hämtningsbokmapps-API:t. 8057
 * Felaktig rapport visas på fliken Rapporter om något ämne har konverterats till en fil vars titel börjar med conref. (4698)
@@ -234,7 +236,7 @@ De buggar som har åtgärdats i olika områden listas nedan:
 
 ### Innehållsimport
 
-* Konvertering från HTML till DITA | Tabell med tr med tomma td-poster orsakar ytterligare rader i utdata. 8132
+* Konvertering från HTML till DITA | Tabell med tr med tomma td-poster ger upphov till ytterligare rader i utdata. 8132
 * Konvertering från HTML till DITA | HTML som har en tabell med flera förekomster misslyckas med ett undantag. (7940)
 * Konvertering från HTML till DITA | fel om HTML har kommentarer. 7937
 * Om du importerar DITA 1.3 DITA-filer omvandlas en del href till felformaterade länkar. (8019)

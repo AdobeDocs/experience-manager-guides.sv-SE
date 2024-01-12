@@ -2,7 +2,9 @@
 title: Hantera innehåll
 description: Hantera innehåll och identifiera dina roller och behörigheter i AEM. Lär dig de viktigaste begreppen för innehållshantering och att arbeta med globala profiler eller profiler på mappnivå.
 exl-id: 84926dc2-1180-48ef-85d0-50e3478bf26a
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Content Management
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '717'
 ht-degree: 0%

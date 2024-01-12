@@ -2,7 +2,9 @@
 title: Versionsinformation | Adobe Experience Manager Guides 4.1
 description: Senaste utgåvan av Adobe Experience Manager Guides
 exl-id: c70b3bbc-3332-4626-bc30-641034f8fd06
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '3644'
 ht-degree: 0%
@@ -354,7 +356,7 @@ De buggar som har åtgärdats i olika områden listas nedan:
 * AEM stödlinjer kopierar inte en resurs icke-unika egenskaper när en resurs kopieras och klistras in. 8241
 * DITA-kartfilens namn konverteras inte till gemener när det skapas. 8383
 * Beskrivningen av granskningsaktiviteten visas inte i det e-postmeddelande som skickas när en ny granskningsaktivitet tilldelas. 8507
-* Hämta mappnings-API | Temporära mappar rensas inte bort om hämtningsprocessfel skulle försvinna. 8523
+* Hämta mappnings-API | Temporära mappar rensas inte bort om det skulle uppstå fel i hämtningsprocessen. 8523
 * `columnpreview.jsp` är beroende av SP.  8543
 * Utdatafält med status Väntar eller Körning rensas inte på kontrollpanelen Publicera.  8569
 * Standardikonen väljs när en rapport genereras med knappen Generera, även när ikonegenskapen är definierad. 8573

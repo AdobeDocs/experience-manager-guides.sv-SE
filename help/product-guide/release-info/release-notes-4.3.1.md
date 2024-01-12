@@ -2,7 +2,9 @@
 title: Versionsinformation | Uppgraderingsinstruktioner och åtgärdade fel i Adobe Experience Manager Guides 4.3.1
 description: Lär dig mer om felkorrigeringarna och hur du uppgraderar till 4.3.1-utgåvor av Adobe Experience Manager Guides
 exl-id: 3fb6dc31-ec6e-40f5-ab3f-a6e591da315e
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1306'
 ht-degree: 0%
@@ -105,19 +107,19 @@ De buggar som har åtgärdats i olika områden listas nedan:
 ### Publicering
 
 - PDF | Ordningen på ämnena är inte fast när utdata från PDF skapas. 13157
-- Inbyggd PDF| Det finns ingen standardformattagg för `<p>`-element. (12559)
-- PDF | Infogade format som används i innehållsområdet används inte för ämnen som skrivs framför och under. (13510)
+- Inbyggd PDF| Ingen standardformattagg är tillgänglig för `<p>`-element. (12559)
+- PDF | Textbundna format som används för innehållsområdet används inte för ämnen som placeras framför och bakom. (13510)
 - The `DeliveryTarget` attribut sprids inte när AEM genereras.  13132
 - The **Publicera** arbetsflödet fastnar när AEM genereras för innehåll med vissa fel. (12000)
 
-- PDF | Om du tar med flera xrefs, utvidgas texten utanför kolumnbredden. 13004
-- PDF | När ämnet och titeln har samma ID leder det till en felaktig generering av PDF-utdata. 12644
+- PDF | Om du inkluderar flera xrefs utökas texten utanför kolumnbredden. 13004
+- PDF | När ämnet och titeln har samma ID leder det till en felaktig generering av utdata från PDF. 12644
 - PDF | Lägga till en utdataklass till en överordnad `<topicref>` -elementet i en DITA-karta och använder en anpassad stil på klassen Output. Formateringen används på element i ämnesbrödtexten, inklusive avsnittsrubriker. (12166)
 - Inkrementell publicering fungerar inte om en DITA-karta har flera diavalrefs. (12117)
-- AEM | När du skapar en karta med nyckelord som pekar på ett ämne som en variabel och lägger till processing-role=resource-only skapas en del oväntade sidor. (12099)
+- AEM | När du skapar en karta med nyckelord som pekar på ett ämne som en variabel och lägger till processing-role=resource-only skapas vissa oväntade sidor. (12099)
 - Om resurser från AEM DAM används i andra utdata än den AEM platsen, återspeglar inte metadata&quot;jcr:createdBy&quot; utgivarens namn eller namnet på den användare som senast ändrade DITA-kartan eller -avsnittet. (12090)
 - AEM Sites | DITA-kartan med topichad i navigeringsrubriken (med tecken som inte stöds) leder till felaktiga sidadresser. (11978)
-- PDF | Problem inträffar med stöd för topichead/topicmeta/navtitle i Frontmatter och Backmatter. (11969)
+- PDF | Det finns problem med stöd för topichead / topicmeta / navtitle i Frontmatter och Backmatter. (11969)
 - PDF | Det tar tid att generera PDF för stora dokument. (11955)
 - PDF | Om du byter namn på en förinställning genereras ett NullPointerException-fel när du genererar utdata i PDF. 11889
 - The `<conref>` -innehåll visas inte i utdata från PDF. (11131)

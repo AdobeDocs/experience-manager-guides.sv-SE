@@ -2,7 +2,9 @@
 title: Statusrapport för konvertering
 description: Konvertera dokument i olika format till DITA i AEM. Lär dig hur du lägger till filter och visar en konverteringsstatusrapport.
 exl-id: 0a4699e5-865f-40e1-a17f-5e1a248ea955
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Report Generation
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 0%

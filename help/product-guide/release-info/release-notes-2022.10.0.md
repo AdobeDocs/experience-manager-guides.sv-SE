@@ -2,7 +2,9 @@
 title: Versionsinformation | Adobe Experience Manager Guides as a Cloud Service, oktober 2022-versionen
 description: Oktober-versionen av Adobe Experience Manager Guides as a Cloud Service
 exl-id: 38638080-625c-49c3-9e54-56cc23831546
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 0%
@@ -61,10 +63,10 @@ Välj en eller flera förinställningar och generera snabbt utdata. Du kan ocks�
 
 De buggar som har åtgärdats i olika områden listas nedan:
 
-* PDF | Fel uppstod vid borttagning av ämnen som bara innehåller resurser från utdata från PDF. (10554)
+* PDF | Det går inte att ta bort ämnen som bara innehåller resurser från utdata från PDF. (10554)
 * PDF | Tomma nyckelrutor visas i utdata från PDF. (10553)
 * PDF | `navtitle` for `topichead` inte respekteras. (10509)
-* PDF | Stöd krävs för amd64 JDK-varianter. 10465
+* PDF | Stöd krävs för amd64 JDK-versioner. 10465
 * PDF | Det går inte att dölja ämnen som ligger före varandra från innehållsförteckningen. (10355)
 * PDF | Om du startar om sidnumret i kapitellayouten startas numreringen slumpmässigt från slutet av föregående kapitel. (10154)
 * Krom webbläsare | Skärmen blir tom när du drar och släpper element från gränssnittet. Om du till exempel drar ett villkor från villkorspanelen. (10524)

@@ -2,7 +2,9 @@
 title: Versionsinformation | Nyheter i Adobe Experience Manager Guides 4.2.1
 description: Läs om de nya och förbättrade funktionerna i 4.2.1-utgåvorna av Adobe Experience Manager Guides
 exl-id: 441aa7ec-d88c-42cb-83f0-d0f6e58bfa41
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: What's New
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 0%
@@ -61,7 +63,7 @@ Du kan också generera CSV-filen för att hämta den aktuella ögonblicksbilden 
 
 Mer information finns i beskrivningen av funktionen Generera en multimedierapport i [DITA-kartrapport från Web Editor](../user-guide/reports-web-editor.md) -avsnitt.
 
-## PDF | Ändringsfält för att ange ändrade ämnen i innehållsförteckningen
+## PDF | Ändra fält för att ange ändrade ämnen i innehållsförteckningen
 
 AEM Guides gör att du snabbt kan identifiera ändrade ämnen i innehållsförteckningen för PDF.  Det visas ett ändringsfält till vänster om de ändrade ämnena i innehållsförteckningen. Du kan klicka på ämnet i innehållsförteckningen och visa de detaljerade ändringarna.
 

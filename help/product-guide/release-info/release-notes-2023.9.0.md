@@ -1,8 +1,10 @@
 ---
-title: Versionsinformation | Uppgraderingsinstruktioner och åtgärdade fel i Adobe Experience Manager Guides, versionen från september 2023
+title: Versionsinformation | Uppgraderingsinstruktioner och åtgärdade fel i Adobe Experience Manager Guides, september 2023-versionen
 description: Läs om felkorrigeringarna och hur du uppgraderar till september 2023-utgåvan av Adobe Experience Manager Guides as a Cloud Service
 exl-id: 795b86a0-e763-404a-a4bb-35d3d2a42672
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1486'
 ht-degree: 0%
@@ -88,7 +90,7 @@ Utför följande steg för att efterbearbeta befintligt innehåll och använda d
 
 Utför följande steg för att indexera det befintliga innehållet och använd den nya sök- och ersätt-texten på mappnivå och ämneslista på fliken Rapporter:
 
-1. Kör en POST till servern \(med korrekt autentisering\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Valfritt: Du kan skicka specifika banor för mappningarna för att indexera dem. Som standard indexeras alla mappningar \|\| Exempel: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+1. Kör en POST till servern \(med korrekt autentisering\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Valfritt: Du kan skicka specifika banor för mappningarna för att indexera dem. Som standard indexeras alla mappningar \|\| Till exempel: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
 1. Du kan också skicka en rotmapp för att indexera DITA-mappningarna för en viss mapp (och dess undermappar). Till exempel: `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. Observera, att om både sökvägsparametern och rotparametern skickas, beaktas bara sökvägsparametern.
 
@@ -159,14 +161,14 @@ De buggar som har åtgärdats i olika områden listas nedan:
 - Publiceringen misslyckas när namnet på en förinställning för inbyggda PDF ändras. (12564)
 - När du duplicerar en inbyggd PDF-mall dupliceras den till standardmallplatsen i stället för den angivna anpassade mallplatsen. 12563
 
-- PDF | Om du tar med flera xrefs, utvidgas texten utanför kolumnbredden. 13004
-- PDF | När ämnet och titeln har samma ID leder det till en felaktig generering av PDF-utdata. 12644
+- PDF | Om du inkluderar flera xrefs utökas texten utanför kolumnbredden. 13004
+- PDF | När ämnet och titeln har samma ID leder det till en felaktig generering av utdata från PDF. 12644
 - PDF | Lägga till en utdataklass till en överordnad `<topicref>` -elementet i en DITA-karta och använder en anpassad stil på klassen Output. Formateringen används på element i ämnesbrödtexten, inklusive avsnittsrubriker.(12166)
 - Inkrementell publicering fungerar inte om en DITA-karta har flera diavalrefs. (12117)
-- AEM | När du skapar en karta med nyckelord som pekar på ett ämne som en variabel och lägger till processing-role=resource-only skapas en del oväntade sidor. (12099)
+- AEM | När du skapar en karta med nyckelord som pekar på ett ämne som en variabel och lägger till processing-role=resource-only skapas vissa oväntade sidor. (12099)
 - Om resurser från AEM DAM används i andra utdata än den AEM platsen, återspeglar inte metadata&quot;jcr:createdBy&quot; utgivarens namn eller namnet på den användare som senast ändrade DITA-kartan eller -avsnittet. (12090)
 - AEM Sites | DITA-kartan med topichad i navigeringsrubriken (med tecken som inte stöds) leder till felaktiga sidadresser. (11978)
-- PDF | Problem inträffar med stöd för topichead/topicmeta/navtitle i Frontmatter och Backmatter. (11969)
+- PDF | Det finns problem med stöd för topichead / topicmeta / navtitle i Frontmatter och Backmatter. (11969)
 - PDF | Det tar tid att generera PDF för stora dokument. (11955)
 - PDF | Om du byter namn på en förinställning genereras ett NullPointerException-fel när du genererar utdata i PDF. 11889
 - The `<conref>` -innehåll visas inte i utdata från PDF. (11131)

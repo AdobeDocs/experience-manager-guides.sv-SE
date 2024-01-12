@@ -2,7 +2,9 @@
 title: Versionsinformation | Adobe Experience Manager Guides as a Cloud Service, september 2022-versionen
 description: Septemberversionen av Adobe Experience Manager Guides as a Cloud Service
 exl-id: f6247f91-43cc-43a4-a6f8-3b1f09d0533f
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1299'
 ht-degree: 0%
@@ -92,7 +94,7 @@ Dessa metadata åsidosätter metadata som definierats på boknivå. Du kan defin
 
 De buggar som har åtgärdats i olika områden listas nedan:
 
-* Web Editor | Om du flyttar element inom ett ämne skrivs de tilldelade ID:n för element över av automatiskt tilldelade ID:n. 7895
+* Web Editor | När du flyttar element inom ett ämne skrivs de tilldelade ID:n för element över av automatiskt tilldelade ID:n. 7895
 * Spåra ändringar | Innehållet förloras när ett nytt element anges med Retur-tangenten. (10246)
 * Delkartan som refereras till huvudkartan i Dita-mallar skapas inte. (10231)
 * XML Editor | Kopiera och klistra in fungerar inte i redigeringsläget. (10309)
@@ -100,25 +102,25 @@ De buggar som har åtgärdats i olika områden listas nedan:
 * Automatisk navigering till sökvägen i dialogrutan Bläddra fungerar inte som filbläddring. (9920)
 * Dispositionspanelen visar inte innehåll när den växlas från **Upphovsman** till **Källa** läge. (10319)
 * Det går inte att definiera i ett nytt ämne som skapats med innehåll i ämnesmallen. Hash-ID:t som kopieras uppdateras inte i innehållskopian. (9890)
-* Webbredigerare | Det finns ingen inläsare när du skapar en karta från mappningsmallen. 9891
+* Webbredigerare | Det finns ingen inläsare när en karta skapas från mappningsmallen. 9891
 * Ny kartredigerare | Fet eller kursiv text i kartans titel bevaras inte om vi byter från **Upphovsman** till **Layout** vy. (10218)
-* Ny kartredigerare | Villkor som används för referenser kan inte tas bort från layoutvyn. (10213)
+* Ny kartredigerare | Det går inte att ta bort villkor som används på referenser från layoutvyn. (10213)
 * Ny kartredigerare | Det går inte att använda villkorsreferenser i layoutvyn på samma sätt som i redigeringsvyn. (10198)
 * Ny kartredigerare | Om du flyttar åt vänster på snabbmenyn tas referensen bort om den inte kan flyttas åt vänster. (10219)
 * Ny kartredigerare |Ikonen visas felaktigt för referenserna i en karta som skapats i layoutvyn. (10197)
-* Databaspanel | Högerklick i databaspanelen ger ett programfel. (10123)
-* Sök och ersätt | Mörkt läge kan inte läsas för sökresultat i webbredigeraren. (9978)
+* Databaspanel | Om du högerklickar på databaspanelen uppstår ett programfel. (10123)
+* Sök och ersätt | Det mörka läget går inte att läsa för sökresultat i webbredigeraren. (9978)
 * Översättning | Metadata och taggar sprids inte till översatta kopior. 4696
 * Kopiera inklistring (ctrl+c/ctrl+v) ger ett fel i redigeringsläget. (10304)
 * PDF-mall | Om du lägger till bakgrundsbilder i en sidlayout visas bildsökvägen absolut och bilderna visas inte i PDF i utdata. (10297)
 * PDF | Kapitelrubrik och kapitelrubrik fungerar inte i PDF. 9947
 * PDF | `xref` för ett koncept inte löses korrekt för ett specifikt DITA-ämne. (10229)
-* PDF | Det går inte att visa bildtext för en tabell i genererade utdata för PDF. 9827
+* PDF | Det går inte att visa bildtext för en tabell i utdata från PDF. 9827
 * PDF | Referenser i bilagor visas inte som bilagor i utdata från PDF. (10182)
 * PDF | Bildruteattributet för en tabell sprids inte till den temporära HTML (som klass). (10353)
 * PDF | temporära HTML-filer lägger till klasserna colsep och rowsep till td och även om deras värde är 0 i käll-DITA. (10352)
 * PDF | Metadata för villkor som lagts till i sidlayouten respekteras inte. (10377)
-* PDF | Det går inte att generera PDF för visst innehåll. (9927)
+* PDF | Genereringen av PDF misslyckas för visst innehåll. (9927)
 * PDF | Innehåll via conkeyref visas inte i utdata från PDF. 9836
 * PDF | Nyckelreferenser för nyckeldefinitioner med bilder eller externa länkar är inte lösta. (10063)
 * I redigeringsvyn för en karta visas inte platshållartext för tabeller och illustrationer. (10330)

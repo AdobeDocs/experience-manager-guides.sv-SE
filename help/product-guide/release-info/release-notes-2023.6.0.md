@@ -1,8 +1,10 @@
 ---
-title: Versionsinformation | Uppgraderingsinstruktioner och åtgärdade problem i Adobe Experience Manager Guides, juni 2023-versionen
+title: Versionsinformation | Uppgraderingsinstruktioner och åtgärdade fel i Adobe Experience Manager Guides, juni 2023-versionen
 description: Läs om felkorrigeringarna och hur du uppgraderar till juni 2023-versionen av Adobe Experience Manager Guides as a Cloud Service
 exl-id: df17ee33-9f50-4223-ab9f-a57a31097d22
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1170'
 ht-degree: 0%
@@ -86,7 +88,7 @@ Utför följande steg för att efterbearbeta befintligt innehåll och använda d
 
 Utför följande steg för att indexera det befintliga innehållet och använd den nya sök- och ersätt-texten på mappnivå och ämneslista på fliken Rapporter:
 
-1. Kör en POST till servern \(med korrekt autentisering\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Valfritt: Du kan skicka specifika banor för mappningarna för att indexera dem. Som standard indexeras alla mappningar \|\| Exempel: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+1. Kör en POST till servern \(med korrekt autentisering\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Valfritt: Du kan skicka specifika banor för mappningarna för att indexera dem. Som standard indexeras alla mappningar \|\| Till exempel: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
 1. Du kan också skicka en rotmapp för att indexera DITA-mappningarna för en viss mapp (och dess undermappar). Till exempel: `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. Observera, att om både sökvägsparametern och rotparametern skickas, beaktas bara sökvägsparametern.
 
@@ -124,7 +126,7 @@ De buggar som har åtgärdats i olika områden listas nedan:
 - Navigeringsrubriken tas bort från content33 vid växling från layoutvyn till författaren eller källvyn. (12174)
 - Ibland inträffar programfel när du klickar på en DITA-karta. (11842)
 - Web Editor | Fast mellanslag läggs till i XML-redigeraren när du redigerar ett ämne. 11786
-- Resursgränssnitt | I listvyn går det inte att sammanfoga de överlagrade kolumnerna. (11528)
+- Resursgränssnitt | I listvyn kan de överlagrade tillgängliga kolumnerna inte sammanfogas. (11528)
 - Keyref är inte löst i kartvyn. (11490)
 - Den övre menyn visas inte när du navigerar i XML-redigeraren. (10868)
 - `conref` in ph-tagg | Den visade bläddringsdialogrutan är felaktig. 9481
@@ -146,8 +148,8 @@ De buggar som har åtgärdats i olika områden listas nedan:
 - Web Editor | Det går inte att markera utdatasökväg och -mall i AEM förinställning. (11530)
 - PDF | Anpassade attribut sprids inte till motorn för temporära HTML eller PDF. (DXML-12005)
 - PDF | Java OutOfMemoryError inträffar vid publicering av stort innehåll. 11789
-- JSON-utdata | De `fmUuid` -egenskapen i jcr:content-noden i JSON skiljer sig från&quot;id&quot; i JSON. (11564)
-- JSON-utdata | Om det finns en karta och ett ämne med samma filnamn tas JSON bort för kartan. (11524)
+- JSON-utdata | The `fmUuid` -egenskapen i jcr:content-noden i JSON skiljer sig från&quot;id&quot; i JSON. (11564)
+- JSON-utdata | Om kartan och ämnet med samma filnamn finns, tas JSON bort för kartan. (11524)
 - PDF | Xref skriver ut innehållet i href-ämnesrubriken i stället för Xref-etiketten. (11322)
 - PDF | Det går inte att spara mallinställningarna för PDF. (10751)
 - PDF | Texten sträcker sig utanför kolumnbredden och inkluderar flera xrefs. (10876)
@@ -162,4 +164,4 @@ De buggar som har åtgärdats i olika områden listas nedan:
 
 ### Granska
 
-- Nytt gränssnitt för granskning | Villkoren markeras och visas och fungerar annorlunda än de fungerar i Web Editor. (11628)
+- Nytt gränssnitt för granskning | Villkoren markerar och visar hur de fungerar annorlunda än i Web Editor. (11628)

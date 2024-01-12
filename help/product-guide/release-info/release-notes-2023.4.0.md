@@ -2,7 +2,9 @@
 title: Versionsinformation | Adobe Experience Manager Guides as a Cloud Service, aprilversion 2023
 description: Version av Adobe Experience Manager Guides as a Cloud Service, släppt i april 2023
 exl-id: fa339eab-d3d0-4763-adbf-6411e39aa213
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '598'
 ht-degree: 0%

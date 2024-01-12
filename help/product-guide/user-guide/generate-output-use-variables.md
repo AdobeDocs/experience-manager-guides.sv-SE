@@ -2,7 +2,9 @@
 title: Använd variabler för att ange alternativen Målsökväg, Platsnamn eller Filnamn
 description: Lär dig hur du använder variabler för att ange alternativen Målsökväg, Platsnamn eller Filnamn. Ta reda på vilka variabler som finns i AEM stödlinjer.
 exl-id: 3396c971-6332-45b5-b2ef-b07f0abf97f7
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Publishing
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 0%

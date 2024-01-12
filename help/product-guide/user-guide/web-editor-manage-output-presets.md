@@ -2,7 +2,9 @@
 title: Hantera förinställningar för utdata för global profil och mappprofil
 description: Lär dig hur du skapar, redigerar, byter namn på, duplicerar och tar bort förinställningar för utdata i global profil och mappprofil som administrativa användare i AEM.
 exl-id: 549c9fe2-77f8-423c-8b3e-b43e56055732
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Authoring, Features of Web Editor, Publishing
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 0%

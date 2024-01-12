@@ -2,7 +2,9 @@
 title: Versionsinformation | Adobe Experience Manager Guides 4.2
 description: Lär dig mer om felkorrigeringarna och hur du uppgraderar till 4.2-utgåvor av Adobe Experience Manager Guides
 exl-id: 8a7fef77-63af-462f-89c5-054ab31e079b
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1391'
 ht-degree: 0%
@@ -103,11 +105,11 @@ De buggar som har åtgärdats i olika områden listas nedan:
 
 * Om du kopierar en DITA-mappningsresurs (från tillgångsgränssnittet) skapas felaktiga baslinjer i den kopierade resursen. (11218)
 * Varningsmeddelande visas inte vid överföring av en fil som är större än den gräns som tillåts i AEM (2 GB som standard). (10817)
-* Web Editor-Baseline | Beteendet för den senaste kolumnen skiljer sig åt i den nya baslinjepanelen i Web Editor. (10808)
+* Web Editor-Baseline | Beteendet för den senaste kolumnen skiljer sig åt på den nya baslinjepanelen i Web Editor. (10808)
 * Översättning | Översättningsjobbet kommer inte igång på grund av ogiltig /libs/fmdita/i18n/ja.json. (10543)
-* Översättning | Ett fel inträffar i ett omfångsöversättningsprojekt som skapats från översättningens kontrollpanel (mänsklig översättning). (10526)
+* Översättning | Ett fel inträffar i ett omfångsöversättningsprojekt som har skapats från översättningsinstrumentpanelen (mänsklig översättning). (10526)
 * Översättning | Efterbearbetning blockeras för hela språkmappen vars resurser finns i ett aktivt översättningsprojekt. (10332)
-* Översättning| Metadata och taggar sprids inte till de översatta kopiorna. 4696
+* Översättning| Metadata och taggar sprids inte till översatta kopior. 4696
 * Flera popup-fönster visas för alla resurser om versionen ändras och sparas i Baslinjeredigeraren. (10399)
 * Sessionsläckan inträffar på com.day.cq.search.impl.builder.QueryBuilderImpl.createResourceResolver(QueryBuilderImpl.java:210). (10279)
 * Videofilen saknas från baslinjen om den överordnade mappen innehåller utrymme i namnet. (10031)
@@ -118,20 +120,20 @@ De buggar som har åtgärdats i olika områden listas nedan:
 * Publicering i PDF misslyckas när utdata genereras för en dubblettförinställning (för en befintlig förinställning). (10584)
 * Knappen Visa logg fungerar inte om genereringen av PDF misslyckas för en förinställning. (10576)
 * Publiceringslyssnaren visar inte begärda data i informationsloggar, och den innehåller även skräppostloggar.( 10567)
-* PDF | Det går inte att skapa PDF med ett Null-pekarundantag. (10950)
+* PDF | Genereringen av PDF misslyckas med ett Null-pekarundantag. (10950)
 * PDF | conkeyref löses inte i genererade utdata. (10564)
-* PDF | Problem uppstår med metadata för en karta som behöver refereras till i utdata från PDF.( 10556)
+* PDF | Problem uppstår med metadata för en karta som behöver refereras i utdata från PDF.( 10556)
 * PDF | Problem uppstår när tabellrubriken roteras. (10555)
-* PDF | Problem uppstår vid borttagning av ämnen med processing role=&#39;resource-only&#39;. (10554)
-* PDF | Tomma nyckeltal visas i utdata från PDF. (10553)
-* PDF | Kapslade `<indexterm>` är inte kapslade vid export i PDF. (10521)
+* PDF | Problem inträffar när ämnen som har procesrole=&#39;resource-only&#39; tas bort. (10554)
+* PDF | Tomma nyckelrutor visas i utdata från PDF. (10553)
+* PDF | Kapslad `<indexterm>` är inte kapslade vid export i PDF. (10521)
 * PDF | Inbyggd PDF använder inline-format i stället för klassnamn för de genererade taggarna. (10498)
 * PDF | Kapslade topicref i tillägg omformas alla till h1 i det temporära HTML.( 10454)
 * PDF | Det går inte att dölja ämnen som ligger före varandra i innehållsförteckningen. (10355)
-* PDF | Tabellens bildruteattribut sprids inte till det temporära HTML (som klass). (10353)
+* PDF | Tabellens bildruteattribut har inte spridits till det temporära HTML (som klass). (10353)
 * PDF | Temporära HTML-filer lägger till klasserna colsep och rowsep i <td> och <th> även om deras värde är 0 i käll-DITA. (10352)
 * PDF | Om du startar om sidnummer i kapitellayouten startas numreringen slumpmässigt från slutet av föregående kapitel. (10154)
-* PDF | Nyckelreferenser för nyckeldefinitioner med bilder eller externa länkar tolkas inte. (10063)
+* PDF | Nyckelreferenser för nyckeldefinitioner med bilder eller externa länkar kommer inte att matchas. (10063)
 * PDF | Bilaga visas som ett kapitel i genererad PDF. 9829
 * Fliken Mall i xml-redigeraren visas inte för mappprofiladministratörer. (10266)
 * Baslinjepublicering misslyckas för PDF som genereras med FrameMaker Publishing Server 2020. (10551)

@@ -1,7 +1,9 @@
 ---
 title: Knowledge Base
 description: Lär dig hur du skapar förinställningar för kunskapsbasen från webbredigeraren och kartpanelen. Konfigurera förinställningen för kunskapsbasutdata i AEM.
-source-git-commit: 899b493709ee7f1fb31789e4afc3e985fa2505f7
+feature: Publishing
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1158'
 ht-degree: 0%

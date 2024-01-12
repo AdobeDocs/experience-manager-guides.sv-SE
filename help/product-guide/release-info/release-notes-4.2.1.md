@@ -2,7 +2,9 @@
 title: Versionsinformation | Uppgraderingsinstruktioner och åtgärdade fel i Adobe Experience Manager Guides 4.2.1
 description: Lär dig mer om felkorrigeringarna och hur du uppgraderar till 4.2.1-utgåvor av Adobe Experience Manager Guides
 exl-id: a75ec83f-564b-4243-b5c5-341049521adb
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '876'
 ht-degree: 0%
@@ -78,8 +80,8 @@ De buggar som har åtgärdats i olika områden listas nedan:
 * Det är svårt att dra och släppa ett listobjekt. Texten flyttas istället för listobjektet. (11566)
 * Vid redigering i det element som visas i grönt (Spåra ändringar) visas det nya innehållet som spåra ändringar även om spårändringen är inaktiverad. 7021
 * Webbläsaren (webbredigeraren) låser sig när innehåll läses in med ett anpassat schema. (11211)
-* PDF | När du skapar en utdatainställning med alternativet Lägg till i mappprofil misslyckas genereringen av PDF med ett Null-pekarundantag. (10950)
-* PDF | Taggen Bild lägger till ett visningsinfogat attribut i alla bilder. (10653)
+* PDF | När du skapar en förinställning med alternativet Lägg till i mappprofil misslyckas genereringen av PDF med ett Null-pekarundantag. (10950)
+* PDF | Bild-taggen lägger till attribut för inline-visning i alla bilder. (10653)
 * Det går inte att infoga multimediefiler för ljud och video i YouTube-format med **Infoga multimedia** -ikon. (11320)
 * Valideringsfel uppstår när en karta skapas med mallen som har ett specialiserat rubrikelement. (11212)
 * Web Editor | Fast mellanslag läggs till i XML-redigeraren när du redigerar ett ämne. 11786
@@ -102,7 +104,7 @@ De buggar som har åtgärdats i olika områden listas nedan:
 * PDF | Utkastkommentarer är dolda som standard i genererade utdata. (10560)
 * PDF | navtitle stöds inte för topichead. (10509)
 * PDF | Lägger till `xref` till en bild återges inte bilden på det genererade PDF. (11346)
-* PDF | fotnot i tabellrubrik leder till fet och centrerad text i motsvarande sidfot i PDF-utdata. 10610
+* PDF | fotnot i tabellhuvudet leder till fet och centrerad text i motsvarande sidfot i PDF-utdata. 10610
 
 ### Översättning
 

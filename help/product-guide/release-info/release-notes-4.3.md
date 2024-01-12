@@ -2,7 +2,9 @@
 title: Versionsinformation | Uppgraderingsinstruktioner och åtgärdade fel i Adobe Experience Manager Guides 4.3.0
 description: Lär dig mer om felkorrigeringarna och hur du uppgraderar till 4.3.0-utgåvor av Adobe Experience Manager Guides
 exl-id: 7fb568a0-0b88-4ea0-9b79-2625336348ff
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1086'
 ht-degree: 0%
@@ -87,7 +89,7 @@ De buggar som har åtgärdats i olika områden listas nedan:
 - Det går inte att redigera innehållsfragment i kolumnvyn med AEM stödlinjer installerade. 7342
 - Innehållet förloras när en unwrapped xref finns under en underordnad elementtagg. (12532)
 - Arbetsflödet för godkännande fungerar inte när dokumentläget ändras till slutläge från filegenskaperna på den högra panelen. (11026)
-- Resursgränssnitt | I listvyn går det inte att sammanfoga de överlagrade kolumnerna. (11528)
+- Resursgränssnitt | I listvyn kan de överlagrade tillgängliga kolumnerna inte sammanfogas. (11528)
 - Keyref är inte löst i kartvyn. (11490)
 - Den övre menyn visas inte när du navigerar i XML-redigeraren. (10868)
 - `conref` in ph-tagg | Den visade bläddringsdialogrutan är felaktig. 9481
@@ -104,7 +106,7 @@ De buggar som har åtgärdats i olika områden listas nedan:
 
 ### Granska
 
-- Nytt gränssnitt för granskning | Villkoren markeras och visas och fungerar annorlunda än de fungerar i Web Editor. (11628)
+- Nytt gränssnitt för granskning | Villkoren markerar och visar hur de fungerar annorlunda än i Web Editor. (11628)
 
 ### Publicering
 
@@ -118,8 +120,8 @@ De buggar som har åtgärdats i olika områden listas nedan:
 - PDF | Det går inte att spara mallinställningarna för PDF. (10751)
 - PDF | Texten sträcker sig utanför kolumnbredden och inkluderar flera xrefs. (10876)
 - PDF | `<note>``</note>` -elementet genererar ingen extra intervalltitel av sin typ. (10549)
-- JSON-utdata | De `fmUuid` -egenskapen i jcr:content-noden i JSON skiljer sig från&quot;id&quot; i JSON. (11564)
-- JSON-utdata | Om det finns en karta och ett ämne med samma filnamn tas JSON bort för kartan. (11524)
+- JSON-utdata | The `fmUuid` -egenskapen i jcr:content-noden i JSON skiljer sig från&quot;id&quot; i JSON. (11564)
+- JSON-utdata | Om kartan och ämnet med samma filnamn finns, tas JSON bort för kartan. (11524)
 
 ## Känt fel
 

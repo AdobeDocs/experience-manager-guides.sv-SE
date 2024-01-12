@@ -2,7 +2,9 @@
 title: Arbeta med den grundläggande kartredigeraren
 description: Lär dig hur du arbetar med den grundläggande redigeringsprogrammet för kartor i AEM. Lär dig funktionerna i den grundläggande kartredigeraren på mappnivå och ämnesnivå. Skapa och redigera relationstabeller i en DITA-karta.
 exl-id: 13da729d-e8f7-46ae-873a-1bfc32da974f
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Authoring, Map Editor
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '1408'
 ht-degree: 0%

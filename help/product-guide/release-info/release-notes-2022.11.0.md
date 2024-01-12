@@ -2,7 +2,9 @@
 title: Versionsinformation | Adobe Experience Manager Guides as a Cloud Service, november 2022-versionen
 description: Novemberversionen av Adobe Experience Manager Guides as a Cloud Service
 exl-id: 9f329ec1-dd74-47cc-8567-3fadd962584a
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1384'
 ht-degree: 0%
@@ -131,7 +133,7 @@ De buggar som har åtgärdats i olika områden listas nedan:
 
 * PDF | `conkeyref` löses inte i genererade utdata för PDF. (10564)
 * PDF | Problem uppstår vid åtkomst av metadata för en karta i utdata från PDF. (10556)
-* PDF | Infogat format används för att generera taggar i stället för klassnamn.  (10498)
+* PDF | Textbundna format används för att generera taggar i stället för klassnamn.  (10498)
 * Webbredigeraren läser in tomma sidor ibland. (10678)
 * Publicering i PDF misslyckas om vi skapar en förinställning genom att duplicera en befintlig förinställning. (10584)
 * **Visa logg** fungerar inte när PDF inte kan generera en förinställning. (10576)

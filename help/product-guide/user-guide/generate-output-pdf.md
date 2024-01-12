@@ -2,7 +2,9 @@
 title: Generera PDF
 description: Lär dig hur du skapar en förinställning för PDF i webbredigeraren och på kartpanelen. Konfigurera förinställningen PDF i AEM.
 exl-id: f12c91fd-3f95-478e-a9cd-68d037206ee8
-source-git-commit: b8c90eb8d1acfe6777a615bd71367027cd8d1c3b
+feature: Publishing
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1006'
 ht-degree: 0%

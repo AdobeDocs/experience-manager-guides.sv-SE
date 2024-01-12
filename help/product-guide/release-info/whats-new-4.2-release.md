@@ -2,7 +2,9 @@
 title: Versionsinformation | Nyheter i Adobe Experience Manager Guides 4.2
 description: Läs om de nya och förbättrade funktionerna i 4.2-utgåvorna av Adobe Experience Manager Guides
 exl-id: 46367ccf-58ff-4889-8314-cdd5bf5d0f1d
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: What's New
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '2423'
 ht-degree: 0%
@@ -213,10 +215,10 @@ Nu kan du även använda följande variabler för att definiera utdatasökväg o
 
 Nu kan du även generera innehållsförteckningen i DITA-kartor med en avancerad PDF-inställning för mallen. Du kan välja att aktivera eller inaktivera visningen av de olika sidlayouterna och även ändra ordningen på deras position.
 
-## PDF | Lägg till ett eget bokmärke i utdata från PDF
+## PDF | Lägga till ett eget bokmärke i utdata från PDF
 
 Nu kan du lägga till ett eget bokmärke för ett visst innehåll i det slutliga PDF-resultatet för enkel navigering. Detta läggs till i innehållsförteckningen som skapas från avsnittet eller avsnittsrubrikerna på din DITA-karta.
 
-## PDF | Använd egen stil på innehållsförteckningsposter och ämnesinnehåll
+## PDF | Tillämpa egna format på innehållsförteckningsposter och ämnesinnehåll
 
 I AEM kan du använda anpassade format för innehållsförteckningsposterna eller ett visst ämne i PDF. Du kan till exempel ändra färg på texten i innehållsförteckningen och ämnestiteln. Du kan också använda format på hela innehållet i ämnet.

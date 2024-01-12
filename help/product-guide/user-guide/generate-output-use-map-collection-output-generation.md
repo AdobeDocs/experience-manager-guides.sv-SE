@@ -2,7 +2,9 @@
 title: Använd kartsamling för generering av utdata
 description: Lär dig skapa och ta bort en kartsamling och lägga till eller ta bort en DITA-karta. Konfigurera, generera och avbryta en utdatagenereringsaktivitet från en kartsamling i AEM.
 exl-id: 41152fa4-f739-44d2-9ccd-74072f53e31b
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Publishing
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 0%

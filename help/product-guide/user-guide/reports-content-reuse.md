@@ -2,7 +2,9 @@
 title: Återanvänd innehåll - rapport
 description: Lär dig hur du visar rapporten för återanvändning av innehåll i AEM. Generera rapporten för att hitta procentsatsen för återanvändning av innehåll.
 exl-id: ccae4303-75b1-4077-829a-7ef6a14fd8ad
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Report Generation
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 0%
