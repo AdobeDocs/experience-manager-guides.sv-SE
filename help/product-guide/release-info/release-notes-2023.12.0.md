@@ -3,7 +3,7 @@ title: Versionsinformation | Uppgraderingsinstruktioner och åtgärdade fel i Ad
 description: Lär dig mer om felkorrigeringarna och hur du uppgraderar till december 2023-utgåvan av Adobe Experience Manager Guides as a Cloud Service.
 feature: Release Notes
 role: Leader
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 110a358ce6c0525f7b1eae075d89d78f8014ceff
 workflow-type: tm+mt
 source-wordcount: '1319'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Mer information om de nya funktionerna och förbättringarna finns i [Nyheter i 
 Uppgradera din nuvarande konfiguration av Experience Manager Guides as a Cloud Service genom att utföra följande steg:
 
 1. Ta en titt på Cloud Servicens Git-kod och växla till den gren som är konfigurerad i Cloud Servicens pipeline för den miljö som du vill uppgradera.
-2. Uppdatera `<dox.version>` egenskap i `/dox/dox.installer/pom.xml` fil med dina Cloud Service Git-kod till 2023.12.0.15.
+2. Uppdatera `<dox.version>` egenskap i `/dox/dox.installer/pom.xml` fil med dina Cloud Service Git-kod till 2023.12.0.16.
 3. Genomför ändringarna och kör Cloud Servicens pipeline för att uppgradera till december 2023-utgåvan av Experience Manager Guides as a Cloud Service.
 
 ## Steg för att aktivera utlösaren för ett skript via en serverlet
