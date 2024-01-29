@@ -4,9 +4,9 @@ description: Lär dig hur du skapar en förinställning för PDF i webbredigerar
 exl-id: f12c91fd-3f95-478e-a9cd-68d037206ee8
 feature: Publishing
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: '1008'
 ht-degree: 0%
 
 ---
@@ -65,6 +65,6 @@ Följande alternativ är tillgängliga för utdata från PDF:
 | Målsökväg | Sökvägen i AEM där PDF lagras.<br><br>Du kan också använda variabler när du anger målsökvägen. Mer information om hur du använder variabler finns i [Använd variabler för att ange alternativen Målsökväg, Platsnamn eller Filnamn](generate-output-use-variables.md#id18BUG70K05Z). |
 | Rensa tillfälliga DITA-OT-filer | Välj det här alternativet om du vill rensa de temporära filer som genererats av DITA-OT. Platsen där tillfälliga filer lagras i DITA-OT finns i loggen för generering av utdata.<br><br>Om du får problem när du genererar utdata via DITA-OT kan du avmarkera det här alternativet om du vill behålla de tillfälliga filerna. Du kan sedan använda dessa filer för att felsöka fel vid generering av utdata. |
 | Använd baslinje | Om du har skapat en baslinje för den valda DITA-kartan väljer du det här alternativet för att ange vilken version du vill publicera.<br><br>Se [Arbeta med baslinje](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) för mer information. |
-| Egenskaper | Välj de egenskaper som du vill bearbeta som metadata. Dessa egenskaper ställs in från sidan Egenskaper i DITA-kartan eller bokmappningsfilen. De egenskaper du väljer i listrutan visas under **Egenskaper** fält. Markera kryssikonen bredvid egenskapen för att ta bort den. <br><br>Obs! Du kan också skicka metadata till utdata med DITA-OT-publicering. Mer information finns i [Skicka metadata till utdata med DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
+| Filegenskaper | Välj de egenskaper som du vill bearbeta som metadata. Dessa egenskaper ställs in från sidan Egenskaper i DITA-kartan eller bokmappningsfilen. De egenskaper du väljer i listrutan visas under **Filegenskaper** fält. Markera kryssikonen bredvid egenskapen för att ta bort den. <br><br>Obs! Du kan också skicka metadata till utdata med DITA-OT-publicering. Mer information finns i [Skicka metadata till utdata med DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
 
 **Överordnat ämne:**[ Förinställningar för utdata](generate-output-understand-presets.md)

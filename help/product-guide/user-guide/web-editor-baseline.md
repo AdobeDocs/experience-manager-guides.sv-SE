@@ -4,9 +4,9 @@ description: Skapa och hantera baslinjer från webbredigeraren i AEM. Lär dig h
 exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
 workflow-type: tm+mt
-source-wordcount: '1617'
+source-wordcount: '1687'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 >
 > Du bör använda den här baslinjefunktionen i webbredigeraren om du har uppgraderat till AEM Guides as a Cloud Service March eller senare.
 
-AEM innehåller baslinjefunktionen som är integrerad i Web Editor och som gör att användarna kan skapa baslinjer och använda dem för att publicera eller översätta ämnen från olika versioner.
+AEM innehåller baslinjefunktionen som är integrerad i Web Editor och som gör att användarna kan skapa baslinjer och använda dem för att publicera eller översätta ämnen från olika versioner. De kan också publicera flera förinställningar av samma DITA-karta parallellt.
 
 ## Skapa en baslinje
 
@@ -56,11 +56,12 @@ Du kan skapa en baslinje i Web Editor genom att utföra följande steg:
 
    **Automatisk uppdatering**: Välj det här alternativet för att skapa baslinjer om du automatiskt vill välja ämnen enligt den etikett som används på dem.
 
-   Baslinjer som skapas med automatisk uppdatering uppdateras dynamiskt. Om du genererar en baslinje, hämtar en baslinje eller skapar ett översättningsprojekt med hjälp av en baslinje, hämtas filerna dynamiskt baserat på de uppdaterade etiketterna. Om du till exempel har använt version 1.2 av ett ämne med Label Release 1.0 för baslinjen och senare uppdaterat version 1.5 med Label Release 1.0, uppdateras baslinjen dynamiskt och version 1.5 används.
+   Baslinjer som skapas med den automatiska uppdateringskonfigurationen uppdateras dynamiskt. Om du genererar en baslinje, hämtar en baslinje eller skapar ett översättningsprojekt med hjälp av en baslinje, hämtas filerna dynamiskt baserat på de uppdaterade etiketterna. Om du till exempel har använt version 1.2 av ett ämne med Label Release 1.0 för baslinjen och senare uppdaterat version 1.5 med Label Release 1.0, uppdateras baslinjen dynamiskt och version 1.5 används.
 
-   ![Skapa en baslinje](images/dynamic-baseline.png){width="550" align="left"}
+   ![Skapa en baslinje](images/dynamic-baseline.png){width="300" align="left"}
 
-   - **Markera etiketter**: Om det finns etiketter för ämnena visas etiketterna i **Markera etiketter** nedrullningsbar meny. Du kan välja etiketten/etiketterna i listan. De etiketter som är markerade först får högre prioritet än de som väljs senare.
+   - **Markera etiketter**: Om det finns etiketter för ämnena använder du **Markera etiketter** listruta där du kan välja [listade etiketter](#labels-list).
+De etiketter som är markerade först får högre prioritet än de som väljs senare.
 
      För dynamiska baslinjer hämtas etiketterna från den senaste sparade versionen och den aktuella arbetskopian av kartan. Om du till exempel har skapat etiketter   `Label Release A.1.0 ` och `Label Release A.1.1` för version 1.0 och 1.1 av ämne A och etiketter `Label Release B.1.0` och `Label Release B.1.1` för version 1.0 och 1.1 av ämne B . Sedan kan du lägga till ämne A i karta A i version 1.0 och ämne B i karta A i 1.0* (arbetskopia). I det här fallet kan du visa  `Label Release A.1.0 `, `Label Release A.1.1`, `Label Release B.1.0`och `Label Release B.1.1` i listrutan med dynamiska baslinjeetiketter.
 
@@ -93,18 +94,23 @@ Du kan hantera befintliga baslinjer med hjälp av de olika funktionerna på kont
 
 
   Du kan även utföra följande åtgärder på baslinjen på Alternativ-menyn:
-- **Duplicera en baslinje**: Du kan duplicera en baslinje och ändra den efter dina behov.
-  ![duplicera en baslinje](images/baseline-duplicate.png){width="300" align="left"}
-  *Duplicera en baslinje baserat på en etikett eller skapa en exakt kopia.*
 
-   1. Välj **Duplicera** på Alternativ-menyn för en baslinje. The **Duplicera baslinje** öppnas.
-      >[!NOTE]
-      > 
-      >Baslinjens standardnamn är `<selected baseline name>`_suffix (som exempel-baseline_1). Du kan ändra namnet enligt dina önskemål.
-   1. I **Välj version baserad på** kan du antingen välja **Exakt kopia** eller **Etikett** alternativ:
-      - **Exakt kopia**: Stödlinjerna för Experience Manager väljer samma version av alla ämnen och skapar en exakt kopia av den duplicerade baslinjen.
-      - **Etikett**: Du kan välja en etikett i listrutan. Med stödlinjerna för Experience Manager väljs de versioner av avsnitten som har den valda etiketten definierad för sig, medan versionen från den duplicerade baslinjen väljs för de återstående avsnitten. Du kan till exempel välja etiketten `Release 1.0` i listrutan väljs de versioner av ämnena som du har definierat den här etiketten för. För alla andra ämnen väljs versionen från den duplicerade baslinjen.
-   1. Klicka **Duplicera**.
+### Duplicera en baslinje
+
+Du kan duplicera en baslinje och ändra den enligt dina önskemål.
+![duplicera en baslinje](images/baseline-duplicate.png){width="300" align="left"}
+*Duplicera en baslinje baserat på en etikett eller skapa en exakt kopia.*
+
+1. Välj **Duplicera** på Alternativ-menyn för en baslinje. The **Duplicera baslinje** öppnas.
+>[!NOTE]
+> >Baslinjens standardnamn är `<selected baseline name>`_suffix (som exempel-baseline_1). Du kan ändra namnet enligt dina önskemål.
+
+   I **Välj version baserad på** kan du antingen välja **Exakt kopia** eller **Etikett** alternativ:
+
+   - **Exakt kopia**: Stödlinjerna för Experience Manager väljer samma version av alla ämnen och skapar en exakt kopia av den duplicerade baslinjen.
+   - **Etikett**: I listrutan kan du välja något av [listade etiketter](#labels-list). Med stödlinjerna för Experience Manager väljs de versioner av avsnitten som har den valda etiketten definierad för sig, medan versionen från den duplicerade baslinjen väljs för de återstående avsnitten. Du kan till exempel välja etiketten `Release 1.0` i listrutan väljs de versioner av ämnena som du har definierat den här etiketten för. För alla andra ämnen väljs versionen från den duplicerade baslinjen.
+1. Klicka **Duplicera**.
+
 - **Byt namn**, eller **Ta bort** en befintlig baslinje.
 - Lägg till, ta bort eller ändra befintliga etiketter från **Hantera etiketter** för statiska baslinjer. Om administratören har konfigurerat fördefinierade etiketter visas dessa etiketter i listrutan Lägg till etikett. Mer information om hur du lägger till etiketter finns i [Använd etiketter](web-editor-use-label.md#).
 
@@ -115,7 +121,16 @@ Du kan hantera befintliga baslinjer med hjälp av de olika funktionerna på kont
 - **Redigera egenskaper** av en befintlig statisk baslinje som du har angett när du skapade baslinjen.
 - Exportera ögonblicksbilden av en baslinje i en Microsoft Excel-fil med **Exportera baslinje** alternativ.
 
-**Baslinjefilter**
+
+### Förteckning över etiketter {#labels-list}
+
+Etiketterna i listrutan baseras på följande kriterier:
+- Etiketterna ska läggas till i en av versionerna av avsnitten i DITA-kartan (som baslinjen skapas på).
+- Och bara de första nivåreferenserna (ämnen eller undermappar) i DITA-kartan beaktas när etiketterna väljs.
+
+
+
+## Baslinjefilter
 
 Använda ikonen Filter i **Baslinjefilter** kan du använda filter på baslinjen som öppnas i redigeringsfönstret för baslinjen:
 

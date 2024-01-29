@@ -4,9 +4,9 @@ description: Upptäck funktionerna i webbredigeraren i AEM. Lär dig webbrediger
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
 workflow-type: tm+mt
-source-wordcount: '17364'
+source-wordcount: '17861'
 ht-degree: 0%
 
 ---
@@ -228,6 +228,27 @@ Detta förhindrar att användarna sparar filer som bryter en regel som definiera
 
   ![](images/editor-setting-translation.png){width="550" align="left"}
 
+- **Metadata**: Du kan styra metadata för versionen av ämnet och deras värden som ska visas i **Tidigare versioner** -dialogrutan.  Ange platsen för de noder som du vill hämta metadata från i metadatasökvägen. Du kan också definiera ett anpassat namn för metadata som etikett. Standardegenskaperna är Titel, Dokumenttillstånd och Taggar.
+
+  Metadata kan hämtas från valfri egenskap under `/jcr:content` resursens nod, så att du kan lägga till egenskapens sökväg som metadatasökväg.
+
+
+  Ett fel visas om metadatasökvägen är tom. Om du lämnar etiketten tom väljs det sista elementet som etikett.
+
+
+
+
+  ![metadatafliken i redigeringsinställningarna](images/editor-setting-metadata.png){width="550" align="left"}
+
+  *Konfigurera metadata för **Tidigare versioner**-dialogrutan.*
+
+
+
+
+  Du kan också definiera i vilken ordning dessa metadatataggar ska visas. Om du vill ändra standardordningen för de här märkorden markerar du de prickade strecken för att dra och släppa märkorden på önskad plats.
+Metaetiketterna visas i samma sekvens i **Tidigare versioner** i Web Editor.
+
+
 
 **Användarinställningar** - ![](images/user_preference_editor_icon.svg)
 
@@ -270,9 +291,16 @@ Det sekundära verktygsfältet visas när du öppnar ett ämne för redigering i
 
 **Infoga element** - ![](images/Add_icon.svg)
 
-Infogar ett giltigt element på den aktuella eller nästa giltiga plats. Om du arbetar inuti ett blockelement som ett `note`använder du sedan ikonen Infoga element för att infoga ett nytt element efter `note` -element. I följande skärmbild har ett anteckningselement infogats i elementet p \(stycke\):
+Infogar ett giltigt element på den aktuella eller nästa giltiga plats. Du kan också använda kortkommandot ***Alt***+***Retur*** för att öppna popup-fönstret Infoga element. Du redigerar till exempel ett stycke och sedan i **Infoga element** visas en lista med element som kan infogas i stycket. Markera elementet som du vill infoga. Du kan använda tangentbordet för att bläddra igenom elementlistan och trycka på ***Retur*** för att infoga det nödvändiga elementet. Du kan också skriva ett tecken eller en sträng i sökrutan och söka efter elementen som börjar med det.
 
-![](images/note-in-para-insert-element_cs.png){width="800" align="left"}
+
+![infoga element](images/insert-element.png){width="300" align="left"}
+
+*Ange t om du vill söka efter alla giltiga element som börjar med t.*
+
+Om du arbetar inuti ett blockelement som ett `note`använder du sedan ikonen Infoga element för att infoga ett nytt element efter `note` -element. I följande skärmbild har ett anteckningselement infogats i elementet p \(stycke\):
+
+![Infoga element i ett blockelement](images/note-in-para-insert-element_cs.png){width="800" align="left"}
 
 Om du trycker på Retur i anteckningselementet skapas ett nytt stycke i själva anteckningselementet. Om du vill infoga ett nytt element utanför anteckningen klickar du på p-elementet \(markerat i skärmbild\) i elementets vägbeskrivning och klickar på ikonen Infoga element eller trycker på ***Alt***+***Retur*** för att öppna popup-fönstret Infoga element. Markera sedan det önskade elementet och tryck på Retur för att infoga det markerade elementet efter anteckningselementet.
 
@@ -282,7 +310,7 @@ Du kan också lägga till ett element mellan två element när en blinkande bloc
 
 Om du till exempel arbetar med ett DITA-avsnitt och blockmarkören blinkar mellan den korta beskrivningen och brödtexten kan du lägga till `prolog` och lägg sedan till copyright, författare och annan information.
 
-Ett annat sätt att ange nya element är att använda snabbmenyn. Högerklicka var som helst i dokumentet för att öppna snabbmenyn. På den här menyn väljer du Infoga element för att visa dialogrutan Infoga element och väljer det element som du vill infoga.
+Ett annat sätt att ange nya element är att använda snabbmenyn. Högerklicka var som helst i dokumentet för att öppna snabbmenyn. Välj **Infoga element** för att visa **Infoga element** och välj det element som du vill infoga.
 
 ![](images/insert-element-before-after.png){width="300" align="left"}
 
@@ -297,6 +325,10 @@ Skapar en numrerad lista på den aktuella eller nästa giltiga plats. Om du befi
 **Infoga/ta bort punktlista** - ![](images/BulletList_icon.svg)
 
 Skapar en punktlista på den aktuella eller nästa giltiga plats. Om du befinner dig i en punktlista och klickar på den här ikonen konverteras objektet till ett normalt stycke.
+
+>[!NOTE]
+>
+>Du kan också välja **Delad lista** på snabbmenyn för ett listobjekt om du vill dela upp den aktuella listan och påbörja en ny lista på samma nivå.
 
 **Infoga tabell** - ![](images/Table_icon.svg)
 
@@ -640,9 +672,10 @@ Så här sammanfogar du ändringar i en kartfil:
 
 **Tidigare versioner** - ![](images/version-history-web-editor-ico.svg)
 
-AEM innehåller olika sätt att visa versioner som har skapats för ämnesfiler och olika sätt att återgå till en viss version. De flesta av dessa funktioner är dock tillgängliga utanför Web Editor.
 
-Med funktionen Versionshistorik i Web Editor kan du inte bara kontrollera de tillgängliga versionerna och etiketterna i det aktiva ämnet, utan du kan även återgå till valfri version från redigeraren.
+The **Tidigare versioner** i Web Editor kan du kontrollera vilka versioner av dina DITA-filer som är tillgängliga, jämföra dem och återgå till valfri version från redigeraren.
+
+I versionshistoriken kan du jämföra den aktuella versionens innehåll och metadata (som också kan vara en arbetskopia) med en tidigare version av samma fil. Du kan också visa etiketter och kommentarer för de jämförda versionerna.
 
 Så här får du åtkomst till versionshistoriken och återgår till en specifik version av ditt ämne:
 
@@ -650,19 +683,39 @@ Så här får du åtkomst till versionshistoriken och återgår till en specifik
 
 1. Klicka **Tidigare versioner**.
 
-   Dialogrutan Versionshistorik visas.
+   The **Tidigare versioner** visas.
 
-   ![](images/version-history-dialog-web-editor.png){width="550" align="left"}
+   ![Version - dialogruta](images/version-history-dialog-web-editor.png){width="550" align="left"}
+   *Förhandsgranska ändringarna i de olika versionerna av ett ämne.*
 
-1. Välj en version av ämnet som du vill återgå till i **Välj version** listruta.
+1. Välj en version av ämnet som du vill jämföra eller återgå till i **Jämför med** listruta.
 
    >[!NOTE]
    >
    > Om en version har etiketter som används på den visas de också \(inom hakparenteser\) tillsammans med versionsnumret.
 
-   När du har valt en version i listrutan är alternativet Återställ till markerad version tillgängligt. I förhandsvisningsfönstret visas skillnaderna mellan den aktuella versionen och den valda versionen av ämnet.
 
-   ![](images/version-history-revert-diff-dialog-web-editor.png){width="550" align="left"}
+
+1. Aktivera **Visa etiketter och kommentarer** om du vill visa etiketter och kommentarer som används för den aktuella versionen och den jämförda versionen.
+
+1. Du kan även visa följande information i **Tidigare versioner** dialogruta:
+
+   **Förhandsgranska** tab: Det nya innehållet är i grönt och det borttagna innehållet är i rött teckensnitt.
+
+   **Metadata** Fliken: De nya metadata som läggs till är i grönt teckensnitt och de borttagna metadata är i rött teckensnitt.
+   ![Metadataskillnad för versioner ](images/metadata-version-diff.png){width="550" align="left"}
+   *Jämför metadata för olika versioner i versionshistoriken.*
+
+   >[!NOTE]
+   >
+   > Systemadministratören kan ändra de metadata som ska visas på fliken Metadata i redigeringsinställningarna.
+
+   Du kan även visa användar- och tidsinformation för den aktuella och den jämförda versionen.
+
+
+
+1. När du har valt en version i listrutan visas **Alternativet Återställ till markerad version** är tillgänglig. I förhandsvisningsfönstret visas skillnaderna mellan den aktuella versionen och den valda versionen av ämnet.
+
 
 1. Klicka **Återställ till markerad version** om du vill återställa arbetskopian med den valda versionen av ämnet.
 
@@ -677,7 +730,7 @@ Så här får du åtkomst till versionshistoriken och återgår till en specifik
    Arbetskopian av filen återställs till den valda versionen. Om du väljer att skapa en ny version av den aktiva arbetskopian skapas även en ny version av filen med alla arbetsändringar.
 
 
-När du återgår till en tidigare version visas en visuell indikation på att den version du för närvarande arbetar med inte är den senaste versionen.
+När du återgår till en tidigare version visas en visuell indikation på att den version du arbetar med för närvarande inte är den senaste versionen.
 
 ![](images/older-version-visual-cue.png){width="800" align="left"}
 
@@ -1114,7 +1167,10 @@ I **Ladda ned karta** kan du välja följande alternativ:
 
   Du kan även hämta kartfilen utan att välja något alternativ. I så fall hämtas de senast beständiga versionerna av de ämnen och mediefiler som refereras.
 
-  När du har klickat på **Ladda ned** är begäran om hämtning av karta köad. Du får ett meddelande om att kartan är klar att hämtas. Om hämtningen misslyckas får du ett meddelande om att hämtningen av kartan misslyckades
+
+  När du har klickat på **Ladda ned** är begäran om kartexportpaket köad. The **Lyckades** visas om paketet har skapats.  Du kan klicka på **Ladda ned** från **Lyckades** -dialogrutan.
+
+  Du får ett meddelande om att kartan är klar att hämtas. Om hämtningen misslyckas får du ett meddelande om att hämtningen av kartan misslyckades.
 
   Du kommer åt nedladdningslänken från AEM meddelandeinkorg. Välj det genererade kartmeddelandet i Inkorgen för att hämta kartan i ZIP-format.
 
@@ -1801,7 +1857,9 @@ Om administratören har skapat en profil för attribut får du dessa attribut ti
 
 **Filegenskaper** -  ![](images/topic-properties-icon.svg)
 
-Visa egenskaperna för den markerade filen genom att klicka på ikonen Filegenskaper i den högra panelen. File Properties har följande två avsnitt:
+Visa egenskaperna för den markerade filen genom att klicka på filegenskaperna ![](images/topic-properties-icon.svg) i den högra panelen. Funktionen Filegenskaper är tillgänglig i alla fyra lägen eller vyer: Layout, Författare, Källa och Förhandsgranska.
+
+File Properties har följande två avsnitt:
 
 **Allmänt**
 

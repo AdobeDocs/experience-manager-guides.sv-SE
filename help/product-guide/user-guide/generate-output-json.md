@@ -4,9 +4,9 @@ description: Lär dig hur du skapar JSON-förinställningar från webbredigerare
 exl-id: 9eb426fc-ca0a-4932-8a55-fea731281a0a
 feature: Publishing
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '626'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,6 @@ I webbredigeraren har följande konfigurationer ordnats under **Allmänt** tab:
 
 Mer information finns i [JSON-konfiguration](#id231KJA00REJ).
 
-**Från kartpanelen**
-
-Om du vill öppna förinställningar för utdata för PDF klickar du på en DITA-kartfil i användargränssnittet för resurser, klickar på Utdatainställningar och sedan på alternativet HTML 5. Klicka på **Redigera** överst för att uppdatera de olika konfigurationerna och sedan klicka på **Spara**.
 
 **JSON-konfiguration**
 

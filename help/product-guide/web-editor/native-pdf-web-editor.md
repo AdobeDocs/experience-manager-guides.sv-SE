@@ -4,9 +4,9 @@ description: Lär dig hur du använder publicering i PDF, skapar och genererar e
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
 feature: Publishing, Web Editor, Native PDF Output
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
 workflow-type: tm+mt
-source-wordcount: '3196'
+source-wordcount: '3293'
 ht-degree: 0%
 
 ---
@@ -87,16 +87,20 @@ Metadata är beskrivningen eller definitionen av ditt innehåll. Metadata hjälp
 
 Använd fliken Metadata för att ange metadatafält som författarens namn, dokumenttitel, nyckelord, copyrightinformation och andra datafält för utdata från PDF. Du kan också lägga till anpassade metadata för utdata från PDF.
 
-Dessa metadata mappas till metadata på fliken Beskrivning i dokumentegenskaperna för utdata-PDF.
+Dessa metadata mappas till metadata i **Beskrivning** -fliken i **Dokumentegenskaper** av dina utdata PDF.
 
-**Anteckning**: Dessa metadata åsidosätter de metadata som definierats på boknivå.
+
 
 <img src="assets/pdf-metadata.png" alt="metadata, flik" width="600">
 
-Från förinställningarna för utdata, **markera PDF** > **Metadata** för att lägga till och anpassa metadataalternativ.
+Välj  **PDF** > **Native-PDF** > **Metadata** för att lägga till och anpassa metadataalternativ.
+* **Använd metadata som lagts till i topicmeta**
+
+  Det här alternativet är markerat som standard. Du kan använda de metadata som du har lagt till i topicmeta-elementet i DITA-kartan för att fylla i metadatafälten i utdata från PDF.
+
 * **Ange XMP fil**
 
-  Metadatafält kan fyllas i direkt genom import [XMP](https://www.adobe.com/products/xmp.html) (Extensible Metadata Platform)-fil. Här kan du hämta ett XMP.
+  Du kan även fylla i metadatafälten direkt genom att importera [XMP](https://www.adobe.com/products/xmp.html) (Extensible Metadata Platform)-fil. Här kan du hämta ett XMP.
 
 [Ladda ned](assets/SampleXMP.xmp)
 
@@ -169,6 +173,7 @@ Använd följande alternativ för att ange avancerade inställningar för att sa
 | **Aktivera MathML-ekvationer** | Välj det här alternativet om du vill återge MathML-ekvationer i innehållet. Ekvationerna ignoreras annars som standard. |
 | **Hämta temporära filer** | Markera det här alternativet om du vill hämta de mellanliggande HTML-filer som skapas när utdata för PDF skapas. Du kan hämta de tillfälliga filerna senare när du har genererat utdata. |
 | **PDF-överensstämmelse** | Det är den standard som du tänker spara PDF för att säkerställa att den är kompatibel. Välj i listrutan om du vill välja i listan över tillgängliga PDF-standarder. Mer information om vilka standarder som stöds finns i [Om PDF-standarder](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
+| **Filegenskaper** | Markera de metadata som du vill skicka till Native PDF. I listrutan visas både de anpassade egenskaperna och standardegenskaperna. Till exempel: `dc:description`, `dc:language`, `dc:title`och `docstate` är standardegenskaperna medan du kan ha `author` som den anpassade egenskapen. De markerade metadataegenskaperna skickas till PDF-filen som skapats med PDF. <br> De här egenskaperna hämtas från `metadataList` finns på:`/libs/fmdita/config/metadataList`. <br>Filen kan överlappas av: `/apps/fmdita/config/metadataList`. |
 
 
 ## Generera utdata för PDF {#generate-pdf-output}

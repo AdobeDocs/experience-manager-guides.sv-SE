@@ -4,9 +4,9 @@ description: Lär dig hur du hanterar filer och mappar i AEM. Kopiera och klistr
 exl-id: e5b44286-7ac3-49e4-9e6f-7bc8ae2fc935
 feature: Content Management
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
 workflow-type: tm+mt
-source-wordcount: '3108'
+source-wordcount: '3109'
 ht-degree: 0%
 
 ---
@@ -181,7 +181,7 @@ Så här flyttar du flera filer samtidigt:
    > Välj <img src="images/info-icon.svg" width="25">   i närheten av ett fält för att visa mer information om det.
 
    - **Batchstorlek**: Ange antalet filer som ska flyttas i en enda grupp. Standardvärdena om det finns 50 filer.
-   - **Vilointervall**: Ange tiden i sekunder som processen väntar innan nästa grupp startas. Under vilolägestidsintervallet korrigeras referenserna till och från de flyttade filerna. Standardintervallet för strömsparläge är 60 sekunder.
+   - **Vilolägesintervall (sekunder)**: Ange tiden i sekunder som processen väntar innan nästa grupp startas. Under vilolägestidsintervallet korrigeras referenserna till och från de flyttade filerna. Standardintervallet för strömsparläge är 60 sekunder.
 
 
    - **Lägg till suffix till duplicerade mappar**: Om du flyttar mappar med samma namn måste du välja det här alternativet. I den föregående skärmbilden **Källsökväg** innehåller namnet på de mappar som ska flyttas. Mappen med namnet topic finns på två olika platser - test-A och test-B. När du väljer det här alternativet flyttas mapparna. Den första flyttade mappen får namnet topic medan den andra mappen får namnet topic0. Flyttåtgärden lägger till ett suffix i sekventiell serie \(0, 1, 2 och så vidare\) i mapparna med samma namn.

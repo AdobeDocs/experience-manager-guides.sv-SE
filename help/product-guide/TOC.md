@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Läs produktdokumentationen för Adobe Experience Manager Guides.
 breadcrumb-title: Dokumentation om AEM Guides
-source-git-commit: 4bb3a064a44b0b0c638ef22d0d7c219c77a20b20
+source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
 workflow-type: tm+mt
-source-wordcount: '1686'
+source-wordcount: '1699'
 ht-degree: 2%
 
 ---
@@ -58,23 +58,28 @@ ht-degree: 2%
             + [Versionsinformation, februari](./release-info/release-notes-2022.2.0.md)
             + [Versionsinformation för januari](./release-info/release-notes-2022.1.0.md)
       + Lokalt/Managed Services {#on-prem-release-notes}
-         + 4.3.0 Release {#43-release}
-            + Nyheter {#43-whats-new}
-               + [4.3.1 Nyheter](./release-info/whats-new-4.3.1-release.md)
-               + [4.3.0 Nyheter](./release-info/whats-new-4.3-release.md)
-            + Versionsinformation {#43-release-notes}
-               + [4.3.1 Versionsinformation](./release-info/release-notes-4.3.1.md)
-               + [4.3.0 Versionsinformation](./release-info/release-notes-4.3.md)
-         + 4.2 Utgåva {#42-release}
-            + Nyheter {#42-whats-new}
-               + [4.2.1 Nyheter](./release-info/whats-new-4.2.1-release.md)
-               + [4.2 Nyheter](./release-info/whats-new-4.2-release.md)
-            + Versionsinformation {#42-release-notes}
-               + [4.2.1 Versionsinformation](./release-info/release-notes-4.2.1.md)
-               + [4.2 Versionsinformation](./release-info/release-notes-4.2.md)
-         + [4.1.x Versionsinformation](./release-info/release-notes-4.1.md)
-         + [4.0.x Versionsinformation](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         + [Versionsinformation om 3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+      + 4.4.0 Release {#44-release}
+         + Nyheter {#44-whats-new}
+            + [4.4 Nyheter](./release-info/whats-new-4.4.md)
+         + Versionsinformation {#43-release-notes}
+            + [4.4 Versionsinformation](./release-info/release-notes-4.4.md)
+      + 4.3.0 Release {#43-release}
+         + Nyheter {#43-whats-new}
+            + [4.3.1 Nyheter](./release-info/whats-new-4.3.1-release.md)
+            + [4.3.0 Nyheter](./release-info/whats-new-4.3-release.md)
+         + Versionsinformation {#43-release-notes}
+            + [4.3.1 Versionsinformation](./release-info/release-notes-4.3.1.md)
+            + [4.3.0 Versionsinformation](./release-info/release-notes-4.3.md)
+      + 4.2 Utgåva {#42-release}
+         + Nyheter {#42-whats-new}
+            + [4.2.1 Nyheter](./release-info/whats-new-4.2.1-release.md)
+            + [4.2 Nyheter](./release-info/whats-new-4.2-release.md)
+         + Versionsinformation {#42-release-notes}
+            + [4.2.1 Versionsinformation](./release-info/release-notes-4.2.1.md)
+            + [4.2 Versionsinformation](./release-info/release-notes-4.2.md)
+      + [4.1.x Versionsinformation](./release-info/release-notes-4.1.md)
+      + [4.0.x Versionsinformation](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+      + [Versionsinformation om 3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 + Användarhandbok {#user-guide}
    + Introduktion {#about-aem-guide}
       + [Om [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)

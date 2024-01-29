@@ -4,9 +4,9 @@ description: Översätt ditt innehåll till flera språk från webbredigeraren. 
 exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
 workflow-type: tm+mt
-source-wordcount: '1907'
+source-wordcount: '1925'
 ht-degree: 0%
 
 ---
@@ -37,8 +37,8 @@ Innan du utför stegen i den här proceduren måste du se till att du har skapat
 ## Skapa ett översättningsprojekt
 
 1. Öppna DITA-mappningsfilen i mappningsvyn på databaspanelen.
-1. Klicka på **Hantera** -fliken. På översättningspanelen visas den hyperlänkade titeln för DITA-kartan tillsammans med **Språk** lista.
-1. Från **Språk** väljer du den språkinställning som du vill översätta projektet till. Du kan välja **Alla** för att översätta projektet till alla tillgängliga språk.
+1. Klicka på **Hantera** -fliken. På översättningspanelen visas **Tillgängliga språk** lista.
+1. Från **Tillgängliga språk** väljer du den språkinställning som du vill översätta projektet till. Du kan **Markera alla** för att översätta projektet till alla tillgängliga språk.
 
    >[!NOTE]
    >
@@ -46,11 +46,13 @@ Innan du utför stegen i den här proceduren måste du se till att du har skapat
 
    >[!IMPORTANT]
    >
-   > Språk visar endast de språk för vilka en språkmapp skapas parallellt med källspråket. En språkmapp som skapats på en annan nivå, t.ex. en nivå ned från källspråksmappen, visas inte heller. Se till att du skapar alla målspråksmappar på samma nivå som källspråksmappen.
+   > I listan visas endast de språk för vilka en språkmapp skapas parallellt med källspråket. En språkmapp som skapats på en annan nivå, t.ex. en nivå ned från källspråksmappen, visas inte heller. Se till att du skapar alla målspråksmappar på samma nivå som källspråksmappen.
 
-   ![](images/translation-languages.png){width="350" align="left"}
+   ![](images/translation-languages.png){width="300" align="left"}
 
-1. Du kan även använda följande alternativ:
+1. Du kan också välja något av följande alternativ för att översätta projektet:
+
+   **Ingen** Välj det här alternativet om du vill översätta standardversionerna av filerna. Det här alternativet är markerat som standard.
 
    **Använd baslinje:** Du kan välja en baslinje för att översätta projektet. Klicka på Använd baslinje och välj en baslinje som skapats på kartan. Alla filer som ingår i den valda baslinjen visas på översättningssidan. När innehållet har översatts kan du exportera den översatta baslinjen. Mer information om hur du exporterar den översatta baslinjen finns i [Exportera översatt originalplan](generate-output-use-baseline-for-publishing.md#id196SE600GHS).
 
@@ -146,7 +148,7 @@ Om du till exempel har källfiler med versionsetiketten `Release 1.0` som använ
 
 AEM innehåller en funktion för att kontrollera skillnaderna mellan den valda versionen och den senaste översatta källversionen av avsnitten. Du kan översätta **Slut på synkronisering** filer baserat på gjorda ändringar.
 
-![](images/translation-version-diff.png){width="800" align="left"}
+![](images/translation-version-diff.png){width="650" align="left"}
 
 Välj **Visa differens** icon \(![](images/show-difference-icon.svg)\) om du vill se skillnaderna mellan den senaste översatta versionen och den aktuella versionen av den markerade filen.
 

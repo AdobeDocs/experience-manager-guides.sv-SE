@@ -3,9 +3,9 @@ title: Versionsinformation | Nyheter i Adobe Experience Manager Guides, december
 description: Läs om de nya och förbättrade funktionerna i december 2023-utgåvan av Adobe Experience Manager Guides as a Cloud Service.
 feature: What's New
 role: Leader
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '966'
 ht-degree: 0%
 
 ---
@@ -128,13 +128,6 @@ Du kan också duplicera en baslinje baserat på etiketten. Referensversionen vä
 *Duplicera en baslinje baserat på en etikett eller skapa en exakt kopia.*
 
 Läs mer om hur [skapa och hantera baslinjer från Web Editor](../user-guide/web-editor-baseline.md).
-
-## Förbättrad process för att skapa kartsamling med massaktivering
-
-Processen med att skapa en gruppaktiveringskarta är nu mer harmonisk. När nu sidan Aktiveringsresultat visas kan du se resultaten av aktivering och loggar.
-Mer information finns i [Skapa en gruppaktiveringskarta](../user-guide/conf-bulk-activation-create-map-collection.md).
-
-
 
 ## Lösa länkar för korsmappning i AEM webbplatsutdata
 
