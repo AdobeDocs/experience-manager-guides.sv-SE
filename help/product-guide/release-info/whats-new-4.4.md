@@ -1,9 +1,9 @@
 ---
 title: Versionsinformation | Nyheter i Adobe Experience Manager Guides 4.4.0
 description: Läs om de nya och förbättrade funktionerna i version 4.4.0 av Adobe Experience Manager Guides
-source-git-commit: ca86700d033ad8eb7cdba917f010f3aa71113a19
+source-git-commit: 027e8e6a6119145a5b2255449514a76488c90463
 workflow-type: tm+mt
-source-wordcount: '2293'
+source-wordcount: '2307'
 ht-degree: 0%
 
 ---
@@ -177,6 +177,7 @@ Med hjälp av stödlinjerna i Experience Manager kan du som administratör konfi
 
 Experience Manager tillhandahåller funktionen för att skapa baslinjer genom att automatiskt välja ämnen enligt den etikett som används på dem. Nu kan du också enkelt publicera flera förinställningar med automatiska baslinjer från samma DITA-karta. Du behöver inte publicera bara en förinställning i taget, men du kan enkelt publicera flera förinställningar parallellt.
 
+Läs mer om hur [skapa och hantera baslinjer från Web Editor](../user-guide/web-editor-baseline.md).
 
 ## Förbättringar av inbyggda PDF
 
@@ -216,10 +217,10 @@ Du kan använda format och formatera variablerna med HTML.  Du kan också snabbt
 Läs mer om hur du använder [variabler i utdata från PDF](../native-pdf/native-pdf-variables.md).
 
 
-### Föreslå metadata för resurser i utdata från PDF
+### Sprid metadata för resurser till utdata från PDF
 
 Experience Manager kan nu överföra resursernas metadataegenskaper från DITA-kartan till utdata från PDF.
-I utdataförinställningen för Inbyggd PDF kan du välja de metadata som ska användas för publiceringsprocessen PDF. Du kan välja både anpassade egenskaper och standardegenskaper.  De markerade metadataegenskaperna överförs till PDF-filen som skapas med PDF.
+I utdataförinställningen för PDF kan du välja de metadata som du vill sprida till publiceringsprocessen för PDF. Du kan välja både anpassade egenskaper och standardegenskaper.  De markerade metadataegenskaperna överförs till PDF-filen som skapas med PDF.
 
 Den här funktionen är användbar eftersom den hjälper dig att hålla resursegenskaperna som författare, skapandedatum eller dokumenttitel konsekventa. Det gör det enklare att ordna, söka i och kategorisera dokumenten.
 
