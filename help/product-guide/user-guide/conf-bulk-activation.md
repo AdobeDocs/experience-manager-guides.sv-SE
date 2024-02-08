@@ -4,7 +4,7 @@ description: Läs om massaktivering av publicerat innehåll. Läs om fördelarna
 exl-id: 3643ecab-b5c1-41ea-8b7b-1470ead63aec
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 5dac015816317ee9739c7c3678541592a7145e89
 workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Massaktivering av publicerat innehåll {#id214GG080LE8}
 
-I ett verkligt ordscenario har författarna åtkomst till redigeringsinstansen av AEM medan det faktiska innehållet publiceras på publiceringsinstansen av AEM. Publiceringsinstanserna kan sedan distribueras vidare över olika geografiska platser. Publicerade utdata måste gå över till dessa publiceringsservrar via olika processer. Processen att flytta innehåll från redigeringsinstansen till publiceringsinstansen kallas aktivering eller replikering av innehåll.
+I ett verkligt scenario skulle författarna ha tillgång till redigeringsinstansen av AEM medan det faktiska innehållet publiceras på publiceringsinstansen av AEM. Publiceringsinstanserna kan sedan distribueras vidare över olika geografiska platser. Publicerade utdata måste gå över till dessa publiceringsservrar via olika processer. Processen att flytta innehåll från redigeringsinstansen till publiceringsinstansen kallas aktivering eller replikering av innehåll.
 
 >[!NOTE]
 >
