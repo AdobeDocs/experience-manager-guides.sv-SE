@@ -2,7 +2,7 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Läs produktdokumentationen för Adobe Experience Manager Guides.
 breadcrumb-title: Dokumentation om AEM Guides
-source-git-commit: 1171f785ff183f9d3332842fb9a15e123041de4a
+source-git-commit: ae821964e123079707f51377390df378230680fc
 workflow-type: tm+mt
 source-wordcount: '1699'
 ht-degree: 2%
@@ -21,63 +21,63 @@ ht-degree: 2%
          + [Distributionsanvisningar](./release-info/deploy-xml-on-aemaacs.md)
          + 2023 års utgåvor {#2023-releases}
             + December-utgåvan {#2312-release}
-               + [Nyheter](./release-info/whats-new-2023.12.0.md)
-               + [Versionsinformation](./release-info/release-notes-2023.12.0.md)
+               + [Nyheter](./release-info/whats-new-2023-12-0.md)
+               + [Versionsinformation](./release-info/release-notes-2023-12-0.md)
             + Novemberversion {#2311-release}
-               + [Nyheter](./release-info/whats-new-2023.11.0.md)
-               + [Versionsinformation](./release-info/release-notes-2023.11.0.md)
+               + [Nyheter](./release-info/whats-new-2023-11-0.md)
+               + [Versionsinformation](./release-info/release-notes-2023-11-0.md)
             + Oktober-versionen {#2310-release}
-               + [Nyheter](./release-info/whats-new-2023.10.0.md)
-               + [Versionsinformation](./release-info/release-notes-2023.10.0.md)
+               + [Nyheter](./release-info/whats-new-2023-10-0.md)
+               + [Versionsinformation](./release-info/release-notes-2023-10-0.md)
             + Septemberversionen {#2309-release}
-               + [Nyheter](./release-info/whats-new-2023.9.0.md)
-               + [Versionsinformation](./release-info/release-notes-2023.9.0.md)
+               + [Nyheter](./release-info/whats-new-2023-9-0.md)
+               + [Versionsinformation](./release-info/release-notes-2023-9-0.md)
             + juliversion {#2307-release}
-               + [Nyheter](./release-info/whats-new-2023.7.0.md)
-               + [Versionsinformation](./release-info/release-notes-2023.7.0.md)
+               + [Nyheter](./release-info/whats-new-2023-7-0.md)
+               + [Versionsinformation](./release-info/release-notes-2023-7-0.md)
             + Juniversion {#2306-release}
-               + [Nyheter](./release-info/whats-new-2023.6.0.md)
-               + [Versionsinformation](./release-info/release-notes-2023.6.0.md)
+               + [Nyheter](./release-info/whats-new-2023-6-0.md)
+               + [Versionsinformation](./release-info/release-notes-2023-6-0.md)
             + April-utgåvan {#2304-release}
-               + [Nyheter](./release-info/whats-new-2023.4.0.md)
-               + [Versionsinformation](./release-info/release-notes-2023.4.0.md)
+               + [Nyheter](./release-info/whats-new-2023-4-0.md)
+               + [Versionsinformation](./release-info/release-notes-2023-4-0.md)
             + Marsutgåva {#2303-release}
-               + [Nyheter](./release-info/whats-new-2023.3.0.md)
-               + [Versionsinformation](./release-info/release-notes-2023.3.0.md)
+               + [Nyheter](./release-info/whats-new-2023-3-0.md)
+               + [Versionsinformation](./release-info/release-notes-2023-3-0.md)
             + Februariversion {#2302-release}
-               + [Nyheter](./release-info/whats-new-2023.2.0.md)
-               + [Versionsinformation](./release-info/release-notes-2023.2.0.md)
+               + [Nyheter](./release-info/whats-new-2023-2-0.md)
+               + [Versionsinformation](./release-info/release-notes-2023-2-0.md)
          + 2022 års utgåvor {#2022-releases}
-            + [Versionsinformation, november](./release-info/release-notes-2022.11.0.md)
-            + [Versionsinformation, oktober](./release-info/release-notes-2022.10.0.md)
-            + [Versionsinformation för september](./release-info/release-notes-2022.9.0.md)
-            + [Versionsinformation, augusti](./release-info/release-notes-2022.8.0.md)
-            + [Versionsinformation](./release-info/release-notes-2022.5.0.md)
-            + [Versionsinformation, april](./release-info/release-notes-2022.4.0.md)
-            + [Versionsinformation om mars](./release-info/release-notes-2022.3.0.md)
-            + [Versionsinformation, februari](./release-info/release-notes-2022.2.0.md)
-            + [Versionsinformation för januari](./release-info/release-notes-2022.1.0.md)
+            + [Versionsinformation, november](./release-info/release-notes-2022-11-0.md)
+            + [Versionsinformation, oktober](./release-info/release-notes-2022-10-0.md)
+            + [Versionsinformation för september](./release-info/release-notes-2022-9-0.md)
+            + [Versionsinformation, augusti](./release-info/release-notes-2022-8-0.md)
+            + [Versionsinformation](./release-info/release-notes-2022-5-0.md)
+            + [Versionsinformation, april](./release-info/release-notes-2022-4-0.md)
+            + [Versionsinformation om mars](./release-info/release-notes-2022-3-0.md)
+            + [Versionsinformation, februari](./release-info/release-notes-2022-2-0.md)
+            + [Versionsinformation för januari](./release-info/release-notes-2022-1-0.md)
       + Lokalt/Managed Services {#on-prem-release-notes}
       + 4.4.0 Release {#44-release}
          + Nyheter {#44-whats-new}
-            + [4.4 Nyheter](./release-info/whats-new-4.4.md)
+            + [4.4 Nyheter](./release-info/whats-new-4-4.md)
          + Versionsinformation {#44-release-notes}
-            + [4.4 Versionsinformation](./release-info/release-notes-4.4.md)
+            + [4.4 Versionsinformation](./release-info/release-notes-4-4.md)
       + 4.3.0 Release {#43-release}
          + Nyheter {#43-whats-new}
-            + [4.3.1 Nyheter](./release-info/whats-new-4.3.1-release.md)
-            + [4.3.0 Nyheter](./release-info/whats-new-4.3-release.md)
+            + [4.3.1 Nyheter](./release-info/whats-new-4-3-1-release.md)
+            + [4.3.0 Nyheter](./release-info/whats-new-4-3-release.md)
          + Versionsinformation {#43-release-notes}
-            + [4.3.1 Versionsinformation](./release-info/release-notes-4.3.1.md)
-            + [4.3.0 Versionsinformation](./release-info/release-notes-4.3.md)
+            + [4.3.1 Versionsinformation](./release-info/release-notes-4-3-1.md)
+            + [4.3.0 Versionsinformation](./release-info/release-notes-4-3.md)
       + 4.2 Utgåva {#42-release}
          + Nyheter {#42-whats-new}
-            + [4.2.1 Nyheter](./release-info/whats-new-4.2.1-release.md)
-            + [4.2 Nyheter](./release-info/whats-new-4.2-release.md)
+            + [4.2.1 Nyheter](./release-info/whats-new-4-2-1-release.md)
+            + [4.2 Nyheter](./release-info/whats-new-4-2-release.md)
          + Versionsinformation {#42-release-notes}
-            + [4.2.1 Versionsinformation](./release-info/release-notes-4.2.1.md)
-            + [4.2 Versionsinformation](./release-info/release-notes-4.2.md)
-      + [4.1.x Versionsinformation](./release-info/release-notes-4.1.md)
+            + [4.2.1 Versionsinformation](./release-info/release-notes-4-2-1.md)
+            + [4.2 Versionsinformation](./release-info/release-notes-4-2.md)
+      + [4.1.x Versionsinformation](./release-info/release-notes-4-1.md)
       + [4.0.x Versionsinformation](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
       + [Versionsinformation om 3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 + Användarhandbok {#user-guide}

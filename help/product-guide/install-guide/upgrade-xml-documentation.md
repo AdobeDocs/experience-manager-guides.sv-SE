@@ -5,7 +5,7 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
+source-git-commit: 5a444e88b0adba7fa3d498437df39b729b10b5eb
 workflow-type: tm+mt
 source-wordcount: '5744'
 ht-degree: 0%
@@ -237,7 +237,7 @@ När du har installerat guider för Experience Manager kan du sammanfoga de olik
    - ui\_config.json\(kan ha angetts i mappprofiler\)
    - ändrad `com.adobe.fmdita.config.ConfigManager`
    - Kontrollera om någon av de anpassade koderna använder några gamla sökvägar \(som anges i [Migreringsmappning](#id2244LE040XA) ) - ska uppdateras till de nya sökvägarna så att anpassningarna också fungerar som förväntat.
-1. Läs om nya konfigurationer i den aktuella versionen \(kontrollera [Versionsinformation](../release-info/release-notes-4.3.md)\) och se om någon funktion påverkas genom att vidta lämpliga åtgärder. Ett exempel kan vara att använda&quot;Förbättrad fil- och versionshantering&quot; som introducerades i version 4.0, som du måste aktivera en konfiguration för.
+1. Läs om nya konfigurationer i den aktuella versionen \(kontrollera [Versionsinformation](../release-info/release-notes-4-3.md)\) och se om någon funktion påverkas genom att vidta lämpliga åtgärder. Ett exempel kan vara att använda&quot;Förbättrad fil- och versionshantering&quot; som introducerades i version 4.0, som du måste aktivera en konfiguration för.
 
 ## Steg för att indexera befintligt innehåll så att det använder den nya funktionen för att söka och ersätta:
 
@@ -452,7 +452,7 @@ När du har installerat guider för Experience Manager kan du sammanfoga de olik
    - ui\_config.json\(kan ha angetts i mappprofiler\)
    - ändrad `com.adobe.fmdita.config.ConfigManager`
    - Kontrollera om någon av de anpassade koderna använder några gamla sökvägar \(som anges i [Migreringsmappning](#id2244LE040XA) ) - ska uppdateras till de nya sökvägarna så att anpassningarna också fungerar som förväntat.
-1. Läs om nya konfigurationer i den aktuella versionen \(kontrollera [Versionsinformation](../release-info/release-notes-4.2.1.md)\) och se om någon funktion påverkas genom att vidta lämpliga åtgärder. Ett exempel kan vara att använda&quot;Förbättrad fil- och versionshantering&quot; som introducerades i version 4.0, som du måste aktivera en konfiguration för.
+1. Läs om nya konfigurationer i den aktuella versionen \(kontrollera [Versionsinformation](../release-info/release-notes-4-2-1.md)\) och se om någon funktion påverkas genom att vidta lämpliga åtgärder. Ett exempel kan vara att använda&quot;Förbättrad fil- och versionshantering&quot; som introducerades i version 4.0, som du måste aktivera en konfiguration för.
 
 ## Steg för att indexera befintligt innehåll så att det använder den nya funktionen för att söka och ersätta:
 
