@@ -4,9 +4,9 @@ description: Konfigurera AEM för Native PDF
 exl-id: 40266ca0-0b0b-4418-b606-f70270addbaa
 feature: Native PDF Output
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: a41fed965ed9fe33994478d51030eefdad1037de
 workflow-type: tm+mt
-source-wordcount: '902'
+source-wordcount: '938'
 ht-degree: 1%
 
 ---
@@ -181,6 +181,12 @@ Om problemet kvarstår även efter att Java-miljöinställningarna har korrigera
 
 Validera timeout-egenskapsvärdet för nodatumnoden i /var/dxml/profiles/b1aad0a7-9079-e56c-1ed8-6fcababe8166/nodatums i CRX-databasen. Standardvärdet är 300.
 
+### Fel vid extrahering av beroendeundantag (strängen är för lång)
+![Strängen är för lång](..//assets/publishing/string-too-long-error.png)
+
+Så här undviker du det här undantaget:
+1. Ta bort vissa format som inte behövs för att göra dem mindre.
+2. Skapa flera formatmallar i stället för en enda stor CSS.
 
 
 Om du råkar ut för problem när du utför något av ovanstående steg kan du skicka din fråga till AEM Guides Community [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) om du behöver hjälp.
