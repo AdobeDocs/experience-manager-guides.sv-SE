@@ -1,34 +1,41 @@
 ---
-title: Versionsinformation | Nyheter i Adobe Experience Manager Guides, februari 2024
-description: Läs om de nya och förbättrade funktionerna i februari 2024-utgåvan av Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+title: Versionsinformation | Nyheter i Adobe Experience Manager Guides, version 2024.2.0
+description: Lär dig de nya och förbättrade funktionerna i version 2024.2.0 av Adobe Experience Manager Guides as a Cloud Service.
+source-git-commit: f5940d0ddf19733411532281fb614690075c02ee
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1069'
 ht-degree: 0%
 
 ---
 
-# Nyheter i februari 2024-utgåvan av Adobe Experience Manager Guides as a Cloud Service
+# Nyheter i version 2024.2.0
 
-I den här artikeln beskrivs de nya och förbättrade funktionerna i februari 2024-versionen av Adobe Experience Manager Guides (kallas senare *as a Cloud Service stödlinjer för Experience Manager*).
+I den här artikeln beskrivs de nya och förbättrade funktionerna i version 2024.2.0 av Adobe Experience Manager Guides.
 
-Mer information om uppgraderingsinstruktioner, kompatibilitetsmatris och problemen som åtgärdas i den här versionen finns i [Versionsinformation](release-notes-2023-12-0.md).
+En lista över problem som har åtgärdats i den här versionen finns på [Problem i version 2024.2.0 har korrigerats](fixed-issues-2024-2-0.md).
 
-## AI-baserade smarta förslag för att skapa innehåll
+
+Läs mer om [uppgraderingsinstruktioner för version 2024.2.0](upgrade-instructions-2024-2-0.md).
+
+
+
+## Smarta förslag som bygger på AI för att lägga till innehållsreferenser när du redigerar innehåll
 
 Nu kan du förbättra redigeringsprocessen med smarta förslag, en ny AI-baserad funktion i Web Editor. När du skapar ditt innehåll ger den här smarta funktionen realtidsförslag på innehållsreferenser, förbättrar ditt arbetsflöde, ökar noggrannheten och säkerställer oöverträffad effektivitet.
 
 
 För att innehållet ska bli korrekt och konsekvent begränsas sökningen och förslagen till det innehåll som ägs av organisationen och är nära matchade med de nyckelord som du söker efter.
 
-![Panelen Smarta förslag i Web Editor ](web-editor-smart-suggestion.png) {width="800" align="left"}
+![Panelen Smarta förslag i Web Editor ](assets/web-editor-smart-suggestion.png) {width="800" align="left"}
 
 
 *Visa Smarta förslag för att hitta och lägga till matchande innehållsreferenser från ditt innehållsarkiv.*
 
-Du kan också jämföra det aktuella innehållet med liknande innehåll i andra ämnen. Sedan kan du enkelt välja ut delar av innehållet från olika ämnen och lägga till dem som innehållsreferenser i det aktuella ämnet. Genom att lägga till innehållsreferenserna blir uppdateringarna enklare att hantera, särskilt i större dokumentationsprojekt. Anta till exempel att du skapar en broschyr om de senaste funktionerna i din produkt. I så fall kan du snabbt lägga till de uppdaterade specifikationerna som innehållsreferenser från de relaterade funktionsdokumenten.
+Du kan också jämföra det aktuella innehållet med liknande innehåll i andra ämnen. Sedan kan du enkelt välja ut delar av innehållet från olika ämnen och lägga till dem som innehållsreferenser i det aktuella ämnet. Genom att lägga till innehållsreferenserna blir uppdateringarna enklare att hantera, särskilt i större dokumentationsprojekt. Du skapar till exempel en broschyr om de senaste funktionerna i din produkt. I så fall kan du snabbt lägga till de uppdaterade specifikationerna som innehållsreferenser från de relaterade funktionsdokumenten.
 
 Med den här intelligenta funktionen slipper du det manuella arbetet med att söka relaterat innehåll och kan fokusera på att skapa nytt innehåll.  Det bidrar också till att upprätthålla enhetligheten och underlättar också bättre teamsamarbete.
+
+Läs mer om [AI-baserade smarta förslag för att skapa innehåll](../user-guide/authoring-ai-based-smart-suggestions.md).
 
 ## Ny funktion för versionshistorik i Web Editor
 
@@ -40,7 +47,7 @@ Nu har Experience Manager-stödlinjerna en förbättrad funktion för versionshi
 
 Läs mer om **Tidigare versioner** funktionsbeskrivning i [Vänster panel](../user-guide/web-editor-features.md#id2051EA0M0HS) -avsnitt.
 
-## Förbättrad översättningspanel
+## Förbättrad användarupplevelse på panelen Översättning
 
 The **Översättning** panelen har förbättrats.  Du kan visa **Tillgängliga språk** och snabbt välja den språkinställning där du vill översätta projektet. Med en enda markering kan du även välja **Markera alla** för att översätta projektet till alla tillgängliga språk.
 
@@ -66,7 +73,7 @@ Om du till exempel redigerar ett stycke som du vill infoga kan du söka efter te
 Mer information finns i **Infoga element** funktionsbeskrivning i [Vänster panel](../user-guide/web-editor-features.md#id2051EA0M0HS) -avsnitt.
 
 
-## Möjlighet att dela upp en lista på samma nivå
+## Möjlighet att dela den aktuella listan och börja med ett nytt listobjekt på samma nivå
 
 Nu kan du enkelt dela upp listan i Web Editor. Välj **Delad lista** på snabbmenyn för ett listobjekt för att dela upp den aktuella listan. En ny lista skapas på samma nivå, med början från det listobjekt du valde för delningen.
 
@@ -82,14 +89,14 @@ Nu kan du komma åt den högra panelens **Filegenskaper** i alla fyra lägena el
 
 Mer information finns i **Filegenskaper** funktionsbeskrivning i [Höger panel](../user-guide/web-editor-features.md#id2051EB003YK) -avsnitt.
 
-## Publicera flera förinställningar parallellt
+## Möjlighet att publicera flera förinställningar med dynamiska baslinjer parallellt
 
 Experience Manager tillhandahåller funktionen för att skapa baslinjer genom att automatiskt välja ämnen enligt den etikett som används på dem. Nu kan du också enkelt publicera flera förinställningar med automatiska baslinjer från samma DITA-karta. Du behöver inte publicera bara en förinställning i taget, men du kan enkelt publicera flera förinställningar parallellt.
 
 
 ## Förbättringar av inbyggda PDF
 
-Följande förbättringar av ursprungligt PDF har gjorts i februari 2024:
+Följande förbättringar för Native PDF har gjorts i version 2024.2.0:
 
 ### Skicka metadata för resurser till utdata från PDF
 

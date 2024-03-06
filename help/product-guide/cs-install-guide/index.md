@@ -1,7 +1,7 @@
 ---
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: 22150456d455687a1e3bf36695ce6c1238f92e0c
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '227'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 0%
    - [Distribuera modulen AEM stödlinjer](download-install-dxml-first-time.md)
    - [Konfigurera Dispatcher](download-install-configure-dispatcher.md)
    - [Verifiera installation av AEM](download-install-verify-dxml-installation.md)
-   - [AEM](download-install-upgrade-dxml.md)
    - [Konfigurationsåsidosättningar](download-install-additional-config-override.md)
    - [Recommendations för prestandaoptimering](download-install-recommend-perf-optimiz.md)
 - [Användaradministration och -säkerhet](user-admin-sec.md)

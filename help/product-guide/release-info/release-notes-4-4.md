@@ -1,9 +1,9 @@
 ---
 title: Versionsinformation | Uppgraderingsinstruktioner och åtgärdade fel i Adobe Experience Manager Guides 4.4.0
 description: Lär dig mer om felkorrigeringarna och hur du uppgraderar till 4.4.0-versionen av Adobe Experience Manager Guides
-source-git-commit: 5a444e88b0adba7fa3d498437df39b729b10b5eb
+source-git-commit: 1b25f1df67fa2442ab79830dc2ac5a6eabd0394c
 workflow-type: tm+mt
-source-wordcount: '1808'
+source-wordcount: '1820'
 ht-degree: 0%
 
 ---
@@ -17,14 +17,14 @@ Mer information om de nya funktionerna och förbättringarna finns i [Nyheter i 
 ## Uppgradera till version 4.4.0 av Experience Manager Guides
 
 
-Du kan enkelt uppgradera din nuvarande version av Guides till version 4.4.0. Innan du uppgraderar till version 4.4.0 av handboken för Experience Manager måste du tänka på följande:
+Du kan enkelt uppgradera din nuvarande version av Experience Manager Guides till version 4.4.0. Innan du uppgraderar till version 4.4.0 av handboken för Experience Manager måste du tänka på följande:
 
 
 - Om du använder version 4.3.1, 4.3.0 eller 4.2.1 (programfix 4.2.1.3) kan du uppgradera direkt till version 4.4.0.
 - Om du använder version 4.2, 4.1 eller 4.1.x måste du uppgradera till version 4.3.1, 4.3.0 eller 4.2.1 (programfix 4.2.1.3) innan du uppgraderar till version 4.4.0.
 - Om du använder version 4.0 måste du uppgradera till version 4.2 innan du uppgraderar till version 4.3.x.
 - Om du använder version 3.8.5 måste du uppgradera till version 4.0 innan du uppgraderar till version 4.2.
-- Om du har en tidigare version än 3.8.5 kan du läsa mer i avsnittet Upgrade Experience Manager Guides i den produktspecifika installationsguiden.
+- Om du har en tidigare version än 3.8.5 kan du läsa mer i avsnittet Upgrade Experience Manager Guides i den produktspecifika installationsguiden som finns på [Adobe Experience Manager Guides Help PDF Archive](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 
 

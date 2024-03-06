@@ -5,9 +5,9 @@ exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
 feature: Profiles
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 1b25f1df67fa2442ab79830dc2ac5a6eabd0394c
 workflow-type: tm+mt
-source-wordcount: '3967'
+source-wordcount: '4285'
 ht-degree: 0%
 
 ---
@@ -405,6 +405,43 @@ Om du har uppdaterat en befintlig förinställning eller vill göra en ny förin
 
 1. Klicka **OK** om du vill använda ändringar från de valda förinställningarna på alla befintliga DITA-kartor.
 
+
+
+## Konfigurera AI-baserade smarta förslag i Web Editor {#conf-ai-smart-suggestions}
+
+För ![AEM moln ](assets/aem-cloud-icon.svg) as a Cloud Service om stödlinjer för Experience Manager.
+
+Du kan konfigurera de AI-baserade smarta förslagen och hjälpa författarna att återanvända det befintliga innehållet och enkelt skapa korrekta och konsekventa innehållsreferenser. The **AI-konfiguration** kan du styra inställningarna för panelen Smarta förslag i Web Editor.
+
+Utför följande steg för att konfigurera AI-standardkonfigurationen på global nivå eller på mappnivå:
+1. Logga in i Adobe Experience Manager som administratör eller användare med administratörsbehörighet för en mappnivåprofil.
+1. Välj **Adobe Experience Manager** överst och välj **verktyg**.
+1. Välj **Stödlinjer** i listan över verktyg och välj **Mappprofiler** platta.
+1. Markera profilrutan som du vill konfigurera.
+
+   >[!NOTE]
+   >
+   >Du kan konfigurera AI-baserade smarta förslag till den globala profilen eller en profil på mappnivå.
+
+1. På profilsidan väljer du **AI-konfiguration** -fliken.
+   ![Konfigurationsfliken för AI i den globala profilen](assets/global-profile-AI-configuration-cs.png) {width="800" align="left"}
+
+1. Klicka **Redigera**.
+1. Som administratör kan du konfigurera följande inställningar:
+
+   **Minsta antal tecken**: Ange det minsta antal tecken som författarna måste ange för att få förslag. Om talet till exempel är 7 måste författaren lägga till minst 7 tecken för att kunna visa ett smart förslag.
+
+   **Maximalt antal förslag**: Ange maximalt antal förslag som författarna kan få när de redigerar innehållet. Om talet till exempel är 5 kan författaren visa fem eller färre smarta förslag.
+
+   **Filer och mappar**: Välj de filer eller mappar som de smarta förslagen ska visas från. *För att innehållet ska bli konsekvent rekommenderar vi att inga två poster i listan har gemensamma filer mellan dem*. När du har valt filer och mappar visas de.
+
+1. Klicka **Spara**.
+
+   >[!NOTE]
+   >
+   > Den senaste indexerade statusinformationen visas högst upp när du har sparat filen.
+
+Läs mer om hur du visar och lägger till [AI-baserade smarta förslag](../user-guide/authoring-ai-based-smart-suggestions.md) om du vill lägga till innehållsreferenser vid redigering i Web Editor.
 
 ## Konfigurera och anpassa XML Web Editor {#id2065G300O5Z}
 

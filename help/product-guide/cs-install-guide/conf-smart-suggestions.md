@@ -1,16 +1,16 @@
 ---
 title: Konfigurera smarta förslag för redigering
 description: Lär dig konfigurera smarta förslag för redigering
-source-git-commit: f0bb8e29748ab6820d772225d1689bd5ce6f4c09
+source-git-commit: 1cdad275651b78d794ebc3f4ad9ead266ebeb0bd
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '689'
 ht-degree: 0%
 
 ---
 
-# Konfigurera smarta förslag för redigering
+# Konfigurera AI-baserade smarta förslag för redigering
 
-Som administratör kan du konfigurera funktionen Smarta förslag för författarna. Eftersom den smarta förslagstjänsten skyddas av autofunktionsautentisering med Adobe IMS integrerar dina miljöer med Adobe säkra tokenbaserade autentiseringsarbetsflöden och börjar använda den nya lösningen för smarta förslag. Följande konfiguration hjälper dig att lägga till fliken för AI-konfiguration i mappprofilen. När du har lagt till den kan du använda funktionen för smarta förslag i Web Editor.
+Som administratör kan du konfigurera funktionen Smarta förslag för författarna. Tjänsten för smarta förslag skyddas av automatisk autentisering med Adobe IMS. Integrera din miljö med Adobe säkra tokenbaserade autentiseringsarbetsflöden och börja använda den nya smarta förslagsfunktionen. Följande konfiguration hjälper dig att lägga till **AI-konfiguration** från flik till mappprofil. När du har lagt till den kan du använda funktionen för smarta förslag i Web Editor.
 
 ## Skapa IMS-konfigurationer i Adobe Developer Console
 
@@ -23,20 +23,21 @@ Så här skapar du IMS-konfigurationer i Adobe Developer Console:
 
 1. Välj  **Lägg till API**  från  **Projekt** skärm.  The **Lägg till ett API** visas. På den här skärmen visas alla tillgängliga API:er, händelser och tjänster för Adobe-produkter och -tekniker som du kan använda för att utveckla program.
 
-1. Välj **API för IO-hantering** för att lägga till den i ditt projekt.
+1. Välj **API för I/O-hantering** för att lägga till den i ditt projekt.
    ![API för IO-hantering](assets/confi-ss-io-management.png)
-   *Lägg till API för IO-hantering i ditt projekt.*
+   *Lägg till API för I/O-hantering i ditt projekt.*
 
 1. Skapa ett nytt **OAuth-autentiseringsuppgifter** och spara det.
    ![Autentiseringsuppgiftsruta för OAuth i konfigurations-API](assets/conf-ss-OAuth-credential.png) {width="3000" align="left"}
    *Konfigurera OAuth-autentiseringsuppgifter för ditt API.*
 
-1. I  **Projekt** väljer du de nya inloggningsuppgifterna.
+1. I  **Projekt** flik, välja **OAuth-server till server** och välj sedan de nya inloggningsuppgifterna.
 
 1. Välj **OAuth Server-till-server** om du vill visa projektinformation.
 
-![anslutna autentiseringsuppgifter](assets/conf-ss-connected-credentials.png) {width="800" align="left"}
-*Anslut till projektet för att visa informationen om autentiseringsuppgifter.*
+   ![anslutna autentiseringsuppgifter](assets/conf-ss-connected-credentials.png) {width="800" align="left"}
+
+   *Anslut till projektet för att visa informationen om autentiseringsuppgifter.*
 1. Kopiera knapparna CLIENT_ID och CLIENT_SECRET.
 
 Du har nu konfigurerat informationen för OAuth-autentisering. Ha de här två tangenterna till hands eftersom de behövs i nästa avsnitt.
@@ -58,7 +59,7 @@ Utför följande steg för att lägga till IMS-konfiguration i miljön:
 
 När du har lagt till IMS-konfigurationen i miljön utför du följande steg för att länka dessa egenskaper med AEM stödlinjer med OSGi:
 
-1. I din molnhanterares Git-projektkod lägger du till följande två filer (för filinnehåll, se [Bilaga](#appendix).
+1. Lägg till följande två filer (för filinnehåll, se [Bilaga](#appendix)).
 
    * `com.adobe.fmdita.ims.service.ImsOauthUserAccountHeadersImpl.cfg.json`
    * `com.adobe.fmdita.smartsuggest.service.SmartSuggestConfigurationConsumer.cfg.json`
@@ -66,7 +67,7 @@ När du har lagt till IMS-konfigurationen i miljön utför du följande steg fö
 1. Verkställ och skicka Git-ändringarna.
 1. Kör pipeline för att tillämpa ändringarna på miljön.
 
-När detta är klart bör du kunna använda den nya mikrotjänstbaserade molnpubliceringen.
+När du är klar bör du kunna använda funktionen för smarta förslag.
 
 
 
@@ -99,14 +100,14 @@ När detta är klart bör du kunna använda den nya mikrotjänstbaserade molnpub
 }
 ```
 
-## Konfigurationsinformation för smart förslagskonfiguration
+## Konfigurationsinformation för smarta förslag
 
-| Nyckel | Beskrivning | Tillåtna värden |
-|---|---|---|
-| smart.suggestion.flag | Anger om smarta förslag är aktiverade eller inte | true/false |
-| conref.inline.threshold | Tröskelvärde som styr precision/återkallande av förslag som hämtats för taggen som användaren skriver in just nu. | -1.0 &lt;= x &lt;= 1.0 |
-| conref.block.threshold | Tröskelvärde som styr precision/återkallande av förslag som hämtats för taggar i hela filen. | -1.0 &lt;= x &lt;= 1.0 |
-| emerald.url | Slutpunkt för Emerald-vektordatabas | [https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1](https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1) |
-| instance.type | Typ av AEM. Se till att detta är unikt för varje AEM som smarta förslag har konfigurerats på. Ett användningsexempel skulle vara att testa funktionen i scenmiljön med &quot;instance.type&quot; = &quot;stage&quot;, medan funktionen samtidigt är konfigurerad för &quot;prod&quot;. | En unik nyckel som identifierar miljön &quot;dev&quot;/&quot;stage&quot;/&quot;prod&quot;/&quot;test1&quot;/&quot;stage2&quot; |
+| Nyckel | Beskrivning | Tillåtna värden | Standardvärde |
+|---|---|---|---|
+| smart.suggestion.flag | Anger om smarta förslag är aktiverade eller inte | true/false | false |
+| conref.inline.threshold | Tröskelvärde som styr precision/återkallande av förslag som hämtats för taggen som användaren skriver in just nu. | Alla värden mellan -1.0 och 1.0. | 0,6 |
+| conref.block.threshold | Tröskelvärde som styr precision/återkallande av förslag som hämtats för taggar i hela filen. | Alla värden mellan -1.0 och 1.0. | 0,7 |
+| emerald.url | Slutpunkt för Emerald-vektordatabas | [https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1](https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1) | [https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1](https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1) |
+| instance.type | Typ av AEM. Se till att detta är unikt för varje AEM som de smarta förslagen har konfigurerats på. Ett användningsexempel skulle vara att testa funktionen i scenmiljön med &quot;instance.type&quot; = &quot;stage&quot;, medan funktionen samtidigt är konfigurerad för &quot;prod&quot;. | En unik nyckel som identifierar miljön. Endast *alfanumerisk* -värden tillåts. &quot;dev&quot;/&quot;stage&quot;/&quot;prod&quot;/&quot;test1&quot;/&quot;stage2&quot; | &quot;prod&quot; |
 
-När du har konfigurerat visas ikonen för smarta förslag på den högra panelen i Web Editor. Du kan visa listan med smarta förslag när du redigerar ämnen. Mer information finns i [AI-baserade smarta förslag för redigering](../user-guide/web-editor-content-snippet.md).
+När du har konfigurerat visas ikonen för smarta förslag på den högra panelen i Web Editor. Du kan visa listan med smarta förslag när du redigerar ämnen. Mer information finns i [AI-baserade smarta förslag för redigering](../user-guide/authoring-ai-based-smart-suggestions.md) i användarhandboken för Experience Manager.

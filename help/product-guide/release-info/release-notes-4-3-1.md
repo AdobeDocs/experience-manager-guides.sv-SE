@@ -4,9 +4,9 @@ description: Lär dig mer om felkorrigeringarna och hur du uppgraderar till 4.3.
 exl-id: 3fb6dc31-ec6e-40f5-ab3f-a6e591da315e
 feature: Release Notes
 role: Leader
-source-git-commit: 5a444e88b0adba7fa3d498437df39b729b10b5eb
+source-git-commit: 1b25f1df67fa2442ab79830dc2ac5a6eabd0394c
 workflow-type: tm+mt
-source-wordcount: '1306'
+source-wordcount: '1308'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Mer information om de nya funktionerna och förbättringarna finns i [Nyheter i 
 ## Uppgradera till version 4.3.1 av Experience Manager Guides
 
 
-Du kan enkelt uppgradera din nuvarande version av Guides till version 4.3.1. Innan du uppgraderar till version 4.3.1 av handboken för Experience Manager måste du tänka på följande: Du kan uppgradera din nuvarande version av handboken för Experience Manager till version 4.3.1
+Du kan enkelt uppgradera din nuvarande version av Experience Manager Guides till version 4.3.1. Innan du uppgraderar till version 4.3.1 av handboken för Experience Manager måste du tänka på följande: Du kan uppgradera din nuvarande version av handboken för Experience Manager till version 4.3.1
 
 
 - Om du använder version 4.3.0, 4.2 eller 4.2.1 kan du uppgradera direkt till version 4.3.1.

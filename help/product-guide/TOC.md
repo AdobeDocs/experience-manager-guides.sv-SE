@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Läs produktdokumentationen för Adobe Experience Manager Guides.
 breadcrumb-title: Dokumentation om AEM Guides
-source-git-commit: 8fc1a5232bcc9049b16def8d629ab45a278a2c8f
+source-git-commit: 933d683ec970417d4aac739c3cae19c103170ae9
 workflow-type: tm+mt
-source-wordcount: '1711'
+source-wordcount: '1740'
 ht-degree: 2%
 
 ---
@@ -15,10 +15,16 @@ ht-degree: 2%
 - [[!DNL AEM Guides] översikt](overview.md)
 - [Ansvarsfriskrivning](./user-guide/rebranding-disclaimer.md)
 - Versionsinformation {#release-info}
+
    - [[!DNL AEM Guides] releaser](./release-info/latest-release-info.md)
    - Versionsinformation {#release-notes}
       - Cloud Service {#cloud-release-notes}
          - [Distributionsanvisningar](./release-info/deploy-xml-on-aemaacs.md)
+         - 2024 års utgåvor {#2024-releases}
+            - 2024.2.0-utgåvan {#2402-release}
+               - [Nyheter](./release-info/whats-new-2024-2-0.md)
+               - [Åtgärdade problem](./release-info/fixed-issues-2024-2-0.md)
+               - [Uppgraderingsinstruktioner](./release-info/upgrade-instructions-2024-2-0.md)
          - 2023 års utgåvor {#2023-releases}
             - December-utgåvan {#2312-release}
                - [Nyheter](./release-info/whats-new-2023-12-0.md)
@@ -108,6 +114,7 @@ ht-degree: 2%
                - [Andra funktioner i Web Editor](./user-guide/web-editor-other-features.md)
                - [Vyer i Web Editor](./user-guide/web-editor-views.md)
                - [Stöd för Schematron-filer](./user-guide/support-schematron-file.md)
+               - [AI-baserade smarta förslag (beta) för att skapa innehåll](./user-guide/authoring-ai-based-smart-suggestions.md)
                - [Skapa markeringsdokument från webbredigeraren](./user-guide/web-editor-markdown-topic.md)
                - [Lägg till citat i innehållet](./user-guide/web-editor-apply-citations.md)
                - [Använd data från datakällor](./user-guide/web-editor-content-snippet.md)
@@ -219,8 +226,8 @@ ht-degree: 2%
       - Migrering av innehåll {#content-migration}
          - [Migrering av icke-UID till UUID-innehåll](./install-guide/migrate-uuid-non-uuid.md)
          - Migreringsprocess {#migration-process}
-            - [Migrera versionshanterat innehåll](./install-guide/migrate-non-uuid-uuid-with-versions.md)
-            - [Migrera oversionshanterat innehåll](./install-guide/migrate-non-uuid-uuid-without-versions.md)
+            - [Migrera icke-UID-innehåll med versioner](./install-guide/migrate-non-uuid-uuid-with-versions.md)
+            - [Migrera icke-UID-innehåll utan versioner](./install-guide/migrate-non-uuid-uuid-without-versions.md)
          - [Migrera befintligt innehåll](./install-guide/migrate-content.md)
          - [Överför befintligt DITA-innehåll](./install-guide/migrate-content-upload-existing-dita-content.md)
          - [Migrera icke-DITA-innehåll](./install-guide/migrate-content-non-dita.md)
@@ -322,6 +329,7 @@ ht-degree: 2%
       - Arbeta med Web Editor-konfigurationer {#web-editor-configs-cs}
          - [Anpassa Web Editor](./cs-install-guide/conf-web-editor.md)
          - [Anpassa verktygsfältet](./cs-install-guide/conf-web-editor-customize-toolbar.md)
+         - [Konfigurera AI-baserade smarta förslag för redigering](./cs-install-guide/conf-smart-suggestions.md)
          - [Konfigurera standardvärde för taggvyn](./cs-install-guide/configure-default-value-tags-view.md)
          - [Konfigurera visning av UUID-baserade länkar](./cs-install-guide/conf-uuid-based-links.md)
          - [Öppna DITA-avsnitt eller DITA-kartfiler på samma flik](./cs-install-guide/open-dita-files-same-tab.md)
