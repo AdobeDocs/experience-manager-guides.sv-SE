@@ -5,9 +5,9 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 5a444e88b0adba7fa3d498437df39b729b10b5eb
+source-git-commit: 98fec02367c7e3f33f2511e51675d9e02e41170a
 workflow-type: tm+mt
-source-wordcount: '5744'
+source-wordcount: '5940'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Du kan uppgradera din nuvarande version av Experience Manager Guides till version 4.4.0:
 
-- Om du använder version 4.3.1, 4.3.0 eller 4.2.1 (programfix 4.2.1.3) kan du uppgradera direkt till version 4.4.0.
+- Om du använder version 4.3.1.5, 4.3.1, 4.3.0 eller 4.2.1 (programfix 4.2.1.3) kan du uppgradera direkt till version 4.4.0.
 - Om du använder version 4.2, 4.1 eller 4.1.x måste du uppgradera till version 4.3.1, 4.3.0 eller 4.2.1 (programfix 4.2.1.3) innan du uppgraderar till version 4.4.0.
 - Om du använder version 4.0 måste du uppgradera till version 4.2 innan du uppgraderar till version 4.3.x.
 - Om du använder version 3.8.5 måste du uppgradera till version 4.0 innan du uppgraderar till version 4.2.
@@ -38,6 +38,7 @@ Mer information finns i följande procedurer:
 - [Uppgradera till version 4.2.1](#upgrade-version-4-2-1)
 - [Uppgradera till version 4.3.0](#upgrade-version-4-3)
 - [Uppgradera till version 4.3.1](#upgrade-version-4-3-1)
+- [Uppgradera till version 4.3.1.5](#upgrade-version-4-3-1-5)
 - [Uppgradera till version 4.4.0](#upgrade-version-4-4-0)
 
 
@@ -53,7 +54,9 @@ Innan du kör processen måste du slutföra vissa uppgifter. I följande delavsn
 
 >[!NOTE]
 >
-> Denna uppgraderingsprocess gäller endast från version 3.8.5 till version 4.0. För processen att uppgradera från version 3.4 eller senare till 3.8.5, se *Uppgradera Experience Manager-guider* i den produktspecifika installationshandboken som finns i [Hjälparkivsida](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
+> Denna uppgraderingsprocess gäller endast från version 3.8.5 till version 4.0. För processen att uppgradera från version 3.4 eller senare till 3.8.5, se *Uppgradera Experience Manager-guider* i den produktspecifika installationsguiden som finns på [Adobe Experience Manager Guides hjälper PDF att arkivera](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
+
+
 
 ****Förutsättningar****
 
@@ -726,6 +729,48 @@ Utför följande steg för att efterbearbeta befintligt innehåll och använda d
 
 
 1. Återgå till standardvärdet eller det tidigare befintliga värdet för `queryLimitReads` om du har ändrat den i steg 1.
+
+
+
+## Uppgradera till version 4.3.1.5 {#upgrade-version-4-3-1-5}
+
+Uppgradering till version 4.3.1.5 beror på vilken version av stödlinjerna för Experience Manager har. Om du använder version 4.3.1 kan du uppgradera direkt till version 4.3.1.5.
+
+
+
+## Installera version 4.3.1.5
+
+1. Hämta versionspaket 4.3.1.5 från [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
+1. Installera paket för version 4.3.1.5.
+
+1. Vänta tills installationsprocessen har slutförts.
+1. Fortsätt uppgradera anpassningarna enligt anvisningarna i nästa avsnitt.
+
+
+## Efter installationen av version 4.3.1.5
+
+
+>[!NOTE]
+>
+>Om du vill använda paketet org.apache.velocity utför du följande steg innan du överför paketet:
+> 1. Gå till `<server>:<port>/system/console/bundles`.
+> 1. Sök efter org.apache.speed.
+> 1. Avinstallera det sökta paketet.
+> 1. Installera det hastighetspaket som krävs.
+
+
+1. När uppgraderingen är klar kontrollerar du att alla anpassningar/övertäckningar har validerats och uppdaterats så att de matchar den nya programkoden. Nedan följer några exempel:
+   - Alla komponenter som överlappas av `/libs/fmdita` eller` /libs` ska jämföras med den nya produktkoden och uppdateringar ska göras i överlagrade filer i `/apps` .
+   - Alla kategorier av klientlib som används från produkten bör granskas för ändringar. Alla åsidosatta konfigurationer \(exempel nedan\) bör jämföras med de senaste för att få de senaste funktionerna:
+   - `elementmapping.xml`
+   - `ui\_config.json\` (kan ha angetts i mappprofiler\)
+   - ändrad `com.adobe.fmdita.config.ConfigManager`
+
+
+
+
+
+
 
 ## Uppgradera till version 4.4.0 {#upgrade-version-4-4-0}
 

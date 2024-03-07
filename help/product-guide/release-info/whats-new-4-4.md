@@ -1,18 +1,23 @@
 ---
 title: Versionsinformation | Nyheter i Adobe Experience Manager Guides 4.4.0
 description: Läs om de nya och förbättrade funktionerna i version 4.4.0 av Adobe Experience Manager Guides
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+role: Leader
+source-git-commit: 8f8075b205725a55b93286c804b879353b4d965d
 workflow-type: tm+mt
 source-wordcount: '2307'
 ht-degree: 0%
 
 ---
 
-# Nyheter i version 4.4.0 av Adobe Experience Manager Guides (januari 2024)
+# Nyheter i version 4.4.0 (januari 2024)
 
-I den här artikeln beskrivs de nya och förbättrade funktionerna i version 4.4.0 av Adobe Experience Manager Guides (senare kallat *Stödlinjer för Experience Manager*).
+I den här artikeln beskrivs de nya och förbättrade funktionerna i version 4.4.0 av Adobe Experience Manager Guides.
 
-Mer information om uppgraderingsinstruktioner, kompatibilitetsmatris och problemen som åtgärdas i den här versionen finns i [Versionsinformation](./release-notes-4-4.md).
+En lista över problem som har åtgärdats i den här versionen finns på [Åtgärdade problem i version 4.4.0](../release-info/fixed-issues-4-4.md).
+
+Läs mer om [uppgraderingsinstruktioner för version 4.4.0](../release-info/upgrade-instructions-4-4.md).
+
+
 
 ## Ny funktion för versionshistorik i Web Editor
 

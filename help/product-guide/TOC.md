@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Läs produktdokumentationen för Adobe Experience Manager Guides.
 breadcrumb-title: Dokumentation om AEM Guides
-source-git-commit: 933d683ec970417d4aac739c3cae19c103170ae9
+source-git-commit: d886d25f90f95c01009c0a9586df6b32754223cb
 workflow-type: tm+mt
-source-wordcount: '1740'
+source-wordcount: '1742'
 ht-degree: 2%
 
 ---
@@ -15,8 +15,6 @@ ht-degree: 2%
 - [[!DNL AEM Guides] översikt](overview.md)
 - [Ansvarsfriskrivning](./user-guide/rebranding-disclaimer.md)
 - Versionsinformation {#release-info}
-
-   - [[!DNL AEM Guides] releaser](./release-info/latest-release-info.md)
    - Versionsinformation {#release-notes}
       - Cloud Service {#cloud-release-notes}
          - [Distributionsanvisningar](./release-info/deploy-xml-on-aemaacs.md)
@@ -63,12 +61,15 @@ ht-degree: 2%
             - [Versionsinformation om mars](./release-info/release-notes-2022-3-0.md)
             - [Versionsinformation, februari](./release-info/release-notes-2022-2-0.md)
             - [Versionsinformation för januari](./release-info/release-notes-2022-1-0.md)
-      - Lokalt/Managed Services {#on-prem-release-notes}
-      - 4.4.0 Release {#44-release}
-         - Nyheter {#44-whats-new}
-            - [4.4 Nyheter](./release-info/whats-new-4-4.md)
-         - Versionsinformation {#44-release-notes}
-            - [4.4 Versionsinformation](./release-info/release-notes-4-4.md)
+   - Lokalt/Managed Services {#on-prem-release-notes}
+      - [[!DNL AEM Guides] releaser](./release-info/latest-release-info.md)
+      - 4.4.0 Release {#440-release}
+         - [Nyheter](./release-info/whats-new-4-4.md)
+         - [Åtgärdade problem](./release-info/fixed-issues-4-4.md)
+         - [Uppgraderingsinstruktioner](./release-info/upgrade-instructions-4-4.md)
+      - 4.3.1.5 Version {#4315-release}
+         - [Åtgärdade problem](./release-info/fixed-issues-4-3-1-5.md)
+         - [Uppgraderingsinstruktioner](./release-info/upgrade-instructions-4-3-1-5.md)
       - 4.3.0 Release {#43-release}
          - Nyheter {#43-whats-new}
             - [4.3.1 Nyheter](./release-info/whats-new-4-3-1-release.md)
