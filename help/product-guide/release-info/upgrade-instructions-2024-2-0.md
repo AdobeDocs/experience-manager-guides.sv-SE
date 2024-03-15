@@ -1,7 +1,7 @@
 ---
 title: Versionsinformation | Uppgraderingsinstruktioner och åtgärdade fel i Adobe Experience Manager Guides, version 2024.2.0
 description: Lär dig mer om kompatibilitetsmatrisen och hur du uppgraderar till 2024.2.0-utgåvan av Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: e7457762ced59f696c5bd762c719cfd59b357250
+source-git-commit: 9022b8fbae9ff9eba962ca75e25c1f1137b008f8
 workflow-type: tm+mt
 source-wordcount: '866'
 ht-degree: 0%
@@ -33,7 +33,7 @@ I det här avsnittet visas kompatibilitetsmatrisen för de program som stöds i 
 
 | Experience Manager Guides as a Cloud Release | Syrgasanslutningsfönster | Syrgasanslutning Mac | Redigera i syrgasfönster | Redigera i Syrgas Mac |
 | --- | --- | --- | --- | --- |
-| 2024.2.0 | 3.4-uuid 1 | 3.4-uuid 1 | 2,3 | 2,3 |
+| 2024.2.0 | 3.5-uuid 1 | 3.5-uuid 1 | 2,3 | 2,3 |
 |  |  |  |  |
 
 
