@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Läs produktdokumentationen för Adobe Experience Manager Guides.
 breadcrumb-title: Dokumentation om AEM Guides
-source-git-commit: 46fae421d3fb3bedaa2841c29d7d20f539bdf793
+source-git-commit: fa6486d7a1ca392742968fc4adad3e3910a91903
 workflow-type: tm+mt
-source-wordcount: '1742'
+source-wordcount: '1749'
 ht-degree: 2%
 
 ---
@@ -434,7 +434,10 @@ ht-degree: 2%
                - [Komponenter](./guides-ui-extensions/customisations/ReviewApp/components.md)
                - [Anpassa](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
       - Publicering {#publishing}
-         - [Configuring AEM Environment for Native PDF publishing](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
+         - [Configuring AEM Environment for Native PDF Publishing](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
+
+         - [Generera bokmappens innehållsförteckning i ursprunglig PDF-publicering](./knowledge-base/kb-articles/publishing/how-to-include-bookmap-toc-in-pdf-publishing.md)
+
          - [FMPS och stödlinjer](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
          - [Microservice-arkitektur och prestanda](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
          - [Konfigurera mikrotjänstbaserad publicering](./knowledge-base/publishing/configure-microservices.md)
