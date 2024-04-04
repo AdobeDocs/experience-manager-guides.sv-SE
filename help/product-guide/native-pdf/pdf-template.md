@@ -5,7 +5,7 @@ exl-id: 7660da8e-8a1e-4493-b99b-9b5de9a7483f
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: e3fcfeb94c77ee9e499425608048fc882eaa293b
+source-git-commit: 7790aa9dce9a586b8b422dc6deeecab3d53aca8d
 workflow-type: tm+mt
 source-wordcount: '1151'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Du kan skapa anpassade PDF-mallar med särskilda sidlayouter och definiera forma
 Så här skapar du en ny PDF-mall:
 
 1. Gå till webbredigeraren **Utdata** -fliken.
-1. Välj **Mallar** <img src="./assets/template.svg" alt= "mallikon" width="25"> till vänster.
+1. Välj **Mallar** ![mallikon](./assets/template.svg) till vänster.
 
    <img src="assets/create-pdf-template.png" alt="Skapa PDF-mall" width="400">
 
