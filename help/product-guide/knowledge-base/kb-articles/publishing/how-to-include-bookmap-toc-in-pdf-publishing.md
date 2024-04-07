@@ -2,10 +2,12 @@
 title: Innehållsförteckningspublicering med NativePDF
 description: Publicera innehållsförteckning och andra boklistor för din digitala bokmapp med hjälp av NativePDF
 feature: Native PDF Output
+author: Pulkit Nagpal(punagpal)
 role: User, Admin
-source-git-commit: 6ccaef5d35d492fe8dbe0f8b52af8d11258f3d2a
+exl-id: c551f0a8-f973-4c5a-bd34-f52890a91342
+source-git-commit: 7638f3634ad45bbadda64ec6e3f706cbb65d696c
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -36,6 +38,31 @@ DITA-specifikationen tillåter montering av innehållsförteckningar och boklist
       <indexlist/>
     </booklists>
   </backmatter>
+```
+
+Exempelstruktur för bokmappning med innehållsförteckning, illustrationslista och tabelllista i förgrunden och indexlista i bakgrunden.
+
+```
+<bookmap>
+  <title>My Bookmap Title </title>
+  <frontmatter>
+    <booklists>
+      <toc/>
+      <figurelist/>
+      <tablelist/>
+    </booklists>
+  </frontmatter>
+
+  <chapter href="chapter1.ditamap">
+  <chapter href="chapter2.ditamap">
+  </chapter>
+
+  <backmatter>
+    <booklists>
+      <indexlist/>
+    </booklists>
+  </backmatter>
+</bookmap>
 ```
 
 Innehållsförteckningarna och boklistorna genereras automatiskt baserat på den struktur som du har definierat i bokmappen.
@@ -71,6 +98,7 @@ Om du publicerar Ditamap har Native PDF funktioner för att automatiskt generera
 <br>
 <br>
 
-Lägg upp dina frågor på AEM Guides Community [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) för alla frågor.
+Publicera på AEM Guides Community [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) för alla frågor.
+
 
 
