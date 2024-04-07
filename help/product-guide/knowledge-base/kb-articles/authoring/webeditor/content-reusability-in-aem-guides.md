@@ -2,9 +2,9 @@
 title: DITA-innehåll återanvänds i AEM
 description: Den här korta artikeln visar hur AEM och DITA hjälper dig att spara tid och arbete när du använder återanvändbarhet av innehåll
 role: User, Admin
-source-git-commit: 6ff99d32dd7a30c1104a79da4f223defe109f190
+source-git-commit: 8fceb5e76dcc946efc118b217e93088619c5c5c6
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '556'
 ht-degree: 0%
 
 ---
@@ -12,6 +12,12 @@ ht-degree: 0%
 # Återanvändning av innehåll i AEM
 
 Adobe AEM Guides utnyttjar DITA:s styrkor för att skapa ett användarvänligt gränssnitt för återanvändning av innehåll.
+
+I den här artikeln ska vi prata om:
+
+1. Återanvändbarhet med ämnesreferens (`topicrefs`)
+2. Återanvändbarhet med hjälp av innehållsreferens (`conref` och `conkeyref`)
+3. Bonustips för att återanvända innehåll med dra-och-släpp i AEM
 
 ## Återanvändbarhet med ämnesreferenser (topicref)
 
@@ -129,7 +135,7 @@ Steg 2: Välj rotkarta (valfritt), nyckel och fragment som behöver återanvänd
 Här markerades rotkartan automatiskt eftersom den redan var öppen i mappningsvyn
 
 
-### Återanvänd material med ett enda klick i AEM
+## Återanvänd material med ett enda klick i AEM
 
 AEM Guides har funktionen &quot;Återanvändbart innehåll&quot; som gör att du kan lägga till innehållsreferenser med ett enda klick.
 
