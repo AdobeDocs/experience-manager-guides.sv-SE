@@ -1,10 +1,11 @@
 ---
 title: DITA-innehåll återanvänds i AEM
-description: Den här korta artikeln visar hur AEM och DITA hjälper dig att spara tid och arbete när du använder återanvändbarhet av innehåll
+description: Den här korta artikeln visar hur AEM guider och DITA hjälper dig att spara tid och arbete när du använder återanvändbarhet
 role: User, Admin
-source-git-commit: 8fceb5e76dcc946efc118b217e93088619c5c5c6
+exl-id: 1522ebf5-2aea-4d8f-ade7-367227b31dd9
+source-git-commit: 4160c990bafe41611714ef66ee361aba0ef47c0a
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '553'
 ht-degree: 0%
 
 ---
@@ -15,9 +16,9 @@ Adobe AEM Guides utnyttjar DITA:s styrkor för att skapa ett användarvänligt g
 
 I den här artikeln ska vi prata om:
 
-1. Återanvändbarhet med ämnesreferens (`topicrefs`)
-2. Återanvändbarhet med hjälp av innehållsreferens (`conref` och `conkeyref`)
-3. Bonustips för att återanvända innehåll med dra-och-släpp i AEM
+1. [Återanvändning med ämnesreferens (](#reusability-using-topic-referencestopicref)
+2. [Återanvändbarhet med hjälp av innehållsreferens (](#reusability-using-content-reference-conref--conkeyref)
+3. [Bonustips för att återanvända innehåll genom att dra och släppa AEM stödlinjer](#reuse-content-with-a-single-click-in-aem-guides)
 
 ## Återanvändbarhet med ämnesreferenser (topicref)
 
@@ -80,7 +81,7 @@ Här `conref=kyc_procedures.dita#indvidual_kyc` kyc_procedure.dita är filidenti
 
 Kyc_procedure.dita är fortfarande den enda informationskällan. Om KYC-processen ändras i enlighet med gällande bestämmelser behöver du bara uppdatera ett ämne. Ändringarna återspeglas automatiskt i alla ämnen som refererar till det.
 
-Med hjälp AEM stödlinjer klickar du två gånger
+Använda AEM stödlinjer, två klick
 
 Steg 1: Klicka på Infoga återanvändbart innehåll
 ![verktygsfält](../../assets/publishing/content-reusability_image1.png)
@@ -124,7 +125,7 @@ Nyckel -&quot;Kyc_procedure&quot; kommer även fortsättningsvis att vara den en
 
 Här ändras ämnessökvägen från&quot;kyc_procedure_2020.dita&quot; till&quot;kyc_procedure_2024.dita&quot; på grund av de senaste ändringarna av reglerna.
 
-Med hjälp AEM stödlinjer klickar du två gånger
+Använda AEM stödlinjer, två klick
 
 Steg 1: Klicka på Infoga återanvändbart innehåll
 ![verktygsfält](../../assets/publishing/content-reusability_image1.png)
@@ -143,7 +144,7 @@ Steg 1: Lägg till ett generiskt ämne i återanvändbart innehåll
 
 ![Lägg till återanvändbart innehåll](../../assets/publishing/content-reusability_image4.png)
 
-Steg 2: När du har lagt till det drar och släpper du det fragment som du vill återanvända i något av målämnena.
+Steg 2: Dra och släpp det fragment som du vill återanvända i något av målämnena när det har lagts till.
 
 ![Lägg till återanvändbar innehålls-gif](../../assets/publishing/content-reusability_image5.gif)
 
@@ -164,4 +165,3 @@ Kontrollera att du har öppnat rotmappningen/den överordnade kartan i en kartvy
 
 
 Publicera på AEM Guides Community [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) för alla frågor.
-
