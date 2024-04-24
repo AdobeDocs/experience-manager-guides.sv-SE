@@ -4,9 +4,9 @@ description: Lär dig hur du skapar en förinställning för PDF i webbredigerar
 exl-id: f12c91fd-3f95-478e-a9cd-68d037206ee8
 feature: Publishing
 role: User
-source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
+source-git-commit: b82f1f3b42f85cce8420d3962c69cd3bafc5728d
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '1050'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ The **Allmänt** -fliken innehåller följande konfigurationer:
 Fliken Avancerat innehåller följande konfigurationer:
 
 - Aktivera versionshantering
-- Rensa tillfälliga DITA-OT-filer
+- Hämta temporära filer
 
 Mer information finns i [PDF-konfiguration](#id231KIM004X1).
 
@@ -63,7 +63,7 @@ Följande alternativ är tillgängliga för utdata från PDF:
 | Transformeringsnamn | Ange vilken typ av utdata du vill generera. Detta är nödvändigt om du vill generera utdata med ett eget anpassat plugin-program, som är integrerat i DITA-OT-plugin-programmet. Om du till exempel vill generera XHTML-utdata anger du `xhtml`. En lista över omformningar i DITA-OT finns på [DITA-OT-omformningar (utdataformat)](http://www.dita-ot.org/2.3/user-guide/AvailableTransforms.html) i OASIS DITA-OT User Guide. |
 | Filnamn | Ange det filnamn som du vill spara PDF.<br><br>Du kan också använda variabler när du anger filnamnet i PDF. Mer information om hur du använder variabler finns i [Använd variabler för att ange alternativen Målsökväg, Platsnamn eller Filnamn](generate-output-use-variables.md#id18BUG70K05Z).<br><br>**Anteckning**: Om du inte anger något filnamn används DITA-kartans titel för att generera det slutliga PDF-filnamnet. Om kartan inte har någon titel används DITA-kartans filnamn som namn för den slutliga PDF. Filnamnet sanaliseras med de regler som konfigurerats i systemet för att hantera ogiltiga tecken. |
 | Målsökväg | Sökvägen i AEM där PDF lagras.<br><br>Du kan också använda variabler när du anger målsökvägen. Mer information om hur du använder variabler finns i [Använd variabler för att ange alternativen Målsökväg, Platsnamn eller Filnamn](generate-output-use-variables.md#id18BUG70K05Z). |
-| Rensa tillfälliga DITA-OT-filer | Välj det här alternativet om du vill rensa de temporära filer som genererats av DITA-OT. Platsen där tillfälliga filer lagras i DITA-OT finns i loggen för generering av utdata.<br><br>Om du får problem när du genererar utdata via DITA-OT kan du avmarkera det här alternativet om du vill behålla de tillfälliga filerna. Du kan sedan använda dessa filer för att felsöka fel vid generering av utdata. |
+| Hämta temporära filer | Välj det här alternativet om du vill hämta temporära filer som genererats av DITA-OT. Platsen där tillfälliga filer lagras i DITA-OT finns i loggen för generering av utdata. Om du får problem när du genererar utdata via DITA-OT väljer du det här alternativet om du vill behålla de tillfälliga filerna. Du kan sedan använda dessa filer för att felsöka fel vid generering av utdata.<br> <br>  När du har genererat utdata väljer du **Hämta temporära filer** ![ladda ned temporära filer, ikon](images/download-temp-files-icon.png) om du vill hämta ZIP-mappen som innehåller de temporära filerna. <br><br> **Anteckning**: Om du väljer vissa filegenskaper och sedan hämtar de temporära filerna får du även *metadata.xml* i ZIP-mappen. |
 | Använd baslinje | Om du har skapat en baslinje för den valda DITA-kartan väljer du det här alternativet för att ange vilken version du vill publicera.<br><br>Se [Arbeta med baslinje](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) för mer information. |
 | Filegenskaper | Välj de egenskaper som du vill bearbeta som metadata. Dessa egenskaper ställs in från sidan Egenskaper i DITA-kartan eller bokmappningsfilen. De egenskaper du väljer i listrutan visas under **Filegenskaper** fält. Markera kryssikonen bredvid egenskapen för att ta bort den. <br><br>Obs! Du kan också skicka metadata till utdata med DITA-OT-publicering. Mer information finns i [Skicka metadata till utdata med DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
 

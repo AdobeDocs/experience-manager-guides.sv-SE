@@ -4,9 +4,9 @@ description: Lär dig hur du arbetar med den avancerade kartredigeraren i AEM. L
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 6201434d3dd8336bf9fe1bce6368d5dbb9c56162
 workflow-type: tm+mt
-source-wordcount: '3695'
+source-wordcount: '3788'
 ht-degree: 0%
 
 ---
@@ -340,7 +340,12 @@ Så här redigerar du ämnen via en DITA-karta:
 
      Du kan välja att spara alla markerade ämnen eller avmarkera de ämnen som du inte vill spara.
 
-   - Du kan checka in ämnet med **Spara som ny version och lås upp** -knappen. När du sparar en revidering av ämnet skapas en ny revidering och låset släpps också.
+   - Du kan checka in ämnet med **Spara som ny version och lås upp** -knappen. När du sparar en version av ämnet skapas en ny version och låset släpps också.
+
+     Du bör spara ändringarna innan du checkar in filerna.  När du sparar ändringarna valideras XML-filen.
+
+   - Du kan också markera och checka in flera ämnen med **Spara som ny version och lås upp** -knappen. När du sparar en version av ämnena skapas en ny version för varje ämne, och låset släpps också. Du kan även visa förloppet för att kontrollera ämnen från **Spara som ny version och lås upp** -dialogrutan. Ett meddelande visas när filerna har checkats in.
+
    - Om administratören har aktiverat alternativet att checka in filer när de stängs visas en uppmaning om att spara filer när de utcheckade filerna stängs. När det här alternativet är aktiverat visas listan med utcheckade filer som behöver sparas när du stänger redigeraren med ändrade filer. De utcheckade filerna visas med en låsikon:
 
      ![](images/save-on-close.PNG){width="550" align="left"}

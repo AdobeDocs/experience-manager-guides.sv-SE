@@ -4,9 +4,9 @@ description: Lär dig hur du skapar en förinställning för HTML5 från webbred
 exl-id: b54bf3a0-7a13-41a0-ae72-cdf2caf8d974
 feature: Publishing
 role: User
-source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
+source-git-commit: b82f1f3b42f85cce8420d3962c69cd3bafc5728d
 workflow-type: tm+mt
-source-wordcount: '1145'
+source-wordcount: '1187'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ The **Allmänt** -fliken innehåller följande konfigurationer:
 Fliken Avancerat innehåller följande konfigurationer:
 
 - Transformeringsnamn
-- Rensa tillfälliga DITA-OT-filer
+- Hämta temporära filer
 - Filegenskaper
 
 Mer information finns i [HTML5-konfiguration](#id231KJA00REJ).
@@ -65,7 +65,7 @@ Följande alternativ är tillgängliga för utdata från HTML5:
 | Filnamn | Ange det filnamn som du vill spara HTML5-utdata med.<br><br>**Anteckning**:Om du inte anger något filnamn används DITA-kartans titel för att generera det slutliga HTML5-utdatafilnamnet. Om kartan inte har någon titel används DITA-kartans filnamn för att namnge det slutliga HTML5-resultatet. Filnamnet sanaliseras med de regler som konfigurerats i systemet för att hantera ogiltiga tecken. |
 | Kör arbetsflöde efter generering | När du väljer det här alternativet visas en ny arbetsflödeslista som innehåller alla arbetsflöden som är konfigurerade i AEM. Du måste välja ett arbetsflöde som du vill köra när arbetsflödet för generering av utdata har slutförts.<br><br>**Anteckning**:Mer information om hur du skapar ett anpassat arbetsflöde för efterhandsgenerering finns i _Anpassa arbetsflödet för efterhandsproduktion_ i Installera och konfigurera Adobe Experience Manager Guides as a Cloud Service. |
 | Målsökväg | Den sökväg i AEM där HTML5-utdata lagras. |
-| Rensa tillfälliga DITA-OT-filer | Välj det här alternativet om du vill rensa de temporära filer som genererats av DITA-OT. Platsen där tillfälliga filer lagras i DITA-OT finns i loggen för generering av utdata.<br><br>Om du får problem när du genererar utdata via DITA-OT kan du avmarkera det här alternativet om du vill behålla de tillfälliga filerna. Du kan sedan använda dessa filer för att felsöka fel vid generering av utdata. |
+| Hämta temporära filer | Välj det här alternativet om du vill hämta temporära filer som genererats av DITA-OT. Platsen där tillfälliga filer lagras i DITA-OT finns i loggen för generering av utdata. Om du får problem när du genererar utdata via DITA-OT väljer du det här alternativet om du vill behålla de tillfälliga filerna. Du kan sedan använda dessa filer för att felsöka fel vid generering av utdata.<br> <br>  När du har genererat utdata väljer du **Hämta temporära filer** ![ladda ned temporära filer, ikon](images/download-temp-files-icon.png) om du vill hämta ZIP-mappen som innehåller de temporära filerna. <br><br> **Anteckning**: Om du väljer vissa filegenskaper och sedan hämtar de temporära filerna får du även *metadata.xml* i ZIP-mappen. |
 | Använd baslinje | Om du har skapat en baslinje för den valda DITA-kartan väljer du det här alternativet för att ange vilken version du vill publicera.<br><br>Se [Arbeta med baslinje](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) för mer information. |
 | Filegenskaper | Välj de egenskaper som du vill bearbeta som metadata. Dessa egenskaper ställs in från sidan Egenskaper i DITA-kartan eller bokmappningsfilen. De egenskaper du väljer i listrutan visas under **Filegenskaper** fält. Markera kryssikonen bredvid egenskapen för att ta bort den. <br><br>**Anteckning**: Du kan också skicka metadata till utdata med DITA-OT-publicering. Mer information finns i [Skicka metadata till utdata med DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
 

@@ -4,9 +4,9 @@ description: Lär dig redigera ämnen i webbredigeraren. Lär dig olika redigeri
 exl-id: 8da37a81-e8c3-434f-b3f4-4723d87c2ade
 feature: Authoring, Web Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 05848b381999bf00d480b618ccb604c1798cc5dd
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '647'
 ht-degree: 0%
 
 ---
@@ -35,23 +35,34 @@ Webbredigeraren innehåller en rad redigeringsfunktioner som du kan använda fö
    >
    > Om du inte vill spara ändringarna i AEM databas klickar du på **Stäng** och klicka sedan på **Stäng utan att spara** i dialogrutan Osparade ändringar.
 
-   **Uppdatera webbläsaren när filerna redigeras**
+## Uppdatera webbläsaren när filerna redigeras
+
 Guiderna i Experience Manager har stöd för att uppdatera webbläsaren medan du redigerar innehåll i Web Editor. Med den här funktionen kan du fortsätta redigera innehåll om ett programfel skulle uppstå när du arbetar. Om du trycker på Uppdatera i webbläsaren medan en eller flera filer med osparade ändringar öppnas för redigering, får du ett varningsmeddelande om att de osparade ändringarna kan gå förlorade. Du får ett alternativ för att avbryta uppdateringsåtgärden och spara filerna för att bevara ändringarna.
 
-   Även när du uppdaterar webbläsaren behålls vyerna till vänster och till höger i webbredigeraren. Stödlinjerna i Experience Manager återställer det senast sparade läget för de filer som öppnats i webbredigeraren när du uppdaterar webbläsaren. De filer som öppnas i databaspanelen öppnas till exempel igen. Kartpanelen behålls tillsammans med den tidigare öppnade kartan.
+Även när du uppdaterar webbläsaren behålls vyerna till vänster och till höger i webbredigeraren. Stödlinjerna i Experience Manager återställer det senast sparade läget för de filer som öppnats i webbredigeraren när du uppdaterar webbläsaren. De filer som öppnas i databaspanelen öppnas till exempel igen. Kartpanelen behålls tillsammans med den tidigare öppnade kartan.
 
-   Det aktiva ämnet eller DITA-kartan öppnas på nytt i området för innehållsredigering.
+Det aktiva ämnet eller DITA-kartan öppnas på nytt i området för innehållsredigering.
 
-   Den högra panelen öppnas också igen och visar samma vy som före uppdateringen.
+Den högra panelen öppnas också igen och visar samma vy som före uppdateringen.
 
-   **Arbetskopia**
+## Arbetskopia
+
 AEM innehåller en indikator för arbetskopiering som visar om den aktuella \(arbetskopia\) av filen är synkroniserad med den sparade versionen eller inte. Om du har gjort ändringar i den aktuella kopian och inte har sparat filen, visas ett \*-märke tillsammans med titeln på ämnesfliken. Den här indikatorn fungerar som en påminnelse om att spara ändringarna och försvinner när du sparar filen.
 
-   ![](images/working-copy-text-update-indicator.png){width="550" align="left"}
+![indikator för arbetskopia](images/working-copy-text-update-indicator.png){width="550" align="left"}
 
-   AEM visar också om den senast sparade kopian av filen är synkroniserad med den sparade versionen eller inte. Om du har gjort ändringar som inte har sparats mellan arbetskopian och den senast sparade versionen visas en \*-markering tillsammans med versionsinformationen som visas i det övre högra hörnet på avsnittets filflik. Den här indikatorn fungerar som en påminnelse om att spara och skapa en version av din aktuella \(arbetskopia\) av filen.
+AEM visar också om den senast sparade kopian av filen är synkroniserad med den sparade versionen eller inte. Om du har gjort ändringar som inte har sparats mellan arbetskopian och den senast sparade versionen visas en \*-markering tillsammans med versionsinformationen som visas i det övre högra hörnet på avsnittets filflik. Den här indikatorn fungerar som en påminnelse om att spara och skapa en version av din aktuella \(arbetskopia\) av filen.
 
-   ![](images/version-update-indicator.png){width="550" align="left"}
+![Indikator för versionsuppdatering](images/version-update-indicator.png){width="550" align="left"}
+
+
+
+
+## Leta reda på en öppen fil i databasvyn
+
+När du öppnar en fil i webbredigeraren kan du hitta filen i databasvyn med hjälp av Experience Manager-stödlinjer. Det söker till exempel efter det aktuella ämnet när du redigerar det.
+
+Du kan inaktivera funktionen för att hitta filen med **Hitta alltid filer i databasen** från **Utseende** -fliken i **Användarinställningar**.
 
 
 **Överordnat ämne:**[ Arbeta med webbredigeraren](web-editor.md)

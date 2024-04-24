@@ -4,9 +4,9 @@ description: Upptäck tidsbesparande kortkommandon i webbredigeraren AEM guider.
 exl-id: d843c5a9-04f8-44f2-9bf5-60cb4ed7fa38
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 33da473cfa8c654a5413f9d8cbe9c43acaf65766
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -49,5 +49,6 @@ Det finns många åtgärder i Web Editor som du kan utföra med hjälp av kortko
 | Öppna dialogrutan Skriv ut | ***Ctrl***+**P** | ***Kommando***+**P** |
 | Ångra senaste åtgärd | ***Ctrl***+**Z** | ***Kommando***+**Z** |
 | Gör om senaste åtgärd | ***Ctrl***+**Y** | ***Kommando***+**Y** |
+| Infoga hårt blanksteg `(&nbsp;)` | ***Alt***+**Blanksteg** | ***Alternativ***+**Blanksteg** |
 
 **Överordnat ämne:** [Arbeta med webbredigeraren](web-editor.md)

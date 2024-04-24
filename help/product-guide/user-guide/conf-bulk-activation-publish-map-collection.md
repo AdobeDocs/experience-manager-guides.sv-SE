@@ -4,9 +4,9 @@ description: Aktivera utdata för DITA-kartor i AEM. Lär dig hur du aktiverar d
 exl-id: 4da644b9-8c5f-4976-a212-960085b693b8
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 66d22560d40012a7475026ed44cec7bf301c1a97
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
@@ -27,14 +27,62 @@ När du har skapat en kartsamling för massaktivering är nästa steg att aktive
 
    ![](images/bulk-activation-collection-open.png){width="800" align="left"}
 
-1. \(*Valfritt*\) Använd de filter som krävs från den vänstra listen för att filtrera kartan baserat på deras ändrade \(status\), utdataförinställning eller språk:
-1. Gör något av följande:
+1. \(*Valfritt*\) Använd de filter som krävs från den vänstra listen för att filtrera kartan baserat på deras ändrade \(status\), förinställning eller språk.
 
-   - Om du vill aktivera utdata för markerade kartor markerar du karfilerna och klickar på **Snabbpublicering**.
-   - Om du vill aktivera utdata för alla DITA-kartor med deras konfigurerade förinställningar markerar du kryssrutan bredvid kartan \(kolumn\) och klickar sedan på **Snabbpublicering.**
-     ![](images/bulk-activation-collection-quick-publish.png){width="650" align="left"}
+   >[!NOTE]
+   >
+   >Generera utdata för kartan med förinställningen för utdata innan du aktiverar dem i kartsamlingen.
 
 
-När utdata har aktiverats för de markerade kartfilerna uppdateras kolumnen Publicerat med aktuellt datum och aktuell tid.
+Visa olika sätt att aktivera din samling baserat på dina inställningar.
 
-**Överordnat ämne:**[ Massaktivering av publicerat innehåll](conf-bulk-activation.md)
+<details>
+<summary> Cloud Service </summary>
+
+![masssamling-publicera på molntjänst](images/bulk-activation-collection-quick-publish-CS.png){width="650" align="left"}
+
+Du kan aktivera utdata för **Förhandsgranska** eller **Publicera** -instanser.
+
+**Förhandsgranska**
+
+* Om du vill aktivera utdata för markerade kartor väljer du förgenererade kartor och väljer **Publicera till** > **Förhandsgranska**.
+* Om du vill aktivera utdata för alla DITA-kartor med deras konfigurerade förinställningar markerar du kryssrutan bredvid **Karta** kolumn och sedan markera **Publicera till** > **Publicera**.
+
+
+**Publicera**
+
+* Om du vill aktivera utdata för markerade kartor väljer du förgenererade kartor och väljer **Publicera till** > **Publicera**.
+
+* Om du vill aktivera utdata för alla DITA-kartor med deras konfigurerade förinställningar markerar du kryssrutan bredvid kartan (kolumn) och väljer sedan **Publicera till** > **Publicera**.
+
+
+>[!NOTE]
+> 
+> Kryssrutan för en karteutdata är bara aktiverad om du har genererat utdata för en karta.
+
+Ett meddelande om att kartan lyckades visas när kartutdata är köade för publicering.
+
+När utdata har aktiverats för de markerade mappfilerna uppdateras fliken för granskningshistorik och de senaste aktiverade utdata visas överst. The **Publicerad** -kolumnen uppdateras med publiceringsdatumet och -tiden.
+
+</details>
+
+<details>    
+<summary>  Lokal programvara </summary>
+
+
+Gör något av följande:
+
+* Om du vill aktivera utdata för markerade kartor väljer du förgenererade kartor och väljer **Snabbpublicering**.
+* Om du vill aktivera utdata för alla DITA-kartor med deras konfigurerade förinställningar markerar du kryssrutan bredvid kartan (kolumn) och väljer sedan **Snabbpublicering.**
+  ![bulk-collection-publish](images/bulk-activation-collection-quick-publish.png){width="650" align="left"}
+
+  >[!NOTE]
+  > 
+  >Kryssrutan för en karteutdata är bara aktiverad om du har genererat utdata för en karta.
+
+
+Ett meddelande om att kartan lyckades visas när kartutdata är köade för publicering.
+
+När utdata har aktiverats för de markerade mappfilerna uppdateras fliken för granskningshistorik och de senaste aktiverade utdata visas överst. The **Publicerad** -kolumnen uppdateras med publiceringsdatumet och -tiden.
+
+**Överordnat ämne: **[Massaktivering av publicerat innehåll](conf-bulk-activation.md)

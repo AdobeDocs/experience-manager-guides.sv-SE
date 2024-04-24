@@ -1,13 +1,13 @@
 ---
 title: REST API för att skapa och aktivera paket
-description: Läs mer om REST API för att skapa och aktivera paket
+description: Lär dig mer om REST API för att skapa och aktivera paket
 exl-id: 90686f77-a769-44bc-90eb-116cf9d0341e
 feature: Rest API Packages
 role: Developer
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 32da48d82b1267bb220424edf385035426293b66
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---
@@ -20,12 +20,33 @@ Med följande REST API kan du skapa och aktivera CRX-paket.
 
 En POST-metod som skapar och aktiverar CRX-paket.
 
-**Begär URL**: http://*&lt;aem-guides-server>*: *&lt;port-number>*/bin/fmdita/activate
+**URL för begäran**:
+http://*&lt;aem-guides-server\>*: *&lt;port-number\>*/bin/fmdita/activate&lt;/port-number\>&lt;/aem-guides-server\>
 
-**Parametrar**: Begäran-frågan består av JSON-regelsträngen. Innehållstypen för begäran om POST måste anges till `application/json; charset=UTF-8`.
+**Parametrar**:
+Begärandefrågan består av JSON-regelsträngen. Innehållstypen för POST-begäran måste anges till `application/json; charset=UTF-8`.
 
-**Exempel**: I följande exempel visas API-anropet med kommandot curl:
+**Exempel**:
+I följande exempel visas API-anropet med hjälp av curl kommandot:
 
-    &quot;
-    curl -u &lt;*username*>:&lt;*password*> -H &quot;Content-Type: application/json; charset=UTF-8&quot; -k -X POST -d &quot;{[JSON rules string](create-activate-package-java.md#example-create-activate-package-id198JH0B905Z)}&quot; http://&lt;*aau em-guides-server*>:&lt;*port-number*>/bin/fmdita/activate
-    &quot;
+```XML
+curl -u <*username*>:<*password*> -H "Content-Type: application/json; charset=UTF-8"  -k -X POST -d "{[JSON rules string](create-activate-package-java.md#example-create-activate-package-id198JH0B905Z)}" http://<*aem-guides-server*>:<*port-number*>/bin/fmdita/activate
+```
+
+
+**Valfri parameter**
+
+`activationTarget`
+
+**Giltiga värden**
+
+`preview` eller `publish` för molntjänster och `publish` för lokal programvara
+
+Om parametern innehåller ett ogiltigt värde misslyckas aktiveringen av paketet. I följande exempel visas API-anropet med hjälp av curl kommandot med valfri parameter:
+
+
+    &#39;&#39;&#39;XML-curl
+    
+    -u &lt;*username*>:&lt;*password*> -H &quot;Innehållstyp: application/json; charset=UTF-8&quot; -k -X POST -d &quot;{[JSON-regelsträng](create-activate-package-java.md#example-create-activate-package-id198JH0B905Z)}&quot; http://&lt;*aem-guides-server*>:&lt;*port-number*>/bin/fmdita/activate?activationTarget=&#39;&lt;validActivationTargetValue>&#39;
+    &#39;&#39;&#39;
+&lt;/validActivationTargetValue>&lt;/*port-number*>&lt;/*aem-guides-server*>&lt;/*password*>&lt;/*username*>

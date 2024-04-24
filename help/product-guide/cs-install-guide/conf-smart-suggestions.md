@@ -1,9 +1,10 @@
 ---
 title: Konfigurera smarta förslag för redigering
 description: Lär dig konfigurera smarta förslag för redigering
-source-git-commit: 1cdad275651b78d794ebc3f4ad9ead266ebeb0bd
+exl-id: a595ca1f-0123-40d3-a79c-a066bc6517b4
+source-git-commit: b2042431e96f2cbd90eea9c8cfcdb3e7033e26bb
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '745'
 ht-degree: 0%
 
 ---
@@ -15,6 +16,11 @@ Som administratör kan du konfigurera funktionen Smarta förslag för författar
 ## Skapa IMS-konfigurationer i Adobe Developer Console
 
 Så här skapar du IMS-konfigurationer i Adobe Developer Console:
+
+>[!NOTE]
+>
+>Om du redan har skapat ett OAuth-projekt för att konfigurera den mikrotjänstbaserade publiceringen kan du hoppa över följande steg för att skapa projektet.
+
 1. Starta [Adobe Developer Console](https://developer.adobe.com/console).
 1. När du har loggat in på Developer Console visas **Startsida** skärm. The **Startsida** är där du enkelt kan hitta information och snabblänkar, inklusive länkar till projekt och nedladdningar.
 1. Om du vill skapa ett nytt tomt projekt väljer du  **Skapa nytt projekt** från  **Snabbstart** länkar.
@@ -38,9 +44,20 @@ Så här skapar du IMS-konfigurationer i Adobe Developer Console:
    ![anslutna autentiseringsuppgifter](assets/conf-ss-connected-credentials.png) {width="800" align="left"}
 
    *Anslut till projektet för att visa informationen om autentiseringsuppgifter.*
-1. Kopiera knapparna CLIENT_ID och CLIENT_SECRET.
 
-Du har nu konfigurerat informationen för OAuth-autentisering. Ha de här två tangenterna till hands eftersom de behövs i nästa avsnitt.
+1. Återgå till **Projekt** och markera **Projektöversikt** till vänster.
+
+   <img src="assets/project-overview.png" alt="projektöversikt" width="500">
+
+   *Kom igång med det nya projektet.*
+
+1. Klicka på **Ladda ned** överst för att hämta JSON-tjänsten.
+
+   <img src="assets/download-json.png" alt="ladda ned json" width="500">
+
+   *Ladda ned information om JSON-tjänsten.*
+
+Du har konfigurerat OAuth-autentiseringsinformationen och laddat ned JSON-tjänstinformationen. Ha den här filen till hands så som det behövs i nästa avsnitt.
 
 ### Lägg till IMS-konfiguration i miljön
 
@@ -48,11 +65,14 @@ Utför följande steg för att lägga till IMS-konfiguration i miljön:
 
 1. Öppna Experience Manager och välj sedan det program som innehåller den miljö du vill konfigurera.
 1. Växla till **Miljö** -fliken.
-1. Välj det miljönamn som du vill konfigurera. Du bör navigera till sidan Miljöinformation.
+1. Välj det miljönamn som du vill konfigurera. Du bör navigera till **Miljöinformation** sida.
 1. Växla till **Konfiguration** -fliken.
-1. Lägg till knapparna CLIENT_ID och CLIENT_SECRET så som visas på följande skärmbild. Se till att du använder samma namn och konfiguration som markeras nedan.
-   ![Miljökonfiguration](assets/conf-ss-environment.png) {width="800" align="left"}
-   *Lägg till information om miljökonfigurationen.*
+1. Uppdatera JSON-fältet SERVICE_ACCOUNT_DETAILS. Se till att du använder samma namn och konfiguration som i skärmbilden nedan.
+
+![konfiguration av ims-tjänstkonto](assets/ims-service-account-config.png){width="800" align="left"}
+
+
+*Lägg till information om miljökonfigurationen.*
 
 
 
@@ -61,7 +81,7 @@ När du har lagt till IMS-konfigurationen i miljön utför du följande steg fö
 
 1. Lägg till följande två filer (för filinnehåll, se [Bilaga](#appendix)).
 
-   * `com.adobe.fmdita.ims.service.ImsOauthUserAccountHeadersImpl.cfg.json`
+   * `com.adobe.aem.guides.eventing.ImsConfiguratorService.cfg.json`
    * `com.adobe.fmdita.smartsuggest.service.SmartSuggestConfigurationConsumer.cfg.json`
 1. Se till att de nya filerna täcks av dina `filter.xml`.
 1. Verkställ och skicka Git-ändringarna.
@@ -74,15 +94,13 @@ När du är klar bör du kunna använda funktionen för smarta förslag.
 ## Bilaga {#appendix}
 
 **Fil**:
-`com.adobe.fmdita.ims.service.ImsOauthUserAccountHeadersImpl.cfg.json`
+`com.adobe.aem.guides.eventing.ImsConfiguratorService.cfg.json`
 
 **Innehåll**:
 
 ```
 {
-  "client.id": "$[secret:CLIENT_ID]",
-  "client.secret": "$[secret:CLIENT_SECRET]",
-  "ims.url": "https://ims-na1.adobelogin.com"
+ "service.account.details": "$[secret:SERVICE_ACCOUNT_DETAILS]",
 }
 ```
 

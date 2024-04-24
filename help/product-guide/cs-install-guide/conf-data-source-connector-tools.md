@@ -5,9 +5,9 @@ exl-id: d7cd412b-89ea-43a5-97b3-09944863bbee
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: acd16f23a7b3023a62b3c15007b03d4f3b2cfb4f
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '788'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 # Konfigurera en datakällanslutning från användargränssnittet
 
 Experience Manager Guides har **Datakällor** som hjälper dig att konfigurera färdiga anslutningar för datakällor. Du kan konfigurera JIRA-, SQL- (MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), AdobeCommerce, Elasticsearch och allmänna REST-klientanslutningar.
+
+Förutom dessa färdiga anslutningar kan du använda Experience Manager Guides för att skapa kopplingar för datakällorna Salsify, Akeneo och Microsoft Azure DevOps Boards (ADO). Du kan hämta och installera dem. Användarna kan sedan konfigurera dessa anslutningar.
+
+Du kan också ansluta till JSON-datafiler med hjälp av en filkoppling. Ladda upp JSON-filen från datorn eller bläddra i den från Adobe Experience Manager resurser. Skapa sedan innehållsutdrag eller ämnen med generatorerna.
 
 Så här konfigurerar du en koppling:
 
@@ -37,14 +41,19 @@ Så här konfigurerar du en koppling:
 1. Ange konfigurations- och anslutningsinformation enligt databasen.
 
    >[!TIP]
+   >
    >* Hovring <img src="./assets/info-details.svg" alt= "informationsikon" width="25"> i närheten av fältet för att visa mer information om det.
    > * Fält med * är obligatoriska. Du kan till exempel ange följande information för Elasticsearch-kopplingen.
 
    * **Namn**: Ange namnet på datakällan.
-   * Autentiseringstyp: Välj autentiseringstyp i listrutan. Grundläggande autentisering av användarnamn och lösenord
+   * **Autentiseringstyp**: Välj typ av autentisering i listrutan. Grundläggande autentisering av användarnamn och lösenord
    * **Användarnamn**: Ange ditt användarnamn.
    * **Lösenord**: Ange ditt användarnamn och lösenord.
    * **URL**: Lägg till API-URL:en.
+
+
+1. Välj **Exkludera fabriksmallar** om du inte vill att fabriksmallarna ska kunna användas för att generera avsnitt och fragment. De visas inte under **Datamappningsmall** listrutan i  **Lägg till generator för innehållsfragment** eller **Lägg till ämnesgenerator** -dialogrutan.
+
 
 1. Välj **Testanslutning**. Du kan visa **Testanslutning** bara aktiverad när du har lagt till den obligatoriska informationen. Visa ett meddelande om att anslutningen är korrekt. Annars kan du visa ett felmeddelande.
 
@@ -54,6 +63,21 @@ Så här konfigurerar du en koppling:
 
 
    Om anslutningen har sparats kan du visa den anslutna datakällan på sidan.
+
+**Anslut till flera resurser**
+
+Du kan lägga till eller använda flera resurser baserat på olika URL:er för vissa anslutningar, som Generic REST Client, Salsify, Akeneo och Microsoft Azure DevOps Boards (ADO). Koppla sedan samman med dem för att skapa innehållsfragment eller ämnen med hjälp av generatorerna för dem.
+
+Så här skapar du en resurs:
+
+1. Välj ![lägg till ikon](assets/Add_icon.svg) i **URL-resursavsnitt** om du vill lägga till en resurs för varje URL.
+1. Konfigurera all information i **Lägg till resurs** -dialogrutan.
+1. Klicka **Lägg till**.
+1. Du kan redigera ![redigeringsikon](assets/edit_pencil_icon.svg) eller ta bort ![delete](assets/Delete_icon.svg) resursen från URL-resurslistan.
+
+1. Du kan också använda standardresurserna som är tillgängliga för datakällor som Salsify, Akeneo och Microsoft ADO. Växla alternativen AV för den resurs som du inte vill konfigurera för en datakälla.
+
+Detta hjälper dig att snabbt hämta data från någon av resurserna för en viss datakälla i ett enda innehållskuvert eller ämne.
 
 ## Tillgängliga funktioner för en koppling
 

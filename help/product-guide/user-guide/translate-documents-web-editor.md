@@ -4,9 +4,9 @@ description: Översätt ditt innehåll till flera språk från webbredigeraren. 
 exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
+source-git-commit: ce7619538b229625277a552071bed8800e67f677
 workflow-type: tm+mt
-source-wordcount: '1925'
+source-wordcount: '2246'
 ht-degree: 0%
 
 ---
@@ -36,19 +36,37 @@ Innan du utför stegen i den här proceduren måste du se till att du har skapat
 
 ## Skapa ett översättningsprojekt
 
-1. Öppna DITA-mappningsfilen i mappningsvyn på databaspanelen.
-1. Klicka på **Hantera** -fliken. På översättningspanelen visas **Tillgängliga språk** lista.
-1. Från **Tillgängliga språk** väljer du den språkinställning som du vill översätta projektet till. Du kan **Markera alla** för att översätta projektet till alla tillgängliga språk.
+1. I **Databas** öppnar du DITA-kartfilen i kartvyn.
+1. Klicka på **Hantera** -fliken. The **Översättningspanelen** visar tillgängliga språkgrupper.
 
-   >[!NOTE]
-   >
-   > Listan innehåller språkmapparna tillsammans med deras språkkoder. Till exempel franska \(fr\) och tyska \(de\).
+1. Som användare kan du visa språkgrupperna som är konfigurerade för din mappprofil. Språkgrupperna visar språkmapparna tillsammans med deras språkkoder. Exempelvis innehåller språkgruppen G1 italienska \(it\), tyska \(de\), franska \(fr\) och engelska \(en\) språkmappar.
+
+   ![översättningspanel](images/translation-languages.png){width="300" align="left"}
+
+   *Välj de språkgrupper eller språk som du vill översätta dina dokument på.*
+
 
    >[!IMPORTANT]
    >
-   > I listan visas endast de språk för vilka en språkmapp skapas parallellt med källspråket. En språkmapp som skapats på en annan nivå, t.ex. en nivå ned från källspråksmappen, visas inte heller. Se till att du skapar alla målspråksmappar på samma nivå som källspråksmappen.
+   > Du kan bara markera och översätta till de språk som du har skapat målmappen för parallellt med källspråket. En språkmapp som skapats på en annan nivå, t.ex. en nivå ned från källspråksmappen, visas inte heller. Se till att du skapar alla målspråksmappar på samma nivå som källspråksmappen.
 
-   ![](images/translation-languages.png){width="300" align="left"}
+
+
+1. Du kan välja vilken språkgrupp som helst som mål för översättningen. Om du **Markera alla**&#x200B;översätts de markerade filerna till alla tillgängliga språk i de befintliga språkgrupperna.
+
+   Alternativet för språkmappen är nedtonat och visar ett varningstecken:
+
+   - Om målmappen för ett språk saknas.
+   - Om målspråket är samma som källan.
+
+
+   >[!NOTE]
+   >
+   > Om du skapar målmappen för ett språk när du har skapat språkgruppen, uppdaterar du webbläsaren så att språket aktiveras i språkgrupperna.
+
+1. Om du väljer ett visst språk visas det som markerat under alla språkgrupper som du har valt. När du översätter till ett språk översätts det på ett och samma ställe för alla språkgrupper. Om t.ex. tyska finns i både G1- och G2-språkgrupper markeras det för båda.
+
+1. Från **Andra språk** kan du välja vilket språk som helst som du har skapat målmappen för, men som inte ingår i någon språkgrupp.
 
 1. Du kan också välja något av följande alternativ för att översätta projektet:
 
@@ -113,7 +131,7 @@ Med AEM Guides kan administratören konfigurera översättningsreglerna. SRX-for
 
 SRX-filer ska namnges som `<language-code>.srx`. Exempel: en-US eller ar-AE.
 
->[Anteckning]
+>[!NOTE]
 >Titeln är inte skiftlägeskänslig, så du kan ha &#39;en-US&#39;, &#39;en-us&#39; eller &#39;EN-us&#39;. AEM kan också matcha &#39;-&#39; (bindestreck) eller &#39;_&#39; (understreck). Du kan alltså ha &#39;en-US&#39; eller &#39;en_US&#39;.
 
 Du kan också placera de här filerna i en mapp under AEM resursrot som är `./content/dam`.
@@ -188,5 +206,19 @@ Vissa av referenserna på översättningsinstrumentpanelen kanske håller på at
 Klicka på namnet på referensen i dialogrutan för att öppna den i förhandsgranskningsläge. Du kan också klicka på översättningsprojektet för att starta översättningen.
 
 ![](images/translation-in-progress.png){width="550" align="left"}
+
+
+## Ta bort eller inaktivera ett slutfört översättningsprojekt automatiskt
+
+>[!NOTE]
+> 
+>Den här funktionen är tillgänglig för nya översättningsprojekt som du skapar med Experience Manager Guides 2404 eller senare.  Det påverkar inte befintliga projekt.
+
+Administratören kan konfigurera **Rensning av översättningsprojekt efter slutförande** alternativ under **Översättning** tabba in **Inställningar för Redigeraren** om du vill inaktivera eller ta bort översättningsprojekten automatiskt.
+
+För effektiv dokumenthantering kan du använda Experience Manager-guider för att ta bort översättningsprojekt när du har slutfört översättningen.
+
+Du kan även inaktivera översättningsprojekten om du vill använda dem senare. Om du tar bort ett projekt tas alla filer och mappar i projektet bort. När du inaktiverar ett projekt tas det inte bort, utan behålls i databasen. Men du kan inte uppdatera eller redigera ett inaktiverat projekt.  Om du tar bort eller inaktiverar ett projekt påverkas inte översättningsstatusen för några referenser.
+
 
 **Överordnat ämne:**[ Arbeta med webbredigeraren](web-editor.md)

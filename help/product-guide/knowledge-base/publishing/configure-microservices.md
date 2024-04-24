@@ -4,24 +4,28 @@ description: Lär dig hur du konfigurerar ny mikrotjänstbaserad publicering fö
 exl-id: 92e3091d-6337-4dc6-9609-12b1503684cd
 feature: Microservice in AEM Guides
 role: User, Admin
-source-git-commit: 462647f953895f1976af5383124129c3ee869fe9
+source-git-commit: f929d4fd74e98e2025d80c14dbef6aeb464c0dd5
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '711'
 ht-degree: 0%
 
 ---
 
-# Konfigurera ny mikrotjänstbaserad publicering för AEM Guides as a Cloud Service
+# Konfigurera mikrotjänstbaserad publicering med JWT-autentisering
 
-Med den nya publiceringsmikrotjänsten kan användare köra stora publiceringsarbetsbelastningar samtidigt AEM Guides as a Cloud Service och utnyttja den branschledande Adobe I/O Runtime serverlösa plattform.
-
-För varje publiceringsbegäran AEM Guides as a Cloud Service körs en separat behållare som skalas vågrätt efter användarens önskemål. Detta ger användarna möjlighet att köra flera publiceringsbegäranden och få bättre prestanda än de stora AEM på plats-servrarna.
+[!BADGE Cloud Service]{type=Informative}
 
 >[!NOTE]
 >
-> Microservice-baserad publicering i AEM Guides har stöd för PDF (både Native- och DITA-OT-baserade), HTML5, JSON och CUSTOM-baserade utdatapresentationer.
+> JWT-autentiseringsuppgifterna (Service Account) har ersatts med autentiseringsuppgifterna för OAuth Server-till-Server. Dina program som använder JWT-inloggningsuppgifterna (Service Account) slutar fungera efter 1 januari 2025. Du måste migrera till de nya autentiseringsuppgifterna senast 1 januari 2025 för att programmet ska fortsätta fungera. Läs mer om [migrera från JWT-autentiseringsuppgifter (Service Account) till OAuth Server-till-Server-autentiseringsuppgifter](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/).
 
-Eftersom den nya molnpubliceringstjänsten skyddas av Adobe IMS JWT-baserad autentisering bör kunderna följa stegen nedan för att integrera sina miljöer med Adobe säkra tokenbaserade autentiseringsarbetsflöden och börja använda den nya molnbaserade, skalbara publiceringslösningen.
+
+
+Microservice-baserad publicering i för Adobe Experience Manager Guides as a Cloud Service har stöd för PDF (både Native- och DITA-OT-baserade), HTML5, JSON och CUSTOM för olika utdatapresentationer.
+
+Eftersom JWT-autentiseringsuppgifterna (Service Account) har tagits bort rekommenderar vi att du använder OAuth-baserad autentisering med Adobe IMS. Lär dig hur [konfigurera mikrotjänstbaserad publicering med OAuth-autentisering](configure-microservices-imt-config.md).
+
+För molnpubliceringstjänsten som skyddas av Adobe IMS JWT-baserad autentisering ska kunderna följa stegen nedan för att integrera sina miljöer med Adobe säkra tokenbaserade autentiseringsarbetsflöden och börja använda den nya molnbaserade skalbara publiceringslösningen.
 
 
 ## Skapa IMS-konfigurationer i Adobe Developer Console
@@ -80,7 +84,7 @@ Utför följande steg för att lägga till IMS-konfiguration i miljön:
 >
 > Du måste öppna, kopiera och klistra in innehållet i JSON-filen för den privata nyckeln och tjänstinformation i värdekolumnen på konfigurationspanelen enligt skärmbilden ovan.
 
-När du har lagt till IMS-konfigurationen i miljön utför du följande steg för att länka dessa egenskaper med AEM stödlinjer med OSGi:
+När du har lagt till IMS-konfigurationen i miljön följer du de här stegen för att länka dessa egenskaper till Experience Manager-guider med OSGi:
 
 1. Lägg till följande två filer (för filinnehåll, se [Bilaga](#appendix)).
 

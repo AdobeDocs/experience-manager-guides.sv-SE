@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Läs produktdokumentationen för Adobe Experience Manager Guides.
 breadcrumb-title: Dokumentation om AEM Guides
-source-git-commit: 6ff99d32dd7a30c1104a79da4f223defe109f190
+source-git-commit: e8febe389ed805375d4b79570cd9a0e023e046f3
 workflow-type: tm+mt
-source-wordcount: '1754'
+source-wordcount: '1777'
 ht-degree: 2%
 
 ---
@@ -19,6 +19,10 @@ ht-degree: 2%
       - Cloud Service {#cloud-release-notes}
          - [Distributionsanvisningar](./release-info/deploy-xml-on-aemaacs.md)
          - 2024 års utgåvor {#2024-releases}
+            - 2024.4.0-utgåvan {#2404-release}
+               - [Nyheter](./release-info/whats-new-2024-04-0.md)
+               - [Åtgärdade problem](./release-info/fixed-issues-2024-04-0.md)
+               - [Uppgraderingsinstruktioner](./release-info/upgrade-instructions-2024-04-0.md)
             - 2024.2.0-utgåvan {#2402-release}
                - [Nyheter](./release-info/whats-new-2024-2-0.md)
                - [Åtgärdade problem](./release-info/fixed-issues-2024-2-0.md)
@@ -115,7 +119,7 @@ ht-degree: 2%
                - [Andra funktioner i Web Editor](./user-guide/web-editor-other-features.md)
                - [Vyer i Web Editor](./user-guide/web-editor-views.md)
                - [Stöd för Schematron-filer](./user-guide/support-schematron-file.md)
-               - [AI-baserade smarta förslag (beta) för att skapa innehåll](./user-guide/authoring-ai-based-smart-suggestions.md)
+               - [AI-baserade smarta förslag för att skapa innehåll](./user-guide/authoring-ai-based-smart-suggestions.md)
                - [Skapa markeringsdokument från webbredigeraren](./user-guide/web-editor-markdown-topic.md)
                - [Lägg till citat i innehållet](./user-guide/web-editor-apply-citations.md)
                - [Använd data från datakällor](./user-guide/web-editor-content-snippet.md)
@@ -317,6 +321,7 @@ ht-degree: 2%
       - Arbeta med anpassad DITA-OT och specialisering {#custom-dita-ot-spec-cs}
          - [Använd anpassad DITA-OT- och DITA-specialisering](./cs-install-guide/dita-ot-specialization.md)
       - Konfigurera UUID- och icke UUID-baserade filnamn {#conf-non-uuid-filename-cs}
+         - [Konfigurera efterbearbetning för en mapp](./cs-install-guide/conf-folder-post-processing.md)
          - [Konfigurera filnamn](./cs-install-guide/conf-file-names.md)
          - [Konfigurera automatiska filnamn baserat på UUID](./cs-install-guide/conf-auto-uuid-filenames.md)
          - [Konfigurera Regx för giltiga filnamnstecken](./cs-install-guide/conf-file-names-valid-regx.md)
@@ -441,7 +446,9 @@ ht-degree: 2%
 
          - [FMPS och stödlinjer](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
          - [Microservice-arkitektur och prestanda](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
-         - [Konfigurera mikrotjänstbaserad publicering](./knowledge-base/publishing/configure-microservices.md)
+         - [Konfigurera mikrotjänstbaserad publicering med JWT-autentisering](./knowledge-base/publishing/configure-microservices.md)
+         - [Konfigurera mikrotjänstbaserad publicering med OAuth-autentisering](./knowledge-base/publishing/configure-microservices-imt-config.md)
+
          - [Publicera riktmärken i AEM molnet](./knowledge-base/publishing/publishing-benchmarks-on-cloud.md)
          - [Konfigurera en anpassad DITA-OT](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
       - Arbetsflöden {#workflows}

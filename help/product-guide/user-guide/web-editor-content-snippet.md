@@ -4,9 +4,9 @@ description: Använd data från datakällan i AEM. Lär dig hur du infogar ett i
 exl-id: fbd5eff2-451b-49d6-ba77-6eb271e94349
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 2e5bf87b65cca6b522fcb97db1f40f98f020927a
 workflow-type: tm+mt
-source-wordcount: '2066'
+source-wordcount: '2389'
 ht-degree: 0%
 
 ---
@@ -15,9 +15,11 @@ ht-degree: 0%
 
 A **datakälla** är ett system där du lagrar och hanterar data för din organisation. Det här är databassystem som JIRA, SQL-databaser, PIM eller PLM. AEM innehåller funktioner för att ansluta till datakällan och använda data från den.
 
+Du kan också ansluta till JSON-datafiler med hjälp av en filkoppling. Ladda upp JSON-filen från datorn eller bläddra i den från Adobe Experience Manager resurser. Skapa sedan innehållsutdrag eller ämnen med generatorerna.
+
 ## Panelen Datakällor
 
-Välj **Datakällor** ![](images/data-source-icon.svg) i den vänstra panelen för att visa de anslutna datakällorna. Panelen Datakällor öppnas och visar alla anslutna datakällor.
+Välj **Datakällor** ![datakälla](images/data-source-icon.svg) i den vänstra panelen för att visa de anslutna datakällorna. Panelen Datakällor öppnas och visar alla anslutna datakällor.
 
 Beroende på din konfiguration kan administratören konfigurera en datakällanslutning:
 
@@ -80,11 +82,23 @@ Utför följande steg för att skapa ett innehållskfragment med hjälp av gener
 1. Välj en datakälla om du vill visa de innehållsfragmentgeneratorer som är tillgängliga för den valda datakällan.
 
    ![](images/code-snippet-generator.png){width="300" align="left"}
+
    *På panelen Datakällor visas de tillgängliga generatorerna för innehållsfragment.*
 
 1. Välj **Lägg till** om du vill lägga till en ny generator för innehållsfragment. The **Lägg till generator för innehållsfragment** panelen öppnas.
 
-1. Skriv frågan i textrutan Datafråga.
+1. Ange frågan i dialogrutan **Datafråga** textruta.  Välj **Kopiera exempelfråga** för att snabbt kopiera en datafråga. I stället för att skapa frågan manuellt kan du kopiera och klistra in exempelfrågan i **Datafråga** textruta. Redigera sedan frågan efter datakraven.
+
+   >[!NOTE]
+   >
+   >Experience Manager tillhandahåller olika exempelfrågor för alla resurser i de olika datakällorna. Dessa mappas till datakällan som du hämtar data från.
+
+1. Om du använder en filkoppling kan du överföra JSON-filen från datorn eller bläddra i en JSON-fil från Adobe Experience Manager-resurser.
+
+   >[!NOTE]
+   >
+   > Om du använder en filkoppling visas alternativen för att överföra eller bläddra bland filer istället för en datafråga.
+
 1. Välj den mall som mappar med datakällan från **Datamappningsmall** nedrullningsbar meny.
 De färdiga mallarna för den valda datakällan visas i listrutan. Du kan till exempel visa mallen &quot;sql-table&quot; för datakällan med namnet &quot;PostgreSQL&quot;-datakälla.
 
@@ -93,6 +107,12 @@ De färdiga mallarna för den valda datakällan visas i listrutan. Du kan till e
    > Om administratören har konfigurerat anpassade mallar visas även dessa mallar i listrutan (baserat på mallsökvägskonfigurationerna som din administratör har konfigurerat).
    >   
    >Du kan också använda snabbhetsverktygen i mallarna. Läs mer om hur [använd snabbverktyg](#use-velocity-tools).
+
+1. The **Resurs** listrutan visas för vissa anslutningar som REST Client, Salsify, Akeneo och Microsoft ADO.  Välj en resurs i listrutan och anslut till den för att skapa ett innehållskuvert eller ett ämne som använder generatorn för det.
+
+   >[!NOTE]
+   >
+   > Administratören kan konfigurera standardresurser eller lägga till resurser för flera URL:er när datakällanslutningarna konfigureras.
 
 1. Klicka **Hämta** för att hämta data från datakällan och tillämpa mallen på data som är resultat av SQL-frågan.
 
@@ -144,6 +164,8 @@ Med en ämnesgenerator kan du skapa ämnen som innehåller data från dina käll
 
 
 
+
+
 ### Skapa ett ämne
 
 Så här skapar du ett ämne med ämnesgeneratorn:
@@ -166,7 +188,18 @@ Så här skapar du ett ämne med ämnesgeneratorn:
 
    *Lägg till datafrågan, datamappningsmallen och rotnodinformationen för ämnesgeneratorn och ge den ett unikt namn på panelen Hämta konfiguration.*
 
-   1. Ange frågan i dialogrutan **Datafråga** textruta.
+   1. Ange frågan i dialogrutan **Datafråga** textruta. Välj **Kopiera exempelfråga** för att snabbt kopiera en datafråga. I stället för att skapa frågan manuellt kan du kopiera och klistra in exempelfrågan i **Datafråga** textruta. Redigera sedan frågan efter datakraven.
+
+      >[!NOTE]
+      >
+      >Experience Manager tillhandahåller olika exempelfrågor för alla resurser i de olika datakällorna. Dessa mappas till datakällan som du hämtar data från.
+
+   1. Om du använder en filkoppling kan du överföra JSON-filen från datorn eller bläddra i en JSON-fil från Adobe Experience Manager-resurser.
+
+      >[!NOTE]
+      >
+      > Om du använder en filkoppling visas alternativen för att överföra eller bläddra bland filer istället för en datafråga.
+
    1. Välj den mall som mappar med datakällan från **Datamappningsmall** nedrullningsbar meny.
 
       >[!NOTE]

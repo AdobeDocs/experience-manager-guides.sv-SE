@@ -4,9 +4,9 @@ description: Utforska andra funktioner i webbredigeraren i AEM. Lär dig hur du 
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: caf00a014838751675aed11e5687a81fe7ad2e7c
 workflow-type: tm+mt
-source-wordcount: '2247'
+source-wordcount: '2532'
 ht-degree: 0%
 
 ---
@@ -159,15 +159,25 @@ Du kan se följande alternativ beroende på om filen är låst/olåst och har sp
 
 **Infoga MathML-ekvationer**
 
-- AEM Guides ger ett körklart stöd för att infoga MathML-ekvationer genom integrering med [MathType Web](https://docs.wiris.com/en/mathtype/mathtype_web/intro) program. Om du vill infoga en MathML-ekvation klickar du på **Infoga element** och skriv mathml. När du väljer matematiska element i listan visas dialogrutan Infoga MathML:
+- Guiderna i Experience Manager ger ett körklart stöd för att infoga MathML-ekvationer genom integrering med [MathType Web](https://docs.wiris.com/en/mathtype/mathtype_web/intro) program. Om du vill infoga en MathML-ekvation väljer du **Infoga element** och skriv mathml. När du väljer ett metml-element från listan visas **Infoga MathML** visas:
 
-![](images/insert-mathml-equation.png){width="550" align="left"}
+![infoga matematisk ekvation i mathml-redigeraren](images/insert-mathml-equation.png){width="550" align="left"}
 
-Skapa ekvationen med MathML-ekvationsverktygen och klicka på Infoga för att lägga till den i dokumentet. Ekvationen infogas med ljusgrå bakgrund enligt nedan:
+Skapa ekvationen med MathML-ekvationsverktygen och klicka på **Infoga** för att lägga till den i dokumentet. Ekvationen infogas med ljusgrå bakgrund enligt nedan:
 
-![](images/sample-mathml-equation.PNG){width="400" align="left"}
+![exempelmatematisk ekvation](images/sample-mathml-equation.PNG){width="400" align="left"}
 
 Du kan när som helst uppdatera en ekvation genom att högerklicka på en befintlig ekvation och välja **Redigera MathML** på snabbmenyn.
+
+- **Validering av ekvationer i MathML-redigeraren**
+
+  Stödlinjerna i Experience Manager validerar MathML-ekvationer när du sparar ett ämne som innehåller dem.
+När du infogar en ekvation med MathML-redigeraren markeras ekvationen med rött i Stödlinjer i Experience Manager om det finns syntaxproblem. Du kan korrigera det innan du infogar det. Om du inte gör några ändringar, men väljer **Infoga**, visas en varning.
+
+  ![validate mathml-ekvation](images/validate-mathml-equation.png){width="400" align="left"}
+
+  Om du infogar MathML-ekvationen som innehåller ett syntaxfel inträffar ett valideringsfel när du försöker spara ämnet.
+
 
 **Infoga fotnoter**
 
@@ -203,11 +213,30 @@ Förutom snabbmenyn för den synliga sökvägen kan du även öppna dialogrutan 
 
 - Om du tar bort ett element kan du ta bort elementtaggen från den markerade texten och sammanfoga den med det överordnade elementet. Om du till exempel har en `p` element i en `note` -element kan du bryta upp `p` element som du vill sammanfoga texten direkt i `note` -element. The **Dela upp element** är tillgängligt på snabbmenyn för ämnesraden. Om du vill dela upp ett element högerklickar du på elementet för att öppna snabbmenyn och väljer sedan **Dela upp element** om du vill ta bort elementet och sammanfoga elementets text med dess överordnade element.
 
+**Hantering av tomt utrymme för DITA-element**
+
+- I XML-format innehåller blanksteg, tabbar, radbrytningar och tomma rader. Med stödlinjerna i Experience Manager kan du konvertera flera efterföljande blanksteg till ett enda. Detta hjälper dig att bevara WYSIWYG-vyn i webbredigeraren.
+
+  >[!NOTE]
+  >
+  >I vissa element där blanktecken måste bevaras enligt DITA-reglerna behålls de efterföljande blanktecknen. Till exempel: `<pre>` och `<codeblock>` -element.
+
+
 **Bevara radbrytningar och indrag**
 
 - DITA-element som innehåller radbrytningar och blanksteg stöds och återges enligt definitionen i redigeringsläge, källläge eller förhandsgranskningsläge, och även i det slutliga publicerade resultatet. På följande skärmbild visas innehållet i `msgblock` element där radbrytningar och blanksteg \(indrag\) har bevarats:
 
 ![](images/new-line-support_cs.png){width="500" align="left"}
+
+
+
+**Hantera hårda blanksteg i Web Editor**
+
+- Du kan infoga fasta mellanslag i dokumentet med **Infoga specialtecken**  ![infoga specialtecken, ikon](images/insert-special-chars-icon.svg) ikonen eller **Alt** + **Blanksteg** kortkommandon.  Dessa fasta mellanslag visas som en indikator när du redigerar ett ämne i Web Editor. Du kan stänga av visningen av fasta mellanslag med **Visa indikator för fast mellanslag i redigeringsläge** från **Utseende** -fliken i **Användarinställningar** ![Ikon för användarinställningar](images/user_preference_editor_icon.svg)..
+
+- Om du kopierar och klistrar in innehåll med fast mellanslag från externa källor i **Upphovsman** den fasta ytan konverteras till ett mellanslag.
+Om du kopierar och klistrar in innehåll med fast mellanslag från **Upphovsman** den bevaras.
+
 
 **Generera element-ID automatiskt**
 

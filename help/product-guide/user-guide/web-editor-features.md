@@ -4,9 +4,9 @@ description: Upptäck funktionerna i webbredigeraren i AEM. Lär dig webbrediger
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
+source-git-commit: 43bdcba4642c9d75585bc571acf0cb0da22a5f4c
 workflow-type: tm+mt
-source-wordcount: '17861'
+source-wordcount: '18678'
 ht-degree: 0%
 
 ---
@@ -222,11 +222,33 @@ Detta förhindrar att användarna sparar filer som bryter en regel som definiera
 
   ![](images/editor-settings-display-attributes.png){width="550" align="left"}
 
-- **Översättning**: Den här fliken innehåller ett alternativ för att sprida källetiketterna till målversionen.
+- **Översättning**: Den här fliken innehåller alternativ för att skapa språkgrupper, sprida källetiketterna till målversionen och rensa översättningsprojektet.
+  ![](images/editor-setting-translation.png){width="550" align="left"}
+
+   - **Språkgrupper**: Som administratör kan du skapa en grupp med språk och använda dem som en uppsättning för att översätta innehållet.\
+     Så här skapar du en ny språkgrupp:
+      1. Välj Lägg till ![lägg till ikon](images/Add_icon.svg) -ikon.
+      1. Ange språkgruppsnamnet. Varje språk ska ha ett unikt namn. Du kan visa ett fel om namnfältet är tomt eller om namnet inte är unikt.
+      1. Välj språk i listrutan. Du kan välja flera språk.
+
+     Skriv de första tecknen i språket eller språkkoden för att filtrera de önskade språken. Skriv t.ex.&quot;en&quot; om du vill filtrera alla språk som innehåller&quot;en&quot; i början av namnet eller koden.
+      1. Välj **Klar** om du vill lägga till de valda språken i gruppen. Språken visas. När du lägger till tre eller fler språk **Visa mer** visas. Du kan välja **Visa mer** om du vill visa alla språk som finns i gruppen.
+         >[!TIP]
+         >
+         > Växla **Visa mer** till **Visa mindre** och bara visa ett fåtal språk.
+
+      1. Håll pekaren över språken i en grupp som du vill redigera ![redigeringsikon](images/edit_pencil_icon.svg) eller ta bort ![delete](images/Delete_icon.svg) språkgrupperna.
+      1. Spara **Redigeringsinställningar**.
+
+         >[!NOTE]
+         >
+         >Som användare kan du visa språkgrupperna som är konfigurerade för din mappprofil.
 
    - **Sprid källversionsetiketter till målversionen**: Välj det här alternativet om du vill skicka etiketten för källfilsversionen till den översatta filen. Som standard är detta inaktiverat.
+   - **Rensning av översättningsprojekt efter slutförande**: Välj det här alternativet om du vill konfigurera översättningsprojekten så att de inaktiveras eller tas bort automatiskt efter översättningen. Som standard **Ingen** är markerat, så projektet finns efter översättning.
 
-  ![](images/editor-setting-translation.png){width="550" align="left"}
+     Du kan inaktivera översättningsprojekten om du vill använda dem senare. Om du tar bort ett projekt tas alla filer och mappar i projektet bort permanent.
+
 
 - **Metadata**: Du kan styra metadata för versionen av ämnet och deras värden som ska visas i **Tidigare versioner** -dialogrutan.  Ange platsen för de noder som du vill hämta metadata från i metadatasökvägen. Du kan också definiera ett anpassat namn för metadata som etikett. Standardegenskaperna är Titel, Dokumenttillstånd och Taggar.
 
@@ -250,36 +272,48 @@ Metaetiketterna visas i samma sekvens i **Tidigare versioner** i Web Editor.
 
 
 
-**Användarinställningar** - ![](images/user_preference_editor_icon.svg)
+**Användarinställningar** - ![ikon för användarinställningar](images/user_preference_editor_icon.svg)
 
 Användarinställningarna är tillgängliga för alla författare. Med hjälp av inställningarna kan en författare konfigurera följande inställningar:
 
-![](images/user_preference_editor.PNG){width="550" align="left"}
 
-- **Använd enhetstema**: Markera den här kryssrutan om du vill att AEM stödlinjer automatiskt ska växla mellan ljusa och mörka teman baserat på temat på enheten.
 
-- **Visa filer efter**: Välj standardmetod för att visa filerna i Web Editor. Du kan visa fillistan efter filnamnen eller filnamnen från de olika panelerna i **Upphovsman** vy.
-  >[!NOTE]
-  >
-  > Som standard visas filerna som titlar i webbredigeraren.
+- **Allmänt**: På fliken Allmänt kan du konfigurera följande inställningar:
 
-- **Tema**: Du kan välja bland temana Ljus, Ljusast, Mörk eller Mörkast för redigeraren. När det gäller det ljusaste temat använder verktygsfälten och panelerna en ljusare grå bakgrund. När det gäller ljustemat använder verktygsfälten och panelerna ljusgrå bakgrund. När det gäller det mörkaste temat använder verktygsfälten och panelerna en mörkare svart bakgrund. När det gäller mörkt tema använder verktygsfälten och panelerna svart färgbakgrund. I alla teman visas området för innehållsredigering med vit färgbakgrund.
+  ![Fliken Allmänt i användarinställningarna](images/user_preference_editor.PNG){width="550" align="left"}
 
-- **Mappprofiler**: Mappprofilen styr olika konfigurationer av villkorsattribut, redigeringsmallar, utdatainställningar och Web Editor-konfigurationer. Den globala profilen visas som standard. Om administratören dessutom har konfigurerat mappprofiler i systemet visas även dessa mappprofiler i listan Mappprofiler.
+   - **Mappprofiler**: Mappprofilen styr olika konfigurationer av villkorsattribut, redigeringsmallar, utdatainställningar och Web Editor-konfigurationer. Den globala profilen visas som standard. Om administratören dessutom har konfigurerat mappprofiler i systemet visas även dessa mappprofiler i listan Mappprofiler.
 
-  De konfigurationer som en administratör kan definiera i mappprofilen är bland annat: anpassa användargränssnittet, bland annat verktygsfältsikonerna, Web Editor-layouten, kodavsnitten och rotkartan. Mer information finns i *Konfigurera globala profiler eller profiler på mappnivå* i as a Cloud Service Installera och konfigurera Adobe Experience Manager Guides.
+     De konfigurationer som en administratör kan definiera i mappprofilen är bland annat: anpassa användargränssnittet, bland annat verktygsfältsikonerna, Web Editor-layouten, kodavsnitten och rotkartan. Mer information finns i *Konfigurera globala profiler eller profiler på mappnivå* i as a Cloud Service Installera och konfigurera Adobe Experience Manager Guides.
 
-  >[!NOTE]
-  >
-  > Namnet på den aktuella mappprofilen visas som etikett för ikonen för användarinställningar i huvudverktygsfältet.
+     >[!NOTE]
+     >
+     > Namnet på den aktuella mappprofilen visas som etikett för ikonen för användarinställningar i huvudverktygsfältet.
 
-- **Grundsökväg**: Som standard visas resurser från /content/dam-platsen när du öppnar AEM från Web Editor. Arbetsmappen finns förmodligen i mappen /content/dam/. Det krävs några klick för att komma till arbetsmappen varje gång. Du kan ange grundsökvägen till din arbetsmapp och i databasvyn visas sedan innehållet från den platsen direkt. Detta minskar tiden för åtkomst till din arbetsmapp. När du infogar en referens- eller mediefil i ditt ämne börjar filbläddringsplatsen med mappen inställd i bassökvägen.
+   - **Grundsökväg**: Som standard visas resurser från /content/dam-platsen när du öppnar AEM från Web Editor. Arbetsmappen finns förmodligen i mappen /content/dam/. Det krävs några klick för att komma till arbetsmappen varje gång. Du kan ange grundsökvägen till din arbetsmapp och i databasvyn visas sedan innehållet från den platsen direkt. Detta minskar tiden för åtkomst till din arbetsmapp. När du infogar en referens- eller mediefil i ditt ämne börjar filbläddringsplatsen med mappen inställd i bassökvägen.
 
-- **Välj rotkarta**: Välj en DITA-kartfil för att lösa nyckelreferenser eller ordlisteposter. Den markerade rotkartan har högsta prioritet för att lösa nyckelreferenser. Mer information finns i [Lös nyckelreferenser](map-editor-other-features.md#id176GD01H05Z).
+   - **Välj rotkarta**: Välj en DITA-kartfil för att lösa nyckelreferenser eller ordlisteposter. Den markerade rotkartan har högsta prioritet för att lösa nyckelreferenser. Mer information finns i [Lös nyckelreferenser](map-editor-other-features.md#id176GD01H05Z).
 
->[!NOTE]
-> 
-> Om du inte vill använda något rotschema kontrollerar du att **Välj rotkarta** fältet är tomt.
+     >[!NOTE]
+     >    
+     > Om du inte vill använda något rotschema kontrollerar du att **Välj rotkarta** fältet är tomt.
+
+- **Utseende**: Välj teman för Web Editor-programmet och källvyn för innehållets redigeringsområde.
+
+  ![utseendeflik i användarinställningar](images/user_preference_editor_appearance.png){width="550" align="left"}
+
+   - **Visa filer efter**: Välj standardmetod för att visa filerna i Web Editor. Du kan visa fillistan efter filnamnen eller filnamnen från de olika panelerna i **Upphovsman** vy.
+     >[!NOTE]
+     >
+     > Som standard visas filerna som titlar i webbredigeraren.
+
+   - **Programtema**: Du kan välja bland **Ljus** eller **Mörk** teman för programmet. När det gäller **Ljus** -temat använder verktygsfälten och panelerna en ljusgrå bakgrund. När det gäller **Mörk** använder verktygsfälten och panelerna en svart färgbakgrund. Välj **Använd enhetstema** om du vill att Experience Manager-stödlinjer ska kunna välja ljusa och mörka teman baserat på temat på din enhet.  I alla teman visas området för innehållsredigering med vit färgbakgrund i **Upphovsman** vy.
+
+   - **Tema för källvy**: - Du kan välja mellan **Ljus** eller **Mörk** teman för området för innehållsredigering i källvyn. När det gäller **Ljus** -temat använder innehållets redigeringsområde en ljusgrå bakgrund för källvyn, och när det gäller **Mörk** -temat använder det en svart färgbakgrund. Välj **Använd enhetstema** om du vill att Experience Manager-stödlinjer ska kunna välja ljusa och mörka teman baserat på temat på din enhet.
+
+   - **Hitta alltid filer i databasen**: Välj det här alternativet om du vill visa platsen för en fil i databasen när du redigerar den i Web Editor.
+
+   - **Visa indikator för fast mellanslag i redigeringsläge**: Välj det här alternativet om du vill visa en indikator för de fasta mellanrummen när du redigerar dem i webbredigeraren. Den är aktiverad som standard.
 
 **Författare, Källa och Förhandsgranska**
 
@@ -291,7 +325,19 @@ Det sekundära verktygsfältet visas när du öppnar ett ämne för redigering i
 
 **Infoga element** - ![](images/Add_icon.svg)
 
-Infogar ett giltigt element på den aktuella eller nästa giltiga plats. Du kan också använda kortkommandot ***Alt***+***Retur*** för att öppna popup-fönstret Infoga element. Du redigerar till exempel ett stycke och sedan i **Infoga element** visas en lista med element som kan infogas i stycket. Markera elementet som du vill infoga. Du kan använda tangentbordet för att bläddra igenom elementlistan och trycka på ***Retur*** för att infoga det nödvändiga elementet. Du kan också skriva ett tecken eller en sträng i sökrutan och söka efter elementen som börjar med det.
+Infogar ett giltigt element på den aktuella eller nästa giltiga plats. Du kan också använda kortkommandot ***Alt***+***Retur*** för att öppna popup-fönstret Infoga element. Du redigerar till exempel ett stycke och sedan i **Infoga element** visas en lista med element som kan infogas i stycket. Markera elementet som du vill infoga. Du kan använda tangentbordet för att bläddra igenom elementlistan och trycka på ***Retur*** för att infoga det nödvändiga elementet.
+
+Du kan visa två typer av giltiga element:
+
+- **Giltiga element på den aktuella platsen**: I listan visas de element som du kan infoga vid den aktuella markörplatsen.
+
+- **Giltiga element utanför den aktuella platsen**: I listan visas de element som du kan infoga efter någon av de överordnade elementen för det aktuella elementet i elementhierarkin.
+
+
+
+Om du till exempel befinner dig inom den infogade `<b>` -element kan du infoga element som `<u>`, `<xref>`, `<i>` på den aktuella platsen. Du kan i stället infoga element som `<table>` och `<topic>` utanför den aktuella platsen.
+
+Du kan också skriva ett tecken eller en sträng i sökrutan och söka efter elementen som börjar med det.
 
 
 ![infoga element](images/insert-element.png){width="300" align="left"}
@@ -863,22 +909,70 @@ Markera en karta och tryck på Enter eller dubbelklicka för att öppna den i di
 
 **Filtersökning**
 
-Webbredigeraren har förbättrade filter för textsökning. Klicka på Filtersökning \(![](images/filter-search-icon.svg)\) för att öppna filterpanelen. Du kan söka efter en text i de filer som finns på den valda sökvägen i AEM. Till exempel genomsöks&quot;allmänt syfte&quot; i skärmbilden nedan.
+Webbredigeraren har förbättrade filter för textsökning. Du kan söka efter och filtrera efter en text i de filer som finns på den valda sökvägen i Adobe Experience Manager-databasen. Det söker i titeln, filnamnet och innehållet i filerna.
 
-![](images/repository-filter-search.png){width="400" align="left"}
 
-Du har även följande alternativ för att filtrera filerna och begränsa sökningen i AEM.
+![sökfiler i databasvyn](images/repository-filter-search.png){width="300" align="left"}
 
-- **DITA-filer**: Du kan söka efter alla **DITA-avsnitt** och **DITA-kartor** finns på den markerade banan.
-- **Icke-DITA-filer**: Du kan söka efter **Bildfiler**, **Multimedia** och **Dokument** i den markerade banan.
-- **DITA Elements**: Du kan också söka efter specifika värden i attributen för de angivna DITA-elementen.
-- **Utcheckad av**: Du kan söka efter filer som har checkats ut av den angivna användaren.
-- **Senast ändrad**: Du kan söka efter filer som senast har ändrats efter ett valt datum men före ett valt datum. Du kan också söka efter filer som senast har ändrats under de senaste 2 timmarna, förra veckan, förra månaden eller förra året.
+*Använd filter för att söka efter filer som innehåller texten`general purpose.`*
+
+Välj **Filtersökning** \(![Ikon för sökfilter](images/filter-search-icon.svg)\) om du vill öppna popup-fönstret Filtrera efter.
+
+>[!NOTE]
+>
+> När du söker efter text eller filtrerar filer visas en blå punkt på **Filtersökning**  \(![Ikon för sökfilter](images/filter-search-icon.svg)\) för att ange att vi är på sökpanelen och att vissa filter har använts.
+
+
+Du har följande alternativ för att filtrera filerna och begränsa sökningen i Adobe Experience Manager-databasen:
+
+- **DITA-filer**: Du kan söka efter alla **DITA-avsnitt** och **DITA-kartor** finns på den markerade banan. Dessa är markerade som standard.
+- **Icke-DITA-filer**: Du kan söka efter **Ditaval-filer**,  **Bildfiler**, **Multimedia**, **Dokument** och **Json** i den markerade banan.
+
+![snabbsökningsfilter ](images/repository-filter-search-quick.png) {width="300" align="left"}
+
+*Använd snabbfiltren för att söka efter DITA- och icke-DITA-filer.*
+
+**Avancerad filtrering**
+
+Välj **Avancerad filtrering** ![avancerad filterikon](images/advanced-filter-gear-icon.svg)-ikonen för att visa **Avancerat filter** -dialogrutan.
+
+Du kan visa följande alternativ under **Allmänt** och **Avancerat** -tabbar.
+
+![dialogruta för avancerat filter](images/repository-filter-search-advanced.png) {width="800" align="left"}
+
+
+**Allmänt**
+
+- **Sökresultaten blir följande**: Sök efter text i filerna som finns på den valda sökvägen i Adobe Experience Manager-databasen. Texten genomsöks i filernas titel, filnamn och innehåll.
+
+Detta är synkroniserat med sökrutan i databasfönstret. Om du t.ex. skriver `general purpose` i sökrutan på databaspanelen visas den även i **Avancerat filter** och vice versa.
+
+- **Sök i**: Välj den sökväg där du vill söka efter filerna i Adobe Experience Manager-databasen.
+
+- **Utcheckad av**: Du kan söka efter filer som användaren checkar ut.
+- **Senast ändrad**: Du kan söka efter filer som senast har ändrats efter ett valt datum men före ett valt datum.
+- **Ändrad före**: Du kan söka efter filer som senast har ändrats före ett visst datum.
+- **Tidsram**: Du kan också söka efter filer som senast har ändrats under de senaste två timmarna, förra veckan, förra månaden eller förra året.
 - **Taggar**: Du kan söka efter filer som har särskilda taggar. Du kan antingen skriva taggen eller välja den i listrutan.
 
-**Obs!** Systemadministratören kan också konfigurera textfiltren och visa eller dölja andra filter. Mer information finns i *Konfigurera textfilter* i avsnittet Installera och konfigurera Adobe Experience Manager Guides as a Cloud Service.
+**Avancerat**
 
-Listan med filtrerade filer som innehåller den sökta texten visas. På skärmbilden ovan visas till exempel de filer som innehåller texten &quot;allmänt syfte&quot;. Du kan markera flera filer i den filtrerade listan om du vill dra och släppa dem i en karta som har öppnats för redigering.
+- **DITA Elements**: Du kan också söka efter specifika värden i attributen för de angivna DITA-elementen.
+   - Välj **Lägg till element** ![lägg till ikon](images/Add_icon.svg) om du vill lägga till element, attribut och värden.
+   - Använd de filter som du har valt.
+
+- Välj **Rensa alla** för att rensa alla använda filter.
+
+
+- Välj **Stäng filter** ![stäng ikon](images/close-icon.svg) om du vill stänga filtret och återgå till trädvyn i databasen.
+  >[!NOTE]
+  >
+  >Systemadministratören kan också konfigurera textfiltren och visa eller dölja andra filter. Mer information finns i *Konfigurera textfilter* i avsnittet Installera och konfigurera Adobe Experience Manager Guides as a Cloud Service.
+
+  Listan med filtrerade filer som innehåller den sökta texten visas. Till exempel filerna som innehåller texten `general purpose` visas i föregående skärmbild. Du kan markera flera filer i den filtrerade listan om du vill dra och släppa dem på en karta som har öppnats för redigering.
+
+
+
 
 **Alternativ-menyn**
 
@@ -895,7 +989,7 @@ Du kan utföra följande åtgärder med Alternativ-menyn som är tillgänglig f�
 
 
 
-- **Överför resurser**: Överför en fil från ditt lokala system till den valda mappen i AEM. Du kan också dra och släppa filer från ditt lokala system till ditt aktuella arbetspass. Det här är mycket användbart om du vill infoga bilder från ditt lokala system i avsnittet.
+- **Överför resurser**: Överför en fil från ditt lokala system till den valda mappen i Adobe Experience Manager-databasen. Du kan också dra och släppa filer från ditt lokala system till ditt aktuella arbetspass. Det här är mycket användbart om du vill infoga bilder från ditt lokala system i avsnittet.
 
   ![](images/upload-assets.png){width="550" align="left"}
 
@@ -1576,7 +1670,7 @@ Använd till exempel följande uppräkning för att begränsa `@platform` attrib
 </details>
 
 
-**Listrutan Attribut**
+**Attribut** nedrullningsbar
 
 Du kan också ändra värdet på ämnesschemat med **Attribut** listruta från **Innehållsegenskaper** på panelen **Upphovsman** vy.
 ![](images/subject-scheme-attribute-dropdown.png){width="200" align="left"}
@@ -1828,10 +1922,13 @@ Den högra panelen är en beständig panel som innehåller information om det ma
 
 Den högra panelen ger dig tillgång till följande funktioner:
 
-**Innehållsegenskaper** -  ![](images/content-properties-icon.svg)
+**Innehållsegenskaper** -  ![innehållsegenskaper](images/content-properties-icon.svg)
 
-Du kommer åt funktionen Innehållsegenskaper genom att klicka på ikonen Innehållsegenskaper i den högra panelen. Panelen Innehållsegenskaper innehåller information om vilken typ av element som är markerat i dokumentet och dess attribut.
-Du kan enkelt lägga till, redigera eller ta bort attribut.
+Du kommer åt **Innehållsegenskaper** genom att välja **Innehållsegenskaper** i den högra panelen. The **Innehållsegenskaper** -panelen innehåller information om det markerade elementets typ i dokumentet och dess attribut.
+
+**Typ**: Du kan visa och välja taggarna i hela hierarkin för den aktuella taggen i listrutan.
+
+**Attribut**: **Attribut** rullgardinsmenyn finns i layout-, författar- och källvyerna. Du kan enkelt lägga till, redigera eller ta bort attribut.
 
 1. Klicka **+ Lägg till**.
 

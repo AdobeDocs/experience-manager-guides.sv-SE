@@ -1,9 +1,10 @@
 ---
 title: Versionsinformation | Nyheter i Adobe Experience Manager Guides, version 2024.2.0
 description: Lär dig de nya och förbättrade funktionerna i version 2024.2.0 av Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: f5940d0ddf19733411532281fb614690075c02ee
+exl-id: 234d430a-d775-484a-aea8-6e422b0a01eb
+source-git-commit: b1bb2b9da71bf0551fe40c84ac382df0e78e007b
 workflow-type: tm+mt
-source-wordcount: '1069'
+source-wordcount: '1066'
 ht-degree: 0%
 
 ---
