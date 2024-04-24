@@ -2,7 +2,7 @@
 title: Konfigurera smarta förslag för redigering
 description: Lär dig konfigurera smarta förslag för redigering
 exl-id: a595ca1f-0123-40d3-a79c-a066bc6517b4
-source-git-commit: b2042431e96f2cbd90eea9c8cfcdb3e7033e26bb
+source-git-commit: d3e0c475ebd50a2664ea45c293d34b3a10772633
 workflow-type: tm+mt
 source-wordcount: '745'
 ht-degree: 0%
@@ -34,7 +34,9 @@ Så här skapar du IMS-konfigurationer i Adobe Developer Console:
    *Lägg till API för I/O-hantering i ditt projekt.*
 
 1. Skapa ett nytt **OAuth-autentiseringsuppgifter** och spara det.
-   ![Autentiseringsuppgiftsruta för OAuth i konfigurations-API](assets/conf-ss-OAuth-credential.png) {width="3000" align="left"}
+
+   ![Autentiseringsuppgiftsruta för OAuth i konfigurations-API](assets/conf-ss-OAuth-credential.png)
+
    *Konfigurera OAuth-autentiseringsuppgifter för ditt API.*
 
 1. I  **Projekt** flik, välja **OAuth-server till server** och välj sedan de nya inloggningsuppgifterna.
