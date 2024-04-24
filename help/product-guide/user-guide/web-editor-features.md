@@ -4,7 +4,7 @@ description: Upptäck funktionerna i webbredigeraren i AEM. Lär dig webbrediger
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
+source-git-commit: 1b338bb702267640bc3f5b5de4b00051979b562f
 workflow-type: tm+mt
 source-wordcount: '18678'
 ht-degree: 0%
@@ -233,6 +233,7 @@ Detta förhindrar att användarna sparar filer som bryter en regel som definiera
 
      Skriv de första tecknen i språket eller språkkoden för att filtrera de önskade språken. Skriv t.ex. &#39;en&#39; om du vill filtrera alla språk som innehåller &#39;en&#39; i början av namnet eller koden.
       1. Välj **Klar** om du vill lägga till de valda språken i gruppen. Språken visas. När du lägger till tre eller fler språk **Visa mer** visas. Du kan välja **Visa mer** om du vill visa alla språk som finns i gruppen.
+
          >[!TIP]
          >
          > Växla **Visa mer** till **Visa mindre** och bara visa ett fåtal språk.
@@ -303,6 +304,7 @@ Användarinställningarna är tillgängliga för alla författare. Med hjälp av
   ![utseendeflik i användarinställningar](images/user_preference_editor_appearance.png){width="550" align="left"}
 
    - **Visa filer efter**: Välj standardmetod för att visa filerna i Web Editor. Du kan visa fillistan efter filnamnen eller filnamnen från de olika panelerna i **Upphovsman** vy.
+
      >[!NOTE]
      >
      > Som standard visas filerna som titlar i webbredigeraren.
@@ -846,7 +848,9 @@ Den vänstra panelen ger dig tillgång till följande funktioner:
 **Favoriter** -  ![](images/favorite-collections.svg)
 
 Om du arbetar med en uppsättning filer eller mappar kan du lägga till dem i din favoritlista för att snabbt komma åt dem. I favoritlistan visas en lista med dokument som du har lagt till och andra offentliga favoritdokument från andra användare.
+
 Som standard kan du visa filerna efter namn. När du för muspekaren över en fil kan du visa filens namn och sökväg som ett verktygstips.
+
 >[!NOTE]
 >
 > Som administratör kan du även välja att visa fillistan efter filnamn i Web Editor. Välj **Filnamn** alternativ för **Visa filer efter** avsnitt i **Användarinställningar** ![](images/user_preference_editor_icon.svg).
@@ -878,6 +882,7 @@ Om du vill lägga till en fil i din favoritsamling använder du någon av följa
 Du kan även utföra många åtgärder med Alternativ-menyn som är tillgänglig för en Favoritsamling:
 
 ![](images/favorites-options.png){width="400" align="left"}
+
 - **Byt namn**: Byt namn på den valda samlingen.
 - **Ta bort**: Ta bort den markerade samlingen.
 - **Uppdatera**: Hämta en ny lista med filer och mappar från databasen.
@@ -965,11 +970,12 @@ Detta är synkroniserat med sökrutan i databasfönstret. Om du t.ex. skriver `g
 
 
 - Välj **Stäng filter** ![stäng ikon](images/close-icon.svg) om du vill stänga filtret och återgå till trädvyn i databasen.
+
   >[!NOTE]
   >
   >Systemadministratören kan också konfigurera textfiltren och visa eller dölja andra filter. Mer information finns i *Konfigurera textfilter* i avsnittet Installera och konfigurera Adobe Experience Manager Guides as a Cloud Service.
-
-  Listan med filtrerade filer som innehåller den sökta texten visas. Till exempel filerna som innehåller texten `general purpose` visas i föregående skärmbild. Du kan markera flera filer i den filtrerade listan om du vill dra och släppa dem på en karta som har öppnats för redigering.
+  >
+  >Listan med filtrerade filer som innehåller den sökta texten visas. Till exempel filerna som innehåller texten `general purpose` visas i föregående skärmbild. Du kan markera flera filer i den filtrerade listan om du vill dra och släppa dem på en karta som har öppnats för redigering.
 
 
 
@@ -1067,6 +1073,7 @@ De olika alternativen på Alternativ-menyn förklaras nedan:
   ![](images/rename-move-asset.png){width="550" align="left"}
 
   >[!NOTE]
+  >
   > Du kan också dra och släppa en fil till en annan målmapp.
 
   **Uteslutningsscenarier**
@@ -1078,6 +1085,7 @@ De olika alternativen på Alternativ-menyn förklaras nedan:
    - Om någon annan användare checkar ut filen kan du inte byta namn på den eller flytta den. Du kommer inte att se alternativet Byt namn eller Flytta till för filen.
 
   >[!NOTE]
+  >
   > Om administratören har gett dig behörighet för en mapp är det bara **Byt namn** eller **Flytta till** visas.
 
   <details>
@@ -1206,6 +1214,7 @@ Ange en **Titel** för mappen, som konverteras automatiskt till mappnamnet. Sök
 När du klickar på ikonen Kartvy visas en lista med ämnen i kartfilen. Om du inte har öppnat någon kartfil visas kartvyn som tom. Om du dubbelklickar på en kartfil öppnas kartfilen i den här vyn. Du kan dubbelklicka på en fil på kartan för att öppna den i Web Editor.
 
 Som standard kan du visa filerna efter namn. När du för muspekaren över en fil kan du visa filens namn och sökväg som ett verktygstips.
+
 >[!NOTE]
 >
 >Som administratör kan du även välja att visa filnamnet på den överordnade kartan som är öppen i kartvyn. Välj **Filnamn** alternativ för **Visa filer efter** avsnitt i **Användarinställningar** ![](images/user_preference_editor_icon.svg).
@@ -1255,12 +1264,13 @@ Du kan utföra följande åtgärder på Alternativ-menyn i kartfilen:
 
 - **Visa i resursgränssnitt**: Använd det här om du vill visa en förhandsgranskning av kartfilen i resursgränssnittet. I den här vyn visas alla ämnesfiler på kartan i en enhetlig sida vid sida-vy.
 - **Ladda ned karta**: Välj det här alternativet för att öppna **Ladda ned karta** -dialogrutan.
+
 I **Ladda ned karta** kan du välja följande alternativ:
-   - **Använd baslinje**: Välj det här alternativet om du vill visa en lista över baslinjer som skapats för DITA-kartan. Om du vill hämta kartfilen och dess innehåll baserat på en viss baslinje väljer du Baslinje i listrutan. Mer information om hur du arbetar med baslinjer finns i [arbeta med baslinje](./generate-output-use-baseline-for-publishing.md).
-   - **Förenkla filhierarki**: Välj det här alternativet om du vill spara alla refererade ämnen och mediefiler i en enda mapp.
+
+- **Använd baslinje**: Välj det här alternativet om du vill visa en lista över baslinjer som skapats för DITA-kartan. Om du vill hämta kartfilen och dess innehåll baserat på en viss baslinje väljer du Baslinje i listrutan. Mer information om hur du arbetar med baslinjer finns i [arbeta med baslinje](./generate-output-use-baseline-for-publishing.md).
+- **Förenkla filhierarki**: Välj det här alternativet om du vill spara alla refererade ämnen och mediefiler i en enda mapp.
 
   Du kan även hämta kartfilen utan att välja något alternativ. I så fall hämtas de senast beständiga versionerna av de ämnen och mediefiler som refereras.
-
 
   När du har klickat på **Ladda ned** är begäran om kartexportpaket köad. The **Lyckades** visas om paketet har skapats.  Du kan klicka på **Ladda ned** från **Lyckades** -dialogrutan.
 
@@ -1387,6 +1397,7 @@ En av huvudfunktionerna i DITA är möjligheten att återanvända innehåll. Pan
 Du kan helt enkelt dra och släppa återanvändbart innehåll från panelen till det aktuella ämnet så infogas det enkelt och snabbt. Du kan också förhandsgranska innehållet innan du infogar det i dokumentet.
 
 Som standard kan du visa filerna efter namn. När du för muspekaren över en fil kan du visa filens namn och sökväg som ett verktygstips.
+
 >[!NOTE]
 >
 > Som administratör kan du även välja att visa fillistan efter filnamn i Web Editor. Välj **Filnamn** alternativ för **Visa filer efter** avsnitt i **Användarinställningar** ![](images/user_preference_editor_icon.svg).
@@ -1770,7 +1781,9 @@ Med Alternativ-menyn på en befintlig mall kan du välja att **Redigera** eller 
 **Granska** -  ![](images/active-review-tasklist-icon.svg)
 
 AEM innehåller en funktion för att visa alla granskningsuppgifter i dina projekt. Du kan visa alla granskningsprojekt och de aktiva granskningsåtgärderna i granskningsprojekten, som du är en del av från **Granska** -panelen.  Du kan sedan öppna granskningsåtgärderna och visa kommentarerna från olika granskare.
+
 Granskningspanelen visar granskningsåtgärderna. Som standard kan du visa filerna efter namn. När du för muspekaren över en fil kan du visa filens namn och sökväg som ett verktygstips.
+
 >[!NOTE]
 >
 > Som administratör kan du även välja att visa fillistan efter filnamn i Web Editor. Välj **Filnamn** alternativ för **Visa filer efter** avsnitt i **Användarinställningar** ![](images/user_preference_editor_icon.svg).
@@ -1805,6 +1818,7 @@ Så här visar du granskningskommentarerna i de aktiva granskningsuppgifterna so
    >[!NOTE]
    > 
    > The **Granska** och **Kommentar** Panelen är alltid synkroniserad. På panelen Kommentarer läses kommentarerna in baserat på granskningsåtgärden som läses in på panelen Granska.
+   >
    > Mer information om hur du hanterar kommentarerna finns i [Adressgranskningskommentarer](review-address-review-comments.md#).
 
 **Sök och ersätt** -  ![](images/FindAndReplace_icon.svg)
@@ -1814,6 +1828,7 @@ Ikonen Sök och ersätt finns längst ned på den vänstra panelen. På panelen 
 ![](images/map-find-replace.png){width="800" align="left"}
 
 Som standard kan du visa filerna efter namn. När du för muspekaren över en fil kan du visa filens namn och sökväg som ett verktygstips.
+
 >[!NOTE]
 >
 > Som administratör kan du även välja att visa listan med filnamn i Web Editor. Välj **Filnamn** alternativ för **Visa filer efter** avsnitt i **Användarinställningar** ![](images/user_preference_editor_icon.svg).
@@ -1822,6 +1837,7 @@ Utför följande steg om du vill söka och ersätta globalt:
 
 1. Öppna den globala **Sök och ersätt** -panelen.
 1. Klicka på **Titta in i** Välj ett av följande alternativ för att utföra sökningen.
+
    - **Aktuell karta**: Söka i den öppna kartan
 
      >[!NOTE]
@@ -1875,9 +1891,7 @@ Utför följande steg om du vill söka och ersätta globalt:
 
 1. Tryck på Enter eller välj **Sök** icon \( ![](images/search-icon.svg)\) för att utföra sökningen.
 1. Välj en fil i sökresultatlistan. Filen öppnas i området för innehållsredigering där den sökta termen är markerad i innehållet.
-
 1. Klicka **Ersätt en förekomst** \( ![](images/replace-icon.svg)\) om du vill ersätta den markerade söktermen i avsnittet eller klicka på Nästa matchning ![](images/next-match-in-search.png) eller ![](images/previous-match-in-search.png) Föregående matchning om du vill gå till nästa eller föregående förekomst av texten.
-
 1. Klicka **Ersätt alla i filen** \( ![](images/replace-all-in-file-icon.svg)\) om du vill ersätta alla förekomster av den sökta termen i en enda fil med ersätt-termen med ett enda klick. Du får ett meddelande när du har ersatt alla förekomster i den valda filen.
 
    >[!NOTE]
@@ -1904,6 +1918,7 @@ Du kan också använda **Sök på karta** från **Alternativ** menyn för en kar
 Innehållsredigeringsområdet är där innehållet i ditt ämne eller din karta visas. Du gör alla innehållsredigeringar i det här området. Det ger en WYSIWYG-vy över det innehåll du redigerar. Du kan ha flera ämnen öppna samtidigt, som visas på respektive flik.
 
 Som standard kan du visa filnamnen på flikarna. När du för muspekaren över en fil kan du visa filens namn och sökväg som ett verktygstips.
+
 >[!NOTE]
 >
 > Som administratör kan du även välja att visa fillistan efter filnamn på flikarna. Välj **Filnamn** alternativ för **Visa filer efter** avsnitt i **Användarinställningar** ![](images/user_preference_editor_icon.svg).
@@ -1985,6 +2000,7 @@ I avsnittet Referenser får du tillgång till följande funktioner:
 - **Utgående länkar:** Utgående länkar visar de dokument som det aktuella dokumentet refererar till.
 
 Som standard kan du visa filerna efter namn. När du för muspekaren över en fil kan du visa filens namn och sökväg som ett verktygstips.
+
 >[!NOTE]
 >
 > Som administratör kan du även välja att visa fillistan efter filnamn i Web Editor. Välj **Filnamn** alternativ för **Visa filer efter** avsnitt i **Användarinställningar** ![](images/user_preference_editor_icon.svg).
@@ -2014,4 +2030,3 @@ Med funktionen Spårade ändringar i den högra panelen kan du visa information 
 > Funktionen Spårade ändringar visar alla uppdateringar som har spårats med funktionen Aktivera/inaktivera Spåra ändringar i huvudverktygsfältet. Mer information finns i [Aktivera/inaktivera spåra ändringar](#id205DF0203Y4).
 
 **Överordnat ämne:**[ Arbeta med webbredigeraren](web-editor.md)
-
