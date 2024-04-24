@@ -3,7 +3,7 @@ title: Konfigurera Microservice-baserad publicering med OAuth-autentisering för
 description: Lär dig konfigurera mikrotjänstbaserad publicering med OAuth-autentisering för AEM Guides.
 feature: Microservice in AEM Guides
 role: User, Admin
-source-git-commit: 17116ed5619b7177cf0174449d67cfebf5b9cf46
+source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
 workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 0%
@@ -21,9 +21,6 @@ För varje publiceringsbegäran kör Experience Manager Guides as a Cloud Servic
 > Microservice-baserad publicering i Experience Manager Guides har stöd för PDF (både Native- och DITA-OT-baserade), HTML5, JSON och CUSTOM-baserade förinställda utdata.
 
 När molnpubliceringstjänsten skyddas av OAuth-baserad autentisering från Adobe IMS utför du följande steg för att integrera deras miljöer med Adobe säkra tokenbaserade autentiseringsarbetsflöden och börja använda den molnbaserade skalbara publiceringslösningen.
-
-
-
 
 
 ## Skapa IMS-konfigurationer i Adobe Developer Console

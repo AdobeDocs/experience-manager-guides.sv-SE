@@ -4,7 +4,7 @@ description: Upptäck funktionerna i webbredigeraren i AEM. Lär dig webbrediger
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 43bdcba4642c9d75585bc571acf0cb0da22a5f4c
+source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
 workflow-type: tm+mt
 source-wordcount: '18678'
 ht-degree: 0%
@@ -231,7 +231,7 @@ Detta förhindrar att användarna sparar filer som bryter en regel som definiera
       1. Ange språkgruppsnamnet. Varje språk ska ha ett unikt namn. Du kan visa ett fel om namnfältet är tomt eller om namnet inte är unikt.
       1. Välj språk i listrutan. Du kan välja flera språk.
 
-     Skriv de första tecknen i språket eller språkkoden för att filtrera de önskade språken. Skriv t.ex.&quot;en&quot; om du vill filtrera alla språk som innehåller&quot;en&quot; i början av namnet eller koden.
+     Skriv de första tecknen i språket eller språkkoden för att filtrera de önskade språken. Skriv t.ex. &#39;en&#39; om du vill filtrera alla språk som innehåller &#39;en&#39; i början av namnet eller koden.
       1. Välj **Klar** om du vill lägga till de valda språken i gruppen. Språken visas. När du lägger till tre eller fler språk **Visa mer** visas. Du kan välja **Visa mer** om du vill visa alla språk som finns i gruppen.
          >[!TIP]
          >
@@ -342,7 +342,7 @@ Du kan också skriva ett tecken eller en sträng i sökrutan och söka efter ele
 
 ![infoga element](images/insert-element.png){width="300" align="left"}
 
-*Ange t om du vill söka efter alla giltiga element som börjar med t.*
+*Ange &#39;t&#39; om du vill söka efter alla giltiga element som börjar med &#39;t&#39;.*
 
 Om du arbetar inuti ett blockelement som ett `note`använder du sedan ikonen Infoga element för att infoga ett nytt element efter `note` -element. I följande skärmbild har ett anteckningselement infogats i elementet p \(stycke\):
 
@@ -2014,3 +2014,4 @@ Med funktionen Spårade ändringar i den högra panelen kan du visa information 
 > Funktionen Spårade ändringar visar alla uppdateringar som har spårats med funktionen Aktivera/inaktivera Spåra ändringar i huvudverktygsfältet. Mer information finns i [Aktivera/inaktivera spåra ändringar](#id205DF0203Y4).
 
 **Överordnat ämne:**[ Arbeta med webbredigeraren](web-editor.md)
+

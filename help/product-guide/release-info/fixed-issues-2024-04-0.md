@@ -1,7 +1,7 @@
 ---
 title: Versionsinformation | Korrigerade problem i Adobe Experience Manager Guides, version 2024.4.0
 description: Läs mer om felkorrigeringarna i version 2024.04.0 av Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 9d1b0bea20b2fe3ae8fb2ee7cf4387cf7271562d
+source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 0%
@@ -64,4 +64,5 @@ Läs mer om [uppgraderingsinstruktioner för version 2024.04.0](upgrade-instruct
 ## Översättning
 
 - **Acceptera översättning** kan inte slutföra översättningen av temporära filer. (14665)
+
 
