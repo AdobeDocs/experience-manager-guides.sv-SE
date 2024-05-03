@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Läs produktdokumentationen för Adobe Experience Manager Guides.
 breadcrumb-title: Dokumentation om AEM Guides
-source-git-commit: e8febe389ed805375d4b79570cd9a0e023e046f3
+source-git-commit: ca1123005d1f36cba11b3f93a89de47006bfead4
 workflow-type: tm+mt
-source-wordcount: '1777'
+source-wordcount: '1783'
 ht-degree: 2%
 
 ---
@@ -404,8 +404,6 @@ ht-degree: 2%
       - [Översätta innehåll i stödlinjer - del 2](./knowledge-base/expert-sessions/translating-content-using-aem-guides-part2-feb2024.md)
    - Artiklar {#kb-articles}
       - Redigering {#authoring}
-         - Rapporter {#reports}
-            - [Hantera metadata för ditt DITA-innehåll](./knowledge-base/kb-articles/authoring/reports/manage-metadata.md)
          - Web Editor {#webeditor}
             - [Återanvändning av innehåll i AEM](./knowledge-base/kb-articles/authoring/webeditor/content-reusability-in-aem-guides.md)
             - Anpassa {#customizing}
@@ -415,6 +413,9 @@ ht-degree: 2%
                - [Anpassa snabbmenyn Arkiv](./knowledge-base/kb-articles/authoring/webeditor/customization/remove-delete-from-webeditor.md)
             - Schematron {#schematron}
                - [Schematronvalidering](./knowledge-base/kb-articles/authoring/webeditor/schematron/vailidating-with-schematron.md)
+         - Rapporter {#reports}
+            - [Hantera metadata för ditt DITA-innehåll](./knowledge-base/kb-articles/authoring/reports/manage-metadata.md)
+         - [Definiera ikon för anpassade datatyper](./knowledge-base/kb-articles/authoring/define-icon-for-custom-ditatypes.md)
       - Guides Exention Framework {#extention-framework}
          - Aem Guides Framework {#aem-guides-framework}
             - [Grundläggande anpassningar](./guides-ui-extensions/aem_guides_framework/basic-customisation.md)
