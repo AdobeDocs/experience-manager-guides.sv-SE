@@ -1,9 +1,9 @@
 ---
 title: Konfigurera ikon för anpassade datatyper
 description: Lär dig hur du definierar ikoner för anpassade datatyper för att visa deras ikoner i olika gränssnitt i AEM
-source-git-commit: 40b4c0803c87dbf1d3c2756e7974848100b5e56e
+source-git-commit: 60d4aeec9841fdab8ff97d975fbbe4a640ccf9e8
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '489'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,10 @@ ht-degree: 0%
 
 ## Problemöversikt
 
-Om du använder ett anpassat schema i AEM guider kan du skapa anpassade avsnitt eller mappningstyper och på så sätt kan du märka att anpassade avsnitt/kartor inte visar ikonen i webbredigeraren eller i Assets-gränssnittet. Se skärmbild för referens ![skärmbild för referens](../assets/authoring/custom-ditatype-icon-notshown.png)
+Om du använder ett anpassat schema i AEM guider kan du skapa anpassade avsnitt eller mappningstyper och på så sätt kan du märka att anpassade avsnitt/kartor inte visar ikonen i webbredigeraren eller i Assets-gränssnittet. Se skärmbilden nedan för referens
+
+![skärmbild för referens](../assets/authoring/custom-ditatype-icon-notshown.png)
+
 
 Så om du vill tilldela en ikon till de anpassade avsnitten/mappningstyperna måste du göra följande:
 - Söka efter en anpassad ämne/karttyp
@@ -25,14 +28,14 @@ Vi kan implementera ovanstående steg för att visa ikonen i webbredigeraren (da
 
 ## Visa ikon för anpassade ämnen/kartor i webbredigeringsvyn
 
-*Steg 1 *: Bestäm datatypen för det anpassade datatypsnittet/datapappen
+_Steg 1:_ Bestämma datatypen för det anpassade datatypsnittet/appen
 - Öppna databasvyn i webbredigeraren > öppna utvecklarkonsolen i webbläsaren
 - Inspect ikonutrymmet bredvid det listade ämnet/kartan
 - Kontrollera klassen som har tilldelats det anpassade ämnet
-- Se skärmbilden ![Se skärmbilden](../assets/authoring/custom-ditatype-icon-knowditatype.png) för mer information
+- Se skärmbilden nedan för mer information ![Se skärmbilden](../assets/authoring/custom-ditatype-icon-knowditatype.png)
 - Vi använder den här klassen för att tilldela ikoner och skriva css för den
 
-*Steg 2 *: Skapa css och tilldela ikoner till den här datatypen
+_Steg 2:_ Skapa css och tilldela ikoner till den här datatypen
 - Skapa ett klientbibliotek under /apps, låt säga att du skapar en cq:ClientLibraryFolder under önskad sökväg
    - lägg till kategorierna&quot;apps.fmdita.xml_editor.page&quot; i den
 - skapa en mapp &quot;assets&quot; i den här katalogen och lägga till alla ikoner som du vill använda för anpassade datatyper
@@ -53,17 +56,19 @@ Vi kan implementera ovanstående steg för att visa ikonen i webbredigeraren (da
 - lägg till css.txt under klientbiblioteksmappen och lägg till referens till&quot;tree-icon.css&quot; som just skapats
 - spara/distribuera dessa ändringar
 
-Se skärmbild ![Se skärmbild](../assets/authoring/custom-ditatype-icon-define-webeditor-styles.png) för mer information.
+Se skärmbilden nedan för mer information.
+![Se skärmbild](../assets/authoring/custom-ditatype-icon-define-webeditor-styles.png)
 
-Och slutresultatet visas i skärmbilden ![visas i skärmbild](../assets/authoring/custom-ditatype-icon-webeditor-showstyles.png)
+Slutresultatet visas i skärmbilden nedan
+![visas i skärmbild](../assets/authoring/custom-ditatype-icon-webeditor-showstyles.png)
 
 
 ## Visar ikon för anpassade ämnen/kartor i resursgränssnittet
 
-*Steg 1*: fastställa datatypen för det anpassade datatecknet/datamappningen
+_Steg 1:_ fastställa datatypen för det anpassade datatecknet/datamappningen
 - detta förklaras i föregående metods steg 1
 
-*Steg 2*: Skapa JavaScript för att definiera vilka ikoner som ska läsas in för den anpassade datatypen för anpassade ämne/karttyper
+_Steg 2:_ Skapa JavaScript för att definiera vilka ikoner som ska läsas in för den anpassade datatypen för anpassade ämne/karttyper
 - Skapa ett klientbibliotek under /apps, låt säga att du skapar en cq:ClientLibraryFolder under önskad sökväg
    - lägga till följande egenskaper i den:
       - &quot;categories&quot;(multivalue string) value as &quot;dam.gui.admin.coral&quot;
@@ -72,6 +77,7 @@ Och slutresultatet visas i skärmbilden ![visas i skärmbild](../assets/authorin
    - redigera det kopierade&quot;topic_type.js&quot; och ändra/lägg till anpassadType under variabeln &quot;typeImageNameMap&quot;
    - Du kan också ändra sökvägen till bildmappen genom att ändra värdet för variabeln &quot;parentImagePath&quot; till den plats där anpassade ikoner sparas
 - Skapa en fil med namnet js.txt i klientbiblioteksmappen och lägg till referens till topic_type.js
-- spara/distribuera dessa ändringar, skärmbild ![Se skärmbild](../assets/authoring/custom-ditatype-icon-define-assetsui-styles.png) för mer information.
+- spara/distribuera dessa ändringar Se skärmbilden nedan för mer information.
+  ![Se skärmbild](../assets/authoring/custom-ditatype-icon-define-assetsui-styles.png)
 
 Och slutresultatet visas som på skärmbilden ![visas i skärmbild](../assets/authoring/custom-ditatype-icon-assetsui-showstyles.png)
