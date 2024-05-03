@@ -1,19 +1,19 @@
 ---
 title: Konfigurera ikon för anpassade datatyper
 description: Lär dig hur du definierar ikoner för anpassade datatyper för att visa deras ikoner i olika gränssnitt i AEM
-source-git-commit: 60d4aeec9841fdab8ff97d975fbbe4a640ccf9e8
+source-git-commit: de281989de21d8bf4ba771670d7cb871a089b1e1
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '491'
 ht-degree: 0%
 
 ---
 
-# Konfigurera ikon för anpassade datatyper (ämne eller karta)
+# Konfigurera ikon för anpassade/specialiserade datatyper (ämne eller karta)
 
 
 ## Problemöversikt
 
-Om du använder ett anpassat schema i AEM guider kan du skapa anpassade avsnitt eller mappningstyper och på så sätt kan du märka att anpassade avsnitt/kartor inte visar ikonen i webbredigeraren eller i Assets-gränssnittet. Se skärmbilden nedan för referens
+Om du använder ett anpassat schema i AEM guider kan du skapa anpassade ämne- eller mappningstyper och då kan du lägga märke till att de anpassade avsnitten/mappningstyperna inte visar ikonen i webbredigeraren eller i Assets-gränssnittet. Se skärmbilden nedan för referens
 
 ![skärmbild för referens](../assets/authoring/custom-ditatype-icon-notshown.png)
 
