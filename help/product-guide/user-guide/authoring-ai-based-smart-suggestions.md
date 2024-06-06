@@ -1,14 +1,13 @@
 ---
 title: AI-baserade smarta förslag för att skapa innehåll
 description: Lär dig hur du visar och använder AI-baserade smarta förslag i Web Editor.
-source-git-commit: eea4a30b91fd5c28647fd7ea95dd8058ec411adc
+exl-id: 23c5285e-0d4f-484a-a062-fe1ba1608b8d
+source-git-commit: 75425d82ee55485503ea6678030c5e919e50a691
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '789'
 ht-degree: 0%
 
 ---
-
-
 
 # AI-baserade smarta förslag för att skapa innehåll
 
@@ -76,6 +75,8 @@ Följ de här stegen för att visa smarta förslag på hur du lägger till lämp
 1. Du kan också välja **Acceptera** eller **Avböj** i **Återanvändning av innehåll** rutan med förslag för lämpliga rekommendationer.
 
 
-
 Denna intelligenta funktion är praktisk och minimerar arbetet med manuell innehållssökning, så att du kan koncentrera dig mer på att skapa nytt innehåll. Det underlättar också bättre teamsamarbete och ger enhetlighet i det innehåll som skapas av olika författare.
 
+>[!NOTE]
+>
+>Smarta förslag bevarar inte dina data efter den aktuella sessionen. För svar förlitar sig smarta förslag enbart på det index som skapas för innehållet i din interna databas. Externa AI-verktyg används inte, vilket säkerställer att data ligger kvar i systemet.
