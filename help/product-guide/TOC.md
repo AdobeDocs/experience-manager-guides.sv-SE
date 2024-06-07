@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Läs produktdokumentationen för Adobe Experience Manager Guides.
 breadcrumb-title: Dokumentation om AEM Guides
-source-git-commit: 56fa545f1dd32bcc3ec533cffb14a364b934ba20
+source-git-commit: bcb61127f5f69ac39860a90eac2e1a56ecd1de31
 workflow-type: tm+mt
-source-wordcount: '1792'
+source-wordcount: '1815'
 ht-degree: 2%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 2%
       - Cloud Service {#cloud-release-notes}
          - [Distributionsanvisningar](./release-info/deploy-xml-on-aemaacs.md)
          - 2024 års utgåvor {#2024-releases}
+            - 2024.6.0-utgåvan {#2406-release}
+               - [Nyheter](./release-info/whats-new-2024-06-0.md)
+               - [Åtgärdade problem](./release-info/fixed-issues-2024-06-0.md)
+               - [Uppgraderingsinstruktioner](./release-info/upgrade-instructions-2024-06-0.md)
             - 2024.4.0-utgåvan {#2404-release}
                - [Nyheter](./release-info/whats-new-2024-04-0.md)
                - [Åtgärdade problem](./release-info/fixed-issues-2024-04-0.md)
@@ -121,6 +125,7 @@ ht-degree: 2%
                - [Vyer i Web Editor](./user-guide/web-editor-views.md)
                - [Stöd för Schematron-filer](./user-guide/support-schematron-file.md)
                - [AI-baserade smarta förslag för att skapa innehåll](./user-guide/authoring-ai-based-smart-suggestions.md)
+
                - [Skapa markeringsdokument från webbredigeraren](./user-guide/web-editor-markdown-topic.md)
                - [Lägg till citat i innehållet](./user-guide/web-editor-apply-citations.md)
                - [Använd data från datakällor](./user-guide/web-editor-content-snippet.md)
@@ -191,7 +196,8 @@ ht-degree: 2%
          - [Konfigurera ytterligare specialtecken](./web-editor/configure-additional-special-characters.md)
       - [Hantera publiceringsuppgifter med Publish Dashboard](./user-guide/generate-output-publish-dashboard.md)
       - [Grundläggande felsökning](./user-guide/generate-output-basic-troubleshooting.md)
-      - [Publicera till ett innehållsfragment](./user-guide/publish-content-fragment.md)
+      - [Publicera innehållsfragment](./user-guide/publish-content-fragment.md)
+      - [Publicera upplevelsefragment](./user-guide/publish-experience-fragment.md)
       - Massaktivering av innehåll {#bulk-activation}
          - [Massaktivering av publicerat innehåll](./user-guide/conf-bulk-activation.md)
          - [Skapa en gruppaktiveringskarta](./user-guide/conf-bulk-activation-create-map-collection.md)
@@ -240,10 +246,11 @@ ht-degree: 2%
       - Arbeta med anpassad DITA-OT och specialisering {#custom-dita-ot-spec}
          - [Använd anpassad DITA-OT- och DITA-specialisering](./install-guide/dita-ot-specialization.md)
       - Konfigurera UUID- och icke UUID-baserade filnamn {#conf-non-uuid-filename}
-         - [Konfigurera filnamn](./install-guide/conf-file-names.md)
-         - [Konfigurera automatiska filnamn baserat på UUID](./install-guide/conf-auto-uuid-filenames.md)
-         - [Konfigurera Regx för giltiga filnamnstecken](./install-guide/conf-file-names-valid-regx.md)
-         - [Konfigurera giltiga filnamn för AEM](./install-guide/conf-file-names-valid-regx-aem-site-output.md)
+      - [Konfigurera efterbearbetning för en mapp](./install-guide/conf-folder-post-processing.md)
+      - [Konfigurera filnamn](./install-guide/conf-file-names.md)
+      - [Konfigurera automatiska filnamn baserat på UUID](./install-guide/conf-auto-uuid-filenames.md)
+      - [Konfigurera Regx för giltiga filnamnstecken](./install-guide/conf-file-names-valid-regx.md)
+      - [Konfigurera giltiga filnamn för AEM](./install-guide/conf-file-names-valid-regx-aem-site-output.md)
       - Arbeta med teman och kartor {#topic-map-template}
          - [Konfigurera ämne- och mappningsmallar](./install-guide/conf-template-tags.md)
          - [Konfigurera anpassad ämnesmall för DITA](./install-guide/conf-template-tags-custom-dita-topic-template.md)
@@ -287,6 +294,7 @@ ht-degree: 2%
             - [Designa en sidlayout](./native-pdf/design-page-layout.md)
             - [Variabler i utdata från PDF](./native-pdf/native-pdf-variables.md)
             - [Stöd för språkvariabler](./native-pdf/native-pdf-language-variables.md)
+            - [Lägga till en streckkod i PDF-utdata](./native-pdf/add-barcode.md)
             - Vanliga innehållsformat {#content-styles}
                - [Arbeta med vanliga innehållsformat](./native-pdf/stylesheet.md)
                - [Arbeta med anpassade ändringsfältstilar](./native-pdf/change-bar-style.md)
@@ -295,8 +303,7 @@ ht-degree: 2%
                - [Använd JavaScript för att arbeta med innehåll eller stil](./native-pdf/use-javascript-content-style.md)
                - [Använda format på fotnoter](./native-pdf/footnote-number-style.md)
          - [Konfigurera JVM-flaggor för Native PDF Publishing](./native-pdf/configure-jvm-flags.md)
-         - [Skapa en mappning mellan ett ämne och ett innehållsfragment](./install-guide/conf-content-fragment-mapping.md)
-      - Arbeta med anpassade arbetsflöden {#custom-workflow}
+         - Arbeta med anpassade arbetsflöden {#custom-workflow}
          - [Konfigurera och anpassa arbetsflöden](./install-guide/customize-workflows.md)
       - Arbeta med översättningskonfigurationer {#translate-config}
          - [Översätta innehåll](./install-guide/translation.md)
@@ -365,6 +372,7 @@ ht-degree: 2%
          - [PDF Publishing](./cs-install-guide/native-pdf-publishing.md)
          - [Konfigurera nodprocess för Native PDF Publishing](./native-pdf/configure-node-options.md)
          - [Skapa en mappning mellan ett ämne och ett innehållsfragment](./cs-install-guide/conf-content-fragment-mapping-cs.md)
+         - [Skapa en mappning mellan ett ämne och ett upplevelsefragment](./cs-install-guide/conf-experience-fragment-mapping-cs.md)
       - Arbeta med anpassade arbetsflöden {#custom-workflow-cs}
          - [Konfigurera och anpassa arbetsflöden](./cs-install-guide/customize-workflows.md)
       - Arbeta med översättningskonfigurationer {#translate-config-cs}

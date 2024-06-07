@@ -4,9 +4,9 @@ description: Lär dig redigera ämnen i webbredigeraren. Lär dig olika redigeri
 exl-id: 8da37a81-e8c3-434f-b3f4-4723d87c2ade
 feature: Authoring, Web Editor
 role: User
-source-git-commit: 05848b381999bf00d480b618ccb604c1798cc5dd
+source-git-commit: d30f05ff614693beca5d9cf7f206a36f3dadfc8b
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '889'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,24 @@ Webbredigeraren innehåller en rad redigeringsfunktioner som du kan använda fö
    >[!NOTE]
    >
    > Om du inte vill spara ändringarna i AEM databas klickar du på **Stäng** och klicka sedan på **Stäng utan att spara** i dialogrutan Osparade ändringar.
+
+
+## Delvis markering av innehåll mellan element
+
+Med stödlinjerna i Experience Manager kan du även markera innehåll över flera element. När du har markerat innehållet kan du utföra följande åtgärder:
+- Formatering och borttagning: Gör det markerade innehållet fet, kursiv, understruken eller ta bort det markerade innehållet. Innehållet från de giltiga öppna taggarna sammanfogas sedan och visas under ett enskilt element. Du kan till exempel markera innehållet i ett stycke och utöka markeringen till ett annat stycke. Om du sedan gör det markerade innehållet fetstilt sammanfogas allt fetstilt innehåll från de öppna märkorden och visas under ett enskilt styckeelement.
+
+Om du tar bort det markerade innehållet sammanfogas det återstående innehållet efter borttagningen i de öppna taggarna.
+
+- Omge innehållet med ett giltigt element: Utför följande steg för att omsluta innehållet med ett giltigt element:
+   - Markera innehållet i ett element.
+   - Välj ![lägg till](images/Add_icon.svg) ikonen från det sekundära verktygsfältet längst upp för att visa **Surround med element** -dialogrutan. I dialogrutan visas giltiga element för det markerade innehållet.
+     >[!NOTE]
+     >
+     > Du kan också visa dialogrutan Surround med element genom att välja snabbmenyn för det markerade innehållet.
+
+   - Välj ett element i dialogrutan. Det markerade innehållet kapslas under det elementet. Om du till exempel markerar innehållet i ett stycke och sedan väljer `<note>` -element från **Omge med element** visas det markerade innehållet under en anteckning.\
+     ![dialogrutan för surroundelement](./images/surround-element.png) {width="300" align="left"}
 
 ## Uppdatera webbläsaren när filerna redigeras
 

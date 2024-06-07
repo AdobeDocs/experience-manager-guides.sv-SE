@@ -5,9 +5,9 @@ exl-id: b801c2b3-445f-4aa7-a4f2-029563d7cb3a
 feature: Java-Based API Packages
 role: Developer
 level: Experienced
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 4ce78061ddb193d3c16241ff32fa87060c9c7bd6
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,10 @@ The `activate` skapar ett CRX-paket på författarinstansen och replikerar det v
 >
 > Fel som uppstod när programmet skapades eller aktiverades skrivs till `outputstream`.
 
+### Exempel med två parametrar
+
 **Syntax**:
+
 
 ```JAVA
 public static void activate
@@ -54,9 +57,28 @@ public static void activate
 throws GuidesApiException
 ```
 
-**Parametrar**: |Namn|Typ|Beskrivning| |—|—|—| |`json`|String|JSON-sträng som bestämmer vilket CRX-paket som ska skapas. Använd följande format för att skapa JSON-strängen: <br>- `activate`: Är av typen Boolean \(`true`/`false`\). Avgör om det CRX-paket som skapas i författarinstansen replikeras till publiceringsinstansen. <br> - `rules`: Är av typen JSON Array. En array med JSON-regler som bearbetas sekventiellt för att skapa CRX-paketet. <br> - `rootPath`: Är av typen String. Bassökvägen som nod-/egenskapsfrågorna körs på. Om det inte finns några nod-/egenskapsfrågor inkluderas rotsökvägen och alla noder som finns under rotsökvägen i CRX-paketet. <br> - `nodeQueries`: Är av typen Regex Array. En array med reguljära uttryck som används för att inkludera specifika filer under rotsökvägen. <br> - `propertyQueries`: Är av typen JSON Array. En array med JSON-objekt med varje JSON-objekt som består av en XPath-fråga som ska köras på rotsökvägen och namnet på en egenskap som finns i varje JCR-nod efter att frågan har körts. Värdet för egenskapen i varje JCR-nod ska vara en sökväg eller en array med sökvägar. Sökvägarna i den här egenskapen läggs till i CRX-paketet.| |`outputstream`|java.io.OutputStream|Detta används för att skriva resultatet av olika faser, t.ex. frågekörning, filinkludering, skapande av CRX-paket eller aktivering. Alla fel som uppstår under skapande eller aktivering skrivs till `outputstream`. Detta är användbart vid felsökning.| |`session`|String|En giltig JCR-session med aktiveringsbehörighet.|
+### Exempel med tredje valfria parameter
 
-**Undantag**: Throws ``java.io.IOException``.
+```JAVA
+public static void activate
+(
+  String json, 
+  OutputStream outputstream,
+  String activationTarget, 
+  Session session
+) 
+throws GuidesApiException
+```
+
+**Parametrar**: |Namn|Typ|Beskrivning| |—|—|—| |`json`|String|JSON-sträng som bestämmer vilket CRX-paket som ska skapas. Använd följande format för att skapa JSON-strängen: <br>- `activate`: Är av typen Boolean \(`true`/`false`\). Avgör om det CRX-paket som skapas i författarinstansen replikeras till publiceringsinstansen. <br> - `rules`: Är av typen JSON Array. En array med JSON-regler som bearbetas sekventiellt för att skapa CRX-paketet. <br> - `rootPath`: Är av typen String. Bassökvägen som nod-/egenskapsfrågorna körs på. Om det inte finns några nod-/egenskapsfrågor inkluderas rotsökvägen och alla noder som finns under rotsökvägen i CRX-paketet. <br> - `nodeQueries`: Är av typen Regex Array. En array med reguljära uttryck som används för att inkludera specifika filer under rotsökvägen. <br> - `propertyQueries`: Är av typen JSON Array. En array med JSON-objekt med varje JSON-objekt som består av en XPath-fråga som ska köras på rotsökvägen och namnet på en egenskap som finns i varje JCR-nod efter att frågan har körts. Värdet för egenskapen i varje JCR-nod ska vara en sökväg eller en array med sökvägar. Sökvägarna i den här egenskapen läggs till i CRX-paketet.| |`outputstream`|java.io.OutputStream|Detta används för att skriva resultatet av olika faser, t.ex. frågekörning, filinkludering, skapande av CRX-paket eller aktivering. Alla fel som uppstår under skapande eller aktivering skrivs till `outputstream`. Detta är användbart vid felsökning.| |`session`|String|En giltig JCR-session med aktiveringsbehörighet.| |`activationTarget`|String|(*Valfritt*) `preview` eller `publish` för Cloud Service och `publish` för lokal programvara <br> - Om parametern innehåller ett ogiltigt värde misslyckas paketaktiveringen som Cloud Service. <br> - För On-Premise-programvara loggas felet om parametern innehåller ett ogiltigt värde och publiceringen görs med standardvärdet, `publish`. |
+
+**Undantag**:
+
+Spetsar `java.io.IOException` och `java.io.IllegalArgumentException`
+
+
+Om du inte definierar den valfria parametern `activationTarget`aktiveras den med standardagenten för publicering för både Cloud Service och lokal programvara.
+
 
 **Exempel**: I följande exempel visas hur du skapar en JSON-fråga:
 

@@ -5,9 +5,9 @@ exl-id: 90686f77-a769-44bc-90eb-116cf9d0341e
 feature: Rest API Packages
 role: Developer
 level: Experienced
-source-git-commit: 32da48d82b1267bb220424edf385035426293b66
+source-git-commit: b95a64ca2e8ebffebec3d8ff8704f76f7faceca2
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '205'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,15 @@ curl -u <*username*>:<*password*> -H "Content-Type: application/json; charset=UT
 
 `preview` eller `publish` för molntjänster och `publish` för lokal programvara
 
-Om parametern innehåller ett ogiltigt värde misslyckas aktiveringen av paketet. I följande exempel visas API-anropet med hjälp av curl kommandot med valfri parameter:
+- Om parametern innehåller ett ogiltigt värde för molntjänsten misslyckas paketaktiveringen.
+
+- Om parametern innehåller ett ogiltigt värde för lokal programvara loggas felet och publiceringen görs med standardvärdet, `publish`.
+
+Om du inte definierar den valfria parametern `activationTarget`aktiveras den med standardpubliceringsagenten för både molntjänsten och den lokala programvaran.
+
+
+
+I följande exempel visas API-anropet med hjälp av curl kommandot med valfri parameter:
 
 
     &#39;&#39;&#39;XML-curl

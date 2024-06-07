@@ -2,9 +2,10 @@
 title: Versionsinformation | Uppgraderingsinstruktioner för Adobe Experience Manager Guides 4.4.0
 description: Lär dig hur du uppgraderar till version 4.4.0 av Adobe Experience Manager Guides
 role: Leader
-source-git-commit: 2209fd311ca1ad524db35633b8be22f6d303346d
+exl-id: 884178b6-7a72-471a-a6e3-238a543fb227
+source-git-commit: 47c06dcc30b34780cbd26ded1ca400a5056a59ba
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
@@ -27,10 +28,10 @@ I det här avsnittet visas kompatibilitetsmatrisen för de program som stöds av
 ### Adobe Experience Manager
 
 **4.4.0 Ej UUID**
-Version 6.5 Service Pack 19, 18, 17
+Version 6.5 Service Pack 20, 19, 18 eller 17
 
 **4.4.0 UUID**
-Version 6.5 Service Pack 19, 18, 17
+Version 6.5 Service Pack 20, 19, 18 eller 17
 
 
 Mer information finns i [Tekniska krav](../install-guide/download-install-technical-requirements.md) i On-Premise Installation and Configuration Guide.
@@ -82,4 +83,3 @@ Du kan enkelt uppgradera din nuvarande version av Guides till version 4.4.0. Inn
 >Du måste installera AEM Service Pack innan du uppgraderar Experience Manager Guides-versionen.
 
 Mer information finns i [Uppgraderingsinstruktioner för de lokala versionerna](../install-guide/upgrade-xml-documentation.md) i Experience Manager Guides.
-

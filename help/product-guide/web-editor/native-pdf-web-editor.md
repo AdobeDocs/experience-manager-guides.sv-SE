@@ -4,9 +4,9 @@ description: Lär dig hur du använder publicering i PDF, skapar och genererar e
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
 feature: Publishing, Web Editor, Native PDF Output
 role: User
-source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
+source-git-commit: e78749b1d5b4ba944cbca69ba65c6d28355b2c34
 workflow-type: tm+mt
-source-wordcount: '3293'
+source-wordcount: '3362'
 ht-degree: 0%
 
 ---
@@ -212,3 +212,10 @@ Om du väljer **Hämta temporära filer** i Avancerade inställningar kan du äv
 
 AEM stödlinjer har också stöd för språkvariabler. Välj **Språkvariabler** <img src="./assets/language-variables.svg" width="25">  i den vänstra panelen för att definiera en lokaliserad version av de körklara etiketterna som Anteckning, Varning och Varning eller statisk text i utdata från PDF. Mer information finns i [Stöd för språkvariabler](../native-pdf/native-pdf-language-variables.md).
 
+
+
+### Stöd för markeringsdokument
+
+Experience Manager-stödlinjerna har även stöd för markeringsdokument.  Det är enkelt att skapa markeringsfiler och det finns även en mängd formateringsalternativ. Lär dig hur [författare Markdown-dokument från Web Editor](../user-guide/web-editor-markdown-topic.md).
+
+Du kan lägga till Markdown-avsnitten på DITA-kartan och generera utdata för PDF med hjälp av de inbyggda PDF-utdatainställningarna.  Lär dig konfigurera eller [skapa en förinställning för PDF](#create-a-pdf-output-preset-create-output-preset).

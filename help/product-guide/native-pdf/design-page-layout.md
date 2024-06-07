@@ -5,9 +5,9 @@ exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: aad652509c54b516fca49b7ca28d7dd5547f9a1b
 workflow-type: tm+mt
-source-wordcount: '4825'
+source-wordcount: '4972'
 ht-degree: 0%
 
 ---
@@ -352,25 +352,39 @@ Fält är mycket användbara när du vill infoga en del av informationen som är
 
 Det finns följande kategorier för fält som du kan infoga i sidlayouten:
 
+* Metadata
+* Ämnestitel
+* Kapitelrubrik
+* Karttitel
+* Sidnummer
+* Kapitelnummer
+* Totalt antal sidor
 * Datum
 * Tid
-* Ämnestitel
-* Projektets titel
-* Sidnummer
-* Total sida
-* Kapitelrubrik
-* Kapitelnummer
-* Metadata
+
 
 Var och en av dessa fältkategorier innehåller olika variationer där fältinformationen kan infogas. Ett datumfält kan t.ex. ha olika variationer, t.ex. `YYYY-MM-DD`, `MM/DD/YY`, `MM/DD/YYYY` och så vidare. På samma sätt kan sidnummer ha variationer i form av latinska, decimala eller till och med språkspecifika format som _Arabiska_, _Devanagari_, _Hebreiska_, med mera.
 
-Förutom de fördefinierade fälten kan du även lägga till metadatainformation som variabler eller fält i sidlayouten. Dessa metadata lagras i DITA-källmappsinnehållet och kan enkelt infogas i sidlayouten.
 
-Du kan också välja metadataegenskaperna från dina resurser och lägga till dem i sidlayouten. Metadata för resursen publiceras sedan för utdata från PDF. Dessa metadataegenskaper för resurserna ställs in från **Egenskaper** sidan för DITA-kartan eller bokmappningsfilen.
+Förutom de fördefinierade fälten kan du även lägga till metadatainformation som variabler eller fält i sidlayouten. Dessa metadata lagras i DITA-källfilen **Mappa innehåll** eller kan plockas från DITA **Egenskaper för kartfil** eller **Egenskaper för ämnesfil** och enkelt infogas i sidlayouten.
+
+Du kan välja metadata bland följande alternativ:
+
+* **Mappa innehåll** innehåller metadata som du har definierat i `<topicmeta>` -element i DITA-kartan.
+* **Egenskaper för kartfil** innehåller metadata som du kan få tillgång till via **Egenskaper** sida i en DITA-karta.
+* **Egenskaper för ämnesfil** innehåller metadata som du kan få tillgång till via **Egenskaper** sida i ett ämne.
+
+
+Du kan kombinera metadata från **Egenskaper för kartfil** och **Egenskaper för ämnesfil** i ett och samma dokument. Du kan t.ex. publicera ett PDF med karttiteln på försättsbladet och ämnestiteln i sidhuvudet på andra sidor. Om du vill göra det kan du lägga till metadata för kartans titel från **Egenskaper för kartfil** till omslagssidans layout. Lägg sedan till metadata för ämnesrubriken från **Egenskaper för ämnesfil**  till sidhuvudet på sidlayouten Kapitel och avsnitt.
+
+Om ett avsnitt slutar på en sida och det andra börjar på samma sida, väljs metadata för det första avsnittet. Du kan också lägga till anpassade egenskaper och sedan infoga dem som fält i sidlayouten.
+
 
 >[!NOTE]
 >
 > Metadatafälten visas enligt ditt val av resurs eller karta i **Från** nedrullningsbar meny.
+
+
 
 
 <!--For more information, see [Add fields and metadata](design-page-layout.md#add-fields-and-metadata).-->
@@ -395,7 +409,7 @@ I följande exempel infogar vi ett sidnummer och en kapitelrubrik i sidfotsområ
 
 1. Välj **Sidnummer** -kategorin i fältlistan **default(1)** sidnummerformat i formatlistan och klicka på **Infoga**.
 
-   <img src="./assets/insert-page-number-field.svg" width="400">
+   <img src="./assets/insert-page-number-field.png" width="400">
 
    >[!NOTE]
    >

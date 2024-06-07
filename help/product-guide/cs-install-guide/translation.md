@@ -5,9 +5,9 @@ exl-id: 5af78233-343e-47ba-b60c-b7f4789e2406
 feature: Translation
 role: Admin
 level: Experienced
-source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
+source-git-commit: bcb61127f5f69ac39860a90eac2e1a56ecd1de31
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
@@ -68,9 +68,26 @@ Baserat på det översättningsarbetsflöde som används i konfigurationen bör 
 |---|------------|--------------|
 | `com.adobe.fmdita.config.ConfigManager` | `component.translation` | Boolean: <br> - Om du använder mänsklig översättning *Inaktivera* \( `false`\) **Komponentbaserat översättningsarbetsflöde** alternativ. <br> - Om du använder maskinöversättning *Aktivera \( `true`\)* den **Komponentbaserat översättningsarbetsflöde** alternativ. |
 
+
+
+## Konfigurera det äldre arbetsflödet för översättning
+
+Vi rekommenderar att du använder det senaste arbetsflödet för översättning, vilket ger bättre prestanda. Om du vill använda det äldre arbetsflödet för översättning kan du konfigurera det.
+
+Använd instruktionerna i [Konfigurationsåsidosättningar](download-install-additional-config-override.md#) för att skapa konfigurationsfilen. Ange följande (egenskap) information i konfigurationsfilen för att konfigurera det äldre arbetsflödet för översättning:
+
+
+
+
+| PID | Egenskapsnyckel | Egenskapsvärde |
+|---|------------|--------------|
+| `com.adobe.fmdita.config.ConfigManager` | `translation.workflow.version.legacy` | Boolean: <br> - Om du använder det senaste översättningsarbetsflödet *Inaktivera* \( `false`\) **Kör gammalt översättningsarbetsflöde** alternativ. Det senaste arbetsflödet för översättning är aktiverat som standard. <br> - Om du använder den äldre översättningen *Aktivera \( `true`\)* den **Kör gammalt översättningsarbetsflöde** alternativ. |
+
+
+
 >[!NOTE]
 >
-> Om du använder översättningskoppling måste du kontrollera att du har konfigurerat anslutningen enligt beskrivningen i *[Konfigurera översättningsintegreringsramverket](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en)* i AEM.
+> Om du använder översättningskoppling måste du kontrollera att du har konfigurerat anslutningen enligt beskrivningen i *[Konfigurera översättningsintegreringsramverket](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en)* i Adobe Experience Manager-dokumentationen.
 
 >[!IMPORTANT]
 >

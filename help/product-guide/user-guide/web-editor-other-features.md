@@ -4,7 +4,7 @@ description: Utforska andra funktioner i webbredigeraren i AEM. Lär dig hur du 
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: caf00a014838751675aed11e5687a81fe7ad2e7c
+source-git-commit: d30f05ff614693beca5d9cf7f206a36f3dadfc8b
 workflow-type: tm+mt
 source-wordcount: '2532'
 ht-degree: 0%
@@ -182,6 +182,7 @@ När du infogar en ekvation med MathML-redigeraren markeras ekvationen med rött
 **Infoga fotnoter**
 
 - Infoga en fotnot i innehållet genom att använda `fn` -element. I redigeringsläget visas fotnotens värde i linje med innehållet. När du byter förhandsgranskningsläge eller publicerar dokumentet visas dock fotnoten i slutet av avsnittet.
+
 
 **Byta namn på eller ersätta ett element**
 

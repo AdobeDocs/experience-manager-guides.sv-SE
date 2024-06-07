@@ -5,9 +5,9 @@ exl-id: 42ba7347-d81d-45d9-9627-8d164e4f9539
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: f98aa2b4b196ee0fd46542317894163b64b8a486
 workflow-type: tm+mt
-source-wordcount: '3525'
+source-wordcount: '3778'
 ht-degree: 0%
 
 ---
@@ -374,3 +374,63 @@ I följande exempel skapar vi ett nytt fönsternamn (`wintitle`):
 På följande skärmbild visas den wintitle-stil som används på texten &quot;Primär kontroll&quot;.
 
 <img src="./assets/other-style-wintitle.png" width="500">
+
+
+## Definiera ett unikt format för en enda sidlayout
+
+När du publicerar utdata från det ursprungliga PDF sammanfogas alla format i det slutliga PDF, och det är viktigt att tilldela varje mall i CSS ett unikt format.
+Använd distinkta CSS-formatnamn för att använda specifika teckensnitt och format på olika avsnitt i PDF. Du kan till exempel definiera önskat teckensnitt för omslagssidan med följande CSS.
+
+```css
+...
+[data-page-layout="Front"] * { 
+    font-size: 18pt; 
+}  
+...
+```
+
+
+I resten av dokumentet används det standardteckensnitt som du angav för body-taggen i `content.css` eller `layout.css`. Detta garanterar att formaten inte sammanfogas och att varje avsnitt behåller sin avsedda design. Om du vill ha olika teckensnittsstorlekar skapar du särskilda format för dem.
+
+Du kan till exempel definiera följande format för att definiera teckensnittsstorleken 18 på styckena på försättsbladet och teckensnittsstorleken 11 pt för baksidan:
+
+```css
+[data-page-layout="Front"] p { //For all paragraphs inside Front page
+  font-size: 18pt; 
+} 
+  
+[data-page-layout="Back"] p { //For all paragraphs inside Back page
+  font-size: 11pt; 
+}
+```
+
+>[!NOTE]
+>
+I föregående exempel är&quot;Framsida&quot; och&quot;Baksida&quot; exempelnamnen på de layoutfiler som du kan använda i mallarna.
+
+
+## Definiera anpassat CSS-format för prefix- och suffixinnehåll
+
+Om du definierar de anpassade CSS-formaten får de den första prioriteten när du genererar utdata från det ursprungliga PDF.
+Följande standard-CSS-format döljer både prefix- och suffixinnehåll.
+
+```css
+...
+.prefix-content, .suffix-content{
+    display: none;
+} 
+...
+```
+
+Tillåt dessa prefix i `<note>` -element, inkludera följande CSS i `content.css`:
+
+```css
+...
+.prefix-content{
+    display: inline !important;
+}
+...
+```
+
+The `<note>` element genererar ytterligare `<span>` med det klassprefix-innehåll som motsvarar dess type-attribut. Den här CSS-regeln har som mål `.prefix-content` klass inom `<note>` element med ett type-attribut, som gör att du kan formatera eller ändra prefixinnehållet efter behov.
+

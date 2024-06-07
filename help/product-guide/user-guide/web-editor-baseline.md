@@ -4,9 +4,9 @@ description: Skapa och hantera baslinjer från webbredigeraren i AEM. Lär dig h
 exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
+source-git-commit: c4c5fa16daf3f713f85783152094c8af59eb4f8c
 workflow-type: tm+mt
-source-wordcount: '1687'
+source-wordcount: '1699'
 ht-degree: 0%
 
 ---
@@ -60,8 +60,12 @@ Du kan skapa en baslinje i Web Editor genom att utföra följande steg:
 
    ![Skapa en baslinje](images/dynamic-baseline.png){width="300" align="left"}
 
-   - **Markera etiketter**: Om det finns etiketter för ämnena använder du **Markera etiketter** listruta där du kan välja [listade etiketter](#labels-list).
+   - **Etiketter**: Om det finns etiketter för ämnena använder du **Etiketter** listruta där du kan välja [listade etiketter](#labels-list).
 De etiketter som är markerade först får högre prioritet än de som väljs senare.
+
+     >[!NOTE]
+     >
+     >När etiketterna hämtas visas en inläsare och listrutan inaktiveras.
 
      För dynamiska baslinjer hämtas etiketterna från den senaste sparade versionen och den aktuella arbetskopian av kartan. Om du till exempel har skapat etiketter   `Label Release A.1.0 ` och `Label Release A.1.1` för version 1.0 och 1.1 av ämne A och etiketter `Label Release B.1.0` och `Label Release B.1.1` för version 1.0 och 1.1 av ämne B . Sedan kan du lägga till ämne A i karta A i version 1.0 och ämne B i karta A i 1.0* (arbetskopia). I det här fallet kan du visa  `Label Release A.1.0 `, `Label Release A.1.1`, `Label Release B.1.0`och `Label Release B.1.1` i listrutan med dynamiska baslinjeetiketter.
 

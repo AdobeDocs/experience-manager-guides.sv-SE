@@ -5,9 +5,9 @@ exl-id: d7cd412b-89ea-43a5-97b3-09944863bbee
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: acd16f23a7b3023a62b3c15007b03d4f3b2cfb4f
+source-git-commit: 873542cb2e8e1b7e80e0ecc113cae4f603b18592
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: '902'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,11 @@ ht-degree: 0%
 
 Experience Manager Guides har **Datakällor** som hjälper dig att konfigurera färdiga anslutningar för datakällor. Du kan konfigurera JIRA-, SQL- (MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), AdobeCommerce, Elasticsearch och allmänna REST-klientanslutningar.
 
-Förutom dessa färdiga anslutningar kan du använda Experience Manager Guides för att skapa kopplingar för datakällorna Salsify, Akeneo och Microsoft Azure DevOps Boards (ADO). Du kan hämta och installera dem. Användarna kan sedan konfigurera dessa anslutningar.
+
+Förutom dessa färdiga anslutningar kan du använda Experience Manager Guides för att skapa kopplingar för datakällorna Salsify, Akeneo och Microsoft Azure DevOps Boards (ADO). Du kan hämta och installera dessa öppen källkod-anslutningar från [Maven Central-arkivet](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides). Användarna kan sedan konfigurera dessa anslutningar.
+Lär dig hur [installera en anslutning med öppen källkod](#install-open-source-connector).
+
+
 
 Du kan också ansluta till JSON-datafiler med hjälp av en filkoppling. Ladda upp JSON-filen från datorn eller bläddra i den från Adobe Experience Manager resurser. Skapa sedan innehållsutdrag eller ämnen med generatorerna.
 
@@ -78,6 +82,39 @@ Så här skapar du en resurs:
 1. Du kan också använda standardresurserna som är tillgängliga för datakällor som Salsify, Akeneo och Microsoft ADO. Växla alternativen AV för den resurs som du inte vill konfigurera för en datakälla.
 
 Detta hjälper dig att snabbt hämta data från någon av resurserna för en viss datakälla i ett enda innehållskuvert eller ämne.
+
+
+
+## Installera en anslutning med öppen källkod{#install-open-source-connector}
+
+Publicera ett beroende som finns på [Maven Central-arkivet](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides) till Cloud Servicen måste du inkludera och bädda in beroendet för en öppen källkodsanslutning.
+
+1. Lägg till beroendet i `all/pom.xml`  i din molnhanterares Git-projektkod. Du kan till exempel lägga till följande beroende för datakällkopplingen för Microsoft Azure DevOps-kort.
+
+
+   ```
+   <dependency>
+       <groupId>com.adobe.aem.addon.guides</groupId>
+       <artifactId>konnect-azure-devops</artifactId>
+       <version>1.0.0</version>
+       <type>jar</type>
+   </dependency> 
+   ```
+
+1. Bädda in det tillagda beroendet.
+
+       &quot;
+       &lt;embedded>
+       &lt;groupid>com.adobe.aem.addon.guides&lt;/groupid>
+       &lt;artifactid>konnect-azure-devops&lt;/artifactid>
+       &lt;type>jar&lt;/type>
+       &lt;target>/apps/aemdoxonaemcsstageprogram-vendor-packages/content/install&lt;/target>
+       &lt;/embedded>
+       &quot;
+   
+1. Kör pipeline för att tillämpa ändringarna i Cloud Servicen.
+Kopplingen är installerad i din miljö.
+
 
 ## Tillgängliga funktioner för en koppling
 
