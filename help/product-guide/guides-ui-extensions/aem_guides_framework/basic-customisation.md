@@ -2,7 +2,8 @@
 title: Anpassa appen
 description: Anpassa appen
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: 3e454c48-2168-41a5-bbab-05c8a5b5aeb1
+source-git-commit: 4f00d6b7ad45636618bafe92e643b3e288ec2643
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 0%
@@ -18,20 +19,21 @@ Vår app följer en MVC-struktur (modell, vy, styrenhet)
 Modellen definierar de olika attributen och lagrar deras värden. Värdena för de olika attribut som lagras i modellen kan nås från kontrollenheten med hjälp av syntaxen
 
 ```typescript
-this.model.attributeName
+this.getValue('attributeName')
 ```
 
 För anpassning i programmet läggs alla nya attribut till under en karta i modellen.
 Om du vill ange ett nytt attribut i modellen använder vi följande syntax i kontrollenheten:
 
 ```typescript
-this.model.extraProps.set("key", value)
+// If a key is not already in model then it will be added to extraProps
+this.setValue('key', value)
 ```
 
 För att komma åt ett attribut som lagts till i modellen använder vi följande syntax:
 
 ```typescript
-const value = this.model.extraProps.get("key")
+const value = this.getValue("key")
 ```
 
 ## Visa
@@ -87,13 +89,13 @@ i detta fall `extraProps.buttonLabel` innehåller knappens etikett
 
 ```typescript
   controller: {
-    init: function () {
-      this.model.extraProps.set("buttonLabel", "Submit")
+    init: function (context) {
+      context.setValue("buttonLabel", "Submit")
     },
 
     switchButtonLabel(){
-        const buttonLabel = this.model.extraProps.get("buttonLabel") === "Submit"? "Cancel" : "Submit"
-        this.model.extraProps.set("buttonLabel", buttonLabel)
+        const buttonLabel = this.getValue("buttonLabel") === "Submit"? "Cancel" : "Submit"
+        this.setValue("buttonLabel", buttonLabel)
     }
   }
 ```
