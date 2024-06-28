@@ -3,7 +3,8 @@ title: Konfigurera Microservice-baserad publicering med OAuth-autentisering för
 description: Lär dig konfigurera mikrotjänstbaserad publicering med OAuth-autentisering för AEM Guides.
 feature: Microservice in AEM Guides
 role: User, Admin
-source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
+exl-id: db0c83c7-1ece-4010-b214-f8d806d26bc9
+source-git-commit: 6d935ce934890066de358c434717efeef2c997cb
 workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 0%
@@ -12,13 +13,13 @@ ht-degree: 0%
 
 # Konfigurera mikrotjänstbaserad publicering med OAuth-autentisering
 
-Med publiceringsmikrotjänsten kan du köra stora publiceringsarbetsbelastningar samtidigt på Experience Manager Guides as a Cloud Service och dra nytta av den branschledande Adobe I/O Runtime serverlösa plattform.
+Med publiceringsmikrotjänsten kan du köra stora publiceringsarbetsbelastningar samtidigt på Experience Manager Guides as a Cloud Service och dra nytta av den branschledande serverlösa Adobe I/O Runtime-plattformen.
 
-För varje publiceringsbegäran kör Experience Manager Guides as a Cloud Service en separat behållare som skalas vågrätt efter användarens önskemål. Detta ger möjlighet att köra flera publiceringsbegäranden och få bättre prestanda än deras stora lokala Adobe Experience Manager-servrar.
+För varje publiceringsbegäran kör Experience Manager Guides as a Cloud Service en separat behållare som skalas vågrätt enligt användarens önskemål. Detta ger möjlighet att köra flera publiceringsbegäranden och få bättre prestanda än deras stora lokala Adobe Experience Manager-servrar.
 
 >[!NOTE]
 >
-> Microservice-baserad publicering i Experience Manager Guides har stöd för PDF (både Native- och DITA-OT-baserade), HTML5, JSON och CUSTOM-baserade förinställda utdata.
+> Microservice-baserad publicering i Experience Manager Guides har stöd för PDF (både Native- och DITA-OT-baserade), HTML5, JSON och CUSTOM-baserade utdataförinställningar.
 
 När molnpubliceringstjänsten skyddas av OAuth-baserad autentisering från Adobe IMS utför du följande steg för att integrera deras miljöer med Adobe säkra tokenbaserade autentiseringsarbetsflöden och börja använda den molnbaserade skalbara publiceringslösningen.
 
@@ -127,7 +128,7 @@ Om du vill använda en publiceringsmikrotjänst för första gången uppdaterar 
 >
 > Hoppa över följande steg om du redan använder en mikrotjänstbaserad publicering:
 
-När du har lagt till IMS-konfigurationen i miljön följer du de här stegen för att länka dessa egenskaper till Experience Manager-guider med OSGi:
+När du har lagt till IMS-konfigurationen i miljön utför du följande steg för att länka dessa egenskaper till Experience Manager Guides med OSGi:
 
 1. Lägg till följande två filer (för filinnehåll, se [Bilaga](#appendix)).
 
