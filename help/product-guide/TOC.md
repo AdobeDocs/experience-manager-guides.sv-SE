@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Läs produktdokumentationen för Adobe Experience Manager Guides.
 breadcrumb-title: Dokumentation om AEM Guides
-source-git-commit: bcb61127f5f69ac39860a90eac2e1a56ecd1de31
+source-git-commit: a7f7fdeb66cf39d1b356fdaa0eea92d3bbf3628f
 workflow-type: tm+mt
-source-wordcount: '1815'
+source-wordcount: '1819'
 ht-degree: 2%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 2%
 - [[!DNL AEM Guides] översikt](overview.md)
 - [Ansvarsfriskrivning](./user-guide/rebranding-disclaimer.md)
 - Versionsinformation {#release-info}
-   - [AEM visar en färdplan](./release-info/aem-guides-releases-roadmap.md)
+   - [AEM Guides släpper färdplan](./release-info/aem-guides-releases-roadmap.md)
    - Versionsinformation {#release-notes}
       - Cloud Service {#cloud-release-notes}
          - [Distributionsanvisningar](./release-info/deploy-xml-on-aemaacs.md)
@@ -97,6 +97,7 @@ ht-degree: 2%
          - [4.0.x Versionsinformation](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
          - [Versionsinformation om 3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Användarhandbok {#user-guide}
+
    - Introduktion {#about-aem-guide}
       - [Om [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - [!DNL AEM Guides] funktioner {#aemg-works-features}
@@ -108,14 +109,18 @@ ht-degree: 2%
       - [Hantera filer och mappar](./user-guide/authoring-file-management.md)
       - [Hämta filer](./user-guide/authoring-download-assets.md)
    - Författarinnehåll {#author-content}
+
       - [Redigeringsöversikt](./user-guide/authoring-content.md)
       - Skapa och förhandsgranska ämnen {#create-preview-topics}
+
          - [Skapa och förhandsgranska ämnen](./user-guide/create-preview-topics.md)
          - [Skapa ämnen](./user-guide/web-editor-create-topics.md)
          - [Förhandsgranska ett ämne](./user-guide/web-editor-preview-topics.md)
          - Skapa innehåll {#author-content-aem-guides}
-            - [Hur man redigerar innehåll med hjälp AEM stödlinjer](./user-guide/authoring-content-xml-doc.md)
+
+            - [Hur man skapar innehåll med AEM Guides](./user-guide/authoring-content-xml-doc.md)
             - Web Editor {#work-with-web-editor}
+
                - [Arbeta med webbredigeraren](./user-guide/web-editor.md)
                - [Starta Web Editor](./user-guide/web-editor-launch-editor.md)
                - [Redigera ämnen i Web Editor](./user-guide/web-editor-edit-topics.md)
@@ -133,12 +138,13 @@ ht-degree: 2%
                - Artikelbaserad publicering {#article-based-pub}
                   - [Artikelbaserad publicering från webbredigeraren](./user-guide/web-editor-article-publishing.md)
                   - [Skapa förinställningar från Web Editor](./user-guide/web-editor-article-publishing-presets.md)
-                  - [Generera utdata från panelen Databas eller panelen Kartvy](./user-guide/web-editor-article-publishing-output.md)
-                  - [Använd snabbgenereringspanelen för att generera och visa utdata](./user-guide/web-editor-quick-generate-panel.md)
+                  - [Generate-utdata från panelen Databas eller panelen Kartvy](./user-guide/web-editor-article-publishing-output.md)
+                  - [Använda panelen Snabb Generate för att visa utdata i generate](./user-guide/web-editor-quick-generate-panel.md)
                - [Översätta dokument från Web Editor](./user-guide/translate-documents-web-editor.md)
                - [Skapa och hantera baslinjer från Web Editor](./user-guide/web-editor-baseline.md)
                - [Dokumenttillstånd](./user-guide/web-editor-document-states.md)
                - [Använd etiketter](./user-guide/web-editor-use-label.md)
+
             - Kartredigeraren {#work-with-map-editor}
                - [Arbeta med kartredigeraren](./user-guide/map-editor.md)
                - [Skapa en karta](./user-guide/map-editor-create-map.md)
@@ -148,10 +154,12 @@ ht-degree: 2%
                - [Andra funktioner i kartredigerarna](./user-guide/map-editor-other-features.md)
             - DITAVAL Editor {#ditaval-editor}
                - [Arbeta med DITAVAL-redigeraren](./user-guide/ditaval-editor.md)
+
          - Skrivbordsverktyg för innehåll {#author-using-desktop-tools}
             - [Skapa innehåll med hjälp av skrivbordsverktyg](./user-guide/author-desktop-tools.md)
             - [Arbeta med FrameMaker](./user-guide/author-desktop-framemaker.md)
             - [Arbeta med syre](./user-guide/author-desktop-oxygen.md)
+
    - Granska innehåll {#review-topic-maps}
       - [Granska ämnen och kartor](./user-guide/review.md)
       - [Skapa ett DITA-projekt](./user-guide/authoring-create-dita-project.md)
@@ -162,7 +170,7 @@ ht-degree: 2%
          - [Adressgranskningskommentarer](./user-guide/review-address-review-comments.md)
       - [Hantera granskningsåtgärder med hjälp av Kontrollpanelen](./user-guide/review-manage-tasks-review-dashboard.md)
       - [Visa en slutförd granskningsaktivitet](./user-guide/review-view-completed-task.md)
-   - Metadata i AEM {#manaege-metadata}
+   - Metadata i AEM Guides {#manaege-metadata}
       - [Hantera metadata](./user-guide/manage-metadata.md)
       - [Arbeta med metadata i AEM](./user-guide/metadata-dita.md)
       - [Smarta taggar](./user-guide/web-editor-smart-tagging.md)
@@ -175,7 +183,7 @@ ht-degree: 2%
    - Generera utdata {#output-gen}
       - [Grundläggande om generering av utdata](./user-guide/generate-output.md)
       - [Introduktion till förinställningar för utdata](./user-guide/generate-output-understand-presets.md)
-      - Förinställningar för utdata AEM stödlinjer {#output-presets-aemg}
+      - Utdataförinställningar i AEM Guides {#output-presets-aemg}
          - [AEM](./user-guide/generate-output-aem-site.md)
          - [PDF](./user-guide/generate-output-pdf.md)
          - [Knowledge Base](./user-guide/generate-output-knowledge-base.md)
@@ -189,15 +197,15 @@ ht-degree: 2%
       - [Profilering av villkorliga attribut](./user-guide/generate-output-conditional-attribute-profiling.md)
       - [Använda förinställningar för villkor](./user-guide/generate-output-use-condition-presets.md)
       - [Arbeta med baslinje](./user-guide/generate-output-use-baseline-for-publishing.md)
-      - [Generera utdata för en DITA-karta från kartkonsolen](./user-guide/generate-output-for-a-dita-map.md)
+      - [Generate-utdata för en DITA-karta från kartkonsolen](./user-guide/generate-output-for-a-dita-map.md)
       - [Använd kartsamling för generering av utdata](./user-guide/generate-output-use-map-collection-output-generation.md)
       - Använda publiceringsfunktionen i PDF {#web-editor}
-         - [Publish PDF output](./web-editor/native-pdf-web-editor.md)
+         - [Utdata från Publish PDF](./web-editor/native-pdf-web-editor.md)
          - [Konfigurera ytterligare specialtecken](./web-editor/configure-additional-special-characters.md)
       - [Hantera publiceringsuppgifter med Publish Dashboard](./user-guide/generate-output-publish-dashboard.md)
       - [Grundläggande felsökning](./user-guide/generate-output-basic-troubleshooting.md)
-      - [Publicera innehållsfragment](./user-guide/publish-content-fragment.md)
-      - [Publicera upplevelsefragment](./user-guide/publish-experience-fragment.md)
+      - [Publish Content Fragments](./user-guide/publish-content-fragment.md)
+      - [Publish Experience Fragments](./user-guide/publish-experience-fragment.md)
       - Massaktivering av innehåll {#bulk-activation}
          - [Massaktivering av publicerat innehåll](./user-guide/conf-bulk-activation.md)
          - [Skapa en gruppaktiveringskarta](./user-guide/conf-bulk-activation-create-map-collection.md)
@@ -205,21 +213,22 @@ ht-degree: 2%
          - [Redigera en gruppaktiveringskarta](./user-guide/conf-bulk-activation-edit-map-collection.md)
          - [Ta bort en gruppaktiveringskarta](./user-guide/conf-bulk-activation-delete-map-collection.md)
    - Generering av FrameMaker {#generate-fm-output}
-      - [Generera utdata av FrameMaker dokument](./user-guide/fm-output-generatation.md)
+      - [Generate-utdata av FrameMaker](./user-guide/fm-output-generatation.md)
       - Förinställningar som stöds {#fm-docs-generating-presets}
          - [Förinställningar för generering av FrameMaker](./user-guide/fm-output-understand-presets.md)
          - [PDF](./user-guide/fm-output-pdf-preset.md)
          - [HTML5](./user-guide/fm-output-html5-preset.md)
          - [EPUB](./user-guide/fm-output-epub-preset.md)
-      - [Generera utdata från .book- eller .fm-filer](./user-guide/fm-output-generate.md)
+      - [Generate-utdata för .book- eller .fm-filer](./user-guide/fm-output-generate.md)
       - [Visa status för utdatagenereringsaktiviteten](./user-guide/fm-output-view-status.md)
-   - Rapporter i AEM {#reports-aem-guide}
+   - Rapporter i AEM Guides {#reports-aem-guide}
       - [Introduktion till rapporter](./user-guide/reports-intro.md)
       - [DITA-kartrapport från Web Editor](./user-guide/reports-web-editor.md)
       - [DITA-kartrapport från kartpanelen](./user-guide/reports-ditamap.md)
       - [Återanvänd innehåll - rapport](./user-guide/reports-content-reuse.md)
       - [Statusrapport för konvertering](./user-guide/reports-convertion-status.md)
       - [Rapport över versionshistorik för återskapade filer](./user-guide/reports-reverted-file-version-history.md)
+
 - Installation och konfiguration {#install-guide}
    - Lokalt {#on-prem-ig}
       - [Grunderna på plats](./install-guide/introduction.md)
@@ -227,11 +236,11 @@ ht-degree: 2%
          - [Översikt över hämtning och installation](./install-guide/download-install.md)
          - [Tekniska krav](./install-guide/download-install-technical-requirements.md)
          - [Installera Adobe Experience Manager](./install-guide/download-install-aem.md)
-         - [Hämta och installera AEM för första gången](./install-guide/download-install-aemg-first-time.md)
+         - [Ladda ned och installera AEM Guides för första gången](./install-guide/download-install-aemg-first-time.md)
          - [Konfigurera Dispatcher](./install-guide/download-install-configure-dispatcher.md)
-         - [Verifiera installation av AEM](./install-guide/download-install-verify-aemg-installation.md)
-         - [AEM](./install-guide/upgrade-xml-documentation.md)
-         - [Avinstallera AEM](./install-guide/download-install-unistall-aemg.md)
+         - [Verifiera installation av AEM Guides](./install-guide/download-install-verify-aemg-installation.md)
+         - [Uppgradera AEM Guides](./install-guide/upgrade-xml-documentation.md)
+         - [Avinstallera AEM Guides](./install-guide/download-install-unistall-aemg.md)
          - [Recommendations för prestandaoptimering](./install-guide/download-install-recommend-perf-optimiz.md)
       - Arbeta med användargrupper och säkerhet {#user-group-sec}
          - [Användaradministration och -säkerhet](./install-guide/user-admin-sec.md)
@@ -267,10 +276,10 @@ ht-degree: 2%
          - [Konfigurera en anpassad panel i den vänstra panelen](./install-guide/configure-custom-panel.md)
          - [Konfigurera autosparande av filer i Web Editor](./install-guide/auto-save-in-editor.md)
          - [Konfigurera filter för filbläddringsdialogrutan](./install-guide/conf-custom-file-filters.md)
-         - [Konfigurera uppmaningen att spara som en ny version vid stängning](./install-guide/conf-save-as-new-version-close.md)
-         - [Konfigurera en uppmaning om att checka in en fil vid stängning](./install-guide/conf-checkin-file-close.md)
+         - [Konfigurera prompt att spara som en ny version när du stänger](./install-guide/conf-save-as-new-version-close.md)
+         - [Konfigurera prompt för att checka in en fil när den stängs](./install-guide/conf-checkin-file-close.md)
          - [Konfigurera tillåtna specialtecken](./install-guide/conf-special-chars.md)
-         - [Generera element-ID automatiskt](./install-guide/auto-generate-ids.md)
+         - [Automatiskt generate-element-ID](./install-guide/auto-generate-ids.md)
          - [Anpassa AEM standardordlista](./install-guide/customize-aem-custom-dictionary.md)
          - [Konfigurera textfilter](./install-guide/config-text-filters.md)
          - [Konfigurera antalet LimitReads för en fråga](./install-guide/conf-query-limitreads.md)
@@ -312,12 +321,12 @@ ht-degree: 2%
       - [Bilaga](./install-guide/appendix.md)
    - Cloud Service {#cs-ig}
       - [Om den här guiden](./cs-install-guide/introduction.md)
-      - Distribuera och konfigurera AEM som Cloud Service {#deploy-conf-aemg-cs}
+      - Distribuera och konfigurera AEM Guides som Cloud Service {#deploy-conf-aemg-cs}
          - [Hämta och installera](./cs-install-guide/download-install.md)
-         - [Distribuera modulen AEM stödlinjer](./cs-install-guide/download-install-dxml-first-time.md)
+         - [Distribuera AEM Guides-modul](./cs-install-guide/download-install-dxml-first-time.md)
          - [Konfigurera Dispatcher](./cs-install-guide/download-install-configure-dispatcher.md)
-         - [Verifiera installation av AEM](./cs-install-guide/download-install-verify-dxml-installation.md)
-         - [AEM](./cs-install-guide/download-install-upgrade-dxml.md)
+         - [Verifiera installation av AEM Guides](./cs-install-guide/download-install-verify-dxml-installation.md)
+         - [Uppgradera AEM Guides](./cs-install-guide/download-install-upgrade-dxml.md)
          - [Konfigurationsåsidosättningar](./cs-install-guide/download-install-additional-config-override.md)
          - [Recommendations för prestandaoptimering](./cs-install-guide/download-install-recommend-perf-optimiz.md)
       - Arbeta med användargrupper och säkerhet {#user-group-sec-cs}
@@ -349,10 +358,10 @@ ht-degree: 2%
          - [Öppna DITA-avsnitt eller DITA-kartfiler på samma flik](./cs-install-guide/open-dita-files-same-tab.md)
          - [Konfigurera en anpassad panel i den vänstra panelen](./cs-install-guide/configure-custom-panel.md)
          - [Konfigurera autosparande av filer i Web Editor](./cs-install-guide/auto-save-in-editor.md)
-         - [Konfigurera uppmaningen att spara som en ny version vid stängning](./cs-install-guide/conf-save-as-new-version-close.md)
-         - [Konfigurera en uppmaning om att checka in en fil vid stängning](./cs-install-guide/conf-checkin-file-close.md)
+         - [Konfigurera prompt att spara som en ny version när du stänger](./cs-install-guide/conf-save-as-new-version-close.md)
+         - [Konfigurera prompt för att checka in en fil när den stängs](./cs-install-guide/conf-checkin-file-close.md)
          - [Konfigurera tillåtna specialtecken](./cs-install-guide/conf-special-chars.md)
-         - [Generera element-ID automatiskt](./cs-install-guide/auto-generate-ids.md)
+         - [Automatiskt generate-element-ID](./cs-install-guide/auto-generate-ids.md)
          - [Anpassa AEM standardordlista](./cs-install-guide/customize-aem-custom-dictionary.md)
          - [Konfigurera textfilter](./cs-install-guide/config-text-filters.md)
          - [Konfigurera filter för filbläddringsdialogrutan](./cs-install-guide/conf-custom-file-filters.md)
@@ -394,28 +403,31 @@ ht-degree: 2%
    - [Java-baserade API:er som fungerar med baslinje och etiketter](./api-reference/create-baseline-label-java.md)
    - [Java-baserat API för att arbeta med mappprofiler](./api-reference/folder-profile-java.md)
    - [Java-baserat API för att skapa och aktivera paket](./api-reference/create-activate-package-java.md)
-   - [Händelsehanterare efter bearbetning](./api-reference/post-process-event.md)
+   - [Händelsehanterare för Post-bearbetning](./api-reference/post-process-event.md)
    - [Händelsehanterare för slutförd gruppaktivering](./api-reference/bulk-activation-complete-event.md)
    - [Händelsehanterare för konverteringsprocess](./api-reference/conversion-complete-event.md)
 - Knowledge Base {#knowledge-base}
+
    - Expertsession {#expert-session}
       - [Översikt över expertsessioner](./knowledge-base/expert-sessions/expert-session.md)
       - [Översätta innehåll](./knowledge-base/expert-sessions/translating-content-using-aem-guides-oct22.md)
       - [Hantera innehåll med hjälp av baslinjer](./knowledge-base/expert-sessions/baselines-dec22.md)
       - [Skapa webbaserat innehåll](./knowledge-base/expert-sessions/webbased-authoring-jan2023.md)
       - [Grundläggande publicering i PDF](./knowledge-base/expert-sessions/native-pdf-publishing-essentials-feb23.md)
-      - [Rapporter i AEM](./knowledge-base/expert-sessions/basic-reports-mar2023.md)
+      - [Rapporter i AEM Guides](./knowledge-base/expert-sessions/basic-reports-mar2023.md)
       - [Innehåll och mallar](./knowledge-base/expert-sessions/content-and-template-setup-apr2023.md)
       - [Inlärning i PDF -  - del 1](./knowledge-base/expert-sessions/native-pdf-publishing-eamples-part1-june2023.md)
       - [Inlärning av PDF-publicering - Hands on lab - BYOS](./knowledge-base/expert-sessions/native-pdf-publishing-hands-on-lab-sep2023.md)
-      - [AEM stödlinjer för tillägg](./knowledge-base/expert-sessions/guides-extension-framework-nov2023.md)
+      - [Extension Framework of AEM Guides](./knowledge-base/expert-sessions/guides-extension-framework-nov2023.md)
       - [Integrering med extern datakälla](./knowledge-base/expert-sessions/external-datasource-integration-dec2023.md)
       - [Översätta innehåll i stödlinjer - del 2](./knowledge-base/expert-sessions/translating-content-using-aem-guides-part2-feb2024.md)
       - [Definiera, hantera och använda metadata](./knowledge-base/expert-sessions/metadata-define-manage-utilize-may2024.md)
+      - [AEM](./knowledge-base/expert-sessions/aem-site-output-variations-27Jun.md)
    - Artiklar {#kb-articles}
+
       - Redigering {#authoring}
          - Web Editor {#webeditor}
-            - [Återanvändning av innehåll i AEM](./knowledge-base/kb-articles/authoring/webeditor/content-reusability-in-aem-guides.md)
+            - [Återanvändning av innehåll i AEM Guides](./knowledge-base/kb-articles/authoring/webeditor/content-reusability-in-aem-guides.md)
             - Anpassa {#customizing}
                - [Lägg till anpassad knapp i verktygsfältet](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-button-to-webeditor-toolbar.md)
                - [Lägga till anpassade format i Web Editor](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-styles-to-webeditor.md)
@@ -451,9 +463,10 @@ ht-degree: 2%
                - [Komponenter](./guides-ui-extensions/customisations/ReviewApp/components.md)
                - [Anpassa](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
       - Publicering {#publishing}
+
          - [Configuring AEM Environment for Native PDF Publishing](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
 
-         - [Generera bokmappens innehållsförteckning i ursprunglig PDF-publicering](./knowledge-base/kb-articles/publishing/how-to-include-bookmap-toc-in-pdf-publishing.md)
+         - [Generate Bookmaps TOC in Native PDF Publishing](./knowledge-base/kb-articles/publishing/how-to-include-bookmap-toc-in-pdf-publishing.md)
 
          - [FMPS och stödlinjer](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
          - [Microservice-arkitektur och prestanda](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
@@ -462,11 +475,13 @@ ht-degree: 2%
 
          - [Publicera riktmärken i AEM molnet](./knowledge-base/publishing/publishing-benchmarks-on-cloud.md)
          - [Konfigurera en anpassad DITA-OT](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
+
       - Arbetsflöden {#workflows}
-         - [Arbetsflöde efter generering](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
+         - [Post Generation Workflow](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
       - Översättning {#translation}
          - [Exkludera stycken från översättning](./knowledge-base/kb-articles/translation/exclude-paragraphs-from-translation.md)
       - Användningsexempel {#use-cases}
          - [Arbeta med villkorligt innehåll](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
          - [Arbeta med tangenter](./knowledge-base/kb-articles/content-architecture/working-with-keys.md)
+
    - [Använd syreanslutning](./oxygen-connector/use-aem-connector.md)
