@@ -2,11 +2,11 @@
 title: Konfigurera Microservice-baserad publicering med OAuth-autentisering för AEM Guides as a Cloud Service
 description: Lär dig konfigurera mikrotjänstbaserad publicering med OAuth-autentisering för AEM Guides.
 feature: Microservice in AEM Guides
-role: User, Admin
+role: Admin
 exl-id: db0c83c7-1ece-4010-b214-f8d806d26bc9
-source-git-commit: 6d935ce934890066de358c434717efeef2c997cb
+source-git-commit: c51a372dc44921a489219f5ac99e3ad180ccc91d
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '827'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ Du har konfigurerat OAuth-autentiseringsinformationen och laddat ned JSON-tjäns
 >
 >Om du redan har skapat ett OAuth-projekt för smarta förslag kan du återanvända samma projekt för mikrotjänster och hoppa över följande steg för att lägga till IMS-konfiguration i miljön.
 
-### Uppdatera befintlig konfiguration
+### Uppdatera befintlig konfiguration (JWT till OAuth shift)
 
 Om du redan använder en mikrotjänst för publicering med JWT (utgått) utför du följande steg för att uppdatera konfigurationerna:
 
@@ -114,7 +114,7 @@ Om du vill använda en publiceringsmikrotjänst för första gången uppdaterar 
 1. Välj namnet på miljön som du vill konfigurera. Du bör navigera till **Miljöinformation** sida.
 1. Växla till **Konfiguration** -fliken.
 
-1. Uppdatera JSON-fältet SERVICE_ACCOUNT_DETAILS. Se till att du använder samma namn och konfiguration som i skärmbilden nedan.
+1. Skapa en ny konfiguration med namnet SERVICE_ACCOUNT_DETAILS. I värdet lägger du till innehåll i OAuth JSON-filen som du hämtade från utvecklarkonsolen.
 
 
 <img src="assets/jws-service-account-config.png" alt="konfiguration av ims-tjänstkonto" width="500">
@@ -122,7 +122,7 @@ Om du vill använda en publiceringsmikrotjänst för första gången uppdaterar 
 *Konfigurera miljön för första gången.*
 
 
-### Använd mikrotjänstbaserad publicering för första gången
+### Första gången kod ändras för aktivering av mikrotjänstbaserad publicering
 
 >[!NOTE]
 >
@@ -130,7 +130,7 @@ Om du vill använda en publiceringsmikrotjänst för första gången uppdaterar 
 
 När du har lagt till IMS-konfigurationen i miljön utför du följande steg för att länka dessa egenskaper till Experience Manager Guides med OSGi:
 
-1. Lägg till följande två filer (för filinnehåll, se [Bilaga](#appendix)).
+1. Lägg till följande två filer i Git-projektkoden för molnhanteraren `/apps/fmditaCustom/config` (för filinnehåll, visa [Bilaga](#appendix)).
 
    * `com.adobe.aem.guides.eventing.ImsConfiguratorService.cfg.json`
    * `com.adobe.fmdita.publishworkflow.PublishWorkflowConfigurationService.xml`
