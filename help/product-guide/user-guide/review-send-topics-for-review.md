@@ -1,6 +1,6 @@
 ---
 title: Skicka ämnen för granskning
-description: Lär dig hur du skapar en granskningsuppgift och skickar ämnen för granskning i AEM. Skicka ett eller flera ämnen i en DITA-karta för granskning.
+description: Lär dig hur du skapar en granskningsåtgärd och skickar ämnen för granskning i AEM Guides. Skicka ett eller flera ämnen i en DITA-karta för granskning.
 exl-id: c486eb6a-7e1f-4faa-973d-b47252d3e7c5
 feature: Reviewing
 role: User
@@ -19,12 +19,12 @@ Eftersom granskningsarbetsflödet är projektspecifikt måste granskningsinitier
 
 Du kan skapa en granskningsuppgift från:
 
-- **Web Editor**: Skicka ett enskilt ämne eller en DITA-karta för granskning. Observera att arbetsflödet som används för att skapa en granskningsåtgärd är vanligt i webbredigeraren och resursgränssnittet. Det är bara metoden för att starta granskningsarbetsflödet som skiljer sig. Information om hur du startar granskningsarbetsflödet i Web Editor finns i [Skapa granskningsaktivitet](web-editor-features.md#id215OCJ00JXA) i Web Editor.
+- **Webbredigerare**: Gör att du kan skicka ett enskilt ämne eller en DITA-karta för granskning. Observera att arbetsflödet för att skapa en granskningsåtgärd är vanligt i webbredigeraren och Assets-gränssnittet. Det är bara metoden för att starta granskningsarbetsflödet som skiljer sig. Mer information om hur du startar granskningsarbetsflödet i Web Editor finns i funktionen [Skapa granskningsaktivitet](web-editor-features.md#id215OCJ00JXA) i Web Editor.
 
-- **Resursgränssnitt**: Skicka ett eller flera ämnen och DITA-karta för granskning. Delning av dokument för granskning från Assets UI-arbetsflödet beskrivs i det här avsnittet.
+- **Assets-gränssnitt**: Gör att du kan skicka ett eller flera ämnen och DITA-karta för granskning. Delning av dokument för granskning från Assets användargränssnitt beskrivs i det här avsnittet.
 
 
-I resursgränssnittet finns det två sätt som en författare/utgivare kan skapa en granskningsuppgift på:
+I Assets-gränssnittet finns det två sätt som en författare/utgivare kan skapa en granskningsuppgift på:
 
 - Skicka ett eller flera ämnen för granskning
 - Skicka flera ämnen från en DITA-karta för granskning
@@ -41,13 +41,13 @@ Så här skapar du en granskningsuppgift och skickar ämnen för granskning:
 >
 > Du kan bara skapa en granskningsåtgärd om du är författare eller utgivare i ett DITA-projekt.
 
-1. Navigera till önskad mapp i resursgränssnittet.
+1. Navigera till önskad mapp i Assets-gränssnittet.
 
 1. Klicka på ikonen Välj i snabbåtgärden och välj de ämnen som du vill skicka för granskning.
 
    ![](images/select-asset-62.png){width="300" align="left"}
 
-1. Klicka på i verktygsfältet **Skapa granskningsaktivitet**. Sidan där granskningsaktiviteten skapas visas.
+1. Klicka på **Skapa granskningsaktivitet** i verktygsfältet. Sidan där granskningsaktiviteten skapas visas.
 
    >[!NOTE]
    >
@@ -55,9 +55,9 @@ Så här skapar du en granskningsuppgift och skickar ämnen för granskning:
 
    ![](images/create-review-task-023.png){width="650" align="left"}
 
-1. Ange en **Titel** för uppgiften och välj en DITA **Projekt** i listrutan.
+1. Ange en **titel** för aktiviteten och välj ett DITA **Project** i listrutan.
 
-1. I **Tilldela till** väljer du de granskare som du vill skicka ämnena till för granskning.
+1. I listrutan **Tilldela till** markerar du de granskare som du vill skicka ämnen till för granskning.
 
    Du kan tilldela en granskningsuppgift till enskilda användare i projektet eller till användargrupper. Observera att du bara kan tilldela en granskningsuppgift till enskilda användare när du är en del av projektets administratörsgrupp, annars visas bara användargrupperna i fältet Tilldela till.
 
@@ -65,7 +65,7 @@ Så här skapar du en granskningsuppgift och skickar ämnen för granskning:
    >
    > Granskningsarbetsflödet är projektspecifikt. När du skapar projekt lägger du till teammedlemmarna i projektet och tilldelar dem till grupper. När du väljer projektet här kan du alltså välja vilka medlemmar som är en del av projektet. Mer information om projekt finns i [Skapa ett DITA-projekt](authoring-create-dita-project.md#).
 
-1. Ange en **Beskrivning** för uppgiften.
+1. Ange en **beskrivning** för aktiviteten.
 
    Beskrivningen används som brödtext i det e-postmeddelande som skickas till granskarna.
 
@@ -73,21 +73,21 @@ Så här skapar du en granskningsuppgift och skickar ämnen för granskning:
 
    >[!NOTE]
    >
-   > När tidsgränsen har nåtts skickas ett e-postmeddelande till initieraren som meddelar att granskningsåtgärden har slutförts. Initieraren kan förlänga deadlinen för granskningsaktiviteten från [Granska instrumentpanelen](review-manage-tasks-review-dashboard.md#).
+   > När tidsgränsen har nåtts skickas ett e-postmeddelande till initieraren som meddelar att granskningsåtgärden har slutförts. Initieraren kan förlänga deadlinen för granskningsaktiviteten från [granskningsinstrumentpanelen](review-manage-tasks-review-dashboard.md#).
 
-1. Välj rotkartan på menyn **Rotmappsbana**. Den här rotmappen används för att matcha alla nyckelreferenser och ordlistor som används i granskningsinnehållet. Om du inte markerar rotmappen kommer inte de nyckelreferenser eller ordlistor som är associerade med DITA-avsnittet att matchas innan avsnittet skickas för granskning.
+1. Välj rotmappningen från **rotmappssökvägen**. Den här rotmappen används för att matcha alla nyckelreferenser och ordlistor som används i granskningsinnehållet. Om du inte markerar rotmappen kommer inte de nyckelreferenser eller ordlistor som är associerade med DITA-avsnittet att matchas innan avsnittet skickas för granskning.
 
-   Om du skapar granskningen för en DITA-karta är det som standard **Rotmappsbana** är inställt på kartans sökväg. Om du skapar en granskning för ett eller flera ämnen är standardinställningen **Rotmappsbana** är inställt på den karta som definieras i användarinställningarna.
+   Om du skapar granskningen för en DITA-karta ställs **rotmappssökvägen** in som standard på den kartans sökväg. Om du skapar granskningen för ett eller flera ämnen, ställs **rotmappssökvägen** in som standard på den karta som definieras i användarinställningarna.
 
    >[!NOTE]
    >
    > Den markerade rotkartan har högsta prioritet för att lösa nyckelreferenser. Mer information finns i [Lös nyckelreferenser](map-editor-other-features.md#id176GD01H05Z).
 
-1. Eftersom du kan tilldela olika granskare till olika ämnen, **Tillåt att uppdragsgivare granskar alla ämnen** styr om granskarna kan granska alla ämnen i en granskningsuppgift eller endast de ämnen som de har tilldelats för granskning.
+1. Eftersom du kan tilldela olika granskare till olika ämnen, styr alternativet **Tillåt att tilldelningar granskar alla ämnen** om granskarna kan granska alla ämnen i en granskningsuppgift eller endast de ämnen som de har tilldelats för granskning.
 
-   Om du vill att alla granskare ska kunna granska något ämne i granskningsuppgiften väljer du **Tillåt att uppdragsgivare granskar alla ämnen**.
+   Om du vill tillåta alla granskare att granska alla ämnen i granskningsaktiviteten väljer du **Tillåt tilldelningar att granska alla ämnen**.
 
-   Om du inte markerar det här alternativet läggs granskare till i **Tilldela till** -fältet har bara åtkomst att granska de ämnen som är tilldelade till dem.
+   Om du inte markerar det här alternativet har granskare som lagts till i fältet **Tilldela till** bara åtkomst att granska de ämnen som de har tilldelats.
 
 1. Klicka på **Nästa**.
 
@@ -99,16 +99,16 @@ Så här skapar du en granskningsuppgift och skickar ämnen för granskning:
 
    Du kan använda någon av följande metoder för att välja en version:
 
-   - *\(Standard\)* Välj alternativ **Deras senaste version** för att välja den senast sparade versionen av ämnena.
-   - Välj **Version på** och ange datum och tid för att välja en version på angivet datum och angiven tid. Om det inte finns någon tillgänglig version av ämnet på det angivna datumet är en version tillgänglig direkt efter det angivna datumet och tiden markerad.
-   - Välj **Välj en etikett** och välj en etikett i listrutan.
+   - *\(Standard\)* Välj alternativet **Deras senaste version** för att välja den senast sparade versionen av ämnena.
+   - Välj alternativet **Version den** och ange datum och tid för att välja en version på angivet datum och angiven tid. Om det inte finns någon tillgänglig version av ämnet på det angivna datumet är en version tillgänglig direkt efter det angivna datumet och tiden markerad.
+   - Välj alternativet **Välj en etikett** och välj en etikett i listrutan.
 1. När du har valt en version klickar du på **Använd**.
 
    Versionen som baseras på det valda alternativet väljs för ämnena.
 
    >[!NOTE]
    >
-   > Du kan också välja önskad version manuellt från **Version** nedrullningsbar lista med varje ämne.
+   > Du kan också välja önskad version manuellt i listrutan **Version** för varje ämne.
 
 1. Klicka på **Nästa**.
 
@@ -132,12 +132,12 @@ Så här skapar du en granskningsuppgift och skickar ämnen för granskning:
      >
      > Du kan också ta bort en granskning från ett ämne genom att klicka på krysset i rutan för granskare.
 
-   - **Tilldela igen**: Visar dialogrutan Tilldela granskare igen. Du kan skriva namnet på en granskare eller användarroll \(eller grupp\) som du vill tilldela granskningsuppgiften till. Detta tar bort alla befintliga granskare från de markerade avsnitten och tilldelar de nyvalda granskarna till dessa ämnen.
+   - **Tilldela om**: Visar dialogrutan Tilldela granskare igen. Du kan skriva namnet på en granskare eller användarroll \(eller grupp\) som du vill tilldela granskningsuppgiften till. Detta tar bort alla befintliga granskare från de markerade avsnitten och tilldelar de nyvalda granskarna till dessa ämnen.
    - **Exportera**: Gör att du kan exportera information om granskningsåtgärder i en CSV-fil. Filen innehåller information om ämnessökväg och rubrik, namn på granskare och version av ämnen som skickats för granskning.
-   - **Redigera granskare**: Klicka på ![](images/edit_pencil_icon.svg)i ämneslistan visas dialogrutan Redigera granskare. Du kan lägga till eller ta bort granskare för det valda ämnet från den här dialogrutan.
-1. Klicka **Skapa** för att skapa granskningsaktiviteten.
+   - **Redigera granskare**: Om du klickar på ikonen ![](images/edit_pencil_icon.svg) i ämneslistan visas dialogrutan Redigera granskare. Du kan lägga till eller ta bort granskare för det valda ämnet från den här dialogrutan.
+1. Klicka på **Skapa** för att skapa granskningsaktiviteten.
 
-   Ett bekräftelsemeddelande visas när granskningsåtgärden har skapats. The [Dokumenttillstånd](web-editor-document-states.md#) för ämnen som skickas för granskning anges till Granskning.
+   Ett bekräftelsemeddelande visas när granskningsåtgärden har skapats. [Dokumenttillståndet](web-editor-document-states.md#) för de ämnen som skickas för granskning är inställt på Granskning.
 
    >[!NOTE]
    >
@@ -166,7 +166,7 @@ Så här skickar du ett eller flera avsnitt tillsammans med kartfilen för grans
 >
 > När du väl har initierat en granskning via en kartfil får du inte ändra strukturen på kartfilen genom att lägga till nya ämnen eller ta bort befintliga ämnen.
 
-1. Navigera till önskad mapp i resursgränssnittet.
+1. Navigera till önskad mapp i Assets-gränssnittet.
 
    >[!NOTE]
    >
@@ -174,15 +174,15 @@ Så här skickar du ett eller flera avsnitt tillsammans med kartfilen för grans
 
 1. Markera kartan som du vill skicka ämnena från för granskning.
 
-1. Klicka på i verktygsfältet **Skapa granskningsaktivitet**. Sidan där granskningsaktiviteten skapas visas.
+1. Klicka på **Skapa granskningsaktivitet** i verktygsfältet. Sidan där granskningsaktiviteten skapas visas.
 
-1. Ange en **Titel** för uppgiften och välj en DITA **Projekt** i listrutan.
+1. Ange en **titel** för aktiviteten och välj ett DITA **Project** i listrutan.
 
    >[!NOTE]
    >
    > Du kan skapa en granskningsåtgärd för endast de ämnen som har en revision. Om kartan innehåller ämnen som inte har någon revidering visas ett meddelande med en lista över sådana filer. Filer utan revision exkluderas från granskningsaktiviteten.
 
-1. I **Tilldela till** väljer du de granskare som du vill skicka ämnena till för granskning.
+1. I listrutan **Tilldela till** markerar du de granskare som du vill skicka ämnen till för granskning.
 
    Du kan tilldela en granskningsuppgift till enskilda användare i projektet eller till användargrupper. Observera att du bara kan tilldela en granskningsuppgift till enskilda användare när du är en del av projektets administratörsgrupp, annars visas bara användargrupperna i fältet Tilldela till.
 
@@ -190,7 +190,7 @@ Så här skickar du ett eller flera avsnitt tillsammans med kartfilen för grans
    >
    > Granskningsarbetsflödet är projektspecifikt. När du skapar projekt lägger du till teammedlemmarna i projektet och tilldelar dem till grupper. När du väljer projektet här kan du alltså välja vilka medlemmar som är en del av projektet. Mer information om projekt finns i [Skapa ett DITA-projekt](authoring-create-dita-project.md#).
 
-1. Ange en **Beskrivning** för uppgiften.
+1. Ange en **beskrivning** för aktiviteten.
 
    Beskrivningen används som brödtext i det e-postmeddelande som skickas till granskarna.
 
@@ -198,13 +198,13 @@ Så här skickar du ett eller flera avsnitt tillsammans med kartfilen för grans
 
    >[!NOTE]
    >
-   > När tidsgränsen har nåtts skickas ett e-postmeddelande till initieraren som meddelar att granskningsåtgärden har slutförts. Initieraren kan förlänga deadlinen för granskningsaktiviteten från [Granska instrumentpanelen](review-manage-tasks-review-dashboard.md#).
+   > När tidsgränsen har nåtts skickas ett e-postmeddelande till initieraren som meddelar att granskningsåtgärden har slutförts. Initieraren kan förlänga deadlinen för granskningsaktiviteten från [granskningsinstrumentpanelen](review-manage-tasks-review-dashboard.md#).
 
-1. Eftersom du kan tilldela olika granskare till olika ämnen, **Tillåt att uppdragsgivare granskar alla ämnen** styr om granskarna kan granska alla ämnen i en granskningsuppgift eller endast de ämnen som de har tilldelats för granskning.
+1. Eftersom du kan tilldela olika granskare till olika ämnen, styr alternativet **Tillåt att tilldelningar granskar alla ämnen** om granskarna kan granska alla ämnen i en granskningsuppgift eller endast de ämnen som de har tilldelats för granskning.
 
-   Om du vill att alla granskare ska kunna granska något ämne i granskningsuppgiften väljer du **Tillåt att uppdragsgivare granskar alla ämnen**.
+   Om du vill tillåta alla granskare att granska alla ämnen i granskningsaktiviteten väljer du **Tillåt tilldelningar att granska alla ämnen**.
 
-   Om du inte markerar det här alternativet läggs granskare till i **Tilldela till** -fältet har bara åtkomst att granska de ämnen som är tilldelade till dem.
+   Om du inte markerar det här alternativet har granskare som lagts till i fältet **Tilldela till** bara åtkomst att granska de ämnen som de har tilldelats.
 
 1. Klicka på **Nästa**.
 
@@ -216,17 +216,17 @@ Så här skickar du ett eller flera avsnitt tillsammans med kartfilen för grans
 
    Du kan använda någon av följande metoder för att välja en version:
 
-   - *\(Standard\)* Välj alternativ **Deras senaste version** för att välja den senast sparade versionen av ämnena.
-   - Välj **Version på** och ange datum och tid för att välja en version utifrån datum och tid. Om det inte finns någon tillgänglig version av ämnet på det angivna datumet är en version tillgänglig direkt efter det angivna datumet och tiden markerad.
-   - Välj **Välj en etikett** och välj en etikett i listrutan. Alla ämnen som innehåller den markerade etiketten markeras i dialogrutan **Version** listruta.
-   - Välj **Markera en baslinje** och välj en baslinje i listrutan. Alla ämnesversioner som är en del av den valda baslinjen markeras i **Version** listruta.
+   - *\(Standard\)* Välj alternativet **Deras senaste version** för att välja den senast sparade versionen av ämnena.
+   - Välj alternativet **Version den** och ange datum och tid för att välja en version utifrån datum och tid. Om det inte finns någon tillgänglig version av ämnet på det angivna datumet är en version tillgänglig direkt efter det angivna datumet och tiden markerad.
+   - Välj alternativet **Välj en etikett** och välj en etikett i listrutan. Alla ämnen som innehåller den valda etiketten markeras i listrutan **Version**.
+   - Välj alternativet **Välj en baslinje** och välj en baslinje i listrutan. Alla ämnesversioner som är en del av den valda baslinjen markeras i listrutan **Version**.
 1. När du har valt en version klickar du på **Använd**.
 
    Versionen som baseras på det valda alternativet väljs för ämnena.
 
    >[!NOTE]
    >
-   > Du kan också välja önskad version manuellt från **Version** nedrullningsbar lista med varje ämne.
+   > Du kan också välja önskad version manuellt i listrutan **Version** för varje ämne.
 
 1. Klicka på **Nästa**.
 
@@ -243,16 +243,16 @@ Så här skickar du ett eller flera avsnitt tillsammans med kartfilen för grans
 
    - **Lägg till**: Visar dialogrutan Lägg till granskare. Du kan skriva namnet på en granskare eller användarroll \(eller grupp\) som du vill lägga till som granskare i de valda avsnitten.
    - **Ta bort**: Visar dialogrutan Ta bort granskare. Du kan skriva namnet på en granskare eller användarroll \(eller grupp\) som du vill ta bort som granskare i de markerade avsnitten.
-   - **Tilldela igen**: Visar dialogrutan Tilldela granskare igen. Du kan skriva namnet på en granskare eller användarroll \(eller grupp\) som du vill tilldela granskningsuppgiften till. Detta tar bort alla befintliga granskare från de markerade avsnitten och tilldelar de nyvalda granskarna till dessa ämnen.
+   - **Tilldela om**: Visar dialogrutan Tilldela granskare igen. Du kan skriva namnet på en granskare eller användarroll \(eller grupp\) som du vill tilldela granskningsuppgiften till. Detta tar bort alla befintliga granskare från de markerade avsnitten och tilldelar de nyvalda granskarna till dessa ämnen.
    - **Exportera**: Gör att du kan exportera information om granskningsåtgärder i en CSV-fil. Filen innehåller information om ämnessökväg och rubrik, namn på granskare och version av ämnen som skickats för granskning.
-   - **Redigera granskare**: Klicka på ![](images/edit_pencil_icon.svg)i ämneslistan visas dialogrutan Redigera granskare. Du kan lägga till eller ta bort granskare för det valda ämnet från den här dialogrutan.
+   - **Redigera granskare**: Om du klickar på ikonen ![](images/edit_pencil_icon.svg) i ämneslistan visas dialogrutan Redigera granskare. Du kan lägga till eller ta bort granskare för det valda ämnet från den här dialogrutan.
    >[!IMPORTANT]
    >
    > Du måste tilldela minst en granskare för att skapa granskningsaktiviteten.
 
-1. Klicka **Skapa** för att skapa granskningsaktiviteten.
+1. Klicka på **Skapa** för att skapa granskningsaktiviteten.
 
-   Ett bekräftelsemeddelande visas när granskningsåtgärden har skapats. The [Dokumenttillstånd](web-editor-document-states.md#) för ämnen som skickas för granskning anges till Granskning.
+   Ett bekräftelsemeddelande visas när granskningsåtgärden har skapats. [Dokumenttillståndet](web-editor-document-states.md#) för de ämnen som skickas för granskning är inställt på Granskning.
 
    >[!NOTE]
    >
@@ -265,4 +265,4 @@ Så här skickar du ett eller flera avsnitt tillsammans med kartfilen för grans
 
 Ett e-postmeddelande skickas till alla granskare som meddelar att de har tilldelats ämnen för granskning. E-postmeddelandet innehåller en direkt länk som de kan klicka på och komma åt ämnet i ett webbläsarfönster. Ämnen tillsammans med DITA-kartan öppnas i granskningsläget.
 
-**Överordnat ämne:**[ Granska ämnen och kartor](review.md)
+**Överordnat ämne:**[ Granska ämnen eller kartor](review.md)

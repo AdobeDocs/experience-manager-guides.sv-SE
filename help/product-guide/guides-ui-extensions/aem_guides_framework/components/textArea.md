@@ -2,7 +2,8 @@
 title: Textområde
 description: Textområde
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: 4c576acc-fa6a-4c41-9b92-443ba51dc8ee
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '64'
 ht-degree: 0%
@@ -12,7 +13,7 @@ ht-degree: 0%
 # Textfält och textområde
 
 För att ta text som indata använder vi komponenterna, textfältet och textområdet.
-Textområdeskomponenten i JUI representerar en html `<textarea/>`.
+Textområdeskomponenten i JUI representerar HTML `<textarea/>`.
 
 ```js title="textArea.js"
 const textAreaJSON =  {
@@ -30,8 +31,8 @@ const textAreaJSON =  {
 },
 ```
 
-Här, `on-keyup` är syntaxen för att anropa kommandona i kontrollenheterna.
-Detta skapar ett textArea där händelsen anropas när du trycker på Retur `submitName`
+Här är `on-keyup` syntaxen för att anropa kommandona i kontrollenheterna.
+Detta skapar ett textArea där händelsen `submitName` anropas när du trycker på ENTER.
 
 Det återgivna textområdet ser ut så här:
 

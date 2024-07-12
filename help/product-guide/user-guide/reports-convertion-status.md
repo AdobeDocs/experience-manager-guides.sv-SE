@@ -1,6 +1,6 @@
 ---
 title: Statusrapport för konvertering
-description: Konvertera dokument i olika format till DITA i AEM. Lär dig hur du lägger till filter och visar en konverteringsstatusrapport.
+description: Konvertera dokument i olika format till DITA i AEM Guides. Lär dig hur du lägger till filter och visar en konverteringsstatusrapport.
 exl-id: 0a4699e5-865f-40e1-a17f-5e1a248ea955
 feature: Report Generation
 role: User
@@ -13,15 +13,15 @@ ht-degree: 0%
 
 # Statusrapport för konvertering {#id205BBA00WZZ}
 
-AEM Guides har en robust konverteringsfunktion för att konvertera dokument i olika format till DITA. I Conversion Status Report finns en samlad vy över alla konverteringsåtgärder som AEM Guides utför.
+AEM Guides har en robust konverteringsfunktion för att konvertera dokument i olika format till DITA. I Conversion Status Report finns en samlad vy över alla konverteringsåtgärder som utförs av AEM Guides.
 
 Följ de här stegen för att visa rapporten om konverteringsstatus:
 
-1. Klicka på länken Adobe Experience Manager överst och välj **verktyg**.
+1. Klicka på länken Adobe Experience Manager överst och välj **Verktyg**.
 
 1. Välj **Stödlinjer** i listan över verktyg.
 
-1. Klicka på **Statusrapport för konvertering** platta.
+1. Klicka på rutan **Konverteringsstatusrapport**.
 
    Statusrapporten för konvertering visas för alla konverteringsåtgärder som körs i systemet.
 
@@ -37,19 +37,19 @@ Följ de här stegen för att visa rapporten om konverteringsstatus:
 
      ![](images/conversion-report-failed-active-queued.png){width="800" align="left"}
 
-   - **Rapportdata:**
+   - **Rapportera data:**
 
      Rapportdata innehåller följande kolumner:
 
-      - **Filnamn**: Namnet på källfilen som konverteringen kördes på. När du klickar på länken Filnamn kommer du till källdokumentets plats.
+      - **Filnamn**: Namnet på källfilen som konverteringsprocessen kördes på. När du klickar på länken Filnamn kommer du till källdokumentets plats.
 
       - **Filtyp**: Typ av källdokument, som kan vara Word, strukturerad HTML, XML och DocBook.
 
-      - **Tillagd av**: Namnet på den användare som utförde konverteringsåtgärden.
+      - **Tillagd av**: Namnet på användaren som utförde konverteringsåtgärden.
 
-      - **Tillagt den**: Det datum då uppgiften kördes. Loggfilen hämtas när du klickar på länken Tillagt den.
+      - **Datum tillagt**: Datum när aktiviteten kördes. Loggfilen hämtas när du klickar på länken Tillagt den.
 
-      - **Bana**: Källdokumentets fullständiga sökväg.
+      - **Sökväg**: Källdokumentets fullständiga sökväg.
 
       - **Status**: Status för konverteringsaktiviteterna - Slutfört, Misslyckat, Aktivt eller Köat.
 

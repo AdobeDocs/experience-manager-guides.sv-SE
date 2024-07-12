@@ -13,35 +13,35 @@ ht-degree: 0%
 
 # Hantera publiceringsuppgifter med Publish Dashboard {#id205CC08305Z}
 
-När du har ett stort antal publiceringsuppgifter som körs på datorn blir det praktiskt taget omöjligt att kontrollera varje DITA-karta individuellt för att övervaka dess publiceringsuppgift. AEM Guides ger administratörer och utgivare en enhetlig vy över alla publiceringsuppgifter som körs i systemet. En lista över alla aktiva publiceringsåtgärder finns på Publish Dashboard.
+När du har ett stort antal publiceringsuppgifter som körs på datorn blir det praktiskt taget omöjligt att kontrollera varje DITA-karta individuellt för att övervaka dess publiceringsuppgift. AEM Guides ger administratörer och utgivare en enhetlig vy över alla publiceringsuppgifter som körs i systemet. En lista över alla aktiva publiceringsåtgärder finns i Publish Dashboard.
 
-På Publish Dashboard finns en fullständig översikt över alla publiceringsåtgärder som för närvarande körs i systemet.
+Publish Dashboard ger en fullständig översikt över alla publiceringsuppgifter som för närvarande körs i systemet.
 
 ![](images/publish-dashboard.png){width="800" align="left"}
 
-Kontrollpanelen för publicering innehåller följande information:
+Publish Dashboard innehåller följande information:
 
-- **Karttitel** - Titeln på en kartfil som publiceras eller finns i publiceringskön.
+- **Karttitel** - titeln på en kartfil som publiceras eller finns i publiceringskön.
 
-- **Filnamn** - Filnamnet på DITA-kartan.
+- **Filnamn** - DITA-mappningens filnamn.
 
-- **Utdatainställning** - Namnet på den förinställning som används för att generera utdata.
+- **Utdataförinställning** - Namnet på den förinställning som används för att generera utdata.
 
-- **Initierad av** - Användarnamn för den användare som initierade publiceringsaktiviteten.
+- **Initierad av** - Användarnamn för användaren som initierade publiceringsaktiviteten.
 
-- **Startades den** - Datum och tid då publiceringsaktiviteten startades.
+- **Startades den** - datum och tid när publiceringsaktiviteten startades.
 
-- **Förfluten tid** - Tid sedan publiceringsaktiviteten körs i systemet.
+- **Förfluten tid** - Tid sedan publiceringsaktiviteten kördes i systemet.
 
-- **Ikonen Ta bort** - Avbryt eller avsluta en publiceringsaktivitet.
+- **Ta bort ikon** - Avbryt eller avsluta en publiceringsaktivitet.
 
-Den vänstra panelen på kontrollpanelen Publicera innehåller följande filtreringsalternativ:
+Den vänstra panelen i Publish Dashboard innehåller följande filtreringsalternativ:
 
-- **Utdatainställning** - Välj en eller flera förinställningar som du vill visa de aktuella publiceringsåtgärderna för. På följande skärmbild filtreras publiceringsaktiviteterna så att de endast visar de uppgifter som använder AEM webbplatsens utdataförinställning:
+- **Utdataförinställning** - Välj en eller flera förinställningar för vilka du vill se de publiceringsåtgärder som är aktiva. På följande skärmbild filtreras publiceringsaktiviteterna så att de endast visar de uppgifter som använder AEM webbplatsens utdataförinställning:
 
   ![](images/publish-dashboard-preset-filter.png){width="800" align="left"}
 
-- **Initierad av** - Välj ett användarnamn i listan för att visa de publiceringsåtgärder som har initierats av den valda användaren.
+- **Initierad av** - Välj ett användarnamn i listan för att visa de publiceringsåtgärder som initierats av den valda användaren.
 
 - **Karta** - Välj en kartfil i listan för att visa de publiceringsåtgärder som körs för den valda kartan.
 
@@ -53,11 +53,11 @@ Utför följande steg för att komma åt Publish Dashboard:
 >
 > Endast en administratör eller en utgivare har åtkomst till Publish Dashboard.
 
-1. Klicka på länken Adobe Experience Manager överst och välj **verktyg**.
+1. Klicka på länken Adobe Experience Manager överst och välj **Verktyg**.
 
 1. Välj **Stödlinjer** i listan över verktyg.
 
-1. Klicka på **Publish Dashboard** platta.
+1. Klicka på panelen **Publish Dashboard**.
 
    Publish Dashboard öppnas med en lista över alla aktiva publiceringsåtgärder i systemet.
 
@@ -68,11 +68,11 @@ Utför följande steg för att komma åt Publish Dashboard:
 
 >[!NOTE]
 >
-> Du kan även öppna Publish Dashboard från fliken Outputs när du genererar utdata från kartkontrollpanelen. Mer information finns i [Visa status för utdatagenereringsaktiviteten](generate-output-for-a-dita-map.md#viewing_output_history).
+> Du kan även komma åt Publish Dashboard från fliken Utdata när du genererar utdata från kartkontrollpanelen. Mer information finns i [Visa status för utdatagenereringsaktiviteten](generate-output-for-a-dita-map.md#viewing_output_history).
 
 ## Avbryta en publiceringsaktivitet
 
-Utför följande steg för att avbryta en utdatagenereringsåtgärd från Publish Dashboard:
+Utför följande steg för att avbryta en utdatagenereringsuppgift från Publish Dashboard:
 
 1. [Öppna Publish Dashboard](#id205CC100DY4).
 
@@ -80,11 +80,11 @@ Utför följande steg för att avbryta en utdatagenereringsåtgärd från Publis
 
    ![](images/publish-dashboard-cancel-task.png){width="800" align="left"}
 
-1. Klicka **Ja** i meddelandet Bekräfta annullering.
+1. Klicka på **Ja** i meddelandet Bekräfta annullering.
 
-   Kommandot Avbryt accepteras och ett försök att avbryta görs så länge som aktiviteten är aktiv. När aktiviteten har avslutats tas den bort från den aktiva uppgiftslistan. Aktivitetens status uppdateras även i DITA-kartkonsolen som Avbruten. På följande skärmbild visas *HTML5* aktiviteten avbryts från Publish Dashboard och dess status ändras även i DITA-kartkonsolen.
+   Kommandot Avbryt accepteras och ett försök att avbryta görs så länge som aktiviteten är aktiv. När aktiviteten har avslutats tas den bort från den aktiva uppgiftslistan. Aktivitetens status uppdateras även i DITA-kartkonsolen som Avbruten. I skärmbilden nedan avbryts aktiviteten *HTML5* från Publish Dashboard och dess status ändras även i DITA-kartkonsolen.
 
    ![](images/cancelled-output-task.png){width="800" align="left"}
 
 
-**Överordnat ämne:**[ Generering av utdata](generate-output.md)
+**Överordnat ämne:**[ Utdatagenerering](generate-output.md)

@@ -17,13 +17,14 @@ I ett verkligt scenario skulle författarna ha tillgång till redigeringsinstans
 
 >[!NOTE]
 >
-> Mer information om hur du konfigurerar författaren och publicerar instansen i AEM finns i [Skapa och publicera arkitekturöversikt](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#prerequisites).
+> Mer information om hur du konfigurerar författaren och publicerar instansen i AEM finns i [Författare och Publish arkitekturöversikt](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#prerequisites).
 
 Med AEM Guides funktion för massaktivering kan du snabbt och enkelt aktivera ditt innehåll från redigering till publicering. Med funktionen för massaktivering kan du
 
 - Lägga till en eller flera kartor \(till en kartsamling\) till en enda aktiveringsuppgift
 
-- Välj en eller flera förinställningar för utdata som du vill publicera. Du kan lägga till AEM för Site, PDF, Native PDF, HTML5, Custom och JSON.
+- Välj en eller flera förinställningar för utdata som du vill publicera. Du kan lägga till AEM Site, PDF, Native PDF, HTML 5, Custom och
+Förinställningar för JSON-utdata.
 
 
 - Definiera språkområden där utdata ska aktiveras
@@ -40,4 +41,4 @@ Med AEM Guides funktion för massaktivering kan du snabbt och enkelt aktivera di
 - **[Ta bort en gruppaktiveringskarta](conf-bulk-activation-delete-map-collection.md)**
 
 
-**Överordnat ämne:**[ Generering av utdata](generate-output.md)
+**Överordnat ämne:**[ Utdatagenerering](generate-output.md)

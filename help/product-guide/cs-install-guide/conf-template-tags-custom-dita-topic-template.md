@@ -35,22 +35,22 @@ Du kan använda någon av de här mallarna för att skapa ämnesmallar utifrån 
 
 Om du vill anpassa en ämnesmall för DITA och använda den för redigering måste du utföra följande tre huvudåtgärder:
 
-1. *\(Valfritt\)* [Konfigurera anpassad sökväg till DITA-mallmapp](#id191LCF0095Z)
+1. *\(Valfritt\)* [Konfigurera anpassad DITA-mallmappsökväg](#id191LCF0095Z)
 
 1. [Skapa en anpassad redigeringsmall](conf-folder-level.md#id1917D0EG0HJ)
 
-1. Lägg till en anpassad mall i den globala profilen eller mappnivåprofilen enligt anvisningarna i [Konfigurera redigeringsmallar](conf-folder-level.md#id1889D0IL0Y4) section
+1. Lägg till en anpassad mall i den globala profilen eller mappnivåprofilen enligt beskrivningen i avsnittet [Konfigurera redigeringsmallar](conf-folder-level.md#id1889D0IL0Y4)
 
 
 ## Konfigurera anpassad sökväg till DITA-mallmapp {#id191LCF0095Z}
 
-I AEM Guides kan du konfigurera en mapp för lagring av dina anpassade DITA-kartor och mallar. Som standard lagras mallfilerna i följande mapp i DAM:
+Med AEM Guides kan du konfigurera en mapp för lagring av dina anpassade DITA-kartor och mallar. Som standard lagras mallfilerna i följande mapp i DAM:
 
 `/content/dam/dita-templates/`
 
 Om du vill hantera ämne- och mappningsmallfiler finns det dedikerade mappar för att lagra ämne- och mappmallar. Som standard lagras alla ämnesmallar under `/content/dam/dita-templates/topics`
 
-mapp. Alla mappningsmallar lagras under `/content/dam/dita-templates/maps` mapp.
+mapp. Alla mappningsmallar lagras i mappen `/content/dam/dita-templates/maps`.
 
 Som administratör kan du välja att skapa anpassade mappnings- eller ämnesmallar i standardmappen eller skapa en egen mapp där du kan lagra egna mallar. Om du tänker använda standardmappen kan du hoppa över den här processen.
 
@@ -62,6 +62,6 @@ Använd instruktionerna i [Konfigurationsåsidosättningar](download-install-add
 
 | PID | Egenskapsnyckel | Egenskapsvärde |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `topic.templates` | Ange en plats där du vill lagra anpassade mallar.<br> Om den angivna platsen finns i DAM kopieras alla standardmallar för kartor och ämnen till den mappen. Om platsen inte finns, skapas mappen med alla standardmallar för kartor och ämnen. |
+| `com.adobe.fmdita.config.ConfigManager` | `topic.templates` | Ange en plats där du vill lagra anpassade mallar.<br> Om den angivna platsen finns i DAM kopieras alla standardmappnings- och ämnesmallar till den mappen. Om platsen inte finns, skapas mappen med alla standardmallar för kartor och ämnen. |
 
 **Överordnat ämne:**[ Konfigurera ämne- och mappningsmallar](conf-template-tags.md)

@@ -1,6 +1,6 @@
 ---
 title: Andra funktioner i Web Editor
-description: Utforska andra funktioner i webbredigeraren i AEM. Lär dig hur du använder de här funktionerna för att förbättra redigeringen i AEM.
+description: Utforska andra funktioner i AEM Guides webbredigerare. Lär dig hur du använder dessa funktioner för förbättrad redigering i AEM Guides.
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
@@ -25,7 +25,7 @@ Du får följande funktioner på snabbmenyn för en öppnad mediefils flik:
 
 ![](images/media-file-context-menu.png){width="300" align="left"}
 
-**En enda DITA-fil**
+**En DITA-fil**
 
 Du får följande funktioner på snabbmenyn för en öppen fils flik:
 
@@ -39,50 +39,50 @@ När du har flera filer öppna får du fler alternativ på snabbmenyn:
 
 De olika alternativen på snabbmenyn förklaras nedan:
 
-***Spara***: Du kan välja mellan följande alternativ:
+***Spara***: Du kan välja bland följande alternativ:
 
 - **Spara**: Om du vill spara en fil utan att skapa en ny version väljer du **Spara**. När du skapar ett nytt ämne skapas en versionslös arbetskopia av ämnet i DAM. När du sparar dokumentet uppdateras arbetskopian av dokumentet i DAM. När du sparar en version på ett enkelt sätt skapas ingen ny version av ett ämne. Om ditt ämne är under granskning kan inte dina granskare få åtkomst till det ändrade ämnesinnehållet om du sparar ett ämne.
 
-- **Spara alla**: Om flera dokument är öppna i Web Editor kan du även välja att **Spara alla** öppna dokument.
+- **Spara alla**: Om det finns flera dokument öppna i Web Editor får du också ett alternativ för att **Spara alla** öppnade dokument.
 
 
 ***Spara som ny version***
 
-Om du vill skapa en ny version av filen väljer du **Spara som ny version**. Mer information om **Spara** och **Spara som ny version**, se [Bekanta dig med Web Editors funktioner](web-editor-features.md#).
+Om du vill skapa en ny version av filen väljer du **Spara som ny version**. Mer information om **Spara** och **Spara som ny version** finns i [Känna till webbredigeringsfunktionerna](web-editor-features.md#).
 
-***Kopiera***: Du kan välja mellan följande alternativ:
+***Kopiera***: Du kan välja bland följande alternativ:
 
-- **Kopiera UUID**: Om du vill kopiera UUID för den aktiva filen till Urklipp väljer du **Copy \> Copy UID**.
-- **Kopiera bana**: Om du vill kopiera den fullständiga sökvägen till den aktiva filen till Urklipp väljer du **Kopiera \> Kopiera bana**.
-
-
-***Sök i***: Du kan välja mellan följande alternativ:
-
-- **Karta**: Om du har öppnat en stor DITA-karta och vill hitta den exakta platsen för en fil på kartan väljer du **Hitta på kartan \>**. När du väljer alternativet Hitta i karta, placeras filen \(från vilken alternativet anropas\) och markeras i karthierarkin. Om du vill kunna använda den här funktionen måste du öppna kartfilen i Web Editor. Om Kartvyn är dold visas kartvyn när funktionen anropas och filen markeras i karthierarkin.
-
-- **Databas**: Liknar Hitta på karta, **Sök i databasen \>** visar platsen för filen i databasen \(eller DAM\). Databasvyn öppnas och den valda filen markeras i databasen. Om filen finns i en mapp utökas den mappen så att den visar den valda filens plats i databasen.
+- **Kopiera UUID**: Om du vill kopiera UUID för den aktiva filen till Urklipp väljer du **Kopiera \> Kopiera UUID**.
+- **Kopiera sökväg**: Om du vill kopiera den fullständiga sökvägen för den aktiva filen till Urklipp väljer du **Kopiera \> Kopiera sökväg**.
 
 
-***Lägg till***: Du kan välja mellan följande alternativ:
+***Hitta i***: Du kan välja bland följande alternativ:
 
-- **Favoriter**: Om du vill lägga till den valda filen i favoritsamlingen väljer du **Lägg till i \> Favoriter**. Mer information finns i **Favoriter** funktionsbeskrivning i [Vänster panel](web-editor-features.md#id2051EA0M0HS) -avsnitt.
+- **Karta**: Om du har öppnat en stor DITA-karta och vill hitta den exakta platsen för en fil på kartan väljer du **Hitta i \> Karta**. När du väljer alternativet Hitta i karta, placeras filen \(från vilken alternativet anropas\) och markeras i karthierarkin. Om du vill kunna använda den här funktionen måste du öppna kartfilen i Web Editor. Om Kartvyn är dold visas kartvyn när funktionen anropas och filen markeras i karthierarkin.
+
+- **Databas**: På samma sätt som Sök i karta visar **Hitta i \> databas** platsen för filen i databasen \(eller DAM\). Databasvyn öppnas och den valda filen markeras i databasen. Om filen finns i en mapp utökas den mappen så att den visar den valda filens plats i databasen.
+
+
+***Lägg till i***: Du kan välja bland följande alternativ:
+
+- **Favoriter**: Om du vill lägga till den markerade filen i favoritsamlingen väljer du **Lägg till i \> Favoriter**. Mer information finns i funktionsbeskrivningen för **Favoriter** i avsnittet [Vänster panel](web-editor-features.md#id2051EA0M0HS).
 
 
 
-- **Återanvändbart innehåll**: Om du vill kopiera den markerade filen till listan över återanvändbart innehåll väljer du **Lägg till i \> återanvändbart innehåll**. Mer information finns i **Återanvändbart innehåll** funktionsbeskrivning i [Vänster panel](web-editor-features.md#id2051EA0M0HS) -avsnitt.
+- **Återanvändbart innehåll**: Om du vill kopiera den markerade filen till listan över återanvändbart innehåll väljer du **Lägg till i \> Återanvändbart innehåll**. Mer information finns i funktionsbeskrivningen för **Återanvändbart innehåll** i avsnittet [Vänster panel](web-editor-features.md#id2051EA0M0HS).
 
 
 
 
 ***Egenskaper***
 
-Om du vill visa AEM egenskapssida för den markerade filen väljer du **Egenskaper**.
+Välj **Egenskaper** om du vill visa AEM för den markerade filen.
 
 ***Dela***: Du kan välja mellan följande alternativ:
 
 **Upp, Ned, Vänster eller Höger**
 
-Som standard kan du visa ett avsnitt i taget i Web Editor. Det kan finnas tillfällen då du vill se två eller flera ämnen samtidigt. Genom att dela redigerarens skärm kan du visa flera ämnen samtidigt. Om du till exempel har två ämnen - A och B öppnade i redigeraren. Högerklicka på ämne B och välj **Dela \> uppåt** delar upp redigeringsfönstret i två delar. Ämne B visas i den övre halvan och ämne A visas i den nedre halvan. På samma sätt kan du dela skärmen vågrätt genom att markera **Dela \> vänster** eller **Dela \> höger**. I följande skärmbild av Web Editor visas ämnen som delas vågrätt och lodrätt. I varje delning kan du ha olika vyer. På följande skärmbild är skärm 1 i källvyläge, skärm 2 har två dokument öppna i redigeringsläge och skärm 3 är i förhandsgranskningsläge. Du kan flytta dokument från en skärm till en annan genom att dra filfliken och släppa den på skärmen där du vill placera den. På samma sätt kan du ändra ordning på filflikarna genom att dra och flytta dem som du vill.
+Som standard kan du visa ett avsnitt i taget i Web Editor. Det kan finnas tillfällen då du vill se två eller flera ämnen samtidigt. Genom att dela redigerarens skärm kan du visa flera ämnen samtidigt. Om du till exempel har två ämnen - A och B öppnade i redigeraren. Om du högerklickar på ämnet B och väljer **Dela \> Uppåt** delas redigeringsfönstret upp i två delar. Ämne B visas i den övre halvan och ämne A visas i den nedre halvan. Du kan också dela skärmen vågrätt genom att välja **Dela \> Vänster** eller **Dela \> Höger**. I följande skärmbild av Web Editor visas ämnen som delas vågrätt och lodrätt. I varje delning kan du ha olika vyer. På följande skärmbild är skärm 1 i visningsläget för Source, skärm 2 har två dokument öppna i redigeringsläget och skärm 3 är i förhandsgranskningsläget. Du kan flytta dokument från en skärm till en annan genom att dra filfliken och släppa den på skärmen där du vill placera den. På samma sätt kan du ändra ordning på filflikarna genom att dra och flytta dem som du vill.
 
 ![](images/split-editor.png){width="800" align="left"}
 
@@ -90,20 +90,20 @@ Som standard kan du visa ett avsnitt i taget i Web Editor. Det kan finnas tillf�
 
 Generera utdata för den valda filen. Utdata kan bara genereras för filer som är en del av en förinställning. Mer information finns i [Artikelbaserad publicering från webbredigeraren](web-editor-article-publishing.md#id218CK0U019I).
 
-***Stäng***: Du kan välja mellan följande alternativ:
+***Stäng***: Du kan välja bland följande alternativ:
 
-**Stäng**, **Stäng andra**, eller **Stäng alla**
+**Stäng**, **Stäng andra** eller **Stäng alla**
 
-Om du vill stänga filen som du anropade snabbmenyn från väljer du **Stäng \> Stäng**. Använd **Stäng \> Stäng andra** om du vill stänga alla andra öppna filer förutom den aktiva filen. Om du vill stänga alla öppna filer väljer du **Stäng \> Stäng alla** på snabbmenyn eller så kan du välja att stänga webbredigeraren. Om det finns filer som inte har sparats i sessionen uppmanas du att spara dessa filer.
+Om du vill stänga filen som du anropade snabbmenyn från väljer du **Stäng \> Stäng**. Använd **Stäng \> Stäng andra** om du vill stänga alla andra öppna filer förutom den aktiva filen. Om du vill stänga alla öppna filer väljer du alternativet **Stäng \> Stäng alla** på snabbmenyn. Du kan också välja att stänga webbredigeraren. Om det finns filer som inte har sparats i sessionen uppmanas du att spara dessa filer.
 
-**Stäng filer och spara scenarier**
+**Stäng och spara scenarier**
 
-När du försöker stänga en fil som har öppnats i Web Editor med **Stäng** på fliken eller **Stäng** på Alternativ-menyn uppmanas du av AEM att spara redigeringarna och låsa upp en låst fil.
+När du försöker stänga en fil som har öppnats i Web Editor med knappen **Stäng** på filens flik eller med alternativet **Stäng** på Alternativ-menyn ber AEM Guides dig att spara ändringarna och låsa upp en låst fil.
 
 Frågorna baseras på följande konfigurationer som valts av administratören:
 
-- **Fråga efter incheckning vid stängning:** Du kan checka in filen \(som du har checkat ut\) när du stänger redigeraren.
-- **Fråga efter ny version vid stängning**: Du kan spara filen \(som du har redigerat\) som en ny version när du stänger redigeraren.
+- **Be om incheckning vid stängning:** Du kan checka in filen \(som du har checkat ut\) när du stänger redigeraren.
+- **Be om en ny version när du stänger**: Du kan välja att spara filen \(som du har redigerat\) som en ny version när du stänger redigeraren.
 
 Hur du sparar filer beror på följande tre scenarier:
 
@@ -113,13 +113,13 @@ Hur du sparar filer beror på följande tre scenarier:
 
 Du kan se följande alternativ beroende på om filen är låst/olåst och har sparade eller osparade ändringar:
 
-- **Lås upp och stäng**: Låset på filen släpps och filen stängs.
+- **Lås upp och stäng**: Lås upp filen och filen stängs.
 
   ![](images/file-close-unlock-file.png){width="400" align="left"}
 
 - **Spara som ny version**: Då sparas de ändringar du har gjort i innehållet och en ny version av filen skapas. Du kan också lägga till etiketter och kommentarer för den nyligen sparade versionen. Mer information om hur du sparar en ny version finns i [Spara som ny version](web-editor-features.md#save-as-new-version-id209ME400GXA).
 
-- **Lås upp filen**: Om du låser upp en fil kommer den att låsa upp filen och ändringarna sparas i den aktuella versionen av filen.
+- **Lås upp filen**: Om du väljer att låsa upp en fil kommer den att låsa upp filen och ändringarna sparas i den aktuella versionen av filen.
 
   >[!NOTE]
   >
@@ -129,7 +129,7 @@ Du kan se följande alternativ beroende på om filen är låst/olåst och har sp
 
   ![](images/file-close-save-changes-unlock.png){width="400" align="left"}
 
-**Visuella tecken för brutna referenser**
+**Visuella Cues för brutna referenser**
 
 - Om ditt ämne innehåller brutna korsreferenser eller innehållsreferenser visas de i röd text.
 
@@ -151,42 +151,42 @@ Du kan se följande alternativ beroende på om filen är låst/olåst och har sp
 
 **Stöd för markeringsdokument**
 
-- Med Web Editor kan du använda Markdown-dokument \(.md\) tillsammans med DITA-dokument. Du kan enkelt skapa och förhandsgranska ett markeringsdokument i Web Editor och även lägga till det i kartfilen via DITA-kartredigeraren. Mer information finns i [Skapa markeringsdokument från webbredigeraren](web-editor-markdown-topic.md#).
+- Med Web Editor kan du använda Markdown-dokument \(.md\) tillsammans med DITA-dokument. Du kan enkelt skapa och förhandsgranska ett markeringsdokument i Web Editor och även lägga till det i kartfilen via DITA-kartredigeraren. Mer information finns i [Författarmarkeringsdokument från webbredigeraren](web-editor-markdown-topic.md#).
 
-**Stöd för DITA ordlistetema**
+**Stöd för DITA-ordlisteämne**
 
-- Webbredigeraren stöder DITA-ordlistor som du kan infoga genom att lägga till `term` eller `abbreviated-form` -element.
+- Webbredigeraren stöder DITA-ordlistor som du kan infoga genom att lägga till `term`- eller `abbreviated-form`-element.
 
 **Infoga MathML-ekvationer**
 
-- Guiderna i Experience Manager ger ett körklart stöd för att infoga MathML-ekvationer genom integrering med [MathType Web](https://docs.wiris.com/en/mathtype/mathtype_web/intro) program. Om du vill infoga en MathML-ekvation väljer du **Infoga element** och skriv mathml. När du väljer ett metml-element från listan visas **Infoga MathML** visas:
+- Experience Manager Guides har ett körklart stöd för att infoga MathML-ekvationer genom integrering med [MathType Web](https://docs.wiris.com/en/mathtype/mathtype_web/intro) -programmet. Om du vill infoga en MathML-ekvation väljer du ikonen **Infoga element** och skriver mathml. När du väljer matematiska element från listan visas dialogrutan **Infoga MathML**:
 
-![infoga matematisk ekvation i mathml-redigeraren](images/insert-mathml-equation.png){width="550" align="left"}
+![infoga matematisk ekvation i matematisk redigerare](images/insert-mathml-equation.png){width="550" align="left"}
 
 Skapa ekvationen med MathML-ekvationsverktygen och klicka på **Infoga** för att lägga till den i dokumentet. Ekvationen infogas med ljusgrå bakgrund enligt nedan:
 
-![exempelmatematisk ekvation](images/sample-mathml-equation.PNG){width="400" align="left"}
+![exempel på matematisk ekvation](images/sample-mathml-equation.PNG){width="400" align="left"}
 
 Du kan när som helst uppdatera en ekvation genom att högerklicka på en befintlig ekvation och välja **Redigera MathML** på snabbmenyn.
 
 - **Validering av ekvationer i MathML-redigeraren**
 
-  Stödlinjerna i Experience Manager validerar MathML-ekvationer när du sparar ett ämne som innehåller dem.
-När du infogar en ekvation med MathML-redigeraren markeras ekvationen med rött i Stödlinjer i Experience Manager om det finns syntaxproblem. Du kan korrigera det innan du infogar det. Om du inte gör några ändringar, men väljer **Infoga**, visas en varning.
+  Experience Manager Guides validerar MathML-ekvationer när du sparar ett ämne som innehåller dem.
+När du infogar en ekvation med MathML-redigeraren markeras ekvationen i rött om det finns syntaxproblem i Experience Manager Guides. Du kan korrigera det innan du infogar det. Om du inte gör några ändringar men väljer **Infoga** visas en varning.
 
-  ![validate mathml-ekvation](images/validate-mathml-equation.png){width="400" align="left"}
+  ![validera matematisk ekvation](images/validate-mathml-equation.png){width="400" align="left"}
 
   Om du infogar MathML-ekvationen som innehåller ett syntaxfel inträffar ett valideringsfel när du försöker spara ämnet.
 
 
 **Infoga fotnoter**
 
-- Infoga en fotnot i innehållet genom att använda `fn` -element. I redigeringsläget visas fotnotens värde i linje med innehållet. När du byter förhandsgranskningsläge eller publicerar dokumentet visas dock fotnoten i slutet av avsnittet.
+- Infoga fotnot i innehållet med elementet `fn`. I redigeringsläget visas fotnotens värde i linje med innehållet. När du byter förhandsgranskningsläge eller publicerar dokumentet visas dock fotnoten i slutet av avsnittet.
 
 
-**Byta namn på eller ersätta ett element**
+**Byt namn på eller ersätta ett element**
 
-- I webbredigeraren visas elementets synliga del högst upp i avsnittet. Om du vill byta ut eller ersätta ett element mot ett annat element kan du göra det på snabbmenyn för vägbeskrivningsfilen. Du kan till exempel byta `p` element med `note` eller något annat giltigt element i sammanhanget.
+- I webbredigeraren visas elementets synliga del högst upp i avsnittet. Om du vill byta ut eller ersätta ett element mot ett annat element kan du göra det på snabbmenyn för vägbeskrivningsfilen. Du kan till exempel växla elementet `p` med `note` eller något annat giltigt element i kontexten.
 
 ![](images/rename-element.png){width="400" align="left"}
 
@@ -202,41 +202,41 @@ Förutom snabbmenyn för den synliga sökvägen kan du även öppna dialogrutan 
 
 
 
-**Radbryta ett element**
+**Radbryt ett element**
 
-- När du kapslar ett element kan du lägga till en elementtagg i den markerade texten. Du kan radbryta texten till vilket underordnat element som helst enligt DITA-standarder. Om du till exempel har text under en `note` -element kan du kapsla in texten i `p` -element.
+- När du kapslar ett element kan du lägga till en elementtagg i den markerade texten. Du kan radbryta texten till vilket underordnat element som helst enligt DITA-standarder. Om du till exempel har text under ett `note`-element kan du kapsla in texten i ett `p` -element.
 
-  The **Radbryt element** är tillgängligt på snabbmenyn för ämnesraden. Om du vill kapsla in ett element högerklickar du på elementet och öppnar snabbmenyn. Välj elementet från **Radbryt element** -dialogrutan. Texten visas i det nya elementet.
+  Alternativet **Radbryt element** är tillgängligt på snabbmenyn för avsnittets vägbeskrivningar. Om du vill kapsla in ett element högerklickar du på elementet och öppnar snabbmenyn. Markera elementet i dialogrutan **Radbryt element**. Texten visas i det nya elementet.
 
-  Du kan också markera texten eller elementet i innehållet och sedan markera **Radbryt element**  på snabbmenyn.
+  Du kan också markera texten eller elementet i innehållet och sedan välja alternativet **Radbryt element** på snabbmenyn.
 
 **Dela upp ett element**
 
-- Om du tar bort ett element kan du ta bort elementtaggen från den markerade texten och sammanfoga den med det överordnade elementet. Om du till exempel har en `p` element i en `note` -element kan du bryta upp `p` element som du vill sammanfoga texten direkt i `note` -element. The **Dela upp element** är tillgängligt på snabbmenyn för ämnesraden. Om du vill dela upp ett element högerklickar du på elementet för att öppna snabbmenyn och väljer sedan **Dela upp element** om du vill ta bort elementet och sammanfoga elementets text med dess överordnade element.
+- Om du tar bort ett element kan du ta bort elementtaggen från den markerade texten och sammanfoga den med det överordnade elementet. Om du till exempel har ett `p`-element i ett `note` -element kan du dela upp `p`-elementet och sammanfoga texten direkt i `note` -elementet. Alternativet **Bryt upp element** är tillgängligt på snabbmenyn för avsnittets synliga del. Om du vill dela upp ett element högerklickar du på elementet för att öppna snabbmenyn och väljer sedan **Dela upp element** för att ta bort elementet och sammanfoga elementets text med dess överordnade element.
 
 **Hantering av tomt utrymme för DITA-element**
 
-- I XML-format innehåller blanksteg, tabbar, radbrytningar och tomma rader. Med stödlinjerna i Experience Manager kan du konvertera flera efterföljande blanksteg till ett enda. Detta hjälper dig att bevara WYSIWYG-vyn i webbredigeraren.
+- I XML-format innehåller blanksteg, tabbar, radbrytningar och tomma rader. Experience Manager Guides konverterar flera efterföljande blanksteg till ett blanksteg. Detta hjälper dig att bevara WYSIWYG-vyn i webbredigeraren.
 
   >[!NOTE]
   >
-  >I vissa element där blanktecken måste bevaras enligt DITA-reglerna behålls de efterföljande blanktecknen. Till exempel: `<pre>` och `<codeblock>` -element.
+  >I vissa element där blanktecken måste bevaras enligt DITA-reglerna behålls de efterföljande blanktecknen. Exempel: `<pre>` och `<codeblock>` element.
 
 
-**Bevara radbrytningar och indrag**
+**Bevarar radbrytningar och indrag**
 
-- DITA-element som innehåller radbrytningar och blanksteg stöds och återges enligt definitionen i redigeringsläge, källläge eller förhandsgranskningsläge, och även i det slutliga publicerade resultatet. På följande skärmbild visas innehållet i `msgblock` element där radbrytningar och blanksteg \(indrag\) har bevarats:
+- DITA-element som innehåller radbrytningar och blanksteg stöds och återges enligt definitionen i redigeringsläget, Source- eller förhandsgranskningsläget samt i det slutliga publicerade resultatet. På följande skärmbild visas innehållet i elementet `msgblock` där radbrytningarna och mellanrummen \(indrag\) har bevarats:
 
 ![](images/new-line-support_cs.png){width="500" align="left"}
 
 
 
-**Hantera hårda blanksteg i Web Editor**
+**Hantera fasta mellanslag i Web Editor**
 
-- Du kan infoga fasta mellanslag i dokumentet med **Infoga specialtecken**  ![infoga specialtecken, ikon](images/insert-special-chars-icon.svg) ikonen eller **Alt** + **Blanksteg** kortkommandon.  Dessa fasta mellanslag visas som en indikator när du redigerar ett ämne i Web Editor. Du kan stänga av visningen av fasta mellanslag med **Visa indikator för fast mellanslag i redigeringsläge** från **Utseende** -fliken i **Användarinställningar** ![Ikon för användarinställningar](images/user_preference_editor_icon.svg)..
+- Du kan infoga fasta mellanslag i dokumentet med hjälp av ikonen **Infoga specialtecken** ![Infoga specialtecken](images/insert-special-chars-icon.svg) eller kortkommandona **Alt** + **Blanksteg** .  Dessa fasta mellanslag visas som en indikator när du redigerar ett ämne i Web Editor. Du kan inaktivera visningen av fasta mellanslag med alternativet **Visa fasta mellanslag i redigeringsläget** på fliken **Utseende** i ikonen för **användarinställningar** ![användarinställningar](images/user_preference_editor_icon.svg) .
 
-- Om du kopierar och klistrar in innehåll med fast mellanslag från externa källor i **Upphovsman** den fasta ytan konverteras till ett mellanslag.
-Om du kopierar och klistrar in innehåll med fast mellanslag från **Upphovsman** den bevaras.
+- Om du kopierar och klistrar in innehåll med fast mellanslag från externa källor i vyn **Författare** konverteras det fasta utrymmet till ett mellanslag.
+Om du kopierar och klistrar in innehåll med fast mellanslag från vyn **Författare** bevaras det.
 
 
 **Generera element-ID automatiskt**
@@ -247,7 +247,7 @@ Gör följande för att automatiskt generera ID för ett eller flera element:
 
 1. Öppna ämnet i webbredigeraren.
 1. Markera innehållet som du vill tilldela ID:n till.
-1. Högerklicka och välj **Generera ID:n på snabbmenyn.**
+1. Högerklicka och välj **Generera ID på snabbmenyn.**
 
    Du kan också högerklicka i vägbeskrivningsfilen och välja **Generera ID**.
 

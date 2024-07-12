@@ -13,26 +13,26 @@ ht-degree: 0%
 
 # Styra kvaliteten på innehållet i webbredigeraren
 
-I den här artikeln finns en översikt över valideringsmöjligheterna i AEM Guidas webbredigerare.
+I den här artikeln finns en översikt över valideringsmöjligheterna i AEM Guides webbredigerare.
 Genom att designa en webbredigerare utnyttjar DITA-schemainställningarna i systemet för att tvinga användare att skapa DITA-kompatibelt innehåll. Då är allt innehåll som lagras i systemet strukturerat, återanvändbart och giltigt DITA-innehåll.
 
-Förutom stöd för DITA-regler stöder webbredigeraren även validering av innehåll baserat på &quot;*Schematron* regler.
+Förutom stöd för DITA-regler stöder webbredigeraren även validering av innehåll baserat på *Schematron*-regler.
 
-&quot;*Schematron*&quot; är ett regelbaserat valideringsspråk som används för att definiera tester för en XML-fil. Du kan importera schemafilerna och redigera dem i Web Editor. Med hjälp av en &quot;Schematron&quot;-fil kan du definiera vissa regler och sedan validera dem för ett DITA-ämne eller en karta. Schematronreglerna kan säkerställa konsekvens i XML-strukturen genom att införa begränsningar som definieras som regler. Dessa begränsningar drivs av små och medelstora företag som äger innehållets kvalitet och enhetlighet.
+&quot;*Schematron*&quot; refererar till ett regelbaserat valideringsspråk som används för att definiera tester för en XML-fil. Du kan importera schemafilerna och redigera dem i Web Editor. Med hjälp av en &quot;Schematron&quot;-fil kan du definiera vissa regler och sedan validera dem för ett DITA-ämne eller en karta. Schematronreglerna kan säkerställa konsekvens i XML-strukturen genom att införa begränsningar som definieras som regler. Dessa begränsningar drivs av små och medelstora företag som äger innehållets kvalitet och enhetlighet.
 
-    Obs! Webbredigeraren har stöd för ISO-schemat.
+    Obs! Webbredigeraren stöder ISO-schemat.
 
 
 ## Att veta hur &quot;Schematron&quot; fungerar i webbredigeraren
 
 ### Konfigurera schematransregler
 
-Mer information finns i avsnittet Stöd för Schematron-filer i [Användarhandbok](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_User-Guide_EN.pdf#page=148)
+Mer information finns i avsnittet Stöd för schemafiler i [användarhandboken](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_User-Guide_EN.pdf#page=148)
 
 
 ### Använd valideringsregler när filen sparas
 
-Med webbläsar-inställningarna kan användarna konfigurera schematrons regler/filer som körs varje gång en användare uppdaterar innehållet. Mer information finns i avsnittet &quot;Validering&quot; i [Användarhandbok](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_User-Guide_EN.pdf#page=58)
+Med webbläsar-inställningarna kan användarna konfigurera schematrons regler/filer som körs varje gång en användare uppdaterar innehållet. Mer information finns i avsnittet Validering i [användarhandboken](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_User-Guide_EN.pdf#page=58)
 
 ![Ange regler från webbredigeringsinställningar](../../../assets/authoring/schematron-editorsettings-validation-tab.png)
 
@@ -49,7 +49,8 @@ Ja, som författare/användare när du skapar innehåll kan du använda panelen 
 
 ### Reglerna stöds
 
-Den aktuella versionen av AEM stöder validering med enbart kontrollbaserade regler. (se [tillgång kontra rapport](https://schematron.com/document/205.html)) Alla regler som baseras på &quot;Rapporter&quot; stöds inte ännu.
+Aktuell version av AEM Guides stöder endast validering med&quot;Assertion&quot;-baserade regler. (se [resurs jämfört med rapport](https://schematron.com/document/205.html))
+Regler som baseras på &quot;Rapporter&quot; stöds inte ännu.
 
 
 ### Exempel och mer hjälp om schematreringsregler
@@ -100,6 +101,6 @@ Den aktuella versionen av AEM stöder validering med enbart kontrollbaserade reg
 
 #### Resurser
 
-- Förstå  [Grundläggande om schematron](https://da2022.xatapult.com/#what-is-schematron)
+- [Grundläggande om schemat](https://da2022.xatapult.com/#what-is-schematron)
 - Mer om [Kontrollregler i schemat](https://www.xml.com/pub/a/2003/11/12/schematron.html#Assertions)
 - [Exempel på schematron-fil](../../../assets/authoring/sample_schematron.sch)

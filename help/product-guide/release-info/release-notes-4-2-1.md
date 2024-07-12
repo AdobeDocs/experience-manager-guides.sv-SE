@@ -13,38 +13,39 @@ ht-degree: 0%
 
 # 4.2.1-utgåvan av Adobe Experience Manager Guides (maj 2023)
 
-Den här versionsinformationen innehåller uppgraderingsinstruktioner, kompatibilitetsmatris och problem som har korrigerats i version 4.2.1 av Adobe Experience Manager Guides (senare kallat *AEM stödlinjer*).
+Den här versionsinformationen innehåller uppgraderingsinstruktioner, kompatibilitetsmatris och problem som har åtgärdats i version 4.2.1 av Adobe Experience Manager Guides (kallas senare *AEM Guides*).
 
-Mer information om de nya funktionerna och förbättringarna finns i [Nyheter i version 4.2.1 av Adobe Experience Manager Guides](whats-new-4-2-1-release.md).
+Mer information om de nya funktionerna och förbättringarna finns i [Nyheter i 4.2.1-utgåvan av Adobe Experience Manager Guides](whats-new-4-2-1-release.md).
 
-## Uppgradera till version 4.2.1 av AEM
+## Uppgradera till version 4.2.1 av AEM Guides
 
 
-Du kan enkelt uppgradera din nuvarande version av AEM Guides till version 4.2.1 Innan du uppgraderar till version 4.2.1 av AEM Guides måste du tänka på följande: Du kan uppgradera din nuvarande version av AEM till version 4.2.1
+Du kan enkelt uppgradera din nuvarande version av AEM Guides till version 4.2.1 Innan du uppgraderar till version 4.2.1 av AEM Guides måste du tänka på följande:
+Du kan uppgradera din nuvarande version av AEM Guides till version 4.2.1
 * Om du använder version 4.1, 4.1.x eller 4.2 kan du uppgradera direkt till version 4.2.1.
 * Om du använder version 4.0 måste du uppgradera till version 4.2 innan du uppgraderar till version 4.2.1.
 * Om du använder version 3.8.5 måste du uppgradera till version 4.0 innan du uppgraderar till version 4.2.
-* Om du har en version som är äldre än 3.8.5, se avsnittet om AEM i den produktspecifika installationshandboken.
+* Om du har en tidigare version än 3.8.5, se avsnittet Uppgradera AEM Guides i den produktspecifika installationsguiden.
 
 >[!NOTE]
 >
->Du måste installera AEM Service Pack innan du uppgraderar AEM Guides version.
+>Du måste installera AEM Service Pack innan du uppgraderar AEM Guides-versionen.
 
 Mer information finns i [Uppgraderingsinstruktioner](../install-guide/upgrade-xml-documentation.md).
 
 ## Kompatibilitetsmatris
 
-I det här avsnittet visas kompatibilitetsmatrisen för de program som stöds av AEM 4.2. 1 release.
+I det här avsnittet visas kompatibilitetsmatrisen för de program som stöds i AEM Guides 4.2. 1 release.
 
 ### Adobe Experience Manager
 
-**Ej UID**
+**Ej UUID**
 Version 6.5 Service Pack 15, 14, 13 eller 12
 
-**UUID**
+**UID**
 Version 6.5 Service Pack 15, 14, 13 eller 12
 
-Mer information finns i *Tekniska krav* i guiden Installera och konfigurera Adobe Experience Manager Guides.
+Mer information finns i avsnittet *Tekniska krav* i guiden Installera och konfigurera Adobe Experience Manager Guides.
 
 ### FrameMaker och FrameMaker Publishing Server
 
@@ -82,7 +83,7 @@ De buggar som har åtgärdats i olika områden listas nedan:
 * Webbläsaren (webbredigeraren) låser sig när innehåll läses in med ett anpassat schema. (11211)
 * PDF | När du skapar en förinställning med alternativet Lägg till i mappprofil misslyckas genereringen av PDF med ett Null-pekarundantag. (10950)
 * PDF | Bild-taggen lägger till attribut för inline-visning i alla bilder. (10653)
-* Det går inte att infoga multimediefiler för ljud och video i YouTube-format med **Infoga multimedia** -ikon. (11320)
+* Det går inte att infoga multimediefiler för ljud och video i YouTube-format med ikonen **Infoga multimedia** . (11320)
 * Valideringsfel uppstår när en karta skapas med mallen som har ett specialiserat rubrikelement. (11212)
 * Web Editor | Fast mellanslag läggs till i XML-redigeraren när du redigerar ett ämne. 11786
 
@@ -90,20 +91,20 @@ De buggar som har åtgärdats i olika områden listas nedan:
 
 * Fliken Rapporter i webbredigerarens användargränssnitt visar inte ämneslistan med gamla DITA-kartor som skapats före uppgraderingen till 4.2. 11708
 
-* Knappfunktionen Överför filer i resursgränssnittet i version 4.2. (11633)
+* Knappfunktionen Överför filer i Assets-gränssnittet bryts i version 4.2. (11633)
 
 
 ### Publicering
 
 * PDF | Publicering av innehåll som har en utdataklass med hakparenteser() resulterar i en publiceringsfrysning. (11936)
-* JSON-utdata | Mappa metadata med egenskapsvärde som `"value in spaces and double quotes"` leder till ett publiceringsfel. (11933)
+* JSON-utdata | Mappningsmetadata med egenskapsvärdet `"value in spaces and double quotes"` leder till ett publiceringsfel. (11933)
 * Problem uppstår AEM webbplatssökningen (fungerar inte längre än 2-3 nivånoder). (11352)
 * Web Editor | Det går inte att markera utdatasökväg och -mall i AEM förinställning. (11530)
 * Vid uppgradering från 4.1.x till 4.2 fungerar inte motorn för Native PDF och genererar NullPointerException även för det operativsystem som stöds.(11526)
 * PDF-nedladdningsprocessen fungerar inte korrekt i Web Editor. (11496)
 * PDF | Utkastkommentarer är dolda som standard i genererade utdata. (10560)
 * PDF | navtitle stöds inte för topichead. (10509)
-* PDF | Lägger till `xref` till en bild återges inte bilden på det genererade PDF. (11346)
+* PDF | Om du lägger till `xref` i en bild återges inte bilden på det genererade PDF. (11346)
 * PDF | fotnot i tabellhuvudet leder till fet och centrerad text i motsvarande sidfot i PDF-utdata. 10610
 
 ### Översättning

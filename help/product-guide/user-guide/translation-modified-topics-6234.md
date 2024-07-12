@@ -1,6 +1,6 @@
 ---
 title: Översätt ändrade ämnen
-description: Lär dig hur du översätter ett ändrat ämne på nytt i AEM.
+description: Lär dig hur du översätter ett ändrat ämne på nytt i AEM Guides.
 exl-id: b3228ea9-24a8-44aa-8ba4-e8f44754ffe4
 feature: Translation
 role: User
@@ -19,11 +19,11 @@ Utför följande steg för att skicka ett ändrat ämne för omöversättning:
 
 1. Klicka på DITA-mappningsfilen i källspråkets kopieringsmapp.
 
-1. Klicka på **Översättning** -fliken.
+1. Klicka på fliken **Översättning**.
 
-1. I **Filter** till vänster väljer du **Översätta språk** som du vill kontrollera statusen för och klicka på **Klar**.
+1. I panelen **Filter** till vänster markerar du **Översätt språk** som du vill kontrollera statusen för och klickar sedan på **Klar**.
 
-   Du kan se översättningsstatusen för varje avsnitt. De ämnen som har en annan version av ämnet tillgänglig än vad som skickades för översättning, visar en **Inaktuell** status.
+   Du kan se översättningsstatusen för varje avsnitt. De ämnen som har en annan version av ämnet tillgänglig än vad som skickades för översättning visar statusen **Inaktuell**.
 
    >[!NOTE]
    >
@@ -35,19 +35,19 @@ Utför följande steg för att skicka ett ändrat ämne för omöversättning:
 
 1. Klicka i kryssrutan för att markera de ämnen som du vill skicka för omöversättning.
 
-   När du väljer ett osynkroniserat datum visas **Skapa/uppdatera språkkopior** visas på referenspanelen och **Stäng status för ej synkroniserad** knappen ovanför **Filter** -ikon.
+   När du väljer ett osynkroniserat datum visas alternativet **Skapa/uppdatera språkkopior** på referenspanelen och knappen **Stäng ur synkroniseringsstatus** ovanför ikonen **Filter** .
 
-   Du kan använda **Stäng ur synkronisering** om du vill åsidosätta statusen Inaktuell för ämnena på DITA-kartan. Om du till exempel har gjort vissa ändringar i den engelska versionen av ämnet som inte behöver översättas kan du använda den här knappen och ändra statusen Inaktuell för det markerade ämnet.
+   Du kan använda knappen **Stäng ur synkronisering** om du vill åsidosätta statusen Inaktuell för ämnena i DITA-kartan. Om du till exempel har gjort vissa ändringar i den engelska versionen av ämnet som inte behöver översättas kan du använda den här knappen och ändra statusen Inaktuell för det markerade ämnet.
 
    >[!NOTE]
    >
-   > Klicka på **Stäng status för ej synkroniserad** anger det att ämnesstatusen är Uppdaterad för de markerade inaktuella ämnena.
+   > Om du klickar på knappen **Ignorera status för ej synkroniserad** anges Ämnesstatusen till Uppdaterad för de valda avsnitten Inaktuell.
 
-1. Klicka **Uppdatera språkkopior** och konfigurera översättningsjobbet.
+1. Klicka på **Uppdatera språkkopior** och konfigurera översättningsjobbet.
 
 1. Du kan välja att skapa ett nytt översättningsprojekt eller lägga till ämnen i ett befintligt översättningsprojekt. Ange nödvändig information för att konfigurera översättningsprojektet.
 
-1. Klicka **Starta**.
+1. Klicka på **Start**.
 
    Ett bekräftelsemeddelande som visar att ämnet har skickats för översättning visas.
 
@@ -55,7 +55,7 @@ Utför följande steg för att skicka ett ändrat ämne för omöversättning:
 
    ![](images/incremental-job.PNG){width="300" align="left"}
 
-1. Starta översättningen genom att klicka på pilen på översättningsjobbkortet och välja **Starta** från listan. Ett meddelande meddelar att jobbet har startats.
+1. Starta översättningen genom att klicka på pilen på översättningsjobbkortet och välja **Start** i listan. Ett meddelande meddelar att jobbet har startats.
 
    Du kan även visa statusen för det ämne som översätts när du klickar på ellipsen längst ned på översättningsjobbkortet.
 
@@ -63,13 +63,13 @@ Utför följande steg för att skicka ett ändrat ämne för omöversättning:
    >
    > Om du använder översättningstjänsten för människor måste du exportera innehållet för översättning. När du har det översatta innehållet måste du importera det tillbaka till översättningsprojektet.
 
-1. När översättningen är klar ändras statusen till **Klar att granska**. Klicka på ellipsen för att se ämnesinformation och gör något av följande i verktygsfältet:
+1. När översättningen är klar ändras statusen till **Klar att granskas**. Klicka på ellipsen för att se ämnesinformation och gör något av följande i verktygsfältet:
 
-   - Klicka **Visa i resurser** för att se och verifiera översättningen.
+   - Klicka på **Visa i Assets** för att visa och verifiera översättningen.
 
-   - Klicka **Acceptera översättning** om du tror att ändringarna har översatts korrekt. Ett bekräftelsemeddelande visas.
+   - Klicka på **Acceptera översättning** om du tror att ändringarna har översatts korrekt. Ett bekräftelsemeddelande visas.
 
-   - Klicka **Avvisa översättning** om du tror att jobbet behöver göras om. Ett meddelande om avvisning visas.
+   - Klicka på **Avvisa översättning** om du tror att jobbet måste utföras om. Ett meddelande om avvisning visas.
 
    >[!NOTE]
    >

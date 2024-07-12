@@ -1,6 +1,6 @@
 ---
-title: Skapa innehåll med hjälp AEM stödlinjer
-description: Skapa material effektivt med AEM. Lär dig hur du skapar, redigerar och publicerar dokument i AEM.
+title: Skapa innehåll med AEM Guides
+description: Skapa material effektivt med AEM Guides. Lär dig skapa, redigera och publicera dokument i AEM Guides.
 exl-id: 9e29dde4-a9de-41e0-86c8-ca949bd3669c
 feature: Authoring
 role: User
@@ -11,19 +11,19 @@ ht-degree: 0%
 
 ---
 
-# Skapa innehåll med hjälp AEM stödlinjer {#id221EB0P0E20}
+# Skapa innehåll med AEM Guides {#id221EB0P0E20}
 
-AEM Guides har tre färdiga redigeringsprogram. kan du använda dem för att skapa, redigera och publicera dina dokument.
+AEM Guides levereras med de tre färdiga redigeringsprogrammen. kan du använda dem för att skapa, redigera och publicera dina dokument.
 
-1. **Web Editor**: Använd det för att skapa och redigera strukturerade dokument.
-1. **Kartredigeraren**: Använd det för att skapa och redigera DITA-kartor och bokmappsfiler.
-1. **Ditaval Editor**: Använd det för att generera villkorsstyrda utdata.
+1. **Webbredigerare**: Använd det för att skapa och redigera strukturerade dokument.
+1. **Karteditorn**: Använd den för att skapa och redigera DITA-karta och bokmappsfiler.
+1. **Ditaval Editor**: Använd den för att generera villkorliga utdata.
 
 - **[Arbeta med webbredigeraren](web-editor.md)**
 
 - **[Arbeta med kartredigeraren](map-editor.md)**
 
-- **[DITAVAL editor](ditaval-editor.md)**
+- **[DITAVAL-redigerare](ditaval-editor.md)**
 
 
-**Överordnat ämne:**[ Skapa innehåll](authoring-content.md)
+**Överordnat ämne:**[ Författarinnehåll](authoring-content.md)

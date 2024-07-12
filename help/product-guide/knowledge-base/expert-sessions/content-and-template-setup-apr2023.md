@@ -1,6 +1,6 @@
 ---
 title: Innehåll och mallar
-description: Läs mer om hur du ställer in innehåll och mallar i AEM.
+description: Se vad du bör tänka på när du ska skapa innehåll och mallar i AEM Guides.
 exl-id: f125bad9-33a2-4de5-b43f-d6368d61879b
 feature: Template Configuration
 role: User, Admin
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 ---
 
-# Innehålls- och mallinställningar i AEM
+# Innehåll och mallar i AEM Guides
 
 Den mängd innehåll som du hanterar i ett system, för olika typer av dokument som levereras till slutanvändare, kräver inte bara att författarna kategoriserar innehållet så att det går lätt att spåra och ändra vid behov, utan också att författarna kan skapa nya/liknande dokument utan att behöva skriva dem från grunden.
 
@@ -34,7 +34,7 @@ Under denna session gick vi i stort sett igenom följande:
 - **Datum** - 27 april 2023
 - **Antal deltagare** - 70
 - **Varaktighet** - 60 minuter
-- **Målgrupp** - Kunder, partners och anställda på Adobe
+- **Målgrupp** - Kunder, partners och anställda i Adobe
 
 
 ## Viktiga uppgifter
@@ -51,25 +51,25 @@ Under den här sessionen får du veta mer om följande:
 
 ## Relaterade resurser
 
-- **Videofilmer** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/folder-profiles.html)
+- **Funktionsvideor** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/folder-profiles.html)
 
-- **Användarhandbok** - [Skapa innehåll](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Freports-intro.html)
+- **Användarhandbok** - [Författarinnehåll](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Freports-intro.html)
 
-- **Community Forum** - Om du vill ha sessionsspecifika communityinteraktioner på Experience League går du till  [AEM Guides Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **Community-forum** - Besök [AEM Guides-forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions) om du vill ha sessionsspecifik communityinteraktion på Experience League.
 
 >[!NOTE]
 >
-> Funktionerna som visas under den här sessionen finns i följande versioner av AEM.
+> De funktioner som visas under den här sessionen finns i följande versioner av AEM Guides:
 > - Lokalt: 4.2 eller senare
 > - Cloud Service: 2303 eller senare
 
 
 ## Nästa expertsession
 
-- **Ämne** - Publicering i PDF - Exempel på lärande (del 1)
-- **Schemalagd den** - 1 juni 2023
+- **Ämne** - Publicering i PDF - Utbildningsexempel (del 1)
+- **Schemalagd** - 1 juni 2023
 
 
 ## Kontakta oss
 
-Om du har frågor kan du skicka ett e-postmeddelande till oss på <techcomm@adobe.com>
+Om du har frågor kan du skicka ett e-postmeddelande till <techcomm@adobe.com>

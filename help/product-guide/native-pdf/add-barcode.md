@@ -1,13 +1,13 @@
 ---
-title: Publiceringsfunktion för PDF | Lägg till streckkod
+title: PDF Publish-funktion | Lägg till streckkod
 description: Lär dig hur du lägger till streckkoder.
-source-git-commit: a766353908829ab433173f8fd003ecad0c9d1bf1
+exl-id: 206bdcf9-2bcd-4bf1-815a-c97cdf0dc415
+source-git-commit: d525775afeeb89754762ff514126b1c3a3307b3f
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 0%
 
 ---
-
 
 # Lägga till en streckkod i PDF-utdata
 
@@ -24,7 +24,7 @@ Så här genererar du en streckkod:
 
 ### Uppdatera mallens CSS för att återge ett streckkodsvärde
 
-Ändra `layout.css` för att återge en streckkod under genereringen av PDF. Olika streckkodstyper som qrcode och pdf417 stöds.  Mer information finns i [Streckkodstyper](#barcode-types).
+Ändra filen `layout.css` om du vill återge en streckkod under genereringen av PDF. Olika streckkodstyper som qrcode och pdf417 stöds.  Mer information finns i [Streckkodstyper](#barcode-types).
 
 
 
@@ -50,7 +50,7 @@ Du kan generera streckkoden på olika sätt. Några av exemplen är följande:
 
 Lägg till en streckkodsplatshållare i mallhuvudet och använd formatet:
 
-1. Redigera **Mallar** > **Sidlayouter**
+1. Redigera **mallar** > **Sidlayouter**
 1. Välj en sidlayout. Du kan till exempel välja sidlayouten BakåtOmslag, som innehåller sidhuvudet eller sidfoten.
 1. Lägg till följande intervall på den plats där du vill infoga streckkoden.
 
@@ -70,7 +70,7 @@ I följande skärmbild visas en exempelstreckkod i utdata från PDF.
 
 **Exempel 2**
 
-Ändra `Common.plt` i **Grundläggande** mall för att lägga till en streckkod efter projekttiteln.
+Ändra filen `Common.plt` i mallen **Grundläggande** om du vill lägga till en streckkod efter projekttiteln.
 
 Om du vill skapa en streckkod för ett ISBN-nummer lägger du till ett ISBN-nummer. Använd sedan ISBN-numret för att generera streckkoden.
 
@@ -89,7 +89,7 @@ Om du vill skapa en streckkod för ett ISBN-nummer lägger du till ett ISBN-numm
 
 Så här skapar du en streckkod med hjälp av mappningsmetadata:
 
-Använd alla metadata som finns i `<topicmeta>` -element i en DITA-karta som ska visas som en streckkod. Se till att du använder rätt XPath. Du kan till exempel lägga till en `<resourceid>` i `<topicmeta>` av en DITA-karta.
+Använd alla metadata som finns i elementet `<topicmeta>` i en DITA-karta som ska visas som streckkod. Se till att du använder rätt XPath. Du kan till exempel lägga till `<resourceid>` i `<topicmeta>` för en DITA-karta.
 
 I följande exempel fungerar resurs-ID som huvudindata för att generera streckkoden.
 
@@ -156,6 +156,3 @@ Några av de vanligaste streckkoderna är följande:
 | Aztec Code | aztec-code | Aztec Code bar code symbology Enligt ISO/IEC 24778:2008. |                            |
 | DataMatrix | data-matrix | Datamatris ECC 200 streckkodssymbol enligt ISO/IEC 16022:2006. |
 | Kod ett | code-one |                            |
-
-
-

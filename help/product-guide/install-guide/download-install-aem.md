@@ -23,18 +23,18 @@ AEM Guides är en plugin som installeras ovanpå Adobe Experience Manager. För 
 
 >[!IMPORTANT]
 >
-> Om du använder Java 11 med AEM 6.5.x kan du råka ut för ett problem - *JDK 11 orsakar`NoClassDefFoundError`*. Referens [JDK 11 orsakar NoClassDefFoundError \| AEM 6.5](https://helpx.adobe.com/experience-manager/kb/jdk-11-causes-noclassdeffounderror---aem-6-5.html) artikel som löser problemet.
+> Om du använder Java 11 med AEM 6.5.x kan du råka ut för ett problem - *JDK 11 orsakar`NoClassDefFoundError`*. Referens [JDK 11 orsakar NoClassDefFoundError \| AEM 6.5 ](https://helpx.adobe.com/experience-manager/kb/jdk-11-causes-noclassdeffounderror---aem-6-5.html) -artikel som löser det här problemet.
 
-När du har identifierat en distributionsstrategi som fungerar bäst för din organisation ska du utföra installationsprocessen enligt beskrivningen i *[Komma igång](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/deploy.html#GettingStarted)* i AEM.
+När du har identifierat den distributionsstrategi som fungerar bäst för din organisation ska du utföra installationsprocessen enligt beskrivningen i avsnittet *[Komma igång](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/deploy.html#GettingStarted)* i AEM.
 
 Om du tänker uppgradera din AEM måste du följa den angivna sekvensen:
 
-1. Avinstallera AEM.
+1. Avinstallera AEM Guides.
 1. Uppgradera AEM.
-1. Installera AEM.
+1. Installera AEM Guides.
 
 >[!IMPORTANT]
 >
-> Det finns ett antal rekommendationer för prestandaoptimering som du kan tänka dig för att förbättra systemets prestanda. Se [Recommendations för prestandaoptimering](download-install-recommend-perf-optimiz.md#) för mer information.
+> Det finns ett antal rekommendationer för prestandaoptimering som du kan tänka dig för att förbättra systemets prestanda. Mer information finns i [Recommendations för prestandaoptimering](download-install-recommend-perf-optimiz.md#).
 
 **Överordnat ämne:**[ Hämta och installera](download-install.md)

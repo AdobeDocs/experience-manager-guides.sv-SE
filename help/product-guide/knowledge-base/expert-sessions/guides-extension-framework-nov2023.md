@@ -1,6 +1,6 @@
 ---
 title: Extension Framework of AEM Guides - Customize Web-Editor and Review UI
-description: Med hjälp av ramverket för Guides-tillägget kan du anpassa de önskade avsnitten i Granska användargränssnitt eller Webbredigerare med hjälp av JSON, CSS och JavaScript som är enkla att uppdatera.
+description: Med hjälp av ramverket för Guides-tillägg kan du anpassa de önskade avsnitten i Granska användargränssnitt eller Webbbeditor med hjälp av JSON, CSS och JavaScript som är enkla att uppdatera.
 exl-id: 7b2efae3-be8c-4259-babb-f28a6903116a
 feature: Web Editor, Troubleshooting
 role: User, Admin
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 # Extension Framework of AEM Guides: Customize Web-Editor and Review UI
 
-När du arbetar i ett system är det mycket vanligt att företag/användare vill ha anpassade knappar, funktionsmakron eller visa information för att kunna utföra sina åtgärder och förbättra sin produktivitet. Med Extension Framework kan du skapa anpassade paket AEM stödlinjerna för att utöka användargränssnittet och dess beteende. De här anpassade paketen är användbara för utvecklare och konsulter för att ge dem utökningsbarhet till komponenterna i redigeraren/granskningsgränssnittet. De kan ha knappar, dialogrutor och listrutor som mål och lägga till anpassade JavaScript-skript som enkelt kan samverka med AEM för användargränssnittet för stödlinjer.
+När du arbetar i ett system är det mycket vanligt att företag/användare vill ha anpassade knappar, funktionsmakron eller visa information för att kunna utföra sina åtgärder och förbättra sin produktivitet. Med Extension Framework kan du skapa anpassade paket ovanpå AEM Guides för att utöka användargränssnittet och dess beteende. De här anpassade paketen är användbara för utvecklare och konsulter för att ge dem utökningsbarhet till komponenterna i redigeraren/granskningsgränssnittet. De kan ha knappar, dialogrutor och listrutor som mål och lägga till anpassade JavaScript som enkelt kan samverka med AEM Guides gränssnitt.
 
-Under det här seminariet får du hjälp av praktiska scenarier och lära dig hur du anpassar eller utökar gränssnittet för AEM och webbredigeraren.
+Under det här seminariet får du lära dig att anpassa eller utöka användargränssnittet för granskning och webbredigering i AEM Guides med hjälp av praktiska scenarier.
 
 ## Sessionsregistrering
 
@@ -26,7 +26,7 @@ Under det här seminariet får du hjälp av praktiska scenarier och lära dig hu
 - **Datum** - 2 november 2023
 - **Antal deltagare** - 119
 - **Varaktighet** - 60 minuter
-- **Målgrupp** - Kunder, partners och anställda på Adobe
+- **Målgrupp** - Kunder, partners och anställda i Adobe
 
 ## Viktiga uppgifter
 
@@ -45,18 +45,18 @@ Under den här sessionen får du veta mer om:
 
 ## Relaterade resurser
 
-- **Bas-databas för Extension Framework** - [GIT](https://github.com/adobe/guides-extension/tree/main)
+- **Grunddatabas för tilläggsramverksbas** - [GIT](https://github.com/adobe/guides-extension/tree/main)
 
 - **Dokumentation** - [på Experience League](../../guides-ui-extensions/aem_guides_framework/basic-customisation.md)
 
 - **Dokumenterade användningsfall** - [på Experience League](../../guides-ui-extensions/aem_guides_framework/jui-framework.md)
 
-- **Offentlig databas med exempel** - [på GIT](https://github.com/adobe/guides-extension/tree/sc-expert-session). Se session mellan en filial och en expert
+- **Offentlig databas med exempel** - [ i GIT](https://github.com/adobe/guides-extension/tree/sc-expert-session). Se session mellan en filial och en expert
 
 
 >[!NOTE]
 >
-> Funktionerna som visas under den här sessionen finns i följande versioner av AEM.
+> Funktionerna som visas under den här sessionen är tillgängliga i följande versioner av AEM Guides:
 > - Oktober 2023 (för molnet)
 > - 4.3.x (för icke-moln)
 
@@ -64,4 +64,4 @@ Under den här sessionen får du veta mer om:
 
 ## Kontakta oss
 
-Om du har frågor kan du skicka ett e-postmeddelande till oss på <techcomm@adobe.com>
+Om du har frågor kan du skicka ett e-postmeddelande till <techcomm@adobe.com>

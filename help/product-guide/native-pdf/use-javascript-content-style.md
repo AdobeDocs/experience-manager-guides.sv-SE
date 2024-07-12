@@ -1,5 +1,5 @@
 ---
-title: Publiceringsfunktion för PDF | Använd JavaScript för att arbeta med innehåll eller stil
+title: PDF Publish-funktion | Använda JavaScript för att arbeta med innehåll eller stil
 description: Lär dig hur du skapar formatmallar och skapar format för ditt innehåll.
 exl-id: 2f301f6a-0d1c-4194-84c2-0fddaef8d3ec
 feature: Output Generation
@@ -12,10 +12,10 @@ ht-degree: 0%
 
 ---
 
-# Använd JavaScript för att arbeta med innehåll eller stil
+# Använda JavaScript för att arbeta med innehåll eller stil
 
-Med funktionen för publicering i PDF kan du köra JavaScript för att ändra innehåll eller format som används på innehåll innan PDF skapas. Med den här funktionen får du fullständig kontroll över hur det slutliga resultatet genereras. Du kan till exempel lägga till juridisk information till utdata från PDF, som finns i andra PDF. Med JavaScript kan du lägga till juridisk information när PDF har skapats för basinnehållet, men innan det slutliga PDF skapas.\
-För att JavaScript-körning ska fungera får du följande callback-funktioner med funktionen Native PDF:
+Med publiceringsfunktionen för PDF kan du köra JavaScript för att ändra innehåll eller format som används på innehåll innan det slutliga PDF skapas. Med den här funktionen får du fullständig kontroll över hur det slutliga resultatet genereras. Du kan till exempel lägga till juridisk information till utdata från PDF, som finns i andra PDF. Med JavaScript kan du lägga till juridisk information när PDF har skapats för basinnehållet, men innan det slutgiltiga PDF skapas.\
+Som stöd för JavaScript-körning ger publiceringsfunktionen Native PDF följande återanropsfunktioner:
 
 * `window.pdfLayout.onBeforeCreateTOC(callback)`: Den här återanropsfunktionen körs innan innehållsförteckningen genereras.
 * `window.pdfLayout.onBeforePagination(callback)`: Den här återanropsfunktionen körs efter att innehållsförteckningen har genererats, men innan sidbrytningar läggs till i PDF.
@@ -27,11 +27,11 @@ För att JavaScript-körning ska fungera får du följande callback-funktioner m
 
 Beroende på vilken typ av innehåll eller formatändring du vill utföra kan du välja vilken callback-funktion som ska användas. Om du till exempel vill lägga till innehåll bör du göra det innan innehållsförteckningen genereras. Om du vill göra vissa formatuppdateringar kan de göras antingen före eller efter sidnumreringen.
 
-I följande exempel ändras positionen för figurtitlarna från ovanför bilderna till under bilderna. Därför måste du aktivera alternativet för JavaScript-körning i förinställningen. Gör så här:
+I följande exempel ändras positionen för figurtitlarna från ovanför bilderna till under bilderna. Därför måste du aktivera körningsalternativet JavaScript i förinställningen. Gör så här:
 
 1. Öppna förinställningen för redigering.
-1. Gå till **Avancerat** -fliken.
-1. Välj **Aktivera JavaScript** alternativ.
+1. Gå till fliken **Avancerat**.
+1. Välj alternativet **Aktivera JavaScript**.
 1. Spara förinställningen och stäng den.
 
 Skapa sedan en JavaScript-fil med följande kod och spara den i mappen Resources i mallen:
@@ -63,9 +63,9 @@ window.addEventListener('DOMContentLoaded', function () {
 
 >[!NOTE]
 >
->The `window.addEventListener('DOMContentLoaded', function ()` funktionen måste anropas innan callback-funktionerna används.
+>Funktionen `window.addEventListener('DOMContentLoaded', function ()` måste anropas innan återanropsfunktionerna används.
 
-Sedan måste skriptet anropas från en mallfil som används för att generera utdata från PDF. Vi kommer till exempel att lägga till det i innehållsförteckningsmallen. Se till att `<script>` läggs till i en fördefinierad `<div>` -taggen inuti `<body>` -tagg. Om du lägger till den i `<head>` eller utanför `<body>` -taggen kommer skriptet inte att köras.
+Sedan måste skriptet anropas från en mallfil som används för att generera utdata från PDF. Vi kommer till exempel att lägga till det i innehållsförteckningsmallen. Kontrollera att taggen `<script>` läggs till i en fördefinierad `<div>` -tagg inuti taggen `<body>`. Om du lägger till det i taggen `<head>` eller utanför taggen `<body>` körs inte skriptet.
 
 <img src="./assets/js-added-resources-template.png" width="500">
 
@@ -76,7 +76,7 @@ De utdata som skapas med den här koden och mallen visar figurtiteln nedanför b
 ## Lägga till en vattenstämpel i PDF för utkast till dokument {#watermark-draft-document}
 
 Du kan också använda JavaScript för att lägga till villkorliga vattenstämplar. Dessa vattenstämplar läggs till i dokumentet när det definierade villkoret är uppfyllt.\
-Du kan t.ex. skapa en JavaScript-fil med följande kod för att skapa en vattenstämpel i PDF som visar dokumentet som ännu inte har godkänts. Den här vattenstämpeln visas inte om du genererar PDF för dokumentet i dokumentet Godkänt.
+Du kan t.ex. skapa en JavaScript-fil med följande kod för att skapa en vattenstämpel till utdata från PDF i dokumentet som ännu inte har godkänts. Den här vattenstämpeln visas inte om du genererar PDF för dokumentet i dokumentet Godkänt.
 
 ```css
 ...
@@ -101,6 +101,6 @@ window.addEventListener('DOMContentLoaded', function () {
 ...
 ```
 
-Utdata från PDF som genereras med den här koden visar en vattenstämpel *Utkast* på dokumentets försättssida:
+De PDF-utdata som skapas med den här koden visar en vattenstämpel, *Utkast*, på dokumentets försättssida:
 
 <img src="./assets/draft-watermark.png" width="500">

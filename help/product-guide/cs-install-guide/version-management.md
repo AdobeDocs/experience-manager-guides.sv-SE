@@ -18,7 +18,7 @@ Versionshantering är en viktig aspekt i alla innehållshanteringssystem. Du kan
 
 Som administratör kan du tillämpa regler som hindrar användare från att redigera en fil utan att checka ut den. På samma sätt kan du se till att alla utcheckade filer checkas in igen för att undvika dataförluster.
 
-I fleranvändningsmiljöer är det också viktigt att se till att användarna inte tar bort filer från systemet. Detta krav är viktigare för filer som checkas ut av andra användare. För att förhindra att användare råkar ta bort utcheckade filer från systemet innehåller AEM stödlinjer en konfiguration som du kan använda. Förutom utcheckade filer kan du även styra borttagningen av filer som innehåller referenser eller som refereras från andra filer.
+I fleranvändningsmiljöer är det också viktigt att se till att användarna inte tar bort filer från systemet. Detta krav är viktigare för filer som checkas ut av andra användare. För att förhindra att användare av misstag tar bort utcheckade filer från systemet, tillhandahåller AEM Guides en konfiguration som du kan använda. Förutom utcheckade filer kan du även styra borttagningen av filer som innehåller referenser eller som refereras från andra filer.
 
 ## Skapa ny version för överförd fil
 
@@ -26,10 +26,10 @@ I fleranvändningsmiljöer är det också viktigt att se till att användarna in
 >
 > Den här konfigurationen kan bara användas när filer överförs.
 
-Aktivera **Skapa ny version för överförd fil** utför du följande steg:
+Så här aktiverar du alternativet **Skapa ny version för den överförda filen**:
 
 1. Använd instruktionerna i [Konfigurationsåsidosättningar](download-install-additional-config-override.md#) för att skapa konfigurationsfilen.
-1. Ange följande \(egenskap\)-information i konfigurationsfilen för att konfigurera **Skapa ny version för överförd fil** alternativ:
+1. Ange följande \(egenskap\)-information i konfigurationsfilen för att konfigurera alternativet **Skapa ny version för den överförda filen**:
 
 
    | PID | Egenskapsnyckel | Egenskapsvärde |
@@ -38,11 +38,11 @@ Aktivera **Skapa ny version för överförd fil** utför du följande steg:
 
 >[!NOTE]
 >
-> När alternativet är markerat utförs en ny versionshanteringsmekanism och åsidosätter standardbeteendet för överföring som är för efterföljande överföring. Innehållet i den överförda filen sparas då som en ny version. Om alternativet är avmarkerat använder AEM stödlinjer AEM standardmekanism för versionshantering.
+> När alternativet är markerat utförs en ny versionshanteringsmekanism och åsidosätter standardbeteendet för överföring som är för efterföljande överföring. Innehållet i den överförda filen sparas då som en ny version. Om alternativet är avmarkerat används den AEM standardmekanismen för versionshantering i AEM Guides.
 
 ## Konfigurera inställningar som tillåter redigering av utcheckade filer
 
-Med AEM Guides Web Editor kan du skapa och uppdatera DITA-avsnitt. Du kan konfigurera Web Editor så att endast de dokument som har checkats ut från databasen kan redigeras. Detta säkerställer att ingen annan skrivare av misstag skriver över ett ämne som har öppnats för redigering av en annan författare. När ett ämne öppnas för redigering kan författaren checka in filen när filen stängs.
+Med AEM Guides Web Editor kan du skapa och uppdatera DITA-ämnen. Du kan konfigurera Web Editor så att endast de dokument som har checkats ut från databasen kan redigeras. Detta säkerställer att ingen annan skrivare av misstag skriver över ett ämne som har öppnats för redigering av en annan författare. När ett ämne öppnas för redigering kan författaren checka in filen när filen stängs.
 
 En annan viktig regel är att se till att filer som har checkats ut checkas in i systemet igen. Detta förhindrar att användare av misstag stänger filerna utan att checka in dem igen.
 
@@ -66,12 +66,12 @@ Dessutom kan du konfigurera så att ett varningsmeddelande visas när en utcheck
 
 >[!NOTE]
 >
-> *Den här konfigurationen används bara när du skapar filer från resursgränssnittet och inte när du överför filer med WebDAV-verktyget.*
+> *Den här konfigurationen gäller bara när du skapar filer från Assets-gränssnittet och inte när du överför filer med WebDAV-verktyget.*
 
 Gör så här om du vill tillåta användare att skriva över filen vid överföring som har checkats ut av dem eller någon annan användare:
 
 1. Använd instruktionerna i [Konfigurationsåsidosättningar](download-install-additional-config-override.md#) för att skapa konfigurationsfilen.
-1. Ange följande \(egenskap\)-information i konfigurationsfilen för att konfigurera **Skriv över utcheckad fil vid överföring** alternativ:
+1. Ange följande \(egenskap\)-information i konfigurationsfilen för att konfigurera alternativet **Skriv över utcheckad fil vid överföring**:
 
 
 | PID | Egenskapsnyckel | Egenskapsvärde |
@@ -105,7 +105,7 @@ Använd instruktionerna i [Konfigurationsåsidosättningar](download-install-add
 
 | PID | Egenskapsnyckel | Egenskapsvärde |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `block.unsafe.delete` | Möjliga värden är: <br> - allow\_unsafe\_delete\_for\_all <br> - allow\_unsafe\_delete\_for\_delete\_assets\_group <br> - block\_unsafe\_delete\_for\_all <br> **Standardvärde**: `allow_unsafe_delete_for_delete_assets_group` <br> Detaljerna för dessa konstanter anges nedan. |
+| `com.adobe.fmdita.config.ConfigManager` | `block.unsafe.delete` | Möjliga värden är: <br> - allow\_unsafe\_delete\_for\_all <br> -   allow\_unsafe\_delete\_for\_delete\_assets\_group <br> - block\_unsafe\_delete\_for\_all <br> **Standardvärde**: `allow_unsafe_delete_for_delete_assets_group` <br> Information om dessa konstanter anges nedan. |
 
 Beroende på vem du vill ge åtkomst för borttagning anger du en av följande konstanter:
 
@@ -113,7 +113,7 @@ Beroende på vem du vill ge åtkomst för borttagning anger du en av följande k
 
   ![](assets/allow_unsafe_delete-force-delete.PNG)
 
-- allow\_unsafe\_delete\_for\_delete\_assets\_group: En administratör eller en användare som tillhör *delete-assets* grupp kan ta bort filer. Om någon annan användare försöker ta bort filer med referenser, kommer de inte att kunna ta bort sådana filer förrän alla referenser tas bort. Följande skärmbild visas när en användare som inte har behörighet försöker ta bort filer.
+- allow\_unsafe\_delete\_for\_delete\_assets\_group: En administratör eller en användare som tillhör gruppen *delete-assets* kan ta bort filer. Om någon annan användare försöker ta bort filer med referenser, kommer de inte att kunna ta bort sådana filer förrän alla referenser tas bort. Följande skärmbild visas när en användare som inte har behörighet försöker ta bort filer.
 
   ![](assets/allow_unsafe_delete_for_delete_assets_group.PNG)
 
@@ -122,7 +122,7 @@ Beroende på vem du vill ge åtkomst för borttagning anger du en av följande k
 
 ## Rensa äldre versioner av DITA-filer
 
-När du uppdaterar innehåll och skapar nya versioner bevaras de tidigare versionerna av DITA-filerna i databasen. Många versioner kan skapas för dina DITA-filer under en period och kan tillsammans ta upp mycket utrymme i din databas. I AEM kan du konfigurera de äldre versionerna som ska tas bort från databasen.
+När du uppdaterar innehåll och skapar nya versioner bevaras de tidigare versionerna av DITA-filerna i databasen. Många versioner kan skapas för dina DITA-filer under en period och kan tillsammans ta upp mycket utrymme i din databas. I AEM Guides kan du konfigurera de äldre versionerna som ska tas bort från databasen.
 
 Om du har administratörsbehörighet kan du komma åt det här verktyget via den angivna URL:en:
 
@@ -143,15 +143,15 @@ Utför följande steg för att rensa de äldre versionerna:
    ![](assets/preview-purge-report.png)
 
 1. 
-   - **Antal versioner att behålla från den senaste versionen**: Ange antalet versioner som ska behållas och inte rensas. Om vi till exempel anger 5 behålls de senaste 5 versionerna och de tidigare versionerna är kvalificerade att rensas om andra rensningsvillkor uppfylls.
-- **Behåll versioner som skapats inom tidsintervallet \(i dagar\)**: Ange högsta ålder för en version i dagar. Versioner som är äldre än det angivna antalet dagar kan rensas om andra rensningsvillkor uppfylls. Om vi till exempel anger 100 kvalificeras alla versioner som skapats före 100 dagar att rensas om andra rensningsvillkor uppfylls.
-- **Bana**: Välj sökvägen till filen eller mappen vars filer du vill rensa.
+   - **Antal versioner som ska behållas från den senaste versionen**: Ange antalet versioner som ska behållas och inte rensas. Om vi till exempel anger 5 behålls de senaste 5 versionerna och de tidigare versionerna är kvalificerade att rensas om andra rensningsvillkor uppfylls.
+- **Behåll versioner som skapats inom tidsintervallet \(i dagar\)**: Ange den maximala åldern för en version i dagar. Versioner som är äldre än det angivna antalet dagar kan rensas om andra rensningsvillkor uppfylls. Om vi till exempel anger 100 kvalificeras alla versioner som skapats före 100 dagar att rensas om andra rensningsvillkor uppfylls.
+- **Sökväg**: Välj sökvägen till filen eller mappen vars filer du vill rensa.
 
   >[!NOTE]
   >
   > Du kan bara rensa DITA-filer.
 
-1. Klicka **Förhandsgranska rensningsrapport**.
+1. Klicka på **Förhandsgranska rensningsrapport**.
 
    >[!NOTE]
    >
@@ -160,13 +160,13 @@ Utför följande steg för att rensa de äldre versionerna:
    Rapporten för versionsrensning genereras.
 
 1. Ladda ned versionsrensningsrapport och kontrollera vilka filer och versioner som ska rensas.
-1. Du kan **Avbryt tömning** eller **Starta tömning**.
+1. Du kan välja att **avbryta rensning** eller **starta tömning**.
 
    ![](assets/download-purge-report.png)
 
    Tömningsstatusen visas.
 
-   Klicka **Ladda ned versionsrensningsrapport** om du vill visa de rensade versionerna. Den här rapporten innehåller rensningsstatus för alla versioner tillsammans med orsaker till varför en viss version kvarstod eller varför den rensades.
+   Klicka på **Hämta rapport om versionsrensning** om du vill visa de rensade versionerna. Den här rapporten innehåller rensningsstatus för alla versioner tillsammans med orsaker till varför en viss version kvarstod eller varför den rensades.
 
 
 >[!NOTE]

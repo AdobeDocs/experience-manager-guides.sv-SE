@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Konfigurera visning av UUID-baserade länkar {#id2035G20M0QN}
 
-Som standard skapas länken med UUID för det refererade innehållet när du skapar en länk med alternativet Infoga referens eller Infoga återanvänd innehåll i webbredigeraren. The **Länk** egenskapen \(i egenskapspanelen\) för det refererade innehållet kan konfigureras så att den relativa filsökvägen för det refererade innehållet eller UUID:t visas. Den här visningen styrs av **Aktivera UUID** i configMgr. Som standard är den PÅ, vilket betyder att UUID för det refererade innehållet visas på egenskapspanelen.
+Som standard skapas länken med UUID för det refererade innehållet när du skapar en länk med alternativet Infoga referens eller Infoga återanvänd innehåll i webbredigeraren. Egenskapen **Link** \(i egenskapspanelen\) för det refererade innehållet kan konfigureras så att den relativa filsökvägen för det refererade innehållet eller UUID:t visas. Den här visningen styrs av alternativet **Aktivera UUID** i configMgr. Som standard är den PÅ, vilket betyder att UUID för det refererade innehållet visas på egenskapspanelen.
 
 Utför följande steg för att visa den relativa sökvägen eller UUID för det refererade innehållet i Web Editor:
 
@@ -26,13 +26,13 @@ Utför följande steg för att visa den relativa sökvägen eller UUID för det 
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Sök efter och klicka på **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** paket.
+1. Sök efter och klicka på paketet **com.adobe.fmdita.xmleditor.config.XmlEditorConfig**.
 
-1. I *XmlEditorConfig* inställningar, **Aktivera UUID** är aktiverat som standard. Det innebär att UUID för det refererade innehållet visas i **Länk** i egenskapspanelen.
+1. I inställningarna för *XmlEditorConfig* är alternativet **Aktivera UUID** aktiverat som standard. Det innebär att UUID för det refererade innehållet visas i egenskapen **Link** på egenskapspanelen.
 
-   Om du vill visa den relativa sökvägen för det länkade innehållet avmarkerar du **Aktivera UUID** alternativ.
+   Om du vill visa den relativa sökvägen för det länkade innehållet avmarkerar du alternativet **Aktivera UUID**.
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.
 
 
 **Överordnat ämne:**[ Anpassa Web Editor](conf-web-editor.md)

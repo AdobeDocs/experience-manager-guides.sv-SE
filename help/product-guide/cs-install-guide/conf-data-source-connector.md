@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Konfigurera en datakällanslutning
 
-AEM Guides innehåller färdiga anslutningar för JIRA-, SQL- (MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), Adobe Commerce och Elasticsearch. Du kan också lägga till andra kopplingar genom att utöka standardgränssnitten. Med följande konfiguration kan du enkelt lägga till olika datakällor. När du har lagt till dem kan du visa datakällorna i Web Editor.
+AEM Guides har färdiga anslutningar för databaserna JIRA, SQL (MySQL, PostgreSQL, Microsoft SQL Server, SQLite, MariaDB, H2DB), Adobe Commerce och Elasticsearch. Du kan också lägga till andra kopplingar genom att utöka standardgränssnitten. Med följande konfiguration kan du enkelt lägga till olika datakällor. När du har lagt till dem kan du visa datakällorna i Web Editor.
 
 Utför följande steg för att konfigurera en datakällanslutning och använd den sedan från Web Editor:
 
@@ -40,7 +40,7 @@ Ett exempel på en installationsfil för Jiras grundläggande autentisering med 
 }
 ```
 
-Spara som `jira.json`.
+Spara till exempel som `jira.json`.
 
 En exempelkonfigurationsfil för Jiras grundläggande autentisering med token:
 
@@ -59,7 +59,7 @@ En exempelkonfigurationsfil för Jiras grundläggande autentisering med token:
 }
 ```
 
-Spara som `jira.json`.
+Spara till exempel som `jira.json`.
 
 Ett exempel på en konfigurationsfil för Jiras grundläggande autentisering med nyckelordet &quot;Basic&quot; i:
 
@@ -78,7 +78,7 @@ Ett exempel på en konfigurationsfil för Jiras grundläggande autentisering med
 }
 ```
 
-Spara som `jira.json`.
+Spara till exempel som `jira.json`.
 
 Ett exempel på en installationsfil för MySQL-autentisering:
 
@@ -99,7 +99,7 @@ Ett exempel på en installationsfil för MySQL-autentisering:
 }
 ```
 
-Spara som `mysql.json`.
+Spara till exempel som `mysql.json`.
 
 Ett exempel på en installationsfil för PostgreSQL:s grundläggande autentisering:
 
@@ -120,7 +120,7 @@ Ett exempel på en installationsfil för PostgreSQL:s grundläggande autentiseri
 }
 ```
 
-Spara som `postgres.json`.
+Spara till exempel som `postgres.json`.
 
 Ett exempel på en installationsfil för Microsoft SQL Server grundläggande autentisering:
 
@@ -141,7 +141,7 @@ Ett exempel på en installationsfil för Microsoft SQL Server grundläggande aut
 }
 ```
 
-Spara som `mssqlserver.json`.
+Spara till exempel som `mssqlserver.json`.
 
 Ett exempel på en installationsfil för SQLite grundläggande autentisering:
 
@@ -162,7 +162,7 @@ Ett exempel på en installationsfil för SQLite grundläggande autentisering:
 }
 ```
 
-Spara som `sqqlite.json`.
+Spara till exempel som `sqqlite.json`.
 
 
 
@@ -185,7 +185,7 @@ En exempelkonfigurationsfil för H2DB:
 }
 ```
 
-Spara som `sqqlite.json`.
+Spara till exempel som `sqqlite.json`.
 
 
 
@@ -208,7 +208,7 @@ Ett exempel på en konfigurationsfil för MariaDb grundläggande autentisering:
 }
 ```
 
-Spara som `mariadb.json`.
+Spara till exempel som `mariadb.json`.
 
 
 Ett exempel på en konfigurationsfil för Elasticsearch grundläggande autentisering:
@@ -228,7 +228,7 @@ Ett exempel på en konfigurationsfil för Elasticsearch grundläggande autentise
 }
 ```
 
-Spara som `ES.json`.
+Spara till exempel som `ES.json`.
 
 Frågan för Elastic Search ska innehålla indexvärdet och frågan:
 
@@ -260,7 +260,7 @@ Ett exempel på en installationsfil för AdobeCommerce NoAuth:
 }
 ```
 
-Spara som `commerce.json`.
+Spara till exempel som `commerce.json`.
 
 ### Anpassa en kopplingskonfiguration
 
@@ -277,10 +277,10 @@ Andra fält anpassas baserat på den config-klass som valts för att köra anslu
 
 Överför filen till någon plats i AEM Assets.
 
-Till exempel:  `/content/dam/jira.json`
+Exempel: `/content/dam/jira.json`
 
 ## Skapa konfiguration med REST API
 
-Du kan registrera konfigurationen med REST API. Mer information finns i *REST API för att registrera en datakällkoppling* i API-referens för Adobe Experience Manager-guider.
+Du kan registrera konfigurationen med REST API. Mer information finns i *REST API för att registrera en datakällanslutning* i API-referensen för Adobe Experience Manager Guides.
 
-När du har konfigurerat datakällan visas kopplingen under panelen Datakällor i Web Editor. Sedan kan du ansluta till datakällan och infoga ett innehållskuvert i dina ämnen. Mer information finns i [Infoga ett innehållssfragment från datakällan](../user-guide/web-editor-content-snippet.md).
+När du har konfigurerat datakällan visas kopplingen under panelen Datakällor i Web Editor. Sedan kan du ansluta till datakällan och infoga ett innehållskuvert i dina ämnen. Mer information finns i [Infoga ett innehållsfragment från datakällan](../user-guide/web-editor-content-snippet.md).

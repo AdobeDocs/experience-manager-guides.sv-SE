@@ -1,6 +1,6 @@
 ---
-title: AEM
-description: Lär dig hur du uppgraderar AEM
+title: Uppgradera AEM Guides
+description: Så här uppgraderar du AEM Guides
 exl-id: 57ae906f-69e3-4319-89f6-0fa9ddb7a3ff
 feature: Installation
 role: Admin
@@ -12,15 +12,15 @@ ht-degree: 0%
 
 ---
 
-# AEM {#id213BD050YPH}
+# Uppgradera AEM Guides {#id213BD050YPH}
 
-1. Gå till din Cloud Managers Git-databas.
+1. Få tillgång till din Cloud Manager Git-databas.
 
 1. Uppdatera dox/dox.installer/pom.xml.
 
 1. Uppdatera värdet för dox.version-variabeln till versionsinformationen som tillhandahålls av Adobe.
 
-1. Genomför ändringarna och kör Cloud Manager-pipeline för att distribuera det uppgraderade paketet.
+1. Genomför ändringarna och kör Cloud Manager pipeline för att distribuera det uppgraderade paketet.
 
 
 >[!NOTE]
@@ -29,6 +29,6 @@ ht-degree: 0%
 
 ## Rensa webbläsarcache
 
-När uppgraderingen är klar måste alla användare rensa webbläsarens cache innan de kan använda den uppgraderade versionen av AEM.
+När uppgraderingen är klar måste alla användare rensa webbläsarens cache innan de kan använda den uppgraderade versionen av AEM Guides.
 
 **Överordnat ämne:**[ Hämta och installera](download-install.md)

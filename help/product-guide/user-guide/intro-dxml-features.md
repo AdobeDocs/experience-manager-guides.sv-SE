@@ -1,5 +1,5 @@
 ---
-title: Funktioner för AEM
+title: Viktiga AEM Guides-funktioner
 description: Utforska de viktigaste funktionerna i AEM Guides, DITA-redigering, innehållshantering, webbaserad granskning, översättning, lokalisering, flerkanalspublicering och integrering av FrameMaker.
 exl-id: 978d7027-08da-40f7-ae9e-bb4d559a84dc
 feature: Introduction
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 ---
 
-# Funktioner för AEM {#id167G9I060SI}
+# Viktiga AEM Guides-funktioner {#id167G9I060SI}
 
 **Kraftfull DITA-redigering och innehållshantering**
 Förbättra produktiviteten avsevärt genom att använda modulär information från en enda källa som är optimerad för återanvändning på detaljnivå \(moduler, komponenter, ord, grafik, multimedia och översättningar\).
@@ -33,7 +33,7 @@ Den inbyggda redigeraren stöder för närvarande följande DITA-standarder:
 >
 > DITA med liten vikt är fortfarande under förslagsstatus och har ännu inte blivit en DITA-standard.
 
-**Nästa generations samarbete genom webbaserad granskning**
+**Nästa generations samarbete via webbaserad granskning**
 Se till att team med flera granskare och flera granskare samarbetar smidigt via ett kraftfullt webbaserat arbetsflöde för granskning, vilket minimerar antalet manuella fel.
 
 AEM Guides har kraftfulla och lättanvända webbaserade granskningsfunktioner. Du kan skicka flera DITA-ämnen för granskning samtidigt. Granskningsfunktionen säkerställer att dokumentets innehåll granskas effektivt. Författare och granskare kan enkelt samarbeta om ändringar under pågående granskningar. Granskarna kan övervaka skillnaderna från tidigare versioner för att se om feedback har lagts in på rätt sätt. Administratörer kan spåra historiken för granskningsåtgärder med den funktionsrika kontrollpanelen.
@@ -53,7 +53,7 @@ Med det inbyggda DITA-stödet i Experience Manager kan du generera utdata för E
 **Omfattande data om sökning och innehållsanvändning**
 Hitta och välj relevant innehåll snabbare och maximera avkastningen på innehållet vid varje återanvändning. Utför grundläggande och avancerade sökningar med hjälp av innehållsattribut och metadata i hela databasen via ett enkelt gränssnitt i DITA-utvecklingsverktyget. Resultaten är taggade med användningsdata som hjälper dig att enkelt identifiera och välja rätt innehåll för optimal återanvändning.
 
-**Detaljerade rapporter om publiceringsberedskap**
+**Ingående rapporter om publiceringsberedskap**
 Gör publiceringen felfri genom att enkelt kontrollera och korrigera innehållet innan det publiceras. Håll ett vakande öga på systemhälsan genom att enkelt få tillgång till olika rapporter på DITA-kartnivå. Du kan kontrollera antalet saknade ämnen, brutna länkar eller referenser samt status för granskningar och översättningar för alla ämnen. Du kan också använda rapporterna för att utföra omfattande säkerhetskontroller i de sista stegen före publicering.
 
 **Omfattande stöd för tagghantering för personaliserade utdata**\
@@ -64,15 +64,15 @@ Få en snabb och smidig upplevelse när du arbetar med Experience Manager och Fr
 
 Den nära integreringen av Experience Manager och FrameMaker via en inbyggd anslutning gör att du kan arbeta smidigt med innehållskatalogen för Experience Manager. Dra nytta av kopplingen för att snabbt komma igång med att skapa, granska och söka i DITA-material.
 
-Med AEM-kopplingen i FrameMakerna kan du hantera FrameMaker. Med AEM kan du enkelt överföra dina DITA-dokument och andra FrameMaker (.book och .fm) på AEM. Med AEM Guides kan du även publicera FrameMaker-dokument direkt från AEM. Om din FrameMaker-bokfil innehåller en kombination av DITA- och .fm-filer kan AEM publicera sådana dokument också. För närvarande kan du publicera FrameMakernas .book- och .fm-filer i formaten PDF, HTML och EPUB.
+Med AEM-kopplingen i FrameMakerna kan du hantera FrameMaker. Med AEM kan du enkelt överföra dina DITA-dokument och andra FrameMaker (.book och .fm) på AEM. Med AEM Guides kan du även publicera FrameMaker direkt från AEM. Om din FrameMaker-bokfil innehåller en kombination av DITA- och .fm-filer kan AEM Guides även publicera sådana dokument. För närvarande kan du publicera FrameMakernas .book- och .fm-filer i formaten PDF, HTML och EPUB.
 
 ## Ytterligare resurser
 
-Nedan följer en lista över andra användbara resurser i AEM, som finns på sidan [Läs mer &amp; Support](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html) sida:
+Nedan följer en lista över andra användbara resurser i AEM Guides som finns på sidan [Lär dig mer och support](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html):
 
 * Användarhandbok
 * Referenshandbok för API
 * Snabbstartsguide
-* [Hjälp* Arkiveringssida](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) (åtkomst till äldre versionsdokumentation)
+* [Hjälp* Arkiveringssida](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) (använd äldre versionsdokumentation)
 
 **Överordnat ämne:**[ Om Adobe Experience Manager Guides as a Cloud Service](intro.md)

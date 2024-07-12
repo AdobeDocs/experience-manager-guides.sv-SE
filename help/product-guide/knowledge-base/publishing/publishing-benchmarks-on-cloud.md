@@ -13,21 +13,21 @@ ht-degree: 4%
 
 # AEM Guides Publishing Benchmarks on AEMaaCS
 
-För närvarande AEM Guides molntjänst har vissa gränser för publiceringskartor, som Guides team aktivt arbetar med att lösa.
+AEM Guides molntjänst har för närvarande vissa begränsningar för publiceringskartor som Guidad-teamet arbetar med att lösa.
 
-Guides Team har introducerat en skalbar publiceringsmikrotjänst för stöd till stora kartor och flera samtidiga publiceringstillfällen. Mer information om den nya publiceringsmikrotjänsten finns i [publicera mikrotjänstarkitektur](publish-microservice-architecture-and-performance.md)
+Guides Team har introducerat en skalbar publiceringsmikrotjänst för stöd till stora kartor och flera samtidiga publiceringstillfällen. Mer information om den nya publiceringsmikrotjänsten finns i [publiceringsarkitekturen för mikrotjänster](publish-microservice-architecture-and-performance.md)
 
-Om du vill konfigurera den nya publiceringstjänsten för valfri AEM molnmiljö, se [konfigurera ny mikrotjänstbaserad publicering](configure-microservices.md)
+Information om hur du konfigurerar den nya publiceringstjänsten för AEM molnmiljö finns i [Konfigurera ny mikrotjänstbaserad publicering](configure-microservices.md)
 
 
 ## Körningsmiljö
 
-    AEM: 2023.5.11983.20230511T173830Z
-    Guide Add On Release: 2023.6.0
-    AEM platsmall: AEM guider OOTB-mall
-    DITA-OT-version: 3.5.4
-    Typ av publiceringsarbetsflöde: Dela publiceringsarbetsflöde
-    Utdata som stöds av mikrotjänsten: PDF, PDF (Dita-OT)
+    AEM utgåva: 2023.5.11983.20230511T173830Z
+    Guiden Lägg till i utgåva: 2023.6.0
+    AEM Webbplatsmall: AEM Guides OTB-mall
+    DITA-OT version: 3 .5.4
+    Publish Workflow Type: Split Publish Workflow
+    Output supported by microservice: Native PDF, PDF (Dita-OT)
 
 ## Genereringsnummer för utdata
 

@@ -1,6 +1,6 @@
 ---
 title: Tekniska krav
-description: Lär dig de tekniska kraven för Adobe Experience Manager Guides
+description: Läs om de tekniska kraven för Adobe Experience Manager Guides
 exl-id: d69245b0-bf20-43c1-b46e-b6c220319690
 feature: Introduction, Installation
 role: Admin
@@ -22,7 +22,7 @@ Kontrollera att datorn uppfyller följande tekniska krav innan du installerar AE
 
 >[!IMPORTANT]
 >
-> För AEM av webbplatsens utdata måste AEM publiceringsinstans ha Service Pack 20, 19, 18 eller 17.
+> För AEM av webbplatsens utdata måste den AEM publiceringsinstansen ha Service Pack 20, 19, 18 eller 17.
 
 **Operativsystem**
 

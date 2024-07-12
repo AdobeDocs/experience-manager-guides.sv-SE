@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # Konfigurera en uppmaning om att checka in en fil vid stängning {#id222HC040PE8}
 
-När användaren försöker stänga en fil som är öppnad i Web Editor med **Stäng** på fliken eller **Stäng** på Alternativ-menyn visas en dialogruta om filen innehåller osparade data eller en osparad version. Användaren uppmanas att låsa upp filen om den är låst.
+När användaren försöker stänga en fil som har öppnats i Web Editor med knappen **Stäng** på filens flik eller med alternativet **Stäng** på Alternativ-menyn, visas en dialogruta om filen innehåller data som inte har sparats eller en version som inte har sparats. Användaren uppmanas att låsa upp filen om den är låst.
 
-The **Lås upp filen** kryssrutan är inte aktiverad som standard och du måste aktivera den från configMgr. Följ de här stegen för att aktivera alternativet som standard i Web Editor:
+Kryssrutan **Lås upp filen** är inte aktiverad som standard och du måste aktivera den från configMgr. Följ de här stegen för att aktivera alternativet som standard i Web Editor:
 
 1. Öppna konfigurationssidan för Adobe Experience Manager Web Console.
 
@@ -26,15 +26,15 @@ The **Lås upp filen** kryssrutan är inte aktiverad som standard och du måste 
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Sök efter och klicka på **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** paket.
+1. Sök efter och klicka på paketet **com.adobe.fmdita.xmleditor.config.XmlEditorConfig**.
 
-1. Välj **Fråga efter incheckning vid stängning** alternativ.
+1. Välj alternativet **Fråga efter incheckning vid stängning**.
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.
 
 
-När den här konfigurationen är aktiverad visas **Lås upp filen** är markerad som standard i dialogrutan.
+När den här konfigurationen är aktiverad är kryssrutan **Lås upp filen** markerad som standard i dialogrutan.
 
-Mer information finns i *Stäng filer och spara scenarier* i den as a Cloud Service guiden Använda Adobe Experience Manager Guides.
+Mer information finns i avsnittet *Stäng och spara scenarier* i Använda Adobe Experience Manager Guides as a Cloud Service Guide.
 
 **Överordnat ämne:**[ Anpassa Web Editor](conf-web-editor.md)

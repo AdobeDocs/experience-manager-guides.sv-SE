@@ -20,13 +20,13 @@ Utför följande steg för att skriva över standardlistan med specialtecken:
 
 1. Logga in AEM och öppna läget CRXDE Lite.
 
-1. skapa `symbols.json` på följande plats:
+1. skapa filen `symbols.json` på följande plats:
 
    ```json
    /apps/fmdita/xmleditor/
    ```
 
-1. Lägg till specialteckendefinitionen i dialogrutan `symbols.json` fil som:
+1. Lägg till specialteckendefinitionen i filen `symbols.json` som:
 
    ```json
    {"symbols": [{"label": "Arrows",
@@ -39,11 +39,11 @@ Utför följande steg för att skriva över standardlistan med specialtecken:
    ```
 
 
-Strukturen för `symbols.json` filen förklaras nedan:
+Strukturen för filen `symbols.json` förklaras nedan:
 
-- `"label": "Arrows"`: Detta anger kategorin för specialtecknen. I fragmentet finns en kategori med namnet `"Arrows"` är definierad.
+- `"label": "Arrows"`: Detta anger kategorin för specialtecknen. I fragmentet definieras en kategori med namnet `"Arrows"`.
 - `"items"`: Detta definierar samlingen av specialtecken i kategorin.
-- `"name": "←", "title": "Left Arrow"`: Detta är definitionen av specialtecknet. Det börjar med `"name"` label, som inte får ändras. Namnet följs av specialtecknet. The `"title"` är namnet eller titeln på specialtecknet som visas som verktygstips för specialtecknet.
+- `"name": "←", "title": "Left Arrow"`: Detta är definitionen av specialtecknet. Den börjar med etiketten `"name"` som inte får ändras. Namnet följs av specialtecknet. `"title"` är namnet eller titeln på specialtecknet som visas som verktygstips för det specialtecknet.
 
   Du kan definiera flera definitioner av specialtecken i en kategori.
 

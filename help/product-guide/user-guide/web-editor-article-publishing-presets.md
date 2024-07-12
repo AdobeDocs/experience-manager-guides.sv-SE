@@ -1,6 +1,6 @@
 ---
 title: Skapa förinställningar från Web Editor
-description: Skapa förinställningar från webbredigeraren. Lär dig hur du redigerar, byter namn på, duplicerar och tar bort en förinställning AEM stödlinjer.
+description: Skapa förinställningar från webbredigeraren. Lär dig hur du redigerar, byter namn på, duplicerar och tar bort en förinställning för utdata i AEM Guides.
 exl-id: cd38b039-ef91-45c9-a226-433e57b09873
 feature: Authoring, Features of Web Editor, Publishing
 role: User
@@ -15,11 +15,11 @@ ht-degree: 0%
 
 Följ de här stegen för att skapa förinställningar för DITA-kartan:
 
-1. Navigera i resursgränssnittet till den kartfil som du vill redigera.
+1. Navigera i Assets-gränssnittet till den kartfil som du vill redigera.
 
 1. Om du vill låsa kartfilen exklusivt markerar du kartfilen och klickar på **Checka ut**.
 
-1. Välj **Redigera ämnen** på kartfilens åtgärdsmeny.
+1. Välj alternativet **Redigera ämnen** på Åtgärdsmenyn i kartfilen.
 
    Kartfilen öppnas för redigering i Web Editor.
 
@@ -27,7 +27,7 @@ Följ de här stegen för att skapa förinställningar för DITA-kartan:
    >
    > Du kan lägga till eller ta bort alla ämnen från kartan med hjälp av den avancerade kartredigeraren. Mer information finns i [Arbeta med den avancerade kartredigeraren](map-editor-advanced-map-editor.md#).
 
-1. I **Utdata** väljer du ikonen + för att skapa en förinställning för DITA-kartan.
+1. Välj ikonen + på fliken **Utdata** om du vill skapa en förinställning för DITA-kartan.
 
    ![](images/output-tab-preset_cs.png){width="350" align="left"}
 
@@ -35,19 +35,19 @@ Följ de här stegen för att skapa förinställningar för DITA-kartan:
 
 1. Ange följande konfigurationsinformation.
 
-   1. Välj önskade alternativ i dialogrutan **Allmänt** -fliken. Du kan välja att skapa en förinställning med eller utan villkor. Du kan också använda en DITVAL-fil. Med AEM kan du även välja en baslinje för publicering av en specifik version av DITA-kartan.
-   1. Ange AEM platsinformation i dialogrutan **AEM** -fliken. **Plats** I visas en lista med de AEM Sites som finns i din AEM. **Kategori**, **Avsnittsmall** och **Artikelmall** är de strukturella komponenter som används för att ordna utdatafilens utseende och känsla. Dessa är fördefinierade i AEM platsmall.
+   1. Välj önskade alternativ på fliken **Allmänt**. Du kan välja att skapa en förinställning med eller utan villkor. Du kan också använda en DITVAL-fil. I AEM Guides kan du också välja en baslinje för publicering av en specifik version av din DITA-karta.
+   1. Ange AEM webbplatsinformation på fliken **AEM**. **Plats** visar en lista över de AEM Sites som finns i din AEM. **Kategori**, **Avsnittsmall** och **Artikelmall** är de strukturella komponenter som används för att ordna utdatafilens utseende och känsla. Dessa är fördefinierade i AEM platsmall.
 
       >[!NOTE]
       >
       > Uppdatera varje listruta för att få ytterligare klassificering i nästa listruta.
 
-   1. Från **Artiklar** väljer du de ämnen som du vill generera utdata för.
-1. Välj **Generera förinställning** längst upp för att generera utdata.
+   1. På fliken **Artiklar** väljer du de ämnen som du vill generera utdata för.
+1. Välj ikonen **Generera förinställning** längst upp för att generera utdata.
 
    ![](images/add-preset-articles-tab_cs.png){width="800" align="left"}
 
-1. Du ser status för genereringsprocessen för utdata. The **Ämnen** -kolumnen listar de ämnen som utdata genereras för när **Status** -kolumnen visar publiceringsstatusen för varje ämne.
+1. Du ser status för genereringsprocessen för utdata. Kolumnen **Ämnen** visar ämnen som utdata genereras för medan kolumnen **Status** visar publiceringsstatusen för varje ämne.
 
    Om du vill visa utdata för du muspekaren över avsnittet och klickar på Visa utdata.
 

@@ -1,5 +1,5 @@
 ---
-title: Publiceringsfunktion för PDF | Designa en sidlayout
+title: PDF Publish-funktion | Designa en sidlayout
 description: Lär dig hur du utformar sidlayouten för att presentera information i olika delar av PDF.
 exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
 feature: Output Generation
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 När du skapar ett PDF-dokument har du olika avsnitt för olika typer av information. Ett PDF-dokument kan till exempel börja med en framsida eller en försättssida, som skulle innehålla företagets logotyp, boktitel eller versionsinformation. Då finns det kapitel, bilagor eller ordlistor. Varje avsnitt i ett PDF-dokument ser olika ut och det uppnås genom att sidlayouten skapas och anpassas.
 
-När du utformar en sidlayout kan du definiera de olika elementen som utgör en sida. Du kan till exempel definiera sidstorlek, marginaler, sidhuvud och sidfot, orientering och andra sidspecifikationer på en sida. Med publiceringsfunktionen för PDF kan du utforma din sida enligt [Page Media-standarder](https://www.w3.org/TR/css-page-3/). De flesta inställningar som omfattas av Paged Media-standarderna kan enkelt anpassas med hjälp av publiceringsfunktionen i PDF. För viss annan formatering på avancerad nivå kan du använda källvyn för att skriva egen CSS-kod.
+När du utformar en sidlayout kan du definiera de olika elementen som utgör en sida. Du kan till exempel definiera sidstorlek, marginaler, sidhuvud och sidfot, orientering och andra sidspecifikationer på en sida. Med funktionen för publicering i PDF kan du utforma din sida enligt [sidmediestandarden](https://www.w3.org/TR/css-page-3/). De flesta inställningar som omfattas av Paged Media-standarderna kan enkelt anpassas med hjälp av publiceringsfunktionen i PDF. För viss annan formatering på avancerad nivå kan du använda Source-vyn för att skriva egen CSS-kod.
 
-När du har utformat sidlayouten måste du koppla de här layouterna till deras respektive avsnitt i inställningarna för sidlayout på PDF. Se [Skapa och anpassa sidlayouter](components-pdf-template.md#create-customize-page-layout) om du vill ha mer information om hur du skapar och öppnar en sidlayout för anpassning.
+När du har utformat sidlayouten måste du koppla de här layouterna till deras respektive avsnitt i inställningarna för sidlayout på PDF. I avsnittet [Skapa och anpassa sidlayouter](components-pdf-template.md#create-customize-page-layout) finns mer information om hur du skapar och öppnar en sidlayout för anpassning.
 
 ## Typer av sidlayouter {#types-of-page-layout}
 
@@ -34,9 +34,9 @@ Ett PDF-dokument innehåller vanligtvis följande avsnitt:
 * Index
 * Baksida
 
-Dessa avsnitt behöver en motsvarande sidlayout för att visa informationen i ett visst format. Dessutom kan du ha en tom sida som används som utfyllnadstecken för att starta ett nytt kapitel från en udda eller jämn sida. I så fall kan du antingen använda standardsidlayouten eller skapa en sidlayout för en tom sida. Se [Skapa en ny sidlayout](components-pdf-template.md#create-page-layout) för mer information.
+Dessa avsnitt behöver en motsvarande sidlayout för att visa informationen i ett visst format. Dessutom kan du ha en tom sida som används som utfyllnadstecken för att starta ett nytt kapitel från en udda eller jämn sida. I så fall kan du antingen använda standardsidlayouten eller skapa en sidlayout för en tom sida. Mer information finns i [Skapa en ny sidlayout](components-pdf-template.md#create-page-layout).
 
-Inställningarna för sidlayout under **Mall>Inställningar** kan du definiera vilken sidlayout som ska användas för olika avsnitt i PDF. Varje sidlayout kan ha olika varianter för första, högra och vänstra sidan.
+Med sidlayoutsinställningarna under avsnittet **Mall>Inställningar** kan du definiera vilken sidlayout som ska användas för olika avsnitt i PDF. Varje sidlayout kan ha olika varianter för första, högra och vänstra sidan.
 
 ### Skapa de första, högra eller vänstra sidlayoutvarianterna {#page-layout-variants}
 
@@ -62,7 +62,7 @@ Tänk på följande när du skapar sidlayouterna:
 
   >[!NOTE]
   >
-  >Om du inte skapar en separat tom sidlayout används standardsidlayouten. Information om hur du skapar en sidlayout finns i [Skapa en ny sidlayout](components-pdf-template.md#create-page-layout).
+  >Om du inte skapar en separat tom sidlayout används standardsidlayouten. Mer information om hur du skapar en sidlayout finns i [Skapa en ny sidlayout](components-pdf-template.md#create-page-layout).
 
 I följande exempel får du hjälp med att skapa varianter av en sidlayout:
 
@@ -78,11 +78,11 @@ I följande exempel får du hjälp med att skapa varianter av en sidlayout:
 
    >[!NOTE]
    >
-   >Om du vill ha en mer avancerad konfiguration kan du använda källvyn och lägga till din anpassade HTML- och CSS-kod.
+   >Om du vill ha en mer avancerad konfiguration kan du använda Source-vyn och lägga till en anpassad HTML- och CSS-kod.
 
-1. Pekaren över **Kapitel** layout och klicka **Alternativ** för att visa snabbmenyn.
+1. Håll muspekaren över layouten **Kapitel** och klicka på **Alternativ** för att visa snabbmenyn.
 
-1. Klicka eller hovra muspekaren över **Lägg till layoutvariant** och välj önskad sidlayout (Första, Vänster eller Höger) som du vill skapa.
+1. Klicka eller håll muspekaren över **Lägg till layoutvariant** och välj önskad sidlayout (första, vänster eller höger) som du vill skapa.
 
 Den valda sidlayouten skapas med en kopia av den grundläggande kapitellayouten. Det innebär att om du har gjort några ändringar i standardlayouten för kapitelsidor, kommer samma ändringar att replikeras i variantsidlayouten när sidlayouten skapas.
 
@@ -92,18 +92,18 @@ När du utformar en sidlayout är det viktigt att du har kontroll över olika si
 
 >[!NOTE]
 >
->Panelen Sidegenskaper kapslar in egenskaperna och följer regler som definierats under [Page Media-standarder](https://www.w3.org/TR/css-page-3/).
+>Panelen Sidegenskaper kapslar in egenskaperna och följer regler som definierats under [Page Media-standarden](https://www.w3.org/TR/css-page-3/).
 
-* **Sidstorlek** : Ange den sidstorlek som du vill använda för sidlayouten. I listrutan Sidstorlek kan du välja mellan över 15 sidstorlekar. Du kan också skapa en sidlayout med en anpassad sidstorlek, se [Ange sidstorlek](#set-page-size) för mer information.
+* **Sidstorlek** : Ange den sidstorlek som du vill använda för sidlayouten. I listrutan Sidstorlek kan du välja mellan över 15 sidstorlekar. Du kan också skapa en sidlayout med en anpassad sidstorlek. Mer information finns i [Ange sidstorleken](#set-page-size).
 
 * **Orientering** : Ange den sidorientering som ska användas för sidlayouten. Du kan välja mellan stående eller liggande sidorientering. Observera att du kan välja att använda olika orienteringar för olika sidvarianter i en sidlayout. Om innehållet till exempel innehåller en bred tabell eller en stor bild kan du skapa en liggande sidlayout och använda den layouten på den bredare tabellen eller bilden.
 
-* **Visa rotation** : Ange den sida eller riktning som den ursprungliga översta sidan visas i efter rotation. Du kan välja mellan 90 grader medsols, 90 grader moturs eller 180 grader moturs. Detta är mycket användbart i en situation där du vill använda en kombination av stående och liggande layouter i utdata. Du kan till exempel använda stående som allmän sidlayout och du kan ange en liggande sidlayout för att återge breda tabeller. I så fall kan du ange att tabellinnehållet ska visas medsols 90 grader. På så sätt orienteras sidan liggande och innehållet roteras 90 grader för att kontinuiteten ska kunna bibehållas. Vi kommer att se hur detta uppnås som ett exempel senare i detta avsnitt.
+* **Vyrotation** : Ange den sida eller riktning som den ursprungliga översta sidan visas i efter rotation. Du kan välja mellan 90 grader medsols, 90 grader moturs eller 180 grader moturs. Detta är mycket användbart i en situation där du vill använda en kombination av stående och liggande layouter i utdata. Du kan till exempel använda stående som allmän sidlayout och du kan ange en liggande sidlayout för att återge breda tabeller. I så fall kan du ange att tabellinnehållet ska visas medsols 90 grader. På så sätt orienteras sidan liggande och innehållet roteras 90 grader för att kontinuiteten ska kunna bibehållas. Vi kommer att se hur detta uppnås som ett exempel senare i detta avsnitt.
 
-* **Sidnumrering** :Sidnumreringen är som standard kontinuerlig i PDF. En PDF med 100 sidor kan till exempel ha kontinuerliga sidnummer mellan 1 och 100. Du kan också starta om numreringen från ett visst nummer i alla olika avsnitt eller den första förekomsten av ett avsnitt.
-   * **Starta om från** : Ange vilket sidnummer som sidlayouten ska börja från. Du kan till exempel ange att sidnumret ska startas om för varje kapitel. I så fall måste du ställa in omstarten från egenskap till 1 på layoutvarianten för första sidan i kapitelsidans layout. Som standard fortsätter sidnumreringen från föregående sida.
+* **Sidnumrering** : Sidnumreringen är som standard kontinuerlig i PDF. En PDF med 100 sidor kan till exempel ha kontinuerliga sidnummer mellan 1 och 100. Du kan också starta om numreringen från ett visst nummer i alla olika avsnitt eller den första förekomsten av ett avsnitt.
+   * **Starta om från** : Ange det sidnummer från vilket sidlayouten ska börja. Du kan till exempel ange att sidnumret ska startas om för varje kapitel. I så fall måste du ställa in omstarten från egenskap till 1 på layoutvarianten för första sidan i kapitelsidans layout. Som standard fortsätter sidnumreringen från föregående sida.
 
-   * **Använd endast på den första förekomsten**: Du kan också börja från ett visst nummer för den första förekomsten av ett avsnitt. Du kan t.ex. starta endast det första kapitlet från 1 och fortsätta med sidnumren för andra kapitel.
+   * **Använd endast på den första förekomsten**: Du kan också starta från ett visst nummer för den första förekomsten av ett avsnitt. Du kan t.ex. starta endast det första kapitlet från 1 och fortsätta med sidnumren för andra kapitel.
 
 * **Layout** : Ange sidmarginaler tillsammans med utfyllnad för övre, nedre, vänstra och högra sidor. Följande bild förklarar hur marginaler, utfyllnad och kanter återges runt innehållet. Observera att marginalen längst upp och längst ned på en sida innehåller sidhuvudet och sidfoten.
 
@@ -123,12 +123,12 @@ Det första du behöver definiera i en sidlayout är sidstorleken. I Sidegenskap
    >
    >Se [Anpassa en sidlayout](components-pdf-template.md#customize-page-layout) för att öppna en sidlayout för anpassning eller redigering.
 
-1. Klicka på i den högra panelen **Sidegenskaper**.
-1. I **Sidstorlek** nedrullningsbar lista, välja **Egen**.
+1. Klicka på **Sidegenskaper** i den högra panelen.
+1. I listrutan **Sidstorlek** väljer du **Egen**.
 
    Fälten Sidbredd och Sidhöjd visas.
 
-1. Ange önskade sidstorlekar i dialogrutan **Sidbredd** och **Sidhöjd** fält.
+1. Ange önskade sidmått i fälten **Sidbredd** och **Sidhöjd**.
 
    >[!NOTE]
    >
@@ -146,7 +146,7 @@ För att uppnå den här typen av utdata måste vi utföra följande huvudsaklig
 
 1. Skapa en sidlayout med liggande orientering.
 
-1. Ändra **Visa rotation** för att återge innehåll i 90°.
+1. Ändra egenskapen **Visa rotation** om du vill återge innehåll i 90°.
 
 1. Skapa ett anpassat format för den nya sidlayouten.
 
@@ -157,51 +157,51 @@ Utför följande steg för att utföra ovanstående åtgärder:
 1. Skapa en sidlayout med liggande orientering.
    1. Skapa en liggande sidlayout med hjälp av stegen under Skapa en ny sidlayout.
 
-   1. Klicka på i den högra panelen **Sidegenskaper**.
+   1. Klicka på **Sidegenskaper** i den högra panelen.
 
       <img src="./assets/page-properties-panel.png" width="300">
-   1. Ändra **Orientering** till **Liggande**.
+   1. Ändra **orienteringen** till **Liggande**.
 
 1. Ändra egenskapen Visa rotation om du vill återge innehåll 90° medsols.
 
-   1. Välj **90° medsols** i listrutan Vyrotation.
+   1. Välj **Medsols 90°** i listrutan Vyrotation.
    <img src="./assets/view-rotation-page-props.png" width="300">
 
-   1. Klicka **Savel All** om du vill spara de uppdaterade sidlayoutegenskaperna.
+   1. Klicka på **Spara alla** för att spara de uppdaterade sidlayoutegenskaperna.
 
 1. Skapa ett anpassat format för den nya sidlayouten.
    1. Expandera den vänstra sidlisten och dubbelklicka på mallen som du vill skapa formatet i.
 
    1. Expandera avsnittet Formatmallar.
 
-   1. Håll muspekaren över layoutformatmallen och klicka på (_Alternativ_ ) ... och väljer Redigera.
+   1. Håll pekaren över layoutformatmallen och klicka på ikonen (_Alternativ_ ) ... och välj Redigera.
 
       Layoutformatmallen öppnas för redigering.
 
-   1. Högerklicka på **Andra format** och välja **Nytt format**.
+   1. Högerklicka på **Andra format** och välj **Nytt format**.
       <img src="./assets/stylesheet-other-new-style.png" width="300">
 
-   1. I popup-rutan Lägg till format anger du **liggande stil** i **klassnamn**.
+   1. Ange **liggande stil** i **klassnamnet** i popup-fönstret Lägg till stil.
       <img src="./assets/stylesheet-new-landscape-style.png" width="400">
 
-   1. Klicka **Klar**.
+   1. Klicka på **Klar**.
 
       Ett nytt format med namnet `.landscape-style` skapas och läggs till i slutet av listan Andra format.
 
-   1. Dubbelklicka på `.landscape-style` stil för att öppna den för redigering.
+   1. Dubbelklicka på formatet `.landscape-style` för att öppna det för redigering.
 
-   1. Expandera **Sidnumrering** -egenskap.
+   1. Expandera egenskapen **Sidnumrering**.
 
-   1. Retur `Landscape` i **Sidlayout** -egenskap.
+   1. Ange `Landscape` i egenskapen **Sidlayout**.
 
       <img src="./assets/new-style-with-landscape-layout.png" width="500">
 
-   1. Klicka **Savel All** om du vill spara de uppdaterade formategenskaperna.
+   1. Klicka på **Spara alla** om du vill spara de uppdaterade formategenskaperna.
 
-1. Lägg till formatet i `outputclass` definition av den tabell som ska återges i liggande sidlayout.
+1. Lägg till formatet i definitionen `outputclass` för tabellen som ska återges i liggande sidlayout.
    1. Öppna filen där du vill använda den nya sidlayouten i en DITA-filredigerare.
 
-   1. Hitta `<table>` -element som ska återges i liggande läge.
+   1. Hitta elementet `<table>` som ska återges i liggande läge.
 
    1. Markera tabellen genom att klicka på tabellelementet i den synliga sökvägen.
 
@@ -209,11 +209,11 @@ Utför följande steg för att utföra ovanstående åtgärder:
 
    1. Klicka på och öppna panelen Innehållsegenskaper i den högra panelen.
 
-   1. Lägg till en ny i panelen Innehållsegenskaper **outputClass** egenskap med **liggande stil** som egenskapsvärde.
+   1. Lägg till en ny **outputClass** -egenskap med **landscape-style** som egenskapsvärde på panelen Innehållsegenskaper.
 
       <img src="./assets/new-style-table-outputclass.png" width="300">
 
-1. Klicka **Savel All** för att spara den uppdaterade filen.
+1. Klicka på **Spara alla** för att spara den uppdaterade filen.
 1. Generera utdata från PDF.
 
 Tabellinnehållet återges i liggande läge i det slutliga PDF.
@@ -232,11 +232,11 @@ Om du till exempel vill infoga en bakgrundsbild i mitten av innehållsområdet u
 
 1. Klicka var som helst i innehållsområdet.
 
-1. Klicka på i den högra panelen **Sidegenskaper**.
+1. Klicka på **Sidegenskaper** i den högra panelen.
 
-1. Expandera **Bakgrund** -avsnitt.
+1. Expandera avsnittet **Bakgrund**.
 
-1. Klicka på knappen Bläddra i **Bildbana** platsfält.
+1. Klicka på bläddringsknappen i fältet **Bildsökväg**.
 
 1. Bläddra till och välj den bild som du vill använda som bakgrundsbild.
 
@@ -254,7 +254,7 @@ Om du till exempel vill infoga en bakgrundsbild i mitten av innehållsområdet u
 
    * **Bakgrundsposition** : Ange en position för bakgrundsbilden på sidan.
 
-På följande skärmbild visas bakgrundsbilden med egenskapen Bakgrundsupprepa inställd på _ingen upprepning_ och egenskapen Bakgrundsposition är inställd på _mitten_.
+På följande skärmbild visas bakgrundsbilden med egenskapen Upprepa bakgrund inställd på _ingen upprepning_ och egenskapen Background Position inställd på _center_.
 
 <img src="./assets/background-image.png" width="500">
 
@@ -274,9 +274,9 @@ Som standard är sidhuvud- och sidfotsmarginalerna inställda på 1 tum. Du kan 
    >
    >Se [Anpassa en sidlayout](components-pdf-template.md#customize-page-layout) för att öppna en sidlayout för anpassning eller redigering.
 
-1. Klicka på i den högra panelen **Sidegenskaper**.
-1. Expandera **Layout** -avsnitt.
-1. Klicka på låsikonen bredvid **Marginal** -egenskap.
+1. Klicka på **Sidegenskaper** i den högra panelen.
+1. Expandera avsnittet **Layout**.
+1. Klicka på låsikonen bredvid egenskapen **Marginal** .
 1. Om du vill ändra rubrikstorleken anger du det önskade värdet i fältet Övre marginal.
 
    >[!NOTE]
@@ -285,7 +285,7 @@ Som standard är sidhuvud- och sidfotsmarginalerna inställda på 1 tum. Du kan 
 
 1. Om du vill ändra sidfotsstorleken anger du det önskade värdet i fältet Undre marginal.
 
-Du kan utforma sidhuvuds- och sidfotsområdet så att det innehåller flera rader. Om du vill göra det lägger du till ett \&lt;p> tagg med Infoga HTML-element (<img src="./assets/insert-html-element-2.svg" width="25">) i sidhuvuds- och sidfotsområdet.
+Du kan utforma sidhuvuds- och sidfotsområdet så att det innehåller flera rader. Om du vill göra det lägger du till en \&lt;p\>-tagg med hjälp av Infoga HTML-element (<img src="./assets/insert-html-element-2.svg" width="25">) i sidhuvuds- eller sidfotsområdet.
 
 | _Developer Corner_: <img src="./assets/developer-corner-icon.svg" width="25"> |
 |---|
@@ -318,7 +318,7 @@ Om du inte vill att en sidlayout ska ha ett sidhuvud och en sidfot, finns det tv
 Beroende på dina behov kan du lägga till en bild som visas i sidhuvudsområdet (eller någon annan del) i sidlayouten. Det finns två sätt att lägga till en bild i sidlayouten:
 
 * Använd en bild från mallresurserna.
-* Använd \&lt;add image=&quot;&quot;> i sidlayoutredigeraren.
+* Använd verktyget \&lt;Lägg till bild\> i sidlayoutredigeraren.
 
 >[!NOTE]
 >
@@ -332,19 +332,19 @@ Så här infogar du en bild som ditt företags logotyp i sidhuvudsområdet:
 >
 >Se [Anpassa en sidlayout](components-pdf-template.md#customize-page-layout) för att öppna en sidlayout för anpassning eller redigering.
 
-1. Klicka på Redigera sidhuvud (<img src="./assets/header-icon.svg" width="25">) för att föra markören in i sidhuvudsområdet.
+1. Klicka på Redigera sidhuvud (<img src="./assets/header-icon.svg" width="25">) för att föra markören i sidhuvudsområdet.
 
    Du kan också klicka inuti sidhuvudsområdet.
 
 1. Om du vill lägga till en bild väljer du någon av följande metoder:
-1. Klicka på **Infoga bild** (<img src="./assets/insert-image-icon.svg" width="25">) i verktygsfältet; i **Markera bana** popup, bläddra till bildplatsen och klicka på **Välj** för att infoga den i sidhuvudsområdet.
+1. Klicka på **Infoga bild** (<img src="./assets/insert-image-icon.svg" width="25">) i verktygsfältet. I popup-fönstret **Välj sökväg** bläddrar du till bildplatsen och klickar på **Markera** för att infoga den i sidhuvudsområdet.
 1. Dra och släpp en bild från resursmappen i sidhuvudsområdet.
 
 I följande skärmbild visas en exempelbild som lagts till i sidhuvudsområdet.
 
 <img src="./assets/image-in-header-area.png" width="500">
 
-När en bild har infogats kan du ändra dess attribut så att den ser ut som du vill ha den. Det enklaste sättet att ändra hur en bild eller något annat element på sidlayouten ser ut är att använda panelen Innehållsegenskaper. Se [Arbeta med panelen Innehållsegenskaper](#work-with-content-props) för de olika egenskaper som är tillgängliga via användargränssnittet för anpassning.
+När en bild har infogats kan du ändra dess attribut så att den ser ut som du vill ha den. Det enklaste sättet att ändra hur en bild eller något annat element på sidlayouten ser ut är att använda panelen Innehållsegenskaper. Se [Arbeta med panelen Innehållsegenskaper](#work-with-content-props) för de olika egenskaper som är tillgängliga via gränssnittet för att anpassas.
 
 ### Lägga till fält och metadata {#add-fields-metadata}
 
@@ -363,26 +363,26 @@ Det finns följande kategorier för fält som du kan infoga i sidlayouten:
 * Tid
 
 
-Var och en av dessa fältkategorier innehåller olika variationer där fältinformationen kan infogas. Ett datumfält kan t.ex. ha olika variationer, t.ex. `YYYY-MM-DD`, `MM/DD/YY`, `MM/DD/YYYY` och så vidare. På samma sätt kan sidnummer ha variationer i form av latinska, decimala eller till och med språkspecifika format som _Arabiska_, _Devanagari_, _Hebreiska_, med mera.
+Var och en av dessa fältkategorier innehåller olika variationer där fältinformationen kan infogas. Ett datumfält kan t.ex. ha olika variationer som `YYYY-MM-DD`, `MM/DD/YY`, `MM/DD/YYYY` o.s.v. På samma sätt kan sidnummer ha variationer i form av latinska, decimala eller till och med språkspecifika format som _arabiska_, _devanagari_, _hebreiska_ med flera.
 
 
-Förutom de fördefinierade fälten kan du även lägga till metadatainformation som variabler eller fält i sidlayouten. Dessa metadata lagras i DITA-källfilen **Mappa innehåll** eller kan plockas från DITA **Egenskaper för kartfil** eller **Egenskaper för ämnesfil** och enkelt infogas i sidlayouten.
+Förutom de fördefinierade fälten kan du även lägga till metadatainformation som variabler eller fält i sidlayouten. Dessa metadata lagras i DITA-källans **kartinnehåll** eller kan hämtas från DITA-egenskaperna **för kartegenskaper** eller **ämnesfilsegenskaperna** och enkelt infogas i sidlayouten.
 
 Du kan välja metadata bland följande alternativ:
 
-* **Mappa innehåll** innehåller metadata som du har definierat i `<topicmeta>` -element i DITA-kartan.
-* **Egenskaper för kartfil** innehåller metadata som du kan få tillgång till via **Egenskaper** sida i en DITA-karta.
-* **Egenskaper för ämnesfil** innehåller metadata som du kan få tillgång till via **Egenskaper** sida i ett ämne.
+* **Kartinnehåll** innehåller metadata som du har definierat i elementet `<topicmeta>` i DITA-kartan.
+* **Kartfilsegenskaperna** innehåller metadata som du kan få åtkomst till från sidan **Egenskaper** på en DITA-karta.
+* **Egenskaper för ämnesfiler** innehåller metadata som du kommer åt från sidan **Egenskaper** i ett ämne.
 
 
-Du kan kombinera metadata från **Egenskaper för kartfil** och **Egenskaper för ämnesfil** i ett och samma dokument. Du kan t.ex. publicera ett PDF med karttiteln på försättsbladet och ämnestiteln i sidhuvudet på andra sidor. Om du vill göra det kan du lägga till metadata för kartans titel från **Egenskaper för kartfil** till omslagssidans layout. Lägg sedan till metadata för ämnesrubriken från **Egenskaper för ämnesfil**  till sidhuvudet på sidlayouten Kapitel och avsnitt.
+Du kan kombinera metadata från **egenskaper för kartfiler** och **egenskaper för ämnesfiler** i ett enda dokument. Du kan t.ex. publicera ett PDF med karttiteln på försättsbladet och ämnestiteln i sidhuvudet på andra sidor. Det gör du genom att lägga till mappningens rubrikmetadata från egenskaperna för **mappfilen** i försättsbladets layout. Lägg sedan till metadata för ämnesrubriken från **ämnesfilegenskaperna** i rubriken på sidlayouten för kapitel och avsnitt.
 
 Om ett avsnitt slutar på en sida och det andra börjar på samma sida, väljs metadata för det första avsnittet. Du kan också lägga till anpassade egenskaper och sedan infoga dem som fält i sidlayouten.
 
 
 >[!NOTE]
 >
-> Metadatafälten visas enligt ditt val av resurs eller karta i **Från** nedrullningsbar meny.
+> Metadatafälten visas enligt ditt val av resurs eller karta i listrutan **Från**.
 
 
 
@@ -397,23 +397,23 @@ I följande exempel infogar vi ett sidnummer och en kapitelrubrik i sidfotsområ
    >
    >Se [Anpassa en sidlayout](components-pdf-template.md#customize-page-layout) för att öppna en sidlayout för anpassning eller redigering.
 
-1. Klicka på **Redigera sidfot** (![](./assets/footer-icon.svg)) för att placera markören i sidfotsområdet.
+1. Klicka på ikonen **Redigera sidfot** (![](./assets/footer-icon.svg)) för att placera markören i sidfotsområdet.
 
    Du kan också klicka inuti sidfotsområdet.
 
 1. Infoga ett styckeelement genom att klicka på **Infoga HTML-element** (<img src="./assets/insert-html-element-2.svg" width="25">) och väljer Stycke i listan med element.
 
-1. Klicka på **Infoga fält** (![](./assets/insert-fields-icon.svg)).
+1. Klicka på ikonen **Infoga fält** (![](./assets/insert-fields-icon.svg)).
 
    Popup-fönstret Fält visas.
 
-1. Välj **Sidnummer** -kategorin i fältlistan **default(1)** sidnummerformat i formatlistan och klicka på **Infoga**.
+1. Välj kategorin **Sidnummer** i fältlistan, sidnummerformatet **default(1)** i formatlistan och klicka på **Infoga**.
 
    <img src="./assets/insert-page-number-field.png" width="400">
 
    >[!NOTE]
    >
-   >Du kan också redigera formatet för alla fält, förutom standardformatet. Om du vill göra det klickar du på ikonen Redigera bredvid formatet som du vill redigera, gör ändringar och klickar på OK. Mer information finns i [Lägga till fält och metadata](#add-fields-metadata).
+   >Du kan också redigera formatet för alla fält, förutom standardformatet. Om du vill göra det klickar du på ikonen Redigera bredvid formatet som du vill redigera, gör ändringar och klickar på OK. Mer information finns i [Lägg till fält och metadata](#add-fields-metadata).
 
    Standardsidnummerfältet infogas i sidfotsområdet i sidlayouten.
 
@@ -421,11 +421,11 @@ I följande exempel infogar vi ett sidnummer och en kapitelrubrik i sidfotsområ
 
    Den översta vägledningen visar de element som informationen lagras i.
 
-1. Ange ett tomt utrymme efter sidnummerfältet och klicka på **Infoga fält** -ikon.
+1. Ange ett tomt utrymme efter sidnummerfältet och klicka på ikonen **Infoga fält** .
 
-1. Välj **Kapitelrubrik** -kategorin i fältlistan **Kapitelrubrik** i formatlistan och klicka på **Infoga**.
+1. Välj kategorin **Kapiteltitel** i fältlistan, formatet **Kapiteltitel** i formatlistan och klicka på **Infoga**.
 
-   The _Kapitelrubrik_ -fältet, som fylls i med kapitlets namn vid publiceringen, infogas i sidfotsområdet. För närvarande är sidnummerfälten och kapiteltitelfälten avgränsade med ett blanksteg.
+   Fältet _Kapitelrubrik_, som fylls i med kapitlets rubrik vid publiceringstillfället, infogas i sidfotsområdet. För närvarande är sidnummerfälten och kapiteltitelfälten avgränsade med ett blanksteg.
 
    <img src="./assets/page-number-topic-title-near-footer.png" width="400">
 
@@ -433,9 +433,9 @@ I följande exempel infogar vi ett sidnummer och en kapitelrubrik i sidfotsområ
 
    1. Klicka på fältelementet på vägbeskrivningssidan för att välja fältet Kapitelrubrik.
 
-   1. I den högra panelen klickar du på **Innehållsegenskaper** (<img src="./assets/content-properties-icon.png" width="25">).
+   1. Klicka på **Innehållsegenskaper** i den högra panelen (<img src="./assets/content-properties-icon.png" width="25">).
 
-   1. Expandera **Layout** egenskapsavsnittet och ange **Float** egenskapsvärde till **höger**.
+   1. Expandera egenskapsavsnittet **Layout** och ange **Float**-egenskapsvärdet till **right**.
       <img src="./assets/float-prop-html-content.png" width="400">
 
       Fältet Kapiteltitel är justerat mot sidfotens högra sida.
@@ -445,7 +445,7 @@ I följande exempel infogar vi ett sidnummer och en kapitelrubrik i sidfotsområ
 | _Developer Corner_: <img src="./assets/developer-corner-icon.svg" width="25"> |
 |---|
 
-Om du vill arbeta direkt med CSS- och HTML-koden kan du även göra det genom att gå till källvyn i sidlayouten och göra ändringar i koden. I följande kodutdrag visas samma sidfotsinställning som i koden:
+Om du vill arbeta direkt med CSS- och HTML-koden kan du även göra det genom att gå till Source-vyn av sidlayouten och göra ändringar i koden. I följande kodutdrag visas samma sidfotsinställning som i koden:
 
 ```css
 …
@@ -509,7 +509,7 @@ I följande exempel infogar vi en kapitelinnehållsförteckning i den första si
    >
    >I den slutliga publicerade PDF visas bara innehållsförteckningsposterna baserat på innehållet i dina kapitel. Om du inte har rubriker på nivå 5 i ett kapitel visas det inte i det slutliga resultatet.
 
-Utseendet på standardinnehållsförteckningen kan anpassas med hjälp av formatmallarna. Det format som börjar med `chaptoc-level-#` (som `chaptoc-level-1`, `chaptoc-level-2`och så vidare) används för att anpassa formaten för kapitelinnehållsförteckningen. <!--For more details on the stylesheet elements used in the TOC and how to customize them, see _Customize default chapter TOC_-->.
+Utseendet på standardinnehållsförteckningen kan anpassas med hjälp av formatmallarna. Det format som börjar med `chaptoc-level-#` (till exempel `chaptoc-level-1`, `chaptoc-level-2`) används för att anpassa formaten för kapitelinnehållsförteckningen. <!--For more details on the stylesheet elements used in the TOC and how to customize them, see _Customize default chapter TOC_-->.
 
 >[!IMPORTANT]
 >
@@ -543,7 +543,7 @@ Så här skapar du en sidlayout med flera kolumner:
      >
      >Om du inte anger någon storlek delas kolumnerna jämnt så att de passar på den angivna sidan. I de flesta fall behöver du inte ange det här värdet.
 
-   * **Kolumnmellanrum** : Ange avståndet mellan enskilda kolumner.
+   * **Kolumnmellanrum** : Ange mellanrum mellan enskilda kolumner.
 
    * **Kolumnintervall** : Om du vill att ett element på sidlayouten ska spänna över flera kolumner måste du använda den här egenskapen. Detta uppnås genom att du ändrar formatet för det önskade elementet med formatmallarna. <!--for more information see _Section explaining style customization_-->.
 
@@ -557,7 +557,7 @@ Så här skapar du en sidlayout med flera kolumner:
    >
    >Du kan använda Span Column-egenskapen för alla DITA-element med hjälp av attributet outputClass.
 
-   * **Kolumnfyllning** : Ange hur innehåll ska fylla kolumner. Som standard är det inställt på Balans, vilket fyller varje kolumn med samma mängd innehåll.
+   * **Kolumnfyllning** : Ange hur innehåll fyller kolumner. Som standard är det inställt på Balans, vilket fyller varje kolumn med samma mängd innehåll.
 
    * **Kolumnregel** : Om du vill ha en linje mellan kolumnerna använder du den här egenskapen för att definiera linje- eller linjestilar. Ange värden för linjens format, färg och bredd om du vill lägga till en linje mellan kolumnerna.
 
@@ -567,11 +567,11 @@ Med panelen Innehållsegenskaper kan du enkelt uppdatera utseendet och känslan 
 
 * **Teckensnitt** : Innehåller textrelaterade egenskaper. Du kan ange Teckensnittsfamilj, Teckenbredd, Storlek, Textdekoration (som understrykning, överstrykning, genomstrykning), Textformat (som fet, Kursiv med mera), Textjustering (som vänster, höger, mitten eller marginaljusterad), Hantera blanksteg (som fördefinierat format, ingen radbrytning, radmellanrum med mera), Radhöjd, Teckenavstånd och Textindrag.
 
-* **Kant** : Innehåller egenskaper för att lägga till och formatera en kant i ett element i sidlayouten. Du kan ange Kantsida (som alla, översta, nedersta, högra eller vänstra), Kantformat (som heldragen, streckad, prickade linjer eller fler), Kantfärg, Bredd och Radius för en böjd kant. I följande exempel har en böjd kantlinje lagts till i sidhuvudsområdet på sidan.
+* **Kant** : Innehåller egenskaper för att lägga till och formatera en kantlinje i ett element i sidlayouten. Du kan ange Kantsida (som alla, översta, nedersta, högra eller vänstra), Kantformat (som heldragen, streckad, prickade linjer eller fler), Kantfärg, Bredd och Radius för en böjd kant. I följande exempel har en böjd kantlinje lagts till i sidhuvudsområdet på sidan.
 
   <img src="./assets/border-properties.png" width="500">
 
 * **Layout** : Innehåller egenskaper för att konfigurera layouten för ett element i sidlayouten. Du kan ange Höjd, Bredd, Marginaler och Utfyllnad (för överkant, nederkant, vänster eller höger), Vågrät eller Lodrät justering, Flyt (som vänster, höger eller ingen), Rensa (som vänster, höger, båda eller ingen), Elementets position (som absolut, fast, relativ eller mer), Visa (som block, innehåll, korrigera eller mer), Z-index, Genomskinlighet, Omforma (genom att rotera eller rotera skalförändring) och Omforma ursprung (med X- och Y-förskjutning).
 
-* **Bakgrund** : Innehåller egenskaper som inkluderar en bakgrundsbild eller färgskugga. Du kan ställa in bildstorlek (genom att ställa in höjd eller bredd), Upprepa bakgrund (som upprepning, ingen upprepning, rund eller mer) och Bakgrundsposition (som vänster överkant, höger mittpunkt, centrera nederkant eller mer).
-* **Flera kolumner** : Innehåller egenskaper för konfigurering av flerkolumnegenskaper för sidan eller andra specifika element, som kapitelinnehållsförteckning. Mer information om egenskaperna och hur du använder dem finns i [Arbeta med sidlayout med flera kolumner](#multi-column-layout).
+* **Bakgrund** : Innehåller egenskaper för att inkludera en bakgrundsbild eller färgskugga. Du kan ställa in bildstorlek (genom att ställa in höjd eller bredd), Upprepa bakgrund (som upprepning, ingen upprepning, rund eller mer) och Bakgrundsposition (som vänster överkant, höger mittpunkt, centrera nederkant eller mer).
+* **Flera kolumner** : Innehåller egenskaper för att konfigurera flerkolumnegenskaper för sidan eller andra specifika element, som kapitelinnehållsförteckning. Mer information om egenskaperna och hur du använder dem finns i [Arbeta med sidlayout med flera kolumner](#multi-column-layout).

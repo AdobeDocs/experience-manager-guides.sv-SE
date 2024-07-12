@@ -1,5 +1,5 @@
 ---
-title: Publiceringsfunktion för PDF | Arbeta med anpassade ändringsfältstilar
+title: PDF Publish-funktion | Arbeta med anpassade ändringsfältstilar
 description: Lär dig hur du använder format på ändringsfält.
 exl-id: a81ec56c-ccbb-4599-a696-8edef7a73cdd
 feature: Output Generation
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # Arbeta med anpassade ändringsfältstilar
 
-Ett ändringsfält är en lodrät linje som visuellt identifierar nytt eller ändrat innehåll. Med AEM stödlinjer kan du visa ett ändringsfält till vänster om det ändrade innehållet i ämnen och även de ändrade avsnitten i innehållsförteckningen för PDF.
+Ett ändringsfält är en lodrät linje som visuellt identifierar nytt eller ändrat innehåll. I AEM Guides kan du visa ett ändringsfält till vänster om det ändrade innehållet i ämnen och även de ändrade ämnena i innehållsförteckningen för PDF.
 
-Mer information om hur du visar ändringsfältet finns i *Skapa PDF med ändringsfältet mellan publicerade versioner* ställa in [Publicera PDF-utdata](../web-editor/native-pdf-web-editor.md).
+Mer information om hur du visar ändringsfältet finns i *Skapa PDF med ändringsfältet mellan publicerade versioner* i [Publish PDF-utdata](../web-editor/native-pdf-web-editor.md).
 
 ## Ändrat innehåll i ämnen
 
@@ -27,9 +27,9 @@ Du kan ändra följande format för att visa det ändrade innehållet och bland 
 
 >[!NOTE]
 >
->Dessa format ingår i `layout.css` och du kan redigera dem efter behov.
+>Dessa format är en del av filen `layout.css`, och du kan redigera dem efter behov.
 
-Du kan till exempel använda färgattributet i `.inserted-block` -format för att definiera hur det infogade innehållet ska visas i det publicerade PDF-utdata.
+Du kan till exempel använda färgattributet i formatet `.inserted-block` för att definiera hur det infogade innehållet ska visas i publicerade PDF.
 
 
 ```css
@@ -46,7 +46,7 @@ Du kan till exempel använda färgattributet i `.inserted-block` -format för at
 ...
 ```
 
-På samma sätt kan du använda `.deleted-block` -format för att definiera hur borttaget innehåll ska visas i publicerade PDF-utdata.
+På samma sätt kan du använda stilen `.deleted-block` för att definiera hur borttaget innehåll ska visas i publicerade PDF-utdata.
 
 ```css
 ...
@@ -63,9 +63,9 @@ På samma sätt kan du använda `.deleted-block` -format för att definiera hur 
 ...
 ```
 
-Du kan använda `.inserted-change-bar` och `.deleted-change-bar` om du vill ändra utseendet på ändringsfälten som visas till vänster om det uppdaterade innehållet.
+Du kan använda formatet `.inserted-change-bar` och `.deleted-change-bar` för att ändra utseendet på ändringsfälten som visas till vänster om det uppdaterade innehållet.
 
-Du kan till exempel använda `-ro-change-bar-color` attribute in `.inserted-change-bar` om du vill visa det infogade ändringsfältet i grön färg. Du kan också använda `-ro-change-bar-color` attribute in `.deleted-change-bar` om du vill visa det borttagna ändringsfältet i röd färg.
+Du kan till exempel använda attributet `-ro-change-bar-color` i formatet `.inserted-change-bar` för att visa det infogade ändringsfältet i grön färg. Du kan också använda attributet `-ro-change-bar-color` i formatet `.deleted-change-bar` för att visa det borttagna ändringsfältet i röd färg.
 
 ```css
 ...
@@ -83,7 +83,7 @@ Du kan till exempel använda `-ro-change-bar-color` attribute in `.inserted-chan
 
 ## Ändrade ämnen i innehållsförteckningen
 
-Du kan också lägga till ett ändringsfält till vänster om de ändrade avsnitten i innehållsförteckningen för PDF. Du kan använda `-ro-change-bar-color` i `.changed-topic` om du vill lägga till ett ändringsfält i den färg du väljer för de uppdaterade avsnitten i innehållsförteckningslistan.
+Du kan också lägga till ett ändringsfält till vänster om de ändrade avsnitten i innehållsförteckningen för PDF. Du kan använda attributet `-ro-change-bar-color` i formatet `.changed-topic` för att lägga till ett ändringsfält i den färg du väljer för de uppdaterade avsnitten i innehållsförteckningslistan.
 
 Du kan till exempel lägga till ett ändringsfält med grön färg.
 

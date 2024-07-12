@@ -1,6 +1,6 @@
 ---
 title: Arbeta med metadata i AEM
-description: Lär dig hur du skapar resurser och lägger till metadata med Adobe Experience Manager Assets. Hantera metadata från AEM.
+description: Lär dig hur du skapar resurser och lägger till metadata med Adobe Experience Manager Assets. Hantera metadata från AEM Guides.
 exl-id: 51e4fcab-7d76-4070-af32-96626e12ef82
 feature: Metadata Management
 role: User

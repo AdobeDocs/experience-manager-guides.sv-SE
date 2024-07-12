@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Hantera innehåll med hjälp av baslinjer
 
-Versionshantering AEM guiderna görs med en baslinje som gör att du kan välja en version av dina ämnen och resurser, som sedan kan användas för publicering eller översättning.
+Versionshantering i AEM Guides görs med en baslinje som gör att du kan välja en version av dina ämnen och resurser, som sedan kan användas för publicering eller översättning.
 
 ## Sessionsöversikt
 
@@ -28,30 +28,30 @@ Under den här sessionen får du lära dig hur du använder baslinjer för att h
 - **Datum** - 8 december 2022
 - **Antal deltagare** - 64
 - **Varaktighet** - 60 minuter
-- **Målgrupp** - Kunder, partners och anställda på Adobe
+- **Målgrupp** - Kunder, partners och anställda i Adobe
 
 ## Viktiga uppgifter
 
 Under den här sessionen får du lära dig mer om följande:
-- Olika baslinjeåtgärder i AEM
+- Olika baslinjeåtgärder i AEM Guides
 - Hämta, publicera och översätta med en baslinje
 - Bästa tillvägagångssätt för att använda en baslinje
-- Titta på en ny funktion, **Skapa dynamiska baslinjer**
+- Smygtitt på en ny kommande funktion, **Skapa dynamiska baslinjer**
 
 ## Relaterade resurser
 
-- **Videofilmer** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
+- **Funktionsvideor** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
 
-- **Användarhandbok** - [Arbeta med baslinje](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html)
+- **Användarhandbok** - [Arbeta med baslinjen](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html)
 
-- **Community Forum** - Om du vill ha sessionsspecifika communityinteraktioner på Experience League går du till [AEM Guides Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **Community-forum** - Besök [AEM Guides-forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions) om du vill ha sessionsspecifik communityinteraktion på Experience League.
 
 >[!NOTE]
 >
->Funktionerna som visas under den här sessionen finns i följande versioner av AEM.
+>De funktioner som visas under den här sessionen finns i följande versioner av AEM Guides:
 > - On-prem 4.1 och senare
 > - Cloud Service 2211 och senare
 
 ## Kontakta oss
 
-Om du har frågor kan du skicka ett e-postmeddelande till oss på <techcomm@adobe.com>
+Om du har frågor kan du skicka ett e-postmeddelande till <techcomm@adobe.com>

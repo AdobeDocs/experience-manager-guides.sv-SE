@@ -32,12 +32,12 @@ Paketinformation:
   public class **PublishUtils** extends Object
   ```
 
-  The **`PublishUtils`** -klassen innehåller en metod för att generera utdata för en eller flera förinställningar.
+  Klassen **`PublishUtils`** innehåller en metod för att generera utdata för en eller flera förinställningar.
 
 
 ## Generera utdata
 
-The ``generateOutput`` -metoden genererar utdata för en DITA-mappningsfil med de angivna utdataförinställningarna.
+Metoden ``generateOutput`` genererar utdata för en DITA-mappningsfil med de angivna förinställningarna.
 
 **Syntax**:
 
@@ -48,6 +48,12 @@ String outputName)
 throws GuidesApiException
 ```
 
-**Parametrar**: |Namn|Typ|Beskrivning| |—|—|—| |`session`|javax.jcr.Session|En giltig JCR-session.| |``sourcePath``|String|Sökväg \(i den AEM databasen\) för den DITA-mappningsfil som utdata ska skapas för.| |``outputName``|String|Namnet på den förinställning som ska användas för att generera utdata. Du kan ange flera förinställningar med hjälp av en pipe \(&quot;\|&quot;\)-avgränsare, till exempel `aemsite\|pdfoutput`.|
+**Parametrar**:
+|Namn|Typ|Beskrivning|
+|—|—|—|
+|`session`|javax.jcr.Session|En giltig JCR-session.|
+|``sourcePath``|Sträng|Sökväg \(i den AEM databasen\) för den DITA-mappningsfil som utdata ska skapas för.|
+|``outputName``|Sträng|Namnet på den förinställning som ska användas för att generera utdata. Du kan ange flera förinställningar med en pipe \(&quot;\|&quot;\)-avgränsare, till exempel `aemsite\|pdfoutput`.|
 
-**Undantag**: Throws ``javax.jcr.RepositoryException``, `java.io.IOException`och `java.lang.Exception`.
+**Undantag**:
+Utlöser ``javax.jcr.RepositoryException``, `java.io.IOException` och `java.lang.Exception`.

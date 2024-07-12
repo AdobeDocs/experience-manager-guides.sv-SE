@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # Visa status för utdatagenereringsaktiviteten {#viewing_output_history}
 
-När du har initierat genereringsuppgiften för ett FrameMaker-dokument skickar AEM stödlinjer den här uppgiften till kön för utdatagenerering. Den här kön uppdateras i realtid och visar statusen för varje utdatagenereringsuppgift i kön.
+När du har initierat genereringsuppgiften för ett FrameMaker-dokument skickar AEM Guides den här uppgiften till kön för utdatagenerering. Den här kön uppdateras i realtid och visar statusen för varje utdatagenereringsuppgift i kön.
 
 Utför följande steg för att visa kön för generering av utdata:
 
-1. I resursgränssnittet navigerar du till och klickar på det FrameMaker-dokument som du vill kontrollera utdatagenereringsstatusen för.
+1. I Assets-användargränssnittet navigerar du till och klickar på det FrameMaker-dokument som du vill kontrollera utdatagenereringsstatusen för.
 
 1. Klicka på Utdata.
 
@@ -36,4 +36,4 @@ Utför följande steg för att visa kön för generering av utdata:
      I den här listan kan du ha uppgifter som har utförts eller uppgifter som misslyckats. För de uppgifter som har slutförts skapas en loggfil, \(logs.txt\), som du kommer åt genom att klicka på länken i kolumnen Genererad den.
 
 
-**Överordnat ämne:**[ Generera utdata av FrameMaker dokument](fm-output-generatation.md)
+**Överordnat ämne:**[ Generera utdata för FrameMaker-dokument](fm-output-generatation.md)

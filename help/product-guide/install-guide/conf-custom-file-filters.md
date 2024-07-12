@@ -28,9 +28,9 @@ Gör så här för att lägga till egna filfiltreringsalternativ i dialogrutan f
 
    `/apps/fmdita/xmleditor/ui_config.json`
 
-1. Navigera till och öppna `ui_config.json` i `apps` för redigering.
+1. Navigera till och öppna filen `ui_config.json` i noden `apps` för redigering.
 
-1. I `ui_config.json` lägger du till definitionen av de filter som du vill lägga till.
+1. Lägg till definitionen för de filter som du vill lägga till i filen `ui_config.json`.
 
    Följande kodutdrag visar hur du lägger till två filtreringsalternativ - DITA-filer och Bildfiler.
 
@@ -57,13 +57,13 @@ Gör så här för att lägga till egna filfiltreringsalternativ i dialogrutan f
 
    - **titel:**   Filtrets visningsnamn. Titeln visas som filtreringsalternativ i dialogrutan för filbläddring.
 
-   - **egenskap:**   Den egenskap som ska matchas i filens metadata. Om du till exempel bara vill tillåta de filer som har `dita_class` metadata i sin egenskap, tar egenskapsfiltret &quot;`jcr:content/metadata/dita_class`&quot; som värde.
+   - **egenskap:**   Den egenskap som ska matchas i filens metadata. Om du till exempel bara vill tillåta de filer som har `dita_class`-metadata i sin egenskap, tar egenskapsfiltret `jcr:content/metadata/dita_class` som värde.
 
-   - **operation:**   Ange &quot;`exists`&quot; för att matcha om värdet som anges i egenskapsparametern finns.
+   - **operation:**   Ange `exists` om du vill matcha om värdet som anges i egenskapsparametern finns.
 
-   Det andra filtret är för bildfiler. Parametrarna liknar det första filtret förutom `value` parameter. The `value` parametern har en array med bildtyper som värde. Alla filtyper som anges i parametern value söks efter och visas i dialogrutan för filbläddring. Alla andra filtyper ignoreras.
+   Det andra filtret är för bildfiler. Parametrarna liknar det första filtret förutom parametern `value`. Parametern `value` använder en array med bildtyper som värde. Alla filtyper som anges i parametern value söks efter och visas i dialogrutan för filbläddring. Alla andra filtyper ignoreras.
 
-1. Spara *ui\_config.json* och läsa in webbredigeraren igen.
+1. Spara filen *ui\_config.json* och läs in webbredigeraren igen.
 
    När du startar dialogrutan för filbläddring visas de filteralternativ som är konfigurerade i filen ui\_config.json.
 

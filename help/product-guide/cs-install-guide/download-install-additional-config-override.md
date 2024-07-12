@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Följande allmänna tillvägagångssätt bör användas för att göra konfigurationsuppdateringar:
 
-1. Gå till din Cloud Managers Git-databas.
+1. Få tillgång till din Cloud Manager Git-databas.
 
 1. Skapa en ny JSON-fil på följande plats:
 
@@ -38,7 +38,7 @@ Följande allmänna tillvägagångssätt bör användas för att göra konfigura
    }
    ```
 
-1. Genomför ändringarna och kör molnhanterarens pipeline för att distribuera den uppdaterade konfigurationen.
+1. Genomför ändringarna och kör Cloud Manager pipeline för att distribuera den uppdaterade konfigurationen.
 
 
 **Överordnat ämne:**[ Hämta och installera](download-install.md)

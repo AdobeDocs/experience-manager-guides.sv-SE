@@ -16,11 +16,11 @@ ht-degree: 0%
 
 Tänk på följande för prestandaoptimering:
 
-- Information om hur du optimerar innehåll och indexering finns i [Optimera sökning och indexering av innehåll](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/indexing.html) i AEM.
+- Information om hur du optimerar innehåll och indexering finns i [Optimera innehållssökning och indexering](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/indexing.html) i AEM.
 
 - Patch Xerces Jar när anpassad DITA-OT används för publicering. Detta är en obligatorisk konfiguration, beroende på ditt användningssätt. Den här ändringen krävs bara om du använder anpassad DITA-OT för publicering av utdata.
 
-  *Nödvändig konfiguration*: Ersätt Xerces Jar-filen i ditt anpassade DITA-OT-paket med den som levererades OOTB. OTB-standardfilen xercesImpl-2.11.0.jar finns i filen _resources/DITA-OT.zip. Byt namn på filen xercesImpl-2.11.0.jar så att den matchar den gamla Xerces Jar-filen som ska ersättas. Detta kan göras vid körning.
+  *Nödvändig konfiguration*: Ersätt Xerces Jar-filen i ditt anpassade DITA-OT-paket med den som levererades OTB. OTB-standardfilen xercesImpl-2.11.0.jar finns i filen _resources/DITA-OT.zip. Byt namn på filen xercesImpl-2.11.0.jar så att den matchar den gamla Xerces Jar-filen som ska ersättas. Detta kan göras vid körning.
 
   Ändringen minskar publiceringstiden och minnesanvändningen när DITA-kartor publiceras med ett stort antal ämnen.
 

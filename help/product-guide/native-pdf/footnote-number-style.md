@@ -1,5 +1,5 @@
 ---
-title: Publiceringsfunktion för PDF | Använda anpassade format i fotnoter
+title: PDF Publish-funktion | Använda anpassade format i fotnoter
 description: Lär dig hur du använder format på siffror i fotnoter.
 exl-id: f1068f2f-2ace-4bdb-b5a4-46b03d4e43d6
 feature: Output Generation
@@ -31,8 +31,8 @@ Du kan ändra format för fotnotsanrop och fotnotsmärken och hantera deras utse
 
 Använd det givna exemplet för att lägga till en hakparentes före och efter fotnotsanropet och fotnotsmärket:
 
-* Lägg till prefixet&quot;(&quot; och suffixet&quot;)&quot; med innehållsattributet i `footnote-call` som lägger till parenteserna runt fotnotsnumret i ämnesinnehållet.
-* Lägg till prefixet&quot;(&quot; och suffixet&quot;)&quot; med innehållsattributet i `footnote-marker` som lägger till hakparenteserna runt fotnotsnumret längst ned på sidan.
+* Lägg till prefixet&quot;(&quot; och suffixet&quot;)&quot; med innehållsattributet i formatet `footnote-call`, som lägger till hakparenteserna runt fotnotsnumret i ämnesinnehållet.
+* Lägg till prefixet&quot;(&quot; och suffixet&quot;)&quot; med innehållsattributet i formatet `footnote-marker`, som lägger till hakparenteserna runt fotnotsnumret längst ned på sidan.
 
 ```css
 ...
@@ -71,11 +71,12 @@ I utdata kan du visa något som:
 
 <img src="./assets/footnote-number-2.png" alt="Sidfot i utdata från PDF" width="500" border="2px">
 
-*Lägg till en asterisk i ett fotnotsanrop och markör.*
+*Lägg till asterisk i ett fotnotsanrop och en markör.*
 
 ## Dölja ett fotnotsanrop
 
-Du kan också använda ett format på fotnotsanrop med särskilda attribut. Använd till exempel följande format om du vill dölja en fotnot med ID:n: Fotnotsanropet är dolt i huvudinnehållet, men fotnotsmärket visas längst ned på sidan.
+Du kan också använda ett format på fotnotsanrop med särskilda attribut. Använd till exempel följande format för att dölja en fotnot med ID:n:
+Fotnotsanropet är dolt i huvudinnehållet, men fotnotsmärket visas längst ned på sidan.
 
 ```css
 .fn[id]::footnote-call {
@@ -92,7 +93,7 @@ Fotnotsområdet är där alla fotnoter placeras, vanligtvis längst ned på en s
 
 Du kan använda sidegenskaperna för sidlayouter för att formatera fotnotsområdet i olika avsnitt i ett PDF-dokument. Du kan till exempel ange marginaler och utfyllnadsegenskaper för fotnotsområdet i ett kapitel. Du kan också ändra kantlinjens sida, format, färg, bredd och radie.
 
-Lär dig mer om [arbeta med sidegenskaperna i en sidlayout](./design-page-layout.md#page-props-page-layout).
+Lär dig hur du [arbetar med sidegenskaperna i en sidlayout](./design-page-layout.md#page-props-page-layout).
 
 ### CSS
 
@@ -115,7 +116,7 @@ Som standard numreras fotnoterna kontinuerligt i ett dokument. Du kan dock anvä
 
 ### Sidlayouter
 
-Du kan ange en siffra i sidlayouterna om du vill starta om fotnotsnumreringen i de olika avsnitten i ett PDF-dokument. Välj till exempel ett tal i **Starta om numrering från** om du vill starta om fotnotsnumreringen för varje kapitel i panelen Sidegenskaper.
+Du kan ange en siffra i sidlayouterna om du vill starta om fotnotsnumreringen i de olika avsnitten i ett PDF-dokument. Välj till exempel ett nummer i fältet **Starta om numrering från** på panelen Sidegenskaper om du vill starta om fotnotsnumreringen för varje kapitel.
 
 ### CSS
 

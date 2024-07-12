@@ -2,7 +2,8 @@
 title: Lista
 description: Lista
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: 333b5e24-efba-4a51-8f68-83b5d1d7daec
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '59'
 ht-degree: 0%
@@ -34,8 +35,8 @@ const listJSON =  {
 },
 ```
 
-Oftast är itemConfig en `widget`. Om du vill veta mer om widgetar går du till [Widgetar](../Widgets/basic-widget.md)
+Oftast är itemConfig en `widget`. Om du vill veta mer om widgetar går du till [widgetar](../Widgets/basic-widget.md)
 
 Den återgivna listan ser ut så här:
 
-![list](./imgs/list.png "Lista")
+![list](./imgs/list.png "List")

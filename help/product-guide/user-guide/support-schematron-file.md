@@ -1,6 +1,6 @@
 ---
 title: Stöd för Schematron-filer
-description: Lär dig hur du importerar och validerar ett DITA-ämne, använder assert-rapportsatser för att kontrollera regler, använder regex-uttryck och definierar abstrakta mönster i Schematron-filer i AEM.
+description: Lär dig hur du importerar och validerar ett DITA-ämne, använder assert-rapportsatser för att kontrollera regler, använder regex-uttryck och definierar abstrakta mönster i Schematron-filer i AEM Guides.
 exl-id: ed07a5ec-6adc-43a3-8f03-248b8c963e9a
 feature: Authoring, Features of Web Editor
 role: User
@@ -26,10 +26,10 @@ Så här importerar du Schematron-filerna:
 
 ![](images/scematron-panel-add.png){width="300" align="left"}
 
-1. Navigera till önskad mapp (där du vill överföra filerna) i *Databasvy*.
-1. Klicka på **Alternativ** ikon för att öppna snabbmenyn och välja **Överför resurser**.
-1. I **Överför resurser** kan du ändra målmappen i dialogrutan **Välj resursmapp** fält.
-1. Klicka **Välj filer** och bläddra för att välja Schematron-filerna. Du kan välja en eller flera schemafiler och sedan klicka på **Överför**.
+1. Navigera till önskad mapp (där du vill överföra filerna) i *databasvyn*.
+1. Klicka på ikonen **Alternativ** för att öppna snabbmenyn och välj **Överför Assets**.
+1. I dialogrutan **Överför Assets** kan du ändra målmappen i fältet **Välj resursmapp**.
+1. Klicka på **Välj filer** och bläddra till schemafilerna. Du kan välja en eller flera schemafiler och sedan klicka på **Överför**.
 
 ## Validera ett DITA-ämne eller en DITA-karta med Schematron
 
@@ -59,7 +59,7 @@ Stödet för Schematron i Web Editor hjälper dig att validera filerna mot en up
 
 ## Använd assert- och report-satser för att kontrollera regler{#schematron-assert-report}
 
-AEM Guides har även stöd för satserna assert och report i Schematron. Dessa satser hjälper dig att validera dina DITA-avsnitt.
+AEM Guides stöder även programsatserna assert och report i Schematron. Dessa satser hjälper dig att validera dina DITA-avsnitt.
 
 ### Programsatsen Assert
 
@@ -107,7 +107,7 @@ No one word titles.
 
 ## Definiera abstrakta mönster{#schematron-abstract-patterns}
 
-AEM har även stöd för abstrakta mönster i Schematron. Du kan definiera allmänna abstrakta mönster som återanvänder dessa abstrakta mönster.  Du kan skapa platshållarparametrar som anger det faktiska mönstret.
+AEM Guides har även stöd för abstrakta mönster i Schematron. Du kan definiera allmänna abstrakta mönster som återanvänder dessa abstrakta mönster.  Du kan skapa platshållarparametrar som anger det faktiska mönstret.
 
 
 Genom att använda abstrakta mönster kan du förenkla schemat genom att minska antalet regler och göra det enklare att hantera och uppdatera valideringslogiken. Det kan också göra ditt schema lättare att förstå, eftersom du kan definiera komplex valideringslogik i ett enda abstrakt mönster som kan återanvändas i hela schemat.

@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # Integrera skrivbordsbaserade XML-redigerare {#id181GB01G0HS}
 
-Det finns många XML-redigerare på marknaden och du skulle kunna använda en redan. Adobe FrameMaker är en av de kraftfullaste XML-redigeringsprogrammen som medföljer AEM. Med AEM connector in FrameMaker kan du enkelt ansluta till AEM, checka ut och in filer samt redigera filer direkt i FrameMakerna. Du kan också konfigurera AEM för att starta FrameMaker från Web Editor. När du har öppnat filen i FrameMaker kan du redigera och checka in den i AEM.
+Det finns många XML-redigerare på marknaden och du skulle kunna använda en redan. Adobe FrameMaker är en av de kraftfullaste XML-redigeringsprogrammen som medföljer AEM. Med AEM connector in FrameMaker kan du enkelt ansluta till AEM, checka ut och in filer samt redigera filer direkt i FrameMakerna. Du kan också konfigurera AEM Guides så att FrameMakerna startas från Web Editor. När du har öppnat filen i FrameMaker kan du redigera och checka in den i AEM.
 
 ## Aktivera filredigering i FrameMaker från Web Editor
 
 Du kan använda FrameMaker eller någon annan DITA-redigerare för att skapa och uppdatera DITA-innehåll. Om din organisation använder FrameMaker som DITA-redigerare kan du ge dina användare möjlighet att öppna DITA-dokument direkt i FrameMaker från AEM.
 
-Som standard visas inte **Öppna i FrameMaker** på AEM verktygsfält. Gör så här för att lägga till den här knappen i AEM verktygsfält:
+Som standard visas inte knappen **Öppna i FrameMaker** i AEM verktygsfält. Gör så här för att lägga till den här knappen i AEM verktygsfält:
 
 1. Öppna konfigurationssidan för Adobe Experience Manager Web Console.
 
@@ -30,13 +30,13 @@ Som standard visas inte **Öppna i FrameMaker** på AEM verktygsfält. Gör så 
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Sök efter och klicka på **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** paket.
+1. Sök efter och klicka på paketet **com.adobe.fmdita.xmleditor.config.XmlEditorConfig**.
 
    ![](assets/open-in-fm-toolbar.png){width="550" align="left"}
 
-1. Välj **Visa Öppna i FrameMaker** alternativ.
+1. Markera alternativet **Visa Öppna i FrameMaker-knapp**.
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.
 
 
-När du aktiverar **Visa Öppna i FrameMaker** och sedan **Öppna i FrameMaker** visas när du väljer en DITA-fil i AEM. När det här alternativet är *inte aktiverad*, **Öppna i FrameMaker** visas bara när du väljer en .fm- eller .book-fil i databasen.
+När du aktiverar alternativet **Visa Öppna i FrameMaker-knapp** visas knappen **Öppna i FrameMaker** när du markerar en DITA-fil i AEM. När det här alternativet *inte är aktiverat* visas knappen **Öppna i FrameMaker** bara när du markerar en .fm- eller .book-fil i databasen.

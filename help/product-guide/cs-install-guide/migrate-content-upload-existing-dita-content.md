@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Överför befintligt DITA-innehåll {#id176FF000JUI}
 
-Det är mest troligt att du har en databas med befintligt DITA-innehåll som du vill använda med AEM stödlinjer. För sådant befintligt innehåll kan du använda någon av de metoder som beskrivs i [Lägga till digitala resurser i Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html).
+Troligen har du en databas med befintligt DITA-innehåll som du vill använda med AEM Guides. För sådant befintligt innehåll kan du använda någon av de metoder som beskrivs i [Lägg till digitalt material i Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html).
 
 ## Konfigurera UUID-filnamnsmönster
 
@@ -42,12 +42,12 @@ Ange följande parametrar för att skapa en mapp:
 
 - `<username>:<passowrd>`: Ange användarnamn och lösenord för att komma åt AEM. Användaren måste ha behörighet att skapa mappar.
 
-- `jcr:primaryType=sling:Folder`: Ange den här parametern *as* för att skapa en mapptypresurs.
+- `jcr:primaryType=sling:Folder`: Ange den här parametern *som* om du vill skapa en mapptypresurs.
 
-- `<server folder path>`: Fullständig mappsökväg inklusive namnet på den nya mappen som du vill skapa i AEM. Om du till exempel anger sökvägen som `http://192.168.1.1:4502/content/dam/projects/AEM-Guides`och sedan mappen `AEM-Guides` skapas i `projects` i DAM.
+- `<server folder path>`: Fullständig mappsökväg inklusive namnet på den nya mappen som du vill skapa i AEM. Om du till exempel anger sökvägen som `http://192.168.1.1:4502/content/dam/projects/AEM-Guides` skapas mappen `AEM-Guides` i mappen `projects` i DAM.
 
 
-**Överföra en fil**
+**Överför en fil**
 
 Kör följande kommando för att överföra en fil i AEM:
 
@@ -59,9 +59,9 @@ Ange följande parametrar för att överföra en fil:
 
 - `<username>:<passowrd>`: Ange användarnamn och lösenord för att komma åt AEM. Den här användaren måste ha skrivbehörighet för `server folder path`.
 
-- ``local file path``: Fullständig sökväg till filen på det lokala system som du vill överföra.
+- ``local file path``: Slutför den filsökväg på det lokala systemet som du vill överföra.
 
-- `<server folder path>`: Fullständig mappsökväg på den AEM servern där du vill överföra filen.
+- `<server folder path>`: Slutför mappsökvägen på den AEM servern där du vill överföra filen.
 
 
 **Lägg till metadata**
@@ -76,9 +76,9 @@ Ange följande parametrar för att lägga till metadatainformation:
 
 - `<username>:<passowrd>`: Ange användarnamn och lösenord för att komma åt AEM. Den här användaren måste ha skrivbehörighet för ``metadata node path``.
 
-- ``-F<attribute name>=<value>``: `<attribute name>` är namnet på metadataattributet, till exempel `audience` och `<value>` kan `internal`. Du kan ange flera attributnamnvärdespar avgränsade med blanksteg.
+- ``-F<attribute name>=<value>``: `<attribute name>` är namnet på metadataattributet, till exempel `audience` och `<value>` kan vara `internal`. Du kan ange flera attributnamnvärdespar avgränsade med blanksteg.
 
-- `<metadata node path>`: Fullständig mappsökväg med filnamnet och dess metadatanod. Om du till exempel anger sökvägen som `http://192.168.1.1:4502/content/dam/projects/AEM-Guides/intro.xml/jcr:content/metadata`, anges den angivna metadatainformationen på `intro.xml` -fil.
+- `<metadata node path>`: Fullständig mappsökväg inklusive filnamnet och dess metadatanod. Om du till exempel anger sökvägen som `http://192.168.1.1:4502/content/dam/projects/AEM-Guides/intro.xml/jcr:content/metadata` anges den angivna metadatainformationen för filen `intro.xml`.
 
 
 **Överordnat ämne:**[ Migrera befintligt innehåll](migrate-content.md)

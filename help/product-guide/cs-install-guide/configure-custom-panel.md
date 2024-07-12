@@ -16,8 +16,8 @@ ht-degree: 0%
 
 Gör så här för att lägga till en anpassad panel i den vänstra panelen i Web Editor:
 
-1. Skapa en *clientlib* och lägg till JavaScript- och CSS-filen i den här mappen.
-1. Uppdatera kategoriegenskapen för *clientlib* genom att tilldela den värdet *apps.fmdita.xml\_editor.page\_overrides*.
+1. Skapa en *clientlib*-mapp och lägg till din JavaScript- och CSS-fil i den här mappen.
+1. Uppdatera egenskapen categories i mappen *clientlib* genom att tilldela den värdet för *apps.fmdita.xml\_editor.page\_overrides*.
 
 Exempelkod för att konfigurera en anpassad panel:
 

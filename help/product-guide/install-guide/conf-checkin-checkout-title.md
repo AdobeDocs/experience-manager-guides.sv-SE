@@ -14,15 +14,15 @@ ht-degree: 0%
 
 # Konfigurera titeln för ikonerna Checka in och Checka ut
 
-I AEM kan du konfigurera titeln för ikonerna Checka in och Checka ut i webbredigeraren. Följ de här stegen för att konfigurera titeln för ikonerna Checka in och Checka ut:
+I AEM Guides kan du konfigurera titeln för ikonerna Checka in och Checka ut i webbredigeraren. Följ de här stegen för att konfigurera titeln för ikonerna Checka in och Checka ut:
 
 1. Hämta UI-konfigurationsfilen genom att logga in i Adobe Experience Manager som administratör.
-1. Klicka på länken Adobe Experience Manager överst och välj **verktyg**.
-1. Välj **Stödlinjer** i listan med verktyg och klicka på **Mappprofiler**.
-1. Klicka på **Global profil** platta.
-1. Välj **Konfiguration av XML-redigerare** och klicka på **Redigera** överst.
-1. I **Användargränssnittskonfiguration för XML-redigering** klickar du på **Ladda ned** för att ladda ned `ui_config.json` på din lokala dator.
-1. I `ui_config.json` ändrar du titeln i avsnittet &quot;topbar&quot;. Du kan ändra följande värden:
+1. Klicka på länken Adobe Experience Manager överst och välj **Verktyg**.
+1. Välj **Stödlinjer** i listan över verktyg och klicka på **Mappprofiler**.
+1. Klicka på rutan **Global profil**.
+1. Välj fliken **XML-redigerarkonfiguration** och klicka på ikonen **Redigera** överst.
+1. Klicka på ikonen **Hämta** i **gränssnittskonfigurationen för XML-redigeraren** för att hämta filen `ui_config.json` på din lokala dator.
+1. I filen `ui_config.json` ändrar du titeln i avsnittet &quot;topbar&quot;. Du kan ändra följande värden:
 
    ```json
    //Change title to "Check out" instead of "Lock"

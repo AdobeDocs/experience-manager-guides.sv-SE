@@ -28,7 +28,7 @@ Under den här sessionen får du värdefulla insikter om publicering i PDF, som 
 - **Datum** - 7 september 2023
 - **Antal deltagare** - 65
 - **Varaktighet** - 75 minuter
-- **Målgrupp** - Kunder, partners och anställda på Adobe
+- **Målgrupp** - Kunder, partners och anställda i Adobe
 
 ## Viktiga uppgifter
 
@@ -48,25 +48,25 @@ Under den här sessionen får du veta mer om Native PDF:
 
 ## Relaterade resurser
 
-- **Installationssteg för PDF** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.html?lang=en)
+- **Inbyggda installationssteg för PDF** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.html?lang=en)
 
-- **Funktionell översikt över Native PDF publishing** - [på Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23.html?lang=en)
+- **Funktionell översikt över PDF-publicering** - [på Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23.html?lang=en)
 
 - **Dokumenterade användningsfall** - [på Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/content-styles/stylesheet.html?lang=en)
 
-- **Community Forum** - Om du vill ha sessionsspecifika communityinteraktioner på Experience League går du till  [AEM Guides Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **Community-forum** - Besök [AEM Guides-forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions) om du vill ha sessionsspecifik communityinteraktion på Experience League.
 
 >[!NOTE]
 >
-> Funktionerna som visas under den här sessionen finns i följande versioner av AEM.
+> De funktioner som visas under den här sessionen finns i följande versioner av AEM Guides:
 > - On-prem 4.2 eller senare
 > - Cloud Service 2309 och senare
 
 ## Nästa expertsession
 
 - **Ämne** - Guides Extension Framework
-- **Schemalagd den** - 02 Nov 2023
+- **Schemalagd** - 02 nov 2023
 
 ## Kontakta oss
 
-Om du har frågor kan du skicka ett e-postmeddelande till oss på <techcomm@adobe.com>
+Om du har frågor kan du skicka ett e-postmeddelande till <techcomm@adobe.com>

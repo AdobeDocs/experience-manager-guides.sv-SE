@@ -2,7 +2,8 @@
 title: Ikon
 description: Ikon
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: 5ba41c77-7329-49fc-bce5-02682261ea8e
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '49'
 ht-degree: 0%
@@ -12,9 +13,9 @@ ht-degree: 0%
 # Ikon
 
 För att visa en ikon använder vi komponenten, icon.
-Textområdeskomponenten i JUI representerar en html `<icon/>`.
+Textområdeskomponenten i JUI representerar HTML `<icon/>`.
 
-Ikoner finns på [Adobe-spektrumikoner](https://spectrum.adobe.com/page/icons/) är kompatibla med vår app.
+Ikoner som finns på [Adobe Spectrum Icons](https://spectrum.adobe.com/page/icons/) är kompatibla med vår app.
 
 ```js title="icon.js"
 const iconJSON =  {
@@ -29,4 +30,4 @@ ikoner kan också läggas till knappar.
 
 Den återgivna ikonen ser ut så här:
 
-![icon](./imgs/info_icon.png "Ikon")
+![icon](./imgs/info_icon.png "Icon")

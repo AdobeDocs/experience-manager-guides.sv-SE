@@ -1,6 +1,6 @@
 ---
 title: Grundläggande felsökning
-description: Lös problem med grundläggande felsökning i AEM. Lär dig att visa, kopiera och kontrollera loggfilen i en textredigerare och åtgärda JSP-kompileringsfel.
+description: Lös problem med grundläggande felsökning i AEM Guides. Lär dig att visa, kopiera och kontrollera loggfilen i en textredigerare och åtgärda JSP-kompileringsfel.
 exl-id: 57b88291-b5a3-4931-b3ed-f2b2ce7a463c
 feature: Publishing, Troubleshooting
 role: User
@@ -13,21 +13,21 @@ ht-degree: 0%
 
 # Grundläggande felsökning {#id1821I0Y0G0A}
 
-När du arbetar med AEM stödlinjer kan det uppstå fel när du publicerar eller öppnar dokumentet. Sådana fel kan finnas på DITA-kartan, i ämnet eller i AEM. I det här avsnittet finns information om hur du får åtkomst till och tolkar information i loggfilen för utdatagenerering. Om ditt DITA-avsnitt är för stort kan du se JSP-kompileringsfelet. I det här avsnittet finns även information om hur du löser JSP-kompileringsfelet.
+När du arbetar med AEM Guides kan det uppstå fel när du publicerar eller öppnar dokumentet. Sådana fel kan finnas på DITA-kartan, i ett avsnitt eller i AEM Guides-processen. I det här avsnittet finns information om hur du får åtkomst till och tolkar information i loggfilen för utdatagenerering. Om ditt DITA-avsnitt är för stort kan du se JSP-kompileringsfelet. I det här avsnittet finns även information om hur du löser JSP-kompileringsfelet.
 
 ## Visa och kontrollera loggfilen {#id1822G0P0CHS}
 
 Utför följande steg för att visa och kontrollera loggfilen för generering av utdata:
 
-1. När du har startat processen för generering av utdata klickar du på **Utdata** i DITA-kartkonsolen.
+1. När du har initierat genereringsprocessen för utdata klickar du på **Utdata** i DITA-kartkonsolen.
 
-   The **Allmänt** kolumn i **Genererade utdata** visar ikonerna för att ge en visuell indikation på om utdatagenereringen lyckades eller inte.
+   Kolumnen **Allmänt** i **Genererade utdata** visar ikonerna för att ge en visuell indikator på om utdatagenereringen lyckades eller misslyckades.
 
    ![](images/output-general-settings.png){width="300" align="left"}
 
    På skärmbilden ovan visar den första och tredje ikonen misslyckad generering av utdata. Den andra ikonen visar att det gick att generera utdata, men med meddelanden. Den sista genereringen är en lyckad utdatagenerering utan något meddelande.
 
-1. Klicka på länken i **Genererad den** kolumn när jobbet är klart.
+1. Klicka på länken i kolumnen **Genererad** när jobbet är klart.
 
    Loggfilen öppnas på en ny flik.
 
@@ -48,35 +48,35 @@ Utför följande steg för att visa och kontrollera loggfilen för generering av
 
 Så här kopierar och kontrollerar du loggfilen för generering av utdata i en textredigerare:
 
-1. När du har startat processen för generering av utdata klickar du på **Utdata** i DITA-kartkonsolen.
+1. När du har initierat genereringsprocessen för utdata klickar du på **Utdata** i DITA-kartkonsolen.
 
-1. Klicka på länken i **Genererad den** kolumn när jobbet är klart.
+1. Klicka på länken i kolumnen **Genererad** när jobbet är klart.
 
    Loggfilen öppnas på en ny flik.
 
-1. Klicka **Kopiera logg** -knappen. Loggfilen kopieras till Urklipp.
+1. Klicka på knappen **Kopiera logg**. Loggfilen kopieras till Urklipp.
 1. Öppna en textredigerare och klistra in loggfilen i redigeraren.
 
 1. Bläddra igenom loggfilen och sök efter meddelanden.
 
    Följande information hjälper dig att avgöra om det finns något fel i DITA-filen eller AEM Guides-processen:
 
-   - *DITA-mappningsfilrelaterat fel*: Om ett fel påträffas i DITA-kartfilen eller i någon annan fil som finns i DITA-kartan innehåller loggfilen strängen &quot;BUILD FAILED&quot;. Du kan kontrollera informationen i loggfilen för att hitta den felaktiga filen och åtgärda problemet.
+   - *DITA-mappningsfilrelaterat fel*: Om ett fel påträffas i DITA-mappningsfilen eller i någon annan fil som finns i DITA-mappningen innehåller loggfilen strängen &quot;BUILD FAILED&quot;. Du kan kontrollera informationen i loggfilen för att hitta den felaktiga filen och åtgärda problemet.
 
-   I följande exempelavsnitt av loggfilen visas `BUILD FAILED` meddelandet tillsammans med orsaken till felet.
+   I följande exempelavsnitt av loggfilen visas meddelandet `BUILD FAILED` tillsammans med orsaken till felet.
 
    ![](images/dita-error-in-log-file.png){width="650" align="left"}
 
-   - *AEM Guides-relaterat fel*: Den andra typen av fel som du kan identifiera i loggfilen är relaterat till själva AEM. I det här fallet tolkas DITA-mappningsfilen, men utdatagenereringsprocessen misslyckas på grund av ett internt fel i AEM. För sådana fel måste du be om hjälp från det tekniska supportteamet.
+   - *AEM Guides-relaterat fel*: Den andra typen av fel som du kan identifiera i loggfilen är relaterat till själva AEM Guides-processen. I det här fallet tolkas DITA-kartfilen, men utdatagenereringsprocessen misslyckas på grund av ett internt fel i AEM Guides. För sådana fel måste du be om hjälp från det tekniska supportteamet.
 
-   I följande exempelavsnitt av loggfilen visas `BUILD SUCCESSFUL` meddelande, följt av ett annat tekniskt fel.
+   I följande exempelavsnitt av loggfilen visas meddelandet `BUILD SUCCESSFUL`, följt av ett annat tekniskt fel.
 
    ![](images/process-error-in-log-file.png){width="650" align="left"}
 
 
 ## Åtgärda JSP-kompileringsfel
 
-Om DITA-avsnittet är för stort kan du se JSP-kompileringsfelet \(`org.apache.sling.api.request.TooManyCallsException`\) i webbläsaren. Det här felet kan uppstå när du öppnar ett ämne för redigering, granskning eller publicering.
+Om DITA-avsnittet är för stort kanske JSP-kompileringsfelet \(`org.apache.sling.api.request.TooManyCallsException`\) visas i webbläsaren. Det här felet kan uppstå när du öppnar ett ämne för redigering, granskning eller publicering.
 
 Utför följande steg för att lösa problemet:
 
@@ -84,11 +84,11 @@ Utför följande steg för att lösa problemet:
 
    Sidan Konfigurera Adobe Experience Manager Web Console visas.
 
-1. Sök efter och klicka på *Apache Sling Main Servlet* -komponenten.
+1. Sök efter och klicka på komponenten *Apache Sling Main Servlet* .
 
    De konfigurerbara alternativen för huvudservern för Apache Sling visas.
 
-1. Öka värdet för *Antal samtal per begäran* -parametern enligt dina krav.
+1. Öka värdet för parametern *Antal anrop per begäran* enligt dina krav.
 
 
-**Överordnat ämne:**[ Generering av utdata](generate-output.md)
+**Överordnat ämne:**[ Utdatagenerering](generate-output.md)

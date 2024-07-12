@@ -20,11 +20,11 @@ Det finns två sätt som ett ämne kan övergå från ett läge till ett annat -
 
 >[!NOTE]
 >
-> Om en användare tillhör *administratörer* kan användaren ändra ett dokuments tillstånd från vilket läge som helst, oavsett vilka dokumenttillståndsövergångar som är definierade i systemet.
+> Om en användare tillhör gruppen *administratörer* kan användaren ändra ett dokuments tillstånd från vilket läge som helst, oavsett vilka dokumenttillståndsövergångar som har definierats i systemet.
 
 ## Skapa ett dokumentläge
 
-AEM levereras med en uppsättning standarddokumentlägen. Dessa lägen är:
+AEM Guides levereras med en uppsättning standarddokumenttillstånd. Dessa lägen är:
 
 - Utkast
 - Redigera
@@ -37,40 +37,40 @@ Dessa standardlägen är tillgängliga för alla DITA-ämnen som skapas under DA
 
 Så här skapar du dokumentlägen med hjälp av Mappprofil:
 
-1. Klicka på länken Adobe Experience Manager överst och välj **verktyg**.
+1. Klicka på länken Adobe Experience Manager överst och välj **Verktyg**.
 1. Välj **Stödlinjer** i listan över verktyg.
 1. Klicka på panelen Dokumentlägen.
 
-   Sidan Tillstånd för resurser visas. Som standard visas en standardprofil på sidan.
+   Sidan Lägen i Assets visas. Som standard visas en standardprofil på sidan.
 
-1. Klicka **Skapa profil** och ange följande uppgifter:
+1. Klicka på **Skapa profil** och ange följande information:
    - Ange profilens namn i fältet Profil.
    - Ange den sökväg där du vill använda den nya profilen.
-   - Ange dokumentets lägen i dialogrutan **Tillåtna lägen** under **Lägen**. Standarddokumentlägena är Utkast, Redigera, Under granskning, Godkänd och Klar.-
+   - Ange dokumentets lägen i **Tillåtna lägen** under **Lägen**. Standarddokumentlägena är Utkast, Redigera, Under granskning, Godkänd och Klar.-
 
-     Klicka på **Lägg till** om du vill lägga till ett dokumentläge.
+     Klicka på knappen **Lägg till** om du vill lägga till ett dokumentläge.
 
       - Klicka på ikonen Ta bort om du vill ta bort ett dokumentläge.
 
      >[!NOTE]
      >
-     > Ta inte bort ett dokumentläge om dokumenten fortfarande är i det läget. Om du tar bort ett dokumentläge kan du inte ändra dokumenttillståndet för sådana dokument såvida du inte tillhör *administratör* användargrupp.
+     > Ta inte bort ett dokumentläge om dokumenten fortfarande är i det läget. Om du tar bort ett dokumenttillstånd kan du inte ändra dokumenttillståndet för sådana dokument såvida du inte tillhör användargruppen *administrator* .
 
    - Ange startstatus för dokumentet i **Startläge**.
-   - Ange slutstatus för dokumentet i **Slutläge**.
-   - Ange lägesövergång för dokumentet i **Från** och **Till** under **Tillståndsövergång**.
+   - Ange slutläget för dokumentet i **slutläget**.
+   - Ange dokumentets lägesövergång i **Från** och **Till** under **Lägesövergång**.
 
-      - Ange vilka användare och användargrupper som kan ändra dokumenttillståndet i **Grupper**.
+      - Ange de användare och användargrupper som kan ändra dokumenttillståndet i **Grupper**.
 
-      - Klicka på **Lägg till** om du vill lägga till en lägesövergång.
+      - Klicka på knappen **Lägg till** för att lägga till en lägesövergång.
 
       - Klicka på ikonen Ta bort om du vill ta bort en lägesövergång.
 
      >[!NOTE]
      >
-     > Ta inte bort en lägesövergång om dokumenten fortfarande är i `From` tillstånd. Om du tar bort en lägesövergång kan du inte ändra dokumenttillståndet för sådana dokument såvida du inte tillhör *administratör* användargrupp.
+     > Ta inte bort en lägesövergång om dokumenten fortfarande är i läget `From`. Om du tar bort en lägesövergång kan du inte ändra dokumenttillståndet för sådana dokument såvida du inte tillhör användargruppen *administrator* .
 
-1. Klicka **Klar**.
+1. Klicka på **Klar**.
 
 ## Skapa en kopia av en dokumenttillståndsprofil
 
@@ -78,41 +78,41 @@ Beroende på dina behov kan du skapa en kopia av en befintlig dokumenttillstånd
 
 Så här skapar du en kopia av en dokumenttillståndsprofil:
 
-1. Klicka på länken Adobe Experience Manager överst och välj **verktyg**.
+1. Klicka på länken Adobe Experience Manager överst och välj **Verktyg**.
 1. Välj **Stödlinjer** i listan över verktyg.
 1. Klicka på panelen Dokumentlägen.
 
-   Sidan Tillstånd för resurser visas.
+   Sidan Lägen i Assets visas.
 
 1. Markera den dokumenttillståndsprofil som du vill duplicera och klicka på **Duplicera profil**.
-1. Gör nödvändiga ändringar och klicka på **Klar**.
+1. Gör de ändringar som krävs och klicka på **Klar**.
 
 ## Ta bort ett dokumentläge eller en lägesövergång
 
 >[!NOTE]
 >
-> Ta inte bort ett dokumentläge eller en lägesövergång om dokumenten fortfarande är i läget eller i lägesövergången. Om du tar bort ett läge eller en lägesövergång kan du inte ändra dokumentläget för sådana dokument såvida du inte tillhör *administratör* användargrupp.
+> Ta inte bort ett dokumentläge eller en lägesövergång om dokumenten fortfarande är i läget eller i lägesövergången. Om du tar bort ett läge eller en tillståndsövergång kan du inte ändra dokumenttillståndet för sådana dokument såvida du inte tillhör användargruppen *administrator* .
 
 Så här tar du bort ett dokumentläge eller en lägesövergång från en dokumenttillståndsprofil:
 
-1. Klicka på länken Adobe Experience Manager överst och välj **verktyg**.
+1. Klicka på länken Adobe Experience Manager överst och välj **Verktyg**.
 1. Välj **Stödlinjer** i listan över verktyg.
 1. Klicka på panelen Dokumentlägen.
 
-   Sidan Tillstånd för resurser visas.
+   Sidan Lägen i Assets visas.
 
-1. Välj den dokumenttillståndsprofil som du vill ta bort dokumentläget från och klicka på **Redigera profil**.
-1. Ta bort dokumentläget eller lägesövergången och klicka på **Klar**.
+1. Välj den dokumenttillståndsprofil från vilken du vill ta bort dokumentläget och klicka på **Redigera profil**.
+1. Ta bort dokumentläget eller tillståndsövergången och klicka på **Klar**.
 
 ## Ta bort en dokumenttillståndsprofil
 
 Så här tar du bort en dokumenttillståndsprofil:
 
-1. Klicka på länken Adobe Experience Manager överst och välj **verktyg**.
+1. Klicka på länken Adobe Experience Manager överst och välj **Verktyg**.
 1. Välj **Stödlinjer** i listan över verktyg.
-1. Klicka på **Dokumentlägen** platta.
+1. Klicka på rutan **Dokumentlägen**.
 
-   Sidan Tillstånd för resurser visas.
+   Sidan Lägen i Assets visas.
 
 1. Markera den dokumenttillståndsprofil som du vill ta bort och klicka på **Ta bort profil**.
 
@@ -124,34 +124,34 @@ Om du inte vill ändra dokumentens tillstånd manuellt kan du skapa ett arbetsfl
 >
 > Automatiska arbetsflöden ska följa de dokumenttillstånd och övergångar som definieras i konfigurationen. Systemet utför inga kontroller för lägesändringar som gjorts via automatiserade arbetsflöden.
 
-1. Klicka på länken Adobe Experience Manager överst och välj **verktyg**.
+1. Klicka på länken Adobe Experience Manager överst och välj **Verktyg**.
 1. Välj **Arbetsflöde** i listan över verktyg.
 
-1. Klicka på **Models** platta.
+1. Klicka på rutan **Modeller**.
 
 1. Välj arbetsflöde, till exempel Granska ämnen.
 
-1. Klicka **Redigera**.
+1. Klicka på **Redigera**.
 
    Arbetsflödet öppnas på en ny flik.
 
-1. Klicka **Redigera** \(övre högra\).
+1. Klicka på **Redigera** \(övre högra\).
 
-1. Öppna **Steg** webbläsare; använda **Växla sidopanel**, längst till vänster i det övre verktygsfältet
+1. Öppna webbläsaren **Steg** och använd **växlingspanelen** längst till vänster i det övre verktygsfältet
 
 1. Dra lämpliga steg till önskad plats i modellen.
 
-1. Klicka på det nya steget som du lade till i arbetsflödesmodellen och välj **Konfigurera** från komponentverktygsfältet
+1. Klicka på det nya steget som du lade till i arbetsflödesmodellen och välj **Konfigurera** i komponentverktygsfältet
 
-1. Öppna **Process** -fliken.
+1. Öppna fliken **Process**.
 
-1. I **Process** nedrullningsbar lista, välja **Ange dokumenttillstånd för alla DAM-resurser**.
+1. I listrutan **Process** väljer du **Ange dokumentstatus för en DAM-resurs**.
 
-1. Välj **Avancerad hanterare** alternativ.
+1. Välj alternativet **Avancerat för hanterare**.
 
    ![](assets/update-workflow-doc-state_cs.png)
 
-1. I **Argument** anger du ett dokumentläge som du vill övergå från det valda arbetsflödet till.
+1. I textrutan **Argument** anger du ett dokumenttillstånd som du vill övergå från det valda arbetsflödet till.
 
    >[!NOTE]
    >
@@ -162,16 +162,16 @@ Om du inte vill ändra dokumentens tillstånd manuellt kan du skapa ett arbetsfl
 
 ## Aktivera arbetsflöde för godkännande
 
-AEM Guides ger ett arbetsflöde för dokumentgodkännande som hjälper dig att styra dokumentutvecklingsprocessens livscykel. Så här aktiverar du arbetsflödet för godkännande:
+AEM Guides tillhandahåller ett arbetsflöde för dokumentgodkännande som hjälper dig att styra dokumentutvecklingsprocessens livscykel. Så här aktiverar du arbetsflödet för godkännande:
 
 1. Om du vill hämta UI-konfigurationsfilen loggar du in på Adobe Experience Manager som administratör.
 
-1. Klicka på länken Adobe Experience Manager överst och välj **verktyg**.
-1. Välj **Stödlinjer** i listan med verktyg och klicka på **Mappprofiler**.
-1. Klicka på **Global profil** platta.
-1. Välj **Konfiguration av XML-redigerare** och klicka **Redigera** ikonen längst upp
-1. Klicka på **Ladda ned** om du vill hämta filen ui\_config.json på ditt lokala system. Du kan sedan göra ändringar i filen och sedan överföra samma fil.
-1. I `ui_config.json` fil, aktivera arbetsflödesfunktionen för godkännande genom att ändra *funktioner* enligt nedan:
+1. Klicka på länken Adobe Experience Manager överst och välj **Verktyg**.
+1. Välj **Stödlinjer** i listan över verktyg och klicka på **Mappprofiler**.
+1. Klicka på rutan **Global profil**.
+1. Välj fliken **Konfiguration av XML-redigerare** och klicka på ikonen **Redigera** överst
+1. Klicka på ikonen **Hämta** för att hämta filen ui\_config.json på din lokala dator. Du kan sedan göra ändringar i filen och sedan överföra samma fil.
+1. Aktivera arbetsflödesfunktionen för godkännande i filen `ui_config.json` genom att ändra avsnittet *features* enligt nedan:
 
    ```
    "features":  

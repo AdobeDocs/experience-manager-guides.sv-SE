@@ -2,19 +2,19 @@
 title: Verktygsfält och verktygsfält
 description: Anpassa verktygsfältet
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: 7065c9b8-67ac-4f6d-8124-daa547f2dc3b
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '56'
 ht-degree: 0%
 
 ---
 
-
 # Anpassa verktygsfältet
 
-Anpassa `topbar` och `toolbar`kommer vi att använda ID:n: `topbar` eller `toolbar`och följer samma vy, kontrollenhetsstruktur.
+Om du vill anpassa `topbar` och `toolbar` använder vi ID:n `topbar` eller `toolbar` och följer samma vy, kontrollenhetsstruktur.
 
-Nedan finns ett enkelt exempel på anpassning av verktygsfält. Här har vi tagit bort `Insert Numbered List` och ersatte `Insert Paragraph` med vår egen komponent med en anpassad klickhanterare.
+Nedan finns ett enkelt exempel på anpassning av verktygsfält. Här har vi tagit bort knappen `Insert Numbered List` och ersatt knappen `Insert Paragraph` med vår egen komponent med en anpassad klickhanterare.
 
 ```js title = toolbar_customisation.js
 const toolbarExtend = {

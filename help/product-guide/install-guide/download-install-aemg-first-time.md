@@ -1,6 +1,6 @@
 ---
-title: Hämta och installera AEM för första gången
-description: Lär dig hur du hämtar och installerar AEM för första gången
+title: Ladda ned och installera AEM Guides för första gången
+description: Lär dig hur du hämtar och installerar AEM Guides för första gången
 exl-id: 830a4381-303c-419c-b87f-9563352a7eeb
 feature: Introduction, Installation
 role: Admin
@@ -12,15 +12,15 @@ ht-degree: 0%
 
 ---
 
-# Hämta och installera AEM för första gången {#id213BCL00KEV}
+# Ladda ned och installera AEM Guides för första gången {#id213BCL00KEV}
 
-Så här hämtar och installerar du AEM Guides för första gången på en dator:
+Så här hämtar och installerar du AEM Guides första gången på en dator:
 
 >[!IMPORTANT]
 >
 > Om du vill använda Livefyre tillsammans med AEM Guides måste du installera Livefyre-versionerna tidigare än 3.0 innan du installerar AEM Guides. Om du använder Livefyre version 3.0 eller senare finns det ingen sådan begränsning.
 
-1. Ladda ned AEM från Adobe Software Distribution Portal.
+1. Hämta AEM Guides från Adobe Software Distribution Portal.
 
 1. Logga in i AEM och navigera till CRX Package Manager. Standardwebbadressen för att få åtkomst till pakethanteraren är:
 
@@ -28,23 +28,23 @@ Så här hämtar och installerar du AEM Guides för första gången på en dator
    http://<server name>:<port>/crx/packmgr/index.jsp
    ```
 
-   Pakethanteraren hanterar paketen i din lokala AEM. Mer information om hur du arbetar med Pakethanteraren finns i [Så här arbetar du med paket](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html) i AEM.
+   Pakethanteraren hanterar paketen i din lokala AEM. Mer information om hur du arbetar med pakethanteraren finns i [Arbeta med paket](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html) i AEM.
 
    ![](assets/package-manager.png){width="650" align="left"}
 
-1. Om du vill överföra AEM stödlinjer klickar du på **Överför paket**.
+1. Klicka på **Överför paket** om du vill överföra AEM Guides-paketet.
 
-1. I dialogrutan Överför paket går du till filen AEM stödlinjer som du laddade ned i steg 1 och klickar på **OK**.
+1. I dialogrutan Överför paket går du till AEM Guides-filen som du hämtade i steg 1 och klickar på **OK**.
 
    Paketet överförs till din AEM.
 
-1. Klicka på **Installera**.
+1. Klicka på **Installera** om du vill installera paketet.
 
    ![](assets/install-package.png){width="650" align="left"}
 
-1. I dialogrutan Installera paket klickar du på **Installera**.
+1. Klicka på **Installera** i dialogrutan Installera paket.
 
-1. Klicka på knappen Hem för att komma igång med AEM stödlinjer ![](assets/home-button.png) i det övre vänstra hörnet av CRX Package Manager.
+1. Kom igång med AEM Guides genom att klicka på hemknappen ![](assets/home-button.png) i det övre vänstra hörnet av CRX Package Manager.
 
 
 >[!NOTE]

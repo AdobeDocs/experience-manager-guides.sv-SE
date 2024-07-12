@@ -1,18 +1,19 @@
 ---
-title: Integrering av externa datakällor för AEM
-description: Integrering av innehållets datakällor med AEM .
+title: Integrering av extern datakälla för AEM Guides
+description: Integrering av innehållets datakällor med AEM Guides.
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: 02a6c2ea-a550-49d5-ae54-1cc24ef35287
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 0%
 
 ---
 
-# Integration med externa datakällor för AEM: Hur fungerar det?
+# Integration med externa datakällor för AEM Guides: Hur fungerar det?
 
 Många företagskunder har data som distribueras över flera databaser, men det finns ofta ett behov av att integrera data i AEM som en enda källa varifrån data kan bearbetas.
-Adobe Experience Manager Guides innehåller nu färdiga kopplingar till externa datakällor - inklusive JIRA, PIM, SQL Data Bases och PLMs - som gör det till en äkta innehållsnav.
+Adobe Experience Manager Guides har nu färdiga kopplingar till externa datakällor - inklusive JIRA, PIM, SQL Data Bases och PLMs - som gör det till en äkta Content Hub.
 
 
 ## Sessionsregistrering
@@ -24,12 +25,12 @@ Adobe Experience Manager Guides innehåller nu färdiga kopplingar till externa 
 - **Datum** - 14 december 2023
 - **Antal deltagare** - 80
 - **Varaktighet** - 60 minuter
-- **Målgrupp** - Kunder, partners och anställda på Adobe
+- **Målgrupp** - Kunder, partners och anställda i Adobe
 
 ## Viktiga uppgifter
 
 Under den här sessionen får du veta mer om:
-- En översikt över datakällor och hur de används med AEM
+- En översikt över datakällor och hur de används med AEM Guides
 - Konfigurera anslutningen för olika datakällor
    - Snabbhetsverktyg i datakällmallarna
    - Arbeta med mappningsmallar
@@ -43,7 +44,7 @@ Under den här sessionen får du veta mer om:
 
 ## Relaterade resurser
 
-- **Konfigurera datakällkoppling** - [på Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-data-source-connector-tools.html?lang=en)
+- **Konfigurera datakällanslutning** - [ på Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-data-source-connector-tools.html?lang=en)
 
 - **Dokumentation** - [på Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides/using/user-guide/author-content/create-preview-topics/author-content-aem-guides/work-with-web-editor/web-editor-content-snippet.html)
 
@@ -53,7 +54,7 @@ Under den här sessionen får du veta mer om:
 
 >[!NOTE]
 >
-> Funktionerna som visas under den här sessionen finns i följande versioner av AEM.
+> Funktionerna som visas under den här sessionen är tillgängliga i följande versioner av AEM Guides:
 > - December 2023 (för molnet)
 > - 4.3.1 (för icke-moln)
 
@@ -61,4 +62,4 @@ Under den här sessionen får du veta mer om:
 
 ## Kontakta oss
 
-Om du har frågor kan du skicka ett e-postmeddelande till oss på <techcomm@adobe.com>
+Om du har frågor kan du skicka ett e-postmeddelande till <techcomm@adobe.com>

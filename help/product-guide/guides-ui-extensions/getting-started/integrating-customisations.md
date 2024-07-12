@@ -1,18 +1,18 @@
 ---
 title: Installation och konfiguration
-description: Installera och använda tilläggspaketet för AEM stödlinjer
+description: Installera och använda AEM Guides Extension Package
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: 0304c8d0-35a8-4712-a9af-36557e3b247f
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
 
 ---
 
+# Installera och använda AEM Guides Extension Package
 
-# Installera och använda tilläggspaketet för AEM stödlinjer
-
-Med tillägg kan du anpassa appen AEM Guides så att den passar dina behov bättre. Det här tilläggsramverket stöds av AEM Guides v4.3 och senare (on-prem) och 2310 (cloud).
+Med tillägg får du möjlighet att anpassa din AEM Guides-app så att den bättre passar dina behov. Det här tilläggsramverket stöds med AEM Guides v4.3 och senare (lokal) och 2310 (moln).
 
 ## Krav
 
@@ -20,7 +20,7 @@ Det här paketet kräver [git bash](https://github.com/git-guides/install-git) o
 
 ## Installation
 
-Det enklaste sättet att starta installationen av AEM Guides Framework är via cli
+Det enklaste sättet att starta installationen av AEM Guides-ramverket är via cli
 
 ```bash
 npx @adobe/create-guides-extension
@@ -28,16 +28,16 @@ npx @adobe/create-guides-extension
 
 ## Lägga till anpassningsbar kod
 
-1. Lägga till kodfiler för varje komponent som du vill utöka i dialogrutan `src/` katalog. Vissa exempelfiler har redan lagts till.
-2. Nu i `index.ts` filen som finns i `src/` katalog:
-   - Importera `.ts` filer med de anpassningar du vill lägga till i bygget.
-   - Lägg till importerna i `window.extension`
+1. Lägg till kodfiler för varje komponent som du vill utöka i katalogen `src/`. Vissa exempelfiler har redan lagts till.
+2. Finns nu i filen `index.ts` i katalogen `src/` :
+   - Importera `.ts`-filerna med de anpassningar som du vill lägga till i din version.
+   - Lägg till importerna till `window.extension`
    - Registrera den anpassade komponentens `id` och motsvarande import till `tcx extensions`
    - Se exemplet `/src/index.ts`
 
 ## Bygga den anpassade koden
 
-- Kör `npm run build` i rotkatalogen. Du får tre filer i katalogen, `dist/`:
+- Kör `npm run build` i rotkatalogen. Du får 3 filer i katalogen, `dist/`:
    - `build.css`
    - `guides-extension.js`
    - `guides-extension.umd.cjs`
@@ -47,24 +47,25 @@ npx @adobe/create-guides-extension
 ## Lägga till anpassningar i AEM
 
 - Gå till `CRXDE` `crx/de/index.jsp#/`
-- Under `apps` mapp, skapa en ny nod av typen `cq:ClientLibraryFolder`
+- Skapa en ny nod av typen `cq:ClientLibraryFolder` i mappen `apps`
 
 ![Mappstruktur](./../imgs/crxde_folder_structure.png)
 
-- I `properties` för noden väljer du `Multi` lägg till följande egenskapsnamn: `categories`
+- I nodens `properties` väljer du `Multi` för att lägga till följande egenskap
+Namn: `categories`
 Typ: `String []`
 Värde: `apps.fmdita.review_overrides`, `apps.fmdita.xml_editor.page_overrides`
 
 ![Mappegenskaper](./../imgs/crxde_folder_properties.png)
 
-- Skapa en ny fil, till exempel `tcx1.js` i noden ovan skapade. Här lägger du till koden från `dist/guides-extension.umd.cjs` eller `dist/guides-extension.js`. Skapa nu en ny fil `js.txt`, här lägger vi till namnet på vår js-fil, som i det här fallet skulle vara:
+- Om du vill lägga till de skapade js-filerna skapar du en ny fil, till exempel `tcx1.js`, i noden ovan skapade. Här lägger du till koden från `dist/guides-extension.umd.cjs` eller `dist/guides-extension.js`. Skapa nu en ny fil `js.txt`, här lägger vi till namnet på vår js-fil, som i det här fallet skulle vara:
 
 ```t
 #base=.
 tcx1.js
 ```
 
-- Skapa en ny fil, till exempel `tcx1.css` i noden ovan skapade. Här lägger du till koden från `dist/build.css`. Skapa nu en ny fil `css.txt`här lägger vi till namnet på vår CSS-fil, som i det här fallet skulle vara:
+- Om du vill lägga till den skapade css-filen skapar du en ny fil, till exempel `tcx1.css`, i noden ovan skapade. Här lägger du till koden från `dist/build.css`. Skapa nu en ny fil `css.txt`, här lägger vi till namnet på vår CSS-fil, som i det här fallet skulle vara:
 
 ```t
 #base=.
@@ -77,5 +78,5 @@ tcx1.css
 
 Kontrollera att alla ovanstående steg har utförts korrekt.
 När du har lagt till koden i tcx.js måste du göra en hård uppdatering (Skift+Uppdatera).
-Öppna AEM och högerklicka `Inspect`
-Gå till Källor och sök efter `[node_name].js` (till exempel: extensions.js)-fil. Sök efter filen med Ctrl/Cmd+D. Om `.js` filen finns med den JS-kod som du klistrade in från `dist/guides-extension.umd.cjs` eller `dist/guides-extension.js`är installationen klar
+Öppna AEM, högerklicka och klicka på `Inspect`
+Gå till Källor och sök efter din `[node_name].js` -fil (till exempel extensions.js). Sök efter filen med Ctrl/Cmd+D. Om filen `.js` finns med den JS-kod som du klistrade in från `dist/guides-extension.umd.cjs` eller `dist/guides-extension.js` är installationen klar

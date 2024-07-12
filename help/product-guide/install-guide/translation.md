@@ -1,5 +1,5 @@
 ---
-title: Översätta innehåll i AEM
+title: Översätta innehåll i AEM Guides
 description: Lär dig hur du översätter innehåll
 exl-id: 0d3a909c-3499-4ef4-b033-02e412dae959
 feature: Translation
@@ -23,24 +23,24 @@ Automatisera översättning av sidinnehåll, resurser och användargenererat inn
 
 Översättning av innehåll omfattar följande steg:
 
-1. AEM [översättningstjänst](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConnectingtoaTranslationServiceProvider) och skapa [konfigurationer för översättningsintegreringsramverk](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#CreatingaTranslationIntegrationConfiguration).
+1. Anslut AEM till din [översättningstjänstleverantör](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConnectingtoaTranslationServiceProvider) och skapa [konfigurationer för översättningsintegreringsramverk](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#CreatingaTranslationIntegrationConfiguration).
 
-1. Associera sidorna på din språkinställning med [översättningstjänst och ramverkskonfigurationer](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation).
+1. Associera sidorna i din språkinställning med [översättningstjänsten och ramverkskonfigurationerna](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation).
 
-1. Identifiera typen av [innehåll att översätta](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-rules.html).
+1. Identifiera typen av [innehåll som ska översättas](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-rules.html).
 
-1. [Förbered innehållet för översättning](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-prep.html) genom att skapa språkinställningarna och skapa rotsidorna för språkkopior.
+1. [Förbered innehållet för översättning](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-prep.html) genom att skapa språkinställningen och skapa rotsidorna för språkkopior.
 
-1. Skapa [översättningsprojekt](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-manage.html) för att samla det innehåll som ska översättas och förbereda översättningsprocessen.
+1. Skapa [översättningsprojekt](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-manage.html) om du vill samla in innehållet som ska översättas och förbereda översättningsprocessen.
 
-1. Använd översättningsprojekt för att [hantera innehållsöversättning](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-manage.html) -processen.
+1. Använd översättningsprojekten för att [hantera innehållsöversättningsprocessen](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-manage.html).
 
 
 När översättningstjänstleverantören inte tillhandahåller någon koppling till integrering med AEM stöder AEM manuell export och import av översatt innehåll i XML-format.
 
 >[!TIP]
 >
-> Se *Översättning* finns i Best practices guide för översättning av innehåll.
+> Se avsnittet *Översättning* s i guiden om bästa praxis för översättning av innehåll.
 
 ## Konfigurera översättningsfliken på DITA-kartpanelen
 
@@ -54,15 +54,15 @@ Alternativet Dölj översättningsflik är inte aktiverat som standard och du m�
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Sök efter och klicka på **com.adobe.fmdita.config.ConfigManager** paket.
+1. Sök efter och klicka på paketet **com.adobe.fmdita.config.ConfigManager**.
 
-1. Välj **Dölj översättningsflik** om du vill dölja översättningsfliken på kartkontrollpanelen.
+1. Välj alternativet **Dölj översättningsflik** om du vill dölja översättningsfliken på kartkontrollpanelen.
 
    >[!NOTE]
    >
    > Den här egenskapen är inaktiverad som standard och översättningsfliken är tillgänglig på kartkontrollpanelen.
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.
 
 ## Konfigurera komponentbaserat översättningsarbetsflöde
 
@@ -78,19 +78,19 @@ Baserat på det översättningsarbetsflöde som används i konfigurationen bör 
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Sök efter och klicka på **com.adobe.fmdita.config.ConfigManager** paket.
+1. Sök efter och klicka på paketet **com.adobe.fmdita.config.ConfigManager**.
 
-1. Konfigurera **Komponentbaserat DITA-översättningsarbetsflöde** alternativ enligt dina inställningar:
+1. Konfigurera alternativet **Komponentbaserat DITA-översättningsarbetsflöde** enligt inställningarna:
 
-   - Om du använder mänsklig översättning *Inaktivera* den **Komponentbaserat översättningsarbetsflöde** alternativ.
+   - Om du använder mänsklig översättning *Inaktivera* alternativet **Komponentbaserat översättningsarbetsflöde**.
 
-   - Om du använder maskinöversättning *Aktivera* den **Komponentbaserat översättningsarbetsflöde** alternativ.
+   - Om du använder maskinöversättning *Aktivera* alternativet **Komponentbaserat översättningsarbetsflöde**.
 
    >[!NOTE]
    >
-   > Om du använder översättningskoppling måste du kontrollera att du har konfigurerat anslutningen enligt beskrivningen i *[Konfigurera översättningsintegreringsramverket](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html)* i AEM.
+   > Om du använder översättningskoppling kontrollerar du att du har konfigurerat kopplingen enligt beskrivningen i avsnittet *[Konfigurera översättningsintegreringsramverket](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html)* i AEM.
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.
 
 <!---
 
@@ -143,12 +143,12 @@ Som standard är alternativet för efterbearbetning av tillfälliga filer inakti
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Sök efter och klicka på **com.adobe.fmdita.config.ConfigManager** paket.
+1. Sök efter och klicka på paketet **com.adobe.fmdita.config.ConfigManager**.
 
-1. Konfigurera **Post-process language copies** alternativ enligt dina inställningar:
+1. Konfigurera alternativet **Post-bearbeta språkkopior** enligt dina inställningar:
 
-   - \(*Standard*\) Om du inte vill köra efterbearbetningen av de temporära filerna ska du *Inaktivera* den **Post-process language copies** alternativ.
+   - \(*Standard*\) Om du inte vill köra efterbearbetningsåtgärden för de temporära filerna *Inaktivera* alternativet **Post-processspråk kopieras**.
 
-   - Om du vill köra efterbearbetningen av de temporära filerna ska du *Aktivera* den **Post-process language copies** alternativ.
+   - Om du vill köra efterbearbetningen av de temporära filerna *Aktivera* alternativet **Post-processspråkkopior**.
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.

@@ -1,6 +1,6 @@
 ---
 title: Artikelbaserad publicering från webbredigeraren
-description: Lär dig hur du publicerar en eller flera artiklar från webbredigeraren. Generera utdata för ett eller flera ämnen i en DITA-karta i AEM.
+description: Lär dig hur du publicerar en eller flera artiklar från webbredigeraren. Generera utdata för ett eller flera ämnen i en DITA-karta i AEM Guides.
 exl-id: d89ce69d-8d4c-4265-bfca-60763f561afd
 feature: Authoring, Features of Web Editor, Publishing
 role: User
@@ -27,7 +27,7 @@ För artikelbaserad publicering måste du skapa förinställningen för DITA-kar
 
 Du kan också använda de förinställningar för utdata som du har skapat för DITA-kartan för att generera utdata från panelen Databas eller panelen Kartvy. Du kan generera utdata för ett eller flera ämnen eller för hela DITA-kartan.
 
-- **[Skapa förinställningar från Web Editor](web-editor-article-publishing-presets.md)**
+- **[Skapa förinställningar för utdata från Web Editor](web-editor-article-publishing-presets.md)**
 
 - **[Generera utdata från panelen Databas eller panelen Kartvy](web-editor-article-publishing-output.md)**
 

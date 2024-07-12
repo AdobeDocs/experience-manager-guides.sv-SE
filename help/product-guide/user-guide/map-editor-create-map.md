@@ -1,6 +1,6 @@
 ---
 title: Skapa en karta
-description: Skapa en karta med kartredigeraren i AEM. Hitta stegen för att skapa en kartfil baserat på en kartmall.
+description: Skapa en karta med Karteredigeraren i AEM Guides. Hitta stegen för att skapa en kartfil baserat på en kartmall.
 exl-id: b9cda118-ab6f-4d6b-9616-a083180ba069
 feature: Authoring, Map Editor
 role: User
@@ -13,23 +13,23 @@ ht-degree: 0%
 
 # Skapa en karta {#id176FEN0D05Z}
 
-AEM Guides innehåller två färdiga mallar för kartor - DITA-karta och Bookmap. Du kan också skapa egna mappningsmallar och dela dem med författarna för att skapa mappningsfiler.
+AEM Guides har två färdiga mallar för kartor - DITA-karta och Bookmap. Du kan också skapa egna mappningsmallar och dela dem med författarna för att skapa mappningsfiler.
 
 Så här skapar du en kartfil:
 
-1. I resursgränssnittet navigerar du till den plats där du vill skapa kartfilen.
+1. Gå till den plats där du vill skapa kartfilen i Assets-användargränssnittet.
 
-1. Klicka **Skapa** \> **DITA-karta**.
+1. Klicka på **Skapa** \> **DITA-karta**.
 
 1. På sidan Design väljer du den typ av kartmallar som du vill använda och klickar på **Nästa**.
 
    >[!NOTE]
    >
-   > Hur ämnen hänvisas till i en kartfil beror på kartmallen. Om du till exempel väljer mallen Karta refererar ämnet till \(`topicref`\) används för att referera till ämnen. Om det är en bokmapp skapas ämnesreferenser med `chapter` i DITA.
+   > Hur ämnen hänvisas till i en kartfil beror på kartmallen. Om du till exempel väljer mappningsmallen används ämnesreferenserna \(`topicref`\) för att referera till ämnen. Om det är en bokmapp skapas ämnesreferenser med elementet `chapter` i DITA.
 
    ![](images/map-template.png){width="650" align="left"}
 
-1. Ange kartan på sidan Egenskaper **Titel**.
+1. Ange kartan **Titel** på sidan Egenskaper.
 
 1. \(Valfritt\) Ange filen **Namn**.
 
@@ -37,11 +37,11 @@ Så här skapar du en kartfil:
 
    Om alternativet för filnamngivning är tillgängligt föreslår vi automatiskt ett namn baserat på kartans titel. Om du vill ange kartfilens namn manuellt kontrollerar du att filnamnet inte innehåller blanksteg, apostrof eller klammerparenteser och slutar med `.ditamap`.
 
-1. Klicka **Skapa**.
+1. Klicka på **Skapa**.
 
    Meddelandet Kartan har skapats visas.
 
-   Alla nya mappningsfiler som du skapar från resursgränssnittet **Skapa** \> **DITA-karta** eller webbredigeraren tilldelas ett unikt mappnings-ID. Dessutom sparas den nya kartan som den senaste arbetskopian i DAM. Om du inte sparar en revision av en nyligen skapad karta visas inget versionsnummer i Tidigare versioner. Om du öppnar kartan för redigering visas versionsinformationen i det övre högra hörnet på mappningsfilens flik:
+   Alla nya mappningsfiler som du skapar från Assets användargränssnitt **Create** \> **DITA Map** eller webbredigeraren tilldelas ett unikt mappnings-ID. Dessutom sparas den nya kartan som den senaste arbetskopian i DAM. Om du inte sparar en revision av en nyligen skapad karta visas inget versionsnummer i Tidigare versioner. Om du öppnar kartan för redigering visas versionsinformationen i det övre högra hörnet på mappningsfilens flik:
 
    ![](images/first-version-map-none.png){width="650" align="left"}
 

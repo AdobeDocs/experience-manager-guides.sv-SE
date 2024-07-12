@@ -14,22 +14,22 @@ ht-degree: 0%
 
 # Inkludera @navtitle-attribut som standard {#id2115BC0J0XA}
 
-Du kan lägga till olika typer av referensfiler på en karta, till exempel avsnitt-, referens-, uppgift-, \(sub\)-kartor. De flesta av dessa filer har stöd för `@navtitle` -attribut. Men det är inte många som använder det konsekvent. Om du vill använda `@navtitle` i alla refererade filer på en karta kan du göra det med en enkel konfiguration.
+Du kan lägga till olika typer av referensfiler på en karta, till exempel avsnitt-, referens-, uppgift-, \(sub\)-kartor. De flesta av dessa filer stöder attributet `@navtitle`. Men det är inte många som använder det konsekvent. Om du vill framtvinga användning av attributet `@navtitle` i alla refererade filer på en karta kan du göra det med en enkel konfiguration.
 
-När du har aktiverat kommer alla referensfiler som du lägger till på en karta automatiskt att få `@navtitle` attribut som lagts till i dess egenskaper. The `@navtitle` får även värdet för `title` -element för det refererade innehållet.
+När den är aktiverad läggs attributet `@navtitle` automatiskt till i egenskaperna för varje referensfil som du lägger till på en karta. `@navtitle` hämtar även värdet för elementet `title` i det refererade innehållet.
 
-Inkludera `@navtitle` som standard i referensfilens egenskaper utför du följande steg:
+Så här tar du med attributet `@navtitle` som standard i referensfilens egenskaper:
 
 1. Om du vill hämta UI-konfigurationsfilen loggar du in på Adobe Experience Manager som administratör.
 
-1. Klicka på länken Adobe Experience Manager överst och välj **verktyg**.
-1. Välj **Stödlinjer** i listan med verktyg och klicka på **Mappprofiler**.
-1. Klicka på **Global profil** platta.
-1. Välj **Konfiguration av XML-redigerare** och klicka **Redigera** ikonen längst upp
-1. Klicka på **Ladda ned** om du vill hämta filen ui\_config.json på ditt lokala system.
-1. Du kan göra ändringen på global nivå eller på en mappnivåprofil. Beroende på var du vill göra den här ändringen måste du hämta respektive ui\_config.json-fil. Mer information om hur du hämtar filen ui\_config.json finns i [Konfigurera och anpassa XML Web Editor](conf-folder-level.md#id2065G300O5Z).
+1. Klicka på länken Adobe Experience Manager överst och välj **Verktyg**.
+1. Välj **Stödlinjer** i listan över verktyg och klicka på **Mappprofiler**.
+1. Klicka på rutan **Global profil**.
+1. Välj fliken **Konfiguration av XML-redigerare** och klicka på ikonen **Redigera** överst
+1. Klicka på ikonen **Hämta** för att hämta filen ui\_config.json på din lokala dator.
+1. Du kan göra ändringen på global nivå eller på en mappnivåprofil. Beroende på var du vill göra den här ändringen måste du hämta respektive ui\_config.json-fil. Mer information om hur du hämtar filen ui\_config.json finns i [Konfigurera och anpassa XML-webbredigeraren](conf-folder-level.md#id2065G300O5Z).
 
-1. Sök efter `ditaAttributes` definition.
+1. Sök efter definitionen `ditaAttributes`.
 
    Standarddefinitionen för `ditaAttributes` är:
 
@@ -41,7 +41,7 @@ Inkludera `@navtitle` som standard i referensfilens egenskaper utför du följan
                            },
    ```
 
-1. Ändra `required` parameter som:
+1. Ändra parametern `required` som:
 
    ```
    "required": {"navtitle": true}
@@ -52,6 +52,6 @@ Inkludera `@navtitle` som standard i referensfilens egenskaper utför du följan
 1. Överför filen i motsvarande profil \(global eller mapp\).
 
 
-Med den här konfigurationen kommer alla referensfiler som du lägger till på en karta att innehålla `@navtitle` som standard.
+Med den här konfigurationen kommer alla referensfiler som du lägger till på en karta att innehålla attributet `@navtitle` som standard.
 
 **Överordnat ämne:**[ Anpassa Web Editor](conf-web-editor.md)

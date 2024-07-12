@@ -1,6 +1,6 @@
 ---
-title: Hantera taggar för DITA-filer i AEM
-description: En kort artikel om hur du hanterar cq:taggar i AEM Guides
+title: Hantera taggar för DITA-filer i AEM Guides
+description: Kort artikel om hur du hanterar cq:taggar i AEM Guides
 exl-id: 2d805c26-df9b-405a-81ca-7aa84c6f86c8
 feature: Metadata Management
 role: User, Admin
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Taggar kan vara användbara för att kategorisera innehållet. Om innehållet är taggat på rätt sätt kan det hjälpa dig att hitta exakta ämnen i din dagskarta och slutanvändaren hittar rätt innehåll snabbare i dina publicerade utdata
 
-> **_OBS!_**  Följande artikel gäller AEM Guides Build 4.2 (on-prem) /Feb 2023 (cloud version) eller senare
+> **_Obs!_** Följande artikel gäller AEM Guides Build 4.2 (lokal) /Feb 2023 (molnversion) eller senare
 
 
 ## Skapa taggar
@@ -27,7 +27,7 @@ Taggning är en inbyggd AEM och AEM kan hjälpa dig att skapa och konfigurera de
 
 **Alla taggar som skapas i AEM cq: -taggar kan läggas till, tas bort och hanteras för DITA-innehållet**
 
-Du kan lägga till taggar i DITA-innehåll på flera olika sätt, men den här artikeln kommer att koncentreras till AEM webbredigeringsgränssnittet för stödlinjer.
+Det finns olika sätt att lägga till taggar i DITA-innehåll, men den här artikeln kommer att koncentreras till AEM Guides webbredigeringsgränssnitt.
 
 ### Steg:
 
@@ -39,13 +39,13 @@ Du kan lägga till taggar i DITA-innehåll på flera olika sätt, men den här a
 6. Markera en eller flera filer och klicka på ikonen Hantera. Här kan du lägga till taggar till markerade filer.
 Du kan också ta bort befintliga taggar som är gemensamma för markerade filer.
 
-<img title="Hantera taggar i AEM " alt="Hantera taggar i DITA " src="ManageTags.jpg">
+<img title="Hantera taggar i AEM Guides " alt="Hantera taggar i DITA " src="ManageTags.jpg">
 
 ## Felsökning och vanliga frågor
 
 ### Listan i manage->metadata är tom eller ofullständig
 
-`If list is empty or  incomplete then you may need to run the indexing on your ditamap, You can refer` [Uppgraderingsinstruktioner (indexera ditt innehåll)](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/download-install-upgrade-aemg/upgrade-xml-documentation.html?lang=en#steps-to-index-the-existing-content-to-use-the-new-find-and-replace%3A)
+`If list is empty or  incomplete then you may need to run the indexing on your ditamap, You can refer` [Uppgraderingsinstruktioner(indexera ditt innehåll)](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/download-install-upgrade-aemg/upgrade-xml-documentation.html?lang=en#steps-to-index-the-existing-content-to-use-the-new-find-and-replace%3A)
 
 ### Anpassade metadata visas inte i listan
 
@@ -56,9 +56,9 @@ Du kan också ta bort befintliga taggar som är gemensamma för markerade filer.
 
 ## Andra användbara resurser
 
-- [Masstaggning med hjälp av kartkontrollpanelen (resursgränssnittet)](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/manaege-metadata/map-editor-bulk-tagging.html?lang=en)
+- [Masstaggning med Map Dashboard (Assets UI)](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/manaege-metadata/map-editor-bulk-tagging.html?lang=en)
 - [Ditamap-rapporter i webbredigeraren](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/reports-aem-guide/reports-web-editor.html?lang=en)
-- [Tagga i AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/configuring/tagging.html?lang=en)
+- [Taggning i AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/configuring/tagging.html?lang=en)
 
 
-**Kontakta respektive CSM för andra frågor**
+**Kontakta respektive CSM för eventuella andra frågor**

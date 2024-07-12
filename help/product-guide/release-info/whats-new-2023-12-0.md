@@ -1,9 +1,10 @@
 ---
-title: Versionsinformation | Nyheter i Adobe Experience Manager Guides, december 2023-versionen
+title: Versionsinformation | Nyheter i Adobe Experience Manager Guides, december 2023
 description: Läs om de nya och förbättrade funktionerna i december 2023-utgåvan av Adobe Experience Manager Guides as a Cloud Service.
 feature: What's New
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+exl-id: bf8d98e9-97fe-4195-9286-60d8517ab19c
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '966'
 ht-degree: 0%
@@ -12,14 +13,14 @@ ht-degree: 0%
 
 # Nyheter i december 2023-utgåvan av Adobe Experience Manager Guides as a Cloud Service
 
-I den här artikeln beskrivs de nya och förbättrade funktionerna i Adobe Experience Manager-handbokens version från december 2023 (senare kallad *as a Cloud Service stödlinjer för Experience Manager*).
+I den här artikeln beskrivs de nya och förbättrade funktionerna i Adobe Experience Manager Guides-versionen från december 2023 (kallas senare *Experience Manager Guides as a Cloud Service*).
 
-Mer information om uppgraderingsinstruktioner, kompatibilitetsmatris och problemen som åtgärdas i den här versionen finns i [Versionsinformation](release-notes-2023-12-0.md).
+Mer information om uppgraderingsinstruktioner, kompatibilitetsmatris och de problem som har åtgärdats i den här versionen finns i [Versionsinformation](release-notes-2023-12-0.md).
 
 
 ## Använd variabler i PDF-utdata
 
-Du kan använda variabler för att dynamiskt infoga och hantera återanvändbar information. Med stödlinjerna i Experience Manager kan du skapa, redigera och förhandsgranska variabler när du genererar PDF. Du kan snabbt ändra variabelvärdena och göra dokumenten portabla och enkla att uppdatera.
+Du kan använda variabler för att dynamiskt infoga och hantera återanvändbar information. Experience Manager Guides hjälper dig att skapa, redigera och förhandsgranska variabler medan du genererar PDF. Du kan snabbt ändra variabelvärdena och göra dokumenten portabla och enkla att uppdatera.
 
 ![inbyggda PDF-variabler](assets/add-variable-default.png){width="800" align="left"}
 
@@ -56,26 +57,26 @@ Läs mer om hur du använder [variabler i utdata från PDF](../native-pdf/native
 
 ## Förbättrad upplevelse för att redigera attributen
 
-Nu får du en omgjord upplevelse som lägger till eller redigerar attributen för ett element från **Innehållsegenskaper** i webbredigeraren.
+Nu får du en omgjord upplevelse där du kan lägga till eller redigera attribut för ett element från panelen **Innehållsegenskaper** i webbredigeraren.
 
-![Panelen Attribut](assets/attributes-multiple-properties.png){width="300" align="left"}
+![Attributpanelen](assets/attributes-multiple-properties.png){width="300" align="left"}
 
 *Lägg till attribut från panelen Innehållsegenskaper.*
 
 Du kan också enkelt redigera och ta bort attributen.
 
-Mer information finns i **Innehållsegenskaper** funktionsbeskrivning i [Höger panel](../user-guide/web-editor-features.md#id2051EB003YK) -avsnitt.
+Mer information finns i beskrivningen av funktionen **Innehållsegenskaper** i avsnittet [Högerpanel](../user-guide/web-editor-features.md#id2051EB003YK).
 
 
 ## Redigera metadata vid redigering
 
-När du redigerar kan du nu uppdatera filens metadatataggar med hjälp av listrutan i **Filegenskaper** i den högra panelen. Du kan också välja **Redigera fler egenskaper** för att uppdatera fler metadata.
+När du redigerar kan du nu uppdatera filens metadatataggar med hjälp av listrutan i **filegenskaperna** i den högra panelen. Du kan också välja **Redigera fler egenskaper** om du vill uppdatera fler metadata.
 
 ![file-properties](assets/file-properties-general.png){width="300" align="left"}
 
 *Uppdatera metadata och redigera filegenskaper från den högra panelen.*
 
-Mer information finns i **Filegenskaper** funktionsbeskrivning i [Höger panel](../user-guide/web-editor-features.md#id2051EB003YK) -avsnitt.
+Mer information finns i funktionsbeskrivningen för **File Properties** i avsnittet [Right Panel](../user-guide/web-editor-features.md#id2051EB003YK) .
 
 ## Möjlighet att publicera innehåll i ServiceNow-kunskapsbasen
 
@@ -86,29 +87,29 @@ I december 2023-utgåvan kan du som administratör skapa en publiceringsprofil f
 Med den här funktionen kan du publicera innehåll, som text, videoklipp och bilder, på kunskapsbasplattformen ServiceNow och underhålla ett omfattande arkiv.
 
 
-![service now knowledge base preset](assets/knowledgebase--output-preset.png){width="300" align="left"}
+![tjänsten har nu kunskapsbasförinställning](assets/knowledgebase--output-preset.png){width="300" align="left"}
 
-*Skapa en förinställning för utdata för kunskapsbasen ServiceNow.*
+*Skapa en förinställning för ServiceNow-kunskapsbasen.*
 
-Läs mer om [Knowledge Base](../user-guide/generate-output-knowledge-base.md) förinställningar för utdata.
+Läs mer om [kunskapsbasens](../user-guide/generate-output-knowledge-base.md) förinställningar för utdata.
 
 ## Förbättrad kontrollpanel för kartsamling
 
-Stödlinjerna i Experience Manager har en förbättrad kontrollpanel för kartsamling. I en kartsamling kan du snabbt konfigurera flera metadataegenskaper för DITA-kartorna. Den här funktionen är praktisk eftersom du inte behöver uppdatera metadataegenskaperna för varje DITA-karta separat.
+Experience Manager Guides har en förbättrad kontrollpanel för kartsamling. I en kartsamling kan du snabbt konfigurera flera metadataegenskaper för DITA-kartorna. Den här funktionen är praktisk eftersom du inte behöver uppdatera metadataegenskaperna för varje DITA-karta separat.
 
 Nu kan du visa filnamnet på DITA-kartan. Du kan också visa baslinjerna. På så sätt kan du snabbt hitta den baslinje som används för en förinställning.
 
-![Kontrollpanel för kartsamling](assets/map-collection-dashboard.png){width="800" align="left"}
+![Kartsamlingens kontrollpanel](assets/map-collection-dashboard.png){width="800" align="left"}
 
 *Visa, redigera och generera utdata från kartsamlingens kontrollpanel.*
 
-Lär dig hur [använd Map Collection för generering av utdata](../user-guide/generate-output-use-map-collection-output-generation.md).
+Lär dig hur du [använder kartsamling för utdatagenerering](../user-guide/generate-output-use-map-collection-output-generation.md).
 
 ## Visa nyckelattribut i Kartvyn
 
-När du definierar nyckelattribut för ämnet eller mappningsreferenserna kan du även visa titeln, motsvarande ikon och nyckeln i den vänstra panelen. Tangenten visas som `key=<key-name>`.
+När du definierar nyckelattribut för ämnet eller mappningsreferenserna kan du även visa titeln, motsvarande ikon och nyckeln i den vänstra panelen. Nyckeln visas som `key=<key-name>`.
 
-Mer information finns i **Kartvy** funktionsbeskrivning i [Vänster panel](../user-guide/web-editor-features.md#id2051EA0M0HS) -avsnitt.
+Mer information finns i funktionsbeskrivningen för **Kartvyn** i avsnittet [Vänster panel](../user-guide/web-editor-features.md#id2051EA0M0HS).
 
 ![tangenter i kartvyn](assets/view-key-title-map-view.png) {width="300" align="left"}
 
@@ -116,9 +117,9 @@ Mer information finns i **Kartvy** funktionsbeskrivning i [Vänster panel](../us
 
 ## Möjlighet att duplicera en baslinje baserat på etikett
 
-Experience Manager Guides ger nu en bättre användarupplevelse när du skapar baslinjer från Web Editor.\
+Experience Manager Guides ger nu en förbättrad användarupplevelse när du skapar baslinjer från Web Editor.\
 ![skapa ny baslinje](assets/create-new-baseline.png) {width="300" align="left"}
-*Skapa baslinje i Web Editor.*
+*Skapa baslinje i webbredigeraren.*
 
 Du kan också duplicera en baslinje baserat på etiketten. Referensversionen väljs baserat på den angivna etiketten (om den finns) när du duplicerar, eller också väljs versionen från den duplicerade baslinjen.
 
@@ -127,7 +128,7 @@ Du kan också duplicera en baslinje baserat på etiketten. Referensversionen vä
 
 *Duplicera en baslinje baserat på en etikett eller skapa en exakt kopia.*
 
-Läs mer om hur [skapa och hantera baslinjer från Web Editor](../user-guide/web-editor-baseline.md).
+Läs mer om hur du [skapar och hanterar baslinjer i Web Editor](../user-guide/web-editor-baseline.md).
 
 ## Lösa länkar för korsmappning i AEM webbplatsutdata
 
@@ -136,5 +137,4 @@ Korsmappslänkar (XREF med scope-peer) som återges i AEM webbplatsutdata tolkas
 
 ## Konfigurera URL:en för AEM som ska använda dokumenttiteln
 
-Med hjälp av stödlinjerna i Experience Manager kan du som administratör konfigurera URL:en för AEM webbplatsutdata. Om filnamnet inte finns eller innehåller alla specialtecken kan du konfigurera så att de ersätts med en avgränsare i URL:en för AEM platsutdata. Du kan även ersätta dem med namnet på det första underordnade ämnet. Lär dig hur [konfigurera URL:en för AEM som ska använda dokumenttiteln](../cs-install-guide/conf-output-generation.md#configure-the-url-of-the-aem-site-output-to-use-the-document-title).
-
+I Experience Manager Guides kan du som administratör konfigurera URL:en för AEM webbplatsutdata. Om filnamnet inte finns eller innehåller alla specialtecken kan du konfigurera så att de ersätts med en avgränsare i URL:en för AEM platsutdata. Du kan även ersätta dem med namnet på det första underordnade ämnet. Lär dig hur du [konfigurerar URL:en för AEM webbplatsutdata så att dokumenttiteln ](../cs-install-guide/conf-output-generation.md#configure-the-url-of-the-aem-site-output-to-use-the-document-title) används.

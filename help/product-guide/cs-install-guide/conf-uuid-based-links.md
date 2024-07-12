@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Konfigurera visning av UUID-baserade länkar {#id2035G20M0QN}
 
-Som standard skapas länken med UUID för det refererade innehållet när du skapar en länk med alternativet Infoga referens eller Infoga återanvänd innehåll i webbredigeraren. The **Länk** egenskapen \(i egenskapspanelen\) för det refererade innehållet kan konfigureras så att den relativa filsökvägen för det refererade innehållet eller UUID:t visas. Som standard visas UUID för det refererade innehållet på egenskapspanelen.
+Som standard skapas länken med UUID för det refererade innehållet när du skapar en länk med alternativet Infoga referens eller Infoga återanvänd innehåll i webbredigeraren. Egenskapen **Link** \(i egenskapspanelen\) för det refererade innehållet kan konfigureras så att den relativa filsökvägen för det refererade innehållet eller UUID:t visas. Som standard visas UUID för det refererade innehållet på egenskapspanelen.
 
 Använd instruktionerna i [Konfigurationsåsidosättningar](download-install-additional-config-override.md#) för att skapa konfigurationsfilen. Ange följande \(egenskap\)-information i konfigurationsfilen för att visa den relativa sökvägen eller UUID för det refererade innehållet i Web Editor:
 

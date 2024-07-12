@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Konfigurera ämne- och mappningsmallar {#id181AH2003PF}
 
-AEM Guides innehåller mallar för avsnitt och DITA-kartor. Du kan skapa en egen anpassad mall och dela den med författarna. I det här avsnittet beskrivs hur du använder anpassade teman och mappningsmallar.
+AEM Guides innehåller mallar för ämneslistor och DITA-kartor. Du kan skapa en egen anpassad mall och dela den med författarna. I det här avsnittet beskrivs hur du använder anpassade teman och mappningsmallar.
 
 - **[Konfigurera anpassad ämnesmall för DITA](conf-template-tags-custom-dita-topic-template.md)**
 

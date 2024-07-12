@@ -2,13 +2,13 @@
 title: Versionsinformation | Korrigerade problem i Adobe Experience Manager Guides 4.3.1.5
 description: Läs mer om felkorrigeringarna i version 4.3.1.5 av Adobe Experience Manager Guides
 role: Leader
-source-git-commit: 485f88e2e8724d1dc28deac13d677734fcc15c25
+exl-id: 082dca28-15da-417c-b511-74eb5ac68078
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '135'
 ht-degree: 0%
 
 ---
-
 
 # Åtgärdade problem i version 4.3.1.5
 
@@ -22,7 +22,7 @@ Läs mer om [uppgraderingsinstruktioner för version 4.3.1.5](../release-info/up
 
 ## Redigering
 
-- Lägga till blanksteg mellan textbundna element i `<codeblock>` skapar en radbrytning i genererade utdata. (15247)
+- Om du lägger till blanksteg mellan infogade element i `<codeblock>` uppstår en radbrytning i de genererade utdata. (15247)
 - Det uppstår problem när element läggs till från dialogrutan Infoga element. (15108)
 
 ## Publicering
@@ -33,5 +33,4 @@ Läs mer om [uppgraderingsinstruktioner för version 4.3.1.5](../release-info/up
 
 ## Förvaltning
 
-- **fmditaTopicrefs** egenskapen visar relativa sökvägar i stället för absoluta sökvägar. 15341
-
+- Egenskapen **fmditaTopicrefs** visar relativa sökvägar i stället för absoluta sökvägar. 15341

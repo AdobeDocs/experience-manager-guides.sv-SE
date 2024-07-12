@@ -39,13 +39,13 @@ const value = this.getValue("key")
 ## Visa
 
 Vyn definierar appens användargränssnitt. Vi använder JSON-filer för att definiera visningen av våra filer. Här definierar vi komponenterna, css (som anges i komponenternas extraklass) och återger de värden som lagras i modellen.
-I vår app definieras varje vy med en JSON. JSON refereras till med sina unika ID:n som kallas `id`.
+I vår app definieras varje vy med en JSON. JSON-objekten refereras med deras unika ID:n som kallas `id`.
 
 ## Styrenhet
 
 Kontrollenheten används för att hantera händelser och bearbeta data. Kontrollenheten används för att hämta och skicka data från servern, det är gränssnittet mellan det som visas i användargränssnittet och lagras på serverdelen.
 
-- För att ange värden vid initieringen använder vi `init` funktion.
+- Vi använder funktionen `init` för att ange värden vid initieringen.
 - Om du vill lägga till en metod i kontrollenheten använder vi följande syntax:
 
 ```typescript
@@ -54,7 +54,7 @@ methodName: function(args){
 }
 ```
 
-The `methodName` här fungerar som `key` referera till metoden i JSON (vyn) eller i andra funktioner
+`methodName` här fungerar som `key` som referens för metoden i JSON (vyn) eller i andra funktioner
 
 - För att anropa en metod i kontrollenheten använder vi syntaxen
 
@@ -83,7 +83,7 @@ I det här exemplet ändras etiketten när du klickar på knappen.
 
 ### Exempel på modell
 
-i detta fall `extraProps.buttonLabel` innehåller knappens etikett
+i det här fallet innehåller `extraProps.buttonLabel` knappens etikett
 
 ### Exempel på styrenhet
 

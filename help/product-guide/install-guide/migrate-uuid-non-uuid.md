@@ -19,7 +19,7 @@ Du kan migrera icke-UID-innehåll till UUID.
 
 >[!IMPORTANT]
 >
-> Innan du migrerar innehåll till UUID-servern kontrollerar du att du har en icke-UID-server med kompatibel version AEM stödlinjer installerad på den.
+> Innan du migrerar innehåll till UUID-servern kontrollerar du att du har en icke-UID-server med kompatibel AEM Guides-version installerad på den.
 
 
 

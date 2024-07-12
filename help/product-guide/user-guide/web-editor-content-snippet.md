@@ -1,6 +1,6 @@
 ---
 title: Infoga ett innehållssfragment från datakällan
-description: Använd data från datakällan i AEM. Lär dig hur du infogar ett innehållsavdrag från datakällan. Skapa ett ämne med ämnesgeneratorn.
+description: Använd data från datakällan i AEM Guides. Lär dig hur du infogar ett innehållsavdrag från datakällan. Skapa ett ämne med ämnesgeneratorn.
 exl-id: fbd5eff2-451b-49d6-ba77-6eb271e94349
 feature: Authoring, Features of Web Editor
 role: User
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Använd data från datakällan
 
-A **datakälla** är ett system där du lagrar och hanterar data för din organisation. Det här är databassystem som JIRA, SQL-databaser, PIM eller PLM. AEM innehåller funktioner för att ansluta till datakällan och använda data från den.
+En **datakälla** är ett system där du lagrar och hanterar data för din organisation. Det här är databassystem som JIRA, SQL-databaser, PIM eller PLM. AEM Guides tillhandahåller en funktion för att ansluta till din datakälla och använda data från den.
 
 Du kan också ansluta till JSON-datafiler med hjälp av en filkoppling. Ladda upp JSON-filen från datorn eller bläddra i den från Adobe Experience Manager resurser. Skapa sedan innehållsutdrag eller ämnen med generatorerna.
 
@@ -27,18 +27,18 @@ Beroende på din konfiguration kan administratören konfigurera en datakällansl
 <summary> Cloud Service </summary>
 
 
-- Om du använder versionen från oktober 2023 eller senare kan du lära dig hur [konfigurera en datakällanslutning från användargränssnittet](../cs-install-guide/conf-data-source-connector-tools.md) i Cloud Servicens installations- och konfigureringshandbok.
+- Om du använder versionen från oktober 2023 eller senare, ska du lära dig hur du [konfigurerar en datakällanslutning från användargränssnittet](../cs-install-guide/conf-data-source-connector-tools.md) i Cloud Servicens installations- och konfigureringshandbok.
 
-- Om du använder versionen från juli 2023 eller september 2023 ska du lära dig hur [konfigurera en datakällanslutning](../cs-install-guide/conf-data-source-connector.md) i Cloud Servicens installations- och konfigureringshandbok.
+- Om du använder versionen från juli 2023 eller september 2023 ska du lära dig hur du [konfigurerar en datakällanslutning](../cs-install-guide/conf-data-source-connector.md) i Cloud Servicens installations- och konfigureringshandbok.
 
 </details>
 
 <details>    
 <summary>  Lokal programvara </summary>
 
-- Om du använder version 4.3.1 eller senare bör du lära dig hur [konfigurera en datakällanslutning från användargränssnittet](../cs-install-guide/conf-data-source-connector-tools.md) i Installations- och konfigureringshandboken på plats.
+- Om du använder version 4.3.1 eller senare ska du lära dig hur du [konfigurerar en datakällanslutning från användargränssnittet](../cs-install-guide/conf-data-source-connector-tools.md) i installations- och konfigureringshandboken på plats.
 
-- Om du använder version 4.3 ska du lära dig hur [konfigurera en datakällanslutning](../cs-install-guide/conf-data-source-connector.md) i Installations- och konfigureringshandboken på plats.
+- Om du använder version 4.3 ska du lära dig hur du [konfigurerar en datakällanslutning](../cs-install-guide/conf-data-source-connector.md) i installations- och konfigureringshandboken på plats.
 </details>
 
 
@@ -53,7 +53,7 @@ Du kan växla mellan listvyn och rutvyn om du vill visa de olika datakällorna i
 
 Välj en datakälla om du vill visa generatorerna för innehållsavdrag och ämnesgeneratorerna som är tillgängliga för den valda datakällan.
 
-### Listvy  ![](images/data-sources-list-view-icon.svg)
+### Listvy ![](images/data-sources-list-view-icon.svg)
 
 ![](images/data-sources-list-view.png){width="300" align="left"}
 
@@ -73,7 +73,7 @@ Du kan använda data från datakällor på två sätt:
 
 ## Infoga ett innehållssfragment från datakällan
 
-AEM innehåller funktioner för att ansluta till datakällan. Du kan hämta dina data, infoga dem i dina ämnen och redigera dem. Du kan enkelt skapa ett innehållsavdrag med generatorn för innehållsavdrag och återanvända det i dina ämnen.
+AEM Guides har en funktion för att ansluta till din datakälla. Du kan hämta dina data, infoga dem i dina ämnen och redigera dem. Du kan enkelt skapa ett innehållsavdrag med generatorn för innehållsavdrag och återanvända det i dina ämnen.
 
 Utför följande steg för att skapa ett innehållskfragment med hjälp av generatorn för innehållsfragment och infoga det i ditt avsnitt:
 
@@ -83,11 +83,11 @@ Utför följande steg för att skapa ett innehållskfragment med hjälp av gener
 
    ![](images/code-snippet-generator.png){width="300" align="left"}
 
-   *På panelen Datakällor visas de tillgängliga generatorerna för innehållsfragment.*
+   *På panelen Datakällor visas tillgängliga generatorer för innehållsfragment.*
 
-1. Välj **Lägg till** om du vill lägga till en ny generator för innehållsfragment. The **Lägg till generator för innehållsfragment** panelen öppnas.
+1. Välj **Lägg till** om du vill lägga till en ny generator för innehållsfragment. Panelen **Lägg till generator för innehållsfragment** öppnas.
 
-1. Ange frågan i dialogrutan **Datafråga** textruta.  Välj **Kopiera exempelfråga** för att snabbt kopiera en datafråga. I stället för att skapa frågan manuellt kan du kopiera och klistra in exempelfrågan i **Datafråga** textruta. Redigera sedan frågan efter datakraven.
+1. Ange frågan i textrutan **Datafråga**.  Välj **Kopiera exempelfråga** om du snabbt vill kopiera en datafråga. I stället för att skapa frågan manuellt kan du kopiera och klistra in exempelfrågan i textrutan **Datafråga**. Redigera sedan frågan efter datakraven.
 
    >[!NOTE]
    >
@@ -99,22 +99,22 @@ Utför följande steg för att skapa ett innehållskfragment med hjälp av gener
    >
    > Om du använder en filkoppling visas alternativen för att överföra eller bläddra bland filer istället för en datafråga.
 
-1. Välj den mall som mappar med datakällan från **Datamappningsmall** nedrullningsbar meny.
+1. Välj den mall som mappar med datakällan i listrutan **Datamappningsmall**.
 De färdiga mallarna för den valda datakällan visas i listrutan. Du kan till exempel visa mallen &quot;sql-table&quot; för datakällan med namnet &quot;PostgreSQL&quot;-datakälla.
 
    >[!NOTE]
    >  
    > Om administratören har konfigurerat anpassade mallar visas även dessa mallar i listrutan (baserat på mallsökvägskonfigurationerna som din administratör har konfigurerat).
    >   
-   >Du kan också använda snabbhetsverktygen i mallarna. Läs mer om hur [använd snabbverktyg](#use-velocity-tools).
+   >Du kan också använda snabbhetsverktygen i mallarna. Läs mer om hur du [använder snabbverktyg](#use-velocity-tools).
 
-1. The **Resurs** listrutan visas för vissa anslutningar som REST Client, Salsify, Akeneo och Microsoft ADO.  Välj en resurs i listrutan och anslut till den för att skapa ett innehållskuvert eller ett ämne som använder generatorn för det.
+1. Listrutan **Resurs** visas för vissa anslutningar som REST Client, Salsify, Akeneo och Microsoft ADO.  Välj en resurs i listrutan och anslut till den för att skapa ett innehållskuvert eller ett ämne som använder generatorn för det.
 
    >[!NOTE]
    >
    > Administratören kan konfigurera standardresurser eller lägga till resurser för flera URL:er när datakällanslutningarna konfigureras.
 
-1. Klicka **Hämta** för att hämta data från datakällan och tillämpa mallen på data som är resultat av SQL-frågan.
+1. Klicka på **Hämta** för att hämta data från datakällan och tillämpa mallen på data som är resultat av SQL-frågan.
 
 1. Du kan visa data i förhandsgranskningen eller i DITA-källvyn.
 
@@ -127,7 +127,7 @@ Till exempel:
       ![](images/add-content-snippet-generator.png){width="800" align="left"}
       *Lägg till en generator för innehållsfragment. Visa data i käll- eller förhandsgranskningsläge.*
 
-1. Om du vill spara resultatet av frågan anger du namnet på generatorn och klickar sedan på **LÄGG TILL**.   En ny generator för innehållsfragment läggs till i listan.
+1. Om du vill spara resultatet av frågan anger du namnet på generatorn och klickar sedan på **ADD**.   En ny generator för innehållsfragment läggs till i listan.
 
    >[!NOTE]
    >
@@ -138,7 +138,7 @@ Till exempel:
 Högerklicka på en generator för innehållsfragment för att öppna Alternativ. Med alternativen kan du utföra följande åtgärder:
 
 - **Förhandsgranska**: Använd det här alternativet om du vill öppna en ruta och visa en liten del av hur data visas i utdata.
-- **Infoga**: Använd det här alternativet om du vill infoga det markerade innehållsfragmentet i det ämne som öppnas för redigering i webbredigeraren. När data infogas som utdrag kan du även redigera data i ämnet i Web Editor.
+- **Infoga**: Använd det här alternativet om du vill infoga det markerade innehållsfragmentet i det ämne som öppnats för redigering i webbredigeraren. När data infogas som utdrag kan du även redigera data i ämnet i Web Editor.
 
   >[!NOTE]
   > 
@@ -146,7 +146,7 @@ Högerklicka på en generator för innehållsfragment för att öppna Alternativ
 
 - **Redigera**: Använd det här alternativet om du vill göra ändringar i generatorn för innehållsfragment och spara den.
 - **Ta bort**: Använd det här alternativet om du vill ta bort den markerade generatorn för innehållsfragment.
-- **Duplicera**: Använd det här alternativet om du vill skapa en dubblett eller en kopia av den markerade generatorn för innehållsavdrag. Dupliceringen skapas med ett suffix (som generator_1) som standard.
+- **Duplicera**: Använd det här alternativet om du vill skapa en dubblett eller en kopia av den markerade generatorn för innehållsfragment. Dupliceringen skapas med ett suffix (som generator_1) som standard.
 
 ### Infoga ett frågesfragment
 
@@ -160,7 +160,7 @@ Du kan också använda **Infoga frågesfragment** ![](images/data-source-icon.sv
 
 Med en ämnesgenerator kan du skapa ämnen som innehåller data från dina källor. Du kan snabbt skapa en ämnesgenerator och sedan generera ämnen med generatorn. Varje avsnitt kan innehålla data i olika format, som tabeller, listor och stycken.   I ett avsnitt kan du till exempel lägga till en tabell som innehåller information om alla nya produkter och en lista över alla produkter som ska upphöra att säljas.
 
-Ämnesgeneratorn kan skapa ämnen som innehåller data och en DITA-karta för alla ämnen. Du kan också `<conref>` dessa ämnen i ditt innehåll. Detta gör att du kan synkronisera data med datakällan och enkelt uppdatera dem.
+Ämnesgeneratorn kan skapa ämnen som innehåller data och en DITA-karta för alla ämnen. Du kan även `<conref>` dessa ämnen i ditt innehåll. Detta gör att du kan synkronisera data med datakällan och enkelt uppdatera dem.
 
 
 
@@ -176,11 +176,11 @@ Så här skapar du ett ämne med ämnesgeneratorn:
 
    *Lägg till en ämnesgenerator för en ansluten datakälla.*
 
-1. Välj **Lägg till** ![](images/Add_icon.svg) och markera **Ämnesgenerator** i listrutan för att lägga till en ny ämnesgenerator. The **Lägg till ämnesgenerator** panelen öppnas.
+1. Välj **Lägg till** ![](images/Add_icon.svg) och välj **Ämnesgenerator** i listrutan för att lägga till en ny ämnesgenerator. Panelen **Lägg till ämnesgenerator** öppnas.
 
 
 
-1. Ange värdena i fälten under de tre följande flikarna i dialogrutan **Lägg till ämnesgenerator** panel:
+1. Ange värdena i fälten under följande tre flikar på panelen **Lägg till ämnesgenerator**:
 
    **Hämta konfiguration**
 
@@ -188,7 +188,7 @@ Så här skapar du ett ämne med ämnesgeneratorn:
 
    *Lägg till datafrågan, datamappningsmallen och rotnodinformationen för ämnesgeneratorn och ge den ett unikt namn på panelen Hämta konfiguration.*
 
-   1. Ange frågan i dialogrutan **Datafråga** textruta. Välj **Kopiera exempelfråga** för att snabbt kopiera en datafråga. I stället för att skapa frågan manuellt kan du kopiera och klistra in exempelfrågan i **Datafråga** textruta. Redigera sedan frågan efter datakraven.
+   1. Ange frågan i textrutan **Datafråga**. Välj **Kopiera exempelfråga** om du snabbt vill kopiera en datafråga. I stället för att skapa frågan manuellt kan du kopiera och klistra in exempelfrågan i textrutan **Datafråga**. Redigera sedan frågan efter datakraven.
 
       >[!NOTE]
       >
@@ -200,15 +200,15 @@ Så här skapar du ett ämne med ämnesgeneratorn:
       >
       > Om du använder en filkoppling visas alternativen för att överföra eller bläddra bland filer istället för en datafråga.
 
-   1. Välj den mall som mappar med datakällan från **Datamappningsmall** nedrullningsbar meny.
+   1. Välj den mall som mappar med datakällan i listrutan **Datamappningsmall**.
 
       >[!NOTE]
       >
       > Om administratören har konfigurerat anpassade mallar visas även dessa mallar i listrutan (baserat på mallsökvägskonfigurationerna som din administratör har konfigurerat). Du kan till exempel skapa en ämnesmall som innehåller en ordnad lista, tabeller, stycken eller andra DITA-element.
 
-   1. Ange **Rotnod**. Det här är noden där du vill komma åt dina data. Ämnesgeneratorn skapar sedan varje ämne på den nivå som definieras i rotnoden. Du kan till exempel lägga till&quot;issues&quot; som rotnod i Jira. Om en fråga returnerar 13 utgåvor får du alltså 13 ämnen, ett avsnitt för varje utgåva.
+   1. Ange **rotnoden**. Det här är noden där du vill komma åt dina data. Ämnesgeneratorn skapar sedan varje ämne på den nivå som definieras i rotnoden. Du kan till exempel lägga till&quot;issues&quot; som rotnod i Jira. Om en fråga returnerar 13 utgåvor får du alltså 13 ämnen, ett avsnitt för varje utgåva.
 
-   1. Klicka **Hämta** för att hämta data från datakällan och tillämpa mallen på data som är resultat av SQL-frågan. Förhandsgranskningen visar en liten del av hur ämnet visas i den valda mallens format. Du kan till exempel visa ett enstaka Jira-problem med alla fält som är ett resultat av frågan.
+   1. Klicka på **Hämta** för att hämta data från datakällan och tillämpa mallen på data som är resultat av SQL-frågan. Förhandsgranskningen visar en liten del av hur ämnet visas i den valda mallens format. Du kan till exempel visa ett enstaka Jira-problem med alla fält som är ett resultat av frågan.
    1. Ange namnet på ämnesgeneratorn.
 
       >[!NOTE]
@@ -221,8 +221,8 @@ Så här skapar du ett ämne med ämnesgeneratorn:
 
    *Ange utdatasökväg och information om ämnesnamngivningskonvention på panelen Utdatakonfiguration. Skapa en DITA-karta och ge den ett namn.*
 
-   1. Ange **Utdatasökväg** information där du vill spara dina ämnen.
-   1. I **Ämnesnamnkonvention** kan du ange ett värde eller en variabel med taggar för hastighet. De nya ämnena kommer att följa konventionen. Du kan t.ex. ange `$key` för att skapa ämnen baserat på Jira-tangenter.
+   1. Ange den **utdatasökväg**-information där du vill spara dina ämnen.
+   1. I **ämnesnamnkonventionen** kan du ange ett värde eller en variabel med hastighetstaggar. De nya ämnena kommer att följa konventionen. Du kan till exempel ange `$key` för att skapa avsnitt baserat på Jira-nycklar.
    1. Aktivera alternativet **Generera en karta** om du vill skapa en karta som innehåller alla genererade ämnen.
    1. Ange namnet på den nya DITA-kartan.
 
@@ -232,9 +232,9 @@ Så här skapar du ett ämne med ämnesgeneratorn:
 
    **Metadata**
 
-   Välj metadataegenskaperna i listrutan för att skicka till avsnitten. **Namn** listrutan innehåller både de anpassade egenskaperna och standardegenskaperna.
+   Välj metadataegenskaperna i listrutan för att skicka till avsnitten. I listrutan **Namn** visas både de anpassade egenskaperna och standardegenskaperna.
 
-   I följande skärmbild `dc:description`, `dc:language`, `dc:title`och `docstate` är standardegenskaperna som du kan definiera värdena för. Du kan skapa en anpassad egenskap som författare och definiera dess värde.
+   I följande skärmbild är till exempel `dc:description`, `dc:language`, `dc:title` och `docstate` standardegenskaper som du kan definiera värdena för. Du kan skapa en anpassad egenskap som författare och definiera dess värde.
 
    ![](images/topic-generator-metadata.png){width="300" align="left"}
 
@@ -242,7 +242,7 @@ Så här skapar du ett ämne med ämnesgeneratorn:
 
 1. Ange generatorns namn och klicka på **Spara** för att spara frågeresultaten. En ny ämnesgenerator läggs till i listan.
 
-1. Klicka **Spara och generera** för att spara ämnesgeneratorn och generera nya ämnen från ämnesgeneratorn.
+1. Klicka på **Spara och generera** för att spara ämnesgeneratorn och generera nya ämnen från ämnesgeneratorn.
 
 
 
@@ -274,26 +274,27 @@ Högerklicka på en ämnesgenerator för att öppna **Alternativ**. Med alternat
 
 - **Redigera**: Använd det här alternativet om du vill ändra och spara ämnesgeneratorn. Det här alternativet är inaktiverat när du genererar innehållet.
 - **Ta bort**: Använd det här alternativet om du vill ta bort den valda ämnesgeneratorn. Det här alternativet är inaktiverat när du genererar innehållet.
-- **Duplicera**: Det här alternativet skapar en dubblett eller en kopia av den valda ämnesgeneratorn. Dupliceringen skapas med ett suffix (som `topic-sample_1`) som standard.
+- **Duplicera**: Det här alternativet skapar en dubblett eller en kopia av den valda ämnesgeneratorn. Dupliceringen skapas med ett suffix (till exempel `topic-sample_1`) som standard.
 
 
 
 ## Använd snabbhetsverktygen i datakällmallarna {#use-velocity-tools}
 
-Experience Manager-mallar har också stöd för snabbhetsverktygen (version 2.0). Med de här verktygen kan du använda olika funktioner för data som du hämtar från datakällorna. Läs mer om hur du använder [Snabbhetsverktyg](https://velocity.apache.org/tools/2.0/generic.html) och de funktioner du kan använda.
+Experience Manager-mallar har också stöd för snabbhetsverktygen (version 2.0). Med de här verktygen kan du använda olika funktioner för data som du hämtar från datakällorna. Läs mer om hur du använder [snabbverktygen](https://velocity.apache.org/tools/2.0/generic.html) och de funktioner du kan använda.
 
 Utför följande steg om du vill använda ett snabbverktyg i en mall:
 1. Redigera en snabbmeddelandemall i webbredigeraren.
-1. Lägga till ett verktyg och dess funktion i `<tool.function>` format. Till exempel:
-   - Om du vill generera ett slumpmässigt tal med hjälp av matematiska verktyg använder du `$mathTool.random`.
-   - Om du vill generera summan av tal med matematiska verktyg använder du `$mathTool.add(num1, num2)`.
+1. Lägg till ett verktyg och dess funktion i formatet `<tool.function>`. Till exempel:
+   - Använd `$mathTool.random` om du vill generera ett slumpmässigt tal med matematiska verktyg.
+   - Använd `$mathTool.add(num1, num2)` om du vill generera summan av tal med matematiska verktyg.
 1. Använd mallen för att skapa ett innehållskuvert eller ämne.
 1. När du har tillämpat mallen på data kan du visa data i förhandsvisningen eller i DITA-källvyn.
 
 
 
 
-Du kan använda följande verktyg i hastighetsmallarna för att tillämpa olika funktioner på data som du hämtar från kopplingen: -`$alternatorTool`
+Du kan använda följande verktyg i hastighetsmallarna för att tillämpa olika funktioner på data som du hämtar från kopplingen:
+-`$alternatorTool`
 - `$classTool`
 - `$contextTool`
 - `$conversionTool`

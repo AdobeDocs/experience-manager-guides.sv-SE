@@ -1,6 +1,6 @@
 ---
 title: Masstaggning av DITA-innehåll
-description: Använd bulktaggning av innehåll i AEM för att förbättra identifieringen av DITA-innehåll. Lär dig hur du använder, tar bort, visar eller döljer gruppmärkord i ett eller flera ämnen.
+description: Använd bulktaggning av innehåll i AEM Guides för att förbättra identifieringen av DITA-innehåll. Lär dig hur du använder, tar bort, visar eller döljer gruppmärkord i ett eller flera ämnen.
 exl-id: 4c6639a3-333b-44ad-9aec-735a327c3320
 feature: Metadata Management
 role: User
@@ -15,19 +15,19 @@ ht-degree: 0%
 
 Med taggar kan du gruppera eller klassificera innehåll i innehållsdatabasen och även i publicerade utdata. Om du har använt taggar på innehållet kan du enkelt hitta relaterade ämnen i en DITA-karta som kan hjälpa dig att skapa innehåll. Med publicerade utdata kommer slutanvändarna att kunna hitta rätt innehåll snabbare med rätt taggar på plats.
 
-Med AEM Guides kan du tagga DITA-innehåll med några klick. Du kan använda funktionen för bulktaggning för att tillämpa flera taggar på flera ämnen, en DITA-karta eller på en underkarta. Du kan också lägga till märkord i ett enskilt ämne. Taggning är den inbyggda funktionen i AEM. Du hittar mer information om hur du skapar och hanterar taggar i [Administrera taggar](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) i AEM.
+Med AEM Guides kan du tagga DITA-innehåll med några få klick. Du kan använda funktionen för bulktaggning för att tillämpa flera taggar på flera ämnen, en DITA-karta eller på en underkarta. Du kan också lägga till märkord i ett enskilt ämne. Taggning är den inbyggda funktionen i AEM. Mer information om hur du skapar och hanterar taggar finns i avsnittet [Administrera taggar](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) i AEM.
 
-Som standard ger inte AEM guider läsåtkomst till användare i den mapp där alla taggar i den AEM databasen lagras. Om du vill använda taggar som är definierade i den AEM databasen måste du be systemadministratören att ge åtkomst till mappen där taggarna lagras.
+Som standard ger AEM Guides inte läsåtkomst till någon användare i den mapp där alla taggar i AEM lagras. Om du vill använda taggar som är definierade i den AEM databasen måste du be systemadministratören att ge åtkomst till mappen där taggarna lagras.
 
 ## Använda gruppmärkord
 
 Använd funktionen för bulktaggning för att lägga till flera taggar samtidigt. Utför följande steg för att använda taggar i dina ämnen på en DITA-karta:
 
-1. Navigera till och klicka på DITA-mappningsfilen i resursgränssnittet.
+1. Navigera till och klicka på DITA-kartfilen i Assets-användargränssnittet.
 
    DITA-kartkonsolen visas med en lista över tillgängliga utdatapresentationer för att generera utdata.
 
-1. Klicka **Ämnen**.
+1. Klicka på **Ämnen**.
 
    En lista med ämnen som är tillgängliga på DITA-kartan visas. UUID för topics&#39; visas under ämnesrubriken.
 
@@ -40,7 +40,7 @@ Använd funktionen för bulktaggning för att lägga till flera taggar samtidigt
    >
    > På skärmbilden ovan visas en delkarta som är markerad och utökad. När du väljer en delkarta markeras även alla ämnen under delkartan.
 
-1. Klicka **Använd taggar**.
+1. Klicka på **Använd taggar**.
 
    Dialogrutan Välj taggar visas.
 
@@ -59,23 +59,23 @@ Använd funktionen för bulktaggning för att lägga till flera taggar samtidigt
 
 Gör så här för att använda taggar på ett enskilt ämne:
 
-1. I resursgränssnittet navigerar du till och markerar ämnesfilen som du vill använda taggar på.
+1. Navigera till och markera ämnesfilen som du vill använda taggar på i Assets-gränssnittet.
 
-1. Klicka på i verktygsfältet **Egenskaper**.
+1. Klicka på **Egenskaper** i verktygsfältet.
 
    Ämnets egenskapssida visas.
 
-1. Klicka på bläddringsikonen bredvid fliken Grundläggande **Taggar** fält.
+1. Klicka på bläddringsikonen bredvid fältet **Taggar** på fliken Grundläggande.
 
 1. Markera en eller flera taggar som du vill använda i det markerade ämnet.
 
 1. Bekräfta ditt val.
 
-1. Klicka **Använd taggar**.
+1. Klicka på **Använd taggar**.
 
    De markerade taggarna används i avsnittet och visas i fältet Taggar.
 
-1. Klicka **Spara och stäng**.
+1. Klicka på **Spara och stäng**.
 
 
 ## Ta bort taggar
@@ -84,23 +84,23 @@ Du kan ändra taggningsinformationen för alla DITA-avsnitt beroende på vilka b
 
 Utför följande steg för att ta bort alla taggar från ett eller flera ämnen:
 
-1. Navigera till och klicka på DITA-mappningsfilen i resursgränssnittet.
+1. Navigera till och klicka på DITA-kartfilen i Assets-användargränssnittet.
 
    DITA-kartkonsolen visas med en lista över tillgängliga utdatapresentationer för att generera utdata.
 
-1. Klicka **Ämnen**.
+1. Klicka på **Ämnen**.
 
    En lista med ämnen som är tillgängliga på DITA-kartan visas.
 
 1. Markera de ämnen som du vill ta bort taggar från.
 
-1. Klicka **Ta bort taggar**.
+1. Klicka på **Ta bort taggar**.
 
    >[!NOTE]
    >
    > Om ikonen Ta bort taggar inte visas kontrollerar du att du inte har aktiverat funktionen Dölj taggar.
 
-1. Klicka på **OK** om du vill ta bort taggar från de markerade ämnena.
+1. I dialogrutan Bekräfta borttagning klickar du på **OK** för att ta bort taggar från de markerade ämnena.
 
 
 ## Visa eller dölj taggar

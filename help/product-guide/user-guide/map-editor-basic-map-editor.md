@@ -1,6 +1,6 @@
 ---
 title: Arbeta med den grundläggande kartredigeraren
-description: Lär dig hur du arbetar med den grundläggande redigeringsprogrammet för kartor i AEM. Lär dig funktionerna i den grundläggande kartredigeraren på mappnivå och ämnesnivå. Skapa och redigera relationstabeller i en DITA-karta.
+description: Lär dig hur du arbetar med den grundläggande kartredigeraren i AEM Guides. Lär dig funktionerna i den grundläggande kartredigeraren på mappnivå och ämnesnivå. Skapa och redigera relationstabeller i en DITA-karta.
 exl-id: 13da729d-e8f7-46ae-873a-1bfc32da974f
 feature: Authoring, Map Editor
 role: User
@@ -27,7 +27,7 @@ När en kartfil har skapats måste du lägga till ämnen i kartfilen. Med hjälp
 
 Utför följande steg för att skapa kartfilen:
 
-1. Navigera i resursgränssnittet till den kartfil som du vill redigera.
+1. Navigera i Assets-gränssnittet till den kartfil som du vill redigera.
 
 1. Om du vill låsa kartfilen exklusivt markerar du kartfilen och klickar på **Checka ut**.
 
@@ -35,13 +35,13 @@ Utför följande steg för att skapa kartfilen:
    >
    > När du har ett exklusivt lås på en kartfil kan andra användare inte redigera kartan. De kan dock arbeta med ämnen i kartfilen.
 
-1. När kartfilen är markerad klickar du på **Redigera**.
+1. Markera kartfilen och klicka på **Redigera**.
 
    Kartfilen öppnas för redigering i kartredigeraren. Med hjälp av kartredigeraren kan du skapa en karta med hjälp av de ämnen som för närvarande är tillgängliga och som visas i referensfältet.
 
    ![](images/dita-map-01.png){width="800" align="left"}
 
-1. Använda **Referenser** navigera till den mapp som innehåller de ämnen eller undermappar som du vill lägga till.
+1. Navigera till mappen som innehåller de ämnen eller undermappar som du vill lägga till med hjälp av **referenserna** .
 
    >[!NOTE]
    >
@@ -61,7 +61,7 @@ Utför följande steg för att skapa kartfilen:
    >
    > Om du släpper ett nytt ämne i ett befintligt ämne på kartan visas ett meddelande om att ersätta ämnet. Klicka på Ja om du vill ersätta ämnet och klicka på Nej om du inte vill ersätta ämnet. Du kan använda CTRL+Z och CTRL+Y för att ångra eller göra om ändringar i kartan.
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.
 
 
 ## Funktioner som är tillgängliga i verktygsfältet i redigeraren för grundläggande karta
@@ -80,7 +80,7 @@ Ange de nyckelord som du vill söka efter. Dessa nyckelord matchas i ämnets fil
 
 **B: Grupp**
 
-Klicka i kryssrutan till vänster om ämnena och klicka på Gruppera i verktygsfältet för att gruppera de markerade ämnena. Mer information om gruppering av ämnen finns i [topicgroup](https://docs.oasis-open.org/dita/v1.0/langspec/topicgroup.html) dokumentation i OASIS DITA Language Specification.
+Klicka i kryssrutan till vänster om ämnena och klicka på Gruppera i verktygsfältet för att gruppera de markerade ämnena. Mer information om att gruppera ämnen finns i [topicgroup](https://docs.oasis-open.org/dita/v1.0/langspec/topicgroup.html) -dokumentationen i språkspecifikationen för OASIS DITA.
 
 **C: Ta bort**
 
@@ -96,17 +96,17 @@ Kontrollera om kartan är giltig eller innehåller fel.
 
 **F: Standardläge/XML-läge**
 
-I **Standardläge** Om du klickar på en ämneslänk visas förhandsgranskningen av ämnet på en ny flik. Klicka på **Standardläge** ikonen ändrar sitt läge till **XML-läge**. I **XML-läge** Om du klickar någonstans i en ämnesrad visas den underliggande XML-koden för ämnesreferenser inom ämnet. I XML-källvyn finns det ett **Automatiskt indrag** som omorganiserar XML-koden i presenterbart och läsbart format. Om du redigerar en karta manuellt utför källvyn även valideringskontroller. Om XML-filen innehåller fel markeras samma sak i **XML-läge** och du får inte spara DITA-kartfilen. Om du vill visa XML-koden för hela kartan klickar du var som helst utanför ämnesgränsen.
+Om du klickar på en ämneslänk i **standardläget** visas en förhandsgranskning av ämnet på en ny flik. Om du klickar på ikonen **Standardläge** ändras dess läge till **XML-läge**. Om du klickar någonstans i en ämnesrad i **XML-läge** visas den underliggande XML-koden för ämnesreferenserna i avsnittet. I XML-källvyn finns det ett alternativ för **automatiskt indrag** som ordnar om XML-koden i ett presenterbart och lättläst format. Om du redigerar en karta manuellt utför källvyn även valideringskontroller. Om XML-filen innehåller fel markeras samma sak i **XML-läget** och du får inte spara DITA-mappningsfilen. Om du vill visa XML-koden för hela kartan klickar du var som helst utanför ämnesgränsen.
 
 
-**Obs!** I standardläget kan du använda kortkommandon för att ångra \(`Ctrl+z`\) eller gör om \(`Ctrl+y`\) den senaste åtgärden.
+**Obs!** I standardläget kan du använda kortkommandona för att ångra \(`Ctrl+z`\) eller göra om \(`Ctrl+y`\) den senaste åtgärden.
 
 
 ![](images/dita-map-invalid-source.png){width="650" align="left"}
 
 **G: Kartegenskaper**
 
-Visa dialogrutan Kartegenskaper där du kan ange attribut och metadatainformation för kartan. Om du vill lägga till ett attribut klickar du på **Lägg till** längst ned till vänster i dialogrutan för att få fram **Attribut** listruta. Välj det attribut du vill lägga till i listan. Om det markerade attributet har fördefinierade värden som anges i DTD:n visas dessa värden i en ny listruta. Du kan välja önskat värde i listrutan. Om det inte finns något fördefinierat värde visas en textruta där du kan ange ett värde för det valda attributet.
+Visa dialogrutan Kartegenskaper där du kan ange attribut och metadatainformation för kartan. Om du vill lägga till ett attribut klickar du på knappen **Lägg till** längst ned till vänster i dialogrutan för att visa listrutan **Attribut**. Välj det attribut du vill lägga till i listan. Om det markerade attributet har fördefinierade värden som anges i DTD:n visas dessa värden i en ny listruta. Du kan välja önskat värde i listrutan. Om det inte finns något fördefinierat värde visas en textruta där du kan ange ett värde för det valda attributet.
 
 ![](images/map-properties.png){width="300" align="left"}
 
@@ -122,7 +122,7 @@ Klicka på vänster- eller högerpilsikonerna för att flytta ämnet åt vänste
 
 **B: Egenskaper**
 
-Klicka på ikonen Egenskaper för att öppna dialogrutan Egenskaper för utskrift. I den här dialogrutan kan du ange ämnesattribut och metadatainformation. Mer information om attribut och metadata för standardämnen finns i [topicref](https://docs.oasis-open.org/dita/v1.2/os/spec/langref/topicref.html) dokumentation i OASIS DITA Language Specification.
+Klicka på ikonen Egenskaper för att öppna dialogrutan Egenskaper för utskrift. I den här dialogrutan kan du ange ämnesattribut och metadatainformation. Mer information om standardämnesattribut och metadata finns i [topicref](https://docs.oasis-open.org/dita/v1.2/os/spec/langref/topicref.html) -dokumentationen i språkspecifikationen för OASIS DITA.
 
 
 ![](images/map-properties-metadata.png){width="350" align="left"}
@@ -137,25 +137,25 @@ Klicka på Key-ikonen för att lägga till en ny nyckeldefinition. Alla åsidosa
 
 ## Arbeta med relationstabeller i den grundläggande kartredigeraren {#id1944B0I0COB}
 
-AEM Guides karteditorer har en kraftfull funktion som gör att du kan skapa och redigera relationstabeller i DITA-kartan.
+AEM Guides karteditorer har en kraftfull funktion som gör att du kan skapa och redigera relationstabeller på din DITA-karta.
 
 Utför följande steg när du vill arbeta med relationstabeller i redigeraren för den grundläggande kartan:
 
-1. Navigera till den DITA-karta i vilken du vill skapa relationstabellen i resursgränssnittet.
+1. I Assets-gränssnittet navigerar du till den DITA-karta som du vill skapa relationstabellen i.
 
 1. Klicka på DITA-kartan för att öppna den i DITA-kartkonsolen.
 
-1. Välj **Ämnen** om du vill visa en lista med ämnen som är tillgängliga på DITA-kartan.
+1. Välj fliken **Ämnen** om du vill visa en lista med ämnen som är tillgängliga på DITA-kartan.
 
    >[!TIP]
    >
    > På fliken Ämnen kan du hämta kartfilen med tillhörande beroenden. Mer information finns i [Exportera en DITA-kartfil](authoring-download-assets.md#id218UBA00IXA).
 
-1. Klicka på i huvudverktygsfältet **Redigera**.
+1. Klicka på **Redigera** i huvudverktygsfältet.
 
    Kartfilen öppnas i den grundläggande kartredigeraren.
 
-1. Välj **Relaterad** i verktygsfältet.
+1. Välj **Relaterbar** i verktygsfältet.
 
    ![](images/reltable.png){width="650" align="left"}
 
@@ -169,11 +169,11 @@ Utför följande steg när du vill arbeta med relationstabeller i redigeraren f�
 
 1. Om du vill lägga till en rubrik i din relationstabell klickar du på **Lägg till ny rubrik**.
 
-1. Om du vill lägga till en kolumn i relationstabellen klickar du på **Lägg till en kolumn**.
+1. Om du vill lägga till en kolumn i din relationstabell klickar du på **Lägg till en kolumn**.
 
    ![](images/complete-reltable.png){width="550" align="left"}
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.
 
 
 Du kan även utföra följande åtgärder från relationstabellredigeraren:

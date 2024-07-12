@@ -1,6 +1,6 @@
 ---
 title: Versionsinformation | Adobe Experience Manager Guides 4.2
-description: Lär dig mer om felkorrigeringarna och hur du uppgraderar till 4.2-utgåvor av Adobe Experience Manager Guides
+description: Läs om felkorrigeringarna och hur du uppgraderar till 4.2-utgåvor av Adobe Experience Manager Guides
 exl-id: 8a7fef77-63af-462f-89c5-054ab31e079b
 feature: Release Notes
 role: Leader
@@ -13,36 +13,36 @@ ht-degree: 0%
 
 # 4.2-utgåvan av Adobe Experience Manager Guides (februari 2023)
 
-Den här versionsinformationen innehåller uppgraderingsinstruktioner, kompatibilitetsmatris och problem som har korrigerats i version 4.2 av Adobe Experience Manager Guides (senare kallat *AEM stödlinjer*).
+Den här versionsinformationen innehåller uppgraderingsinstruktioner, kompatibilitetsmatris och problem som har åtgärdats i version 4.2 av Adobe Experience Manager Guides (kallas senare *AEM Guides*).
 
-Mer information om de nya funktionerna och förbättringarna finns i [Nyheter i version 4.2 av Adobe Experience Manager Guides](whats-new-4-2-release.md).
+Mer information om de nya funktionerna och förbättringarna finns i [Nyheter i 4.2-utgåvan av Adobe Experience Manager Guides](whats-new-4-2-release.md).
 
-## Uppgradera till version 4.2 av AEM
+## Uppgradera till version 4.2 av AEM Guides
 
-Du kan enkelt uppgradera din nuvarande version av AEM till version 4.2. Innan du uppgraderar till version 4.2 AEM handboken måste du tänka på följande:
+Du kan enkelt uppgradera din nuvarande version av AEM Guides till version 4.2. Innan du uppgraderar till version 4.2 av AEM Guides måste du tänka på följande:
 * Om du använder version 4.0, 4.1 eller 4.1.x kan du uppgradera direkt till version 4.2.
 * Om du använder version 3.8.5 måste du uppgradera till version 4.0 innan du uppgraderar till version 4.2.
-* Om du använder en version som är tidigare än 3.8.5, se *AEM* i den produktspecifika installationsguiden.
+* Om du har en tidigare version än 3.8.5 kan du läsa avsnittet *Uppgradera AEM Guides* i den produktspecifika installationsguiden.
 
 >[!NOTE]
 >
->Du måste installera AEM Service Pack innan du uppgraderar AEM Guides version.
+>Du måste installera AEM Service Pack innan du uppgraderar AEM Guides-versionen.
 
 Mer information finns i [Uppgraderingsinstruktioner](assets/Adobe-Experience-Manager-Guides-Upgrade-Instructions-EN.pdf).
 
 ## Kompatibilitetsmatris
 
-I det här avsnittet visas kompatibilitetsmatrisen för de program som stöds i AEM 4.2.
+I det här avsnittet visas kompatibilitetsmatrisen för de program som stöds i AEM Guides 4.2.
 
 ### Adobe Experience Manager
 
-**Ej UID**
+**Ej UUID**
 Version 6.5 Service Pack 15, 14, 13 eller 12
 
-**UUID**
+**UID**
 Version 6.5 Service Pack 15, 14, 13 eller 12
 
-Mer information finns i *Tekniska krav* i guiden Installera och konfigurera Adobe Experience Manager Guides.
+Mer information finns i avsnittet *Tekniska krav* i guiden Installera och konfigurera Adobe Experience Manager Guides.
 
 ### FrameMaker och FrameMaker Publishing Server
 
@@ -69,20 +69,20 @@ De buggar som har åtgärdats i olika områden listas nedan:
 ### Redigering
 
 * Vänster panel bryts när en flik läggs till. (11126)
-* HTML-koden för Web Editor orsakar problem med `<dl>` och `<dlentry>`. (11024)
+* Ändringar i HTML-koden för Web Editor orsakar problem med `<dl>` och `<dlentry>`. (11024)
 * Vissa attribut behandlas inte som villkorliga och orsakar problem. (10895)
-* Tre nivåer eller fler kapslade `<indexterm>` är inte kapslade vid export i PDF. (10799)
-* Innehållet försvinner i en uppgiftsdel när du växlar från redigeringsvyn till källvyn. (10735)
+* Tre nivåer eller fler kapslade `<indexterm>` är inte kapslade i export i PDF. (10799)
+* Innehållet försvinner i en uppgift när du växlar från redigeringsvyn till Source-vyn. (10735)
 * Granskningskommentarer placeras inte i en granskningsuppgift. 10625
-* `<conref>` anteckning inuti en paragraftagg visas inte i förhandsgranskningsläget. (10559)
+* `<conref>` anteckning inuti en paragrack visas inte i förhandsgranskningsläget. (10559)
 * Hela listan tas bort om du placerar backstegstangenten i slutet av ett listobjekt. (10540)
-* Skärmen visas som tom i Chrome v106 när du drar och släpper ett element från gränssnittet (till exempel från panelen Villkor). (10524)
-* Knappen för automatiskt indrag saknas i verktygsfältet i **Källa** vy. 10448
+* Skärmen visas som tom i Chrome v106 när du drar och släpper ett element från användargränssnittet (till exempel från panelen Villkor). (10524)
+* Knappen Automatiskt indrag saknas i verktygsfältet i vyn **Source**. 10448
 * Det första tecknet i ett listobjekt går förlorat ibland när listan redigeras.( 10447)
 * **Ångra** eller **Gör om** fungerar inte korrekt på vissa filer. (10373)
 * Anpassade metadata behålls inte vid kopiera och klistra in-åtgärd. (10367)
 * Ett fel inträffar när du kopierar (Ctrl+C) och klistrar in (Ctrl+V) innehåll. (10304)
-* Dispositionspanelen visar inte innehåll när den växlar från redigeringsläge till källäge. (10296)
+* Innehåll visas inte på konturpanelen när du växlar från redigeringsläge till Source. (10296)
 * Submap skapas inte när den refererar till en huvudkarta i DITA-mallar. (10231)
 * Navigeringsproblem uppstår i Web Editor efter 4.0-uppgraderingen. (10159)
 * Alternativet Ångra i XML-redigeraren tar användaren längst upp på sidan. (10091)
@@ -95,10 +95,10 @@ De buggar som har åtgärdats i olika områden listas nedan:
 * Det finns inget alternativ för att skapa en ny mall i undermapparna till ämnen eller kartor. 9888
 * XML-redigeraren uppdaterar inte bilderna i ämnen. (9500)
 * mimeType är hårdkodad för att skapa och uppdatera DITA-resurser. 8979
-* Ett vanligt bindestreck infogas när du väljer Hårt bindestreck i dialogrutan **Infoga specialtecken** -dialogrutan. (8919)
-* Versionens skaparnamn i Versionshistorik är fmdita-servicuser för filer som överförts via Assets UI. 8910
-* Redigeringsalternativet fungerar inte för bilder när du arbetar i kolumnvyn i resursgränssnittet. 8758
-* DITA-avsnittet uppdateras inte automatiskt med ändringar gjorda på **Egenskaper** sida. 8745
+* Ett vanligt bindestreck infogas när du väljer Fast bindestreck i dialogrutan **Infoga specialtecken**. (8919)
+* Versionens skaparnamn i Versionshistorik är fmdita-servicuser för filer som överförs via Assets UI. 8910
+* Redigeringsalternativet fungerar inte för bilder när du arbetar i kolumnvyn i Assets-gränssnittet. 8758
+* DITA-avsnittet uppdateras inte automatiskt med ändringar gjorda på sidan **Egenskaper**. 8745
 * När du flyttar element inom avsnittet i Web Editor skrivs de tilldelade ID:n för element över av automatiskt tilldelade ID:n. 7895
 
 ### Förvaltning
@@ -108,7 +108,7 @@ De buggar som har åtgärdats i olika områden listas nedan:
 * Web Editor-Baseline | Beteendet för den senaste kolumnen skiljer sig åt på den nya baslinjepanelen i Web Editor. (10808)
 * Översättning | Översättningsjobbet kommer inte igång på grund av ogiltig /libs/fmdita/i18n/ja.json. (10543)
 * Översättning | Ett fel inträffar i ett omfångsöversättningsprojekt som har skapats från översättningsinstrumentpanelen (mänsklig översättning). (10526)
-* Översättning | Efterbearbetning blockeras för hela språkmappen vars resurser finns i ett aktivt översättningsprojekt. (10332)
+* Översättning | Post-bearbetning blockeras för hela språkmappen vars resurser finns i ett aktivt översättningsprojekt. (10332)
 * Översättning| Metadata och taggar sprids inte till översatta kopior. 4696
 * Flera popup-fönster visas för alla resurser om versionen ändras och sparas i Baslinjeredigeraren. (10399)
 * Sessionsläckan inträffar på com.day.cq.search.impl.builder.QueryBuilderImpl.createResourceResolver(QueryBuilderImpl.java:210). (10279)
@@ -126,7 +126,7 @@ De buggar som har åtgärdats i olika områden listas nedan:
 * PDF | Problem uppstår när tabellrubriken roteras. (10555)
 * PDF | Problem inträffar när ämnen som har procesrole=&#39;resource-only&#39; tas bort. (10554)
 * PDF | Tomma nyckelrutor visas i utdata från PDF. (10553)
-* PDF | Kapslad `<indexterm>` är inte kapslade vid export i PDF. (10521)
+* PDF | Kapslade `<indexterm>` är inte kapslade i export i PDF. (10521)
 * PDF | Inbyggd PDF använder inline-format i stället för klassnamn för de genererade taggarna. (10498)
 * PDF | Kapslade topicref i tillägg omformas alla till h1 i det temporära HTML.( 10454)
 * PDF | Det går inte att dölja ämnen som ligger före varandra i innehållsförteckningen. (10355)
@@ -144,6 +144,6 @@ De buggar som har åtgärdats i olika områden listas nedan:
 
 ## Känt fel
 
-Adobe har identifierat följande kända problem i AEM 4.2-versionen:
+Adobe har identifierat följande kända fel i AEM Guides 4.2:
 
 * Användare kan utföra granskningsåtgärder även när granskningsuppgifterna har slutförts.

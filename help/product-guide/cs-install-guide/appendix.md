@@ -14,17 +14,17 @@ ht-degree: 0%
 
 # Bilaga {#id195AD0L60Y4}
 
-## Felsökning AEM guider
+## Felsökning av AEM Guides
 
-När du har installerat och konfigurerat AEM kan du felsöka problemen.
+När du har installerat och konfigurerat AEM Guides kan du felsöka problemen.
 
 ## Validera referenser
 
 Du kan köra de angivna skripten för att validera referenserna. Dessa skript kan hjälpa dig att identifiera de brutna referenserna och sedan korrigera eller åtgärda dem.
 
-- `/bin/fmdita/validatebtree?operation=validate` - rapporterar eventuella brutna innehållsreferenser, men korrigerar dem inte.
+- `/bin/fmdita/validatebtree?operation=validate` - Rapporterar eventuella brutna innehållsreferenser, men korrigerar dem inte.
 
-- `/bin/fmdita/validatebtree?operation=patch` - visar brutna innehållsreferenser och korrigerar dem.
+- `/bin/fmdita/validatebtree?operation=patch` - visar brutna innehållsreferenser och korrigeringar eller korrigerar dem.
 
 
 **Validera skript**
@@ -36,14 +36,14 @@ Gör så här för att kontrollera referenserna med det valideringsskript som fi
 1. Registrera nedanstående uppgifter och dela dem vid behov med kundens framgångsgrupp:
 1. 
    - Loggar som skrivs ut med valideringsskript
-- Paketet med`/content/fmdita/references`&quot;
+- Paket med `/content/fmdita/references`
 - Övriga obligatoriska uppgifter beroende på scenario som rapporteras
 
 **Lappa skript**
 
 Utför följande steg för att korrigera eventuella brutna referenser med hjälp av det korrigeringsskript som finns i produktpaketet:
 
-1. Kör korrigeringsskriptet `[/bin/fmdita/validatebtree?operation=patch]` för att korrigera brutna referenser. Skriptkörningen tar några minuter och skriver ut loggarna medan den fortsätter. När exekveringen är klar skrivs den ut`Done`&quot; i slutet.
+1. Kör korrigeringsskriptet `[/bin/fmdita/validatebtree?operation=patch]` för att åtgärda de brutna referenserna. Skriptkörningen tar några minuter och skriver ut loggarna medan den fortsätter. När körningen har slutförts skrivs `Done` ut i slutet.
 
 >[!NOTE]
 >
@@ -51,27 +51,27 @@ Utför följande steg för att korrigera eventuella brutna referenser med hjälp
 
 1. När korrigeringsskriptet har körts kan du utföra följande kontroller:
 1. 
-   - Kontrollera en ny nod &quot;`references_backup_<timestamp>"` har skapats under `/content/fmdita`
+   - Kontrollera att den nya noden `references_backup_<timestamp>"` har skapats under `/content/fmdita`
 - Kontrollera att referenserna har åtgärdats
 
 **Logger**
 
 Du kan också skapa en separat loggare för den här skriptkörningen enligt informationen nedan:
 
-- Lägg till en loggare för klassen`adobe.fmdita.common.BTreeReferenceValidator`&quot;
+- Lägg till en loggare för klassen `adobe.fmdita.common.BTreeReferenceValidator`
 - Ställ in den på `DEBUG`
 
 Den skapade loggfilen registrerar all information som är relaterad till skriptkörning och är användbar om webbläsarens sessionstimeout skulle inträffa medan skriptet utlöses från webbläsaren.
 
 ## Förbered InDesign-filer för konvertering {#id195DBF0045Z}
 
-InDesign ger författarna en mängd funktioner för att skapa attraktiva och komplexa dokument. Det innebär ofta att de olika delarna av ett dokument placeras visuellt på sidan, men att inget försök görs att skapa något flöde mellan dessa textramar. När *läsordning*&#39; of the text frames is not defined, the IDML file will contain stories that may not follow any purpose order. Slutresultatet blir ett eller flera DITA-avsnitt med stycken, tabeller och bilder i slumpmässig ordning.
+InDesign ger författarna en mängd funktioner för att skapa attraktiva och komplexa dokument. Det innebär ofta att de olika delarna av ett dokument placeras visuellt på sidan, men att inget försök görs att skapa något flöde mellan dessa textramar. När *läsordningen* för textramarna inte har definierats innehåller IDML-filen artiklar som kanske inte följer någon meningsfull ordning. Slutresultatet blir ett eller flera DITA-avsnitt med stycken, tabeller och bilder i slumpmässig ordning.
 
 Även om det går att redigera DITA-innehåll i en vettig ordning i en DITA-redigerare är det mycket enklare att åtgärda InDesignen innan du skapar IDML-filen. Detta kan du göra utan att ändra utseendet på källdokumentet. Det har också fördelen att göra källdokumentet tillgängligt genom att rätt definiera läsordningen.
 
 ***Koppla textramar***
 
-InDesignen använder termen *&#39;threading&#39;* för att länka en ram till en annan. Mer information om att koppla textramar finns i *[Koppla text](https://helpx.adobe.com/in/indesign/using/threading-text.html)* i InDesignens dokumentation.
+I InDesignen används termen *&#39;threading&#39;* för att länka en bildruta till en annan. Mer information om hur du kopplar textramar finns i avsnittet *[Koppla text](https://helpx.adobe.com/in/indesign/using/threading-text.html)* i InDesignens dokumentation.
 
 ***Överlappande bildrutor***
 
@@ -79,9 +79,9 @@ I vissa InDesigner används icke-kopplade överlappande bildrutor av layoutskäl
 
 ***InDesigner***
 
-Varje kopplat innehållsflöde i ett InDesign-dokument kallas *artikel*&#39;. För bästa resultat rekommenderar vi att du begränsar antalet artiklar. Det finns dock vissa delar av dokumentet som kanske inte behövs i DITA-utdata. Sidfötter behövs till exempel sällan, men de kan visas mitt i ett avsnitt om de inte hanteras försiktigt.
+Varje kopplat innehållsflöde i ett InDesign-dokument kallas *artikel*. För bästa resultat rekommenderar vi att du begränsar antalet artiklar. Det finns dock vissa delar av dokumentet som kanske inte behövs i DITA-utdata. Sidfötter behövs till exempel sällan, men de kan visas mitt i ett avsnitt om de inte hanteras försiktigt.
 
-Det enklaste sättet att exkludera text som inte behövs i dokumentet är att ge den ett särskilt sätt *Stycke* som bara används för det oönskade innehållet. I stället för att återanvända en *\[Allmänt stycke\]* för sidfoten, skapa en dedikerad *Sidfot* -tagg. I filen MapStyle anger du sedan bara *Sidfot* stycken som ska tas bort så här:
+Det enklaste sättet att exkludera text som inte behövs i dokumentet är att ge den en speciell *stycketagg* som bara används för det oönskade innehållet. I stället för att återanvända ett *\[Allmänt stycke\]* för sidfoten skapar du en dedikerad *sidfot* -tagg. I MapStyle-filen anger du sedan att styckena *Footer* ska tas bort så här:
 
 ```
 <paraRule style="Footer" local="0" refactor="drop">
@@ -89,13 +89,13 @@ Det enklaste sättet att exkludera text som inte behövs i dokumentet är att ge
 </paraRule>
 ```
 
-***Mappa till DITA-dokumenttyper***
+***Mappning till DITA-dokumenttyper***
 
-Det är viktigt att källdokumentet har minst ett styckeformat eller -element som kan markera början av ett ämne. Det är vanligt att dokument används *Rubrik1* som namnet på de översta rubrikerna i dokumentet. Du kan sedan skapa en koppling från det formatet till en viss DITA-dokumenttyp. Om ditt dokument är välorganiserat och om du använder *Rubrik1* är konstant hela tiden, så får du bra resultat.
+Det är viktigt att källdokumentet har minst ett styckeformat eller -element som kan markera början av ett ämne. Det är vanligt att dokument använder *Rubrik1* som namn på rubrikerna på den översta nivån i dokumentet. Du kan sedan skapa en koppling från det formatet till en viss DITA-dokumenttyp. Om dokumentet är välorganiserat och om *Rubrik1* används konstant genomgående får du bra resultat.
 
 ***Flera DITA-dokumenttyper***
 
-Om en del av *Rubrik1* stycken måste konverteras till olika DITA-dokumenttyper och sedan dupliceras styckeformatet i InDesign. Ge dessa format ett enkelt namn som *Rubrik1\_genAktivitet* eller *Rubrik1\_felsökning* i tillämpliga fall. Konfigurera sedan filen mapStyle enligt nedan:
+Om några av styckena *Rubrik1* behöver konverteras till olika DITA-dokumenttyper duplicerar du styckeformatet i InDesignen. Ge dessa format ett enkelt namn som *Rubrik1\_genTask* eller *Rubrik1\_troubleshooting* efter behov. Konfigurera sedan filen mapStyle enligt nedan:
 
 ```
 <doctypes>
@@ -129,8 +129,8 @@ Kantlinjering i InDesign kan användas på följande nivåer:
 
 InDesignen till DITA-konverteringsprocessen tillämpar kantlinjalen enligt följande:
 
-- Tabellformat kopplas till `colspec/@colsep` för lodräta regler. Vågräta linjer mappas till `row/@rowsep` -attribut. I båda fallen skapas inte attributet om kantlinjen inte är definierad.
-- Cellformat kopplas till `entry/@colsep` och `entry/@rowsep` attribut. Dessa värden åsidosätter alla härledda kanter i tabellformat.
+- Tabellformat mappas till attributet `colspec/@colsep` för lodräta regler. Vågräta linjer mappas till attributet `row/@rowsep`. I båda fallen skapas inte attributet om kantlinjen inte är definierad.
+- Cellformat mappas till attributen `entry/@colsep` och `entry/@rowsep`. Dessa värden åsidosätter alla härledda kanter i tabellformat.
 - Med lokala åsidosättningar används formateringen direkt i cellen och tabellformat och cellformat åsidosätts.
 
 ***Alternerande mönster***
@@ -215,21 +215,21 @@ Nedan visas ett exempel på mappningsfilen:
 
 Kopplingsfilen är en XML-fil med en enkel struktur som visar alla källstyckeformat och teckenformatkoder. Filinnehållet förklaras nedan:
 
-**Koppla format**
+**Formatkoppling**
 
-I `styleMap` -element kan du ange två valfria attribut - `@map_date` och `@map_version` för att spela in mappningsfilens version.
+I elementet `styleMap` kan du ange två valfria attribut - `@map_date` och `@map_version` för att spela in mappningsfilens version.
 
 **Dokumenttyp**
 
-The `doctypes` -elementet listar DITA-kartor och ämnesmappningar som stöds.
+Elementet `doctypes` innehåller en lista med DITA-mappningar och ämnesmappningar som stöds.
 
 **Koppla styckelinjer för dokumenttyp**
 
-The `mapDoctypeParaRule` -element är obligatoriskt. Elementets attribut får inte redigeras eftersom käll-XML:ens rotelement alltid är mappat till DITA-mappningens rot `map` -element.
+Elementet `mapDoctypeParaRule` är obligatoriskt. Det här elementets attribut får inte redigeras eftersom käll-XML:ens rotelement alltid är mappat till DITA-mappningens rotelement `map`.
 
 **Styckelinje för dokumenttyp**
 
-The `doctypeParaRule` -element är obligatoriskt. Detta ger konverteringsprocessen ett sätt att identifiera början på ett nytt ämne. Normalt visas `@style` -attributet används ensamt med `@local` -attributet har värdet 0. Om det alltid finns lokala formateringsåsidosättningar i det valda formatet måste du lägga till en regel för varje format plus lokala åsidosättningar. Detta är enkelt att känna igen i den genererade mappningsfilen där det är möjligt att hitta detta eller liknande:
+Elementet `doctypeParaRule` är obligatoriskt. Detta ger konverteringsprocessen ett sätt att identifiera början på ett nytt ämne. Normalt används attributet `@style` fristående med attributet `@local` inställt på 0. Om det alltid finns lokala formateringsåsidosättningar i det valda formatet måste du lägga till en regel för varje format plus lokala åsidosättningar. Detta är enkelt att känna igen i den genererade mappningsfilen där det är möjligt att hitta detta eller liknande:
 
 ```
 <paraRule style="Heading 1" local="0" mapTo="p">
@@ -240,7 +240,7 @@ The `doctypeParaRule` -element är obligatoriskt. Detta ger konverteringsprocess
 </paraRule>
 ```
 
-I exemplet ovan finns två `paraRule` element för `@style` = &quot;Rubrik1&quot;. Skapa en motsvarighet `doctypeParaRule` -element med `@mapToDoctype` attributet har angetts som obligatoriskt.
+I ovanstående exempel finns två `paraRule`-element för `@style` = &quot;Rubrik1&quot;. Skapa helt enkelt motsvarande `doctypeParaRule`-element med attributet `@mapToDoctype` inställt efter behov.
 
 Attributen som används i `doctypeParaRule` förklaras nedan:
 
@@ -254,13 +254,13 @@ Reglerna för elementomslutning definierar hur element i det inkommande dokument
 
 ***`wrap`element***
 
-Detta är ett valfritt element. The `wrap` -elementet visar de element som kommer att kapslas eller flyttas. Figursättning används vanligtvis när en serie element måste tilldelas ett gemensamt överordnat element. Till exempel flera `li` element som radbryts i en `ol` -element. Dessutom `wrap` kan användas för rörliga element som rubriker för figurer och tabeller.
+Detta är ett valfritt element. Elementet `wrap` visar de element som kommer att kapslas eller flyttas. Figursättning används vanligtvis när en serie element måste tilldelas ett gemensamt överordnat element. Flera `li`-element kapslas till exempel i ett `ol`-element. Dessutom kan `wrap` användas för rörliga element som titlar för figurer och tabeller.
 
 Attributen som används i `wrap` förklaras nedan:
 
-- `@element`: Ett plustecken efter ett elementnamn visar att alla intilliggande element med samma namn kommer att kapslas in i elementet som namnges i `@wrapper`-attribut.
-- `@wrapper`: Namnet på figursättningselementet.
-- `@context`: Innehåller ett sätt att ytterligare förfina hur ett visst element radbryts. I följande exempel visas ett sätt att mappa en serie `li` element i antingen en ordnad lista `ol` eller en osorterad lista `ul` enligt `@context` värdet \(kontexten definieras på `paraRule` element\):
+- `@element`: Ett plustecken efter ett elementnamn visar att alla intilliggande element med samma namn kommer att kapslas in i elementet som namnges i attributet `@wrapper`.
+- `@wrapper`: Radbrytningselementets namn.
+- `@context`: Tillhandahåller ett sätt att ytterligare förfina hur ett visst element radbryts. I följande exempel visas ett sätt att mappa en serie med `li` element i antingen en ordnad lista `ol` eller en osorterad lista `ul` enligt `@context`-värdet \(kontexten definieras i `paraRule` -elementet\):
 
   ```
   <wrap elements="li+" context="number" wrapper="ol">
@@ -272,9 +272,9 @@ Attributen som används i `wrap` förklaras nedan:
   ```
 
 
-I följande exempel visas hur du skapar en `fig` element från `title` och `image` element:
+I följande exempel visas hur du skapar ett `fig`-element från ett `title`- och ett `image`-element:
 
-- `@elements`: Elementen som anges och avgränsas med kommatecken radbryts i elementet som namnges i `@wrapper` -attribut. På grund av det vanliga sättet att ta med bildtitlar under bilden blir titeln `title` element omedelbart efter `image`.
+- `@elements`: Elementen som anges och avgränsas med kommatecken kapslas in i elementet som namnges i attributet `@wrapper`. På grund av det vanliga sättet att ta med bildtitlar under bilden blir rubriken `title`-elementet omedelbart efter `image`.
 
   Följande radbrytningsregel:
 
@@ -300,12 +300,12 @@ I följande exempel visas hur du skapar en `fig` element från `title` och `imag
   </fig>
   ```
 
-- `@wrapper`: Namnet på figursättningselementet.
-- `@context`: Innehåller ett sätt att ytterligare förfina hur ett visst element bryts \(sammanhanget definieras på `paraRule` element\).
+- `@wrapper`: Radbrytningselementets namn.
+- `@context`: Tillhandahåller ett sätt att ytterligare förfina hur ett givet element radbryts \(kontexten definieras för elementet `paraRule`\).
 
 I följande exempel visas hur du flyttar en `title` till en `table`:
 
-- `@elements`: `title` element som finns omedelbart före eller omedelbart efter `table` kommer att kapslas in i elementet som namnges i `@wrapper` -attribut. Ett XPath-liknande predikat kan identifiera positionen för title-elementet som `[before]` eller `[after]`.
+- `@elements`: Elementet `title` som finns antingen omedelbart före eller omedelbart efter en `table` kommer att kapslas i elementet som namnges i attributet `@wrapper`. Ett XPath-predikat kan identifiera positionen för rubrikelementet som `[before]` eller `[after]`.
 
   Exempel: Följande radbrytningsregel:
 
@@ -335,18 +335,18 @@ I följande exempel visas hur du flyttar en `title` till en `table`:
            <colspec colname="1" colwidth="0.3*">
   ```
 
-- `@wrapper`: Namnet på figursättningselementet.
+- `@wrapper`: Radbrytningselementets namn.
 
-- `@context`: Innehåller ett sätt att ytterligare förfina hur ett visst element bryts \(sammanhanget definieras på `paraRule` element\).
+- `@context`: Tillhandahåller ett sätt att ytterligare förfina hur ett givet element radbryts \(kontexten definieras för elementet `paraRule`\).
 
 
-**Regler för styckeformat**
+**Styckeformatregler**
 
-The `paragraphStyleRule` beskrivs nedan:
+`paragraphStyleRule`-elementen beskrivs nedan:
 
 ** `paraRule` element**
 
-The `paraRule` -element är obligatoriskt. Detta anger mappningsreglerna för alla styckeformat. I ett textdokument finns all InDesign i en understruktur till styckeformatmallar, även stycken utan format namnges `\[No paragraph style\]`. Hakparenteserna anger ett inbyggt namn på InDesignen.
+Elementet `paraRule` är obligatoriskt. Detta anger mappningsreglerna för alla styckeformat. I ett styckedokument finns all InDesign i en understruktur till styckeformat, även stycken utan format med namnet `\[No paragraph style\]`. Hakparenteserna anger ett inbyggt namn på InDesignen.
 
 >[!NOTE]
 >
@@ -358,22 +358,22 @@ Attributen som används i `paraRule` förklaras nedan:
 - `@local`: Se [\#id194CG0V005Z](#id194CG0V005Z).
 - `@mapTo`: Namnet på ett DITA-målelement.
 
-- `@context`: Det här attributet används för att länka till ett specifikt **bryt** -regel när mer än ett radbrytningsalternativ är tillgängligt. Exempel: `li` -element kan kapslas i antingen en `ol`, eller en `ul` -element. Om du vill identifiera de olika listtyperna kan du använda ett specifikt formatnamn eller `@local` som kan visa följande:
-   - `local="p[-|-|-|-|-|b|-|-]"` Där &#39;`b`&#39; i fält 6 anger ett punktlisteobjekt. I det här fallet `@context` till &#39;`bullet`&#39;.
-   - `local="p[-|-|-|-|-|n|-|-]"` Där &#39;`n`&#39; i fält 6 anger ett numrerat listobjekt. I det här fallet `@context` till &#39;`number`&#39;.
+- `@context`: Det här attributet används för att länka till en specifik **radbrytning**-regel när mer än ett radbrytningsalternativ är tillgängligt. Exempel: `li`-elementet kan kapslas antingen i ett `ol`- eller `ul`-element. Om du vill identifiera de olika listtyperna kan du använda ett specifikt formatnamn eller attributet `@local` som kan visa följande:
+   - `local="p[-|-|-|-|-|b|-|-]"` Där `b` i fält 6 anger ett punktlisteobjekt. I det här fallet anger du `@context` till `bullet`.
+   - `local="p[-|-|-|-|-|n|-|-]"` Där `n` i fält 6 anger ett numrerat listobjekt. I det här fallet anger du `@context` till `number`.
 
 - `@commentOut`: Det här attributet aktiverar kapsling av målelementet i XML-kommentarer så att informationen inte går förlorad utan kan hanteras manuellt av användaren. Detta är användbart om källinnehållet inte kan tvingas att följa DITA-strukturregler.
 
-- `@refactor`: Det här valfria attributet kan ha två värden:
+- `@refactor`: Det här valfria attributet har två värden:
 
 - `unwrap`: Det matchande elementet tas bort samtidigt som innehållet behålls.
 
 - `drop`: Det matchande elementet och allt dess innehåll tas bort.
 
 
-**Teckenformatregler**
+**Teckenformatsregler**
 
-The `charRule` beskrivs nedan:
+`charRule`-elementen beskrivs nedan:
 
 >[!NOTE]
 >
@@ -390,7 +390,7 @@ Attributen som används i `charRule` förklaras nedan:
 - `@style`: Namnet på ett format i källdokumentet för InDesign.
 - `@local`: Se [\#id194CG0V005Z](#id194CG0V005Z).
 - `@mapTo`: Namnet på ett DITA-målelement.
-- `@refactor`: Det här valfria attributet kan ha två värden:
+- `@refactor`: Det här valfria attributet har två värden:
    - `unwrap`: Det matchande elementet tas bort samtidigt som innehållet behålls.
 
    - `drop`: Det matchande elementet och allt dess innehåll tas bort.
@@ -410,10 +410,10 @@ Det här elementet kan vara underordnat följande elementkontexter:
 
 Syftet med attributregler är att hantera attributen för de matchade elementen.
 
-Beroende på sammanhanget är följande attribut tillgängliga för `attributeRules` element:
+Beroende på sammanhanget är följande attribut tillgängliga för elementet `attributeRules`:
 
 - `@createID`: Skapar ett unikt ID för matchande element. Tillåtna värden `true` eller `false`. Finns i alla sammanhang.
-- `@copyAll`: Kopierar endast alla attribut från XML-källinnehållet för strukturerade källfiler. Tillåtna värden är `true` eller `false`. Tillgängligt för kontexter `mapDoctypeParaRule`, `mapDoctypeElemRule`, `doctypeElemRule` och `elementRule`.
+- `@copyAll`: Kopierar endast alla attribut från XML-källinnehållet för strukturerade källfiler. Tillåtna värden är `true` eller `false`. Tillgängligt för kontexterna `mapDoctypeParaRule`, `mapDoctypeElemRule`, `doctypeElemRule` och `elementRule`.
 
 
 Attributen som används i `attributeRules` förklaras nedan:
@@ -422,10 +422,10 @@ Attributen som används i `attributeRules` förklaras nedan:
 >
 > Det här elementet kan innehålla flera underordnade element.
 
-- `addNew`: Lägger till ett nytt attribut i det matchande elementet. Tillgängligt för alla kontexter. Den har två attribut:
+- `addNew`: Lägger till ett nytt attribut i det matchade elementet. Tillgängligt för alla kontexter. Den har två attribut:
    - `@name`: Måste vara ett giltigt XML-namn, helst giltigt för DITA-kontexten.
    - `@value`: Kan vara literal text eller ett enkelt XPath-uttryck.
-- `copyAtt`: Kopierar ett enskilt attribut till målet och kan även byta namn på det i processen. Värdet ändras inte. Tillgängligt för kontexter `mapDoctypeParaRule`, `mapDoctypeElemRule`, `doctypeElemRule` och `elementRule`. När det här elementet finns visas `@copyAllAtts` värdet antas `false`. Den har två attribut:
+- `copyAtt`: Kopierar ett enskilt attribut till målet, men du kan också ändra namnet på det i processen. Värdet ändras inte. Tillgängligt för kontexterna `mapDoctypeParaRule`, `mapDoctypeElemRule`, `doctypeElemRule` och `elementRule`. När det här elementet finns antas värdet `@copyAllAtts` vara `false`. Den har två attribut:
    - `@name`: Måste vara namnet på ett attribut som finns i käll-XML-elementet.
    - `@mapTo`: Måste vara ett giltigt XML-namn, helst giltigt för DITA-kontexten.
 
@@ -433,31 +433,31 @@ Attributen som används i `attributeRules` förklaras nedan:
 
 I alla slags InDesigner kan det finnas flera hundra olika formatåsidosättningar för styckeformat och teckenformat. De flesta av dessa egenskaper har ingen användbar roll i konverteringsprocessen. Vi har dock identifierat en viktig uppsättning formateringsfunktioner som påverkar dokumentets semantik och som måste påverka konverteringsprocessen.
 
-The `@local` attribut anges som ett särskilt avgränsat format där åtta fält anges tillsammans med ett prefix som visar typen av formateringsåsidosättning. Formateringskodfälten visas nedan:
+Attributen `@local` visas som ett särskilt avgränsat format där åtta fält anges tillsammans med ett prefix som visar typen av formateringsåsidosättning. Formateringskodfälten visas nedan:
 
-- Prefix **p** lokal åsidosättning eller **c** för lokal åsidosättning av teckenformat.
-- **Teckensnittsformat** som är familjenamnet och egenskaper som &#39;***Fet kondenserad kursiv***&#39;.
+- Prefixet **p** för lokal åsidosättning av paragrafformat eller **c** för lokal åsidosättning av teckenformat.
+- **Teckensnittsformat** som är familjenamnet och egenskaper som ***Fet kondenserad kursiv***.
 - **Teckenstorlek** i punkter.
 - **Teckenposition** för upphöjd eller nedsänkt text.
 - **Under** för understreck.
 - **Genomstrykning** för genomstrykning.
-- **Listkod** för att identifiera listtyp som punktlistor eller numrerade - används inte alltid som InDesign.
-- **Punktkod** listar alla definierade punkttyper i dokumentet.
+- **Visa kod** för att identifiera listtyp som punktlistor eller numrerade - används inte alltid som InDesign.
+- **Punktkod** visar alla definierade punkttyper i dokumentet.
 - **Nummerkod** visar alla definierade numreringsformat i dokumentet.
 
-Om du använder den här funktionen noggrant kan du spara lokal formatering vilket kan förbättra kvaliteten på en överföring från formaterat innehåll till DITA. Det här exemplet kan tolkas som kursiv, 16pt text i en punktlista: `p[Italic|16|-|-|-|b|-|-]`.
+Om du använder den här funktionen noggrant kan du spara lokal formatering vilket kan förbättra kvaliteten på en överföring från formaterat innehåll till DITA. Det här exemplet kan tolkas som kursiv, 16 punkter i en punktlista: `p[Italic|16|-|-|-|b|-|-]`.
 
 **Strukturmappning**
 
-Strukturmappningsfilen liknar formatmappningsfilen med en enkel struktur som listar alla källelement och relevanta attributtyper. Två attribut: `@map_date` och `@map_version` finns för att spela in den version av mappningsfilen som ska användas.
+Strukturmappningsfilen liknar formatmappningsfilen med en enkel struktur som listar alla källelement och relevanta attributtyper. Två attribut, `@map_date` och `@map_version`, tillhandahålls för inspelning av den version av mappningsfilen som ska användas.
 
 **Dokumenttyp**
 
-The `doctypes` -elementet listar DITA-kartor och ämnesmappningar som stöds.
+Elementet `doctypes` innehåller en lista med DITA-mappningar och ämnesmappningar som stöds.
 
-**Koppla elementregler för dokumenttyp**
+**Koppla dokumenttypselementregler**
 
-The `mapDoctypeElemRule` -element är obligatoriskt. Elementets attribut får inte redigeras eftersom käll-XML:ens rotelement alltid är mappat till DITA-mappningens rot `map` -element.
+Elementet `mapDoctypeElemRule` är obligatoriskt. Det här elementets attribut får inte redigeras eftersom käll-XML:ens rotelement alltid är mappat till DITA-mappningens rotelement `map`.
 
 **Regler för elementomslutning**
 
@@ -465,11 +465,11 @@ Se [\#id194CG600NY4](#id194CG600NY4).
 
 **`elementRules`element**
 
-Den här listan innehåller alla [\#id194CGC00SHS](#id194CGC00SHS)-element.
+Här visas alla [\#id194CGC00SHS](#id194CGC00SHS)-element.
 
 **`elementRule`element**
 
-The `elementRule` -element är obligatoriskt. Detta är mappningsreglerna för alla källelement. Ett dokument innehåller ostrukturerade formatelement, men de ignoreras för strukturerat innehåll såvida inte &#39;***hybridläge*** Bearbetning är aktiverat.
+Elementet `elementRule` är obligatoriskt. Detta är mappningsreglerna för alla källelement. Ett InDesign-dokument innehåller ostrukturerade formatelement, men dessa ignoreras för strukturerat innehåll om inte ***hybridlägesbearbetningen*** är aktiverad.
 
 Attributen som används i `elementRule` förklaras nedan:
 
@@ -479,12 +479,12 @@ Attributen som används i `elementRule` förklaras nedan:
 
 - `@mapTo`: Namnet på ett DITA-målelement.
 
-- `@refactor`: Det här valfria attributet kan ha två värden:
+- `@refactor`: Det här valfria attributet har två värden:
 
    - `unwrap`: Det matchande elementet tas bort samtidigt som innehållet behålls.
 
    - `drop`: Det matchande elementet och allt dess innehåll tas bort.
 
-- `@context`: Det här attributet används för att länka till en viss radbrytningsregel när mer än ett radbrytningsalternativ är tillgängligt. Exempel: `li` -element kan kapslas i antingen en `ol`, eller en `ul` -element.
+- `@context`: Det här attributet används för att länka till en specifik radbrytningsregel när mer än ett radbrytningsalternativ är tillgängligt. Exempel: `li`-elementet kan kapslas antingen i ett `ol`- eller `ul`-element.
 
 - `@commentOut`: Det här attributet aktiverar kapsling av målelementet i XML-kommentarer så att informationen inte går förlorad utan kan hanteras manuellt av användaren. Detta är användbart om källinnehållet inte kan tvingas att följa DITA-strukturregler.

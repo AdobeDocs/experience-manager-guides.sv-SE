@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Konfigurera giltiga filnamn för AEM {#id214GK0X0KXA}
 
-På samma sätt som listan med giltiga filnamnstecken som tillåts för DITA-avsnitt kan du även konfigurera en lista med giltiga filnamnstecken för AEM. Några av de kända tecken som inte tillåts i en URL är: ``'<>`@$``. Dessa tecken har konfigurerats för att automatiskt konverteras till ett understreck &quot;`_`&quot; när de påträffas när AEM genererar platsens utdatafilnamn.
+På samma sätt som listan med giltiga filnamnstecken som tillåts för DITA-avsnitt kan du även konfigurera en lista med giltiga filnamnstecken för AEM. Vissa av de kända tecken som inte tillåts i en URL är: ``'<>`@$``. Dessa tecken konverteras automatiskt till understreck `_` när de påträffas när AEM webbplatsens utdatafilnamn genereras.
 
 Använd instruktionerna i [Konfigurationsåsidosättningar](download-install-additional-config-override.md#) för att skapa konfigurationsfilen. I konfigurationsfilen anger du följande \(egenskap\)-information för att ange giltiga tecken i AEM platsutdata:
 

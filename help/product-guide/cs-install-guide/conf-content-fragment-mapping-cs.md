@@ -14,14 +14,14 @@ ht-degree: 0%
 
 # Skapa en mappning mellan ett ämne och ett innehållsfragment
 
-AEM Guides innehåller en funktion för att skapa en JSON-baserad mappning mellan ett ämne och en innehållsfragmentmodell. Du kan använda den här mappningen för att publicera innehåll som finns i vissa eller alla element i ett ämne till ett innehållsfragment.
+AEM Guides tillhandahåller funktionen för att skapa en JSON-baserad mappning mellan ett ämne och en innehållsfragmentmodell. Du kan använda den här mappningen för att publicera innehåll som finns i vissa eller alla element i ett ämne till ett innehållsfragment.
 
-1. Ladda ned *contentFragmentMapping.json* loggar du in på Adobe Experience Manager som administratör.
-1. Klicka på länken Adobe Experience Manager överst och välj **verktyg**.
+1. Om du vill hämta *contentFragmentMapping.json* loggar du in på Adobe Experience Manager som administratör.
+1. Klicka på länken Adobe Experience Manager överst och välj **Verktyg**.
 1. Välj Stödlinjer i listan med verktyg och välj **Mappprofiler**.
-1. Välj **Global profil** platta.
-1. Välj **Konfiguration av XML-redigerare** och väljer **Redigera** överst.
-1. Välj **Ladda ned** för att ladda ned *contentFragmentMapping.json*  på din lokala dator. Du kan sedan göra ändringar i filen och sedan överföra samma fil.
+1. Markera rutan **Global profil**.
+1. Välj fliken **XML-redigerarkonfiguration** och välj ikonen **Redigera** överst.
+1. Välj ikonen **Download** om du vill hämta filen *contentFragmentMapping.json* på din lokala dator. Du kan sedan göra ändringar i filen och sedan överföra samma fil.
 
 1. Du måste följa följande valideringar:
 
@@ -94,4 +94,4 @@ Exempelfil:
 ]
 ```
 
-Du kan publicera hela avsnittet med standardmappningen. Välj `Full Topic` mappning från listrutan **Generera innehållsfragment** och ha fältet&quot;topicData&quot; i innehållsfragmentmodellen.
+Du kan publicera hela avsnittet med standardmappningen. Välj mappningen `Full Topic` i listrutan **Generera innehållsfragment** och ha fältet&quot;topicData&quot; i innehållsfragmentmodellen.

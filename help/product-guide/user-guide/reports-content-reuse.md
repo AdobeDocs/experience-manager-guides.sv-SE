@@ -1,6 +1,6 @@
 ---
 title: Återanvänd innehåll - rapport
-description: Lär dig hur du visar rapporten för återanvändning av innehåll i AEM. Generera rapporten för att hitta procentsatsen för återanvändning av innehåll.
+description: Lär dig hur du visar rapporten om återanvändning av innehåll i AEM Guides. Generera rapporten för att hitta procentsatsen för återanvändning av innehåll.
 exl-id: ccae4303-75b1-4077-829a-7ef6a14fd8ad
 feature: Report Generation
 role: User
@@ -21,17 +21,17 @@ En annan användbar rapport som du kan generera är återanvändningsrapporten f
 
 Utför följande steg för att visa rapporten för återanvändning av innehåll:
 
-1. Klicka på länken Adobe Experience Manager överst och välj **verktyg**.
+1. Klicka på länken Adobe Experience Manager överst och välj **Verktyg**.
 
 1. Välj **Stödlinjer** i listan över verktyg.
 
-1. Klicka på **Återanvänd innehåll - rapport** platta.
+1. Klicka på rutan **Återanvänd rapport** för innehåll.
 
-1. Klicka **Bläddra** om du vill välja en sökväg där ämnen finns eller ange sökvägen manuellt.
+1. Klicka på **Bläddra** om du vill välja en sökväg där dina ämnen finns eller ange sökvägen manuellt.
 
    Rapporten skapas genom att innehållet i den överordnade och alla underordnade mappar genomsöks.
 
-1. Klicka **Generera rapport** för att få rapporten om återanvändning av innehåll.
+1. Klicka på **Generera rapport** för att hämta rapporten för återanvändning av innehåll.
 
    ![](images/content-reuse-uuid.png){width="800" align="left"}
 
@@ -47,13 +47,13 @@ Utför följande steg för att visa rapporten för återanvändning av innehåll
 
       - **Titel**: Ämnets namn. Om du klickar på ämneslänken öppnas ämnesförhandsgranskningen.
 
-      - **UUID**: Filens universellt unika identifierare \(UUID\).
+      - **UID**: Den universellt unika identifieraren \(UUID\) för filen.
 
-      - **Storlek**: Filstorlek i byte.
+      - **Storlek**: Filstorleken i byte.
 
       - **Status**: Dokumentets aktuella status - Utkast, Under granskning eller Granskad.
 
-      - **Antal gånger som återanvänts**: Antal gånger motsvarande ämne har återanvänts. Detta beräknas som summan av posterna i Refererad av kolumner minus 1.
+      - **Antal gånger som återanvänds**: Antal gånger som motsvarande ämne har återanvänts. Detta beräknas som summan av posterna i Refererad av kolumner minus 1.
 
       - **Refererad av**: De ämnen i vilka motsvarande ämne har refererats. Här beaktas endast de direkta \(första nivån\) referenserna. Flera ämnen avgränsas med kommatecken. UUID för den refererade filen anges också i parenteser. Om du klickar på avsnittets titellänk öppnas ämnesförhandsvisningen.
 

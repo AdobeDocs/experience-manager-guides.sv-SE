@@ -1,6 +1,6 @@
 ---
-title: Versionsinformation för [!DNL AEM Guides], februari 2022-utgåvan
-description: Februariversion av [!DNL Adobe Experience Manager Guides] as a Cloud Service
+title: Versionsinformation för  [!DNL AEM Guides], februari 2022
+description: Februariutgåva av  [!DNL Adobe Experience Manager Guides] as a Cloud Service
 exl-id: eb7ff475-bb5b-4d32-b291-024147fbfed1
 feature: Release Notes
 role: Leader
@@ -15,14 +15,14 @@ ht-degree: 0%
 
 ## Uppgradera till februari-versionen
 
-Uppgradera din nuvarande [!DNL Adobe Experience Manager Guides] as a Cloud Service (kallas senare [!DNL AEM Guides] as a Cloud Service) konfigurera genom att utföra följande steg:
+Uppgradera din nuvarande konfiguration av [!DNL Adobe Experience Manager Guides] as a Cloud Service (kallas senare [!DNL AEM Guides] as a Cloud Service) genom att utföra följande steg:
 1. Ta en titt på Cloud Servicens Git-kod och växla till den gren som är konfigurerad i Cloud Servicens pipeline för den miljö du vill uppgradera.
-1. Uppdatera `<dox.version>` egenskap i `/dox/dox.installer/pom.xml` fil med dina Cloud Service Git-kod till 2022.2.114.
-1. Genomför ändringarna och kör Cloud Servicens pipeline för att uppgradera till februari-versionen av [!DNL AEM Guides] as a Cloud Service.
+1. Uppdatera `<dox.version>`-egenskapen i `/dox/dox.installer/pom.xml`-filen för dina Cloud Services Git-kod till 2022.2.114.
+1. Genomför ändringarna och kör Cloud Servicens pipeline för att uppgradera till februari-utgåvan av [!DNL AEM Guides] as a Cloud Service.
 
 ## Kompatibilitetsmatris
 
-I det här avsnittet visas kompatibilitetsmatrisen för de program som stöds av [!DNL AEM Guides] as a Cloud Service februari 2022.
+I det här avsnittet visas kompatibilitetsmatrisen för de program som stöds av utgåvan [!DNL AEM Guides] från as a Cloud Service februari 2022.
 
 ### FrameMaker och FrameMaker Publishing Server
 
@@ -34,7 +34,7 @@ I det här avsnittet visas kompatibilitetsmatrisen för de program som stöds av
 
 ### Syrgasanslutning
 
-| [!DNL AEM Guides] Cloud-utgåva | Syrgasanslutningsfönster | Syrgasanslutning Mac |
+| [!DNL AEM Guides]-molnversionen | Syrgasanslutningsfönster | Syrgasanslutning Mac |
 | --- | --- | --- |
 | 2022.2.0 | 2.4.0 | 2.4.0 |
 |  |  |  |
@@ -44,15 +44,15 @@ I det här avsnittet visas kompatibilitetsmatrisen för de program som stöds av
 
 ### PDF
 
-I februari-versionen av PDF har det också lagts till stöd för att skapa ett modersmål [!DNL AEM Guides] as a Cloud Service. En ny publiceringsmotor har lagts till med följande funktioner:
+Stöd för att skapa ett inbyggt PDF har också lagts till i februari-versionen av [!DNL AEM Guides] as a Cloud Service. En ny publiceringsmotor har lagts till med följande funktioner:
 * Skapa en CSS-mall
 * Skapa olika sidmallar
 * Designa PDF-mallar med CSS och sidmallar
-* Publicera karta och ämnesinnehåll i PDF-format
+* Publish karta och ämnesinnehåll i PDF-format
 
 ### Stöd för kunskapsbasens webbplatssökväg vid artikelbaserad publicering
 
-[!DNL AEM Guides] as a Cloud Service tillhandahåller den artikelbaserade publiceringsfunktionen för att stegvis generera utdata av ett eller flera ämnen eller publicera innehållet på en kunskapsbaserad plattform. I februari-versionen har du ytterligare ett alternativ för att välja den webbplatssökväg i kunskapsbasen som ämnet/kartan ska publiceras till. När du har valt sökvägen genereras utdata på den angivna sökvägen.
+[!DNL AEM Guides] as a Cloud Service tillhandahåller den artikelbaserade publiceringsfunktionen för att stegvis generera utdata från ett eller flera ämnen eller publicera ditt innehåll på en kunskapsbas-plattform. I februari-versionen har du ytterligare ett alternativ för att välja den webbplatssökväg i kunskapsbasen som ämnet/kartan ska publiceras till. När du har valt sökvägen genereras utdata på den angivna sökvägen.
 
 ### Förbättringar i Web Editor
 
@@ -60,15 +60,15 @@ Många förbättringar och nya funktioner har lagts till i Web Editor:
 
 * **Förbättrad dialogruta vid filstängning**
 
-[!DNL AEM Guides] as a Cloud Service uppmanar dig att spara dina ändringar och låsa upp låsta filer när du försöker stänga en fil som har öppnats i Web Editor. Frågorna visas baserat på **Fråga efter incheckning vid stängning** och **Fråga efter ny version vid stängning** inställningar som konfigureras av administratören.
+[!DNL AEM Guides] as a Cloud Service uppmanar dig att spara dina ändringar och låsa upp dina låsta filer när du försöker stänga en fil som har öppnats i Web Editor. Frågorna visas baserat på **Fråga efter incheckning vid stängning** och **Fråga efter ny version vid stängning** som konfigurerats av administratören.
 
 Beroende på konfigurationen kan du välja att spara ändringarna och skapa en ny version av dokumentet. Du kan också checka in filen och spara ändringarna i den aktuella versionen.
 
-![Stäng fil](assets/file-close-save-changes-unlock.png)
+![Stäng filen](assets/file-close-save-changes-unlock.png)
 
-Mer information finns i *Stäng filer och spara scenarier* i användarhandboken.
+Mer information finns i *Stängningsscenarier för filer och sparscenarier* i användarhandboken.
 
-* Ett hårt blanksteg har lagts till i teckenpallen.  A **fast** -utrymmet förhindrar en automatisk radbrytning vid en viss punkt i ett HTML-dokument. Web Editor stöder fasta mellanslag för både AEM Site och HTML5.
+* Ett hårt blanksteg har lagts till i teckenpallen.  Ett **hårt**-blanksteg förhindrar en automatisk radbrytning vid en viss punkt i ett HTML-dokument. Web Editor stöder fasta mellanslag för både AEM Site och HTML5.
 
 * När du överför en bild från Web Editor visas en bekräftelsedialogruta om det redan finns en bild med samma namn. Du kan antingen behålla båda filerna - befintliga och nya, eller skriva över befintliga filer och bara spara den nya.
 
@@ -78,7 +78,7 @@ Mer information finns i *Stäng filer och spara scenarier* i användarhandboken.
 
 När du väljer att hämta DITA-kartan köas begäran och du får ett meddelande när kartan är klar att hämtas. Du kan välja att ladda ned kartfilen direkt eller ladda ned den senare via länken i Inkorgen för AEM.
 
-![Hämta karta](assets/download-map-prompt.png)
+![Kartnedladdning](assets/download-map-prompt.png)
 
 ### Granska
 
@@ -105,10 +105,10 @@ De buggar som har åtgärdats i olika områden listas nedan:
 * Ordlista visas som en anteckning när en ordlista har skapats. 8384
 * xref kan inte infogas även på giltiga platser. 8354
 * Elementlistan (Alt+Retur) visas nedtonad i det mörka/mörkaste temat. 7913
-* Listan med mappningsmallar i **Skapa** option( ellipsis menu) of the Repository panel is not as per the **Mappprofil** i Användarinställningar. (5918)
+* Listan med mappningsmallar i **Create** option( ellipsis-menyn) på databaspanelen är inte densamma som i **Mappprofilen** i användarinställningarna. (5918)
 * Element-ID:n genereras inte automatiskt för element som läggs till från funktionen Återanvänd innehåll i huvudverktygsfältet. 5826
 
-### Resursgränssnitt
+### Assets UI
 
 * Bildredigeringen fungerar inte som förväntat på molnservern. 8768
 * I panelen för versionshistorik visas en felaktig tidsstämpel i det aktuella versionsavsnittet och informationen ändras. 8765
@@ -119,5 +119,5 @@ De buggar som har åtgärdats i olika områden listas nedan:
 ### Användbarhetsändringar
 
 * Om ett användarnamn är långt visas inte ikonerna för att acceptera/avvisa på panelen Granska i Web Editor tydligt. 8793
-* I **Sök och ersätt** visas en oönskad ikon vid mushovringaren i resultatavsnittet. 8775
+* I panelen **Sök och ersätt** visas en oönskad ikon vid muspekaren i resultatavsnittet. 8775
 * Anpassad ikon väljs inte från egenskapen och i stället visas standardikonen för rapporter som genereras med knappen Generera rapport. 8573

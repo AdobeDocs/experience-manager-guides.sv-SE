@@ -1,6 +1,6 @@
 ---
 title: PDF
-description: Generera och konfigurera PDF för FrameMaker-dokument i AEM.
+description: Generera och konfigurera utdata från PDF för FrameMaker-dokument i AEM Guides.
 exl-id: df3d3cd8-2aa1-4d82-8756-c3f5555cb904
 feature: Publishing FrameMaker Documents
 role: User
@@ -17,12 +17,12 @@ Följande alternativ är tillgängliga för utdata från PDF:
 
 >[!NOTE]
 >
-> Om du vill öppna förinställningar för PDF klickar du på en FrameMaker \(`.fm` eller `.book`\), klicka sedan på Utdataförinställningar och klicka på PDF.
+> Om du vill öppna förinställningar för utdata för PDF klickar du på FrameMakerna \(`.fm` eller `.book`\), sedan på Utdatainställningar och sedan på alternativet PDF.
 
 | Alternativ för PDF | Beskrivning |
 |-----------|-----------|
 | Utdatatyp | Den typ av utdata som du vill generera. Om du vill generera utdata för PDF väljer du alternativet PDF. |
-| Inställningsnamn | Ge PDF ett beskrivande namn på de utdatainställningar du skapar. Du kan till exempel ange *Resultat från interna kunder* eller *slutanvändares utdata*. |
+| Inställningsnamn | Ge PDF ett beskrivande namn på de utdatainställningar du skapar. Du kan till exempel ange *interna kunders utdata* eller *slutanvändares utdata*. |
 | **Jobbinställningar** |
 | Alternativ | Välj den förinställning för PDF som du vill använda för att generera utdata från PDF. |
 | Generera taggad PDF | Välj det här alternativet om du vill generera taggad PDF som innehåller information om dokumentets innehåll och struktur. Den här informationen används av skärmläsare. |
@@ -38,6 +38,6 @@ Följande alternativ är tillgängliga för utdata från PDF:
 | Konvertera CYMK till RGB | Välj det här alternativet om du vill konvertera CMYK-färger till RGB i det genererade PDF. |
 | Generera bokmärken i PDF | Skapa tillgänglig PDF som innehåller bokmärken. |
 | Målsökväg | Den sökväg i AEM där utdata från PDF lagras. |
-| Kör arbetsflöde efter generering | När du väljer det här alternativet visas en ny arbetsflödeslista som innehåller alla arbetsflöden som är konfigurerade i AEM. Du måste välja ett arbetsflöde som du vill köra när arbetsflödet för generering av utdata har slutförts. |
+| Kör Post Generation Workflow | När du väljer det här alternativet visas en ny listruta för Post Generation Workflow som innehåller alla arbetsflöden som är konfigurerade i AEM. Du måste välja ett arbetsflöde som du vill köra när arbetsflödet för generering av utdata har slutförts. |
 
-**Överordnat ämne:**[ Generera utdata av FrameMaker dokument](fm-output-generatation.md)
+**Överordnat ämne:**[ Generera utdata för FrameMaker-dokument](fm-output-generatation.md)

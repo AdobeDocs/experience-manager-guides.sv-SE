@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # Konfigurera alternativet för redigering i syrgas
 
-AEM Guides gör det även möjligt för användare att redigera sina DITA-avsnitt och DITA-kartor i insticksprogrammet för syreanslutning.
+AEM Guides tillåter även användare att redigera sina DITA-avsnitt och DITA-kartor i insticksprogrammet för syreanslutning.
 
-Använd instruktionerna i [Konfigurationsåsidosättningar](download-install-additional-config-override.md#) för att skapa konfigurationsfilen. Ange följande (egenskap) information i konfigurationsfilen för att konfigurera **Redigera i syrgas** alternativ:
+Använd instruktionerna i [Konfigurationsåsidosättningar](download-install-additional-config-override.md#) för att skapa konfigurationsfilen. Ange följande (egenskap) information i konfigurationsfilen för att konfigurera alternativet **Redigera i syre**:
 
 
 

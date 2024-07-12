@@ -1,6 +1,6 @@
 ---
-title: Distribuera modulen AEM stödlinjer
-description: Lär dig hur du distribuerar modulen AEM stödlinjer
+title: Distribuera AEM Guides-modul
+description: Så här distribuerar du modulen AEM Guides
 exl-id: 3bb28304-d8e2-45eb-8297-546eed428b8c
 feature: Installation
 role: Admin
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 ---
 
-# Distribuera modulen Adobe Experience Manager-stödlinjer {#id213BCL00KEV}
+# Distribuera Adobe Experience Manager Guides-modul {#id213BCL00KEV}
 
-Du kan börja med att distribuera Experience Manager-guider via Cloud Manager. För att distribuera modulen kan du följa instruktionerna i [AEM Guides as a Cloud Service driftsättning](../release-info/deploy-xml-on-aemaacs.md)
+Du kan börja med att distribuera Experience Manager Guides via Cloud Manager. Om du vill distribuera modulen kan du följa instruktionerna i [AEM Guides as a Cloud Service-distribution](../release-info/deploy-xml-on-aemaacs.md)
 
 
 

@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # Anpassa AEM standardordlista {#id209SD8000WU}
 
-Webbredigeraren kan konfigureras att använda AEM stavningskontroll eller webbläsarens stavningskontroll. Om du väljer att arbeta med AEM stavningskontroll får du flexibilitet att definiera din egen ordlista. Dessa anpassade ord läggs sedan till i AEM ordlista och de här orden får inte flaggan \(som felaktiga\) i Web Editor.
+Webbredigeraren kan konfigureras att använda AEM stavningskontroll eller webbläsarens stavningskontroll. Om du väljer att arbeta med AEM stavningskontroll får du flexibilitet att definiera din egen ordlista. Dessa anpassade ord läggs sedan till i den AEM ordlistan och de här orden får inte flaggan \(som felaktiga\) i webbredigeraren.
 
-Följ de här stegen för att skapa din egen ordlista som läggs till AEM ordlista:
+Följ de här stegen för att skapa din egen ordlista som läggs till i AEM ordlista:
 
 1. Logga in AEM och öppna läget CRXDE Lite.
 

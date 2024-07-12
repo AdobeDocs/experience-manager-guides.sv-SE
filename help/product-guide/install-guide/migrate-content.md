@@ -18,7 +18,7 @@ Med AEM Guides kan du konvertera en mängd olika strukturerade och ostrukturerad
 
 >[!TIP]
 >
-> Se *Migrering och överföring av innehåll* section [Appendix.md](appendix.md) i guiden Best practices om de effektivaste strategierna med att migrera och överföra befintligt innehåll.
+> Mer information om hur du använder migrering och överföring av befintligt innehåll finns i avsnittet *Innehållsmigrering och överföring* [Appendix.md](appendix.md) i guiden Bästa tillvägagångssätt.
 
 - **[Överför befintligt DITA-innehåll](migrate-content-upload-existing-dita-content.md)**
 

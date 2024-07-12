@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Generera utdata av FrameMaker dokument {#id1645H8040HD}
 
-Från och med AEM 1.1 kan du även publicera FrameMaker-dokument \(`.book` och `.fm`\) finns i AEM. Om en bokfil innehåller en kombination av DITA- och FrameMaker-dokument kan du publicera även sådana dokument med hjälp av AEM. FrameMaker kan publiceras i följande format:
+Från och med AEM Guides 1.1 kan du även publicera FrameMaker-dokument \(`.book` och `.fm`\) som finns i din AEM. Om en bokfil innehåller en kombination av DITA-dokument och FrameMaker-dokument kan du publicera sådana dokument även i AEM Guides. FrameMaker kan publiceras i följande format:
 
 - PDF
 
@@ -22,7 +22,7 @@ Från och med AEM 1.1 kan du även publicera FrameMaker-dokument \(`.book` och `
 - EPUB
 
 
-Som författare klickar du bara på några länkar så genereras utdata. Du kan generera utdata för en hel bokfil eller välja att publicera enskilda FrameMaker. Innan du genererar utdata kan du även ändra FrameMakerna. När du väljer en .fm- eller .book-fil i AEM databas får du **Öppna i FrameMaker** i verktygsfältet. Om du klickar på den här knappen öppnas den markerade filen i FrameMaker.
+Som författare klickar du bara på några länkar så genereras utdata. Du kan generera utdata för en hel bokfil eller välja att publicera enskilda FrameMaker. Innan du genererar utdata kan du även ändra FrameMakerna. När du markerar en .fm- eller .book-fil AEM databasen visas knappen **Öppna i FrameMaker** i verktygsfältet. Om du klickar på den här knappen öppnas den markerade filen i FrameMaker.
 
 Informationen i följande avsnitt är till för utgivare som ska använda arbetsflöden för att publicera FrameMaker-dokument:
 

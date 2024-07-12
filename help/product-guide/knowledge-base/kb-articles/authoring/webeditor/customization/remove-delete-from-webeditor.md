@@ -1,17 +1,17 @@
 ---
 title: Ta bort alternativet Ta bort från filkontextmenyn i webbredigeraren för specifika användare
 description: Lär dig hur du anpassar webbredigeraren genom att ta bort alternativet Ta bort från filsnabbmenyn för specifika användare/grupper
-source-git-commit: aacc04e2fb6ca061825e5e219ad6e03bf711b3d0
+exl-id: 31b4dd53-3938-42e1-bbc6-64806d668696
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
 
 ---
 
-
 # Ta bort alternativet Ta bort från filsnabbmenyn i webbredigeraren
 
-I den här artikeln får vi lära oss hur du döljer alternativet &quot;Ta bort&quot; på snabbmenyn AEM Guides Web Editor för specifika användare eller grupper. Om du vill ha mer information om alternativen på snabbmenyn för filer läser du i ramverket för tillägg till stödlinjer. Mer information finns [här](https://github.com/adobe/guides-extension/tree/main).
+I den här artikeln får vi lära oss hur du döljer alternativet &quot;Ta bort&quot; på snabbmenyn i AEM Guides Web Editor för specifika användare eller grupper. Om du vill ha mer information om alternativen på snabbmenyn för filer läser du i ramverket för tillägg till stödlinjer. Mer information finns [här](https://github.com/adobe/guides-extension/tree/main).
 
 Som du kan se nedan har filsnabbmenyn alternativet &quot;Ta bort&quot; tillgängligt för just den här användaren.
 

@@ -1,6 +1,6 @@
 ---
-title: API-referens för Adobe Experience Manager-guider
-description: API-referens för Adobe Experience Manager-guider
+title: API-referens för Adobe Experience Manager Guides
+description: API-referens för Adobe Experience Manager Guides
 source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
 workflow-type: tm+mt
 source-wordcount: '110'
@@ -9,7 +9,7 @@ ht-degree: 0%
 ---
 
 
-# API-referens för Adobe Experience Manager-guider
+# API-referens för Adobe Experience Manager Guides
 
 - [Ansvarsfriskrivning](rebranding-disclaimer.md)
 - [Introduktion](introduction.md)
@@ -25,6 +25,6 @@ ht-degree: 0%
 - [Java-baserade API:er som fungerar med baslinje och etiketter](create-baseline-label-java.md)
 - [Java-baserat API för att arbeta med mappprofiler](folder-profile-java.md)
 - [Java-baserat API för att skapa och aktivera paket](create-activate-package-java.md)
-- [Händelsehanterare efter bearbetning](post-process-event.md)
+- [Händelsehanterare för Post-bearbetning](post-process-event.md)
 - [Händelsehanterare för konverteringsprocess](conversion-complete-event.md)
 

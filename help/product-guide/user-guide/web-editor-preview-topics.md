@@ -1,6 +1,6 @@
 ---
 title: Förhandsgranska ett ämne
-description: Lär dig hur du förhandsgranskar ett ämne AEM stödlinjer. Lär dig mer om de funktioner som är tillgängliga i förhandsgranskningsläget. Förgrena, återställ och efterföljande versionshantering i AEM.
+description: Lär dig hur du förhandsgranskar ett avsnitt i AEM Guides. Lär dig mer om de funktioner som är tillgängliga i förhandsgranskningsläget. Förgrena, återställ och efterföljande versionshantering i AEM.
 exl-id: f4013ac6-226a-4e66-bd7b-604ac7c361ae
 feature: Authoring
 role: User
@@ -13,14 +13,14 @@ ht-degree: 0%
 
 # Förhandsgranska ett ämne {#id1696II000QR}
 
-När ett ämne har skapats genererar AEM stödlinjer en förhandsgranskning av ämnet. I förhandsgranskningsläget finns olika funktioner som du kan använda för att arbeta med dokumentet.
+När ett ämne har skapats genererar AEM Guides en förhandsgranskning av ämnet. I förhandsgranskningsläget finns olika funktioner som du kan använda för att arbeta med dokumentet.
 
 Utför följande steg för att förhandsgranska ett ämne:
 
-1. Navigera i resursgränssnittet till det ämne som du vill visa.
+1. Navigera i Assets-användargränssnittet till det ämne som du vill visa.
 1. Klicka på det ämne som du vill visa.
 
-   En förhandsgranskning av ämnet visas i resursgränssnittet.
+   En förhandsgranskning av ämnet visas i användargränssnittet för Assets.
 
    >[!NOTE]
    >
@@ -42,17 +42,17 @@ Visa egenskaperna för det markerade ämnet. Baserat på din AEM kan du se egens
 
 >[!NOTE]
 >
-> Ett ämnes title-egenskap fylls i automatiskt från `title` -taggen för DITA-ämnet eller -kartan. Om du ändrar en titel i egenskapsfönstret försvinner ändringen. Om du vill uppdatera egenskapen title bör du göra det med webbredigeraren.
+> Ett ämnes title-egenskap fylls i automatiskt från taggen `title` i DITA-avsnittet eller -kartan. Om du ändrar en titel i egenskapsfönstret försvinner ändringen. Om du vill uppdatera egenskapen title bör du göra det med webbredigeraren.
 
 Sidan Egenskaper innehåller användbar information om referenserna, t.ex. var en karta eller ett ämne används eller vilka referenser som finns i ett dokument. På sidan Egenskaper visas två typer av referenser för ett dokument - **Används i** och **Utgående referenser**.
 
-The **Används i** refererar till en lista med de dokument där den aktuella filen refereras eller används. The **Utgående referenser** visar de dokument som det aktuella dokumentet refererar till.
+Referenserna **Används i** visar de dokument där den aktuella filen refereras eller används. **Utgående referenser** visar de dokument som refereras i det aktuella dokumentet.
 
-Ikonen \(+\) i **Används i** kan du navigera uppåt för att hitta var ämnet används eller refereras.
+Med ikonen \(+\) i avsnittet **Används i** referenser kan du navigera uppåt för att hitta var avsnittet används eller refereras.
 
 ![](images/used-in-dialog_cs.png){width="800" align="left"}
 
-Klicka på ![](images/right-arrow-used-in-dialog.svg)-ikonen bredvid ett dokument visar mappnings- eller ämnesfilerna där dokumentet hänvisas vidare.
+Om du klickar på ikonen ![](images/right-arrow-used-in-dialog.svg) bredvid ett dokument visas kartan eller ämnesfilerna där dokumentet hänvisas vidare.
 
 **Villkorlig filtrering \(A/B\)**
 
@@ -66,31 +66,31 @@ Om ditt ämne har villkorsstyrt innehåll visas A/B-ikonen i verktygsfältet. Om
 
 **Redigera**
 
-- Öppna ämnet för redigering i Web Editor. The **Redigera** om administratören har aktiverat alternativet **Inaktivera redigering utan utcheckning** alternativ. När alternativet är aktiverat visas **Redigera** bara efter utcheckning av en ämnesfil.
+- Öppna ämnet för redigering i Web Editor. Alternativet **Redigera** är inte tillgängligt om administratören har aktiverat alternativet **Inaktivera redigering utan utcheckning**. När alternativet är aktiverat visas alternativet **Redigera** först när du har checkat ut en ämnesfil.
 
 **Nyckelupplösning**
 
 - Om du vill använda en nyckelutrymmesfil för ämnet klickar du på ikonen för nyckelupplösningen. Du kan sedan välja ett nyckelområde i popup-fönstret Tangentupplösning.
 
-**Källa**
+**Source**
 
-- Öppna XML-källkoden för en fil. Du kan visa den underliggande XML-koden för en karta, ett ämne eller en DITAVAL-fil genom att öppna filen i förhandsgranskningsläget och klicka på källikonen. I popup-fönstret XML-källa visas XML-källkoden. Du kan välja en viss kod från filen eller trycka på `Ctrl`+`a` om du vill markera hela innehållet.
+- Öppna XML-källkoden för en fil. Du kan visa den underliggande XML-koden för en karta, ett ämne eller en DITAVAL-fil genom att öppna filen i förhandsgranskningsläget och klicka på Source-ikonen. I popup-fönstret XML-Source visas XML-källkoden. Du kan välja en specifik kod från filen eller trycka på `Ctrl`+`a` för att markera hela innehållet.
 
   >[!NOTE]
   >
-  > Om du vill visa källkodsvyn för en DITA-mappningsfil markerar du filen i resursgränssnittet och klickar på Källa.
+  > Om du vill visa källkodsvyn för en DITA-kartfil markerar du filen i Assets-gränssnittet och klickar på Source.
 
   ![](images/xml-source-code-view-from-preview_cs.png){width="800" align="left"}
 
-**Dela UUID Link**
+**Dela UUID-länk**
 
 - Med AEM Guides kan du dela UUID-baserade länkar för DITA-kartor, ämnen och bildfiler från följande platser:
 
-   - Resursgränssnitt
+   - Assets UI
    - DITA-kartans konsol
    - Ämne eller bildens förhandsvisning
 
-Ett nytt alternativ **Dela UUID Link** visas i verktygsfältet för de ovannämnda områdena. På följande skärmbild visas **Dela UUID Link** i förhandsgranskningsläget för ett ämne:
+Ett nytt alternativ, **Dela UUID-länk**, visas i verktygsfältet för de ovannämnda områdena. På följande skärmbild visas alternativet **Dela UUID-länk** i förhandsgranskningsläget för ett ämne:
 
 ![](images/share-uuid-link_cs.png){width="800" align="left"}
 
@@ -98,7 +98,7 @@ I resursgränssnittet är det här alternativet synligt när du markerar en fil.
 
 När du har kopierat URL-adressen kan samma sak delas med andra användare så att de får direkt åtkomst till filen. Den här länken förblir giltig även när filen flyttas till en annan plats i databasen. Det enda tillfället då länken misslyckas är när filen tas bort från databasen.
 
-Om du delar länken från DITA-kartkonsolen eller en fils förhandsgranskningsläge, kommer användaren till samma filvy. När du delar en mappningsfils länk från resursgränssnittet, flyttas användaren till kartans konsol. På samma sätt visas filens förhandsgranskning för ett ämne eller en bildfil.
+Om du delar länken från DITA-kartkonsolen eller en fils förhandsgranskningsläge, kommer användaren till samma filvy. När du delar en mappningsfils länk från Assets-gränssnittet dirigeras användaren till kartans konsol. På samma sätt visas filens förhandsgranskning för ett ämne eller en bildfil.
 
 >[!IMPORTANT]
 >
@@ -118,7 +118,7 @@ Utcheckad fil i listvyn:
 
 ![](images/checkout-list-62.png){width="550" align="left"}
 
-Om kolumnen Utcheckad inte visas väljer du **Visa inställningar** under **Listvy** och väljer **Utcheckad** status i **Konfigurera kolumner** -dialogrutan.
+Om kolumnen Utcheckad inte visas väljer du **Visa inställningar** under **Listvy** och väljer statusen **Utcheckad** i dialogrutan **Konfigurera kolumner** .
 
 ![](images/list-view-settings-check-out_cs.png){width="800" align="left"}
 
@@ -136,13 +136,13 @@ Om kolumnen Utcheckad inte visas väljer du **Visa inställningar** under **List
 
    1. Öppna ämnet i förhandsgranskningsläget.
 
-   1. Klicka på **Tidigare versioner** och välja en version.
+   1. Klicka på **Versionshistorik** till vänster och välj en version.
 
       ![](images/timeline-versions62_cs.png){width="800" align="left"}
 
-   1. Välj den som du vill använda som grundversion i listan och klicka på **Förhandsgranska version**. Förhandsgranskningen av den valda versionen visas i fönstret Förhandsgranska version.
+   1. Välj den som du vill använda som grundversion i de listade versionerna och klicka på **Förhandsgranska version**. Förhandsgranskningen av den valda versionen visas i fönstret Förhandsgranska version.
 
-   1. Från **Visa differens** väljer du den version som du vill jämföra basversionen med.
+   1. I listan **Visa skillnader** väljer du den version som du vill jämföra basversionen med.
 
       ![](images/show-diff-list-cropped.png){width="800" align="left"}
 
@@ -153,7 +153,7 @@ Om kolumnen Utcheckad inte visas väljer du **Visa inställningar** under **List
 
 ### Förgrena, återställ och efterföljande versionshantering {#id193PG0Y051X}
 
-- I en vanlig redigeringsmiljö måste du skapa en ny gren av ett ämne för att kunna hantera en viss version. På samma sätt som med andra versionshanteringssystem kan du med hjälp av AEM Guides skapa en gren från en befintlig version av ett ämne eller återgå till en äldre version av ett ämne. Med versionshanteringsfunktionerna i AEM kan du utföra följande åtgärder:
+- I en vanlig redigeringsmiljö måste du skapa en ny gren av ett ämne för att kunna hantera en viss version. På samma sätt som med andra versionshanteringssystem kan du i AEM Guides skapa en gren av ett ämne som redan finns eller återgå till en äldre version av ett ämne. Med versionshanteringsfunktionerna i AEM Guides kan du utföra följande uppgifter:
 
    - Skapa en gren från en befintlig version av ett ämne
    - Skapa efterföljande versioner i en ny gren
@@ -165,7 +165,7 @@ Om kolumnen Utcheckad inte visas väljer du **Visa inställningar** under **List
 
   För alla nya ämnen numreras den första versionen som 1.0. Därefter sparas alla nya versioner av ämnet med ett stegvis nummer som 1.1, 1.2 osv. När du har skapat en gren av ett ämne skapas en ny gren med versionsnumret som grenen har skapats från och med vilken en .0 läggs till i slutet av versionen. Som framgår av teckningen skapas en ny gren från version 1.1 av ett ämne. Den nya grenen får version 1.1.0. Varje gång du sparar en ny version av ämnet i den här grenen får den sedan ett inkrementellt versionsnummer som 1.1.1, 1.1.2 och så vidare.
 
-  På samma sätt som vid förgreningar kan du även återställa den aktuella versionen eller den aktuella versionen till en version som finns i databasen. Om du vill återgå till en version väljer du bara önskad version av ämnet och klickar på **Återställ till den här versionen** i **Tidigare versioner** -panelen.
+  På samma sätt som vid förgreningar kan du även återställa den aktuella versionen eller den aktuella versionen till en version som finns i databasen. Om du vill återgå till en version markerar du den önskade versionen av ämnet och klickar på **Återställ till den här versionen** på panelen **Versionshistorik**.
 
   Så här skapar du en gren, återgår till en version och underhåller efterföljande versioner av ett ämne:
 
@@ -173,7 +173,7 @@ Om kolumnen Utcheckad inte visas väljer du **Visa inställningar** under **List
   >
   > Den metod som beskrivs i följande procedur gäller endast DITA-filer. För icke-DITA-filer använder du tidslinjevyn för att skapa versioner eller återställa en befintlig version av en fil.
 
-   1. Gå till ämnet i Assets UI.
+   1. Gå till ämnet i Assets användargränssnitt.
 
       >[!NOTE]
       >
@@ -181,11 +181,11 @@ Om kolumnen Utcheckad inte visas väljer du **Visa inställningar** under **List
 
    1. Välj det ämne som du vill skapa en gren för.
 
-   1. Klicka på **Tidigare versioner**.
+   1. Klicka på **Versionshistorik** i den vänstra listen.
 
       >[!NOTE]
       >
-      > En lista över tillgängliga versioner för det valda ämnet visas. Varje version innehåller tidsstämpel, användarnamn, versionskommentar och [label](web-editor-use-label.md#) information.
+      > En lista över tillgängliga versioner för det valda ämnet visas. Varje version innehåller tidsstämpel, användarnamn, versionskommentar och [etikett](web-editor-use-label.md#) -information.
 
    1. Välj en version från vilken du vill skapa en gren. På följande skärmbild väljs version 1.2 för att skapa en gren.
 
@@ -193,9 +193,9 @@ Om kolumnen Utcheckad inte visas väljer du **Visa inställningar** under **List
 
       >[!NOTE]
       >
-      > Den aktuella versionen av ett ämne innehåller *\(Aktuell\)* anges bredvid versionsnumret.
+      > Den aktuella versionen av ett ämne innehåller *\(Aktuell\)* som omnämns bredvid versionsnumret.
 
-   1. Klicka **Återställ till den här versionen**.
+   1. Klicka på **Återgå till den här versionen**.
 
       Ett meddelande visas med en uppmaning om att bekräfta skapandet av en ny gren.
 
@@ -213,9 +213,9 @@ Om kolumnen Utcheckad inte visas väljer du **Visa inställningar** under **List
 
         ![](images/new_version_without_working_copy.png){width="300" align="left"}
 
-   1. Klicka **OK**.
+   1. Klicka på **OK**.
 
 
-  En ny gren skapas från den valda versionen av ämnet. Processen ovan gäller även när du vill återgå till en specifik version av ett ämne. Att återgå till en viss version innebär tekniskt sett att du skapar en ny gren från den valda versionen och gör den versionen till aktuell arbetskopia av ämnet. Du kan också visa historiken för filer som har återförts i rapporten Återgå till tidigare version. Mer information om den här rapporten finns i [Rapport över versionshistorik för återskapade filer](reports-reverted-file-version-history.md#).
+  En ny gren skapas från den valda versionen av ämnet. Processen ovan gäller även när du vill återgå till en specifik version av ett ämne. Att återgå till en viss version innebär tekniskt sett att du skapar en ny gren från den valda versionen och gör den versionen till aktuell arbetskopia av ämnet. Du kan också visa historiken för filer som har återförts i rapporten Återgå till tidigare version. Mer information om den här rapporten finns i [Versionshistorik för återskapade filer](reports-reverted-file-version-history.md#).
 
 **Överordnat ämne:**[ Skapa och förhandsgranska ämnen](create-preview-topics.md)

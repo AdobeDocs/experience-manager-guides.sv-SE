@@ -1,6 +1,6 @@
 ---
-title: Verifiera installation av AEM
-description: Lär dig hur du verifierar installationen av AEM Guides
+title: Verifiera installation av AEM Guides
+description: Lär dig verifiera AEM Guides-installationen
 exl-id: 4e566c57-a522-4605-bc70-47155f20b429
 feature: Installation
 role: Admin
@@ -12,13 +12,13 @@ ht-degree: 0%
 
 ---
 
-# Verifiera installation av AEM {#id213BD030FBE}
+# Verifiera installation av AEM Guides {#id213BD030FBE}
 
 När du har installerat AEM Guides måste du kontrollera om installationen lyckades eller inte. Verifiera installationen genom att utföra följande steg:
 
-1. Gå till Developer Console för Cloud Servicen.
+1. Få tillgång till Cloud Servicens Developer Console.
 
-   Mer information om hur du använder Developer Console finns i [Åtkomst till Developer Console](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html) i AEM.
+   Mer information om hur du får åtkomst till Developer Console finns i [Developer Console-åtkomst](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html) i AEM.
 
 1. Gå till listan över OSGi Bundles i AEM.
 
@@ -26,7 +26,7 @@ När du har installerat AEM Guides måste du kontrollera om installationen lycka
 
 1. Sök efter fmdita i paketlistan och kontrollera status.
 
-   Statusen ska visas *Aktiv* för lyckade distribuerade paket. Om något av paketet inte har statusen Aktiv kontrollerar du AEM loggar för att felsöka installationsproblemet.
+   Statusen ska visa *Aktiv* för distribuerade paket. Om något av paketet inte har statusen Aktiv kontrollerar du AEM loggar för att felsöka installationsproblemet.
 
 
 **Överordnat ämne:**[ Hämta och installera](download-install.md)

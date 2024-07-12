@@ -1,6 +1,6 @@
 ---
-title: Versionsinformation | Adobe Experience Manager Guides as a Cloud Service, februari 2023-versionen
-description: Februariversion av Adobe Experience Manager Guides as a Cloud Service
+title: Versionsinformation | Adobe Experience Manager Guides as a Cloud Service, februari 2023
+description: Februariutgåva av Adobe Experience Manager Guides as a Cloud Service
 exl-id: 090eaf94-fe3a-47e9-9937-f84f8434550d
 feature: Release Notes
 role: Leader
@@ -11,18 +11,18 @@ ht-degree: 0%
 
 ---
 
-# Nyheter i februari 2023-versionen av Adobe Experience Manager Guides as a Cloud Service
+# Nyheter i februari 2023-utgåvan av Adobe Experience Manager Guides as a Cloud Service
 
-I den här artikeln beskrivs de nya och förbättrade funktionerna i version från februari 2023 av Adobe Experience Manager Guides (senare kallad *AEM stödlinjer as a Cloud Service*).
+I den här artikeln beskrivs de nya och förbättrade funktionerna i Adobe Experience Manager Guides version från februari 2023 (kallas senare *AEM Guides as a Cloud Service*).
 
-Mer information om uppgraderingsinstruktioner, kompatibilitetsmatris och problemen som åtgärdas i den här versionen finns i [Versionsinformation](release-notes-2023-2-0.md) artikel.
+Mer information om uppgraderingsinstruktioner, kompatibilitetsmatris och de problem som har åtgärdats i den här versionen finns i artikeln [Versionsinformation](release-notes-2023-2-0.md).
 
 
 ## Generera rapporter från Web Editor
 
-AEM Guides innehåller en funktion i Web Editor som gör att du kan kontrollera att dina tekniska dokument är fullständiga och generera rapporter för dem.
+AEM Guides har en funktion i Web Editor som gör att du kan kontrollera att dina tekniska dokument är fullständiga och generera rapporter för dem.
 Du kan visa ämneslistan, hantera metadata och se multimedia som används i alla referenser för den aktuella kartan från
-**Rapporter** i Web Editor.
+Fliken **Rapporter** i webbredigeraren.
 
 **Generera ämneslistvyn**
 
@@ -54,7 +54,8 @@ Nu har AEM ett förbättrat användargränssnitt som hjälper dig att granska de
 * Sammanhangsberoende verktygsfält som hjälper dig att snabbt markera eller genomstryka text
 * Alternativ-menyn för att redigera eller ta bort egna kommentarer
 * För inaktuella kommentarer har du tillgång till sida vid sida-vy som hjälper dig att jämföra den tidigare versionen av ämnet med den aktuella granskningsversionen.
-* När du använder filtren filtreras kommentarerna på den högra panelen efter markeringen, och antalet kommentarer på den vänstra panelen uppdateras därefter.
+* När du använder filtren filtreras kommentarerna på den högra panelen efter markeringen och
+antalet kommentarer i den vänstra panelen uppdateras därefter.
 
 
   <img alt="granskningsåtgärd" src="assets/comment-pop-up-panel.png" width="600">
@@ -67,46 +68,48 @@ Nu finns det användarvänliga förbättringar på kontrollpanelen Översättnin
 
 **Skicka versionsetiketten till målversionen**
 
-Med AEM stödlinjer kan du skicka källfilens etikett till målfilen. Det gör det enklare att identifiera källversionen för den översatta filen.
+I AEM Guides kan du skicka källfilens etikett till målfilen. Det gör det enklare att identifiera källversionen för den översatta filen.
 
 <img alt="översättningsetiketter" src="assets/translation-pass-source-label.png" width="600">
 
 Om du t.ex. har källfiler med versionsetiketten Version 1.0 tillämpad kan du även skicka källetiketten (version 1.0) till den översatta filen.
 
-**Tvinga synkronisering av osynkroniserade resurser**
+**Tvinga synkronisering för osynkroniserade resurser**
 
-Om du gör ändringar i vissa resurser markeras de som inte synkroniserade av AEM stödlinjer. Du kan antingen översätta de ändrade resurserna på nytt eller välja att inte längre synkronisera. Om du till exempel har gjort några mindre ändringar som verkligen inte behöver en översättning, kan du markera deras status som Synkroniserad.
+Om du gör ändringar i vissa av resurserna markeras de som osynkroniserade av AEM Guides. Du kan antingen översätta de ändrade resurserna på nytt eller välja att inte längre synkronisera. Om du till exempel har gjort några mindre ändringar som verkligen inte behöver en översättning, kan du markera deras status som Synkroniserad.
 
 <img src="assets/translation-version-diff.png" alt="översättningskort" width="600">
 
 **Visa pågående översättningsprojekt för ett ämne eller en karta**
 
-Vissa referenser på översättningsinstrumentpanelen kanske pågår. Nu finns det en funktion i AEM Guides som du kan använda för att visa listan över alla pågående översättningsprojekt (tillsammans med målspråket) som innehåller den valda referensen.
+Vissa referenser på översättningsinstrumentpanelen kanske pågår. Nu har AEM Guides en funktion som hjälper dig att visa listan över alla pågående översättningsprojekt (tillsammans med målspråket) som innehåller den valda referensen.
 
 
 ## Generera utdata i olika format från Web Editor
 
-Nu kan du enkelt generera utdata för dina ämnen eller DITA-kartor från Web Editor. Du kan konfigurera olika utdataförinställningar som AEM Site, PDF, HTML5, JSON (ett headless output-format) och anpassade utdata. Du kan sedan använda dessa för att generera respektive utdata.
+Nu kan du enkelt generera utdata för dina ämnen eller DITA-kartor från Web Editor. Du kan konfigurera olika förinställningar för utdata som AEM Site, PDF, HTML 5,
+JSON (ett headless output-format) och anpassade utdata. Du kan sedan använda dessa för att generera respektive utdata.
 
 Du kan definiera attribut i dina DITA-avsnitt och sedan använda villkorsförinställningen för att tillämpa ett villkor när du publicerar utdata. Du kan också använda publiceringsfunktionen Baslinje för att selektivt publicera en specifik version av DITA-kartan eller -avsnittet.
 
 
 ## Söka efter och ersätta text på mappningsnivå
 
-Med AEM stödlinjer kan du söka efter filer på en karta som innehåller viss text. Den sökta texten markeras i filerna. Nu kan du även ersätta det sökda ordet eller frasen med ett annat ord eller en annan fras i alla filer. Du kan välja **Ersätt alla** ikonen till höger överst i listan om du vill ersätta alla förekomster av den sökta termen i alla filer.
+Med AEM Guides kan du söka efter filer på en karta som innehåller viss text. Den sökta texten markeras i filerna. Nu kan du även ersätta det sökda ordet eller frasen med ett annat ord eller en annan fras i alla filer. Du kan välja ikonen **Ersätt alla** till höger högst upp i listan om du vill ersätta alla förekomster av den sökta termen i alla filer.
 
 <img src="assets/map-find-replace.png" alt="sök och ersätt" width="600">
 
 ## Ta bort och duplicera filer från databaspanelen
 
-Nu kan du enkelt skapa en dubblett eller en kopia av en fil från **Alternativ** den markerade filens meny på databaspanelen. Som standard skapas filen med ett suffix (som `filename_1.extension`).
+Nu kan du enkelt skapa en dubblett eller en kopia av en fil på menyn **Alternativ** för den markerade filen på databaspanelen. Som standard skapas filen med
+ett suffix (som `filename_1.extension`).
 
 <img src="assets/options-menu-repo-view-file-level.png" alt="menyn för filalternativ " width="500">
 
 
 ## Andra förbättringar i Web Editor
 
-* I AEM stödlinjer kan du utföra några vanliga åtgärder för bilder och mediefiler med hjälp av snabbmenyn. Nu kan du även hitta den valda bilden eller mediet i databasen eller förhandsgranska filen i resursgränssnittet.
+* I AEM Guides kan du utföra några vanliga åtgärder för bilder och mediefiler med hjälp av snabbmenyn. Nu kan du även hitta den markerade bilden eller mediet i databasen eller förhandsgranska filen i Assets-gränssnittet.
 
 * Namnet på den aktuella mappprofilen visas som etikett för ikonen för användarinställningar i huvudverktygsfältet. Detta hjälper dig att identifiera den mappprofil som du arbetar med.
 
@@ -115,13 +118,13 @@ Nu kan du enkelt skapa en dubblett eller en kopia av en fil från **Alternativ**
 
 ## Visa titeln i stället för UUID i syreredigeraren
 
-Nu kan du välja AEM stödlinjer **Använd titel i redigeraren och karthanteraren** i Inställningar. Om du väljer det här alternativet visas filens titel på filens flik när den öppnas i redigeraren eller i DITA Maps Manager. Om du inte väljer det här alternativet visas filens UUID på filens flik.
+Nu kan du i AEM Guides välja alternativet **Använd titel i redigeraren och Kartshanteraren** i Inställningar. Om du väljer det här alternativet visas filens titel på filens flik när den öppnas i redigeraren eller i DITA Maps Manager. Om du inte väljer det här alternativet visas filens UUID på filens flik.
 
 ## Microservice-baserad publicering för AEM Guides as a Cloud Service
 
-Med den nya publiceringsmikrotjänsten kan du köra stora publiceringsarbetsbelastningar samtidigt AEM Guides as a Cloud Service och utnyttja den branschledande Adobe I/O Runtime serverlösa plattform.
+Med den nya publiceringsmikrotjänsten kan du köra stora publiceringsarbetsbelastningar samtidigt på AEM Guides as a Cloud Service och utnyttja den branschledande Adobe I/O Runtime serverlösa plattform.
 
-För varje publiceringsbegäran AEM Guides as a Cloud Service körs en separat behållare som skalas vågrätt efter användarens önskemål. På så sätt kan du köra flera publiceringsbegäranden och få bättre prestanda.
+För varje publiceringsbegäran kör AEM Guides as a Cloud Service en separat behållare som skalas vågrätt efter användarens önskemål. På så sätt kan du köra flera publiceringsbegäranden och få bättre prestanda.
 
 Mer information finns i [Konfigurera ny mikrotjänstbaserad publicering för AEM Guides as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/publishing/configure-microservices.md).
 
@@ -131,7 +134,7 @@ Nu kan du lägga till ett eget bokmärke för ett visst innehåll i det slutliga
 
 ## PDF | Tillämpa egna format på innehållsförteckningsposter och ämnesinnehåll
 
-I AEM kan du använda anpassade format för innehållsförteckningsposterna eller ett visst ämne i PDF. Du kan till exempel ändra färg på texten i innehållsförteckningen och ämnestiteln. Du kan också använda format på hela innehållet i ämnet.
+I AEM Guides finns en funktion för att använda anpassad formatering på posterna i innehållsförteckningen eller ett visst ämne i utdata från PDF. Du kan till exempel ändra färg på texten i innehållsförteckningen och ämnestiteln. Du kan också använda format på hela innehållet i ämnet.
 
 
 ## PDF | Formatera sidmarkören i fotnotskomponenten
@@ -140,6 +143,6 @@ Nu kan du formatera sidmarkören i fotnoterna. Du kan till exempel lägga till h
 
 ## PDF | Ändra fält för att ange ändrade ämnen i innehållsförteckningen
 
-AEM Guides gör att du snabbt kan identifiera ändrade ämnen i innehållsförteckningen för PDF.  Det visas ett ändringsfält till vänster om de ändrade ämnena i innehållsförteckningen. Du kan klicka på ämnet i innehållsförteckningen och visa de detaljerade ändringarna.
+Med AEM Guides kan du nu snabbt identifiera de ändrade ämnena i innehållsförteckningen för utdata från PDF.  Det visas ett ändringsfält till vänster om de ändrade ämnena i innehållsförteckningen. Du kan klicka på ämnet i innehållsförteckningen och visa de detaljerade ändringarna.
 
 <img src="assets/change-marker-toc.png" alt="Ändra markör i innehållsförteckning " width="500">

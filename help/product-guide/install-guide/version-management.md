@@ -18,7 +18,7 @@ Versionshantering är en viktig aspekt i alla innehållshanteringssystem. Du kan
 
 Som administratör kan du tillämpa regler som hindrar användare från att redigera en fil utan att checka ut den. På samma sätt kan du se till att alla utcheckade filer checkas in igen för att undvika dataförluster.
 
-I fleranvändningsmiljöer är det också viktigt att se till att användarna inte tar bort filer från systemet. Detta krav är mer kritiskt för filer som har checkats ut av andra användare.Du kan tillåta eller förhindra användare från att skriva över filer som har checkats ut av andra användare. För att förhindra att användare råkar ta bort utcheckade filer från systemet innehåller AEM stödlinjer en konfiguration som du kan använda. Förutom utcheckade filer kan du även styra borttagningen av filer som innehåller referenser eller som refereras från andra filer. Dessutom kan du skapa en ny version för överförda filer.
+I fleranvändningsmiljöer är det också viktigt att se till att användarna inte tar bort filer från systemet. Detta krav är mer kritiskt för filer som har checkats ut av andra användare.Du kan tillåta eller förhindra användare från att skriva över filer som har checkats ut av andra användare. För att förhindra att användare av misstag tar bort utcheckade filer från systemet, tillhandahåller AEM Guides en konfiguration som du kan använda. Förutom utcheckade filer kan du även styra borttagningen av filer som innehåller referenser eller som refereras från andra filer. Dessutom kan du skapa en ny version för överförda filer.
 
 ## Skapa ny version för överförd fil
 
@@ -36,24 +36,24 @@ Så här skapar du en ny version av den överförda filen:
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Sök efter och klicka på **com.adobe.fmdita.config.ConfigManager** paket.
+1. Sök efter och klicka på paketet **com.adobe.fmdita.config.ConfigManager**.
 
-1. Välj **Skapa ny version för överförd fil** alternativ.
+1. Välj alternativet **Skapa ny version för den överförda filen**.
 
    Som standard är det här alternativet inaktiverat.
 
-   När alternativet är markerat utförs en ny versionshanteringsmekanism och åsidosätter standardbeteendet för överföring, som är för alla efterföljande överföringar, så sparas innehållet i den överförda filen som en ny version. Om alternativet är avmarkerat använder AEM stödlinjer AEM standardmekanism för versionshantering.
+   När alternativet är markerat utförs en ny versionshanteringsmekanism och åsidosätter standardbeteendet för överföring, som är för alla efterföljande överföringar, så sparas innehållet i den överförda filen som en ny version. Om alternativet är avmarkerat används den AEM standardmekanismen för versionshantering i AEM Guides.
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.
 
 
 >[!NOTE]
 >
-> Du kan överföra filer i grupper om 70 eller mindre om du aktiverar egenskapen **Skapa ny version för överförd fil** \(create.ver.new.content\) och använd **Resursgränssnitt** för att överföra resurser i grupp.
+> Du kan överföra filer i grupper om 70 eller mindre om du aktiverar egenskapen **Skapa ny version för den överförda filen** \(create.ver.new.content\) och använder **Assets-gränssnittet** för att överföra resurser gruppvis.
 
 ## Konfigurera inställningar som tillåter redigering av utcheckade filer
 
-Med AEM Guides Web Editor kan du skapa och uppdatera DITA-avsnitt. Du kan konfigurera Web Editor så att endast de dokument som har checkats ut från databasen kan redigeras. Detta säkerställer att ingen annan skrivare av misstag skriver över ett ämne som har öppnats för redigering av en annan författare. När ett ämne öppnas för redigering kan författaren checka in filen när filen stängs.
+Med AEM Guides Web Editor kan du skapa och uppdatera DITA-ämnen. Du kan konfigurera Web Editor så att endast de dokument som har checkats ut från databasen kan redigeras. Detta säkerställer att ingen annan skrivare av misstag skriver över ett ämne som har öppnats för redigering av en annan författare. När ett ämne öppnas för redigering kan författaren checka in filen när filen stängs.
 
 En annan viktig regel är att se till att filer som har checkats ut checkas in i systemet igen. Detta förhindrar att användare av misstag stänger filerna utan att checka in dem igen.
 
@@ -67,17 +67,17 @@ Gör så här för att aktivera de här funktionerna:
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Sök efter och klicka på **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** paket.
+1. Sök efter och klicka på paketet **com.adobe.fmdita.xmleditor.config.XmlEditorConfig**.
 
-1. Välj **Inaktivera redigering utan utcheckning** alternativ.
+1. Välj alternativet **Inaktivera redigering utan utcheckning**.
 
    ![](assets/xml-editor-config.png){width="650" align="left"}
 
    Med det här alternativet kommer användare inte att se alternativet Redigera i verktygsfältet förrän de checkar ut en fil.
 
-1. Välj **Fråga efter incheckning vid stängning** om du vill visa ett varningsmeddelande när en utcheckad fil stängs utan att spara eller checka in den i databasen igen.
+1. Välj alternativet **Fråga efter incheckning vid stängning** om du vill visa ett varningsmeddelande när en utcheckad fil stängs utan att spara eller checka in den i databasen igen.
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.
 
 
 >[!NOTE]
@@ -88,7 +88,7 @@ Gör så här för att aktivera de här funktionerna:
 
 >[!NOTE]
 >
-> Den här konfigurationen används bara när du skapar filer från resursgränssnittet och inte när du överför filer med WebDAV-verktyget.
+> Den här konfigurationen gäller bara när du skapar filer från Assets-gränssnittet och inte när du överför filer med WebDAV-verktyget.
 
 Gör så här om du vill tillåta användare att skriva över filen vid överföring som har checkats ut av dem eller någon annan användare:
 
@@ -100,13 +100,13 @@ Gör så här om du vill tillåta användare att skriva över filen vid överfö
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Sök efter och klicka på **com.adobe.fmdita.config.ConfigManager** paket.
+1. Sök efter och klicka på paketet **com.adobe.fmdita.config.ConfigManager**.
 
-1. Välj **Skriv över utcheckad fil vid överföring** alternativ.
+1. Välj alternativet **Skriv över utcheckad fil vid överföring**.
 
    Som standard är det här alternativet PÅ. När det här alternativet är markerat kan användare skriva över utcheckade filer. Om alternativet inte är markerat går det inte att skriva över filen om den är utcheckad av någon annan användare.
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.
 
 
 ## Förhindra borttagning av utcheckade filer
@@ -121,29 +121,29 @@ Så här förhindrar du att användare av misstag tar bort filer som har checkat
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Sök efter och klicka på **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** paket.
+1. Sök efter och klicka på paketet **com.adobe.fmdita.xmleditor.config.XmlEditorConfig**.
 
-1. Välj **Förhindra borttagning av utcheckat innehåll** alternativ.
+1. Välj alternativet **Förhindra borttagning av utcheckat innehåll**.
 
    Som standard är det här alternativet PÅ. När det här alternativet är markerat kan användare inte ta bort utcheckade filer.
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.
 
 
-En ny indexegenskap som stöd för den här funktionen `drivelock` läggs till i `oak:index`:
+En ny indexegenskap `drivelock` har lagts till i `oak:index` för att stödja den här funktionen:
 
 `/oak:index/damAssetLucene/indexRules/dam:Asset/properties/drivelock`
 
 ![](assets/index-property-oak-index-drivelock.png){width="800" align="left"}
 
-Förutom den nya indexegenskapen ser du till att följande egenskaper är inställda på `/oak:index/damAssetLucene`:
+Förutom den nya indexegenskapen kontrollerar du att följande egenskaper har angetts för `/oak:index/damAssetLucene`:
 
 - `jcr:primaryType`=`"oak:QueryIndexDefinition"`
 - `async`=`"async"`
 - `compatVersion`=`"{Long}2"`
 - `evaluatePathRestrictions`=`"{Boolean}true"`
 - `reindex`=`"{Boolean}false"`
-- `reindexCount`=`"{Long}3"` *\(detta är antalet gånger som omindexering görs, det ersätts med installationen av vårt paket\)*
+- `reindexCount`=`"{Long}3"` *\(Detta är antalet gånger som omindexering görs, det ersätts med installationen av vårt paket\)*
 - `type`=`"lucene"`
 
 >[!NOTE]
@@ -171,9 +171,9 @@ Så här definierar du vem som kan ta bort en fil som innehåller referenser ell
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Sök efter och klicka på **com.adobe.fmdita.config.ConfigManager** paket.
+1. Sök efter och klicka på paketet **com.adobe.fmdita.config.ConfigManager**.
 
-1. Leta reda på **Blockborttagning för refererade resurser** alternativ.
+1. Leta reda på alternativet **Blockborttagning för refererad Assets**.
 
 1. Beroende på vem du vill ge åtkomst för borttagning anger du en av följande konstanter:
 
@@ -181,18 +181,18 @@ Så här definierar du vem som kan ta bort en fil som innehåller referenser ell
 
      ![](assets/allow_unsafe_delete-force-delete.PNG){width="550" align="left"}
 
-   - allow\_unsafe\_delete\_for\_delete\_assets\_group: En administratör eller en användare som tillhör *delete-assets* grupp kan ta bort filer. Om någon annan användare försöker ta bort filer med referenser, kommer de inte att kunna ta bort sådana filer förrän alla referenser tas bort. Följande skärmbild visas när en användare som inte har behörighet försöker ta bort filer.
+   - allow\_unsafe\_delete\_for\_delete\_assets\_group: En administratör eller en användare som tillhör gruppen *delete-assets* kan ta bort filer. Om någon annan användare försöker ta bort filer med referenser, kommer de inte att kunna ta bort sådana filer förrän alla referenser tas bort. Följande skärmbild visas när en användare som inte har behörighet försöker ta bort filer.
 
      ![](assets/allow_unsafe_delete_for_delete_assets_group.PNG){width="550" align="left"}
 
    - block\_unsafe\_delete\_for\_all: Tillåt inte alla användare \(inklusive administratörer\) att ta bort filer förrän referenser till och från filen\(erna\) tas bort.
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.
 
 
 ## Rensa äldre versioner av DITA-filer
 
-När du uppdaterar innehåll och skapar nya versioner bevaras de tidigare versionerna av DITA-filerna i databasen. Många versioner kan skapas för dina DITA-filer under en period och kan tillsammans ta upp mycket utrymme i din databas. I AEM kan du konfigurera de äldre versionerna som ska tas bort från databasen.
+När du uppdaterar innehåll och skapar nya versioner bevaras de tidigare versionerna av DITA-filerna i databasen. Många versioner kan skapas för dina DITA-filer under en period och kan tillsammans ta upp mycket utrymme i din databas. I AEM Guides kan du konfigurera de äldre versionerna som ska tas bort från databasen.
 
 Om du har administratörsbehörighet kan du komma åt det här verktyget via den angivna URL:en:
 
@@ -213,15 +213,15 @@ Utför följande steg för att rensa de äldre versionerna:
    ![](assets/preview-purge-report.png){width="350" align="left"}
 
 1. 
-   - **Antal versioner att behålla från den senaste versionen**: Ange antalet versioner som ska behållas och inte rensas. Om vi till exempel anger 5 behålls de senaste 5 versionerna och de tidigare versionerna är kvalificerade att rensas om andra rensningsvillkor uppfylls.
-- **Behåll versioner som skapats inom tidsintervallet \(i dagar\)**: Ange högsta ålder för en version i dagar. Versioner som är äldre än det angivna antalet dagar kan rensas om andra rensningsvillkor uppfylls. Om vi till exempel anger 100 kvalificeras alla versioner som skapats före 100 dagar att rensas om andra rensningsvillkor uppfylls.
-- **Bana**: Välj sökvägen till filen eller mappen vars filer du vill rensa.
+   - **Antal versioner som ska behållas från den senaste versionen**: Ange antalet versioner som ska behållas och inte rensas. Om vi till exempel anger 5 behålls de senaste 5 versionerna och de tidigare versionerna är kvalificerade att rensas om andra rensningsvillkor uppfylls.
+- **Behåll versioner som skapats inom tidsintervallet \(i dagar\)**: Ange den maximala åldern för en version i dagar. Versioner som är äldre än det angivna antalet dagar kan rensas om andra rensningsvillkor uppfylls. Om vi till exempel anger 100 kvalificeras alla versioner som skapats före 100 dagar att rensas om andra rensningsvillkor uppfylls.
+- **Sökväg**: Välj sökvägen till filen eller mappen vars filer du vill rensa.
 
   >[!NOTE]
   >
   > Du kan bara rensa DITA-filer.
 
-1. Klicka **Förhandsgranska rensningsrapport**.
+1. Klicka på **Förhandsgranska rensningsrapport**.
 
    >[!NOTE]
    >
@@ -230,13 +230,13 @@ Utför följande steg för att rensa de äldre versionerna:
    Rapporten för versionsrensning genereras.
 
 1. Ladda ned versionsrensningsrapport och kontrollera vilka filer och versioner som ska rensas.
-1. Du kan **Avbryt tömning** eller **Starta tömning**.
+1. Du kan välja att **avbryta rensning** eller **starta tömning**.
 
    ![](assets/download-purge-report.png){width="350" align="left"}
 
    Tömningsstatusen visas.
 
-   Klicka **Ladda ned versionsrensningsrapport** om du vill visa de rensade versionerna. Den här rapporten innehåller rensningsstatus för alla versioner tillsammans med orsaker till varför en viss version kvarstod eller varför den rensades.
+   Klicka på **Hämta rapport om versionsrensning** om du vill visa de rensade versionerna. Den här rapporten innehåller rensningsstatus för alla versioner tillsammans med orsaker till varför en viss version kvarstod eller varför den rensades.
 
 
 >[!NOTE]

@@ -14,16 +14,16 @@ ht-degree: 8%
 
 # Hämta och installera {#id1645E0O04MK}
 
-Från och med version 2024.2.0 är Experience Manager-stödlinjerna bara tillgängliga som ett automatiskt tillägg för Experience Manager as a Cloud Service.
+Från och med version 2024.2.0 är Experience Manager Guides endast tillgängligt som ett automatiserat tillägg för Experience Manager as a Cloud Service.
 
 Om du använder december 2023 eller tidigare versioner kan du hämta Adobe Experience Manager Guides från GitHub-databasen och installera den.
 
 
-- **[Distribuera modulen AEM stödlinjer](download-install-dxml-first-time.md)**
+- **[Distribuera AEM Guides-modulen](download-install-dxml-first-time.md)**
 
 - **[Konfigurera Dispatcher](download-install-configure-dispatcher.md)**
 
-- **[Verifiera installation av AEM](download-install-verify-dxml-installation.md)**
+- **[Verifiera AEM Guides-installation](download-install-verify-dxml-installation.md)**
 
 - **[Konfigurationsåsidosättningar](download-install-additional-config-override.md)**
 

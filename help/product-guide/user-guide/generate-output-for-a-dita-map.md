@@ -1,6 +1,6 @@
 ---
 title: Generera utdata för en DITA-karta från kartkonsolen
-description: Generera utdata för en DITA-karta från kartkonsolen i AEM. Lär dig mer om inkrementell generering av utdata och hur du visar status, avbryter och tar bort en utdataåtgärd.
+description: Generera utdata för en DITA-karta från kartkonsolen i AEM Guides. Lär dig mer om inkrementell generering av utdata och hur du visar status, avbryter och tar bort en utdataåtgärd.
 exl-id: d6cbd44c-e74c-4192-bcc4-fb7752c59508
 feature: Publishing
 role: User
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Utför följande steg för att generera utdata för en DITA-karta:
 
-1. I resursgränssnittet navigerar du till och klickar på den DITA-kartfil som du vill publicera.
+1. Navigera till och klicka på den DITA-kartfil som du vill publicera i Assets-användargränssnittet.
 
    DITA-kartkonsolen visas med en lista över tillgängliga utdatapresentationer för att generera utdata.
 
@@ -25,7 +25,7 @@ Utför följande steg för att generera utdata för en DITA-karta:
 
    >[!NOTE]
    >
-   > Om du genererar AEM platsutdata används den struktur som definierats i `.ditamap` för att skapa AEM platsstruktur.
+   > Om du genererar AEM platsutdata använder publiceringsprocessen strukturen som definierats i filen `.ditamap` för att skapa AEM platsstruktur.
 
 1. Klicka på ikonen Generera för att starta genereringsprocessen för utdata.
 
@@ -36,7 +36,7 @@ Du kan visa aktuell status för begäran om generering av utdata genom att klick
 >
 > Om en utdatagenereringsprocess för en förinställning antingen finns i kön eller pågår kan du inte initiera en annan utdatagenereringsåtgärd för samma förinställning.
 
-Du kan generera utdata från PDF för en eller flera förinställningar som skapats för en DITA-karta från webbredigeraren. Mer information finns i [Använd snabbgenereringspanelen för att generera och visa utdata för förinställningarna](web-editor-quick-generate-panel.md#).
+Du kan generera utdata från PDF för en eller flera förinställningar som skapats för en DITA-karta från webbredigeraren. Mer information finns i [Använda snabbgenereringspanelen för att generera och visa utdata för förinställningarna](web-editor-quick-generate-panel.md#).
 
 Du kan också generera AEM för ett eller flera avsnitt eller hela DITA-kartan från Web Editor. Mer information finns i [Artikelbaserad publicering från webbredigeraren](web-editor-article-publishing.md#id218CK0U019I).
 
@@ -44,9 +44,9 @@ Du kan också generera AEM för ett eller flera avsnitt eller hela DITA-kartan f
 
 >[!NOTE]
 >
-> Inkrementell utdatagenerering gäller endast för AEM. Du kan också endast återskapa DITA-avsnitt \(.dita/.xml\) från en DITA-karta eller underkartor. Om du väljer en DITA-karta, delkarta, ämnesgrupp eller ett ämne med `@processing-role="resource-only"`är alternativet för att återskapa inte tillgängligt.
+> Inkrementell utdatagenerering gäller endast för AEM. Du kan också endast återskapa DITA-avsnitt \(.dita/.xml\) från en DITA-karta eller underkartor. Om du väljer en DITA-karta, delkarta, ämnesgrupp eller ett ämne med `@processing-role="resource-only"` är alternativet för att generera om inte tillgängligt.
 
-Det kan finnas ett antal tillfällen då du bara uppdaterar ett fåtal ämnen på din DITA-karta och bara överför dessa uppdaterade ämnen live. Om du vill hantera sådana scenarier kan du skapa inkrementella utdata med hjälp av AEM. Om du har uppdaterat några avsnitt behöver du inte generera om hela DITA-kartan. Du kan bara välja de uppdaterade avsnitten och återskapa dem.
+Det kan finnas ett antal tillfällen då du bara uppdaterar ett fåtal ämnen på din DITA-karta och bara överför dessa uppdaterade ämnen live. Om du vill hantera sådana scenarier kan du skapa inkrementella utdata i AEM Guides. Om du har uppdaterat några avsnitt behöver du inte generera om hela DITA-kartan. Du kan bara välja de uppdaterade avsnitten och återskapa dem.
 
 Om kartan är hackad och du har uppdaterat ett enskilt ämne på kartan, måste du generera om hela kartan för det uppdaterade ämnet eller innehållet så att det återspeglas i utdata. Du får inte alternativet för omgenerering av utdata på ämnesnivå, det är bara tillgängligt på mappningsnivån \(chunked\). Detta gäller för den överordnade kartan och alla underkartor.
 
@@ -56,11 +56,11 @@ Så här återskapar du utdata för ett visst ämne eller en grupp ämnen:
 >
 > När du återskapar AEM platsutdata skapas utdata med den aktuella versionen av filerna och inte med den kopplade baslinjen.
 
-1. Navigera till och klicka på DITA-mappningsfilen i resursgränssnittet.
+1. Navigera till och klicka på DITA-kartfilen i Assets-användargränssnittet.
 
    DITA-kartkonsolen visas med en lista över tillgängliga utdatapresentationer för att generera utdata.
 
-1. Välj **Ämnen** -fliken.
+1. Välj fliken **Ämnen**.
 
    En lista med ämnen som är tillgängliga på DITA-kartan visas.
 
@@ -72,13 +72,13 @@ Så här återskapar du utdata för ett visst ämne eller en grupp ämnen:
 
    ![](images/regenerate-topics.png){width="800" align="left"}
 
-1. Klicka **Återskapa**.
+1. Klicka på **Återskapa**.
 
    Sidan Återskapa markerade ämnen visas.
 
 1. Välj den förinställning för utdata som du vill använda för att återskapa de valda ämnena.
 
-1. Klicka **Återskapa** för att starta processen för generering av utdata.
+1. Klicka på **Återskapa** för att starta genereringsprocessen för utdata.
 
 
 >[!IMPORTANT]
@@ -89,13 +89,13 @@ Du kan visa aktuell status för begäran om generering av utdata genom att klick
 
 ## Visa status för utdatagenereringsaktiviteten {#viewing_output_history}
 
-När du initierar genereringsuppgiften för utdata för en karta eller återskapar valda ämnen, skickar AEM den här uppgiften till kön för utdatagenerering. Den här kön uppdateras i realtid och visar statusen för varje utdatagenereringsuppgift i kön.
+När du har initierat genereringsuppgiften för en karta eller återskapat valda ämnen, skickar AEM Guides den här uppgiften till kön för utdatagenerering. Den här kön uppdateras i realtid och visar statusen för varje utdatagenereringsuppgift i kön.
 
 Utför följande steg för att visa kön för generering av utdata:
 
-1. I resursgränssnittet navigerar du till och klickar på den kartfil som du vill kontrollera utdatagenereringsstatusen för.
+1. Navigera till och klicka på den kartfil som du vill kontrollera utdatagenereringsstatus för i Assets-användargränssnittet.
 
-1. Klicka **Utdata**.
+1. Klicka på **Utdata**.
 
    ![](images/output-queued.png){width="800" align="left"}
 
@@ -105,7 +105,7 @@ Utför följande steg för att visa kön för generering av utdata:
 
      Visar utdata som väntar på att skapas eller som håller på att genereras. De köade eller pågående uppgifterna visas med en blå färgikon före förinställningens namn. Du kan också hitta den inställning eller förinställning för generering av utdata som används för uppgiften som står i kö, typ, användare som initierade uppgiften, tid sedan uppgiften placerades i kö samt aktuell status.
 
-     Klicka på länken för att komma åt **Publish Dashboard** och visa aktuell körningsstatus. En lista över alla aktiva publiceringsåtgärder finns på Publish Dashboard. The **Utdata i kö** och **Publish Dashboard**-länken visas bara när det finns utdata som antingen väntar på att genereras eller som håller på att genereras. De visas inte när utdataåtgärderna har slutförts.Mer information om Publish Dashboard finns i [Hantera publiceringsuppgifter med Publish Dashboard](generate-output-publish-dashboard.md#).
+     Klicka på länken för att komma åt **Publish Dashboard** och visa aktuell körningsstatus. En lista över alla aktiva publiceringsåtgärder finns i Publish Dashboard. Länken **Utdata i kö** och **Publish Dashboard** visas bara när det finns utdata som antingen väntar på att skapas eller som håller på att genereras. De visas inte när utdataaktiviteterna har slutförts.Mer information om Publish Dashboard finns i [Hantera publiceringsaktiviteter med Publish Dashboard](generate-output-publish-dashboard.md#).
 
    - **Genererade utdata**
 
@@ -122,40 +122,40 @@ Utför följande steg för att visa kön för generering av utdata:
 
 ## Avbryt en utdatagenereringsaktivitet {#id2061H100T5Z}
 
-AEM Guides är ett enkelt och enkelt sätt att avbryta pågående publiceringsuppgifter. Som utgivare kan du avbryta en pågående publiceringsåtgärd från DITA-kartkonsolen eller [Publish Dashboard](generate-output-publish-dashboard.md#).
+AEM Guides ger utgivaren ett enkelt och enkelt sätt att avbryta alla pågående publiceringsuppgifter. Som utgivare kan du avbryta en pågående publiceringsåtgärd från DITA-kartkonsolen eller [Publish Dashboard](generate-output-publish-dashboard.md#).
 
 Utför följande steg för att avbryta en utdatagenereringsaktivitet från DITA-kartkonsolen:
 
-1. I resursgränssnittet navigerar du till och klickar på kartfilen som du vill avbryta en pågående utdatagenereringsåtgärd för.
+1. Navigera till och klicka på kartfilen som du vill avbryta en pågående utdatagenereringsåtgärd för i Assets-gränssnittet.
 
-1. Klicka **Utdata**.
+1. Klicka på **Utdata**.
 
 1. Håll pekaren över en uppgift som du vill avbryta i listan Köade utdata.
 
-1. Klicka på *Avbryt det här jobbet* -ikon.
+1. Klicka på ikonen *Avbryt det här jobbet* .
 
    ![](images/cancel-publish-task-map-console.png){width="800" align="left"}
 
-1. Klicka **Ja** i meddelandet Bekräfta annullering.
+1. Klicka på **Ja** i meddelandet Bekräfta annullering.
 
    ![](images/confirm-cancel-output-map-condole.png){width="800" align="left"}
 
    Om aktiviteten inte har startats ännu körs kommandot cancel för uppgiften. För en uppgift som avbryts ställs statusen in på Avbryta.
 
-   När aktiviteten har avbrutits flyttas den till **Genererade utdata** lista med **Avbruten** status. När du hovrar över den avbrutna uppgiften visas namnet på den användare som avbrutit uppgiften. På följande skärmbild visas *HTML5* aktiviteten avbryts.
+   När aktiviteten har avbrutits flyttas den till listan **Genererade utdata** med statusen **Avbruten**. När du hovrar över den avbrutna uppgiften visas namnet på den användare som avbrutit uppgiften. I skärmbilden nedan avbryts aktiviteten *HTML5*.
 
    ![](images/cancelled-output-task.png){width="800" align="left"}
 
 
 ## Ta bort en utdataåtgärd från DITA-kartkonsolen
 
-När du genererar flera utdata för en DITA-karta, blir listan Genererade utdata för en sådan karta mycket lång under en tidsperiod. Som utgivare kan du rensa utdatahistoriken för alla mappningsfiler genom att ta bort inaktuella uppgifter från *Genererade utdata* lista. Observera att utdata inte tas bort från systemet, endast posten för genererade utdata tas bort från *Genererade utdata* lista.
+När du genererar flera utdata för en DITA-karta, blir listan Genererade utdata för en sådan karta mycket lång under en tidsperiod. Som utgivare kan du rensa utdatahistoriken för alla mappningsfiler genom att ta bort inaktuella uppgifter från listan *Genererade utdata*. Observera att utdata inte tas bort från systemet. Det är bara posten för genererade utdata som tas bort från listan *Genererade utdata*.
 
 Så här tar du bort en utdatauppgift från listan Genererade utdata:
 
-1. I resursgränssnittet navigerar du till och klickar på den kartfil som du vill ta bort uppgifterna från.
+1. Navigera till och klicka på kartfilen som du vill ta bort uppgifterna från i Assets-användargränssnittet.
 
-1. Klicka **Utdata**.
+1. Klicka på **Utdata**.
 
 1. Håll pekaren över en uppgift som du vill ta bort i listan Genererade utdata.
 
@@ -163,9 +163,9 @@ Så här tar du bort en utdatauppgift från listan Genererade utdata:
 
    ![](images/delete-output-task.png){width="800" align="left"}
 
-1. Klicka **Ja** i meddelandet Bekräfta borttagning.
+1. Klicka på **Ja** i meddelandet Bekräfta borttagning.
 
    Uppgiften tas bort från listan Genererade utdata.
 
 
-**Överordnat ämne:**[ Generering av utdata](generate-output.md)
+**Överordnat ämne:**[ Utdatagenerering](generate-output.md)

@@ -1,6 +1,6 @@
 ---
 title: Generera utdata från panelen Databas
-description: Generera utdata från databaspanelen eller panelen Kartvy i AEM. Lär dig publicera ett ämne som används på en eller flera DITA-kartor eller generera utdata för flera ämnen.
+description: Generera utdata från databaspanelen eller kartvyn i AEM Guides. Lär dig publicera ett ämne som används på en eller flera DITA-kartor eller generera utdata för flera ämnen.
 exl-id: f7a4be54-9c51-44e6-96bb-f25e3a6155da
 feature: Authoring, Features of Web Editor, Publishing
 role: User
@@ -15,35 +15,35 @@ ht-degree: 0%
 
 Du kan också använda de förinställningar för utdata som du har skapat för DITA-kartan för att generera utdata från panelen Databas eller panelen Kartvy.
 
-- Använd **Snabbgenerering** på panelen Databas eller Kartvy för att generera utdata för det valda ämnet eller hela DITA-kartan.
+- Använd funktionen **Snabbgenerering** på panelen Databas eller panelen Kartvy för att generera utdata för det valda enskilda ämnet eller hela DITA-kartan.
 
   >[!NOTE]
   >
-  > Du kan även komma åt **Snabbgenerering** från panelen Favoriter eller sökpanelen.
+  > Du kan även komma åt funktionen **Snabbgenerering** från panelen Favoriter eller sökpanelen.
 
-- Använd **Generera utdata** på panelen Kartvy för att generera utdata för de valda ämnena.
+- Använd funktionen **Generera utdata** på panelen Kartvy om du vill generera utdata för de markerade ämnena.
 
-## Publicera ett ämne som används på en eller flera DITA-kartor
+## Publish ett ämne som används över en eller flera DITA-kartor
 
 Utför följande steg för att generera utdata för ett eller flera ämnen på din DITA-karta:
 
-1. I **Upphovsman** markerar du det ämne i DITA-kartan som du vill publicera.
+1. På fliken **Författare** väljer du det ämne i DITA-kartan som du vill publicera.
 
-1. Välj **Snabbgenerering** på Alternativ-menyn för det markerade ämnet.
+1. Välj **Snabbgenerering** på Alternativ-menyn i det markerade ämnet.
    ![](images/select-topic-options-menu_cs.png){width="650" align="left"}
 
-1. Om du vill publicera ett ämne som används i en enskild DITA-karta väljer du förinställningarna för den karta som du vill publicera och klickar på **Generera**.
+1. Om du vill publicera ett ämne som används i en enskild DITA-karta markerar du förinställningarna för den karta som du vill publicera och klickar på **Generera**.
    ![](images/select-preset_cs.png){width="350" align="left"}
 
 1. Du ser status för genereringsprocessen för utdata. Om du vill visa utdata för du muspekaren över avsnittet och klickar på Visa utdata.
 
-1. Om du har ett gemensamt ämne som används i flera ämnen, väljer du de olika DITA-kartorna och de utdataförinställningar som du vill använda för att publicera och klickar på **Generera.**
+1. Om du har ett gemensamt ämne som används i flera ämnen, markerar du de olika DITA-kartorna och de utdatapresentationer som du vill använda för publiceringen och klickar sedan på **Generera.**
 
    ![](images/select-preset-multiple-maps_cs.png){width="350" align="left"}
 
 1. Du ser status för genereringsprocessen för utdata.
 
-   - **Ämnen**: Visar de valda avsnitten som utdata genereras för.
+   - **Ämnen**: Visar de valda ämnen som utdata genereras för.
    - **Förinställning**: Visar förinställningarna som innehåller de valda avsnitten.
    - **Karta**: Visar en lista över DITA-kartor som innehåller det markerade ämnet.
    - **Status**: Visar publiceringsstatus för varje ämne.
@@ -55,7 +55,7 @@ Om du vill visa utdata för du muspekaren över avsnittet och klickar på Visa u
 
 Utför följande steg för att generera utdata för hela DITA-kartan:
 
-1. I **Upphovsman** väljer du den DITA-karta som du vill publicera.
+1. På fliken **Författare** väljer du den DITA-karta som du vill publicera.
 
 1. Välj **Snabbgenerering** på Alternativ-menyn på DITA-kartan.
 
@@ -70,7 +70,7 @@ Utför följande steg för att generera utdata för hela DITA-kartan:
 
 Utför följande steg för att generera utdata för mer än ett avsnitt på DITA-kartan från panelen Kartvy:
 
-1. I **Upphovsman** väljer du de ämnen du vill publicera.
+1. På fliken **Författare** väljer du de ämnen som du vill publicera.
 
 1. Välj **Generera utdata** på Alternativ-menyn längst ned.
 

@@ -1,6 +1,6 @@
 ---
 title: Lär dig hur du översätter innehåll
-description: Översätt ditt innehåll till flera språk i AEM. Läs mer om arbetsflöden för översättning till människor och datorer.
+description: Översätt ditt innehåll till flera språk i AEM Guides. Läs mer om arbetsflöden för översättning till människor och datorer.
 exl-id: 88df750c-fb26-47f1-a884-b9e2f96b96ea
 feature: Translation
 role: User
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 # Översätta innehåll {#id1645H700L67}
 
-AEM Guides innehåller kraftfulla funktioner som gör att du kan översätta ditt innehåll till flera språk. Både arbetsflöden för översättning på människa och dator stöds av AEM.
+AEM Guides har kraftfulla funktioner som gör att du kan översätta ditt innehåll till flera språk. Både arbetsflöden för översättning på människa och dator stöds av AEM Guides.
 
-- **Personlig översättning** - Resurserna skickas till översättningsleverantören och översätts av professionella översättare. När det är klart returneras de översatta resurserna och importeras sedan tillbaka till AEM.
+- **Personlig översättning** - Assets skickas till din översättningsleverantör och översätts av professionella översättare. När det är klart returneras de översatta resurserna och importeras sedan tillbaka till AEM.
 
 - **Maskinöversättning** - Detta är standardtjänsten i AEM där innehållet omedelbart översätts med maskinöversättning i realtid. Med färdiga AEM kan du ansluta till Microsoft Translator.
 

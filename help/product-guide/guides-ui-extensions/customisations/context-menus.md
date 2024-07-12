@@ -38,7 +38,7 @@ styrenheter:
 
 - `baseline_panel_menu`
 styrenheter:
-   - Baslinjepanelen: `baseline_panel`
+   - Baslinjepanel: `baseline_panel`
 
 - `preset_item_menu`
 styrenheter:
@@ -46,7 +46,7 @@ styrenheter:
 
 Du kan också skapa en egen snabbmeny genom att definiera ett nytt unikt ID.
 
-Nu har varje snabbmeny en `controller id` som är kopplade till den. Den här kontrollenheten hanterar `on-event` funktioner för olika alternativ på snabbmenyn
+Nu har varje snabbmeny en `controller id` kopplad till sig. Den här kontrollenheten hanterar `on-event`-funktionen för de olika alternativen på snabbmenyn
 
 Låt oss ta ett exempel
 
@@ -121,4 +121,4 @@ Låt oss nu förstå vad den här koden gör.
 1. `id` används för att identifiera den snabbmeny som vi vill anpassa.
 2. `contextMenuWidget` används för att definiera `widget id` eller `component` som anropar snabbmenyn och hanterar `events`.
 
-Resten är densamma, vilket innebär att `view` används för att definiera objekten, `target` identifierar var alternativet ska ersättas, läggas till eller läggas till före och `contextMenuWidget` handtag för `on-click` händelser.
+Resten av den är densamma, vilket innebär att `view` används för att definiera objekten, `target` identifierar var alternativet ska ersättas, läggas till eller föregås av tillägg och att `contextMenuWidget`-kontrollanten hanterar `on-click` -händelserna.

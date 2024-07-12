@@ -1,6 +1,6 @@
 ---
 title: Skapa, redigera, duplicera eller ta bort en förinställning för utdata
-description: Lär dig hur du skapar, redigerar, duplicerar och tar bort en anpassad förinställning AEM stödlinjer.
+description: Lär dig hur du skapar, redigerar, duplicerar och tar bort en anpassad förinställning för utdata i AEM Guides.
 exl-id: 0522a49d-4dce-4456-bfdc-7ff9261ae04c
 feature: Publishing
 role: User
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Så här skapar du en anpassad förinställning för utdata:
 
-1. I resursgränssnittet navigerar du till och klickar på en DITA-karta för att öppna DITA-kartkonsolen.
+1. I Assets-gränssnittet går du till och klickar på en DITA-karta för att öppna DITA-kartkonsolen.
 
 1. Kontrollera att fliken Utdatainställningar är markerad. Klicka på Skapa i verktygsfältet.
 
@@ -32,7 +32,7 @@ Så här skapar du en anpassad förinställning för utdata:
 
 Så här redigerar du en befintlig förinställning:
 
-1. I resursgränssnittet navigerar du till och klickar på en DITA-karta för att öppna DITA-kartkonsolen.
+1. I Assets-gränssnittet går du till och klickar på en DITA-karta för att öppna DITA-kartkonsolen.
 
 1. Kontrollera att fliken Utdatainställningar är markerad.
 
@@ -49,7 +49,7 @@ Så här redigerar du en befintlig förinställning:
 
 Så här duplicerar du en befintlig förinställning:
 
-1. I resursgränssnittet navigerar du till och klickar på en DITA-karta för att öppna DITA-kartkonsolen.
+1. I Assets-gränssnittet går du till och klickar på en DITA-karta för att öppna DITA-kartkonsolen.
 
 1. Kontrollera att fliken Utdatainställningar är markerad.
 
@@ -66,7 +66,7 @@ Så här duplicerar du en befintlig förinställning:
 
 Så här tar du bort en befintlig förinställning:
 
-1. I resursgränssnittet navigerar du till och klickar på en DITA-karta för att öppna DITA-kartkonsolen.
+1. I Assets-gränssnittet går du till och klickar på en DITA-karta för att öppna DITA-kartkonsolen.
 
 1. Markera den förinställning som du vill ta bort.
 
@@ -77,4 +77,4 @@ Så här tar du bort en befintlig förinställning:
    Förinställningen tas bort från listan Utdataförinställningar.
 
 
-**Överordnat ämne:**[ Generering av utdata](generate-output.md)
+**Överordnat ämne:**[ Utdatagenerering](generate-output.md)

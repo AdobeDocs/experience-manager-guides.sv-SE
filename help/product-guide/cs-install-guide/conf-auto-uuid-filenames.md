@@ -24,6 +24,6 @@ Använd instruktionerna i [Konfigurationsåsidosättningar](download-install-add
 
 >[!NOTE]
 >
-> När det här alternativet är aktiverat kan författare inte ange filnamnet när de skapar ett nytt ämne eller en ny mappningsfil. Du kan skapa ett nytt ämne eller en ny mappfil från resursgränssnittet och webbredigeraren.
+> När det här alternativet är aktiverat kan författare inte ange filnamnet när de skapar ett nytt ämne eller en ny mappningsfil. Du kan skapa ett nytt ämne eller en ny mappfil från Assets-gränssnittet och webbredigeraren.
 
 **Överordnat ämne:**[ Konfigurera filnamn](conf-file-names.md)

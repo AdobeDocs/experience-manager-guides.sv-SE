@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: c551f0a8-f973-4c5a-bd34-f52890a91342
 source-git-commit: 7638f3634ad45bbadda64ec6e3f706cbb65d696c
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,8 @@ ht-degree: 0%
 
 ## Konfigurera din bokkarta
 
-Inkludera `<toc>`  element: Inom bokmappens `<frontmatter>`-element, hitta `<booklists>` -element.  Kapsla en `<toc>` element inuti `<booklists>` så här:
+Inkludera elementet `<toc>`:
+Leta reda på `<booklists>` -elementet i bokmappningens `<frontmatter>` -element.  Kapsla in ett `<toc>`-element inuti `<booklists>` så här:
 
 ```
 <frontmatter>
@@ -27,7 +28,7 @@ Inkludera `<toc>`  element: Inom bokmappens `<frontmatter>`-element, hitta `<boo
 </frontmatter>
 ```
 
-DITA-specifikationen tillåter montering av innehållsförteckningar och boklistor i `<backmatter>` även.
+DITA-specifikationen tillåter även att innehållsförteckningen och boklistorna placeras i avsnittet `<backmatter>`.
 
 
 ```
@@ -77,7 +78,7 @@ Du kan styra designen via olika sidlayouter för innehållsförteckning och form
 
 Innehållsförteckningsordningen och andra boklisteordningen i PDF baseras endast på bokmappens struktur.
 
-![toc](../assets/publishing/toc.png)
+![dec](../assets/publishing/toc.png)
 
 
 ## Vanliga frågor
@@ -92,13 +93,13 @@ Om du publicerar Ditamap har Native PDF funktioner för att automatiskt generera
 
 ## Ytterligare resurser:
 
-- [Layoutdokumentation för PDF](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/design-page-layout)
-- [Grundläggande PDF-seminarier med förinspelade experter](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23)
+- [Dokumentation för layout för PDF-design](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/design-page-layout)
+- [Grundläggande PDF-sessioner med förinspelade experter](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23)
 
 <br>
 <br>
 
-Publicera på AEM Guides Community [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) för alla frågor.
+Post på AEM Guides Community [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) för alla frågor.
 
 
 

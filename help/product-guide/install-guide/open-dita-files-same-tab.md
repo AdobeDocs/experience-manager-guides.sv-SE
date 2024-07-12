@@ -24,18 +24,18 @@ När du klickar på en länk till ett ämne eller en kartfil i vissa arbetsflöd
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Sök efter och klicka på **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** paket.
+1. Sök efter och klicka på paketet **com.adobe.fmdita.xmleditor.config.XmlEditorConfig**.
 
-1. Välj **Öppna DITA-avsnitt/karta på samma flik** alternativ.
+1. Välj alternativet **Öppna DITA-avsnitt/karta på samma flik**.
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.
 
 
 Den här inställningen påverkar följande platser där du kan komma åt ämne- eller mappfilerna:
 
-- Skapa DITA-avsnitt \(i slutet av arbetsflödet när du klickar på **Öppna ämne** knapp\)
+- Skapa DITA-ämne \(i slutet av arbetsflödet när du klickar på knappen **Öppna ämne**\)
 
-- Skapa DITA-karta \(i slutet av arbetsflödet när du klickar på **Öppna karta** knapp\)
+- Skapa DITA-karta \(i slutet av arbetsflödet när du klickar på knappen **Öppna karta**\)
 
 - Fliken Ämnen i DITA-kartkonsolen
 

@@ -17,19 +17,19 @@ Så här skapar du en gruppaktiveringskarta:
 
 1. Välj **Stödlinjer** i listan över verktyg.
 
-1. Klicka på länken Adobe Experience Manager överst och välj **verktyg**.
+1. Klicka på länken Adobe Experience Manager överst och välj **Verktyg**.
 
-1. Välj **Publish Dashboard** platta.
+1. Markera rutan **Massvis med Publish Dashboard**.
 
    För första gången visas en tom samlingssida. Om du har skapat gruppaktiveringssamlingar tidigare visas de på den här sidan.
 
-1. Klicka **Skapa**.
+1. Klicka på **Skapa**.
 
 1. Ange en titel för din gruppaktiveringskarta och klicka på **Skapa**.
 
    Ett meddelande om att åtgärden lyckades visas när den gruppaktiverade kartsamlingen skapades.
 
-1. Klicka **Öppna** på meddelandet om att åtgärden lyckades.
+1. Klicka på **Öppna** i meddelandet om att åtgärden lyckades.
 
 1. Välj **Redigera** och sedan **Lägg till kartor**.
 
@@ -41,57 +41,57 @@ Så här skapar du en gruppaktiveringskarta:
 
    Du kan välja flera förinställningar för olika språk.
 
-1. Klicka **Klar**.
+1. Klicka på **Klar**.
 
 DITA-kartfilerna läggs till i din gruppaktiveringskarta.
 
-![ skapad massaktiveringssamling](images/bulk-activation-collection-created.png){width="800" align="left"}
+![ skapade massaktiveringssamlingen ](images/bulk-activation-collection-created.png){width="800" align="left"}
 
 ## Fliken Kartor och förinställningar
 
-The **Kartor och förinställningar** -fliken innehåller information i följande kolumner:
+Fliken **Kartor och förinställningar** innehåller information i följande kolumner:
 
-- **Karta**: Visar DITA-kartfilens namn.
-- **Kartsökväg**: Visar den fullständiga sökvägen till DITA-mappningsfilen.
+- **Karta**: Visar titeln på DITA-kartfilen.
+- **Mappningssökväg**: Visar den fullständiga sökvägen till DITA-mappningsfilen.
 
-- **UUID**: Visar den unika identifierare som är associerad med filen.
+- **UID**: Visar den unika identifierare som är associerad med filen.
 
 - **Språk**: Visar språkkoden för DITA-kartan.
 - **Förinställning**: Visar titeln på förinställningen som konfigurerats på kartfilen. Ikonen visas också baserat på vilken typ av förinställning som används.
 
   >[!NOTE]
   >
-  > Den lilla ![](images/global-preset-icon.svg) anger en förinställning på mappprofilnivå.
+  > Den lilla ikonen ![](images/global-preset-icon.svg) indikerar en förinställning på mappprofilnivå.
 
 - **Ändrad**: Anger om DITA-kartan uppdateras efter den senaste publikationen. Baserat på den här informationen kan du bestämma om du vill aktivera utdata för den här DITA-kartan eller inte.
 - **Genererad**: Visar datum och tid för den senaste genererade utdata.
-- **Publicerad**: Visar datum och tid för det senaste publicerade (eller aktiverade) resultatet. Om du markerar länken visas **Aktiveringsresultat** visas, som innehåller loggarna med information om rotsökvägen där innehållet är aktiverat.
+- **Publicerad**: Visar datum och tid för det senaste publicerade (eller aktiverade) resultatet. Om du markerar länken visas sidan **Aktiveringsresultat** som innehåller loggarna med information om rotsökvägen där innehållet aktiveras.
 
 ## Fliken Granska historik
 
-The **Granska historik** -fliken innehåller information om utdata för aktiverade kartor i följande kolumner:
-- **Karta**: Visar DITA-kartfilens namn.
-- **Kartsökväg**: Visar den fullständiga sökvägen till DITA-mappningsfilen.
-- **UUID** : Visar den unika identifierare som är associerad med filen.
+Fliken **Granskningshistorik** innehåller information om aktiverade mapputdata i följande kolumner:
+- **Karta**: Visar titeln på DITA-kartfilen.
+- **Mappningssökväg**: Visar den fullständiga sökvägen till DITA-mappningsfilen.
+- **UID** : Visar den unika identifierare som är associerad med filen.
 - **Språk**: Visar språkkoden för DITA-kartan.
 - **Förinställning**: Visar titeln på förinställningen som konfigurerats på kartfilen. Ikonen visas också baserat på vilken typ av förinställning som används.
 - **Status**: Visar status för aktiveringen som slutförd eller misslyckad.
-- **Mål**: Om du genererar utdata på as a Cloud Service för stödlinjer i Experience Manager kan du visa utdatans mål som Publicera eller Förhandsgranska.
+- **Mål**: Om du genererar utdata på Experience Manager Guides as a Cloud Service kan du visa utdatans mål som Publish eller Förhandsgranska.
 
   >[!NOTE]
   >
-  > Den lilla ![](images/global-preset-icon.svg) anger en förinställning på mappprofilnivå.
+  > Den lilla ikonen ![](images/global-preset-icon.svg) indikerar en förinställning på mappprofilnivå.
 
 - **Ändrad**: Anger om DITA-kartan uppdaterades efter den senaste publikationen. Baserat på den här informationen kan du bestämma om du vill aktivera utdata för den här DITA-kartan.
 - **Publicerad**: Visar datum och tid för det senaste publicerade (eller aktiverade) resultatet. Om du markerar länken visas sidan Aktiveringsresultat, som innehåller loggarna med information om rotsökvägen där innehållet aktiveras.
-  ![ skapad granskningsflik för massaktiveringssamling](images/bulk-collection-audit-history.png){width="800" align="left"}
+  ![ skapade en samlingens granskningshistorik för gruppaktivering ](images/bulk-collection-audit-history.png){width="800" align="left"}
 
-  *Visa information om aktiverade kartutdata i dialogrutan **Granska historik**-fliken.*
+  *Visa information om aktiverade mapputdata på fliken **Granskningshistorik**.*
 
 
   >[!NOTE]
   >
-  > Utdata i **Granska historik** -fliken sorteras baserat på **Publicerad** kolumn.
+  > Utdata på fliken **Granskningshistorik** sorteras baserat på kolumnen **Publicerad** .
 
 
 
@@ -99,10 +99,10 @@ The **Granska historik** -fliken innehåller information om utdata för aktivera
 
 Följande filteralternativ är tillgängliga på den vänstra panelen:
 
-- **Ändrad**: Välj Ja eller Nej. Om du väljer ja visas bara de ändrade DITA-kartorna. En ändrad karta är en karta som har genererats sedan den publicerades senast.
-- **Förinställning**: Välj en förinställning som du vill filtrera ut kartfilerna för. I den här kolumnen visas rubriken på förinställningen för utdata som är konfigurerad på kartfilen. Om du till exempel väljer *AEM* förinställning visas bara de kartor som har *AEM* förinställning för utdata konfigurerad för dem.
+- **Ändrad**: Du kan välja Ja eller Nej. Om du väljer ja visas bara de ändrade DITA-kartorna. En ändrad karta är en karta som har genererats sedan den publicerades senast.
+- **Förinställning**: Välj en förinställning som du vill filtrera ut kartfilerna för. I den här kolumnen visas rubriken på förinställningen för utdata som är konfigurerad på kartfilen. Om du t.ex. väljer *AEM Plats* -förinställning visas bara de kartor som har *AEM Platsens* förinställning konfigurerad för.
 - **Språk**: Du kan välja någon av de tillgängliga språkkoderna och endast visa det valda språket på fliken Kartor och förinställningar.
 
-Filtren uppdateras när du växlar från **Kartor och förinställningar** till **Granska historik** och vice versa.
+Filtren uppdateras när du växlar från fliken **Kartor och förinställningar** till fliken **Granskningshistorik** och vice versa.
 
 **Överordnat ämne: **[Massaktivering av publicerat innehåll](conf-bulk-activation.md)

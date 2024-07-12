@@ -2,7 +2,8 @@
 title: Återgivningswidgetar
 description: Hur återgivning fungerar i JUI-widgetar
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: 381cc7b9-c957-40be-9db4-8347eefe2fa7
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 0%
@@ -11,9 +12,9 @@ ht-degree: 0%
 
 # Återgivningswidgetar
 
-Vi kan återge en widget genom att referera till den med dess `id`
+Vi kan återge en widget genom att referera till den med hjälp av dess `id`
 
-Återge widgeten `widget_languages` var som helst i appen kan vi använda den enkla syntaxen:
+Om du vill återge widgeten `widget_languages` var som helst i appen kan vi använda den enkla syntaxen:
 
 ```json
 {
@@ -67,7 +68,7 @@ const listJSON = {
 }
 ```
 
-Här `@files` är en lista med filobjekt som innehåller fält
+Här `@files` finns en lista med filobjekt som innehåller fält
 
 ```typescript
 - fileName: string

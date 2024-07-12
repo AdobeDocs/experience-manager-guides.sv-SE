@@ -1,6 +1,6 @@
 ---
-title: Lägga till [!DNL Experience Manager Guides] till [!DNL Experience Manager as a Cloud Service] miljö
-description: Lär dig hur du lägger till [!DNL AEM Guides] till [!DNL AEM as a Cloud Service] miljö
+title: Lägga till [!DNL Experience Manager Guides] i din [!DNL Experience Manager as a Cloud Service] miljö
+description: Lär dig hur du lägger till [!DNL AEM Guides] i din [!DNL AEM as a Cloud Service] miljö
 exl-id: a1e020c2-360c-4d71-b5fd-8179d9ceacda
 feature: Installation
 role: Leader
@@ -11,29 +11,29 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Experience Manager Guides] as a Cloud Service driftsättning
+# [!DNL Adobe Experience Manager Guides] as a Cloud Service distribution
 
-Lär dig hur du lägger till [!DNL Experience Manager Guides] till [!DNL Experience Manager as a Cloud Service] miljö.
+Lär dig hur du lägger till [!DNL Experience Manager Guides] i din [!DNL Experience Manager as a Cloud Service]-miljö.
 
 
 >[!NOTE]
 >
-> Från och med version 2024.2.0 är Experience Manager-stödlinjerna bara tillgängliga som ett automatiskt tillägg för Experience Manager as a Cloud Service. Om du använder manuell driftsättning för Experience Manager Guides ska du ta bort raden `<module>dox.installer</module> from file dox/pom.xml` i ditt moln hantera Git-kodbas innan du aktiverar Experience Manager-guider för ditt program.
+> Från och med version 2024.2.0 är Experience Manager Guides endast tillgängligt som ett automatiserat tillägg för Experience Manager as a Cloud Service. Om du använder manuella distributioner för Experience Manager Guides ska du ta bort raden `<module>dox.installer</module> from file dox/pom.xml` i din molnhanterade Git-kodbas innan du aktiverar Experience Manager Guides för ditt program.
 
 1. Logga in på [!UICONTROL Cloud Manager].
 
-1. Redigera programmet som du vill konfigurera [!DNL Experience Manager Guides].
+1. Redigera programmet som du vill konfigurera [!DNL Experience Manager Guides] för.
 
-1. Växla till **[!UICONTROL Solutions and Add-ons]** -fliken.
+1. Växla till fliken **[!UICONTROL Solutions and Add-ons]**.
 
-1. I **[!UICONTROL Solutions and Add-ons]** tabell, klicka på **[!UICONTROL Assets]**.
+1. Klicka på **[!UICONTROL Assets]** i tabellen **[!UICONTROL Solutions and Add-ons]**.
 
-1. Välj **[!UICONTROL Guides]** och markera **[!UICONTROL Save]**.
+1. Välj **[!UICONTROL Guides]** och välj **[!UICONTROL Save]**.
 
-Du har konfigurerat ditt program för automatisk etablering av Experience Manager Guides-lösningen.
+Du har konfigurerat ditt program för automatisk etablering av Experience Manager Guides-lösning.
 
-![Konfigurera Experience Manager Guides Solution](assets/addon-configuration.png)
+![Konfigurerar Experience Manager Guides-lösning](assets/addon-configuration.png)
 
 >[!NOTE]
 >
->Installera [!DNL Experience Manager Guides] i alla miljöer som omfattas av det integrerade programmet måste du köra den pipeline som är kopplad till miljön. Ingen ytterligare konfiguration krävs i Git-kodbasen för CM för installation [!DNL Experience Manager Guides].
+>Om du vill installera [!DNL Experience Manager Guides] i någon miljö i det integrerade programmet måste du köra den pipeline som är associerad med miljön. Ingen ytterligare konfiguration krävs i CM Git-kodbasen för installation av [!DNL Experience Manager Guides].

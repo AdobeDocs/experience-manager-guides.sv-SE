@@ -1,5 +1,5 @@
 ---
-title: Publiceringsfunktion för PDF | Lägga till ett eget bokmärke i utdata från PDF
+title: PDF Publish-funktion | Lägga till ett eget bokmärke i utdata från PDF
 description: Lär dig hur du skapar formatmallar och skapar format för ditt innehåll.
 exl-id: 6e6dbba3-da41-4066-b7b2-735a3d92b70a
 feature: Output Generation
@@ -14,16 +14,16 @@ ht-degree: 0%
 
 # Lägga till ett eget bokmärke i utdata från PDF
 
-Vanligtvis återges innehållsförteckningen i en DITA-karta som bokmärken i den slutliga utskriften för PDF. Innehållsförteckningen skapas utifrån avsnittet eller avsnittsrubrikerna på din DITA-karta. Ibland kanske du vill lägga till ett eget bokmärke för ett visst innehåll i utdata från PDF för enkel navigering. Detta kan du uppnå genom att lägga till en `outputclass` -attributet i elementet och följande attribut tillämpas på det:
+Vanligtvis återges innehållsförteckningen i en DITA-karta som bokmärken i den slutliga utskriften för PDF. Innehållsförteckningen skapas utifrån avsnittet eller avsnittsrubrikerna på din DITA-karta. Ibland kanske du vill lägga till ett eget bokmärke för ett visst innehåll i utdata från PDF för enkel navigering. Detta kan uppnås genom att lägga till ett `outputclass`-attribut i elementet och tillämpa följande attribut på det:
 
 `bookmark-level: 3`
 
-Här är `bookmark-level` är ett attribut och ett tal `3` är värdet som anger nivån i bokmärkeshierarkin där bokmärket läggs till. I följande exempel innehåller ämnet Kontakter på första nivån en tabell, Kontaktlista, där vi har lagt till en `outputclass` attribut med värdet för `custom-bookmark`.
+Här är `bookmark-level` ett attribut och nummer `3` är det värde som anger nivån i bokmärkeshierarkin där bokmärket läggs till. I följande exempel innehåller ämnet Kontakter på första nivån en tabell, Kontaktlista, där vi har lagt till ett `outputclass`-attribut med värdet `custom-bookmark`.
 
 
 <img src="./assets/custom-bookmark-attribute.png" width="500">
 
-Följande definition av `custom-bookmark` klassen läggs till i CSS-filen:
+Följande definition av klassen `custom-bookmark` har lagts till i CSS-filen:
 
 ```css
 …
@@ -34,7 +34,7 @@ Följande definition av `custom-bookmark` klassen läggs till i CSS-filen:
 …
 ```
 
-I PDF-utdata visas *Kontaktlista* tabellen läggs till på den andra nivån i PDF-bokmärkeslistan enligt nedan:
+I utdata från PDF läggs tabellen *Kontaktlista* till på den andra nivån i PDF-bokmärkeslistan enligt nedan:
 
 <img src="./assets/custom-bookmark-in-pdf-output.png" width="500">
 

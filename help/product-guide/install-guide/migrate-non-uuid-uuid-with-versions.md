@@ -4,7 +4,8 @@ description: Lär dig hur du migrerar icke-UID-innehåll med versioner till UUID
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+exl-id: 8f3a89fc-7d18-453d-909d-6dff5e275cab
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 0%
@@ -17,11 +18,11 @@ Utför de här stegen för att migrera ditt icke-UID-versionshanterade innehåll
 
 >[!NOTE]
 >
->Följ [uppgraderingsinstruktioner](./upgrade-xml-documentation.md) specifikt för den licensierade versionen av din produkt.
+>Följ de [uppgraderingsinstruktioner](./upgrade-xml-documentation.md) som är specifika för den licensierade versionen av din produkt.
 
 ## Kompatibilitetsmatris
 
-| Aktuell version av stödlinjer för Experience Manager (ej UUID) | Version som krävs för att migrera till UUID | Uppgraderingssökväg som stöds |
+| Aktuell Experience Manager Guides-version (ej UUID) | Version som krävs för att migrera till UUID | Uppgraderingssökväg som stöds |
 |---|---|---|
 | 3.8.5, 4.0.x eller 4.1.x | 4.1 ej UUID | Installera 4.1 (UUID) och kör migreringen |
 | 4.2, 4.2.x eller 4.3 | 4.3.0 ej UUID | Installera 4.3.1 (UUID) och kör migreringen |
@@ -57,13 +58,13 @@ Utför följande kontroller för den version som inte är UUID (4.1 icke-UID ell
    >* Du måste ha administratörsbehörighet för att kunna utföra migreringen.
    >* Du bör åtgärda filerna med fel innan du fortsätter med migreringen.
 
-1. (Valfritt) Rensa innehållet i version för att ta bort onödiga versioner och snabba upp migreringsprocessen. Markera alternativet om du vill rensa versionen **Rensa version** från migreringsskärmen och gå till användargränssnittet med URL:en `http://<server- name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
+1. (Valfritt) Rensa innehållet i version för att ta bort onödiga versioner och snabba upp migreringsprocessen. Om du vill rensa versionen väljer du alternativet **Rensa version** på migreringsskärmen och går till användargränssnittet med URL:en `http://<server- name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
    >[!NOTE]
    >
    >Verktyget tar inte bort versioner som används i baslinjer eller granskningar och har inga etiketter.
 
 1. Starta `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
-1. Välj **Kompatibilitetsbedömning**  från den vänstra panelen och bläddra i en mappsökväg.
+1. Välj **Kompatibilitetsutvärdering** i den vänstra panelen och bläddra i en mappsökväg.
 1. Kontrollera kompatibiliteten för att lista följande information:
    * Totalt antal filer
    * Totalt antal versioner
@@ -73,9 +74,9 @@ Utför följande kontroller för den version som inte är UUID (4.1 icke-UID ell
    ![fliken för kompatibilitetsbedömning i migrering](assets/migration-compatibility-assessment.png){width="800" align="left"}
 
 
-1. Välj **Konfigurera valideringar** från den vänstra panelen. Sedan **Markera karta** och **Välj förinställning** av kartan för att konfigurera dem. Den aktuella utdatavalideringslistan visar de utdatafiler som finns före migreringen och kan valideras mot de utdatafiler som genereras efter migreringen senare.
+1. Välj **Konfigurera valideringar** på den vänstra panelen. **Välj sedan karta** och **Välj förinställning** för kartan för att konfigurera dem. Den aktuella utdatavalideringslistan visar de utdatafiler som finns före migreringen och kan valideras mot de utdatafiler som genereras efter migreringen senare.
 
-   ![Konfigurera fliken Valideringar i migrering](assets/migration-configure-validation.png){width="800" align="left"}
+   ![Konfigurera fliken Valideringar i migreringen](assets/migration-configure-validation.png){width="800" align="left"}
 
 
 
@@ -84,24 +85,24 @@ Utför följande kontroller för den version som inte är UUID (4.1 icke-UID ell
 
 ### Steg 1: Uppdatera konfigurationen
 
-1. Se till att det lediga utrymmet är minst tio gånger så stort som det utrymme som AEM (crx-quickstart directory) tar under migreringen. När du är klar med migreringen kan du återvinna det mesta av diskutrymmet genom att köra en komprimering (se [Revision Cleanup](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en)).
+1. Se till att det lediga utrymmet är minst tio gånger så stort som det utrymme som AEM (crx-quickstart directory) tar under migreringen. När du är klar med migreringen kan du frigöra mer av diskutrymmet genom att köra en komprimering (se [Revision Cleanup](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en)).
 
-1. Aktivera *Aktivera startprogram för arbetsflöde efter bearbetning* in `com.adobe.fmdita.config.ConfigManager` och *Aktivera efterbearbetning av version* in `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation.`
+1. Aktivera *Aktivera Post Workflow Launcher* i `com.adobe.fmdita.config.ConfigManager` och *Aktivera Version Postprocessing* i `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation.`
 
 1. Installera UUID-versionen av den version som stöds över den version som inte är UUID. Om du till exempel använder 4.1-version som inte är UUID måste du installera UUID version 4.1 och köra migreringen.
 
 1. Installera det nya paketet för uuid-migrering.
 
-1. Inaktivera följande arbetsflöden och andra arbetsflöden som körs på `/content/dam` använda starter i `http://<server-name>/libs/cq/workflow/content/console.html`.
+1. Inaktivera följande arbetsflöden och andra arbetsflöden som körs på `/content/dam` med hjälp av startprogram i `http://<server-name>/libs/cq/workflow/content/console.html`.
 
    * Arbetsflöde för DAM-uppdatering
    * Arbetsflöde för DAM-metadataåterställning
 
-1. Inaktivera *Aktivera startprogram för arbetsflöde efter bearbetning* in `com.adobe.fmdita.config.ConfigManager` och inaktivera *Aktivera efterbearbetning av version* in `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation`.
+1. Inaktivera *Aktivera Post Workflow Launcher* i `com.adobe.fmdita.config.ConfigManager` och inaktivera *Aktivera Version Postprocessing* i `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation`.
 
-1. Inaktivera egenskapen Aktivera validering (`validation.enabled`) in Day CQ Tagging Service.
+1. Inaktivera egenskapen Enable validation (`validation.enabled`) i Day CQ Tagging Service.
 
-1. Se till att `uuid.regex` egenskapsmappen är korrekt inställd i `com.adobe.fmdita.config.ConfigManager`. Om det är tomt anger du standardvärdet - `^GUID-(?<id>.*)`.
+1. Kontrollera att egenskapsmappen `uuid.regex` är korrekt angiven i `com.adobe.fmdita.config.ConfigManager`. Om den är tom anger du standardvärdet - `^GUID-(?<id>.*)`.
 1. Lägg till en separat loggare för `com.adobe.fmdita.uuid` Webbläsarsvaret finns också på `/content/uuid-upgrade/logs`.
 
 ### Steg 2: Kör migreringen och validera
@@ -110,24 +111,24 @@ Utför följande kontroller för den version som inte är UUID (4.1 icke-UID ell
 
 1. Starta `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
 
-   ![Fliken Systemuppgradering vid migrering](assets/migration-system-upgrade.png){width="800" align="left"}
+   ![Fliken Systemuppgradering i migrering](assets/migration-system-upgrade.png){width="800" align="left"}
 
-1. Välj **Systemuppgradering** från den vänstra panelen för att köra migreringen. Börja med en mapp med mindre data innan du kör den `/content/dam`.
+1. Välj **Systemuppgradering** i den vänstra panelen för att köra migreringen. Börja med en mapp med mindre data innan du kör den på `/content/dam`.
 
-1. Välj **Ladda ned rapport** när migreringen körs för att kontrollera om alla filer i mappen är korrekt uppgraderade och om alla funktioner bara fungerar för den mappen.
+1. Välj **Hämta rapport** när migreringen körs för att kontrollera om alla filer i mappen har uppgraderats korrekt och om alla funktioner bara fungerar för den mappen.
 
 
 >[!NOTE]
 >
-> Innehållsmigreringen kan köras på mappnivå, den fullständiga `/content/dam`eller samma mapp (kör migreringen igen).
+> Innehållsmigreringen kan köras på en mappnivå, hela `/content/dam` eller samma mapp (kör migreringen igen).
 
 Det är också viktigt att se till att innehållsmigreringen görs för alla medieresurser, till exempel bilder och grafik som du har använt i DITA-innehållet.
 
 #### Migrering av baslinje och granskning
 
-Välj **Originalplan/Granska uppgradering** från den vänstra panelen för att migrera baslinjerna och granska på mappnivå.
+Välj **Originalplan/Granska uppgradering** i den vänstra panelen för att migrera baslinjerna och granska på mappnivå.
 
-![Baslinje och granskning i migrering](assets/migration-baseline-review-upgrade.png){width="800" align="left"}
+![Baslinje och granskningsflik i migrering](assets/migration-baseline-review-upgrade.png){width="800" align="left"}
 
 
 ### Steg 3: Återställ konfigurationen
@@ -143,10 +144,9 @@ När servern har migrerats kan du aktivera efterbearbetning, taggning och följa
 
 ## Migreringsvalidering
 
-1. När migreringen är klar väljer du **Validera systemuppgradering** från den vänstra panelen och validera utdatafilerna före och efter migreringen för att säkerställa att migreringen lyckas.
+1. När migreringen är klar väljer du **Verifiera systemuppgradering** på den vänstra panelen och validerar utdatafilerna före och efter migreringen för att säkerställa att migreringen lyckas.
 
-   ![Validera fliken för systemuppgradering vid migrering](assets/migration-validate-system-upgrade.png){width="800" align="left"}
+   ![Validera fliken för systemuppgradering i migreringen](assets/migration-validate-system-upgrade.png){width="800" align="left"}
 
 
-1. När valideringen är klar kan större delen av diskutrymmet frigöras genom att köra en komprimering (se `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en`).
-
+1. När valideringen är klar kan större delen av diskutrymmet återvinnas genom att en komprimering körs (se `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en`).

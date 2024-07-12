@@ -1,6 +1,6 @@
 ---
-title: DITA-innehåll återanvänds i AEM
-description: Den här korta artikeln visar hur AEM guider och DITA hjälper dig att spara tid och arbete när du använder återanvändbarhet
+title: DITA-innehåll återanvänds i AEM Guides
+description: Den här korta artikeln visar hur AEM Guides och DITA hjälper dig att spara tid och arbete när du använder återanvändbarhet
 role: User, Admin
 exl-id: 1522ebf5-2aea-4d8f-ade7-367227b31dd9
 source-git-commit: 4160c990bafe41611714ef66ee361aba0ef47c0a
@@ -10,7 +10,7 @@ ht-degree: 0%
 
 ---
 
-# Återanvändning av innehåll i AEM
+# Återanvändning av innehåll i AEM Guides
 
 Adobe AEM Guides utnyttjar DITA:s styrkor för att skapa ett användarvänligt gränssnitt för återanvändning av innehåll.
 
@@ -18,7 +18,7 @@ I den här artikeln ska vi prata om:
 
 1. [Återanvändning med ämnesreferens (](#reusability-using-topic-referencestopicref)
 2. [Återanvändbarhet med hjälp av innehållsreferens (](#reusability-using-content-reference-conref--conkeyref)
-3. [Bonustips för att återanvända innehåll genom att dra och släppa AEM stödlinjer](#reuse-content-with-a-single-click-in-aem-guides)
+3. [Bonustips för att återanvända material genom att dra och släppa i AEM Guides](#reuse-content-with-a-single-click-in-aem-guides)
 
 ## Återanvändbarhet med ämnesreferenser (topicref)
 
@@ -77,11 +77,11 @@ Du vill återanvända enskilda KYC-fragment för dina&quot;sparkonto&quot;- och&
 </section>
 ```
 
-Här `conref=kyc_procedures.dita#indvidual_kyc` kyc_procedure.dita är filidentifieraren och #individual_kyc är fragmentidentifieraren.
+Här är `conref=kyc_procedures.dita#indvidual_kyc` kyc_procedure.dita filidentifieraren och #individual_kyc är fragmentidentifieraren.
 
 Kyc_procedure.dita är fortfarande den enda informationskällan. Om KYC-processen ändras i enlighet med gällande bestämmelser behöver du bara uppdatera ett ämne. Ändringarna återspeglas automatiskt i alla ämnen som refererar till det.
 
-Använda AEM stödlinjer, två klick
+Med AEM Guides klickar man två gånger
 
 Steg 1: Klicka på Infoga återanvändbart innehåll
 ![verktygsfält](../../assets/publishing/content-reusability_image1.png)
@@ -125,7 +125,7 @@ Nyckel -&quot;Kyc_procedure&quot; kommer även fortsättningsvis att vara den en
 
 Här ändras ämnessökvägen från&quot;kyc_procedure_2020.dita&quot; till&quot;kyc_procedure_2024.dita&quot; på grund av de senaste ändringarna av reglerna.
 
-Använda AEM stödlinjer, två klick
+Med AEM Guides klickar man två gånger
 
 Steg 1: Klicka på Infoga återanvändbart innehåll
 ![verktygsfält](../../assets/publishing/content-reusability_image1.png)
@@ -136,9 +136,9 @@ Steg 2: Välj rotkarta (valfritt), nyckel och fragment som behöver återanvänd
 Här markerades rotkartan automatiskt eftersom den redan var öppen i mappningsvyn
 
 
-## Återanvänd material med ett enda klick i AEM
+## Återanvänd material med ett enda klick i AEM Guides
 
-AEM Guides har funktionen &quot;Återanvändbart innehåll&quot; som gör att du kan lägga till innehållsreferenser med ett enda klick.
+AEM Guides har en funktion för att lägga till innehållsreferenser med ett enda klick.
 
 Steg 1: Lägg till ett generiskt ämne i återanvändbart innehåll
 
@@ -146,7 +146,7 @@ Steg 1: Lägg till ett generiskt ämne i återanvändbart innehåll
 
 Steg 2: Dra och släpp det fragment som du vill återanvända i något av målämnena när det har lagts till.
 
-![Lägg till återanvändbar innehålls-gif](../../assets/publishing/content-reusability_image5.gif)
+![Lägg till återanvändbart innehåll gif](../../assets/publishing/content-reusability_image5.gif)
 
 
 
@@ -164,4 +164,4 @@ Kontrollera att du har öppnat rotmappningen/den överordnade kartan i en kartvy
 <br>
 
 
-Publicera på AEM Guides Community [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) för alla frågor.
+Post på AEM Guides Community [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) för alla frågor.

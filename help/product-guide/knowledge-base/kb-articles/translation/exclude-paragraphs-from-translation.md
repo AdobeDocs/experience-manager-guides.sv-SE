@@ -15,16 +15,16 @@ ht-degree: 0%
 
 Det enklaste sättet är att använda attributet translation=no.
 
-+ Författare kan infoga det extra attributet som **translation=no** i de stycken som de inte vill översätta. Översättningsleverantören måste informeras och de kan göra konfigurationer i slutet för att ignorera texten med det här attributet.
++ Författare kan infoga det extra attributet som **translation=no** i stycken som de inte vill översätta. Översättningsleverantören måste informeras och de kan göra konfigurationer i slutet för att ignorera texten med det här attributet.
 + OOTB-maskinöversättning (med provversionen av Microsoft Translation Connector) uppvisar samma beteende.
-+ Testa med Microsoft Translation: om du definierar **translate=no** på styckenivå översätts inte hela stycket. Det här attributet kan definieras för alla element och innehållet i det elementet kommer inte att översättas.
++ Testar med Microsoft Translation: Om du definierar attributet **translate=no** på styckenivå översätts inte hela stycket. Det här attributet kan definieras för alla element och innehållet i det elementet kommer inte att översättas.
 
 
 Här är några skärmbilder som ytterligare förklarar:
 
-**Källinnehåll**
+**Source Content**
 
-![Källinnehåll](assets/source-content.jpg)
+![Source Content](assets/source-content.jpg)
 
 **Översatt innehåll på spanska**
 

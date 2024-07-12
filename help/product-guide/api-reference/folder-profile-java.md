@@ -32,12 +32,12 @@ Paketinformation:
   public class FolderProfileUtils extends Object
   ```
 
-  The **`FolderProfileUtils`** -klassen innehåller en metod för att lägga till villkorliga attribut i en mappprofil.
+  Klassen **`FolderProfileUtils`** innehåller en metod för att lägga till villkorliga attribut i en mappprofil.
 
 
 ## Lägga till villkorliga attribut i en mappprofil
 
-The ``addAttributeProfiles`` metoden lägger till villkorliga attribut i en mappnivåprofil.
+Metoden ``addAttributeProfiles`` lägger till villkorliga attribut i en mappnivåprofil.
 
 **Syntax**:
 
@@ -53,15 +53,23 @@ String profileName,
 Session session) throws GuidesApiException
 ```
 
-**Parametrar**: |Namn|Typ|Beskrivning| |—|—|—| |``attributeNames``|String|En lista med attributnamn.| |``values``|String|En lista med värden för angivna attribut.| |`labels`|Sträng|En lista med etiketter för `attribute`- `value` par. [1](#fntarg_1)| |`profileName`|String|Namnet på mappnivåprofilen som attributen, värdena och etiketterna ska användas på. **Viktigt:** Alla befintliga attribut-values-labels som definieras i profilen skrivs över.| |`session`|javax.jcr.Session|En giltig JCR-session.|
+**Parametrar**:
+|Namn|Typ|Beskrivning|
+|—|—|—|
+|``attributeNames``|Sträng|En lista med attributnamn.|
+|``values``|Sträng|En lista med värden för angivna attribut.|
+|`labels`|Sträng|En lista med etiketter för paren `attribute`- `value`. [1](#fntarg_1)|
+|`profileName`|String|Namnet på den mappnivåprofil som attributen, värdena och etiketterna ska tillämpas på. **Viktigt!** Alla befintliga attribut-value-labels som definierats i profilen skrivs över.|
+|`session`|javax.jcr.Session|En giltig JCR-session.|
 
 **Returnerar**:
-`true` för framgång. Om ett fel uppstår genereras ett undantag.
+`true` för att lyckas. Om ett fel uppstår genereras ett undantag.
 
-**Undantag**: Throws ``java.lang.Exception`` i följande scenarier:
+**Undantag**:
+Utlöses ``java.lang.Exception`` i följande scenarier:
 
-- Om API:t inte kunde hämtas `resourceResolverFactory` -objekt. I så fall bör du starta om paketet.
+- Om API:t inte kunde hämta `resourceResolverFactory`-objektet. I så fall bör du starta om paketet.
 - Om parametrar som skickats till API är ogiltiga.
 - Om API:t anropas via obehörig användarsession, till exempel den användare som inte är administratör för den angivna mappprofilen.
 
-[1](#fnsrc_1) The `attributeNames`, `values`och `labels` vid samma index i en matrislista måste motsvara samma post.
+[1](#fnsrc_1) `attributeNames`, `values` och `labels` vid samma index i en matrislista måste motsvara samma post.

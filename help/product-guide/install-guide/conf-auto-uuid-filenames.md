@@ -26,15 +26,15 @@ Utför följande steg för att automatiskt tilldela det UUID-baserade filnamnet 
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Sök efter och klicka på *com.adobe.fmdita.xmleditor.config.XmlEditorConfig* paket.
+1. Sök efter och klicka på paketet *com.adobe.fmdita.xmleditor.config.XmlEditorConfig*.
 
-1. Välj **Använd UUID-baserade systemfilnamn** alternativ.
+1. Välj alternativet **Använd UUID-baserade systemfilnamn**.
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.
 
 
 >[!NOTE]
 >
-> Som standard är det här alternativet inaktiverat. När det här alternativet är aktiverat kan författare inte ange filnamnet när de skapar ett nytt ämne eller en ny mappningsfil. Du kan skapa ett nytt ämne eller en ny mappfil från resursgränssnittet och webbredigeraren.
+> Som standard är det här alternativet inaktiverat. När det här alternativet är aktiverat kan författare inte ange filnamnet när de skapar ett nytt ämne eller en ny mappningsfil. Du kan skapa ett nytt ämne eller en ny mappfil från Assets-gränssnittet och webbredigeraren.
 
 **Överordnat ämne:**[ Konfigurera filnamn](conf-file-names.md)

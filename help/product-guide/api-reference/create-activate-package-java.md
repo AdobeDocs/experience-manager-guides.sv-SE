@@ -32,15 +32,15 @@ Paketinformation:
   public class CRXActivator
   ```
 
-  The **`CRXActivator`** -klassen innehåller en metod för att skapa CRX-paket och replikera dem på publiceringsinstansen.
+  Klassen **`CRXActivator`** innehåller en metod för att skapa CRX-paket och replikera det på publiceringsinstansen.
 
 
 ## Skapa och aktivera paket
 
-The `activate` skapar ett CRX-paket på författarinstansen och replikerar det vid behov på publiceringsinstansen. AEM replikeringsparametrar har redan konfigurerats för författarinstansen. Den här metoden skapar CRX-paketet baserat på en lista med regler som tillhandahålls som indataparametrar i en JSON-sträng.
+Metoden `activate` skapar ett CRX-paket på författarinstansen och replikerar det vid behov på publiceringsinstansen. AEM replikeringsparametrar har redan konfigurerats för författarinstansen. Den här metoden skapar CRX-paketet baserat på en lista med regler som tillhandahålls som indataparametrar i en JSON-sträng.
 >[!NOTE]
 >
-> Fel som uppstod när programmet skapades eller aktiverades skrivs till `outputstream`.
+> Fel som påträffades under skapande eller aktivering skrivs till `outputstream`.
 
 ### Exempel med två parametrar
 
@@ -70,17 +70,24 @@ public static void activate
 throws GuidesApiException
 ```
 
-**Parametrar**: |Namn|Typ|Beskrivning| |—|—|—| |`json`|String|JSON-sträng som bestämmer vilket CRX-paket som ska skapas. Använd följande format för att skapa JSON-strängen: <br>- `activate`: Är av typen Boolean \(`true`/`false`\). Avgör om det CRX-paket som skapas i författarinstansen replikeras till publiceringsinstansen. <br> - `rules`: Är av typen JSON Array. En array med JSON-regler som bearbetas sekventiellt för att skapa CRX-paketet. <br> - `rootPath`: Är av typen String. Bassökvägen som nod-/egenskapsfrågorna körs på. Om det inte finns några nod-/egenskapsfrågor inkluderas rotsökvägen och alla noder som finns under rotsökvägen i CRX-paketet. <br> - `nodeQueries`: Är av typen Regex Array. En array med reguljära uttryck som används för att inkludera specifika filer under rotsökvägen. <br> - `propertyQueries`: Är av typen JSON Array. En array med JSON-objekt med varje JSON-objekt som består av en XPath-fråga som ska köras på rotsökvägen och namnet på en egenskap som finns i varje JCR-nod efter att frågan har körts. Värdet för egenskapen i varje JCR-nod ska vara en sökväg eller en array med sökvägar. Sökvägarna i den här egenskapen läggs till i CRX-paketet.| |`outputstream`|java.io.OutputStream|Detta används för att skriva resultatet av olika faser, t.ex. frågekörning, filinkludering, skapande av CRX-paket eller aktivering. Alla fel som uppstår under skapande eller aktivering skrivs till `outputstream`. Detta är användbart vid felsökning.| |`session`|String|En giltig JCR-session med aktiveringsbehörighet.| |`activationTarget`|String|(*Valfritt*) `preview` eller `publish` för Cloud Service och `publish` för lokal programvara <br> - Om parametern innehåller ett ogiltigt värde misslyckas paketaktiveringen som Cloud Service. <br> - För On-Premise-programvara loggas felet om parametern innehåller ett ogiltigt värde och publiceringen görs med standardvärdet, `publish`. |
+**Parametrar**:
+|Namn|Typ|Beskrivning|
+|—|—|—|
+|`json`|String|JSON-sträng som bestämmer vilket CRX-paket som ska skapas. Använd följande format för att skapa JSON-strängen: <br>- `activate`: Är av typen Boolean \(`true`/`false`\). Avgör om det CRX-paket som skapas i författarinstansen replikeras till publiceringsinstansen. <br> - `rules`: Är av typen JSON-matris. En array med JSON-regler som bearbetas sekventiellt för att skapa CRX-paketet. <br> - `rootPath`: Är av typen String. Bassökvägen som nod-/egenskapsfrågorna körs på. Om det inte finns några nod-/egenskapsfrågor inkluderas rotsökvägen och alla noder som finns under rotsökvägen i CRX-paketet. <br> - `nodeQueries`: Är av typen Regex Array. En array med reguljära uttryck som används för att inkludera specifika filer under rotsökvägen. <br> - `propertyQueries`: Är av typen JSON-matris. En array med JSON-objekt med varje JSON-objekt som består av en XPath-fråga som ska köras på rotsökvägen och namnet på en egenskap som finns i varje JCR-nod efter att frågan har körts. Värdet för egenskapen i varje JCR-nod ska vara en sökväg eller en array med sökvägar. Sökvägarna i den här egenskapen läggs till i CRX-paketet.|
+|`outputstream`|java.io.OutputStream|Detta används för att skriva resultatet från olika stadier, till exempel frågekörning, filinkludering, skapande av CRX-paket eller aktivering. Alla fel som påträffas under skapande eller aktiveringsprocessen skrivs till `outputstream`. Detta är användbart vid felsökning.|
+|`session`|Sträng|En giltig JCR-session med aktiveringsbehörighet.|
+|`activationTarget`|String|(*Valfri*) `preview` eller `publish` för Cloud Service och `publish` för lokal programvara <br> - Om parametern innehåller ett ogiltigt värde misslyckas paketaktiveringen för Cloud Service. <br> - Om parametern innehåller ett ogiltigt värde loggas felet för Lokal programvara och publiceringen görs med standardvärdet `publish`. |
 
 **Undantag**:
 
-Spetsar `java.io.IOException` och `java.io.IllegalArgumentException`
+Aktiverar `java.io.IOException` och `java.io.IllegalArgumentException`
 
 
-Om du inte definierar den valfria parametern `activationTarget`aktiveras den med standardagenten för publicering för både Cloud Service och lokal programvara.
+Om du inte definierar den valfria parametern, `activationTarget`, aktiveras den med standardagenten för publicering för både Cloud Service och lokal programvara.
 
 
-**Exempel**: I följande exempel visas hur du skapar en JSON-fråga:
+**Exempel**:
+I följande exempel visas hur du skapar en JSON-fråga:
 
 ```JSON
 {
@@ -114,4 +121,4 @@ Exempelfrågan för JSON består av följande regler:
 
 - Endast PNG-, JPG- och GIF-bilder under /content/dam/nested path inkluderas i paketet.
 - Alla noder under /content/output/sites/archy\_ditamap inkluderas i paketet.
-- Banorna i `fileReference` för noder under /content/output/sites/hierarki\_ditamap ingår i paketet.
+- Sökvägarna som finns i egenskapen `fileReference` för noder under /content/output/sites/archy\_ditamap ingår i paketet.

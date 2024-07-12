@@ -21,10 +21,14 @@ Med följande REST API kan du lägga till villkorsattribut i en mappprofil.
 En mappmetod som lägger till villkorsstyrda attribut i en viss mappnivåprofil.
 
 **Begär URL**:\
-http://*&lt;aem-guides-server>*: *&lt;port-number>*/bin/fmdita/folderprofiles
+http://*&lt;aem-guides-server\>*: *&lt;portnummer\>*/bin/fmdita/folderprofiles
 
 **Parametrar**:\
-|Namn|Typ|Obligatorisk|Beskrivning| |—|—|—|—| |`:operation`|String|Yes|Namnet på den åtgärd som anropas. Värdet för den här parametern är ``ADDATTRIBUTEPROFILES``. <br> **Obs!** Värdet är inte skiftlägeskänsligt.| |`profilename`|String|Yes|Visningsnamn för den mappnivåprofil där villkorsattributen ska läggas till.| |`conditionalprofiles`|JSON-matris|Yes|En JSON-matris som består av villkorsattributets namn och värden. Följande kodexempel visar JSON-arrayen med två attribut - `platform` och `product` med flera värden tilldelade.|
+|Namn|Typ|Obligatorisk|Beskrivning|
+|—|—|—|—|
+|`:operation`|Sträng|Ja|Namnet på den åtgärd som anropas. Värdet för den här parametern är ``ADDATTRIBUTEPROFILES``. <br> **Obs!** Värdet är inte skiftlägeskänsligt.|
+|`profilename`|String|Yes|Display name of the folder-level profile in which the conditional attributes must be added.|
+|`conditionalprofiles`|JSON-matris|Yes|A JSON-matris som består av villkorsattributets namn och värden. I följande exempelkodfragment visas JSON-arrayen med två attribut - `platform` och `product` med flera värden tilldelade.|
 
 ```JSON
 [  {    name: "platform",    

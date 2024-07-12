@@ -25,9 +25,9 @@ Det finns två sätt att anpassa Web Editors verktygsfält:
 
 ## Lägga till en funktion i verktygsfältet
 
-Om du lägger till en funktion i Web Editor innebär det två primära åtgärder - att lägga till en ikon för funktionen i *ui\_config.json* och lägga till bakgrundsfunktioner i JavaScript.
+Om du lägger till en funktion i Web Editor innebär det två primära åtgärder - att lägga till en ikon för funktionen i filen *ui\_config.json* och lägga till bakgrundsfunktionen i JavaScript.
 
-**Lägga till en ikon i verktygsfältet**
+**Lägg till en ikon i verktygsfältet**
 
 Gör så här för att lägga till en funktion i Web Editor-verktygsfältet:
 
@@ -41,15 +41,15 @@ Gör så här för att lägga till en funktion i Web Editor-verktygsfältet:
 
    `/apps/fmdita/xmleditor/ui_config.json`
 
-1. Navigera till och öppna `ui_config.json` i `apps` för redigering.
+1. Navigera till och öppna filen `ui_config.json` i noden `apps` för redigering.
 
-1. I `ui_config.json` lägger du till definitionen av den nya funktionen i verktygsfältsavsnittet. Vanligtvis kan du skapa en ny verktygsfältsknappgrupp och lägga till en eller flera knappar i den. Du kan också lägga till en ny verktygsfältsknapp i en befintlig verktygsfältgrupp. Följande information krävs för att skapa en ny verktygsfältgrupp:
+1. I filen `ui_config.json` lägger du till definitionen för den nya funktionen i verktygsfältsavsnittet. Vanligtvis kan du skapa en ny verktygsfältsknappgrupp och lägga till en eller flera knappar i den. Du kan också lägga till en ny verktygsfältsknapp i en befintlig verktygsfältgrupp. Följande information krävs för att skapa en ny verktygsfältgrupp:
 
-   - **type:**Ange `blockGroup` som `type` värde. Detta värde anger att du skapar en blockgrupp som skulle innehålla en eller flera verktygsfältsgrupper.
+   - **type:**Ange `blockGroup` som `type`-värde. Detta värde anger att du skapar en blockgrupp som skulle innehålla en eller flera verktygsfältsgrupper.
 
-   - **extraklass:** Namnet på klassen eller klasserna avgränsade med blanksteg.
+   - **extraclass:** Namnet på klassen eller klasserna avgränsade med blanksteg.
 
-   - **objekt:** Ange definitionen för alla grupper i verktygsfältet. Varje grupp kan innehålla en eller flera verktygsfältsikoner. Om du vill definiera ikoner i en verktygsfältgrupp måste du definiera `type` -attribut i `items`och ange värdet till `buttonGroup`. Ange ett eller flera klassnamn i `extraclass` -egenskap. Ange funktionsnamnet i dialogrutan `label` -egenskap. Följande utdrag från `ui_config.json` filen visar definitionen för huvudverktygsfältets block, följt av `buttonGroup` definition:
+   - **objekt:** Ange definitionen för alla grupper i verktygsfältet. Varje grupp kan innehålla en eller flera verktygsfältsikoner. Om du vill definiera ikoner i en verktygsfältsgrupp måste du definiera attributet `type` igen i `items` och ange dess värde som `buttonGroup`. Ange ett eller flera klassnamn i egenskapen `extraclass`. Ange funktionsnamnet i egenskapen `label`. I följande utdrag från filen `ui_config.json` visas definitionen för huvudverktygsfältets block, följt av definitionen `buttonGroup`:
 
      ```json
      "toolbar": {    
@@ -64,37 +64,37 @@ Gör så här för att lägga till en funktion i Web Editor-verktygsfältet:
              "items": [
      ```
 
-     I `items` -samling måste du ange definitionen för en eller flera verktygsfältsikoner.
+     I samlingen `items` måste du ange definitionen för en eller flera verktygsfältsikoner.
 Du måste definiera följande egenskaper för att lägga till en verktygsfältsikon:
 
-   - **typ:** Ange `button` som `type` värde. Detta värde anger att du lägger till en verktygsfältsknapp.
+   - **type:** Ange `button` som `type`-värde. Detta värde anger att du lägger till en verktygsfältsknapp.
 
    - **ikon:** Ange namnet på den korallikon som du vill använda i verktygsfältet.
 
-   - **variant:** Ange `quiet` som `variant` värde.
+   - **variant:** Ange `quiet` som `variant`-värde.
 
-   - **titel:** Ange verktygstipset för ikonen.
+   - **title:** Ange verktygstipset för ikonen.
 
-   - **on-click:** Ange det kommandonamn som är definierat för funktionen i JavaScript-filen. Om kommandot kräver indataparametrar anger du kommandonamnet som:
+   - **on-click:** Ange kommandonamnet som definierats för funktionen i JavaScript-filen. Om kommandot kräver indataparametrar anger du kommandonamnet som:
 
      ```JavaScript
      "on-click": {"name": "AUTHOR_INSERT_ELEMENT", "args": "simpletable"}
      ```
 
-   - **visa eller dölja:** Om du definierar `show` anger sedan de lägen som ikonen ska visas i. Möjliga värden är - `@isAuthorMode`, `@isSourceMode`, `@isPreviewMode`, `true` \(visas i alla lägen\), eller `false` \(dölj i alla lägen\).
+   - **visa eller dölj:** Om du definierar egenskapen `show` anger du de lägen som ikonen ska visas i. Möjliga värden är - `@isAuthorMode`, `@isSourceMode`, `@isPreviewMode`, `true` \(visa i alla lägen\) eller `false` \(dölj i alla lägen\).
 
-   I stället för `show`kan du också definiera `hide` -egenskap. Möjliga värden är desamma som i `show` -egenskapen med den enda skillnaden att ikonen inte visas för det angivna läget.
+   I stället för `show` kan du också definiera egenskapen `hide`. Möjliga värden är desamma som i egenskapen `show` med den enda skillnaden att ikonen inte visas för det angivna läget.
 
-1. Skapa en *clientlib* och lägg till ditt JavaScript i den här mappen.
+1. Skapa en *clientlib*-mapp och lägg till din JavaScript i den här mappen.
 
-1. Uppdatera kategoriegenskapen för *clientlib* genom att tilldela den värdet *apps.fmdita.xml\_editor.page\_overrides*.
+1. Uppdatera egenskapen categories i mappen *clientlib* genom att tilldela den värdet för *apps.fmdita.xml\_editor.page\_overrides*.
 
-1. Spara *ui\_config.json* och läsa in webbredigeraren igen.
+1. Spara filen *ui\_config.json* och läs in webbredigeraren igen.
 
 
 **JavaScript-kodexempel**
 
-I det här avsnittet finns två exempel på JavaScript-kod som hjälper dig att komma igång med att lägga till anpassade funktioner. I följande exempel visas versionsnumret AEM stödlinjerna när en användare klickar på ikonen Visa version i verktygsfältet.
+I det här avsnittet finns två exempel på JavaScript-kod som hjälper dig att komma igång med att lägga till anpassade funktioner. I följande exempel visas AEM Guides versionsnummer när en användare klickar på ikonen Visa version i verktygsfältet.
 
 Lägg till följande kod i en JavaScript-fil:
 
@@ -218,14 +218,14 @@ Så här tar du bort oönskade funktioner från verktygsfältet:
 
    `/apps/fmdita/xmleditor/ui_config.json`
 
-1. Navigera till och öppna `ui_config.json` i `apps` för redigering.
-The `ui_config.json` filen har tre avsnitt:
+1. Navigera till och öppna filen `ui_config.json` i noden `apps` för redigering.
+Filen `ui_config.json` har tre avsnitt:
 
 - **verktygsfält:**   Det här avsnittet innehåller en definition av alla funktioner som är tillgängliga i redigerarens verktygsfält, t.ex. Infoga/ta bort numrerad lista, Stäng, Spara, Kommentarer med mera.
 
-- **kortkommandon:**   I det här avsnittet finns en definition av kortkommandon för en viss funktion i redigeraren.
+- **genvägar:**   I det här avsnittet finns en definition av kortkommandon för en viss funktion i redigeraren.
 
-- **mallar:**   Det här avsnittet innehåller den fördefinierade strukturen för DITA-element som du kan använda i ditt dokument. Som standard innehåller mallavsnittet malldefinitioner för ett stycke-, enkel tabell-, tabell- och body-element. Du kan skapa en malldefinition för vilket element som helst genom att lägga till en giltig XML-struktur för det önskade elementet. Om du till exempel vill lägga till en `p` element med alla nya `li` -element i en lista kan du lägga till följande kod i slutet av mallavsnittet för att uppnå detta:
+- **mallar:**   Det här avsnittet innehåller den fördefinierade strukturen för DITA-element som du kan använda i ditt dokument. Som standard innehåller mallavsnittet malldefinitioner för ett stycke-, enkel tabell-, tabell- och body-element. Du kan skapa en malldefinition för vilket element som helst genom att lägga till en giltig XML-struktur för det önskade elementet. Om du till exempel vill lägga till ett `p`-element med alla nya `li`-element i en lista kan du lägga till följande kod i slutet av mallavsnittet för att uppnå detta:
 
 ```HTML
 "li": "<li><p></p></li>"
@@ -233,7 +233,7 @@ The `ui_config.json` filen har tre avsnitt:
 
 1. I verktygsfältsavsnittet tar du bort den funktion som du inte vill visa för användarna.
 
-1. Spara *ui\_config.json* och läsa in webbredigeraren igen.
+1. Spara filen *ui\_config.json* och läs in webbredigeraren igen.
 
 
 **Överordnat ämne:**[ Anpassa Web Editor](conf-web-editor.md)

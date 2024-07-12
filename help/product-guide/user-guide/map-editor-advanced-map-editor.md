@@ -1,6 +1,6 @@
 ---
 title: Arbeta med den avancerade kartredigeraren
-description: Lär dig hur du arbetar med den avancerade kartredigeraren i AEM. Lär dig funktionerna i den avancerade kartredigeraren. Redigera ämnen via en DITA-karta och använd layoutvyn, författarvyn och förhandsgranskningsläget.
+description: Lär dig arbeta med den avancerade kartredigeraren i AEM Guides. Lär dig funktionerna i den avancerade kartredigeraren. Redigera ämnen via en DITA-karta och använd layoutvyn, författarvyn och förhandsgranskningsläget.
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
@@ -21,7 +21,7 @@ Förutom att redigera kartfiler direkt från Web Editor kan du även öppna ämn
 
 Utför följande steg för att skapa kartfilen med hjälp av den avancerade kartredigeraren:
 
-1. Navigera i resursgränssnittet till den kartfil som du vill redigera.
+1. Navigera i Assets-gränssnittet till den kartfil som du vill redigera.
 
    >[!NOTE]
    >
@@ -37,13 +37,13 @@ Utför följande steg för att skapa kartfilen med hjälp av den avancerade kart
 
    ![](images/edit-map-main-menu.png){width="800" align="left"}
 
-   Du kan också välja **Redigera ämnen** på kartfilens åtgärdsmeny:
+   Du kan också välja alternativet **Redigera ämnen** på Åtgärdsmenyn i kartfilen:
 
    ![](images/edit-map-action-menu.png){width="800" align="left"}
 
    Kartfilen öppnas för redigering i webbredigeraren.
 
-1. Klicka på **Redigera** -ikon.
+1. Klicka på ikonen **Redigera** .
 
    ![](images/edit-map-icon.png){width="550" align="left"}
 
@@ -51,33 +51,33 @@ Utför följande steg för att skapa kartfilen med hjälp av den avancerade kart
 
    ![](images/new-map-file-in-editor.png){width="800" align="left"}
 
-   - **A** - \(*Huvudverktygsfältet*\): Det liknar huvudverktygsfältet i Web Editor. Se [Huvudverktygsfältet](web-editor-features.md#id2051EA0G05Z) i Web Editor för mer information.
+   - **A** - \(*Huvudverktygsfältet*\): Det här liknar huvudverktygsfältet i Web Editor. Mer information finns i [Huvudverktygsfältet](web-editor-features.md#id2051EA0G05Z) i webbredigeraren.
 
-   - **B** - \(*Sekundärt verktygsfält*\) Det här är det sekundära verktygsfältet där du kan arbeta med kartfiler. Mer information om de funktioner som är tillgängliga via det sekundära verktygsfältet finns i [Funktioner i verktygsfältet i Avancerad kartredigerare](#id205DEC0005Z).
+   - **B** - \(*Sekundärt verktygsfält*\) Det här är det sekundära verktygsfältet där du kan arbeta med kartfiler. Mer information om de funktioner som är tillgängliga via det sekundära verktygsfältet finns i [Funktioner som är tillgängliga i den avancerade kartredigerarens verktygsfält](#id205DEC0005Z).
 
-   - **C** - \(*Kartvyer*\): Gör att du kan växla mellan layouten, författaren, källan och förhandsvisningen i Kartredigeraren. The **Layout** I kan du ordna ämnen på en DITA-karta. Detta ger kartans träd eller hierarkiska vy. The **Upphovsman** I kan du redigera ämnen i Kartredigeraren. Detta ger även en WYSIWYG-vy av kartfilen. The **Källa** kan du arbeta med kartfilens underliggande XML. Med Förhandsgranska får du en samlad vy över alla avsnitt och undermappar i kartfilen. The **Stäng** länkar stänger kartfilen.
+   - **C** - \(*Kartvyer*\): Gör att du kan växla mellan layouten, författaren, Source och förhandsgranskningen i Kartredigeraren. I vyn **Layout** kan du ordna ämnen i en DITA-karta. Detta ger kartans träd eller hierarkiska vy. I vyn **Författare** kan du redigera ämnen i Kartredigeraren. Detta ger även en WYSIWYG-vy av kartfilen. I vyn **Source** kan du arbeta med kartfilens underliggande XML. Med Förhandsgranska får du en samlad vy över alla avsnitt och undermappar i kartfilen. Mappningsfilen stängs av länken **Stäng**.
 
-   - **D** - \(*Vänster panel*\): Ger åtkomst till den vänstra panelen så att du kan komma åt funktionerna Favoriter, Databas, Karta, Disposition och andra. Du kan expandera eller komprimera den genom att klicka på ikonen Expandera marginallist \(![](images/sidebar-expand-icon.svg)\). Mer information om funktionerna i den vänstra panelen finns i [Vänster panel](web-editor-features.md#id2051EA0M0HS) i webbredigeraren.
+   - **D** - \(*Vänster panel*\): Ger åtkomst till den vänstra panelen, vilket ger dig tillgång till funktionerna Favoriter, Databas, Karta, Kontur och andra. Du kan expandera eller komprimera den genom att klicka på ikonen Expandera sidofält \(![](images/sidebar-expand-icon.svg)\). Mer information om de funktioner som är tillgängliga i den vänstra panelen finns i [Vänster panel](web-editor-features.md#id2051EA0M0HS) i Web Editor.
 
-   - **E** - \(*Mittområde*\): Område för redigering av kartinnehåll.
+   - **E** - \(*Mittområde*\): Mappa innehållets redigeringsområde.
 
-   - **F** - \(*Höger panel*\): Ger åtkomst till panelen Egenskaper. Du kan se innehållsegenskaperna och mappningsegenskaperna för det markerade ämnet eller kartan. Mer information om de funktioner som är tillgängliga på den här panelen finns i [Höger panel](web-editor-features.md#id2051EB003YK) i webbredigeraren.
+   - **F** - \(*Högerpanel*\): Ger åtkomst till panelen Egenskaper. Du kan se innehållsegenskaperna och mappningsegenskaperna för det markerade ämnet eller kartan. Mer information om de funktioner som är tillgängliga på den här panelen finns i [Högerpanelen](web-editor-features.md#id2051EB003YK) i webbredigeraren.
 
-1. I den vänstra panelen växlar du till **Databasvy**.
+1. I den vänstra panelen växlar du till **databasvyn**.
 
 1. I AEM-databasen navigerar du till den mapp som innehåller de ämnen eller undermappar som du vill lägga till.
 
-1. Välj ämne- eller mappningsfilen i **Databasvy** och dra och släpp det i redigeringsområdet för kartinnehåll.
+1. Markera ämne- eller mappfilen i **databasvyn** och dra och släpp den i redigeringsområdet för kartinnehåll.
 
    Ämnet läggs till på kartan.
 
-   ![kartredigerare lägga till ämne](images/map-editor-add-topic.png){width="800" align="left"}
+   ![mappningsredigeraren lägger till ämne](images/map-editor-add-topic.png){width="800" align="left"}
 
 1. Om du vill lägga till efterföljande ämnen eller en undermappning drar och släpper du ämnet eller undermappningen till önskad plats på kartan.
 
    Tänk på följande när du skapar kartfilen:
 
-   - Filen läggs till på en plats där det vågräta fältet visas i kartredigeringsområdet. På följande skärmbild visas *Ökning* kommer att läggas till mellan *Allmän beskrivning* och *Start- och landningswebbplats* ämnen.
+   - Filen läggs till på en plats där det vågräta fältet visas i kartredigeringsområdet. I följande skärmbild läggs avsnittet *Översikt* till mellan avsnitten *Allmän beskrivning* och *Start och Landing Site*.
 
      ![](images/horizontal-line-in-adv-map-editor.png){width="350" align="left"}
 
@@ -93,18 +93,18 @@ Utför följande steg för att skapa kartfilen med hjälp av den avancerade kart
 
    - Du kan använda kortkommandona CTRL+Z och CTRL+Y eller deras respektive ikoner i verktygsfältet för att ångra eller göra om ändringar i kartan.
 
-   - Om du vill ändra positionen för ett ämne markerar du ämnet \(genom att klicka på avsnittsikonen\) och drar och släpper det på önskad plats i kartfilen. Kontrollera att det vågräta fältet är synligt på den plats där du vill placera ämnet. I följande skärmbild är ämnet *Start- och landningswebbplats* flyttas efter *Ökning* ämne.
+   - Om du vill ändra positionen för ett ämne markerar du ämnet \(genom att klicka på avsnittsikonen\) och drar och släpper det på önskad plats i kartfilen. Kontrollera att det vågräta fältet är synligt på den plats där du vill placera ämnet. På följande skärmbild flyttas ämnet *Start- och landningswebbplats* efter ämnet *Översikt* .
 
      ![](images/move-topic-adv-map-editor.png){width="350" align="left"}
 
    - Om du vill kontrollera kartfilens egenskaper högerklickar du var som helst i kartredigeringsområdet och väljer **Egenskaper** på snabbmenyn. Baserat på din AEM kan du se egenskaper som metadata, schemaaktivering, referenser, dokumenttillstånd med mera.
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.
 
 
 ## Funktioner i verktygsfältet i Avancerad kartredigerare {#id205DEC0005Z}
 
-Verktygsfältet i Avancerad kartredigerare liknar avsnittet Webbredigerare. Grundläggande åtgärder som att växla den vänstra panelen, spara karta, skapa en ny version av kartan, ångra/göra om senaste åtgärden och ta bort de markerade elementen är vanliga i båda redigerarna. Mer information om hur dessa åtgärder fungerar finns i [Bekanta dig med Web Editors funktioner](web-editor-features.md#) -avsnitt.
+Verktygsfältet i Avancerad kartredigerare liknar avsnittet Webbredigerare. Grundläggande åtgärder som att växla den vänstra panelen, spara karta, skapa en ny version av kartan, ångra/göra om senaste åtgärden och ta bort de markerade elementen är vanliga i båda redigerarna. Mer information om hur de här åtgärderna fungerar finns i avsnittet [Känn till Web Editor-funktioner](web-editor-features.md#).
 
 Följande kartspecifika åtgärder är också tillgängliga i verktygsfältet i layoutvyn och författarvyn:
 
@@ -126,7 +126,7 @@ Visar dialogrutan för ämnessökning. Navigera till avsnittet/mappfilen som du 
 
 **Infoga ämnesgrupp** - ![](images/insert-topic-group.png)
 
-Infoga `topicgroup` -element. Mer information om gruppering av ämnen finns i [topicgroup](https://docs.oasis-open.org/dita/v1.0/langspec/topicgroup.html) dokumentation i OASIS DITA Language Specification.
+Infoga elementet `topicgroup`. Mer information om att gruppera ämnen finns i [topicgroup](https://docs.oasis-open.org/dita/v1.0/langspec/topicgroup.html) -dokumentationen i språkspecifikationen för OASIS DITA.
 
 **Infoga nyckeldefinition** - ![](images/Key_icon.svg)
 
@@ -142,7 +142,7 @@ Visar dialogrutan Infoga element. Markera det element som du vill infoga på kar
 
 Den här ikonen visas när du öppnar ett bokschema för redigering. Du kan infoga komponenter i början av boken som en innehållsförteckning, ett index och en lista med tabeller.
 
-**Infoga bakgrundsmaterial** - ![](images/backmatter.svg)
+**Infoga Bakgrundsfråga** - ![](images/backmatter.svg)
 
 Den här ikonen visas när du öppnar ett bokschema för redigering. Du kan infoga komponenter för en ände av boken som ett index, en ordlista och en lista med illustrationer.
 
@@ -166,7 +166,7 @@ Hämtar ett lås på kartfilen och släpper låset. Om du har osparade ändringa
 
 Mer information om hur du sammanfogar innehåll från en annan version av samma eller en annan fil finns i [Sammanfoga](web-editor-features.md#id205DF04E0HS) i webbredigeraren.
 
-**Tidigare versioner** - ![](images/version-history-web-editor-ico.svg)
+**Versionshistorik** - ![](images/version-history-web-editor-ico.svg)
 
 Kontrollera de tillgängliga versionerna och etiketterna för det aktiva ämnet och gå tillbaka till valfri version från redigeraren.
 
@@ -184,7 +184,7 @@ Visar eller döljer radnumret för varje ämne. Radnumren visas beroende på niv
 
 - **Visa kryssruta**
 
-Visar eller döljer en kryssruta för varje ämne. Du kan använda kryssrutan för att markera ämnet och utföra olika åtgärder på Alternativ-menyn. Mer information finns i [Alternativ](#id228ID8006H8) -menyn.
+Visar eller döljer en kryssruta för varje ämne. Du kan använda kryssrutan för att markera ämnet och utföra olika åtgärder på Alternativ-menyn. Mer information finns på menyn [Alternativ](#id228ID8006H8).
 
 - **Visa filnamn**
 
@@ -195,18 +195,18 @@ Visar filnamnet på ämnesrubrikerna.
 > När du håller pekaren över ett temats titel visas filsökvägen.
 
 
-**Visa ämnen baserat på villkorsstyrda filter** Om du har tillämpat några villkor för ett ämne visas en filterikon till höger om ämnet. När du håller pekaren över en filterikon visas det använda villkoret och dess attributvärde.
+**Visa ämnen baserat på villkorliga filter** Om du har tillämpat villkor i ett ämne visas en filterikon till höger om ämnet. När du håller pekaren över en filterikon visas det använda villkoret och dess attributvärde.
 
-**Menyn Alternativ i layoutvyn**
+**Alternativ-menyn i layoutvyn**
 
 Förutom att ordna ämnen i kartfilen kan du även utföra följande åtgärder med Alternativ-menyn som är tillgänglig för ett element i layoutvyn:
 
 ![](images/map-editor-options-menu.png){width="650" align="left"}
 
-- **Lägg till**: Du kan välja att lägga till ett nytt ämne eller en tom referens från Kartredigeraren:
-   - **Tom referens**: Med det här alternativet kan du lägga till en tom referens på DITA-kartan. Du kan dubbelklicka på den infogade tomma referensen senare och lägga till ämnesinformationen. Mer information finns i [Skapa ett ämne](web-editor-features.md#id228ICI0105U) i webbredigeraren.
+- **Lägg till**: Du kan välja att lägga till ett nytt ämne eller en tom referens från kartredigeraren:
+   - **Tom referens**: Med det här alternativet kan du lägga till en tom referens i DITA-kartan. Du kan dubbelklicka på den infogade tomma referensen senare och lägga till ämnesinformationen. Mer information finns i [Skapa ett ämne](web-editor-features.md#id228ICI0105U) i webbredigeraren.
    - **Nytt ämne**: När du väljer att skapa ett nytt ämne på menyn visas dialogrutan Skapa nytt ämne. Ange nödvändig information i dialogrutan Skapa nytt ämne och klicka på Skapa. Mer information finns i [Skapa ett ämne](web-editor-features.md#id228ICI0105U) i webbredigeraren.
-- **Flytta**: Du kan välja att flytta ett ämne uppåt/nedåt/höger/vänster i hierarkin.Du kan också dra och släppa ett ämne eller en karta från databaspanelen till kartan som öppnas i kartredigeraren.
+- **Flytta**: Du kan välja att flytta ett ämne uppåt/nedåt/höger/vänster i hierarkin. Du kan också dra och släppa ett ämne eller en karta från databaspanelen till kartan som öppnas i kartredigeraren.
 - **Ångra**: Ångra den senaste åtgärden i layoutvyn.
 - **Gör om**: Gör om den senaste åtgärden i layoutvyn.
 - **Kopiera**: Kopiera den markerade referensen från kartfilen.
@@ -216,7 +216,7 @@ Förutom att ordna ämnen i kartfilen kan du även utföra följande åtgärder 
   > Du kan visa och sedan markera kryssrutorna för att kopiera flera referenser.
 
 - **Klistra in**: Klistra in de kopierade referenserna på den aktuella platsen i hierarkin.
-- **Ta bort**: Ta bort de markerade referenserna från kartfilen.
+- **Ta bort**: Ta bort de markerade referenserna från mappningsfilen.
 
   >[!NOTE]
   >
@@ -231,16 +231,16 @@ På den högra panelen visas Innehållsegenskaper och Kartegenskaper i layoutvyn
 
 Panelen Innehållsegenskaper innehåller information om vilken typ av ämne som är markerat på kartan, dess länk-URL och dess attribut. Mer information finns i [Innehållsegenskaper](web-editor-features.md#id228IDB00HMM) i webbredigeraren.
 
-- **Andra attribut** Om administratören har skapat en profil för attribut får du dessa attribut tillsammans med deras konfigurerade värden. Med innehållsegenskapspanelen kan du välja dessa attribut och tilldela dem till relevant innehåll i ditt ämne. Du kan också tilldela attribut som konfigurerats av administratören under **Visa attribut** i redigeringsinställningarna. De attribut som är definierade för ett element visas i layoutvyn och dispositionsvyn. Detta hjälper dig att snabbt få en överblick över alla ämnen i en karta för vilka ett visst attribut har definierats. Alla ämnen som har plattformsattributet definierat som Android.
+- **Andra attribut** Om administratören har skapat en profil för attribut får du dessa attribut tillsammans med deras konfigurerade värden. Med innehållsegenskapspanelen kan du välja dessa attribut och tilldela dem till relevant innehåll i ditt ämne. Du kan också tilldela attribut som konfigurerats av administratören på fliken **Visningsattribut** i redigeringsinställningarna. De attribut som är definierade för ett element visas i layoutvyn och dispositionsvyn. Detta hjälper dig att snabbt få en överblick över alla ämnen i en karta för vilka ett visst attribut har definierats. Alla ämnen som har plattformsattributet definierat som&quot;Android&quot;.
 
   ![layoutvy](images/layout-inline-attributes.png){width="650" align="left"}
 
 
-  Mer information finns i *Visa attribut* inom *Inställningar för Redigeraren* funktionsbeskrivning i [Vänster panel](web-editor-features.md#id2051EA0M0HS) -avsnitt.
+  Mer information finns i *Visningsattribut* i funktionsbeskrivningen för *redigeringsinställningar* i avsnittet [Vänster panel](web-editor-features.md#id2051EA0M0HS).
 
-- **Metadata** Med hjälp av metadata kan du ange metadatainformation. Du kan definiera navigeringsrubriken, länktexten, kortbeskrivningen och nyckelorden.
+- **Metadata** Du kan ange metadatainformation med hjälp av metadata. Du kan definiera navigeringsrubriken, länktexten, kortbeskrivningen och nyckelorden.
 
-Mer information om attribut och metadata för standardämnen finns i [topicref](https://docs.oasis-open.org/dita/v1.2/os/spec/langref/topicref.html) dokumentation i OASIS DITA Language Specification.
+Mer information om standardämnesattribut och metadata finns i [topicref](https://docs.oasis-open.org/dita/v1.2/os/spec/langref/topicref.html) -dokumentationen i språkspecifikationen för OASIS DITA.
 
 **Kartegenskaper**
 
@@ -248,7 +248,7 @@ Visar dialogrutan Kartegenskaper där du kan ange attribut och metadatainformati
 
 ## Författarvy {#id205DEC0005Z_author_view}
 
-The **Upphovsman** I kan du redigera DITA-kartan i Web Editor. Detta visar WYSIWYG-vyn i kartredigeraren och några av de ikoner som visas i redigeringsvyn är desamma som layoutvyn. Mer information finns i [Layoutvyn](#id205DEC0005Z_layout_view). Dessutom kan du se följande ikoner och utföra relaterade uppgifter i redigeringsvyn:
+I vyn **Författare** kan du redigera din DITA-karta i webbredigeraren. Detta visar WYSIWYG-vyn i kartredigeraren och några av de ikoner som visas i redigeringsvyn är desamma som layoutvyn. Mer information finns i [Layoutvyn](#id205DEC0005Z_layout_view). Dessutom kan du se följande ikoner och utföra relaterade uppgifter i redigeringsvyn:
 
 **Infoga före/infoga efter** - ![](images/insert_element_before_icon.svg) / ![](images/insert_element_after_icon.svg)
 
@@ -260,21 +260,21 @@ Visar dialogrutan Infoga element. Markera elementet som du vill infoga. Du kan a
 
 **Infoga relationstabell** - ![](images/relationship_table_icon.svg)
 
-Infogar en relationstabell i kartan. Eftersom begreppet att arbeta med relationstabellen är detsamma som beskrivs i avsnittet Grundläggande kartredigerare finns mer information i [Arbeta med relationstabeller i den grundläggande kartredigeraren](map-editor-basic-map-editor.md#id1944B0I0COB) för mer information.
+Infogar en relationstabell i kartan. Eftersom begreppet att arbeta med relationstabellen är detsamma som beskrivs i avsnittet Grundläggande kartredigerare finns mer information i [Arbeta med relationstabeller i Grundläggande kartredigerare](map-editor-basic-map-editor.md#id1944B0I0COB).
 
 **Infoga återanvändbart innehåll** - ![](images/content-reuse-icon.png)
 
 Visar dialogrutan Återanvänd innehåll. Använd den här dialogrutan för att infoga innehållet som du vill återanvända på kartan.
 
-**Uppdatera navigeringsrubriksattribut** - ![](images/navtitle-refresh-icon.svg)
+**Uppdatera navigeringsrubrikattribut** - ![](images/navtitle-refresh-icon.svg)
 
-Synkroniserar `title` element i en refererad fil i en karta med det värde som anges i `@navtitle` -attribut. Du kan lägga till olika typer av referensfiler på en karta, till exempel avsnitt-, referens-, uppgift-, \(sub\)-kartor. De flesta av dessa filer har stöd för `@navtitle` -attribut. Om en fil innehåller `@navtitle` -attribut, sedan `@navtitle` attributet för samma fil på kartan uppdateras. Om `@navtitle` -attributet finns inte, sedan `@navtitle` attributet läggs till i referensfilen och dess `title` uppdateras även för att visa `@navtitle`.
+Synkroniserar elementet `title` i en refererad fil i en karta med det värde som anges i dess `@navtitle`-attribut. Du kan lägga till olika typer av referensfiler på en karta, till exempel avsnitt-, referens-, uppgift-, \(sub\)-kartor. De flesta av dessa filer stöder attributet `@navtitle`. Om en fil innehåller attributet `@navtitle` uppdateras attributet `@navtitle` för samma fil på kartan. Om attributet `@navtitle` inte finns med läggs attributet `@navtitle` till i referensfilen och dess `title` uppdateras även för att visa `@navtitle`.
 
 >[!NOTE]
 >
-> Administratören kan konfigurera automatisk tillägg `@navtitle` för alla referensfiler som du lägger till på en karta. Mer information om hur du konfigurerar automatisk tillägg `@navtitle` attribut, se *Inkludera @navtitle-attribut som standard* i Installera och konfigurera Adobe Experience Manager Guides as a Cloud Service.
+> Administratören kan konfigurera det automatiskt tillagda attributet `@navtitle` för varje referensfil som du lägger till på en karta. Mer information om hur du konfigurerar automatiskt tillagda `@navtitle`-attribut finns i *Inkludera @navtitle-attribut som standard* i Installera och konfigurera Adobe Experience Manager Guides as a Cloud Service.
 
-Klicka på ikonen Uppdatera navigeringsrubrikattribut för att synkronisera `title` -element och `@navtitle` attributets värden.
+Klicka på ikonen Uppdatera navigeringsrubrikattribut för att synkronisera värdena för elementet `title` och attributet `@navtitle`.
 
 **Växla taggvy** - ![](images/Label_icon.svg)
 
@@ -286,39 +286,39 @@ Du kan hålla reda på alla uppdateringar som gjorts i kartfilen genom att aktiv
 
 **Skapa granskningsaktivitet** - ![](images/create-review-task-icon.svg)
 
-Du kan skapa en granskningsåtgärd för det aktuella ämnet eller kartan direkt från webbredigeraren. Öppna filen som du vill skapa granskningsaktiviteten för och klicka på Skapa granskningsuppgift för att starta granskningsprocessen. Följ instruktionerna i [Granska ämnen och kartor](review.md#) för mer information.
+Du kan skapa en granskningsåtgärd för det aktuella ämnet eller kartan direkt från webbredigeraren. Öppna filen som du vill skapa granskningsaktiviteten för och klicka på Skapa granskningsuppgift för att starta granskningsprocessen. Följ instruktionerna i [Granska avsnitt eller kartor](review.md#) om du vill ha mer information.
 
 ## Redigera ämnen via DITA-kartan {#id17ACJ0F0FHS}
 
 Om du redigerar ett enskilt ämne får inte författaren hela kontexten. En författare har ingen information om var ett ämne placeras på en DITA-karta. Utan den här kontextuella informationen blir det lite svårt för författare att skapa innehåll.
 
-Med AEM Guides kan författare öppna en DITA-karta i webbredigeraren och se var ämnen finns på kartan. Detta hjälper författare att veta exakt var exakt ämnet placeras på kartan och skapa mer relevant innehåll. Om det finns flera författare som arbetar med ett projekt kan de också veta vilka ämnen som är tillgängliga på kartan och återanvända innehållet där det behövs.
+Med AEM Guides kan författare öppna en DITA-karta i webbredigeraren och se var ämnen placeras på kartan. Detta hjälper författare att veta exakt var exakt ämnet placeras på kartan och skapa mer relevant innehåll. Om det finns flera författare som arbetar med ett projekt kan de också veta vilka ämnen som är tillgängliga på kartan och återanvända innehållet där det behövs.
 
 Så här redigerar du ämnen via en DITA-karta:
 
-1. Navigera till DITA-kartan som innehåller de ämnen du vill redigera i resursgränssnittet.
+1. I Assets-gränssnittet navigerar du till DITA-kartan som innehåller de ämnen som du vill redigera.
 1. Klicka på DITA-kartan för att öppna den i DITA-kartkonsolen.
-1. Välj **Ämnen** om du vill visa en lista med ämnen som är tillgängliga på DITA-kartan.
+1. Välj fliken **Ämnen** om du vill visa en lista med ämnen som är tillgängliga på DITA-kartan.
 
    >[!TIP]
    >
    > På fliken Ämnen kan du hämta kartfilen med tillhörande beroenden. Mer information finns i [Exportera en DITA-kartfil](authoring-download-assets.md#id218UBA00IXA).
 
-1. Klicka på i huvudverktygsfältet **Redigera ämnen**.
+1. Klicka på **Redigera ämnen** i huvudverktygsfältet.
 
    DITA-kartan öppnas i webbredigeraren.
 
    >[!NOTE]
    >
-   > Du kan också välja DITA-mappningsfilen i resursgränssnittet och klicka på **Redigera ämnen** i huvudverktygsfältet för att starta Web Editor.
+   > Du kan också välja DITA-kartfilen i Assets-gränssnittet och klicka på **Redigera ämnen** i huvudverktygsfältet för att starta Web Editor.
 
    ![](images/web-editor-map-view_cs.png){width="350" align="left"}
 
-1. \(*Valfritt*\) Du kan också välja ett ämne på kartan och checka ut filen innan du redigerar den. Om du vill checka ut filen väljer du en eller flera filer i den vänstra rutan och klickar på **Utcheckning**. Du kan också låsa upp en fil genom att markera den utcheckade filen och klicka på **Avbryt utcheckning och Lås upp** i Kartvyn.
+1. \(*Valfritt*\) Du kan också välja ett ämne från kartan och checka ut filen innan du redigerar. Om du vill checka ut filen/filerna markerar du en eller flera filer i den vänstra rutan och klickar på **Checka ut**. Du kan också låsa upp en fil genom att markera den utcheckade filen och klicka på ikonen **Avbryt utcheckning och Lås upp** i kartvyn.
 
    >[!IMPORTANT]
    >
-   > Om administratören har konfigurerat **Inaktivera redigering utan utcheckning** måste du checka ut filen innan du redigerar. Om du inte checkar ut filen öppnas dokumentet i skrivskyddat läge i redigeraren.
+   > Om administratören har konfigurerat alternativet **Inaktivera redigering utan utcheckning** måste du checka ut filen innan du redigerar. Om du inte checkar ut filen öppnas dokumentet i skrivskyddat läge i redigeraren.
 
    Följande skärmbild markerar ikonerna för utcheckning och låsning \(A\), Avbryt utcheckning och Lås upp \(B\), Spara som ny version och Lås upp \(C\), Redigera \(D\), Förhandsgranska \(E\), olika ikoner med olika filtyper i DITA \(F\) och filer som är utcheckade \(G\).
 
@@ -334,27 +334,27 @@ Så här redigerar du ämnen via en DITA-karta:
 
 1. När du är klar med redigeringen av ämnena kan du göra följande:
 
-   - Du kan spara dem en och en. Klicka på **Stäng utan att spara** Om du har frågor visas en dialogruta där du uppmanas att spara de osparade avsnitten:
+   - Du kan spara dem en och en. Om du klickar på **Stäng utan att spara** dina ämnen visas en dialogruta där du uppmanas att spara de osparade avsnitten:
 
      ![](images/save-multiple-topics.PNG){width="550" align="left"}
 
      Du kan välja att spara alla markerade ämnen eller avmarkera de ämnen som du inte vill spara.
 
-   - Du kan checka in ämnet med **Spara som ny version och lås upp** -knappen. När du sparar en version av ämnet skapas en ny version och låset släpps också.
+   - Du kan checka in ämnet med knappen **Spara som ny version och Lås upp** . När du sparar en version av ämnet skapas en ny version och låset släpps också.
 
      Du bör spara ändringarna innan du checkar in filerna.  När du sparar ändringarna valideras XML-filen.
 
-   - Du kan också markera och checka in flera ämnen med **Spara som ny version och lås upp** -knappen. När du sparar en version av ämnena skapas en ny version för varje ämne, och låset släpps också. Du kan även visa förloppet för att kontrollera ämnen från **Spara som ny version och lås upp** -dialogrutan. Ett meddelande visas när filerna har checkats in.
+   - Du kan också markera och checka in flera ämnen med knappen **Spara som ny version och Lås upp** . När du sparar en version av ämnena skapas en ny version för varje ämne, och låset släpps också. Du kan även visa förloppet för att checka in ämnen från dialogrutan **Spara som ny version och Lås upp**. Ett meddelande visas när filerna har checkats in.
 
    - Om administratören har aktiverat alternativet att checka in filer när de stängs visas en uppmaning om att spara filer när de utcheckade filerna stängs. När det här alternativet är aktiverat visas listan med utcheckade filer som behöver sparas när du stänger redigeraren med ändrade filer. De utcheckade filerna visas med en låsikon:
 
      ![](images/save-on-close.PNG){width="550" align="left"}
 
-      - Klicka på **Stäng utan att spara** stänger filerna utan att spara några ändringar.
+      - Om du klickar på knappen **Stäng utan att spara** stängs filerna utan att några ändringar sparas.
 
-      - Klicka på **Spara** sparar ändringarna, men checkar inte in filerna.
+      - Om du klickar på knappen **Spara** sparas ändringarna, men filerna checkas inte in.
 
-      - Markera **Kontrollerar filer** och sedan klicka på **Spara** -knappen checkar in filerna \(skapar en annan version\) och sparar även filerna.
+      - Om du väljer alternativet **Kontrollera filer** och sedan klickar på knappen **Spara** checkas filerna in \(skapar en annan version\) och filerna sparas också.
 
 
 ## Förhandsgranska en karta
@@ -363,19 +363,19 @@ Förutom att kunna se positionen för varje ämnesfil i en karta, är det önskv
 
 Du kommer åt förhandsgranskningen av en karta från:
 
-- **Resursgränssnitt**: I resursgränssnittet navigerar du till kartpositionen, markerar kartfilen och väljer **Förhandsgranska karta** i verktygsfältet. Förhandsgranskningen av kartan visas på en ny flik. Du kan visa innehållet i alla ämnen i förhandsgranskningsläget. I den här vyn kan du inte redigera något ämne.
+- **Assets-gränssnitt**: Navigera till kartpositionen i Assets-gränssnittet, markera kartfilen och välj **Förhandsgranska karta** i verktygsfältet. Förhandsgranskningen av kartan visas på en ny flik. Du kan visa innehållet i alla ämnen i förhandsgranskningsläget. I den här vyn kan du inte redigera något ämne.
 
   >[!NOTE]
   >
-  > Om *Förhandsgranska karta* alternativet är inte synligt i huvudverktygsfältet, det kan ha flyttats under **Mer** verktygsfältmenyn.
+  > Om alternativet *Förhandsgranskningskarta* inte visas i huvudverktygsfältet kan det ha flyttats under verktygsfältmenyn **Mer**.
 
-- **Avancerad kartredigerare**: I Avancerad kartredigerare klickar du på ikonen Förhandsgranska för att visa förhandsgranskningen av den aktuella kartan.
+- **Avancerad kartredigerare**: Klicka på förhandsgranskningsikonen i Avancerad kartredigerare om du vill visa förhandsgranskningen av den aktuella kartan.
 
   ![](images/map-preview-icon.png){width="350" align="left"}
 
   Du kan utföra följande åtgärder i förhandsgranskningsläget:
 
-   - Högerklicka på ett ämne och välj **Redigera** om du vill öppna ämnet för redigering på en ny flik.
+   - Högerklicka på ett ämne och välj **Redigera** för att öppna ämnet för redigering på en ny flik.
 
      >[!NOTE]
      >

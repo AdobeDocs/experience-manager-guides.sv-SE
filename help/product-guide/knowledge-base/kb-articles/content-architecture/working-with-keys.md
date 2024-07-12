@@ -6,7 +6,7 @@ exl-id: b8e3a6d2-ea82-4fdb-bd16-3f4b6594af52
 feature: Use Keys in AEM Guides
 source-git-commit: 47e6c57b8a61f02dc4f03594d91ee842bdccef90
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Organisationer bör använda nycklar i de fall där de har viss återanvändbar 
 
 ## Steg 1: Skapa en global karta för att lagra nycklar
 
-Skapa en karta och lägg till [!UICONTROL keyref] -element.
+Skapa en karta och lägg till elementet [!UICONTROL keyref] i det.
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -37,7 +37,7 @@ Skapa en karta och lägg till [!UICONTROL keyref] -element.
 </map>
 ```
 
-Här har du definierat två definitioner, som visas ovan, som en [!UICONTROL keyref] as _AEM_ för _Adobe Experience Manager_ text.
+Här har du definierat två definitioner, som visas ovan, som [!UICONTROL keyref] som _AEM_ för texten _Adobe Experience Manager_.
 
 ## Steg 2: Lägg till kartan i publikationskartan
 

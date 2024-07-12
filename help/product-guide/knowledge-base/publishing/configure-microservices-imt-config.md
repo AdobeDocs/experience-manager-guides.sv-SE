@@ -28,7 +28,7 @@ När molnpubliceringstjänsten skyddas av OAuth-baserad autentisering från Adob
 
 **Roll som krävs för att skapa konfigurationerna**: Systemadministratör
 
-Utför följande steg för att skapa IMS-konfigurationer i **Adobe Developer Console**:
+Så här skapar du IMS-konfigurationer i **Adobe Developer Console**:
 
 >[!NOTE]
 >
@@ -36,19 +36,19 @@ Utför följande steg för att skapa IMS-konfigurationer i **Adobe Developer Con
 
 1. Öppna **Developer Console**: `https://developer.adobe.com/console`.
 
-1. Växla till **Projekt** överst.
+1. Växla till fliken **Projekt** uppifrån.
 
    <img src="assets/projects-tab.png" alt="fliken Projekt" width="500">
 
-   *Välj **Projekt**på&#x200B;**Adobe Developer Console***
+   *Välj fliken **Projekt**på&#x200B;**Adobe Developer Console***
 
-1. Om du vill skapa ett nytt tomt projekt väljer du **Tomt projekt** från **Skapa nytt projekt** nedrullningsbar meny.
+1. Om du vill skapa ett nytt tomt projekt väljer du **Tomt projekt** i listrutan **Skapa nytt projekt** .
 
    <img src="assets/create-new-project.png" alt="skapa nytt projekt" width="500">
 
    *Skapa ett nytt tomt projekt.*
 
-1. Välj **API** från **Lägg till i projekt** listruta för att lägga till IO Management API i projektet.
+1. Välj **API** i listrutan **Lägg till i projekt** om du vill lägga till IO-hanterings-API:t i projektet.
 
    <img src="assets/add-project.png" alt="lägg till projekt" width="300">
 
@@ -65,17 +65,17 @@ Utför följande steg för att skapa IMS-konfigurationer i **Adobe Developer Con
    *Konfigurera OAuth-autentiseringsuppgifter för ditt API.*
 
 
-1. Återgå till **Projekt** och markera **Projektöversikt** till vänster.
+1. Gå tillbaka till fliken **Projekt** och välj **Projektöversikt** till vänster.
 
    <img src="assets/project-overview.png" alt="projektöversikt" width="500">
 
    *Kom igång med det nya projektet.*
 
-1. Klicka på **Ladda ned** överst för att hämta JSON-tjänsten.
+1. Klicka på knappen **Hämta** överst för att hämta JSON-tjänsten.
 
    <img src="assets/download-json.png" alt="ladda ned json" width="500">
 
-   *Ladda ned information om JSON-tjänsten.*
+   *Hämta JSON-tjänstinformationen.*
 
 Du har konfigurerat OAuth-autentiseringsinformationen och laddat ned JSON-tjänstinformationen. Ha den här filen till hands så som det behövs i nästa avsnitt.
 
@@ -86,16 +86,16 @@ Du har konfigurerat OAuth-autentiseringsinformationen och laddat ned JSON-tjäns
 >
 >Om du redan har skapat ett OAuth-projekt för smarta förslag kan du återanvända samma projekt för mikrotjänster och hoppa över följande steg för att lägga till IMS-konfiguration i miljön.
 
-### Uppdatera befintlig konfiguration (JWT till OAuth shift)
+### Uppdatera befintlig konfiguration (JWT   till OAuth shift )
 
 Om du redan använder en mikrotjänst för publicering med JWT (utgått) utför du följande steg för att uppdatera konfigurationerna:
 
 
 
-1. Öppna **Experience Manager** och välj det program som innehåller den miljö som du vill konfigurera.
-1. Växla till **Miljö** -fliken.
-1. Välj namnet på miljön som du vill konfigurera. Du bör navigera till **Miljöinformation** sida.
-1. Växla till **Konfiguration** -fliken.
+1. Öppna **Experience Manager** och markera det program som innehåller den miljö som du vill konfigurera.
+1. Växla till fliken **Miljö**.
+1. Välj namnet på miljön som du vill konfigurera. Du bör navigera till sidan **Miljöinformation**.
+1. Växla till fliken **Konfiguration**.
 
 1. Uppdatera JSON-fältet SERVICE_ACCOUNT_DETAILS med den nya OAuth JSON-filen som du hämtade.
 1. Ta bort fältet PRIVATE_KEY.
@@ -109,10 +109,10 @@ Om du redan använder en mikrotjänst för publicering med JWT (utgått) utför 
 ### Första gången
 
 Om du vill använda en publiceringsmikrotjänst för första gången uppdaterar du konfigurationerna enligt följande steg:
-1. Öppna **Experience Manager** och välj det program som innehåller den miljö som du vill konfigurera.
-1. Växla till **Miljö** -fliken.
-1. Välj namnet på miljön som du vill konfigurera. Du bör navigera till **Miljöinformation** sida.
-1. Växla till **Konfiguration** -fliken.
+1. Öppna **Experience Manager** och markera det program som innehåller den miljö som du vill konfigurera.
+1. Växla till fliken **Miljö**.
+1. Välj namnet på miljön som du vill konfigurera. Du bör navigera till sidan **Miljöinformation**.
+1. Växla till fliken **Konfiguration**.
 
 1. Skapa en ny konfiguration med namnet SERVICE_ACCOUNT_DETAILS. I värdet lägger du till innehåll i OAuth JSON-filen som du hämtade från utvecklarkonsolen.
 
@@ -130,11 +130,11 @@ Om du vill använda en publiceringsmikrotjänst för första gången uppdaterar 
 
 När du har lagt till IMS-konfigurationen i miljön utför du följande steg för att länka dessa egenskaper till Experience Manager Guides med OSGi:
 
-1. Lägg till följande två filer i Git-projektkoden för molnhanteraren `/apps/fmditaCustom/config` (för filinnehåll, visa [Bilaga](#appendix)).
+1. Lägg till följande två filer i `/apps/fmditaCustom/config` (för filinnehåll, se [Bilaga](#appendix)) i Git-projektkoden för din molnhanterare.
 
    * `com.adobe.aem.guides.eventing.ImsConfiguratorService.cfg.json`
    * `com.adobe.fmdita.publishworkflow.PublishWorkflowConfigurationService.xml`
-1. Se till att de nya filerna täcks av dina `filter.xml`.
+1. Se till att de nyligen tillagda filerna täcks av din `filter.xml`.
 1. Verkställ och skicka Git-ändringarna.
 1. Kör pipeline för att tillämpa ändringarna på miljön.
 
@@ -144,7 +144,7 @@ När detta är klart kan du använda den mikrotjänstbaserade molnpubliceringen.
 
 
 1. Om OSGi-konfigurationer för att använda mikrotjänsten är aktiverade, kommer publiceringsprocessen att fungera på den lokala Experience Manager-servern med samma kodbas?
-   * Nej, om flaggan `dxml.use.publish.microservice` är inställd på `true`söker programmet alltid efter mikrotjänstkonfigurationer. Ange `dxml.use.publish.microservice` till `false` för att publiceringen ska fungera på den lokala servern.
+   * Nej, om flaggan `dxml.use.publish.microservice` är inställd på `true` söker den alltid efter mikrotjänstkonfigurationer. Ange `dxml.use.publish.microservice` till `false` för att publiceringen ska fungera på den lokala servern.
 1. Hur mycket minne tilldelas DITA-processen vid användning av mikrotjänstbaserad publicering? Drivs detta via DITA-profilen och -parametrarna?
    * Med mikrotjänstbaserad publicering styrs minnesallokeringen inte av DITA-profilen och -parametrarna. Det totala tillgängliga minnet för tjänstbehållaren är 8 GB, varav 6 GB tilldelas DITA-OT-processen.
 
@@ -166,7 +166,7 @@ När detta är klart kan du använda den mikrotjänstbaserade molnpubliceringen.
 
 **Innehåll**:
 * `dxml.use.publish.microservice`: Växla för att aktivera mikrotjänstbaserad publicering med DITA-OT
-* `dxml.use.publish.microservice.native.pdf`: Växla för att aktivera mikrotjänstbaserad publicering i PDF
+* `dxml.use.publish.microservice.native.pdf`: Växla för att aktivera mikrotjänstbaserad Native PDF-publicering
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>

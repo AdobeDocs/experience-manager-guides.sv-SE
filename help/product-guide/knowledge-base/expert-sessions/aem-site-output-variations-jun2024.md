@@ -1,6 +1,6 @@
 ---
 title: Utdatamodeller för AEM Sites
-description: Lär dig hur du använder olika varianter av AEM Sites-utdata från AEM Guides
+description: Lär dig generera olika varianter av AEM Sites-utdata från AEM Guides
 source-git-commit: e4873d61fce4a44cf77fadb2b1a4425252c71af8
 workflow-type: tm+mt
 source-wordcount: '196'
@@ -11,9 +11,11 @@ ht-degree: 0%
 
 # Sessionsöversikt
 
-En väldefinierad layout av en webbupplevelse resulterar i enhetlig programanpassning och design tillsammans med enhetlighet och enhetlighet i hela plattformens digitala upplevelse/sidor.
+En väldefinierad layout av en webbupplevelse resulterar i enhetlig programanpassning
+och skapa tillsammans med enhetlighet och enhetlighet i hela det digitala
+upplevelse/sidor på plattformen.
 Allt detta kan du göra genom olika varianter av AEM sajtutdata från Adobe Experience Manager Guides.
-Under den här sessionen får du lära dig hur du använder generate olika varianter av AEM webbplatsutdata.
+Under den här sessionen får du lära dig hur du skapar olika varianter av AEM webbplatsutdata.
 
 ## Sessionsregistrering
 
@@ -33,18 +35,18 @@ Under den här sessionen kommer du att lära dig mer om följande:
 - **Datum** - 27 juni 2024
 - **Antal deltagare** - 120
 - **Varaktighet** - 60 minuter
-- **Målgrupp** - Kunder, partners och anställda på Adobe
+- **Målgrupp** - Kunder, partners och anställda i Adobe
 
 ## Relaterade resurser
 
 
 - [AEM Site Output Publishing](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/output-presets-aemg/generate-output-aem-site#:~:text=To%20open%20output%20presets%20for,configurations%2C%20and%20then%20click%20Save.)
 
-- [KB Output publishing](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/output-presets-aemg/generate-output-knowledge-base)
+- [KB-utdatapublicering](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/output-presets-aemg/generate-output-knowledge-base)
 
-- [AEM](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/templates/templates)
+- [AEM mallar](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/templates/templates)
 
-- **Community Forum** - Om du vill ha sessionsspecifika communityinteraktioner på Experience League går du till [AEM Guides Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **Community-forum** - Besök [AEM Guides-forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions) om du vill ha sessionsspecifik communityinteraktion på Experience League.
 
 >[!NOTE]
 >
@@ -52,4 +54,4 @@ Under den här sessionen kommer du att lära dig mer om följande:
 
 ## Kontakta oss
 
-Om du har frågor kan du skicka ett e-postmeddelande till oss på <techcomm@adobe.com>
+Om du har frågor kan du skicka ett e-postmeddelande till <techcomm@adobe.com>

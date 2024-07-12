@@ -1,13 +1,13 @@
 ---
 title: Dölj alternativet Skapa DitaMap på snabbmenyn Mapp för specifika användare eller grupper.
 description: Lär dig hur du anpassar webbredigeraren genom att dölja alternativet DitaMap på mappsnabbmenyn för specifika användare/grupper
-source-git-commit: ea8fb646287f68676b6530b4cc5f56e7ba2d9b0c
+exl-id: 796bfe3a-3950-4ade-9215-c33534791055
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 0%
 
 ---
-
 
 # Visa/dölj Skapa DitaMAP på mappsnabbmenyn i webbredigeraren
 
@@ -16,8 +16,8 @@ I det här fallet döljer vi det här alternativet för alla användare som inte
 
 ## Krav
 
-Vi kommer att använda paketet AEM Guides Extension som gör att du kan anpassa gränssnittet för ditt program efter dina behov.
-Gå igenom det här [dokumentation](https://github.com/adobe/guides-extension/tree/main) för att få mer information om hur Guides Extension Framework fungerar.
+Vi kommer att utnyttja AEM Guides Extension-paketet som gör att du kan anpassa gränssnittet för ditt program efter dina behov.
+Gå igenom den här [dokumentationen](https://github.com/adobe/guides-extension/tree/main) för att få mer information om hur Guides Extension Framework fungerar.
 
 Nu kan du komma igång och lära dig hur du anpassar mappens snabbmeny för att dölja det här alternativet för alla användare som inte är författare.
 
@@ -60,7 +60,7 @@ const folderOptions = {
 };
 ```
 
-- **Skapa en ny widget för att hantera logiken**
+- **Skapande av en ny widget som hanterar logiken**
 
   En ny widget (custom options.ts) behövs för att skriva logiken som döljer det här alternativet endast för användare som inte är författare. För att uppnå detta har vi använt nyckeln show som fungerar som en växlingsknapp i vår JSON-struktur.
 
@@ -113,7 +113,7 @@ controller: {
   },
 ```
 
-- **Lägga till anpassad kod**
+- **Lägger till den anpassade koden**
 
   Importera mappen_options.ts och customOptions.ts till filen index.ts under /src.
 
@@ -126,13 +126,13 @@ Det här användningsfallet har lagts till i GIT, se relaterade resurser nedan.
 
 ### Relaterade resurser
 
-- **Bas-databas för Extension Framework** - [GIT](https://github.com/adobe/guides-extension/tree/main)
+- **Grunddatabas för tilläggsramverksbas** - [GIT](https://github.com/adobe/guides-extension/tree/main)
 
 - **Dokumentation** - [på Experience League](../../../../../guides-ui-extensions/aem_guides_framework/basic-customisation.md)
 
 - **Dokumenterade användningsfall** - [på Experience League](../../../../../guides-ui-extensions/aem_guides_framework/jui-framework.md)
 
-- **Offentlig databas med exempel** - [på GIT](https://github.com/adobe/guides-extension/tree/sc-expert-session). Se session mellan en filial och en expert
+- **Offentlig databas med exempel** - [ i GIT](https://github.com/adobe/guides-extension/tree/sc-expert-session). Se session mellan en filial och en expert
 
 ```
 

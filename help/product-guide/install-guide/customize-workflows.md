@@ -20,28 +20,28 @@ Mer information om arbetsflöden i AEM finns i:
 
 - [Administrera arbetsflöden](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html)
 
-- Använda och delta i arbetsflöden: [Arbeta med arbetsflöden](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/workflows.html).
+- Tillämpar och deltar i arbetsflöden: [Arbeta med arbetsflöden](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/workflows.html).
 
 - Skapa arbetsflödesmodeller och utöka arbetsflödesfunktioner: [Utveckla och utöka arbetsflöden](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/workflows.html).
 
-- Förbättra prestanda för arbetsflöden som använder betydande serverresurser: [Samtidig bearbetning av arbetsflöden](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance).
+- Förbättrar prestanda för arbetsflöden som använder betydande serverresurser: [Samtidig arbetsflödesbearbetning](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance).
 
 
-Avsnitten i det här avsnittet visar olika anpassningar som du kan göra i de standardarbetsflöden som levereras AEM stödlinjerna.
+Avsnitten i det här avsnittet visar olika anpassningar som du kan göra i standardarbetsflödena som levereras i AEM Guides.
 
 ## Anpassa granskningsarbetsflödet {#id176NE0C00HS}
 
 Alla organisationers skribenter arbetar på ett specifikt sätt för att uppfylla sina verksamhetskrav. I vissa organisationer finns det en dedikerad redigerare, medan andra organisationer kan ha ett automatiserat system för redaktionell granskning. I en organisation kan t.ex. ett vanligt arbetsflöde för redigering och publicering omfatta uppgifter som - när en författare har redigerat innehållet går det automatiskt till granskarna och när granskningen är klar går det till utgivaren för att generera det slutliga resultatet. I AEM kan aktiviteter som du gör med ditt innehåll och dina resurser kombineras i form av en process och mappas till ett AEM arbetsflöde. Mer information om arbetsflöden i AEM finns i [Administrera arbetsflöden](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html) i AEM.
 
-Med AEM kan du anpassa standardarbetsflödet för granskning. Du kan använda följande fyra anpassade granskningsrelaterade processer tillsammans med dina andra arbetsflöden för redigering och publicering.
+Med AEM Guides kan du anpassa standardarbetsflödet för granskning. Du kan använda följande fyra anpassade granskningsrelaterade processer tillsammans med dina andra arbetsflöden för redigering och publicering.
 
-- **Skapa granskning**: Den här processen förbereder de metadata som krävs för att skapa en granskningsåtgärd. Den tilldelar till exempel granskarna granskningsbehörighet, ställer in status för de ämnen som ska granskas, ställer in tidslinjer för granskningen med mera. Av de fyra processerna är detta den enda obligatoriska processen som måste ingå i ditt anpassade arbetsflöde. I ditt arbetsflöde kan du välja att inkludera eller exkludera de andra tre processerna.
+- **Skapa granskning**: Den här processen förbereder de metadata som krävs för att skapa en granskningsaktivitet. Den tilldelar till exempel granskarna granskningsbehörighet, ställer in status för de ämnen som ska granskas, ställer in tidslinjer för granskningen med mera. Av de fyra processerna är detta den enda obligatoriska processen som måste ingå i ditt anpassade arbetsflöde. I ditt arbetsflöde kan du välja att inkludera eller exkludera de andra tre processerna.
 
-- **Tilldela granskningsaktivitet**: Den här processen skapar granskningsaktiviteten och skickar uppgiftsmeddelandet till initieraren och granskarna.
+- **Tilldela granskningsaktivitet**: Den här processen skapar granskningsaktiviteten och skickar aktivitetsmeddelandet till initieraren och granskarna.
 
 - **Skicka e-post för granskning**: Den här processen skickar e-postmeddelandet till initieraren och granskarna.
 
-- **Schemalägg jobb för att stänga granskning**: Den här processen säkerställer att granskningsprocessen slutförs när tidsgränsen nås.
+- **Schemalägg jobb för att stänga granskning**: Den här processen ser till att granskningsprocessen slutförs när tidsgränsen nås.
 
 
 När du skapar ett anpassat granskningsarbetsflöde är den första uppgiften att ange de metadata som behövs för att skapa granskningsprocessen. Om du vill göra det kan du skapa ett ECMA-skript. Ett exempel på ECMA-skript som tilldelar metadata ges nedan:
@@ -61,20 +61,20 @@ workflowdata.getMetaDataMap().put("projectPath","/content/projects/review");
 workflowdata.getMetaDataMap().put("startTime", System.currentTimeMillis());
 ```
 
-Du kan skapa det här skriptet i `/etc/workflows/scripts` nod. I följande tabell beskrivs de egenskaper som tilldelas av detta ECMA-skript:
+Du kan skapa skriptet i noden `/etc/workflows/scripts`. I följande tabell beskrivs de egenskaper som tilldelas av detta ECMA-skript:
 
 | Egenskap | Typ | Beskrivning |
 |--------|----|-----------|
 | `initiator` | Sträng | Användar-ID för den användare som initierar granskningsaktiviteten. |
-| `operation` | Sträng | Ett statiskt värde anges som `AEM_REVIEW`. |
+| `operation` | Sträng | Ett statiskt värde angett som `AEM_REVIEW`. |
 | `orgTopics` | Sträng | Sökväg till de ämnen som delas för granskning. Ange flera ämnen avgränsade med kommatecken. |
-| `payloadJson` | JSON-objekt | Ange följande värden:<br> - `base`: sökväg till den överordnade mappen som innehåller ämnet som skickats för granskning.<br>- `asset`: sökväg till ämnet som skickats för granskning. <br>- `referrer`: lämna det tomt. |
-| `deadline` | Sträng | Ange tiden i `yyyy-MM-dd'T'HH:mm:ss.SSSXXX` format. |
+| `payloadJson` | JSON-objekt | Ange följande värden: <br> - `base`: sökväg till den överordnade mappen som innehåller det ämne som skickats för granskning.<br>- `asset`: sökväg till ämnet som skickats för granskning. <br>- `referrer`: lämna det tomt. |
+| `deadline` | Sträng | Ange tiden i formatet `yyyy-MM-dd'T'HH:mm:ss.SSSXXX`. |
 | `title` | Sträng | Ange en rubrik för granskningsaktiviteten. |
 | `description` | Sträng | Ange en beskrivning för granskningsaktiviteten. |
 | `assignee` | Sträng | Användar-ID för de användare till vilka du vill skicka ämnet för granskning. |
 | `status` | Heltal | Ett statiskt värde angett som 1. |
-| `startTime` | Lång | Använd `System.currentTimeMillis()` för att hämta aktuell systemtid. |
+| `startTime` | Lång | Använd funktionen `System.currentTimeMillis()` för att hämta den aktuella systemtiden. |
 
 När du har skapat skriptet anropar du det innan du anropar processen Skapa granskning i arbetsflödet. Beroende på dina behov kan du sedan anropa de andra granskningsarbetsflödena.
 
@@ -82,22 +82,22 @@ När du har skapat skriptet anropar du det innan du anropar processen Skapa gran
 
 Om du vill förbättra arbetsflödesmotorns prestanda kan du regelbundet rensa slutförda arbetsflödesinstanser från AEM. Om du använder AEM standardkonfigurationer rensas alla färdiga arbetsflödesinstanser efter en viss tidsperiod. Detta resulterar också i att alla granskningsarbetsflöden rensas från AEM.
 
-Du kan förhindra att granskningsarbetsflöden rensas automatiskt genom att ta bort granskningsarbetsflödesmodellen \(information\) från den automatiska rensningskonfigurationen. Du måste använda **Rensa arbetsflöde för Adobe Granite** om du vill ta bort arbetsflödesmodellerna för granskning från listan för automatisk rensning.
+Du kan förhindra att granskningsarbetsflöden rensas automatiskt genom att ta bort granskningsarbetsflödesmodellen \(information\) från den automatiska rensningskonfigurationen. Du måste använda **Rensa arbetsflöde för Adobe** för att ta bort arbetsflödesmodellerna för granskning från listan för automatisk rensning.
 
-I **Rensa arbetsflöde för Adobe Granite** ska du se till att du anger minst ett arbetsflöde som du kan rensa utan problem. Du kan t.ex. använda något av följande arbetsflöden som skapas AEM stödlinjer:
+Kontrollera att du har angett minst ett arbetsflöde som du kan rensa i listan över arbetsflöden som du kan rensa i **Adobe Granite Workflow Renge Configuration**. Du kan till exempel använda något av följande arbetsflöden som skapats av AEM Guides:
 
 - /etc/workflow/models/publishditamap/jcr:content/model
 - /etc/workflow/models/post-dita-project-creation-tasks/ jcr:content/model
 
-Lägga till ett arbetsflöde i **Rensa arbetsflöde för Adobe Granite** säkerställer att AEM bara tar bort de arbetsflöden som finns i listan i konfigurationen. Detta förhindrar AEM från att rensa granskningsarbetsflödesinformationen.
+Om du lägger till ett arbetsflöde i **Adobe Granite-arbetsflödets tömningskonfiguration** kan du AEM tömma endast de arbetsflöden som finns i konfigurationen. Detta förhindrar AEM från att rensa granskningsarbetsflödesinformationen.
 
-Mer information om hur du konfigurerar **Rensa arbetsflöde för Adobe Granite**, se *Administrera arbetsflödesinstanser* i AEM.
+Mer information om hur du konfigurerar **Adobe Granite Workflow Renge Configuration** finns i *Administrera arbetsflödesinstanser* i AEM.
 
 ### Anpassa e-postmallar
 
-I ett antal arbetsflöden för AEM stödlinjer används e-postmeddelanden. Om du till exempel initierar en granskningsåtgärd skickas ett e-postmeddelande till granskarna. Om du vill vara säker på att e-postmeddelandet skickas måste du aktivera den här funktionen i AEM. Om du vill aktivera e-postmeddelanden i AEM läser du artikeln [Konfigurerar e-postmeddelande](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=en) i AEM.
+I ett antal av AEM Guides arbetsflöden används e-postmeddelanden. Om du till exempel initierar en granskningsåtgärd skickas ett e-postmeddelande till granskarna. Om du vill vara säker på att e-postmeddelandet skickas måste du aktivera den här funktionen i AEM. Om du vill aktivera e-postmeddelanden i AEM läser du artikeln [Konfigurera e-postmeddelande](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=en) i AEM.
 
-AEM innehåller en uppsättning e-postmallar som du kan anpassa. Följ de här stegen för att anpassa de här mallarna:
+AEM Guides innehåller en uppsättning e-postmallar som du kan anpassa. Följ de här stegen för att anpassa de här mallarna:
 
 1. Logga in AEM och öppna läget CRXDE Lite.
 
@@ -107,7 +107,7 @@ AEM innehåller en uppsättning e-postmallar som du kan anpassa. Följ de här s
 
    >[!NOTE]
    >
-   > Gör inga anpassningar i standardkonfigurationsfilerna tillgängliga i ``libs`` nod. Du måste skapa en övertäckning av ``libs`` noden i ``apps`` noda och uppdatera de nödvändiga filerna i ``apps`` endast nod.
+   > Gör inga anpassningar i standardkonfigurationsfilerna tillgängliga i noden ``libs``. Du måste skapa en övertäckning av noden ``libs`` i noden ``apps`` och endast uppdatera de filer som krävs i noden ``apps``.
 
 1. E-postmappen innehåller följande anpassningsbara mallar:
 
@@ -120,7 +120,7 @@ AEM innehåller en uppsättning e-postmallar som du kan anpassa. Följ de här s
 
 ## Anpassa arbetsflödet för efterhandsproduktion {#id17A6GI004Y4}
 
-AEM Guides ger dig flexibilitet att ange ett arbetsflöde för postutdata. Du kan utföra vissa efterbehandlingsåtgärder på utdata som genereras med hjälp av AEM. Du kan till exempel använda vissa CQ-taggar på den genererade AEM för webbplatsutdata, ange vissa egenskaper för utdata från PDF eller skicka ett e-postmeddelande till en uppsättning användare när utdata har genererats.
+AEM Guides ger dig flexibilitet att ange ett arbetsflöde för postutdata. Du kan utföra vissa efterbehandlingsåtgärder på utdata som genereras med AEM Guides. Du kan till exempel använda vissa CQ-taggar på den genererade AEM för webbplatsutdata, ange vissa egenskaper för utdata från PDF eller skicka ett e-postmeddelande till en uppsättning användare när utdata har genererats.
 
 Du kan skapa en ny arbetsflödesmodell som du kan använda som arbetsflöde för att skapa utdata. När ett arbetsflöde för generering efter utdata aktiveras, delar arbetsflödet kontextuell information via arbetsflödets metadatamappning, som du kan använda för att utföra bearbetning av genererade utdata. I följande tabell beskrivs den sammanhangsberoende information som delas som metadata:
 
@@ -140,7 +140,7 @@ Om du vill använda metadata för generering av utdata kan du skapa ett ECMA-skr
 
 >[!NOTE]
 >
-> Du kan skapa det här skriptet i ``/etc/workflows/scripts`` nod.
+> Du kan skapa skriptet i noden ``/etc/workflows/scripts``.
 
 ```json
 var session = workflowSession.getSession(); // Obtain session object to read/write the repository.
@@ -163,15 +163,15 @@ generatedPath;
 */
 ```
 
-När du har skapat skriptet anropar du det anpassade skriptet i arbetsflödet. Beroende på dina behov kan du sedan anropa de andra arbetsflödesprocesserna. När du har utformat ditt arbetsflöde kan du ringa *Slutför postgenerering* som det sista steget i arbetsflödet. The *Slutför postgenerering* steg säkerställer att status för utdatagenereringsaktiviteten uppdateras till *Slutförd* när processen för generering av utdata har slutförts. När du har skapat ett anpassat arbetsflöde för postutdata kan du konfigurera det med alla förinställningar för utdatagenerering. Välj önskat arbetsflöde i *Kör arbetsflöde efter generering* egenskapen för den förinställning som krävs. När du kör en utdatagenereringsuppgift med den konfigurerade förinställningen ändras aktivitetsstatusen \(på fliken Utdata\) till *Efterbearbetning*.
+När du har skapat skriptet anropar du det anpassade skriptet i arbetsflödet. Beroende på dina behov kan du sedan anropa de andra arbetsflödesprocesserna. När du har utformat ditt anpassade arbetsflöde anropar du *Slutför Post-generering* som det sista steget i arbetsflödesprocessen. Steget *Slutför generering av Post* säkerställer att statusen för utdatagenereringsaktiviteten uppdateras till *Slutförd* när utdatagenereringsprocessen har slutförts. När du har skapat ett anpassat arbetsflöde för postutdata kan du konfigurera det med alla förinställningar för utdatagenerering. Välj önskat arbetsflöde i egenskapen *Kör Post Generation Workflow* för den önskade förinställningen. När du kör en utdatagenereringsuppgift med den konfigurerade förinställningen ändras aktivitetsstatusen \(på fliken Utdata\) till *Post-Processing*.
 
 ## Anpassa arbetsflödet Uppdatera resurs {#id18C3D0I0B5Z}
 
-Som standard är *DAM-uppdateringsresurs* arbetsflödesutlösare när du skapar eller uppdaterar någon AEM resurs \(XML eller icke-XML\). När du t.ex. skapar ett ämne eller uppdaterar det *DAM-uppdateringsresurs* arbetsflödet körs. The *DAM-uppdateringsresurs* arbetsflödet försöker extrahera relevanta metadata från resurserna. Inkorgen *Arbetsflöde för resursuppdatering* har inga steg för att extrahera relevanta metadata från en DITA-fil och *DAM-uppdateringsresurs* arbetsflödet genererar många loggar vid körningen. Om du vill undvika de extra loggarna kan du konfigurera arbetsflödet så att alla XML-filer inte bearbetas.
+Som standard utlöses arbetsflödet *DAM Update Asset* när du skapar eller uppdaterar någon AEM resurs \(XML eller icke-XML\). När du t.ex. skapar eller uppdaterar ett ämne körs arbetsflödet *DAM-uppdateringsresurs*. Arbetsflödet *DAM Update Asset* försöker extrahera relevanta metadata från Assets. Inkorgen *Resursuppdateringsarbetsflöde* innehåller inga steg för att extrahera relevanta metadata från en DITA-fil, och arbetsflödet *DAM Update Asset* genererar många loggar vid körningen. Om du vill undvika de extra loggarna kan du konfigurera arbetsflödet så att alla XML-filer inte bearbetas.
 
-Utför följande steg för att anpassa *DAM-uppdateringsresurs* arbetsflöde:
+Utför följande steg för att anpassa arbetsflödet för *DAM-uppdatering av resurs*:
 
-1. öppna **Arbetsflödeskörare** sida.
+1. öppna sidan **Arbetsflödesladdare**.
 
    Standardwebbadressen för att få åtkomst till sidan Arbetsflödesladdare är:
 
@@ -179,7 +179,7 @@ Utför följande steg för att anpassa *DAM-uppdateringsresurs* arbetsflöde:
    http://<server name>:<port>/libs/cq/workflow/admin/console/content/launchers.html
    ```
 
-1. Öppna egenskaperna för **DAM-uppdateringsresurs** arbetsflöde.
+1. Öppna egenskaperna för arbetsflödet **DAM Update Asset** i listan över arbetsflödesstarter.
 
 1. Lägg till ett villkor med följande uttryck:
 
@@ -187,7 +187,7 @@ Utför följande steg för att anpassa *DAM-uppdateringsresurs* arbetsflöde:
    jcr:content/metadata/dc:format!=application/xml
    ```
 
-1. Klicka **Spara och stäng**
+1. Klicka på **Spara och stäng**
 
 
 ## Konfigurera efterbearbetning av XML-arbetsflöde {#id18CJB03J0Y4}
@@ -196,15 +196,15 @@ AEM Guides skapar en mängd arbetsflöden där du kan arbeta med DITA-innehåll 
 
 >[!NOTE]
 >
-> Om du vill anpassa eller utöka standardarbetsflödena för efterbearbetning kan du använda händelsehanteraren för efterbearbetning som beskrivs i *API-referens för Adobe Experience Manager Guides*.
+> Om du vill anpassa eller utöka standardarbetsflödena för efterbearbetning kan du använda händelsehanteraren för efterbearbetning som beskrivs i *API-referensen för Adobe Experience Manager Guides*.
 
-Följande egenskaper styr hur AEM guidar kör arbetsflödena för efterbearbetning:
+Följande egenskaper styr hur AEM Guides kör efterbearbetningsarbetsflödena:
 
 >[!NOTE]
 >
-> Följande egenskaper är tillgängliga via webbkonsolen: http://&lt;server name=&quot;&quot;>:&lt;port>/system/console/configMgr.
+> Följande egenskaper är tillgängliga via webbkonsolen: http://&lt;servernamn\>:&lt;port\>/system/console/configMgr.
 
 | Egenskap | Paketnamn | Beskrivning |
 |--------|-----------|-----------|
 | Dynamiska utgångar | `com.adobe.fmdita.postprocess.PostProcessObservation` | För alla filer där efterbearbetningen inte har utförts hämtas de utgående referenserna genom att ämnesfilerna analyseras. Vi rekommenderar att du låter alternativet vara inaktiverat eftersom det finns en risk för att systemet överbelastas om antalet filer som ska bearbetas är stort. |
-| Bokför Threads | `com.adobe.fmdita.config.ConfigManager` | Anger antalet efterbearbetningstrådar som ska användas för efterbearbetning. <br>Standardvärdet är 1. |
+| Post Process Threads | `com.adobe.fmdita.config.ConfigManager` | Anger antalet efterbearbetningstrådar som ska användas för efterbearbetning. <br>Standardvärdet är 1. |

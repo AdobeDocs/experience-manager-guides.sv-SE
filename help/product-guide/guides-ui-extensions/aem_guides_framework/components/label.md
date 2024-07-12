@@ -2,7 +2,8 @@
 title: Etikett
 description: Etikett
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: aceefb08-3198-4c3a-90ec-ac1cdde28582
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '46'
 ht-degree: 0%
@@ -12,7 +13,7 @@ ht-degree: 0%
 # Etikett
 
 Om du vill visa text eller strängar använder vi komponenten, label.
-Etikettkomponenten i JUI representerar en html `<label/>`.
+Etikettkomponenten i JUI representerar HTML `<label/>`.
 
 Nedan visas ett exempel på hur du lägger till en statisk etikett
 
@@ -34,4 +35,4 @@ const labelJSON =  {
 
 Den återgivna etiketten ser ut så här:
 
-![label](./imgs/label.png "Etikett")
+![label](./imgs/label.png "Label")

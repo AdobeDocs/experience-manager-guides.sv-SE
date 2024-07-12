@@ -1,6 +1,6 @@
 ---
 title: Konfigurera ytterligare specialtecken i verktygsfältet i Web Editor
-description: Lär dig hur du konfigurerar ytterligare specialtecken i webbredigeraren AEM stödlinjer.
+description: Lär dig hur du konfigurerar ytterligare specialtecken i webbredigeraren för AEM Guides.
 feature: Web Editor
 role: User
 exl-id: 0fbc05a5-a6b0-4f6b-bbc4-8fca03581d90

@@ -13,21 +13,22 @@ ht-degree: 0%
 
 # 4.3.1-utgåvan av Adobe Experience Manager Guides (oktober 2023)
 
-Den här versionsinformationen innehåller uppgraderingsinstruktioner, kompatibilitetsmatris och problem som har korrigerats i version 4.3.1 av Adobe Experience Manager Guides (senare kallat *Stödlinjer för Experience Manager*).
+Den här versionsinformationen innehåller uppgraderingsinstruktioner, kompatibilitetsmatris och problem som har åtgärdats i version 4.3.1 av Adobe Experience Manager Guides (kallas senare *Experience Manager Guides*).
 
-Mer information om de nya funktionerna och förbättringarna finns i [Nyheter i version 4.3.1 av Adobe Experience Manager Guides](./whats-new-4-3-1-release.md).
+Mer information om de nya funktionerna och förbättringarna finns i [Nyheter i 4.3.1-utgåvan av Adobe Experience Manager Guides](./whats-new-4-3-1-release.md).
 
 ## Uppgradera till version 4.3.1 av Experience Manager Guides
 
 
-Du kan enkelt uppgradera din nuvarande version av Experience Manager Guides till version 4.3.1. Innan du uppgraderar till version 4.3.1 av handboken för Experience Manager måste du tänka på följande: Du kan uppgradera din nuvarande version av handboken för Experience Manager till version 4.3.1
+Du kan enkelt uppgradera din nuvarande version av Experience Manager Guides till version 4.3.1. Innan du uppgraderar till version 4.3.1 av Experience Manager Guides måste du tänka på följande:
+Du kan uppgradera din nuvarande version av Experience Manager Guides till version 4.3.1
 
 
 - Om du använder version 4.3.0, 4.2 eller 4.2.1 kan du uppgradera direkt till version 4.3.1.
 - Om du använder version 4.1 eller 4.1.x måste du uppgradera till version 4.3.0, 4.2 eller 4.2.x innan du uppgraderar till version 4.3.1.
 - Om du använder version 4.0 måste du uppgradera till version 4.2 innan du uppgraderar till version 4.3.1.
 - Om du använder version 3.8.5 måste du uppgradera till version 4.0 innan du uppgraderar till version 4.2.
-- Om du har en tidigare version än 3.8.5 kan du läsa mer i avsnittet Upgrade Experience Manager Guides i den produktspecifika installationsguiden.
+- Om du har en tidigare version än 3.8.5, se avsnittet Uppgradera Experience Manager Guides i den produktspecifika installationsguiden.
 
 
 >[!NOTE]
@@ -38,17 +39,17 @@ Mer information finns i [Uppgraderingsinstruktioner](../install-guide/upgrade-xm
 
 ## Kompatibilitetsmatris
 
-I det här avsnittet listas kompatibilitetsmatrisen för de program som stöds i version 4.3.1 av Experience Manager Guides.
+I det här avsnittet visas kompatibilitetsmatrisen för de program som stöds i Experience Manager Guides 4.3.1.
 
 ### Adobe Experience Manager
 
-**4.3.1 Ej UUID**
+**4.3.1 Inte UUID**
 Version 6.5 Service Pack 18, 17, 16, 15 eller 14
 
 **4.3.1 UUID**
 Version 6.5 Service Pack 18, 17, 16, 15 eller 14
 
-Mer information finns i *Tekniska krav* i guiden Installera och konfigurera Adobe Experience Manager Guides.
+Mer information finns i avsnittet *Tekniska krav* i guiden Installera och konfigurera Adobe Experience Manager Guides.
 
 ### FrameMaker och FrameMaker Publishing Server
 
@@ -74,7 +75,7 @@ Mer information finns i *Tekniska krav* i guiden Installera och konfigurera Adob
 
 | Komponentpaketets namn | Komponentversion | Mallversion |
 |---|---|---|
-| Innehållspaket för komponenter i Experience Manager-stödlinjer för Cloud Service | dxml-components.all-1.2.2 | aem-site-template-dxml.all-1.0.15 |
+| Experience Manager Guides Components Content Package for Cloud Service | dxml-components.all-1.2.2 | aem-site-template-dxml.all-1.0.15 |
 
 ## Åtgärdade problem
 
@@ -82,8 +83,8 @@ De buggar som har åtgärdats i olika områden listas nedan:
 
 ### Redigering
 
-- Eftermiddagstid anges inte i **Datum** för att skapa baslinjer. (12712)
-- Det går inte att klistra in JSON-koden i `<codeblock>` i Web Editor. 12326
+- Efter 12.00 timmar har inte angetts i **Date** för att skapa baslinjer. (12712)
+- Det går inte att klistra in JSON-koden i elementet `<codeblock>` i Web Editor. 12326
 - Versionsändringar som inte har sparats och indikatorerna för dem visas inte för stora filer. 11784
 - När du redigerar på koreanska ändras det första tecknet till standardvärdet. (10049)
 
@@ -93,28 +94,28 @@ De buggar som har åtgärdats i olika områden listas nedan:
 - Mallreferenser för dynamiska ämnen skapar inte någon kopia i innehållsmappen när en karta från mappningsmallen skapas. (12150)
 
 - Sökrutan i DITA-kartor har ingen stängningsknapp. (11867)
-- När du sparar långa filer i Web Editor `DirtyChecker` genererar ett undantag med en lång stackspårning och fyller i loggfilerna. (11860)
+- När du sparar långa filer i Web Editor genererar `DirtyChecker` ett undantag med lång stackspårning och fyller i loggfilerna. (11860)
 - För att skapa DITA-avsnitt krävs behörigheten Ta bort på motsvarande mappnod, men kartan kan skapas med skrivbehörighet. 11706
 - I webbredigeraren visas en felaktig titel när det finns ett snedstreck. (10949)
 
 - Om titeln för ett ämne innehåller ett snedstreck &quot;/&quot;, visar fliken i redigeraren bara de bokstäver som kommer efter det. 13455
 - Förhandsvisningen av bilden försvinner inte när du har visat förhandsvisningen i redigeraren. 13454
 - Vissa av de befintliga versionerna eller deras etiketter visas inte i versionshistoriken efter uppgraderingen till 4.x. 13247
-- Versionshistorikpanelen i resursgränssnittet visar en felaktig tidsstämpel för **Aktuell** fält. 12624
+- Versionshistorikpanelen i Assets visar en felaktig tidsstämpel för fältet **Aktuell**. 12624
 - Ämnet med conref-titel löses inte i databasvyn eller kartvyn.(13304)
 
 
 ### Publicering
 
 - PDF | Ordningen på ämnena är inte fast när utdata från PDF skapas. 13157
-- Inbyggd PDF| Ingen standardformattagg är tillgänglig för `<p>`-element. (12559)
+- Inbyggd PDF| Det finns ingen standardformattagg tillgänglig för elementet `<p>`. (12559)
 - PDF | Textbundna format som används för innehållsområdet används inte för ämnen som placeras framför och bakom. (13510)
-- The `DeliveryTarget` attribut sprids inte när AEM genereras.  13132
-- The **Publicera** arbetsflödet fastnar när AEM genereras för innehåll med vissa fel. (12000)
+- Attributet `DeliveryTarget` sprids inte när AEM genereras.  13132
+- Arbetsflödet **Publish** fastnar när AEM genereras för innehåll med vissa fel. (12000)
 
 - PDF | Om du inkluderar flera xrefs utökas texten utanför kolumnbredden. 13004
 - PDF | När ämnet och titeln har samma ID leder det till en felaktig generering av utdata från PDF. 12644
-- PDF | Lägga till en utdataklass till en överordnad `<topicref>` -elementet i en DITA-karta och använder en anpassad stil på klassen Output. Formateringen används på element i ämnesbrödtexten, inklusive avsnittsrubriker. (12166)
+- PDF | När du lägger till en utdataklass till ett överordnat `<topicref>`-element i en DITA-karta och använder en anpassad stil på utdataklassen, tillämpas formatet på element i ämnesbrödtexten, inklusive avsnittsrubriker. (12166)
 - Inkrementell publicering fungerar inte om en DITA-karta har flera diavalrefs. (12117)
 - AEM | När du skapar en karta med nyckelord som pekar på ett ämne som en variabel och lägger till processing-role=resource-only skapas vissa oväntade sidor. (12099)
 - Om resurser från AEM DAM används i andra utdata än den AEM platsen, återspeglar inte metadata&quot;jcr:createdBy&quot; utgivarens namn eller namnet på den användare som senast ändrade DITA-kartan eller -avsnittet. (12090)
@@ -122,14 +123,14 @@ De buggar som har åtgärdats i olika områden listas nedan:
 - PDF | Det finns problem med stöd för topichead / topicmeta / navtitle i Frontmatter och Backmatter. (11969)
 - PDF | Det tar tid att generera PDF för stora dokument. (11955)
 - PDF | Om du byter namn på en förinställning genereras ett NullPointerException-fel när du genererar utdata i PDF. 11889
-- The `<conref>` -innehåll visas inte i utdata från PDF. (11131)
-- Ett extra blanksteg läggs till i `<div>` element vid växling mellan redigeringsvyn för författare och källa i sidlayoutredigeraren. 10750)
+- `<conref>`-innehållet visas inte i utdata från PDF. (11131)
+- Ett extra utrymme läggs till i elementen `<div>` när du växlar mellan redigeringsvyn för författare och Source i sidlayoutredigeraren. 10750)
 - Innehållet som replikeras i AEM Cloud Manager visas inte i Publish-instansen. 9564
 
 
 ### Förvaltning
 
-- Versionshistorik visas inte även om `dc:format` egenskapen finns inte för en resurs. 10463
+- Versionshistorik visas inte även om egenskapen `dc:format` inte finns för en resurs. 10463
 - Innehållsreferens är bruten kopiering och inklistring av DITA-filer när ämnets ID inte är detsamma som GUID. 12614
 - I dynamiska baslinjer hämtas inte listan med etiketter från de direkta referenserna för arbetskopian av en DITA-karta. (11917)
 - Baslinjen visar det felaktiga antalet filer på Map Dashboard när du använder funktionen Bläddra i alla ämnen. 13265
@@ -138,14 +139,14 @@ De buggar som har åtgärdats i olika områden listas nedan:
 ### Granska
 
 - Granskningen av ett ämne visar felaktiga kommentarer. 13453
-- Knappen Stäng på sidan Granska i Experience Manager-guiderna tar användarna till AEM hemsida. 13535
+- Knappen Stäng på granskningssidan i Experience Manager Guides tar användarna till AEM hemsida. 13535
 - Bifogade filer visas inte på redigerarens högra panel för ett ämne som ska granskas. (13011)
 
 
 
 ### Översättning
 
-- Baslinjen exporterad från **Översättning** Kontrollpanelen misslyckas och öppnas inte på målspråket. 13466)
+- Baslinjen som exporterats från kontrollpanelen **Översättning** misslyckas och öppnas inte på målspråket. 13466)
 
 - Nya översättningsprojekt skapas i stället för att nya jobb läggs till i de valda befintliga översättningsprojekten.  (10214)
 - Den översatta filens namn visas i stället för källfilens namn. (11630)

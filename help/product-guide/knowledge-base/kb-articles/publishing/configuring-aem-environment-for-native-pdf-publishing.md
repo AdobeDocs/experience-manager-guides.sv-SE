@@ -13,11 +13,11 @@ ht-degree: 1%
 
 # Konfigurera AEM för Native PDF
 
-AEM Guides innehåller en inbyggd PDF-motor som gör det möjligt att designa, utveckla och publicera innehåll i PDF-format.
+AEM Guides har en inbyggt PDF-motor som gör det möjligt att designa, utveckla och publicera innehåll i PDF-format.
 
 Det gör det möjligt att skapa olika sidlayouter, CSS-mallar och utforma PDF-mallarna tillsammans med sidlayouterna och CSS.
 
-Hur du konfigurerar det här inbyggda PDF i AEM varierar beroende på operativsystem. Använd konfigurationsstegen nedan baserat på vilket operativsystem AEM är installerat på.
+Hur du konfigurerar det här inbyggda PDF i AEM Guides varierar beroende på operativsystem. Använd konfigurationsstegen nedan baserat på vilket operativsystem AEM är installerat på.
 
 ## Förutsättningar
 
@@ -39,7 +39,7 @@ Publiceringsmotorn i PDF behöver Oracle-JDK för att generera nodmodulerna i AE
 2. Högerklicka på Windows-ikonen i aktivitetsfältet och välj System.
 3. Klicka på Avancerade systeminställningar i fönstret Inställningar under Relaterade inställningar.
 4. Klicka på Miljövariabler på fliken Avancerat.
-5. Klicka på &quot;_Nytt_&quot; för att skapa en ny miljövariabel.
+5. Klicka på _Ny_ i avsnittet med systemvariabler för att skapa en ny systemvariabel.
 6. Ange variabelnamnet JAVA_HOME.
 7. Ange sökvägen till Java-installationen i värdefältet och klicka på OK.
 
@@ -93,7 +93,7 @@ Publiceringsmotorn i PDF behöver Oracle-JDK för att generera nodmodulerna i AE
    2. exportera PATH=$PATH: $JAVA\_HOME/bin
 
 5. Starta om AEM Server och gå till steg 12 om du använder Guides version 4.2 eller senare.
-6. Kopiera &quot;_node_modules.zip_&quot; som finns i slutet av den här artikeln i katalogen crx-quickstart/profiles/nodatum—b1aad0a7-9079-e56c-1ed8-6fcababe8166/.
+6. Kopiera katalogen _node_modules.zip_ som bifogas i slutet av den här artikeln till katalogen crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166/.
 7. Öppna terminal i crx-quickstart/profiles/nodats—b1aad0a7-9079-e56c-1ed8-6fcababe8166/ plats.
 8. Ta bort nod_modules-katalog med kommandot nedan
 
@@ -105,13 +105,13 @@ Publiceringsmotorn i PDF behöver Oracle-JDK för att generera nodmodulerna i AE
 
 10. Om kommandot unzip inte är installerat/känns igen kan det installeras med följande kommando
 
-   **unzip för installation av yum**
+   **yum install unzip**
 
 11. Installera fontconfig-paketet.
 Kommando: teckensnittskonfiguration för yum-installation
 12. Generera PDF från förinställningar i webbredigeraren.
 
-**ANMÄRKNING** : node_modules.zip-paketet kan hämtas [här](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:295d8f03-41e1-429b-8465-2761ce3c2fb3).
+**Obs!** Paketet node_modules.zip kan laddas ned [här](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:295d8f03-41e1-429b-8465-2761ce3c2fb3).
 
 Manuell import av de hämtade nodmodulerna för Linux-operativsystemet är en tillfällig lösning för användare som använder Guides 4.1 eller tidigare versioner (steg 6-12)
 
@@ -142,11 +142,13 @@ Manuell import av de hämtade nodmodulerna för Linux-operativsystemet är en ti
 
    C:/{aem-installation-folder}/crx-quickstart/profiles/nodatum—b1aad0a7-9079-e56c-1ed8-6fcababe8166
 
-   i) hitta . -type d -exec chmod 0755 {} \; ii) hitta . -type f -exec chmod 0755 {} \; iii) .node-darwin/lib/node_modules/npm/bin/npm-cli.js —prefix . install —unsafe-perm —scripts-prepend-node-path
+   i) hitta . -type d -exec chmod 0755 {} \;
+ii) hitta . -type f -exec chmod 0755 {} \;
+iii) .node-darwin/lib/node_modules/npm/bin/npm-cli.js —prefix . install —unsafe-perm —scripts-prepend-node-path
 
 8. Kontrollera om Java är installerat med kommandot nedan
 
-   i) Kör **./node-darwin/bin/node** från mappen /crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166
+   i) Kör **./node-darwin/bin/node** command from /crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166 folder
 
    ![mac](../assets/publishing/mac.png)
 
@@ -173,9 +175,9 @@ Om problemet kvarstår även efter att Java-miljöinställningarna har korrigera
 
 ### Bibliotek saknas i RHEL 7 Linux OS
 
-![bibliotek som saknas](../assets/publishing/missing-libraries.png)
+![saknade bibliotek](../assets/publishing/missing-libraries.png)
 
-### Tidsgräns för publiceringsprocess. Processen slutfördes inte under den angivna tiden 0ms
+### Tidsgräns för Publish-process. Processen slutfördes inte under den angivna tiden 0ms
 
 ![tidsgräns för publiceringsprocess](../assets/publishing/publish-process-timeout.png)
 
@@ -183,4 +185,4 @@ Validera timeout-egenskapsvärdet för nodatumnoden i /var/dxml/profiles/b1aad0a
 
 
 
-Om du råkar ut för problem när du utför något av ovanstående steg kan du skicka din fråga till AEM Guides Community [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) om du behöver hjälp.
+Om du får problem när du utför något av ovanstående steg kan du ställa din fråga på AEM Guides Community [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) för att få hjälp.

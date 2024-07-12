@@ -16,17 +16,17 @@ ht-degree: 0%
 
 Webbredigeraren har en kraftfull översättningsfunktion som översätter ditt innehåll till flera språk.
 
-Du kan använda **Hantera** -fliken i Web Editor för att översätta innehållet. Fliken är som standard tillgänglig.
+Du kan använda fliken **Hantera** i Web Editor för att översätta ditt innehåll. Fliken är som standard tillgänglig.
 
-Dölj **Hantera** utför följande steg på fliken i Web Editor:
+Så här döljer du fliken **Hantera** i Web Editor:
 
-1. Logga in **Adobe Experience Manager** som administratör.
-1. Klicka på **Adobe Experience Manager** överst och välj **verktyg**.
-1. Välj **Stödlinjer** i listan med verktyg och klicka på **Mappprofiler**.
-1. Klicka på **Global profil** platta.
-1. Klicka på **Konfiguration av XML-redigerare**.
-1. Klicka på **Redigera** överst.
-1. Ladda ned `ui\_config.json` file.Ta bort följande kodfragment från den hämtade filen:
+1. Logga in på **Adobe Experience Manager** som administratör.
+1. Klicka på länken **Adobe Experience Manager** överst och välj **Verktyg**.
+1. Välj **Stödlinjer** i listan över verktyg och klicka på **Mappprofiler**.
+1. Klicka på rutan **Global profil**.
+1. Klicka på **XML-redigerarkonfiguration**.
+1. Klicka på ikonen **Redigera** överst.
+1. Hämta filen `ui\_config.json`.Ta bort följande kodfragment från den hämtade filen:
 
    ```json
    {
@@ -46,6 +46,6 @@ Dölj **Hantera** utför följande steg på fliken i Web Editor:
 
 1. Ladda upp den uppdaterade filen ui\_config.json.
 
-Observera att **Hantera** filtret är inte längre tillgängligt.
+Observera att filtret **Hantera** inte längre är tillgängligt.
 
 **Överordnat ämne:**[ Anpassa Web Editor](conf-web-editor.md)

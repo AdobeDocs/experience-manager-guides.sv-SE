@@ -23,7 +23,10 @@ En GET-metod som registrerar en datakällkoppling.
 **Begär URL**:
 `http://server:port/bin/guides/v1/konnect/config/register?path=<uploaded file path>`
 
-**Parameter**: |Namn|Typ|Obligatorisk|Beskrivning| |—|—|—|—| |`path`|String|Yes|En sträng som pekar på en sökväg i AEM. Det kan vara en bana i `/content/dam or /var/dxml`.|
+**Parameter**:
+|Namn|Typ|Obligatorisk|Beskrivning|
+|—|—|—|—|
+|`path`|Sträng|Ja|En sträng som pekar på en sökväg i AEM. Det kan vara en sökväg i `/content/dam or /var/dxml`.|
 
 **Exempel**:\
 `http://host:4502/bin/guides/v1/konnect/config/register?path=/var/dxml/konnect/jira.json`

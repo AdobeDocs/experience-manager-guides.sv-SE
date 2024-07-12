@@ -4,7 +4,8 @@ description: Använda variabler i PDF-utdata- och utdatamallarna
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+exl-id: 96e54aee-52df-4af1-97fd-34986f553be4
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '1446'
 ht-degree: 0%
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 # Variabler i PDF-utdata
 
-En variabel är ett namn/värde-par med data som fungerar som en återanvändbar information. Detta gör ditt innehåll portabelt och enkelt att uppdatera. När du ändrar en variabel eller dess värde uppdateras varje förekomst av variabeln eller värdet.
+En variabel är ett namn/värde-par med data som fungerar som en återanvändbar information. Detta gör ditt innehåll portabelt och lätt att uppdatera. När du ändrar en variabel eller dess värde uppdateras varje förekomst av variabeln eller värdet.
 
 
 
@@ -26,20 +27,20 @@ Så här skapar du en variabel:
 *Skapa variabler och definiera värden för dem.*
 
 
-1. Gå till webbredigeraren **Utdata** -fliken.
-1. Välj **Variabel** <img alt= "variabelikon" src="./assets/variables-icon.svg" width="25"> till vänster.
-1. Välj **Redigera** <img alt= "Ikonen Redigera penna" src="./assets/edit_pencil_icon.svg" width="25"> för att öppna **Variabel** redigerare.
+1. Gå till fliken **Utdata** i Web Editor.
+1. Välj **variabler** <img alt= "variabelikon" src="./assets/variables-icon.svg" width="25"> i den vänstra panelen.
+1. Välj **Redigera** <img alt= "Ikonen Redigera penna" src="./assets/edit_pencil_icon.svg" width="25"> om du vill öppna redigeraren **Variabler**.
 Variablerna listas i alfabetisk ordning.
-1. Ange variabelnamnet i dialogrutan **Namn** -kolumnen och dess värde i **Värde** kolumn.
+1. Ange variabelnamnet i kolumnen **Namn** och dess värde i kolumnen **Värde**.
    >[!TIP]
    >
-   >Du kan använda valfritt HTML-innehåll som ett variabelvärde om du vill visa variabelvärdet i en viss formatering. Du kan till exempel lägga till en `<b>` -taggen till variabelvärdet som ska visa värdet **Stödlinjer för Experience Manager** i fet stil. Du kan också lägga till bilder från databasen som värden.
+   >Du kan använda valfritt HTML-innehåll som ett variabelvärde om du vill visa variabelvärdet i en viss formatering. Du kan till exempel lägga till en `<b>`-tagg i variabelvärdet för att visa värdet **Experience Manager Guides** i fet stil. Du kan också lägga till bilder från databasen som värden.
 
 1. Välj **Lägg till variabel** <img alt= "Ikonen Lägg till" src="./assets/add-icon.svg" width="25"> om du vill lägga till en ny variabel. Du kan inte skapa en variabel med samma namn som en befintlig variabel. Ett fel visas.
 
    >[!NOTE]
    >
-   >Om du inte markerar **Lägg till variabel** <img alt= "Ikonen Lägg till" src="./assets/add-icon.svg" width="25">, skapas och läggs variabeln inte till i listan.
+   >Om du inte väljer **Lägg till variabel** <img alt= "Ikonen Lägg till" src="./assets/add-icon.svg" width="25">, variabeln skapas inte och läggs till i listan.
 
 På så sätt kan du skapa variabler med standardvärden. Till exempel:
 * ProductName: Experience Manager Guides
@@ -53,19 +54,19 @@ Du kan redigera en variabel på två sätt:
 
 **Från variabelpanelen till vänster**
 
-1. Välj en variabel i **Variabel** -panelen.
-1. Håll pekaren över variabeln för att visa **Alternativ** väljer du **Redigera** alternativ.
-1. I **Redigera variabel** kan du redigera standardvärdet för den valda variabeln.
-1. Klicka **Klar**.
+1. Välj en variabel på panelen **Variabler**.
+1. Håll pekaren över variabeln för att visa menyn **Alternativ** och välj sedan alternativet **Redigera** .
+1. I dialogrutan **Redigera variabel** kan du redigera standardvärdet för den valda variabeln.
+1. Klicka på **Klar**.
 
-**Från Variables-redigeraren**
+**Från variabelredigeraren**
 
-1. Välj **Variabel** <img alt= "variabelikon" src="./assets/variables-icon.svg" width="25"> till vänster.
+1. Välj **variabler** <img alt= "variabelikon" src="./assets/variables-icon.svg" width="25"> i den vänstra panelen.
 1. Välj Redigera **** <img alt= "Ikonen Redigera penna" src="./assets/edit_pencil_icon.svg" width="25">för att öppna variabelredigeraren ****.
 
-1. I variabelredigeraren **kan du redigera värdet för den valda variabeln** .
+1. I variabelredigeraren **** kan du redigera värdet för den valda variabeln.
 
-Du måste spara alla ändringar du gör från variabelredigeraren **för att kunna visa dem i** variabelpanelen **** till vänster.
+Du måste spara alla ändringar du gör från variabelredigeraren **** för att kunna visa dem i **variabelpanelen** till vänster.
 
 >[!NOTE]
 >
@@ -73,24 +74,24 @@ Du måste spara alla ändringar du gör från variabelredigeraren **för att kun
 
 ### Söka efter och förhandsgranska en variabel
 
-Du kan söka efter och förhandsvisa värdet för en variabel. Ange en sträng i sökrutan i **Variabel** -panelen. Det söker igenom båda baserat på variabelnamnet och dess värde.
+Du kan söka efter och förhandsvisa värdet för en variabel. Ange en sträng i sökrutan på panelen **Variabler**. Det söker igenom båda baserat på variabelnamnet och dess värde.
 Du kan förhandsgranska en variabel på två sätt:
 
-I förhandsvisningen av variabeln visas standardvärdet. Om du till exempel har definierat standardvärdet för produktvariabeln som &quot;Adobe Experience Manager Guides&quot; visas det här värdet i förhandsvisningen.
+I förhandsvisningen av variabeln visas standardvärdet. Om du till exempel har definierat standardvärdet för variabeln ProductName som&quot;Adobe Experience Manager Guides&quot; visas det här värdet i förhandsvisningen.
 
 **Från variabelpanelen till vänster**
 
 
-1. Välj en variabel i **Variabel** -panelen.
-1. Håll pekaren över variabeln för att visa **Alternativ** väljer du **Förhandsgranska** alternativ.
+1. Välj en variabel på panelen **Variabler**.
+1. Håll pekaren över variabeln för att visa menyn **Alternativ** och välj sedan alternativet **Förhandsgranska** .
 
 ![variabelförhandsgranskning från variabelpanelen](assets/variables-panel-preview-default.png){width="550" align="left"}
 
 *Förhandsgranska standardvärdet för en variabel.*
 
-**Från Variables-redigeraren**
+**Från variabelredigeraren**
 
-1. Håll pekaren över variabeln i listan för att visa **Alternativ** -menyn.
+1. Håll pekaren över variabeln i listan för att visa menyn **Alternativ** .
 1. Välj **Förhandsgranska**.
 
 
@@ -101,10 +102,10 @@ I förhandsvisningen av variabeln visas standardvärdet. Om du till exempel har 
 Du kan duplicera en variabel och ändra värdet enligt dina krav.
 
 
-1. Håll muspekaren över variabeln i listan för att visa **menyn Alternativ** .
+1. Håll muspekaren över variabeln i listan för att visa **Alternativ-menyn** .
 1. Välj **Duplicera**.
 
-Variabelns standardnamn är `<selected variable name>` (som &quot;exempel&quot;). Du kan ändra namnet enligt dina önskemål.
+Variabelns standardnamn är `<selected variable name>` (som &quot;sample&quot;). Du kan ändra namnet enligt dina önskemål.
 
 ### Ta bort en variabel
 
@@ -112,13 +113,13 @@ Du kan ta bort en variabel på två sätt:
 
 **Från variabelpanelen till vänster**
 
-1. Välj en variabel i **Variabel** -panelen.
-1. Håll pekaren över variabeln för att visa **Alternativ** väljer du **Ta bort** alternativ.
+1. Välj en variabel på panelen **Variabler**.
+1. Håll pekaren över variabeln för att visa menyn **Alternativ** och välj sedan alternativet **Ta bort** .
 
-**Från Variables-redigeraren**
+**Från variabelredigeraren**
 
-1. Håll pekaren över variabeln i listan för att visa **Alternativ** -menyn.
-1. Välj **Ta bort** alternativ.
+1. Håll pekaren över variabeln i listan för att visa menyn **Alternativ** .
+1. Välj alternativet **Ta bort**.
 
 Variabeln tas bort från alla variabeluppsättningar.
 
@@ -132,19 +133,19 @@ Du måste konfigurera variabeluppsättningar innan du lägger till några variab
 
 
 
-1. Välj **Inställningar** <img alt= "Ikonen Inställningar" src="./assets/settings-icon.svg" width="25"> för att öppna **Konfigurera variabeluppsättningar** -dialogrutan.
+1. Välj **Inställningar** <img alt= "Ikonen Inställningar" src="./assets/settings-icon.svg" width="25"> för att öppna dialogrutan **Konfigurera variabeluppsättningar**.
    ![konfigurera variabeluppsättning](assets/configure-variable-set.png){width="550" align="left"}
-1. Ange namnet på variabeluppsättningen i dialogrutan **Namn** kolumn.
+1. Ange namnet på variabeluppsättningen i kolumnen **Namn**.
 1. Välj **Lägg till variabel** <img alt= "Ikonen Lägg till" src="./assets/add-icon.svg" width="25"> om du vill lägga till en ny variabeluppsättning. Variabeluppsättningarna visas i bokstavsordning.
-1. Du kan välja **Ta bort** för att ta bort en variabeluppsättning.
+1. Du kan välja **Ta bort** om du vill ta bort en variabeluppsättning.
 
 ### Variabeluppsättningsåtgärder
 
 Alla variabeluppsättningar har samma variabler men kan ha olika värden.
 
-Du kan visa, redigera och förhandsvisa värden för en viss variabeluppsättning. Välj en variabeluppsättning på menyn **Variabeluppsättningar** nedrullningsbar meny. Värdena visas enligt den valda variabeluppsättningen.
+Du kan visa, redigera och förhandsvisa värden för en viss variabeluppsättning. Välj en variabeluppsättning i listrutan **Variabeluppsättningar**. Värdena visas enligt den valda variabeluppsättningen.
 När du redigerar värdena för variablerna i specifika variabeluppsättningar åsidosätts standardvärdena och värdena för den valda variabeluppsättningen ändras.
-Du kan till exempel ange följande värden för variabeluppsättningarna: *Adobe-set1* och *Adobe-set2* .
+Du kan till exempel ange följande värden för variabeluppsättningarna *Adobe-set1* och *Adobe-set2* .
 
 
 **Variabeluppsättning 1**: *Adobe-set1*
@@ -163,11 +164,11 @@ Du kan till exempel ange följande värden för variabeluppsättningarna: *Adobe
 Varje ny variabel läggs till i alla variabeluppsättningar. När du tar bort eller duplicerar en variabel uppdateras den för alla variabeluppsättningar.
 
 Du kan också förhandsgranska värdena för en variabeluppsättning.
-Till exempel för variabeluppsättningen *Adobe-Set1* har du definierat värdet för ProductName-variabeln som &quot;ProductA&quot; och sedan visas värdet i förhandsvisningen i Variabler-redigeraren.
+För variabeluppsättningen *Adobe-Set1* har du definierat värdet för ProductName-variabeln som &quot;ProductA&quot; och sedan visas det här värdet i förhandsvisningen i Variableraren.
 
 ![variabelförhandsgranskning från variabelredigeraren](assets/variables-editor-preview.png){width="550" align="left"}
 
-*Förhandsgranska värdet som du har definierat i den valda variabeluppsättningen.*
+*Förhandsgranska värdet som du har definierat i den markerade variabeluppsättningen.*
 
 ### Återställ värdet för en variabel
 
@@ -186,7 +187,7 @@ Så här infogar du en variabel som ditt ProductName i sidhuvudsområdet:
 
    >[!NOTE]
    >
-   > Visa [Anpassa en sidlayout](../native-pdf/components-pdf-template.md#customize-a-page-layout-customize-page-layout) för att öppna en sidlayout för anpassning eller redigering.
+   > Visa [Anpassa ett sidlayoutavsnitt](../native-pdf/components-pdf-template.md#customize-a-page-layout-customize-page-layout) för att öppna en sidlayout för anpassning eller redigering.
 
 1. Markera rubriken för att aktivera den för att infoga en variabel.
 
@@ -194,35 +195,33 @@ Så här infogar du en variabel som ditt ProductName i sidhuvudsområdet:
 
    **Från variabelpanelen till vänster**
 
-   * Dra en variabel från **** variabelpanelen och släpp den i rubrikområdet.
+   * Dra en variabel från **variabelpanelen** och släpp den i rubrikområdet.
 
    **Från verktygsfältet**
 
    1. Välj **Infoga variabel/fält** <img alt= "variabelikon" src="./assets/variables-icon.svg" width="25">.
-   1. I **Variabel** markerar du namnet på variabeln för att infoga den i sidhuvudsområdet.
+   1. I dialogrutan **Variabel** markerar du namnet på variabeln för att infoga den i sidhuvudsområdet.
    1. Du kan också ange söksträngen i textrutan. Variabelnamnen som innehåller den angivna strängen filtreras och visas i listan. Den markerade variabeln infogas i sidhuvudsområdet. Du kan visa standardvärdet för variabeln.
-   1. Om du vill ersätta en variabel dubbelklickar du på variabelvärdet och väljer en annan variabel i **Variabel** -dialogrutan. Variabeln ersätts.
+   1. Om du vill ersätta en variabel dubbelklickar du på variabelvärdet och väljer en annan variabel i dialogrutan **Variabel** . Variabeln ersätts.
 
 
 ## Generera PDF-utdata med variabler
 
-Du kan generera utdata i PDF med värden från olika variabler. Innan du genererar layouten väljer du en variabeluppsättning bland en förinställd utdatafil **Variabeluppsättning** i den nedrullningsbara listan för att välja dess värden.
+Du kan generera utdata i PDF med värden från olika variabler. Innan du genererar layouten väljer du en variabeluppsättning i listrutan **Variabeluppsättning** för att välja värden.
 
 ![listruta för variabeluppsättning](assets/output-preset-variable-dropdown.png){width="550" align="left"}
 
-*Välj en variabeluppsättning i listrutan i den förinställning som du vill använda för att generera PDF-utdata.*
+*Välj en variabeluppsättning i listrutan i den utdataförinställning som du vill använda för att generera PDF-utdata.*
 
 >[!NOTE]
 >
 > Du kan också välja (Standard) i listrutan för att publicera standardvärdena för alla variabler.
 
-Beroende på vilken variabeluppsättning du väljer får du utdata som motsvarar de variabelvärden som definieras i variabeluppsättningen. Om du till exempel väljer variabeluppsättningen *Adobe-set1* visar utdata variabelns värden enligt definitionen i den här uppsättningen.
+Beroende på vilken variabeluppsättning du väljer får du utdata som motsvarar de variabelvärden som definieras i variabeluppsättningen. Om du t.ex. väljer variabeluppsättningen *Adobe-set1* visas variabelvärdena i dina utdata enligt uppsättningen.
 
 
 <img src="assets/variable-pdf-output.png" alt="utdata från PDF med variabler" width="500" border="2px">
 
-*Generera utdata från PDF med hjälp av variabler i sidlayouten.*
+*Generera PDF-utdata med hjälp av variabler i sidlayouten.*
 
 Du kan också snabbt uppdatera värdena för variabeluppsättningar när det behövs och återskapa utdata. Om du till exempel behöver uppdatera informationen för en version kan du uppdatera värdet för versionen i variabeln VersionNumber och generera om utdata.
-
-

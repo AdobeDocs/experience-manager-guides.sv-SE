@@ -1,6 +1,6 @@
 ---
-title: Uppgradera Adobe Experience Manager-guider
-description: Lär dig hur du uppgraderar Adobe Experience Manager-guider
+title: Uppgradera Adobe Experience Manager Guides
+description: Så här uppgraderar du Adobe Experience Manager Guides
 exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 ---
 
-# Uppgradera Adobe Experience Manager-guider {#id224MBE0M0XA}
+# Uppgradera Adobe Experience Manager Guides {#id224MBE0M0XA}
 
 >[!NOTE]
 >
@@ -24,7 +24,7 @@ Du kan uppgradera din nuvarande version av Experience Manager Guides till versio
 - Om du använder version 4.2, 4.1 eller 4.1.x måste du uppgradera till version 4.3.1, 4.3.0 eller 4.2.1 (programfix 4.2.1.3) innan du uppgraderar till version 4.4.0.
 - Om du använder version 4.0 måste du uppgradera till version 4.2 innan du uppgraderar till version 4.3.x.
 - Om du använder version 3.8.5 måste du uppgradera till version 4.0 innan du uppgraderar till version 4.2.
-- Om du har en tidigare version än 3.8.5 kan du läsa mer i avsnittet Upgrade Experience Manager Guides i den produktspecifika installationsguiden.
+- Om du har en tidigare version än 3.8.5, se avsnittet Uppgradera Experience Manager Guides i den produktspecifika installationsguiden.
 
 
 >[!NOTE]
@@ -50,56 +50,56 @@ Mer information finns i följande procedurer:
 
 Om du använder Experience Manager Guides version 3.8.5 kan du uppgradera till version 4.0 av Experience Manager Guides. Med uppgraderingsfunktionen behöver du inte avinstallera den tidigare versionen av Experience Manager Guides.
 
-Innan du kör processen måste du slutföra vissa uppgifter. I följande delavsnitt får du hjälp att igenom förutsättningarna, skapa rapporter och migreringsprocessen. När du har installerat Experience Manager Guides version 4.0 kan du anpassa olika konfigurationer enligt kundinställningarna.
+Innan du kör processen måste du slutföra vissa uppgifter. I följande delavsnitt får du hjälp att igenom förutsättningarna, skapa rapporter och migreringsprocessen. När du har installerat Experience Manager Guides version 4.0 kan du dessutom anpassa olika konfigurationer enligt kundinställningarna.
 
 >[!NOTE]
 >
-> Denna uppgraderingsprocess gäller endast från version 3.8.5 till version 4.0. För processen att uppgradera från version 3.4 eller senare till 3.8.5, se *Uppgradera Experience Manager-guider* i den produktspecifika installationsguiden som finns på [Adobe Experience Manager Guides hjälper PDF att arkivera](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
+> Denna uppgraderingsprocess gäller endast från version 3.8.5 till version 4.0. Information om hur du uppgraderar från version 3.4 eller senare till 3.8.5 finns i avsnittet *Uppgradera Experience Manager Guides* i den produktspecifika installationshandboken som finns i [Adobe Experience Manager Guides Help PDF archive](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 
 
 ****Förutsättningar****
 
-Innan du startar uppgraderingsprocessen för Experience Manager Guides bör du kontrollera att du har:
+Innan du påbörjar uppgraderingen av Experience Manager Guides bör du kontrollera att du har:
 
 1. Granskningskommentarerna i ämnen som är öppna för granskning har importerats.
 1. Alla aktiva granskningar stängdes.
 1. Alla översättningsuppgifter stängdes.
-1. Avinstallera eventuella snabbkorrigeringar för Experience Manager Guides som installerats högst upp i den tidigare versionen \(huvudversionen eller korrigeringsversionen\) av Experience Manager Guides.
+1. Avinstallera eventuella Experience Manager Guides-snabbkorrigeringar som installerats ovanpå den tidigare versionen \(större version eller korrigeringsversion\) av Experience Manager Guides.
 
 **Innan du installerar version 4.0**
 
 Utför följande steg innan du installerar version 4.0:
 
-1. Kontrollera att Experience Manager Guides finns i version 3.8.5.
+1. Kontrollera att Experience Manager Guides är i version 3.8.5.
 1. Hämta uppgraderingsskriptpaketet. Om du vill göra det söker du efter&quot;XML Documentation solution 4.0 Upgrade Package&quot; på [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) som hämtar en zip-fil.
 1. Överför det här paketet till AEM via Package Manager och installera det här paketet.
 1. När uppgraderingspaketet har installerats kör du skripten nedan i samma ordning och följer instruktionerna:
 
-**Kontrollera API för uppgraderingskompatibilitet**
+**Kontrollera API:t för uppgraderingskompatibilitet**
 
 Detta API är utformat för att utvärdera den aktuella systemstatusen och rapportera om uppgraderingen är möjlig eller inte. Om du vill köra det här skriptet utlöser du slutpunkten nedan:
 
 | Slutpunkt | /bin/dxml/upgrade/3xto4x/report |
 | --- | --- |
 | Typ av begäran | **GET** Du kan använda en webbläsare, där du är inloggad som administratör för AEM. |
-| Förväntat svar | - Om alla nödvändiga noder kan flyttas får du en kontroll som du godkänt. <br>- Om det finns en nod på målplatsen får du ett relevant fel. Rensa databasen \(delete node /var/dxml\) och installera om uppgraderingspaketet och utlösa sedan den här slutpunkten igen. <br>**Obs!** Detta är inget vanligt fel eftersom målplatsen inte används tidigare av stödlinjerna för 3.x Experience Manager. <br> - Om det här manuset inte lyckas ska du inte fortsätta och rapportera till ditt kundframgångsteam. |
+| Förväntat svar | -   Om alla nödvändiga noder kan flyttas får du en kontroll som du godkänt. <br>-   Om det finns en nod på målplatsen får du ett relevant fel. Rensa databasen \(delete node /var/dxml\) och installera om uppgraderingspaketet och utlösa sedan den här slutpunkten igen. <br>**Obs!** Detta är inte ett vanligt fel eftersom målplatsen inte används tidigare av 3.x Experience Manager Guides. <br> -   Om det här manuset inte lyckas ska du inte fortsätta och rapportera till ditt kundframgångsteam. |
 
 **API för systemdatamigrering**
 
-Detta API är utformat för att migrera systemdata enligt anvisningarna i **Migreringsmappning** -avsnitt.
+Detta API är utformat för att migrera systemdata enligt avsnittet **Migreringsmappning**.
 
 1. Kör inte det här skriptet om API:t för kontroll av kompatibilitet misslyckas \(fortsätt inte\).
 1. När API:t för kontroll av uppgraderingskompatibilitet returneras kan du köra uppgraderingsskriptet.
 
 | Slutpunkt | /bin/dxml/upgrade/3xto4x |
 | --- | --- |
-| Typ av begäran | **POST** Skriptet är en begäran om POST och ska därför köras via agenter som Postman. |
-| Förväntat svar | - När migreringen är klar kan du installera XML Documentation-lösning version 4.0.<br>- Om fel uppstår återställer du till den senaste kontrollpunkten och delar felloggarna med API-utdata till kundens framgångsgrupp. |
+| Typ av begäran | **POST** Det här skriptet är en POST-förfrågan och ska därför köras via agenter som Postman. |
+| Förväntat svar | -   När migreringen är klar kan du installera XML Documentation-lösningen version 4.0.<br>-   Om fel uppstår återställer du till den senaste kontrollpunkten och delar felloggarna med API-utdata till kundens framgångsgrupp. |
 
 **Migreringsmappning**: Ovanstående API migrerar alla data under källplatsen till målplatsen.
 
-| Källa | Mål |
+| Source | Mål |
 |------|------|
 | /content/fmdita | /var/dxml |
 | /content/dxml | /var/dxml |
@@ -108,7 +108,7 @@ Detta API är utformat för att migrera systemdata enligt anvisningarna i **Migr
 ## Installera version 4.0 {#id23598G006XA}
 
 1. Installera endast version 4.0 om uppgraderingsstegen lyckades.
-1. Ladda ned 4.0-versionspaket från [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html):
+1. Hämta versionspaket 4.0 från [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html):
 
    - Om du använder en UUID-version av programvara söker du efter&quot;4.0 UID Release for XML Documentation solution for AEM 6.5&quot;.
    - Om du använder en icke-UID-version av programvara söker du efter&quot;4.0 Non-UUID Release for XML Documentation solution for AEM 6.5&quot;.
@@ -123,21 +123,21 @@ Detta API är utformat för att migrera systemdata enligt anvisningarna i **Migr
    - Kontrollera att följande hanteras i dispatcherregler:
    - URL-mönstret /home/users/\*/preferences är vitlistat.
    - URL-mönstret /libs/cq/security/userinfo.json är inte cachelagrat.
-1. Rensa dispatchercache \(för att rensa alla `clientlibs` cache-lagrad\).
+1. Rensa dispatchercachen \(för att rensa alla `clientlibs` cachelagrade\).
 
 ## Uppgradera till version 4.2 {#id22A3F500SXA}
 
-Uppgradering till version 4.2 beror på den aktuella versionen av stödlinjerna för Experience Manager.
+Uppgradering till version 4.2 beror på vilken version av Experience Manager Guides som är aktuell.
 
 Om du använder version 4.0, 4.1 eller 4.1.x kan du uppgradera direkt till version 4.2.
 
 ****Förutsättningar****
 
-Innan du startar uppgraderingsprocessen för Experience Manager Guides 4.2 måste du se till att du har:
+Innan du startar uppgraderingsprocessen för Experience Manager Guides 4.2 bör du kontrollera att du har:
 
 1. Uppgraderat till Experience Manager Guides version 4.0, 4.1 eller 4.1.x.
 1. Alla översättningsuppgifter stängdes.
-1. Loggnivån har ändrats till **INFORMATION** for `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` och lägga till loggarna i en ny loggfil, till exempel `logs/translation_upgrade.log.`
+1. Loggnivån har ändrats till **INFO** för klassen `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` och loggarna läggs till i en ny loggfil, till exempel `logs/translation_upgrade.log.`
 
 >[!NOTE]
 >
@@ -145,7 +145,7 @@ Innan du startar uppgraderingsprocessen för Experience Manager Guides 4.2 måst
 
 ## Installera version 4.2 {#id2245IK0E0EV}
 
-1. Ladda ned versionspaket 4.2 från [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
+1. Hämta versionspaket 4.2 från [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
 1. Installera paket för version 4.2.
 1. När du har slutfört paketinstallationen väntar du på följande meddelanden i loggarna:
 
@@ -166,15 +166,15 @@ Innan du startar uppgraderingsprocessen för Experience Manager Guides 4.2 måst
 
 >[!IMPORTANT]
 >
-> Hi-tech-mallar visas inte på uppgraderad server. Om du vill inkludera hi-tech-mallen på servern kan du kopiera den: Källa: /libs/fmdita/pdf/Hi-Tech Destination: /content/dam/dita-templates/pdf
+> Hi-tech-mallar visas inte på uppgraderad server. Om du vill inkludera hi-tech-mallen på servern kan du kopiera den: Source: /libs/fmdita/pdf/Hi-Tech Destination: /content/dam/dita-templates/pdf
 
-När du har installerat guider för Experience Manager kan du sammanfoga de olika konfigurationer som gäller från den nyinstallerade versionen till din konfiguration.
+När du har installerat Experience Manager Guides kan du sammanfoga de olika konfigurationer som gäller från den nyinstallerade versionen till din installation.
 
 >[!NOTE]
 >
-> Modellen för dam-update-asset kan anpassas. Om några anpassningar har gjorts måste vi synkronisera anpassningarna och Experience Manager-guiderna i arbetskopian av modellen.
+> Modellen för dam-update-asset kan anpassas. Om några anpassningar har gjorts måste vi synkronisera anpassningarna och Experience Manager Guides i arbetskopian av modellen.
 
-1. **DAM Update Asset workflow \(Efterbehandlingsändringar\):**
+1. **DAM-uppdateringsarbetsflöde för resurs \(Post-processing changes\):**
 
 1. Öppna URL:
 
@@ -182,50 +182,50 @@ När du har installerat guider för Experience Manager kan du sammanfoga de olik
    http://localhost:4502/libs/cq/workflow/admin/console/content/models.html
    ```
 
-1. Välj **Arbetsflöde för DAM-uppdatering**.
+1. Välj **DAM-uppdateringsarbetsflöde**.
 1. Klicka på **Redigera**.
-1. Om **DXML Post Process Initiator** kontrollerar du att anpassningarna är synkroniserade.
-1. Om **DXML Post Process Initiator** om komponenten inte finns utför du följande steg för att infoga den:
+1. Om **DXML Post Process Initiator** -komponenten finns kontrollerar du att anpassningarna synkroniseras.
+1. Om **DXML Post Process Initiator**-komponenten inte finns utför du följande steg för att infoga den:
 
-1. Klicka **Infoga komponent** \(Ansvarig för efterbearbetning av Experience Manager Guides som det sista steget i processen\).
-1. Konfigurera **Processsteg** med information nedan:
+1. Klicka på **Infoga komponent** \(Ansvarig för efterbearbetning av Experience Manager Guides som det sista steget i processen\).
+1. Konfigurera **processsteget** med information nedan:
 
-   **Fliken Allmänt**
+   **fliken Allmänt**
 
    **Titel:** DXML Post Process Initiator
 
-   **Beskrivning**: Initieringssteg för DXML-efterbearbetning av den ändrade/skapade resursen som utlöser ett snedjobb för DXML-efterbearbetning
+   **Beskrivning**: Steg för initiering av DXML-efterbearbetning av den ändrade/skapade resursen som utlöser ett snedjobb för DXML-efterbearbetning
 
    **Fliken Process**
 
-   - Välj **DXML Post Process Initiator** från **Process** listruta
+   - Välj **DXML Post Process Initiator** i listrutan **Process**
 
-   - Välj **Avancerad hanterare**
+   - Välj **Handler Advance**
 
    - Välj **Klar**
 
-1. Klicka **Synkronisera** överst till höger när du är klar med ändringarna. Du får ett meddelande om att åtgärden lyckades.
+1. Klicka på **Synkronisera** överst till höger när du har slutfört ändringarna. Du får ett meddelande om att åtgärden lyckades.
 
    >[!NOTE]
    >
-   > Uppdatera och verifiera att anpassade ändringar och efterbearbetningssteget för Experience Manager-stödlinjer finns i den slutliga arbetsflödesmodellen.
+   > Uppdatera och verifiera att anpassade ändringar och Experience Manager Guides efterbearbetningssteg finns i den slutliga arbetsflödesmodellen.
 
-1. En gång **Arbetsflöde för DAM-uppdatering** valideras, kontrollera motsvarande startkonfigurationer. Gå till AEM Workflow interface och öppna startkartor.
+1. När **DAM-uppdateringsarbetsflödet** har validerats kontrollerar du motsvarande startkonfigurationer. Gå till AEM Workflow interface och öppna startkartor.
 
    ```http
    http://localhost:4502/libs/cq/workflow/content/console.html
    ```
 
-   Sök efter och ändra \(om det behövs\) till följande två startprogram \(som ska vara aktiva\) som motsvarar **Arbetsflöde för DAM-uppdatering**:
+   Sök efter och ändra \(om det behövs\) till följande två startprogram \(som ska vara aktiva\) som motsvarar **DAM Update Asset workflow**:
 
-1. Startprogram för &quot;*Noden har skapats*&quot; for **Arbetsflöde för DAM-uppdatering**- för villkor `"jcr:content/jcr:mimeType!=video"`ska värdet Globbing vara:
+1. Startprogrammet för *noden har skapats* för arbetsflödet **DAM Update Asset** - för villkoret `"jcr:content/jcr:mimeType!=video"` ska värdet Globbing vara:
 
    ```json
    /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
    ```
 
    - excludeList ska ha `"event-user-data:changedByWorkflowProcess"`.
-   - Startprogram för &quot;*Noden ändrad*&quot; for **Arbetsflöde för DAM-uppdatering -** for condition &quot;`jcr:content/jcr:mimeType!=video`&quot;,
+   - Startprogram för *Nod ändrad* för **DAM Update Asset workflow -** för villkoret `jcr:content/jcr:mimeType!=video`,
    - Globbing-värdet ska vara:
 
    ```json
@@ -238,15 +238,15 @@ När du har installerat guider för Experience Manager kan du sammanfoga de olik
    - Alla kategorier av klientlib som används från produkten bör granskas för ändringar. Alla åsidosatta konfigurationer \(exempel nedan\) bör jämföras med de senaste för att få de senaste funktionerna:
    - elementmapping.xml
    - ui\_config.json\(kan ha angetts i mappprofiler\)
-   - ändrad `com.adobe.fmdita.config.ConfigManager`
-   - Kontrollera om någon av de anpassade koderna använder några gamla sökvägar \(som anges i [Migreringsmappning](#id2244LE040XA) ) - ska uppdateras till de nya sökvägarna så att anpassningarna också fungerar som förväntat.
-1. Läs om nya konfigurationer i den aktuella versionen \(kontrollera [Versionsinformation](../release-info/release-notes-4-3.md)\) och se om någon funktion påverkas genom att vidta lämpliga åtgärder. Ett exempel kan vara att använda&quot;Förbättrad fil- och versionshantering&quot; som introducerades i version 4.0, som du måste aktivera en konfiguration för.
+   - ändrade `com.adobe.fmdita.config.ConfigManager`
+   - Kontrollera om någon av de anpassade koderna använde några gamla sökvägar \(som nämns i avsnittet [Migreringsmappning](#id2244LE040XA)\) - ska uppdateras till de nya sökvägarna så att anpassningarna också fungerar som förväntat.
+1. Läs om nya konfigurationer som ingår i den aktuella versionen \(kontrollera [Versionsinformation](../release-info/release-notes-4-3.md)\) och se om någon funktion påverkas genom att vidta lämpliga åtgärder. Ett exempel kan vara att använda&quot;Förbättrad fil- och versionshantering&quot; som introducerades i version 4.0, som du måste aktivera en konfiguration för.
 
 ## Steg för att indexera befintligt innehåll så att det använder den nya funktionen för att söka och ersätta:
 
 Utför följande steg för att indexera det befintliga innehållet och använd den nya sök- och ersätt-texten på mappningsnivå:
 
-- Kör en POST till servern \(med korrekt autentisering\) - `http://<server:port\>/bin/guides/map-find/indexing`. \(Valfritt: Du kan skicka specifika banor för mappningarna för att indexera dem. Som standard indexeras alla mappningar \|\| Till exempel: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`\)
+- Kör en POST-förfrågan till servern \(med korrekt autentisering\) - `http://<server:port\>/bin/guides/map-find/indexing`. \(Valfritt: Du kan skicka specifika banor för mappningarna för att indexera dem. Som standard indexeras alla mappningar \|\| Till exempel: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`\)
 
 - API:t returnerar ett jobId. Om du vill kontrollera jobbets status kan du skicka en GET-förfrågan med jobb-ID till samma slutpunkt -
 
@@ -256,11 +256,11 @@ Utför följande steg för att indexera det befintliga innehållet och använd d
 
 Om uppgraderingsjobbet misslyckas och följande fel visas i felloggen:
 
-&quot;Den *fråga* läsa eller bläddra mer än *100000 noder*. Bearbetningen avbröts för att undvika att andra uppgifter påverkas.&quot;
+&quot;*frågan* läste eller gick igenom fler än *100000 noder*. Bearbetningen avbröts för att undvika att andra uppgifter påverkas.&quot;
 
 Detta kan inträffa eftersom indexet inte är korrekt konfigurerat för frågan som används i uppgraderingen. Du kan prova följande lösning:
 
-1. Lägg till den booleska egenskapen i avkodningsindexet damAssetLucene `indexNodeName` as `true` i noden.
+1. Lägg till den booleska egenskapen `indexNodeName` som `true` i noden i index för damAssetLucene-eken.
    `/oak:index/damAssetLucene/indexRules/dam:Asset`
 1. Lägg till en ny nod med utdraget name under noden.
 
@@ -290,7 +290,8 @@ och ange följande egenskaper i noden:
 
    (tillsammans med andra befintliga noder och egenskaper)
 
-1. Indexera om `damAssetLucene` index (genom att ange omindexeringsflaggan som `true` under och väntar på att det ska `false` igen (detta anger att omindexeringen är klar). Observera att det kan ta några timmar beroende på storleken på indexet.
+1. Indexera om indexvärdet `damAssetLucene` (genom att ange omindexeringsflaggan som `true` under
+och vänta tills den är `false` igen (detta anger att omindexeringen är klar). Observera att det kan ta några timmar beroende på storleken på indexet.
 1. Kör indexeringsskriptet igen genom att utföra föregående steg.
 
 
@@ -300,7 +301,7 @@ och ange följande egenskaper i noden:
 >
 >Vi rekommenderar att du installerar programfix 4.2.1.3 utöver version 4.2.1.
 
-Uppgradering till version 4.2.1 beror på den aktuella versionen av stödlinjerna för Experience Manager. Om du använder version 4.1, 4.1.x eller 4.2 kan du uppgradera direkt till version 4.2.1.
+Uppgradering till version 4.2.1 beror på vilken version av Experience Manager Guides som är aktuell. Om du använder version 4.1, 4.1.x eller 4.2 kan du uppgradera direkt till version 4.2.1.
 
 >[!NOTE]
 >
@@ -308,11 +309,11 @@ Uppgradering till version 4.2.1 beror på den aktuella versionen av stödlinjern
 
 ****Förutsättningar****
 
-Innan du startar uppgraderingsprocessen för Experience Manager Guides 4.2.1 måste du se till att du har:
+Innan du startar uppgraderingsprocessen för Experience Manager Guides 4.2.1 bör du kontrollera att du har:
 
 1. Uppgraderat till Experience Manager Guides version 4.1, 4.1.x eller 4.2.
 1. Alla översättningsuppgifter stängdes.
-1. Loggnivån har ändrats till **INFORMATION** for `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` och lägga till loggarna i en ny loggfil, till exempel `logs/translation_upgrade.log.`
+1. Loggnivån har ändrats till **INFO** för klassen `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` och loggarna läggs till i en ny loggfil, till exempel `logs/translation_upgrade.log.`
 
 >[!NOTE]
 >
@@ -320,9 +321,9 @@ Innan du startar uppgraderingsprocessen för Experience Manager Guides 4.2.1 må
 
 ## Installera version 4.2.1
 
-1. Hämta versionspaket 4.2.1 från [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
+1. Hämta versionspaketet 4.2.1 från [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
 1. Installera paket för version 4.2.1.
-1. Du kan välja att HIT-aktivera utlösaren för att starta uppgraderingsjobbet för översättningskartan. Mer information finns i [Aktivera utlösare för skript via en serverenhet](#enable-trigger-serverlet).
+1. Du kan välja att HIT-aktivera utlösaren för att starta uppgraderingsjobbet för översättningskartan. Mer information finns i [Aktivera utlösare för skript via en server](#enable-trigger-serverlet).
 
 
 1. När du har slutfört paketinstallationen väntar du på följande meddelanden i loggarna:
@@ -358,9 +359,10 @@ Svar:
 }
 ```
 
-I svaret ovan, JSON, är nyckeln `lockNodePath` innehåller sökvägen till den nod som skapas i databasen som pekar på det skickade jobbet. Den tas automatiskt bort när jobbet är klart, tills dess kan du referera till den här noden för aktuell status för jobbet.
+I ovanstående svar-JSON innehåller nyckeln `lockNodePath` sökvägen till noden som skapades i databasen som pekar på jobbet som skickats. Den tas automatiskt bort när jobbet är klart, tills dess kan du referera till den här noden för aktuell status för jobbet.
 
-Exempellogg: Här följer ett exempel på loggar som visas i loggfilen när du har utlöst skriptet.
+Exempellogg:
+Här följer ett exempel på loggar som visas i loggfilen när du har utlöst skriptet.
 
 ```
 04.05.2023 14:17:12.876 *INFO* [[0:0:0:0:0:0:0:1] [1683190032736] POST /bin/guides/script/start HTTP/1.1] com.adobe.dxml.common.executor.RunnableSynchronizedOTS Acquiring lock for job : translation-map-upgrade
@@ -373,7 +375,7 @@ Exempellogg: Här följer ett exempel på loggar som visas i loggfilen när du h
 04.05.2023 14:17:12.909 *INFO* [pool-59-thread-1] com.adobe.fmdita.xmltranslation.ots.TranslationMapUpgradeOTS Completed the thread to upgrade translation map from V1 to V2
 ```
 
-Leta efter `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript Completed porting of translation map from V1 to V2` och `com.adobe.fmdita.xmltranslation.ots.TranslationMapUpgradeOTS Completed the thread to upgrade translation map from V1 to V2` innan du fortsätter till nästa steg.
+Sök efter `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript Completed porting of translation map from V1 to V2` och `com.adobe.fmdita.xmltranslation.ots.TranslationMapUpgradeOTS Completed the thread to upgrade translation map from V1 to V2` innan du fortsätter till nästa steg.
 
 
 
@@ -381,15 +383,15 @@ Leta efter `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript Com
 
 >[!IMPORTANT]
 >
-> Hi-tech-mallar visas inte på uppgraderad server. Om du vill inkludera hi-tech-mallen på servern kan du kopiera den: Källa: /libs/fmdita/pdf/Hi-Tech Destination: /content/dam/dita-templates/pdf
+> Hi-tech-mallar visas inte på uppgraderad server. Om du vill inkludera hi-tech-mallen på servern kan du kopiera den: Source: /libs/fmdita/pdf/Hi-Tech Destination: /content/dam/dita-templates/pdf
 
-När du har installerat guider för Experience Manager kan du sammanfoga de olika konfigurationer som gäller från den nyinstallerade versionen till din konfiguration.
+När du har installerat Experience Manager Guides kan du sammanfoga de olika konfigurationer som gäller från den nyinstallerade versionen till din installation.
 
 >[!NOTE]
 >
-> Modellen för dam-update-asset kan anpassas. Om några anpassningar har gjorts måste vi synkronisera anpassningarna och Experience Manager-guiderna i arbetskopian av modellen.
+> Modellen för dam-update-asset kan anpassas. Om några anpassningar har gjorts måste vi synkronisera anpassningarna och Experience Manager Guides i arbetskopian av modellen.
 
-1. **DAM Update Asset workflow \(Efterbehandlingsändringar\):**
+1. **DAM-uppdateringsarbetsflöde för resurs \(Post-processing changes\):**
 
 1. Öppna URL:
 
@@ -397,76 +399,76 @@ När du har installerat guider för Experience Manager kan du sammanfoga de olik
    http://localhost:4502/libs/cq/workflow/admin/console/content/models.html
    ```
 
-1. Välj **Arbetsflöde för DAM-uppdatering**.
+1. Välj **DAM-uppdateringsarbetsflöde**.
 1. Klicka på **Redigera**.
-1. Om **DXML Post Process Initiator** kontrollerar du att anpassningarna är synkroniserade.
-1. Om **DXML Post Process Initiator** om komponenten inte finns utför du följande steg för att infoga den:
+1. Om **DXML Post Process Initiator** -komponenten finns kontrollerar du att anpassningarna synkroniseras.
+1. Om **DXML Post Process Initiator**-komponenten inte finns utför du följande steg för att infoga den:
 
-1. Klicka **Infoga komponent** \(Ansvarig för efterbearbetning av Experience Manager Guides som det sista steget i processen\).
-1. Konfigurera **Processsteg** med information nedan:
+1. Klicka på **Infoga komponent** \(Ansvarig för efterbearbetning av Experience Manager Guides som det sista steget i processen\).
+1. Konfigurera **processsteget** med information nedan:
 
-   **Fliken Allmänt**
+   **fliken Allmänt**
 
    **Titel:** DXML Post Process Initiator
 
-   **Beskrivning**: Initieringssteg för DXML-efterbearbetning av den ändrade/skapade resursen som utlöser ett snedjobb för DXML-efterbearbetning
+   **Beskrivning**: Steg för initiering av DXML-efterbearbetning av den ändrade/skapade resursen som utlöser ett snedjobb för DXML-efterbearbetning
 
    **Fliken Process**
 
-   - Välj **DXML Post Process Initiator** från **Process** listruta
+   - Välj **DXML Post Process Initiator** i listrutan **Process**
 
-   - Välj **Avancerad hanterare**
+   - Välj **Handler Advance**
 
    - Välj **Klar**
 
-1. Klicka **Synkronisera** överst till höger när du är klar med ändringarna. Du får ett meddelande om att åtgärden lyckades.
+1. Klicka på **Synkronisera** överst till höger när du har slutfört ändringarna. Du får ett meddelande om att åtgärden lyckades.
 
    >[!NOTE]
    >
-   > Uppdatera och verifiera att anpassade ändringar och efterbearbetningssteget för Experience Manager-stödlinjer finns i den slutliga arbetsflödesmodellen.
+   > Uppdatera och verifiera att anpassade ändringar och Experience Manager Guides efterbearbetningssteg finns i den slutliga arbetsflödesmodellen.
 
-1. En gång **Arbetsflöde för DAM-uppdatering** valideras, kontrollera motsvarande startkonfigurationer. Gå till AEM Workflow interface och öppna startkartor.
+1. När **DAM-uppdateringsarbetsflödet** har validerats kontrollerar du motsvarande startkonfigurationer. Gå till AEM Workflow interface och öppna startkartor.
 
    ```http
    http://localhost:4502/libs/cq/workflow/content/console.html
    ```
 
-   Sök efter och ändra \(om det behövs\) till följande två startprogram \(som ska vara aktiva\) som motsvarar **Arbetsflöde för DAM-uppdatering**:
+   Sök efter och ändra \(om det behövs\) till följande två startprogram \(som ska vara aktiva\) som motsvarar **DAM Update Asset workflow**:
 
-1. Startprogram för &quot;*Noden har skapats*&quot; for **Arbetsflöde för DAM-uppdatering**- för villkor `"jcr:content/jcr:mimeType!=video"`ska värdet Globbing vara:
+1. Startprogrammet för *noden har skapats* för arbetsflödet **DAM Update Asset** - för villkoret `"jcr:content/jcr:mimeType!=video"` ska värdet Globbing vara:
 
    ```json
    /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
    ```
 
    - excludeList ska ha `"event-user-data:changedByWorkflowProcess"`.
-   - Startprogram för &quot;*Noden ändrad*&quot; for **Arbetsflöde för DAM-uppdatering -** for condition &quot;`jcr:content/jcr:mimeType!=video`&quot;, ska värdet Globbing vara:
+   - Startfunktionen för *Nod ändrad* för **DAM Update Asset workflow -** för villkoret `jcr:content/jcr:mimeType!=video`. Värdet Globbing ska vara:
 
    ```json
    /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
    ```
 
-   - `excludeList` borde ha `"event-user-data:changedByWorkflowProcess"`.
+   - `excludeList` ska ha `"event-user-data:changedByWorkflowProcess"`.
 
 1. När uppgraderingen är klar kontrollerar du att alla anpassningar/övertäckningar har validerats och uppdaterats så att de matchar den nya programkoden. Nedan följer några exempel:
    - Alla komponenter som överlappas av/libs/fmditor/libsska jämföras med den nya produktkoden och uppdateringar ska göras i överlagrade filer under/i appar.
    - Alla kategorier av klientlib som används från produkten bör granskas för ändringar. Alla åsidosatta konfigurationer \(exempel nedan\) bör jämföras med de senaste för att få de senaste funktionerna:
    - elementmapping.xml
    - ui\_config.json\(kan ha angetts i mappprofiler\)
-   - ändrad `com.adobe.fmdita.config.ConfigManager`
-   - Kontrollera om någon av de anpassade koderna använder några gamla sökvägar \(som anges i [Migreringsmappning](#id2244LE040XA) ) - ska uppdateras till de nya sökvägarna så att anpassningarna också fungerar som förväntat.
-1. Läs om nya konfigurationer i den aktuella versionen \(kontrollera [Versionsinformation](../release-info/release-notes-4-2-1.md)\) och se om någon funktion påverkas genom att vidta lämpliga åtgärder. Ett exempel kan vara att använda&quot;Förbättrad fil- och versionshantering&quot; som introducerades i version 4.0, som du måste aktivera en konfiguration för.
+   - ändrade `com.adobe.fmdita.config.ConfigManager`
+   - Kontrollera om någon av de anpassade koderna använde några gamla sökvägar \(som nämns i avsnittet [Migreringsmappning](#id2244LE040XA)\) - ska uppdateras till de nya sökvägarna så att anpassningarna också fungerar som förväntat.
+1. Läs om nya konfigurationer som ingår i den aktuella versionen \(kontrollera [Versionsinformation](../release-info/release-notes-4-2-1.md)\) och se om någon funktion påverkas genom att vidta lämpliga åtgärder. Ett exempel kan vara att använda&quot;Förbättrad fil- och versionshantering&quot; som introducerades i version 4.0, som du måste aktivera en konfiguration för.
 
 ## Steg för att indexera befintligt innehåll så att det använder den nya funktionen för att söka och ersätta:
 
 Utför följande steg för att indexera det befintliga innehållet och använd den nya sök- och ersätt-texten på mappningsnivå:
 
-- Se till att `damAssetLucene` indexeringen har slutförts. Det kan ta upp till några timmar, beroende på mängden data som finns på servern. Du kan bekräfta att omindexeringen har slutförts genom att kontrollera att fältet för omindexering har värdet false i
-  `http://<server:port>/oak:index/damAssetLucene`.  Om du har lagt till anpassningar i `damAssetLucene`måste du kanske använda dem igen.
+- Kontrollera att indexeringen av `damAssetLucene` har slutförts. Det kan ta upp till några timmar, beroende på mängden data som finns på servern. Du kan bekräfta att omindexeringen har slutförts genom att kontrollera att fältet för omindexering har värdet false i
+  `http://<server:port>/oak:index/damAssetLucene`.  Om du har lagt till anpassningar i `damAssetLucene` kan du behöva tillämpa dem igen.
 
-- Kör en POST till servern \(med korrekt autentisering\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Valfritt: Du kan skicka specifika banor för mappningarna för att indexera dem. Som standard indexeras alla mappningar \|\| Till exempel: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+- Kör en POST-förfrågan till servern \(med korrekt autentisering\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Valfritt: Du kan skicka specifika banor för mappningarna för att indexera dem. Som standard indexeras alla mappningar \|\| Till exempel: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
-- Du kan också skicka en rotmapp för att indexera DITA-mappningarna för en viss mapp (och dess undermappar). Till exempel: `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. Observera, att om både sökvägsparametern och rotparametern skickas, beaktas bara sökvägsparametern.
+- Du kan också skicka en rotmapp för att indexera DITA-mappningarna för en viss mapp (och dess undermappar). Exempel: `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. Observera, att om både sökvägsparametern och rotparametern skickas, beaktas bara sökvägsparametern.
 
 - API:t returnerar ett jobId. Om du vill kontrollera jobbets status kan du skicka en GET-förfrågan med jobb-ID till samma slutpunkt - `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(Exempel: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
 
@@ -476,7 +478,7 @@ Utför följande steg för att indexera det befintliga innehållet och använd d
 
 ## Uppgradera till version 4.3.0 {#upgrade-version-4-3}
 
-Uppgradering till version 4.3.0 beror på den aktuella versionen av stödlinjerna för Experience Manager. Om du använder version 4.2 eller 4.2.x kan du uppgradera direkt till version 4.3.0.
+Uppgradering till version 4.3.0 beror på vilken version av Experience Manager Guides du har. Om du använder version 4.2 eller 4.2.x kan du uppgradera direkt till version 4.3.0.
 
 >[!NOTE]
 >
@@ -486,55 +488,55 @@ Uppgradering till version 4.3.0 beror på den aktuella versionen av stödlinjern
 
 Innan du startar uppgraderingsprocessen för Experience Manager Guides 4.3.0 bör du kontrollera att du har:
 
-1. Uppgraderat till Experience Manager Guides version 4.2 eller 4.2.x och slutförde respektive installationssteg.
+1. Uppgraderat till Experience Manager Guides version 4.2 eller 4.2.x och slutfört respektive installationssteg.
 1. Alla översättningsuppgifter stängdes.
 
 
 
 ## Installera version 4.3.0
 
-1. Ladda ned version 4.3.0 av [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
+1. Hämta versionspaket 4.3.0 från [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
 1. Installera paket för version 4.3.0.
 1. Rensa webbläsarcachen när paketet har installerats.
-1. Uppgradera `ui_config.json` från **Konfiguration av XML-redigerare** i mappprofilen.
+1. Uppgradera filen `ui_config.json` från fliken **XML-redigerarkonfiguration** i mappprofilen.
 
 
 ## Efter installationen av version 4.3.0
 
-När du har installerat guider för Experience Manager kan du sammanfoga de olika konfigurationer som gäller från den nyinstallerade versionen till din konfiguration.
+När du har installerat Experience Manager Guides kan du sammanfoga de olika konfigurationer som gäller från den nyinstallerade versionen till din installation.
 
 ## Steg för att bokföra det befintliga innehållet så att det använder den brutna länkrapporten
 
 
 Utför följande steg för att efterbearbeta befintligt innehåll och använda den nya brutna länkrapporten:
 
-1. (Valfritt) Om det finns fler än 100 000 dita-filer i systemet uppdaterar du `queryLimitReads` under `org.apache.jackrabbit.oak.query.QueryEngineSettingsService` till ett större värde (vilket värde som helst som är större än antalet resurser, till exempel 200 000) och sedan distribuera om.
+1. (Valfritt) Om det finns fler än 100 000 dita-filer i systemet uppdaterar du `queryLimitReads` under `org.apache.jackrabbit.oak.query.QueryEngineSettingsService` till ett större värde (vilket värde som helst som är större än antalet resurser, till exempel 200 000) och distribuerar sedan om.
 
    | PID | Egenskapsnyckel | Egenskapsvärde |
    |---|---|---|
-   | org.apache.jackrabbit.oak.query.QueryEngineSettingsService | queryLimitReads | Värde: 200000 <br> Standardvärde: 10000 |
+   | org.apache.jackrabbit.oak.query.QueryEngineSettingsService | queryLimitReads | Värde: 200000 <br> standardvärde: 100000 |
 
 1. Kör följande API:er för efterbearbetning av alla filer:
 
    | Slutpunkt | /bin/guides/reports/upgrade |
    |---|---|
-   | Typ av begäran | **POST**  Skriptet är en begäran om POST och ska därför köras via agenter som Postman. |
+   | Typ av begäran | **POST** Det här skriptet är en POST-förfrågan och ska därför köras via agenter som Postman. |
    | Förväntat svar | API:t returnerar ett jobId. Om du vill kontrollera jobbets status kan du skicka en GET-förfrågan med jobb-ID till samma slutpunkt.<br> Exempel-URL: `http://<server:port>/bin/guides/reports/upgrade` |
 
    | Slutpunkt | /bin/guides/reports/upgrade |
    |---|---|
    | Typ av begäran | **GET** |
    | Param | jobId: Skicka det jobId som togs emot från föregående post-begäran. |
-   | Förväntat svar | - När jobbet är klart svarar GET-förfrågan med framgång. <br> - Om fel uppstår kan du dela felloggarna tillsammans med API-utdata med kundens framgångsgrupp.  <br>Exempel-URL: `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
+   | Förväntat svar | - När jobbet är klart svarar GET-förfrågan med framgång. <br> - Om det uppstår fel kan du dela felloggarna tillsammans med API-utdata med kundens framgångsgrupp.  <br>Exempel-URL: `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
 
 
-1. Återgå till standardvärdet eller det tidigare befintliga värdet för `queryLimitReads` om du har ändrat den i steg 1.
+1. Återgå till standardvärdet eller det tidigare befintliga värdet `queryLimitReads` om du har ändrat det i steg 1.
 
 
 
 ## Uppgradera till version 4.3.1 {#upgrade-version-4-3-1}
 
-Uppgradering till version 4.3.1 beror på den aktuella versionen av stödlinjerna för Experience Manager. Om du använder version 4.3.0, 4.2 eller 4.2.1 kan du uppgradera direkt till version 4.3.1.
+Uppgradering till version 4.3.1 beror på vilken version av Experience Manager Guides som är aktuell. Om du använder version 4.3.0, 4.2 eller 4.2.1 kan du uppgradera direkt till version 4.3.1.
 
 >[!NOTE]
 >
@@ -542,18 +544,18 @@ Uppgradering till version 4.3.1 beror på den aktuella versionen av stödlinjern
 
 ****Förutsättningar****
 
-Innan du startar uppgraderingsprocessen för Experience Manager Guides 4.3.1 måste du se till att du har:
+Innan du startar uppgraderingsprocessen för Experience Manager Guides 4.3.1 bör du kontrollera att du har:
 
-1. Uppgraderat till Experience Manager Guides version 4.3.0, 4.2 eller 4.2.1 och slutförde respektive installationssteg.
+1. Uppgraderat till Experience Manager Guides version 4.3.0, 4.2 eller 4.2.1 och slutfört respektive installationssteg.
 1. (Valfritt) Avslutade alla översättningsuppgifter.
-1. Loggnivån har ändrats till **INFORMATION** for `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` och lägga till loggarna i en ny loggfil, till exempel `logs/translation_upgrade.log`.
+1. Loggnivån har ändrats till **INFO** för klassen `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` och loggarna läggs till i en ny loggfil, till exempel `logs/translation_upgrade.log`.
 
 
 ## Installera version 4.3.1
 
-1. Hämta versionspaket 4.3.1 från [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
+1. Hämta versionspaketet 4.3.1 från [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
 1. Installera paket för version 4.3.1.
-1. Du kan välja att HIT-aktivera utlösaren för att starta uppgraderingsjobbet för översättningskartan. Mer information finns i [Aktivera utlösare för skript via en serverenhet](#enable-trigger-serverlet-4-3-1).
+1. Du kan välja att HIT-aktivera utlösaren för att starta uppgraderingsjobbet för översättningskartan. Mer information finns i [Aktivera utlösare för skript via en server](#enable-trigger-serverlet-4-3-1).
 
 
 1. När du har slutfört paketinstallationen väntar du på följande meddelanden i loggarna:
@@ -589,9 +591,10 @@ Svar:
 }
 ```
 
-I svaret ovan, JSON, är nyckeln `lockNodePath` innehåller sökvägen till den nod som skapas i databasen som pekar på det skickade jobbet. Den tas automatiskt bort när jobbet är klart, tills dess kan du referera till den här noden för aktuell status för jobbet.
+I ovanstående svar-JSON innehåller nyckeln `lockNodePath` sökvägen till noden som skapades i databasen som pekar på jobbet som skickats. Den tas automatiskt bort när jobbet är klart, tills dess kan du referera till den här noden för aktuell status för jobbet.
 
-Exempellogg: Här följer ett exempel på loggar som visas i loggfilen när du har utlöst skriptet.
+Exempellogg:
+Här följer ett exempel på loggar som visas i loggfilen när du har utlöst skriptet.
 
 ```
 04.05.2023 14:17:12.876 *INFO* [[0:0:0:0:0:0:0:1] [1683190032736] POST /bin/guides/script/start HTTP/1.1] com.adobe.dxml.common.executor.RunnableSynchronizedOTS Acquiring lock for job : translation-map-upgrade
@@ -604,19 +607,19 @@ Exempellogg: Här följer ett exempel på loggar som visas i loggfilen när du h
 04.05.2023 14:17:12.909 *INFO* [pool-59-thread-1] com.adobe.fmdita.xmltranslation.ots.TranslationMapUpgradeOTS Completed the thread to upgrade translation map from V1 to V2
 ```
 
-Leta efter `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript Completed porting of translation map from V1 to V2` och `com.adobe.fmdita.xmltranslation.ots.TranslationMapUpgradeOTS Completed the thread to upgrade translation map from V1 to V2` innan du fortsätter till nästa steg.
+Sök efter `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript Completed porting of translation map from V1 to V2` och `com.adobe.fmdita.xmltranslation.ots.TranslationMapUpgradeOTS Completed the thread to upgrade translation map from V1 to V2` innan du fortsätter till nästa steg.
 
 ## Efter installationen av version 4.3.1
 
 
 
-När du har installerat guider för Experience Manager kan du sammanfoga de olika konfigurationer som gäller från den nyinstallerade versionen till din konfiguration.
+När du har installerat Experience Manager Guides kan du sammanfoga de olika konfigurationer som gäller från den nyinstallerade versionen till din installation.
 
 >[!NOTE]
 >
-> Modellen för dam-update-asset kan anpassas. Om några anpassningar har gjorts måste vi synkronisera anpassningarna och Experience Manager-guiderna i arbetskopian av modellen.
+> Modellen för dam-update-asset kan anpassas. Om några anpassningar har gjorts måste vi synkronisera anpassningarna och Experience Manager Guides i arbetskopian av modellen.
 
-1. **DAM Update Asset workflow \(Efterbehandlingsändringar\):**
+1. **DAM-uppdateringsarbetsflöde för resurs \(Post-processing changes\):**
 
 1. Öppna URL:
 
@@ -624,63 +627,63 @@ När du har installerat guider för Experience Manager kan du sammanfoga de olik
    http://localhost:4502/libs/cq/workflow/admin/console/content/models.html 
    ```
 
-1. Välj **Arbetsflöde för DAM-uppdatering**.
+1. Välj **DAM-uppdateringsarbetsflöde**.
 1. Klicka på **Redigera**.
-1. Om **DXML Post Process Initiator** kontrollerar du att anpassningarna är synkroniserade.
-1. Om **DXML Post Process Initiator** om komponenten inte finns utför du följande steg för att infoga den:
+1. Om **DXML Post Process Initiator** -komponenten finns kontrollerar du att anpassningarna synkroniseras.
+1. Om **DXML Post Process Initiator**-komponenten inte finns utför du följande steg för att infoga den:
 
-1. Klicka **Infoga komponent** \(Ansvarig för efterbearbetning av Experience Manager Guides som det sista steget i processen\).
-1. Konfigurera **Processsteg** med information nedan:
+1. Klicka på **Infoga komponent** \(Ansvarig för efterbearbetning av Experience Manager Guides som det sista steget i processen\).
+1. Konfigurera **processsteget** med information nedan:
 
-   **Fliken Allmänt**
+   **fliken Allmänt**
 
    **Titel:** DXML Post Process Initiator
 
-   **Beskrivning**: Initieringssteg för DXML-efterbearbetning av den ändrade/skapade resursen som utlöser ett snedjobb för DXML-efterbearbetning
+   **Beskrivning**: Steg för initiering av DXML-efterbearbetning av den ändrade/skapade resursen som utlöser ett snedjobb för DXML-efterbearbetning
 
    **Fliken Process**
 
-   - Välj **DXML Post Process Initiator** från **Process** listruta
+   - Välj **DXML Post Process Initiator** i listrutan **Process**
 
-   - Välj **Avancerad hanterare**
+   - Välj **Handler Advance**
 
    - Välj **Klar**
 
-1. Klicka **Synkronisera** överst till höger när du är klar med ändringarna. Du får ett meddelande om att åtgärden lyckades.
+1. Klicka på **Synkronisera** överst till höger när du har slutfört ändringarna. Du får ett meddelande om att åtgärden lyckades.
 
    >[!NOTE]
    >
-   > Uppdatera och verifiera att anpassade ändringar och efterbearbetningssteget för Experience Manager-stödlinjer finns i den slutliga arbetsflödesmodellen.
+   > Uppdatera och verifiera att anpassade ändringar och Experience Manager Guides efterbearbetningssteg finns i den slutliga arbetsflödesmodellen.
 
-1. En gång **Arbetsflöde för DAM-uppdatering** valideras, kontrollera motsvarande startkonfigurationer. Gå till AEM Workflow interface och öppna startkartor.
+1. När **DAM-uppdateringsarbetsflödet** har validerats kontrollerar du motsvarande startkonfigurationer. Gå till AEM Workflow interface och öppna startkartor.
 
    ```http
    http://localhost:4502/libs/cq/workflow/content/console.html
    ```
 
-   Sök efter och ändra \(om det behövs\) till följande två startprogram \(som ska vara aktiva\) som motsvarar **Arbetsflöde för DAM-uppdatering**:
+   Sök efter och ändra \(om det behövs\) till följande två startprogram \(som ska vara aktiva\) som motsvarar **DAM Update Asset workflow**:
 
-1. Startprogram för &quot;*Noden har skapats*&quot; for **Arbetsflöde för DAM-uppdatering**- för villkor `"jcr:content/jcr:mimeType!=video"`ska värdet Globbing vara:
+1. Startprogrammet för *noden har skapats* för arbetsflödet **DAM Update Asset** - för villkoret `"jcr:content/jcr:mimeType!=video"` ska värdet Globbing vara:
 
    ```json
    /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
    ```
 
    - excludeList ska ha `"event-user-data:changedByWorkflowProcess"`.
-   - Startprogram för &quot;*Noden ändrad*&quot; for **Arbetsflöde för DAM-uppdatering -** for condition &quot;`jcr:content/jcr:mimeType!=video`&quot;, ska värdet Globbing vara:
+   - Startfunktionen för *Nod ändrad* för **DAM Update Asset workflow -** för villkoret `jcr:content/jcr:mimeType!=video`. Värdet Globbing ska vara:
 
    ```json
    /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
    ```
 
-   - `excludeList` borde ha `"event-user-data:changedByWorkflowProcess"`.
+   - `excludeList` ska ha `"event-user-data:changedByWorkflowProcess"`.
 
 1. När uppgraderingen är klar kontrollerar du att alla anpassningar/övertäckningar har validerats och uppdaterats så att de matchar den nya programkoden. Nedan följer några exempel:
    - Alla komponenter som överlappas av/libs/fmditor/libsska jämföras med den nya produktkoden och uppdateringar ska göras i överlagrade filer under/i appar.
    - Alla kategorier av klientlib som används från produkten bör granskas för ändringar. Alla åsidosatta konfigurationer \(exempel nedan\) bör jämföras med de senaste för att få de senaste funktionerna:
    - elementmapping.xml
    - ui\_config.json\(kan ha angetts i mappprofiler\)
-   - ändrad `com.adobe.fmdita.config.ConfigManager`
+   - ändrade `com.adobe.fmdita.config.ConfigManager`
 
 
 ## Steg för indexering av befintligt innehåll
@@ -692,7 +695,7 @@ När du har installerat guider för Experience Manager kan du sammanfoga de olik
 Utför följande steg för att indexera det befintliga innehållet och använd den nya sök- och ersätt-texten på mappningsnivå:
 
 
-- Kör en POST till servern \(med korrekt autentisering\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Valfritt: Du kan skicka specifika banor för mappningarna för att indexera dem. Som standard indexeras alla mappningar \|\| Till exempel: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+- Kör en POST-förfrågan till servern \(med korrekt autentisering\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Valfritt: Du kan skicka specifika banor för mappningarna för att indexera dem. Som standard indexeras alla mappningar \|\| Till exempel: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
 
 - API:t returnerar ett jobId. Om du vill kontrollera jobbets status kan du skicka en GET-förfrågan med jobb-ID till samma slutpunkt - `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(Exempel: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
@@ -708,39 +711,39 @@ Utför följande steg för att indexera det befintliga innehållet och använd d
 
 Utför följande steg för att efterbearbeta befintligt innehåll och använda den nya brutna länkrapporten:
 
-1. (Valfritt) Om det finns fler än 100 000 dita-filer i systemet uppdaterar du `queryLimitReads` under `org.apache.jackrabbit.oak.query.QueryEngineSettingsService` till ett större värde (vilket värde som helst som är större än antalet resurser, till exempel 200 000) och sedan distribuera om.
+1. (Valfritt) Om det finns fler än 100 000 dita-filer i systemet uppdaterar du `queryLimitReads` under `org.apache.jackrabbit.oak.query.QueryEngineSettingsService` till ett större värde (vilket värde som helst som är större än antalet resurser, till exempel 200 000) och distribuerar sedan om.
 
    | PID | Egenskapsnyckel | Egenskapsvärde |
    |---|---|---|
-   | org.apache.jackrabbit.oak.query.QueryEngineSettingsService | queryLimitReads | Värde: 200000 <br> Standardvärde: 10000 |
+   | org.apache.jackrabbit.oak.query.QueryEngineSettingsService | queryLimitReads | Värde: 200000 <br> standardvärde: 100000 |
 
 1. Kör följande API:er för efterbearbetning av alla filer:
 
    | Slutpunkt | /bin/guides/reports/upgrade |
    |---|---|
-   | Typ av begäran | **POST**  Skriptet är en begäran om POST och ska därför köras via agenter som Postman. |
+   | Typ av begäran | **POST** Det här skriptet är en POST-förfrågan och ska därför köras via agenter som Postman. |
    | Förväntat svar | API:t returnerar ett jobId. Om du vill kontrollera jobbets status kan du skicka en GET-förfrågan med jobb-ID till samma slutpunkt.<br> Exempel-URL: `http://<server:port>/bin/guides/reports/upgrade` |
 
    | Slutpunkt | /bin/guides/reports/upgrade |
    |---|---|
    | Typ av begäran | **GET** |
    | Param | jobId: Skicka det jobId som togs emot från föregående post-begäran. |
-   | Förväntat svar | - När jobbet är klart svarar GET-förfrågan med framgång. <br> - Om fel uppstår kan du dela felloggarna tillsammans med API-utdata med kundens framgångsgrupp.  <br>Exempel-URL: `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
+   | Förväntat svar | - När jobbet är klart svarar GET-förfrågan med framgång. <br> - Om det uppstår fel kan du dela felloggarna tillsammans med API-utdata med kundens framgångsgrupp.  <br>Exempel-URL: `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
 
 
-1. Återgå till standardvärdet eller det tidigare befintliga värdet för `queryLimitReads` om du har ändrat den i steg 1.
+1. Återgå till standardvärdet eller det tidigare befintliga värdet `queryLimitReads` om du har ändrat det i steg 1.
 
 
 
 ## Uppgradera till version 4.3.1.5 {#upgrade-version-4-3-1-5}
 
-Uppgradering till version 4.3.1.5 beror på vilken version av stödlinjerna för Experience Manager har. Om du använder version 4.3.1 kan du uppgradera direkt till version 4.3.1.5.
+Uppgradering till version 4.3.1.5 beror på vilken version av Experience Manager Guides som är aktuell. Om du använder version 4.3.1 kan du uppgradera direkt till version 4.3.1.5.
 
 
 
 ## Installera version 4.3.1.5
 
-1. Hämta versionspaket 4.3.1.5 från [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
+1. Hämta versionspaketet 4.3.1.5 från [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
 1. Installera paket för version 4.3.1.5.
 
 1. Vänta tills installationsprocessen har slutförts.
@@ -760,11 +763,11 @@ Uppgradering till version 4.3.1.5 beror på vilken version av stödlinjerna för
 
 
 1. När uppgraderingen är klar kontrollerar du att alla anpassningar/övertäckningar har validerats och uppdaterats så att de matchar den nya programkoden. Nedan följer några exempel:
-   - Alla komponenter som överlappas av `/libs/fmdita` eller` /libs` ska jämföras med den nya produktkoden och uppdateringar ska göras i överlagrade filer i `/apps` .
+   - Alla komponenter som överlappas från `/libs/fmdita` eller ` /libs` ska jämföras med den nya produktkoden och uppdateringar ska göras i överlagrade filer under `/apps` .
    - Alla kategorier av klientlib som används från produkten bör granskas för ändringar. Alla åsidosatta konfigurationer \(exempel nedan\) bör jämföras med de senaste för att få de senaste funktionerna:
    - `elementmapping.xml`
    - `ui\_config.json\` (kan ha angetts i mappprofiler\)
-   - ändrad `com.adobe.fmdita.config.ConfigManager`
+   - ändrade `com.adobe.fmdita.config.ConfigManager`
 
 
 
@@ -774,7 +777,7 @@ Uppgradering till version 4.3.1.5 beror på vilken version av stödlinjerna för
 
 ## Uppgradera till version 4.4.0 {#upgrade-version-4-4-0}
 
-Uppgradering till version 4.4.0 beror på den aktuella versionen av stödlinjerna för Experience Manager. Om du använder version 4.3.1, 4.3.0, 4.2 eller 4.2.1 (programfix 4.2.1.3) kan du uppgradera direkt till version 4.4.0
+Uppgradering till version 4.4.0 beror på vilken version av Experience Manager Guides som är aktuell. Om du använder version 4.3.1, 4.3.0, 4.2 eller 4.2.1 (programfix 4.2.1.3) kan du uppgradera direkt till version 4.4.0
 
 >[!NOTE]
 >
@@ -784,16 +787,16 @@ Uppgradering till version 4.4.0 beror på den aktuella versionen av stödlinjern
 
 Innan du startar uppgraderingsprocessen för Experience Manager Guides 4.4.0 bör du kontrollera att du har:
 
-1. Uppgraderat till Experience Manager Guides version 4.3.1, 4.3.0 eller 4.2.1 (programfix 4.2.1.3) och slutförde respektive installationssteg.
+1. Uppgraderad till Experience Manager Guides version 4.3.1, 4.3.0 eller 4.2.1 (programfix 4.2.1.3) och slutförde respektive installationssteg.
 1. (Valfritt) Avslutade alla översättningsuppgifter.
-1. Loggnivån har ändrats till **INFORMATION** for `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` och lägga till loggarna i en ny loggfil, till exempel `logs/translation_upgrade.log`.
+1. Loggnivån har ändrats till **INFO** för klassen `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` och loggarna läggs till i en ny loggfil, till exempel `logs/translation_upgrade.log`.
 
 
 ## Installera version 4.4.0
 
-1. Ladda ned version 4.4.0 från [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
+1. Hämta versionspaketet 4.4.0 från [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
 1. Installera paket för version 4.4.0.
-1. Du kan välja att HIT-aktivera utlösaren för att starta uppgraderingsjobbet för översättningskartan. Mer information finns i [Aktivera utlösare för skript via en serverenhet](#enable-trigger-serverlet-4-4-0).
+1. Du kan välja att HIT-aktivera utlösaren för att starta uppgraderingsjobbet för översättningskartan. Mer information finns i [Aktivera utlösare för skript via en server](#enable-trigger-serverlet-4-4-0).
 
 1. När du har slutfört paketinstallationen väntar du på följande meddelanden i loggarna:
 
@@ -813,13 +816,13 @@ Innan du startar uppgraderingsprocessen för Experience Manager Guides 4.4.0 bö
 
 ## Efter installationen av version 4.4.0
 
-När du har installerat guider för Experience Manager kan du sammanfoga de olika konfigurationer som gäller från den nyinstallerade versionen till din konfiguration.
+När du har installerat Experience Manager Guides kan du sammanfoga de olika konfigurationer som gäller från den nyinstallerade versionen till din installation.
 
 >[!NOTE]
 >
-> Modellen för dam-update-asset kan anpassas. Om några anpassningar har gjorts måste vi synkronisera anpassningarna och Experience Manager-guiderna i arbetskopian av modellen.
+> Modellen för dam-update-asset kan anpassas. Om några anpassningar har gjorts måste vi synkronisera anpassningarna och Experience Manager Guides i arbetskopian av modellen.
 
-1. **DAM Update Asset workflow \(Efterbehandlingsändringar\):**
+1. **DAM-uppdateringsarbetsflöde för resurs \(Post-processing changes\):**
 
 1. Öppna URL:
 
@@ -827,63 +830,63 @@ När du har installerat guider för Experience Manager kan du sammanfoga de olik
    http://localhost:4502/libs/cq/workflow/admin/console/content/models.html 
    ```
 
-1. Välj **Arbetsflöde för DAM-uppdatering**.
+1. Välj **DAM-uppdateringsarbetsflöde**.
 1. Klicka på **Redigera**.
-1. Om **DXML Post Process Initiator** kontrollerar du att anpassningarna är synkroniserade.
-1. Om **DXML Post Process Initiator** om komponenten inte finns utför du följande steg för att infoga den:
+1. Om **DXML Post Process Initiator** -komponenten finns kontrollerar du att anpassningarna synkroniseras.
+1. Om **DXML Post Process Initiator**-komponenten inte finns utför du följande steg för att infoga den:
 
-1. Klicka **Infoga komponent** \(Ansvarig för efterbearbetning av Experience Manager Guides som det sista steget i processen\).
-1. Konfigurera **Processsteg** med information nedan:
+1. Klicka på **Infoga komponent** \(Ansvarig för efterbearbetning av Experience Manager Guides som det sista steget i processen\).
+1. Konfigurera **processsteget** med information nedan:
 
-   **Fliken Allmänt**
+   **fliken Allmänt**
 
    **Titel:** DXML Post Process Initiator
 
-   **Beskrivning**: Initieringssteg för DXML-efterbearbetning av den ändrade/skapade resursen som utlöser ett snedjobb för DXML-efterbearbetning
+   **Beskrivning**: Steg för initiering av DXML-efterbearbetning av den ändrade/skapade resursen som utlöser ett snedjobb för DXML-efterbearbetning
 
    **Fliken Process**
 
-   - Välj **DXML Post Process Initiator** från **Process** listruta
+   - Välj **DXML Post Process Initiator** i listrutan **Process**
 
-   - Välj **Avancerad hanterare**
+   - Välj **Handler Advance**
 
    - Välj **Klar**
 
-1. Klicka **Synkronisera** överst till höger när du är klar med ändringarna. Du får ett meddelande om att åtgärden lyckades.
+1. Klicka på **Synkronisera** överst till höger när du har slutfört ändringarna. Du får ett meddelande om att åtgärden lyckades.
 
    >[!NOTE]
    >
-   > Uppdatera och verifiera att anpassade ändringar och efterbearbetningssteget för Experience Manager-stödlinjer finns i den slutliga arbetsflödesmodellen.
+   > Uppdatera och verifiera att anpassade ändringar och Experience Manager Guides efterbearbetningssteg finns i den slutliga arbetsflödesmodellen.
 
-1. En gång **Arbetsflöde för DAM-uppdatering** valideras, kontrollera motsvarande startkonfigurationer. Gå till AEM Workflow interface och öppna startkartor.
+1. När **DAM-uppdateringsarbetsflödet** har validerats kontrollerar du motsvarande startkonfigurationer. Gå till AEM Workflow interface och öppna startkartor.
 
    ```http
    http://localhost:4502/libs/cq/workflow/content/console.html
    ```
 
-   Sök efter och ändra \(om det behövs\) till följande två startprogram \(som ska vara aktiva\) som motsvarar **Arbetsflöde för DAM-uppdatering**:
+   Sök efter och ändra \(om det behövs\) till följande två startprogram \(som ska vara aktiva\) som motsvarar **DAM Update Asset workflow**:
 
-1. Startprogram för &quot;*Noden har skapats*&quot; for **Arbetsflöde för DAM-uppdatering**- för villkor `"jcr:content/jcr:mimeType!=video"`ska värdet Globbing vara:
+1. Startprogrammet för *noden har skapats* för arbetsflödet **DAM Update Asset** - för villkoret `"jcr:content/jcr:mimeType!=video"` ska värdet Globbing vara:
 
    ```json
    /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
    ```
 
    - excludeList ska ha `"event-user-data:changedByWorkflowProcess"`.
-   - Startprogram för &quot;*Noden ändrad*&quot; for **Arbetsflöde för DAM-uppdatering -** for condition &quot;`jcr:content/jcr:mimeType!=video`&quot;, ska värdet Globbing vara:
+   - Startfunktionen för *Nod ändrad* för **DAM Update Asset workflow -** för villkoret `jcr:content/jcr:mimeType!=video`. Värdet Globbing ska vara:
 
    ```json
    /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
    ```
 
-   - `excludeList` borde ha `"event-user-data:changedByWorkflowProcess"`.
+   - `excludeList` ska ha `"event-user-data:changedByWorkflowProcess"`.
 
 1. När uppgraderingen är klar kontrollerar du att alla anpassningar/övertäckningar har validerats och uppdaterats så att de matchar den nya programkoden. Nedan följer några exempel:
    - Alla komponenter som överlappas av/libs/fmditor/libsska jämföras med den nya produktkoden och uppdateringar ska göras i överlagrade filer under/i appar.
    - Alla kategorier av klientlib som används från produkten bör granskas för ändringar. Alla åsidosatta konfigurationer \(exempel nedan\) bör jämföras med de senaste för att få de senaste funktionerna:
    - elementmapping.xml
    - ui\_config.json\(kan ha angetts i mappprofiler\)
-   - ändrad `com.adobe.fmdita.config.ConfigManager`
+   - ändrade `com.adobe.fmdita.config.ConfigManager`
 
 1. Om du har lagt till anpassningar i damAssetLucene kan du behöva använda dem igen. När du har gjort ändringarna anger du reindex som true. Detta indexerar om alla befintliga noder med anpassningarna. När du är klar anges omindexeringsflaggan till false igen. Detta kan ta några timmar beroende på antalet resurser i systemet.
 
@@ -895,7 +898,7 @@ När du har installerat guider för Experience Manager kan du sammanfoga de olik
 
 Utför följande steg för att indexera det befintliga innehållet och använd den nya sök- och ersätt-texten på mappningsnivå:
 
-- Kör en POST till servern \(med korrekt autentisering\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Valfritt: Du kan skicka specifika banor för mappningarna för att indexera dem. Som standard indexeras alla mappningar \|\| Till exempel: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+- Kör en POST-förfrågan till servern \(med korrekt autentisering\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Valfritt: Du kan skicka specifika banor för mappningarna för att indexera dem. Som standard indexeras alla mappningar \|\| Till exempel: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
 - API:t returnerar ett jobId. Om du vill kontrollera jobbets status kan du skicka en GET-förfrågan med jobb-ID till samma slutpunkt - `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(Exempel: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
 
@@ -909,26 +912,26 @@ Utför följande steg för att indexera det befintliga innehållet och använd d
 
 Utför följande steg för att efterbearbeta befintligt innehåll och använda den nya brutna länkrapporten:
 
-1. (Valfritt) Om det finns fler än 100 000 dita-filer i systemet uppdaterar du `queryLimitReads` under `org.apache.jackrabbit.oak.query.QueryEngineSettingsService` till ett större värde (vilket värde som helst som är större än antalet resurser, till exempel 200 000) och sedan distribuera om.
+1. (Valfritt) Om det finns fler än 100 000 dita-filer i systemet uppdaterar du `queryLimitReads` under `org.apache.jackrabbit.oak.query.QueryEngineSettingsService` till ett större värde (vilket värde som helst som är större än antalet resurser, till exempel 200 000) och distribuerar sedan om.
 
    | PID | Egenskapsnyckel | Egenskapsvärde |
    |---|---|---|
-   | org.apache.jackrabbit.oak.query.QueryEngineSettingsService | queryLimitReads | Värde: 200000 <br> Standardvärde: 10000 |
+   | org.apache.jackrabbit.oak.query.QueryEngineSettingsService | queryLimitReads | Värde: 200000 <br> standardvärde: 100000 |
 
 1. Kör följande API:er för efterbearbetning av alla filer:
 
    | Slutpunkt | /bin/guides/reports/upgrade |
    |---|---|
-   | Typ av begäran | **POST**  Skriptet är en begäran om POST och ska därför köras via agenter som Postman. |
+   | Typ av begäran | **POST** Det här skriptet är en POST-förfrågan och ska därför köras via agenter som Postman. |
    | Förväntat svar | API:t returnerar ett jobId. Om du vill kontrollera jobbets status kan du skicka en GET-förfrågan med jobb-ID till samma slutpunkt.<br> Exempel-URL: `http://<server:port>/bin/guides/reports/upgrade` |
 
    | Slutpunkt | /bin/guides/reports/upgrade |
    |---|---|
    | Typ av begäran | **GET** |
    | Param | jobId: Skicka det jobId som togs emot från föregående post-begäran. |
-   | Förväntat svar | - När jobbet är klart svarar GET-förfrågan med framgång. <br> - Om fel uppstår kan du dela felloggarna tillsammans med API-utdata med kundens framgångsgrupp.  <br>Exempel-URL: `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
+   | Förväntat svar | - När jobbet är klart svarar GET-förfrågan med framgång. <br> - Om det uppstår fel kan du dela felloggarna tillsammans med API-utdata med kundens framgångsgrupp.  <br>Exempel-URL: `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
 
-1. Återgå till standardvärdet eller det tidigare befintliga värdet för `queryLimitReads` om du har ändrat den i steg 1.
+1. Återgå till standardvärdet eller det tidigare befintliga värdet `queryLimitReads` om du har ändrat det i steg 1.
 
 ### Aktivera utlösare för skript via en serverenhet{#enable-trigger-serverlet-4-4-0}
 
@@ -952,9 +955,9 @@ Svar:
 }
 ```
 
-I svaret ovan, JSON, är nyckeln `lockNodePath` innehåller sökvägen till den nod som skapas i databasen som pekar på det skickade jobbet. Den tas automatiskt bort när jobbet är klart, tills dess kan du referera till den här noden för aktuell status för jobbet.
+I ovanstående svar-JSON innehåller nyckeln `lockNodePath` sökvägen till noden som skapades i databasen som pekar på jobbet som skickats. Den tas automatiskt bort när jobbet är klart, tills dess kan du referera till den här noden för aktuell status för jobbet.
 
-Leta efter `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript Completed porting of translation map from V1 to V2` och `com.adobe.fmdita.xmltranslation.ots.TranslationMapUpgradeOTS Completed the thread to upgrade translation map from V1 to V2` innan du fortsätter till nästa steg.
+Sök efter `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript Completed porting of translation map from V1 to V2` och `com.adobe.fmdita.xmltranslation.ots.TranslationMapUpgradeOTS Completed the thread to upgrade translation map from V1 to V2` innan du fortsätter till nästa steg.
 
 >[!NOTE]
 >
@@ -964,13 +967,13 @@ Leta efter `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript Com
 
 
 
-## Steg som ska hantera `'fmdita rewriter'` konflikt
+## Steg som ska hantera `'fmdita rewriter'`-konflikten
 
-Experience Manager Guides har en [**egen sling-omskrivare**](../cs-install-guide/conf-output-generation.md#custom-rewriter) för hantering av länkar som genereras vid korsmappningar (länkar mellan ämnen i två olika kartor).
+Experience Manager Guides har en [**anpassad omskrivarmodul**](../cs-install-guide/conf-output-generation.md#custom-rewriter) för hantering av länkar som genereras vid korsmappningar (länkar mellan ämnen på två olika kartor).
 
-Om du har en annan anpassad Sing Rewriter i kodbasen använder du en `'order'` värdet är större än 50, eftersom Experience Manager Guides sling rewriter använder `'order'` 50.  Om du vill åsidosätta detta måste du ange ett värde > 50. Mer information finns i [Omskrivningsförlopp för utdata](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html).
+Om du har en annan anpassad återskrivningsskrivare i kodbasen använder du ett `'order'`-värde som är större än 50, eftersom Experience Manager Guides återskrivningsprogram använder `'order'` 50.  Om du vill åsidosätta detta måste du ange ett värde > 50. Mer information finns i [Skriva om utdata](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html).
 
-Under uppgraderingen har `'order'` värdet ändras från 1 000 till 50, du måste sammanfoga den befintliga anpassade omskrivaren, om det finns någon, med `'fmdita-rewriter'`.
+Under den här uppgraderingen måste du, eftersom värdet `'order'` ändras från 1 000 till 50, sammanfoga den befintliga anpassade omskrivaren, om sådan finns, med `'fmdita-rewriter'`.
 
 
 **Överordnat ämne:**[ Hämta och installera](download-install.md)

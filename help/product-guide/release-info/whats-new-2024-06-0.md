@@ -1,7 +1,8 @@
 ---
-title: Versionsinformation | Nyheter i Adobe Experience Manager Guides, version 2024.06.0
-description: Lär dig de nya och förbättrade funktionerna i version 2024.06.0 av Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: cf60d11f483fdd663bd5decccb63f8ed7d6fff51
+title: Versionsinformation | Nyheter i Adobe Experience Manager Guides, 2024.06.0
+description: Läs om de nya och förbättrade funktionerna i version 2024.06.0 av Adobe Experience Manager Guides as a Cloud Service.
+exl-id: c885b8ba-5230-4d51-8f38-311b3a33fe0a
+source-git-commit: d525775afeeb89754762ff514126b1c3a3307b3f
 workflow-type: tm+mt
 source-wordcount: '653'
 ht-degree: 0%
@@ -12,12 +13,12 @@ ht-degree: 0%
 
 I den här artikeln beskrivs de nya och förbättrade funktionerna i version 2024.06.0 av Adobe Experience Manager Guides.
 
-En lista över problem som har åtgärdats i den här versionen finns på [Problem i version 2024.06.0 har korrigerats](fixed-issues-2024-06-0.md).
+En lista över problem som har åtgärdats i den här versionen finns i [Åtgärdade problem i version 2024.06.0](fixed-issues-2024-06-0.md).
 
 Läs mer om [uppgraderingsinstruktioner för version 2024.06.0](upgrade-instructions-2024-06-0.md).
 
 
-## Publicera ett ämne eller dess element till ett Experience Fragment
+## Publish ett ämne eller dess element till ett Experience Fragment
 
 En Experience Fragment är en modulär innehållsenhet inom Adobe Experience Manager som integrerar innehåll och layout. Experience Fragments är avgörande för att skapa enhetliga och engagerande upplevelser, som kan återanvändas i flera kanaler.
 
@@ -27,50 +28,50 @@ Nu kan du publicera ett ämne eller dess element i ett Experience Fragment i Exp
 
 
 
-Mer information finns i [Publicera upplevelsefragment](../user-guide/publish-experience-fragment.md).
+Mer information finns i [Publish Experience Fragments](../user-guide/publish-experience-fragment.md).
 
 
 ## Förbättringar i Content Fragment-publiceringen
 
-Stödlinjerna i Experience Manager innehåller även några användbara förbättringar i innehållsfragment:
+Experience Manager Guides har även några praktiska förbättringar i Content Fragments:
 
 - Du kan enkelt filtrera innehåll med villkor när du publicerar till ett innehållsfragment med hjälp av en DITAVAL-fil eller villkorsattribut.
 
-- Du kan även publicera och visa innehållsfragment för ett ämne från **Utdata** i **Filegenskaper**.
+- Du kan också publicera och visa innehållsfragment för ett ämne i avsnittet **Utdata** i **Filegenskaper**.
 
-![Alternativ för filegenskaper, flik](./assets/file-properties-outputs-tab.png){width="300" align="left"}
+Fliken ![Alternativ för filegenskaper](./assets/file-properties-outputs-tab.png){width="300" align="left"}
 
-Mer information finns i [Publicera innehållsfragment](../user-guide/publish-content-fragment.md).
+Mer information finns i [Publish Content Fragments](../user-guide/publish-content-fragment.md).
 
 
 ## Möjlighet att skicka metadata från ämnesfilegenskaper till utdata från Native PDF
 
-Nu kan du lägga till metadata från ett ämnes filegenskaper i sidlayouterna med hjälp av stödlinjerna i Experience Manager när du genererar utdata från det ursprungliga PDF. Använd den här funktionen för att lägga till ämnesspecifika metadata som rubrik, taggar och beskrivning i sidlayouterna. Du kan också anpassa det publicerade PDF baserat på ämnets metadata, till exempel lägga till en vattenstämpel till ämnets bakgrund baserat på ämnets dokumenttillstånd.
+Nu kan du i Experience Manager Guides lägga till metadata från ett ämnes filegenskaper i sidlayouten när du genererar utdata från PDF. Använd den här funktionen för att lägga till ämnesspecifika metadata som rubrik, taggar och beskrivning i sidlayouterna. Du kan också anpassa det publicerade PDF baserat på ämnets metadata, till exempel lägga till en vattenstämpel till ämnets bakgrund baserat på ämnets dokumenttillstånd.
 
-![lägg till metadata i PDF-fil](./assets/add-metadata-native-pdf.png) {width="300" align="left"}
+![lägg till inbyggda metadata-pdf](./assets/add-metadata-native-pdf.png) {width="300" align="left"}
 
-*Lägg till metadata i fälten i sidlayouten.*
+*Lägg till metadata i fälten i sidlayouterna.*
 
-Lär dig hur [lägga till fält och metadata](../native-pdf/design-page-layout.md#add-fields-metadata) i en sidlayout.
+Lär dig [lägga till fält och metadata](../native-pdf/design-page-layout.md#add-fields-metadata) i en sidlayout.
 
 ## Markera delar av innehåll mellan element för åtgärder
 
-Stödlinjerna i Experience Manager gör det enklare att markera innehåll i olika element i webbredigeraren. Du kan enkelt markera innehåll i olika element och utföra åtgärder som att göra det fet, kursiv och understruken. Med den här funktionen kan du använda eller ta bort formateringen för delvis markerat innehåll. Du kan också snabbt ta bort innehåll som du har markerat över flera element. När innehållet har tagits bort sammanfogas vid behov det återstående innehållet automatiskt under ett enda giltigt element.
+Experience Manager Guides gör det enklare att markera innehåll i olika element i Web Editor. Du kan enkelt markera innehåll i olika element och utföra åtgärder som att göra det fet, kursiv och understruken. Med den här funktionen kan du använda eller ta bort formateringen för delvis markerat innehåll. Du kan också snabbt ta bort innehåll som du har markerat över flera element. När innehållet har tagits bort sammanfogas vid behov det återstående innehållet automatiskt under ett enda giltigt element.
 
 Du kan också markera delar av innehåll i flera element och sedan omge innehållet under ett giltigt DITA-element.
-![dialogrutan för surroundelement](./assets/surround-element.png) {width="300" align="left"}
+![Dialogrutan för surroundelement](./assets/surround-element.png) {width="300" align="left"}
 
 *Omge det markerade innehållet med ett giltigt element.*
 
 På det hela taget ger dessa förbättringar en bättre upplevelse och hjälper dig att arbeta effektivare när du redigerar dokument.
 
-Mer information finns i [Delvis markering av innehåll i hela element](../user-guide/web-editor-edit-topics.md#partial-selection-of-content-across-elements).
+Mer information finns i [Delvis urval av innehåll över element](../user-guide/web-editor-edit-topics.md#partial-selection-of-content-across-elements).
 
 ## Stöd för Markdown-dokument i Native PDF
 
-Experience Manager Guides har även stöd för Markdown-dokument vid publicering i PDF. Den här funktionen är användbar och hjälper dig att generera PDF för Markdown-filerna på DITA-kartan. Marknadsföringsstöd i Native PDF kan hjälpa er att enkelt skapa, hantera och dela dokument.
+Experience Manager Guides har också stöd för Markdown-dokument i Native PDF. Den här funktionen är användbar och hjälper dig att generera PDF för Markdown-filerna på DITA-kartan. Marknadsföringsstöd i Native PDF kan hjälpa er att enkelt skapa, hantera och dela dokument.
 
-Mer information finns i [stöd för markeringsdokument](../web-editor/native-pdf-web-editor.md#support-for-markdown-documents).
+Mer information finns i [Stöd för markeringsdokument](../web-editor/native-pdf-web-editor.md#support-for-markdown-documents).
 
 
 ## Förbättrade prestanda och skalbarhet för stora översättningsprojekt
@@ -79,4 +80,4 @@ Mer information finns i [stöd för markeringsdokument](../web-editor/native-pdf
 
 Den här förbättringen är mycket fördelaktig eftersom den förbättrar produktiviteten och den övergripande upplevelsen.
 
-Läs mer om hur [översätta dokument från webbredigeraren](../user-guide/translate-documents-web-editor.md).
+Läs mer om hur du [översätter dokument från webbredigeraren](../user-guide/translate-documents-web-editor.md).

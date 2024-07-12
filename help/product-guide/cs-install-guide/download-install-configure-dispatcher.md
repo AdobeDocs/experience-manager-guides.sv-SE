@@ -1,6 +1,6 @@
 ---
 title: Konfigurera Dispatcher
-description: Lär dig konfigurera Dispatcher
+description: Så här konfigurerar du Dispatcher
 exl-id: d3ce4d01-b0fd-4f02-977c-ab378c328071
 feature: Installation
 role: Admin

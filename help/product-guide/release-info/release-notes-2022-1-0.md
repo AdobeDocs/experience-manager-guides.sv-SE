@@ -1,6 +1,6 @@
 ---
-title: Versionsinformation för [!DNL AEM Guides], januari 2022-versionen
-description: Januariversion av [!DNL Adobe Experience Manager Guides] as a Cloud Service
+title: Versionsinformation för  [!DNL AEM Guides], januari 2022
+description: Januariversion av  [!DNL Adobe Experience Manager Guides] as a Cloud Service
 exl-id: b2da77fa-f17c-440b-be59-acaafcd9a57c
 feature: Release Notes
 role: Leader
@@ -15,14 +15,14 @@ ht-degree: 0%
 
 ## Uppgradera till januariversionen
 
-Uppgradera din nuvarande [!DNL Adobe Experience Manager Guides] as a Cloud Service (kallas senare [!DNL AEM Guides] as a Cloud Service) konfigurera genom att utföra följande steg:
+Uppgradera din nuvarande konfiguration av [!DNL Adobe Experience Manager Guides] as a Cloud Service (kallas senare [!DNL AEM Guides] as a Cloud Service) genom att utföra följande steg:
 1. Ta en titt på Cloud Servicens Git-kod och växla till den gren som är konfigurerad i Cloud Servicens pipeline för den miljö du vill uppgradera.
-1. Uppdatera `<dox.version>` egenskap i `/dox/dox.installer/pom.xml` fil med dina Cloud Service Git-kod till 2022.1.78.
+1. Uppdatera `<dox.version>`-egenskapen i `/dox/dox.installer/pom.xml`-filen för dina Cloud Services Git-kod till 202.1.78.
 1. Genomför ändringarna och kör Cloud Servicens pipeline för att uppgradera till januariversionen av [!DNL AEM Guides] as a Cloud Service.
 
 ## Kompatibilitetsmatris
 
-I det här avsnittet visas kompatibilitetsmatrisen för de program som stöds av [!DNL AEM Guides] as a Cloud Service januariversion 2022.
+I det här avsnittet visas kompatibilitetsmatrisen för de program som stöds i utgåvan [!DNL AEM Guides] för as a Cloud Service januari 2022.
 
 ### FrameMaker och FrameMaker Publishing Server
 
@@ -34,7 +34,7 @@ I det här avsnittet visas kompatibilitetsmatrisen för de program som stöds av
 
 ### Syrgasanslutning
 
-| [!DNL AEM Guides] Cloud-utgåva | Syrgasanslutningsfönster | Syrgasanslutning Mac | Redigera i syrgasfönster | Redigera i Syrgas Mac |
+| [!DNL AEM Guides]-molnversionen | Syrgasanslutningsfönster | Syrgasanslutning Mac | Redigera i syrgasfönster | Redigera i Syrgas Mac |
 | --- | --- | --- | --- | --- |
 | 2022.1.0 | 2.4.0 | 2.4.0 | 2,2 | 2,2 |
 |  |  |  |  |  |
@@ -67,7 +67,7 @@ Det finns många förbättringar och nya funktioner i Web Editor:
 
 * Ett nytt ordlisteverktyg har introducerats i den här versionen för att hantera flera ordlistor samtidigt. Med det här verktyget kan du snabbt konvertera text till ordlista och ordlista till termer i grupp för en markerad karta eller öppna ämnen.
 
-![Ordlistehotspot](assets/glossary-hotspot-tool.png)
+![Ordlista, hotspot](assets/glossary-hotspot-tool.png)
 
 * Ny uppdateringsfunktion i panelen Återanvändbart innehåll som gör att du snabbt kan uppdatera återanvändbart innehåll i referensfiler.
 * En ny indikator visar om din aktuella (arbetskopia) av filen är synkroniserad med den sparade versionen eller inte.
@@ -85,7 +85,7 @@ Det finns många förbättringar och nya funktioner i Web Editor:
 Nu kan du skapa och publicera dina dokument i FrameMaker. FrameMakerna levereras med en färdig anslutning till Adobe Experience Manager. I FrameMaker får du ett lättanvänt gränssnitt där du kan underhålla dokumentversioner i en distribuerad och samarbetsorienterad miljö.
 
 När du har skapat ditt innehåll kan du med FrameMaker publicera dina dokument i olika format - PDF, HTML5, EPUB och DITA. Du kan också utföra olika filhanteringsåtgärder som utcheckning, utcheckning med beroende personer, incheckning, uppdatering och så vidare.
-Om du vill skriva med FrameMaker in [!DNL AEM Guides] FrameMaker för as a Cloud Service användning version 2020.4 och senare.
+Om du vill skapa med FrameMaker i [!DNL AEM Guides] as a Cloud Service FrameMaker version 2020.4 och senare.
 
 ### Ny översättningsinstrumentpanel
 
@@ -105,7 +105,7 @@ En ny kontrollpanel för översättning har lagts till i Web Editor med följand
 
 ![DITA-OT-metadata](assets/custom-meta-data-output-preset.png)
 
-* En ny konfiguration har lagts till som tillåter användare att behålla eller ta bort de versioner av ämnen som tas bort när **Ta bort och skapa** används för att generera AEM för webbplatsen.
+* En ny konfiguration har lagts till för att tillåta användare att behålla eller ta bort de versioner av ämnen som tas bort när alternativet **Ta bort och skapa** används i genereringen av AEM för webbplatsutdata.
 
 ### Förbättrad filhantering
 
@@ -117,15 +117,15 @@ Följande förbättringar visas nu när du arbetar med filer i AEM Assets:
 * Möjlighet att skapa en ny version av den överförda filen med möjlighet att förhindra att en utcheckad fil skrivs över.
 * Nu kan du se en förhandsvisning av bilder direkt från vyn Versionshistorik. Versionshistorik visar även den aktuella versionsinformationen separat för DITA-filer och andra filer.
 
-![Miniatyr av versionshistorik](assets/version-history-preview-image.png)
+![Miniatyrbild för versionshistorik](assets/version-history-preview-image.png)
 
 * När användaren skapar en DITA-fil visas standardfilnamnet med ett litet skiftläge så att det är textbundet när AEM skapas.
 
 ### Ny rapportexportfunktion
 
-Rapporter är mycket användbara när det gäller att identifiera innehållets hälsa. [!DNL AEM Guides] as a Cloud Service innehåller olika rapporter som tar kontroll över ditt innehåll. Nu kan du inte bara visa rapporterna, utan även exportera rapportdata i en CSV-fil för att visa och dela dem med det större teamet. Rapportdata kan ge dig en snabb överblick över eventuella brutna länkar eller saknade bilder.
+Rapporter är mycket användbara när det gäller att identifiera innehållets hälsa. [!DNL AEM Guides] as a Cloud Service tillhandahåller olika rapporter för att ta kontroll över ditt innehåll. Nu kan du inte bara visa rapporterna, utan även exportera rapportdata i en CSV-fil för att visa och dela dem med det större teamet. Rapportdata kan ge dig en snabb överblick över eventuella brutna länkar eller saknade bilder.
 
-![Rapportexport](assets/export-report.png)
+![Rapportera export](assets/export-report.png)
 
 ### Förbättrad DAM-uppdatering av syre
 
@@ -134,8 +134,8 @@ När du uppdaterar filer från AEM Server i Syrgas visas ett varningsmeddelande 
 
 ### Andra funktionsförbättringar
 
-* Nu kan du skapa en ny **Dita Project** mall under **/apps/projects/templates** bana.
-* Hämta nu standardinställningen **ui_config.json** från dina mappprofiler. Detta kan användas för att sammanfoga anpassade ändringar från befintliga **ui_config.json** när du uppgraderar.
+* Nu kan du skapa en ny **Dita Project**-mall under sökvägen **/apps/projects/templates** .
+* Hämta nu standardfilen **ui_config.json** från dina mappprofiler. Detta kan användas för att sammanfoga anpassade ändringar från den befintliga filen **ui_config.json** under uppgraderingen.
 * Du behöver inte rensa webbläsarens cache även när det finns nya versioner av JS-filer.
 
 ## Åtgärdade problem
@@ -163,13 +163,13 @@ De buggar som har åtgärdats i olika områden listas nedan:
 * conrefend-attributet uppdateras inte när källfilen flyttas. 7698
 * Arbetet med typdokument för referensämnen leder till flera problem med användargränssnittet. 7656
 * DITAVAL-filer visas inte när författaren lägger till ditavalref i en karta. 7594
-* Oväntat utrymme hittades i varje tomt `<entry>` element när attributet outputClass läggs till i `<tgroup>` -element. 7532
-* Källknappen fungerar inte för ämnen som öppnas via kartpanelen. 7465
+* Oväntat utrymme hittades i varje tomt `<entry>`-element när OutputClass-attribut läggs till i `<tgroup>`-elementet. 7532
+* Source-knappen fungerar inte för ämnen som öppnas via kartpanelen. 7465
 * Kort utskrift infogar tomma rader och blanksteg som syns när filen öppnas i FrameMaker eller syrgas. 7408
 * Kartor med href=&quot;/&quot; i något av ämnena publiceras inte AEM webbplatser. 7405
 * Prestandaproblem som hittas i redigeraren när rotkartan har ett stort antal nyckeldefinitioner. (7400)
 * Dokumenttillståndet för en karta med en anpassad mall ärvs inte från sin motsvarande lägesprofil. 7359
-* `<tm>` felaktigt återgivet element som ett blockelement. 7286
+* `<tm>`-element återges felaktigt som blockelement. 7286
 * Duplicerade mallar visas i panelen för redigeringsmallar när en ny mall skapas. 5814
 * Mallar som definieras i ui_config för bilder för inställning av ytterligare attribut kan inte användas för dra/släpp-fall. (5713)
 * Felaktigt standardutseende för uicontrol på menucascade. 5483
@@ -178,7 +178,7 @@ De buggar som har åtgärdats i olika områden listas nedan:
 * En nyligen skapad kartsamling visas inte, inte ens efter att sidan har uppdaterats.8603
 * Olåst ämne kan inte stängas. 8545
 * Om du växlar mellan käll- och författarläge markeras ämnet som smutsigt och innehållet måste sparas igen.8524
-* Återanvänd innehållspanelen kraschar vid sökning efter specialtecken `[` eller `*` .8279
+* Återanvänd innehållspanelen kraschar när specialtecken `[` eller `*` söks igenom.8279
 * Markören visas inte i sökfältet när dialogrutan Infoga element öppnas med kortkommandot Alt+Retur.7912
 * Sökalternativet söker bara i filnamn och inte i innehåll. 7784
 
@@ -209,14 +209,14 @@ De buggar som har åtgärdats i olika områden listas nedan:
 * Blanksteg läggs automatiskt till efter taggen tm; AEM Site-utdata. 7964
 * Det går inte att visa YouTube-videor i AEM. 7401
 * Filtrera efter etikett misslyckas för refererat innehåll efter att användaren har klickat på Bläddra i alla ämnen på baslinjefliken på kartkontrollpanelen. 7388
-* Publicera ämne med element `<tm>` med egenskapsvärdet SM eller reg visas felaktigt i genererade utdata. 7239
+* Publiceringsämnet med elementet `<tm>` med egenskapsvärdet SM eller reg visas felaktigt i genererade utdata. 7239
 * Vid baslinjepublicering med bild väljs inte bildens senaste version i publicerade utdata. 7231
 * Relaterbara ämnen som refereras visas på fliken Baslinje. 5424
 * Stegvis publicering för ett ämne med conkeyref i titeln fungerar inte som förväntat. 4474
 * Sidtitel används inte för generering av utdata-URL trots att inställningen är markerad. 8257
 * Vid baslinjepublicering väljs den aktuella versionen av bilderna i stället för den frysta noden. Detta visas även om en bild har blanksteg eller specialtecken i filnamnet. 8274, 8322
 * Inkrementell publicering misslyckas för DITA-kartan med ett typämnesschema som har mapref. (8218)
-* Null läggs till när en karta läggs till på kontrollpanelen för masspublicering. 8695
+* Null läggs till när en karta läggs till i den grupperade Publish Dashboard. 8695
 * Om du använder baslinjepublicering med bilden som conref i avsnittet publiceras inte bilden i utdata. 8564
 * Publiceringen misslyckas med ett undantag om den baslinje som används AEM webbplatspubliceringen tas bort. 8572
 * Omgenerering av ämnen fungerar inte. 8091
@@ -224,11 +224,11 @@ De buggar som har åtgärdats i olika områden listas nedan:
 
 ### AEM Assets
 
-* Prestandaproblem påträffades vid markering/borttagning av omfattande innehåll i resursgränssnittet. 8238
+* Prestandaproblem uppstod när stora mängder innehåll i Assets UI skulle markeras/tas bort. 8238
 * Sparad sökfunktion (smart samling) avbryts om DITA Predicate läggs till i sökfiltren. 8048
 * Det går inte att återställa en bild till en äldre version. (DXML-7903)
 * Alternativet Ta bort är också synligt för författare som inte har behörighet att ta bort. 7322
-* CCMS-övertäckning för Resursredigeraren avbryter återgivningen av alternativet Ta bort. 8093
+* CCMS-övertäckning för Assets Editor avbryter återgivningen av alternativet Ta bort. 8093
 * Dokumentprofilen tas inte bort. 8604
 * Referenser bryts när du väljer Markera allt och flyttar multimedia/Dita_Content till en annan mapp. 8621
 * Felaktiga referenser inträffar i källan när resurserna flyttas. 8627
@@ -243,7 +243,7 @@ De buggar som har åtgärdats i olika områden listas nedan:
 
 ## Kända fel
 
-Adobe har identifierat följande kända problem för [!DNL AEM Guides] as a Cloud Service januariversion 2022.
+Adobe har identifierat följande kända fel för versionen [!DNL AEM Guides] as a Cloud Service januari 2022.
 
 
 ### Kända problem med lösningar
@@ -251,19 +251,19 @@ Adobe har identifierat följande kända problem för [!DNL AEM Guides] as a Clou
 Använd den angivna lösningen för följande kända problem:
 
 * Webbautentiseringen fungerar inte för syreanslutningen på Mac.
-  **Tillfällig lösning**: Använd syrekontakten i Windows tills vidare.
+  **Tillfällig lösning**: Använd syreanslutningen i Windows för tillfället.
 
 * I Firefox-webbläsaren går det inte att importera granskningskommentarerna utan att öppna sida vid sida-vyn.
-  **Tillfällig lösning**: Använd Chrome-webbläsaren för tillfället.
+  **Tillfällig lösning**: Använd Chrome webbläsare för tillfället.
 
 * Referenser bryts när bilder eller multimediefiler som har plats(er) flyttas i filnamnen.
-  **Tillfällig lösning**: Byt namn på filen och ta bort blankstegen från filnamnet innan du flyttar dem.
+  **Tillfällig lösning**: Byt namn på filen och ta bort blanktecken från filnamnet innan du flyttar dem.
 
-* Kontrollpanelen för kartan läses inte in regelbundet i den senaste versionen av Chrome-webbläsaren.
-  **Tillfällig lösning**: Uppdatera sidan på kartpanelen.
+* Kontrollpanelen för kartan läses inte in regelbundet i den senaste versionen av Chrome webbläsare.
+  **Tillfällig lösning**: Uppdatera kartpanelssidan.
 
 ### Andra kända fel
 
-* Om syre är ansluten med [!DNL AEM Guides] lösning med webbautentisering misslyckas utloggningen.
+* Om syre är anslutet till [!DNL AEM Guides]-lösningen med webbautentisering misslyckas utloggningen.
 * Granskningsuppgifter kan inte tilldelas om till användarna.
-* Det finns problem i kartuppsättningens användargränssnitt, till exempel att texten är förvrängd och **Markera alla** funktionen fungerar inte som den ska.
+* Det finns problem i kartsamlingens användargränssnitt, till exempel att texten är förvrängd och funktionen **Markera alla** fungerar inte korrekt.

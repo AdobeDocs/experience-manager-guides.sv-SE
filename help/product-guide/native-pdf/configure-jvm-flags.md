@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Inbyggd PDF-publicering startar en separat JVM-process för att generera en PDF. Du kan behöva justera konfigurationerna för denna JVM för att stödja olika scenarier. Om du till exempel vill köra större arbetsbelastningar bör du öka den maximala stackstorleken som är tillgänglig för den skapade JVM-processen.
 
-Utför följande steg för att konfigurera AEM Guides Native PDF Publishing JVM-flaggor:
+Utför följande steg för att konfigurera JVM-flaggor för AEM Guides Native PDF Publishing:
 
 1. Öppna konfigurationssidan för Adobe Experience Manager Web Console.
 
@@ -26,10 +26,10 @@ Utför följande steg för att konfigurera AEM Guides Native PDF Publishing JVM-
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. Sök efter och välj *com.adobe.fmdita.config.ConfigManager* paket.
+1. Sök efter och välj paketet *com.adobe.fmdita.config.ConfigManager*.
 
-1. Uppdatera egenskapen **Java-kommandoradsalternativ för inbyggd PDF-fil** (*native.pdf.java.opts*) för att skicka alla vanliga JVM-flaggor.
+1. Uppdatera egenskapen **Java Command line options för den inbyggda pdf** (*native.pdf.java.opts*) för att skicka alla vanliga JVM-flaggor.
 
 
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.

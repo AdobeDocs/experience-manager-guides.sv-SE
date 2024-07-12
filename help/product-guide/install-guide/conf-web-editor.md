@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Anpassa Web Editor {#id181AI0003PN}
 
-AEM Guides innehåller en kraftfull Web Editor med vilken dina författare kan skapa och redigera DITA-dokument. Du kan anpassa webbredigerarens verktygsfält för att lägga till eller ta bort funktioner som du kan komma åt från verktygsfältet. Du kan också konfigurera autosparfunktioner för filer, generera ID:n för element när de infogas i dina dokument och mycket annat. I följande avsnitt beskrivs de funktioner som du kan anpassa i webbredigeraren:
+AEM Guides levereras med en kraftfull Web Editor med vilken dina författare kan skapa och redigera DITA-dokument. Du kan anpassa webbredigerarens verktygsfält för att lägga till eller ta bort funktioner som du kan komma åt från verktygsfältet. Du kan också konfigurera autosparfunktioner för filer, generera ID:n för element när de infogas i dina dokument och mycket annat. I följande avsnitt beskrivs de funktioner som du kan anpassa i webbredigeraren:
 
 - [Anpassa verktygsfältet](conf-web-editor-customize-toolbar.md)
 
@@ -22,7 +22,7 @@ AEM Guides innehåller en kraftfull Web Editor med vilken dina författare kan s
 
 - [Konfigurera visning av UUID-baserade länkar](conf-uuid-based-links.md)
 
-- [Öppna DITA-avsnitt eller DITA-kartfiler på samma flik](open-dita-files-same-tab.md)
+- [Öppna DITA-avsnitt eller DITA-mappfiler på samma flik](open-dita-files-same-tab.md)
 
 - [Konfigurera en anpassad panel i den vänstra panelen](configure-custom-panel.md)
 

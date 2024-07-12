@@ -28,7 +28,7 @@ Under den här sessionen får du lära dig mer om översättningsprocessen, inte
 - **Datum** - 27 oktober 2022
 - **Antal deltagare** - 94
 - **Varaktighet** - 60 minuter
-- **Målgrupp** - Kunder, partners och anställda på Adobe
+- **Målgrupp** - Kunder, partners och anställda i Adobe
 
 ## Viktiga uppgifter
 
@@ -40,18 +40,18 @@ Under den här sessionen får du lära dig mer om följande:
 
 ## Relaterade resurser
 
-- **Videofilmer** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
+- **Funktionsvideor** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
 
-- **Användarhandbok** - [Översätta innehåll](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Ftranslation.html)
+- **Användarhandbok** - [Översätt innehåll](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Ftranslation.html)
 
-- **Community Forum** - Om du vill ha sessionsspecifika communityinteraktioner på Experience League går du till [AEM Guides Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)
+- **Community-forum** - Besök [AEM Guides-forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions) om du vill ha sessionsspecifik communityinteraktion på Experience League.
 
 >[!NOTE]
 >
-> Funktionerna som visas under den här sessionen finns i följande versioner av AEM.
+> De funktioner som visas under den här sessionen finns i följande versioner av AEM Guides:
 > - On-prem 4.1 eller senare
 > - Cloud Service 2207 eller senare
 
 ## Kontakta oss
 
-Om du har frågor kan du skicka ett e-postmeddelande till oss på <techcomm@adobe.com>
+Om du har frågor kan du skicka ett e-postmeddelande till <techcomm@adobe.com>

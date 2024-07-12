@@ -1,6 +1,6 @@
 ---
 title: Granska ämnen och kartor
-description: Granska effektivt ämnen och kartor i AEM för smidig utvärdering av innehåll. Lär dig funktionerna för författare och granskare i AEM.
+description: Granska effektivt ämnen och kartor i AEM Guides för smidig innehållsutvärdering. Lär känna författare och granskare i AEM Guides.
 exl-id: 81ea0b52-52b0-4764-a6d8-a96d5c7693bf
 feature: Reviewing
 role: User
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Nästan alla tekniska dokument måste gå igenom flera granskningsrundor. I de flesta fall innebär en granskningscykel mer än en granskare. Att hantera och besvara kommentarer från olika granskare är alltid en utmaning för författarna. I ett scenario med flera granskare är det också praktiskt om en granskare även kan se kommentarer från andra granskare.
 
-Några av de viktigaste funktionerna i AEM *initierare \(eller författare\)* är:
+Några av huvudfunktionerna som AEM Guides erbjuder *initierarna \(eller författarna\)* är:
 
 - Skapa ett DITA-projekt för granskningsarbetsflödet.
 - Skicka ett eller flera ämnen för granskning i en och samma granskningsuppgift.
@@ -35,7 +35,7 @@ Några av de viktigaste funktionerna i AEM *initierare \(eller författare\)* ä
 - Importera automatiskt \(borttagna eller infogade\) kommentarer till den version av ämnet som delats för granskning.
 
 
-Tillgängliga funktioner för *granskare*:
+Funktioner som är tillgängliga för *granskarna*:
 
 - Få en sammansatt vy över de ämnen som delas ut för granskning.
 - Växla mellan sammansatt vy och individuell ämnesvy.
@@ -51,7 +51,7 @@ Tillgängliga funktioner för *granskare*:
 
 >[!NOTE]
 >
-> Se *Granska* i guiden Best practices om hur du skapar granskningsåtgärder.
+> I avsnittet *Granska* i guiden om bästa praxis finns information om hur du skapar granskningsåtgärder.
 
 - **[Skapa ett DITA-projekt](authoring-create-dita-project.md)**
 

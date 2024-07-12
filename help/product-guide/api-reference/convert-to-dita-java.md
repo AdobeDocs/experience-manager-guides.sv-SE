@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Med följande Java-baserade API:er kan du konvertera HTML- och Word-dokument till DITA-format. Dessa API:er är tillgängliga i form av ett paket. Du måste inkludera det här paketet i koden för att kunna använda dessa API:er.
 
-**Information om programpaket**:
+**Paketinformation**:
 
 - Grupp-ID: **com.adobe.fmdita**
 
@@ -32,12 +32,12 @@ Med följande Java-baserade API:er kan du konvertera HTML- och Word-dokument til
   public class ConversionUtils extends Object
   ```
 
-  The **ConversionUtils** -klassen innehåller metoder för konvertering av HTML- och Word-dokument till DITA-format.
+  Klassen **ConversionUtils** innehåller metoder för konvertering av HTML- och Word-dokument till DITA-format.
 
 
 ## Konvertera HTML-dokument
 
-The `convertHtmlToDita` konverterar HTML-dokument till DITA-format.
+Metoden `convertHtmlToDita` konverterar HTML-dokument till DITA-format.
 
 **Syntax**:
 
@@ -49,13 +49,20 @@ public static void convertHtmlToDita(Session session,
                   throws RepositoryException, WorkflowException
 ```
 
-**Parametrar**: |Namn|Typ|Beskrivning| |—|—|—| |`session`|javax.jcr.Session|En giltig JCR-session.| |`inputFile`|String|Absolut sökväg för HTML-källfilerna i AEM.| |`destPath`|String|Absolut sökväg till målplatsen där de konverterade DITA-filerna ska sparas.| |`createRev`|Boolean|Ange om en version av filerna skapas \( `true`\) vid det angivna målet eller inte \( `false`\). Detta gäller endast när målplatsen innehåller en befintlig version av de konverterade filerna.|
+**Parametrar**:
+|Namn|Typ|Beskrivning|
+|—|—|—|
+|`session`|javax.jcr.Session|En giltig JCR-session.|
+|`inputFile`|Sträng|Absolut sökväg för HTML-källfilerna i AEM.|
+|`destPath`|Sträng|Absolut sökväg för målplatsen där de konverterade DITA-filerna sparas.|
+|`createRev`|Boolean|Ange om en version av filerna skapas \( `true`\) vid det angivna målet eller inte \( `false`\). Detta gäller endast när målplatsen innehåller en befintlig version av de konverterade filerna.|
 
-**Undantag**: Throws `RepositoryException`.
+**Undantag**:
+Utlöser `RepositoryException` .
 
 ## Konvertera Word-dokument
 
-The ``convertWordToDita`` konverterar Word-dokument till DITA-format.
+Metoden ``convertWordToDita`` konverterar Word-dokument till DITA-format.
 
 **Syntax**:
 
@@ -68,6 +75,14 @@ public static void convertWordToDita(Session session,
                   throws RepositoryException, WorkflowException
 ```
 
-**Parametrar**: |Namn|Typ|Beskrivning| |—|—|—| |`session`|javax.jcr.Session|En giltig JCR-session.| |`inputFile`|String|Absolut sökväg för Word-källfilerna i AEM.| |`destPath`|String|Absolut sökväg till målplatsen där de konverterade DITA-filerna ska sparas.| |`style2tagMap`|String|Absolut sökväg till den formatmappningsfil som ska användas för konvertering.| |`createRev`|Boolean|Ange om en version av filerna skapas \( `true`\) vid det angivna målet eller inte \( `false`\). Detta gäller endast när målplatsen innehåller en befintlig version av de konverterade filerna.|
+**Parametrar**:
+|Namn|Typ|Beskrivning|
+|—|—|—|
+|`session`|javax.jcr.Session|En giltig JCR-session.|
+|`inputFile`|Sträng|Absolut sökväg för Word-källfilerna i AEM.|
+|`destPath`|Sträng|Absolut sökväg för målplatsen där de konverterade DITA-filerna sparas.|
+|`style2tagMap`|Sträng|Absolut sökväg till den formatmappningsfil som ska användas för konvertering.|
+|`createRev`|Boolean|Ange om en version av filerna skapas \( `true`\) vid det angivna målet eller inte \( `false`\). Detta gäller endast när målplatsen innehåller en befintlig version av de konverterade filerna.|
 
-**Undantag**: Throws `RepositoryException`.
+**Undantag**:
+Utlöser `RepositoryException` .

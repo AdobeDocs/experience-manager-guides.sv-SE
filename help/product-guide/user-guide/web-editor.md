@@ -1,6 +1,6 @@
 ---
 title: Arbeta med webbredigeraren
-description: Skapa och redigera strukturerade dokument med webbredigeraren. Lär dig hur du arbetar med webbredigeraren enligt DITA-standarderna i AEM.
+description: Skapa och redigera strukturerade dokument med webbredigeraren. Lär dig hur du arbetar med webbredigeraren enligt DITA-standarderna i AEM Guides.
 exl-id: 285d3ad3-fb4e-4cdd-ab83-493ffce891d6
 feature: Authoring, Web Editor
 role: User
@@ -17,17 +17,17 @@ AEM Guides har en lättanvänd webbaserad webbredigerare för att skapa och redi
 
 Dessutom är Web Editor DITA-kompatibelt och stöder DITA 1.3, 1.2-standarderna, lätt DITA och även specialiserade DITA. Det innebär att du inte kan placera element på platser som inte uppfyller DITA-standarderna. Med Web Editor kan du även arbeta med de vanligaste blockelementen och textbundna elementen.
 
-- **[Starta Web Editor](web-editor-launch-editor.md)**
+- **[Starta webbredigeraren](web-editor-launch-editor.md)**
 
 - **[Redigera ämnen i Web Editor](web-editor-edit-topics.md)**
 
-- **[Bekanta dig med Web Editors funktioner](web-editor-features.md)**
+- **[Lär dig mer om funktionerna i Web Editor](web-editor-features.md)**
 
 - **[Kortkommandon i Web Editor](web-editor-keyboard-shortcuts.md)**
 
 - **[Andra funktioner i Web Editor](web-editor-other-features.md)**
 
-- **[Vyer i Web Editor](web-editor-views.md)**
+- **[Vyer i webbredigeraren](web-editor-views.md)**
 
 - **[Skapa markeringsdokument från webbredigeraren](web-editor-markdown-topic.md)**
 
@@ -37,13 +37,13 @@ Dessutom är Web Editor DITA-kompatibelt och stöder DITA 1.3, 1.2-standarderna,
 
 - **[Använd snabbgenereringspanelen för att generera och visa utdata](web-editor-quick-generate-panel.md)**
 
-- **[Översätta dokument från Web Editor](translate-documents-web-editor.md)**
+- **[Översätt dokument från webbredigeraren](translate-documents-web-editor.md)**
 
 - **[Skapa och hantera baslinjer från Web Editor](web-editor-baseline.md)**
 
-- **[Dokumenttillstånd](web-editor-document-states.md)**
+- **[Dokumentläge](web-editor-document-states.md)**
 
 - **[Använd etiketter](web-editor-use-label.md)**
 
 
-**Överordnat ämne:**[ Skapa innehåll med hjälp AEM stödlinjer](authoring-content-xml-doc.md)
+**Överordnat ämne:**[ Skapa innehåll med AEM Guides](authoring-content-xml-doc.md)

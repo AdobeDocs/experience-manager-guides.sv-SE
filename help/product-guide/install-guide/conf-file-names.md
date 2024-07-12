@@ -20,4 +20,4 @@ Det här avsnittet innehåller information om hur du arbetar med filnamn för DI
 
 - **[Konfigurera Regx för giltiga filnamnstecken](conf-file-names-valid-regx.md)**
 
-- **[Konfigurera giltiga filnamn för AEM](conf-file-names-valid-regx-aem-site-output.md)**
+- **[Konfigurera giltiga filnamn för AEM webbplatsutdata](conf-file-names-valid-regx-aem-site-output.md)**

@@ -2,7 +2,8 @@
 title: Versionsinformation | Nyheter i Adobe Experience Manager Guides 4.4.0
 description: Läs om de nya och förbättrade funktionerna i version 4.4.0 av Adobe Experience Manager Guides
 role: Leader
-source-git-commit: 8f8075b205725a55b93286c804b879353b4d965d
+exl-id: 63a2e93b-b4cf-4423-88e4-b01c6a52a532
+source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
 workflow-type: tm+mt
 source-wordcount: '2307'
 ht-degree: 0%
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 I den här artikeln beskrivs de nya och förbättrade funktionerna i version 4.4.0 av Adobe Experience Manager Guides.
 
-En lista över problem som har åtgärdats i den här versionen finns på [Åtgärdade problem i version 4.4.0](../release-info/fixed-issues-4-4.md).
+En lista över problem som har åtgärdats i den här versionen finns i [Åtgärdade problem i version 4.4.0](../release-info/fixed-issues-4-4.md).
 
 Läs mer om [uppgraderingsinstruktioner för version 4.4.0](../release-info/upgrade-instructions-4-4.md).
 
@@ -21,61 +22,61 @@ Läs mer om [uppgraderingsinstruktioner för version 4.4.0](../release-info/upgr
 
 ## Ny funktion för versionshistorik i Web Editor
 
-Nu har Experience Manager-stödlinjerna en förbättrad funktion för versionshistorik som gör att du kan jämföra ändringar som gjorts i ett dokument över tiden. I den nya vyn sida vid sida kan du enkelt jämföra innehållet och metadata för den aktuella versionen med en tidigare version av samma dokument. Du kan också visa etiketter och kommentarer för de jämförda versionerna. Som administratör kan du styra metadata för versionen av ämnet och deras värden som ska visas i **Tidigare versioner** -dialogrutan.
+Nu har Experience Manager Guides en förbättrad funktion för versionshistorik som gör att du kan jämföra ändringar som gjorts i ett dokument över tiden. I den nya vyn sida vid sida kan du enkelt jämföra innehållet och metadata för den aktuella versionen med en tidigare version av samma dokument. Du kan också visa etiketter och kommentarer för de jämförda versionerna. Som administratör kan du styra metadata för versionen av ämnet och deras värden som ska visas i dialogrutan **Versionshistorik**.
 
-![Version - dialogruta](assets/version-history-dialog-web-editor.png){width="800" align="left"}
-*Förhandsgranska ändringarna i de olika versionerna av ett ämne.*
+![Dialogrutan Versionshistorik](assets/version-history-dialog-web-editor.png){width="800" align="left"}
+*Förhandsgranska ändringarna i olika versioner av ett ämne.*
 
 
-Läs mer om **Tidigare versioner** funktionsbeskrivning i [Vänster panel](../user-guide/web-editor-features.md#id2051EA0M0HS) -avsnitt.
+Läs mer om funktionsbeskrivningen för **versionshistorik** i avsnittet [Vänster panel](../user-guide/web-editor-features.md#id2051EA0M0HS).
 
 ## Hantera villkorsförinställningar
 
-Du kan definiera villkorsattribut i dina DITA-avsnitt. Använd sedan villkorsattributen i villkorsförinställningen för att publicera innehållet i en DITA-karta. Experience Manager Guides ger nu också en bättre upplevelse i Web Editor, som hjälper dig att skapa och hantera villkorsförinställningar mer effektivt. Du kan också enkelt redigera, duplicera eller ta bort dem.
+Du kan definiera villkorsattribut i dina DITA-avsnitt. Använd sedan villkorsattributen i villkorsförinställningen för att publicera innehållet i en DITA-karta. Experience Manager Guides har nu också en förbättrad upplevelse i webbredigeraren, som hjälper dig att skapa och hantera villkorsförinställningar mer effektivt. Du kan också enkelt redigera, duplicera eller ta bort dem.
 
 ![Förinställda villkor på fliken Hantera i webbredigeraren ](assets/web-editor-manage-condition-presets.png){width="550" align="left"}
 
-Mer information finns i [Använda förinställningar för villkor](../user-guide/generate-output-use-condition-presets.md).
+Mer information finns i [Använd förinställningar för villkor](../user-guide/generate-output-use-condition-presets.md).
 
 ## Förbättrad upplevelse för att redigera attributen
 
-Nu får du en omgjord upplevelse som lägger till eller redigerar attributen för ett element från **Innehållsegenskaper** i webbredigeraren.
+Nu får du en omgjord upplevelse där du kan lägga till eller redigera attribut för ett element från panelen **Innehållsegenskaper** i webbredigeraren.
 
-![Panelen Attribut](assets/attributes-multiple-properties.png){width="300" align="left"}
+![Attributpanelen](assets/attributes-multiple-properties.png){width="300" align="left"}
 
 *Lägg till attribut från panelen Innehållsegenskaper.*
 
 Du kan också enkelt redigera och ta bort attributen.
-Mer information finns i **Innehållsegenskaper** funktionsbeskrivning i [Höger panel](../user-guide/web-editor-features.md#id2051EB003YK) -avsnitt.
+Mer information finns i beskrivningen av funktionen **Innehållsegenskaper** i avsnittet [Högerpanel](../user-guide/web-editor-features.md#id2051EB003YK).
 
 ## Redigera metadata vid redigering
 
-När du redigerar kan du nu uppdatera filens metadatataggar med hjälp av listrutan i **Filegenskaper** i den högra panelen. Du kan också välja **Redigera fler egenskaper** för att uppdatera fler metadata.
+När du redigerar kan du nu uppdatera filens metadatataggar med hjälp av listrutan i **filegenskaperna** i den högra panelen. Du kan också välja **Redigera fler egenskaper** om du vill uppdatera fler metadata.
 
 ![file-properties](assets/file-properties-general.png){width="300" align="left"}
 
 *Uppdatera metadata och redigera filegenskaper från den högra panelen.*
 
-Mer information finns i **Filegenskaper** funktionsbeskrivning i [Höger panel](../user-guide/web-editor-features.md#id2051EB003YK) -avsnitt.
+Mer information finns i funktionsbeskrivningen för **File Properties** i avsnittet [Right Panel](../user-guide/web-editor-features.md#id2051EB003YK) .
 
 ## Visa nyckelattribut i Kartvyn
 
-När du definierar nyckelattribut för ämnet eller mappningsreferenserna kan du även visa titeln, motsvarande ikon och nyckeln i den vänstra panelen. Tangenten visas som `key=<key-name>`.
+När du definierar nyckelattribut för ämnet eller mappningsreferenserna kan du även visa titeln, motsvarande ikon och nyckeln i den vänstra panelen. Nyckeln visas som `key=<key-name>`.
 
 ![tangenter i kartvyn](assets/view-key-title-map-view.png) {width="300" align="left"}
 
 *Visa nyckelattributet i Kartvyn.*
 
 
-Mer information finns i **Kartvy** funktionsbeskrivning i [Vänster panel](../user-guide/web-editor-features.md#id2051EA0M0HS) -avsnitt.
+Mer information finns i funktionsbeskrivningen för **Kartvyn** i avsnittet [Vänster panel](../user-guide/web-editor-features.md#id2051EA0M0HS).
 
 ## Möjlighet att duplicera en baslinje baserat på etikett
 
-Experience Manager Guides ger nu en bättre användarupplevelse när du skapar baslinjer från Web Editor.
-Alternativen **Manuell uppdatering** och **Automatisk uppdatering** är mer intuitiva och hjälper dig att enkelt välja mellan att skapa en statisk baslinje eller att uppdatera den automatiskt enligt etiketterna.
+Experience Manager Guides ger nu en förbättrad användarupplevelse när du skapar baslinjer från Web Editor.
+Alternativen **Manuell uppdatering** och **Automatisk uppdatering** är mer intuitiva och hjälper dig att enkelt välja mellan att skapa en statisk baslinje eller uppdatera den automatiskt enligt etiketterna.
 
 ![skapa ny baslinje](assets/dynamic-baseline-4-4.png) {width="300" align="left"}
-*Skapa baslinje i Web Editor.*
+*Skapa baslinje i webbredigeraren.*
 
 Du kan också duplicera en baslinje baserat på etiketten. Referensversionen väljs baserat på den angivna etiketten (om den finns) när du duplicerar, eller också väljs versionen från den duplicerade baslinjen.
 
@@ -84,67 +85,68 @@ Du kan också duplicera en baslinje baserat på etiketten. Referensversionen vä
 
 *Duplicera en baslinje baserat på en etikett eller skapa en exakt kopia.*
 
-Läs mer om hur [skapa och hantera baslinjer från Web Editor](../user-guide/web-editor-baseline.md).
+Läs mer om hur du [skapar och hanterar baslinjer i Web Editor](../user-guide/web-editor-baseline.md).
 
 ## Förbättrad kontrollpanel för kartsamling
 
-Stödlinjerna i Experience Manager har en förbättrad kontrollpanel för kartsamling. I en kartsamling kan du snabbt konfigurera flera metadataegenskaper för DITA-kartorna. Den här funktionen är praktisk eftersom du inte behöver uppdatera metadataegenskaperna för varje DITA-karta separat.
+Experience Manager Guides har en förbättrad kontrollpanel för kartsamling. I en kartsamling kan du snabbt konfigurera flera metadataegenskaper för DITA-kartorna. Den här funktionen är praktisk eftersom du inte behöver uppdatera metadataegenskaperna för varje DITA-karta separat.
 
 Nu kan du visa filnamnet på DITA-kartan. Du kan också visa baslinjerna. På så sätt kan du snabbt hitta den baslinje som används för en förinställning.
 
-![Kontrollpanel för kartsamling](assets/map-collection-dashboard.png){width="800" align="left"}
+![Kartsamlingens kontrollpanel](assets/map-collection-dashboard.png){width="800" align="left"}
 
 *Visa, redigera och generera utdata från kartsamlingens kontrollpanel.*
 
-Lär dig hur [använd Map Collection för generering av utdata](../user-guide/generate-output-use-map-collection-output-generation.md).
+Lär dig hur du [använder kartsamling för utdatagenerering](../user-guide/generate-output-use-map-collection-output-generation.md).
 
 ## Förbättrad översättningspanel
 
-The **Översättning** panelen har förbättrats.  Du kan visa **Tillgängliga språk** och snabbt välja den språkinställning där du vill översätta projektet. Med en enda markering kan du även välja **Markera alla** för att översätta projektet till alla tillgängliga språk.
+Panelen **Översättning** har förbättrats.  Du kan visa listan **Tillgängliga språk** och snabbt välja den språkinställning som du vill översätta projektet i. Med ett enda val kan du även välja **Markera alla** för att översätta projektet till alla tillgängliga språk.
 
-![översättningspanel](assets/translation-languages-4.4.png){width="300" align="left"}
+![översättningspanelen](assets/translation-languages-4.4.png){width="300" align="left"}
 
 
 
 *Välj de språkområden där du vill översätta projektet. Välj standard, baslinje eller den senaste versionen av filer för översättning.*
 
-Läs mer om hur [översätta innehåll](../user-guide/translation.md).
+Läs mer om hur du [översätter innehåll](../user-guide/translation.md).
 
 ## Förbättrad söklogik i dialogrutan Infoga element
 
 Nu kan du enkelt hitta elementen i dialogrutan Infoga element.  Du kan skriva en sträng i sökrutan och få en lista över alla giltiga element som börjar med den angivna strängen.
 
-Om du till exempel redigerar ett stycke som du vill infoga kan du söka efter tecknet &#39;t&#39; för att få alla giltiga element som börjar med &#39;t&#39;.
+Om du till exempel redigerar ett stycke som du vill infoga kan du söka efter tecknet &#39;t&#39; för att få
+alla giltiga element som börjar med t.
 
 
-![Infoga, dialogruta](assets/insert-element.png){width="300" align="left"}
+![Dialogrutan Infoga](assets/insert-element.png){width="300" align="left"}
 
-*Skriv ett tecken för att söka efter alla giltiga element som börjar med tecknet.*
+*Ange ett tecken för att söka efter alla giltiga element som börjar med tecknet.*
 
 
-Mer information finns i **Infoga element** funktionsbeskrivning i [Vänster panel](../user-guide/web-editor-features.md#id2051EA0M0HS) -avsnitt.
+Mer information finns i funktionsbeskrivningen för **Infoga element** i avsnittet [Vänster panel](../user-guide/web-editor-features.md#id2051EA0M0HS).
 
 
 ## Möjlighet att dela upp en lista på samma nivå
 
-Nu kan du enkelt dela upp listan i Web Editor. Välj **Delad lista** på snabbmenyn för ett listobjekt för att dela upp den aktuella listan. En ny lista skapas på samma nivå, med början från det listobjekt du valde för delningen.
+Nu kan du enkelt dela upp listan i Web Editor. Välj alternativet **Dela lista** på snabbmenyn för ett listobjekt om du vill dela den aktuella listan. En ny lista skapas på samma nivå, med början från det listobjekt du valde för delningen.
 
-![översättningspanel](assets/context-menu-split-list.png){width="300" align="left"}
+![översättningspanelen](assets/context-menu-split-list.png){width="300" align="left"}
 
 *Välj alternativet att dela den aktuella listan.*
 
-Mer information finns i **Infoga lista** funktionsbeskrivning i [Vänster panel](../user-guide/web-editor-features.md#id2051EA0M0HS) -avsnitt.
+Mer information finns i funktionsbeskrivningen för **Infoga lista** i avsnittet [Vänster panel](../user-guide/web-editor-features.md#id2051EA0M0HS).
 
 ## Frigör enkelt DITA-element
 
 Nu kan du enkelt frigöra ett element med hjälp av alternativet på snabbmenyn för ett element i Web Editor. Det gör det enklare att sammanfoga elementets text med dess överordnade element.
-Mer information finns i **Dela upp ett element** från [andra funktioner i Web Editor](../user-guide/web-editor-other-features.md).
+Mer information finns i avsnittet **Dela upp ett element** från de [andra funktionerna i Web Editor](../user-guide/web-editor-other-features.md).
 
 ## Få åtkomst till filegenskaper i källäget för redigering
 
-Nu kan du komma åt den högra panelens **Filegenskaper** i alla fyra lägena eller vyerna: Layout, Författare, Källa och Förhandsgranska.  Detta gör att du kan visa filens egenskaper även när du växlar mellan olika lägen.
+Nu kan du komma åt funktionen **Filegenskaper** i den högra panelen i alla fyra lägen eller vyer: Layout, Författare, Source och Förhandsgranska.  Detta gör att du kan visa filens egenskaper även när du växlar mellan olika lägen.
 
-Mer information finns i **Filegenskaper** funktionsbeskrivning i [Höger panel](../user-guide/web-editor-features.md#id2051EB003YK) -avsnitt.
+Mer information finns i funktionsbeskrivningen för **filegenskaper** i avsnittet [Högerpanel](../user-guide/web-editor-features.md#id2051EB003YK).
 
 
 ## Visa filer efter namn eller filnamn
@@ -153,19 +155,19 @@ Nu kan du välja standardsättet att visa filerna i Web Editor. Du kan visa fill
 
 ![Dialogrutan Användarinställningar](assets/user-preferences-2311.png){width="550" align="left"}
 
-*Ändra standardsättet att visa filerna från **Användarinställningar**-dialogrutan.*
+*Ändra standardsättet att visa filerna i dialogrutan **Användarinställningar**.*
 
 
 ## Återställ filflikar när webbläsaren uppdateras
 
-Stödlinjer i Experience Manager återställer läget för de öppna filflikarna i webbredigeraren när du uppdaterar webbläsaren. Mer information finns i **Uppdatera webbläsaren när filerna redigeras** avsnitt under [Redigera ämnen i Web Editor](../user-guide/web-editor-edit-topics.md).
+Experience Manager Guides återställer status för de öppna filflikarna i Web Editor när du uppdaterar webbläsaren. Mer information finns i **Uppdatera webbläsaren medan du redigerar filerna** under [Redigera ämnen i Web Editor](../user-guide/web-editor-edit-topics.md).
 
 
 ## Möjlighet att navigera med kortkommandon
 
-Nu kan du använda kortkommandon för att flytta markören i webbredigeraren med hjälp av stödlinjerna i Experience Manager. Du kan använda kortkommandona för att snabbt flytta ett ord åt vänster eller höger. Du kan också gå till början eller slutet av raden med hjälp av kortkommandona.
+I Experience Manager Guides kan du nu även använda kortkommandon för att flytta markören i Web Editor. Du kan använda kortkommandona för att snabbt flytta ett ord åt vänster eller höger. Du kan också gå till början eller slutet av raden med hjälp av kortkommandona.
 Nu kan du också använda kortkommandon för att flytta markören till början av nästa element eller till slutet av föregående element.
-Läs mer om [kortkommandon i Web Editor](../user-guide/web-editor-keyboard-shortcuts.md).
+Läs mer om [kortkommandona i Web Editor](../user-guide/web-editor-keyboard-shortcuts.md).
 
 
 ## Lösa länkar för korsmappning i AEM webbplatsutdata
@@ -175,14 +177,14 @@ Korsmappslänkar (XREF med scope-peer) som återges i AEM webbplatsutdata tolkas
 
 ## Konfigurera URL:en för AEM som ska använda dokumenttiteln
 
-Med hjälp av stödlinjerna i Experience Manager kan du som administratör konfigurera URL:en för AEM webbplatsutdata. Om filnamnet inte finns eller innehåller alla specialtecken kan du konfigurera så att de ersätts med en avgränsare i URL:en för AEM platsutdata. Du kan även ersätta dem med namnet på det första underordnade ämnet. Lär dig hur [konfigurera URL:en för AEM som ska använda dokumenttiteln](../cs-install-guide/conf-output-generation.md#configure-the-url-of-the-aem-site-output-to-use-the-document-title).
+I Experience Manager Guides kan du som administratör konfigurera URL:en för AEM webbplatsutdata. Om filnamnet inte finns eller innehåller alla specialtecken kan du konfigurera så att de ersätts med en avgränsare i URL:en för AEM platsutdata. Du kan även ersätta dem med namnet på det första underordnade ämnet. Lär dig hur du [konfigurerar URL:en för AEM webbplatsutdata så att dokumenttiteln ](../cs-install-guide/conf-output-generation.md#configure-the-url-of-the-aem-site-output-to-use-the-document-title) används.
 
 
-## Publicera flera förinställningar parallellt
+## Publish flera förinställningar parallellt
 
 Experience Manager tillhandahåller funktionen för att skapa baslinjer genom att automatiskt välja ämnen enligt den etikett som används på dem. Nu kan du också enkelt publicera flera förinställningar med automatiska baslinjer från samma DITA-karta. Du behöver inte publicera bara en förinställning i taget, men du kan enkelt publicera flera förinställningar parallellt.
 
-Läs mer om hur [skapa och hantera baslinjer från Web Editor](../user-guide/web-editor-baseline.md).
+Läs mer om hur du [skapar och hanterar baslinjer i Web Editor](../user-guide/web-editor-baseline.md).
 
 ## Förbättringar av inbyggda PDF
 
@@ -190,7 +192,7 @@ Följande förbättringar av ursprungligt PDF har gjorts i version 4.4.0:
 
 ### Använd variabler i PDF-utdata
 
-Du kan använda variabler för att dynamiskt infoga och hantera återanvändbar information. Med stödlinjerna i Experience Manager kan du skapa, redigera och förhandsgranska variabler när du genererar PDF. Du kan snabbt ändra variabelvärdena och göra dokumenten portabla och enkla att uppdatera.
+Du kan använda variabler för att dynamiskt infoga och hantera återanvändbar information. Experience Manager Guides hjälper dig att skapa, redigera och förhandsgranska variabler medan du genererar PDF. Du kan snabbt ändra variabelvärdena och göra dokumenten portabla och enkla att uppdatera.
 
 ![inbyggda PDF-variabler](assets/add-variable-default.png){width="800" align="left"}
 
@@ -229,36 +231,36 @@ I utdataförinställningen för PDF kan du välja de metadata som du vill sprida
 
 Den här funktionen är användbar eftersom den hjälper dig att hålla resursegenskaperna som författare, skapandedatum eller dokumenttitel konsekventa. Det gör det enklare att ordna, söka i och kategorisera dokumenten.
 
-Mer information finns i **Avancerat** inställningarna i [Publish PDF output](../web-editor/native-pdf-web-editor.md).
+Mer information finns i **Avancerade**-inställningar i [Publish PDF-utdata](../web-editor/native-pdf-web-editor.md).
 
-### Använd metadata som lagts till i `topicmeta` element för utdata från PDF
+### Använd metadata som lagts till i elementet `topicmeta` för utdata från PDF
 
 Metadatafunktionen i Native PDF kan underlätta innehållshantering och hjälpa till att söka efter filer på Internet.
 <img src="assets/pdf-metadata-4-4.png" alt="metadata, flik" width="800">
 
 *Välj ett alternativ för att lägga till och anpassa metadataalternativ.*
 
-Nu kan du använda metadata som du har lagt till i Experience Manager-stödlinjerna `topicmeta` -element i DITA-kartan för att fylla i metadatafälten i utdata från PDF. Det här alternativet är markerat som standard.
+Nu har Experience Manager Guides möjlighet att använda de metadata som du har lagt till i elementet `topicmeta` i DITA-kartan för att fylla i metadatafälten i PDF-utdata. Det här alternativet är markerat som standard.
 
 Med den här funktionen blir det enklare att hantera dokument, säkerställa enhetlighet och göra dokumenten sökbara.
 
-Om du vill veta mer kan du visa **Metadata** i [Publish PDF output](../web-editor/native-pdf-web-editor.md).
+Mer information finns på fliken **Metadata** i [Publish PDF-utdata](../web-editor/native-pdf-web-editor.md).
 
 ### Använda och duplicera färdiga PDF-mallar
 
-Experience Manager Guides innehåller färdiga mallar eller PDF-mallar. Duplicera PDF-mallarna i fabriken för att skapa anpassade PDF-mallar.
+Experience Manager Guides har färdiga mallar eller PDF. Duplicera PDF-mallarna i fabriken för att skapa anpassade PDF-mallar.
 
 Nu kan du även förhandsvisa miniatyrbilden för en mall när du skapar och duplicerar en mall. Du kan också redigera eller ta bort den här bilden. Den här funktionen är användbar när du vill märka ut eller skilja ut mallar med liknande namn.
-Läs mer om [PDF-mall](../native-pdf/pdf-template.md).
+Läs mer om mallen [PDF](../native-pdf/pdf-template.md).
 
-![Mallen Duplicera PDF](assets/duplicate-template.png){width="550" align="left"}
+![Duplicera PDF-malldialogrutan](assets/duplicate-template.png){width="550" align="left"}
 
 *Duplicera en befintlig PDF-mall.*
 
 
 ### Ändra ordningen på sidorna och publicera flera sidor per ark
 
-Förutom att publicera sidorna enligt källdokumentet kan du även ändra ordningen på sidorna i PDF när du publicerar ett flersidigt dokument.  Detta ger dig flexibilitet att publicera sidorna i olika ordningsföljd, som alla udda eller alla jämna sidor först. Du kan även publicera som ett häfte och läsa sidorna som en bok. Du kan också bestämma hur många sidor du vill publicera på ett enda pappersark. Mer information finns i [Sidorganisation](../native-pdf/components-pdf-template.md#page-organization) -avsnitt.
+Förutom att publicera sidorna enligt källdokumentet kan du även ändra ordningen på sidorna i PDF när du publicerar ett flersidigt dokument.  Detta ger dig flexibilitet att publicera sidorna i olika ordningsföljd, som alla udda eller alla jämna sidor först. Du kan även publicera som ett häfte och läsa sidorna som en bok. Du kan också bestämma hur många sidor du vill publicera på ett enda pappersark. Mer information finns i avsnittet [Sidorganisation](../native-pdf/components-pdf-template.md#page-organization).
 
 ### Sortera ordlistor baserat på sorteringsnycklar
 
@@ -269,35 +271,4 @@ Mer information finns i [Avancerade PDF-inställningar](../native-pdf/components
 ### Förbättrad resurshantering för mallar i Native PDF
 
 Experience Manager Guides har nu förbättrat resurshanteringen för mallar för inbyggda PDF. Nu kan du dela och återanvända resurser, som bilder, CSS-filer och teckensnittsfiler, i flera olika PDF-mallar. I och med den här förbättringen är det mycket enklare att hantera resurser för en stor uppsättning mallar. Du behöver inte skapa dubblettresurser för varje mall, och du kan behålla dem i en delad mapp och använda dem i alla mallar i PDF.
-Mer information finns i [PDF-mall](../native-pdf/pdf-template.md).
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Mer information finns i [PDF-mallen](../native-pdf/pdf-template.md).

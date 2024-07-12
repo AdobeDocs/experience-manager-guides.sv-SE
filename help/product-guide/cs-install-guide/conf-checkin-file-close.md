@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Konfigurera en uppmaning om att checka in en fil vid stängning {#id222HC040PE8}
 
-När användaren försöker stänga en fil som är öppnad i Web Editor med **Stäng** på fliken eller **Stäng** på Alternativ-menyn visas en dialogruta om filen innehåller osparade data eller en osparad version. Användaren uppmanas att låsa upp filen om den är låst.
+När användaren försöker stänga en fil som har öppnats i Web Editor med knappen **Stäng** på filens flik eller med alternativet **Stäng** på Alternativ-menyn, visas en dialogruta om filen innehåller data som inte har sparats eller en version som inte har sparats. Användaren uppmanas att låsa upp filen om den är låst.
 
 Använd instruktionerna i [Konfigurationsåsidosättningar](download-install-additional-config-override.md#) för att skapa konfigurationsfilen. Ange följande \(egenskap\)-information i konfigurationsfilen för att konfigurera en uppmaning att checka in en fil vid stängning:
 
@@ -22,8 +22,8 @@ Använd instruktionerna i [Konfigurationsåsidosättningar](download-install-add
 |---|------------|--------------|
 | `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.checkin` | Boolean \( true/ false\).<br> **Standardvärde**: false |
 
-När den här konfigurationen är aktiverad visas **Lås upp filen** är markerad som standard i dialogrutan.
+När den här konfigurationen är aktiverad är kryssrutan **Lås upp filen** markerad som standard i dialogrutan.
 
-Mer information finns i *Stäng filer och spara scenarier* i den as a Cloud Service guiden Använda Adobe Experience Manager Guides.
+Mer information finns i avsnittet *Stäng och spara scenarier* i Använda Adobe Experience Manager Guides as a Cloud Service Guide.
 
 **Överordnat ämne:**[ Anpassa Web Editor](conf-web-editor.md)

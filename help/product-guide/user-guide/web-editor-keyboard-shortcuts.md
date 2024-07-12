@@ -1,6 +1,6 @@
 ---
 title: Kortkommandon i Web Editor
-description: Upptäck tidsbesparande kortkommandon i webbredigeraren AEM guider.
+description: Upptäck tidsbesparande kortkommandon i webbredigeraren för AEM Guides.
 exl-id: d843c5a9-04f8-44f2-9bf5-60cb4ed7fa38
 feature: Authoring, Features of Web Editor
 role: User
@@ -29,19 +29,19 @@ Det finns många åtgärder i Web Editor som du kan utföra med hjälp av kortko
 | Fokus på den vänstra panelen | **Ctrl***+**Skift**+***1*** | ***Kommando***+**Skift**+***1*** |
 | Fokus på den högra panelen | **Ctrl***+**Skift**+***2*** | ***Kommando***+**Skift**+***2*** |
 | Fokusera på den aktuella redigeraren | **Ctrl***+**Skift**+***0*** | ***Kommando***+**Skift**+***0*** |
-| Spara dokumentet i författar- eller källvyn | ***Ctrl***+**Skift**+***S*** | ***Kommando***+**Skift**+***S*** |
-| Spara alla öppna dokument i redigerings- eller källvyn | ***Ctrl***+***S*** | ***Kommando***+***S*** |
+| Spara dokument i redigerings- eller Source-vy | ***Ctrl***+**Skift**+***S*** | ***Kommando***+**Skift**+***S*** |
+| Spara alla öppna dokument i redigerings- eller Source-vyn | ***Ctrl***+***S*** | ***Kommando***+***S*** |
 | Visa dialogrutan Infoga element | ***Alt***+***Retur*** | ***Alternativ***+***Retur*** |
 | Visa dialogrutan Infoga element om du vill infoga element före det markerade elementet | ***Alt***+***Skift***+***Retur*** | ***Alternativ***+***Skift***+***Retur*** |
 | Flytta markören ett ord åt vänster. | ***Ctrl***+***Vänsterpil*** | ***Alternativ***+***Vänsterpil*** |
 | Flytta markören ett ord åt höger. | ***Ctrl***+***Högerpil*** | ***Alternativ***+***Högerpil*** |
 | Flytta markören till början av den aktuella raden. | ***Startsida*** | ***Kommando***+***Vänsterpil*** |
-| Flytta markören till slutet av den aktuella raden. | **End** | ***Kommando***+***Högerpil*** |
+| Flytta markören till slutet av den aktuella raden. | **Slut** | ***Kommando***+***Högerpil*** |
 | Flytta markören till början av nästa element. | ***Tabb*** | ***Tabb*** |
 | Dra in listobjektet till nästa nivå. | ***Tabb*** | ***Tabb*** |
 | Flytta markören till slutet av föregående element. | ***Skift***+***Tabb*** | ***Skift***+***Tabb*** |
 | Dra ut listobjektet till föregående nivå. | ***Skift***+***Tabb*** | ***Skift***+***Tabb*** |
-| Indrag av XML automatiskt i källvyn | ***Ctrl***+***Alt***+***L*** | ***Kommando***+***Alternativ***+***L*** |
+| Indrag av XML automatiskt i Source-vyn | ***Ctrl***+***Alt***+***L*** | ***Kommando***+***Alternativ***+***L*** |
 | Dela aktuellt element | ***Retur*** | ***Retur*** |
 | Kopiera markerad text | ***Ctrl***+**C** | ***Kommando***+**C** |
 | Klistra in | ***Ctrl***+**V** | ***Kommando***+**V** |
@@ -49,6 +49,6 @@ Det finns många åtgärder i Web Editor som du kan utföra med hjälp av kortko
 | Öppna dialogrutan Skriv ut | ***Ctrl***+**P** | ***Kommando***+**P** |
 | Ångra senaste åtgärd | ***Ctrl***+**Z** | ***Kommando***+**Z** |
 | Gör om senaste åtgärd | ***Ctrl***+**Y** | ***Kommando***+**Y** |
-| Infoga hårt blanksteg `(&nbsp;)` | ***Alt***+**Blanksteg** | ***Alternativ***+**Blanksteg** |
+| Infoga hårt blanksteg `(&nbsp;)` | ***Alt***+**Space** | ***Alternativ***+**Avstånd** |
 
 **Överordnat ämne:** [Arbeta med webbredigeraren](web-editor.md)

@@ -1,6 +1,6 @@
 ---
-title: Avinstallera AEM
-description: Lär dig hur du avinstallerar AEM
+title: Avinstallera AEM Guides
+description: Så här avinstallerar du AEM Guides
 exl-id: 6c6b9692-cdec-426f-bc3b-f09d0091da39
 feature: Installation
 role: Admin
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 ---
 
-# Avinstallera AEM {#id21BHG0C0SXA}
+# Avinstallera AEM Guides {#id21BHG0C0SXA}
 
-Du kan avinstallera AEM guider med hjälp av CRX Package Manager. Under avinstallationen återställs innehållet i databasen till ögonblicksbilden som gjordes omedelbart innan paketet installerades.
+Du kan avinstallera AEM Guides med CRX Package Manager. Under avinstallationen återställs innehållet i databasen till ögonblicksbilden som gjordes omedelbart innan paketet installerades.
 
-Så här avinstallerar du AEM stödlinjer:
+Så här avinstallerar du AEM Guides:
 
 1. Logga in i AEM och navigera till CRX Package Manager. Standardwebbadressen för att få åtkomst till pakethanteraren är:
 
@@ -26,9 +26,9 @@ Så här avinstallerar du AEM stödlinjer:
 
 1. Sök efter paketet com.adobe.fmdita.
 1. Klicka på paketet för att expandera det.
-1. Klicka **Mer** för att öppna listrutan.
-1. Klicka **Avinstallera** och vänta tills avinstallationen är klar.
-1. Om du inte längre behöver det här paketet klickar du på **Ta bort** efter avinstallation av paketet.
+1. Klicka på **Mer** för att öppna listrutan.
+1. Klicka på **Avinstallera** och vänta tills avinstallationen är klar.
+1. Om du inte längre behöver det här paketet klickar du på **Ta bort** när du har avinstallerat paketet.
 
 ## Efter avinstallation
 
@@ -46,7 +46,7 @@ Så här rensar du de återstående filerna efter avinstallationen:
    http://<host>:<port>/libs/granite/ui/content/dumplibs.rebuild.html?back=true
    ```
 
-1. Klicka **Ogiltig cache**.
+1. Klicka på **Invalidera cache**.
 1. Rensa webbläsarens cache.
 
 **Överordnat ämne:**[ Hämta och installera](download-install.md)

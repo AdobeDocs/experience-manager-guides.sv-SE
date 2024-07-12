@@ -1,6 +1,6 @@
 ---
 title: Förinställningar för utdata
-description: Förinställningarna för utdata AEM stödlinjer. Skapa förinställningar för utdata från webbredigeraren och kartkontrollpanelen för AEM, PDF, HTML 5, EPUB, anpassade format och JSON-format.
+description: Förstå förinställningarna i AEM Guides. Skapa förinställningar för utdata från webbredigeraren och kartkontrollpanelen för AEM, PDF, HTML 5, EPUB, anpassade format och JSON-format.
 exl-id: 8eaf0765-8b66-47d6-9c40-888495baa711
 feature: Publishing
 role: User
@@ -19,16 +19,16 @@ I följande avsnitt beskrivs de alternativ som är tillgängliga för de utdataf
 
 Du kan skapa förinställningar på två sätt:
 
-- **Från webbredigeraren**: Du kan skapa AEM för Site, PDF, Knowledge Base, HTML5, Custom och JSON och generera respektive utdata.
-- **Från kartpanelen**: Du kan skapa AEM Site, PDF, HTML5, EPUB och anpassade förinställningar och generera respektive utdata.
+- **Från webbredigeraren**: Du kan skapa AEM för webbplats, PDF, kunskapsbas, HTML5, anpassade utdata och JSON-utdata och generera respektive utdata.
+- **Från kartkontrollpanelen**: Du kan skapa AEM Site, PDF, HTML5, EPUB och anpassade utdatainställningar och generera respektive utdata.
 
 I följande avsnitt beskrivs de alternativ som är tillgängliga för de utdataformat som stöds.
 
-- **[AEM](generate-output-aem-site.md)**
+- **[AEM plats](generate-output-aem-site.md)**
 
 - **[PDF](generate-output-pdf.md)**
 
-- **[Knowledge Base](generate-output-knowledge-base.md)**
+- **[Kunskapsbas](generate-output-knowledge-base.md)**
 
 - **[HTML5](generate-output-html5.md)**
 
@@ -38,6 +38,6 @@ I följande avsnitt beskrivs de alternativ som är tillgängliga för de utdataf
 
 - **[JSON](generate-output-json.md)**
 
-Som administratör kan du med hjälp av guider i Experience Manager skapa och hantera utdatapresentationer för globala profiler och mappprofiler. Mer information finns i [Hantera förinställningar för utdata för global profil och mappprofil](./web-editor-manage-output-presets.md).
+Som administratör kan du med Experience Manager Guides skapa och hantera utdatapresentationer för globala profiler och mappprofiler. Mer information finns i [Hantera förinställningar för globala utdata och mappprofiler](./web-editor-manage-output-presets.md).
 
-**Överordnat ämne:**[ Generering av utdata](generate-output.md)
+**Överordnat ämne:**[ Utdatagenerering](generate-output.md)

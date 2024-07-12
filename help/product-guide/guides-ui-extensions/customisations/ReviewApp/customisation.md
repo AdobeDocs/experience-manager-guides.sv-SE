@@ -19,12 +19,12 @@ För att göra det enklare att anpassa granskningsappen har vi tagit fram några
 - id: `review_comment`
 - krok: `this.updateExtraProps`:
 
-Som diskuterades [här](../../aem_guides_framework/basic-customisation.md)och alla nya attribut som läggs till under anpassningen hamnar under `this.model.extraProps`. Metoden `updateExtraProps` I kan du lägga till attribut i en granskningskommentar och även hantera uppdatering och lagring av det tillagda attributet på servern.
+Som nämndes [här](../../aem_guides_framework/basic-customisation.md) hamnar alla nya attribut som läggs till under anpassningen under `this.model.extraProps`. Med metoden `updateExtraProps` kan du lägga till attribut i en granskningskommentar och även hantera uppdateringen och lagringen av det tillagda attributet på servern.
 
 ### Exempel på användning
 
-Exempel: du vill lägga till fält `commentRationale` och `severity` till dina kommentarer.
-Låt oss uppdatera `commentRationale` till &quot;Detta är en viktig mening.&quot; och `severity` till&quot;CRITICAL&quot;.
+Du vill till exempel lägga till fält `commentRationale` och `severity` i dina kommentarer.
+Låt oss uppdatera `commentRationale` till&quot;This is an important sentence.&quot; och `severity` till&quot;CRITICAL&quot;.
 Detta kan göras med syntaxen:
 
 ```typescript
@@ -48,11 +48,13 @@ Ovanstående kodfragment hanterar uppdatering och sparande av värdena. De spara
 - id: `inline_review_panel`
 
 1. krok: `onNewCommentEvent`
-Kroken `onNewCommentEvent` gör att du kan utlösa en händelse eller anropa en metod för en ny kommentar eller svarshändelse.
-De argument som tas emot i `onNewCommentEvent` inkludera:
+Med kroken `onNewCommentEvent` kan du utlösa en händelse eller anropa en metod för en ny kommentar eller svarshändelse.
+De argument som tas emot i `onNewCommentEvent` är:
    - händelser: den kommentar/svarshändelse som skickades.
-   - newComment: boolesk Om den skickade händelsen var en ny kommentarhändelse, dvs. `highlight`, `insertion`, `deletion`, `sticky note comment`
-   - newReply: booleskt Om händelsen som skickades var en ny svarshändelse.
+   - newComment: boolesk
+Om händelsen som skickades var en ny kommentarshändelse, dvs. `highlight`, `insertion`, `deletion`, `sticky note comment`
+   - newReply: booleskt
+Om händelsen som skickades var en ny svarshändelse.
 
 2. krok: `sendExtraProps`
 
@@ -60,7 +62,7 @@ Den här kroken är bra om du vill utöka en `event` och skicka `extraProps` fr�
 
 ### Exempel på intern granskningspanel
 
-Säg att vi vill skicka en extraProp, `userInfo`, varje gång en ny kommentar eller ett nytt svar skickas. Detta görs nu via den interna granskningspanelen, men vi har inte en referens till commentId för den nyligen genererade kommentaren, och därför kan vi skriva följande kod för att uppnå detta.
+Anta att vi vill skicka en extraProp, `userInfo`, varje gång en ny kommentar eller ett nytt svar skickas. Detta görs nu via den interna granskningspanelen, men vi har inte en referens till commentId för den nyligen genererade kommentaren, och därför kan vi skriva följande kod för att uppnå detta.
 
 ```typescript
     onNewCommentEvent(args){
@@ -98,8 +100,8 @@ I ovanstående kodfragment kontrollerar vi om den skickade händelsen var en ny 
 
 I ovanstående metod utökar vi händelsen till att skicka extraProps som innehåller användarens förnamn, e-postadress, titel osv. Genom att utöka händelsen på det här sättet ser du till att extraProps skickas med rätt commentId och ser till att de bifogas till rätt kommentar.
 
-Kroken `updateExtraProps` anropar automatiskt `sendExtraProps`, så när ska du använda vad?
+Haken `updateExtraProps` anropar automatiskt kroken `sendExtraProps`, så när ska du använda vad?
 
-Vi använder `updateExtraProps` i `review_comment` kontrollenhet, som redan har kommentarens `id` och därför behöver du bara nämna `extraProps.`
+Vi använder `updateExtraProps` i kontrollenheten `review_comment` som redan har kommentarens `id` och därför behöver du bara ange `extraProps.`
 
-The `inline_review_panel` har dock inte åtkomst till kommentarens id, och därför behöver du inte skicka en händelse från den interna granskningspanelen för att `sendExtraProps` kommer att vara till nytta.
+`inline_review_panel` har dock inte åtkomst till kommentarens ID. Därför kommer `sendExtraProps` att vara användbart varje gång du behöver skicka en händelse från den interna granskningspanelen.

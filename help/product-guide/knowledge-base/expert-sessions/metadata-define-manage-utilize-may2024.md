@@ -1,13 +1,13 @@
 ---
 title: Definiera, hantera, använda - Metadata
 description: Definiera, hantera och använda metadata
-source-git-commit: 876e512febc9a4529d70b96303af21917e41961f
+exl-id: 3ebcb752-ba73-4c4c-9340-125b1e984cd1
+source-git-commit: 73c12f4f7e426c0c62150fe20770fa3599e6d095
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 0%
 
 ---
-
 
 # Definiera, hantera och använda metadata
 
@@ -25,7 +25,7 @@ Med Adobe Experience Manager Guides kan du effektivt definiera, använda och anv
 - **Datum** - 9 maj 2024
 - **Antal deltagare** - 100+
 - **Varaktighet** - 60 minuter
-- **Målgrupp** - Kunder, partners och anställda på Adobe
+- **Målgrupp** - Kunder, partners och anställda i Adobe
 
 ## Viktiga uppgifter
 
@@ -40,7 +40,7 @@ Under den här sessionen får du veta mer om följande:
 
 ### Dokumentation
 
-- [Metadata-scheman](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/metadata-schemas)
+- [Metadatascheman](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/metadata-schemas)
 - [Metadataprofiler](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/metadata-profiles)
 - [Hantera metadata i DITA-resurser](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/authoring/reports/manage-metadata)
 - [Extrahera DITA-metadata som metadata](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/cs-ig/aem-asset-search-cs/conf-dita-search#id192SF0G10YK)
@@ -50,12 +50,12 @@ Under den här sessionen får du veta mer om följande:
 
 ### Community Forum
 
-- Besök vår webbplats om du vill se sessionsspecifika communityinteraktioner på Experience League  [AEM Guides Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- Besök [AEM Guides Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions) om du vill ha sessionsspecifik communityinteraktion på Experience League.
 
 
 >[!NOTE]
 >
-> Funktionerna som visas under den här sessionen finns i följande versioner av AEM.
+> Funktionerna som visas under den här sessionen är tillgängliga i följande versioner av AEM Guides:
 > - Mars 2024 (för molnet)
 > - 4.4 (för icke-moln)
 
@@ -63,4 +63,4 @@ Under den här sessionen får du veta mer om följande:
 
 ## Kontakta oss
 
-Om du har frågor kan du skicka ett e-postmeddelande till oss på <techcomm@adobe.com>
+Om du har frågor kan du skicka ett e-postmeddelande till <techcomm@adobe.com>

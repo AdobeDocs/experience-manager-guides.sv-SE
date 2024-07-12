@@ -14,15 +14,15 @@ ht-degree: 0%
 
 # Konfigurera standardvärde för taggvyn {#id223GN0M0NDC}
 
-Med AEM Guides kan du konfigurera standardläget för taggvyn i Web Editor, vilket gör att du kan aktivera eller inaktivera taggvyn som standard för en ny användarsession.Utför följande steg för att konfigurera standardvärdet för taggvyn:
+I AEM Guides kan du konfigurera standardläget för taggvyn i webbredigeraren, vilket gör att du kan aktivera eller inaktivera taggvyn som standard för en ny användarsession. Utför följande steg för att konfigurera standardvärdet för taggvyn:
 
 1. Hämta UI-konfigurationsfilen genom att logga in i Adobe Experience Manager som administratör.
-1. Klicka på länken Adobe Experience Manager överst och välj **verktyg**.
-1. Välj **Stödlinjer** i listan med verktyg och klicka på **Mappprofiler**.
-1. Klicka på **Global profil** platta.
-1. Välj **Konfiguration av XML-redigerare** och klicka på **Redigera** överst.
-1. I **Användargränssnittskonfiguration för XML-redigering** klickar du på **Ladda ned** för att ladda ned `ui_config.json` på din lokala dator.
-1. I `ui_config.json` ändrar du standardläget för taggvyn genom att ändra avsnittet defaultValues enligt nedan:
+1. Klicka på länken Adobe Experience Manager överst och välj **Verktyg**.
+1. Välj **Stödlinjer** i listan över verktyg och klicka på **Mappprofiler**.
+1. Klicka på rutan **Global profil**.
+1. Välj fliken **XML-redigerarkonfiguration** och klicka på ikonen **Redigera** överst.
+1. Klicka på ikonen **Hämta** i **gränssnittskonfigurationen för XML-redigeraren** för att hämta filen `ui_config.json` på din lokala dator.
+1. Ändra standardläget för taggvyn i filen `ui_config.json` genom att ändra avsnittet defaultValues enligt nedan:
 
    ```json
    "defaultValues":

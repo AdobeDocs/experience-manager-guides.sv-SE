@@ -1,6 +1,6 @@
 ---
 title: Ökning
-description: Översikt över stödlinjerna för Experience Manager AEM.
+description: Översikt över Experience Manager AEM Guides.
 source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
 workflow-type: tm+mt
 source-wordcount: '37'
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Ökning {#overview}
 
-En översikt på 1-2 meningar om produkten som den här användarhandboken centreras på. Den här användarhandboken innehåller videor och självstudiekurser om de många funktionerna och funktionerna i *xyz*.
+En översikt på 1-2 meningar om produkten som den här användarhandboken centreras på. Den här användarhandboken innehåller videoklipp och självstudiekurser om de många funktionerna i *xyz*.
 
 <!--
 

@@ -1,6 +1,6 @@
 ---
 title: Profilering av villkorliga attribut
-description: Lär dig hur du skapar villkorsstyrda attribut i AEM. Använd villkorsstyrda attribut i mappen och globala profiler för att anpassa innehållet.
+description: Lär dig hur du skapar villkorsattribut i AEM Guides. Använd villkorsstyrda attribut i mappen och globala profiler för att anpassa innehållet.
 exl-id: 5ec7666e-df6b-4b0d-b6c2-cdc395fcccc5
 feature: Publishing
 role: User
@@ -23,39 +23,39 @@ Med AEM Guides kan du enkelt skapa och associera villkorliga attribut med releva
 
 Så här definierar du villkorliga attribut:
 
-1. Klicka på länken Adobe Experience Manager överst och välj **verktyg**.
+1. Klicka på länken Adobe Experience Manager överst och välj **Verktyg**.
 
 1. Välj **Stödlinjer** i listan över verktyg.
 
-1. Klicka på **Mappprofiler** och välj en mappprofil.
+1. Klicka på panelen **Mappprofiler** och välj en mappprofil.
 
    >[!NOTE]
    >
    > Du kan inte redigera den globala profilen.
 
-1. Klicka på **Villkorliga attribut** och klicka **Redigera**.
+1. Klicka på fliken **Villkorliga attribut** och klicka på **Redigera**.
 
    Tabellen Villkorliga attribut visas.
 
-1. Klicka **Lägg till**.
+1. Klicka på **Lägg till**.
 
-1. Ange **Namn**, **Värde** och en **Etikett** för attributet.
+1. Ange **Namn**, **Värde** och **Etikett** för attributet.
 
    Du kan spara en profil med endast attributnamnet. Ett attribut kan dock bara användas när det har ett angivet värde. Om du anger både värde och etikett för ett attribut visas bara attributets värde i Web Editor. Etiketten visas för publiceringsadministratören när den villkorliga förinställningen skapas.
 
-   På följande skärmbild visas definitionen för `platform` attribut med värdet `unix` och en etikett på `Red Hat Linux`.
+   I följande skärmbild visas definitionen för attributet `platform` med värdet `unix` och etiketten `Red Hat Linux`.
 
    ![](images/add-profile.png){width="800" align="left"}
 
-1. Om du vill lägga till fler värden för samma attribut klickar du på **+** och ange ytterligare värde och etikett.
+1. Om du vill lägga till fler värden för samma attribut klickar du på ikonen **+** och anger ytterligare värde och etikett.
 
 1. Om du vill lägga till fler attribut klickar du på **Lägg till**.
 
-1. Klicka **Spara** för att spara ändringarna.
+1. Klicka på **Spara** för att spara ändringarna.
 
 
-The `platform` -attributet lagras i systemet. När en författare beslutar att använda `platform` i ett DITA-ämne i en mapp ser de värdena på fliken Egenskaper i Web Editor.
+Attributet `platform` lagras i systemet. När en författare bestämmer sig för att använda attributet `platform` i ett DITA-avsnitt i en mapp, visas värdena på fliken Egenskaper i Web Editor.
 
 ![](images/properties-tab.png){width="350" align="left"}
 
-**Överordnat ämne:**[ Generering av utdata](generate-output.md)
+**Överordnat ämne:**[ Utdatagenerering](generate-output.md)

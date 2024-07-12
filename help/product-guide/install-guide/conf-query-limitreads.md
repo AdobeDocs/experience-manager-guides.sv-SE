@@ -26,9 +26,9 @@ Utför följande steg om du vill öka antalet noder som en fråga kan läsa samt
 
 1. Sök efter och klicka på **QueryEngineSettings**.
 
-1. Ändra attributvärde för **LimitReads** -attribut.
+1. Ändra attributvärdet för attributet **LimitReads**.
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.
 
 
 När du ökar det här attributvärdet hjälper det dig att generera rapporten för större DITA-kartor.

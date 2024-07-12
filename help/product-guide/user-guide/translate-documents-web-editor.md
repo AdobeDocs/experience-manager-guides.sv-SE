@@ -1,6 +1,6 @@
 ---
 title: Översätta dokument från Web Editor
-description: Översätt ditt innehåll till flera språk från webbredigeraren. Lär dig hur du skapar ett översättningsprojekt, lägger till regler, visar versioner och stänger filer som inte är synkroniserade i AEM.
+description: Översätt ditt innehåll till flera språk från webbredigeraren. Lär dig hur du skapar ett översättningsprojekt, lägger till regler, visar versioner och stänger osynkroniserade filer i AEM Guides.
 exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
@@ -21,7 +21,7 @@ AEM Guides har en kraftfull funktion i Web Editor som gör att du kan översätt
 
 >[!NOTE]
 >
-> Administratören kan konfigurera fliken Hantera \(används för översättning\) i Web Editor. Mer information finns i *Konfigurera översättningsfunktionen i webbredigeraren* i avsnittet Installera och konfigurera Adobe Experience Manager Guides as a Cloud Service.
+> Administratören kan konfigurera fliken Hantera \(används för översättning\) i Web Editor. Mer information finns i avsnittet *Konfigurera översättningsfunktionen i Web Editor* i Installera och konfigurera Adobe Experience Manager Guides as a Cloud Service.
 
 ## Innan du börjar
 
@@ -36,12 +36,12 @@ Innan du utför stegen i den här proceduren måste du se till att du har skapat
 
 ## Skapa ett översättningsprojekt
 
-1. I **Databas** öppnar du DITA-kartfilen i kartvyn.
-1. Klicka på **Hantera** -fliken. The **Översättningspanelen** visar tillgängliga språkgrupper.
+1. Öppna DITA-mappningsfilen i mappningsvyn på panelen **Databas**.
+1. Klicka på fliken **Hantera**. På **översättningspanelen** visas de tillgängliga språkgrupperna.
 
 1. Som användare kan du visa språkgrupperna som är konfigurerade för din mappprofil. Språkgrupperna visar språkmapparna tillsammans med deras språkkoder. Exempelvis innehåller språkgruppen G1 italienska \(it\), tyska \(de\), franska \(fr\) och engelska \(en\) språkmappar.
 
-   ![översättningspanel](images/translation-languages.png){width="300" align="left"}
+   ![översättningspanelen](images/translation-languages.png){width="300" align="left"}
 
    *Välj de språkgrupper eller språk som du vill översätta dina dokument på.*
 
@@ -52,7 +52,7 @@ Innan du utför stegen i den här proceduren måste du se till att du har skapat
 
 
 
-1. Du kan välja vilken språkgrupp som helst som mål för översättningen. Om du **Markera alla**&#x200B;översätts de markerade filerna till alla tillgängliga språk i de befintliga språkgrupperna.
+1. Du kan välja vilken språkgrupp som helst som mål för översättningen. Om du **markerar alla** översätts de markerade filerna till alla tillgängliga språk i de befintliga språkgrupperna.
 
    Alternativet för språkmappen är nedtonat och visar ett varningstecken:
 
@@ -72,11 +72,11 @@ Innan du utför stegen i den här proceduren måste du se till att du har skapat
 
    **Ingen** Välj det här alternativet om du vill översätta standardversionerna av filerna. Det här alternativet är markerat som standard.
 
-   **Använd baslinje:** Du kan välja en baslinje för att översätta projektet. Klicka på Använd baslinje och välj en baslinje som skapats på kartan. Alla filer som ingår i den valda baslinjen visas på översättningssidan. När innehållet har översatts kan du exportera den översatta baslinjen. Mer information om hur du exporterar den översatta baslinjen finns i [Exportera översatt originalplan](generate-output-use-baseline-for-publishing.md#id196SE600GHS).
+   **Använd baslinje:** Du kan välja en baslinje för att översätta projektet. Klicka på Använd baslinje och välj en baslinje som skapats på kartan. Alla filer som ingår i den valda baslinjen visas på översättningssidan. När innehållet har översatts kan du exportera den översatta baslinjen. Mer information om hur du exporterar den översatta baslinjen finns i [Exportera översatt baslinje](generate-output-use-baseline-for-publishing.md#id196SE600GHS).
 
-   **Använd den senaste versionen som den**: Välj om du vill filtrera ämnesversionen utifrån datum och tid när de skapades. När du väljer ett datum och en tid visas endast den senaste versionen av filerna som skapades på eller före det valda datumet och tiden.
+   **Använd den senaste versionen från och med**: Välj om du vill filtrera ämnesversionen utifrån datum och tid när de skapades. När du väljer ett datum och en tid visas endast den senaste versionen av filerna som skapades på eller före det valda datumet och tiden.
 
-1. Klicka **Använd**. En lista med information om ämnen och associerade resurser visas.
+1. Klicka på **Använd**. En lista med information om ämnen och associerade resurser visas.
 1. Markera de ämnen som du vill skicka för översättning. Du kan också använda alternativen för ämnesfiltrering för följande kolumner:
 
    - **Titel**: Källfilens namn.  Håll pekaren över källfilens namn för att visa målfilens eller den översatta filens namn.
@@ -90,44 +90,45 @@ Innan du utför stegen i den här proceduren måste du se till att du har skapat
    - **Målspråk**: Det språk som du vill översätta källfilen till
    - **Översättningsstatus**: De tillgängliga alternativen är: Osynkroniserad, Kopia saknas, Pågår och Synkroniserad.
    - **Måletikett**: Etikett för den valda versionen av målfilen
-1. Klicka **Skicka för översättning** längst upp till höger.
+1. Klicka på **Skicka för översättning** i det övre högra hörnet.
 
    ![](images/translation-send.png){width="800" align="left"}
 
-1. Välj **Skapa ett nytt översättningsprojekt**.
+1. Välj **Skapa ett nytt översättningsprojekt** i listrutan.
 
    ![](images/translation-project-types.png){width="350" align="left"}
 
    Förutom ett nytt översättningsprojekt kan du även välja mellan följande alternativ:
 
-   - Du kan **Skapa en struktur** endast för översättningsprojektet.
-   - Du kan **Skapa ett nytt XLIFF-översättningsprojekt** för att konvertera XML-innehållet till XLIFF (XML Localization Interchange File Format). XLIFF är ett öppet XML-baserat format som används för att standardisera dataöverföringen mellan olika verktyg som används i innehållsöversättningsprocessen. AEM har stöd för XLIFF version 1.2. I ett XLIFF-projekt exporteras innehållet till det branschledande XLIFF-formatet, som kan tillhandahållas översättningsleverantörer. XLIFF-formatet möjliggör återanvändning av segment som du redan har översatt under översättningsfasen.\
-     När XLIFF-innehållet har översatts kan det importeras till AEM stödlinjer, vilket skapar en översatt version av det ursprungliga DITA-projektet.
+   - Du kan välja att **endast skapa en struktur** för översättningsprojektet.
+   - Du kan välja att **skapa ett nytt XLIFF-översättningsprojekt** för att konvertera XML-innehållet till XLIFF (XML Localization Interchange File Format). XLIFF är ett öppet XML-baserat format som används för att standardisera dataöverföringen mellan olika verktyg som används i innehållsöversättningsprocessen. AEM Guides stöder XLIFF version 1.2.
+I ett XLIFF-projekt exporteras innehållet till det branschledande XLIFF-formatet, som kan tillhandahållas översättningsleverantörer. XLIFF-formatet möjliggör återanvändning av segment som du redan har översatt under översättningsfasen.\
+     När XLIFF-innehållet har översatts kan det importeras till AEM Guides, vilket skapar en översatt version av det ursprungliga DITA-projektet.
 
      >[!NOTE]
      >
      > XLIFF-export fungerar bara med mänsklig översättningskonfiguration.
 
-   - Du kan välja **Skapa ett nytt flerspråkigt översättningsprojekt** som kommer att innehålla översättningsjobb för alla språk som du har valt för översättning. Om du till exempel har valt franska, tyska och spanska skapas ett projekt som innehåller översättningsjobb för alla tre språken.
-   - Om du redan har ett översättningsprojekt kan du lägga till ämnen i det projektet. Välj Lägg till i **Befintligt översättningsprojekt** i projektlistan och välj ett projekt i listan Befintliga översättningsprojekt. Du kan sortera dessa projekt efter den senaste, stigande eller fallande ordningen.
+   - Du kan välja **Skapa ett nytt flerspråkigt översättningsprojekt** som innehåller översättningsjobb för alla språk som du har valt för översättning. Om du till exempel har valt franska, tyska och spanska skapas ett projekt som innehåller översättningsjobb för alla tre språken.
+   - Om du redan har ett översättningsprojekt kan du lägga till ämnen i det projektet. Välj Lägg till i **befintligt översättningsprojekt** i projektlistan och välj ett projekt i listan Befintliga översättningsprojekt. Du kan sortera dessa projekt efter den senaste, stigande eller fallande ordningen.
 
      >[!NOTE]
      >
      > Om ditt befintliga projekt är ett omfångsprojekt har det &#39;\(omfång\)&#39; i sitt namn.
 
    - Om du behöver skapa omfånget för ett projekt som ska översättas kan du välja **Skapa ett nytt omfångsöversättningsprojekt**. Kopiorna skickas inte för översättning och den ursprungliga översättningsstatusen för filerna behålls. Det påverkar inte målspråkskopian av ämnen som skickas för omfång.
-1. I **Projektets titel** anger du en rubrik för projektet.
-1. Klicka **Skapa** för att skapa ett nytt översättningsprojekt.
+1. Ange en rubrik för projektet i fältet **Projektnamn**.
+1. Klicka på **Skapa** för att skapa ett nytt översättningsprojekt.
 
    Ett nytt översättningsprojekt skapas med den valda versionen av ämnena. Nu visas ett popup-meddelande som bekräftar att översättningsprojektet har skapats. När alla målspråkskopior är tillgängliga i översättningsprojektet visas ett meddelande i Inkorgen. När målspråkskopiorna är tillgängliga i översättningsprojektet kan du påbörja översättningsjobbet. Mer information finns i [Starta översättningsjobbet](translation-first-time.md#id225IK030OE8).
 
    >[!NOTE]
    >
-   > Om du avvisar översättningen för ett eller flera ämnen i ett översättningsjobb, visas **Pågår** översättningsstatusen för alla avvisade ämnen återställs till den ursprungliga statusen. Statusen för de refererade ämnena kontrolleras och återställs enligt det senaste översättningstillståndet. Översättningsfilerna som skapats i målprojektet tas inte bort även om översättningen avvisas för dem.
+   > Om du avvisar översättningen för ett eller flera ämnen i ett översättningsjobb återställs översättningsstatusen **Pågår** för alla avvisade ämnen till den ursprungliga statusen. Statusen för de refererade ämnena kontrolleras och återställs enligt det senaste översättningstillståndet. Översättningsfilerna som skapats i målprojektet tas inte bort även om översättningen avvisas för dem.
 
 ## Lägg till översättningsreglerna
 
-Med AEM Guides kan administratören konfigurera översättningsreglerna. SRX-formatet (Segmentation Rules eXchange) är en standard för utbyte av segmenteringsregler mellan olika användare och olika översättningsmiljöer. Du kan skapa en mapp och lägga till dina anpassade SRX-filer i den.
+Med AEM Guides kan dina administratörer konfigurera översättningsreglerna. SRX-formatet (Segmentation Rules eXchange) är en standard för utbyte av segmenteringsregler mellan olika användare och olika översättningsmiljöer. Du kan skapa en mapp och lägga till dina anpassade SRX-filer i den.
 
 SRX-filer ska namnges som `<language-code>.srx`. Exempel: en-US eller ar-AE.
 
@@ -146,15 +147,15 @@ Vi rekommenderar att du bara behåller SRX-filer i den mapp som är konfigurerad
 AEM Guides väljer SRX-reglerna enligt översättningsprojektets källspråk. Den söker efter en anpassad SRX-fil för ett språk, och om du inte definierar en anpassad SRX-fil väljs reglerna enligt reglerna för översättning utanför rutan.
 
 
-Mer information om hur du konfigurerar globala profiler och profiler på mappnivå finns i *Konfigurera redigeringsmallar* i Installera och konfigurera Adobe Experience Manager Guides as a Cloud Service.
+Mer information om hur du konfigurerar globala profiler och mappprofiler finns i avsnittet *Konfigurera redigeringsmallar* i Installera och konfigurera Adobe Experience Manager Guides as a Cloud Service.
 
 ## Skicka versionsetiketten till målversionen
 
-Med AEM stödlinjer kan du skicka källfilens etikett till målfilen. Det gör det enklare att identifiera källversionen för den översatta filen.
+I AEM Guides kan du skicka källfilens etikett till målfilen. Det gör det enklare att identifiera källversionen för den översatta filen.
 
-Om du vill lägga till källversionsetiketten i målkopian måste systemadministratören välja alternativet **Sprid källversionsetiketter till målversionen** under **Översättning** tabba in **Inställningar för Redigeraren**.
+Om du vill lägga till källversionsetiketten i målkopian måste systemadministratören välja alternativet **Sprid källversionsetiketter till målversionen** på fliken **Översättning** i **Redigeringsinställningar**.
 
-Om du till exempel har källfiler med versionsetiketten `Release 1.0` som används på dem kan du också skicka källetiketten \(`Release 1.0`\) till den översatta filen.
+Om du till exempel har källfiler med versionsetiketten `Release 1.0` tillämpad på dem kan du även skicka källetiketten \(`Release 1.0`\) till den översatta filen.
 
 ![](images/translation-pass-source-label.png){width="650" align="left"}
 
@@ -164,17 +165,17 @@ Om du till exempel har källfiler med versionsetiketten `Release 1.0` som använ
 
 ## Visa versionsskillnad för filer som inte är synkroniserade 
 
-AEM innehåller en funktion för att kontrollera skillnaderna mellan den valda versionen och den senaste översatta källversionen av avsnitten. Du kan översätta **Slut på synkronisering** filer baserat på gjorda ändringar.
+AEM Guides tillhandahåller en funktion som kontrollerar skillnaderna mellan den valda versionen och den senaste översatta källversionen av ämnena. Du kan välja att översätta **filer som inte är synkroniserade** baserat på ändringarna.
 
 ![](images/translation-version-diff.png){width="650" align="left"}
 
-Välj **Visa differens** icon \(![](images/show-difference-icon.svg)\) om du vill se skillnaderna mellan den senaste översatta versionen och den aktuella versionen av den markerade filen.
+Välj ikonen **Visa skillnad** för ett avsnitt om du vill se skillnaderna mellan den senaste översatta versionen och den aktuella versionen av den markerade filen. \(![](images/show-difference-icon.svg)\)
 
 >[!NOTE]
 >
-> **Visa differens** icon \(![](images/show-difference-icon.svg)\) visas bara för DITA-filer som har översättningsstatusen som **Slut på synkronisering**.
+> **Ikonen** Visa skillnad \(![](images/show-difference-icon.svg)\) visas bara för DITA-filer som har översättningsstatusen som **Osynkroniserad**.
 
-The **Versionsskillnad** visas. Den visar **Senaste översatta version** och **Vald version** nummer till vänster. I förhandsgranskningsfönstret visas skillnaderna mellan den senaste översatta versionen och den valda versionen av ämnet.
+Dialogrutan **Versionsskillnad** visas. Den visar numret **Senaste översatta version** och **Vald version** till vänster. I förhandsgranskningsfönstret visas skillnaderna mellan den senaste översatta versionen och den valda versionen av ämnet.
 
 ![](images/version-diff.png){width="650" align="left"}
 
@@ -185,23 +186,23 @@ Om du gör ändringar i vissa resurser blir dessa resurser inte synkroniserade. 
 Så här stänger du statusen Skickat synkronisering:
 
 1. Markera de icke-synkroniserade resurser som du vill ändra statusen för.
-1. Välj **Synkronisera markering** button \(![](images/translation-mark-in-sync-icon.svg)\) överst. The **Synkronisera markering** visas.
+1. Markera knappen **Markera i synkronisering** \(![](images/translation-mark-in-sync-icon.svg)\) överst. Dialogrutan **Markera i synkronisering** visas.
 
    ![](images/translation-mark-in-sync.png){width="550" align="left"}
 
-1. Klicka **Tvinga synkronisering**. Statusen är synkroniserad för de valda Out-of-sync-resurserna.
+1. Klicka på **Tvinga synkronisering**. Statusen är synkroniserad för de valda Out-of-sync-resurserna.
 
 >[!NOTE]
 >
-> **Synkronisera markering** button \(![](images/translation-mark-in-sync-icon.svg)\) visas bara för resurser som har översättningsstatusen Inte synkroniserad.
+> Knappen **Markera i synkronisering** \(![](images/translation-mark-in-sync-icon.svg)\) visas bara för resurser som har översättningsstatusen som Inte synkroniserad.
 
 ## Visa pågående översättningsprojekt för en karta eller ett ämne
 
-Vissa av referenserna på översättningsinstrumentpanelen kanske håller på att bearbetas. Dessa referenser har en **Pågår** länk under **Översättningsstatus** kolumn. När du klickar på länken **Pågående projekt** öppnas. I dialogrutan visas en lista med alla pågående översättningsprojekt \(tillsammans med målspråket\) som innehåller den valda referensen.
+Vissa av referenserna på översättningsinstrumentpanelen kanske håller på att bearbetas. Dessa referenser har en **Pågår**-länk under kolumnen **Översättningsstatus**. När du klickar på länken öppnas dialogrutan **Pågående projekt**. I dialogrutan visas en lista med alla pågående översättningsprojekt \(tillsammans med målspråket\) som innehåller den valda referensen.
 
 >[!NOTE]
 >
-> Du kan se länken Pågår för de översatta projekt som har skapats i AEM Guidad as a Cloud Service februari 2023 eller senare.
+> Du kan se länken Pågår för de översatta projekt som har skapats i AEM Guides as a Cloud Service February 2023 eller senare.
 
 Klicka på namnet på referensen i dialogrutan för att öppna den i förhandsgranskningsläge. Du kan också klicka på översättningsprojektet för att starta översättningen.
 
@@ -214,9 +215,9 @@ Klicka på namnet på referensen i dialogrutan för att öppna den i förhandsgr
 > 
 >Den här funktionen är tillgänglig för nya översättningsprojekt som du skapar med Experience Manager Guides 2404 eller senare.  Det påverkar inte befintliga projekt.
 
-Administratören kan konfigurera **Rensning av översättningsprojekt efter slutförande** alternativ under **Översättning** tabba in **Inställningar för Redigeraren** om du vill inaktivera eller ta bort översättningsprojekten automatiskt.
+Administratören kan konfigurera rensningen av översättningsprojektet **efter slutförande** på fliken **Översättning** i **Redigeringsinställningar** för att inaktivera eller ta bort översättningsprojekten automatiskt.
 
-För effektiv dokumenthantering kan du använda Experience Manager-guider för att ta bort översättningsprojekt när du har slutfört översättningen.
+För effektiv dokumenthantering kan Experience Manager Guides ta bort översättningsprojekten när du har slutfört översättningen.
 
 Du kan även inaktivera översättningsprojekten om du vill använda dem senare. Om du tar bort ett projekt tas alla filer och mappar i projektet bort. När du inaktiverar ett projekt tas det inte bort, utan behålls i databasen. Men du kan inte uppdatera eller redigera ett inaktiverat projekt.  Om du tar bort eller inaktiverar ett projekt påverkas inte översättningsstatusen för några referenser.
 

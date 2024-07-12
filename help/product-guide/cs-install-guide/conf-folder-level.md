@@ -16,7 +16,7 @@ ht-degree: 0%
 
 I ett företag kan olika grupper eller produkter använda olika redigeringsmallar, utdatamallar, villkorsattributprofiler \(eller ämnesscheman\) och Web Editor-konfigurationer. Om du konfigurerar dessa endast på Enterprise \(eller global\)-nivå kan det vara svårt för skribenterna eftersom de kommer att se mallar eller profiler som inte är relevanta för dem.
 
-Med AEM Guides kan du konfigurera redigeringsmallar, utdatamallar, villkorsattribut och Web Editor-konfigurationer på global nivå samt på mappnivå. På så sätt kan du dela upp konfigurationerna för olika avdelningar eller produkter i företaget.
+I AEM Guides kan du konfigurera mallar för att skapa \(ämne eller karta\), utdatamallar, villkorsattribut och Web Editor-konfigurationer på global nivå samt på mappnivå. På så sätt kan du dela upp konfigurationerna för olika avdelningar eller produkter i företaget.
 
 Du kan även delegera mappspecifika konfigurationer till en avdelning eller produktadministratörer för att decentralisera administrationen.
 
@@ -26,7 +26,7 @@ Med hjälp av panelen Mappprofiler i inställningarna för stödlinjer kan du ko
 
 - **Allmänt**: Fliken Allmänt är bara tillgänglig när du konfigurerar inställningar på mappnivå \(eller projekt/produkt\). Du kan konfigurera inställningar som mappsökvägar som inställningarna ska gälla för och användare som ska ha administratörsbehörighet för att skapa eller uppdatera konfigurationer.
 
-- **Villkorliga attribut**: Använd den här fliken om du vill konfigurera villkorliga attribut på global nivå eller på mappnivå. Ett villkorsattribut är en kombination av attributnamnet och värdet, och du kan också definiera en etikett för det. Du kan använda DITA-standardattributen eller dina egna anpassade attribut. De villkorliga attribut som du definierar på global nivå är tillgängliga för alla användare i alla projekt. Om du har definierat villkorliga attribut på mappnivå sammanfogas de med de globalt definierade villkorliga attributen.
+- **Villkorliga attribut**: Använd den här fliken om du vill konfigurera villkorliga attribut på global nivå eller mappnivå. Ett villkorsattribut är en kombination av attributnamnet och värdet, och du kan också definiera en etikett för det. Du kan använda DITA-standardattributen eller dina egna anpassade attribut. De villkorliga attribut som du definierar på global nivå är tillgängliga för alla användare i alla projekt. Om du har definierat villkorliga attribut på mappnivå sammanfogas de med de globalt definierade villkorliga attributen.
 
 - **Mallar**: Använd den här fliken för att konfigurera mallarna som författarna ska använda för att skapa eller publicera DITA-innehåll. Följande ämnesmallar är tillgängliga:
 
@@ -56,7 +56,7 @@ Med hjälp av panelen Mappprofiler i inställningarna för stödlinjer kan du ko
 
    - Bookmap
 
-- **Utdatainställning**: På samma sätt som mallar finns det fem förkonfigurerade utdatainställningar:
+- **Utdataförinställning**: På samma sätt som mallar finns det fem förkonfigurerade utdataförinställningar:
 
    - AEM
 
@@ -68,9 +68,9 @@ Med hjälp av panelen Mappprofiler i inställningarna för stödlinjer kan du ko
 
    - Egen
 
-  Utgivare kan publicera innehåll med hjälp av de här förinställningarna för färdiga utdata. Dessa förinställningar kan konfigureras av en administratör för den globala profilen eller profilen på mappnivå. När publiceringsförinställningarna har konfigurerats blir de tillgängliga för utgivaren för nya DITA-kartor. Du kan också använda förinställningar för publicering på befintliga DITA-kartor, se [Använda förinställda ändringar](#id18AGD0K0OHS) för mer information.
+  Utgivare kan publicera innehåll med hjälp av de här förinställningarna för färdiga utdata. Dessa förinställningar kan konfigureras av en administratör för den globala profilen eller profilen på mappnivå. När publiceringsförinställningarna har konfigurerats blir de tillgängliga för utgivaren för nya DITA-kartor. Du kan också använda förinställningar för publicering på befintliga DITA-kartor. Mer information finns i [Använda förinställda ändringar](#id18AGD0K0OHS).
 
-- **Konfigurationer för XML-redigeraren**: Använd den här fliken för att anpassa utseendet och de olika funktionerna i Web Editor. Följande konfigurerbara inställningar är tillgängliga för Web Editor:
+- **Konfigurationer för XML-redigeraren**: Använd den här fliken om du vill anpassa utseendet och de olika funktionerna i Web Editor. Följande konfigurerbara inställningar är tillgängliga för Web Editor:
 
    - Användargränssnittskonfiguration för XML-redigerare
    - CSS-mallayout
@@ -90,25 +90,25 @@ Så här konfigurerar du den globala profilen:
 
 1. Logga in i Adobe Experience Manager som administratör.
 
-1. Klicka på länken Adobe Experience Manager överst och välj **verktyg**.
+1. Klicka på länken Adobe Experience Manager överst och välj **Verktyg**.
 
-1. Välj **Stödlinjer** i listan med verktyg och klicka på **Mappprofiler**.
+1. Välj **Stödlinjer** i listan över verktyg och klicka på **Mappprofiler**.
 
    För första gången visas sidan Mappprofiler med endast rutan Global profil.
 
    ![](assets/folder-profile-global.png){width="800" align="left"}
 
-1. Klicka på **Global profil** platta.
+1. Klicka på rutan **Global profil**.
 
-1. Konfigurera **Villkorliga attribut**, se [Konfigurera villkorliga attribut för globala profiler eller profiler på mappnivå](#id1889D0I305Z).
+1. Mer information om hur du konfigurerar **villkorliga attribut** finns i [Konfigurera villkorliga attribut för globala profiler och profiler på mappnivå](#id1889D0I305Z).
 
-1. Konfigurera **Mallar**, se [Konfigurera redigeringsmallar](#id1889D0IL0Y4).
+1. Mer information om hur du konfigurerar **mallar** finns i [Konfigurera redigeringsmallar](#id1889D0IL0Y4).
 
-1. Konfigurera **Förinställningar för utdata**, se [Konfigurera förinställningar för utdata](#id18AGD0IH0Y4).
+1. Mer information om hur du konfigurerar **Utdataförinställningar** finns i [Konfigurera förinställningar för utdata](#id18AGD0IH0Y4).
 
-1. Information om hur du konfigurerar XML-redigeraren finns i [Konfigurera och anpassa XML Web Editor](#id2065G300O5Z).
+1. Information om hur du konfigurerar XML-redigerarkonfigurationen finns i [Konfigurera och anpassa XML-webbredigeraren](#id2065G300O5Z).
 
-1. När du har gjort alla nödvändiga uppdateringar sparar och stänger du **Global profil**.
+1. När du har gjort alla nödvändiga uppdateringar sparar och stänger du den **globala profilen**.
 
 
 ## Skapa och konfigurera en mappnivåprofil
@@ -117,17 +117,17 @@ Så här konfigurerar du en profil på mappnivå:
 
 1. Logga in i Adobe Experience Manager som administratör.
 
-1. Klicka på länken Adobe Experience Manager överst och välj **verktyg**.
+1. Klicka på länken Adobe Experience Manager överst och välj **Verktyg**.
 
-1. Välj **Stödlinjer** i listan med verktyg och klicka på **Mappprofiler** platta.
+1. Välj **Stödlinjer** i listan med verktyg och klicka på rutan **Mappprofiler** .
 
    För första gången visas sidan Mappprofiler endast med standardrutan Global profil.
 
-1. Klicka **Skapa**.
+1. Klicka på **Skapa**.
 
    ![](assets/create-folder-profile.png){width="300" align="left"}
 
-1. Ange följande information i dialogrutan **Skapa mappprofil** dialog:
+1. Ange följande information i dialogrutan **Skapa mappprofil**:
    - Namn på mappprofilen.
    - Sökväg till mappen där profilen ska användas.
 
@@ -135,7 +135,7 @@ Så här konfigurerar du en profil på mappnivå:
      >
      > Du kan inte använda flera mappprofiler på en mapp. Se till att mappen som du väljer här inte har någon annan profil. Om en överordnad-underordnad mapp har sina egna specifika profiler, kommer den underordnade mappen att använda konfigurationerna från sin egen profil. Konfigurationerna från den överordnade mappen åsidosätter inte konfigurationerna för en underordnad mapp.
 
-1. Klicka **Skapa**.
+1. Klicka på **Skapa**.
 
    En ny platta med namnet på mappprofilen skapas på sidan Mappprofiler
 
@@ -143,7 +143,7 @@ Så här konfigurerar du en profil på mappnivå:
 
    En allmän flik med mappprofilens namn och konfigurerad mappinformation visas.
 
-1. Klicka **Redigera** om du vill lägga till flera mappar och användare som har administratörsbehörighet för att ändra mappprofilen.
+1. Klicka på **Redigera** om du vill lägga till flera mappar och användare som har administratörsbehörighet för att ändra mappprofilen.
 
    >[!NOTE]
    >
@@ -155,7 +155,7 @@ Så här konfigurerar du en profil på mappnivå:
    >
    > Se till att mappen som du väljer här inte har någon annan mappnivåprofil kopplad till sig.
 
-1. Om du vill lägga till en användare väljer du en användare på menyn **Administratörer** listruta och klicka **Lägg till**.
+1. Om du vill lägga till en användare väljer du en användare i listrutan **Administratörsanvändare** och klickar på **Lägg till**.
 
    >[!NOTE]
    >
@@ -176,9 +176,9 @@ Utför följande steg för att konfigurera villkorliga attribut som stöds av DI
 
 1. Logga in på Adobe Experience Manager som administratör eller som användare med administratörsbehörighet för en mappnivåprofil.
 
-1. Klicka på länken Adobe Experience Manager överst och välj **verktyg**.
+1. Klicka på länken Adobe Experience Manager överst och välj **Verktyg**.
 
-1. Välj **Stödlinjer** i listan med verktyg och klicka på **Mappprofiler** platta.
+1. Välj **Stödlinjer** i listan med verktyg och klicka på rutan **Mappprofiler** .
 
 1. Klicka på den profilruta som du vill konfigurera.
 
@@ -186,25 +186,25 @@ Utför följande steg för att konfigurera villkorliga attribut som stöds av DI
    >
    > Du kan välja att konfigurera villkorliga attribut i den globala profilen eller en profil på mappnivå.
 
-1. På profilsidan klickar du på **Villkorliga attribut** -fliken.
+1. Klicka på fliken **Villkorliga attribut** på profilsidan.
 
-1. Klicka **Redigera**.
+1. Klicka på **Redigera**.
 
-1. Klicka **Lägg till**.
+1. Klicka på **Lägg till**.
 
-1. Ange **Namn**, **Värde** och en **Etikett** för villkorsattributet.
+1. Ange **Namn**, **Värde** och **Etikett** för villkorsattributet.
 
    Du kan spara en profil med endast attributnamnet. Ett attribut kan dock bara användas när det har ett angivet värde. Om du anger både värde och etikett för ett attribut visas etiketten för villkorsattributet i Web Editor. Etiketten visas också för publiceringsadministratören när en villkorlig förinställning skapas.
 
-   På följande skärmbild visas definitionen för `platform` attribut med möjliga värden och etiketter.
+   I följande skärmbild visas definitionen för attributet `platform` med möjliga värden och etiketter.
 
    ![](assets/add_profile.png)
 
-1. Om du vill lägga till fler värden för samma attribut klickar du på **+** och ange ytterligare värde och etikett.
+1. Om du vill lägga till fler värden för samma attribut klickar du på ikonen **+** och anger ytterligare värde och etikett.
 
 1. Om du vill lägga till fler attribut klickar du på **Lägg till**.
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.
 
 
 Om du använder ett anpassat attribut måste det vara ett giltigt DITA-attribut som stöds av DTD:n. Om du vill använda ett attribut, som inte är ett standard-DITA-attribut, utför du följande ytterligare steg:
@@ -215,11 +215,11 @@ Om du använder ett anpassat attribut måste det vara ett giltigt DITA-attribut 
 
    >[!IMPORTANT]
    >
-   > Den specialiserade DTD-filen bör ingå i den anpassade koddistributionen. DTD-filer under /apps ingår i produktdistributionen och skrivs därför över med installation av nya releaser. Vi rekommenderar att du lägger till en särskild DTD-fil under /var/dxml/dita\_resources i projektmappen och inkluderar sökvägen DTD/catalog i DITA-profilen. Mer information finns i [Integrera DITA-specialisering](dita-ot-specialization.md#id211MB0E00XA).
+   > Den specialiserade DTD-filen bör ingå i den anpassade koddistributionen. DTD-filer under /apps ingår i produktdistributionen och skrivs därför över med installation av nya releaser. Vi rekommenderar att du lägger till en särskild DTD-fil under /var/dxml/dita\_resources i projektmappen och inkluderar DTD-/katalogsökvägen i DITA-profilen. Mer information finns i [Integrera DITA-specialisering](dita-ot-specialization.md#id211MB0E00XA).
 
 1. Använd Package Manager för att hämta /libs/fmdita/config/condAttrList.xml:
 
-1. Skapa en kopia av filen condAttrList.xml på följande plats i din Cloud Managers Git-databas:
+1. Skapa en kopia av filen condAttrList.xml på följande plats i Cloud Manager Git-databasen:
 
    `/apps/fmdfmdita/config/condAttrList.xml`
 
@@ -230,17 +230,17 @@ Om du använder ett anpassat attribut måste det vara ett giltigt DITA-attribut 
 
 ## Konfigurera mallar {#id1889D0IL0Y4}
 
-AEM Guides innehåller 7 användningsklara ämnesmallar, 2 DITA-kartmallar och 3 PDF-mallar. Du kan välja att endast ha ett fåtal mallar tillgängliga för författare och utgivare. Om du använder en anpassad mall kan samma mall konfigureras och göras tillgänglig för redigering och publicering. Du använder **Mallar** i mappprofilskonfigurationen om du vill lägga till eller ta bort ämne-, map- eller PDF-mallar från globala profiler eller mappnivåprofiler.
+AEM Guides innehåller 7 färdiga ämnesmallar, 2 DITA-mallar och 3 PDF-mallar. Du kan välja att endast ha ett fåtal mallar tillgängliga för författare och utgivare. Om du använder en anpassad mall kan samma mall konfigureras och göras tillgänglig för redigering och publicering. Använd fliken **Mallar** i konfigurationen för mappprofiler om du vill lägga till eller ta bort teman, mappningar eller PDF-mallar från globala profiler eller mappnivåprofiler.
 
-Även innan du konfigurerar mallar för avsnitt, kartor eller PDF på global nivå eller på mappnivå kan du definiera en plats där du kan lagra dina anpassade mallar. Information om hur du konfigurerar en anpassad plats för lagring av mallar finns i [Konfigurera anpassad sökväg till DITA-mallmapp](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z).
+Även innan du konfigurerar mallar för avsnitt, kartor eller PDF på global nivå eller på mappnivå kan du definiera en plats där du kan lagra dina anpassade mallar. Mer information om hur du konfigurerar en anpassad plats att lagra mallarna på finns i [Konfigurera en anpassad DITA-mallmappsökväg](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z).
 
 Utför följande steg för att lägga till mallar för avsnitt, kartor eller PDF i en mappprofil:
 
 1. Logga in på Adobe Experience Manager som administratör eller som användare med administratörsbehörighet för en mappnivåprofil.
 
-1. Klicka på länken Adobe Experience Manager överst och välj **verktyg**.
+1. Klicka på länken Adobe Experience Manager överst och välj **Verktyg**.
 
-1. Välj **Stödlinjer** i listan med verktyg och klicka på **Mappprofiler** platta.
+1. Välj **Stödlinjer** i listan med verktyg och klicka på rutan **Mappprofiler** .
 
 1. Klicka på den profilruta som du vill konfigurera.
 
@@ -248,14 +248,14 @@ Utför följande steg för att lägga till mallar för avsnitt, kartor eller PDF
    >
    > Du kan välja att konfigurera en mall i den globala profilen eller en profil på mappnivå.
 
-1. På profilsidan klickar du på **Mallar** -fliken.
-1. Klicka **Redigera**.
+1. Klicka på fliken **Mallar** på profilsidan.
+1. Klicka på **Redigera**.
 
    Du kan lägga till mallar för ämnen, kartor och PDF genom att söka på standardplatsen eller söka efter den.
 
    >[!NOTE]
    >
-   > Som standard lagras alla mallar i mappen /content/dam/dita-templates. The `dita-templates` mappen innehåller `topics`, `maps`och `PDF` undermappar för att lagra teman, kartor och mallar i PDF. Du kan lägga till dina egna mallar \(.dita,.xml eller .ditamapfiles\) i standardmallmapparna. När du har lagt till mallen i standardmappen kan du lägga till dem i den globala profilen eller mappprofilen. Mer information om hur du skapar egna mallar med Web Editor finns i [Skapa en anpassad redigeringsmall](#id1917D0EG0HJ).
+   > Som standard lagras alla mallar i mappen /content/dam/dita-templates. Mappen `dita-templates` innehåller undermapparna `topics`, `maps` och `PDF` för att lagra teman, kartor och PDF-mallar. Du kan lägga till dina egna mallar \(.dita,.xml eller .ditamapfiles\) i standardmallmapparna. När du har lagt till mallen i standardmappen kan du lägga till dem i den globala profilen eller mappprofilen. Mer information om hur du skapar egna mallar med Web Editor finns i [Skapa anpassad redigeringsmall](#id1917D0EG0HJ).
 
    ![](assets/search-author-temp.png){width="800" align="left"}
 
@@ -263,13 +263,13 @@ Utför följande steg för att lägga till mallar för avsnitt, kartor eller PDF
 
    Gör något av följande om du vill lägga till en mall:
 
-   - Välj **Sök eller typ** och ange eller markera namnet på en mall i listrutan. Listrutan består av alla standardmallar och alla nya mallar som du har skapat.
+   - Välj **Sök eller Typ** och ange eller välj namnet på en mall i listrutan. Listrutan består av alla standardmallar och alla nya mallar som du har skapat.
 
      ![](assets/default-template-list.png){width="800" align="left"}
 
-   - Klicka **Bläddra** och välj en mall från DAM.
+   - Klicka på **Bläddra** och välj en mall från DAM.
 
-1. Klicka **Lägg till**.
+1. Klicka på **Lägg till**.
 
    De valda mallarna läggs till i malllistan.
 
@@ -281,30 +281,30 @@ Utför följande steg för att lägga till mallar för avsnitt, kartor eller PDF
 
 1. Om du vill ange översättningsreglerna bläddrar du till SRX-platsen för att hitta mappen som innehåller SRX-filerna. SRX-formatet \(Segmenteringsregler eXchange\) är en standard för utbyte av segmenteringsregler mellan olika användare och olika översättningsmiljöer. Du kan skapa en mapp och lägga till dina anpassade SRX-filer i den.
 
-   När du har skapat mappen som innehåller SRX-filerna kan du lägga till mappsökvägen i **SRX-plats för översättning**-konfigurationen i din mappprofil.
+   När du har skapat mappen som innehåller SRX-filerna kan du lägga till mappsökvägen i konfigurationen **Translation SRX location** i mappprofilen.
 
    AEM Guides väljer SRX-reglerna enligt översättningsprojektets källspråk. Den söker efter en anpassad SRX-fil för ett språk, och om du inte definierar en anpassad SRX-fil väljs reglerna enligt reglerna för översättning utanför rutan.
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.
 
 
 Om du har konfigurerat mallarna för en mappnivåprofil kopplas de konfigurerade mallarna till den konfigurerade mappen. Alla projekt som skapas i den konfigurerade mappen har endast åtkomst till de mallar som är konfigurerade under profilen på mappnivå.
 
 ## Skapa en anpassad redigeringsmall {#id1917D0EG0HJ}
 
-AEM Guides är ett enkelt sätt att skapa redigeringsmallar. Som systemadministratör kan du använda webbredigeraren för att skapa redigeringsmallar från grunden. Du kan sedan lägga till den nya mallen i den globala profilen eller tilldela den till en viss mapp med den mappspecifika profilen.
+AEM Guides är ett enkelt sätt att skapa mallar. Som systemadministratör kan du använda webbredigeraren för att skapa redigeringsmallar från grunden. Du kan sedan lägga till den nya mallen i den globala profilen eller tilldela den till en viss mapp med den mappspecifika profilen.
 
 Så här skapar du en anpassad redigeringsmall:
 
 1. Logga in i Adobe Experience Manager som administratör.
 
-1. I resursgränssnittet navigerar du till den mapp som konfigurerats för att lagra mallfilerna. Som standard lagras alla ämnesmallar i mappen /content/dam/dita-templates/topics.
+1. I Assets-gränssnittet navigerar du till den mapp som konfigurerats för att lagra mallfilerna. Som standard lagras alla ämnesmallar i mappen /content/dam/dita-templates/topics.
 
    >[!NOTE]
    >
-   > Information om hur du konfigurerar en anpassad plats för lagring av ämne- eller mappmallar finns i [Konfigurera anpassad sökväg till DITA-mallmapp](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z)
+   > Information om hur du konfigurerar en anpassad plats för att lagra ämne- eller mappmallar finns i [Konfigurera anpassad DITA-mallmappsökväg](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z)
 
-1. Klicka **Skapa** \> **DITA-mall**.
+1. Klicka på **Skapa** \> **DITA-mall**.
 
 1. På sidan Design väljer du den typ av DITA-ämnesmall som du vill skapa.
 
@@ -314,15 +314,15 @@ Så här skapar du en anpassad redigeringsmall:
 
 1. Klicka på **Nästa**.
 
-1. På den nya mallsidan Egenskaper anger du en **Titel**, **Namn** och **Beskrivning** för mallen.
+1. På den nya mallegenskapssidan anger du en **rubrik**, **namn** och **beskrivning** för mallen.
 
    >[!NOTE]
    >
    > Namnet föreslås automatiskt baserat på mallens rubrik. Om du vill ange namnet manuellt kontrollerar du att namnet inte innehåller blanksteg, apostrof eller klammerparenteser och slutar med .dita.
 
-1. *\(Valfritt\)* Klicka på **Lägga till en miniatyrbild** om du vill bläddra efter och välja en miniatyrbild som du vill associera med mallen.
+1. *\(Valfritt\)* Klicka på knappen **Lägg till en miniatyrbild** i webbläsaren för att markera en miniatyrbild som du vill associera med mallen.
 
-1. Klicka **Skapa**.
+1. Klicka på **Skapa**.
 
    Meddelandet Ämnet har skapats visas.
 
@@ -337,15 +337,15 @@ Med AEM Guides kan administratören skapa förinställningar för utdata med spe
 
 När standardförinställningarna för utdata har skapats i systemet kommer alla DITA-scheman som skapas därefter att använda standardförinställningarna för att generera utdata. Alla befintliga DITA-kartor kommer dock att fortsätta använda de förinställningar som tidigare konfigurerats med dem. Om du vill använda den nya förinställningen på alla befintliga DITA-kartor måste du köra arbetsflödet Använd förinställda ändringar.
 
-Förutom förinställningarna som konfigurerats på global nivå eller företagsnivå har utgivaren fortfarande behörighet att skapa fler förinställningar. Dessa förinställningar är dock kopplade till den DITA-karta som de skapas för. Mer information om hur du skapar förinställningar för vanliga utdata för en DITA-karta finns i *Skapa, redigera, duplicera eller ta bort en förinställning för utdata* i den as a Cloud Service guiden Använda Adobe Experience Manager-stödlinjer.
+Förutom förinställningarna som konfigurerats på global nivå eller företagsnivå har utgivaren fortfarande behörighet att skapa fler förinställningar. Dessa förinställningar är dock kopplade till den DITA-karta som de skapas för. Mer information om hur du skapar förinställningar för vanliga utdata för en DITA-karta finns i *Skapa, redigera, duplicera eller ta bort en förinställning för utdata* i as a Cloud Service Använda Adobe Experience Manager Guides.
 
 Utför följande steg för att konfigurera globala eller mappspecifika förinställningar för utdata:
 
 1. Logga in på Adobe Experience Manager som administratör eller som användare med administratörsbehörighet för en mappspecifik profil.
 
-1. Klicka på länken Adobe Experience Manager överst och välj **verktyg**.
+1. Klicka på länken Adobe Experience Manager överst och välj **Verktyg**.
 
-1. Välj **Stödlinjer** i listan med verktyg och klicka på **Mappprofiler** platta.
+1. Välj **Stödlinjer** i listan med verktyg och klicka på rutan **Mappprofiler** .
 
 1. Klicka på den profilruta som du vill konfigurera.
 
@@ -353,20 +353,20 @@ Utför följande steg för att konfigurera globala eller mappspecifika förinst�
    >
    > Du kan välja att konfigurera förinställningar för utdata i den globala profilen eller en mappspecifik profil.
 
-1. På profilsidan. klicka på **Förinställningar för utdata** -fliken.
+1. På profilsidan. klicka på fliken **Utdatainställningar**.
 
    En lista med färdiga förinställningar visas, som AEM Site, PDF, HTML 5, EPUB och CUSTOM.
 
 1. Gör något av följande om du vill skapa eller redigera en förinställning för utdata:
 
-   - Klicka **Skapa** om du vill skapa en ny förinställning från grunden.
+   - Klicka på **Skapa** om du vill skapa en ny förinställning från början.
    - Klicka på Duplicera om du vill skapa en kopia av den markerade förinställningen. Du kan ändra den duplicerade förinställningen och spara den.
 
-   - Klicka **Redigera** för att öppna den markerade förinställningens konfiguration för redigering.
+   - Klicka på **Redigera** för att öppna den markerade förinställningens konfiguration för redigering.
 
-     Mer information om förinställda utdatainställningar finns i *Förinställningar för utdata* i den as a Cloud Service guiden Använda Adobe Experience Manager-stödlinjer.
+     Mer information om inställningar för förinställningar för utdata finns i *Om förinställningar för utdata* i guiden Använda Adobe Experience Manager Guides as a Cloud Service.
 
-1. Klicka **Spara** om du vill spara förinställningarna.
+1. Klicka på **Spara** om du vill spara förinställningarna.
 
 
 Alla DITA-kartor som skapas eller överförs efter detta har den nya eller uppdaterade förinställningen.
@@ -379,9 +379,9 @@ Om du har uppdaterat en befintlig förinställning eller vill göra en ny förin
 
 1. Logga in på Adobe Experience Manager som administratör eller som användare med administratörsbehörighet för en mappspecifik profil.
 
-1. Klicka på länken Adobe Experience Manager överst och välj **verktyg**.
+1. Klicka på länken Adobe Experience Manager överst och välj **Verktyg**.
 
-1. Välj **Stödlinjer** i listan med verktyg och klicka på **Mappprofiler** platta.
+1. Välj **Stödlinjer** i listan med verktyg och klicka på rutan **Mappprofiler** .
 
 1. Klicka på den profilruta som du vill konfigurera.
 
@@ -389,59 +389,59 @@ Om du har uppdaterat en befintlig förinställning eller vill göra en ny förin
    >
    > Du kan välja att konfigurera förinställningar för utdata i den globala profilen eller en mappspecifik profil.
 
-1. På profilsidan. klicka på **Förinställningar för utdata** -fliken.
+1. På profilsidan. klicka på fliken **Utdatainställningar**.
 
    En lista med färdiga förinställningar visas, som AEM Site, PDF, HTML 5, EPUB och CUSTOM.
 
 1. Välj den förinställning för utdata som du vill använda på befintliga DITA-kartor.
 
-1. Klicka **Använd förinställda ändringar** i huvudverktygsfältet.
+1. Klicka på **Använd förinställda ändringar** i huvudverktygsfältet.
 
 1. I dialogrutan Använd förinställda ändringar kan du välja mellan:
 
-   - **Markera alternativet Skriv över befintlig förinställning**: Om du väljer det här alternativet skrivs alla uppdateringar som du har gjort i de befintliga förinställningarna över inställningarna i alla befintliga DITA-mappningar där den förinställningen används. Om du gör det förlorar du alla befintliga villkorsstyrda förinställningar och baslinjeinformation som är kopplade till kartan.
+   - **Om du väljer alternativet Skriv över befintlig förinställning**: Om du väljer det här alternativet skrivs alla uppdateringar som du har gjort i de befintliga förinställningarna över inställningarna i alla befintliga DITA-mappar där den förinställningen används. Om du gör det förlorar du alla befintliga villkorsstyrda förinställningar och baslinjeinformation som är kopplade till kartan.
 
-   - **Markera inte alternativet Skriv över befintlig förinställning**: Om du inte markerar det här alternativet kommer uppdateringar som du har gjort i de befintliga förinställningarna inte att påverka befintliga DITA-kartor. Endast de nya förinställningarna läggs till i befintliga DITA-kartor. Observera att den nya DITA-kartan får båda, de uppdaterade förinställningarna och de nya förinställningarna.
+   - **Det går inte att välja alternativet Skriv över befintlig förinställning**: Om du inte markerar det här alternativet kommer uppdateringar som du har gjort i de befintliga förinställningarna inte att påverka befintliga DITA-kartor. Endast de nya förinställningarna läggs till i befintliga DITA-kartor. Observera att den nya DITA-kartan får båda, de uppdaterade förinställningarna och de nya förinställningarna.
 
-1. Klicka **OK** om du vill använda ändringar från de valda förinställningarna på alla befintliga DITA-kartor.
+1. Klicka på **OK** om du vill använda ändringarna från de valda förinställningarna på alla befintliga DITA-kartor.
 
 
 
 ## Konfigurera AI-baserade smarta förslag i Web Editor {#conf-ai-smart-suggestions}
 
-För ![AEM moln ](assets/aem-cloud-icon.svg) as a Cloud Service om stödlinjer för Experience Manager.
+För ![AEM molnet ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service.
 
-Du kan konfigurera de AI-baserade smarta förslagen och hjälpa författarna att återanvända det befintliga innehållet och enkelt skapa korrekta och konsekventa innehållsreferenser. The **AI-konfiguration** kan du styra inställningarna för panelen Smarta förslag i Web Editor.
+Du kan konfigurera de AI-baserade smarta förslagen och hjälpa författarna att återanvända det befintliga innehållet och enkelt skapa korrekta och konsekventa innehållsreferenser. På fliken **AI-konfiguration** kan du styra inställningarna för panelen Smarta förslag i webbredigeraren.
 
 Utför följande steg för att konfigurera AI-standardkonfigurationen på global nivå eller på mappnivå:
 1. Logga in i Adobe Experience Manager som administratör eller användare med administratörsbehörighet för en mappnivåprofil.
-1. Välj **Adobe Experience Manager** överst och välj **verktyg**.
-1. Välj **Stödlinjer** i listan över verktyg och välj **Mappprofiler** platta.
+1. Markera länken **Adobe Experience Manager** överst och välj **Verktyg**.
+1. Välj **Stödlinjer** i listan med verktyg och välj **Mappprofiler**.
 1. Markera profilrutan som du vill konfigurera.
 
    >[!NOTE]
    >
    >Du kan konfigurera AI-baserade smarta förslag till den globala profilen eller en profil på mappnivå.
 
-1. På profilsidan väljer du **AI-konfiguration** -fliken.
+1. Välj fliken **AI-konfiguration** på profilsidan.
    ![Konfigurationsfliken för AI i den globala profilen](assets/global-profile-AI-configuration-cs.png) {width="800" align="left"}
 
-1. Klicka **Redigera**.
+1. Klicka på **Redigera**.
 1. Som administratör kan du konfigurera följande inställningar:
 
    **Minsta antal tecken**: Ange det minsta antal tecken som författarna måste ange för att få förslag. Om talet till exempel är 7 måste författaren lägga till minst 7 tecken för att kunna visa ett smart förslag.
 
    **Maximalt antal förslag**: Ange maximalt antal förslag som författarna kan få när de redigerar innehållet. Om talet till exempel är 5 kan författaren visa fem eller färre smarta förslag.
 
-   **Filer och mappar**: Välj de filer eller mappar som de smarta förslagen ska visas från. *För att innehållet ska bli konsekvent rekommenderar vi att inga två poster i listan har gemensamma filer mellan dem*. När du har valt filer och mappar visas de.
+   **Filer och mappar**: Markera de filer eller mappar som smarta förslag ska visas från. *För att innehållet ska bli konsekvent rekommenderar vi att det inte finns två poster i listan som har gemensamma filer mellan dem*. När du har valt filer och mappar visas de.
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.
 
    >[!NOTE]
    >
    > Den senaste indexerade statusinformationen visas högst upp när du har sparat filen.
 
-Läs mer om hur du visar och lägger till [AI-baserade smarta förslag](../user-guide/authoring-ai-based-smart-suggestions.md) om du vill lägga till innehållsreferenser vid redigering i Web Editor.
+Läs mer om hur du visar och lägger till [AI-baserade smarta förslag](../user-guide/authoring-ai-based-smart-suggestions.md) för att lägga till innehållsreferenser vid redigering i webbredigeraren.
 
 
 
@@ -498,7 +498,7 @@ Learn more about using the [AI-powered Guides assistant](../user-guide/ai-based-
 
 Som standard har XML-webbredigeraren många funktioner som hjälper dina författare att skapa DITA-dokument. Om du arbetar i en begränsande miljö kan du välja vilka funktioner som ska visas för författarna. På fliken Konfiguration i XML-redigeraren kan du enkelt styra funktionerna och även ändra utseendet på Web Editor. Som administratör kan du anpassa följande komponenter i Web Editor:
 
-**Användargränssnittskonfiguration för XML-redigerare**
+**Konfiguration av användargränssnitt i XML-redigeraren**
 
 Den här inställningen styr verktygsfältet och andra element i användargränssnittet i Web Editor. Klicka på ikonen Hämta för att hämta filen ui\_config.json på din lokala dator. Du kan sedan ändra filen och överföra den på samma sätt. Beroende på var du överför filen på, global nivå eller mappnivå tillämpas ändringarna därefter. Mer information om hur du anpassar XML-redigeraren med filen ui\_config.json finns i [Anpassa verktygsfältet](conf-web-editor-customize-toolbar.md#).
 
@@ -528,13 +528,17 @@ Med hjälp av konfigurationsfilen i det här avsnittet kan du skapa vissa standa
 
 Följande information krävs för att skapa ett fragment:
 
-snippetID : Ett unikt ID för fragmentet. Det kan ta ett alfanumeriskt värde.
+snippetID
+:   Ett unikt ID för fragmentet. Det kan ta ett alfanumeriskt värde.
 
-name : Ett beskrivande namn som identifierar fragmentet. Namnet visas på fragmentpanelen.
+name
+:   Ett beskrivande namn som identifierar fragmentet. Namnet visas på fragmentpanelen.
 
-description : Lägg till en beskrivande information för fragmentet.
+description
+:   Lägg till en beskrivande information för fragmentet.
 
-value : Ange XML-koden för fragmentet.
+value
+:   Ange XML-koden för fragmentet.
 
 >[!NOTE]
 >
