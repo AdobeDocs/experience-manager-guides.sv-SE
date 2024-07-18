@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Läs produktdokumentationen för Adobe Experience Manager Guides.
 breadcrumb-title: Dokumentation om AEM Guides
-source-git-commit: 05a21c8b18d5eb79447423d48e1d65b4d6b44242
+source-git-commit: d16d9915b826a754f834ad82f413e860c2da12d2
 workflow-type: tm+mt
-source-wordcount: '1819'
+source-wordcount: '1824'
 ht-degree: 2%
 
 ---
@@ -403,7 +403,7 @@ ht-degree: 2%
    - [Java-baserade API:er som fungerar med baslinje och etiketter](./api-reference/create-baseline-label-java.md)
    - [Java-baserat API för att arbeta med mappprofiler](./api-reference/folder-profile-java.md)
    - [Java-baserat API för att skapa och aktivera paket](./api-reference/create-activate-package-java.md)
-   - [Händelsehanterare för Post-bearbetning](./api-reference/post-process-event.md)
+   - [Händelsehanterare efter bearbetning](./api-reference/post-process-event.md)
    - [Händelsehanterare för slutförd gruppaktivering](./api-reference/bulk-activation-complete-event.md)
    - [Händelsehanterare för konverteringsprocess](./api-reference/conversion-complete-event.md)
 - Knowledge Base {#knowledge-base}
@@ -459,9 +459,12 @@ ht-degree: 2%
             - [Enkel anpassning](./guides-ui-extensions/customisations/add-button.md)
             - [Anpassa snabbmenyer](./guides-ui-extensions/customisations/context-menus.md)
             - [Anpassa verktygsfältet och verktygsfältet](./guides-ui-extensions/customisations/toolbar-topbar.md)
+            - [Exempel](./guides-ui-extensions/examples.md)
+            - [Anpassningsbara Json](./guides-ui-extensions/JSONs.md)
             - Granska {#review-app-customisations}
                - [Komponenter](./guides-ui-extensions/customisations/ReviewApp/components.md)
                - [Anpassa](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
+               - [Egen dialogruta](./guides-ui-extensions/customisations/ReviewApp/custom-dialog.md)
       - Publicerar {#publishing}
 
          - [Configuring AEM Environment for Native PDF Publishing](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
@@ -477,7 +480,7 @@ ht-degree: 2%
          - [Konfigurera en anpassad DITA-OT](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
 
       - Arbetsflöden {#workflows}
-         - [Post Generation Workflow](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
+         - [Arbetsflöde efter generering](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
       - Översättning {#translation}
          - [Exkludera stycken från översättning](./knowledge-base/kb-articles/translation/exclude-paragraphs-from-translation.md)
       - Användningsexempel {#use-cases}

@@ -3,7 +3,7 @@ title: Anpassa
 description: Anpassa granskningsappen
 role: User, Admin
 exl-id: 9f6a4e9f-fc13-40b5-a30f-151c94faff81
-source-git-commit: 4f00d6b7ad45636618bafe92e643b3e288ec2643
+source-git-commit: 492f72768e0de74a91eb7acc9db8264e21bfc810
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 0%
@@ -17,7 +17,7 @@ För att göra det enklare att anpassa granskningsappen har vi tagit fram några
 ## Review-Comment
 
 - id: `review_comment`
-- krok: `this.updateExtraProps`:
+- krok: `this.next('updateExtraProps')`:
 
 Som nämndes [här](../../aem_guides_framework/basic-customisation.md) hamnar alla nya attribut som läggs till under anpassningen under `this.model.extraProps`. Med metoden `updateExtraProps` kan du lägga till attribut i en granskningskommentar och även hantera uppdateringen och lagringen av det tillagda attributet på servern.
 
@@ -80,8 +80,20 @@ Anta att vi vill skicka en extraProp, `userInfo`, varje gång en ny kommentar el
 I ovanstående kodfragment kontrollerar vi om den skickade händelsen var en ny kommentar eller ett nytt svar. Om det finns en ny kommentar eller ett nytt svar anropar vi metoden `setUserInfo`
 
 ```typescript
+    const getUserInfo = (userId) => {
+      return $.ajax({
+        url: '/bin/dxml/xmleditor/userinfo',
+        data: {
+          username: userId,
+        },
+        success: (data) => {
+          return data
+        }
+      })
+    }
+
     setUserInfo(event) {
-      this.loader?.getUserInfo(event.user).subscribe(userData => {
+      getUserInfo(event.user).done(userData => {
         const extraProps = {
           "userFirstName": userData?.givenName || '',
           "userLastName": userData?.familyName || '',
