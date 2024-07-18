@@ -5,7 +5,7 @@ exl-id: 0e2ba1bb-f5bf-44da-848a-a55385460c83
 feature: Java-Based API Baseline
 role: Developer
 level: Experienced
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 1860525120edc4df33b898841b9073311d3031c5
 workflow-type: tm+mt
 source-wordcount: '890'
 ht-degree: 0%
@@ -54,14 +54,15 @@ throws GuidesApiException
 ```
 
 **Parametrar**:
-|Namn|Typ|Beskrivning|
-|—|—|—|
-|`session`|javax.jcr.Session|En giltig JCR-session. Användarsessionen måste ha både läs- och skrivbehörighet för DITA-kartan och läsbehörighet för alla referensfiler som ingår i baslinjen.|
-|`sourcePath`|Sträng|Absolut sökväg för DITA-mappningsfilen i AEM.|
-|`baselineTitle`|Sträng|En unik rubrik för baslinjen.|
-|`label`|Sträng|Välj den version av ett ämne som har den angivna etiketten.|
-|`directContext`|LinkedHashMap&lt;String, Object\>|Konfigurationerna som direkt refererade till ämnet \(content\) väljs utifrån, följs ordningen som anges i kartan för att matcha en version. <br> Om det inte går att hitta någon version efter upprepning på alla nycklar för kartan misslyckas skapandet av baslinjen. <br> Om HashMap är tom \(skicka tom och inte null-mappning för standard\) fylls den som standard i som: <br>`directContext.put("label", label);` <br> `directContext.put("latest", true);` <br> Om du vill att baslinjen bara ska välja version av en viss etikett och misslyckas om det inte finns någon sådan version, placerar du `label`-tangenten och den etikett som du vill skapa baslinjen på.|
-|`indirectContext`|LinkedHashMap&lt;String, Object\>|De konfigurationer som indirekt refererar till ämnet \(refererat innehåll\) väljs utifrån, följs ordningen som anges i kartan för att matcha en version. <br> Om det inte går att hitta någon version efter upprepning på alla nycklar för kartan misslyckas skapandet av baslinjen. <br> Om HashMap är tom \(skicka tom och inte null-mappning för standard\) fylls den som standard i som: <br>`indirectContext.put("label", label);` <br>`indirectContext.put "pickAutomatically", null);` <br> Om du vill att den ska vara den senaste versionen i stället för att hämta en version automatiskt, ersätter du: <br>`indirectContext.put("pickAutomatically", null);` <br> _med:_ <br>`indirectContext.put("latest", true)`|
+
+| Namn | Typ | Beskrivning |
+|----|----|-----------|
+| `session` | javax.jcr.Session | En giltig JCR-session. Användarsessionen måste ha både läs- och skrivbehörighet för DITA-kartan och läsbehörighet för alla referensfiler som ingår i baslinjen. |
+| `sourcePath` | Sträng | Absolut sökväg för DITA-mappningsfilen i AEM. |
+| `baselineTitle` | Sträng | En unik rubrik för baslinjen. |
+| `label` | Sträng | Välj den version av ett ämne som har den angivna etiketten. |
+| `directContext` | LinkedHashMap&lt;String, Object\> | De konfigurationer som ligger till grund för valet av det direkt refererade ämnet \(innehåll\) följs den ordning som anges på kartan för att matcha en version. <br> Om det inte går att hitta någon version efter upprepning på alla nycklar för kartan misslyckas skapandet av baslinjen. <br> Om HashMap är tom \(skicka tom och inte null-mappning för standard\) fylls den som standard i som: <br>`directContext.put("label", label);` <br> `directContext.put("latest", true);` <br> Om du vill att baslinjen bara ska välja version av en viss etikett och misslyckas om det inte finns någon sådan version, placerar du `label`-tangenten och den etikett som du vill skapa baslinjen på. |
+| `indirectContext` | LinkedHashMap&lt;String, Object\> | De konfigurationer på grundval av vilka det indirekt refererade ämnet \(refererat innehåll\) väljs följs ordningen som anges på kartan för att matcha en version. <br> Om det inte går att hitta någon version efter upprepning på alla nycklar för kartan misslyckas skapandet av baslinjen. <br> Om HashMap är tom \(skicka tom och inte null-mappning för standard\) fylls den som standard i som: <br>`indirectContext.put("label", label);` <br>`indirectContext.put "pickAutomatically", null);` <br> Om du vill att den ska vara den senaste versionen i stället för att hämta en version automatiskt, ersätter du: <br>`indirectContext.put("pickAutomatically", null);` <br> _med:_ <br>`indirectContext.put("latest", true)` |
 
 **Returnerar**:
 Baslinjens namn, som är nodnamnet för baslinjen i JCR-databasen. Titeln på den nyskapade baslinjen visas för användaren på sidan Baslinje för DITA-kartan.
@@ -80,12 +81,13 @@ Date versionDate) throws GuidesApiException
 ```
 
 **Parametrar**:
-|Namn|Typ|Beskrivning|
-|—|—|—|
-|`session`|javax.jcr.Session|En giltig JCR-session. Användarsessionen måste ha både läs- och skrivbehörighet för DITA-kartan och läsbehörighet för alla referensfiler som ingår i baslinjen.|
-|``sourcePath``|Sträng|Absolut sökväg för DITA-mappningsfilen i AEM.|
-|`baselineTitle`|Sträng|En unik rubrik för baslinjen.|
-|`versionDate`|Datum|Baslinjen skapas med de versioner av ämnen\(som refereras direkt från DITA-kartan\) som på detta datum. Ange datumet i formatet `d-MM-yyyy H:mm`.|
+
+| Namn | Typ | Beskrivning |
+|----|----|-----------|
+| `session` | javax.jcr.Session | En giltig JCR-session. Användarsessionen måste ha både läs- och skrivbehörighet för DITA-kartan och läsbehörighet för alla referensfiler som ingår i baslinjen. |
+| ``sourcePath`` | Sträng | Absolut sökväg för DITA-mappningsfilen i AEM. |
+| `baselineTitle` | Sträng | En unik rubrik för baslinjen. |
+| `versionDate` | Datum | Baslinjen skapas med de olika versionerna av avsnitten\(som refereras direkt från DITA-kartan\) det här datumet. Ange datumet i formatet `d-MM-yyyy H:mm`. |
 
 **Returnerar**:
 Baslinjens namn, som är nodnamnet för baslinjen i JCR-databasen. Titeln på den nyskapade baslinjen visas för användaren på sidan Baslinje för DITA-kartan.
@@ -108,12 +110,13 @@ public static void applyLabel(Session session,
 ```
 
 **Parametrar**:
-|Namn|Typ|Beskrivning|
-|—|—|—|
-|`session`|javax.jcr.Session|En giltig JCR-session.|
-|`sourcePath`|Sträng|Absolut sökväg för DITA-mappningsfilen i AEM.|
-|``baselineName``|Sträng|Namnet på baslinjenoden som etiketten ska användas på. Om du vill hämta namnet på baslinjenoden kan du använda metoden [\#id185NFF0085Z](#id185NFF0085Z) eller kontrollera baslinjenoden för DITA-kartan i CRXDE.<br> **Obs!** Etikett används på filversioner som refereras direkt från kartfilen i baslinjen.|
-|`label`|Sträng|En etikett som används på filer i baslinjen. Kontrollera att etiketten inte innehåller följande tecken: &amp;sol; &amp;komma; &amp;kolon; &amp;komma; komma; &amp;lbrack; &amp;komma; &amp;rbrack; &amp;komma; amp; &amp;vert; &amp;komma; &amp; amp;ast; <br> Om du vill ange flera etiketter ska du separera etiketterna med kommatecken, till exempel etikett 1, Etikett2.|
+
+| Namn | Typ | Beskrivning |
+|----|----|-----------|
+| `session` | javax.jcr.Session | En giltig JCR-session. |
+| `sourcePath` | Sträng | Absolut sökväg för DITA-mappningsfilen i AEM. |
+| ``baselineName`` | Sträng | Namnet på baslinjenoden som etiketten ska tillämpas på. Om du vill hämta namnet på baslinjenoden kan du använda metoden [\#id185NFF0085Z](#id185NFF0085Z) eller kontrollera baslinjenoden för DITA-kartan i CRXDE.<br> **Obs!** Etikett används på filversioner som refereras direkt från kartfilen i baslinjen. |
+| `label` | Sträng | En etikett som används på filer i baslinjen. Kontrollera att etiketten inte innehåller följande tecken: &amp;sol; &amp;komma; &amp;kolon; &amp;komma; komma; &amp;lbrack; &amp;komma; &amp;rbrack; &amp;komma; amp; &amp;vert; &amp;komma; &amp; amp;ast; <br> Om du vill ange flera etiketter ska du separera etiketterna med kommatecken, till exempel etikett 1, Etikett2. |
 
 **Undantag**:
 Utlöser `RepositoryException` .
@@ -133,12 +136,13 @@ String label) throws GuidesApiException
 ```
 
 **Parametrar**:
-|Namn|Typ|Beskrivning|
-|—|—|—|
-|`session`|javax.jcr.Session|En giltig JCR-session.|
-|`sourcePath`|Sträng|Absolut sökväg för DITA-mappningsfilen i AEM.|
-|`baselineName`|Sträng|Namnet på baslinjen som etiketten ska tas bort från. <br> **Obs!** Etikett tas bort från den version av filer som är direkt refererade från kartfilen i baslinjen.|
-|`label`|Sträng|En etikett som ska tas bort från filer i baslinjen. <br> Om du vill ta bort flera etiketter avgränsar du dem med kommatecken, till exempel Label1, Label2.|
+
+| Namn | Typ | Beskrivning |
+|----|----|-----------|
+| `session` | javax.jcr.Session | En giltig JCR-session. |
+| `sourcePath` | Sträng | Absolut sökväg för DITA-mappningsfilen i AEM. |
+| `baselineName` | Sträng | Namnet på baslinjen som etiketten ska tas bort från. <br> **Obs!** Etikett tas bort från den version av filer som är direkt refererade från kartfilen i baslinjen. |
+| `label` | Sträng | En etikett som ska tas bort från filer i baslinjen. <br> Om du vill ta bort flera etiketter avgränsar du dem med kommatecken, till exempel Label1, Label2. |
 
 **Returnerar**:
 Mappningen med *key:value* pair of `path:deletedlabels` för alla filer i baslinjen.
