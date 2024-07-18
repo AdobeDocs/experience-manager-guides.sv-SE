@@ -5,7 +5,7 @@ exl-id: f091782e-ab54-4db4-9018-9bcbff9da7b2
 feature: Rest API Conversion Workflow
 role: Developer
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: bda1af0da134fce53b4a4118278fa1ef2fe34c69
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 0%
@@ -24,13 +24,14 @@ A GET method that converts Word documents to DITA format.
 http://*&lt;aem-guides-server\>*: *&lt;portnummer\>*/bin/fmdita/conversion
 
 **Parametrar**:
-|Namn|Typ|Obligatorisk|Beskrivning|
-|—|—|—|—|
-|``operation``|Sträng|Ja|Namnet på den åtgärd som anropas. Värdet för den här parametern är ``word2dita``. <br> **Obs!** Värdet är inte skiftlägeskänsligt. |
-|`inputFile`|Sträng|Ja|Absolut sökväg för Word-källfilerna i AEM.|
-|`destPath`|Sträng|Ja|Absolut sökväg till målplatsen där de konverterade DITA-filerna ska sparas.|
-|`createRev`|Boolean|Ja|Ange om en version av filerna skapas \( `true`\) vid det angivna målet eller inte \( `false`\). Detta gäller endast när målplatsen innehåller en befintlig version av de konverterade filerna.|
-|`style2tagMap`|Sträng|Ja|Absolut sökväg till den formatmappningsfil som ska användas för konvertering.|
+
+| Namn | Typ | Obligatoriskt | Beskrivning |
+|----|----|--------|-----------|
+| ``operation`` | Sträng | Ja | Namnet på den åtgärd som anropas. Värdet för den här parametern är ``word2dita``. <br> **Obs!** Värdet är inte skiftlägeskänsligt. |
+| `inputFile` | Sträng | Ja | Absolut sökväg för Word-källfilerna i AEM. |
+| `destPath` | Sträng | Ja | Absolut sökväg för målplatsen där de konverterade DITA-filerna ska sparas. |
+| `createRev` | Boolean | Ja | Ange om en revision av filerna skapas \( `true`\) på det angivna målet eller inte \( `false`\). Detta gäller endast när målplatsen innehåller en befintlig version av de konverterade filerna. |
+| `style2tagMap` | Sträng | Ja | Absolut sökväg till den formatmappningsfil som ska användas för konvertering. |
 
 **Svarsvärden**:
 Returnerar ett HTTP 200 \(Slutförd\)-svar.

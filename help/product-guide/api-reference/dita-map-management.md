@@ -5,7 +5,7 @@ exl-id: 6277e52d-1b05-4dd7-8d2b-4b94f329e2d7
 feature: Rest API DITA Map
 role: Developer
 level: Experienced
-source-git-commit: 7c529e98334999cf2b5e9ee18a27278d24318437
+source-git-commit: d0196ffbe5a779445d627871c2940f7eea40f1ce
 workflow-type: tm+mt
 source-wordcount: '611'
 ht-degree: 0%
@@ -24,10 +24,11 @@ En GET-metod som laddar ned en DITA-karta med alla dess beroenden, t.ex. referer
 http://*&lt;aem-guides-server\>*: *&lt;portnummer\>*/bin/fmdita/exportditamap
 
 **Parametrar**:
-|Namn|Typ|Obligatorisk|Beskrivning|
-|—|—|—|—|
-|`ditamap`|String|Yes|Absolut sökväg för DITA-mappningsfilen i AEM.|
-|`baseline`|Sträng|Nej|Titeln på baslinjen som används för att hämta versionsinnehållet. <br> **Obs!** Värdet är skiftlägeskänsligt. |
+
+| Namn | Typ | Obligatoriskt | Beskrivning |
+|----|----|--------|-----------|
+| `ditamap` | Sträng | Ja | Absolut sökväg för DITA-mappningsfilen i AEM. |
+| `baseline` | Sträng | Nej | Titeln på baslinjen som används för att hämta versionsinnehållet. <br> **Obs!** Värdet är skiftlägeskänsligt. |
 
 **Svarsvärden**:
 En ZIP-fil vars innehåll skrivs till svarets utdataström.

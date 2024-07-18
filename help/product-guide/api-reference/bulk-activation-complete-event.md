@@ -5,7 +5,7 @@ feature: Bulk Activation Event Handler
 role: Developer
 level: Experienced
 exl-id: 08b153d7-3d13-4804-9e3e-38790dbea1f3
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+source-git-commit: 9b8971bf7065a94a2e42669094249c822c555718
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 0%
@@ -27,15 +27,16 @@ com/adobe/fmdita/replication/complete
 ```
 
 **Parametrar**:
-|Namn|Typ|Beskrivning|
-|—|—|—|
-|`path`|String|Sökvägen till filen som utlöste den här händelsen. <br>, till exempel `/content/output/sites/ditamap1-ditamap`. <br> Det är en lista med sökvägar som har serialiserats som en JSON-array.|
-|`messageType`|Sträng|Meddelandets typ. <br>Möjligt alternativ: `REPLICATION`|
-|`action`|String|Detta är den åtgärd som utfördes. <br>Möjligt alternativ: `BulkReplicate`|
-|`user`|String|Användaren som startade åtgärden.|
-|`result`|Sträng|Resultatet av gruppaktiveringen. Det är ett serialiserat JSON-objekt: <br>`{"success":boolean,"code":integer,"message":"" }`|
-|`agentId`|String|AgentId som används i replikeringen. Exempel: `"publish"`.|
-|`importMode`|Sträng|Importläge används i aktivering. Möjliga alternativ är: <br>`REPLACE, MERGE, UPDATE`.|
+
+| Namn | Typ | Beskrivning |
+|----|----|-----------|
+| `path` | Sträng | Sökvägen till filen som utlöste den här händelsen. <br>, till exempel `/content/output/sites/ditamap1-ditamap`. <br> Det är en lista med sökvägar som har serialiserats som en JSON-array. |
+| `messageType` | Sträng | Meddelandets typ. <br>Möjligt alternativ: `REPLICATION` |
+| `action` | Sträng | Detta är den åtgärd som utfördes. <br>Möjligt alternativ: `BulkReplicate` |
+| `user` | Sträng | Användaren som startade åtgärden. |
+| `result` | Sträng | Resultatet av gruppaktiveringen. Det är ett serialiserat JSON-objekt: <br>`{"success":boolean,"code":integer,"message":"" }` |
+| `agentId` | Sträng | AgentId som används i replikeringen. Exempel: `"publish"`. |
+| `importMode` | Sträng | Det importläge som används i aktiveringen. Möjliga alternativ är: <br>`REPLACE, MERGE, UPDATE`. |
 
 
 **Exempelhändelseavlyssnare**:

@@ -5,7 +5,7 @@ exl-id: dab654f5-555d-4a89-bc94-55b1e938f255
 feature: Rest API Output Management
 role: Developer
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 3279640b32041cafe262457c62b8bd34e55f9ccf
 workflow-type: tm+mt
 source-wordcount: '1175'
 ht-degree: 0%
@@ -23,11 +23,12 @@ En POST-metod som hämtar alla förinställningar som konfigurerats för en DITA
 **Begär URL**:
 http://*&lt;aem-guides-server\>*: *&lt;portnummer\>*/bin/publishlistener
 
-**Parametrar**:\
-|Namn|Typ|Obligatorisk|Beskrivning|
-|—|—|—|—|
-|`:operation`|Sträng|Ja|Namnet på den åtgärd som anropas. Värdet för den här parametern är `getalloutputs`.<br> **Obs!** Värdet är inte skiftlägeskänsligt.|
-|`sourcePath`|Sträng|Ja|Absolut sökväg för DITA-mappningsfilen.|
+**Parametrar**:
+
+| Namn | Typ | Obligatoriskt | Beskrivning |
+|----|----|--------|-----------|
+| `:operation` | Sträng | Ja | Namnet på den åtgärd som anropas. Värdet för den här parametern är `getalloutputs`.<br> **Obs!** Värdet är inte skiftlägeskänsligt. |
+| `sourcePath` | Sträng | Ja | Absolut sökväg för DITA-mappningsfilen. |
 
 **Svarsvärden**:
 Returnerar en array med förinställda JSON-utdataobjekt, där varje objekt innehåller följande element:
@@ -59,17 +60,19 @@ En POST-metod som skapar en ny förinställning för en DITA-karta.
 http://*&lt;aem-guides-server\>*: *&lt;portnummer\>*/bin/publishlistener
 
 **Parametrar**:
-|Namn|Typ|Obligatorisk|Beskrivning|
-|—|—|—|—|
-|`:operation`|Sträng|Ja|Namnet på den åtgärd som anropas. Värdet för den här parametern är ``createoutput``.<br> **Obs!** Värdet är inte skiftlägeskänsligt.|
-|`sourcePath`|Sträng|Ja|Absolut sökväg för DITA-mappningsfilen.|
-|`outputTitle`|Sträng|Ja|Ett beskrivande namn för inställningarna för förinställningen för utdata. Detta används för att definiera värdet för inställningsnamnsegenskapen för utdatafärgen.<br> **Obs!** När en ny förinställning skapas, kör back-end-systemet ett unikt namn för utdataförinställningen från den angivna titeln.|
-|`outputType`|String|Yes|Type of output generated using this preset, example AEM Site, PDF, EPUB or other. De tillgängliga alternativen är:<br>-   AEMSITE <br>-   PDF <br>-   HTML5 <br>-   EPUB <br>-   ANPASSAD|
+
+| Namn | Typ | Obligatoriskt | Beskrivning |
+|----|----|--------|-----------|
+| `:operation` | Sträng | Ja | Namnet på den åtgärd som anropas. Värdet för den här parametern är ``createoutput``.<br> **Obs!** Värdet är inte skiftlägeskänsligt. |
+| `sourcePath` | Sträng | Ja | Absolut sökväg för DITA-mappningsfilen. |
+| `outputTitle` | Sträng | Ja | Ett beskrivande namn för inställningarna för förinställningen för utdata. Detta används för att definiera värdet för inställningsnamnsegenskapen för utdatafärgen.<br> **Obs!** När en ny förinställning skapas, kör back-end-systemet ett unikt namn för utdataförinställningen från den angivna titeln. |
+| `outputType` | Sträng | Ja | Typ av utdata som genereras med den här förinställningen, till exempel AEM Site, PDF, EPUB eller annat. De tillgängliga alternativen är:<br>-   AEMSITE <br>-   PDF <br>-   HTML5 <br>-   EPUB <br>-   ANPASSAD |
 
 **Svarsvärden**:
-|Element|Beskrivning|
-|—|—|
-|`outputName`|Ett unikt namn för den nyligen skapade förinställningen. Namnet härleds från värdet för parametern `outputTitle`.|
+
+| Element | Beskrivning |
+|-------|-----------|
+| `outputName` | Ett unikt namn för den nyligen skapade förinställningen. Namnet härleds från värdet för parametern `outputTitle`. |
 
 ## Spara förinställning för utdata
 
@@ -79,11 +82,12 @@ En POST-metod som sparar ändringar som gjorts i en förinställning.
 http://*&lt;aem-guides-server\>*: *&lt;portnummer\>*/bin/publishlistener
 
 **Parametrar**:
-|Namn|Typ|Obligatorisk|Beskrivning|
-|—|—|—|—|
-|`:operation`|Sträng|Ja|Namnet på den åtgärd som anropas. Värdet för den här parametern är ``saveoutput``.<br> **Obs!** Värdet är inte skiftlägeskänsligt.|
-|`sourcePath`|Sträng|Ja|Absolut sökväg för DITA-mappningsfilen.|
-|`outputObj`|String|Yes|Ett JSON-objekt som innehåller egenskaper för den förinställning som uppdateras. Egenskapen `outputObj.outputName` innehåller namnet på den förinställning som ska uppdateras. JSON-objektets format finns i tabellen **Svarsvärden** i [Hämta alla förinställningar för en DITA-karta](#get-output-presets-dita-map).|
+
+| Namn | Typ | Obligatoriskt | Beskrivning |
+|----|----|--------|-----------|
+| `:operation` | Sträng | Ja | Namnet på den åtgärd som anropas. Värdet för den här parametern är ``saveoutput``.<br> **Obs!** Värdet är inte skiftlägeskänsligt. |
+| `sourcePath` | Sträng | Ja | Absolut sökväg för DITA-mappningsfilen. |
+| `outputObj` | Sträng | Ja | Ett JSON-objekt som innehåller egenskaper för den förinställning som uppdateras. Egenskapen `outputObj.outputName` innehåller namnet på den förinställning som ska uppdateras. JSON-objektets format finns i tabellen **Svarsvärden** i [Hämta alla förinställningar för en DITA-karta](#get-output-presets-dita-map). |
 
 **Svarsvärden**:
 Returnerar ett HTTP 200 \(Slutförd\)-svar.
@@ -96,28 +100,30 @@ En metod som hämtar en befintlig förinställning för POST.
 http://*&lt;aem-guides-server\>*: *&lt;portnummer\>*/bin/publishlistener
 
 **Parametrar**:
-|Namn|Typ|Obligatorisk|Beskrivning|
-|—|—|—|—|
-|`:operation`|Sträng|Ja|Namnet på den åtgärd som anropas. Värdet för den här parametern är `getoutput`. <br>**Obs!** Värdet är inte skiftlägeskänsligt.|
-|`sourcePath`|Sträng|Ja|Absolut sökväg för DITA-mappningsfilen.|
-|`outputName`|Sträng|Ja|Namnet på den förinställning som informationen ska hämtas för.|
+
+| Namn | Typ | Obligatoriskt | Beskrivning |
+|----|----|--------|-----------|
+| `:operation` | Sträng | Ja | Namnet på den åtgärd som anropas. Värdet för den här parametern är `getoutput`. <br>**Obs!** Värdet är inte skiftlägeskänsligt. |
+| `sourcePath` | Sträng | Ja | Absolut sökväg för DITA-mappningsfilen. |
+| `outputName` | Sträng | Ja | Namnet på den förinställning som informationen ska hämtas för. |
 
 **Svarsvärden**:
-|Element|Beskrivning|
-|—|—|
-|`outputName`|Namnet på förinställningen. Utdatanamn är unika i DITA-kartans omfång som de definieras i.|
-|`outputType`|Typ av utdata som genereras med den här förinställningen, till exempel AEM Site, PDF, EPUB eller annan. De tillgängliga alternativen är:<br>-   AEMSITE <br>-   PDF <br>-   HTML5 <br>-   EPUB <br>-   ANPASSAD <br>|
-|`outputTitle`|Ett beskrivande namn för inställningarna för förinställningen. Det här används för att definiera värdet för egenskapen Inställningsnamn för utdatafärgen.|
-|`ditaValPathList`|Matris med DITAVAL-filsökvägar som ska användas för att generera önskade utdata.|
-|`targetPath`|Sökväg där utdata publiceras eller lagras.|
-|`siteName`|\(För AEM platsutdata\) Namnet på den AEM platsen.|
-|`siteTitle`|\(För AEM platsutdata\) Rubrik för den AEM webbplatsen.|
-|`templatePath`|\(För AEM platsutdata\) Sökväg till mallnoden som ska användas för att generera önskade utdata.|
-|`searchScope`|Ange omfattningen för sökåtgärden. Värdet för den här parametern måste anges till `local`.|
-|`generateTOC`|\(För AEM platsutdata\) Ange om en innehållsförteckning genereras \(true\) eller inte \(false\).|
-|`generateBreadcrumbs`|\(För AEM platsutdata\) Ange om vägbeskrivningar genereras \(true\) eller inte \(false\).|
-|`overwriteFiles`|\(För AEM platsutdata\) Ange om filer på målet ska skrivas över \(true\) eller inte \(false\).|
-|`pdfGenerator`|Ange vilken PDF-genereringsmotor som ska användas. Möjliga värden är:<br>-   DITAOT <br>-   FMPS|
+
+| Element | Beskrivning |
+|-------|-----------|
+| `outputName` | Namn på förinställningen. Utdatanamn är unika i DITA-kartans omfång som de definieras i. |
+| `outputType` | Typ av utdata som genereras med den här förinställningen, till exempel AEM Site, PDF, EPUB eller annat. De tillgängliga alternativen är:<br>-   AEMSITE <br>-   PDF <br>-   HTML5 <br>-   EPUB <br>-   ANPASSAD <br> |
+| `outputTitle` | Ett beskrivande namn för inställningarna för förinställningen för utdata. Det här används för att definiera värdet för egenskapen Inställningsnamn för utdatafärgen. |
+| `ditaValPathList` | En array med DITAVAL-filsökvägar som ska användas för att generera önskade utdata. |
+| `targetPath` | Sökväg där utdata publiceras eller lagras. |
+| `siteName` | \(För AEM platsutdata\) Namnet på den AEM platsen. |
+| `siteTitle` | \(För AEM platsutdata\) Namnet på den AEM webbplatsen. |
+| `templatePath` | \(För AEM platsutdata\) Sökväg till mallnoden som ska användas för att generera önskat utvärde. |
+| `searchScope` | Ange omfattningen för sökåtgärden. Värdet för den här parametern måste anges till `local`. |
+| `generateTOC` | \(För AEM platsutdata\) Ange om en innehållsförteckning genereras \(true\) eller inte \(false\). |
+| `generateBreadcrumbs` | \(För AEM platsutdata\) Ange om vägbeskrivningar ska genereras \(true\) eller inte \(false\). |
+| `overwriteFiles` | \(För AEM platsutdata\) Ange om filer på målet ska skrivas över \(true\) eller inte \(false\). |
+| `pdfGenerator` | Ange vilken PDF-genereringsmotor som ska användas. Möjliga värden är:<br>-   DITAOT <br>-   FMPS |
 
 >[!NOTE]
 >
@@ -131,11 +137,12 @@ En GET-metod som genererar utdata med en eller flera förinställningar.
 http://*&lt;aem-guides-server\>*: *&lt;portnummer\>*/bin/publishlistener
 
 **Parametrar**:
-|Namn|Typ|Obligatorisk|Beskrivning|
-|—|—|—|—|
-|`operation`|Sträng|Ja|Namnet på den åtgärd som anropas. Värdet för den här parametern är `GENERATEOUTPUT`.<br> **Obs!** Värdet är skiftlägeskänsligt.|
-|`source`|Sträng|Ja|Absolut sökväg för DITA-mappningsfilen.|
-|`outputName`|String|Yes|Name of the output preset\(s\) to be used to generate output. Du kan ange flera förinställningar med en pipe \(&quot;\|&quot;\)-avgränsare, till exempel `aemsite|pdfoutput`.|
+
+| Namn | Typ | Obligatoriskt | Beskrivning |
+|----|----|--------|-----------|
+| `operation` | Sträng | Ja | Namnet på den åtgärd som anropas. Värdet för den här parametern är `GENERATEOUTPUT`.<br> **Obs!** Värdet är skiftlägeskänsligt. |
+| `source` | Sträng | Ja | Absolut sökväg för DITA-mappningsfilen. |
+| `outputName` | Sträng | Ja | Namnet på den/de förinställningar som ska användas för att generera utdata. Du kan ange flera förinställningar med en pipe \(&quot;\|&quot;\)-avgränsare, till exempel `aemsite|pdfoutput`. |
 
 **Svarsvärden**:
 Returnerar ett HTTP 200 \(Slutförd\)-svar.
@@ -148,10 +155,11 @@ En GET-metod som genererar inkrementella utdata för en AEM webbplats med en ell
 http://*&lt;aem-guides-server\>*: *&lt;portnummer\>*/bin/publishlistener
 
 **Parametrar**:
-|Namn|Typ|Obligatorisk|Beskrivning|
-|—|—|—|—|
-|`operation`|Sträng|Ja|Namnet på den åtgärd som anropas. Värdet för den här parametern är `INCREMENTALPUBLISH`. <br>**Obs!** Värdet är skiftlägeskänsligt.|
-|`contentPath`|JSON|Yes|Absolut sökväg för DITA-mappningsfilen och ämnesfilerna tillsammans med namnet på förinställningarna för utdata. Använd följande exempel som byggsten:|
+
+| Namn | Typ | Obligatoriskt | Beskrivning |
+|----|----|--------|-----------|
+| `operation` | Sträng | Ja | Namnet på den åtgärd som anropas. Värdet för den här parametern är `INCREMENTALPUBLISH`. <br>**Obs!** Värdet är skiftlägeskänsligt. |
+| `contentPath` | JSON | Ja | Absolut sökväg för DITA-mappningsfilen och ämnesfilerna tillsammans med namnet på förinställningarna för utdata. Använd följande exempel som byggsten: |
 
 ```XML
 {
@@ -192,11 +200,12 @@ En POST som tar bort en förinställning.
 http://*&lt;aem-guides-server\>*: *&lt;portnummer\>*/bin/publishlistener
 
 **Parametrar**:
-|Namn|Typ|Obligatorisk|Beskrivning|
-|—|—|—|—|
-|`:operation`|Sträng|Ja|Namnet på den åtgärd som anropas. Värdet för den här parametern är `deleteoutput`.<br> **Obs!** Värdet är inte skiftlägeskänsligt.|
-|`sourcePath`|Sträng|Ja|Absolut sökväg för DITA-mappningsfilen.|
-|`outputName`|Sträng|Ja|Namnet på den förinställning som ska tas bort.|
+
+| Namn | Typ | Obligatoriskt | Beskrivning |
+|----|----|--------|-----------|
+| `:operation` | Sträng | Ja | Namnet på den åtgärd som anropas. Värdet för den här parametern är `deleteoutput`.<br> **Obs!** Värdet är inte skiftlägeskänsligt. |
+| `sourcePath` | Sträng | Ja | Absolut sökväg för DITA-mappningsfilen. |
+| `outputName` | Sträng | Ja | Namnet på den förinställning som ska tas bort. |
 
 **Svarsvärden**:
 Returnerar ett HTTP 200 \(Slutförd\)-svar.

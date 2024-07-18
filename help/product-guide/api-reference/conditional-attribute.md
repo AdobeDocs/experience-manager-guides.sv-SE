@@ -5,7 +5,7 @@ exl-id: 1f0e023a-422c-47b9-917f-b0d80090471c
 feature: Rest API Conditional Attributes
 role: Developer
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 6184bb98c9897e980a6fba2f97476570228188af
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 0%
@@ -23,12 +23,13 @@ En mappmetod som lägger till villkorsstyrda attribut i en viss mappnivåprofil.
 **Begär URL**:\
 http://*&lt;aem-guides-server\>*: *&lt;portnummer\>*/bin/fmdita/folderprofiles
 
-**Parametrar**:\
-|Namn|Typ|Obligatorisk|Beskrivning|
-|—|—|—|—|
-|`:operation`|Sträng|Ja|Namnet på den åtgärd som anropas. Värdet för den här parametern är ``ADDATTRIBUTEPROFILES``. <br> **Obs!** Värdet är inte skiftlägeskänsligt.|
-|`profilename`|String|Yes|Display name of the folder-level profile in which the conditional attributes must be added.|
-|`conditionalprofiles`|JSON-matris|Yes|A JSON-matris som består av villkorsattributets namn och värden. I följande exempelkodfragment visas JSON-arrayen med två attribut - `platform` och `product` med flera värden tilldelade.|
+**Parametrar**:
+
+| Namn | Typ | Obligatoriskt | Beskrivning |
+|----|----|--------|-----------|
+| `:operation` | Sträng | Ja | Namnet på den åtgärd som anropas. Värdet för den här parametern är ``ADDATTRIBUTEPROFILES``. <br> **Obs!** Värdet är inte skiftlägeskänsligt. |
+| `profilename` | Sträng | Ja | Visningsnamn för den mappnivåprofil där villkorsattributen ska läggas till. |
+| `conditionalprofiles` | JSON-array | Ja | En JSON-array som består av det villkorliga attributnamnet och värdena. Följande kodexempel visar JSON-arrayen med två attribut - `platform` och `product` med flera värden tilldelade. |
 
 ```JSON
 [  {    name: "platform",    
