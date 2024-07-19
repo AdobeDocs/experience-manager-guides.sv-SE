@@ -1,9 +1,9 @@
 ---
 title: Exempel
 description: Lista med anpassningsexempel
-source-git-commit: 7770bc791ae87748cfe191cfaff3f929f77b4533
+source-git-commit: fc0b19ac44ca9cbc1e9c5cf046f9a0a24f2a1794
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -53,6 +53,9 @@ I den här filen beräknar och tilldelar vi det unika kommentar-ID som nämns i 
 
 6. [Acceptera med ändringsdialogrutan](./examples/review_app_examples/accept_with_modification_dialog.ts)
 Det här är ett exempel på hur du lägger till nya widgetar i programmet. Här har vi skapat en ny dialogruta med två inmatningsfält: `Revised Text` och `Adjudicator Comment Rationale`
+
+7. [Spara ändring](./examples/save_revision.ts)
+Det här är ett exempel på hur du uppdaterar en befintlig dialogruta. Vi lägger till en knapp för publicering i det här. Vi tillåter att innehållet i dialogen ändras. Se dess json här: [`save_revision`](./jsons/dialogs/save_revision.json)
 
 ![Acceptera med ändringsdialogruta](./imgs/accept_with_modification_dialogue.png)
 
