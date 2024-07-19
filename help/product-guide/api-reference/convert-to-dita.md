@@ -5,7 +5,7 @@ exl-id: f091782e-ab54-4db4-9018-9bcbff9da7b2
 feature: Rest API Conversion Workflow
 role: Developer
 level: Experienced
-source-git-commit: bda1af0da134fce53b4a4118278fa1ef2fe34c69
+source-git-commit: add4730e396fe7384a20fb2c6c04730c20a83e71
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 0%
@@ -44,12 +44,13 @@ En GET-metod som konverterar HTML-dokument till DITA-format.
 http://*&lt;aem-guides-server\>*: *&lt;portnummer\>*/bin/fmdita/conversion
 
 **Parametrar**:
-|Namn|Typ|Obligatorisk|Beskrivning|
-|—|—|—|—|
-|`operation`|Sträng|Ja|Namnet på den åtgärd som anropas. Värdet för den här parametern är ``html2dita``. <br> **Obs!** Värdet är inte skiftlägeskänsligt.|
-|`inputFile`|Sträng|Ja|Absolut sökväg för HTML-källfilerna i AEM.|
-|`destPath`|Sträng|Ja|Absolut sökväg till målplatsen där de konverterade DITA-filerna ska sparas.|
-|`createRev`|Boolean|Ja|Ange om en version av filerna skapas \( `true`\) vid det angivna målet eller inte \( `false`\). Detta gäller endast när målplatsen innehåller en befintlig version av de konverterade filerna.|
+
+| Namn | Typ | Obligatoriskt | Beskrivning |
+|----|----|--------|-----------|
+| `operation` | Sträng | Ja | Namnet på den åtgärd som anropas. Värdet för den här parametern är ``html2dita``. <br> **Obs!** Värdet är inte skiftlägeskänsligt. |
+| `inputFile` | Sträng | Ja | Absolut sökväg för HTML-källfilerna i AEM. |
+| `destPath` | Sträng | Ja | Absolut sökväg för målplatsen där de konverterade DITA-filerna ska sparas. |
+| `createRev` | Boolean | Ja | Ange om en revision av filerna skapas \( `true`\) på det angivna målet eller inte \( `false`\). Detta gäller endast när målplatsen innehåller en befintlig version av de konverterade filerna. |
 
 **Svarsvärden**:
 Returnerar ett HTTP 200 \(Slutförd\)-svar.
