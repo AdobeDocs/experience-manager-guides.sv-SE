@@ -4,7 +4,7 @@ description: Senaste versionen av Adobe Experience Manager Guides
 exl-id: c70b3bbc-3332-4626-bc30-641034f8fd06
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
 workflow-type: tm+mt
 source-wordcount: '3644'
 ht-degree: 0%
@@ -18,6 +18,7 @@ Den här versionsinformationen innehåller uppgraderingsinstruktioner, nya funkt
 ## Uppgradera till den senaste versionen
 
 Du kan enkelt uppgradera din nuvarande version av AEM Guides till version 4.1.3. Innan du uppgraderar till version 4.1.3 av AEM Guides måste du tänka på följande:
+
 * Om du använder version 4.1 eller 4.1.x kan du uppgradera direkt till version 4.1.3.
 * Om du använder version 4.0.x måste du uppgradera till version 4.1 eller 4.1.x innan du uppgraderar till 4.1.3.
 * Om du använder version 3.8.5 måste du uppgradera till version 4.0.x innan du uppgraderar till 4.1.
@@ -360,7 +361,7 @@ De buggar som har åtgärdats i olika områden listas nedan:
 * Beskrivningen av granskningsaktiviteten visas inte i det e-postmeddelande som skickas när en ny granskningsaktivitet tilldelas. 8507
 * Hämta mappnings-API | Temporära mappar rensas inte bort om det skulle uppstå fel i hämtningsprocessen. 8523
 * `columnpreview.jsp` är beroende av SP.  8543
-* Utdata med status Väntar eller Körning rensas inte i Publish Dashboard.  8569
+* Utdatajobb med status Väntar eller Körning rensas inte i Publish Dashboard.  8569
 * Standardikonen väljs när en rapport genereras med knappen Generera, även när ikonegenskapen är definierad. 8573
 * Problem uppstår under granskningsprocessen när du uppgraderar från 3.8.X till 4.0. 8788
 * Om ett användarnamn är långt visas inte ikonerna för att acceptera/avvisa på panelen Granska i Web Editor tydligt. 8793

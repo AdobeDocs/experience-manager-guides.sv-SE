@@ -3,9 +3,9 @@ title: Versionsinformation | Nyheter i Adobe Experience Manager Guides 4.4.0
 description: Läs om de nya och förbättrade funktionerna i version 4.4.0 av Adobe Experience Manager Guides
 role: Leader
 exl-id: 63a2e93b-b4cf-4423-88e4-b01c6a52a532
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
 workflow-type: tm+mt
-source-wordcount: '2307'
+source-wordcount: '2308'
 ht-degree: 0%
 
 ---
@@ -27,8 +27,7 @@ Nu har Experience Manager Guides en förbättrad funktion för versionshistorik 
 ![Dialogrutan Versionshistorik](assets/version-history-dialog-web-editor.png){width="800" align="left"}
 *Förhandsgranska ändringarna i olika versioner av ett ämne.*
 
-
-Läs mer om funktionsbeskrivningen för **versionshistorik** i avsnittet [Vänster panel](../user-guide/web-editor-features.md#id2051EA0M0HS).
+Läs mer om funktionsbeskrivningen för **versionshistorik** i avsnittet [Vänster panel (äldre)](/help/legacy-product-guide/user-guide/web-editor-features.md#id2051EA0M0HS).
 
 ## Hantera villkorsförinställningar
 
@@ -264,7 +263,7 @@ Förutom att publicera sidorna enligt källdokumentet kan du även ändra ordnin
 
 ### Sortera ordlistor baserat på sorteringsnycklar
 
-Nu kan du även sortera ordlistorna baserat på sorteringsnycklar. Du kan använda taggen&quot;sort-as&quot; för att definiera en sorteringsnyckel för ordlistorna. Sedan kan du sortera dem baserat på sorteringsnycklar i stället för villkoren. På så sätt kan du sortera ordlistorna efter termer som används på olika språk. Du kan också definiera en sorteringsnyckel för en ordlista med en fras eller en grupp med ord.
+Nu kan du även sortera ordlistorna baserat på sorteringsnycklar. Du kan använda taggen sort-as för att definiera en sorteringsnyckel för ordlistorna. Sedan kan du sortera dem baserat på sorteringsnycklar i stället för villkoren. På så sätt kan du sortera ordlistorna efter termer som används på olika språk. Du kan också definiera en sorteringsnyckel för en ordlista med en fras eller en grupp med ord.
 Mer information finns i [Avancerade PDF-inställningar](../native-pdf/components-pdf-template.md#advanced-pdf-settings).
 
 

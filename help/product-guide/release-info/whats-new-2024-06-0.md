@@ -2,7 +2,7 @@
 title: Versionsinformation | Nyheter i Adobe Experience Manager Guides, 2024.06.0
 description: Läs om de nya och förbättrade funktionerna i version 2024.06.0 av Adobe Experience Manager Guides as a Cloud Service.
 exl-id: c885b8ba-5230-4d51-8f38-311b3a33fe0a
-source-git-commit: d525775afeeb89754762ff514126b1c3a3307b3f
+source-git-commit: 2455307ef747b2f2574666ee773d931b302f58ca
 workflow-type: tm+mt
 source-wordcount: '653'
 ht-degree: 0%
@@ -36,7 +36,6 @@ Mer information finns i [Publish Experience Fragments](../user-guide/publish-exp
 Experience Manager Guides har även några praktiska förbättringar i Content Fragments:
 
 - Du kan enkelt filtrera innehåll med villkor när du publicerar till ett innehållsfragment med hjälp av en DITAVAL-fil eller villkorsattribut.
-
 - Du kan också publicera och visa innehållsfragment för ett ämne i avsnittet **Utdata** i **Filegenskaper**.
 
 Fliken ![Alternativ för filegenskaper](./assets/file-properties-outputs-tab.png){width="300" align="left"}
