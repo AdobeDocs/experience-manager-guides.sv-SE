@@ -5,7 +5,7 @@ exl-id: 8033935d-2113-4e39-ab74-b7431b89f948
 feature: Conversion Process Event Handler
 role: Developer
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 83966cc9187b13dd3b5956821e0aa038b41db28e
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 0%
@@ -26,10 +26,11 @@ Händelseinformation förklaras nedan:
 com/adobe/fmdita/conversion/complete 
 ```
 
-**Parametrar**:\
-|Namn|Typ|Beskrivning|
-|—|—|—|
-|`status`|Sträng|Returstatus för den åtgärd som utfördes. Möjliga alternativ är: -   UTFÖRT: Konverteringsprocessen har slutförts. <br> -   SLUTFÖRT MED FEL: Konverteringsprocessen slutfördes, men med vissa fel. <br>-   MISSLYCKADES: Konverteringsprocessen misslyckades på grund av ett allvarligt fel.|
-|`filePath`|Sträng|Absolut sökväg för källfilen \(som ska konverteras\) i AEM.|
-|`outputPath`|Sträng|Absolut sökväg för målplatsen där de konverterade DITA-filerna sparas.|
-|`logPath`|Sträng|Absolut sökväg för noden där konverteringsloggen ska sparas.|
+**Parametrar**:
+
+| Namn | Typ | Beskrivning |
+|----|----|-----------|
+| `status` | Sträng | Returstatus för den åtgärd som utfördes. Möjliga alternativ är: -   UTFÖRT: Konverteringsprocessen har slutförts. <br> -   SLUTFÖRT MED FEL: Konverteringsprocessen slutfördes, men med vissa fel. <br>-   MISSLYCKADES: Konverteringsprocessen misslyckades på grund av ett allvarligt fel. |
+| `filePath` | Sträng | Absolut sökväg för källfilen \(som ska konverteras\) i AEM. |
+| `outputPath` | Sträng | Absolut sökväg för målplatsen där de konverterade DITA-filerna ska sparas. |
+| `logPath` | Sträng | Absolut sökväg för noden där konverteringsloggen ska sparas. |

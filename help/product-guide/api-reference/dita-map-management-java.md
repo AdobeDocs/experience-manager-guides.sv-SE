@@ -5,7 +5,7 @@ exl-id: bd91fc90-75f8-487c-99d1-2637e9cf9924
 feature: Java-Based API Dita Map
 role: Developer
 level: Experienced
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 83966cc9187b13dd3b5956821e0aa038b41db28e
 workflow-type: tm+mt
 source-wordcount: '1027'
 ht-degree: 0%
@@ -57,13 +57,14 @@ public static void zipMapWithDependents(Session session,
 ```
 
 **Parametrar**:
-|Namn|Typ|Beskrivning|
-|—|—|—|
-|`session`|javax.jcr.Session|En giltig JCR-session.|
-|`sourcePath`|Sträng|Sökväg \(i den AEM databasen\) för den DITA-mappningsfil som ska hämtas.|
-|`outputStream`|java.io.OutputStream|Strömmen som ZIP ska skrivas till.|
-|`baseline`|String|Titeln på baslinjen som används för att hämta versionsinnehållet. <br> **Obs!** Värdet är skiftlägeskänsligt.|
-|flatFS|Boolean|\(Valfritt\) Om värdet är true returneras en platt filstruktur i ZIP-filen. Om din DITA-karta till exempel refererar till innehåll i flera mappar, hämtas alla refererade filer till en enda mapp. Om det finns filer med samma namn byter dessa namn namn genom att lägga till ett numeriskt suffix. Alla referenser \(i DITA-scheman och -ämnen\) hanteras automatiskt när de uppdateras baserat på den nya platsen för filer i den platta mappstrukturen. Om värdet är false bevaras mappstrukturen som den är i ZIP-filen. Om DITA-kartan refererar till filer från flera platser skapas även alla dessa platser i ZIP-filen. När du återställer ZIP-filen skapas den exakta mappstrukturen på målplatsen. <br> Standardvärdet för den här parametern är false.|
+
+| Namn | Typ | Beskrivning |
+|----|----|-----------|
+| `session` | javax.jcr.Session | En giltig JCR-session. |
+| `sourcePath` | Sträng | Sökväg \(i AEM databas\) till den DITA-kartfil som ska hämtas. |
+| `outputStream` | java.io.OutputStream | Strömmen som ZIP-adressen ska skrivas till. |
+| `baseline` | Sträng | Titeln på baslinjen som används för att hämta versionsinnehållet. <br> **Obs!** Värdet är skiftlägeskänsligt. |
+| flatFS | Boolean | \(Valfritt\) Om värdet är true returneras en platt filstruktur i ZIP-filen. Om din DITA-karta till exempel refererar till innehåll i flera mappar, hämtas alla refererade filer till en enda mapp. Om det finns filer med samma namn byter dessa namn namn genom att lägga till ett numeriskt suffix. Alla referenser \(i DITA-scheman och -ämnen\) hanteras automatiskt när de uppdateras baserat på den nya platsen för filer i den platta mappstrukturen. Om värdet är false bevaras mappstrukturen som den är i ZIP-filen. Om DITA-kartan refererar till filer från flera platser skapas även alla dessa platser i ZIP-filen. När du återställer ZIP-filen skapas den exakta mappstrukturen på målplatsen. <br> Standardvärdet för den här parametern är false. |
 
 **Returnerar**:
 Innehållet i ZIP skrivs till `outputStream` .
@@ -93,12 +94,13 @@ public static CompletableFuture<Node> zipMapWithDependencies(Session session,
 ```
 
 **Parametrar**:
-|Namn|Typ|Beskrivning|
-|—|—|—|
-|`session`|javax.jcr.Session|En giltig JCR-session.|
-|`sourcePath`|Sträng|Sökväg \(i den AEM databasen\) för den DITA-mappningsfil som ska hämtas.|
-|`baseline`|String|Titeln på baslinjen som används för att hämta versionsinnehållet. <br> **Obs!** Värdet är skiftlägeskänsligt.|
-|flatFS|Boolean|\(Valfritt\) Om värdet är true returneras en platt filstruktur i ZIP-filen. Om din DITA-karta till exempel refererar till innehåll i flera mappar, hämtas alla refererade filer till en enda mapp. Om det finns filer med samma namn byter dessa namn namn genom att lägga till ett numeriskt suffix. Alla referenser \(i DITA-scheman och -ämnen\) hanteras automatiskt när de uppdateras baserat på den nya platsen för filer i den platta mappstrukturen. Om värdet är false bevaras mappstrukturen som den är i ZIP-filen. Om DITA-kartan refererar till filer från flera platser skapas även alla dessa platser i ZIP-filen. När du återställer ZIP-filen skapas den exakta mappstrukturen på målplatsen.<br> Standardvärdet för den här parametern är false.|
+
+| Namn | Typ | Beskrivning |
+|----|----|-----------|
+| `session` | javax.jcr.Session | En giltig JCR-session. |
+| `sourcePath` | Sträng | Sökväg \(i AEM databas\) till den DITA-kartfil som ska hämtas. |
+| `baseline` | Sträng | Titeln på baslinjen som används för att hämta versionsinnehållet. <br> **Obs!** Värdet är skiftlägeskänsligt. |
+| flatFS | Boolean | \(Valfritt\) Om värdet är true returneras en platt filstruktur i ZIP-filen. Om din DITA-karta till exempel refererar till innehåll i flera mappar, hämtas alla refererade filer till en enda mapp. Om det finns filer med samma namn byter dessa namn namn genom att lägga till ett numeriskt suffix. Alla referenser \(i DITA-scheman och -ämnen\) hanteras automatiskt när de uppdateras baserat på den nya platsen för filer i den platta mappstrukturen. Om värdet är false bevaras mappstrukturen som den är i ZIP-filen. Om DITA-kartan refererar till filer från flera platser skapas även alla dessa platser i ZIP-filen. När du återställer ZIP-filen skapas den exakta mappstrukturen på målplatsen.<br> Standardvärdet för den här parametern är false. |
 
 **Returnerar**:
 ZIP-filens nod kapslas i klassen `CompletableFuture` . Användaren kan fortsätta att hantera den asynkront och kan använda metoden `.get()` i framtiden för att blockera tråden när noden behövs. Det returnerade värdet kan också sluta med ett fel och det kan hanteras med metoden `.exceptionally()`.
@@ -117,10 +119,11 @@ public static List<HashMap<String,String>> getBaselineList(
 ```
 
 **Parametrar**:
-|Namn|Typ|Beskrivning|
-|—|—|—|
-|`session`|javax.jcr.Session|En giltig JCR-session.|
-|`sourcePath`|Sträng|Sökväg \(i den AEM databasen\) för den DITA-mappningsfil som baslinjeinformationen ska hämtas för.|
+
+| Namn | Typ | Beskrivning |
+|----|----|-----------|
+| `session` | javax.jcr.Session | En giltig JCR-session. |
+| `sourcePath` | Sträng | Sökväg \(i AEM databas\) till den DITA-mappningsfil för vilken baslinjeinformationen ska hämtas. |
 
 **Returnerar**:
 En lista med `HashMap` -objekt. Varje `HashMap`-objekt representerar en baslinje och innehåller baslinjens namn och rubrik.
@@ -142,10 +145,11 @@ public static List<HashMap<String,String>> getConditionalPresetList (
 ```
 
 **Parametrar**:
-|Namn|Typ|Beskrivning|
-|—|—|—|
-|`session`|javax.jcr.Session|En giltig JCR-session.|
-|`sourcePath`|Sträng|Sökväg \(i den AEM databasen\) till den DITA-mappningsfil som informationen om villkorsförinställningen ska hämtas för.|
+
+| Namn | Typ | Beskrivning |
+|----|----|-----------|
+| `session` | javax.jcr.Session | En giltig JCR-session. |
+| `sourcePath` | Sträng | Sökväg \(i AEM databas\) till den DITA-mappningsfil för vilken informationen om villkorsförinställningar ska hämtas. |
 
 **Returnerar**:
 En lista med `HashMap` -objekt. Varje `HashMap`-objekt representerar en villkorlig förinställning och innehåller namnet och titeln på den villkorliga förinställningen.
@@ -167,11 +171,12 @@ public static String getDitavalFromConditionalPreset
 ```
 
 **Parametrar**:
-|Namn|Typ|Beskrivning|
-|—|—|—|
-|`session`|javax.jcr.Session|En giltig JCR-session.|
-|`sourcePath`|Sträng|Sökväg \(i den AEM databasen\) för DITA-mappningsfilen som DITAVAL-filen ska hämtas för.|
-|`cpName`|Sträng|Namnet på den villkorliga förinställningen i DITA-kartan som DITAVAL-filen ska hämtas för.|
+
+| Namn | Typ | Beskrivning |
+|----|----|-----------|
+| `session` | javax.jcr.Session | En giltig JCR-session. |
+| `sourcePath` | Sträng | Sökväg \(i AEM databas\) till den DITA-kartfil som DITAVAL-filen ska hämtas för. |
+| `cpName` | Sträng | Namnet på den villkorliga förinställningen i DITA-kartan som DITAVAL-filen ska hämtas för. |
 
 **Returnerar**:
 Sökvägen till DITAVAL-filen som motsvarar den villkorliga förinställning som definierats i DITA-mappningsfilen.
@@ -189,9 +194,10 @@ public static List
 ```
 
 **Parametrar**:
-|Namn|Typ|Beskrivning|
-|—|—|—|
-|`rootNode`|javax.jcr.Node|Rotnoden som alla beroenden ska hämtas för.|
+
+| Namn | Typ | Beskrivning |
+|----|----|-----------|
+| `rootNode` | javax.jcr.Node | Rotnoden som alla beroenden ska hämtas för. |
 
 **Returnerar**:
 En nodlista som innehåller alla beroenden för rotnoden.

@@ -5,7 +5,7 @@ exl-id: 807d9ffa-23e3-476c-992d-c1f495233892
 feature: Java-Based API Conversion Workflow
 role: Developer
 level: Experienced
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 83966cc9187b13dd3b5956821e0aa038b41db28e
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 0%
@@ -50,12 +50,13 @@ public static void convertHtmlToDita(Session session,
 ```
 
 **Parametrar**:
-|Namn|Typ|Beskrivning|
-|—|—|—|
-|`session`|javax.jcr.Session|En giltig JCR-session.|
-|`inputFile`|Sträng|Absolut sökväg för HTML-källfilerna i AEM.|
-|`destPath`|Sträng|Absolut sökväg för målplatsen där de konverterade DITA-filerna sparas.|
-|`createRev`|Boolean|Ange om en version av filerna skapas \( `true`\) vid det angivna målet eller inte \( `false`\). Detta gäller endast när målplatsen innehåller en befintlig version av de konverterade filerna.|
+
+| Namn | Typ | Beskrivning |
+|----|----|-----------|
+| `session` | javax.jcr.Session | En giltig JCR-session. |
+| `inputFile` | Sträng | Absolut sökväg för HTML-källfilerna i AEM. |
+| `destPath` | Sträng | Absolut sökväg för målplatsen där de konverterade DITA-filerna ska sparas. |
+| `createRev` | Boolean | Ange om en revision av filerna skapas \( `true`\) på det angivna målet eller inte \( `false`\). Detta gäller endast när målplatsen innehåller en befintlig version av de konverterade filerna. |
 
 **Undantag**:
 Utlöser `RepositoryException` .
@@ -76,13 +77,14 @@ public static void convertWordToDita(Session session,
 ```
 
 **Parametrar**:
-|Namn|Typ|Beskrivning|
-|—|—|—|
-|`session`|javax.jcr.Session|En giltig JCR-session.|
-|`inputFile`|Sträng|Absolut sökväg för Word-källfilerna i AEM.|
-|`destPath`|Sträng|Absolut sökväg för målplatsen där de konverterade DITA-filerna sparas.|
-|`style2tagMap`|Sträng|Absolut sökväg till den formatmappningsfil som ska användas för konvertering.|
-|`createRev`|Boolean|Ange om en version av filerna skapas \( `true`\) vid det angivna målet eller inte \( `false`\). Detta gäller endast när målplatsen innehåller en befintlig version av de konverterade filerna.|
+
+| Namn | Typ | Beskrivning |
+|----|----|-----------|
+| `session` | javax.jcr.Session | En giltig JCR-session. |
+| `inputFile` | Sträng | Absolut sökväg för Word-källfilerna i AEM. |
+| `destPath` | Sträng | Absolut sökväg för målplatsen där de konverterade DITA-filerna ska sparas. |
+| `style2tagMap` | Sträng | Absolut sökväg till den formatmappningsfil som ska användas för konvertering. |
+| `createRev` | Boolean | Ange om en revision av filerna skapas \( `true`\) på det angivna målet eller inte \( `false`\). Detta gäller endast när målplatsen innehåller en befintlig version av de konverterade filerna. |
 
 **Undantag**:
 Utlöser `RepositoryException` .

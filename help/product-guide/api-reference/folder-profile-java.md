@@ -5,7 +5,7 @@ exl-id: 388ae654-c4f9-4bb7-ba98-370b8919e3a6
 feature: Java-Based API Folder Profiles
 role: Developer
 level: Experienced
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 83966cc9187b13dd3b5956821e0aa038b41db28e
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 0%
@@ -54,13 +54,14 @@ Session session) throws GuidesApiException
 ```
 
 **Parametrar**:
-|Namn|Typ|Beskrivning|
-|—|—|—|
-|``attributeNames``|Sträng|En lista med attributnamn.|
-|``values``|Sträng|En lista med värden för angivna attribut.|
-|`labels`|Sträng|En lista med etiketter för paren `attribute`- `value`. [1](#fntarg_1)|
-|`profileName`|String|Namnet på den mappnivåprofil som attributen, värdena och etiketterna ska tillämpas på. **Viktigt!** Alla befintliga attribut-value-labels som definierats i profilen skrivs över.|
-|`session`|javax.jcr.Session|En giltig JCR-session.|
+
+| Namn | Typ | Beskrivning |
+|----|----|-----------|
+| ``attributeNames`` | Sträng | En lista med attributnamn. |
+| ``values`` | Sträng | En lista med värden för angivna attribut. |
+| `labels` | Sträng | En lista med etiketter för paren `attribute`- `value`. [1](#fntarg_1) |
+| `profileName` | Sträng | Namnet på den mappnivåprofil som attributen, värdena och etiketterna ska användas på. **Viktigt!** Alla befintliga attribut-value-labels som definierats i profilen skrivs över. |
+| `session` | javax.jcr.Session | En giltig JCR-session. |
 
 **Returnerar**:
 `true` för att lyckas. Om ett fel uppstår genereras ett undantag.

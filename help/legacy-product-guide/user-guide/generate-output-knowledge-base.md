@@ -3,7 +3,8 @@ title: Knowledge Base
 description: Lär dig hur du skapar förinställningar för kunskapsbasen från webbredigeraren och kartpanelen. Konfigurera förinställningen för kunskapsbasutdata i AEM Guides.
 feature: Publishing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+exl-id: 5fc81de9-9ae0-4cd4-a7ef-b52eed2479f7
+source-git-commit: 83966cc9187b13dd3b5956821e0aa038b41db28e
 workflow-type: tm+mt
 source-wordcount: '1158'
 ht-degree: 0%
@@ -51,12 +52,13 @@ I webbredigeraren har följande konfigurationer ordnats under flikarna **Allmän
 | Kategorier | Välj en kategori i listrutan för att publicera ämnen i innehållsförteckningen i den kategorin på Salesforce-webbplatsen. |
 
 Du kan även visa följande alternativ i förinställningarna för Salesforce och ServiceNow:
+
 | Alternativ | Beskrivning |
-| — | — |
-|Ta bort ämnesrubriken från artikeltexten.|Välj det här alternativet om du vill ta bort ämnesrubriken från artikeln i publicerade utdata. |
-|Överför som utkast | Välj det här alternativet om du vill överföra ämnet för att dela det som ett utkast innan det görs tillgängligt för användarna.|
-|Överför bilder| Välj det här alternativet om du vill att bilder i ämnen ska inkluderas i publicerade utdata.|
-|Överför länkade dokument| Välj det här alternativet om du vill inkludera de dokument som är länkade i ämnen i publicerade utdata.|
+| --- | --- |
+| Ta bort ämnesrubriken från artikeltexten. | Välj det här alternativet om du vill ta bort ämnesrubriken från artikeln i publicerade utdata. |
+| Överför som utkast | Välj det här alternativet om du vill överföra ämnet för att dela det som ett utkast innan det görs tillgängligt för användarna. |
+| Överför bilder | Välj det här alternativet om du vill att bilder i ämnen ska inkluderas i publicerade utdata. |
+| Överför länkade dokument | Välj det här alternativet om du vill inkludera de dokument som är länkade i ämnen i publicerade utdata. |
 
 
 ### Adobe Experience Manager
@@ -73,6 +75,7 @@ Du kan även visa följande alternativ i förinställningarna för Salesforce oc
 | Kategori | Välj en kategori i listrutan om du vill publicera ämnen i innehållsförteckningen i den kategorin på webbplatsen Adobe Experience Manager. |
 | Avsnittsmall och artikelmall | Detta är de strukturella komponenter som används för att ordna innehållet i dina utdata. Dessa är fördefinierade i Adobe Experience Manager Site-mallen. |
 | Arbetsflöde efter generering | När du väljer det här alternativet visas en ny arbetsflödeslista som innehåller alla arbetsflöden som konfigurerats i Adobe Experience Manager. Du måste välja ett arbetsflöde som du vill köra när arbetsflödet för generering av utdata har slutförts.<br>Läs mer om hur du [anpassar arbetsflödet för efterhandsgenerering](/help/product-guide/install-guide/customize-workflows.md#id17A6GI004Y4) i installations- och konfigureringshandboken. |
+
 >[!TIP]
 > 
 >Välj **Uppdatera** ![Uppdatera ikon](images/navtitle-refresh-icon.svg) för att fylla i respektive mallar i fälten enligt den kunskapsbasmall som du har valt.
