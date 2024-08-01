@@ -5,7 +5,7 @@ exl-id: b801c2b3-445f-4aa7-a4f2-029563d7cb3a
 feature: Java-Based API Packages
 role: Developer
 level: Experienced
-source-git-commit: 4ce78061ddb193d3c16241ff32fa87060c9c7bd6
+source-git-commit: 1bb422427822e7f369e0c1be7de6b12ec012075e
 workflow-type: tm+mt
 source-wordcount: '550'
 ht-degree: 0%
@@ -71,12 +71,13 @@ throws GuidesApiException
 ```
 
 **Parametrar**:
-|Namn|Typ|Beskrivning|
-|—|—|—|
-|`json`|String|JSON-sträng som bestämmer vilket CRX-paket som ska skapas. Använd följande format för att skapa JSON-strängen: <br>- `activate`: Är av typen Boolean \(`true`/`false`\). Avgör om det CRX-paket som skapas i författarinstansen replikeras till publiceringsinstansen. <br> - `rules`: Är av typen JSON-matris. En array med JSON-regler som bearbetas sekventiellt för att skapa CRX-paketet. <br> - `rootPath`: Är av typen String. Bassökvägen som nod-/egenskapsfrågorna körs på. Om det inte finns några nod-/egenskapsfrågor inkluderas rotsökvägen och alla noder som finns under rotsökvägen i CRX-paketet. <br> - `nodeQueries`: Är av typen Regex Array. En array med reguljära uttryck som används för att inkludera specifika filer under rotsökvägen. <br> - `propertyQueries`: Är av typen JSON-matris. En array med JSON-objekt med varje JSON-objekt som består av en XPath-fråga som ska köras på rotsökvägen och namnet på en egenskap som finns i varje JCR-nod efter att frågan har körts. Värdet för egenskapen i varje JCR-nod ska vara en sökväg eller en array med sökvägar. Sökvägarna i den här egenskapen läggs till i CRX-paketet.|
-|`outputstream`|java.io.OutputStream|Detta används för att skriva resultatet från olika stadier, till exempel frågekörning, filinkludering, skapande av CRX-paket eller aktivering. Alla fel som påträffas under skapande eller aktiveringsprocessen skrivs till `outputstream`. Detta är användbart vid felsökning.|
-|`session`|Sträng|En giltig JCR-session med aktiveringsbehörighet.|
-|`activationTarget`|String|(*Valfri*) `preview` eller `publish` för Cloud Service och `publish` för lokal programvara <br> - Om parametern innehåller ett ogiltigt värde misslyckas paketaktiveringen för Cloud Service. <br> - Om parametern innehåller ett ogiltigt värde loggas felet för Lokal programvara och publiceringen görs med standardvärdet `publish`. |
+
+| Namn | Typ | Beskrivning |
+|----|----|-----------|
+| `json` | Sträng | JSON-sträng som bestämmer vilket CRX-paket som ska skapas. Använd följande format för att skapa JSON-strängen: <br>- `activate`: Är av typen Boolean \(`true`/`false`\). Avgör om det CRX-paket som skapas i författarinstansen replikeras till publiceringsinstansen. <br> - `rules`: Är av typen JSON-matris. En array med JSON-regler som bearbetas sekventiellt för att skapa CRX-paketet. <br> - `rootPath`: Är av typen String. Bassökvägen som nod-/egenskapsfrågorna körs på. Om det inte finns några nod-/egenskapsfrågor inkluderas rotsökvägen och alla noder som finns under rotsökvägen i CRX-paketet. <br> - `nodeQueries`: Är av typen Regex Array. En array med reguljära uttryck som används för att inkludera specifika filer under rotsökvägen. <br> - `propertyQueries`: Är av typen JSON-matris. En array med JSON-objekt med varje JSON-objekt som består av en XPath-fråga som ska köras på rotsökvägen och namnet på en egenskap som finns i varje JCR-nod efter att frågan har körts. Värdet för egenskapen i varje JCR-nod ska vara en sökväg eller en array med sökvägar. Sökvägarna i den här egenskapen läggs till i CRX-paketet. |
+| `outputstream` | java.io.OutputStream | Detta används för att skriva resultatet av olika steg, t.ex. frågekörning, filinkludering, skapande av CRX-paket eller aktivering. Alla fel som påträffas under skapande eller aktiveringsprocessen skrivs till `outputstream`. Detta är användbart vid felsökning. |
+| `session` | Sträng | En giltig JCR-session med aktiveringsbehörighet. |
+| `activationTarget` | Sträng | (*Valfritt*) `preview` eller `publish` för Cloud Service och `publish` för lokal programvara <br> - Om parametern innehåller ett ogiltigt värde misslyckas paketaktiveringen för Cloud Servicen. <br> - Om parametern innehåller ett ogiltigt värde loggas felet för Lokal programvara och publiceringen görs med standardvärdet `publish`. |
 
 **Undantag**:
 
