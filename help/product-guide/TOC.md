@@ -2,7 +2,7 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Läs produktdokumentationen för Adobe Experience Manager Guides.
 breadcrumb-title: Dokumentation om AEM Guides
-source-git-commit: 2b63b1d1c71e60c06c1d2c01b40b085dc7f4a6b0
+source-git-commit: 44875f9fb0935abd0ee58bf933bb0eedb50c0616
 workflow-type: tm+mt
 source-wordcount: '1829'
 ht-degree: 2%
@@ -428,7 +428,7 @@ ht-degree: 2%
       - Redigering {#authoring}
          - Webbredigeraren {#webeditor}
             - [Återanvändning av innehåll i AEM Guides](./knowledge-base/kb-articles/authoring/webeditor/content-reusability-in-aem-guides.md)
-            - [Använd markering i AEM Guides](./knowledge-base/kb-articles/authoring/webeditor/mardown-in-DITA-and-AEM-Guides.md)
+            - [Använd markering i AEM Guides](./knowledge-base/kb-articles/authoring/webeditor/markdown-in-dita-and-aem-guides.md)
             - Anpassar {#customizing}
                - [Lägg till anpassad knapp i verktygsfältet](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-button-to-webeditor-toolbar.md)
                - [Lägga till anpassade format i Web Editor](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-styles-to-webeditor.md)
