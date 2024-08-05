@@ -4,7 +4,7 @@ description: Lär dig hur du migrerar innehåll från lokal programvara till Clo
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 0c29d3cffa9f9a741ba5f7bd6150d234fbe8341e
+source-git-commit: af7b3595c10793a8faf72310083547f90b6568f0
 workflow-type: tm+mt
 source-wordcount: '952'
 ht-degree: 0%
@@ -74,8 +74,7 @@ Utför följande steg för att migrera ditt Experience Manager Guides-innehåll 
 1. Markera de tre punkterna och välj **Kopiera extraheringsnyckel**.
 
 
-1. Klicka på **Kopiera till Urklipp**.
-Skapa ditt första projekt.
+1. Klicka på **Kopiera till Urklipp**. Skapa ditt första projekt.
    ![extraheringsnyckel](./assets/migration-copy-to-clipboard.png)
 
 1. Välj **Adobe Experience Manager** längst upp och välj sedan rutan **Programvarudistribution**.
@@ -125,17 +124,14 @@ eller
 1. Markera **migreringsuppsättningen** och välj sedan **Extrahera** överst.
    ![extrahering av migreringsuppsättning ](./assets/migration-extract.png)
 
-1. Kontrollera informationen i popup-fönstret **Extrahering av migreringsuppsättning** för de sökvägar och konfigurationer du har valt och klicka på **Extrahera**.
-Extraheringen tar några minuter och du ser statusen som uppdaterad.
+1. Kontrollera informationen i popup-fönstret **Extrahering av migreringsuppsättning** för de sökvägar och konfigurationer du har valt och klicka på **Extrahera**. Extraheringen tar några minuter och du ser statusen som uppdaterad.
    ![extrahering av migreringsuppsättning](./assets/migration-set-extraction.png)
 
 1. När extraheringen är klar och markeras med statusen `finished` går du till Cloud Acceleration Manager och väljer det projekt du skapade i steg 18.
 Om du vill ha mer information markerar du de tre punkterna och väljer sedan **Visa information**.
 
 
-1. Kontrollera konfigurationen av migreringsuppsättningen i popup-fönstret Information om migreringsuppsättning och stäng popup-fönstret.
-
-   Du kan visa sökvägar och andra inställningar som på skärmbilden nedan:
+1. Kontrollera konfigurationen av migreringsuppsättningen i popup-fönstret Information om migreringsuppsättning och stäng popup-fönstret. Du kan visa sökvägar och andra inställningar som på skärmbilden nedan:
    ![migreringsinformation](./assets/migration-details.png)
 
 
@@ -146,8 +142,6 @@ Om du vill ha mer information markerar du de tre punkterna och väljer sedan **V
 1. Välj migreringsuppsättningen, välj den server som krävs för miljön och klicka sedan på **Ingest**.
 
    ![nytt förtäring](./assets/migration-new-ingestion.png)
-
-
 
 ## Kör innehållsöverföringsverktyg på en Publish-instans
 
