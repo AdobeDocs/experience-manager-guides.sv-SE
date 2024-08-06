@@ -4,18 +4,29 @@ description: Lär dig hur du migrerar innehåll från lokal programvara till Clo
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: af7b3595c10793a8faf72310083547f90b6568f0
+source-git-commit: f1c21c6a2683c99d2fcf91b6e5bd4626b3de653b
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '1000'
 ht-degree: 0%
 
 ---
 
 # Migrera innehåll från lokal till Cloud Service
 
-Experience Manager as a Cloud Service utgör en skalbar, säker och flexibel teknikgrund för Experience Manager Assets, Forms och Screens. På så sätt kan marknadsförare och IT-personal fokusera på att leverera slagkraftiga upplevelser i stor skala.
+Experience Manager as a Cloud Service utgör en skalbar, säker och flexibel teknikgrund för Experience Manager Guides, Assets, Forms och Screens. På så sätt kan marknadsförare och IT-personal fokusera på att leverera slagkraftiga upplevelser i stor skala.
 Med Experience Manager as a Cloud Service kan era team fokusera på innovationer istället för att planera för produktuppgraderingar. De nya funktionerna testas grundligt och skickas till era team utan avbrott så att de alltid har tillgång till den senaste versionen av Adobe Experience Manager.
+
 I den här artikeln beskrivs hur du migrerar lokalt eller Managed Services Experience Manager Guides-innehåll till Cloud Service steg för steg, vilket ger en smidig övergång till den molnbaserade plattformen.
+
+## Krav
+
+* Adobe Experience Manager 6.4 eller senare
+* Experience Manager Guides ska finnas i UUID-versionen. Om du använder en icke-UUID-version av Adobe Experience Manager Guides måste du först migrera till UUID enligt stegen i [Migrera icke-DITA-innehåll](./migrate-content-non-dita.md).
+* Åtkomst till **Cloud Acceleration Manager** för molninstansen där du vill migrera innehållet
+* Upp till 20 TB lagringsutrymme stöds
+* Total Lucene-indexstorlek på 25 GB
+* Längden på ett nodnamn måste vara mindre än 150 byte
+
 
 ## Migreringsprocess
 
@@ -36,15 +47,11 @@ Mer information om den senaste versionen finns i [Versionsinformation](https://e
 > 
 > Endast version 2.0.0 och senare stöds, och du bör använda den senaste versionen.
 
-### Krav
-
-* Adobe Experience Manager 6.4 eller senare
-* Upp till 20 TB lagringsutrymme stöds
-* Total Lucene-indexstorlek på 25 GB
-* Längden på ett nodnamn måste vara mindre än 150 byte
 
 
-Utför följande steg för att migrera ditt Experience Manager Guides-innehåll till Experience Manager som en molntjänst.
+
+
+Utför följande steg för att migrera Experience Manager Guides-innehåll till Experience Manager som en molntjänst.
 
 1. Logga in på [experience.adobe.com](https://experience.adobe.com/) och välj **Experience Manager**.
 
@@ -100,9 +107,9 @@ Utför följande steg för att migrera ditt Experience Manager Guides-innehåll 
    ![](./assets/migration-create-migration-set.png)
 
 1. Ange sökvägen som du vill migrera och klicka på **Spara**.
-Exempel: `/content/we-retail`
+Exempel: `/content/sites`
 eller
-   `/content/dam/wknd-events`
+   `/content/dam/tech-docs`
    ![inkluderade sökvägar](./assets/migration-included-paths.png)
 
 
@@ -118,7 +125,7 @@ eller
    * `/apps`
    * `/libs`
    * `/home`
-   * `/etc` Du kan välja några `/etc` sökvägar i CTT.
+   * `/etc` Du får välja vissa `/etc`-sökvägar i CTT.
 
 1. Klicka på **Spara**
 1. Markera **migreringsuppsättningen** och välj sedan **Extrahera** överst.
