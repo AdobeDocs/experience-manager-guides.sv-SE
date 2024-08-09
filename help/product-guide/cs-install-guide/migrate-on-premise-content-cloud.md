@@ -4,7 +4,7 @@ description: Lär dig hur du migrerar innehåll från lokal programvara till Clo
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: f1c21c6a2683c99d2fcf91b6e5bd4626b3de653b
+source-git-commit: 645d9983b66c740444f24e2283806b5ec4a4ee79
 workflow-type: tm+mt
 source-wordcount: '1000'
 ht-degree: 0%
@@ -21,7 +21,7 @@ I den här artikeln beskrivs hur du migrerar lokalt eller Managed Services Exper
 ## Krav
 
 * Adobe Experience Manager 6.4 eller senare
-* Experience Manager Guides ska finnas i UUID-versionen. Om du använder en icke-UUID-version av Adobe Experience Manager Guides måste du först migrera till UUID enligt stegen i [Migrera icke-DITA-innehåll](./migrate-content-non-dita.md).
+* Experience Manager Guides ska finnas i UUID-versionen. Om du använder en icke-UUID-version av Adobe Experience Manager Guides måste du först migrera till UUID enligt stegen i [Migrera icke-DITA-innehåll](../install-guide/migrate-uuid-non-uuid.md).
 * Åtkomst till **Cloud Acceleration Manager** för molninstansen där du vill migrera innehållet
 * Upp till 20 TB lagringsutrymme stöds
 * Total Lucene-indexstorlek på 25 GB
