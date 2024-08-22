@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Läs produktdokumentationen för Adobe Experience Manager Guides.
 breadcrumb-title: Dokumentation om AEM Guides
-source-git-commit: 3c861e42bb01255f19cb2c901a3bca94d7949b76
+source-git-commit: 135f78ae723f3d77a3e7448f5af79b2261b89b1e
 workflow-type: tm+mt
-source-wordcount: '1842'
+source-wordcount: '1848'
 ht-degree: 2%
 
 ---
@@ -469,16 +469,14 @@ ht-degree: 2%
                - [Anpassa](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
                - [Egen dialogruta](./guides-ui-extensions/customisations/ReviewApp/custom-dialog.md)
       - Publicerar {#publishing}
-
+         - DITA-OT {#dita-ot}
+            - [Använd AEM metadata i plugin-programmet](./knowledge-base/kb-articles/publishing/dita-ot/dita-ot-pass-and-use-aem-metadata-in-dita-ot.md)
          - [Configuring AEM Environment for Native PDF Publishing](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
-
          - [Generera bokmappens innehållsförteckning i ursprunglig PDF-publicering](./knowledge-base/kb-articles/publishing/how-to-include-bookmap-toc-in-pdf-publishing.md)
-
          - [FMPS och stödlinjer](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
          - [Microservice-arkitektur och prestanda](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
          - [Konfigurera mikrotjänstbaserad publicering med JWT-autentisering](./knowledge-base/publishing/configure-microservices.md)
          - [Konfigurera mikrotjänstbaserad publicering med OAuth-autentisering](./knowledge-base/publishing/configure-microservices-imt-config.md)
-
          - [Publicera riktmärken i AEM molnet](./knowledge-base/publishing/publishing-benchmarks-on-cloud.md)
          - [Konfigurera en anpassad DITA-OT](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
 
