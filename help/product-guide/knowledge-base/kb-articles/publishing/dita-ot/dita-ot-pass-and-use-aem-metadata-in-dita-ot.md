@@ -1,7 +1,7 @@
 ---
 title: Sprid AEM Assets-metadata till utdata som genereras av DITA-OT-plugin
 description: Konfigurera DITA-OT-plugin och -innehåll i AEM för att överföra metadata till genererade utdata
-source-git-commit: 5a427e14f13ba6e7344f48a9edb3f153a4958ba2
+source-git-commit: d1694535e27b0b605111f71f1f11c47ddb30536e
 workflow-type: tm+mt
 source-wordcount: '906'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Här nedan beskrivs de steg som du kommer att lära dig i den här artikeln:
 ## Bakgrund
 
 Med AEM Guides kan du använda DITA-OT-plugin-program för att publicera i valfritt utdataformat med de konfigurerade plugin-programmen, och
-du kan också skicka metadata för resurser som hanteras i AEM DAM till DITA-OT-processen för att använda den i genererade utdata - se dokumentationen om [hur du ställer in diemap/avsnitt för att skicka metadata via utdatapresentationer](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/pass-metadata-dita-ot)
+du kan också skicka metadata för resurser som hanteras i AEM DAM till DITA-OT-processen för att använda den i genererade utdata - se dokumentationen om [hur du ställer in diemap/avsnitt för att skicka metadata via utdatapanelen](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/pass-metadata-dita-ot)
 
 
 ## Antaganden
