@@ -2,7 +2,7 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Läs produktdokumentationen för Adobe Experience Manager Guides.
 breadcrumb-title: Dokumentation om AEM Guides
-source-git-commit: 135f78ae723f3d77a3e7448f5af79b2261b89b1e
+source-git-commit: 62c69ba7765f89b03381a5526e616a9118426fb9
 workflow-type: tm+mt
 source-wordcount: '1848'
 ht-degree: 2%
@@ -450,12 +450,12 @@ ht-degree: 2%
                - [Ikon](./guides-ui-extensions/aem_guides_framework/components/icon.md)
                - [Etikett](./guides-ui-extensions/aem_guides_framework/components/label.md)
                - [Lista](./guides-ui-extensions/aem_guides_framework/components/list.md)
-               - [Textområde](./guides-ui-extensions/aem_guides_framework/components/textArea.md)
+               - [Textområde](./guides-ui-extensions/aem_guides_framework/components/textarea.md)
             - Widgetar {#framework-widgets}
                - [Återgivningswidgetar](./guides-ui-extensions/aem_guides_framework/Widgets/rendering-widget.md)
                - [Grundläggande widgetar](./guides-ui-extensions/aem_guides_framework/Widgets/basic-widget.md)
          - Komma igång {#getting-started}
-            - [Introduktion](./guides-ui-extensions/getting-started/Introduction.md)
+            - [Introduktion](./guides-ui-extensions/getting-started/introduction.md)
             - [Installationsguide](./guides-ui-extensions/getting-started/integrating-customisations.md)
             - [Extension Repositry Inro](./guides-ui-extensions/getting-started/extension-repo-intro.md)
          - Anpassningar {#customisations}
@@ -463,7 +463,7 @@ ht-degree: 2%
             - [Anpassa snabbmenyer](./guides-ui-extensions/customisations/context-menus.md)
             - [Anpassa verktygsfältet och verktygsfältet](./guides-ui-extensions/customisations/toolbar-topbar.md)
             - [Exempel](./guides-ui-extensions/examples.md)
-            - [Anpassningsbara Json](./guides-ui-extensions/JSONs.md)
+            - [Anpassningsbara Json](./guides-ui-extensions/jsons.md)
             - Granska {#review-app-customisations}
                - [Komponenter](./guides-ui-extensions/customisations/ReviewApp/components.md)
                - [Anpassa](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
