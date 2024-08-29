@@ -5,14 +5,19 @@ feature: Migration
 role: Admin
 level: Experienced
 exl-id: 8f3a89fc-7d18-453d-909d-6dff5e275cab
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+source-git-commit: b0c7b944b66c4a4167beece4f827f3d5789531b5
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '788'
 ht-degree: 0%
 
 ---
 
 # Migrera versionshanterat innehåll
+
+>[!NOTE]
+>
+> Du kan migrera icke-UID-innehåll till UUID-innehåll i Experience Manager Guides. Den här artikeln arkiveras i november 2024.
+>Visa [**Ej UUID till UUID-innehållsmigrering**](./migrate-non-uuid-uuid-new.md) för den senaste och detaljerade dokumentationen.
 
 Utför de här stegen för att migrera ditt icke-UID-versionshanterade innehåll till UUID-innehåll.
 
@@ -87,7 +92,7 @@ Utför följande kontroller för den version som inte är UUID (4.1 icke-UID ell
 
 1. Se till att det lediga utrymmet är minst tio gånger så stort som det utrymme som AEM (crx-quickstart directory) tar under migreringen. När du är klar med migreringen kan du frigöra mer av diskutrymmet genom att köra en komprimering (se [Revision Cleanup](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en)).
 
-1. Aktivera *Aktivera Post Workflow Launcher* i `com.adobe.fmdita.config.ConfigManager` och *Aktivera Version Postprocessing* i `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation.`
+1. Aktivera *Aktivera startprogram för arbetsflöde efter bearbetning* i `com.adobe.fmdita.config.ConfigManager` och *Aktivera efterbearbetning av version* i `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation.`
 
 1. Installera UUID-versionen av den version som stöds över den version som inte är UUID. Om du till exempel använder 4.1-version som inte är UUID måste du installera UUID version 4.1 och köra migreringen.
 
@@ -98,7 +103,7 @@ Utför följande kontroller för den version som inte är UUID (4.1 icke-UID ell
    * Arbetsflöde för DAM-uppdatering
    * Arbetsflöde för DAM-metadataåterställning
 
-1. Inaktivera *Aktivera Post Workflow Launcher* i `com.adobe.fmdita.config.ConfigManager` och inaktivera *Aktivera Version Postprocessing* i `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation`.
+1. Inaktivera *Aktivera startprogram för arbetsflöde efter bearbetning* i `com.adobe.fmdita.config.ConfigManager` och inaktivera *Aktivera efterbearbetning av version* i `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation`.
 
 1. Inaktivera egenskapen Enable validation (`validation.enabled`) i Day CQ Tagging Service.
 
