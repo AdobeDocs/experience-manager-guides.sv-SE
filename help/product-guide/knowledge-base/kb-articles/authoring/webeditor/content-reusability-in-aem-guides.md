@@ -3,9 +3,9 @@ title: DITA-innehåll återanvänds i AEM Guides
 description: Den här korta artikeln visar hur AEM Guides och DITA hjälper dig att spara tid och arbete när du använder återanvändbarhet
 role: User, Admin
 exl-id: 1522ebf5-2aea-4d8f-ade7-367227b31dd9
-source-git-commit: 4160c990bafe41611714ef66ee361aba0ef47c0a
+source-git-commit: 12d7f9c3479d2fa8e8f0adad7cb89993cd17dec0
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Adobe AEM Guides utnyttjar DITA:s styrkor för att skapa ett användarvänligt gränssnitt för återanvändning av innehåll.
 
-I den här artikeln ska vi prata om:
+I den här artikeln diskuteras:
 
 1. [Återanvändning med ämnesreferens (](#reusability-using-topic-referencestopicref)
 2. [Återanvändbarhet med hjälp av innehållsreferens (](#reusability-using-content-reference-conref--conkeyref)
@@ -79,7 +79,7 @@ Du vill återanvända enskilda KYC-fragment för dina&quot;sparkonto&quot;- och&
 
 Här är `conref=kyc_procedures.dita#indvidual_kyc` kyc_procedure.dita filidentifieraren och #individual_kyc är fragmentidentifieraren.
 
-Kyc_procedure.dita är fortfarande den enda informationskällan. Om KYC-processen ändras i enlighet med gällande bestämmelser behöver du bara uppdatera ett ämne. Ändringarna återspeglas automatiskt i alla ämnen som refererar till det.
+Kyc_procedure.dita är fortfarande den enda informationskällan. Om det krävs uppdateringar av KYC-processen för att ändra lagstiftningen, ska du uppdatera ämnessökvägen med den nya. Ändringarna återspeglas automatiskt i alla ämnen som refererar till dem.
 
 Med AEM Guides klickar man två gånger
 
@@ -91,7 +91,7 @@ Steg 1: Klicka på Infoga återanvändbart innehåll
 Steg 2: Välj filen och fragmentet som ska återanvändas.
 ![conref](../../assets/publishing/content-reusability_image2.png)
 
-På samma sätt som &quot;conref&quot; kan du använda &quot;conkeyref&quot; och i stället för att ge innehållssökvägen kan du referera till innehåll via tangenter.
+På liknande sätt som &quot;conref&quot; kan du använda &quot;conkeyref&quot; och i stället för att ge en innehållssökväg refererar du till innehåll via nyckel
 
 Kodexempel:
 
@@ -111,7 +111,7 @@ Nyckeldefinitionen ser ut så här:
 </map>
 ```
 
-Nyckel -&quot;Kyc_procedure&quot; kommer även fortsättningsvis att vara den enda informationskällan. Om KYC-processen ändras enligt gällande bestämmelser behöver du bara uppdatera en ämnessökväg med en ny ämnessökväg. Ändringarna återspeglas automatiskt i alla ämnen som refererar till den.
+Nyckel -&quot;Kyc_procedure&quot; är fortfarande den enda informationskällan. Om KYC-processen ändras enligt gällande bestämmelser behöver du bara uppdatera en ämnessökväg med en ny ämnessökväg. Ändringarna återspeglas automatiskt i alla ämnen som refererar till den.
 
 ```
 <map id="ABC_manual">
@@ -133,7 +133,7 @@ Steg 1: Klicka på Infoga återanvändbart innehåll
 Steg 2: Välj rotkarta (valfritt), nyckel och fragment som behöver återanvändas.
 ![conkeyref](../../assets/publishing/content-reusability_image3.png)
 
-Här markerades rotkartan automatiskt eftersom den redan var öppen i mappningsvyn
+Här markerades rotkartan automatiskt eftersom den redan var öppen i kartvyn.
 
 
 ## Återanvänd material med ett enda klick i AEM Guides
@@ -154,14 +154,16 @@ Steg 2: Dra och släpp det fragment som du vill återanvända i något av målä
 
 - ### Allt innehåll visas inte när du har valt fil/nyckel i dialogrutan Återanvänd innehåll
 
-Du måste tilldela ID:n till fragment (Dita-element) som du vill återanvända i andra ämnen
+Tilldela ID:n till fragment (Dita-element) som du vill återanvända i andra ämnen
 
 - ## Tangenter visas inte i dialogrutan Återanvänd innehåll
 
-Kontrollera att du har öppnat rotmappningen/den överordnade kartan i en kartvy som har en nyckeldefinition eller lägg till rotmappssökvägen manuellt i samma dialogruta.
+  Kontrollera att du har öppnat rotmappningen/den överordnade kartan i kartvyn, som har en nyckeldefinition, eller lägg till rotmappssökvägen manuellt i samma dialogruta.
 
 
 <br>
+<br>
+<br>
 
 
-Post på AEM Guides Community [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) för alla frågor.
+Lägg upp [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) på AEM Guides Community för frågor.
