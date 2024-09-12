@@ -5,9 +5,9 @@ exl-id: 2a0ac0a0-b2a9-453e-851b-fb04c8903526
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 1eb4fcb33d6f905df3f543232e7040d1da42560b
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '539'
 ht-degree: 0%
 
 ---
@@ -76,4 +76,8 @@ Du kan visa ett fel om det finns en koppling med samma namn.
 * **Ta bort**: Ta bort den markerade kopplingen.
 
 
-När du har konfigurerat datakällan visas kopplingen under panelen **Datakällor** i webbredigeraren. Sedan kan du ansluta till datakällan och infoga ett innehållskuvert i dina ämnen. Mer information finns i [Infoga ett innehållsfragment från datakällan](../user-guide/web-editor-content-snippet.md).
+När du har konfigurerat datakällan visas kopplingen under panelen **Datakällor** i webbredigeraren. Sedan kan du ansluta till datakällan och infoga ett innehållskuvert i dina ämnen. Mer information finns i [Använd data från datakällan](../user-guide/web-editor-content-snippet.md).
+
+>[!NOTE]
+>
+>Du kan också skapa anpassade kopplingar och använda dem med olika datakällor. Lär dig hur du [konfigurerar anpassade anslutningar](../knowledge-base/kb-articles/data-source/conf-custom-data-source-connector.md).

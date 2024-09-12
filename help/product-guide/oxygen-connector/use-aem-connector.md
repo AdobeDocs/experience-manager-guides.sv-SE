@@ -6,9 +6,9 @@ hidefromtoc: true
 exl-id: 9a140564-27eb-404e-93a5-f5c81364e7f7
 feature: Oxygen Plugin, Authoring, Web Editor
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 6c89275df6bdcd031c45956aeb06b6c3e5753208
 workflow-type: tm+mt
-source-wordcount: '6294'
+source-wordcount: '6293'
 ht-degree: 0%
 
 ---
@@ -29,13 +29,13 @@ När du har installerat installationsprogrammet installerar du det på den lokal
 
 ### Tekniska krav
 
-- Syrgas-XML-författare version 25.1
+- Syrgas-XML-författare version 26.1
 
-- Adobe Experience Manager Guides version 4.3 eller senare
+- Adobe Experience Manager Guides version 4.6 eller senare
 
-- Adobe Experience Manager version 6.5 med Service Pack 14, 15, 16 och 17
+- Adobe Experience Manager version 6.5 med Service Pack 21, 20 och 19
 
-- Operativsystem som stöds av Sygen XML Author version 25.1
+- Operativsystem som stöds av Sygen XML Author version 26.1
 
 - Java Development Kit
    - Oracle SE 8 JRE 1.8
@@ -159,7 +159,7 @@ Uppdatera de angivna filerna för att konfigurera inställningarna för webbaute
 >
 >Säkerhetskopiera filen innan du uppdaterar den.
 
-**För Mac och syre 25.1**
+**För Mac och syre 26.1**
 
 Lägg till följande rader i env.sh
 
@@ -185,7 +185,7 @@ Lägg till följande rader i syreAuthor.sh
 -Djdk.module.illegalAccess=permit\-Djava.ipc.external=true\
 ```
 
-**För Windows och syre 25.1**
+**För Windows och syre 26.1**
 
 Lägg till följande rader i env.bat
 
@@ -746,7 +746,7 @@ Lösning: Utför följande steg för att konfigurera loggarna för Syrgas och Jx
    </configuration>   
    ```
 
-1. Spara filen i katalogen `Oxygen Author 25`. (Sökvägen skulle till exempel vara: `C:\Program Files\Oxygen XML Author 25\logback.xml`)
+1. Spara filen i katalogen `Oxygen Author 26`. (Sökvägen skulle till exempel vara: `C:\Program Files\Oxygen XML Author 26\logback.xml`)
 
 1. Stäng filen. Detta aktiverar syresloggar, som kommer att vara tillgängliga på sökvägen: `${user.home}/Desktop/oxygenLog/oxygen.log`
 1. Öppna filen `oxygenAuthor.bat` i en textredigerare.

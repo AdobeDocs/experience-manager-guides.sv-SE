@@ -5,16 +5,21 @@ exl-id: ecc023f6-48eb-4afd-97a2-4b3cdd5a8991
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 126cecdaa481b9da1add4ba3664c26c2bc5da068
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
 
 # Ange avancerad kartredigerare som standard {#id181AI0003PN}
 
-AEM Guides har en grundläggande kartredigerare och en avancerad kartredigerare. Med den grundläggande kartredigeraren får du alla funktioner som behövs för att skapa kartfilen. Avancerad kartredigerare har mycket fler funktioner och är integrerad i webbredigeraren. Med Advanced Map Editor kan man skapa och redigera DITA-kartfiler i ett lättanvänt gränssnitt.
+>[!NOTE]
+>
+> Redigeraren för den grundläggande kartan, som tidigare fanns i Experience Manager Guides, har tagits bort från version 4.3 och 2307. Du har inte åtkomst till redigeraren för grundläggande kartor för att skapa och hantera DITA-kartor.
+>Du rekommenderas att använda den avancerade kartredigeraren. Avancerad kartredigerare har förbättrade funktioner och bättre alternativ för anpassning. Läs mer om hur du arbetar med [Avancerad kartredigerare](../user-guide/map-editor-advanced-map-editor.md).
+
+För tidigare versioner än 4.3 och 2307 har Experience Manager Guides en grundläggande kartredigerare och en avancerad kartredigerare. Med den grundläggande kartredigeraren får du alla funktioner som behövs för att skapa kartfilen. Avancerad kartredigerare har mycket fler funktioner och är integrerad i webbredigeraren. Med Advanced Map Editor kan man skapa och redigera DITA-kartfiler i ett lättanvänt gränssnitt.
 
 När en ny kartfil skapas öppnas den som standard i den grundläggande kartredigeraren. Du kan ändra det här beteendet genom att aktivera inställningen för att öppna den avancerade kartredigeraren som standard.
 

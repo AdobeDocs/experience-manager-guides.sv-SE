@@ -4,9 +4,9 @@ description: Lär dig redigera ämnen i webbredigeraren. Lär dig olika redigeri
 exl-id: 8da37a81-e8c3-434f-b3f4-4723d87c2ade
 feature: Authoring, Web Editor
 role: User
-source-git-commit: d30f05ff614693beca5d9cf7f206a36f3dadfc8b
+source-git-commit: 2a22aa0746602f7ecd6b3d6cf616a68d45309bdf
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '1055'
 ht-degree: 0%
 
 ---
@@ -39,11 +39,13 @@ Webbredigeraren innehåller en rad redigeringsfunktioner som du kan använda fö
 ## Delvis markering av innehåll mellan element
 
 Med Experience Manager Guides kan du också markera innehåll över flera element. När du har markerat innehållet kan du utföra följande åtgärder:
+
 - Formatering och borttagning: Gör det markerade innehållet fet, kursiv, understruken eller ta bort det markerade innehållet. Innehållet från de giltiga öppna taggarna sammanfogas sedan och visas under ett enskilt element. Du kan till exempel markera innehållet i ett stycke och utöka markeringen till ett annat stycke. Om du sedan gör det markerade innehållet fetstilt sammanfogas allt fetstilt innehåll från de öppna märkorden och visas under ett enskilt styckeelement.
 
 Om du tar bort det markerade innehållet sammanfogas det återstående innehållet efter borttagningen i de öppna taggarna.
 
 - Omge innehållet med ett giltigt element: Utför följande steg för att omsluta innehållet med ett giltigt element:
+
    - Markera innehållet i ett element.
    - Välj ikonen ![lägg till](images/Add_icon.svg) i det sekundära verktygsfältet högst upp för att visa dialogrutan **Surround with Element** . I dialogrutan visas giltiga element för det markerade innehållet.
      >[!NOTE]
@@ -74,7 +76,27 @@ AEM Guides anger också om den senast sparade \(arbets\) kopian av filen är syn
 ![Versionsuppdateringsindikator](images/version-update-indicator.png){width="550" align="left"}
 
 
+## Öppna låsta filer i redigeringsläge och Source-läge
 
+När en DITA- eller Markdown-fil är låst eller utcheckad av en annan användare går det inte att redigera eller ändra innehållet. Du kan dock fortfarande visa filen i ett skrivskyddat format i både läget **Författare** och **Source**, utöver läget **Förhandsgranska**.
+
+I skrivskyddat läge kan du visa innehåll, taggar och attribut i **Författarläget** eller **Source** . Du kan också ändra filegenskaperna.
+
+I verktygsfältet visas följande ikoner för skrivskyddad åtkomst:
+
+- Växla taggvy
+- Tidigare versioner
+- Versionsetikett
+
+Experience Manager Guides visar även en **skrivskyddad åtkomstindikator** nära versionsnumret.
+
+![visa skrivskyddad fil i redigeringsläge](images/locked-file-editor.png)
+
+Du kan öppna vyn **Layout** för skrivskyddade DITA-kartor. I den här vyn kan du se DITA-kartan och dess egenskaper, men förhindrar redigeringar.
+
+>[!NOTE]
+>
+> Administrativa användare på mappnivå måste uppdatera *ui_config.json* så att du kan komma åt de skrivskyddade filerna i redigeringsläget, Source- och layoutläget.
 
 ## Leta reda på en öppen fil i databasvyn
 

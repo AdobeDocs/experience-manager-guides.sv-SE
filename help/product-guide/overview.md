@@ -4,7 +4,7 @@ description: Hitta självstudiekurser för Experience Manager Guides (tidigare X
 exl-id: 06dd1b77-1a98-430f-8322-475d4fa4947b
 feature: AEM Guides Tutorials
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: fb4b5fa72cc0643810e4c299dd827803687f0bc4
 workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 0%
@@ -36,7 +36,6 @@ Med lösningen [!DNL AEM Guides] kan företag leverera sömlösa och personalise
 * **[Utdatagenerering med  [!DNL AEM Guides]](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/overview.html){target="blank"}**
 
   _Lär dig hur du skapar utdata med [!DNL Adobe Experience Manager Guides]. Lär dig mer om olika funktioner som är tillgängliga för utdatagenerering - rapporter, baslinjer, villkor, felsökning, masspublicering och aktivering._
-
 
 <!--
 
@@ -90,9 +89,9 @@ Dummy links cause validation to fail
 
 -->
 
-
 ## Ytterligare resurser
 
 * [[!DNL AEM Guides] Användarhandbok online](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html)
 * [[!DNL AEM Guides] Stödlinjer för PDF](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)
 * [Experience League - Utforska AEM](https://experienceleague.adobe.com/#recommended/solutions/experience-manager)
+

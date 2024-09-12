@@ -4,9 +4,9 @@ description: Översätt ditt innehåll till flera språk från webbredigeraren. 
 exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: ce7619538b229625277a552071bed8800e67f677
+source-git-commit: 8b031dde7a91e47937395286dbc20300b76835d3
 workflow-type: tm+mt
-source-wordcount: '2246'
+source-wordcount: '2343'
 ht-degree: 0%
 
 ---
@@ -112,11 +112,15 @@ I ett XLIFF-projekt exporteras innehållet till det branschledande XLIFF-formate
    - Du kan välja **Skapa ett nytt flerspråkigt översättningsprojekt** som innehåller översättningsjobb för alla språk som du har valt för översättning. Om du till exempel har valt franska, tyska och spanska skapas ett projekt som innehåller översättningsjobb för alla tre språken.
    - Om du redan har ett översättningsprojekt kan du lägga till ämnen i det projektet. Välj Lägg till i **befintligt översättningsprojekt** i projektlistan och välj ett projekt i listan Befintliga översättningsprojekt. Du kan sortera dessa projekt efter den senaste, stigande eller fallande ordningen.
 
-     >[!NOTE]
-     >
-     > Om ditt befintliga projekt är ett omfångsprojekt har det &#39;\(omfång\)&#39; i sitt namn.
+- Om du väljer **Befintligt översättningsprojekt** uppdaterar den här åtgärden den befintliga resursposten i projektet om resursen redan har lagts till och det relaterade översättningsjobbtillståndet är i läget *Utkast*.
+   - Om målspråket inte finns i projektet skapas ett nytt projekt för översättningsprojektet för ett enda språk, och ett nytt jobb skapas för översättningsprojektet för flera språk.
+   - Om jobbet redan finns för målspråket och jobbstatusen inte är i tillståndet *Utkast* skapas ett nytt jobb i samma projekt för att lägga till resurserna för översättning.
 
-   - Om du behöver skapa omfånget för ett projekt som ska översättas kan du välja **Skapa ett nytt omfångsöversättningsprojekt**. Kopiorna skickas inte för översättning och den ursprungliga översättningsstatusen för filerna behålls. Det påverkar inte målspråkskopian av ämnen som skickas för omfång.
+  >[!NOTE]
+  >
+  > Om ditt befintliga projekt är ett omfångsprojekt har det &#39;\(omfång\)&#39; i sitt namn.
+
+- Om du behöver skapa omfånget för ett projekt som ska översättas kan du välja **Skapa ett nytt omfångsöversättningsprojekt**. Kopiorna skickas inte för översättning och den ursprungliga översättningsstatusen för filerna behålls. Det påverkar inte målspråkskopian av ämnen som skickas för omfång.
 1. Ange en rubrik för projektet i fältet **Projektnamn**.
 1. Klicka på **Skapa** för att skapa ett nytt översättningsprojekt.
 

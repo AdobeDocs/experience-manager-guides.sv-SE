@@ -4,14 +4,19 @@ description: Lär dig hur du arbetar med den grundläggande kartredigeraren i AE
 exl-id: 13da729d-e8f7-46ae-873a-1bfc32da974f
 feature: Authoring, Map Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 126cecdaa481b9da1add4ba3664c26c2bc5da068
 workflow-type: tm+mt
-source-wordcount: '1408'
+source-wordcount: '1471'
 ht-degree: 0%
 
 ---
 
 # Arbeta med den grundläggande kartredigeraren {#id1942CM005Y4}
+
+>[!NOTE]
+>
+> Redigeraren för den grundläggande kartan, som tidigare fanns i Experience Manager Guides, har tagits bort från version 4.3 och 2307. Du har inte åtkomst till redigeraren för grundläggande kartor för att skapa och hantera DITA-kartor.
+>Du rekommenderas att använda den avancerade kartredigeraren. Avancerad kartredigerare har förbättrade funktioner och bättre alternativ för anpassning. Läs mer om hur du arbetar med [Avancerad kartredigerare](../user-guide/map-editor-advanced-map-editor.md).
 
 Med den grundläggande redigeringsfunktionen för kartor kan du enkelt dra och släppa för att lägga till ämnen från din AEM för att skapa en DITA-karta eller en bokkarta. Du kan lägga till kapslade ämnen, relationstabeller, attribut och metadatainformation och även validera kartan för att se om den är korrekt.
 

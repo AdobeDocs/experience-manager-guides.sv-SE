@@ -5,9 +5,9 @@ exl-id: 830a4381-303c-419c-b87f-9563352a7eeb
 feature: Introduction, Installation
 role: Admin
 level: Experienced
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 8e43e76e22d1d8b7251c73f813e2e56f65633a5f
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
@@ -20,8 +20,10 @@ Så här hämtar och installerar du AEM Guides första gången på en dator:
 >
 > Om du vill använda Livefyre tillsammans med AEM Guides måste du installera Livefyre-versionerna tidigare än 3.0 innan du installerar AEM Guides. Om du använder Livefyre version 3.0 eller senare finns det ingen sådan begränsning.
 
-1. Hämta AEM Guides från Adobe Software Distribution Portal.
-
+1. Hämta AEM Guides från [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
+   >[!NOTE]
+   >
+   >Kontrollera att datorn uppfyller de [tekniska kraven](../install-guide/download-install-technical-requirements.md) innan du installerar Experience Manager Guides.
 1. Logga in i AEM och navigera till CRX Package Manager. Standardwebbadressen för att få åtkomst till pakethanteraren är:
 
    ```http

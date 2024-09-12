@@ -5,9 +5,9 @@ exl-id: ddc1393b-b269-40e5-9627-96dad82b42e9
 feature: DITA-OT Configuration
 role: Admin
 level: Experienced
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: b04f20af6e1f85746e13dad464513bf60b039378
 workflow-type: tm+mt
-source-wordcount: '2093'
+source-wordcount: '2122'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Det finns två sätt att använda en anpassad DITA-OT-plugin för publicering. D
 
 Som standard har AEM Guides en förkonfigurerad profil som innehåller konfigurationerna för standardmallarna som ska användas för att redigera och publicera innehåll. Du kan skapa anpassade profiler med anpassade mallar som ska användas när du redigerar dokument och anpassade DITA-OT-plugin-program för publicering av innehåll.
 
-Standardpaketet för DITA-OT som är tillgängligt med AEM Guides innehåller Apache FOP XSL-FO-processor, som inte stöder återgivning av MathML-ekvationer. Om du använder MathML-ekvationer i ditt innehåll måste du se till att du har integrerat ett MathML-renderingsprogram för Apache FOP eller använder en annan XSL-FO-processor.
+Standardpaketet för DITA-OT som är tillgängligt med AEM Guides har en Apache FOP XSL-FO-processor som inte stöder återgivning av MathML-ekvationer. Om du använder MathML-ekvationer i ditt innehåll måste du se till att du har integrerat ett plugin-program för MathML-renderingsmotor för Apache FOP eller använda en annan XSL-FO-processor.
 
 >[!IMPORTANT]
 >
@@ -165,11 +165,13 @@ Så här skapar du en ny profil och konfigurerar den så att den använder speci
 
 1. Välj **Stödlinjer** i listan över verktyg.
 
-1. Klicka på panelen **DITA-profiler**.
+1. Klicka på rutan **DITA-profiler**.
 
    >[!NOTE]
    >
    > Standardprofilinformationen visas på sidan Profiler. Om du har uppgraderat AEM Guides från version 2.2 till 2.5.1 eller 2.6 plockas alla ändringar som görs via konfigurationshanteraren automatiskt och lagras i standardprofilen.
+
+
 
 1. Du kan välja att redigera standardprofilen, skapa en ny profil eller duplicera inställningar från standardprofilen för att skapa en ny profil.
 
@@ -178,6 +180,12 @@ Så här skapar du en ny profil och konfigurerar den så att den använder speci
    > Du kan inte ta bort standardprofilen. Alla nya profiler som du skapar kan dock redigeras och tas bort.
 
 1. Ange sökvägen till anpassade DTD- och XSD `catalog.xml` -filer i AEM **Schema** \> **Katalog** -inställningarna.
+
+   >[!NOTE]
+   >
+   > Om du använder det anpassade schemat måste du definiera sökvägen för de anpassade DTD- och XSD-filerna catalog.xml i AEM i alternativet **Integrera kataloger**.
+
+
 
 1. Välj alternativet **Lägg till system-ID-katalog**.
 

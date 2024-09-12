@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Läs produktdokumentationen för Adobe Experience Manager Guides.
 breadcrumb-title: Dokumentation om AEM Guides
-source-git-commit: ff34f8b21d3e930ed332a360e90040a14b219f75
+source-git-commit: 3540c27fcfb856a0ee6b669c3d7a573331324817
 workflow-type: tm+mt
-source-wordcount: '1855'
+source-wordcount: '1879'
 ht-degree: 2%
 
 ---
@@ -72,6 +72,11 @@ ht-degree: 2%
             - [Versionsinformation för januari](./release-info/release-notes-2022-1-0.md)
       - Lokalt/Managed Services {#on-prem-release-notes}
          - [[!DNL AEM Guides] versioner](./release-info/latest-release-info.md)
+         - 4.6.0 version {#460-release}
+            - [Nyheter](./release-info/whats-new-4-6.md)
+            - [Åtgärdade problem](./release-info/fixed-issues-4-6-0.md)
+            - [Uppgraderingsinstruktioner](./release-info/upgrade-instructions-4-6-0.md)
+
          - 4.4.0-utgåva {#440-release}
             - [Nyheter](./release-info/whats-new-4-4.md)
             - [Åtgärdade problem](./release-info/fixed-issues-4-4.md)
@@ -206,6 +211,7 @@ ht-degree: 2%
       - [Grundläggande felsökning](./user-guide/generate-output-basic-troubleshooting.md)
       - [Publish Content Fragments](./user-guide/publish-content-fragment.md)
       - [Publish Experience Fragments](./user-guide/publish-experience-fragment.md)
+      - [Publish AEM Sites](./user-guide/publish-aem-sites.md)
       - Massaktivering av innehållet {#bulk-activation}
          - [Massaktivering av publicerat innehåll](./user-guide/conf-bulk-activation.md)
          - [Skapa en gruppaktiveringskarta](./user-guide/conf-bulk-activation-create-map-collection.md)
@@ -247,8 +253,8 @@ ht-degree: 2%
       - Innehållsmigrering {#content-migration}
          - [Migrering av icke-UID till UUID-innehåll](./install-guide/migrate-uuid-non-uuid.md)
          - Migreringsprocess {#migration-process}
-            - [Migrera icke-UID-innehåll med versioner](./install-guide/migrate-non-uuid-uuid-new.md)
-            - [Migrera icke-UID-innehåll med versioner (äldre)](./install-guide/migrate-non-uuid-uuid-with-versions.md)
+            - [Migrera icke-UID-innehåll med versioner](./install-guide/migrate-non-uuid-uuid.md)
+            - [Migrera icke-UID-innehåll med versioner (äldre)](./install-guide/migrate-non-uuid-uuid-with-versions-legacy.md)
          - [Migrera befintligt innehåll](./install-guide/migrate-content.md)
          - [Överför befintligt DITA-innehåll](./install-guide/migrate-content-upload-existing-dita-content.md)
          - [Migrera icke-DITA-innehåll](./install-guide/migrate-content-non-dita.md)
@@ -284,7 +290,6 @@ ht-degree: 2%
          - [Konfigurera textfilter](./install-guide/config-text-filters.md)
          - [Konfigurera antalet LimitReads för en fråga](./install-guide/conf-query-limitreads.md)
          - [Installera paket för artikelbaserad publicering](./install-guide/configure-article-based-publishing.md)
-         - [Konfigurera en datakällanslutning](./install-guide/conf-data-source-connector.md)
          - [Konfigurera en datakällanslutning från användargränssnittet](./install-guide/conf-data-source-connector-tools.md)
          - [Ange avancerad kartredigerare som standard](./install-guide/conf-map-editor.md)
          - [Inkludera @navtitle-attribut som standard](./install-guide/auto-add-navtitle.md)
@@ -377,7 +382,8 @@ ht-degree: 2%
          - [Konfigurera globala profiler eller profiler på mappnivå](./cs-install-guide/conf-folder-level.md)
       - Konfigurera versioner {#version-mgt-cs}
          - [Versionshantering](./cs-install-guide/version-management.md)
-      - Arbeta med inställningar för generering av utdata {#output-gen-config-cs}
+      - Arbeta med skrivbordsbaserade XML-redigerare {#desktop-xml-editor}
+         - Arbeta med inställningar för generering av utdata {#output-gen-config-cs}
          - [Konfigurera inställningar för utdatagenerering](./cs-install-guide/conf-output-generation.md)
          - [PDF Publishing](./cs-install-guide/native-pdf-publishing.md)
          - [Konfigurera nodprocess för Native PDF Publishing](./native-pdf/configure-node-options.md)
@@ -468,6 +474,10 @@ ht-degree: 2%
                - [Komponenter](./guides-ui-extensions/customisations/ReviewApp/components.md)
                - [Anpassa](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
                - [Egen dialogruta](./guides-ui-extensions/customisations/ReviewApp/custom-dialog.md)
+      - Extern datakälla {#external-data-source}
+         - [Integrera datakällor](../product-guide/knowledge-base/kb-articles/data-source/integrate-data-sources.md)
+         - [Konfigurera en datakällanslutning](../product-guide/knowledge-base/kb-articles/data-source/conf-custom-data-source-connector.md)
+
       - Publicerar {#publishing}
          - DITA-OT {#dita-ot}
             - [Använd AEM metadata i plugin-programmet](./knowledge-base/kb-articles/publishing/dita-ot/dita-ot-pass-and-use-aem-metadata-in-dita-ot.md)

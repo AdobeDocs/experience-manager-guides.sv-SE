@@ -5,9 +5,9 @@ exl-id: d8ee9cf7-1d67-4b4a-aa80-64e893a99463
 feature: API Introduction
 role: Developer
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 9024b552fd470344ba7b0068a147c37084ae0d13
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '760'
 ht-degree: 0%
 
 ---
@@ -222,6 +222,12 @@ Om du vill använda API-JAR måste du lägga till beroendet till ditt projekts p
 >[!NOTE]
 >
 > Eftersom paketen i API JAR fortfarande är desamma krävs ingen kodändring för att använda denna API JAR i de befintliga molnprojekten.
+
+### Java-baserade API:er
+
+Du kan använda Java-baserade API:er som finns i Experience Manager Guides för att skapa anpassade plugin-program och utöka färdiga arbetsflöden. Visa [![javadoc](https://javadoc.io/badge2/com.adobe.aem/aem-guides-sdk-api/javadoc.svg)](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api) för den senaste och detaljerade dokumentationen om hur du använder det Java-baserade API:t.
+
+
 
 ## Ytterligare resurser
 

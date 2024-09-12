@@ -5,9 +5,9 @@ exl-id: 4597d1be-5426-4eba-8490-e42d0e565427
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 1644bfba3332b0f023aa8d70aefd2680d4220d8a
 workflow-type: tm+mt
-source-wordcount: '2761'
+source-wordcount: '2802'
 ht-degree: 0%
 
 ---
@@ -130,27 +130,42 @@ Följ de här stegen för att konvertera befintliga InDesigner till ämnesdokume
 
    `/libs/fmdita/config/idml2dita_io.xml`
 
-1. Skapa en överläggsnod av mappen `config` i noden `apps`.
+1. Om du vill skapa en anpassad konfiguration enligt dina krav skapar du en överläggsnod av mappen `config` i noden `apps`.
+
+1. Kopiera följande filer eller mappar från mappen `libs` till programmappen:
+
+   - `/fmdita/config/idml2dita_io.xml`
+   - `/fmdita/idml2dita/config`
+   - `/fmdita/idml2dita/xsl`
 
 1. Navigera till konfigurationsfilen som finns i noden `apps`:
 
    `/apps/fmdita/config/idml2dita_io.xml`
 
-   Konfigurera följande parametrar i filen `idml2dita_io.xml`:
+1. Lägg till mappningen av konfigurationerna i mappen `idml12dita` i filen `idml2dita_io.xml`.
+1. Lägg till följande egenskaper i filen `idml2dita_io.xml`:
 
-   - I elementet `inputDir` anger du platsen för indatamappen där källdokumenten är tillgängliga. Om dina InDesign-dokument till exempel lagras i en mapp med namnet `indesigntodita` i mappen `projects` anger du platsen som: `/content/dam/idmlfiles/indesigntodita/`
+   ```
+   <entry key="idml2DitaConfig">/apps/fmdita/idml2dita/config</entry>
+   
+   <entry key="idml2DitaXsl">/apps/fmdita/idml2dita/xsl</entry>
+   ```
 
-   - I elementet `outputDir` anger du platsen för utdatamappen eller behåller standardplatsen för utdata för att spara det konverterade DITA-dokumentet. Om den angivna utdatamappen inte finns på DAM skapar konverteringsarbetsflödet utdatamappen.
+Konfigurera följande parametrar i filen `idml2dita_io.xml`:
 
-   - I elementet `mapStyle` anger du platsen för den mappningsfil som innehåller mappningar för InDesignens dokumentformat till DITA-element. Standardmappningen sparas i filen som finns på:
+- I elementet `inputDir` anger du platsen för indatamappen där källdokumenten är tillgängliga. Om dina InDesign-dokument till exempel lagras i en mapp med namnet `indesigntodita` i mappen `projects` anger du platsen som: `/content/dam/idmlfiles/indesigntodita/`
 
-     ```XML
-     /stmap.adobeidml.xml
-     ```
+- I elementet `outputDir` anger du platsen för utdatamappen eller behåller standardplatsen för utdata för att spara det konverterade DITA-dokumentet. Om den angivna utdatamappen inte finns på DAM skapar konverteringsarbetsflödet utdatamappen.
 
-     >[!NOTE]
-     >
-     > Mer information om strukturen för filen `stmap.adobeidml.xml` och hur du kan anpassa den finns i avsnittet [Förbered mappningsfilen för InDesign till DITA-migrering](appendix.md#id194AF0003HT) i *Bilaga*.
+- I elementet `mapStyle` anger du platsen för den mappningsfil som innehåller mappningar för InDesignens dokumentformat till DITA-element. Standardmappningen sparas i filen som finns på:
+
+```XML
+    /stmap.adobeidml.xml
+```
+
+>[!NOTE]
+>
+> Mer information om strukturen för filen `stmap.adobeidml.xml` och hur du kan anpassa den finns i avsnittet [Förbered mappningsfilen för InDesign till DITA-migrering](appendix.md#id194AF0003HT) i *Bilaga*.
 
 1. Spara filen `idml2dita_io.xml`.
 

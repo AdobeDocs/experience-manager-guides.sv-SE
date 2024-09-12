@@ -5,14 +5,22 @@ exl-id: 388ae654-c4f9-4bb7-ba98-370b8919e3a6
 feature: Java-Based API Folder Profiles
 role: Developer
 level: Experienced
-source-git-commit: 83966cc9187b13dd3b5956821e0aa038b41db28e
+source-git-commit: 8c80a4da8e61909aab0f2db81ef97149774b36c4
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
 
 # Java-baserat API för att arbeta med mappprofiler {#id175UB30E05Z}
+
+>[!NOTE]
+>
+> Du kan använda Java-baserade API:er som finns i Experience Manager Guides för att skapa anpassade plugin-program och utöka färdiga arbetsflöden. Den här artikeln arkiveras i november 2024.
+> Visa [![javadoc](https://javadoc.io/badge2/com.adobe.aem/aem-guides-sdk-api/javadoc.svg)](https://javadoc.io/doc/com.adobe.aem/aem-guides-sdk-api) för den senaste och detaljerade dokumentationen om hur du använder det Java-baserade API:t.
+
+
+
 
 Med följande Java-baserade API kan du lägga till villkorsstyrda attribut i en mappnivåprofil. Detta API är tillgängligt i form av ett paket. Du måste inkludera det här paketet i koden för att kunna använda dessa API:er.
 

@@ -5,16 +5,24 @@ exl-id: 438e2964-b9c7-462a-a68c-8031bd97911c
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: f8c71e18f5e2e5dbc5a2abdbb92c72fdad3bb233
+source-git-commit: 97d7776c81e7776d0248d6711ae5d05c46c44239
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '271'
 ht-degree: 0%
 
 ---
 
 # Skapa en mappning mellan ett ämne och ett innehållsfragment
 
-AEM Guides tillhandahåller funktionen för att skapa en JSON-baserad mappning mellan ett ämne och en innehållsfragmentmodell. Du kan använda den här mappningen för att publicera innehåll som finns i vissa eller alla element i ett ämne till ett innehållsfragment.
+
+
+Med Adobe Experience Manager Guides kan du skapa en JSON-baserad mappning mellan ett ämne och en innehållsfragmentmodell. Du kan använda JSON-baserad mappning för att publicera innehåll som finns i vissa eller alla element i ett ämne till ett innehållsfragment.
+
+>[!NOTE]
+> 
+> Om du använder 4.6 eller senare versioner behöver du inte skapa den här mappningen, kan du dra ämneselementen till fälten som finns i innehållsfragmentmodellen.
+> Läs mer om hur du [publicerar innehållsfragment](../user-guide/publish-content-fragment.md).
+
 
 1. Om du vill hämta *contentFragmentMapping.json* loggar du in på Adobe Experience Manager som administratör.
 1. Klicka på länken Adobe Experience Manager överst och välj **Verktyg**.
