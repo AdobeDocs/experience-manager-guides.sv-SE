@@ -1,9 +1,10 @@
 ---
 title: Distributionsalternativ och migrering till molnet
 description: AEM Guides, olika installationsalternativ och migrering av material från den färdiga installationen till AEMaaCS
-source-git-commit: 3c861e42bb01255f19cb2c901a3bca94d7949b76
+exl-id: 6224f35a-bbed-4a3b-b411-ee653c108d90
+source-git-commit: 4644b7237dcb85a2bc62495abcd48d2c312a7842
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
@@ -50,9 +51,9 @@ Och steg för att flytta stödlinjer (uuid) till molnet:
 ### Dokumentation
 
 - [Flyttar till AEM Cloud](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/migration-journey/getting-started)
-- [AEM Guides: Flytta UUID-innehåll från lokal/AMS till molnet](https://experienceleague.corp.adobe.com/docs/experience-manager-guides/using/install-guide/cs-ig/migrate-con-cs/migrate-on-premise-content-cloud.html)
+- [AEM Guides: Flytta UUID-innehåll från lokalt/AMS till molnet](../../cs-install-guide/migrate-on-premise-content-cloud.md)
 - [Verktyget Innehållsöverföring: Vanliga frågor](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/migration/moving-to-aem-as-a-cloud-service/content-migration/faq)
-- [AEM Guides: Migrera icke-uuid-innehåll till molnet](https://experienceleague.corp.adobe.com/docs/experience-manager-guides/using/install-guide/on-prem-ig/content-migration/migrate-uuid-non-uuid.html)
+- [AEM Guides: Migrera icke-uuid-innehåll till molnet](../../install-guide/migrate-uuid-non-uuid.md)
 
 ### Community Forum
 
