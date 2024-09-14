@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Läs produktdokumentationen för Adobe Experience Manager Guides.
 breadcrumb-title: Dokumentation om AEM Guides
-source-git-commit: 3540c27fcfb856a0ee6b669c3d7a573331324817
+source-git-commit: a9f8622dc5a2647bcff32c8895700d5c5933be4a
 workflow-type: tm+mt
-source-wordcount: '1879'
+source-wordcount: '1889'
 ht-degree: 2%
 
 ---
@@ -482,6 +482,7 @@ ht-degree: 2%
          - DITA-OT {#dita-ot}
             - [Använd AEM metadata i plugin-programmet](./knowledge-base/kb-articles/publishing/dita-ot/dita-ot-pass-and-use-aem-metadata-in-dita-ot.md)
          - [Configuring AEM Environment for Native PDF Publishing](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
+         - [Lägg till företagsmärkning på första sidan i en PDF](./knowledge-base/kb-articles/publishing/add-branding-to-bookmap-content-header.md)
          - [Generera bokmappens innehållsförteckning i ursprunglig PDF-publicering](./knowledge-base/kb-articles/publishing/how-to-include-bookmap-toc-in-pdf-publishing.md)
          - [FMPS och stödlinjer](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
          - [Microservice-arkitektur och prestanda](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
