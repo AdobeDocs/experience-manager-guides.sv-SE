@@ -2,9 +2,9 @@
 title: Versionsinformation | Problem i Adobe Experience Manager Guides 4.6.0 har åtgärdats
 description: Läs om felkorrigeringarna i version 4.6.0 av Adobe Experience Manager Guides
 role: Leader
-source-git-commit: 5a30d427fa579e37a18b0fca65dea96dc486c594
+source-git-commit: 17c3d945cb2a2faab1e361385a95e1de5a790a96
 workflow-type: tm+mt
-source-wordcount: '1946'
+source-wordcount: '1970'
 ht-degree: 0%
 
 ---
@@ -161,6 +161,8 @@ Adobe har identifierat följande kända fel i version 4.6.0:
 - Ämnets referens visas som brutet i användargränssnittet när det infogas från det övre verktygsfältet på DITA-kartan.
 - Generering av inbyggda PDF misslyckas för en DITA-karta om referenser saknas.
 - När ett ämnes dokumenttillstånd har uppdaterats till **Klar** är ikonen **Starta en ny version** bara tillgänglig i läget **Förhandsgranska** för ämnet.
+- När du väljer en DITA-fil i resursgränssnittet visas alternativet **Öppna i FrameMaker**, även om det är inaktiverat i konfigurationsinställningarna.
+
 
 
 
