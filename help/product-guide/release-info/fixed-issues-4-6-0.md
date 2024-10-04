@@ -2,9 +2,9 @@
 title: Versionsinformation | Problem i Adobe Experience Manager Guides 4.6.0 har åtgärdats
 description: Läs om felkorrigeringarna i version 4.6.0 av Adobe Experience Manager Guides
 role: Leader
-source-git-commit: 17c3d945cb2a2faab1e361385a95e1de5a790a96
+source-git-commit: 6bff0a9c8770418c4486b65feb1c11792b893ca8
 workflow-type: tm+mt
-source-wordcount: '1970'
+source-wordcount: '1985'
 ht-degree: 0%
 
 ---
@@ -75,8 +75,7 @@ Läs mer om [uppgraderingsinstruktioner för version 4.6.0](../release-info/upgr
 - Stängningsknappens beteende är inkonsekvent när funktionen Spara automatiskt används. (10996)
 - Valideringsproblem inträffar i MathML-element när nya element infogas eller ekvationer ändras. 10624
 - Funktionen Spåra ändringar fungerar inte med text som börjar med koreanska tecken. 14538
-
-
+- Länkade bilder från ämnena visas inte i baslinjen efter att versionen har skapats. 16931
 
 ## Publicering
 
