@@ -5,9 +5,9 @@ exl-id: cf437fb8-ed33-47af-aa7e-ffd8acd232da
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: cddbd7a19d4dfaa3f6549ed1bd511eeeb02acbb2
 workflow-type: tm+mt
-source-wordcount: '2889'
+source-wordcount: '2940'
 ht-degree: 0%
 
 ---
@@ -137,12 +137,29 @@ Följ de här stegen för att konvertera befintliga InDesigner till ämnesdokume
 1. Navigera till standardkonfigurationsfilen som finns på följande plats:
 
    `/libs/fmdita/config/idml2dita_io.xml`
+1. Om du vill skapa en anpassad konfiguration enligt dina krav skapar du en överläggsnod av mappen `config` i noden `apps`.
 
-1. Skapa en överläggsnod av mappen `config` i noden `apps`.
+1. Kopiera följande filer eller mappar från mappen `libs` till programmappen:
+
+   - `/fmdita/config/idml2dita_io.xml`
+   - `/fmdita/idml2dita/config`
+   - `/fmdita/idml2dita/xsl`
 
 1. Navigera till konfigurationsfilen som finns i noden `apps`:
 
    `/apps/fmdita/config/idml2dita_io.xml`
+
+1. Lägg till mappningen av konfigurationerna i mappen `idml12dita` i filen `idml2dita_io.xml`.
+1. Lägg till följande egenskaper i filen `idml2dita_io.xml`:
+
+   ```
+   <entry          key="idml2DitaConfig">/apps/fmdita/idml2dita/config</entry>
+   
+   <entry key="idml2DitaXsl">/apps/fmdita/idml2dita/xsl</entry>
+   ```
+
+1. Skapa en överläggsnod av mappen `config` i noden `apps`.
+
 
    Konfigurera följande parametrar i filen `idml2dita_io.xml`:
 

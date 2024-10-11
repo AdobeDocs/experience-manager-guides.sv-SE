@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Läs produktdokumentationen för Adobe Experience Manager Guides.
 breadcrumb-title: Dokumentation om AEM Guides
-source-git-commit: 23470fdb176fa487139f8a8822be7f95dd205a3e
+source-git-commit: f6e34c0bc57603b4251abd4859b43c95042e8819
 workflow-type: tm+mt
-source-wordcount: '1896'
+source-wordcount: '1964'
 ht-degree: 2%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 2%
       - Cloud Service {#cloud-release-notes}
          - [Distributionsanvisningar](./release-info/deploy-xml-on-aemaacs.md)
          - 2024-versioner {#2024-releases}
+            - 2024.10.0 utgåva {#2406-release}
+               - [Nyheter](./release-info/whats-new-2024-10-0.md)
+               - [Åtgärdade problem](./release-info/fixed-issues-2024-10-0.md)
+               - [Uppgraderingsinstruktioner](./release-info/upgrade-instructions-2024-10-0.md)
             - 2024.6.0 utgåva {#2406-release}
                - [Nyheter](./release-info/whats-new-2024-06-0.md)
                - [Åtgärdade problem](./release-info/fixed-issues-2024-06-0.md)
@@ -135,7 +139,8 @@ ht-degree: 2%
                - [Vyer i Web Editor](./user-guide/web-editor-views.md)
                - [Stöd för Schematron-filer](./user-guide/support-schematron-file.md)
                - [AI-baserade smarta förslag för att skapa innehåll](./user-guide/authoring-ai-based-smart-suggestions.md)
-
+               - [AI-baserad smart hjälp för att söka efter innehåll](./user-guide/ai-based-smart-help.md)
+               - [AI Assistant för att skapa dokument med smart effektivitet](./user-guide/AI-assistant-right-panel.md)
                - [Skapa markeringsdokument från webbredigeraren](./user-guide/web-editor-markdown-topic.md)
                - [Lägg till citat i innehållet](./user-guide/web-editor-apply-citations.md)
                - [Använd data från datakällor](./user-guide/web-editor-content-snippet.md)
@@ -189,7 +194,10 @@ ht-degree: 2%
       - [Grundläggande om generering av utdata](./user-guide/generate-output.md)
       - [Introduktion till förinställningar för utdata](./user-guide/generate-output-understand-presets.md)
       - Utdataförinställningar i AEM Guides {#output-presets-aemg}
-         - [AEM](./user-guide/generate-output-aem-site.md)
+
+         - [AEM Sites](./user-guide/generate-output-aem-site.md)
+         - [AEM Sites-förinställningar på kartkontrollpanelen](./user-guide/generate-output-aem-site-map-dashboard.md)
+         - [AEM Sites-förinställningar i Web Editor](./user-guide/generate-output-aem-site-web-editor.md)
          - [PDF](./user-guide/generate-output-pdf.md)
          - [Knowledge Base](./user-guide/generate-output-knowledge-base.md)
          - [HTML5](./user-guide/generate-output-html5.md)
@@ -302,6 +310,8 @@ ht-degree: 2%
          - [Integrera skrivbordsbaserade XML-redigerare](./install-guide/integrate-desktop-editors.md)
       - Arbeta med inställningar för generering av utdata {#output-gen-config}
          - [Konfigurera inställningar för utdatagenerering](./install-guide/conf-output-generation.md)
+         - [Hämta och installera vanliga webbplatsmallar](./install-guide/download-install-aem-sites-templates.md)
+         - [Lägg över HTML i AEM Sites-utdata](./install-guide/overlay-html-tags-aem-sites.md)
          - Inbyggd PDF-publicering {#config-native-pdf-publish}
             - [PDF-mall](./native-pdf/pdf-template.md)
             - [Komponenter i en PDF-mall](./native-pdf/components-pdf-template.md)
@@ -359,6 +369,8 @@ ht-degree: 2%
          - [Anpassa Web Editor](./cs-install-guide/conf-web-editor.md)
          - [Anpassa verktygsfältet](./cs-install-guide/conf-web-editor-customize-toolbar.md)
          - [Konfigurera AI-baserade smarta förslag för redigering](./cs-install-guide/conf-smart-suggestions.md)
+
+         - [Konfigurera den AI-baserade smarta hjälpen för att söka efter innehåll](./cs-install-guide/conf-smart-help.md)
          - [Konfigurera standardvärde för taggvyn](./cs-install-guide/configure-default-value-tags-view.md)
          - [Konfigurera visning av UUID-baserade länkar](./cs-install-guide/conf-uuid-based-links.md)
          - [Öppna DITA-avsnitt eller DITA-kartfiler på samma flik](./cs-install-guide/open-dita-files-same-tab.md)
@@ -383,8 +395,10 @@ ht-degree: 2%
       - Konfigurera versioner {#version-mgt-cs}
          - [Versionshantering](./cs-install-guide/version-management.md)
       - Arbeta med skrivbordsbaserade XML-redigerare {#desktop-xml-editor}
-         - Arbeta med inställningar för generering av utdata {#output-gen-config-cs}
+         - [Integrera skrivbordsbaserade XML-redigerare](./cs-install-guide/integrate-desktop-editors-cs.md)
+      - Arbeta med inställningar för generering av utdata {#output-gen-config-cs}
          - [Konfigurera inställningar för utdatagenerering](./cs-install-guide/conf-output-generation.md)
+         - [Hämta och installera vanliga webbplatsmallar](./cs-install-guide/download-install-aem-sites-templates-cs.md)
          - [PDF Publishing](./cs-install-guide/native-pdf-publishing.md)
          - [Konfigurera nodprocess för Native PDF Publishing](./native-pdf/configure-node-options.md)
          - [Skapa en mappning mellan ett ämne och ett innehållsfragment](./cs-install-guide/conf-content-fragment-mapping-cs.md)

@@ -6,9 +6,9 @@ hidefromtoc: true
 exl-id: 9a140564-27eb-404e-93a5-f5c81364e7f7
 feature: Oxygen Plugin, Authoring, Web Editor
 role: User, Admin
-source-git-commit: 6c89275df6bdcd031c45956aeb06b6c3e5753208
+source-git-commit: b2b26a85236245f989866ab8ee801a930ed8a8c4
 workflow-type: tm+mt
-source-wordcount: '6293'
+source-wordcount: '6347'
 ht-degree: 0%
 
 ---
@@ -346,7 +346,7 @@ När du har anslutit till AEM kan du öppna filer för redigering i Sygen XML Au
 
 1. Högerklicka på en fil i panelen AEM Guides som du vill öppna för redigering.
 
-1. Välj **Öppna** på snabbmenyn.
+1. Välj **Öppna** på snabbmenyn. Du kan också dubbelklicka på filen för att öppna den.
 
    Filen öppnas i redigeraren i Sygen XML Author.
 
@@ -354,12 +354,14 @@ När du har anslutit till AEM kan du öppna filer för redigering i Sygen XML Au
 
    När du håller muspekaren över en fils flik visas serversökvägen tillsammans med dess UUID. I skärmbilden ovan markeras dokumentets UUID.
 
+>[!NOTE]
+>
+>När du placerar pekaren över bilderna eller videoklippen i ett ämne i Författaren för Syrgas XML visas bara UUID för det valda objektet. Om du vill hitta den i databasen högerklickar du på den visade bilden eller objekttaggen (endast för videofilmer, ljud och andra mediefiler) och väljer **Visa i databas**.
+
+
 
 Om du har markerat alternativet **Automatisk utcheckning av fil när den är öppen** \(i dialogrutan Inställningar\) checkas filen automatiskt ut och är tillgänglig för redigering när du öppnar en fil. Om du vill öppna en fil kan du antingen dubbelklicka på ett filnamn eller högerklicka på filnamnet och välja **Öppna** på snabbmenyn. Om det här alternativet inte är markerat öppnas filen i skrivskyddat läge.
 
->[!NOTE]
->
->Du kan också dubbelklicka på en fil för att öppna den.
 
 ### Öppna filen i AEM Guides Editor {#id195GH0V30KX}
 

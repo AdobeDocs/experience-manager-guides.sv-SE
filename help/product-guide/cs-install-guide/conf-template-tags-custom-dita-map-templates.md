@@ -5,9 +5,9 @@ exl-id: a0eeb43c-06e4-4922-a005-704e8929063f
 feature: Template Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 83971ee35a19cf0146ddd034b1ae7a345f587663
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '489'
 ht-degree: 0%
 
 ---
@@ -55,4 +55,20 @@ Nästa gång du skapar en ny karta visas mallen på sidan Design. Mer informatio
 >
 > Mer information om hur du använder anpassade mappningsmallar finns i avsnittet *Egna mallar* i guiden Bästa metoder.
 
-**Överordnat ämne:**[ Konfigurera ämne- och mappningsmallar](conf-template-tags.md)
+
+## Anpassa antalet referenser i en DITA-karta
+
+Du kan konfigurera tröskelvärdet för asynkron bearbetning baserat på antalet referenser i DITA-kartan. Som standard skapas kartor med fler än 5 referenser via asynkrona åtgärder, medan kartor med färre referenser fortsätter med synkrona åtgärder.
+
+
+Använd instruktionerna i [Konfigurationsåsidosättningar](download-install-additional-config-override.md#) för att skapa konfigurationsfilen. I konfigurationsfilen anger du följande (egenskaps) information för att ange antalet referenser i DITA-mappningsmallen för att behålla processen synkron:
+
+| PID | Egenskapsnyckel | Egenskapsvärde |
+|---|------------|--------------|
+| com.adobe.fmdita.xmleditor.config.XmlEditorConfig | xmleditor.asyncmapcreation | > 0 <br> **Standardvärde**: 5 |
+
+När du skapar en DITA-karta med stora ämnesreferenser med hjälp av en anpassad mall kommer kartan inte att kunna skapas på molnservern om den totala bearbetningstiden överstiger 60 sekunder.
+
+För att förhindra detta konfigurerar du **asynkron datamappning** i XmlEditorConfig som tillåter att aktiviteter körs parallellt och minskar behandlingstiderna för större DITA-kartor.
+
+**Överordnat ämne:** [Konfigurera ämne- och mappningsmallar](conf-template-tags.md)

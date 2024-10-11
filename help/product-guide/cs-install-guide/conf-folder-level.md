@@ -5,9 +5,9 @@ exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
 feature: Profiles
 role: Admin
 level: Experienced
-source-git-commit: 3bdc3c6370bbad67f9c31f538a49bee105fec0f9
+source-git-commit: c94eb03af60ef9df60f77c21bfce1c45708df2f8
 workflow-type: tm+mt
-source-wordcount: '4285'
+source-wordcount: '4521'
 ht-degree: 0%
 
 ---
@@ -411,7 +411,7 @@ Om du har uppdaterat en befintlig förinställning eller vill göra en ny förin
 
 För ![AEM molnet ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service.
 
-Du kan konfigurera de AI-baserade smarta förslagen och hjälpa författarna att återanvända det befintliga innehållet och enkelt skapa korrekta och konsekventa innehållsreferenser. På fliken **AI-konfiguration** kan du styra inställningarna för panelen Smarta förslag i webbredigeraren.
+Du kan konfigurera de AI-baserade smarta förslagen och hjälpa författarna att återanvända det befintliga innehållet och enkelt skapa korrekta och konsekventa innehållsreferenser. På fliken **AI-konfiguration** kan du styra inställningarna för **Föreslå återanvändbart innehåll** från AI-assistentpanelen i Web Editor.
 
 Utför följande steg för att konfigurera AI-standardkonfigurationen på global nivå eller på mappnivå:
 1. Logga in i Adobe Experience Manager som administratör eller användare med administratörsbehörighet för en mappnivåprofil.
@@ -446,52 +446,52 @@ Läs mer om hur du visar och lägger till [AI-baserade smarta förslag](../user-
 
 
 
-<!--## Configure AI-powered Guides Assistant in the Web Editor {#conf-ai-guides-assistant}
+## Konfigurera AI-baserad smart hjälp i Web Editor {#conf-ai-guides-assistant}
 
-For ![AEM cloud ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service.
+För ![AEM molnet ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service.
 
-You can configure the AI-powered **Guides Assistant** to help the authors ask questions and easily find the required content from the [ Experience Manager Guides Documentation](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
+Du kan konfigurera den AI-baserade **smarta hjälpen** så att författarna kan ställa frågor och enkelt hitta det innehåll som behövs från [Experience Manager Guides-dokumentationen](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
 
-The **XML Editor Configuration** tab allows you to configure the default questions of the **Guides Assistant panel** in the Web Editor.
+På fliken **XML-redigerarkonfiguration** kan du konfigurera standardfrågorna för den **smarta hjälppanelen** i Web Editor.
 
 >[!NOTE]
 >
->You can configure up to 10 default questions. 
+>Du kan konfigurera upp till tio standardfrågor.
 
-Perform the following steps to configure the default questions:
+Så här konfigurerar du standardfrågorna:
 
-1. Log into Adobe Experience Manager as an administrator or user with administrative rights on a folder-level profile.
-1. Select the **Adobe Experience Manager** link at the top and choose **Tools**.
-1. Select **Guides** from the list of tools and select the **Folder Profiles** tile.
-1. Select the profile tile that you want to configure.
+1. Logga in i Adobe Experience Manager som administratör eller användare med administratörsbehörighet för en mappnivåprofil.
+1. Markera länken **Adobe Experience Manager** överst och välj **Verktyg**.
+1. Välj **Stödlinjer** i listan med verktyg och välj **Mappprofiler**.
+1. Markera profilrutan som du vill konfigurera.
 
-    >[!NOTE]
-    >
-    >You can configure default questions for the **Guides assistant panel** to the global or a folder-level profile.
+   >[!NOTE]
+   >
+   >Du kan konfigurera standardfrågor för den **smarta hjälppanelen** till den globala profilen eller en mappnivåprofil.
 
-1.  Select the **XML Editor Configuration** tab. 
+1. Välj fliken **XML-redigerarkonfiguration**.
 
-1. Click the **Edit** icon on the top.
-1.  In the **XML Editor UI configuration** section, select the **Download** icon to download the `ui_config.json` file on your local system.
-1.  In the `ui_config.json` file, add the sample questions.
+1. Klicka på ikonen **Redigera** överst.
+1. I avsnittet **Gränssnittskonfiguration för XML-redigeraren** väljer du ikonen **Hämta** för att hämta filen `ui_config.json` på din lokala dator.
+1. Lägg till exempelfrågorna i filen `ui_config.json`.
 
-    **Example of sample questions**:
+   **Exempel på exempelfrågor**:
 
-    ```json
-    "assistantSampleQuestions": [
-    "How to create a new topic",
-    "How to create a new map",
-    "What is a baseline" ]
-    ```
+   ```json
+   "assistantSampleQuestions": [
+   "How to create a new topic",
+   "How to create a new map",
+   "What is a baseline" ]
+   ```
 
-1. Save the file and upload it.
+1. Spara filen och överför den.
 
-    >[!NOTE]
-    >
-    > The default questions appear in the **Guides assistant** panel after you save the file. 
+   >[!NOTE]
+   >
+   > Standardfrågorna visas på panelen **Smart hjälp** när du har sparat filen.
 
 
-Learn more about using the [AI-powered Guides assistant](../user-guide/ai-based-guides-assistant.md) to find the required content from the Experience Manager Guides documentation. -->
+Läs mer om hur du använder den [AI-baserade smarta hjälpen](../user-guide/ai-based-smart-help.md) för att hitta det innehåll som krävs från Experience Manager Guides-dokumentationen.
 
 
 ## Konfigurera och anpassa XML Web Editor {#id2065G300O5Z}
