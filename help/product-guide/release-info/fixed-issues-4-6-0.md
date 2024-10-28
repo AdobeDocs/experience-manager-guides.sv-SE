@@ -2,9 +2,9 @@
 title: Versionsinformation | Problem i Adobe Experience Manager Guides 4.6.0 har åtgärdats
 description: Läs om felkorrigeringarna i version 4.6.0 av Adobe Experience Manager Guides
 role: Leader
-source-git-commit: 6bff0a9c8770418c4486b65feb1c11792b893ca8
+source-git-commit: 9ffe068bbcdc0fe32e3dbf56a48171d241825e5a
 workflow-type: tm+mt
-source-wordcount: '1985'
+source-wordcount: '1996'
 ht-degree: 0%
 
 ---
@@ -107,6 +107,7 @@ Läs mer om [uppgraderingsinstruktioner för version 4.6.0](../release-info/upgr
 - Omgenereringen av ämnen misslyckas på grund av fel i OTB-genereringen av ämne eller inkrementellt publicerings-API. 18452
 - Villkorsförinställningen hämtar inte uppdaterade attribut efter uppgradering av Experience Manager Guides. 18174
 - Innehållsreferenser löses inte korrekt för Native PDF om filen som innehåller nyckeldefinitioner inte finns i samma mapp som DITA-kartan. 15062
+- Massaktivering av publicerat innehåll fungerar inte för lokaliserade kartor. 17638
 
 
 ## Förvaltning
