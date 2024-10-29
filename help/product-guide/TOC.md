@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Läs produktdokumentationen för Adobe Experience Manager Guides.
 breadcrumb-title: Dokumentation om AEM Guides
-source-git-commit: 9db546b3a9e0ece66024e1c06c6cec52b786ff76
+source-git-commit: f74362c78532ddd7721faf66789281a8c0704194
 workflow-type: tm+mt
-source-wordcount: '1974'
+source-wordcount: '1988'
 ht-degree: 2%
 
 ---
@@ -20,10 +20,13 @@ ht-degree: 2%
       - Cloud Service {#cloud-release-notes}
          - [Distributionsanvisningar](./release-info/deploy-xml-on-aemaacs.md)
          - 2024-versioner {#2024-releases}
-            - 2024.10.0 utgåva {#2410-release}
-               - [Nyheter](./release-info/whats-new-2024-10-0.md)
-               - [Åtgärdade problem](./release-info/fixed-issues-2024-10-0.md)
-               - [Uppgraderingsinstruktioner](./release-info/upgrade-instructions-2024-10-0.md)
+            - 2024.10.x utgåva {#2410-release}
+               - 2024.10.1 utgåva {#2410-1-release}
+                  - [Åtgärdade problem](./release-info/fixed-issues-2024-10-1.md)
+               - 2024.10.0 utgåva {#2410-0-release}
+                  - [Nyheter](./release-info/whats-new-2024-10-0.md)
+                  - [Åtgärdade problem](./release-info/fixed-issues-2024-10-0.md)
+                  - [Uppgraderingsinstruktioner](./release-info/upgrade-instructions-2024-10-0.md)
             - 2024.6.0 utgåva {#2406-release}
                - [Nyheter](./release-info/whats-new-2024-06-0.md)
                - [Åtgärdade problem](./release-info/fixed-issues-2024-06-0.md)
@@ -76,11 +79,13 @@ ht-degree: 2%
             - [Versionsinformation för januari](./release-info/release-notes-2022-1-0.md)
       - Lokalt/Managed Services {#on-prem-release-notes}
          - [[!DNL AEM Guides] versioner](./release-info/latest-release-info.md)
+         - 4.6.1 version {#461-release}
+            - [Åtgärdade problem](./release-info/fixed-issues-4-6-1.md)
+            - [Uppgraderingsinstruktioner](./release-info/upgrade-instructions-4-6-1.md)
          - 4.6.0 version {#460-release}
             - [Nyheter](./release-info/whats-new-4-6.md)
             - [Åtgärdade problem](./release-info/fixed-issues-4-6-0.md)
             - [Uppgraderingsinstruktioner](./release-info/upgrade-instructions-4-6-0.md)
-
          - 4.4.0-utgåva {#440-release}
             - [Nyheter](./release-info/whats-new-4-4.md)
             - [Åtgärdade problem](./release-info/fixed-issues-4-4.md)
@@ -106,7 +111,6 @@ ht-degree: 2%
          - [Versionsinformation för 4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
          - [3.8.x Versionsinformation](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Användarhandbok {#user-guide}
-
    - Introduktion {#about-aem-guide}
       - [Om [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - [!DNL AEM Guides] fungerar och nyckelfunktioner {#aemg-works-features}
@@ -118,18 +122,14 @@ ht-degree: 2%
       - [Hantera filer och mappar](./user-guide/authoring-file-management.md)
       - [Hämta filer](./user-guide/authoring-download-assets.md)
    - Författarinnehåll {#author-content}
-
       - [Redigeringsöversikt](./user-guide/authoring-content.md)
       - Skapa och förhandsgranska ämne {#create-preview-topics}
-
          - [Skapa och förhandsgranska ämnen](./user-guide/create-preview-topics.md)
          - [Skapa ämnen](./user-guide/web-editor-create-topics.md)
          - [Förhandsgranska ett ämne](./user-guide/web-editor-preview-topics.md)
          - Skapar innehåll {#author-content-aem-guides}
-
             - [Hur man skapar innehåll med AEM Guides](./user-guide/authoring-content-xml-doc.md)
             - Webbredigeraren {#work-with-web-editor}
-
                - [Arbeta med webbredigeraren](./user-guide/web-editor.md)
                - [Starta Web Editor](./user-guide/web-editor-launch-editor.md)
                - [Redigera ämnen i Web Editor](./user-guide/web-editor-edit-topics.md)
@@ -154,7 +154,6 @@ ht-degree: 2%
                - [Skapa och hantera baslinjer från Web Editor](./user-guide/web-editor-baseline.md)
                - [Dokumenttillstånd](./user-guide/web-editor-document-states.md)
                - [Använd etiketter](./user-guide/web-editor-use-label.md)
-
             - Kartredigeraren {#work-with-map-editor}
                - [Arbeta med kartredigeraren](./user-guide/map-editor.md)
                - [Skapa en karta](./user-guide/map-editor-create-map.md)
@@ -164,12 +163,10 @@ ht-degree: 2%
                - [Andra funktioner i kartredigerarna](./user-guide/map-editor-other-features.md)
             - DITAVAL Editor {#ditaval-editor}
                - [Arbeta med DITAVAL-redigeraren](./user-guide/ditaval-editor.md)
-
          - Skrivbordsverktyg för att skapa innehåll {#author-using-desktop-tools}
             - [Skapa innehåll med hjälp av skrivbordsverktyg](./user-guide/author-desktop-tools.md)
             - [Arbeta med FrameMaker](./user-guide/author-desktop-framemaker.md)
             - [Arbeta med syre](./user-guide/author-desktop-oxygen.md)
-
    - Granska innehåll {#review-topic-maps}
       - [Granska ämnen och kartor](./user-guide/review.md)
       - [Skapa ett DITA-projekt](./user-guide/authoring-create-dita-project.md)
@@ -194,7 +191,6 @@ ht-degree: 2%
       - [Grundläggande om generering av utdata](./user-guide/generate-output.md)
       - [Introduktion till förinställningar för utdata](./user-guide/generate-output-understand-presets.md)
       - Utdataförinställningar i AEM Guides {#output-presets-aemg}
-
          - [AEM Sites](./user-guide/generate-output-aem-site.md)
          - [AEM Sites-förinställningar på kartkontrollpanelen](./user-guide/generate-output-aem-site-map-dashboard.md)
          - [AEM Sites-förinställningar i Web Editor](./user-guide/generate-output-aem-site-web-editor.md)
@@ -242,7 +238,6 @@ ht-degree: 2%
       - [Återanvänd innehåll - rapport](./user-guide/reports-content-reuse.md)
       - [Statusrapport för konvertering](./user-guide/reports-convertion-status.md)
       - [Rapport över versionshistorik för återskapade filer](./user-guide/reports-reverted-file-version-history.md)
-
 - Installation och konfiguration {#install-guide}
    - Lokal {#on-prem-ig}
       - [Grunderna på plats](./install-guide/introduction.md)
@@ -369,7 +364,6 @@ ht-degree: 2%
          - [Anpassa Web Editor](./cs-install-guide/conf-web-editor.md)
          - [Anpassa verktygsfältet](./cs-install-guide/conf-web-editor-customize-toolbar.md)
          - [Konfigurera AI-baserade smarta förslag för redigering](./cs-install-guide/conf-smart-suggestions.md)
-
          - [Konfigurera den AI-baserade smarta hjälpen för att söka efter innehåll](./cs-install-guide/conf-smart-help.md)
          - [Konfigurera standardvärde för taggvyn](./cs-install-guide/configure-default-value-tags-view.md)
          - [Konfigurera visning av UUID-baserade länkar](./cs-install-guide/conf-uuid-based-links.md)
@@ -428,7 +422,6 @@ ht-degree: 2%
    - [Händelsehanterare för slutförd gruppaktivering](./api-reference/bulk-activation-complete-event.md)
    - [Händelsehanterare för konverteringsprocess](./api-reference/conversion-complete-event.md)
 - Knowledge Base {#knowledge-base}
-
    - Expertsession {#expert-session}
       - [Översikt över expertsessioner](./knowledge-base/expert-sessions/expert-session.md)
       - [Översätta innehåll](./knowledge-base/expert-sessions/translating-content-using-aem-guides-oct22.md)
@@ -447,7 +440,6 @@ ht-degree: 2%
       - [Distributionsalternativ och migrering till molnet](./knowledge-base/expert-sessions/migration-uuid-onprem-to-cloud.md)
       - [Migrera innehåll från icke-uuid till UUID](./knowledge-base/expert-sessions/migration-non-uuid-to-uuid.md)
    - Artiklar {#kb-articles}
-
       - Redigering {#authoring}
          - Webbredigeraren {#webeditor}
             - [Återanvändning av innehåll i AEM Guides](./knowledge-base/kb-articles/authoring/webeditor/content-reusability-in-aem-guides.md)
@@ -492,9 +484,7 @@ ht-degree: 2%
       - Extern datakälla {#external-data-source}
          - [Integrera datakällor](../product-guide/knowledge-base/kb-articles/data-source/integrate-data-sources.md)
          - [Konfigurera en datakällanslutning](../product-guide/knowledge-base/kb-articles/data-source/conf-custom-data-source-connector.md)
-
       - Publicerar {#publishing}
-
          - Inbyggd PDF {#native-pdf}
             - [Lägg till anpassade teckensnitt i DITA Native PDF](./knowledge-base/kb-articles/publishing/add-custom-font-native-pdf.md)
             - [Configuring AEM Environment for Native PDF Publishing](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
@@ -504,13 +494,10 @@ ht-degree: 2%
             - [Använd AEM metadata i plugin-programmet](./knowledge-base/kb-articles/publishing/dita-ot/dita-ot-pass-and-use-aem-metadata-in-dita-ot.md)
             - [Konfigurera en anpassad DITA-OT](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
          - [FMPS och stödlinjer](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
-
          - [Microservice-arkitektur och prestanda](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
          - [Konfigurera mikrotjänstbaserad publicering med JWT-autentisering](./knowledge-base/publishing/configure-microservices.md)
          - [Konfigurera mikrotjänstbaserad publicering med OAuth-autentisering](./knowledge-base/publishing/configure-microservices-imt-config.md)
-         - [Publicera riktmärken i AEM molnet](./knowledge-base/publishing/publishing-benchmarks-on-cloud.md)
-
-
+         - [Publicerar riktmärken AEM molnet](./knowledge-base/publishing/publishing-benchmarks-on-cloud.md)
       - Arbetsflöden {#workflows}
          - [Arbetsflöde efter generering](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
       - Översättning {#translation}
@@ -519,5 +506,4 @@ ht-degree: 2%
       - Användningsexempel {#use-cases}
          - [Arbeta med villkorligt innehåll](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
          - [Arbeta med tangenter](./knowledge-base/kb-articles/content-architecture/working-with-keys.md)
-
    - [Använd syreanslutning](./oxygen-connector/use-aem-connector.md)

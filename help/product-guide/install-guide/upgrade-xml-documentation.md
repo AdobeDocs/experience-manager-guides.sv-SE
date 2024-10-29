@@ -5,9 +5,9 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 5e02c3bdecda68dfcaac225626a2a47e4af5f30f
+source-git-commit: f74362c78532ddd7721faf66789281a8c0704194
 workflow-type: tm+mt
-source-wordcount: '6943'
+source-wordcount: '6995'
 ht-degree: 0%
 
 ---
@@ -18,10 +18,11 @@ ht-degree: 0%
 >
 > Följ uppgraderingsinstruktionerna för den licensierade versionen av din produkt.
 
-Du kan uppgradera din nuvarande version av Experience Manager Guides till version 4.6.0:
+Du kan uppgradera din nuvarande version av Experience Manager Guides till version 4.6.1:
 
 
-- Om du använder version 4.4, 4.3.1 eller 4.3.0 kan du uppgradera direkt till version 4.6.0.
+- Om du använder version 4.6.0 kan du uppgradera direkt till version 4.6.1.
+- Om du använder version 4.4, 4.3.1 eller 4.3.0 måste du uppgradera till version 4.6.0 innan du uppgraderar till 4.6.1.
 - Om du använder version 4.2, 4.2.1 (programfix 4.2.1.3), 4.1 eller 4.1.x måste du uppgradera till version 4.4 innan du uppgraderar till version 4.6.0.
 - Om du använder version 4.0 måste du uppgradera till version 4.2 innan du uppgraderar till version 4.3.x.
 - Om du använder version 3.8.5 måste du uppgradera till version 4.0 innan du uppgraderar till version 4.2.
@@ -984,11 +985,15 @@ Under den här uppgraderingen måste du, eftersom värdet `'order'` ändras frå
 
 ## Uppgradera till version 4.6.0 {#upgrade-version-4-6-0}
 
-Uppgradering till version 4.6.0 beror på vilken version av Experience Manager Guides du har. Om du använder version 4.4.0, 4.3.1, 4.3.0, 4.2 eller 4.2.1 (programfix 4.2.1.3) kan du uppgradera direkt till version 4.6.0
+>[!TIP]
+>
+> Vi rekommenderar att du installerar programfix 4.6.1 ovanpå version 4.6.0. Uppgraderingsprocessen för version 4.6.1 följer samma steg som för version 4.6.0.
+
+Uppgradering till version 4.6.0 beror på vilken version av Experience Manager Guides du har. Om du använder version 4.4.0, 4.3.1, 4.3.0, 4.2 eller 4.2.1 (programfix 4.2.1.3) kan du uppgradera direkt till version 4.6.0.
 
 >[!NOTE]
 >
->Efterbearbetningen och indexeringen kan ta några timmar. Vi rekommenderar att du startar uppgraderingsprocessen under lågtider.
+> Efterbearbetningen och indexeringen kan ta några timmar. Vi rekommenderar att du startar uppgraderingsprocessen under lågtider.
 
 ****Förutsättningar****
 
