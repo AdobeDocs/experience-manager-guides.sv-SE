@@ -2,7 +2,7 @@
 title: Versionsinformation | Nyheter i Adobe Experience Manager Guides 2024.10.0
 description: Läs om de nya och förbättrade funktionerna i version 2024.10.0 av Adobe Experience Manager Guides
 role: Leader
-source-git-commit: 545e51cbd970aa3df01a0fe2461a2e730c0db66a
+source-git-commit: b5ee4610811209719c7f0ff4bd03d8ae55f2d934
 workflow-type: tm+mt
 source-wordcount: '1025'
 ht-degree: 0%

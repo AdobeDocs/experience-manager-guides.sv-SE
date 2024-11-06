@@ -5,9 +5,9 @@ exl-id: 0d3a909c-3499-4ef4-b033-02e412dae959
 feature: Translation
 role: Admin
 level: Experienced
-source-git-commit: bc2348ae3342addf9ab05a3e3898fa485dba9bcf
+source-git-commit: f7ce1dc72edfcec939e5bd25bbf82c2e3907a326
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '836'
 ht-degree: 0%
 
 ---
@@ -92,6 +92,40 @@ Baserat på det översättningsarbetsflöde som används i konfigurationen bör 
 
 1. Klicka på **Spara**.
 
+>[!IMPORTANT]
+>
+> När du har konfigurerat översättningskonfigurationerna kontrollerar du att du har konfigurerat rätt molnkonfiguration för språkmapparna.
+
+## Konfigurera det äldre arbetsflödet för översättning
+
+>[!IMPORTANT]
+> 
+> Vi rekommenderar att du använder det senaste arbetsflödet för översättning, vilket ger bättre prestanda. Om det finns anpassningar aktiverade i den aktuella översättningsprocessen bör du använda det äldre översättningsarbetsflödet.
+
+Som standard är alternativet för äldre översättningsarbetsflöde inaktiverat. Du kan konfigurera det här alternativet genom att utföra följande steg:
+
+1. Öppna konfigurationssidan för Adobe Experience Manager Web Console.
+
+   Standardwebbadressen för åtkomst till konfigurationssidan är:
+
+   ```http
+   http://<server name>:<port>/system/console/configMgr
+   ```
+
+1. Sök efter och klicka på paketet **com.adobe.fmdita.config.ConfigManager**.
+
+1. Konfigurera det äldre alternativet för översättningsarbetsflöde enligt dina inställningar:
+
+   - (*Standard*) Om du vill använda det senaste översättningsarbetsflödet inaktiverar du alternativet **Kör gammalt översättningsarbetsflöde**.
+   - Om du vill använda det äldre översättningsarbetsflödet aktiverar du alternativet **Kör gammalt översättningsarbetsflöde**.
+
+1. Klicka på **Spara**.
+
+
+
+
+
+
 <!---
 
 This was added for 2406 CS IG
@@ -125,9 +159,7 @@ Based on the translation workflow used in your setup, provide the following (pro
 
 
 --->
->[!IMPORTANT]
->
-> När du har konfigurerat översättningskonfigurationerna kontrollerar du att du har konfigurerat rätt molnkonfiguration för språkmapparna.
+
 
 ## Konfigurera efterbearbetning av tillfälliga språkkopior
 
@@ -145,10 +177,10 @@ Som standard är alternativet för efterbearbetning av tillfälliga filer inakti
 
 1. Sök efter och klicka på paketet **com.adobe.fmdita.config.ConfigManager**.
 
-1. Konfigurera alternativet **Post-bearbeta språkkopior** enligt dina inställningar:
+1. Konfigurera alternativet **Efterbearbetning av språkkopior** enligt dina inställningar:
 
-   - \(*Standard*\) Om du inte vill köra efterbearbetningsåtgärden för de temporära filerna *Inaktivera* alternativet **Post-processspråk kopieras**.
+   - \(*Standard*\) Om du inte vill köra efterbearbetningsåtgärden för de temporära filerna *Inaktivera* alternativet **Efterbearbetningsspråk**.
 
-   - Om du vill köra efterbearbetningen av de temporära filerna *Aktivera* alternativet **Post-processspråkkopior**.
+   - Om du vill köra efterbearbetningen av de temporära filerna *Aktivera* alternativet **Efterbearbetning av språkkopior**.
 
 1. Klicka på **Spara**.

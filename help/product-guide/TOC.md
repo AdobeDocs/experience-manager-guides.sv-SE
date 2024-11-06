@@ -2,7 +2,7 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Läs produktdokumentationen för Adobe Experience Manager Guides.
 breadcrumb-title: Dokumentation om AEM Guides
-source-git-commit: f74362c78532ddd7721faf66789281a8c0704194
+source-git-commit: 9553c05b1ab9657d6138aa0ff026cc4494514bd8
 workflow-type: tm+mt
 source-wordcount: '1988'
 ht-degree: 2%
@@ -20,13 +20,12 @@ ht-degree: 2%
       - Cloud Service {#cloud-release-notes}
          - [Distributionsanvisningar](./release-info/deploy-xml-on-aemaacs.md)
          - 2024-versioner {#2024-releases}
-            - 2024.10.x utgåva {#2410-release}
-               - 2024.10.1 utgåva {#2410-1-release}
-                  - [Åtgärdade problem](./release-info/fixed-issues-2024-10-1.md)
-               - 2024.10.0 utgåva {#2410-0-release}
-                  - [Nyheter](./release-info/whats-new-2024-10-0.md)
-                  - [Åtgärdade problem](./release-info/fixed-issues-2024-10-0.md)
-                  - [Uppgraderingsinstruktioner](./release-info/upgrade-instructions-2024-10-0.md)
+            - 2024.10.0 SP1 utgåva {#2410-0-sp1-release}
+               - [Åtgärdade problem](./release-info/fixed-issues-2024-10-0-sp1.md)
+            - 2024.10.0 utgåva {#2410-0-release}
+               - [Nyheter](./release-info/whats-new-2024-10-0.md)
+               - [Åtgärdade problem](./release-info/fixed-issues-2024-10-0.md)
+               - [Uppgraderingsinstruktioner](./release-info/upgrade-instructions-2024-10-0.md)
             - 2024.6.0 utgåva {#2406-release}
                - [Nyheter](./release-info/whats-new-2024-06-0.md)
                - [Åtgärdade problem](./release-info/fixed-issues-2024-06-0.md)
@@ -79,9 +78,9 @@ ht-degree: 2%
             - [Versionsinformation för januari](./release-info/release-notes-2022-1-0.md)
       - Lokalt/Managed Services {#on-prem-release-notes}
          - [[!DNL AEM Guides] versioner](./release-info/latest-release-info.md)
-         - 4.6.1 version {#461-release}
-            - [Åtgärdade problem](./release-info/fixed-issues-4-6-1.md)
-            - [Uppgraderingsinstruktioner](./release-info/upgrade-instructions-4-6-1.md)
+         - 4.6.0 SP1 version {#460-sp1-release}
+            - [Åtgärdade problem](./release-info/fixed-issues-4-6-0-sp1.md)
+            - [Uppgraderingsinstruktioner](./release-info/upgrade-instructions-4-6-0-sp1.md)
          - 4.6.0 version {#460-release}
             - [Nyheter](./release-info/whats-new-4-6.md)
             - [Åtgärdade problem](./release-info/fixed-issues-4-6-0.md)

@@ -3,9 +3,9 @@ title: Adobe Experience Manager Guides släpper färdplan 2024
 description: Få information om live- och kommande versioner av Adobe Experience Manager Guides On-Prem och Adobe Experience Manager Guides as a Cloud Service
 role: Admin, Leader, Developer, User
 exl-id: cb6709ce-2732-45d0-adfd-5aeca520240e
-source-git-commit: f601319dc2fe6b4f71099bb881c7a6712135c4cf
+source-git-commit: 703e4b200797c8b346253d15019cadd7c80f16a1
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,8 @@ Utgåvorna för Experience Manager Guides as a Cloud Service planeras enligt fö
 | Adobe Experience Manager Guides 2024.4.0 | Automatisk uppdatering | 26 april 2024 | [Här](whats-new-2024-04-0.md) | [Här](upgrade-instructions-2024-04-0.md) | [Här](fixed-issues-2024-04-0.md) | Uppdaterat |
 | Adobe Experience Manager Guides 2024.6.0 | Automatisk uppdatering | 10-12 juni 2024 | [Här](whats-new-2024-06-0.md) | [Här](upgrade-instructions-2024-06-0.md) | [Här](fixed-issues-2024-06-0.md) | Uppdaterat |
 | Adobe Experience Manager Guides 2024.10.0 | Automatisk uppdatering | 14-16 oktober 2024 | [Här](whats-new-2024-10-0.md) | [Här](upgrade-instructions-2024-10-0.md) | [Här](fixed-issues-2024-10-0.md) | Uppdaterat |
-| Adobe Experience Manager Guides 2024.10.1 | Service Pack 1 | 29 oktober 2024 | - | - | [Här](fixed-issues-2024-10-1.md) | Uppdaterat |
+| Adobe Experience Manager Guides 2024.10.0 | Service Pack 1 | 29 oktober 2024 | - | - | [Här](fixed-issues-2024-10-0-sp1.md) | Uppdaterat |
+| Adobe Experience Manager Guides 2024.12.0 | Automatisk uppdatering | 9-11 december 2024 |  |  |  | Mål |
 | Adobe Experience Manager Guides 2025.02.0 | Automatisk uppdatering | ~ Februari 2025 |  |  |  | Mål |
 | Adobe Experience Manager Guides 2025.04.0 | Automatisk uppdatering | ~ April 2025 |  |  |  | Mål |
 
@@ -42,6 +43,7 @@ Produktuppdateringar i form av nya funktioner, förbättringar och felkorrigerin
 |---|---|---|---|---|---|
 | Adobe Experience Manager Guides 4.4.0 | Frigör | 29 januari 2024 | [Här](whats-new-4-4.md) | [Här](upgrade-instructions-4-4.md) | Frisläppt |
 | Adobe Experience Manager Guides 4.6.0 | Frigör | 12 september 2024 | [Här](whats-new-4-6.md) | [Här](upgrade-instructions-4-6-0.md) | Frisläppt |
-| Adobe Experience Manager Guides 4.6.1 | Service Pack 1 | 29 oktober 2024 | - | [Här](upgrade-instructions-4-6-1.md) | Frisläppt |
+| Adobe Experience Manager Guides 4.6.0 | Service Pack 1 | 29 oktober 2024 | - | [Här](upgrade-instructions-4-6-0-sp1.md) | Frisläppt |
+| Adobe Experience Manager Guides 4.6.0 | Service Pack 2 | I slutet av januari 2025 |  |  | Mål |
 | Adobe Experience Manager Guides 5.0.0 | Frigör | ~ Februari 2025 |  |  | Mål |
 | Adobe Experience Manager Guides 5.1.0 | Frigör | ~ Augusti 2025 |  |  | Mål |
