@@ -4,9 +4,9 @@ user-guide-description: Läs produktdokumentationen för Adobe Experience Manage
 breadcrumb-title: Dokumentation om AEM Guides
 hide: true
 badgeAll: label="Äldre guide - mer info" type="Informative" url="/help/legacy-product-guide/legacy.md" tooltip="Äldre guide"
-source-git-commit: 62c69ba7765f89b03381a5526e616a9118426fb9
+source-git-commit: 328f74790de401c0595bcc4009110bc36f5104bf
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '543'
 ht-degree: 2%
 
 ---
@@ -107,6 +107,8 @@ ht-degree: 2%
       - [Introduktion till förinställningar för utdata](./user-guide/generate-output-understand-presets.md)
       - Utdataförinställningar i AEM Guides {#output-presets-aemg}
          - [AEM](./user-guide/generate-output-aem-site.md)
+         - [AEM Sites-förinställningar på kartkontrollpanelen](./user-guide/generate-output-aem-site-map-dashboard.md)
+         - [AEM Sites-förinställningar i Web Editor](./user-guide/generate-output-aem-site-web-editor.md)
          - [PDF](./user-guide/generate-output-pdf.md)
          - [Knowledge Base](./user-guide/generate-output-knowledge-base.md)
          - [HTML5](./user-guide/generate-output-html5.md)
