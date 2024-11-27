@@ -3,9 +3,9 @@ title: Använd HTML5
 description: Lär dig hur du skapar en förinställning för HTML5 från webbredigeraren och kartpanelen. Konfigurera förinställningen HTML5 för utdata i AEM Guides.
 feature: Publishing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
-source-wordcount: '1187'
+source-wordcount: '1226'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Fliken **Allmänt** innehåller följande konfigurationer:
 Fliken Avancerat innehåller följande konfigurationer:
 
 - Transformeringsnamn
-- Hämta temporära filer
+- Behåll tillfälliga filer
 - Filegenskaper
 
 Mer information finns i [HTML5-konfigurationen](#id231KJA00REJ).
@@ -64,7 +64,8 @@ Följande alternativ är tillgängliga för utdata från HTML5:
 | Filnamn | Ange det filnamn som du vill spara HTML5-utdata med.<br><br>**Obs!** Om du inte anger något filnamn används DITA-kartans titel för att generera det slutliga HTML5-utdatafilnamnet. Om kartan inte har någon titel används DITA-kartans filnamn för att namnge det slutliga HTML5-resultatet. Filnamnet sanaliseras med de regler som konfigurerats i systemet för att hantera ogiltiga tecken. |
 | Kör arbetsflöde efter generering | När du väljer det här alternativet visas en ny arbetsflödeslista som innehåller alla arbetsflöden som är konfigurerade i AEM. Du måste välja ett arbetsflöde som du vill köra när arbetsflödet för generering av utdata har slutförts.<br><br>**Obs!**: Mer information om hur du skapar ett anpassat arbetsflöde för postutdatagenerering finns i _Anpassa arbetsflöde för efterutdatagenerering_ i Installera och konfigurera Adobe Experience Manager Guides as a Cloud Service. |
 | Målsökväg | Den sökväg i AEM där HTML5-utdata lagras. |
-| Hämta temporära filer | Välj det här alternativet om du vill hämta temporära filer som genererats av DITA-OT. Platsen där tillfälliga filer lagras i DITA-OT finns i loggen för generering av utdata. Om du får problem när du genererar utdata via DITA-OT väljer du det här alternativet om du vill behålla de tillfälliga filerna. Du kan sedan använda dessa filer för att felsöka fel vid generering av utdata.<br> <br> När du har skapat utdata väljer du ikonen **Hämta temporära filer** ![Hämta temporära filer](images/download-temp-files-icon.png) för att hämta ZIP-mappen som innehåller de temporära filerna. <br><br> **Obs!** Om du väljer filegenskaper och sedan hämtar de temporära filerna, får du även filen *metadata.xml* i ZIP-mappen. |
+| Behåll tillfälliga filer | Välj det här alternativet om du vill behålla de temporära filer som genererats av DITA-OT. Om du får problem när du genererar utdata via DITA-OT väljer du det här alternativet om du vill behålla de tillfälliga filerna. Du kan sedan använda dessa filer för att felsöka fel vid generering av utdata.<br> <br> När du har skapat utdata väljer du ikonen **Hämta temporära filer** ![Hämta temporära filer](images/download-temp-files-icon.png) för att hämta ZIP-mappen som innehåller de temporära filerna. <br><br> **Obs!** Om filegenskaper läggs till under genereringen innehåller de tillfälliga utdatafilerna även en *metadata.xml*-fil som innehåller dessa egenskaper. |
+| Förenkla filhierarki | Markera alternativet om du vill generera utdata från HTML 5 i en hierarki med platta mappar. Hela innehållet publiceras i utdataformatet HTML5 i en platt filhierarki och sparas i en enda mapp. <br> Om du avmarkerar det här alternativet genereras utdata i en kapslad mapphierarki och hela mappstrukturen replikeras. |
 | Använd baslinje | Om du har skapat en baslinje för den valda DITA-kartan väljer du det här alternativet för att ange vilken version du vill publicera.<br><br>Mer information finns i [Arbeta med baslinje](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF). |
 | Filegenskaper | Välj de egenskaper som du vill bearbeta som metadata. Dessa egenskaper ställs in från sidan Egenskaper i DITA-kartan eller bokmappningsfilen. Egenskaperna som du väljer i listrutan visas under fältet **Filegenskaper**. Markera kryssikonen bredvid egenskapen för att ta bort den. <br><br>**Obs!**: Du kan också skicka metadata till utdata med DITA-OT-publicering. Mer information finns i [Skicka metadata till utdata med DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
 

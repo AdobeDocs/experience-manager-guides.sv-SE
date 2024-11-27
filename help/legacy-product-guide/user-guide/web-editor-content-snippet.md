@@ -3,7 +3,7 @@ title: Infoga ett innehållssfragment från datakällan
 description: Använd data från datakällan i AEM Guides. Lär dig hur du infogar ett innehållsavdrag från datakällan. Skapa ett ämne med ämnesgeneratorn.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '2389'
 ht-degree: 0%
@@ -26,18 +26,18 @@ Beroende på din konfiguration kan administratören konfigurera en datakällansl
 <summary> Cloud Service </summary>
 
 
-- Om du använder versionen från oktober 2023 eller senare, ska du lära dig hur du [konfigurerar en datakällanslutning från användargränssnittet](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md) i Cloud Servicens installations- och konfigureringshandbok.
+- Om du använder versionen från oktober 2023 eller senare, ska du lära dig hur du [konfigurerar en datakällanslutning från användargränssnittet](../cs-install-guide/conf-data-source-connector-tools.md) i Cloud Servicens installations- och konfigureringshandbok.
 
-- Om du använder versionen från juli 2023 eller september 2023 ska du lära dig hur du [konfigurerar en datakällanslutning](/help/product-guide/cs-install-guide/conf-data-source-connector.md) i Cloud Servicens installations- och konfigureringshandbok.
+- Om du använder versionen från juli 2023 eller september 2023 ska du lära dig hur du [konfigurerar en datakällanslutning](../cs-install-guide/conf-data-source-connector.md) i Cloud Servicens installations- och konfigureringshandbok.
 
 </details>
 
 <details>    
 <summary>  Lokal programvara </summary>
 
-- Om du använder version 4.3.1 eller senare ska du lära dig hur du [konfigurerar en datakällanslutning från användargränssnittet](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md) i installations- och konfigureringshandboken på plats.
+- Om du använder version 4.3.1 eller senare ska du lära dig hur du [konfigurerar en datakällanslutning från användargränssnittet](../cs-install-guide/conf-data-source-connector-tools.md) i installations- och konfigureringshandboken på plats.
 
-- Om du använder version 4.3 ska du lära dig hur du [konfigurerar en datakällanslutning](/help/product-guide/cs-install-guide/conf-data-source-connector.md) i installations- och konfigureringshandboken på plats.
+- Om du använder version 4.3 ska du lära dig hur du [konfigurerar en datakällanslutning](../cs-install-guide/conf-data-source-connector.md) i installations- och konfigureringshandboken på plats.
 </details>
 
 
@@ -120,7 +120,7 @@ De färdiga mallarna för den valda datakällan visas i listrutan. Du kan till e
    1. I förhandsgranskningen visas hur data visas när de infogas i innehållet. I förhandsvisningen visas en liten del av data i den valda mallens format.
 Till exempel:
       - Om du har valt en SQL-tabellmall kan du visa SQL-data i tabellformat.
-      - Om du har valt mallen Jira-ordered-list kan du visa en ordnad lista för Jira-problemen.
+      - Om du har valt mallen Jira-ordnad lista kan du visa en ordnad lista för Jira-problemen.
 
    1. I källvyn visas data i DITA-källvyn.
       ![](images/add-content-snippet-generator.png){width="800" align="left"}
@@ -205,7 +205,7 @@ Så här skapar du ett ämne med ämnesgeneratorn:
       >
       > Om administratören har konfigurerat anpassade mallar visas även dessa mallar i listrutan (baserat på mallsökvägskonfigurationerna som din administratör har konfigurerat). Du kan till exempel skapa en ämnesmall som innehåller en ordnad lista, tabeller, stycken eller andra DITA-element.
 
-   1. Ange **rotnoden**. Det här är noden där du vill komma åt dina data. Ämnesgeneratorn skapar sedan varje ämne på den nivå som definieras i rotnoden. Du kan till exempel lägga till&quot;issues&quot; som rotnod i Jira. Om en fråga returnerar 13 utgåvor får du alltså 13 ämnen, ett avsnitt för varje utgåva.
+   1. Ange **rotnoden**. Det här är noden där du vill komma åt dina data. Ämnesgeneratorn skapar sedan varje ämne på den nivå som definieras i rotnoden. Du kan till exempel lägga till &quot;issues&quot; som rotnod i Jira. Om en fråga returnerar 13 utgåvor får du alltså 13 ämnen, ett avsnitt för varje utgåva.
 
    1. Klicka på **Hämta** för att hämta data från datakällan och tillämpa mallen på data som är resultat av SQL-frågan. Förhandsgranskningen visar en liten del av hur ämnet visas i den valda mallens format. Du kan till exempel visa ett enstaka Jira-problem med alla fält som är ett resultat av frågan.
    1. Ange namnet på ämnesgeneratorn.

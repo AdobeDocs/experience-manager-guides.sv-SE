@@ -3,7 +3,7 @@ title: Rapport över versionshistorik för återskapade filer
 description: Visa rapporter om versionshistorik för återskapade filer i AEM Guides. Lär dig hur du får åtkomst till loggar för återversioner från Assets-gränssnittet, förhandsgranskning av ämnen och AEM.
 feature: Report Generation
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%

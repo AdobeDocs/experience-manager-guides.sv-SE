@@ -3,7 +3,7 @@ title: Introduktion till förinställningar för utdata
 description: Publish FrameMaker-dokument i AEM Guides. Lär dig hur du genererar utdata för FrameMaker-dokument i formaten PDF, HTML och EPUB.
 feature: Publishing FrameMaker Documents
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 0%

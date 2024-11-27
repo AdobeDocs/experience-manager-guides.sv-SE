@@ -3,7 +3,7 @@ title: Ansvarsfriskrivning
 description: Det här är en ansvarsfriskrivning som gäller ändring av produktnamn för XML Documentation för Adobe Experience Manager till AEM Guides
 feature: Disclaimer
 role: User, Leader, Admin, Developer
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '56'
 ht-degree: 0%

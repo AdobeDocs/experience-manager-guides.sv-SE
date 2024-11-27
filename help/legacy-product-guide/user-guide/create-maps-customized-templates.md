@@ -3,7 +3,7 @@ title: Skapa kartor baserade på anpassade mallar
 description: Lär dig att skapa en egen mall, använda dem för att skapa nya kartfiler och skicka den definierade titeln till en DITA-karta i AEM Guides.
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '1103'
 ht-degree: 0%
@@ -93,18 +93,17 @@ Meddelandet som du skapade med kartmallen visas. Du kan lägga till mallen i din
 Administratören kan också skapa en mapp och konfigurera den så att den blir den mapp där du kan skapa och spara mallarna.
 
 Lär dig hur du konfigurerar en anpassad sökväg till en DITA-mallmapp baserat på konfigurationen:
+<details>
+    <summary> Cloud Service </summary>
 
-+++ Cloud Service
+Lär dig hur du [konfigurerar en anpassad DITA-mallmappsökväg](../install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) i Cloud Servicens installations- och konfigureringshandbok.
+</details>
 
-Lär dig hur du [konfigurerar en anpassad DITA-mallmappsökväg](/help/product-guide/install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z){target="_blank"} i Cloud Servicens installations- och konfigureringshandbok.
+<details>
+    <summary> Lokal programvara</summary>
 
-+++
-
-+++ Lokal programvara
-
-Lär dig hur du [konfigurerar en anpassad DITA-mallmappsökväg](/help/product-guide/cs-install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) i installations- och konfigureringshandboken på plats.
-
-+++
+Lär dig hur du [konfigurerar en anpassad DITA-mallmappsökväg](../cs-install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) i installations- och konfigureringshandboken på plats.
+</details>
 
 ## Skicka den titel som definieras i mallarna
 

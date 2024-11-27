@@ -3,7 +3,7 @@ title: Andra funktioner i Web Editor
 description: Utforska andra funktioner i AEM Guides webbredigerare. Lär dig hur du använder dessa funktioner för förbättrad redigering i AEM Guides.
 feature: Authoring, Web Editor
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '2532'
 ht-degree: 0%
@@ -158,24 +158,24 @@ Du kan se följande alternativ beroende på om filen är låst/olåst och har sp
 
 **Infoga MathML-ekvationer**
 
-- Experience Manager Guides har ett körklart stöd för att infoga MathML-ekvationer genom integrering med [MathType Web](https://docs.wiris.com/en/mathtype/mathtype_web/intro) -programmet. Om du vill infoga en MathML-ekvation väljer du ikonen **Infoga element** och skriver mathml. När du väljer matematiska element från listan visas dialogrutan **Infoga MathML**:
+- Experience Manager Guides har ett körklart stöd för att infoga MathML-ekvationer genom integrering med [MathType Web](https://docs.wiris.com/en/mathtype/mathtype_web/intro) -programmet. Om du vill infoga en MathML-ekvation väljer du ikonen **Infoga element** och skriver mathml. När du väljer matematiska element i listan visas dialogrutan **Infoga MathML**:
 
 ![infoga matematisk ekvation i matematisk redigerare](images/insert-mathml-equation.png){width="550" align="left"}
 
-Skapa ekvationen med MathML-ekvationsverktygen och klicka på **Infoga** för att lägga till den i dokumentet. Ekvationen infogas med ljusgrå bakgrund enligt nedan:
+Skapa ekvationen med MathML ekvationsverktyg och klicka på **Infoga** för att lägga till den i dokumentet. Ekvationen infogas med ljusgrå bakgrund enligt nedan:
 
 ![exempel på matematisk ekvation](images/sample-mathml-equation.PNG){width="400" align="left"}
 
 Du kan när som helst uppdatera en ekvation genom att högerklicka på en befintlig ekvation och välja **Redigera MathML** på snabbmenyn.
 
-- **Validering av ekvationer i MathML-redigeraren**
+- **Validering av ekvationer i MathML Editor**
 
-  Experience Manager Guides validerar MathML-ekvationer när du sparar ett ämne som innehåller dem.
-När du infogar en ekvation med MathML-redigeraren markeras ekvationen i rött om det finns syntaxproblem i Experience Manager Guides. Du kan korrigera det innan du infogar det. Om du inte gör några ändringar men väljer **Infoga** visas en varning.
+  Experience Manager Guides validerar MathML ekvationer när du sparar ett ämne som innehåller dem.
+När du infogar en ekvation med MathML Editor markeras ekvationen i rött om det finns syntaxproblem i Experience Manager Guides. Du kan korrigera det innan du infogar det. Om du inte gör några ändringar men väljer **Infoga** visas en varning.
 
   ![validera matematisk ekvation](images/validate-mathml-equation.png){width="400" align="left"}
 
-  Om du infogar MathML-ekvationen som innehåller ett syntaxfel inträffar ett valideringsfel när du försöker spara ämnet.
+  Om du infogar den MathML-ekvation som innehåller ett syntaxfel inträffar ett valideringsfel när du försöker spara ämnet.
 
 
 **Infoga fotnoter**
@@ -215,7 +215,7 @@ Förutom snabbmenyn för den synliga sökvägen kan du även öppna dialogrutan 
 
 **Hantering av tomt utrymme för DITA-element**
 
-- I XML-format innehåller blanksteg, tabbar, radbrytningar och tomma rader. Experience Manager Guides konverterar flera efterföljande blanksteg till ett blanksteg. Detta hjälper dig att bevara WYSIWYG-vyn i webbredigeraren.
+- I XML-format innehåller blanksteg, tabbar, radbrytningar och tomma rader. Experience Manager Guides konverterar flera efterföljande blanksteg till ett blanksteg. Detta gör att du kan bevara WYSIWYG-vyn i Web Editor.
 
   >[!NOTE]
   >

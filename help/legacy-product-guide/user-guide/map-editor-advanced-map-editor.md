@@ -3,7 +3,7 @@ title: Arbeta med den avancerade kartredigeraren
 description: Lär dig arbeta med den avancerade kartredigeraren i AEM Guides. Lär dig funktionerna i den avancerade kartredigeraren. Redigera ämnen via en DITA-karta och använd layoutvyn, författarvyn och förhandsgranskningsläget.
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '3788'
 ht-degree: 0%
@@ -54,7 +54,7 @@ Utför följande steg för att skapa kartfilen med hjälp av den avancerade kart
 
    - **B** - \(*Sekundärt verktygsfält*\) Det här är det sekundära verktygsfältet där du kan arbeta med kartfiler. Mer information om de funktioner som är tillgängliga via det sekundära verktygsfältet finns i [Funktioner som är tillgängliga i den avancerade kartredigerarens verktygsfält](#id205DEC0005Z).
 
-   - **C** - \(*Kartvyer*\): Gör att du kan växla mellan layouten, författaren, Source och förhandsgranskningen i Kartredigeraren. I vyn **Layout** kan du ordna ämnen i en DITA-karta. Detta ger kartans träd eller hierarkiska vy. I vyn **Författare** kan du redigera ämnen i Kartredigeraren. Detta ger även en WYSIWYG-vy av kartfilen. I vyn **Source** kan du arbeta med kartfilens underliggande XML. Med Förhandsgranska får du en samlad vy över alla avsnitt och undermappar i kartfilen. Mappningsfilen stängs av länken **Stäng**.
+   - **C** - \(*Kartvyer*\): Gör att du kan växla mellan layouten, författaren, Source och förhandsgranskningen i Kartredigeraren. I vyn **Layout** kan du ordna ämnen i en DITA-karta. Detta ger kartans träd eller hierarkiska vy. I vyn **Författare** kan du redigera ämnen i Kartredigeraren. Detta ger även en WYSIWYG-vy över kartfilen. I vyn **Source** kan du arbeta med kartfilens underliggande XML. Med Förhandsgranska får du en samlad vy över alla avsnitt och undermappar i kartfilen. Mappningsfilen stängs av länken **Stäng**.
 
    - **D** - \(*Vänster panel*\): Ger åtkomst till den vänstra panelen, vilket ger dig tillgång till funktionerna Favoriter, Databas, Karta, Kontur och andra. Du kan expandera eller komprimera den genom att klicka på ikonen Expandera sidofält \(![](images/sidebar-expand-icon.svg)\). Mer information om de funktioner som är tillgängliga i den vänstra panelen finns i [Vänster panel](web-editor-features.md#id2051EA0M0HS) i Web Editor.
 

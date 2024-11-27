@@ -3,9 +3,9 @@ title: Publish ett ämne i ett innehållsfragment
 description: Publish ett ämne eller elementen i ett ämne till ett innehållsfragment i AEM Guides.  Lär dig hur du visar innehållsfragment för ett ämne och publicerar dem på nytt.
 feature: Publishing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '1031'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,11 @@ ht-degree: 0%
 
 Innehållsfragment är separata innehållsdelar i Adobe Experience Manager. De är strukturerade innehåll baserat på en innehållsmodell. Innehållsfragment är rent innehåll utan design- eller layoutinformation. De kan redigeras och hanteras oberoende av de kanaler som Adobe Experience Manager stöder. Innehållsfragment är modulära, där innehållet delas upp i mindre komponenter.
 
-Med Adobe Experience Manager Guides kan du publicera ett ämne eller elementen i ett ämne till ett innehållsfragment. Du kan skapa en JSON-baserad mappning mellan ett ämne och en innehållsfragmentmodell. Använd den här mappningen för att publicera ett ämne eller elementen i ett ämne till ett innehållsfragment. Du kan sedan använda Content Fragments på valfri Adobe Experience Manager-webbplats eller extrahera informationen via API:er som stöds av Content Fragments.
+Med Experience Manager Guides kan du publicera ett ämne eller dess element i ett innehållsfragment.
+
+>[!NOTE]
+>
+>Du kan bara välja de element i ett ämne som har ett id-attribut definierat.
 
 
 Så här skapar du ett innehållsfragment:
@@ -28,41 +32,50 @@ Lägg till exempel till `/conf/we-retail` i molnkonfigurationen. Den här konfig
 
 1. Om du vill generera ett innehållsfragment väljer du **Ny utdata** ![ny utdataikon](./images/Add_icon.svg) i avsnittet **Utdata** i **filegenskaper** för ett ämne.
 1. Välj **Innehållsfragment**.\
-   Fliken ![Alternativ för filegenskaper](./images/file-properties-outputs-tab.png){width="300" align="left"}
+   ![fliken med alternativ för filegenskaper](./images/file-properties-outputs-tab.png) {width="300" align="left"}
 
    *Lägg till ett nytt innehållsfragment från filegenskaperna för ett ämne*.
 
-1. Fyll i följande information i dialogrutan **Skapa innehållsfragment**:
-   ![Lägg till fragmentmodellen och mappningsinformation i dialogrutan Publish som innehållsfragment](images/content-fragment-publish.png){width="500" align="left"}
-   *Lägg till information om sökväg, modell och mappning för att publicera ett ämne eller dess element som ett innehållsfragment. Du kan skriva över ett befintligt innehållsfragment.*
+1. I dialogrutan **Generera innehållsfragment** fyller du i följande information på flikarna **Allmänt** och **Mappning**.
 
-   >[!NOTE]
-   >
-   >Du kan också publicera ett innehållsfragment från **databasvyn**. Markera det ämne som du vill publicera som ett innehållsfragment. På menyn **Alternativ** väljer du sedan **Publish som** > **Innehållsfragment**.
+   Fliken **Allmänt**
+   ![Lägg till fragmentmodellen och mappningsinformation i dialogrutan Publish som innehållsfragment](images/generate-content-fragment.png)
+   *Lägg till sökväg, namn, titel och villkorsfiltrering för att publicera ett ämne eller dess element som ett innehållsfragment.*
+
 
    * **Sökväg**: Bläddra och välj sökvägen till mappen där du vill publicera innehållsfragmentet. Om du markerar ett befintligt innehållsfragment skrivs innehållet i de mappade fälten över.
    * **Titel**: Ange innehållsfragmentets rubrik. Som standard fylls rubriken i med ämnestiteln. Du kan redigera det. Den här titeln används för att generera namnet på innehållsfragmentet.
    * **Namn**: Ange namnet på innehållsfragmentet. Som standard fylls namnet i med rubriken för ämnet och blankstegen ersätts med &#39;_&#39;. Exempel: *sample_content_fragment*. Du kan redigera det.  Det här namnet används för att generera URL:en för innehållsfragmentet.
-   * **Modell**: Välj den innehållsfragmentmodell som du vill använda för att skapa ditt innehållsfragment. Modellerna hämtas från mappen som du har konfigurerat i molntjänsterna.
-   * **Mappning**: Välj en mappning i listrutan. Mappningarna från filen *contentFragmentMapping.json* väljs.
 
-
-
-     Administratören kan lägga till mappningarna i filen *contentFragmentMapping.json*. Läs mer om hur du [skapar en mappning mellan ett ämne och ett innehållsfragment](/help/product-guide/cs-install-guide/conf-content-fragment-mapping-cs.md) i installations- och konfigureringshandboken.
-
-   * Du kan också välja olika villkor för att publicera innehållet.  Välj något av följande alternativ:
-
-
-      * **Inget**: Välj det här alternativet om du inte vill använda något villkor på publicerade utdata.
-      * **Använder DITAVAL**: Välj DITAVAL-filen som ska genereras, vilket inkluderar specifikt innehåll. Du kan markera DITAVAL-filen i dialogrutan Bläddra eller genom att skriva filsökvägen.
-      * **Använda attribut**: Du kan definiera villkorsattribut i dina DITA-avsnitt. Välj sedan villkorsattributet för att publicera det relevanta innehållet.
+   * Du kan välja olika villkor för att skapa varianter för innehållsfragment. Välj något av följande alternativ:
      >[!NOTE]
      > 
-     >Villkor aktiveras bara om villkorsattribut definieras i avsnittet.
+     > Villkor aktiveras bara om villkorsattribut definieras i avsnittet.
+
+      * **Inget**: Välj det här alternativet om du inte vill använda något villkor på publicerade utdata.
+      * **Använder DITAVAL**: Markera DITAVAL-filen om du vill inkludera eller exkludera visst innehåll i det genererade utdata. Du kan markera DITAVAL-filen i dialogrutan Bläddra eller genom att skriva filsökvägen.
+      * **Använda attribut**: Du kan definiera villkorsattribut i dina DITA-avsnitt. Välj sedan villkorsattributet för att publicera det relevanta innehållet.
 
 
 
-   * Välj **Skriv över befintligt innehåll** om ditt innehållsfragment redan finns och du vill skriva över det. Ett fel visas i Experience Manager Guides om du inte markerar kryssrutan och ditt innehållsfragment redan finns.
+
+
+
+   Fliken **Mappning**
+
+   ![Lägg till fragmentmodellen och mappningsinformation i dialogrutan Publish som innehållsfragment](images/content-fragment-mapping.png)
+
+   *Välj innehållsfragmentmodellen och lägg till mappningsinformationen för att publicera ett ämne eller dess element som ett innehållsfragment.*
+
+   * **Modell**: Välj den innehållsfragmentmodell som du vill använda för att skapa ditt innehållsfragment. Modellerna hämtas från mappen som du har konfigurerat på Experience Manager Guides-servern.
+   * **Mappning**: Du kan visa de ämneselement som har ett ID-attribut tillämpat på dem. Dra ämneselementen till fälten i innehållsfragmentmodellen.
+Den högra sidan fylls med innehållet i det publicerade innehållsfragmentet om det finns ett befintligt innehållsfragment. Dessa kan skrivas över med ämnesinnehållet om det behövs. Du kan också välja **Ångra** om du vill återställa mappningsändringarna.
+
+
+     >[!NOTE]
+     >
+     > Om du använder 4.4 eller tidigare versioner väljer du en mappning i listrutan. Mappningarna från filen *contentFragmentMapping.json* väljs.  Administratören kan lägga till mappningarna i filen *contentFragmentMapping.json*. Läs mer om hur du [skapar en mappning mellan ett ämne och ett innehållsfragment](../cs-install-guide/conf-content-fragment-mapping-cs.md) i installations- och konfigureringshandboken.
+
 1. Klicka på **Generera** för att publicera innehållsfragmentet.
 
 1. Du kan visa innehållsfragment för ett ämne under avsnittet **Utdata** i **Filegenskaper**.
@@ -81,9 +94,9 @@ När du har publicerat innehållsfragmenten kan du även använda dem på alla A
 
 Du kan även utföra följande åtgärder för ett innehållsfragment på menyn **Alternativ** :
 
-* **Generera**: Publicera om innehållsfragmentet för att uppdatera det med det senaste innehållet från DITA-avsnittet. När du genererar om utdata kan du inte ändra sökvägen, namnet, titeln, modellen och mappningen för innehållsfragmentet. Du kan dock välja olika villkor när du återskapar utdata.
+* **Generera**: Publicera om innehållsfragmentet för att uppdatera det med det senaste innehållet från DITA-avsnittet. När du genererar om utdata kan du ändra sökvägen, namnet, titeln, modellen och mappningen för innehållsfragmentet. Du kan också välja olika villkor när du återskapar utdata.
 
-* **Duplicera**: Duplicera ett innehållsfragment. Du kan ändra sökväg, namn, titel, modell och mappning. Du kan också välja olika villkor när du duplicerar ett innehållsfragment.
+* **Duplicera**: Duplicera ett innehållsfragment. Du kan ändra sökväg, namn, titel, modell och mappning. Du kan också välja olika villkor när du duplicerar ett innehållsfragment för att skapa en variant för innehållsfragment.
 
 * **Ta bort**: Ta bort ett innehållsfragment från utdatalistan. En bekräftelsefråga visas. När du har bekräftat tas innehållsfragmentet bort från listan **Utdata**.
 
@@ -93,4 +106,8 @@ Du kan även utföra följande åtgärder för ett innehållsfragment på menyn 
 
 * **Visa**: Visa redigeraren för innehållsfragment. Du kan också göra ändringar och spara dem.
 
+## Förbättrad migrering av icke-UID till UUID-innehåll
 
+Det nya UUID-skriptet för innehållsmigrering har optimerats avsevärt, vilket gör att innehållsmigreringen från icke-UID till UUID är 30 gånger snabbare än det tidigare skriptet. Det innehåller funktioner som att återuppta kontroller, insikt i live-flöden, uppskattad slutförandetid och detaljerad rapportering, vilket säkerställer en harmonisk migreringsprocess. I synnerhet bevarar migreringsprocessen metadata för resurser utan ändringar. Skriptet har testats och verifierats på en stor datamängd på 3 miljoner resurser, vilket bekräftar dess effektivitet och tillförlitlighet för storskaliga migreringar.
+
+Läs mer om [Icke-UID till UUID-innehållsmigrering](../install-guide/migrate-non-uuid-uuid.md).

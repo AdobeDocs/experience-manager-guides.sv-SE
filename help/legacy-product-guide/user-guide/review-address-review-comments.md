@@ -3,7 +3,7 @@ title: Adressgranskningskommentarer
 description: Läs om hur du hanterar granskningskommentarer som författare i AEM Guides. Upptäck hur en författare kan redigera, filtrera, godkänna eller avvisa kommentarer i ett dokument.
 feature: Reviewing
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 # Adressgranskningskommentarer {#id2056B0X0KBI}
 
 
-Som författare kan du adressera kommentarer i ett ämne med hjälp av webbredigeraren. Kommentarerna läses in baserat på den granskningsuppgift som valts på granskningspanelen. Mer information finns i funktionsbeskrivningen för **Granskningspanelen** ![](images/active-review-tasklist-icon.svg) i avsnittet [Vänster panel](/help/product-guide/user-guide/web-editor-features.md#id2051EA0M0HS).
+Som författare kan du adressera kommentarer i ett ämne med hjälp av webbredigeraren. Kommentarerna läses in baserat på den granskningsuppgift som valts på granskningspanelen. Mer information finns i funktionsbeskrivningen för **Granskningspanelen** ![](images/active-review-tasklist-icon.svg) i avsnittet [Vänster panel](../user-guide/web-editor-features.md#id2051EA0M0HS).
 
 I följande avsnitt beskrivs hur du redigerar kommentarer i Web Editor.
 

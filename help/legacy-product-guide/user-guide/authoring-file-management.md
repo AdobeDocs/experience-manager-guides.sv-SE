@@ -3,7 +3,7 @@ title: Hantera filer och mappar
 description: Lär dig hantera filer och mappar i AEM Guides. Kopiera och klistra in, dra och släpp, ta bort, flytta flera filer och mappar samtidigt samt söka i DITA-innehåll.
 feature: Content Management
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
 source-wordcount: '3109'
 ht-degree: 0%

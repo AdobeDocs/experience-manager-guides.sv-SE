@@ -3,9 +3,9 @@ title: Bekanta dig med Web Editors funktioner
 description: Upptäck webbredigeringsprogrammets funktioner i AEM Guides. Lär dig webbredigerarens gränssnitt, inklusive huvudverktygsfältet, det sekundära verktygsfältet, den vänstra panelen, området för innehållsredigering och den högra panelen.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
-source-wordcount: '18678'
+source-wordcount: '18802'
 ht-degree: 0%
 
 ---
@@ -148,7 +148,7 @@ I skärmbilden nedan visas endast 3 av 4 konfigurerade element från den föreg�
 
   ![](images/editor-setting-add-attributes-list.png-to-element.PNG){width="300" align="left"}
 
-- **Publish-profil**: Detta innehåller de Publish-profiler som kan användas för att publicera **kunskapsbasutdata**. Du kan skapa en ny profil för en målkunskapsbas. Till exempel Salesforce eller ServiceNow.
+- **Publish-profil**: Detta innehåller de Publish-profiler som kan användas för att publicera **kunskapsbasutdata**. Du kan skapa en ny profil för en målkunskapsbas. Exempel: Salesforce eller ServiceNow.
 
    - **Skapa en Salesforce Publish-profil**
 
@@ -171,7 +171,7 @@ I skärmbilden nedan visas endast 3 av 4 konfigurerade element från den föreg�
   Dessa kan användas för att skapa Salesforce Publish-profilen.
 
 
-   - Om du vill skapa en Salesforce Publish-profil väljer du **Salesforce**-kunskapsbasen i listrutan **Servertyp**. Ange ett profilnamn. Ange den konsumentwebbplats som du vill publicera utdata på **webbplatsens URL** och lägg sedan till den **konsumentnyckel** och **konsumenthemlighet** som tillhandahålls av Salesforce-konsumentwebbplatsen. **Validera** och **Spara** den nya profilen.
+   - Om du vill skapa en Salesforce Publish-profil väljer du **Salesforce** kunskapsbas i listrutan **Servertyp** . Ange ett profilnamn. Ange den konsumentwebbplats som du skulle använda för att publicera utdata i URL:en för **platsen** och lägg sedan till **konsumentnyckeln** och **konsumenthemligheten** från Salesforce konsumentwebbplats. **Validera** och **Spara** den nya profilen.
      ![salesforce-publiceringsprofil i redigeringsinställningarna](./images/salesforce-publish-profile.png){width="550" align="left"}
 
      >[!NOTE]
@@ -197,9 +197,9 @@ I skärmbilden nedan visas endast 3 av 4 konfigurerade element från den föreg�
 
      ![ServiceNow-publiceringsprofil](./images/service-now-publish-profile.png){width="550" align="left"}
 
-  När du har validerat kan du välja Publish-profilen i utdataförinställningarna för en DITA-karta och använda den för att generera utdata till den **Salesforce** - eller **ServiceNow** -server som du har valt.
+  När du har validerat kan du välja Publish-profilen i utdatainställningarna för en DITA-karta och använda den för att generera utdata till den **Salesforce** - eller **ServiceNow** -server som du har valt.
 
-  Läs mer om förinställningen för [kunskapsbas](/help/product-guide/user-guide/generate-output-knowledge-base.md)-utdata.
+  Läs mer om förinställningen för [kunskapsbas](../user-guide/generate-output-knowledge-base.md)-utdata.
 
 
 - **Validering**: Den här fliken innehåller alternativ för att konfigurera schematranvalideringar i webbredigeraren. Du kan aktivera följande funktioner:
@@ -605,7 +605,7 @@ Om du är i Kartvyn och du expanderar den överordnade kartan kan du checka ut a
 
 Verktygstipset för Checka in/Checka ut avgörs av egenskapen title i filen `ui_config.json`.
 
-Mer information finns i [Konfigurera titeln för ikonerna Checka in och Checka ut](/help/product-guide/install-guide/conf-checkin-checkout-title.md) i Installations- och konfigurationshandboken på plats.
+Mer information finns i [Konfigurera titeln för ikonerna Checka in och Checka ut](../install-guide/conf-checkin-checkout-title.md) i Installations- och konfigurationshandboken på plats.
 
 
 **Växla taggvy** - ![](images/Label_icon.svg)
@@ -1142,7 +1142,7 @@ De olika alternativen på Alternativ-menyn förklaras nedan:
 
   >[!NOTE]
   >
-  >Kontakta kundgruppen för att aktivera den här funktionen i miljön. Detta är inte aktiverat som en del av det färdiga stödet. Mer information finns i avsnittet [Konfigurera alternativet att redigera i syre](/help/product-guide/cs-install-guide/conf-edit-in-oxygen.md) i installations- och konfigurationshandboken.
+  >Kontakta kundgruppen för att aktivera den här funktionen i miljön. Detta är inte aktiverat som en del av det färdiga stödet. Mer information finns i avsnittet [Konfigurera alternativet att redigera i syre](../cs-install-guide/conf-edit-in-oxygen.md) i installations- och konfigurationshandboken.
 
 
 - **Visa i Assets-gränssnitt**: Använd det här alternativet om du vill visa en förhandsvisning av en DITA/.xml-fil i Assets-gränssnittet. Om det är en .ditamap/.bookmap-fil visas alla ämnesfiler på kartan i en enda enhetlig sida-för-sida-vy.
@@ -1507,7 +1507,22 @@ Om du vill lägga till eller definiera ett villkor klickar du på +-ikonen bredv
 
 ![](images/conditional-panel-create-cond.png){width="400" align="left"}
 
-I attributlistan väljer du det villkorsattribut som du vill definiera, anger ett värde för villkoret och anger sedan etiketten som visas på villkorspanelen. Du kan också definiera en färg för villkoret. Den här färgen anges som bakgrundsfärg för innehållet som villkoret används i
+I attributlistan väljer du det villkorsattribut som du vill definiera, anger ett värde för villkoret och anger sedan etiketten som visas på villkorspanelen. Definiera en grupp för villkoret. Du kan lägga till flera villkor i en grupp. Du kan också definiera en färg för villkoret. Den här färgen anges som bakgrundsfärg för innehållet som villkoret används i.
+
+Du kan gruppera villkoren och strukturera dem i kapslade mappar. Med grupper kan du skapa villkor på flera nivåer och ordna dem bättre för användning i innehållet.
+
+Du kan till exempel skapa villkorsgrupper för produkter som *Acrobat* och *AEM Guides*. Du kan välja villkorsattribut för båda grupperna. Under varje grupp kan du ha specifika värden som *Användare*, *Administratör*, *Granskare* och *Författare*.
+
+>[!NOTE]
+>
+> Ange antingen in för att skapa en ny grupp eller välj en befintlig grupp för ett visst attribut.
+
+Du kan använda `/` och definiera undergrupper som definierar undergrupper som `AEM Guides/Cloud Service`.
+
+
+
+![villkor ordnade i en kapslad hierarki](images/conditions-nested-hierarchy.png){width="300" align="left"}
+
 
 Om du vill redigera ett villkor väljer du **Redigera** på Alternativ-menyn. Dialogrutan Redigera villkor visas:
 
@@ -1805,7 +1820,7 @@ Så här visar du granskningskommentarerna i de aktiva granskningsuppgifterna so
    - Välj ![](images/filter-search-icon.svg) för att öppna dialogrutan **Filter**. Du kan välja alla eller endast specifika projekt. De markerade projekten visas på panelen **Granska**.
      ![](images/active-review-select-project.png){width="300" align="left"}
 
-     Alternativet **Uppgifter som initierats av mig** är aktiverat som standard. Du kan bara visa de uppgifter som du har initierat.
+     Alternativet **Uppgifter som initierats av mig** är aktiverat som standard. Du kan bara visa de uppgifter som du har initierat. Växlingsläget för det här alternativet behålls även efter att sidan har uppdaterats.
 
 1. Som standard visas en lista över ämnen som har kommentarer kopplade till sig i granskningsprojektet. Använd de filter som behövs från den vänstra listen för att filtrera ämnen baserat på granskningskommentarerna som finns i dem:
 
@@ -1916,7 +1931,7 @@ Du kan också använda alternativet **Sök i karta** på menyn **Alternativ** f�
 
 ## Innehållsredigeringsområde {#id2051EB000UI}
 
-Innehållsredigeringsområdet är där innehållet i ditt ämne eller din karta visas. Du gör alla innehållsredigeringar i det här området. Det ger en WYSIWYG-vy över det innehåll du redigerar. Du kan ha flera ämnen öppna samtidigt, som visas på respektive flik.
+Innehållsredigeringsområdet är där innehållet i ditt ämne eller din karta visas. Du gör alla innehållsredigeringar i det här området. Den ger en WYSIWYG-vy över det innehåll du redigerar. Du kan ha flera ämnen öppna samtidigt, som visas på respektive flik.
 
 Som standard kan du visa filnamnen på flikarna. När du för muspekaren över en fil kan du visa filens namn och sökväg som ett verktygstips.
 

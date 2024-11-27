@@ -3,9 +3,9 @@ title: Översätta dokument från Web Editor
 description: Översätt ditt innehåll till flera språk från webbredigeraren. Lär dig hur du skapar ett översättningsprojekt, lägger till regler, visar versioner och stänger osynkroniserade filer i AEM Guides.
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
 workflow-type: tm+mt
-source-wordcount: '2246'
+source-wordcount: '2343'
 ht-degree: 0%
 
 ---
@@ -111,11 +111,15 @@ I ett XLIFF-projekt exporteras innehållet till det branschledande XLIFF-formate
    - Du kan välja **Skapa ett nytt flerspråkigt översättningsprojekt** som innehåller översättningsjobb för alla språk som du har valt för översättning. Om du till exempel har valt franska, tyska och spanska skapas ett projekt som innehåller översättningsjobb för alla tre språken.
    - Om du redan har ett översättningsprojekt kan du lägga till ämnen i det projektet. Välj Lägg till i **befintligt översättningsprojekt** i projektlistan och välj ett projekt i listan Befintliga översättningsprojekt. Du kan sortera dessa projekt efter den senaste, stigande eller fallande ordningen.
 
-     >[!NOTE]
-     >
-     > Om ditt befintliga projekt är ett omfångsprojekt har det &#39;\(omfång\)&#39; i sitt namn.
+- Om du väljer **Befintligt översättningsprojekt** uppdaterar den här åtgärden den befintliga resursposten i projektet om resursen redan har lagts till och det relaterade översättningsjobbtillståndet är i läget *Utkast*.
+   - Om målspråket inte finns i projektet skapas ett nytt projekt för översättningsprojektet för ett enda språk, och ett nytt jobb skapas för översättningsprojektet för flera språk.
+   - Om jobbet redan finns för målspråket och jobbstatusen inte är i tillståndet *Utkast* skapas ett nytt jobb i samma projekt för att lägga till resurserna för översättning.
 
-   - Om du behöver skapa omfånget för ett projekt som ska översättas kan du välja **Skapa ett nytt omfångsöversättningsprojekt**. Kopiorna skickas inte för översättning och den ursprungliga översättningsstatusen för filerna behålls. Det påverkar inte målspråkskopian av ämnen som skickas för omfång.
+  >[!NOTE]
+  >
+  > Om ditt befintliga projekt är ett omfångsprojekt har det &#39;\(omfång\)&#39; i sitt namn.
+
+- Om du behöver skapa omfånget för ett projekt som ska översättas kan du välja **Skapa ett nytt omfångsöversättningsprojekt**. Kopiorna skickas inte för översättning och den ursprungliga översättningsstatusen för filerna behålls. Det påverkar inte målspråkskopian av ämnen som skickas för omfång.
 1. Ange en rubrik för projektet i fältet **Projektnamn**.
 1. Klicka på **Skapa** för att skapa ett nytt översättningsprojekt.
 
@@ -218,7 +222,7 @@ Administratören kan konfigurera rensningen av översättningsprojektet **efter 
 
 För effektiv dokumenthantering kan Experience Manager Guides ta bort översättningsprojekten när du har slutfört översättningen.
 
-Du kan även inaktivera översättningsprojekten om du vill använda dem senare. Om du tar bort ett projekt tas alla filer och mappar i projektet bort. När du inaktiverar ett projekt tas det inte bort, utan behålls i databasen. Men du kan inte uppdatera eller redigera ett inaktiverat projekt.  Om du tar bort eller inaktiverar ett projekt påverkas inte översättningsstatusen för några referenser.
+Du kan även inaktivera översättningsprojekten om du vill använda dem senare. Om du tar bort ett projekt tas alla filer och mappar i projektet bort. Om du inaktiverar ett projekt tas det inte bort, utan behålls i databasen. Men du kan inte uppdatera eller redigera ett inaktiverat projekt.  Om du tar bort eller inaktiverar ett projekt påverkas inte översättningsstatusen för några referenser.
 
 
 **Överordnat ämne:**[ Arbeta med webbredigeraren](web-editor.md)
