@@ -3,7 +3,7 @@ title: Lägga till och hantera citat i ditt innehåll
 description: Lägg till och hantera citat i AEM Guides. Lär dig hur du använder, importerar, filtrerar, söker, ändrar format för citat, redigerar, förhandsgranskar, infogar, tar bort och genererar innehållsutdata med citationer.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: f8f1116efbf0c7c26f6ebacf6234dcc2fee636c1
 workflow-type: tm+mt
 source-wordcount: '1887'
 ht-degree: 0%
@@ -257,10 +257,10 @@ När du har infogat citat i avsnittet kan du publicera innehåll med citat med h
 
 I utdata för PDF visas citaten i det innehåll där du infogat dem. Du kan också skapa en litteraturförteckningssida. När du klickar på ett citat omdirigeras du till litteraturförteckningssidan.
 
-Skapa en sidlayout för **Källhänvisningar** i PDF-mallarna och inkludera den i dokumentet. Alla citat som används i boken listas på en sida som visas i utdata från PDF. Mer information om hur du skapar en sidlayout finns i [Skapa en sidlayout](../native-pdf/components-pdf-template.md#create-page-layout).
+Skapa en sidlayout för **Källhänvisningar** i PDF-mallarna och inkludera den i dokumentet. Alla citat som används i boken listas på en sida som visas i utdata från PDF. Mer information om hur du skapar en sidlayout finns i [Skapa en sidlayout](/help/product-guide/native-pdf/components-pdf-template.md#create-page-layout).
 
 
-Visa [Anpassa PDF-mallar](../native-pdf/pdf-template.md) om du vill ändra vyn och känslan för citatsidan.
+Visa [Anpassa PDF-mallar](/help/product-guide/native-pdf/pdf-template.md) om du vill ändra vyn och känslan för citatsidan.
 
 
 
@@ -272,4 +272,4 @@ Formatera källtexten när den läggs till i avsnittet.
 
 1. Sök efter `<cite>` på sökpanelen.
 
-Om du vill veta mer om format kan du visa [Arbeta med de vanliga innehållsformaten](../native-pdf/stylesheet.md).
+Om du vill veta mer om format kan du visa [Arbeta med de vanliga innehållsformaten](/help/product-guide/native-pdf/stylesheet.md).
