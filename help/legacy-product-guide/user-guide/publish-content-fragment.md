@@ -3,7 +3,7 @@ title: Publish ett ämne i ett innehållsfragment
 description: Publish ett ämne eller elementen i ett ämne till ett innehållsfragment i AEM Guides.  Lär dig hur du visar innehållsfragment för ett ämne och publicerar dem på nytt.
 feature: Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%
@@ -74,7 +74,7 @@ Den högra sidan fylls med innehållet i det publicerade innehållsfragmentet om
 
      >[!NOTE]
      >
-     > Om du använder 4.4 eller tidigare versioner väljer du en mappning i listrutan. Mappningarna från filen *contentFragmentMapping.json* väljs.  Administratören kan lägga till mappningarna i filen *contentFragmentMapping.json*. Läs mer om hur du [skapar en mappning mellan ett ämne och ett innehållsfragment](../cs-install-guide/conf-content-fragment-mapping-cs.md) i installations- och konfigureringshandboken.
+     > Om du använder 4.4 eller tidigare versioner väljer du en mappning i listrutan. Mappningarna från filen *contentFragmentMapping.json* väljs.  Administratören kan lägga till mappningarna i filen *contentFragmentMapping.json*. Läs mer om hur du [skapar en mappning mellan ett ämne och ett innehållsfragment](/help/product-guide/cs-install-guide/conf-content-fragment-mapping-cs.md) i installations- och konfigureringshandboken.
 
 1. Klicka på **Generera** för att publicera innehållsfragmentet.
 
@@ -110,4 +110,4 @@ Du kan även utföra följande åtgärder för ett innehållsfragment på menyn 
 
 Det nya UUID-skriptet för innehållsmigrering har optimerats avsevärt, vilket gör att innehållsmigreringen från icke-UID till UUID är 30 gånger snabbare än det tidigare skriptet. Det innehåller funktioner som att återuppta kontroller, insikt i live-flöden, uppskattad slutförandetid och detaljerad rapportering, vilket säkerställer en harmonisk migreringsprocess. I synnerhet bevarar migreringsprocessen metadata för resurser utan ändringar. Skriptet har testats och verifierats på en stor datamängd på 3 miljoner resurser, vilket bekräftar dess effektivitet och tillförlitlighet för storskaliga migreringar.
 
-Läs mer om [Icke-UID till UUID-innehållsmigrering](../install-guide/migrate-non-uuid-uuid.md).
+Läs mer om [Icke-UID till UUID-innehållsmigrering](/help/product-guide/install-guide/migrate-non-uuid-uuid.md).

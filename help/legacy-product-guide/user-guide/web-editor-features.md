@@ -3,7 +3,7 @@ title: Bekanta dig med Web Editors funktioner
 description: Upptäck webbredigeringsprogrammets funktioner i AEM Guides. Lär dig webbredigerarens gränssnitt, inklusive huvudverktygsfältet, det sekundära verktygsfältet, den vänstra panelen, området för innehållsredigering och den högra panelen.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
 workflow-type: tm+mt
 source-wordcount: '18802'
 ht-degree: 0%
@@ -605,7 +605,7 @@ Om du är i Kartvyn och du expanderar den överordnade kartan kan du checka ut a
 
 Verktygstipset för Checka in/Checka ut avgörs av egenskapen title i filen `ui_config.json`.
 
-Mer information finns i [Konfigurera titeln för ikonerna Checka in och Checka ut](../install-guide/conf-checkin-checkout-title.md) i Installations- och konfigurationshandboken på plats.
+Mer information finns i [Konfigurera titeln för ikonerna Checka in och Checka ut](/help/product-guide/install-guide/conf-checkin-checkout-title.md) i Installations- och konfigurationshandboken på plats.
 
 
 **Växla taggvy** - ![](images/Label_icon.svg)
@@ -1142,7 +1142,7 @@ De olika alternativen på Alternativ-menyn förklaras nedan:
 
   >[!NOTE]
   >
-  >Kontakta kundgruppen för att aktivera den här funktionen i miljön. Detta är inte aktiverat som en del av det färdiga stödet. Mer information finns i avsnittet [Konfigurera alternativet att redigera i syre](../cs-install-guide/conf-edit-in-oxygen.md) i installations- och konfigurationshandboken.
+  >Kontakta kundgruppen för att aktivera den här funktionen i miljön. Detta är inte aktiverat som en del av det färdiga stödet. Mer information finns i avsnittet [Konfigurera alternativet att redigera i syre](/help/product-guide/cs-install-guide/conf-edit-in-oxygen.md) i installations- och konfigurationshandboken.
 
 
 - **Visa i Assets-gränssnitt**: Använd det här alternativet om du vill visa en förhandsvisning av en DITA/.xml-fil i Assets-gränssnittet. Om det är en .ditamap/.bookmap-fil visas alla ämnesfiler på kartan i en enda enhetlig sida-för-sida-vy.

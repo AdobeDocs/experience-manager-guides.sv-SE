@@ -3,7 +3,7 @@ title: Skapa kartor baserade på anpassade mallar
 description: Lär dig att skapa en egen mall, använda dem för att skapa nya kartfiler och skicka den definierade titeln till en DITA-karta i AEM Guides.
 feature: Authoring, Map Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
 workflow-type: tm+mt
 source-wordcount: '1103'
 ht-degree: 0%
@@ -96,13 +96,13 @@ Lär dig hur du konfigurerar en anpassad sökväg till en DITA-mallmapp baserat 
 <details>
     <summary> Cloud Service </summary>
 
-Lär dig hur du [konfigurerar en anpassad DITA-mallmappsökväg](../install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) i Cloud Servicens installations- och konfigureringshandbok.
+Lär dig hur du [konfigurerar en anpassad DITA-mallmappsökväg](/help/product-guide/install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) i Cloud Servicens installations- och konfigureringshandbok.
 </details>
 
 <details>
     <summary> Lokal programvara</summary>
 
-Lär dig hur du [konfigurerar en anpassad DITA-mallmappsökväg](../cs-install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) i installations- och konfigureringshandboken på plats.
+Lär dig hur du [konfigurerar en anpassad DITA-mallmappsökväg](/help/product-guide/cs-install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) i installations- och konfigureringshandboken på plats.
 </details>
 
 ## Skicka den titel som definieras i mallarna

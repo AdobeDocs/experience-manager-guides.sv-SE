@@ -3,7 +3,7 @@ title: Infoga ett innehållssfragment från datakällan
 description: Använd data från datakällan i AEM Guides. Lär dig hur du infogar ett innehållsavdrag från datakällan. Skapa ett ämne med ämnesgeneratorn.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
 workflow-type: tm+mt
 source-wordcount: '2389'
 ht-degree: 0%
@@ -26,18 +26,18 @@ Beroende på din konfiguration kan administratören konfigurera en datakällansl
 <summary> Cloud Service </summary>
 
 
-- Om du använder versionen från oktober 2023 eller senare, ska du lära dig hur du [konfigurerar en datakällanslutning från användargränssnittet](../cs-install-guide/conf-data-source-connector-tools.md) i Cloud Servicens installations- och konfigureringshandbok.
+- Om du använder versionen från oktober 2023 eller senare, ska du lära dig hur du [konfigurerar en datakällanslutning från användargränssnittet](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md) i Cloud Servicens installations- och konfigureringshandbok.
 
-- Om du använder versionen från juli 2023 eller september 2023 ska du lära dig hur du [konfigurerar en datakällanslutning](../cs-install-guide/conf-data-source-connector.md) i Cloud Servicens installations- och konfigureringshandbok.
+- Om du använder versionen från juli 2023 eller september 2023 ska du lära dig hur du [konfigurerar en datakällanslutning](/help/product-guide/cs-install-guide/conf-data-source-connector.md) i Cloud Servicens installations- och konfigureringshandbok.
 
 </details>
 
 <details>    
 <summary>  Lokal programvara </summary>
 
-- Om du använder version 4.3.1 eller senare ska du lära dig hur du [konfigurerar en datakällanslutning från användargränssnittet](../cs-install-guide/conf-data-source-connector-tools.md) i installations- och konfigureringshandboken på plats.
+- Om du använder version 4.3.1 eller senare ska du lära dig hur du [konfigurerar en datakällanslutning från användargränssnittet](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md) i installations- och konfigureringshandboken på plats.
 
-- Om du använder version 4.3 ska du lära dig hur du [konfigurerar en datakällanslutning](../cs-install-guide/conf-data-source-connector.md) i installations- och konfigureringshandboken på plats.
+- Om du använder version 4.3 ska du lära dig hur du [konfigurerar en datakällanslutning](/help/product-guide/cs-install-guide/conf-data-source-connector.md) i installations- och konfigureringshandboken på plats.
 </details>
 
 

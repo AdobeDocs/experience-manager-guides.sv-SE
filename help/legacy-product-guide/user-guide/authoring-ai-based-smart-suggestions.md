@@ -1,7 +1,7 @@
 ---
 title: AI-baserade smarta förslag för att skapa innehåll
 description: Lär dig hur du visar och använder AI-baserade smarta förslag i Web Editor.
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
 workflow-type: tm+mt
 source-wordcount: '684'
 ht-degree: 0%
@@ -17,7 +17,7 @@ När du skapar innehåll kan funktionen **Föreslå återanvändbart innehåll**
 Detta gör att du kan återanvända befintligt innehåll från dokumentationsdatabasen och skapa enhetligt innehåll. Du skapar till exempel ett dokument som innehåller information om **Adobe Firefly**, inklusive ett stycke om **Adobe**. I så fall kan du snabbt visa och lägga till innehållsreferensen från ett annat ämne, som **Adobe Photoshop**, som innehåller samma stycke.
 >[!NOTE]
 >
-> I de [globala profilerna eller mappnivåprofilerna](../cs-install-guide/conf-folder-level.md#conf-ai-smart-suggestions) måste administratören definiera filerna eller mapparna som ska indexeras för smarta förslag, det minsta antal tecken som du måste ange för att kunna visa förslagen och det högsta antalet förslag som du kan visa i listan.
+> I de [globala profilerna eller mappnivåprofilerna](/help/product-guide/cs-install-guide/conf-folder-level.md#conf-ai-smart-suggestions) måste administratören definiera filerna eller mapparna som ska indexeras för smarta förslag, det minsta antal tecken som du måste ange för att kunna visa förslagen och det högsta antalet förslag som du kan visa i listan.
 
 Följ de här stegen för att visa smarta förslag på hur du lägger till lämpliga innehållsreferenser till ditt ämne:
 

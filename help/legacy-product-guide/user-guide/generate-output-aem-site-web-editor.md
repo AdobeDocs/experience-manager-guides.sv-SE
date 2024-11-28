@@ -3,7 +3,7 @@ title: AEM Sites
 description: Skapa och konfigurera AEM Sites-förinställningen i Web Editor och generera AEM Sites-utdata för DITA-kartor, valda ämnen och länkade ämnen.
 feature: Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
 workflow-type: tm+mt
 source-wordcount: '2732'
 ht-degree: 0%
@@ -16,9 +16,9 @@ ht-degree: 0%
 Du kan skapa AEM Sites-förinställningar från Web Editor och konfigurera dem för att generera AEM Sites-utdata. Utdata från AEM Sites baseras på den sammansatta komponentmappningen tillsammans med `guides-components`, vilket underlättar skapandet och hanteringen av innehåll.
 
 Experience Manager Guides innehåller fördefinierade mallar för att skapa AEM Sites. Dessa förinställningar hjälper dig att säkerställa en konsekvent innehållslayout och struktur.
-- [Skapa hemsidor](../cs-install-guide/download-install-aem-sites-templates-cs.md#create-a-home-page-using-the-template) baserat på dessa fördefinierade mallar.
-- Du kan [redigera ämnesmallar](../cs-install-guide/download-install-aem-sites-templates-cs.md#package-installation) och använda format enligt dina önskemål.
-- Du kan också [anpassa befintliga AEM Sites-mallar](../cs-install-guide/download-install-aem-sites-templates-cs.md#customize-existing-aem-sites-templates).
+- [Skapa hemsidor](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md#create-a-home-page-using-the-template) baserat på dessa fördefinierade mallar.
+- Du kan [redigera ämnesmallar](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md#package-installation) och använda format enligt dina önskemål.
+- Du kan också [anpassa befintliga AEM Sites-mallar](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md#customize-existing-aem-sites-templates).
 
 
 
@@ -40,8 +40,8 @@ Så här skapar du AEM Sites-förinställningar i Web Editor:
 >[!NOTE]
 >
 >Innan du konfigurerar AEM Sites-förinställningarna för Experience Manager Guides måste administratören skapa en AEM Sites-struktur med hjälp av mallarna.
-- **Lokal programvara**: Läs mer om hur du [hämtar och installerar AEM Sites-mallar](../install-guide/download-install-aem-sites-templates.md) för lokal programvara.
-- **Cloud Service**: Läs mer om hur du [hämtar och installerar AEM Sites-mallar](../cs-install-guide/download-install-aem-sites-templates-cs.md) för Cloud Service.
+- **Lokal programvara**: Läs mer om hur du [hämtar och installerar AEM Sites-mallar](/help/product-guide/install-guide/download-install-aem-sites-templates.md) för lokal programvara.
+- **Cloud Service**: Läs mer om hur du [hämtar och installerar AEM Sites-mallar](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md) för Cloud Service.
 
 
 
@@ -140,7 +140,7 @@ Följande alternativ är tillgängliga för AEM Sites-utdata:
 Med Experience Manager Guides kan du använda färdiga mallar eller lägga till egna AEM Sites-mallar.
 
 Innan du konfigurerar AEM Sites-förinställningarna måste du skapa en AEM Sites-struktur med hjälp av mallarna.\
-Mer information finns i [Hämta och installera AEM Sites-mallar](../install-guide/download-install-aem-sites-templates.md).
+Mer information finns i [Hämta och installera AEM Sites-mallar](/help/product-guide/install-guide/download-install-aem-sites-templates.md).
 
 
 

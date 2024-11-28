@@ -1,7 +1,7 @@
 ---
 title: AI-baserad smart hjälp för att söka efter innehåll
 description: Lär dig hur du visar och använder AI-baserad smart hjälp i Web Editor.
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 0%
@@ -25,7 +25,7 @@ När du öppnar Web Editor visas panelen **Smart hjälp** till höger.
 
 >[!NOTE]
 >
-> Administratören måste konfigurera funktionen **Smart hjälp**. Mer information finns i avsnittet [Konfigurera den AI-baserade smarta hjälpen för att söka efter innehåll](../cs-install-guide/conf-smart-help.md) i installations- och konfigurationshandboken för Cloud Service.
+> Administratören måste konfigurera funktionen **Smart hjälp**. Mer information finns i avsnittet [Konfigurera den AI-baserade smarta hjälpen för att söka efter innehåll](/help/product-guide/cs-install-guide/conf-smart-help.md) i installations- och konfigurationshandboken för Cloud Service.
 
 ![Smart hjälppanel](images/smart-help-panel.png){width="300" align="left"}
 
@@ -39,7 +39,7 @@ Utför följande steg för att använda konversationssökningen för att hitta r
 
    >[!NOTE]
    >
-   > I de [globala profilerna eller mappnivåprofilerna](../cs-install-guide/conf-folder-level.md#conf-ai-guides-assistant) måste administratören definiera standardfrågorna som visas på panelen.
+   > I de [globala profilerna eller mappnivåprofilerna](/help/product-guide/cs-install-guide/conf-folder-level.md#conf-ai-guides-assistant) måste administratören definiera standardfrågorna som visas på panelen.
 
 1. Skriv frågan för att hitta det relaterade innehållet i Experience Manager Guides-dokumentationen. Du kan välja standardfrågan på panelen eller skriva frågan i textrutan.
 

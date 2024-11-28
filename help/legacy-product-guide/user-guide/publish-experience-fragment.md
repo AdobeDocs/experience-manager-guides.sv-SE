@@ -3,7 +3,7 @@ title: Publish ett ämne i ett Experience Fragment
 description: Publish ett ämne eller elementen i ett ämne i ett Experience Fragment i AEM Guides.  Lär dig hur du visar de Experience Fragments som finns för ett ämne och publicerar dem igen.
 feature: Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
 workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 0%
@@ -60,7 +60,7 @@ Till exempel:
 
 
 
-     Din administratör kan lägga till mappningarna i filen *experienceFragmentMapping.json*.  Läs mer om hur du [skapar en mappning mellan ett ämne och ett Experience Fragment](../cs-install-guide/conf-experience-fragment-mapping-cs.md) i installations- och konfigureringshandboken.
+     Din administratör kan lägga till mappningarna i filen *experienceFragmentMapping.json*.  Läs mer om hur du [skapar en mappning mellan ett ämne och ett Experience Fragment](/help/product-guide/cs-install-guide/conf-experience-fragment-mapping-cs.md) i installations- och konfigureringshandboken.
 
    * Du kan också välja olika villkor för att publicera innehållet.  Välj något av följande alternativ:
 
