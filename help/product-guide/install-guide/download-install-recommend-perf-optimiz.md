@@ -5,9 +5,9 @@ exl-id: b2a836a0-de82-4d89-aae3-43276997da74
 feature: Performance Optimization
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: b28b7d96cce69f677b0bcf891b94d7ac84eb1eb0
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '907'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Parametrarna för JVM-start bör justeras noggrant baserat på infrastrukturen o
 
 `* -Xloggc:</path/to/gc.log>`
 
-- I Java 11 använder du i allmänhet G1GC \(`-XX:+UseG1GC`\) och för Java 8 CMS \(-`XX:+UseConcMarkSweepGC`\).
+- I Java 11 använder du G1GC \(`-XX:+UseG1GC`\) och för Java 8 använder du CMS \(-`XX:+UseConcMarkSweepGC`\).
 
 - Använd `-XX:NewRatio` för att kontrollera storleken på den unga generationens minnesstorlek. Standardvärdet är 2, vilket innebär att 1/3 av minnet används för ung generering. Eftersom det finns många objekt som snabbt skapas och förstörs kommer 1/2 av minnet att tilldelas den unga generationen med värdet 1.
 
@@ -114,17 +114,5 @@ Detta kan göras vid körning via Felix Console eller via koddistribution.
 **Resultat av den här ändringen**
 Ett ökat antal **Begränsa AEM webbplatssidor i heap** -egenskapen optimerar genereringsprocessen för AEM.
 
-## Optimera antalet efterbearbetningstrådar \(Obligatoriskt, beroende på användningsfall\)
-
-**Vad är ändringen?**
-Den här ändringen krävs om du överför DITA-innehåll gruppvis.
-
-Ange egenskapen **Post Process Threads** under `com.adobe.fmdita.config.ConfigManager` till `1`.
-
-**När ska jag konfigurera?**
-Detta kan göras vid körning.
-
-**Resultat av den här ändringen**
-Den här ändringen minskar efterbearbetningstiden vid massöverföring av DITA-filer.
 
 **Överordnat ämne:**[ Hämta och installera](download-install.md)

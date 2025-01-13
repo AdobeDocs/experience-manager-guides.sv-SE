@@ -5,9 +5,9 @@ exl-id: 0d3a909c-3499-4ef4-b033-02e412dae959
 feature: Translation
 role: Admin
 level: Experienced
-source-git-commit: f7ce1dc72edfcec939e5bd25bbf82c2e3907a326
+source-git-commit: ea3083542e955a56c27cd833600370a7962c6b8d
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '854'
 ht-degree: 0%
 
 ---
@@ -100,7 +100,9 @@ Baserat på det översättningsarbetsflöde som används i konfigurationen bör 
 
 >[!IMPORTANT]
 > 
-> Vi rekommenderar att du använder det senaste arbetsflödet för översättning, vilket ger bättre prestanda. Om det finns anpassningar aktiverade i den aktuella översättningsprocessen bör du använda det äldre översättningsarbetsflödet.
+> Vi rekommenderar att du använder det senaste arbetsflödet för översättning, som finns i AEM Guides 4.6.0 och senare, för bättre prestanda. Om du har aktiverat en anpassning i översättningsprocessen och den påverkas av det nya arbetsflödet bör du överväga att återgå till det gamla översättningsarbetsflödet som en tillfällig lösning.
+
+
 
 Som standard är alternativet för äldre översättningsarbetsflöde inaktiverat. Du kan konfigurera det här alternativet genom att utföra följande steg:
 

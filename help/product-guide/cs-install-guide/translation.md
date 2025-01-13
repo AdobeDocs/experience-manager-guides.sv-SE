@@ -5,9 +5,9 @@ exl-id: 5af78233-343e-47ba-b60c-b7f4789e2406
 feature: Translation
 role: Admin
 level: Experienced
-source-git-commit: bcb61127f5f69ac39860a90eac2e1a56ecd1de31
+source-git-commit: ea3083542e955a56c27cd833600370a7962c6b8d
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '773'
 ht-degree: 0%
 
 ---
@@ -72,16 +72,17 @@ Baserat på det översättningsarbetsflöde som används i konfigurationen bör 
 
 ## Konfigurera det äldre arbetsflödet för översättning
 
-Vi rekommenderar att du använder det senaste arbetsflödet för översättning, vilket ger bättre prestanda. Om du vill använda det äldre arbetsflödet för översättning kan du konfigurera det.
+>[!IMPORTANT]
+>
+> Vi rekommenderar att du använder det senaste översättningsarbetsflödet, som finns i AEM Guides 2024.06.0 och senare, för bättre prestanda. Om du har aktiverat en anpassning i översättningsprocessen och den påverkas av det nya arbetsflödet bör du överväga att återgå till det gamla översättningsarbetsflödet som en tillfällig lösning.
 
 Använd instruktionerna i [Konfigurationsåsidosättningar](download-install-additional-config-override.md#) för att skapa konfigurationsfilen. Ange följande (egenskap) information i konfigurationsfilen för att konfigurera det äldre arbetsflödet för översättning:
 
 
-
-
 | PID | Egenskapsnyckel | Egenskapsvärde |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `translation.workflow.version.legacy` | Booleskt: <br> - Om du använder det senaste översättningsarbetsflödet *Inaktivera* \( `false`\) alternativet **Kör gammalt översättningsarbetsflöde**. Det senaste arbetsflödet för översättning är aktiverat som standard. <br> -   Om du använder den äldre översättningen *Aktivera \( `true`\)* alternativet **Kör äldre översättningsarbetsflöde** . |
+| `com.adobe.fmdita.config.ConfigManager` | `translation.workflow.version.legacy` | Booleskt: <br> - Om du använder det senaste översättningsarbetsflödet *Inaktivera* \( `false`\) alternativet **Kör gammalt översättningsarbetsflöde**.  <br> -   Om du använder den äldre översättningen *Aktivera \( `true`\)* alternativet **Kör äldre översättningsarbetsflöde** . <br> **Standardvärde**: false |
+
 
 
 
@@ -101,5 +102,5 @@ Använd instruktionerna i [Konfigurationsåsidosättningar](download-install-add
 
 | PID | Egenskapsnyckel | Egenskapsvärde |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `postprocess.temporary.langcopies` | Boolean: <br> -   Om du inte vill köra efterbearbetningen av de temporära filerna *Inaktivera* \( false\) alternativet **Post-processspråkkopior** .<br> -   Om du vill köra efterbearbetningen av de temporära filerna *Enable* \( true\) the **Post-process language copies** .<br> **Standardvärde**: false |
+| `com.adobe.fmdita.config.ConfigManager` | `postprocess.temporary.langcopies` | Boolean: <br> -   Om du inte vill köra efterbearbetningen av de temporära filerna *Inaktivera* \( false\) alternativet **Efterbearbetningsspråk** .<br> -   Om du vill köra efterbearbetningen av de temporära filerna *Enable* \( true\) the **Post-process language copies** .<br> **Standardvärde**: false |
 
