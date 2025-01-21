@@ -2,7 +2,7 @@
 title: Använd AI-assistenten för att skapa dokument smart `
 description: Lär dig hur du använder AI Assistant för att skapa dokument på ett smart sätt i Web Editor.
 exl-id: 47d37323-20bf-4444-a2c9-41c44b2c8daf
-source-git-commit: 59929235b3d93267b9b82fd2827c8d3ac6607e61
+source-git-commit: ae49df3912a5a7a3a01e5eaa08fb9f05249da29f
 workflow-type: tm+mt
 source-wordcount: '1054'
 ht-degree: 0%
@@ -110,12 +110,12 @@ Du kan till exempel lista systemkraven och generera en kort beskrivning utifrån
 
 
 1. Markera innehållet.
-1. Välj **Skapa genvägar ![Skapa kort beskrivningsikon](./images/ai-create-shortdesc-icon.svg)** om du vill skapa en kort beskrivning av det aktuella ämnet.
+1. Välj **Skapa genvägar** ![ai skapa kort beskrivningsikon](./images/ai-create-shortdesc-icon.svg) om du vill skapa en kort beskrivning av det aktuella ämnet.
 1. Välj **Acceptera** om du vill skapa en ny kort beskrivning om den korta beskrivningen inte redan finns. Om det finns en kort beskrivning måste du bekräfta den innan du ersätter den med den nya korta beskrivningen.
 
 Du kan även utföra följande åtgärder:
-- Välj **Generera om** om du vill generera en annan kort beskrivning av ämnet, som AI-verktygen.
 
+- Välj **Generera om** om du vill generera en annan kort beskrivning av ämnet, som AI-verktygen.
 - Välj **Expandera** för att öppna redigeraren för **Skapa genvägar**.
 
 ![ai-assistenten skapar en kort beskrivningsredigerare](./images/ai-assistant-create-short-desc.png)

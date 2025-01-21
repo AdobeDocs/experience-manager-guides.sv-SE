@@ -4,7 +4,7 @@ description: Lär dig arbeta med den avancerade kartredigeraren i AEM Guides. L�
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 6201434d3dd8336bf9fe1bce6368d5dbb9c56162
+source-git-commit: ae49df3912a5a7a3a01e5eaa08fb9f05249da29f
 workflow-type: tm+mt
 source-wordcount: '3788'
 ht-degree: 0%
@@ -55,7 +55,7 @@ Utför följande steg för att skapa kartfilen med hjälp av den avancerade kart
 
    - **B** - \(*Sekundärt verktygsfält*\) Det här är det sekundära verktygsfältet där du kan arbeta med kartfiler. Mer information om de funktioner som är tillgängliga via det sekundära verktygsfältet finns i [Funktioner som är tillgängliga i den avancerade kartredigerarens verktygsfält](#id205DEC0005Z).
 
-   - **C** - \(*Kartvyer*\): Gör att du kan växla mellan layouten, författaren, Source och förhandsgranskningen i Kartredigeraren. I vyn **Layout** kan du ordna ämnen i en DITA-karta. Detta ger kartans träd eller hierarkiska vy. I vyn **Författare** kan du redigera ämnen i Kartredigeraren. Detta ger även en WYSIWYG-vy av kartfilen. I vyn **Source** kan du arbeta med kartfilens underliggande XML. Med Förhandsgranska får du en samlad vy över alla avsnitt och undermappar i kartfilen. Mappningsfilen stängs av länken **Stäng**.
+   - **C** - \(*Kartvyer*\): Gör att du kan växla mellan layouten, författaren, Source och förhandsgranskningen i Kartredigeraren. I vyn **Layout** kan du ordna ämnen i en DITA-karta. Detta ger kartans träd eller hierarkiska vy. I vyn **Författare** kan du redigera ämnen i Kartredigeraren. Detta ger även en WYSIWYG-vy över kartfilen. I vyn **Source** kan du arbeta med kartfilens underliggande XML. Med Förhandsgranska får du en samlad vy över alla avsnitt och undermappar i kartfilen. Mappningsfilen stängs av länken **Stäng**.
 
    - **D** - \(*Vänster panel*\): Ger åtkomst till den vänstra panelen, vilket ger dig tillgång till funktionerna Favoriter, Databas, Karta, Kontur och andra. Du kan expandera eller komprimera den genom att klicka på ikonen Expandera sidofält \(![](images/sidebar-expand-icon.svg)\). Mer information om de funktioner som är tillgängliga i den vänstra panelen finns i [Vänster panel](web-editor-features.md#id2051EA0M0HS) i Web Editor.
 
@@ -386,4 +386,4 @@ Du kommer åt förhandsgranskningen av en karta från:
    - Det aktuella avsnittet i förhandsvisningen av kartan markeras också i schematrädet.
 
 
-**Överordnat ämne:**[ Arbeta med kartredigeraren](map-editor.md)
+**Överordnat ämne:** [Arbeta med kartredigeraren](map-editor.md)
