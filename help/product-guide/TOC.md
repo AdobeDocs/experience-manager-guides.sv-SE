@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Läs produktdokumentationen för Adobe Experience Manager Guides.
 breadcrumb-title: Dokumentation om AEM Guides
-source-git-commit: 74958da7f69733f1671f0ab91a4401033fbb2016
+source-git-commit: 6d0648ddaabffe84c923afe7c531eea902406c1c
 workflow-type: tm+mt
-source-wordcount: '2003'
+source-wordcount: '2011'
 ht-degree: 2%
 
 ---
@@ -511,4 +511,5 @@ ht-degree: 2%
       - Användningsexempel {#use-cases}
          - [Arbeta med villkorligt innehåll](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
          - [Arbeta med tangenter](./knowledge-base/kb-articles/content-architecture/working-with-keys.md)
+         - [Aktivera sammanhangsberoende innehållsvariabler på webbplatser via aemguider](./knowledge-base/kb-articles/publishing/enabling-contextual-content-variables-in-aem-sites-via-aemguides.md)
    - [Använd syreanslutning](./oxygen-connector/use-aem-connector.md)
