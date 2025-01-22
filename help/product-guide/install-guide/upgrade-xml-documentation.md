@@ -5,9 +5,9 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 2362870e0e3e6c08df03e8c547bb77de7faa0a02
+source-git-commit: d63a5983409467bc036d6f17677df51019d1f39c
 workflow-type: tm+mt
-source-wordcount: '7008'
+source-wordcount: '7012'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 0%
 >
 > Följ uppgraderingsinstruktionerna för den licensierade versionen av din produkt.
 
-Du kan uppgradera din nuvarande version av Experience Manager Guides till version 4.6.0 Service Pack 1:
+Du kan uppgradera din nuvarande version av Experience Manager Guides till version 4.6.0 Service Pack 3:
 
 
-- Om du använder version 4.6.0 kan du uppgradera direkt till 4.6.0 Service Pack 1.
-- Om du använder version 4.4, 4.3.1 eller 4.3.0 måste du uppgradera till version 4.6.0 innan du uppgraderar till 4.6.0 Service Pack 1.
+- Om du använder version 4.6.0 eller 4.6.0 Service Pack 1 kan du uppgradera direkt till 4.6.0 Service Pack 3.
+- Om du använder version 4.4, 4.3.1 eller 4.3.0 måste du uppgradera till version 4.6.0.
 - Om du använder version 4.2, 4.2.1 (programfix 4.2.1.3), 4.1 eller 4.1.x måste du uppgradera till version 4.4 innan du uppgraderar till version 4.6.0.
 - Om du använder version 4.0 måste du uppgradera till version 4.2 innan du uppgraderar till version 4.3.x.
 - Om du använder version 3.8.5 måste du uppgradera till version 4.0 innan du uppgraderar till version 4.2.
@@ -987,7 +987,7 @@ Under den här uppgraderingen måste du, eftersom värdet `'order'` ändras frå
 
 >[!TIP]
 >
-> Vi rekommenderar att du installerar 4.6.0 Service Pack 1 ovanpå version 4.6.0. Uppgraderingsprocessen för version 4.6.0 Service Pack 1 följer samma steg som för version 4.6.0.
+> Vi rekommenderar att du installerar 4.6.0 Service Pack 3 utöver version 4.6.0 eller 4.6.0 Service Pack 1. Uppgraderingsprocessen för version 4.6.0 Service Pack 3 följer samma steg som för version 4.6.0.
 
 Uppgradering till version 4.6.0 beror på vilken version av Experience Manager Guides du har. Om du använder version 4.4.0, 4.3.1, 4.3.0, 4.2 eller 4.2.1 (programfix 4.2.1.3) kan du uppgradera direkt till version 4.6.0.
 
