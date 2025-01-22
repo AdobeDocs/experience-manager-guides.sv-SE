@@ -1,16 +1,17 @@
 ---
-title: Aktivera CCVAR (Contextual Content Variables) i AEM Sites via AEM Guides
-description: Arbeta med Contextual Content Variables (CCVAR) i AEM Sites via AEM Guides
+title: Aktivera CCVAR (Contextual Content Variables) på AEM Sites-sidor som genererats från AEM Guides
+description: Arbeta med CCVAR (Contextual Content Variables) på AEM Sites-sidor som genererats från AEM Guides
 feature: Web Editor
 role: User, Admin
-source-git-commit: cd5b8329153f598365a640f50d2c003af72dac50
+exl-id: f9adbb3f-6c1c-4d6f-b55d-1fb45acca91a
+source-git-commit: 4020534552bdb77545c2a283f2a90adc3aebc729
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '473'
 ht-degree: 1%
 
 ---
 
-# Aktivera CCVAR (Contextual Content Variables) i AEM Sites via AEM Guides
+# Aktivera CCVAR (Contextual Content Variables) på AEM Sites-sidor som genererats från AEM Guides
 
 Contextual Content Variables (CCVAR) är en ACS Commons-funktion som gör att författare kan använda dynamiska innehållsvariabler direkt i den text de skriver. CCVAR används ofta i AEM Sites, men i den här artikeln beskrivs hur du uppnår liknande funktionalitet via sidor som genereras från innehåll som skapats i **AEM Guides** *primärt genom att använda nyckelord som definieras i DITA-kartan*.
 
@@ -20,7 +21,7 @@ Contextual Content Variables (CCVAR) är en ACS Commons-funktion som gör att f�
 Med CCVAR kan författare infoga dynamiska variabler i sitt innehåll, som löses vid körning baserat på sammanhanget. Variabler som `((page_properties.pageTitle))` kan till exempel hämta sidtiteln dynamiskt under innehållsåtergivning.
 
 
-## Hur aktiverar man CvVAR i AEM Sites Generated from AEM Guides?
+## Hur aktiverar man CCVAR på AEM Sites-sidor som genererats från AEM Guides?
 
 Om du tänker på att AEM Guides används som källa för allt innehåll (inklusive AEM Sites, PDF eller HTML5) måste du använda nyckelord för att definiera CCVAR-namnet för sidor som genereras från AEM Guides. Om du vill göra det i guider definierar du **nyckelord** i DITA-kartan med `<keydef>` -element. Dessa nyckelord kan motsvara dynamiska värden (eller CCVAR-namn), vilket gör att du kan referera till dem i dina DITA-avsnitt.
 
