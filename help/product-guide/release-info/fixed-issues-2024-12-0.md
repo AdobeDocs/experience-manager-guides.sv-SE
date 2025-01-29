@@ -1,9 +1,10 @@
 ---
 title: Versionsinformation | Korrigerade problem i version 2024.12.0 av Adobe Experience Manager Guides
 description: Läs mer om felkorrigeringarna i version 2024.12.0 av Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: f643a4a22151af2ff14288ab3885c1a6657a80ca
+exl-id: 04a57e1a-6e74-46f6-acde-5045d3dcacdc
+source-git-commit: dd404c42863f0b4a5f31b54f770c0bf296d68ab9
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
@@ -40,3 +41,30 @@ Läs mer om [uppgraderingsinstruktioner för version 2024.12.0](./upgrade-instru
 ## Översättning
 
 - Omvandling av kartor med baslinje blir långsam och kan inte läsa in listan över alla associerade ämnen och kartor. (19733)
+
+## Kända problem med lösningar
+
+Adobe har identifierat följande kända problem i version 2024.12.0 av Adobe Experience Manager Guides as a Cloud Service.
+
+**Det går inte att skapa projekt när innehållsöversättning bearbetas**
+
+När du skickar innehåll för översättning misslyckas projektskapandet med följande loggfel:
+
+`com.adobe.cq.wcm.translation.impl.TranslationPrepareResource` Fel vid bearbetning av översättningsprojekt
+
+`com.adobe.cq.projects.api.ProjectException`: Det går inte att skapa projektet
+
+Orsakad av: `org.apache.jackrabbit.oak.api.CommitFailedException`: `OakAccess0000`: Åtkomst nekad
+
+
+**Tillfällig lösning**: Utför följande steg för att lösa problemet:
+
+1. Lägg till en repoinit-fil. Om filen inte finns skapar du filen genom att utföra stegen [för att skapa konfigurationen för referenspunkter](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-cloud-questions/repoinit-configuration-for-property-set-on-aem-as-cloud-service/m-p/438854).
+2. Lägg till följande rad i filen och distribuera koden:
+
+   ```
+   { "scripts": [ "set principal ACL for translation-job-service\n allow jcr:all on /home/users/system/cq:services/internal/translation\nend" ] }
+   ```
+
+3. Testa översättningen efter distributionen.
+
