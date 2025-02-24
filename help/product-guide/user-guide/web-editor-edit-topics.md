@@ -1,39 +1,39 @@
 ---
-title: Redigera ämnen i Web Editor
-description: Lär dig redigera ämnen i webbredigeraren. Lär dig olika redigeringsfunktioner för att ändra ämnesfilerna i AEM Guides.
+title: Redigera ämnen i Redigeraren
+description: Lär dig redigera ämnen i Redigeraren. Lär dig olika redigeringsfunktioner för att ändra ämnesfilerna i AEM Guides.
 exl-id: 8da37a81-e8c3-434f-b3f4-4723d87c2ade
 feature: Authoring, Web Editor
 role: User
-source-git-commit: 2a22aa0746602f7ecd6b3d6cf616a68d45309bdf
+source-git-commit: d203ca0e1a5ca90f30f33e25e425552141674fe5
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '987'
 ht-degree: 0%
 
 ---
 
-# Redigera ämnen i Web Editor {#id2056B040VUI}
+# Redigera ämnen i Redigeraren {#id2056B040VUI}
 
-Webbredigeraren innehåller en rad redigeringsfunktioner som du kan använda för att enkelt skapa och ändra ämnesfiler. Dessutom utför du följande steg för att redigera ett ämne i Web Editor.
+Redigeraren innehåller en rad redigeringsfunktioner som du kan använda för att enkelt skapa och ändra ämnesfiler. Dessutom utför du följande steg för att redigera ett ämne i redigeraren.
 
 >[!IMPORTANT]
 >
-> Om du råkar ut för ett programfel när du arbetar i Web Editor uppdaterar du sidan för att fortsätta arbeta.
+> Om du råkar ut för ett programfel när du arbetar i redigeraren uppdaterar du sidan för att fortsätta arbeta.
 
 1. Om du vill göra ändringar i ditt ämne klickar du inom textgränsen för det önskade elementet och börjar redigera.
 
-1. Om du vill infoga ett visst element klickar du i slutet av det element efter vilket du vill infoga det nya elementet och klickar på motsvarande elementikon i verktygsfältet. Du kan också använda kortkommandot `Alt+Enter` för att öppna popup-fönstret **Infoga element**.
+1. Om du vill infoga ett visst element flyttar du markören i slutet av det element efter vilket du vill infoga det nya elementet och väljer önskad elementikon i verktygsfältet. Du kan också använda kortkommandot `Alt+1` för att öppna popup-fönstret **Infoga element**.
 
-   En lista över element som kan användas i ämnet visas. AEM Guides placerar element på ett intelligent sätt beroende på var de är placerade i ämnet.
+   En lista över element som kan användas i ämnet visas. Experience Manager Guides placerar element på ett intelligent sätt beroende på var de är placerade i ämnet.
 
    >[!NOTE]
    >
    > Du kan också välja vilken ikon som ska visas i verktygsfältet genom att konfigurera filen `ui_config.json` som finns på - `/etc/designs/fmdita/clientlibs/xmleditor/`. Kontakta systemadministratören om du vill ha mer information om hur du anpassar funktioner.
 
-1. När du är klar med redigeringen av dokumentet klickar du på **Spara**.
+1. När du är klar med redigeringen av dokumentet väljer du **Spara alla**.
 
    >[!NOTE]
    >
-   > Om du inte vill spara ändringarna AEM databasen klickar du på **Stäng** och sedan på **Stäng utan att spara** i dialogrutan Osparade ändringar.
+   > Om du inte vill spara ändringarna i Adobe Experience Manager-databasen väljer du **Stäng** och sedan **Stäng utan att spara** i dialogrutan Osparade ändringar.
 
 
 ## Delvis markering av innehåll mellan element
@@ -47,19 +47,20 @@ Om du tar bort det markerade innehållet sammanfogas det återstående innehåll
 - Omge innehållet med ett giltigt element: Utför följande steg för att omsluta innehållet med ett giltigt element:
 
    - Markera innehållet i ett element.
-   - Välj ikonen ![lägg till](images/Add_icon.svg) i det sekundära verktygsfältet högst upp för att visa dialogrutan **Surround with Element** . I dialogrutan visas giltiga element för det markerade innehållet.
+   - Välj ikonen ![lägg till](images/Add_icon.svg) i verktygsfältet högst upp för att visa dialogrutan **Infoga element** . I dialogrutan visas giltiga element för det markerade innehållet.
      >[!NOTE]
      >
-     > Du kan också visa dialogrutan Surround med element genom att välja snabbmenyn för det markerade innehållet.
+     > Du kan också visa dialogrutan Infoga element genom att välja snabbmenyn för det markerade innehållet.
 
-   - Välj ett element i dialogrutan. Det markerade innehållet kapslas under det elementet. Om du till exempel markerar innehållet i ett stycke och sedan väljer elementet `<note>` i dialogrutan **Surround with element** visas det markerade innehållet under en anteckning.\
-     ![Dialogrutan för surroundelement](./images/surround-element.png) {width="300" align="left"}
+   - Välj ett element i dialogrutan. Det markerade innehållet kapslas under det elementet. Om du till exempel markerar innehållet i ett stycke och sedan väljer elementet `<note>` i dialogrutan **Infoga element** visas det markerade innehållet under en anteckning.
+
+     ![Dialogrutan Infoga element](./images/insert-element-editor.png) {width="300" align="left"}
 
 ## Uppdatera webbläsaren när filerna redigeras
 
-Experience Manager Guides har stöd för att uppdatera webbläsaren medan du redigerar innehållet i Web Editor. Med den här funktionen kan du fortsätta redigera innehåll om ett programfel skulle uppstå när du arbetar. Om du trycker på Uppdatera i webbläsaren medan en eller flera filer med osparade ändringar öppnas för redigering, får du ett varningsmeddelande om att de osparade ändringarna kan gå förlorade. Du får ett alternativ för att avbryta uppdateringsåtgärden och spara filerna för att bevara ändringarna.
+Experience Manager Guides har stöd för att uppdatera webbläsaren medan du redigerar innehållet i Redigeraren. Med den här funktionen kan du fortsätta redigera innehåll om ett programfel skulle uppstå när du arbetar. Om du trycker på Uppdatera i webbläsaren medan en eller flera filer med osparade ändringar öppnas för redigering, får du ett varningsmeddelande om att de osparade ändringarna kan gå förlorade. Du får ett alternativ för att avbryta uppdateringsåtgärden och spara filerna för att bevara ändringarna.
 
-Även när du uppdaterar webbläsaren behålls vyerna till vänster och till höger i webbredigeraren. Experience Manager Guides återställer det senast sparade läget för de filer som öppnats i Web Editor när du uppdaterar webbläsaren. De filer som öppnas i databaspanelen öppnas till exempel igen. Kartpanelen behålls tillsammans med den tidigare öppnade kartan.
+Även när du uppdaterar webbläsaren behålls vyerna till vänster och till höger i Editor. Experience Manager Guides återställer det senast sparade läget för de filer som öppnats i Redigeraren när du uppdaterar webbläsaren. De filer som öppnas i databaspanelen öppnas till exempel igen. Kartpanelen behålls tillsammans med den tidigare öppnade kartan.
 
 Det aktiva ämnet eller DITA-kartan öppnas på nytt i området för innehållsredigering.
 
@@ -67,42 +68,50 @@ Den högra panelen öppnas också igen och visar samma vy som före uppdateringe
 
 ## Arbetskopia
 
-AEM Guides tillhandahåller en indikator för arbetskopian som visar om aktuell \(arbetskopia\) av filen är synkroniserad med den sparade versionen eller inte. Om du har gjort ändringar i den aktuella kopian och inte har sparat filen, visas ett \*-märke tillsammans med titeln på ämnesfliken. Den här indikatorn fungerar som en påminnelse om att spara ändringarna och försvinner när du sparar filen.
+Experience Manager Guides tillhandahåller en indikator för arbetskopian som visar om aktuell \(arbetskopia\) av filen är synkroniserad med den sparade versionen eller inte. Om du har gjort ändringar i den aktuella kopian och inte har sparat filen, visas ett \*-märke tillsammans med titeln på ämnesfliken. Den här indikatorn fungerar som en påminnelse om att spara ändringarna och försvinner när du sparar filen.
 
 ![indikator för arbetskopia](images/working-copy-text-update-indicator.png){width="550" align="left"}
 
-AEM Guides anger också om den senast sparade \(arbets\) kopian av filen är synkroniserad med den sparade versionen eller inte. Om du har gjort ändringar som inte har sparats mellan arbetskopian och den senast sparade versionen visas en \*-markering tillsammans med versionsinformationen som visas i det övre högra hörnet på avsnittets filflik. Den här indikatorn fungerar som en påminnelse om att spara och skapa en version av din aktuella \(arbetskopia\) av filen.
+Experience Manager Guides anger också om den senast sparade \(arbets\) kopian av filen är synkroniserad med den sparade versionen eller inte. Om du har gjort ändringar som inte har sparats mellan arbetskopian och den senast sparade versionen visas en \*-markering tillsammans med versionsinformationen som visas i det övre högra hörnet på avsnittets filflik. Den här indikatorn fungerar som en påminnelse om att spara och skapa en version av din aktuella \(arbetskopia\) av filen.
 
 ![Versionsuppdateringsindikator](images/version-update-indicator.png){width="550" align="left"}
 
 
-## Öppna låsta filer i redigeringsläge och Source-läge
+## Åtkomst till låsta filer i redigeringsläge och Source-läge
 
 När en DITA- eller Markdown-fil är låst eller utcheckad av en annan användare går det inte att redigera eller ändra innehållet. Du kan dock fortfarande visa filen i ett skrivskyddat format i både läget **Författare** och **Source**, utöver läget **Förhandsgranska**.
 
 I skrivskyddat läge kan du visa innehåll, taggar och attribut i **Författarläget** eller **Source** . Du kan också ändra filegenskaperna.
 
-I verktygsfältet visas följande ikoner för skrivskyddad åtkomst:
+>[!NOTE]
+>
+> Som administratör får du åtkomst till funktionen **Tvinga upplåsning** som gör att du kan låsa upp en fil som är låst av någon annan.
 
-- Växla taggvy
-- Tidigare versioner
-- Versionsetikett
+<!-- This is no more available -->
+<!--
+The toolbar displays the following icons for read-only access:
 
-Experience Manager Guides visar även en **skrivskyddad åtkomstindikator** nära versionsnumret.
+- Toggle Tags view
+- Version History
+- Version Label
 
-![visa skrivskyddad fil i redigeringsläge](images/locked-file-editor.png)
+Experience Manager Guides also displays a **Read only access** indicator near the version number.
+ 
+![view read only file in author mode](images/locked-file-editor.png)
 
-Du kan öppna vyn **Layout** för skrivskyddade DITA-kartor. I den här vyn kan du se DITA-kartan och dess egenskaper, men förhindrar redigeringar.
+You can access the **Layout** view for read-only DITA maps. This view lets you see the DITA map and its properties but prevents edits.
 
 >[!NOTE]
 >
-> Administrativa användare på mappnivå måste uppdatera *ui_config.json* så att du kan komma åt de skrivskyddade filerna i redigeringsläget, Source- och layoutläget.
+> Your folder-level administrative users must update *ui_config.json* so that you can harmoniously access the read-only files in the  Author, Source, and Layout modes.
+
+ -->
 
 ## Leta reda på en öppen fil i databasvyn
 
-När du öppnar en fil i Web Editor kan du använda Experience Manager Guides för att leta upp filen i databasvyn. Det söker till exempel efter det aktuella ämnet när du redigerar det.
+När du öppnar en fil i Redigeraren kan du hitta filen i databasvyn i Experience Manager Guides. Det söker till exempel efter det aktuella ämnet när du redigerar det.
 
 Du kan inaktivera funktionen för att hitta filen med alternativet **Hitta alltid filer i databasen** på fliken **Utseende** i **Användarinställningarna**.
 
 
-**Överordnat ämne:**[ Arbeta med webbredigeraren](web-editor.md)
+**Överordnat ämne:**[ Arbeta med redigeraren](web-editor.md)

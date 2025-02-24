@@ -4,77 +4,33 @@ description: Lär dig hur du skapar, redigerar, duplicerar och tar bort en anpas
 exl-id: 0522a49d-4dce-4456-bfdc-7ff9261ae04c
 feature: Publishing
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: e6c14a478d8119c11b8541898c3314688e7fa51b
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '131'
 ht-degree: 0%
 
 ---
 
-# Skapa, redigera, duplicera eller ta bort en förinställning för utdata {#id205BEH0K09Z}
+# Redigera, duplicera eller ta bort en förinställning {#id205BEH0K09Z}
 
-## Skapa en anpassad förinställning för utdata
+Du kan hantera förinställningar för utdata från kartkonsolen och kartpanelen. På båda sätten får du alternativ för att redigera, duplicera och ta bort en förinställning för utdata, vilket visas i följande avsnitt.
 
-Så här skapar du en anpassad förinställning för utdata:
+## Använda kartkonsolen
 
-1. I Assets-gränssnittet går du till och klickar på en DITA-karta för att öppna DITA-kartkonsolen.
+Du kan redigera den valda förinställningen genom att ändra de obligatoriska fälten direkt till de önskade förinställningarna.
 
-1. Kontrollera att fliken Utdatainställningar är markerad. Klicka på Skapa i verktygsfältet.
-
-   Ett tomt formulär för att skapa förinställningar för utdata visas.
-
-1. Ange nödvändig information för den typ av förinställning som du vill skapa.
-
-1. Klicka på Klar för att spara förinställningarna.
+Dessutom kan du duplicera eller ta bort en förinställning med den nedrullningsbara menyn **Alternativ** som visas nedan.
 
 
-## Redigera en förinställning
-
-Så här redigerar du en befintlig förinställning:
-
-1. I Assets-gränssnittet går du till och klickar på en DITA-karta för att öppna DITA-kartkonsolen.
-
-1. Kontrollera att fliken Utdatainställningar är markerad.
-
-1. Klicka på den förinställning som du vill redigera. Klicka på Redigera i verktygsfältet.
-
-   Ett redigerbart förinställt formulär för utdata visas med värden för den valda förinställningen.
-
-1. Ändra den information som krävs.
-
-1. Klicka på Klar för att spara de redigerade förinställningarna.
+![](images/delete-preset-map-console.png){width="800" align="left"}
 
 
-## Duplicera en förinställning
+## Använda Kartpanelen
 
-Så här duplicerar du en befintlig förinställning:
+Du kan redigera, duplicera och ta bort en förinställning med hjälp av kartkontrollpanelen genom att välja önskad flik i den övre raden enligt nedan.
 
-1. I Assets-gränssnittet går du till och klickar på en DITA-karta för att öppna DITA-kartkonsolen.
+![](images/create-new-preset-map-dashboard-new.png){width="800" align="left"}
 
-1. Kontrollera att fliken Utdatainställningar är markerad.
-
-1. Klicka på den förinställning som du vill duplicera. Klicka på Duplicera i verktygsfältet.
-
-   Ett redigerbart förinställt formulär för utdata visas med värden för den valda förinställningen.
-
-1. Ändra den information som krävs.
-
-1. Klicka på Klar för att spara förinställningarna.
-
-
-## Ta bort en förinställning
-
-Så här tar du bort en befintlig förinställning:
-
-1. I Assets-gränssnittet går du till och klickar på en DITA-karta för att öppna DITA-kartkonsolen.
-
-1. Markera den förinställning som du vill ta bort.
-
-1. Klicka på Ta bort förinställning.
-
-1. Klicka på Ta bort på bekräftelserutan.
-
-   Förinställningen tas bort från listan Utdataförinställningar.
 
 
 **Överordnat ämne:**[ Utdatagenerering](generate-output.md)

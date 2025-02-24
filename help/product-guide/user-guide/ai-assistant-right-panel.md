@@ -1,29 +1,25 @@
 ---
 title: Använd AI-assistenten för att skapa dokument smart `
-description: Lär dig hur du använder AI Assistant för att skapa dokument på ett smart sätt i Web Editor.
+description: Lär dig hur du kan använda AI Assistant för att skapa dokument på ett smart sätt.
 exl-id: 47d37323-20bf-4444-a2c9-41c44b2c8daf
-source-git-commit: ae49df3912a5a7a3a01e5eaa08fb9f05249da29f
+source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1037'
 ht-degree: 0%
 
 ---
 
-# AI Assistant för att skapa dokument med smart effektivitet
+# Skapa dokument smart med AI Assistant (Beta)
 
-Experience Manager Guides har ett AI Assistant-verktyg som hjälper dig att skapa smartare och snabbare. Ni får en förenklad dokumenthantering genom intelligenta förslag och optimering. Använd det här verktyget för att visa de smarta förslagen för att återanvända innehållet från den befintliga innehållsdatabasen. Använd textpromptfunktionen för att få en fråga och ändra innehållet eller generera utdata enligt dina önskemål. Använd AI Assistant för att konvertera ett stycke till en lista på ett smart sätt. Du kan skapa en kort beskrivning av det aktuella ämnet. Den här funktionen hjälper dig även att enkelt förbättra och översätta det markerade innehållet.
-
+Adobe Experience Manager Guides har ett AI Assistant-verktyg som hjälper dig att skapa smartare och snabbare. Använd det här verktyget för att visa de smarta förslagen för att återanvända innehållet från den befintliga innehållsdatabasen. Använd textpromptfunktionen för att få en fråga och ändra innehållet efter dina behov. Använd AI Assistant för att konvertera ett stycke till en lista på ett smart sätt. Du kan skapa en kort beskrivning av det aktuella ämnet baserat på det markerade innehållet. Den här funktionen hjälper dig även att enkelt förbättra och översätta det markerade innehållet.
 
 >[!NOTE]
 >
-> Om du vill lägga till AI-assistentfunktionen på den högra panelen måste systemadministratören markera alternativet **AI-assistenten** på fliken **Paneler** i ikonen **Redigerarinställningar** ![Redigerarinställningar](./images/editor_settings_icon.svg) .
-> Du måste även checka ut dokumentet för att visa AI Assistant-ikonen.
+> Den här redigeringsfunktionen är bara tillgänglig för DITA-avsnitt och kan bara nås från redigeringsgränssnittet. På hemsidan och kartkonsolen visas bara panelen **Hjälp**.
 
-Den här funktionen är endast tillgänglig för DITA-avsnitt. När du har markerat texten i ett ämne kan du välja att utföra någon av AI-assistentåtgärderna:
+När du har markerat texten i ett ämne kan du välja att utföra någon av AI-assistentåtgärderna:
 
-![ai-assistent](./images/ai-assistant-panel.png)
-
-
+![ai-assistent](./images/ai-assistant-panel.png){width="300" align="left"}
 
 ## Föreslå återanvändbart innehåll
 
@@ -32,19 +28,14 @@ Använd funktionen **Föreslå återanvändbart innehåll** ![ai föreslår åte
 Läs mer om hur du använder [AI-baserade smarta förslag för att skapa innehåll](authoring-ai-based-smart-suggestions.md).
 
 
-
-
-
 ## Använd textfråga
 
+En textprompt är en instruktion, fråga eller programsats som guidar AI-assistenten att generera ett specifikt svar.
 
-En textprompt är en instruktion, fråga eller programsats som hjälper AI-assistenten att generera ett specifikt svar eller utdata.
-
-Du kan använda en textprompt för att ändra innehållet och generera utdata.  Du kan till exempel generera en sammanfattning av funktionerna i en produkt och använda den i rapporten för att visa upp produkten. Du kan också använda den här funktionen för att jämföra två produkter. Du kan till exempel även skapa en jämförelsetabell för funktionerna i två produkter.
-
+Du kan använda en textprompt för att ändra innehållet. Du kan till exempel markera innehållet i det aktuella ämnet och använda uppmaningen *Gör texten mer koncis*. På samma sätt kan du använda en textprompt för att lägga till ett attribut till taggen som används i det markerade innehållet.
 
 1. Markera den text som du vill använda textprompten för.
-1. Välj **Använd textprompt** ![Använd textpromptikonen](./images/ai-use-text-prompt.svg) på **AI-assistentpanelen**.
+1. Välj **Använd textprompt** ![Använd textpromptikonen](./images/ai-use-text-prompt.svg) på **redigeringspanelen**.
 1. Gör en fråga på något av följande sätt:
 
    - Välj en fråga bland de föreslagna uppmaningarna.
@@ -57,9 +48,11 @@ Du kan använda en textprompt för att ändra innehållet och generera utdata.  
    - Skriv uppmaningen i textrutan.
 
 
-1. Välj **Återskapa** ![Återskapa ikon](./images/refresh-icon.svg) för ytterligare svar eller utdata baserat på uppmaningen, som AI-verktygen.
+1. Välj **Återskapa** ![Återskapa ikon](./images/refresh-icon.svg) för ytterligare svar eller utdata baserat på uppmaningen.
 
 1. (Valfritt) Välj **Expandera** ![tillägg](./images/expand-icon.svg) för att öppna redigeraren för **Använd textprompt**. Den visar det aktuella och det genererade innehållet. Du kan redigera innehållet i källayouten och kontrollera förhandsvisningen.
+
+   ![AI-textredigerare](./images/text-prompt.png)
 
 
    >[!NOTE]
@@ -70,21 +63,18 @@ Du kan använda en textprompt för att ändra innehållet och generera utdata.  
 
 1. Du kan också redigera uppmaningen i redigeraren och generera om svaret. Du kan till exempel ändra uppmaningen så att texten blir mer kortfattad till ungefär 40 ord.
 
-   ![AI-textredigerare](./images/ai-assisstant-text-prompt.png)
-
 1. Du kan verifiera källan för det genererade innehållet och redigera den om det behövs.
 
 1. Välj **Acceptera** om du vill ersätta det markerade innehållet i ämnet med det genererade innehållet.
-1. **Avbryt**: Avbryter textpromptåtgärden. Återgår till panelens ursprungliga läge.
+1. **Avbryt**: Avbryter textpromptåtgärden. Återgår till redigeringspanelen.
 
    >[!NOTE]
    >
-   > Om du väljer ikonen **Avbryt** på funktionspanelen återgår du även till det ursprungliga läget.
+   > Om du väljer ikonen **Stäng** på redigeringspanelen återgår du till det ursprungliga läget för AI-assistenten.
 
 ## Förbättra innehållet
 
-
-Förbättrar det markerade innehållet. Kontrollera stavning, språk och grammatisk struktur och föreslå en bättre version av innehållet. Det förbättrar också meningens kvalitet.
+Använd funktionen **Förbättra innehåll** för att förbättra kvaliteten på det markerade innehållet i det aktuella ämnet. Du kan markera innehållet för att kontrollera stavning, språk och grammatisk struktur och föreslå en bättre version av innehållet. Det förbättrar också meningens kvalitet.
 
 1. Markera innehållet.
 1. Välj **Förbättra innehåll** ![Förbättra innehåll-ikonen](./images/ai-improve-icon.svg) om du vill hitta förslag på det förbättrade innehållet.
@@ -94,9 +84,9 @@ Förbättrar det markerade innehållet. Kontrollera stavning, språk och grammat
 
 
 
-![AI-assistenten förbättrar innehållsredigeraren](./images/ai-assisstant-improve-content.png)
+   ![AI-assistenten förbättrar innehållsredigeraren](./images/ai-assisstant-improve-content.png)
 
-Acceptera förslaget, eller återskapa för ett annat svar, eller avbryt åtgärden för att gå tillbaka till föregående läge.
+Acceptera förslaget, redigera svaret i källvyn innan du godkänner det, generera om för ett annat svar eller avbryt åtgärden för att återgå till föregående läge.
 
 
 
@@ -115,10 +105,10 @@ Du kan till exempel lista systemkraven och generera en kort beskrivning utifrån
 
 Du kan även utföra följande åtgärder:
 
-- Välj **Generera om** om du vill generera en annan kort beskrivning av ämnet, som AI-verktygen.
+- Välj **Generera om** om du vill generera en annan kort beskrivning av ämnet.
 - Välj **Expandera** för att öppna redigeraren för **Skapa genvägar**.
 
-![ai-assistenten skapar en kort beskrivningsredigerare](./images/ai-assistant-create-short-desc.png)
+  ![ai-assistenten skapar en kort beskrivningsredigerare](./images/ai-assistant-create-short-desc.png)
 
 
 
@@ -133,7 +123,7 @@ Med den här funktionen konverteras ett markerat stycke till en lista på ett in
 
 1. Markera innehållet.
 1. Välj **Specificera innehåll** ![Anpassa innehållsikonen](./images/ai-itemize-icon.svg) om du vill konvertera det markerade innehållet till en lista.
-Med AI-assistentverktyget kan du konvertera innehållet på ett smart sätt till en lista med objekt.
+Med redigeringsverktyget på AI-assistentpanelen kan du konvertera innehållet på ett smart sätt till en lista med objekt.
 1. (Valfritt) Välj **Expandera** för att öppna redigeraren **Specificera innehåll**.
 1. När listan är klar godkänner du ändringarna i det genererade innehållet. Det genererade innehållet ersätter det markerade innehållet.
 
@@ -141,11 +131,12 @@ Med AI-assistentverktyget kan du konvertera innehållet på ett smart sätt till
 
 ## Översätta innehåll
 
-Använd den här intelligenta funktionen för att översätta det markerade innehållet till målspråket. Du kan till exempel lägga till innehåll på engelska och snabbt översätta det till tyska.
+Använd den här intelligenta funktionen för att översätta det markerade innehållet till målspråket, vilket gör det mycket användbart när du lägger till anteckningar på olika språk. Du kan till exempel lägga till innehåll på engelska och snabbt översätta det till arabiska.
+
 Utför följande steg för att översätta innehållet:
 
 1. Markera innehållet som du vill översätta.
-1. Välj **Översätt innehåll** ![ai-översättningsikon](./images/ai-translate-content-icon.svg) på AI-assistentpanelen.
+1. Välj **Översätt innehåll** ![ai-översättningsikon](./images/ai-translate-content-icon.svg) på panelen **Redigering**.
 1. Välj målspråk i listrutan. Det översatta innehållet visas på AI-assistentpanelen.
 
 1. (Valfritt) Välj **Expandera** för att öppna redigeraren för **Översätt innehåll**.

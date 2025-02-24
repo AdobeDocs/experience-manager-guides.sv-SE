@@ -4,16 +4,16 @@ description: Lär dig hantera filer och mappar i AEM Guides. Kopiera och klistra
 exl-id: e5b44286-7ac3-49e4-9e6f-7bc8ae2fc935
 feature: Content Management
 role: User
-source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
+source-git-commit: 99e42091490b28b5d5ee73472a7655e3feeafd25
 workflow-type: tm+mt
-source-wordcount: '3109'
+source-wordcount: '3131'
 ht-degree: 0%
 
 ---
 
 # Hantera filer och mappar {#id2116G0L08XA}
 
-I det här avsnittet beskrivs hur AEM Guides hanterar de grundläggande filåtgärderna, som kopiera, klistra in, dra och släppa samt ta bort filer. Följande scenarier är möjliga:
+I det här avsnittet beskrivs hur Adobe Experience Manager Guides hanterar de grundläggande filåtgärderna, som kopiera, klistra in, dra och släppa samt ta bort filer. Följande scenarier är möjliga:
 
 ## Kopiera och klistra in filer
 
@@ -99,11 +99,11 @@ Om du väljer alternativet att skapa en version från den befintliga kopian när
 
 ## Flytta flera filer samtidigt {#move-files-bulk}
 
-AEM Guides har ett verktyg för flyttning av flera filer som hjälper en administratör att flytta en mapp med ett stort antal filer från en plats till en annan. Med det här verktyget kan du enkelt flytta filer i en eller flera mappar till en annan mapp i AEM. En av de viktigaste funktionerna i det här verktyget är att det inte bara flyttar ett stort antal filer, det bevarar även referenserna till och från de filer som flyttas. Du kan ändra antalet filer som du kan flytta i grupper utan att det påverkar redigerings- och publiceringsåtgärderna.
+Experience Manager Guides har ett verktyg för flyttning av flera filer som hjälper en administratör att flytta en mapp med ett stort antal filer från en plats till en annan. Med det här verktyget kan du enkelt flytta filer i en eller flera mappar till en annan mapp i din Adobe Experience Manager-databas. En av de viktigaste funktionerna i det här verktyget är att det inte bara flyttar ett stort antal filer, det bevarar även referenserna till och från de filer som flyttas. Du kan ändra antalet filer som du kan flytta i grupper utan att det påverkar redigerings- och publiceringsåtgärderna.
 
 >[!NOTE]
 >
-> Verktyget för flyttning av grupp fungerar bara på mappnivå. Om du vill flytta enskilda avsnitt eller kartfiler använder du det vanliga flyttverktyget från AEM Assets-gränssnitt.
+> Verktyget för flyttning av grupp fungerar bara på mappnivå. Om du vill flytta enskilda avsnitt eller kartfiler använder du det vanliga flyttverktyget från Adobe Experience Manager Assets-gränssnitt.
 
 Här är några av funktionerna som finns i verktyget Flytta satsvis:
 
@@ -124,14 +124,14 @@ Du måste tänka på följande innan du kör gruppbearbetningen:
 
 Så här flyttar du flera filer samtidigt:
 
-1. Klicka på länken Adobe Experience Manager överst och välj **Verktyg**.
+1. Markera Adobe Experience Manager logotyp överst och välj **Verktyg**.
 1. Välj **Stödlinjer** i listan över verktyg.
-1. Klicka på rutan **Flyttningsverktyg** gruppvis.
+1. Markera rutan **Flytta satsvis**.
 1. Sidan Verktyg för flyttning av grupp visas baserat på dina inställningar. Ange följande information på sidan **Verktyg för massflyttning**:
 
    <details>
 
-   <summary> Cloud Service och lokalt UUID-baserat filsystem </summary>
+   <summary> Molntjänster och lokalt UUID-baserat filsystem </summary>
 
    ![](images/bulk-move-tool-uuid.png){width="650" align="center"}
 
@@ -146,23 +146,23 @@ Så här flyttar du flera filer samtidigt:
 
    - **Source-sökväg\**: Ange platsen för de mappar som du vill flytta.
 
-      - Välj **Bläddra i mapp**  <img src="images/browse-folder-icon.svg" width="25">    för att öppna dialogrutan Bläddra efter filer. Markera de mappar som du vill flytta och klicka på **Markera** för att slutföra processen.
+      - Välj **Bläddra i mapp**  <img src="images/browse-folder-icon.svg" width="25">    för att öppna dialogrutan Bläddra efter filer. Markera de mappar som du vill flytta och välj **Markera** för att slutföra processen.
 
       - Du kan också skriva eller kopiera och klistra in källplatsen. Tryck på Retur för att lägga till mappen i listan.
 
         De markerade mapparna visas tillsammans med sökvägen. Håll muspekaren över mapptaggen för att visa hela sökvägen.
-      - Du kan också ta bort mappar genom att klicka på **Ta bort** <img src="images/remove-folder.svg" width="25"> nära mappen.
+      - Du kan även ta bort mappar genom att välja **Ta bort** <img src="images/remove-folder.svg" width="25"> nära mappen.
 
 
    - **Målsökväg**: Ange platsen där du vill flytta källmapparna.
 
-      - Välj **Bläddra i mapp** <img src="images/browse-folder-icon.svg" width="25"> om du vill öppna dialogrutan Bläddra efter filer. Välj den plats där du vill flytta källmapparna. och klicka på Välj för att slutföra processen.
+      - Välj **Bläddra i mapp** <img src="images/browse-folder-icon.svg" width="25"> om du vill öppna dialogrutan Bläddra efter filer. Välj den plats där du vill flytta källmapparna. och väljer Markera för att slutföra processen.
       - Du kan också skriva eller kopiera och klistra in målsökvägen.
 
      Den markerade mappen visas tillsammans med sökvägen i textrutan.
 
 
-   - Klicka på **Massflyttning**.
+   - Välj **Massflyttning**.
 
      Systemet börjar flytta filer från källan till målplatsen. När processen är klar visas en sammanfattning av flyttprocessen till höger på sidan.
 
@@ -195,22 +195,22 @@ Så här flyttar du flera filer samtidigt:
 
    - **Source-sökväg\**: Ange platsen för de mappar som du vill flytta.
 
-      - Välj **Bläddra i mapp**  <img src="images/browse-folder-icon.svg" width="25">    för att öppna dialogrutan Bläddra efter filer. Markera de mappar som du vill flytta och klicka på **Markera** för att slutföra processen.
+      - Välj **Bläddra i mapp**  <img src="images/browse-folder-icon.svg" width="25">    för att öppna dialogrutan Bläddra efter filer. Markera de mappar som du vill flytta och välj **Markera** för att slutföra processen.
 
       - Du kan också skriva eller kopiera och klistra in källplatsen. Tryck på Retur för att lägga till mappen i listan.
 
         De markerade mapparna visas tillsammans med sökvägen. Håll muspekaren över mapptaggen för att visa hela sökvägen.
-      - Du kan också ta bort mappar genom att klicka på **Ta bort** <img src="images/remove-folder.svg" width="25"> nära mappen.
+      - Du kan även ta bort mappar genom att välja **Ta bort** <img src="images/remove-folder.svg" width="25"> nära mappen.
 
 
    - **Målsökväg**: Ange platsen där du vill flytta källmapparna.
 
-      - Välj **Bläddra i mapp** <img src="images/browse-folder-icon.svg" width="25"> om du vill öppna dialogrutan Bläddra efter filer. Välj den plats där du vill flytta källmapparna. och klicka på Välj för att slutföra processen.
+      - Välj **Bläddra i mapp** <img src="images/browse-folder-icon.svg" width="25"> om du vill öppna dialogrutan Bläddra efter filer. Välj den plats där du vill flytta källmapparna. och väljer Markera för att slutföra processen.
       - Du kan också skriva eller kopiera och klistra in målsökvägen.
 
         Den markerade mappen visas tillsammans med sökvägen i textrutan.
 
-   - Klicka på **Massflyttning**.
+   - Välj **Massflyttning**.
 
      Systemet börjar flytta filer från källan till målplatsen. När processen är klar visas en sammanfattning av flyttprocessen till höger på sidan.
      ![](images/bulk-move-summary-non-uuid.png){width="650" align="center"}
@@ -218,11 +218,11 @@ Så här flyttar du flera filer samtidigt:
 
 ## Sök i DITA-innehåll
 
-Som standard känner AEM inte igen DITA-innehåll, vilket innebär att det inte finns någon mekanism för att söka efter DITA-innehåll i dess databas. AEM Guides lägger till ett lager ovanpå AEM, vilket gör att AEM kan förstå och bearbeta DITA-innehåll. Med funktionen Sök i DITA-innehåll i AEM Guides kan du söka efter DITA-innehåll i AEM.
+Som standard känner Adobe Experience Manager inte igen DITA-innehåll, vilket innebär att det inte finns någon mekanism för att söka efter DITA-innehåll i dess databas. Experience Manager Guides lägger till ett lager ovanpå Adobe Experience Manager, vilket gör att Adobe Experience Manager kan förstå och bearbeta DITA-innehåll. Med funktionen Sök i DITA-innehåll i Experience Manager Guides kan du söka efter DITA-innehåll i Adobe Experience Manager-databaser.
 
 >[!NOTE]
 >
->Systemadministratören kan konfigurera sökkomponenten **DITA-element** och sedan använda funktionen från AEM Assets-gränssnittet. Mer information finns i avsnittet *Lägg till sökkomponent för DITA-element i Assets UI* i Installera och konfigurera Adobe Experience Manager Guides as a Cloud Service.
+>Systemadministratören kan konfigurera sökkomponenten **DITA-element** och sedan använda funktionen från Adobe Experience Manager Assets-gränssnittet. Mer information finns i avsnittet *Lägg till sökkomponent för DITA-element i Assets UI* i Installera och konfigurera Adobe Experience Manager Guides as a Cloud Service.
 
 Med sökfunktionen kan du:
 
@@ -230,7 +230,7 @@ Med sökfunktionen kan du:
 - Sök efter DITA-innehåll baserat på ett attributvärde, till exempel `@platform`= fönster
 - Använd en kombination av DITA-element och attributvärde, till exempel `author`= xml `AND` `@platform`= fönster
 
-Utför följande steg för att söka efter DITA-innehåll i AEM:
+Utför följande steg för att söka efter DITA-innehåll i Adobe Experience Manager-databasen:
 
 1. Öppna Assets UI.
 
@@ -259,13 +259,13 @@ Utför följande steg för att söka efter DITA-innehåll i AEM:
 
 **Statusfilter för utcheckning i sökning**
 
-Förutom DITA-elementfiltret kan du i AEM Guides även söka efter innehåll baserat på utcheckningsstatus. Detta är praktiskt när du snabbt vill filtrera bort filer som är utcheckade av dig och vill checka in dem igen.
+Förutom DITA-elementfiltret kan du i Experience Manager Guides även söka efter innehåll baserat på utcheckningsstatus. Detta är praktiskt när du snabbt vill filtrera bort filer som är utcheckade av dig och vill checka in dem igen.
 
 Gör så här för att söka efter filer baserat på utcheckningsstatus:
 
 1. Öppna Assets UI.
 
-1. Klicka på **Filter** i den vänstra listen.
+1. Välj **Filter** i den vänstra listen.
 1. Ange söknyckelordet i sökfältet.
 1. Använd de filter som krävs från vänster rulle.
 
@@ -276,7 +276,7 @@ Gör så här för att söka efter filer baserat på utcheckningsstatus:
 
 ## Ta bort filer
 
-Borttagning av filer från AEM är en begränsad funktion som styrs av systemadministratören. Beroende på konfigurationerna kan det vara svårt att ta bort filer om de är:
+Borttagning av filer från Adobe Experience Manager-databasen är en begränsad funktion som styrs av systemadministratören. Beroende på konfigurationerna kan det vara svårt att ta bort filer om de är:
 
 - Utcheckad
 - Har inkommande eller utgående referenser
@@ -307,12 +307,12 @@ Om mediefilen har ändrats kan du söka efter och förhandsgranska filerna i **T
 
 1. Få åtkomst till filen i **Assets-gränssnittet**.
 1. Markera filen som du vill visa versionshistoriken för.
-1. Klicka på **Versionshistorik** till vänster och välj en version.
-1. Du kan också se miniatyrbilder av de olika versionerna under Versionshistorik.
+1. Välj **Versionshistorik** i den vänstra listen och välj en version.
+1. Du kan även visa miniatyrbilder av de olika versionerna under Versionshistorik.
 
    ![](images/media-version-history-icon.png){width="800" align="center"}
 
-1. Välj den som du vill använda som grundversion i de listade versionerna och klicka på **Förhandsgranska version**. Förhandsgranskningen av den valda versionen visas i fönstret Förhandsgranska version.
+1. Välj den som du vill använda som basversion i de listade versionerna och välj **Förhandsgranska version**. Förhandsgranskningen av den valda versionen visas i fönstret Förhandsgranska version.
 
    ![](images/media-version-preview.png){width="650" align="center"}
 

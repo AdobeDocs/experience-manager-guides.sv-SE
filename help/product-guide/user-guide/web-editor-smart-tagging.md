@@ -4,9 +4,9 @@ description: Lär dig hur du lägger till smarta taggar i AEM Guides. Extrahera 
 exl-id: 7fb4b881-0898-44eb-a0e8-85cb99d9593b
 feature: Metadata Management
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 9898f98d897da4da9ca76a89efd262239606ac2e
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '238'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 >
 > Funktionen för smart taggning är inte tillgänglig direkt och den kräver anpassad implementering som du behöver kontakta systemadministratören för.
 
-AEM Guides har funktionen att lägga till smarta taggar. Du kan extrahera smarta taggar med XML-verktyget Extrahera nyckelord. Det här verktyget använder artificiell intelligens för att förstå innehållet och tillhandahålla relevanta nyckelord. Du kan använda smarta taggar för att förbättra sökmotoroptimeringen \(SEO\) och hjälpa användarna att hitta ditt relaterade innehåll.
+Adobe Experience Manager Guides har funktionen att lägga till smarta taggar. Du kan extrahera smarta taggar med XML-verktyget Extrahera nyckelord. Det här verktyget använder artificiell intelligens för att förstå innehållet och tillhandahålla relevanta nyckelord. Du kan använda smarta taggar för att förbättra sökmotoroptimeringen \(SEO\) och hjälpa användarna att hitta ditt relaterade innehåll.
 
 Så här skapar du smarta taggar:
 
@@ -27,7 +27,7 @@ Så här skapar du smarta taggar:
 
    ![](images/smart-tag-reprocess-asset.png){width="300" align="left"}
 
-1. Välj alternativet Kör Post-process. Ett meddelande visas när verktyget har initierats.
+1. Välj alternativet Kör efterbearbetning. Ett meddelande visas när verktyget har initierats.
 1. Taggarna extraheras automatiskt och kan visas på sidan Egenskaper i det markerade ämnet.
 
    ![](images/properties-smart-tags.png){width="800" align="left"}

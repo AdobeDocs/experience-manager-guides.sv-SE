@@ -1,21 +1,21 @@
 ---
-title: Granska ämnen och kartor
+title: Introduktion till granskning
 description: Granska effektivt ämnen och kartor i AEM Guides för smidig innehållsutvärdering. Lär känna författare och granskare i AEM Guides.
 exl-id: 81ea0b52-52b0-4764-a6d8-a96d5c7693bf
 feature: Reviewing
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 38ea2eb35ebd75c1202c86d598ad953db3894d40
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 0%
 
 ---
 
-# Granska ämnen och kartor {#id1645H6010Q5}
+# Introduktion till granskning {#id1645H6010Q5}
 
 Nästan alla tekniska dokument måste gå igenom flera granskningsrundor. I de flesta fall innebär en granskningscykel mer än en granskare. Att hantera och besvara kommentarer från olika granskare är alltid en utmaning för författarna. I ett scenario med flera granskare är det också praktiskt om en granskare även kan se kommentarer från andra granskare.
 
-Några av huvudfunktionerna som AEM Guides erbjuder *initierarna \(eller författarna\)* är:
+Några av huvudfunktionerna som Adobe Experience Manager Guides erbjuder *initierarna \(eller författarna\)* är:
 
 - Skapa ett DITA-projekt för granskningsarbetsflödet.
 - Skicka ett eller flera ämnen för granskning i en och samma granskningsuppgift.
@@ -30,7 +30,7 @@ Några av huvudfunktionerna som AEM Guides erbjuder *initierarna \(eller förfat
 
 - Gruppera och filtrera kommentarer baserat på ämnesversion.
 
-- Se skillnaderna sida vid sida mellan olika versioner av ämnen som delas ut för granskning.
+- Visa skillnader sida vid sida mellan olika versioner av ämnen som delas för granskning.
 
 - Importera automatiskt \(borttagna eller infogade\) kommentarer till den version av ämnet som delats för granskning.
 
@@ -45,13 +45,13 @@ Funktioner som är tillgängliga för *granskarna*:
 - Använd granskningspanelen för att lägga till kommentarer eller svara på kommentarer från andra användare.
 - Lär dig enkelt vilken version av ämnet du granskar.
 - Få ett meddelande när en uppgift har tilldelats dem för granskning.
-- Se skillnaderna mellan äldre och nyare versioner av ämnen som delas för granskning.
-- Se kommentarer från andra granskare eller svar från författaren i realtid.
+- Visa skillnader mellan äldre och nyare versioner av ämnen som delas för granskning.
+- Visa kommentarer från andra granskare eller svar på kommentarer från författaren i realtid.
 - Kommentarer ges i äldre versioner av ämnet.
 
 >[!NOTE]
 >
-> I avsnittet *Granska* i guiden om bästa praxis finns information om hur du skapar granskningsåtgärder.
+> Visa avsnittet *Granska* i guiden Bästa metoder för att skapa en granskningsaktivitet.
 
 - **[Skapa ett DITA-projekt](authoring-create-dita-project.md)**
 

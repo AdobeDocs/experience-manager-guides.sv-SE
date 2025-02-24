@@ -1,42 +1,31 @@
 ---
 title: AI-baserad smart hjälp för att söka efter innehåll
-description: Lär dig hur du visar och använder AI-baserad smart hjälp i Web Editor.
-source-git-commit: ebae228d6bf71fb9ddf288b9609eb16943272287
+description: Lär dig hur du visar och använder AI-baserad smart hjälp.
+exl-id: 61a15208-9600-4bb8-adc0-feca1a0ffef3
+source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '609'
 ht-degree: 0%
 
 ---
 
-
-# AI-baserad smart hjälp för att söka efter innehåll
-
-
+# Förbättra effektiviteten med smart hjälp i AI Assistant (Beta)
 
 Experience Manager Guides tillhandahåller den GenAI-baserade smarta hjälpen, en konversationssökfunktion som hjälper dig att hitta relevant innehåll från [Adobe Experience Manager Guides-dokumentationen](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
-Du kan ställa frågor och få svar på ett informativt sätt. Svaret på din fråga baseras på innehållet i produktdokumentationen. Den här sökningen är helt konversationell. Du kan ställa frågor och sedan, baserat på svaret, ställa ytterligare frågor. Svaret innehåller även länkar till källdokument, som du kan referera till för mer information.
 
-Du kan till exempel skapa ett ämne i Experience Manager Guides för din dokumentation. Du kan fråga, *Hur skapar du ett ämne?* Du får ett svar och länkar för de relaterade artiklarna. Om du sedan vill lära dig hur du genererar utdata från PDF för dokumentet kan du ställa frågor om det. *Så här publicerar du ett ämne till en PDF?* eller *Hur skapar jag utdata i PDF för ett ämne?*
+Du kan ställa frågor och få svar på ett informativt sätt. Svaret på din fråga baseras på innehållet i produktdokumentationen. Den här sökningen är helt konversationell. Du kan ställa frågor om de olika funktionerna i Experience Manager Guides eller ställa frågor om felsökning. Beroende på svaret kan du även ställa ytterligare frågor. Svaret innehåller även länkar till källdokument, som du kan referera till för mer information.
 
+Du kanske vill ställa frågor som *Hur publicerar jag en karta?* Du får ett svar och länkar för de relaterade artiklarna. Om du sedan vill lära dig hur du använder en viss metod för att publicera utdata kan du ställa frågor om det. *Hur publicerar jag en karta till PDF?*
 
-
-När du öppnar Web Editor visas panelen **Smart hjälp** till höger.
-
-
-
->[!NOTE]
->
-> Administratören måste konfigurera funktionen **Smart hjälp**. Mer information finns i avsnittet [Konfigurera den AI-baserade smarta hjälpen för att söka efter innehåll](../cs-install-guide/conf-smart-help.md) i installations- och konfigurationshandboken för Cloud Service.
+När du öppnar **AI Assistant** på startsidan, kartkonsolen eller redigeraren öppnas **hjälppanelen** till höger. När det gäller redigeraren visas även redigeringspanelen som ger dig smarta redigeringsfunktioner. Mer information finns i [AI-assistenten för att skapa dokument på ett smart sätt](./ai-assistant-right-panel.md)
 
 ![Smart hjälppanel](images/smart-help-panel.png){width="300" align="left"}
 
-*Visa panelen **Smart hjälp**.*
+*Visa panelen **Hjälp**.*
 
-Utför följande steg för att använda konversationssökningen för att hitta rätt innehåll och lösa dina frågor:
+Utför följande steg om du vill använda hjälppanelen för att hitta rätt innehåll och lösa dina frågor:
 
-1. Välj **Smart hjälp** ![ikonen Smart hjälp](images/smart-help-icon.svg) för att öppna panelen.
-
-
+1. Välj **AI-assistenten** för att öppna hjälppanelen.
 
    >[!NOTE]
    >
@@ -53,13 +42,22 @@ Utför följande steg för att använda konversationssökningen för att hitta r
 
    *Välj exempelfrågan och visa innehållet och bilderna som svar.*
 
-
-
-
-
-1. Markera länkarna till artiklarna i slutet och visa detaljerad information om din fråga.
+1. Markera länkarna till artiklarna i slutet och visa detaljerad information om svaret på din fråga.
 
 
 1. Välj **Rensa konversation** ![Rensa konversation](images/clear-conversation-icon.svg) om du vill ta bort konversationshistoriken från panelen. Du kan sedan starta en ny konversation och hitta relevant innehåll.
 
-Den här smarta funktionen hjälper dig att hitta lösningar snabbt och låter dig fokusera på dokumentationen och slutföra dina uppgifter på ett effektivt sätt.
+I stället för att söka i användarhandböcker och referensdokument kan du använda funktionen **Hjälp** för att snabbt hitta relevanta svar på dina frågor. Detta sparar tid och gör att du kan fokusera på att skapa innehåll, vilket ger ökad produktivitet och effektivitet.
+
+## Alternativ för hjälpsvar för AI Assistant
+
+När du får ett svar från AI Assistant på panelen **Hjälp** kan du interagera med den eller ge feedback för att förbättra dess precision och tillförlitlighet. Din feedback hjälper Experience Manager Guides-teamet att förbättra noggrannheten och relevansen i AI Assistant-svaren och förbättra resultatet över tid.
+
+Följande alternativ är tillgängliga för att interagera med eller ge feedback på svar från AI Assistant-panelen **Hjälp**:
+
+![](images/ai-assistant-response-options.png){width="300" align="left"}
+
+- **Kopiera**: Kopiera svaret för användning i dina dokument.
+- **Gilla**: Ange att svaret var användbart eller korrekt. Välj gilla-ikonen för att gilla svaret och använd alternativet **Berätta mer** för att ge detaljerad feedback.
+- **Ogilla**: Markera svaret som oanvändbart eller felaktigt. Välj ikonen Ogilla för att gilla svaret och använd alternativet **Berätta mer** för att ge detaljerad feedback.
+- **Rapport**: Flagga svaret för granskning om det innehåller fel eller felaktigt innehåll. Välj flaggikonen för att öppna dialogrutan **Rapportera resultat**. Välj bland de tillgängliga alternativen eller ge en egen feedback.

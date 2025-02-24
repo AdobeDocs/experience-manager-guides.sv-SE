@@ -4,67 +4,56 @@ description: Lär känna användningen av baslinjer i AEM Guides. Lär dig hur d
 exl-id: 0554947f-3038-4fd2-8a62-ac0d4b858e94
 feature: Publishing
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
 workflow-type: tm+mt
-source-wordcount: '1960'
+source-wordcount: '1790'
 ht-degree: 0%
 
 ---
 
-# Arbeta med baslinje {#id1825FI0J0PF}
+# Arbeta med baslinje från kartpanelen {#id1825FI0J0PF}
 
-Med funktionen Baslinje kan du skapa en version av dina ämnen och resurser som sedan kan användas för publicering eller översättning. Om din DITA-karta till exempel har `topicA` och `imageA` kan du skapa en baslinje som använder den tredje versionen av `topicA`, men den fjärde versionen av `ImageA`. När du har en originalplan kan du publicera eller översätta ämnen från olika versioner med ett enda klick.
-
-Det är valfritt att välja en baslinje för förinställningar och en DITA-karta kan ha mer än en baslinje. Varje förinställning i en DITA-karta kan emellertid bara kopplas till en baslinje. Om ingen baslinje har angetts vid publiceringen publiceras utdata med den senaste versionen av innehållet.
-
-På samma sätt är det valfritt att markera en baslinje för att översätta innehåll. Om du väljer att översätta innehåll med hjälp av en baslinje, sparas innehållet i baslinjen också tillsammans med de översatta kopiorna. Du kan sedan använda den översatta baslinjen för att utföra ytterligare åtgärder som att dela den med externa utgivare eller arkivera den. Mer information om hur du exporterar en översatt baslinje finns i [Exportera översatt baslinje](#id196SE600GHS).
+Experience Manager Guides har en baslinjefunktion där användarna kan skapa baslinjer och använda dem för att publicera eller översätta ämnen från olika versioner. De kan också publicera flera förinställningar av samma DITA-karta parallellt.
 
 >[!TIP]
 >
-> Avsnittet *Baslinje* i guiden Bästa metoder för att arbeta med baslinjer finns i avsnittet Baslinje.
+> Visa avsnittet *Baslinje* i guiden Bästa metoder för att arbeta med baslinjer.
 
-Administratören kan konfigurera fliken Baslinje på kartkontrollpanelen. Mer information finns i avsnittet *Konfigurera baslinje på DITA-kartkontrollpanelen* i installations- och konfigurationshandboken.
+Administratören kan konfigurera fliken Baslinje på kartkontrollpanelen. Mer information finns på fliken *Konfigurera baslinje i DITA-kartkontrollpanelen* i installations- och konfigurationshandboken.
 
-Du kommer åt baslinjefunktionen genom att utföra följande steg:
+På fliken **Baslinjer** kan du utföra följande åtgärder:
 
-1. Navigera till och klicka på DITA-kartfilen i Assets-användargränssnittet.
-1. Gå till fliken **Baslinjer**.
+- [Skapa en baslinje](#create-a-baseline)
+- [Visa innehållet i en baslinje](#view-contents-of-a-baseline)
+- [Redigera, duplicera eller ta bort baslinjer](#edit-duplicate-or-remove-baselines)
+- [Lägga till etiketter i en baslinje](#add-labels-to-a-baseline)
 
-På fliken Baslinjer kan du utföra följande åtgärder:
-
-- [Skapa en baslinje](#id195FI0I0MUQ)
-- [Visa innehållet i en baslinje](#id195FI0I0TLN)
-- [Redigera, duplicera eller ta bort baslinjer](#id195FI0I0YJL)
-- [Lägga till etiketter i en baslinje](#id184KD0T305Z)
-
-## Skapa en baslinje {#id195FI0I0MUQ}
+## Skapa en baslinje
 
 Du kan skapa en baslinje med en specifik version av ämnen och refererat innehåll som är tillgängligt på ett visst datum och en viss tid, eller med en etikett definierad för en ämnesversion. Du kan ange versioner av markerade ämnen separat på en baslinje så att de markerade avsnitten och tillhörande versioner inkluderas för generering eller översättning varje gång du använder baslinjen i arbetsflödet för publicering eller översättning.
 
 Så här skapar du en baslinje:
 
-1. Klicka på **Skapa** på sidan Baslinjer.
-1. Ange ett namn för baslinjen i **Baslinjenamn**.
-   ![skapa en baslinje](images/create-baseline.png){width="800" align="left"}
-1. Välj något av följande alternativ i **Ange versionen baserad på**:
+1. Öppna en DITA-kartfil i Assets-gränssnittet och navigera till sidan **Baslinjer**.
+2. Välj **Skapa** längst upp till vänster.
+3. På sidan Baslinje anger du ett namn för baslinjen i fältet **Baslinjenamn**.
+
+   ![](images/create-baseline-assets-ui.png){width="300" align="left"}
+
+4. Välj något av följande alternativ i **Ange versionen baserat på**:
 
    - **Etikett**: Välj det här alternativet om du vill välja ämnen enligt den etikett som används för dem. Ange en etikett för att filtrera listan baserat på den angivna strängen. I den filtrerade listan kan du välja en etikett för att välja ämnen och andra resurser med den angivna etiketten.
 
-   När du väljer **Etikett** får du också ett extra alternativ för att använda den senaste versionen av ämnen som inte har den angivna etiketten. Om du inte markerar det här alternativet och det finns ämnen eller mediefiler som inte har den angivna etiketten, kommer baslinjen inte att kunna skapas. Mer information om hur du lägger till etiketter finns i [Använd etiketter](web-editor-use-label.md#).
+     När du väljer Etikett får du också ett extra alternativ för att använda den senaste versionen av ämnen som inte har den angivna etiketten. Om du inte markerar det här alternativet och det finns ämnen eller mediefiler som inte har den angivna etiketten, kommer baslinjen inte att kunna skapas. Mer information om hur du lägger till etiketter finns i Använda etiketter.
 
-   - **Version på** &lt;*tidsstämpel*\>: Hämtar ämnesversionen som angivet datum och tid. Observera att den tidpunkt som du anger här motsvarar tidszonen för AEM. Om servern befinner sig i en annan tidszon hämtas ämnen enligt serverns tidszon och inte enligt den lokala tidszonen.
+   - **Version på**: Hämtar ämnesversionen som angivet datum och angiven tid. Observera att den tidpunkt som du anger här motsvarar tidszonen för din Adobe Experience Manager-server. Om servern befinner sig i en annan tidszon hämtas ämnen enligt serverns tidszon och inte enligt den lokala tidszonen.
 
-   När du har markerat en etikett eller version som den är, markeras alla refererade ämnen och mediefiler på kartan därefter. Det här valet av ämnen visas inte i användargränssnittet, men sparas i serverdelen.
+     När du har markerat en etikett eller version som den är, markeras alla refererade ämnen och mediefiler på kartan därefter. Det här valet av ämnen visas inte i användargränssnittet, men sparas i serverdelen.
+5. Välj **Spara**.
 
-   >[!NOTE]
-   >
-   >Du bör inte använda länken **Bläddra bland alla ämnen** när du skapar en baslinje.
+## Visa innehållet i en baslinje
 
-1. Klicka på **Spara**.
-
-## Visa innehållet i en baslinje {#id195FI0I0TLN}
-
-Du kan visa innehållet i en befintlig baslinje genom att klicka på fliken Baslinjer och välja önskad baslinjeversion i listan. Sidan Baslinjer är uppdelad i tre delar - DITA-kartfil, kartans innehåll eller ämnen samt det refererade innehållet. Om kartan innehåller underkartor visas även de ämnen som refereras från underkartan i innehållsavsnittet. De olika kolumnerna på sidan Baslinje beskrivs nedan:
+Du kan visa innehållet i en befintlig baslinje genom att välja fliken Baslinje och sedan välja önskad baslinjeversion i listan. Sidan Baslinjer är uppdelad i tre delar - DITA-kartfil, kartans innehåll eller ämnen samt det refererade innehållet. Om kartan innehåller underkartor visas även de ämnen som refereras från underkartan i innehållsavsnittet. De olika kolumnerna på sidan Baslinje beskrivs nedan:
 
 - **Namn**: Visar DITA-kartan eller objektets rubrik eller namnet på resursen, t.ex. filnamnet för en bild.
 
@@ -82,25 +71,25 @@ Du kan visa innehållet i en befintlig baslinje genom att klicka på fliken Basl
 
 - **Refererad av**: Den här kolumnen är endast tillgänglig för det refererade innehållet. Den anger det överordnade avsnittet för den refererade resursen. Om en resurs refereras av flera ämnen, separeras ämnena med kommatecken.
 
-## Redigera, duplicera eller ta bort baslinjer {#id195FI0I0YJL}
+## Redigera, duplicera eller ta bort baslinjer
 
 **Redigera baslinjer**
 
 Utför följande steg för att redigera en befintlig baslinje:
 
-1. Markera baslinjen och klicka på **Redigera**.
+1. Markera baslinjen och välj **Redigera**.
 1. Gör önskade ändringar i baslinjen. Du kan ändra namn och version för ämnet eller det refererade innehållet.
-1. Om du vill använda en annan version för ett eller flera ämnen kan du göra det genom att manuellt markera de ämnena. Klicka på **Bläddra i ämne** och välj det ämne som du vill använda en annan version för. I listrutan Välj en version för det valda ämnet väljer du en version av ämnet som du vill använda i baslinjen och klickar på **OK**.
+1. Om du vill använda en annan version för ett eller flera ämnen kan du göra det genom att manuellt markera de ämnena. Välj **Bläddra i ämne** och markera det ämne som du vill använda en annan version för. I listrutan Välj en version för det markerade ämnet väljer du en version av ämnet som du vill använda i baslinjen och sedan **OK**.
 
    ![](images/baseline-select-version-drop-down.png){width="800" align="left"}
 
    Informationen om ämnet och den valda versionen lagras i serverdelen. Du kan upprepa det här steget om du vill ändra den valda versionen för flera ämnen.
 
-1. Om du vill läsa in alla ämnen och mediefiler som refereras från DITA-kartan klickar du på länken **Bläddra bland alla avsnitt** . UUID för ämnen och mediefiler visas också under ämnesrubriken eller filnamnet \(media\).
+1. Om du vill läsa in alla ämnen och mediefiler som refereras från DITA-kartan väljer du länken **Bläddra bland alla avsnitt** . UUID för ämnen och mediefiler visas också under ämnesrubriken eller filnamnet \(media\).
 
    >[!NOTE]
    >
-   > Om du har en mycket stor uppsättning filer på DITA-kartan, med kapslade kartor och ämnen, kan det ta ett tag att läsa in alla filer om du klickar på Bläddra bland alla avsnitt.
+   > Om du har en mycket stor uppsättning filer på DITA-kartan, med kapslade kartor och ämnen, kan det ta ett tag att läsa in alla filer om du väljer Bläddra bland alla ämnen.
 
    Innehållet i kartan visas i tre avsnitt: kartfilen, innehållet \(ämnesreferenser\) och referensinnehållet \(kapslade ämnen, kartor och andra resurser\). När du har allt refererat innehåll tillgängligt kan du välja den version av ämnet som du vill använda i baslinjen.
 
@@ -115,19 +104,19 @@ Utför följande steg för att redigera en befintlig baslinje:
    >[!NOTE]
    >
    > Om du vill ange en annan version för en viss resurs kan du göra det genom att välja önskad version i listrutan **Version**.
-1. Klicka på **Spara**.
+1. Välj **Spara**.
 
 **Duplicera baslinjer**
 
-Markera baslinjen och klicka på **Duplicera** för att skapa en kopia av en befintlig baslinje. Ange ett annat namn för baslinjen, välj versionsnummer för avsnitten och det refererade innehållet och klicka på **Spara**.
+Markera baslinjen och välj **Duplicera** för att skapa en kopia av en befintlig baslinje. Ange ett annat namn för baslinjen, välj versionsnumret för avsnitten och det refererade innehållet och välj **Spara**.
 
 **Ta bort baslinjer**
 
-Markera baslinjeversionen och klicka på **Ta bort** för att ta bort en baslinje.
+Markera baslinjeversionen och välj **Ta bort** för att ta bort en baslinje.
 
-## Lägga till etiketter i en baslinje {#id184KD0T305Z}
+## Lägga till etiketter i en baslinje
 
-Det kan vara tidskrävande att lägga till etiketter i varje enskilt ämne. AEM Guides har en funktion för att lägga till etiketter i flera ämnen och refererat innehåll på en DITA-karta med ett enda klick.
+Det kan vara tidskrävande att lägga till etiketter i varje enskilt ämne. Experience Manager Guides har en funktion för att lägga till etiketter i flera ämnen och refererat innehåll på en DITA-karta med ett enda klick.
 
 Utför följande steg för att lägga till en etikett i flera ämnen och refererat innehåll i en DITA-karta:
 
@@ -137,7 +126,7 @@ Utför följande steg för att lägga till en etikett i flera ämnen och referer
    >
    > Se till att baslinjen inte har den senaste versionen av något ämne eller material. En etikett kan bara läggas till i ett versionsämne eller en resurs.
 
-1. Klicka på **Lägg till etiketter**.
+1. Välj **Lägg till etiketter**.
 
    ![](images/add-label-baseline-uuid.png){width="800" align="left"}
 
@@ -145,15 +134,15 @@ Utför följande steg för att lägga till en etikett i flera ämnen och referer
 
    Om administratören har konfigurerat fördefinierade etiketter visas dessa i en listruta. Du måste välja en etikett i listan.
 
-1. Om du vill använda etiketten för ämnen som refereras från undermappningarna väljer du alternativet **Använd etikett på underordnade kartor och beroenden** .
+1. Om du vill använda etiketten för ämnen som refereras från undermappningarna väljer du alternativet **Använd etikett på underordnade kartor och deras underordnade kartor** .
 
-   - Klicka på **Lägg till**.
+   - Välj **Lägg till**.
 Den angivna etiketten läggs till på DITA-kartan och de ämnen och innehåll som refereras.
 
      ![](images/label-added-baseline-uuid.png){width="650" align="left"}
 
 
-## Exportera översatt originalplan {#id196SE600GHS}
+## Exportera översatt originalplan
 
 Du kan använda Baslinje för översättning av innehåll. Du kan till exempel skapa en baslinje för version 1.1 som är klar för översättning på franska. På fliken Översättning måste du använda Baslinje för att filtrera innehållet och sedan välja Baslinje för version 1.1 av innehållet. Genom att använda Baslinje för översättning av innehåll blir det enklare för dig att hantera ditt innehåll.
 
@@ -169,17 +158,17 @@ Utför följande steg för att exportera en översatt baslinje:
 
 1. Utöka alternativet **Baslinje** i den vänstra listen på fliken **Översättning**.
 
-   ![](images/export-baseline.png){width="800" align="left"}
+   ![](images/export-baseline-new.png){width="800" align="left"}
 
 1. Markera alternativet **Använd baslinje** och välj den baslinje som du vill exportera.
 
-1. Klicka på **Exportera baslinje**.
+1. Välj **Exportera baslinje**.
 
    Exportstatus visas. Om processen lyckas visas ett meddelande där du anger vilket språk baslinjen ska exporteras för. Om ett fel uppstår visas felorsaken.
 
    Om du försöker exportera den baslinje som redan har exporterats visas även felmeddelandet när baslinjen skapades.
 
-1. \(Valfritt\) Om du vill exportera en baslinje som redan har exporterats markerar du **Skriv över befintlig baslinje** och klickar sedan på **Exportera baslinje**.
+1. \(Valfritt\) Om du vill exportera en baslinje som redan har exporterats väljer du **Skriv över befintlig baslinje** och sedan **Exportera baslinje**.
 
 
 **Överordnat ämne:**[ Utdatagenerering](generate-output.md)

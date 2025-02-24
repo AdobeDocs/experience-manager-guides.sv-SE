@@ -1,29 +1,27 @@
 ---
 title: Generering av utdata
-description: Generera material AEM sajt, PDF, HTML 5, EPUB, skräddarsydd och JSON via DITA-OT-plugins, PDF och FMPS i AEM Guides.
+description: Generera utdata på AEM webbplats, PDF, HTML5, EPUB, anpassad och JSON via DITA-OT-plugins, PDF-publicering och FMPS i AEM Guides.
 exl-id: fd5e4c17-13c1-4679-8d88-af9de92aec9a
 feature: Publishing
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 2748ecee0963028be5d9220f852f4dfbc122d4a0
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
 
 # Generering av utdata {#id1645H8040HD}
 
-AEM Guides har inbyggda publiceringsfunktioner för att generera utdata i en mängd olika standardformat. Med den aktuella versionen av AEM Guides kan du generera utdata i de vanligaste formaten - AEM Site, PDF, HTML 5, EPUB, JSON och anpassade utdata via DITA-OT, Native PDF-publicering och FMPS.
+Adobe Experience Manager Guides har inbyggda publiceringsfunktioner för att generera utdata i en mängd olika standardformat. Med den aktuella versionen av Experience Manager Guides kan du generera utdata i de vanligaste formaten - AEM Sites, PDF, HTML5, EPUB, JSON och anpassade utdata via DITA-OT, PDF-publicering och FMPS.
 
 Som utgivare kan du generera flera utdatafiler med bara några klick. Du kan generera utdata för en hel DITA-karta eller så kan du selektivt publicera endast ett fåtal ämnen som du har uppdaterat. Du kan också använda publiceringsfunktionen Baslinje för att selektivt publicera en specifik version av DITA-kartan eller -avsnittet.
 
 >[!NOTE]
 >
-> AEM Guides har också stöd för generering av utdata för LwDITA-kartor och ämnesfiler.
+> Experience Manager Guides har också stöd för generering av utdata för LwDITA-kartor och ämnesfiler.
 
-Som produktionsspecialist är det också enkelt för dig att automatisera publiceringsprocessen genom att skapa en Publish Dashboard och köra arbetsflöden för postpublicering. Med Publishing Dashboard får du också en enhetlig vy över alla publiceringsuppgifter som köas och körs i systemet. Du kan välja att avbryta eller avbryta en publiceringsåtgärd från Publish Dashboard. Du kan skapa och koppla dina anpassade designmallar för att generera utdata i en viss layout. Med AEM Guides kan du också använda anpassade DITA-OT-plugin-program för att återanvända den befintliga PDF-genereringsprocessen.
-
-Du kan också skapa olika förinställningar och generera utdata från Web Editor.
+Som produktionsspecialist är det också enkelt för dig att automatisera publiceringsprocessen genom att skapa en Publish Dashboard och köra arbetsflöden för postpublicering. Med Publishing Dashboard får du också en enhetlig vy över alla publiceringsuppgifter som köas och körs i systemet. Du kan välja att avbryta eller avbryta en publiceringsåtgärd från kontrollpanelen för publicering. Du kan skapa och koppla dina anpassade designmallar för att generera utdata i en viss layout. Med Experience Manager Guides kan du också använda anpassade DITA-OT-plugins för att återanvända den befintliga PDF-genereringsprocessen.
 
 Informationen i följande avsnitt är till för utgivare som ska använda arbetsflöden för generering av utdata och utföra grundläggande felsökning:
 
@@ -31,7 +29,7 @@ Informationen i följande avsnitt är till för utgivare som ska använda arbets
 
 - [Använda förinställningar för villkor](generate-output-use-condition-presets.md#)
 
-- [Arbeta med baslinje](generate-output-use-baseline-for-publishing.md#)
+- [Arbeta med baslinje](web-editor-baseline.md#)
 
 - [Generera utdata för en DITA-karta från kartkonsolen](generate-output-for-a-dita-map.md#)
 

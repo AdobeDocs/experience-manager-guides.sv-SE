@@ -4,60 +4,66 @@ description: Skapa förinställningar från webbredigeraren. Lär dig hur du red
 exl-id: cd38b039-ef91-45c9-a226-433e57b09873
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 5011481c25b4888a3e72b0e2238b10d8e2fbc191
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
 
-# Skapa förinställningar från Web Editor {#id218CL400JW3}
+# Skapa förinställningar för kunskapsbasen i Redigeraren {#id218CL400JW3}
 
 Följ de här stegen för att skapa förinställningar för DITA-kartan:
 
 1. Navigera i Assets-gränssnittet till den kartfil som du vill redigera.
 
-1. Om du vill låsa kartfilen exklusivt markerar du kartfilen och klickar på **Checka ut**.
+1. Om du vill låsa kartfilen exklusivt markerar du kartfilen och väljer **Utcheckning**.
 
 1. Välj alternativet **Redigera ämnen** på Åtgärdsmenyn i kartfilen.
 
-   Kartfilen öppnas för redigering i Web Editor.
+   Kartfilen öppnas för redigering i Redigeraren.
 
    >[!NOTE]
    >
    > Du kan lägga till eller ta bort alla ämnen från kartan med hjälp av den avancerade kartredigeraren. Mer information finns i [Arbeta med den avancerade kartredigeraren](map-editor-advanced-map-editor.md#).
 
-1. Välj ikonen + på fliken **Utdata** om du vill skapa en förinställning för DITA-kartan.
+1. Välj ikonen **Öppna i kartkonsol** . Kartan öppnas i kartkonsolen.
 
-   ![](images/output-tab-preset_cs.png){width="350" align="left"}
+1. Navigera till fliken **Utdataförinställningar** och välj ikonen + för att skapa en förinställning för DITA-kartan.
 
-1. Ange namnet på förinställningen i dialogrutan Lägg till förinställning och klicka sedan på **Lägg till**.
+1. Välj **kunskapsbas** i listrutan **Typ**, ange ett namn och välj **Adobe Experience Manager** i dialogrutan **Ny förinställning**.
+1. Välj alternativet **Lägg till i den aktuella mappprofilen** om du vill skapa en förinställning för den aktuella mappprofilen. ![mappprofilsikonen](images/global-preset-icon.svg) indikerar en förinställning på mappprofilnivå.
 
-1. Ange följande konfigurationsinformation.
+   Läs mer om [Hantera förinställningar för globala utdata och mappprofiler](./web-editor-manage-output-presets.md).
 
-   1. Välj önskade alternativ på fliken **Allmänt**. Du kan välja att skapa en förinställning med eller utan villkor. Du kan också använda en DITVAL-fil. I AEM Guides kan du också välja en baslinje för publicering av en specifik version av din DITA-karta.
-   1. Ange AEM webbplatsinformation på fliken **AEM**. **Plats** visar en lista över de AEM Sites som finns i din AEM. **Kategori**, **Avsnittsmall** och **Artikelmall** är de strukturella komponenter som används för att ordna utdatafilens utseende och känsla. Dessa är fördefinierade i AEM platsmall.
+1. Välj **Lägg till**.
 
-      >[!NOTE]
-      >
-      > Uppdatera varje listruta för att få ytterligare klassificering i nästa listruta.
+   Förinställningen för kunskapsbasen skapas.
 
-   1. På fliken **Artiklar** väljer du de ämnen som du vill generera utdata för.
-1. Välj ikonen **Generera förinställning** längst upp för att generera utdata.
+
+   ![Nytt ](images/knowledge-base-preset-dialog-box.png){width="800" align="left"}
+
+När du har skapat förinställningen kan du generera utdata för specifika kunskapsbasartiklar. Om du vill göra det går du till fliken **Artiklar** och markerar de ämnen som du vill generera utdata för.
+1. Välj **Generera utdata** längst upp för att generera utdata.
 
    ![](images/add-preset-articles-tab_cs.png){width="800" align="left"}
 
-1. Du ser status för genereringsprocessen för utdata. Kolumnen **Ämnen** visar ämnen som utdata genereras för medan kolumnen **Status** visar publiceringsstatusen för varje ämne.
+1. Markera de filer som du vill publicera och bekräfta genom att välja **Publicera** i **Bekräfta filer för publicering** .
 
-   Om du vill visa utdata för du muspekaren över avsnittet och klickar på Visa utdata.
+   ![Nytt ](images/knowledge-base-confirm-files-for-publishing.png){width="800" align="left"}
 
-   ![](images/add-preset-output-generated_cs.png){width="800" align="left"}
+Du visar status för genereringsprocessen för utdata. Kolumnen **Ämnen** visar ämnen som utdata genereras för medan kolumnen **Status** visar publiceringsstatusen för varje ämne.
+
+
+![](images/add-preset-output-generated_cs.png){width="800" align="left"}
+
+Om du vill visa utdata stänger du dialogrutan Genererade utdata och väljer **Visa utdata** på förinställningssidan.
 
 
 >[!NOTE]
 >
-> Du kan också redigera, byta namn på, duplicera eller ta bort en befintlig förinställning på Alternativ-menyn.
+> Du kan också byta namn på, duplicera eller ta bort en befintlig förinställning på Alternativ-menyn.
 
-![](images/edit-preset_cs.png){width="550" align="left"}
 
-**Överordnat ämne:**[ Artikelbaserad publicering från webbredigeraren](web-editor-article-publishing.md)
+
+**Överordnat ämne:**[ Artikelbaserad publicering från redigeraren](web-editor-article-publishing.md)

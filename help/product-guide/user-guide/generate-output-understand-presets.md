@@ -1,30 +1,32 @@
 ---
 title: Förinställningar för utdata
-description: Förstå förinställningarna i AEM Guides. Skapa förinställningar för utdata från webbredigeraren och kartkontrollpanelen för AEM, PDF, HTML 5, EPUB, anpassade format och JSON-format.
+description: Förstå förinställningarna i AEM Guides. Skapa förinställningar från webbredigeraren och kartpanelen för AEM-webbplatserna PDF, HTML5, EPUB, anpassade format och JSON-format.
 exl-id: 8eaf0765-8b66-47d6-9c40-888495baa711
 feature: Publishing
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '223'
 ht-degree: 0%
 
 ---
 
 # Förinställningar för utdata {#understanding_output_settings}
 
-AEM Guides har stöd för att skapa utdata i de vanligaste formaten som AEM Site, PDF, Knowledge Base, HTML5, EPUB, JSON och anpassade utdata via DITA-OT, Native PDF och FMPS. Med dessa utdataformat kan du konfigurera olika förinställningar för utdata. En förinställning representerar ett anpassat utdataformat där du vill att innehållet ska publiceras.
+Experience Manager Guides har stöd för att skapa utdata i de vanligaste formaten som AEM Sites, PDF, Knowledge Base, HTML5, EPUB, JSON och anpassade utdata via DITA-OT, PDF och FMPS. Med dessa utdataformat kan du konfigurera olika förinställningar för utdata. Här representerar en förinställning ett anpassat utdataformat där du vill att innehållet ska publiceras.
 
-I följande avsnitt beskrivs de alternativ som är tillgängliga för de utdataformat som stöds.
+Du kan skapa och hantera förinställningar för utdata på två sätt:
 
-Du kan skapa förinställningar på två sätt:
+- **Från kartkonsolen**: Du kan skapa förinställningar för AEM Sites, PDF, Knowledge Base, HTML5, Custom och JSON och generera respektive utdata.
+- **Från kartkontrollpanelen**: Du kan skapa förinställningar för AEM Sites, PDF, HTML5, EPUB och anpassade utdata och generera respektive utdata.
 
-- **Från webbredigeraren**: Du kan skapa AEM för webbplats, PDF, kunskapsbas, HTML5, anpassade utdata och JSON-utdata och generera respektive utdata.
-- **Från kartkontrollpanelen**: Du kan skapa AEM Site, PDF, HTML5, EPUB och anpassade utdatainställningar och generera respektive utdata.
+Mer information finns i [Skapa, redigera, duplicera eller ta bort en förinställning för utdata](./generate-output-create-edit-preset.md).
 
-I följande avsnitt beskrivs de alternativ som är tillgängliga för de utdataformat som stöds.
+## Förinställda utdatatyper som stöds i Experience Manager Guides
 
-- **[AEM plats](generate-output-aem-site.md)**
+Följande förinställningsalternativ är tillgängliga för de utdataformat som stöds.
+
+- **[AEM Sites](generate-output-aem-site.md)**
 
 - **[PDF](generate-output-pdf.md)**
 

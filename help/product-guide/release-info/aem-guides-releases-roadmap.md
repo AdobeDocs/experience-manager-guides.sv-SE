@@ -3,9 +3,9 @@ title: Adobe Experience Manager Guides släpper färdplan 2024
 description: Få information om live- och kommande versioner av Adobe Experience Manager Guides On-Prem och Adobe Experience Manager Guides as a Cloud Service
 role: Admin, Leader, Developer, User
 exl-id: cb6709ce-2732-45d0-adfd-5aeca520240e
-source-git-commit: 60c51989467faa464a219e30737a5f71a6254e09
+source-git-commit: 5cefa792699ca65bbf35c59025b745d825931b7c
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '353'
 ht-degree: 0%
 
 ---
@@ -20,20 +20,20 @@ ht-degree: 0%
 
 ## [!DNL Experience Manager Guides] som en [!DNL Cloud Service] {#aem-guides-roadmap-cs}
 
-Utgåvorna för Experience Manager Guides as a Cloud Service planeras enligt följande:
+Versionerna av Experience Manager Guides as a Cloud Service planeras enligt följande:
 
 ### Planerade releaser
 
 
 | Frigör | Händelse | Schema | Nyheter | Uppgraderingsinstruktioner | Åtgärdade problem | Status |
 |---|---|---|---|---|---|---|
-| Adobe Experience Manager Guides 2025.02.0 | Automatisk uppdatering | ~ 24-26 februari 2025 |  |  |  | Mål |
 | Adobe Experience Manager Guides 2025.04.0 | Automatisk uppdatering | ~ April 2025 |  |  |  | Mål |
 
 ### Live-versioner
 
 | Frigör | Händelse | Schema | Nyheter | Uppgraderingsinstruktioner | Åtgärdade problem | Status |
 |---|---|---|---|---|---|---|
+| Adobe Experience Manager Guides 2025.2.0 | Automatisk uppdatering | 24-26 februari 2025 | [Här](whats-new-2025-02-0.md) | [Här](upgrade-instructions-2025-02-0.md) | [Här](fixed-issues-2025-02-0.md) | Uppdaterat |
 | Adobe Experience Manager Guides 2024.12.0 | Automatisk uppdatering | 13-15 januari 2025 |  | [Här](upgrade-instructions-2024-12-0.md) | [Här](fixed-issues-2024-12-0.md) | Uppdaterat |
 | Adobe Experience Manager Guides 2024.10.0 | Service Pack 1 | 29 oktober 2024 | - | - | [Här](fixed-issues-2024-10-0-sp1.md) | Uppdaterat |
 | Adobe Experience Manager Guides 2024.10.0 | Automatisk uppdatering | 14-16 oktober 2024 | [Här](whats-new-2024-10-0.md) | [Här](upgrade-instructions-2024-10-0.md) | [Här](fixed-issues-2024-10-0.md) | Uppdaterat |

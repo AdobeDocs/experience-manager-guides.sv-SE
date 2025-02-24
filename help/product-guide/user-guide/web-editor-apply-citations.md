@@ -4,9 +4,9 @@ description: Lägg till och hantera citat i AEM Guides. Lär dig hur du använde
 exl-id: 685d747d-e017-4350-a6bf-822fd55c76e8
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
 workflow-type: tm+mt
-source-wordcount: '1887'
+source-wordcount: '1890'
 ht-degree: 0%
 
 ---
@@ -15,17 +15,17 @@ ht-degree: 0%
 
 Citat är referenser till den informationskälla som har lagts till i innehållet. Med citat kan du kreditera författarna till källinformationen och hjälpa läsarna att följa upp källinformationen. Genom att lägga till citat blir innehållet mer tillförlitligt och det förhindrar plagiarism. De gör det även möjligt att visa genomtänkt innehåll.
 
-I AEM Guides kan du lägga till och importera citat och använda dem i ditt innehåll. Du kan lägga till dessa citat från alla typer av böcker, webbplatser och journaler.
+I Adobe Experience Manager Guides kan du lägga till och importera citat och använda dem i ditt innehåll. Du kan lägga till dessa citat från alla typer av böcker, webbplatser och journaler.
 
 
-AEM Guides hjälper dig att redigera, förhandsgranska och sortera dina citat. När du har lagt till dina citat i innehållet kan du generera utdata med hjälp av PDF. Du kan också lägga till litteraturförtecknings- eller referenssidan i utdata från PDF.
+Experience Manager Guides hjälper dig att redigera, förhandsgranska och sortera dina citat. När du har lagt till dina citat i innehållet kan du generera utdata med PDF. Du kan också lägga till litteraturförtecknings- eller referenssidan i PDF-utdata.
 
-AEM Guides har stöd för många olika typer av citationer, som Modern Language Association (MLA), American Psychological Association (APA), Chicago, Institute for Electrical and Electronics Engineers (IEEE) och American Heart Association (AHA). Rekommendationen är att använda dem tydligt och konsekvent.
+Experience Manager Guides har stöd för många olika typer av citationer, som Modern Language Association (MLA), American Psychological Association (APA), Chicago, Institute for Electrical and Electronics Engineers (IEEE) och American Heart Association (AHA). Rekommendationen är att använda dem tydligt och konsekvent.
 
 
 >[!NOTE]
 >
->För närvarande stöder AEM Guides endast PDF för citat.
+>För närvarande stöder Experience Manager Guides endast PDF för citat.
 
 
 ## Lägg till citat
@@ -33,14 +33,16 @@ AEM Guides har stöd för många olika typer av citationer, som Modern Language 
 Så här lägger du till citat:
 
 1. Välj ikonen **Citat** ![Citat](images/citations-icon.svg) i den vänstra panelen.
-Panelen **Källhänvisningar** öppnas.
 
-   ![](images/citation-panel.png){width="300" align="left"}
+   Panelen **Källhänvisningar** öppnas.
+
+   ![](images/citation-panel.png){width="350" align="left"}
 
 1. Välj ![Lägg till ikon](images/Add_icon.svg) på panelen **Källhänvisningar**. I listrutan kan du välja att lägga till en ny källhänvisning eller att importera en källhänvisning.
 
 1. Välj **Ny källhänvisning** om du vill lägga till en ny källhänvisning.
-Dialogrutan **Lägg till källhänvisning** öppnas.
+
+   Dialogrutan **Lägg till källhänvisning** öppnas.
 
    ![anspråkspanelen i webbredigeraren](images/citation-add.png) {width="300" align="left"}
 
@@ -66,10 +68,6 @@ Dialogrutan **Lägg till källhänvisning** öppnas.
    | **Serie** <br>Lägg till bokens serie. |  | **Unikt ID** <br> Lägg till ett unikt ID för citatet. Ett unikt ID är en unik identifierare för den referensen. |
    | **URL** <br> Lägg till webblänken i boken. |
    | **Unikt ID** <br> Lägg till ett unikt ID för citatet. Ett unikt ID är en unik identifierare för den referensen. |
-
-
-
-
 
 1. Välj **Klar**.
 
@@ -97,8 +95,8 @@ Så här importerar du citat:
    När filen har importerats kan du visa referenserna på citationspanelen.
 
    >[!NOTE]
-   > <ol><li> AEM Guides importerar endast de citat som är unika och inte redan finns.
-    &gt; <li> AEM Guides kan importera citat från en bok, journal eller en webbplats. För närvarande stöder den inte citat från andra källor.
+   > <ol><li> Experience Manager Guides importerar endast de citat som är unika och inte redan finns.
+    &gt; <li> Experience Manager Guides kan importera citat från en bok, journal eller en webbplats. För närvarande stöder den inte citat från andra källor.
 
 ## Hantera citat
 
@@ -127,8 +125,8 @@ Panelen **Källhänvisningar** öppnas.
 
 ### Ändra format för citattecken {#change-citation-style}
 
-Systemadministratören kan ändra formatet på citat från listrutan **Citat** på fliken **Allmänna inställningar** i **redigeringsinställningarna**.
-Dessa format styr hur citat visas i förhandsgranskningsfönstret eller i utdata från PDF.
+Systemadministratören kan ändra formatet på citat från listrutan **Citat** på fliken **Allmänt** i **Inställningar**.
+Dessa format styr hur citat visas i förhandsgranskningsfönstret eller i PDF-utdata.
 
 Följande alternativ är tillgängliga i listrutan:
 
@@ -166,15 +164,15 @@ Du kan förhandsgranska innehållet i och formatet för citatet i förhandsgrans
 
    >[!NOTE]
    >
-   >Förhandsgranskningen baseras på den typ av källhänvisning som administratören har valt i **redigeringsinställningarna**.
+   >Förhandsgranskningen baseras på den typ av källangivelse som administratören har valt i **Inställningar**.
 
-1. Klicka var som helst på skärmen för att stänga förhandsvisningsrutan.
+1. Markera var som helst på skärmen för att stänga förhandsvisningsrutan.
 
    ![](images/citation-preview.png){width="550" align="left"}
 
 >[!NOTE]
 >
-> Du kan också förhandsgranska en hänvisning som infogats i ett ämne från Assets-gränssnittet eller fliken Förhandsgranska i Web Editor.
+> Du kan också förhandsgranska en hänvisning som infogats i ett ämne från Assets-gränssnittet eller på fliken Förhandsgranska i Redigeraren.
 
 ## Infoga citat
 
@@ -193,7 +191,7 @@ Du kan infoga citat från huvudverktygsfältet eller den vänstra panelen i avsn
    ![citatdialogruta](images/citation-dialog-main-toolbar.png){width="300" align="left"}
 1. Du kan filtrera citat genom att skriva de första alfabeten på sökpanelen i dialogrutan **Citat** .
 
-1. Klicka på **Klar**.
+1. Välj **Klar**.
 Den markerade texten läggs till vid markörens plats i ditt ämne.
 
 
@@ -201,7 +199,7 @@ Den markerade texten läggs till vid markörens plats i ditt ämne.
 
 >[!NOTE]
 > 
->Om du vill visa ikonen **Källhänvisningar** från den vänstra panelen måste systemadministratören markera alternativet **Källhänvisningar** på fliken **Paneler** i **Redigeringsinställningar**.
+>Om du vill visa ikonen **Källhänvisningar** från den vänstra panelen måste systemadministratören aktivera alternativet **Källhänvisningar** på fliken **Paneler** i **Inställningar**.
 
 1. Välj ikonen **Citat** ![ ](images/citations-icon.svg) i den vänstra panelen.
 1. Dra citatet från panelen **Citat** och släpp det på lämplig plats i avsnittet.
@@ -213,7 +211,7 @@ Den markerade texten läggs till vid markörens plats i ditt ämne.
 1. Markera de citat du vill infoga i dialogrutan **Citat**.
 1. Välj **Klar** om du vill lägga till dem i ämnet.
 
-När du har infogat citat i ämnet kan du förhandsgranska dem i webbredigeraren. Du kan också publicera innehåll med citat med hjälp av PDF.
+När du har infogat citat i ämnet kan du förhandsgranska dem i webbredigeraren. Du kan även publicera innehåll med citat med hjälp av PDF.
 
 
 
@@ -254,22 +252,21 @@ Placera markören i slutet av citattecknet.
 
 ## Generera utdata av innehåll med citationer
 
-När du har infogat citat i avsnittet kan du publicera innehåll med citat med hjälp av PDF.
+När du har infogat citat i ämnet kan du publicera innehåll med citat med hjälp av PDF.
 
-I utdata för PDF visas citaten i det innehåll där du infogat dem. Du kan också skapa en litteraturförteckningssida. När du klickar på ett citat omdirigeras du till litteraturförteckningssidan.
+I utdata från PDF visas citaten i det innehåll där du infogat dem. Du kan också skapa en litteraturförteckningssida. När du väljer en källhänvisning omdirigeras du till litteraturförteckningssidan.
 
-Skapa en sidlayout för **Källhänvisningar** i PDF-mallarna och inkludera den i dokumentet. Alla citat som används i boken listas på en sida som visas i utdata från PDF. Mer information om hur du skapar en sidlayout finns i [Skapa en sidlayout](../native-pdf/components-pdf-template.md#create-page-layout).
+Skapa en sidlayout för **Källhänvisningar** i PDF-mallarna och inkludera den i dokumentet. Alla citat som används i boken listas på en sida som visas i PDF-utdata. Mer information om hur du skapar en sidlayout finns i [Skapa en sidlayout](../native-pdf/components-pdf-template.md#create-page-layout).
 
 
 Visa [Anpassa PDF-mallar](../native-pdf/pdf-template.md) om du vill ändra vyn och känslan för citatsidan.
-
 
 
 ### Använda innehållsformat på en källhänvisning
 
 Formatera källtexten när den läggs till i avsnittet.
 
-1. Välj **Formatmallar** på panelen **Mallar** i en förinställning för ursprungliga PDF.   Den öppnar panelen **FORMAT** som innehåller alla formatalternativ.
+1. Välj **Formatmallar** på panelen **Mallar** i en inbyggd förinställning för PDF-utdata.   Den öppnar panelen **FORMAT** som innehåller alla formatalternativ.
 
 1. Sök efter `<cite>` på sökpanelen.
 

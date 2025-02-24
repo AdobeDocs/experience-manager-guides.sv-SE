@@ -3,7 +3,8 @@ title: Viktiga AEM Guides-funktioner
 description: Utforska de viktigaste funktionerna i AEM Guides, DITA-redigering, innehållshantering, webbaserad granskning, översättning, lokalisering, flerkanalspublicering och integrering av FrameMaker.
 feature: Introduction
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+exl-id: b3e17f62-70d0-470e-9e52-73489510c62f
+source-git-commit: cbcb55fc239d9469de45a224f14361db14ec5f76
 workflow-type: tm+mt
 source-wordcount: '938'
 ht-degree: 0%
@@ -17,9 +18,9 @@ Förbättra produktiviteten avsevärt genom att använda modulär information fr
 
 Den inbyggda webbaserade redigeraren hjälper dig att enkelt skapa och effektivt hantera DITA-ämnen, kartor och DITAVAL-filer. Den inbyggda redigeraren har ett enkelt och intuitivt ordbehandlingsgränssnitt som är lätt att komma åt för ämnesexperter, tillfälliga medarbetare och granskare som kanske inte är utbildade att använda DITA. Med den intelligenta funktionen Infoga element behöver du inte bekymra dig om att placera ett element på rätt plats. Ett element infogas alltid på nästa tillgängliga giltiga plats.
 
-Du kan även checka ut och checka in filer från de nya alternativ som är tillgängliga i AEM verktygsfält och webbredigeraren.
+Du kan även checka ut och checka in filer från de nya alternativ som är tillgängliga i AEM verktygsfält och webbredigerare.
 
-Om din organisation använder en specialiserad form av DITA kan webbredigeraren anpassas för att skapa och redigera specialiserade DITA-dokument. Mer information om hur du använder DITA-specialisering finns i *Använd anpassad DITA-OT- och DITA-specialisering* i Installera och konfigurera Adobe Experience Manager Guides as a Cloud Service.
+Om din organisation använder en specialiserad form av DITA kan webbredigeraren anpassas för att skapa och redigera specialiserade DITA-dokument. Mer information om DITA-specialisering finns i *Använd anpassad DITA-OT- och DITA-specialisering* i Installera och konfigurera Adobe Experience Manager Guides as a Cloud Service.
 
 Den inbyggda redigeraren stöder för närvarande följande DITA-standarder:
 
@@ -56,14 +57,14 @@ Hitta och välj relevant innehåll snabbare och maximera avkastningen på inneh�
 Gör publiceringen felfri genom att enkelt kontrollera och korrigera innehållet innan det publiceras. Håll ett vakande öga på systemhälsan genom att enkelt få tillgång till olika rapporter på DITA-kartnivå. Du kan kontrollera antalet saknade ämnen, brutna länkar eller referenser samt status för granskningar och översättningar för alla ämnen. Du kan också använda rapporterna för att utföra omfattande säkerhetskontroller i de sista stegen före publicering.
 
 **Omfattande stöd för tagghantering för personaliserade utdata**\
-Öka användarnas djupare engagemang och användning av innehåll genom ytterst relevanta innehållsupplevelser. Med AEM Guides kan du utnyttja det omfattande stödet för tagghantering i Experience Manager för att lägga till relevanta taggar i DITA-källinnehåll. Använd de här taggarna för att ge slutanvändarna personaliserade upplevelser.
+Öka användarnas djupare engagemang och användning av innehåll genom ytterst relevanta innehållsupplevelser. Med AEM Guides kan ni utnyttja det omfattande stödet för tagghantering i Experience Manager för att lägga till relevanta taggar i DITA-källinnehåll. Använd de här taggarna för att ge slutanvändarna personaliserade upplevelser.
 
 **Inbyggd integrering med Adobe FrameMaker**
 Få en snabb och smidig upplevelse när du arbetar med Experience Manager och FrameMaker (version 2015) uppdatering 4 eller senare.
 
-Den nära integreringen av Experience Manager och FrameMaker via en inbyggd anslutning gör att du kan arbeta smidigt med innehållskatalogen för Experience Manager. Dra nytta av kopplingen för att snabbt komma igång med att skapa, granska och söka i DITA-material.
+Tack vare den nära integrationen mellan Experience Manager och FrameMaker via en inbyggd anslutning kan du arbeta smidigt med Experience Manager innehållslager. Dra nytta av kopplingen för att snabbt komma igång med att skapa, granska och söka i DITA-material.
 
-Med AEM-kopplingen i FrameMakerna kan du hantera FrameMaker. Med AEM kan du enkelt överföra dina DITA-dokument och andra FrameMaker (.book och .fm) på AEM. Med AEM Guides kan du även publicera FrameMaker direkt från AEM. Om din FrameMaker-bokfil innehåller en kombination av DITA- och .fm-filer kan AEM Guides även publicera sådana dokument. För närvarande kan du publicera FrameMakernas .book- och .fm-filer i formaten PDF, HTML och EPUB.
+Med AEM Connector i FrameMaker kan du hantera dina FrameMaker-filer. Med AEM Connector kan du enkelt överföra dina DITA-dokument och andra FrameMaker-dokument (.book och .fm) till AEM. Med AEM Guides kan du även publicera FrameMaker-dokument direkt från AEM. Om din FrameMaker-bokfil innehåller en kombination av DITA- och .fm-filer kan AEM Guides även publicera sådana dokument. För närvarande kan du publicera FrameMaker .book- och .fm-filer i PDF-, HTML5- och EPUB-format.
 
 ## Ytterligare resurser
 
@@ -74,4 +75,4 @@ Nedan följer en lista över andra användbara resurser i AEM Guides som finns p
 * Snabbstartsguide
 * [Hjälp* Arkiveringssida](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) (använd äldre versionsdokumentation)
 
-**Överordnat ämne:**[ Om Adobe Experience Manager Guides as a Cloud Service](intro.md)
+**Överordnat ämne:**[ Om Adobe Experience Manager Guides as a Cloud Service](../user-guide/intro.md)

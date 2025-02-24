@@ -1,29 +1,29 @@
 ---
 title: Massaktivering av publicerat innehåll
-description: Läs om massaktivering av publicerat innehåll. Läs om fördelarna med massaktivering i AEM.
+description: Läs om massaktivering av publicerat innehåll. Läs om fördelarna med massaktivering i AEM guider.
 exl-id: 3643ecab-b5c1-41ea-8b7b-1470ead63aec
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: 5dac015816317ee9739c7c3678541592a7145e89
+source-git-commit: 99e42091490b28b5d5ee73472a7655e3feeafd25
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
 
 # Massaktivering av publicerat innehåll {#id214GG080LE8}
 
-I ett verkligt scenario skulle författarna ha tillgång till redigeringsinstansen av AEM medan det faktiska innehållet publiceras på publiceringsinstansen av AEM. Publiceringsinstanserna kan sedan distribueras vidare över olika geografiska platser. Publicerade utdata måste gå över till dessa publiceringsservrar via olika processer. Processen att flytta innehåll från redigeringsinstansen till publiceringsinstansen kallas aktivering eller replikering av innehåll.
+I ett verkligt scenario har författarna åtkomst till Adobe Experience Manager medan själva innehållet publiceras på publiceringsinstansen i Adobe Experience Manager. Publiceringsinstanserna kan sedan distribueras vidare över olika geografiska platser. Publicerade utdata måste gå över till dessa publiceringsservrar via olika processer. Processen att flytta innehåll från redigeringsinstansen till publiceringsinstansen kallas aktivering eller replikering av innehåll.
 
 >[!NOTE]
 >
-> Mer information om hur du konfigurerar författaren och publicerar instansen i AEM finns i [Författare och Publish arkitekturöversikt](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#prerequisites).
+> Mer information om hur du konfigurerar författaren och publicerar instansen i Adobe Experience Manager finns i [Författare och Översikt över publiceringsarkitekturen](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#prerequisites).
 
-Med AEM Guides funktion för massaktivering kan du snabbt och enkelt aktivera ditt innehåll från redigering till publicering. Med funktionen för massaktivering kan du
+Med Experience Manager Guides funktion för massaktivering kan du snabbt och enkelt aktivera ditt innehåll från redigering till publicering. Med funktionen för massaktivering kan du
 
 - Lägga till en eller flera kartor \(till en kartsamling\) till en enda aktiveringsuppgift
 
-- Välj en eller flera förinställningar för utdata som du vill publicera. Du kan lägga till AEM Site, PDF, Native PDF, HTML 5, Custom och
+- Välj en eller flera förinställningar som du vill aktivera. Du kan lägga till Adobe Experience Manager Site, PDF, Native PDF, HTML5, Custom och
 Förinställningar för JSON-utdata.
 
 

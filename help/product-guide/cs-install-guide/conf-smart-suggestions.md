@@ -1,17 +1,26 @@
 ---
-title: Konfigurera smarta förslag för redigering
-description: Lär dig konfigurera smarta förslag för redigering
+title: Konfigurera AI Assistant för smart hjälp och redigering
+description: Lär dig konfigurera AI-assistenten i Experience Manager Guides
 exl-id: a595ca1f-0123-40d3-a79c-a066bc6517b4
-source-git-commit: d3e0c475ebd50a2664ea45c293d34b3a10772633
+source-git-commit: 6856b9b31ee5d1111ee1c53836dfa8138780a283
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '880'
 ht-degree: 0%
 
 ---
 
-# Konfigurera AI-baserade smarta förslag för redigering
+# Konfigurera AI-assistenten
 
-Som administratör kan du konfigurera funktionen Smarta förslag för författarna. Tjänsten för smarta förslag skyddas av automatisk autentisering med Adobe IMS. Integrera din miljö med Adobe säkra tokenbaserade autentiseringsarbetsflöden och börja använda den nya smarta förslagsfunktionen. Följande konfiguration hjälper dig att lägga till fliken **AI-konfiguration** i mappprofilen. När du har lagt till den kan du använda funktionen för smarta förslag i Web Editor.
+Som administratör kan du konfigurera AI-assistentfunktionen i Experience Manager Guides. AI Assistant skyddas av automatisk autentisering med Adobe IMS. Integrera miljön med Adobe säkra tokenbaserade autentiseringsarbetsflöden och börja använda AI Assistant. Följande konfiguration hjälper dig att lägga till fliken **AI-konfiguration** i mappprofilen. När du har lagt till AI-assistenten kan du använda den i Experience Manager Guides.
+
+Utför följande steg för att konfigurera AI-assistenten:
+
+1. [Skapa IMS-konfiguration i Adobe Developer Console](#create-ims-configurations-in-adobe-developer-console).
+2. [Lägg till IMS-konfigurationer i miljön](#add-ims-configuration-to-the-environment)
+3. [Aktivera AI-flagga i miljön](#enable-ai-flag-in-the-environment)
+4. [Tillämpa miljöändringar](#apply-changes-to-the-environment)
+5. [Aktivera AI-assistenten i mappprofilen](#enable-ai-assistant-in-folder-profile)
+6. [Konfigurera smarta förslag i mappprofilen](./conf-folder-level.md#configure-ai-assistant-for-smart-help-and-authoring)
 
 ## Skapa IMS-konfigurationer i Adobe Developer Console
 
@@ -53,7 +62,7 @@ Så här skapar du IMS-konfigurationer i Adobe Developer Console:
 
    *Kom igång med det nya projektet.*
 
-1. Klicka på knappen **Hämta** överst för att hämta JSON-tjänsten.
+1. Klicka på knappen **Hämta** högst upp för att hämta JSON-tjänsten.
 
    <img src="assets/download-json.png" alt="ladda ned json" width="500">
 
@@ -61,7 +70,7 @@ Så här skapar du IMS-konfigurationer i Adobe Developer Console:
 
 Du har konfigurerat OAuth-autentiseringsinformationen och laddat ned JSON-tjänstinformationen. Ha den här filen till hands så som det behövs i nästa avsnitt.
 
-### Lägg till IMS-konfiguration i miljön
+## Lägg till IMS-konfiguration i miljön
 
 Utför följande steg för att lägga till IMS-konfiguration i miljön:
 
@@ -71,26 +80,43 @@ Utför följande steg för att lägga till IMS-konfiguration i miljön:
 1. Växla till fliken **Konfiguration**.
 1. Uppdatera JSON-fältet SERVICE_ACCOUNT_DETAILS. Se till att du använder samma namn och konfiguration som i skärmbilden nedan.
 
-![konfiguration av ims-tjänstkonto](assets/ims-service-account-config.png){width="800" align="left"}
+   ![konfiguration av ims-tjänstkonto](assets/ims-service-account-config.png){width="800" align="left"}
 
+## Aktivera AI-flagga i miljön
 
-*Lägg till information om miljökonfiguration.*
+Om du vill aktivera AI-assistentfunktionen i Experience Manager Guides-gränssnittet lägger du till flaggan `ENABLES_GUIDES_AI` i miljön.
 
+Se till att du använder samma namn och konfiguration som i skärmbilden nedan.
 
+![](assets/conf-folder-ai-assistant-enable.png){width="800" align="left"}
 
+Om du anger flaggan som **true** aktiveras funktionen, medan **false** inaktiveras.
 
-När du har lagt till IMS-konfigurationen i miljön utför du följande steg för att länka dessa egenskaper till AEM Guides med OSGi:
+## Tillämpa miljöändringar
 
-1. I Git-projektkoden för din molnhanterare lägger du till följande två filer (för filinnehåll, se [Bilaga](#appendix)).
+När du har lagt till IMS-konfigurationen och aktiverat AI Assistant-flaggan i miljön gör du så här för att länka dessa egenskaper till AEM Guides med OSGi:
+
+1. Lägg till följande två filer (för filinnehåll, se [Bilaga](#appendix)) i Git-projektkoden för din molnhanterare.
 
    * `com.adobe.aem.guides.eventing.ImsConfiguratorService.cfg.json`
-   * `com.adobe.fmdita.smartsuggest.service.SmartSuggestConfigurationConsumer.cfg.json`
+   * `com.adobe.guides.ai.config.service.AiConfigImpl.cfg.json`
 1. Se till att de nyligen tillagda filerna täcks av din `filter.xml`.
 1. Verkställ och skicka Git-ändringarna.
 1. Kör pipeline för att tillämpa ändringarna på miljön.
 
-När du är klar bör du kunna använda funktionen för smarta förslag.
+## Aktivera AI-assistenten i mappprofilen
 
+När konfigurationsändringarna har tillämpats aktiverar du AI-assistentfunktionen för den önskade mappprofilen.
+
+Mer information finns i [Känn till redigeringsfunktionerna](../user-guide/web-editor-features.md).
+
+![](assets/conf-folder-ai-assistant-enable-settings.png){width="300" align="left"}
+
+## Konfigurera smarta förslag i mappprofilen
+
+När du har aktiverat funktionen AI Assistant konfigurerar du funktionen Smarta förslag i Mappprofil.
+
+Mer information finns i [Konfigurera smarta förslag i mappprofilen](./conf-folder-level.md#configure-ai-assistant-for-smart-help-and-authoring).
 
 
 ## Bilaga {#appendix}
@@ -106,28 +132,29 @@ När du är klar bör du kunna använda funktionen för smarta förslag.
 }
 ```
 
-**Fil**: `com.adobe.fmdita.smartsuggest.service.SmartSuggestConfigurationConsumer.cfg.json`
+**Fil**: `com.adobe.guides.ai.config.service.AiConfigImpl.cfg.json`
 
 **Innehåll**:
 
 ```
 {
-  "smart.suggestion.flag":true,
   "conref.inline.threshold":0.6,
   "conref.block.threshold":0.7,
+  "related.link.threshold":0.5,
   "emerald.url":"https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1",
-  "instance.type":"prod"
+  "instance.type":"prod",
+  "chat.url":"https://aem-guides-ai.adobe.io"
 }
 ```
 
-## Konfigurationsinformation för smarta förslag
+## Konfigurationsinformation för AI Assistant
 
 | Nyckel | Beskrivning | Tillåtna värden | Standardvärde |
 |---|---|---|---|
-| smart.suggestion.flag | Anger om smarta förslag är aktiverade eller inte | true/false | false |
 | conref.inline.threshold | Tröskelvärde som styr precision/återkallande av förslag som hämtats för taggen som användaren skriver in just nu. | Alla värden mellan -1.0 och 1.0. | 0,6 |
 | conref.block.threshold | Tröskelvärde som styr precision/återkallande av förslag som hämtats för taggar i hela filen. | Alla värden mellan -1.0 och 1.0. | 0,7 |
-| emerald.url | Slutpunkt för Emerald-vektordatabas | [https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1](https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1) | [https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1](https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1) |
-| instance.type | Typ av AEM. Se till att detta är unikt för varje AEM som de smarta förslagen har konfigurerats på. Ett användningsexempel skulle vara att testa funktionen i scenmiljön med &quot;instance.type&quot; = &quot;stage&quot;, medan funktionen samtidigt är konfigurerad för &quot;prod&quot;. | En unik nyckel som identifierar miljön. Endast *alfanumeriska* värden tillåts. &quot;dev&quot;/&quot;stage&quot;/&quot;prod&quot;/&quot;test1&quot;/&quot;stage2&quot; | &quot;prod&quot; |
+| emerald.url | Slutpunkt för vektordatabasen för smarta förslag | [https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1](https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1) | [https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1](https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1) |
+| chat.url | Slutpunkt för AI-assistenttjänsten | [https://aem-guides-ai.adobe.io](https://aem-guides-ai.adobe.io) | [https://aem-guides-ai.adobe.io](https://aem-guides-ai.adobe.io) |
+| instance.type | Typ av AEM-instans. Kontrollera att detta är unikt för varje AEM-instans som de smarta förslagen har konfigurerats för. Ett användningsexempel skulle vara att testa funktionen i scenmiljön med &quot;instance.type&quot; = &quot;stage&quot;, medan funktionen samtidigt är konfigurerad för &quot;prod&quot;. | En unik nyckel som identifierar miljön. Endast *alfanumeriska* värden tillåts. &quot;dev&quot;/&quot;stage&quot;/&quot;prod&quot;/&quot;test1&quot;/&quot;stage2&quot; | &quot;prod&quot; |
 
-När du har konfigurerat visas ikonen för smarta förslag på den högra panelen i Web Editor. Du kan visa listan med smarta förslag när du redigerar ämnen. Mer information finns i avsnittet [AI-baserade smarta förslag för redigering](../user-guide/authoring-ai-based-smart-suggestions.md) i användarhandboken för Experience Manager.
+När du har konfigurerat den visas AI Assistant-ikonen på Experience Manager Guides hemsida och i redigeraren. Mer information finns i avsnittet [AI Assistant](../user-guide/ai-assistant.md) i Experience Manager användarhandbok.

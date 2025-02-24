@@ -4,9 +4,9 @@ description: Aktivera utdata från DITA-kartor i AEM Guides. Lär dig hur du akt
 exl-id: 4da644b9-8c5f-4976-a212-960085b693b8
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: 66d22560d40012a7475026ed44cec7bf301c1a97
+source-git-commit: a00674a98e4ba87dbc5ddac3412cedca15a205bd
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
@@ -15,15 +15,15 @@ ht-degree: 0%
 
 När du har skapat en kartsamling för massaktivering är nästa steg att aktivera ditt innehåll på publiceringsinstansen. Så här aktiverar du ditt innehåll:
 
-1. Välj **Stödlinjer** i listan över verktyg.
+1. Markera Adobe Experience Manager logotyp överst och välj **Verktyg**.
 
-1. Klicka på länken Adobe Experience Manager överst och välj **Verktyg**.
+1. Välj **Stödlinjer** på panelen **Verktyg**.
 
-1. Klicka på panelen **Massvis med Publish Dashboard**.
+1. Välj panelen **Masspubliceringspanel**.
 
-   En lista över massaktiveringskarta visas.
+   Kontrollpanelen Publicera gruppvis visas med en lista över gruppaktiveringskarta. Du kan även komma åt den här instrumentpanelen från den vänstra panelen på [Adobe Experience Manager Guides hemsida](intro-home-page.md).
 
-1. Markera samlingen som du vill publicera och klicka på **Öppna**.
+1. Markera samlingen som du vill publicera och välj **Öppna**.
 
    ![](images/bulk-activation-collection-open.png){width="800" align="left"}
 
@@ -37,23 +37,23 @@ När du har skapat en kartsamling för massaktivering är nästa steg att aktive
 Visa olika sätt att aktivera din samling baserat på dina inställningar.
 
 <details>
-<summary> Cloud Service </summary>
+<summary> Molntjänster </summary>
 
 ![bulk-collection-publish on cloud service](images/bulk-activation-collection-quick-publish-CS.png){width="650" align="left"}
 
-Du kan aktivera utdata för **förhandsgransknings** - eller **Publish** -instanserna.
+Du kan aktivera utdata för instanserna **Förhandsgranska** eller **Publicera**.
 
 **Förhandsgranska**
 
-* Om du vill aktivera utdata för markerade kartor markerar du de förgenererade kartutdata och väljer **Publish till** > **Förhandsgranska**.
-* Om du vill aktivera utdata för alla DITA-kartor med deras konfigurerade förinställningar markerar du kryssrutan bredvid kolumnen **Karta** och väljer sedan **Publish till** > **Publish** .
+* Om du vill aktivera utdata för markerade kartor markerar du förgenererade kartutdata och väljer **Publicera till** > **Förhandsgranska**.
+* Om du vill aktivera utdata för alla DITA-kartor med deras konfigurerade förinställningar markerar du kryssrutan bredvid kolumnen **Karta** och väljer sedan **Publicera till** > **Publicera**.
 
 
-**Publish**
+**Publicera**
 
-* Om du vill aktivera utdata för markerade kartor markerar du de förgenererade kartutdata och väljer **Publish till** > **Publish**.
+* Om du vill aktivera utdata för markerade kartor markerar du förgenererade kartutdata och väljer **Publicera till** > **Publicera**.
 
-* Om du vill aktivera utdata för alla DITA-kartor med deras konfigurerade förinställningar markerar du kryssrutan bredvid kartan (kolumn) och väljer sedan **Publish till** > **Publish**.
+* Om du vill aktivera utdata för alla DITA-kartor med deras konfigurerade förinställningar markerar du kryssrutan bredvid kartan (kolumn) och väljer sedan **Publicera till** > **Publicera**.
 
 
 >[!NOTE]
@@ -72,8 +72,8 @@ När utdata har aktiverats för de markerade mappfilerna uppdateras fliken för 
 
 Gör något av följande:
 
-* Om du vill aktivera utdata för markerade kartor markerar du förgenererade karteutdata och väljer **Quick Publish**.
-* Om du vill aktivera utdata för alla DITA-kartor med deras konfigurerade förinställningar markerar du kryssrutan bredvid kartan (kolumn) och väljer sedan **Quick Publish.**
+* Om du vill aktivera utdata för markerade kartor markerar du förgenererade kartutdata och väljer **Snabbpublicering**.
+* Om du vill aktivera utdata för alla DITA-kartor med deras konfigurerade förinställningar markerar du kryssrutan bredvid kartan (kolumn) och väljer sedan **Snabbpublicering.**
   ![bulk-collection-publish](images/bulk-activation-collection-quick-publish.png){width="650" align="left"}
 
   >[!NOTE]

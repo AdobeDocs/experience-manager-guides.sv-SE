@@ -1,32 +1,67 @@
 ---
 title: Använd etiketter
-description: Upptäck användningen av etiketter för olika versioner av en fil i AEM Guides. Lär dig hur du lägger till eller tar bort en etikett i en version av ett ämne.
+description: Upptäck användningen av etiketter för olika versioner av en fil i Adobe Experience Manager Guides. Lär dig hur du lägger till eller tar bort en etikett i en version av ett ämne.
 exl-id: d116906d-b469-4a97-b0af-4fadbe15222b
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
 
 # Använd etiketter {#id164JBG0M0T1}
 
-I AEM Guides kan du lägga till etiketter i olika versioner av en fil. Du kan använda dessa etiketter för att ange vilken version du vill ta med i en baslinje för publicering. Mer information om hur du använder etiketter för att skapa en baslinje finns i [Arbeta med baslinje](generate-output-use-baseline-for-publishing.md#).
+I Adobe Experience Manager Guides kan du lägga till etiketter i olika versioner av en fil. Du kan använda dessa etiketter för att ange vilken version du vill ta med i en baslinje för publicering. Mer information om hur du använder etiketter för att skapa en baslinje finns i [Arbeta med baslinje](generate-output-use-baseline-for-publishing.md#).
 
 Om du till exempel vill använda *version 1.0* av ett ämne i *release 1.0* och *version 1.1* av samma ämne i *release 2.0* kan du lägga till etiketten *release 1.0* i *version 1.0* och *release 2.0{1* -etikett på *version 1.1* .
 
-När du har lagt till etiketterna kan du skapa en baslinje och ange vilken version av ämnet som ska inkluderas för publicering med den baslinjen. Om du vill se vilken version som ska inkluderas eller exkluderas i en baslinje kan du använda alternativet Tidigare versioner.
+När du har lagt till etiketterna kan du skapa en baslinje och ange vilken version av ämnet som ska inkluderas för publicering med den baslinjen. Om du vill visa vilken version som ska inkluderas eller exkluderas i en baslinje kan du använda alternativet Versionshistorik.
 
-## Lägga till en etikett
+## Lägga till en etikett från Redigeraren
 
-Utför följande steg för att lägga till en etikett i ditt ämne:
+Utför följande steg för att lägga till en etikett i ämnet från Redigeraren:
 
-1. Välj ett ämne i användargränssnittet för Assets
-1. Klicka på den vänstra ikonen för att välja rälsväljare och välj **Versionshistorik**.
-1. Klicka på en version där du vill lägga till en etikett i Tidigare versioner.
+1. Navigera till ett ämne på panelen Databas och öppna det i Redigeraren.
+1. Välj **Versionsetikett** i listrutan **Meny**.
 
+   ![](images/version-label-option.png){width="400" align="left"}
+
+   Dialogrutan **Hantering av versionsetikett** visas.
+
+1. I dialogrutan **Hantering av versionsetiketter** väljer du en version där du vill lägga till en etikett.
+1. Välj en etikett för den valda versionen och välj **Lägg till etikett**.
+
+   ![](images/version-label-management-dialog-new.png){width="650" align="left"}
+
+   >[!NOTE]
+   >
+   > Du kan inte lägga till samma etikett till olika versioner av ett ämne. Du kan dock lägga till flera etiketter till samma version av ett ämne.
+1. Bekräfta att etiketterna ska användas i bekräftelserutan.
+
+   Etiketterna visas i versionshistoriken för det valda ämnet.
+
+   ![](images/label-comparison-version-history.png){width="650" align="left"}
+
+   >[!NOTE]
+   >
+   > Med hjälp av en baslinje kan du lägga till en etikett till flera ämnen. Mer information om hur du lägger till etiketter med baslinje finns i [Lägg till etiketter i en baslinje](generate-output-use-baseline-for-publishing.md#id184KD0T305Z).
+
+Om du vill ta bort en versionsetikett från ett ämne använder du ikonen **Ta bort** för varje etikett som läggs till i dialogrutan Hantering av versionsetikett.
+
+![](images/remove-version-label.png){width="800" align="left"}
+
+
+## Arbeta med etiketter från användargränssnittet i Assets
+
+Du kan också lägga till etiketter i ett ämne och ta bort dem efter behov från Assets-gränssnittet.
+
+Följ de här stegen för att lägga till en etikett från användargränssnittet i Assets till ditt ämne:
+
+1. I Assets-gränssnittet markerar du ett ämne och öppnar det.
+1. Välj ikonen för vänster rälselektor och välj **Versionshistorik**.
+1. I listrutan Versionshistorik väljer du en version där du vill lägga till en etikett.
 1. Ange en etikett för den valda versionen och tryck på Retur. Exempel: *2.6 Release*.
 
    >[!NOTE]
@@ -39,22 +74,11 @@ Utför följande steg för att lägga till en etikett i ditt ämne:
 
 >[!NOTE]
 >
-> Med hjälp av en baslinje kan du lägga till en etikett till flera ämnen. Mer information om hur du lägger till etiketter med hjälp av baslinje finns i [Lägga till etiketter i en baslinje](generate-output-use-baseline-for-publishing.md#id184KD0T305Z).
+> Med hjälp av en baslinje kan du lägga till en etikett till flera ämnen. Mer information om hur du lägger till etiketter med baslinje finns i [Lägg till etiketter i en baslinje](generate-output-use-baseline-for-publishing.md#id184KD0T305Z).
 
-## Ta bort en etikett
+Om du vill ta bort en versionsetikett från ett ämne använder du knappen **Ta bort** för varje etikett på panelen Versionshistorik.
 
-Så här tar du bort en etikett:
-
-1. I Assets-gränssnittet väljer du ett ämne som har en etikett tillagd.
-1. Klicka på den vänstra ikonen för att välja rälsväljare och välj **Versionshistorik**.
-
-   I versionshistoriken ser du alla versioner av ett ämne och tillhörande etiketter. Följande bild visar ett exempel på olika versioner av ett ämne och en version har etiketter tillagda.
-
-   ![](images/labels.png){width="300" align="left"}
-
-1. Klicka på borttagningsknappen \(**X**\) för att ta bort etiketten.
-
-   ![](images/delete-labels.png){width="300" align="left"}
+![](images/delete-labels.png){width="300" align="left"}
 
 
-**Överordnat ämne:**[ Arbeta med webbredigeraren](web-editor.md)
+**Överordnat ämne:**[ Introduktion till redigeraren](web-editor.md)

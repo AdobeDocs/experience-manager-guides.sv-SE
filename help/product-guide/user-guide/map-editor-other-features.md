@@ -1,19 +1,19 @@
 ---
 title: Andra funktioner i kartredigerarna
-description: Upptäck några vanliga funktioner i de grundläggande och avancerade kartredigeringsprogrammen. Lär dig hur du löser nyckelreferenser i kartredigeraren.
+description: Upptäck några vanliga funktioner i kartredigeraren. Lär dig hur du löser nyckelreferenser i kartredigeraren.
 exl-id: f0e7a402-ac12-4c63-9d7f-92567ee29a39
 feature: Authoring, Map Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 594e348fc1188e66cf2f4648702ed2b17f1f8f33
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
 
-# Andra funktioner i kartredigerarna {#id1942D0T0HUI}
+# Ytterligare funktioner i kartredigeraren {#id1942D0T0HUI}
 
-Några vanliga funktioner i grundläggande och avancerade kartredigerare är:
+Några vanliga funktioner i kartredigeraren är:
 
 ## Lös nyckelreferenser {#id176GD01H05Z}
 
@@ -29,7 +29,7 @@ Nyckelreferenserna tolkas utifrån rotmappningen i följande prioritetsordning:
 
 Rotmappningen som är markerad i användarinställningarna har den högsta prioriteten för att matcha nyckelreferenser följt av mappvypanelen och mappprofilens rotmappning. Om ingen karta har angetts i användarinställningarna används kartan som har öppnats på panelen Kartvy. Om ingen karta är öppen på panelen Kartvy används kartan i mappprofilerna för att matcha nyckelreferenserna.
 
-Nyckelreferenserna kan lagras i en DITA-kartfil eller en separat DITA-fil. I AEM Guides kan du ange nyckelreferenser antingen på projektnivå eller sessionsnivå. Om en rotmappning redan har definierats för användarsessionen används den för att matcha nycklarna. I annat fall används standardrotkartan för den mappen. Om en standardrotkarta inte är konfigurerad markeras de saknade nyckelreferenserna för användaren.
+Nyckelreferenserna kan lagras i en DITA-kartfil eller en separat DITA-fil. I Experience Manager Guides kan du ange nyckelreferenser antingen på projektnivå eller sessionsnivå. Om en rotmappning redan har definierats för användarsessionen används den för att matcha nycklarna. I annat fall används standardrotkartan för den mappen. Om en standardrotkarta inte är konfigurerad markeras de saknade nyckelreferenserna för användaren.
 
 Det finns flera sätt att lösa nyckelreferenser i ett DITA-avsnitt genom att definiera DITA-kartan som ska användas på följande platser:
 
@@ -37,8 +37,8 @@ Det finns flera sätt att lösa nyckelreferenser i ett DITA-avsnitt genom att de
 
 Den här rotmappningen kommer att gälla för alla resurser \(mappar och undermappar\) som är associerade med det projektet. För innehåll som refereras i flera projekt behålls en alfabetisk lista över projekt och den standardrotkarta som är associerad med det första projektet används. Du kan också välja den DITA-karta som ska användas i listan för att lösa nyckelreferenser.
 
-**Förhandsgranskning av ämne** - I läget för ämnesförhandsgranskning klickar du på ikonen Tangentupplösning i verktygsfältet och väljer den DITA-fil som ska användas för nyckelreferenser.
+**Förhandsgranskning av ämne** - I läget för ämnesförhandsgranskning väljer du ikonen för tangentupplösning i verktygsfältet och väljer den DITA-fil som ska användas för nyckelreferenser.
 
-**Ämnesredigeringsvy** - Klicka på ikonen Tangentmatchning när du redigerar ett DITA-ämne och välj den DITA-fil som ska användas för att matcha nyckelreferenserna.
+**Ämnesredigeringsvy** - Välj ikonen för tangentupplösning när du redigerar ett DITA-ämne och markera den DITA-fil som ska användas för att matcha nyckelreferenserna.
 
-**Överordnat ämne:**[ Arbeta med kartredigeraren](map-editor.md)
+**Överordnat ämne:**[ Introduktion till kartredigeraren](map-editor.md)

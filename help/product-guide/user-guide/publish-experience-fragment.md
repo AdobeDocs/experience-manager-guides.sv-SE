@@ -1,17 +1,17 @@
 ---
-title: Publish ett ämne i ett Experience Fragment
-description: Publish ett ämne eller elementen i ett ämne i ett Experience Fragment i AEM Guides.  Lär dig hur du visar de Experience Fragments som finns för ett ämne och publicerar dem igen.
+title: Publicera ett ämne till ett Experience Fragment
+description: Publicera ett ämne eller elementen i ett ämne till ett Experience Fragment i AEM Guides.  Lär dig hur du visar de Experience Fragments som finns för ett ämne och publicerar dem igen.
 feature: Publishing
 role: User
 exl-id: 4cdce8c2-2ccf-4bf1-8b92-4dfeb10de186
-source-git-commit: d525775afeeb89754762ff514126b1c3a3307b3f
+source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '996'
 ht-degree: 0%
 
 ---
 
-# Publish Experience Fragments
+# Publicera upplevelsefragment
 
 Experience Fragments är delar av modulärt innehåll i Adobe Experience Manager. Dessa innehållsblock är baserade på mallar och kapslar in både innehållet och layouten. Dessa återanvändbara innehållsdelar gör det möjligt för innehållsskapare att sammanställa och leverera enhetliga, skalbara upplevelser över flera kanaler som Experience Manager stöder. Med den här funktionen kan ni enkelt skapa enhetliga marknadsföringsupplevelser effektivt, som nyhetsbrev, kampanjbanners och kundutlåtanden.
 
@@ -30,7 +30,7 @@ Så här skapar du ett Experience Fragment:
 
    * **Titel**: Visa eller redigera mappens namn.
 
-   * **Tillåtna mallar**: Innehåller listan med mallar som kan läggas till som underordnade sidor för upplevelsekorrigeringen. Om du vill lägga till den tillåtna mallen anger du det reguljära uttrycket för hämtning av de mallar som krävs i fältet **Tillåtna mallar**.
+   * **Tillåtna mallar**: Innehåller listan med mallar som kan läggas till som underordnade sidor i upplevelsefragmentet. Om du vill lägga till den tillåtna mallen anger du det reguljära uttrycket för hämtning av de mallar som krävs i fältet **Tillåtna mallar**.
 Till exempel:
      `/libs/cq/experience-fragments/components/experiencefragment/template`
 
@@ -40,16 +40,16 @@ Till exempel:
      *Lägg till molnkonfigurationen i mappegenskaperna för att ansluta den till fragmentmallarna.*
 1. Om du vill generera ett Experience Fragment väljer du **Ny utdata** ![ny utdataikon](./images/Add_icon.svg) i avsnittet **Utdata** i **filegenskaper** för ett ämne.
 1. Välj **Upplevelsefragment**.\
-   Fliken ![Alternativ för filegenskaper](./images/file-properties-outputs.png){width="300" align="left"}
+   Fliken ![Alternativ för filegenskaper](./images/file-properties-outputs-new.png){width="300" align="left"}
 
    *Lägg till ett nytt Experience Fragment från File Properties för ett ämne*.
 
    >[!NOTE]
    >
-   > Du kan också publicera ett Experience Fragment från **databasvyn**. Välj det ämne som du vill publicera som ett Experience Fragment. På menyn **Alternativ** väljer du sedan **Publish som** > **Experience Fragment**.
+   > Du kan också publicera ett Experience Fragment från **databasvyn**. Välj det ämne som du vill publicera som ett Experience Fragment. På menyn **Alternativ** väljer du sedan **Publicera som** > **Upplevelsefragment**.
 
 1. Fyll i följande information i dialogrutan **Skapa Experience Fragment**:
-   ![Lägg till fragmentmodellen och mappningsinformationen i Publish som Experience Fragment-dialogrutan](images/experience-fragment-generate.png){width="500" align="left"}
+   ![Lägg till fragmentmodellen och mappningsinformationen i dialogrutan Publicera som Experience Fragment](images/experience-fragment-generate.png){width="500" align="left"}
 
    *Lägg till sökvägen, mallen och mappningsinformationen för att publicera ett ämne eller dess element som ett Experience Fragment. Du kan skriva över ett befintligt Experience Fragment.*
 
@@ -76,10 +76,10 @@ Till exempel:
 
 
    * Markera kryssrutan **Skriv över befintligt innehåll** om Experience Fragment redan finns och du vill skriva över det. Ett fel visas i Experience Manager Guides om du inte markerar kryssrutan och din Experience Fragment redan finns.
-1. Klicka på **Generera** för att publicera Experience Fragment.
+1. Välj **Generera** för att publicera Experience Fragment.
 1. Du kan visa Experience Fragments för ett ämne under avsnittet **Outputs** i **File Properties**. Experience Fragments visas efter datum och tid för publiceringen, med det senaste som det första.
 
-   ![Visa Experience Fragments för ett ämne](images/experience-fragment-outputs.png){width=300 align=&quot;left&quot;}
+   ![Visa Experience Fragments för ett ämne](images/experience-fragment-outputs-new.png){width=300 align=&quot;left&quot;}
 
    *Visa de Experience Fragments som finns för ett ämne och publicera dem igen.*
 

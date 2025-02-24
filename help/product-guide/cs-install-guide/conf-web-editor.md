@@ -5,9 +5,9 @@ exl-id: 9a52ba17-68c0-4552-aae6-e89bc5d3ac6f
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: ede91932959b952a47c890269695a69a2edab523
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '228'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,8 @@ AEM Guides levereras med en kraftfull Web Editor med vilken dina författare kan
 - **[Konfigurera standardvärde för taggvyn](configure-default-value-tags-view.md)**
 
 - **[Konfigurera visning av UUID-baserade länkar](conf-uuid-based-links.md)**
+
+- **[Konfigurera visning av inklistrade tabeller](conf-pasted-tables.md)**
 
 - **[Öppna DITA-avsnitt eller DITA-mappfiler på samma flik](open-dita-files-same-tab.md)**
 
@@ -52,10 +54,12 @@ AEM Guides levereras med en kraftfull Web Editor med vilken dina författare kan
 
 - **[Installera paket för artikelbaserad publicering](configure-article-based-publishing.md)**
 
-- **[Konfigurera generering av PDF i ett enskilt avsnitt](conf-pdf-generation-dita-ot.md)**
+- **[Konfigurera generering av enstaka avsnitt i PDF](conf-pdf-generation-dita-ot.md)**
 
 - **[Konfigurera översättningsfunktionen i webbredigeraren](conf-translation-web-editor.md)**
 
 - **[Ange avancerad kartredigerare som standard](conf-map-editor.md)**
 
 - **[Inkludera @navtitle-attribut som standard](auto-add-navtitle.md)**
+
+

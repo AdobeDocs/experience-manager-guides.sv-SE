@@ -5,9 +5,9 @@ exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
 feature: Profiles
 role: Admin
 level: Experienced
-source-git-commit: c94eb03af60ef9df60f77c21bfce1c45708df2f8
+source-git-commit: e1d6123991ddd8d25f76ee03befeb95f020a9834
 workflow-type: tm+mt
-source-wordcount: '4521'
+source-wordcount: '4755'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Med hjälp av panelen Mappprofiler i inställningarna för stödlinjer kan du ko
 
 - **Utdataförinställning**: På samma sätt som mallar finns det fem förkonfigurerade utdataförinställningar:
 
-   - AEM
+   - AEM Site
 
    - PDF
 
@@ -73,6 +73,8 @@ Med hjälp av panelen Mappprofiler i inställningarna för stödlinjer kan du ko
 - **Konfigurationer för XML-redigeraren**: Använd den här fliken om du vill anpassa utseendet och de olika funktionerna i Web Editor. Följande konfigurerbara inställningar är tillgängliga för Web Editor:
 
    - Användargränssnittskonfiguration för XML-redigerare
+   - XML-redigerarens sidlayout
+   - Konfiguration av XML-redigerare
    - CSS-mallayout
    - XML-redigerarkodfragment
    - Versionsetiketter för XML-innehåll
@@ -106,7 +108,7 @@ Så här konfigurerar du den globala profilen:
 
 1. Mer information om hur du konfigurerar **Utdataförinställningar** finns i [Konfigurera förinställningar för utdata](#id18AGD0IH0Y4).
 
-1. Information om hur du konfigurerar XML-redigerarkonfigurationen finns i [Konfigurera och anpassa XML-webbredigeraren](#id2065G300O5Z).
+1. Information om hur du konfigurerar XML-redigerarkonfigurationen finns i [Konfigurera och anpassa XML-redigeraren](#id2065G300O5Z).
 
 1. När du har gjort alla nödvändiga uppdateringar sparar och stänger du den **globala profilen**.
 
@@ -230,11 +232,11 @@ Om du använder ett anpassat attribut måste det vara ett giltigt DITA-attribut 
 
 ## Konfigurera mallar {#id1889D0IL0Y4}
 
-AEM Guides innehåller 7 färdiga ämnesmallar, 2 DITA-mallar och 3 PDF-mallar. Du kan välja att endast ha ett fåtal mallar tillgängliga för författare och utgivare. Om du använder en anpassad mall kan samma mall konfigureras och göras tillgänglig för redigering och publicering. Använd fliken **Mallar** i konfigurationen för mappprofiler om du vill lägga till eller ta bort teman, mappningar eller PDF-mallar från globala profiler eller mappnivåprofiler.
+AEM Guides innehåller 7 färdiga ämnesmallar, 2 DITA-mallar och 3 PDF-mallar. Du kan välja att endast ha ett fåtal mallar tillgängliga för författare och utgivare. Om du använder en anpassad mall kan samma mall konfigureras och göras tillgänglig för redigering och publicering. Använd fliken **Mallar** i konfigurationen för mappprofiler om du vill lägga till eller ta bort ämnen, kartor eller PDF-mallar från globala profiler eller mappnivåprofiler.
 
-Även innan du konfigurerar mallar för avsnitt, kartor eller PDF på global nivå eller på mappnivå kan du definiera en plats där du kan lagra dina anpassade mallar. Mer information om hur du konfigurerar en anpassad plats att lagra mallarna på finns i [Konfigurera en anpassad DITA-mallmappsökväg](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z).
+Även innan du konfigurerar teman, kartor eller PDF-mallar på global nivå eller på mappnivå kan du definiera en plats där du kan lagra dina anpassade mallar. Mer information om hur du konfigurerar en anpassad plats att lagra mallarna på finns i [Konfigurera en anpassad DITA-mallmappsökväg](conf-template-tags-custom-dita-topic-template.md#id191LCF0095Z).
 
-Utför följande steg för att lägga till mallar för avsnitt, kartor eller PDF i en mappprofil:
+Gör så här för att lägga till teman, kartor eller PDF-mallar i en mappprofil:
 
 1. Logga in på Adobe Experience Manager som administratör eller som användare med administratörsbehörighet för en mappnivåprofil.
 
@@ -255,11 +257,11 @@ Utför följande steg för att lägga till mallar för avsnitt, kartor eller PDF
 
    >[!NOTE]
    >
-   > Som standard lagras alla mallar i mappen /content/dam/dita-templates. Mappen `dita-templates` innehåller undermapparna `topics`, `maps` och `PDF` för att lagra teman, kartor och PDF-mallar. Du kan lägga till dina egna mallar \(.dita,.xml eller .ditamapfiles\) i standardmallmapparna. När du har lagt till mallen i standardmappen kan du lägga till dem i den globala profilen eller mappprofilen. Mer information om hur du skapar egna mallar med Web Editor finns i [Skapa anpassad redigeringsmall](#id1917D0EG0HJ).
+   > Som standard lagras alla mallar i mappen /content/dam/dita-templates. Mappen `dita-templates` innehåller undermapparna `topics`, `maps` och `PDF` för att lagra ämne, karta och PDF-mallar. Du kan lägga till dina egna mallar \(.dita,.xml eller .ditamapfiles\) i standardmallmapparna. När du har lagt till mallen i standardmappen kan du lägga till dem i den globala profilen eller mappprofilen. Mer information om hur du skapar egna mallar med Web Editor finns i [Skapa anpassad redigeringsmall](#id1917D0EG0HJ).
 
    ![](assets/search-author-temp.png){width="800" align="left"}
 
-1. Lägg till önskade mallar för avsnitt, kartor och PDF i din profil.
+1. Lägg till de önskade avsnitten, kartorna och PDF-mallarna i din profil.
 
    Gör något av följande om du vill lägga till en mall:
 
@@ -337,7 +339,7 @@ Med AEM Guides kan administratören skapa förinställningar för utdata med spe
 
 När standardförinställningarna för utdata har skapats i systemet kommer alla DITA-scheman som skapas därefter att använda standardförinställningarna för att generera utdata. Alla befintliga DITA-kartor kommer dock att fortsätta använda de förinställningar som tidigare konfigurerats med dem. Om du vill använda den nya förinställningen på alla befintliga DITA-kartor måste du köra arbetsflödet Använd förinställda ändringar.
 
-Förutom förinställningarna som konfigurerats på global nivå eller företagsnivå har utgivaren fortfarande behörighet att skapa fler förinställningar. Dessa förinställningar är dock kopplade till den DITA-karta som de skapas för. Mer information om hur du skapar förinställningar för vanliga utdata för en DITA-karta finns i *Skapa, redigera, duplicera eller ta bort en förinställning för utdata* i as a Cloud Service Använda Adobe Experience Manager Guides.
+Förutom förinställningarna som konfigurerats på global nivå eller företagsnivå har utgivaren fortfarande behörighet att skapa fler förinställningar. Dessa förinställningar är dock kopplade till den DITA-karta som de skapas för. Mer information om hur du skapar förinställningar för vanliga utdata för en DITA-karta finns i *Skapa, redigera, duplicera eller ta bort en förinställning för utdata* i guiden Använda Adobe Experience Manager Guides as a Cloud Service.
 
 Utför följande steg för att konfigurera globala eller mappspecifika förinställningar för utdata:
 
@@ -355,7 +357,7 @@ Utför följande steg för att konfigurera globala eller mappspecifika förinst�
 
 1. På profilsidan. klicka på fliken **Utdatainställningar**.
 
-   En lista med färdiga förinställningar visas, som AEM Site, PDF, HTML 5, EPUB och CUSTOM.
+   En lista med färdiga förinställningar visas, t.ex. AEM Site, PDF, HTML5, EPUB och CUSTOM.
 
 1. Gör något av följande om du vill skapa eller redigera en förinställning för utdata:
 
@@ -364,7 +366,7 @@ Utför följande steg för att konfigurera globala eller mappspecifika förinst�
 
    - Klicka på **Redigera** för att öppna den markerade förinställningens konfiguration för redigering.
 
-     Mer information om inställningar för förinställningar för utdata finns i *Om förinställningar för utdata* i guiden Använda Adobe Experience Manager Guides as a Cloud Service.
+     Mer information om inställningar för förinställningar för utdata finns i *Förstå förinställningarna* i guiden Använda Adobe Experience Manager Guides as a Cloud Service.
 
 1. Klicka på **Spara** om du vill spara förinställningarna.
 
@@ -391,7 +393,7 @@ Om du har uppdaterat en befintlig förinställning eller vill göra en ny förin
 
 1. På profilsidan. klicka på fliken **Utdatainställningar**.
 
-   En lista med färdiga förinställningar visas, som AEM Site, PDF, HTML 5, EPUB och CUSTOM.
+   En lista med färdiga förinställningar visas, t.ex. AEM Site, PDF, HTML5, EPUB och CUSTOM.
 
 1. Välj den förinställning för utdata som du vill använda på befintliga DITA-kartor.
 
@@ -407,9 +409,15 @@ Om du har uppdaterat en befintlig förinställning eller vill göra en ny förin
 
 
 
-## Konfigurera AI-baserade smarta förslag i Web Editor {#conf-ai-smart-suggestions}
+## Konfigurera AI Assistant för smart hjälp och redigering
 
-För ![AEM molnet ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service.
+För ![AEM cloud ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service.
+
+AI Assistant i Adobe Experience Manager Guides är ett kraftfullt, AI-drivet verktyg som har utformats för att förbättra ditt innehåll genom smart redigering och återanvändning av innehåll. Här finns två kraftfulla AI-funktioner - **Redigering** och **Hjälp** - i Experience Manager Guides-gränssnittet, så att du kan skapa dokument och få tillgång till information snabbare och effektivare.
+
+Mer konfigurationsinformation finns i [AI Assistant-konfigurationen](./conf-smart-suggestions.md).
+
+**Konfigurera AI-baserade smarta förslag**
 
 Du kan konfigurera de AI-baserade smarta förslagen och hjälpa författarna att återanvända det befintliga innehållet och enkelt skapa korrekta och konsekventa innehållsreferenser. På fliken **AI-konfiguration** kan du styra inställningarna för **Föreslå återanvändbart innehåll** från AI-assistentpanelen i Web Editor.
 
@@ -424,9 +432,10 @@ Utför följande steg för att konfigurera AI-standardkonfigurationen på global
    >Du kan konfigurera AI-baserade smarta förslag till den globala profilen eller en profil på mappnivå.
 
 1. Välj fliken **AI-konfiguration** på profilsidan.
+
    ![Konfigurationsfliken för AI i den globala profilen](assets/global-profile-AI-configuration-cs.png) {width="800" align="left"}
 
-1. Klicka på **Redigera**.
+1. Välj **Redigera**.
 1. Som administratör kan du konfigurera följande inställningar:
 
    **Minsta antal tecken**: Ange det minsta antal tecken som författarna måste ange för att få förslag. Om talet till exempel är 7 måste författaren lägga till minst 7 tecken för att kunna visa ett smart förslag.
@@ -443,16 +452,13 @@ Utför följande steg för att konfigurera AI-standardkonfigurationen på global
 
 Läs mer om hur du visar och lägger till [AI-baserade smarta förslag](../user-guide/authoring-ai-based-smart-suggestions.md) för att lägga till innehållsreferenser vid redigering i webbredigeraren.
 
+**Anpassa standardfrågorna för smart hjälp**
 
+För ![AEM cloud ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service.
 
+Du kan konfigurera den AI-baserade smarta **hjälpen** så att författarna kan ställa frågor och enkelt hitta det innehåll som krävs från [Experience Manager Guides-dokumentationen](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
 
-## Konfigurera AI-baserad smart hjälp i Web Editor {#conf-ai-guides-assistant}
-
-För ![AEM molnet ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service.
-
-Du kan konfigurera den AI-baserade **smarta hjälpen** så att författarna kan ställa frågor och enkelt hitta det innehåll som behövs från [Experience Manager Guides-dokumentationen](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
-
-På fliken **XML-redigerarkonfiguration** kan du konfigurera standardfrågorna för den **smarta hjälppanelen** i Web Editor.
+På fliken **XML-redigerarkonfiguration** kan du konfigurera standardfrågorna på panelen **Hjälp**.
 
 >[!NOTE]
 >
@@ -494,13 +500,27 @@ Så här konfigurerar du standardfrågorna:
 Läs mer om hur du använder den [AI-baserade smarta hjälpen](../user-guide/ai-based-smart-help.md) för att hitta det innehåll som krävs från Experience Manager Guides-dokumentationen.
 
 
-## Konfigurera och anpassa XML Web Editor {#id2065G300O5Z}
+## Konfigurera och anpassa XML-redigeraren {#id2065G300O5Z}
 
-Som standard har XML-webbredigeraren många funktioner som hjälper dina författare att skapa DITA-dokument. Om du arbetar i en begränsande miljö kan du välja vilka funktioner som ska visas för författarna. På fliken Konfiguration i XML-redigeraren kan du enkelt styra funktionerna och även ändra utseendet på Web Editor. Som administratör kan du anpassa följande komponenter i Web Editor:
+Som standard har XML-redigeraren många funktioner som hjälper dina författare att skapa DITA-dokument. Om du arbetar i en begränsande miljö kan du välja vilka funktioner som ska visas för författarna. På fliken Konfiguration i XML-redigeraren kan du enkelt styra funktionerna och även ändra utseendet på redigeraren. Som administratör kan du anpassa följande komponenter i redigeraren:
 
 **Konfiguration av användargränssnitt i XML-redigeraren**
 
-Den här inställningen styr verktygsfältet och andra element i användargränssnittet i Web Editor. Klicka på ikonen Hämta för att hämta filen ui\_config.json på din lokala dator. Du kan sedan ändra filen och överföra den på samma sätt. Beroende på var du överför filen på, global nivå eller mappnivå tillämpas ändringarna därefter. Mer information om hur du anpassar XML-redigeraren med filen ui\_config.json finns i [Anpassa verktygsfältet](conf-web-editor-customize-toolbar.md#).
+Med den här inställningen kan du skapa JSON-tillägg som återspeglar ändringar som gjorts i filen `ui_config.json`. Du kan överföra dessa tillägg oberoende av varandra på mappprofilnivå, vilket ger ökad flexibilitet och anpassning. Om du till exempel ändrar **XML-redigerarkonfigurationen**, till exempel uppdaterar en knapp, identifieras skillnaderna automatiskt i systemet. Genom att överföra dessa ändringar till **XML-redigerarens gränssnittskonfiguration** och konvertera dem till JSON-tillägg med knappen **Konvertera gränssnittskonfiguration till JSON**, genererar systemet ett tillägg som innehåller den nya funktionen.
+
+Läs mer om **att anpassa JSON-konfigurationer och konvertera gränssnittskonfigurationer för den nya AEM Guides Editor**.
+
+**XML-redigerarens sidlayout**
+
+Med den här funktionen kan du överföra CSS-filer för att formatera de nya tillägg som har överförts under **gränssnittskonfigurationen för XML-redigeraren**. Den överförda CSS-koden används på ett enhetligt sätt i alla relevanta program, vilket ger ett enhetligt och prydligt utseende för användargränssnittets anpassningar.
+
+**Konfiguration av XML-redigerare**
+
+Den här inställningen styr verktygsfältet och andra element i användargränssnittet i redigeraren. Välj ikonen **Hämta** om du vill hämta filen `ui\_config.json` på din lokala dator. Du kan sedan ändra filen och överföra den på samma sätt. Beroende på var du överför filen på, global nivå eller mappnivå tillämpas ändringarna därefter. Mer information om hur du anpassar XML-redigeraren med `ui\_config.json file` finns i [Anpassa verktygsfältet](conf-web-editor-customize-toolbar.md#).
+
+>[!NOTE]
+>
+> För AEM Guides 2502 och senare versioner rekommenderar vi att du använder JSON-tillägget i stället för `ui_config.json` för anpassning. Mer information finns i avsnittet **Konfiguration av användargränssnitt i XML-redigeraren** ovan.
 
 **CSS-mallayout**
 

@@ -1,19 +1,19 @@
 ---
-title: Kortkommandon i Web Editor
+title: Kortkommandon i Redigeraren
 description: Upptäck tidsbesparande kortkommandon i webbredigeraren för AEM Guides.
 exl-id: d843c5a9-04f8-44f2-9bf5-60cb4ed7fa38
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 33da473cfa8c654a5413f9d8cbe9c43acaf65766
+source-git-commit: e5f4dc964a31d3bc23db166ee391e5e3550d8cbc
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '357'
 ht-degree: 0%
 
 ---
 
-# Kortkommandon i Web Editor {#id2056B0A0WHT}
+# Kortkommandon i Redigeraren {#id2056B0A0WHT}
 
-Det finns många åtgärder i Web Editor som du kan utföra med hjälp av kortkommandon. Följande tabell visar kortkommandona:
+Det finns många åtgärder i redigeraren som du kan utföra med hjälp av kortkommandon. Följande tabell visar kortkommandona:
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ Det finns många åtgärder i Web Editor som du kan utföra med hjälp av kortko
 | Fokusera på den aktuella redigeraren | **Ctrl***+**Skift**+***0*** | ***Kommando***+**Skift**+***0*** |
 | Spara dokument i redigerings- eller Source-vy | ***Ctrl***+**Skift**+***S*** | ***Kommando***+**Skift**+***S*** |
 | Spara alla öppna dokument i redigerings- eller Source-vyn | ***Ctrl***+***S*** | ***Kommando***+***S*** |
-| Visa dialogrutan Infoga element | ***Alt***+***Retur*** | ***Alternativ***+***Retur*** |
+| Visa dialogrutan Infoga element | ***Alt***+***1*** | ***Alternativ***+***Retur*** |
 | Visa dialogrutan Infoga element om du vill infoga element före det markerade elementet | ***Alt***+***Skift***+***Retur*** | ***Alternativ***+***Skift***+***Retur*** |
 | Flytta markören ett ord åt vänster. | ***Ctrl***+***Vänsterpil*** | ***Alternativ***+***Vänsterpil*** |
 | Flytta markören ett ord åt höger. | ***Ctrl***+***Högerpil*** | ***Alternativ***+***Högerpil*** |

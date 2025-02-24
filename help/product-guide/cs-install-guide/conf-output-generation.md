@@ -5,9 +5,9 @@ exl-id: b5cf4f6c-dc56-428e-a514-6c9f879ac03d
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: a2e52572edf0915c1701a384d396a32de2429f53
 workflow-type: tm+mt
-source-wordcount: '5470'
+source-wordcount: '5620'
 ht-degree: 0%
 
 ---
@@ -31,13 +31,13 @@ Så här döljer du fliken Baslinje på DITA-kartkontrollpanelen:
 >
 > Den här konfigurationen är aktiverad som standard och fliken Baslinje är inte tillgänglig på kartkontrollpanelen.
 
-## Konfigurera blandad publicering på en befintlig AEM {#id1691I0V0MGR}
+## Konfigurera blandad publicering på en befintlig AEM-webbplats {#id1691I0V0MGR}
 
-Om du har en AEM webbplats som innehåller DITA-innehåll kan du konfigurera dina AEM webbplatsutdata så att DITA-innehåll publiceras på en fördefinierad plats på platsen. I följande skärmbild på en AEM webbplatssida är noden `ditacontent` reserverad för lagring av DITA-innehåll:
+Om du har en AEM-webbplats som innehåller DITA-innehåll kan du konfigurera dina AEM Site-utdata så att DITA-innehåll publiceras på en fördefinierad plats på webbplatsen. I följande skärmbild på en AEM Site-sida är noden `ditacontent` reserverad för lagring av DITA-innehåll:
 
 ![](assets/publish-in-aem-site.png)
 
-De återstående noderna på sidan redigeras direkt från AEM. Om du konfigurerar publiceringsinställningen för att publicera DITA-innehåll på en fördefinierad plats, säkerställs att inget av ditt befintliga icke-DITA-innehåll ändras i AEM Guides publiceringsprocess.
+De återstående noderna på sidan redigeras direkt i AEM Site Editor. Om du konfigurerar publiceringsinställningen för att publicera DITA-innehåll på en fördefinierad plats, säkerställs att inget av ditt befintliga icke-DITA-innehåll ändras i AEM Guides publiceringsprocess.
 
 Du måste göra följande konfigurationer på din befintliga webbplats för att tillåta publicering av DITA-innehåll till en fördefinierad nod:
 
@@ -64,34 +64,34 @@ Utför följande steg för att konfigurera den befintliga platsens mallegenskape
 
 Nästa gång du publicerar DITA-innehåll med mallkonfigurationer för din webbplats publiceras innehållet i de noder som anges i egenskaperna `topicContentNode` och `topicHeadNode`.
 
-## Anpassa AEM webbplatsutdata {#id166TG0B30WR}
+## Anpassa utdata för AEM Site {#id166TG0B30WR}
 
 AEM Guides har stöd för att skapa utdatafiler i följande format:
 
-- AEM
+- AEM Site
 - PDF
 - HTML5
 - EPUB
 - Anpassade utdata via DITA-OT
 
-För AEM platsutdata kan du tilldela olika designmallar med olika utdatauppgifter. Dessa designmallar kan återge DITA-innehållet i olika layouter. Du kan till exempel ange olika designmallar för interna och externa målgrupper.
+För utdata från AEM Site kan du tilldela olika designmallar med olika utdatauppgifter. Dessa designmallar kan återge DITA-innehållet i olika layouter. Du kan till exempel ange olika designmallar för interna och externa målgrupper.
 
-Du kan också använda anpassade DITA Open Toolkit-plugin-program \(DITA-OT\) med AEM Guides. Du kan överföra dessa anpassade DITA-OT-plugin-program för att generera utdata från PDF på ett visst sätt.
+Du kan också använda anpassade DITA Open Toolkit-plugin-program \(DITA-OT\) med AEM Guides. Du kan överföra dessa anpassade DITA-OT-plugin-program för att generera PDF-utdata på ett specifikt sätt.
 
 >[!TIP]
 >
-> Avsnittet *AEM Webbplatspublicering* i guiden om bästa praxis innehåller information om hur du skapar AEM webbplatsutdata.
+> Mer information om hur du skapar utdata för AEM-webbplatsen finns i avsnittet *AEM Site publishing* i guiden om bästa praxis.
 
 
 ### Anpassa designmall för generering av utdata {#customize_xml-add-on}
 
-AEM Guides använder en uppsättning fördefinierade designmallar för att generera AEM webbplatsutdata. Du kan anpassa AEM Guides designmallar för att generera utdata som passar företagets grafiska profil. En designmall är en samling med olika format \(CSS\), skript \(både server- och klientsidan\), resurser \(bilder, logotyper och andra resurser\) och JCR-noder som knyter samman alla dessa resurser. En designmall kan vara så enkel som ett enda skript på servern med bara ett par JCR-noder, eller en komplex kombination av format, resurser och JCR-noder. Designmallar används av AEM Guides undersystem för publicering när AEM genereras och de styr strukturen, utseendet och känslan hos de genererade utdata.
+AEM Guides använder en uppsättning fördefinierade designmallar för att generera utdata från AEM Site. Du kan anpassa AEM Guides designmallar för att generera utdata som passar företagets grafiska profil. En designmall är en samling med olika format \(CSS\), skript \(både server- och klientsidan\), resurser \(bilder, logotyper och andra resurser\) och JCR-noder som knyter samman alla dessa resurser. En designmall kan vara så enkel som ett enda skript på servern med bara ett par JCR-noder, eller en komplex kombination av format, resurser och JCR-noder. Designmallar används av AEM Guides undersystem för publicering när utdata från AEM Site genereras och de styr strukturen, utseendet och känslan hos de genererade utdata.
 
 Det finns ingen begränsning för var designmallresurserna ska placeras på servern, men de är vanligtvis logiskt ordnade efter sin funktion. Standardmallen innehåller till exempel alla sina JavaScript- och CSS-filer som lagras i mappen `/etc/designs/fmdita/clientlibs/siteoutput/default`. Oavsett var filerna finns länkas de ihop av en samling JCR-noder. Tillsammans utgör dessa JCR-noder och filerna hela designmallen.
 
 Med standarddesignmallen som levereras med AEM Guides kan du anpassa komponenterna för landning, ämne och söksida. Du kan skapa en kopia av standarddesignen och motsvarande referensmallar och ange olika komponenter för att generera önskat utvärde.
 
-Utför följande steg för att ange en egen designmall som ska användas för att generera utdata AEM webbplatsen:
+Gör så här för att ange en egen designmall som ska användas för att generera utdata för AEM Site:
 
 1. Använd pakethanteraren för att hämta standarddesignmallen från följande plats:
 
@@ -116,8 +116,8 @@ Utför följande steg för att ange en egen designmall som ska användas för at
    | `tocNode` | Platsen för noden som ska innehålla innehållsförteckningen. Sökvägen är relativ till landningssidan eller målsökvägen. |
    | `basePathProp` | Egenskapsnamnet för lagring av sökvägen till den publicerade platsens rot. |
    | `indexPathProp` | Egenskapsnamnet för lagring av sökvägen till den publicerade platsens landnings-/indexsida. |
-   | `pdfPathProp` | Egenskapsnamnet för lagring av PDF-sökvägen, om generering av ämnet PDF är aktiverat. |
-   | `pdfTypeProp` | Egenskapsnamnet för lagring av PDF-genereringens typ. För närvarande innehåller den här egenskapen alltid&quot;Ämne&quot;. |
+   | `pdfPathProp` | Egenskapsnamnet för lagring av PDF-ämnets sökväg, om PDF-generering är aktiverat. |
+   | `pdfTypeProp` | Egenskapsnamnet för lagring av typen av PDF-generering. För närvarande innehåller den här egenskapen alltid&quot;Ämne&quot;. |
    | `searchPathProp` | Egenskapsnamnet för lagring av söksidans sökväg, om mallen innehåller en söksida. |
    | `siteTitleProp` | Egenskapsnamnet för lagring av titeln på den webbplats som publiceras. Den här titeln är vanligtvis densamma som titeln på kartan som publiceras. |
    | `sourcePathProp` | Egenskapsnamnet för lagring av sökvägen till källans DITA-ämne för den aktuella sidan. |
@@ -126,27 +126,27 @@ Utför följande steg för att ange en egen designmall som ska användas för at
 
 >[!NOTE]
 >
-> När du har skapat en anpassad designmallsnod måste du uppdatera designalternativet i AEM för webbplatsutdata för att kunna använda den anpassade designmallsnoden.
+> När du har skapat en anpassad designmallsnod måste du uppdatera designalternativet i förinställningarna för AEM Site-utdata för att kunna använda den anpassade designmallsnoden.
 
 Mer information finns i [Skapa din första Adobe Experience Manager-webbplats](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=en) och [Grunderna](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=en) för att utveckla din egen webbplats på AEM.
 
-### Använd dokumenttitel för att generera AEM webbplatsutdata
+### Använd dokumenttitel för att generera utdata från AEM webbplats
 
-När du genererar AEM webbplatsutdata spelar det sätt på vilket URL:er genereras en viktig roll för att ditt innehåll ska kunna identifieras. Om du använder UUID-baserade filnamn är det inte sökvänligt att generera URL:er baserade på UUID för dina filer. Som administratör eller utgivare kan du styra hur du vill generera URL:er för AEM webbplatsutdata. AEM Guides ger dig en konfiguration genom vilken du kan välja att generera URL:er för AEM platsutdata med hjälp av filens namn i stället för UID-baserade filnamn. Som standard är det här alternativet aktiverat för UUID-baserade filsystem. Detta innebar att när du genererade utdata AEM platsen för UUID-baserade filsystem, används filens namn för att generera URL:er och inte UUID:n för filerna.
+När du genererar utdata för AEM Site spelar det sätt på vilket URL:er genereras en viktig roll för att ditt innehåll ska kunna upptäckas. Om du använder UUID-baserade filnamn är det inte sökvänligt att generera URL:er baserade på UUID för dina filer. Som administratör eller utgivare kan du styra hur du vill generera URL:er för utdata från AEM Site. AEM Guides ger dig en konfiguration genom vilken du kan välja att generera URL:er för AEM Site-utdata med hjälp av filens titel i stället för UID-baserade filnamn. Som standard är det här alternativet aktiverat för UUID-baserade filsystem. Detta innebar att när du genererade utdata från AEM Site för UUID-baserade filsystem används filens namn för att generera URL:er och inte UUID:n för filerna.
 
 >[!NOTE]
 >
-> Du kan konfigurera regler så att endast en teckenuppsättning tillåts i URL:er för en AEM webbplatsutdata. Mer information finns i [Konfigurera regler för filtrering av filnamn för att skapa ämnen och publicera AEM webbplatsutdata](#id2164D0KD0XA).
+> Du kan konfigurera regler så att endast en teckenuppsättning tillåts i URL:er för utdata från AEM Site. Mer information finns i [Konfigurera regler för filtrering av filnamn för att skapa ämnen och publicera utdata för AEM Site](#id2164D0KD0XA).
 
-Använd instruktionerna i [Konfigurationsåsidosättningar](download-install-additional-config-override.md#) för att skapa konfigurationsfilen. Ange följande \(egenskap\)-information i konfigurationsfilen för att konfigurera URL-generering i AEM platsutdata:
+Använd instruktionerna i [Konfigurationsåsidosättningar](download-install-additional-config-override.md#) för att skapa konfigurationsfilen. Ange följande \(egenskap\)-information i konfigurationsfilen för att konfigurera URL-generering i utdata för AEM Site:
 
 | PID | Egenskapsnyckel | Egenskapsvärde |
 |---|------------|--------------|
 | `com.adobe.fmdita.config.ConfigManager` | `aemsite.pagetitle` | Boolean \(true/false\). Om du vill generera utdata med sidrubriken ställer du in egenskapen på true. Som standard används filnamnet.<br> **Standardvärde**: false |
 
-### Konfigurera URL:en för AEM som ska använda dokumenttiteln
+### Konfigurera URL:en för AEM Site-utdata så att dokumenttiteln används
 
-Du kan använda dokumenttitlarna i URL:en för AEM platsutdata. Om filnamnet inte finns eller innehåller alla specialtecken kan du konfigurera systemet så att specialtecknen ersätts med en avgränsare i URL:en för AEM. Du kan också konfigurera det så att det ersätter dem med namnet på det första underordnade ämnet.
+Du kan använda dokumenttitlarna i URL:en för utdata från AEM Site. Om filnamnet inte finns eller innehåller alla specialtecken kan du konfigurera systemet så att specialtecknen ersätts med en avgränsare i URL:en för utdata från AEM Site. Du kan också konfigurera det så att det ersätter dem med namnet på det första underordnade ämnet.
 
 
 Så här konfigurerar du sidnamnen:
@@ -161,9 +161,9 @@ Så här konfigurerar du sidnamnen:
 Om exempelvis *@navtitle* i `<topichead>` har alla specialtecken och du anger egenskapen `aemsite.pagetitle` till true, används som standard en avgränsare. Om du ställer in egenskapen `nodename.systemDefinedPageName` på true visas det första underordnade ämnets namn.
 
 
-### Konfigurera filnamnssaneringsregler för att skapa ämnen och publicera AEM webbplatsutdata {#id2164D0KD0XA}
+### Konfigurera filnamnssaneringsregler för att skapa ämnen och publicera utdata i AEM Sites och andra format {#id2164D0KD0XA}
 
-Som administratör kan du definiera en lista med giltiga specialtecken som tillåts i filnamn, som till slut utgör URL:en för en AEM webbplatsutdata. I tidigare versioner tilläts användare att definiera filnamn som innehåller specialtecken som `@`, `$`, `>` med flera. Specialtecknen resulterade i kodad URL-adress när AEM webbplatssidor genererades.
+Som administratör kan du definiera en lista med giltiga specialtecken som tillåts i filnamn, som till slut utgör URL:en för utdata från en AEM-plats. I tidigare versioner tilläts användare att definiera filnamn som innehåller specialtecken som `@`, `$`, `>` med flera. Specialtecknen resulterade i kodad URL för generering av AEM Site-sidor.
 
 Från och med version 3.8 har konfigurationer lagts till för att definiera en lista med specialtecken som tillåts i filnamnen. Som standard innehåller den giltiga filnamnskonfigurationen `a-z A-Z 0-9 - _`. Detta innebär att när du skapar en fil kan du ha ett specialtecken i filens titel, men internt kommer det att ersättas med ett bindestreck \(`-`\) i filnamnet. Du kan t.ex. ha filens namn som Introduktion 1 eller Introduction@1, så kommer motsvarande filnamn som skapas för båda dessa fall att vara Introduktion-1.
 
@@ -173,11 +173,15 @@ När du definierar en lista med giltiga tecken måste du komma ihåg att de här
 >
 > Om du inte konfigurerar den giltiga specialteckenlistan kan det hända att du får oväntade resultat när du skapar filen.
 
-Använd instruktionerna i [Konfigurationsåsidosättningar](download-install-additional-config-override.md#) för att skapa konfigurationsfilen. Ange följande \(egenskap\)-information i konfigurationsfilen för att konfigurera giltiga specialtecken i filnamn och AEM platsutdata:
+Använd instruktionerna i [Konfigurationsåsidosättningar](download-install-additional-config-override.md#) för att skapa konfigurationsfilen. Ange följande \(egenskap\)-information i konfigurationsfilen för att konfigurera giltiga specialtecken i filnamn och utdata för AEM-plats:
 
 | PID | Egenskapsnyckel | Egenskapsvärde |
 |---|------------|--------------|
 | `com.adobe.fmdita.common.SanitizeNodeNameImpl` | `aemsite.DisallowedFileNameChars` | Kontrollera att egenskapen är inställd på ``'<>`@$``. Du kan lägga till fler specialtecken i listan. |
+
+>[!NOTE]
+> 
+> Ovanstående konfiguration gäller för alla utdataformat. Det innebär att när du genererar ett PDF-, HTML- eller anpassat utdata kommer det slutliga resultatet att följa de konfigurerade reglerna för sanitifiering av filnamn.
 
 Du kan också konfigurera andra egenskaper, till exempel använda gemener i filnamn, avgränsare för att hantera ogiltiga tecken och maximalt antal tecken som tillåts i filnamnen. Om du vill konfigurera de här egenskaperna lägger du till följande nyckelvärdepar i konfigurationsfilen:
 
@@ -187,19 +191,19 @@ Du kan också konfigurera andra egenskaper, till exempel använda gemener i filn
 | `nodename.separator` | Alla tecken. <br> **Standardvärde**: \_ *\(understreck\)* |
 | `nodename.maxlength` | Heltalsvärde.<br> **Standardvärde**: 50 |
 
-### Konfigurera förenkling AEM platsnodens struktur
+### Konfigurera förenkling av nodstrukturen för AEM Site
 
-När du genererar utdata AEM platsen skapas en nod för varje element i avsnitten internt. För en DITA-karta med tusentals ämnen kan den här nodstrukturen bli för djup. Den här typen av djupt kapslad nodstruktur kan ha prestandaproblem för större platser. I följande bild visas djupt kapslad nodstruktur för en AEM webbplatsutdata:
+När du genererar utdata för AEM Site skapas en nod för varje element i avsnitten internt. För en DITA-karta med tusentals ämnen kan den här nodstrukturen bli för djup. Den här typen av djupt kapslad nodstruktur kan ha prestandaproblem för större platser. Följande bild visar djupt kapslad nodstruktur för utdata från AEM Site:
 
 ![](assets/deep-nested-aem-site-node-structure.png)
 
 Observera att det i ögonblicksbilden ovan finns en nod som skapas för varje `p`-element och dess efterföljande underelement, och en liknande struktur skapas för alla andra element som används i avsnittet.
 
-Med AEM Guides kan du konfigurera hur nodstrukturen AEM platsutdata skapas internt. Du kan förenkla nodstrukturen vid angivna element, vilket innebär att du kan definiera ett element som ska betraktas som huvudelement och alla underelement i det sammanfogas med huvudelementet. Om du till exempel bestämmer dig för att förenkla elementet `p` sammanfogas alla element som finns i elementet `p` med huvudelementet `p`. Ingen separat anteckning skulle skapas för något underelement i elementet `p`. I följande ögonblicksbild visas nodstrukturen förenklad vid elementet `p`:
+Med AEM Guides kan du konfigurera hur nodstrukturen för AEM Site-utdata ska skapas internt. Du kan förenkla nodstrukturen vid angivna element, vilket innebär att du kan definiera ett element som ska betraktas som huvudelement och alla underelement i det sammanfogas med huvudelementet. Om du till exempel bestämmer dig för att förenkla elementet `p` sammanfogas alla element som finns i elementet `p` med huvudelementet `p`. Ingen separat anteckning skulle skapas för något underelement i elementet `p`. I följande ögonblicksbild visas nodstrukturen förenklad vid elementet `p`:
 
 ![](assets/flattened-aem-site-node-structure.png)
 
-Så här förenklar du strukturen AEM platsnoden:
+Så här förenklar du nodstrukturen i AEM Site:
 
 1. Identifiera det eller de element som du vill förenkla nodstrukturen vid:
 
@@ -235,9 +239,9 @@ När du genererar AEM Site-utdata förenklas nu noderna i elementet `p` och lagr
 
 ![](assets/flatten-aem-site-note-props-crxde.png)
 
-**Sök efter en sträng i innehållet i AEM**
+**Sök efter en sträng i innehållet i AEM Site-utdata**
 
-Som standard kan du bara söka efter en sträng i titlarna i AEM platsutdata. Du kan konfigurera systemet så att det söker efter en sträng både i titlarna och i innehållet eller i innehållet i AEM.
+Som standard kan du bara söka efter en sträng i titlarna i utdata för AEM Site. Du kan konfigurera systemet så att det söker efter en sträng både i titlarna och i innehållet eller i texten i utdata för AEM Site.
 
 >[!NOTE]
 >
@@ -245,7 +249,7 @@ Som standard kan du bara söka efter en sträng i titlarna i AEM platsutdata. Du
 
 ![](assets/flatten-aem-site-note-props-crxde-search.png)
 
-Om du vill aktivera sökningen bör du konfigurera förenklingen AEM platsnodstrukturen.
+Om du vill aktivera sökningen bör du konfigurera förenklingen av nodstrukturen för AEM Site.
 
 VARNING:
 
@@ -255,17 +259,17 @@ Du kan söka efter upp till 1 MB förenklat innehåll. I den föregående skärm
 >
 > Sökningen fungerar bara på elementen om attributet `<flatten>` har värdet true. Som standard har AEM Guides attributet `<flatten>` angivet till true för de vanligaste textelementen som &lt;p\> &lt;ul\> &lt;lI\>. Om du har skapat några anpassade element bör du emellertid ange attributet `<flatten>` till true i filen elementmapping.xml.
 
-**Förhindra förenkling AEM platsnodstrukturen**
+**Förhindra förenkling av nodstrukturen för AEM Site**
 
-På samma sätt som du anger vilken nod som ska förenklas AEM platsutdata kan du även ange ett element som du vill utesluta från den här konfigurationen. Om du till exempel vill lägga samman noder vid elementet `body`, men inte vill att något `table` -element i `body` ska läggas samman, kan du lägga till egenskapen exclude i elementets definition för `table` .
+På samma sätt som du anger vilken nod som ska förenklas i utdata för AEM Site, kan du även ange ett element som du vill utesluta från den här konfigurationen. Om du till exempel vill lägga samman noder vid elementet `body`, men inte vill att något `table` -element i `body` ska läggas samman, kan du lägga till egenskapen exclude i elementets definition för `table` .
 
 Om du vill utesluta elementet `table` från förenkling lägger du till följande egenskap i elementets definition för `table`:
 
 `<preventancestorflattening>true|false</preventancestorflattening>`
 
-### Konfigurera versionshantering för borttagna sidor AEM webbplatsutdata
+### Konfigurera versionshantering för borttagna sidor i AEM Site-utdata
 
-När du genererar AEM webbplatsutdata med alternativet **Ta bort och** Skapa ****valt för inställningen Befintliga utdatasidor skapas en version för sidan/sidorna som tas bort. Du kan konfigurera systemet så att det inte längre skapas en version innan du tar bort den.
+När du genererar utdata för AEM-webbplatsen med alternativet **Ta bort och** Skapa ****valt för inställningen Befintliga utdatasidor skapas en version för sidan/sidorna som tas bort. Du kan konfigurera systemet så att det inte längre skapas en version innan du tar bort den.
 
 Utför följande steg för att stoppa skapandet av en version för den sida/de sidor som ska tas bort:
 
@@ -386,7 +390,7 @@ För att validera de metadatavärden som skickas till DITA-OT kan man använda e
 
   Så här kommer du åt metadata.xml:
 
-   - Logga in på serverplatsen där AEM körs.
+   - Logga in på serverplatsen där AEM-instansen körs.
    - Migrera till crx-quickstart/profiles/ditamaps/&lt;recently-directory-name\>/metadata.xml.
 - Exempelfilformat:
 
@@ -420,15 +424,31 @@ För att validera de metadatavärden som skickas till DITA-OT kan man använda e
 >
 > Om det inte finns några metadata för filen visas inte &lt;meta\>-taggen med nyckeln som egenskap för filen i filen metadata.xml.
 
-## Anpassa DITA-elementmappning med AEM {#id1679J600HEL}
+## Konfigurera kommandoradsargumentfältet DITA-OT så att det accepterar metadata för rotmappning
 
-DITA-element i AEM Guides mappas till motsvarande AEM. AEM Guides använder den här mappningen i arbetsflöden som publicering och granskning för att konvertera DITA-element till en motsvarande AEM. Mappningen definieras i filen `elementmapping.xml` som du kan komma åt med hjälp av pakethanteraren.
+Så här använder du kommandoradsargumentfältet DITA-OT för att skicka metadata för rotmappning:
+
+1. Använd instruktionerna i [Konfigurationsåsidosättningar](download-install-additional-config-override.md#) för att skapa konfigurationsfilen.
+1. Ange följande \(egenskap\)-information i konfigurationsfilen för att konfigurera kommandoradsargumentfältet DITA-OT i förinställningen:
+
+| PID | Egenskapsnyckel | Egenskapsvärde |
+|---|------------|--------------|
+| `com.adobe.fmdita.config.ConfigManager` | `pass.metadata.args.cmd.line` | Boolean\(`true/false`\).**Standardvärde**: `true` |
+
+- Om du anger egenskapsvärdet till **true** aktiveras kommandoradsfunktionen DITA-OT, vilket gör att du kan skicka metadata via DITA-OT-kommandoraden.
+- Om egenskapsvärdet anges till **false** inaktiveras kommandoradsfunktionen DITA-OT. Du kan sedan använda egenskapsfältet i förinställningen för att skicka metadata.
+
+
+
+## Anpassa DITA-elementmappning med AEM-komponenter {#id1679J600HEL}
+
+DITA-element i AEM Guides mappas till motsvarande AEM-komponenter. AEM Guides använder den här mappningen i arbetsflöden som publicering och granskning för att konvertera DITA-element till en motsvarande AEM-komponent. Mappningen definieras i filen `elementmapping.xml` som du kan komma åt med hjälp av pakethanteraren.
 
 >[!NOTE]
 >
 > Gör inga anpassningar i standardkonfigurationsfilerna tillgängliga i noden ``libs``. Du måste skapa en övertäckning av noden ``libs`` i noden ``apps`` och endast uppdatera de filer som krävs i noden ``apps``.
 
-Du kan använda de fördefinierade DITA-elementmappningarna eller mappa DITA-element till dina anpassade AEM. Om du vill använda dina anpassade AEM måste du förstå strukturen för filen `elementmapping.xml`.
+Du kan använda de fördefinierade DITA-elementmappningarna eller mappa DITA-element till dina anpassade AEM-komponenter. Om du vill använda dina anpassade AEM-komponenter måste du förstå strukturen för filen `elementmapping.xml`.
 
 ### elementmapping.xml-struktur
 
@@ -575,7 +595,7 @@ I följande tabell beskrivs elementen i DITA-elementschemat:
 | `<class>` | Klassattributet för det DITA-målelement som du skriver komponenten för.<br> Klassattributet för DITA-ämnet är till exempel: <br> `- topic/topic` |
 | `<componentpath>` | CRXDE-sökvägen för den mappade AEM-komponenten. |
 | `<type>` | Möjliga värden:<br> -   **COMPOSITE**: Bearbeta även underordnade element <br> -   **STANDALONE**: Hoppar över bearbetning av underordnade element |
-| `<attributeprop>` | Används för att mappa serialiserade DITA-attribut och -värden till AEM noder som egenskap. Om du till exempel har elementet `<note type="Caution">` och komponenten som är mappad för det här elementet har `<attributeprop>attr_t</ attributeprop>` serialiseras nodens attribut och värde till egenskapen `attr_t` för motsvarande AEM nod \( `attr_t->type="caution"`\). |
+| `<attributeprop>` | Används för att mappa serialiserade DITA-attribut och -värden till AEM-noder som egenskap. Om du till exempel har elementet `<note type="Caution">` och komponenten som är mappad för det här elementet har `<attributeprop>attr_t</ attributeprop>` serialiseras nodens attribut och värde till egenskapen `attr_t` för motsvarande AEM-nod \( `attr_t->type="caution"`\). |
 | `<textprop>propname_t</textprop>` | Spara `getTextContent()`-utdata till en egenskap som definieras av `propname_t.` <br> **Obs!** Det här är en optimerad egenskap. |
 | `<xmlprop>propname_x </xmlprop>` | Spara serialiserad XML för den här noden i egenskap som definierats av `propname_x.<br> `**Obs!** Detta är en optimerad egenskap. |
 | `<xpath>` | Om XPath-elementet anges i elementmappningen ska XPath-villkoret också uppfyllas tillsammans med elementnamnet och klassen för att komponentmappningen ska användas. |
@@ -583,13 +603,13 @@ I följande tabell beskrivs elementen i DITA-elementschemat:
 | `<wrapelement>` | Det HTML-element som innehållet ska radbrytas i. |
 | `<wrapclass>` | Elementvärdet för egenskapen `wrapclass.` |
 | `<attributemap>` | Behållarnod som innehåller en eller flera `<attribute>`-noder. |
-| `<attribute from="attrname" to="propname" ispath="true|false" rel="source|target" />` | Mappar DITA-attributen till AEM: <br> -   **`from`**: DITA-attributnamn <br> -   **`to`**: AEM komponentegenskapsnamn <br> -   **`ispath`**: Om attributet är ett sökvägsvärde \(till exempel: *image*\) <br> -   **`rel`**: Om sökvägen är källan eller målet <br> **Obs!** Om `attrname` börjar med `%` mappar du `attrname minus '%'` till prop `propname`. |
+| `<attribute from="attrname" to="propname" ispath="true|false" rel="source|target" />` | Mappar DITA-attributen till AEM-egenskaper: <br> -   **`from`**: DITA-attributnamn <br> -   **`to`**: AEM-komponentens egenskapsnamn <br> -   **`ispath`**: Om attributet är ett sökvägsvärde \(till exempel: *image*\) <br> -   **`rel`**: Om sökvägen är källan eller målet <br> **Obs!** Om `attrname` börjar med `%` mappar du `attrname minus '%'` till prop `propname`. |
 
 **Ytterligare information**
 
 - Om du tänker åsidosätta standardelementmappningen rekommenderar vi att du inte gör ändringarna i standardfilen `elementmapping.xml`. Du bör skapa en ny XML-mappningsfil och placera filen på en annan plats, helst i en anpassad programmapp som du skapar.
 
-- I filen `elementmapping.xml` finns det många mappningsposter som refererar till komponenten fmdita/components/dita/wrapper. Wrapper är en generisk komponent som återger relativt enkla DITA-konstruktioner med hjälp av egenskaper på webbplatsnoden för att generera relevant HTML. Egenskapen `wrapelement` används för att generera omslutande taggar och för att delegera den underordnade återgivningen till motsvarande komponenter. Detta är användbart om du bara vill ha en behållarkomponent. I stället för att skapa en ny komponent som återger en viss behållartagg som `div` eller `p` kan du använda komponenten Wrapper med egenskaperna `wrapelement` och `wrapclass` för att uppnå samma effekt.
+- I filen `elementmapping.xml` finns det många mappningsposter som refererar till komponenten fmdita/components/dita/wrapper. Wrapper är en generisk komponent som återger relativt enkla DITA-konstruktioner med hjälp av egenskaper på webbplatsnoden för att generera relevanta HTML. Egenskapen `wrapelement` används för att generera omslutande taggar och för att delegera den underordnade återgivningen till motsvarande komponenter. Detta är användbart om du bara vill ha en behållarkomponent. I stället för att skapa en ny komponent som återger en viss behållartagg som `div` eller `p` kan du använda komponenten Wrapper med egenskaperna `wrapelement` och `wrapclass` för att uppnå samma effekt.
 
 - Du bör inte spara stora mängder text i JCR-egenskaper för strängar. Beräkningen av den optimerade egenskapstypen i utdatagenereringen säkerställer att stort textinnehåll inte sparas som strängtyp. Om innehåll som är större än ett visst tröskelvärde behöver sparas, ändras egenskapstypen till binär. Som standard är det här tröskelvärdet konfigurerat till 512 byte, men du kan ändra det i Configuration Manager \(*com.adobe.fmdita.config.ConfigManager*\) genom att ändra inställningen **Spara som binärt tröskelvärde** .
 
@@ -600,7 +620,7 @@ I följande tabell beskrivs elementen i DITA-elementschemat:
 
 ## Anpassa DITA-kartkonsolen {#id188HC08M0CZ}
 
-AEM Guides ger dig flexibiliteten att utöka funktionerna i DITA-kartkonsolen. Om du t.ex. har en uppsättning rapporter som skiljer sig från vad som finns i AEM Guides kan du lägga till sådana rapporter i kartkonsolen. Om du vill anpassa kartkonsolen måste du skapa ett AEM klientbibliotek \(eller ClientLib\) som innehåller koden för att utföra de funktioner du behöver.
+AEM Guides ger dig flexibiliteten att utöka funktionerna i DITA-kartkonsolen. Om du t.ex. har en uppsättning rapporter som skiljer sig från vad som finns i AEM Guides kan du lägga till sådana rapporter i kartkonsolen. Om du vill anpassa kartkonsolen måste du skapa ett AEM-klientbibliotek \(eller ClientLib\) som innehåller koden för att kunna utföra de funktioner du behöver.
 
 >[!NOTE]
 >
@@ -610,11 +630,11 @@ AEM Guides tillhandahåller kategorin `apps.fmdita.dashboard-extn` för att anpa
 
 >[!NOTE]
 >
-> Mer information om hur du skapar AEM klientbibliotek finns i [Använda bibliotek på klientsidan](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=en).
+> Mer information om hur du skapar AEM-klientbibliotek finns i [Använda klientbibliotek](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=en).
 
 ## Hantera bildåtergivning under generering av utdata {#id177BF0G0VY4}
 
-AEM innehåller en uppsättning standardarbetsflöden och mediehandtag för att bearbeta resurser. I AEM finns fördefinierade arbetsflöden för att hantera resursbearbetning för de vanligaste MIME-typerna. För varje bild som du överför skapas vanligtvis flera återgivningar av samma bild i binärt format AEM. Dessa återgivningar kan ha olika storlek, med olika upplösning, med vattenstämpel eller någon annan förändrad egenskap. Mer information om hur AEM hanterar resurser finns i [Bearbeta Assets med mediehanterare och arbetsflöden](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=en) i AEM.
+AEM innehåller en uppsättning standardarbetsflöden och mediehandtag för att bearbeta resurser. I AEM finns det fördefinierade arbetsflöden för att hantera resurshantering för de vanligaste MIME-typerna. För varje bild som du överför skapas vanligtvis flera återgivningar av samma bild i binärt format i AEM. Dessa återgivningar kan ha olika storlek, med olika upplösning, med vattenstämpel eller någon annan förändrad egenskap. Mer information om hur AEM hanterar resurser finns i [Bearbeta Assets med mediehanterare och arbetsflöden](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=en) i dokumentationen för AEM.
 
 Med AEM Guides kan du konfigurera vilken bildåtergivning som ska användas när utdata genereras för dina dokument. Du kan till exempel välja mellan en av standardbildåtergivningarna eller skapa en och använda samma för att publicera dina dokument. Mappning av bildåtergivning för publicering av dina dokument lagras i filen `/libs/fmdita/config/ **renditionmap.xml**`. Ett fragment av filen `renditionmap.xml` är följande:
 
@@ -636,7 +656,7 @@ Med AEM Guides kan du konfigurera vilken bildåtergivning som ska användas när
 </renditionmap>
 ```
 
-Elementet `mimetype` anger filformatets MIME-typ. Elementet `rendition output` anger vilken typ av utdataformat och namnet på återgivningen \(till exempel `cq5dam.web.1280.1280.jpeg`\) som ska användas för att publicera den angivna utdatafilen. Du kan ange bildåtergivningarna som ska användas för alla utdataformat som stöds - AEMSITE, PDF, HTML 5, EPUB och ANPASSAD.
+Elementet `mimetype` anger filformatets MIME-typ. Elementet `rendition output` anger vilken typ av utdataformat och namnet på återgivningen \(till exempel `cq5dam.web.1280.1280.jpeg`\) som ska användas för att publicera den angivna utdatafilen. Du kan ange bildåtergivningarna som ska användas för alla utdataformat som stöds - AEMSITE, PDF, HTML5, EPUB och CUSTOM.
 
 Om den angivna återgivningen inte finns söker AEM Guides först efter webbåtergivningen av den angivna bilden. Om inte ens webbåtergivningen hittas används den ursprungliga återgivningen av bilden.
 
@@ -682,3 +702,4 @@ Använd instruktionerna i [Konfigurationsåsidosättningar](download-install-add
 >[!TIP]
 >
 > Mer information om hur du arbetar med utdatahistorik finns i avsnittet *Utdatahistorik* i guiden om bästa praxis.
+

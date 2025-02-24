@@ -1,23 +1,27 @@
 ---
-title: Vyer i Web Editor
-description: Visa dokument i författarläge, källläge och förhandsgranskningsläge. Lär dig hur du visar innehåll baserat på villkorliga filter, visar ändringsmarkeringar för spår och exporterar ett ämne som PDF i AEM Guides.
+title: Redigerarvyer för ämnen
+description: Visa ämnen i redigeringsläge, källläge och förhandsgranskningsläge. Lär dig hur du visar innehåll baserat på villkorsstyrda filter, visar ändringsmarkeringar och exporterar ett ämne som PDF i AEM Guides.
 exl-id: 74db2902-4507-4904-85d8-6b52e4af4c55
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 594e348fc1188e66cf2f4648702ed2b17f1f8f33
 workflow-type: tm+mt
-source-wordcount: '1449'
+source-wordcount: '1447'
 ht-degree: 0%
 
 ---
 
-# Vyer i Web Editor {#id204GK0D0V5Z}
+# Redigerarvyer för ämnen {#id204GK0D0V5Z}
 
-AEM Guides Web Editor stöder visning av dokument i tre olika lägen eller vyer:
+Redigerargränssnittet i Adobe Experience Manager har stöd för att visa ämnen i tre olika lägen eller vyer:
+
+* [Författare](#author)
+* [Source](#source)
+* [Förhandsgranska](#preview)
 
 ## Författare
 
-Det här är en typisk vy som du ser i vyn What You Get \(WYSISYG\) i Web Editor. Du kan redigera ämnen på samma sätt som i vanliga RTF-redigerare. I redigeringsvyn har du möjlighet att spara en revision av dokumentet, söka och ersätta innehåll, infoga element, infoga hyperlänk, infoga innehållsreferens och mycket annat.
+Det här är en typisk **Du ser vyn What You Get** \(WYSISYG\) i Redigeraren. Du kan redigera ämnen på samma sätt som i vanliga RTF-redigerare. I redigeringsvyn har du möjlighet att spara en revision av dokumentet, söka och ersätta innehåll, infoga element, infoga hyperlänk, infoga innehållsreferens och mycket annat.
 
 >[!NOTE]
 >
@@ -27,27 +31,27 @@ Det här är en typisk vy som du ser i vyn What You Get \(WYSISYG\) i Web Editor
 
 I Source-vyn visas den underliggande XML-koden som avsnittet består av. Om du känner dig trygg när du arbetar med XML direkt bör du använda vyn Source. Förutom att göra vanliga textredigeringar i den här vyn kan du även lägga till element och attribut med den smarta katalogen eller söka och ersätta text, element eller attribut.
 
-- Om du vill anropa den smarta katalogen placerar du markören i slutet av en elementtagg där du vill infoga det nya elementet och skriver &quot;&lt;&quot;. Redigeraren visar en lista med alla giltiga XML-element som du kan infoga på den platsen. Använd piltangenterna för att markera det element som du vill infoga och tryck på Retur. När du anger avslutande parentes &quot;\> läggs sluttaggen för elementet till automatiskt.
+* Om du vill anropa den smarta katalogen placerar du markören i slutet av en elementtagg där du vill infoga det nya elementet och skriver &quot;&lt;&quot;. Redigeraren visar en lista med alla giltiga XML-element som du kan infoga på den platsen. Använd piltangenterna för att markera det element som du vill infoga och tryck på Retur. När du anger avslutande parentes &quot;\> läggs sluttaggen för elementet till automatiskt.
 
   ![](images/smart-catalog-elements.png){width="400" align="left"}
 
-- Du kan också enkelt ändra ett element i vyn Source. Om du till exempel ändrar starttaggen för ett `p`-element till `note` ändras den avslutande `p`-taggen automatiskt till `/note`. Om du ersätter ett element med ett felaktigt element visas valideringsfelet omedelbart.
+* Du kan också enkelt ändra ett element i vyn Source. Om du till exempel ändrar starttaggen för ett `p`-element till `note` ändras den avslutande `p`-taggen automatiskt till `/note`. Om du ersätter ett element med ett felaktigt element visas valideringsfelet omedelbart.
 
-- Om du vill lägga till ett attribut i ett element placerar du markören inuti elementtaggen och trycker på blankstegstangenten. En lista med giltiga attribut för det elementet visas i den smarta katalogen. Använd piltangenterna för att markera det önskade elementet och tryck på Retur för att infoga elementet. Om du vill ange ett värde för attributet anger du lika med-tecknet \(=\) och redigeraren anger automatiskt inledande och avslutande citattecken &quot;&quot;, där du kan ange attributets värde.
+* Om du vill lägga till ett attribut i ett element placerar du markören inuti elementtaggen och trycker på blankstegstangenten. En lista med giltiga attribut för det elementet visas i den smarta katalogen. Använd piltangenterna för att markera det önskade elementet och tryck på Retur för att infoga elementet. Om du vill ange ett värde för attributet anger du lika med-tecknet \(=\) och redigeraren anger automatiskt inledande och avslutande citattecken &quot;&quot;, där du kan ange attributets värde.
 
   ![](images/smart-catalog-attribute.png){width="350" align="left"}
 
-- I vyn Source finns det ett alternativ för automatiskt indrag som ordnar om XML-koden i ett presenterbart och lättläst format. Om du markerar en text och växlar från författare till Source eller från Source till redigeringsvy, markeras den markerade texten även i den andra vyn.
-- En annan kraftfull funktion i Source-vyn är XML-valideringen i ditt dokument. Om du öppnar ett dokument som innehåller ogiltig XML öppnas det i Source-vyn med information om ogiltig XML. I följande skärmbild visas den exakta informationen om den felaktiga XML:en i popup-fönstret Tolkningsfel.
+* I vyn Source finns det ett alternativ för automatiskt indrag som ordnar om XML-koden i ett presenterbart och lättläst format. Om du markerar en text och växlar från författare till Source eller från Source till redigeringsvy, markeras den markerade texten även i den andra vyn.
+* En annan kraftfull funktion i Source-vyn är XML-valideringen i ditt dokument. Om du öppnar ett dokument som innehåller ogiltig XML öppnas det i Source-vyn med information om ogiltig XML. I följande skärmbild visas den exakta informationen om den felaktiga XML:en i popup-fönstret Tolkningsfel.
 
   ![](images/invalid-topic-xml.png){width="650" align="left"}
 
   På skärmbilden ovan används en markering som pekar på raden som innehåller felaktig XML.
 
-- Med funktionen Sök och ersätt kan du söka efter text, element eller attribut i Source-vyn.
-Mer information finns i funktionsbeskrivningen för **Sök och ersätt** i avsnittet [Huvudverktygsfält](web-editor-features.md#id#id2051EA0G05Z).
+* Med funktionen Sök och ersätt kan du söka efter text, element eller attribut i Source-vyn.
+Mer information finns i funktionsbeskrivningen för **Sök och ersätt** i avsnittet [Flikfält](web-editor-features.md#tab-bar).
 
-- I Source-vyn finns många kortkommandon som du kan använda för att snabbt navigera och arbeta med dokument. I följande tabell visas vilka åtgärder som stöds och deras kortkommandon:
+* I Source-vyn finns många kortkommandon som du kan använda för att snabbt navigera och arbeta med dokument. I följande tabell visas vilka åtgärder som stöds och deras kortkommandon:
 
   | För att göra detta | Använd den här genvägen |
   |----------|-----------------|
@@ -90,9 +94,9 @@ När du öppnar ett ämne i förhandsgranskningsläget visas hur ett ämne komme
 
 I förhandsgranskningsläget kan du använda följande funktioner:
 
-- [Visa innehåll baserat på villkorsstyrda filter](#id2114BI00VXA)
-- [Visa ändringsmarkeringar för spår](#id2114BJ00CE8)
-- [Exportera ett ämne som PDF](#id2114BL00B5U)
+* [Visa innehåll baserat på villkorsstyrda filter](#id2114BI00VXA)
+* [Visa ändringsmarkeringar för spår](#id2114BJ00CE8)
+* [Exportera ett ämne som PDF](#id2114BL00B5U)
 
 ### Visa innehåll baserat på villkorsstyrda filter {#id2114BI00VXA}
 
@@ -110,45 +114,39 @@ Om ett dokument innehåller spåra ändringar av markeringar \(eller visuella te
 
 Det finns tre **spårningsalternativ** som du kan välja mellan:
 
-- **Ingen markering**: I den här vyn accepteras alla infogningar och borttagningar och en enkel vy av dokumentet visas. I den här vyn visas inga ändringsmarkeringar för spår.
-- **Original**: I den här vyn avvisas alla infogningar och alla borttagningar återställs och en förhandsvisning visas. Du får helt enkelt originalformuläret för dokumentet innan du aktiverade läget för spårändringar.
-- **Visa markering**: I den här vyn får du alla markeringar för infogat och borttaget innehåll.
+* **Ingen markering**: I den här vyn accepteras alla infogningar och borttagningar och en enkel vy av dokumentet visas. I den här vyn kan du inte visa några ändringsmarkeringar för spår.
+* **Original**: I den här vyn avvisas alla infogningar och alla borttagningar återställs och en förhandsvisning visas. Du får helt enkelt originalformuläret för dokumentet innan du aktiverade läget för spårändringar.
+* **Visa markering**: I den här vyn får du alla markeringar för infogat och borttaget innehåll.
 
   I följande bild visas förhandsgranskningen av en kartfil med markeringar:
 
-  ![](images/preview-map-with-track-changes.PNG){width="800" align="left"}
+  ![](images/preview-map-with-track-changes.png){width="300" align="left"}
 
 
 ### Exportera ett ämne som PDF {#id2114BL00B5U}
 
-PDF är ett av de vanligaste utdataformaten som används i alla möjliga steg i dokumentutvecklingscykeln. Med AEM Guides kan du skapa PDF för ett enskilt ämne eller en hel kartfil. Med funktionen Exportera som PDF kan författaren, utgivaren eller en administratör enkelt generera PDF-utdata för ett enskilt ämne. Den använder DITA-OT-konfigurationer som sparats i mappnivåprofilen för att generera PDF.
+PDF är ett av de vanligaste utdataformaten som används i alla möjliga faser av dokumentutvecklingscykeln. Med Experience Manager Guides kan du skapa en PDF av ett enskilt ämne eller en hel kartfil. Med funktionen Exportera som PDF kan författaren, utgivaren eller en administratör enkelt generera PDF-utdata för ett enskilt ämne. Den använder de DITA-OT-konfigurationer som har sparats i mappnivåprofilen för att generera PDF.
 
 Den här funktionen har stöd för följande funktioner:
 
-- Generera PDF till den aktuella arbetskopian av ett ämne.
-- Acceptera DITA-OT-omformningsnamnet och kommandoradsargumenten för att generera PDF.
-- Spara genererade utdata på det lokala systemet.
-- Lös de nyckel- och innehållsreferenser som används i avsnittet innan utdata genereras.
+* Generera en PDF av den aktuella arbetskopian av ett ämne.
+* Acceptera DITA-OT-transformeringsnamnet och kommandoradsargumenten för att generera PDF.
+* Spara genererade utdata på det lokala systemet.
+* Lös de nyckel- och innehållsreferenser som används i avsnittet innan utdata genereras.
 
 Så här exporterar du ett ämne som PDF:
 
-1. Öppna ämnet i förhandsgranskningsläget.
+1. Öppna ämnet i förhandsgranskningsläget. Kontrollera att ämnet är en del av en kartfil.
 
-1. Klicka på ikonen **Exportera som PDF** \(![](images/export-as-pdf-icon.svg)\).
+1. Välj alternativet **Hämta som PDF** längst upp.
 
-   Dialogrutan Exportera som PDF visas.
-
-   ![](images/export-as-pdf-dialog.png){width="350" align="left"}
-
-1. *\(Valfritt\)* Ange DITA-OT-omformningsnamnet och eventuella kommandoradsargument som du vill använda.
-
-1. Klicka på **Hämta**.
+   ![](images/download-as-pdf-preview.png)-ikon.
 
    >[!NOTE]
    >
    > Kontrollera att du har aktiverat popup-fönstret i webbläsarkonfigurationen, annars hämtas inte PDF.
 
-   PDF genereras och öppnas på en ny flik eller så visas en dialogruta där du kan spara PDF på ditt lokala system.
+   PDF genereras och öppnas på en ny flik eller så visas en dialogruta där du kan spara PDF på din dator.
 
 
-**Överordnat ämne:**[ Arbeta med webbredigeraren](web-editor.md)
+**Överordnat ämne:**[ Introduktion till redigeraren](web-editor.md)

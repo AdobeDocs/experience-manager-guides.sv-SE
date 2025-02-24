@@ -1,26 +1,26 @@
 ---
 title: PDF | Stöd för språkvariabler
-description: Använda språkvariabler i utdata- och utdatamallar för PDF
+description: Använda språkvariabler i PDF utdata- och utdatamallar
 exl-id: 2335a7d5-251b-4266-8bba-9c9935e7bbf4
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 6e9c998aa5c36b7e0dbb9d594dbf223017164698
 workflow-type: tm+mt
-source-wordcount: '1589'
+source-wordcount: '1594'
 ht-degree: 0%
 
 ---
 
 # Stöd för språkvariabler
 
-AEM Guides innehåller en funktion för att använda språkvariabler. Du kan använda språkvariabler för att definiera lokaliserade strängar i utdata från PDF eller för att lokalisera statisk text i utdatamallarna. Du kan använda CSS-format för att lokalisera strängarna som kommer från en CSS.
+Adobe Experience Manager Guides innehåller en funktion för att använda språkvariabler. Du kan använda språkvariabler för att definiera lokaliserade strängar i PDF-utdata eller för att lokalisera statisk text i utdatamallarna. Du kan använda CSS-format för att lokalisera strängarna som kommer från en CSS.
 
-## Använd språkvariabler i PDF-utdata
+## Använda språkvariabler i PDF-utdata
 
-Du kan använda språkvariabler för att definiera en lokaliserad version av körklara etiketter som Anteckning, Varning och Varning eller statisk text i utdata från PDF. Variabelnamnet är detsamma för alla språk men kan ha olika värden för de olika språken. Du kan uppdatera värdet för dessa variabler på ett eller flera språk, och sedan hämtas det lokaliserade värdet automatiskt i utdata från PDF.
+Du kan använda språkvariabler för att definiera en lokaliserad version av körklara etiketter som Anteckning, Varning och Varning eller statisk text i PDF-utdata. Variabelnamnet är detsamma för alla språk men kan ha olika värden för de olika språken. Du kan uppdatera värdet för dessa variabler på ett eller flera språk, och sedan hämtas det lokaliserade värdet automatiskt i PDF-utdata.
 
-Du kan till exempel ha följande sätt att presentera etiketten `Note` i utdata från PDF:
+Du kan till exempel ha följande sätt att presentera etiketten `Note` i PDF-utdata:
 
 - Engelska: Note
 
@@ -36,7 +36,7 @@ Du kan till exempel ha följande sätt att presentera etiketten `Note` i utdata 
 >
 > Om värdet för en variabel inte är definierad på ett visst språk, väljs strängen från språket i användargränssnittet (programmets användargränssnitt) som en reservfunktion.
 >
-> Om du inte har definierat värdet på gränssnittets språk söker den efter engelska (`en_us`), annars väljer den värdet English(`en`) och visar samma värde i utdata från PDF.
+> Om du inte har definierat värdet på gränssnittets språk söker den efter engelska (`en_us`), annars väljer den värdet English(`en`) och visar samma värde i PDF-utdata.
 
 ## Typer av språkvariabler
 
@@ -65,14 +65,13 @@ Du kan också skapa nya språkvariabler. Du kan t.ex. skapa en användarvariabel
 
 ## Lägg till en ny språkvariabel
 
-1. Gå till fliken Utdata i Web Editor.
-1. Välj **språkvariabler** <img src="./assets/language-variables.svg" width="25"> i den vänstra panelen.
+1. Gå till den vänstra panelen i Editor och välj **Språkvariabler**. Det här alternativet är tillgängligt under avsnittet Mer.
 1. Välj **Redigera** för att öppna fönstret **Språkvariabler**. Programmet och användarvariablerna som finns i det valda språket visas i alfabetisk ordning. Värdena visas enligt det valda språket. Om du t.ex. väljer det franska språket visas&quot;Tips&quot; som&quot;Konsol&quot;.
 1. I listrutan **Språk** väljer du det språk som du vill redigera en variabel på.
 
    >[!NOTE]
    >
-   > Om du inte visar de önskade språken aktiverar du det önskade språket från **Språkvariabelinställningar**. Välj inställningar <img src="./assets/settings-icon.svg" width="25"> om du vill öppna dialogrutan **Inställningar för språkvariabler**.
+   > Om du inte visar de önskade språken aktiverar du det önskade språket i inställningarna för **Konfigurera språk**. Välj inställningar <img src="./assets/settings-icon.svg" width="25"> för att öppna dialogrutan **Konfigurera språk**.
 
 1. Ange variabelnamnet i kolumnen **Namn** och dess värde i kolumnen **Värde**.
 
@@ -138,7 +137,7 @@ Du kan också välja att **ta bort** eller **duplicera** användarvariablerna. O
 
 ### Redigera eller återställa programvariablerna
 
-Du kan också redigera värdena för en programvariabel. Senare kan du återställa en programvariabel till det ursprungliga värdet. **Återställ variabel** <img src="./assets/application-variable-revert.svg" width="25"> visas för en programvariabel med ett ändrat värde.
+Du kan också redigera värdena för en programvariabel. Senare kan du återställa en programvariabel till det ursprungliga värdet. **Återställ** <img src="./assets/application-variable-revert.svg" width="25"> visas för en programvariabel med ett ändrat värde.
 
 ## Använda språkvariabler i utdatamallarna
 
@@ -149,7 +148,7 @@ Du bör lägga till språkvariabler i dina lokaliserade dokument. Du kan infoga 
 <img alt="sidlayout för en PDF" src="./assets/language-variable-page-layout.png" width="550">
 
 
-*Författaren och varumärkesnamnet som är lokaliserat i utdata från PDF som genererats för det franska språket.*
+*Författaren och varumärkesnamnet som är lokaliserat i PDF-utdata som genererats för det franska språket.*
 
 Så här infogar du en språkvariabel som din `copyright-label` i sidhuvudsområdet:
 
@@ -188,7 +187,7 @@ Förutom det värde du tilldelar en språkvariabel kan du även använda HTML-ta
 
 På samma sätt kan du lägga till språkvariabler och formatera andra fält som listas i funktionen Infoga fält i sidlayouterna. Mer information om hur du lägger till fält finns i [Lägg till fält och metadata](../native-pdf/design-page-layout.md#add-fields-metadata).
 
-- Du kan också lägga till lokaliserade bilder i värdena. Du kan till exempel lägga till en bildikon på kapitelnummerspråket och få lokaliserade bilder av ikonen i utdata från PDF.
+- Du kan också lägga till lokaliserade bilder i värdena. Du kan till exempel lägga till en bildikon på kapitelnummerspråket och få lokaliserade bilder av ikonen i PDF-utdata.
 
   För engelska kan variabelvärdet för en bild vara som `<img src="banner-en.jpg">`, och för samma variabel på tyska kan det vara `<img src="banner-de.jpg">`. Så bilderna tas upp beroende på språk.
 
@@ -216,7 +215,7 @@ h1:before {
 }
 ```
 
-På följande skärmbilder visas strängarna på tyska och japanska PDF.
+På följande skärmbilder visas strängarna som är lokaliserade i utdata från tyska och japanska PDF.
 
 <img alt=" japansk utskrift med språkvariabel" src="./assets/localize-chapter-german.png" width="550">
 
@@ -228,7 +227,7 @@ På följande skärmbilder visas strängarna på tyska och japanska PDF.
 
 ### Formatera prefixen
 
-Med CSS-format kan du även formatera prefixen. Du kan t.ex. formatera etiketten `Note` så att den visas i röd färg i utdata från PDF på olika språk.
+Med CSS-format kan du även formatera prefixen. Du kan till exempel formatera etiketten `Note` så att den visas i röd färg i PDF-utdata för olika språk.
 
 ```
 .note .prefix-content 

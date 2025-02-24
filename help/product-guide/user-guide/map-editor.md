@@ -1,39 +1,41 @@
 ---
 title: Arbeta med kartredigeraren
-description: Arbeta med kartredigeraren i AEM Guides. Lär dig hur du skapar och redigerar en kartfil i AEM.
+description: Arbeta med kartredigeraren i AEM Guides. Lär dig hur du skapar och redigerar en kartfil i AEM kartredigerare.
 exl-id: 1c780ae2-6917-474f-8222-cb93807426e2
 feature: Authoring, Map Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 594e348fc1188e66cf2f4648702ed2b17f1f8f33
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '211'
 ht-degree: 0%
 
 ---
 
-# Arbeta med kartredigeraren {#id181OF0M30Y4}
+# Introduktion till kartredigeraren {#id181OF0M30Y4}
 
-Med AEM Guides kartredigerare kan du skapa och redigera kartfiler. Med Kartredigeraren kan du redigera två typer av filer - DITA-karta och bokkarta. Du kan skapa de här filerna med arbetsflödet **Skapa** \> **DITA Map** . Du kan också skapa egna mallar för kartor och skapa kartor baserat på din egen mall. Mallarna måste läggas till i mappprofilen för att kunna visas i mallvalet Utskrift och webbredigeraren.
+Med Adobe Experience Manager Guides kartredigerare kan du skapa och redigera kartfiler. Med Kartredigeraren kan du redigera två typer av filer - DITA-karta och bokkarta. Du kan skapa de här filerna med arbetsflödet **Skapa** \> **DITA Map** . Du kan också skapa egna mallar för kartor och skapa kartor baserat på din egen mall. Mallarna måste läggas till i mappprofilen för att kunna visas i mallvalet Utskrift och Redigeraren.
 
 Observera att konfiguration av global profil och mappprofil endast är tillgänglig för administratörer på mappnivå. Mer information om hur du konfigurerar globala profiler och profiler på mappnivå finns i *Konfigurera redigeringsmallar* i Installera och konfigurera Adobe Experience Manager Guides för installationen.
 
-Kartredigeraren finns i två lägen - den grundläggande kartredigeraren och den avancerade karteditorn. Den grundläggande kartredigeraren är bara tillgänglig via konfiguration. Om administratören har aktiverat det kan du bara använda den grundläggande kartredigeraren. Som standard öppnas alla nya kartor för redigering i Avancerad kartredigerare. Den avancerade kartredigeraren finns i själva webbredigeraren, som används för att redigera ämnesfiler i DITA.
+<!------------------------------------
 
-I det här avsnittet beskrivs hur du skapar en DITA-karta och sedan använder du den avancerade kartredigeraren och den grundläggande kartredigeraren för att redigera kartfiler.
+The Map Editor comes in two modes — the Basic Map Editor and the Advanced Map Editor. The Basic Map Editor is available only through configuration. If your administrator has enabled it, then only the Basic Map Editor will be available for use. By default, all new maps are opened for editing in the Advanced Map Editor. The Advanced Map Editor is available within the Editor itself, which is used for editing DITA topic files.
+
+-------->
+
+I det här avsnittet beskrivs hur du skapar en DITA-karta och sedan använder Kartredigeraren för att redigera kartfiler.
 
 >[!TIP]
 >
-> I avsnittet *Kartredigeraren* i guiden om bästa praxis finns information om hur du arbetar med kartredigeraren.
+> Visa avsnittet *Kartredigeraren* i guiden Bästa praxis för bästa praxis för arbete med kartredigeraren.
 
 - **[Skapa en karta](map-editor-create-map.md)**
 
 - **[Skapa kartor baserat på anpassade mallar](create-maps-customized-templates.md)**
 
-- **[Arbeta med den avancerade kartredigeraren](map-editor-advanced-map-editor.md)**
+- **[Karteditorfunktioner](map-editor-advanced-map-editor.md)**
 
-- **[Arbeta med den grundläggande kartredigeraren](map-editor-basic-map-editor.md)**
-
-- **[Andra funktioner i kartredigerarna](map-editor-other-features.md)**
+- **[Ytterligare funktioner i kartredigeraren](map-editor-other-features.md)**
 
 
 **Överordnat ämne:**[ Skapa innehåll med AEM Guides](authoring-content-xml-doc.md)

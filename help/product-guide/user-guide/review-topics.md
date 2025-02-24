@@ -4,35 +4,35 @@ description: Lär dig hur du granskar ämnen och använder funktionerna som gran
 exl-id: fc87fc37-f1cd-4a19-96c2-3a08a8222002
 feature: Reviewing
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
 workflow-type: tm+mt
-source-wordcount: '2351'
+source-wordcount: '2423'
 ht-degree: 0%
 
 ---
 
 # Granska ämnen {#id2056B0W0FBI}
 
-Om du är granskare får du ett e-postmeddelande med en länk till granskningsavsnitten. När du klickar på länken kommer du till granskningssidan där du kan lägga till din feedback om de delade ämnena.
+Om du är granskare får du ett e-postmeddelande med en länk till granskningsavsnitten. Med hjälp av den här länken kan du komma åt granskningssidan där du kan lägga till din feedback om de delade ämnena.
 
 Utför följande steg för att granska ett ämne:
 
-1. Klicka på den direkta länken i e-postmeddelandet med granskningsbegäran.
+1. Markera den direkta länken som anges i e-postmeddelandet om granskningsförfrågan.
 
    Ämneslänken eller mappningslänken öppnas i en webbläsare.
 
    >[!NOTE]
    >
-   > Du kan även komma åt ämnesgranskningslänken från meddelandeområdet i Inkorgen i AEM användargränssnitt.
+   > Du kan även komma åt ämnesgranskningslänken från meddelandeområdet i Inkorgen i Adobe Experience Manager användargränssnitt.
 
-1. Beroende på hur ämnesgranskningen initieras kan du se någon av följande två skärmar:
+1. Beroende på hur ämnesgranskningen initieras kan du visa någon av följande två skärmar:
 
    >[!NOTE]
    >
    > Gränssnittet kan vara annorlunda om du har skapat granskningen i:
    >
-   > - AEM Guides as a Cloud Service november 2022 eller tidigare
-   > - AEM Guides version 4.1 eller tidigare
+   > - Adobe Experience Manager Guides as a Cloud Service november 2022 eller tidigare
+   > - Adobe Experience Manager Guides version 4.1 eller tidigare
 
 
 
@@ -43,20 +43,20 @@ Utför följande steg för att granska ett ämne:
    Följande alternativ är tillgängliga på den här skärmen:
 
    - **A**: Namnet på granskningsaktiviteten.
-   - **B**: Klicka på ämnesvyikonen för att visa eller dölja ämnespanelen.
+   - **B**: Välj ikonen Ämnesvy för att visa eller dölja ämnespanelen.
 
    - **C**: Du kan söka efter det önskade ämnet genom att ange en del av texten i titeln eller filsökvägen i sökfältet.
 
      Välj ![](images/view-options.svg) nära sökfältet om du vill visa alla ämnen eller ämnen med kommentarer. Som standard kan du visa alla ämnen som ingår i granskningsaktiviteten.
 
 
-   - **D**: Siffrorna som markeras med ***F*** kan filtreras genom att välja önskat filteralternativ härifrån. Du kan filtrera kommentarer efter typ, status, granskare eller version. Om du till exempel vill se hur många genomstrukna kommentarer som har gjorts i vart och ett av de undergranskade avsnitten klickar du på filterikonen och väljer sedan **Granskningstyp** \> **Borttagning** .
+   - **D**: Siffrorna som markeras med ***F*** kan filtreras genom att välja önskat filteralternativ härifrån. Du kan filtrera kommentarer efter typ, status, granskare eller version. Om du till exempel vill visa hur många genomstrukna kommentarer som har gjorts i vart och ett av de undergranskade avsnitten, markerar du filterikonen och väljer sedan **Granskningstyp** \> **Borttagning** .
 
      >[!NOTE]
      >
-     > När du använder filtren visas bara de kommentarer som matchar de valda filtren i kommentarspanelen. Antalet filtrerade kommentarer visas till vänster i ämnespanelen.
+     > När du använder filtren visas bara de kommentarer som matchar de valda filtren på kommentarspanelen. Antalet filtrerade kommentarer visas till vänster i ämnespanelen.
 
-   - **E**: Ett ämne som tilldelats den aktuella granskaren för granskning visas i svart och kan klickas. När granskaren klickar på en ämneslänk visas det avsnittet högst upp på skärmen.
+   - **E**: Ett ämne som tilldelats den aktuella granskaren för granskning visas i svart och kan markeras. När granskaren väljer en ämneslänk visas det avsnittet högst upp på skärmen.
    - **F**: Ett ämne som inte är tillgängligt för granskning är nedtonat. Avsnittet visas i skrivskyddat läge och du kan inte lägga till granskningskommentarer om det.
 
    - **G**: Antal kommentarer som tagits emot i ett ämne. Numret ändras beroende på vilket filter du använder.
@@ -65,7 +65,7 @@ Utför följande steg för att granska ett ämne:
 
    ![](images/review-read-only.png){width="800" align="left"}
 
-   På skärmbilden ovan delas ämnet Allmän beskrivning för granskning av den aktuella granskaren, som visas normalt. Nästa avsnitt, Historik över flyginnehåll, delas dock inte för granskning och visas i skrivskyddat läge. Det ämne som för närvarande är i fokus markeras också i innehållsförteckningen.
+   På skärmbilden ovan delas ämnet Allmän beskrivning för granskning med den aktuella granskaren, som visas normalt. Nästa avsnitt, Historik över flyginnehåll, delas dock inte för granskning och visas i skrivskyddat läge. Det ämne som för närvarande är i fokus markeras också i innehållsförteckningen.
 
    Följande skärm visas när ett eller flera ämnen markeras och delas för granskning:
 
@@ -75,19 +75,20 @@ Utför följande steg för att granska ett ämne:
    >
    > Om det finns flera ämnen visas de som ett sammansatt dokument i dokumentvyn. Skärmbilden ovan visar två olika ämnen som visas ett efter ett i en enda vy.
 
-1. Öppna panelen Kommentarer genom att klicka på ikonen **Kommentarer** längst upp till höger i verktygsfältet.
+1. Öppna panelen Kommentarer genom att markera ikonen **Kommentarer** längst upp till höger i verktygsfältet.
 
    Skriv granskningskommentarerna genom att välja en lämplig kommentarstyp i verktygsfältet och tryck på Retur för att skicka kommentaren.
+Kommentarsrutan har stöd för flerradiga poster och gör att användarna kan expandera den efter behov för att ge detaljerad feedback. Du kan använda **Skift** + **Retur** för att gå till nästa rad medan du skriver kommentaren.
 
    >[!NOTE]
    >
    > Kommentarspanelen visar endast kommentarerna som har getts i det aktuella avsnittet. När du flyttar fokus till ett annat ämne visas kommentarerna som ges i det andra avsnittet.
 
-1. Klicka på knappen **Stäng** när du är klar med granskningen av ämnet. När du klickar på knappen **Stäng** omdirigeras du till sidan som du kom åt granskningsavsnittet från.
+1. Välj knappen **Stäng** när du är klar med granskningen av ämnet. När du väljer knappen **Stäng** omdirigeras du till sidan som du kom åt granskningsavsnittet från.
 
-## Ytterligare funktioner som finns på granskningsskärmen
+## Ytterligare funktioner som är tillgängliga på granskningsskärmen
 
-**Dokumentvy och ämnesvy** - Om flera ämnen delas för granskning visas som standard en sammansatt dokumentvy med ämnen för granskarna. Vid en DITA-kartgranskning visas alla ämnen på kartan i form av ett enda dokument, som liknar en bokvy. Om du vill kan du även klicka på ett visst ämne, så visas bara det ämnet på granskningsskärmen.
+**Dokumentvy och ämnesvy** - Om flera ämnen delas för granskning visas som standard en sammansatt dokumentvy med ämnen för granskarna. Vid en DITA-kartgranskning visas alla ämnen på kartan i form av ett enda dokument, som liknar en bokvy. Om du vill kan du även välja ett visst ämne och bara det ämnet visas sedan på granskningsskärmen.
 
 När du visar ett enskilt ämne får du ytterligare ett alternativ för att växla tillbaka till dokumentvyn. På skärmbilden nedan öppnas ett visst ämne från en kartfil för granskning. Det markerade alternativet - **Visa dokumentvy** - gör att användaren kan växla tillbaka till dokumentvyn för mappningsfilen.
 
@@ -97,19 +98,19 @@ När du visar ett enskilt ämne får du ytterligare ett alternativ för att väx
 
 ![](images/comments-toolbar.png){width="350" align="left"}
 
-- **Markera** \(![](images/review-highlight-icon.svg)\): Om du vill lägga till en markeringskommentar markerar du texten och klickar på markeringsikonen. Du kan också klicka på markeringsikonen och markera önskad text:
+- **Markera** \(![](images/review-highlight-icon.svg)\): Om du vill lägga till en markeringskommentar markerar du texten och väljer markeringsikonen. Du kan också först välja ikonen Markera och sedan markera önskad text.
 
   ![](images/highlight-comment.png){width="650" align="left"}
 
   Ett popup-fönster visas på panelen Kommentarer där du kan lägga till din kommentar för det markerade innehållet.
 
-- **Genomstruken** \(![](images/review-text-strike-through-icon.svg)\): Om du vill föreslå borttagning av innehåll kan du göra det genom att markera innehållet och klicka på genomstrykningsikonen. Du kan också markera önskad text och klicka på Delete-tangenten:
+- **Genomstruken** \(![](images/review-text-strike-through-icon.svg)\): Om du vill föreslå borttagning av innehåll kan du göra det genom att markera innehållet och sedan välja genomstrykningsikonen. Du kan också först markera den önskade texten och sedan välja Delete.
 
   Ett popup-fönster visas på panelen Kommentarer där du kan lägga till din kommentar för det borttagna innehållet.
 
-- **Infoga text** \(![](images/review-insert-text-icon.svg)\): Om du vill infoga text klickar du på ikonen Infoga text och placerar markören där du vill infoga texten och skriver i informationen. Du kan också placera markören där du vill infoga text och börja skriva. Den tillagda informationen visas i grönt färgat teckensnitt:
+- **Infoga text** \(![](images/review-insert-text-icon.svg)\): Om du vill infoga text markerar du ikonen Infoga text och placerar markören där du vill infoga texten och skriver i informationen. Du kan också placera markören där du vill infoga text och börja skriva. Den tillagda informationen visas med ett grönt färgteckensnitt.
 
-- **Lägg till kommentar**\(![](images/review-comment-icon.svg)\): Om du vill lägga till en anteckningstyp för kommentar klickar du på ikonen Lägg till kommentar och anger kommentaren i popup-fönstret.
+- **Lägg till kommentar**\(![](images/review-comment-icon.svg)\): Om du vill lägga till en anteckningstyp för kommentar, markerar du ikonen Lägg till kommentar och anger kommentaren i popup-fönstret.
 
 
 **Sammanhangsberoende verktygsfält**
@@ -120,7 +121,7 @@ Du kan också markera och genomstryka text snabbt med det sammanhangsberoende ve
 
    ![](images/review-quick-launch-toolbar.png){width="550" align="left"}
 
-1. Klicka på ikonen **Markera** eller **Genomstruken** .
+1. Välj ikonen **Markera** eller **Genomstruken** .
 1. Du kan lägga till kommentarer i kommentarpanelen för markerings- eller genomstrykningsåtgärden.
 
 **Granska med panelen Kommentarer** - På panelen Kommentarer visas en lista med kommentarer som har angetts i det aktuella avsnittet. I den här panelen visas även kommentarer från andra granskare, om ämnet skickas till flera granskare. Varje kommentar på kommentarspanelen är länkad till motsvarande text i det aktuella ämnet. Den hjälper dig att identifiera kommenterad text. Varje kommentar visar namnet på granskaren som har lagt till kommentaren tillsammans med tidsstämpeln.
@@ -129,10 +130,10 @@ Kommentarerna visas i den ordning som de kommenteras i dokumentet. Det finns t.e
 
 De åtgärder du kan utföra med panelen Kommentarer beskrivs nedan:
 
-- Om du klickar på en kommentar markeras den motsvarande kommentarens plats i dokumentet och visas.
+- Om du markerar en kommentar markeras den och den motsvarande kommentarens plats i dokumentet visas.
 - Du kan lägga till svar på kommentarer.
-- Du kan redigera din egen kommentar genom att klicka på den kommenterade texten på panelen Kommentarer och sedan välja **Redigera** på Alternativ-menyn.
-- Du kan ta bort dina egna kommentarer genom att klicka på kommentaren på panelen Kommentarer och sedan välja alternativet **Ta bort** på Alternativ-menyn.
+- Du kan redigera din egen kommentar genom att markera den kommenterade texten på panelen Kommentarer och sedan välja **Redigera** på Alternativ-menyn.
+- Du kan ta bort dina egna kommentarer genom att markera kommentaren på panelen Kommentarer och sedan välja alternativet **Ta bort** på Alternativ-menyn.
 
   ![](images/review-comment-options-menu.png){width="300" align="left"}
 
@@ -140,7 +141,7 @@ De åtgärder du kan utföra med panelen Kommentarer beskrivs nedan:
   >
   > Menyn Alternativ visas bara när du håller muspekaren över dina egna kommentarer. Den visas inte för kommentarer av andra granskare.
 
-- Alla deltagande användare kan svara på kommentarer som lämnats av andra användare. Klicka på **Svara** och tryck på Retur för att skicka ett svar.
+- Alla deltagande användare kan svara på kommentarer som lämnats av andra användare. Välj **Svara** och tryck på Retur för att skicka ett svar. Svarsrutan är flerradig och kan utökas, vilket gör att användarna kan ge detaljerade svar på kommentarer. Du kan använda **Skift** + **Retur** för att gå till nästa rad medan du skriver svaret.
 
 **Förhandsgranskningsläge**
 
@@ -164,7 +165,7 @@ På skärmbilden ovan innehåller dokumentet popup-fönstret för markeringskomm
 
 Utför följande steg för att lägga till en bifogad fil i kommentaren:
 
-1. Klicka på ikonen *Lägg till bifogad fil* ![](images/file-attach-review.svg) för kommentaren som du vill lägga till en bifogad fil med.
+1. Markera ikonen *Lägg till bifogad fil* ![](images/file-attach-review.svg) för kommentaren som du vill lägga till en bifogad fil med.
 
    Dialogrutan Öppna fil visas.
 
@@ -172,16 +173,16 @@ Utför följande steg för att lägga till en bifogad fil i kommentaren:
 
    De markerade filerna visas tillsammans med kommentaren på kommentarpanelen.
 
-   På panelen Kommentarer ser du filnamnet och dess storlek. Du kan också ta bort en fil genom att klicka på borttagningsikonen ![](images/Delete_icon.svg) som är associerad med filnamnet.
+   På panelen Kommentarer kan du visa filnamnet och dess storlek. Du kan också ta bort en fil genom att markera borttagningsikonen ![](images/Delete_icon.svg) som är associerad med filnamnet.
 
-1. Klicka på **Skicka**.
+1. Välj **Skicka**.
 
    Bifogade filer överförs och läggs till i kommentaren.
 
 
 **Ytterligare information om att arbeta med bifogade filer:**
 
-- Som standard visas bara två filer som är bifogade med en kommentar. Om det finns fler filer visar knappen **Visa bifogad fil** till höger antalet bifogade filer \(som är fler än två\) som är associerade med kommentaren. Du kan klicka på numret om du vill visa alla bifogade filer. Om du t.ex. har fyra bilagor med en kommentar, visas +2 på knappen.
+- Som standard visas bara två filer som är bifogade med en kommentar. Om det finns fler filer visar knappen **Visa bifogad fil** till höger antalet bifogade filer \(som är fler än två\) som är associerade med kommentaren. Du kan välja numret för att visa alla bifogade filer. Om du t.ex. har fyra bilagor med en kommentar, visas +2 på knappen.
 
 ![](images/review-view-attachment.png){width="550" align="left"}
 
@@ -193,18 +194,18 @@ De andra granskarna eller författarna får endast alternativet för att hämta 
 
 ![](images/other-reviewer-download.png){width="550" align="left"}
 
-- Du kan hämta alla bifogade filer som är associerade med en kommentar från dialogrutan **Visa bifogade filer**. Markera de bifogade filerna och klicka på ikonen **Hämta** på kommentarsnivå.
+- Du kan hämta alla bifogade filer som är associerade med en kommentar från dialogrutan **Visa bifogade filer**. Markera de bifogade filerna och välj ikonen **Hämta** på kommentarsnivå.
 
-- Du kan också ta bort de bifogade filer som är kopplade till en kommentar från dialogrutan **Visa bifogade filer**. Markera de bifogade filerna och klicka på ikonen **Ta bort** .
+- Du kan också ta bort de bifogade filer som är kopplade till en kommentar från dialogrutan **Visa bifogade filer**. Markera de bifogade filerna och välj ikonen **Ta bort** .
 
 ![](images/attach-files-comments-panel.png){width="550" align="left"}
 
 
-**Villkorspanelen** -   Om ditt ämne har villkorsstyrt innehåll visas ikonen **Villkor** \(![](images/conditions-icon.svg)\) till höger. Om du klickar på ikonen **Villkor** öppnas panelen Villkor där du kan markera innehållet enligt de tillgängliga villkoren i avsnittet.
+**Villkorspanelen** -   Om ditt ämne har villkorsstyrt innehåll visas ikonen **Villkor** \(![](images/conditions-icon.svg)\) till höger. Om du väljer ikonen **Villkor** öppnas panelen Villkor där du kan markera innehållet enligt de tillgängliga villkoren i avsnittet.
 
 :   Som standard är alternativet **Markera alla villkor** aktiverat, alla villkor är markerade, hela innehållet visas och det villkorade innehållet visas som markerat både i gransknings- och förhandsgranskningsläge.
 
-:   Du kan inaktivera alternativet **Markera alla villkor** och visa allt innehåll i ämnet som normal text utan högdagrar.
+:   Du kan inaktivera alternativet **Markera alla villkor** och visa allt innehåll i ämnet som normal text utan markeringar.
 
 ![](images/review-conditions-panel.png){width="350" align="left"}
 
@@ -224,7 +225,7 @@ I förhandsgranskningsläget visas det icke-villkorade innehållet och det villk
 
 - Om ett ämne ingår i flera granskningsåtgärder visas inte kommentarerna som gjorts i en uppgift i den andra uppgiften.
 
-- Om du klickar på ikonen för inaktuell kommentar \(![](images/outdated-comment-icon.svg)\) visas skillnaderna mellan den senaste och den kommenterade versionen av dokumentet. Versionsnumren \(för de versioner som jämförs\) visas högst upp i dokumenten.
+- Om du väljer ikonen för inaktuell kommentar \(![](images/outdated-comment-icon.svg)\) visas skillnaderna mellan den senaste och den kommenterade versionen av dokumentet. Versionsnumren \(för de versioner som jämförs\) visas högst upp i dokumenten.
 
   ![](images/comments-page-review-mode.png){width="800" align="left"}
 
@@ -232,11 +233,11 @@ I förhandsgranskningsläget visas det icke-villkorade innehållet och det villk
   >
   > När du håller pekaren över ikonen för inaktuell kommentar visas versionsnumret för det ämne som kommentaren lades till i. Om en kommentar till exempel har angetts i version 1.0 visas samma sak.
 
-- När du klickar på en inaktuell kommentar öppnas kommentarens version på den vänstra panelen. Den föregående versionen visas på den vänstra panelen och den aktuella versionen visas på den högra panelen. Alla kommentarer i den inaktuella versionen importeras till vänster. Du kan jämföra den tidigare versionen med den aktuella versionen.
+- Om du väljer en inaktuell kommentar öppnas den versionen av kommentaren i den vänstra panelen. Den föregående versionen visas på den vänstra panelen och den aktuella versionen visas på den högra panelen. Alla kommentarer i den inaktuella versionen importeras till vänster. Du kan jämföra den tidigare versionen med den aktuella versionen.
 
-**Filtrera kommentarer** -   Du kan filtrera kommentarer i ett dokument om du vill visa specifika kommentarer. Om du vill filtrera kommentarer klickar du på ikonen **Filter** \(![](images/filter-search-icon.svg)\) som visas på menyn till höger om textrutan Sök kommentarer på panelen Kommentarer.
+**Filtrera kommentarer** -   Du kan filtrera kommentarer i ett dokument om du vill visa specifika kommentarer. Om du vill filtrera kommentarer väljer du ikonen **Filter** \(![](images/filter-search-icon.svg)\) som visas på menyn till höger om textrutan Sök kommentarer på panelen Kommentarer.
 
-Välj ett eller flera av följande filtreringsalternativ i dialogrutan **Filtertyp** och klicka på **Använd**.
+Välj ett eller flera av följande filtreringsalternativ i dialogrutan **Filtertyp** och välj **Använd**.
 
 - **Granskningstyp** - Filtrera baserat på kommentartyp - Markering, Borttagning, Infogning eller Kommentar.
 - **Granskningsstatus** - Filtrera baserat på status för kommentaren som Godkänd, Avvisad eller Ingen.
@@ -247,6 +248,6 @@ Välj ett eller flera av följande filtreringsalternativ i dialogrutan **Filtert
   När du använder filtren filtreras kommentarerna på den högra panelen efter markeringen, och antalet kommentarer i den vänstra panelen uppdateras därefter.
 
 
-Om du vill ta bort filtret och visa alla kommentarer avmarkerar du alla filter i dialogrutan **Filtertyp** och klickar på **Använd**.
+Om du vill ta bort filtret och visa alla kommentarer avmarkerar du alla filter i dialogrutan **Filtertyp** och väljer **Använd**.
 
-**Överordnat ämne:**[ Granska ämnen eller kartor](review.md)
+**Överordnat ämne:**[ Introduktion till granskning](review.md)

@@ -4,9 +4,9 @@ description: Lär dig hur du visar översättningsstatus och översatta språkko
 exl-id: 6ed30bc6-3030-40fd-987a-928fd5b06ee6
 feature: Translation
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '183'
 ht-degree: 0%
 
 ---
@@ -17,12 +17,15 @@ Du kan visa översättningsstatus och översatta språkkopior för varje ämne p
 
 Utför följande steg för att visa översättningsstatusen för en DITA-karta:
 
-1. Navigera till DITA-mappningsfilen för källspråkskopian.
-1. Klicka på fliken **Översättning**.
-1. I panelen **Filter** till vänster markerar du **Översätt språk** som du vill kontrollera statusen för och klickar sedan på **Klar**.
+1. Navigera till önskad DITA-kartfil via **kartkonsolen** i redigeraren.
+1. Välj fliken **Översättning**.
+1. I panelen **Översättning** till vänster checkar du in språket i listan **Tillgängliga språk** som du vill kontrollera statusen för och väljer **Använd**.
+1. Alla ämnen med det valda målspråket visas tillsammans med   översättningsstatus.
 
    >[!NOTE]
    >
-   > Du kan filtrera innehållet ytterligare baserat på översättningsstatus \(som kopia saknas, pågår eller synkroniseras\), Source-typ \(som Alla, DITA, DITA-karta eller Resurs\), ändringsdatum. Du kan också ange nyckelord för att söka efter specifika ämnen.
+   > Du kan filtrera innehållet ytterligare baserat på översättningsstatus \(som kopia saknas, pågående eller synkroniserad), Source-typ \(som Alla, DITA, DITA-karta eller Resurs\) och ändringsdatum. Dessutom kan du ange nyckelord för att söka efter specifika ämnen. Du kan använda **Uppdatera** för att uppdatera statusen om några ändringar har gjorts.
 
-**Överordnat ämne:**[&#x200B;Översätta innehåll](translation.md)
+   ![](images/translation-status-new.png){width="800" align="left"}
+
+**Överordnat ämne:**[&#x200B;Översikt över innehållsöversättning](translation.md)

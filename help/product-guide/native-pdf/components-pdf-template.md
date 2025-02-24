@@ -1,26 +1,26 @@
 ---
-title: PDF Publish-funktion | Komponenter i en PDF-mall
+title: PDF publiceringsfunktion | Komponenter i en PDF-mall
 description: Lär dig de olika komponenterna i en PDF-mall och hur du anpassar och konfigurerar dem.
 exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 47a6819654877e9a4e3e542fa6e5e360b3f3938f
 workflow-type: tm+mt
-source-wordcount: '4975'
+source-wordcount: '4716'
 ht-degree: 0%
 
 ---
 
 # Komponenter i en PDF-mall {#components-pdf-template}
 
-En PDF-mall har fyra komponenter: Sidlayouter, Formatmallar, Resurser och Inställningar. Du kan skapa en mall genom att anpassa de här enskilda komponenterna och koppla mallen till en förinställning för utdata när du genererar utdata för PDF. I följande avsnitt beskrivs dessa komponenter och deras anpassningsprocess i detalj.
+En PDF-mall har fyra komponenter: Sidlayouter, Formatmallar, Resurser och Inställningar. Du kan skapa en mall genom att anpassa de här enskilda komponenterna och koppla mallen till en förinställning för utdata när du genererar en utdatafil från PDF. I följande avsnitt beskrivs dessa komponenter och deras anpassningsprocess i detalj.
 
 
 ## Skapa och anpassa sidlayouter {#create-customize-page-layout}
 
-Med inställningarna i komponenten Sidlayout kan du utforma strukturen för en sida genom att definiera sidhuvudet, sidfoten och innehållsområdet på en sida. Med layoutredigeraren i WYSIWYG kan du skapa en sidlayout för olika avsnitt i en PDF, t.ex. framsidan och baksidan av omslaget, kapitlet, Tabell med
-Innehåll (innehållsförteckning), index, tom sida, sidor för Front Matter, sidor för Back Matter, Lista över illustrationer (LOF), Lista över tabeller (LOT), ordlista eller skapa en layout för en anpassad sida. I mallinställningarna för PDF kan du tilldela en sidlayout med olika avsnitt i PDF, som sedan används för att generera utdata från PDF.
+Med inställningarna i komponenten Sidlayout kan du utforma strukturen för en sida genom att definiera sidhuvudet, sidfoten och innehållsområdet på en sida. Med WYSIWYG sidlayoutredigerare kan du skapa en sidlayout för olika avsnitt i en PDF, t.ex. framsidan och baksidan av försättsbladet, kapitel, tabell över
+Innehåll (innehållsförteckning), index, tom sida, sidor för Front Matter, sidor för Back Matter, Lista över illustrationer (LOF), Lista över tabeller (LOT), ordlista eller skapa en layout för en anpassad sida. I mallinställningarna för PDF kan du tilldela en sidlayout med olika avsnitt i en PDF som sedan används för att generera PDF-utdata.
 
 ### Skapa en ny sidlayout {#create-page-layout}
 
@@ -85,16 +85,15 @@ En kopia av den valda sidlayouten skapas och läggs till under Sidlayouter.
 
    Mer information om hur du definierar enskilda layoutelement som sidhuvud, sidfot, sidnummer, rubrik med mera finns i [Designa en sidlayout](design-page-layout.md).
 
-## Anpassa PDF med formatmallar {#stylesheet-customization}
+## Anpassa PDF med hjälp av formatmallar {#stylesheet-customization}
 
-Med inställningarna i formatmallskomponenten kan du formatera sidlayoutskomponenterna och DITA-innehållet med WYSIWYG-redigeraren eller arbeta direkt med CSS-filen. Du kan skapa egna format eller anpassa standardformategenskaperna. WYSIWYG-redigeraren ger dig tillgång till de flesta egenskaper som du behöver för att formatera din sidlayout eller DITA-innehåll. För avancerade anpassningar kan du arbeta direkt i vyn Source.
+Med inställningarna i Stylesheets-komponenten kan du formatera sidlayoutkomponenter och DITA-innehåll med WYSIWYG-redigeraren eller arbeta direkt med CSS-filen. Du kan skapa egna format eller anpassa standardformategenskaperna. Med WYSIWYG Editor får du tillgång till de flesta egenskaper som du behöver för att formatera din sidlayout eller DITA-innehåll. För avancerade anpassningar kan du arbeta direkt i vyn Source.
 
 ### Skapa en ny formatmall {#create-stylesheet}
 
 CSS-filer tillhandahålls för innehåll och layout, men du kan skapa en ny formatmall som använder flera anpassningar för en viss formattyp som sedan kan användas för en målkomponent. Som standard paketeras CSS-exempelfiler i produkten. Dessa CSS-filer är avsedda att hjälpa dig att ordna formatinformation för innehåll och layout. Du kan välja att sammanfoga dessa format i en eller flera CSS-filer.
 
 Som standard inkluderas filen `layout.css` i den nya sidlayouten när du skapar en ny sidlayout. Om du vill att sidlayouten ska innehålla format från en annan CSS-fil kan du helt enkelt dra och släppa önskad CSS-fil i den nya sidlayoutens innehållredigeringsområde. Om du vill verifiera om CSS-filen har bäddats in i sidlayouten växlar du till Source-vyn så att du hittar en länk till CSS-filen i `<head>`-elementet.
-
 
 Så här skapar du en formatmall:
 1. Gör något av följande på panelen **Mallar**:
@@ -196,8 +195,12 @@ Den valda filen importeras och visas under mappen Resurser.
 
 ## Avancerade PDF-inställningar {#advanced-pdf-settings}
 
-Använd avsnittet Inställningar för att konfigurera de avancerade inställningarna för sidlayout, med början PDF från udda eller jämna PDF, format för korsreferenserna och aktivering av utskriftsmärken i det slutliga PDF som genereras
+Använd avsnittet Inställningar för att konfigurera de avancerade inställningarna för PDF sidlayout, från udda till jämna sidor, format för korsreferenserna och aktivering av utskriftsmärken i den slutliga PDF som genereras
 med hjälp av mallen.
+
+>
+>
+> Från och med Experience Manager Guides 5.0/2025.02.0 har avsnittet **Skriv ut** i de avancerade PDF-inställningarna flyttats till panelen **Utdatainställningar** . Visa [Publicera PDF-utdata](../web-editor/native-pdf-web-editor.md#print) om du vill konfigurera utskriftsinställningar.
 
 Om du vill konfigurera klickar du på **Inställningar** på panelen **Mallar** för att visa följande alternativ:
 
@@ -205,13 +208,13 @@ Om du vill konfigurera klickar du på **Inställningar** på panelen **Mallar** 
 
 Ange de grundläggande konfigurationsinställningarna för att starta ett kapitel från udda eller jämn sida, innehållsförteckningsstrukturen och definiera ledarradformatet för posterna i innehållsförteckningen. Du kan definiera följande inställning:
 
-* **Starta ett nytt kapitel från**: Används för att definiera hur varje kapitel ska publiceras i det slutliga PDF. Du kan välja mellan alternativen **Ny sida**, **Udda sida**, **Jämn sida** eller **Aktuell sida** . Om du väljer att starta ett nytt kapitel från en udda sida infogas en tom sida efter ett kapitel som slutar på en udda sida. Om kapitlet till exempel slutar på sidan 15 infogar publiceringsprocessen en tom </sup>-<sup>th-sida så att det nya kapitlet kan börja på sidan 17<sup>th</sup>.  Om du väljer alternativet **Aktuell sida** kommer alla kapitel att publiceras utan sidbrytningar. Om ett kapitel t.ex. avslutas mitt på sidan 15, kommer nästa kapitel också att startas från den 15:e sidan.
+* **Starta ett nytt kapitel från**: Gör att du kan definiera hur varje kapitel ska publiceras i den slutliga PDF. Du kan välja mellan alternativen **Ny sida**, **Udda sida**, **Jämn sida** eller **Aktuell sida** . Om du väljer att starta ett nytt kapitel från en udda sida infogas en tom sida efter ett kapitel som slutar på en udda sida. Om kapitlet till exempel slutar på sidan 15 infogar publiceringsprocessen en tom </sup>-<sup>th-sida så att det nya kapitlet kan börja på sidan 17<sup>th</sup>.  Om du väljer alternativet **Aktuell sida** kommer alla kapitel att publiceras utan sidbrytningar. Om ett kapitel t.ex. avslutas mitt på sidan 15, kommer nästa kapitel också att startas från den 15:e sidan.
 
 * **Starta varje ämne från en ny sida**: Om du vill att varje ämne i kapitlet ska börja från en ny sida väljer du **Starta varje ämne från en ny sida** . Om du vill att dina ämnen ska fortsätta utan sidmellanrum avmarkerar du det här alternativet.
 
 * **Innehållsförteckningsstruktur**: Gör att du kan anpassa innehållsförteckningens hierarki. Följande ytterligare inställningar används:
 
-   * **Använd rubriker upp till nivå**: Du kan justera antalet rubriknivåer som ska visas i innehållsförteckningsstrukturen för PDF.
+   * **Använd rubriker upp till nivå**: Du kan justera antalet rubriknivåer som ska visas i innehållsförteckningsstrukturen för din PDF.
    * **Visa inte sidnummer för den första nivån i innehållsförteckningen**: Välj det här alternativet om du vill dölja motsvarande sidnummer för alla kapitel som innehåller kapslade eller underordnade ämnen. Titta på följande exempel där en utdatafil skapas utan att markera det här alternativet.
 
   <img src="assets/page-number-in-toc.png" alt="Överför resurser" width="250">
@@ -222,7 +225,7 @@ Ange de grundläggande konfigurationsinställningarna för att starta ett kapite
 
   <img src="assets/page-number-missing-in-toc.png" alt="Överför resurser" width="250">
 
-  Här ser du att det första kapitlet Avancerade PDF-inställningar inte får något sidnummer, som det har kapslade eller underordnade avsnitt. Ett sidnummer om det tilldelas till Bilaga och Rättslig information eftersom de är fristående ämnen utan något underordnat ämne.
+  Här ser du att det första kapitlet Avancerade inställningar för PDF inte får något sidnummer, som kapslade eller underordnade avsnitt. Ett sidnummer om det tilldelas till Bilaga och Rättslig information eftersom de är fristående ämnen utan något underordnat ämne.
 
 * **Visa inte kapitelnummer i innehållsförteckningen** : Välj det här alternativet om du vill visa kapitelnamnen utan kapitelnumren i innehållsförteckningen.   Som standard visas kapitelnumren i innehållsförteckningen för dina PDF-utdata.
 * **Ledarformat**: Använd listrutan för att välja Prickade, Helfyllda eller Blanksteg för att koppla rubriknivåer till motsvarande sidnummer.
@@ -235,7 +238,7 @@ Information om hur du använder rubriknivåer för innehållsförteckningens str
 * **Använd fortsättningsmarkör för tabell**: Välj det här alternativet om du vill definiera markörer för långa tabeller som sprids över flera sidor.
 Du kan definiera texten som ska visas före och efter brytningen. En tabell bryts till exempel på sidan 5 och du definierar `<Continued on page %page-num%>` för **Text före brytning**.  Texten visas&quot;Fortsättning på sidan 6&quot; längst ned på sidan 5.
 
-  Använd språkvariabler för att definiera fortsättningsmarkörtexten före och efter brytningen. Beroende på vilket språk du väljer hämtas det lokaliserade värdet automatiskt i utdata från PDF. Du kan till exempel publicera `Continued on page %page-num%` som en text på engelska och `Fortsetzung auf Seite %page-num%` på tyska.
+  Använd språkvariabler för att definiera fortsättningsmarkörtexten före och efter brytningen. Beroende på vilket språk du väljer hämtas det lokaliserade värdet automatiskt i PDF-utdata. Du kan till exempel publicera `Continued on page %page-num%` som en text på engelska och `Fortsetzung auf Seite %page-num%` på tyska.
 
   Hovring <img src="./assets/info-details.svg" alt= "informationsikon" width="25"> nära alternativet om du vill visa mer information om det.
 * **Länka ordlistor till ordlistan**: Välj det här alternativet om du vill visa ordlistorna som hyperlänkar i innehållet och länka dem till termerna på ordlistan. Det gör att läsarna snabbt kan se definitionen av en term som definierats i ordlistan.
@@ -244,7 +247,7 @@ Du kan definiera texten som ska visas före och efter brytningen. En tabell bryt
    * Aktivera **Ordlista** på fliken **Sidlayoutordning** för en DITA-karta.
    * Lägg till ordlistan på sidan Bakåt Matcha sidor för en bokkarta.
 
-  Om du inte aktiverar ordbokssidan konverteras inte de ordlistliga termerna i innehållet till hyperlänkar i utdata från PDF.
+  Om du inte aktiverar ordbokssidan konverteras inte de ordlistliga termerna i innehållet till hyperlänkar i PDF-utdata.
   <!--For more information on using table continuation markers, see Use table continuation markers.-->
 
 ### Sidlayouter {#page-layouts}
@@ -258,9 +261,9 @@ Följande inställningar är tillgängliga under avsnittet Sidlayout:
 <img src="assets/template-page-layout.png" alt="Sidlayouter" width="550">
 
 
-**Standardsidlayout**: Välj en sidlayout som fungerar som standardlayout för alla sidor i PDF. Det här är den grundläggande sidlayouten som används i avsnitt eller ämnen där du inte har skapat en dedikerad sidlayout.
+**Standardsidlayout**: Välj en sidlayout som fungerar som standardlayout för alla sidor i din PDF. Det här är den grundläggande sidlayouten som används i avsnitt eller ämnen där du inte har skapat en dedikerad sidlayout.
 
-**Sidlayout för olika avsnitt**: Du kan mappa en sidlayout med följande avsnitt i utdata från PDF. Om du har utformat en sidlayout för det relaterade avsnittet väljer du det i listrutan. Om ingen sidlayout har skapats för ett visst avsnitt används standardsidlayouten.
+**Sidlayout för olika avsnitt**: Du kan mappa en sidlayout med följande avsnitt i dina PDF-utdata. Om du har utformat en sidlayout för det relaterade avsnittet väljer du det i listrutan. Om ingen sidlayout har skapats för ett visst avsnitt används standardsidlayouten.
 
 * **Kapitel och ämnen**: Du kan ange sidlayout för kapitlen och avsnitten. Den valda layouten används för alla kapitel och avsnitt.
 
@@ -268,15 +271,15 @@ Följande inställningar är tillgängliga under avsnittet Sidlayout:
 
 * **Lista över illustrationer och Lista över tabeller**: Du kan också ange sidlayout för figurer och tabeller. Den valda layouten används på alla figurer och tabeller.
 
-* **Index**: Om du har utformat en indexsidlayout kan du mappa den till alternativet Index. Med formatmallarna kan du formatera olika indexelement i utdata från PDF. Använd indexformaten `.idx-header`, `.idx-footer`, `.idx-body`, `.idx-title`, `.idx-keyword-group`, `.idx-unit`, `.idx-keyword`, `.idx-name`, `.idx-link` och `.idx-child` för att anpassa formaten för elementen i indexet.
+* **Index**: Om du har utformat en indexsidlayout kan du mappa den till alternativet Index. Med formatmallarna kan du formatera olika indexelement i PDF-utdata. Använd indexformaten `.idx-header`, `.idx-footer`, `.idx-body`, `.idx-title`, `.idx-keyword-group`, `.idx-unit`, `.idx-keyword`, `.idx-name`, `.idx-link` och `.idx-child` för att anpassa formaten för elementen i indexet.
 
 * **Ordlista**: Om du har en ordlista mappas den till alternativet Ordlista.
 
   Termerna i ordlistan för dina PDF-utdata sorteras alltid i alfabetisk ordning.
 
-  Du kan också lägga till taggen `sort-as` för att definiera en sorteringsnyckel för ordlistorna. Experience Manager Guides använder sedan sorteringsnyckeln för att sortera ordlistorna i stället för ordlistorna. Om du inte har definierat sorteringsnyckeln används ordlistetermer för sortering. Du kan till exempel lägga till taggen `sort-as` i `glossterm` och ange värdet `A` för termen &quot;USB&quot; (till exempel `<glossterm>USB<sort-as>A</sort-as></glossterm>`). På samma sätt kan du lägga till taggen `sort-as` och ange dess värde som `B` för termen&quot;Ritstiftsenhet&quot;. När du sorterar de här ordlistorna visas sorteringsnyckeln `A` för den ordlistebeteckningen &quot;USB&quot; före sorteringsnyckeln `B` för den ordlista som innehåller ordet &quot;Pen Drive&quot;. I utdata från PDF kommer &quot;USB&quot; före &quot;Pen Drive&quot; på ordlistan.
+  Du kan också lägga till taggen `sort-as` för att definiera en sorteringsnyckel för ordlistorna. Experience Manager Guides använder sedan sorteringsnyckeln för att sortera ordlistorna i stället för ordlistorna. Om du inte har definierat sorteringsnyckeln används ordlistetermer för sortering. Du kan till exempel lägga till taggen `sort-as` i `glossterm` och ange värdet `A` för termen &quot;USB&quot; (till exempel `<glossterm>USB<sort-as>A</sort-as></glossterm>`). På samma sätt kan du lägga till taggen `sort-as` och ange dess värde som `B` för termen&quot;Ritstiftsenhet&quot;. När du sorterar de här ordlistorna visas sorteringsnyckeln `A` för den ordlistebeteckningen &quot;USB&quot; före sorteringsnyckeln `B` för den ordlista som innehåller ordet &quot;Pen Drive&quot;. I PDF-utdata kommer &quot;USB&quot; före &quot;Pen Drive&quot; på ordlistan.
 
-  Med formatmallarna kan du formatera olika ordlisteelement i utdata från PDF. Använd ordlisteformaten `.glo-header`, `.glo-footer`, `.glo-body`, `.glo-title`, `.glo-unit`, `.glo-link` och `.glo-term` för att anpassa formaten för ordlistans element.
+  Med formatmallarna kan du formatera olika ordlisteelement i PDF-utdata. Använd ordlisteformaten `.glo-header`, `.glo-footer`, `.glo-body`, `.glo-title`, `.glo-unit`, `.glo-link` och `.glo-term` för att anpassa formaten för ordlistans element.
 
   Läs mer om hur du använder formatredigeraren för att [arbeta med vanliga innehållsformat](stylesheet.md).
 
@@ -296,7 +299,7 @@ Mer information om sidlayouter finns i [Designa en sidlayout](design-page-layout
 
 ### Layoutordning {#page-order}
 
-Du kan visa eller dölja följande avsnitt i PDF och även ordna i vilken ordning de ska visas i det slutliga PDF-resultatet:
+Du kan visa eller dölja följande avsnitt i din PDF och även ordna i vilken ordning de ska visas i den slutliga PDF-utdatafilen:
 
 
 
@@ -310,9 +313,9 @@ Du kan visa eller dölja följande avsnitt i PDF och även ordna i vilken ordnin
 
   <img src="assets/page-order-advance-settings.png" alt="Layoutordning" width="550">
 
-  Om du inte vill visa ett visst avsnitt i utdata för PDF kan du dölja det genom att stänga av växlingsknappen.
+  Om du inte vill visa ett visst avsnitt i dina PDF-utdata kan du dölja det genom att stänga av växlingsknappen.
 
-  Du kan också ange i vilken ordning de olika avsnitten ska genereras i PDF. Om du vill ändra standardordningen för de här avsnitten markerar du de prickade strecken för att dra och släppa avsnitten på önskad plats.
+  Du kan också ange i vilken ordning de olika avsnitten ska genereras i din PDF. Om du vill ändra standardordningen för de här avsnitten markerar du de prickade strecken för att dra och släppa avsnitten på önskad plats.
 
   >[!NOTE]
   >
@@ -324,7 +327,7 @@ Layouten **Kapitel och avsnitt** är alltid aktiverad som standard. Du kan inte 
 
 **Sammanfoga sidor**
 
-Som standard börjar alla avsnitt på en ny sida. Välj alternativet **Föregående sida** eller **Nästa sida** i listrutan **Lägg samman med** om du vill sammanfoga ett avsnitt med en föregående eller nästa sida. Detta kommer att publicera avsnittet tillsammans med den valda sidan i utdata från PDF. Med det här blir det ingen sidbrytning däremellan.
+Som standard börjar alla avsnitt på en ny sida. Välj alternativet **Föregående sida** eller **Nästa sida** i listrutan **Lägg samman med** om du vill sammanfoga ett avsnitt med en föregående eller nästa sida. Detta publicerar avsnittet tillsammans med den valda sidan i PDF-utdata. Med det här blir det ingen sidbrytning däremellan.
 
 >[!NOTE]
 >
@@ -340,7 +343,7 @@ Sammanfogningsalternativet fungerar stegvis, så om du har valt **Nästa sida** 
 **Statiska sidor**
 
 De olika sidlayouterna hjälper dig att utforma utdata från de olika avsnitten. Dessa avsnitt genereras från DITA-kartan när du publicerar utdata.
-Du kan också skapa anpassade sidlayouter och publicera dem som statiska sidor i utdata från PDF. Detta hjälper dig att lägga till statiskt innehåll som anteckningar eller tomma sidor.
+Du kan också skapa anpassade sidlayouter och publicera dem som statiska sidor i PDF-utdata. Detta hjälper dig att lägga till statiskt innehåll som anteckningar eller tomma sidor.
 
 Utför följande steg för att lägga till en anpassad sidlayout:
 
@@ -364,7 +367,7 @@ Du kan även utföra följande åtgärder:
 
 ### Sidorganisation
 
-Sidorna i ett PDF-dokument publiceras vanligtvis enligt det innehåll som är organiserat i DITA-kartan eller bokmappsfilen. Du kan också ändra ordningen på sidorna i PDF-dokumentet. Du kan till exempel skriva ut ett flersidigt dokument som ett häfte. När du sorterar, viker och häftar arken blir resultatet en enda bok med rätt sidordning.  Sedan kan du läsa det publicerade häftet som en bok.
+Sidorna i ett PDF-dokument publiceras vanligtvis enligt innehållet som är organiserat i DITA-kartan eller bokmappsfilen. Du kan också ändra ordningen på sidorna i PDF-dokumentet. Du kan till exempel skriva ut ett flersidigt dokument som ett häfte. När du sorterar, viker och häftar arken blir resultatet en enda bok med rätt sidordning.  Sedan kan du läsa det publicerade häftet som en bok.
 
 <img src="assets/template-page-organization.png" alt="Sidorganisation" width="550">
 
@@ -373,7 +376,7 @@ Följande inställningar är tillgängliga under avsnittet **Sidorganisation**:
 
 #### Sidordning
 
-Välj en sidordning som bestämmer sidordningen i PDF-dokumentet. Du kan välja följande alternativ i listrutan:
+Välj en sidordning som bestämmer sidordningen i ditt PDF-dokument. Du kan välja följande alternativ i listrutan:
 
 * **Standard**: Standardordningen för sidorna enligt källfilen.
 * **Udda sidor först**: Alla udda sidor flyttas före alla jämna sidor.
@@ -389,7 +392,7 @@ Välj en sidordning som bestämmer sidordningen i PDF-dokumentet. Du kan välja 
    * &quot;X&quot; - Alla sidor i dokumentet. Samma resultat som &quot;1..-1&quot;.
 
 Du kan t.ex. skapa en anpassad ordning som &quot;2,3,5*2,7.10,-1,-2.
-Den angivna sidordningen resulterar i att PDF har följande sidnummer från det ursprungliga dokumentet, förutsatt att det har totalt 25 sidor: 2, 3, 5, 5, 7, 8, 9, 10, 25, 24.
+Den angivna sidordningen resulterar i att ett PDF får följande sidnummer från originaldokumentet, förutsatt att det har totalt 25 sidor: 2, 3, 5, 5, 7, 8, 9, 10, 25, 24.
 
 #### Konfigurera mer än en sida per ark
 
@@ -397,37 +400,13 @@ Välj det här alternativet om du vill publicera flera sidor på ett enda papper
 
 Definiera målarkets storlek och den orientering i vilken du vill publicera kalkylbladet. Du kan också ange marginal- och utfyllnadsegenskaperna för bladet.
 
-
-
-
-### Skriv ut
-
-Konfigurera utskriftsinställningarna för att tilldela skrivarmärken, välja färgmodeller och ange egenskaper för utskrift av PDF.
-
-* **Skrivarmärken**: När du förbereder ett dokument för tryckproduktion läggs skrivarmärken till i sidgränserna för att underlätta korrekt justering, beskärning och färgval vid utskrift. Genom att välja ett skrivarmärke utökas sidgränsen så att den passar markeringen, som beskärs vid utskrift. Du kan välja att visa följande skrivarmärken i utdata från PDF:
-   * **Ytmärken**: Välj alternativet att placera ett märke i varje hörn av ytområdet för att ange var papperet behöver beskäras efter utskrift.
-   * **Utfallsmärken**: Markera för att placera ett märke i varje hörn av utfallsrutan för att ange den utökade bildens ytområde.
-   * **Registreringsmärken**: Markera för att placera ett märke utanför beskärningsområdet för att justera de olika separationerna i ett färgdokument.
-   * **Färgremsor**: Välj det här alternativet om du vill lägga till en färgremsa utanför det trimmade området för att behålla färgkonsekvensen och justera tryckfärgens densitet vid utskrift.
-
-  Ange mått för de valda skrivarmärkena med alternativen **Linjens bredd**, **Linjefärg** och **Bredd för utfallsruta**.
-
-* **Storlek på medieruta**: Detta är den totala sidstorleken inklusive det utökade område som används av skrivarmärken. Använd rullgardinsmenyn för att välja sidstorlek för utdata från PDF eller skapa en egen anpassad storlek.
-
-* **Färgrymd**: Du kan välja mellan RGB- eller CMYK-färgrymder för utskrift av PDF-dokument. Välj RGB om du vill visa det genererade PDF digitalt och CMYK för fysisk utskrift. Färger som definieras i dokumentet konverteras till den valda färgrymden.
-  >[!NOTE]
-  >
-  >En ICC-färgprofil krävs för att skapa PDF/A om CMYK-färgmodellen används.
-
-  <!--For more information on applying these print settings, see *Printing preferences*.-->
-
 ### Korsreferenser {#cross-references}
 
 Använd fliken **Korsreferens** för att definiera hur korsreferenserna ska publiceras i PDF. Du kan formatera korsreferenserna för ämnesrubrik, tabeller, figurer och mycket annat.
 
 >[!NOTE]
 >
-> Om du har definierat länktexten när du infogar korsreferensen, prioriteras den framför korsreferensformatet som har definierats i mallen för PDF.
+> Om du har definierat länktexten när du infogar korsreferensen, prioriteras den framför korsreferensformatet som har definierats i den ursprungliga PDF-mallen.
 
 Du kan också använda variabler för att definiera en korsreferens.  När du använder en variabel hämtas dess värde från egenskaperna. Du kan använda en enda eller en kombination av variabler för att definiera en korsreferens. Du kan också använda en kombination av en sträng och en variabel.
 
@@ -463,13 +442,13 @@ Om du lämnar textfältet tomt och du inte har definierat länktexten när du in
 
 Prioritetsordningen för korsreferenser är:
 * Länktext i korsreferenserna
-* Korsreferensformat som definieras i mallen för ursprungliga PDF
+* Korsreferensformat definierat i den ursprungliga PDF-mallen
 * Standardkorsreferensformat
 
 
 #### Språkvariabler i korsreferenser
 
-Du kan också använda språkvariabler för att definiera lokaliserade korsreferenser. Beroende på vilket språk du väljer hämtas det lokaliserade värdet automatiskt i utdata från PDF.
+Du kan också använda språkvariabler för att definiera lokaliserade korsreferenser. Beroende på vilket språk du väljer hämtas det lokaliserade värdet automatiskt i PDF-utdata.
 
 Du kan till exempel lägga till en språkvariabel,&quot;reference-label&quot;, och definiera värdena på engelska och tyska.
 

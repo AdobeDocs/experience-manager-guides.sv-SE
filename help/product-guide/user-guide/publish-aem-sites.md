@@ -1,35 +1,29 @@
 ---
-title: Publish ett ämne på en AEM Sites-sida
-description: Publish ett ämne eller de element som finns i ett avsnitt i ett Adobe Experience Manager Sites-dokument.  Lär dig hur du visar Experience Manager Sites-sidan för ett ämne och publicerar dem igen.
+title: Publicera ett ämne på en AEM Sites-sida
+description: Publicera ett ämne eller element i ett ämne i ett Adobe Experience Manager Sites-utdata.  Lär dig hur du visar Experience Manager Sites-sidan för ett ämne och publicerar dem igen.
 feature: Publishing
 role: User
-source-git-commit: 05c3e5e6f3c6aea4b3e3f3a52af5810307f1f29b
+exl-id: acbc48b7-93a2-41c6-8565-359fbbdd1fb9
+source-git-commit: 144ecbea83b2c649a00c6b88e533327f3ce111f4
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '646'
 ht-degree: 0%
 
 ---
 
-# Publish Adobe Experience Manager Sites
+# Publicera Adobe Experience Manager Sites-sidor
 
 
 Experience Manager Sites sida avser innehåll som publicerats på Adobe Experience Manager webbplats. Med Experience Manager Guides kan du publicera ett fristående ämne på en Sites-sida.
 
 Med den här funktionen kan du publicera ett ämne och dess element utan att skapa en DITA-karta eller förinställningar för utdata. Du kan enkelt uppdatera ämnet, publicera om sidan Webbplatser och återanvända det på olika webbsidor. Med den här funktionen kan du enkelt publicera fristående artiklar eller marknadsföringsmaterial.
 
-
-
-
-
 Så här skapar du en platssida:
 
 
-
-
-1. Välj **Ny utdata** ![ny utdataikon](./images/Add_icon.svg) i avsnittet **Utdata** i **filegenskaper** för ett ämne.
+1. Öppna ämnet i Redigeraren och välj Filegenskaper på den högra panelen.
+1. Välj **Ny utdataikon** ![ny utdataikon](./images/Add_icon.svg) i avsnittet **Utdatafiler**.
 1. Välj sidan **Webbplatser**.
-
-
 1. Fyll i följande information i dialogrutan **Skapa platser**:
    ![Lägg till sökvägen och mallinformationen på sidan Generera platser](images/aem-sites-page-generate.png){width="500" align="left"}
 
@@ -54,15 +48,12 @@ Så här skapar du en platssida:
 
 
 
-1. Klicka på **Generera** för att publicera sidan Webbplatser.
+1. Välj **Generera** om du vill publicera sidan Webbplatser.
 1. Du kan visa sidan Webbplatser för ett avsnitt under avsnittet **Utdata** i **Filegenskaper**. Webbplatssidorna visas efter publiceringsdatum och -tid, med det senaste som det första.
 
-   ![Visa webbplatssidan för ett ämne](images/aem-sites-outputs.png){width=300 align=&quot;left&quot;}
+   ![Visa webbplatssidan för ett ämne](images/aem-sites-output-new.png){width=300 align=&quot;left&quot;}
 
    *Visa webbplatssidan som finns för ett ämne och publicera dem igen.*
-
-
-
 
 När du har publicerat sidan Webbplatser kan du även använda dem på alla Adobe Experience Manager-webbplatser.
 

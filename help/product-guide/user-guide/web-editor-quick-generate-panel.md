@@ -4,14 +4,19 @@ description: Använd snabbgenereringspanelen i AEM Guides. Lär dig hur du gener
 exl-id: 5de04980-91d7-4bbc-a4b7-9bfd60ccf3c7
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: a02a7310f5e332f88827a9d5a05034abec05b43a
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '293'
 ht-degree: 0%
 
 ---
 
 # Använd snabbgenereringspanelen för att generera och visa utdata {#id22AKE050F5L}
+
+>[!NOTE]
+>
+> Panelen Snabbgenerering, som tidigare fanns i Adobe Experience Manager Guides, har tagits bort från version 4.0 och 2502. Du har inte åtkomst till snabbgenereringspanelen för att generera och visa utdata
+
 
 AEM Guides har en **snabbgenereringspanel** som är integrerad i webbredigeraren. På den här panelen kan du samtidigt generera utdata för de förinställningar som har skapats för en DITA-karta. Du kan generera utdata för en eller flera förinställningar eller alla förinställningar som skapas för en DITA-karta. Du kan också använda panelen **Snabbgenerering** för att senare visa utdata som genererats för förinställningarna.
 

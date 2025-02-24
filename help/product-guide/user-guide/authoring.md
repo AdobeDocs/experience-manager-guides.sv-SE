@@ -4,24 +4,24 @@ description: Hantera innehåll och identifiera roller och behörigheter i AEM Gu
 exl-id: 84926dc2-1180-48ef-85d0-50e3478bf26a
 feature: Content Management
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 99e42091490b28b5d5ee73472a7655e3feeafd25
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '736'
 ht-degree: 0%
 
 ---
 
 # Hantera innehåll {#id164JBG0M0T1}
 
-Innan du börjar med själva innehållsskapandet måste du bekanta dig med några grundläggande begrepp för innehållshantering i AEM Guides. Börja sedan med att skapa olika användargrupper och ordna era resurser.
+Innan du börjar med själva innehållsskapandet måste du bekanta dig med några grundläggande begrepp för innehållshantering i Adobe Experience Manager Guides. Börja sedan med att skapa olika användargrupper och ordna era resurser.
 
 ## Viktiga begrepp
 
-Några viktiga begrepp inom innehållshantering i AEM är följande:
+Några viktiga begrepp inom innehållshantering i Adobe Experience Manager är följande:
 
 **Resurshantering**
 
-AEM Guides använder AEM Digital Asset Management \(DAM\) för att hantera dina DITA-filer. Filerna som du överför eller checkar in i DAM lagras som digitala resurser. Du kan hantera och redigera dina resurser i AEM Assets. Mer information om resurshantering finns i [Hantera resurser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=en).
+Experience Manager Guides använder Adobe Experience Manager digitala resurshantering \(DAM\) för att hantera dina DITA-filer. Filerna som du överför eller checkar in i DAM lagras som digitala resurser. Du kan hantera och redigera dina resurser i Adobe Experience Manager Assets. Mer information om resurshantering finns i [Hantera resurser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=en).
 
 **Länkhantering**
 
@@ -29,21 +29,21 @@ Flytta eller byt namn på filer eller ändra mappstrukturen i innehållsdatabase
 
 **Hantera versioner**
 
-AEM Guides tillhandahåller versionshantering för digitala resurser. Du kan enkelt aktivera den här funktionen från ett valfritt DITA-redigeringsprogram. Låta skribenterna utföra standardversionskontrollfunktioner som in- och utcheckning.
+Experience Manager Guides tillhandahåller versionshantering för digitala resurser. Du kan enkelt aktivera den här funktionen från ett valfritt DITA-redigeringsprogram. Låta skribenterna utföra standardversionskontrollfunktioner som in- och utcheckning.
 
-Mer information om hur du skapar versioner eller återgår till en viss version finns i [Förgrening, återställ och efterföljande versionshantering](web-editor-preview-topics.md#id193PG0Y051X).
+Mer information om hur du skapar versioner eller återgår till en viss version finns i [Gren, återställ och efterföljande versionshantering](web-editor-preview-topics.md#branch-revert-and-subsequent-versioning).
 
 **Inbyggd DITA-hantering**
 
-AEM Guides bibehåller strukturen i dina DITA-filer, men gör det även möjligt för AEM att hantera DITA direkt med hjälp av elementmappning för att mappa DITA-elementen till AEM. Den inbyggda DITA-hanteringen används i funktioner som ämnesförhandsgranskning, AEM Sites-publicering och granskningsarbetsflöden.
+Experience Manager Guides bibehåller strukturen i dina DITA-filer, men gör det även möjligt för Adobe Experience Manager att hantera DITA direkt med hjälp av elementmappning för att mappa DITA-elementen till Adobe Experience Manager-komponenter. Den inbyggda DITA-hanteringen används i funktioner som ämnesförhandsgranskning, Adobe Experience Manager Sites-publicering och granskningsarbetsflöden.
 
 ## Identifiera din roll och dina behörigheter {#id181TF0K0MHT}
 
-AEM Guides har tre färdiga grupper. Dessa grupper är: *Författare*, *Granskare* och *Utgivare*. Beroende på vilken grupp du är kopplad till har du behörighet att utföra specifika åtgärder enligt tabellen nedan. Publiceringsuppgifterna kan till exempel bara utföras av en utgivare, men inte av en författare eller granskare. På samma sätt kan en författare skapa ett nytt ämne, och en granskare kan bara granska ett ämne.
+Experience Manager Guides har tre färdiga grupper. Dessa grupper är: *Författare*, *Granskare* och *Utgivare*. Beroende på vilken grupp du är kopplad till har du behörighet att utföra specifika åtgärder enligt tabellen nedan. Publiceringsuppgifterna kan till exempel bara utföras av en utgivare, men inte av en författare eller granskare. På samma sätt kan en författare skapa ett nytt ämne, och en granskare kan bara granska ett ämne.
 
 >[!TIP]
 >
-> Avsnittet *Behörigheter* i guiden Bästa metoder innehåller tips om hur du anger användarbehörigheter.
+> Visa avsnittet *Behörigheter* i guiden Bästa metoder för att ange användarbehörigheter.
 
 I följande tabell visas olika uppgifter och grupper som kan utföra dessa uppgifter:
 
@@ -93,9 +93,9 @@ I följande tabell visas olika uppgifter och grupper som kan utföra dessa uppgi
 
 **Arbeta med globala profiler eller mappprofiler**
 
-I ett företag kan olika grupper eller produkter använda olika redigeringsmallar, utdatamallar, villkorsattributprofiler \(eller ämnesscheman\) och Web Editor-konfigurationer. Om du konfigurerar dessa endast på Enterprise \(eller global\)-nivå kan det vara svårt för skribenterna eftersom de kommer att se mallar eller profiler som inte är relevanta för dem.
+I ett företag kan olika grupper eller produkter använda olika redigeringsmallar, utdatamallar, villkorsattributprofiler \(eller ämnesscheman\) och Web Editor-konfigurationer. Om du konfigurerar dessa endast på Enterprise \(eller global\)-nivå kan det vara svårt för skribenterna eftersom de då kan visa mallar eller profiler som inte är relevanta för dem.
 
-I AEM Guides kan du konfigurera mallar för att skapa \(ämne eller karta\), utdatamallar, villkorsattribut och Web Editor-konfigurationer på global nivå samt på mappnivå. På så sätt kan du dela upp konfigurationerna för olika avdelningar eller produkter i företaget.
+I Experience Manager Guides kan du konfigurera mallar för att skapa \(ämne eller karta\), utdatamallar, villkorsattribut och Web Editor-konfigurationer på global nivå samt på mappnivå. På så sätt kan du dela upp konfigurationerna för olika avdelningar eller produkter i företaget.
 
 Du kan även delegera mappspecifika konfigurationer till en avdelning eller produktadministratörer för att decentralisera administrationen.
 

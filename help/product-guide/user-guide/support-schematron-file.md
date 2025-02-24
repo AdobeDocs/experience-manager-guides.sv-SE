@@ -4,62 +4,63 @@ description: Lär dig hur du importerar och validerar ett DITA-ämne, använder 
 exl-id: ed07a5ec-6adc-43a3-8f03-248b8c963e9a
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: ee784edcbaef0641784cd1eb18748fc12a4f90bb
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '762'
 ht-degree: 0%
 
 ---
 
 # Stöd för Schematron-filer
 
-&quot;Schematron&quot; avser ett regelbaserat valideringsspråk som används för att definiera tester för en XML-fil. Webbredigeraren stöder Schematron-filer. Du kan importera schemafilerna och redigera dem i Web Editor. Med en Schematron-fil kan du definiera vissa regler och sedan validera dem för ett DITA-avsnitt eller en karta.
+&quot;Schematron&quot; avser ett regelbaserat valideringsspråk som används för att definiera tester för en XML-fil. Redigeraren stöder Schematron-filer. Du kan importera schemafilerna och redigera dem i Redigeraren. Med en Schematron-fil kan du definiera vissa regler och sedan validera dem för ett DITA-avsnitt eller en karta.
 
 >[!NOTE]
 >
-> Webbredigeraren stöder ISO-schema.
+> Redigeraren stöder ISO-schematron.
 
 
 ## Importera Schematron-filer
 
 Så här importerar du Schematron-filerna:
 
-![](images/scematron-panel-add.png){width="300" align="left"}
+![](images/schematron-panel.png){width="300" align="left"}
 
-1. Navigera till önskad mapp (där du vill överföra filerna) i *databasvyn*.
-1. Klicka på ikonen **Alternativ** för att öppna snabbmenyn och välj **Överför Assets**.
-1. I dialogrutan **Överför Assets** kan du ändra målmappen i fältet **Välj resursmapp**.
-1. Klicka på **Välj filer** och bläddra till schemafilerna. Du kan välja en eller flera schemafiler och sedan klicka på **Överför**.
+1. Navigera till önskad mapp (där du vill överföra filerna) i *databasen*.
+1. Välj ikonen **Alternativ** för att öppna snabbmenyn och välj **Överför resurser**.
+1. I dialogrutan **Överför resurser** kan du ändra målmappen i fältet **Välj resursmapp**.
+1. Välj **Välj filer** och bläddra till schemafilerna. Du kan välja en eller flera schemafiler och sedan välja **Överför**.
 
 ## Validera ett DITA-ämne eller en DITA-karta med Schematron
 
-När du har importerat Schematron-filer kan du redigera dem i webbredigeraren. Du kan använda Schematron-filerna för att validera ämnen eller en DITA-karta. Du kan till exempel skapa följande regler för ett DITA-schema eller -ämne:
+När du har importerat Schematron-filer kan du redigera dem i Redigeraren. Du kan använda Schematron-filerna för att validera ämnen eller en DITA-karta. Du kan till exempel skapa följande regler för ett DITA-schema eller -ämne:
 
 * En titel definieras för en DITA-karta.
 * En kort beskrivning av en viss längd har lagts till.
 * Det ska finnas minst en topicref på kartan.
 
-När du öppnar ett ämne i webbredigeraren visas en schematronvalideringspanel till höger. Utför följande steg för att lägga till och validera ett ämne eller en karta med en Schematron-fil:
-![](images/schematron-validate.png){width="300" align="left"}
+När du öppnar ett ämne i Redigeraren visas en schematrons valideringspanel till höger. Utför följande steg för att lägga till och validera ett ämne eller en karta med en Schematron-fil:
 
-1. Klicka på ikonen Schematron () för att öppna panelen Schematron.
-1. Använd Lägg till schemafil för att lägga till schemafiler.
+![](images/schematron-panel-file-validated.png){width="500" align="left"}
+
+1. Välj ikonen Schematron () för att öppna panelen Schematron.
+1. Använd **Lägg till schemafil** för att lägga till schemafiler.
 1. Om det inte finns några fel i schemaläggarfilen läggs den till och visas på valideringspanelen. Ett felmeddelande visas för Schematron-filen som innehåller fel.
    >[!NOTE]
    >
    >Du kan använda kryssikonen bredvid Schematron-filnamnet för att ta bort den.
-1. Klicka på Validera med schema för att validera ämnet.
+1. Välj **Verifiera med Schematron** för att validera ämnet.
 
    * Om inga regler bryts visas ett meddelande om att valideringen lyckades för filen.
    * Om ämnet bryter en regel, till exempel om det inte innehåller någon titel och valideras för schematronen ovan, visas ett valideringsfel.
 
-1. Klicka på felmeddelandet för att markera elementet som innehåller felet i det öppnade ämnet/kartan.
+1. Markera felmeddelandet för att markera elementet som innehåller felet i det öppna ämnet/kartan.
 
-Stödet för Schematron i Web Editor hjälper dig att validera filerna mot en uppsättning regler och bibehålla konsekvens och korrekthet i alla ämnen.
+Stödet för schemat i redigeraren hjälper dig att validera filerna mot en uppsättning regler och bibehålla konsekvens och korrekthet i alla ämnen.
 
 ## Använd assert- och report-satser för att kontrollera regler{#schematron-assert-report}
 
-AEM Guides stöder även programsatserna assert och report i Schematron. Dessa satser hjälper dig att validera dina DITA-avsnitt.
+Experience Manager Guides stöder även programsatserna assert och report i Schematron. Dessa satser hjälper dig att validera dina DITA-avsnitt.
 
 ### Programsatsen Assert
 
@@ -107,7 +108,7 @@ No one word titles.
 
 ## Definiera abstrakta mönster{#schematron-abstract-patterns}
 
-AEM Guides har även stöd för abstrakta mönster i Schematron. Du kan definiera allmänna abstrakta mönster som återanvänder dessa abstrakta mönster.  Du kan skapa platshållarparametrar som anger det faktiska mönstret.
+Experience Manager Guides har även stöd för abstrakta mönster i Schematron. Du kan definiera allmänna abstrakta mönster som återanvänder dessa abstrakta mönster.  Du kan skapa platshållarparametrar som anger det faktiska mönstret.
 
 
 Genom att använda abstrakta mönster kan du förenkla schemat genom att minska antalet regler och göra det enklare att hantera och uppdatera valideringslogiken. Det kan också göra ditt schema lättare att förstå, eftersom du kan definiera komplex valideringslogik i ett enda abstrakt mönster som kan återanvändas i hela schemat.

@@ -1,20 +1,22 @@
 ---
-title: PDF Publish-funktion | Lägga till ett eget bokmärke i utdata från PDF
+title: PDF publiceringsfunktion | Lägga till ett anpassat bokmärke i PDF-utdata
 description: Lär dig hur du skapar formatmallar och skapar format för ditt innehåll.
 exl-id: 6e6dbba3-da41-4066-b7b2-735a3d92b70a
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 1c96f25c3b970d04d23e8faf94a8f39095f6bd2c
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '347'
 ht-degree: 0%
 
 ---
 
-# Lägga till ett eget bokmärke i utdata från PDF
+# Lägga till ett anpassat bokmärke i PDF-utdata
 
-Vanligtvis återges innehållsförteckningen i en DITA-karta som bokmärken i den slutliga utskriften för PDF. Innehållsförteckningen skapas utifrån avsnittet eller avsnittsrubrikerna på din DITA-karta. Ibland kanske du vill lägga till ett eget bokmärke för ett visst innehåll i utdata från PDF för enkel navigering. Detta kan uppnås genom att lägga till ett `outputclass`-attribut i elementet och tillämpa följande attribut på det:
+Vanligtvis replikeras innehållsförteckningen i en DITA-karta som bokmärken i den slutliga PDF-utdatafilen, inklusive rubriken **Innehåll** som öppnar innehållsförteckningssidan när den är markerad. Innehållsförteckningen skapas utifrån avsnittet eller avsnittsrubrikerna på din DITA-karta.
+
+Ibland kanske du vill lägga till ett eget bokmärke för ett visst innehåll i PDF-utdata för enkel navigering. Detta kan uppnås genom att lägga till ett `outputclass`-attribut i elementet och tillämpa följande attribut på det:
 
 `bookmark-level: 3`
 
@@ -34,10 +36,40 @@ Följande definition av klassen `custom-bookmark` har lagts till i CSS-filen:
 …
 ```
 
-I utdata från PDF läggs tabellen *Kontaktlista* till på den andra nivån i PDF-bokmärkeslistan enligt nedan:
+I PDF-utdata läggs tabellen *Kontaktlista* till på den andra nivån i PDF bokmärkeslista, enligt nedan:
 
-<img src="./assets/custom-bookmark-in-pdf-output.png" width="500">
+![](assets/custom-bookmark-in-pdf-output.png) {width="300" align="left"}
 
 >[!NOTE]
 >
 >Du måste välja rätt nivå där det anpassade bokmärket ska läggas till. Om du anger ett tal som är mindre än det överordnade objektets bokmärke, får det anpassade bokmärket det överordnade bokmärkets position och alla andra bokmärken visas som underordnade. Detta kan leda till oväntad bokmärkesstruktur.
+
+**Tar bort innehållstiteln från PDF-utdatabokärken**
+
+Om du inte vill inkludera rubriken **Contents** i PDF-utdata kan du ta bort den genom att placera elementet **Contents** i `<p>` i stället för elementet `<h1>`.
+
+Så här tar du bort innehållsrubriken från bokmärken steg för steg:
+
+1. Öppna PDF-mallen som du använder för PDF-utdata.
+2. Öppna **innehållsförteckningssidan** i **Sidlayouter**.
+Sidan med innehållsförteckningen visas till höger.
+3. Växla till läget **Source** och ändra elementet där innehållet finns från `<h1>` till `<p>`.
+
+Före ändringen:
+
+```
+<h1 class="toc-title">Contents</h1>
+```
+
+Efter ändringen:
+
+```
+<p class="toc-title">Contents</p>
+```
+
+Spara ändringarna och generera om utdata.
+
+
+
+
+

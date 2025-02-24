@@ -4,9 +4,9 @@ description: Lär dig hur du skapar villkorsattribut i AEM Guides. Använd villk
 exl-id: 5ec7666e-df6b-4b0d-b6c2-cdc395fcccc5
 feature: Publishing
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '479'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 På företagsnivå är det mycket viktigt att se till att ni har ett standardiserat taggningssystem. Taggar och villkorliga attribut kan kopplas till digitala resurser i databasen, vilket gör det enklare att publicera utdata baserat på valda villkor. Du kan till exempel skapa villkorsattribut för Windows- och Mac-innehåll. Sedan lägger du till dessa attribut i det relevanta innehållet i dina ämnen. När du publicerar innehåll kan du välja om du vill publicera endast Windows- eller Mac-innehåll.
 
-Med AEM Guides kan du enkelt skapa och associera villkorliga attribut med relevanta DITA-attribut. Du kan definiera villkorliga attribut på global nivå eller på mappnivå. De globalt definierade villkoren visas i alla projekt och mappspecifika villkor visas bara i projekt som skapats i den angivna mappen. Innehållsförfattare kan använda dessa villkorsstyrda attribut för att villkoralisera innehåll i sina DITA-avsnitt eller -kartor som de skapar eller använder. Dessa villkor kan sedan användas av utgivaren för att skapa villkorliga förinställningar. Med hjälp av de villkorliga förinställningarna kan utgivaren bestämma vilket villkor som ska inkluderas och exkluderas från publicerade utdata.
+Med Adobe Experience Manager Guides kan du enkelt skapa och associera villkorliga attribut med relevanta DITA-attribut. Du kan definiera villkorliga attribut på global nivå eller på mappnivå. De globalt definierade villkoren visas i alla projekt och mappspecifika villkor visas bara i projekt som skapats i den angivna mappen. Innehållsförfattare kan använda dessa villkorsstyrda attribut för att villkoralisera innehåll i sina DITA-avsnitt eller -kartor som de skapar eller använder. Dessa villkor kan sedan användas av utgivaren för att skapa villkorliga förinställningar. Med hjälp av de villkorliga förinställningarna kan utgivaren bestämma vilket villkor som ska inkluderas och exkluderas från publicerade utdata.
 
 >[!NOTE]
 >
@@ -23,21 +23,21 @@ Med AEM Guides kan du enkelt skapa och associera villkorliga attribut med releva
 
 Så här definierar du villkorliga attribut:
 
-1. Klicka på länken Adobe Experience Manager överst och välj **Verktyg**.
+1. Markera Adobe Experience Manager logotyp överst och välj **Verktyg**.
 
-1. Välj **Stödlinjer** i listan över verktyg.
+1. Välj **Stödlinjer** på verktygspanelen.
 
-1. Klicka på panelen **Mappprofiler** och välj en mappprofil.
+1. Markera rutan **Mappprofiler** och välj en mappprofil.
 
    >[!NOTE]
    >
    > Du kan inte redigera den globala profilen.
 
-1. Klicka på fliken **Villkorliga attribut** och klicka på **Redigera**.
+1. Markera fliken **Villkorliga attribut** och välj sedan **Redigera**.
 
    Tabellen Villkorliga attribut visas.
 
-1. Klicka på **Lägg till**.
+1. Välj **Lägg till**.
 
 1. Ange **Namn**, **Värde** och **Etikett** för attributet.
 
@@ -45,16 +45,16 @@ Så här definierar du villkorliga attribut:
 
    I följande skärmbild visas definitionen för attributet `platform` med värdet `unix` och etiketten `Red Hat Linux`.
 
-   ![](images/add-profile.png){width="800" align="left"}
+   ![](images/add-profile-new.png){width="800" align="left"}
 
-1. Om du vill lägga till fler värden för samma attribut klickar du på ikonen **+** och anger ytterligare värde och etikett.
+1. Om du vill lägga till fler värden för samma attribut markerar du ikonen **+** och anger ytterligare värde och etikett.
 
-1. Om du vill lägga till fler attribut klickar du på **Lägg till**.
+1. Om du vill lägga till fler attribut väljer du **Lägg till**.
 
-1. Klicka på **Spara** för att spara ändringarna.
+1. Välj **Spara** om du vill spara ändringarna.
 
 
-Attributet `platform` lagras i systemet. När en författare bestämmer sig för att använda attributet `platform` i ett DITA-avsnitt i en mapp, visas värdena på fliken Egenskaper i Web Editor.
+Attributet `platform` lagras i systemet. När en författare bestämmer sig för att använda attributet `platform` i ett DITA-avsnitt i en mapp kan de visa värdena på fliken Egenskaper i Redigeraren.
 
 ![](images/properties-tab.png){width="350" align="left"}
 

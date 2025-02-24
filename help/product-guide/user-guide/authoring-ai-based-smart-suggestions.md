@@ -2,16 +2,16 @@
 title: AI-baserade smarta förslag för att skapa innehåll
 description: Lär dig hur du visar och använder AI-baserade smarta förslag i Web Editor.
 exl-id: 23c5285e-0d4f-484a-a062-fe1ba1608b8d
-source-git-commit: 6cf65f70252e133cf8977ce925f0a103dc79c0ec
+source-git-commit: dd6fae108ddca23d36615fe38d176723bc4cfe86
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '687'
 ht-degree: 0%
 
 ---
 
 # AI-baserade smarta förslag för att skapa innehåll
 
-Experience Manager Guides tillhandahåller smarta förslag som hjälper dig att skapa enhetligt och korrekt innehåll.
+Adobe Experience Manager Guides tillhandahåller smarta förslag som hjälper dig att skapa enhetligt och korrekt innehåll.
 
 När du skapar innehåll kan funktionen **Föreslå återanvändbart innehåll** i AI-assistentverktyget söka med hjälp av AI och visa det befintliga innehåll som semantiskt liknar ditt innehåll. Du kan sedan välja det bästa matchande innehållet som du vill ta med i det aktuella ämnet som referens.
 
@@ -24,7 +24,7 @@ Följ de här stegen för att visa smarta förslag på hur du lägger till lämp
 
 
 1. Markera innehållet i avsnittet för att visa relaterade förslag. Kontrollera att innehållets teckenlängd överskrider vad administratören har angett i mappprofilen för att innehållsförslagen ska visas.
-1. Välj **Föreslå återanvändningsbart innehåll** ![ai Föreslå återanvändningsbart innehåll ](./images/ai-suggest-reusable-content-icon.svg) på AI-assistentpanelen.
+1. Välj **Föreslå återanvändbart innehåll** ![ai-ikonen ](./images/ai-suggest-reusable-content-icon.svg) på **redigeringspanelen** i AI-assistenten.
 
 1. Markera en tagg om du vill visa redigeringsförslagen för den aktuella taggen.  Förslagen för att visa och lägga till innehållsreferenser från de indexerade filerna visas baserat på innehållet i den aktuella taggen. Du kan också markera flera taggar.
 
@@ -38,7 +38,7 @@ Följ de här stegen för att visa smarta förslag på hur du lägger till lämp
    > Du kan bara visa förslagen för den aktuella visningsrutan (det innehåll som visas på skärmen). Om du vill visa förslag på annat innehåll i dokumentet rullar du uppåt eller nedåt för att visa det i visningsrutan och väljer sedan **Föreslå återanvändbart innehåll** ![ai Föreslå återanvändbar innehållsikon ](./images/ai-suggest-reusable-content-icon.svg) .
 
 
-1. Du kan visa smarta förslag på panelen med förslag.  Experience Manager Guides ger förslag på innehåll som i sitt sammanhang liknar eller har samma innebörd. Du kan t.ex. söka efter ämnet som innehåller det exakta versionsnumret, som&quot;release version 2023.03.12&quot;. Du kan också söka efter &quot;Adobe har huvudkontor i San Jose i Kalifornien&quot; och hitta liknande material som &quot;San Jose har kvartal av många programvaruföretag som Adobe.&quot;
+1. Du kan visa smarta förslag på panelen med förslag.  Experience Manager Guides ger förslag på innehåll som i sitt sammanhang liknar eller har samma innebörd. Du kan t.ex. söka efter ämnet som innehåller det exakta versionsnumret, som&quot;release version 2023.03.12&quot;. Du kan också söka efter&quot;Adobe har huvudkontor i San Jose i Kalifornien&quot; och hitta liknande material som&quot;San Jose har huvudkontor för många programvaruföretag som Adobe&quot;.
 1. Välj **Innehållsinformation** ![Innehållsinformation](images/smart-suggestions-content-info-icon.svg) om du vill visa informationen.
 
    ![Panelen Innehållsinformation](images/smart-suggestions-content-information.png){width="300" align="left"}
@@ -55,7 +55,7 @@ Följ de här stegen för att visa smarta förslag på hur du lägger till lämp
 
    *Förhandsgranska jämförelsen mellan det aktuella innehållet och det föreslagna innehållet.*
 
-1. Klicka på **Acceptera** för att lägga till den föreslagna innehållsreferensen i förhandsgranskningen av **Föreslå återanvändningsbart innehåll**.
+1. Välj **Acceptera** om du vill lägga till den föreslagna innehållsreferensen i förhandsgranskningen av **Föreslå återanvändningsbart innehåll**.
 1. Du kan också välja **Acceptera** eller **Avvisa** på panelen Förslag för lämpliga rekommendationer.
 
 

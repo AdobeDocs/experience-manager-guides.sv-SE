@@ -4,22 +4,22 @@ description: Lös problem med grundläggande felsökning i AEM Guides. Lär dig 
 exl-id: 57b88291-b5a3-4931-b3ed-f2b2ce7a463c
 feature: Publishing, Troubleshooting
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: ff75aca9ddd7b405501a62e055fb99bd5ea2291c
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '694'
 ht-degree: 0%
 
 ---
 
 # Grundläggande felsökning {#id1821I0Y0G0A}
 
-När du arbetar med AEM Guides kan det uppstå fel när du publicerar eller öppnar dokumentet. Sådana fel kan finnas på DITA-kartan, i ett avsnitt eller i AEM Guides-processen. I det här avsnittet finns information om hur du får åtkomst till och tolkar information i loggfilen för utdatagenerering. Om ditt DITA-avsnitt är för stort kan du se JSP-kompileringsfelet. I det här avsnittet finns även information om hur du löser JSP-kompileringsfelet.
+När du arbetar med Adobe Experience Manager Guides kan det uppstå fel när du publicerar eller öppnar dokumentet. Sådana fel kan finnas på DITA-kartan, i ett avsnitt eller i Experience Manager Guides-processen. I det här avsnittet finns information om hur du får åtkomst till och tolkar information i loggfilen för utdatagenerering. Om ditt DITA-avsnitt är för stort kan du även se JSP-kompileringsfelet. I det här avsnittet finns även information om hur du löser JSP-kompileringsfelet.
 
 ## Visa och kontrollera loggfilen {#id1822G0P0CHS}
 
 Utför följande steg för att visa och kontrollera loggfilen för generering av utdata:
 
-1. När du har initierat genereringsprocessen för utdata klickar du på **Utdata** i DITA-kartkonsolen.
+1. När du har initierat genereringsprocessen för utdata väljer du **Utdata** i DITA-kartkonsolen.
 
    Kolumnen **Allmänt** i **Genererade utdata** visar ikonerna för att ge en visuell indikator på om utdatagenereringen lyckades eller misslyckades.
 
@@ -27,7 +27,7 @@ Utför följande steg för att visa och kontrollera loggfilen för generering av
 
    På skärmbilden ovan visar den första och tredje ikonen misslyckad generering av utdata. Den andra ikonen visar att det gick att generera utdata, men med meddelanden. Den sista genereringen är en lyckad utdatagenerering utan något meddelande.
 
-1. Klicka på länken i kolumnen **Genererad** när jobbet är klart.
+1. Markera länken i kolumnen **Genererad** när jobbet är klart.
 
    Loggfilen öppnas på en ny flik.
 
@@ -48,35 +48,35 @@ Utför följande steg för att visa och kontrollera loggfilen för generering av
 
 Så här kopierar och kontrollerar du loggfilen för generering av utdata i en textredigerare:
 
-1. När du har initierat genereringsprocessen för utdata klickar du på **Utdata** i DITA-kartkonsolen.
+1. När du har initierat genereringsprocessen för utdata väljer du **Utdata** i DITA-kartkonsolen.
 
-1. Klicka på länken i kolumnen **Genererad** när jobbet är klart.
+1. Markera länken i kolumnen **Genererad** när jobbet är klart.
 
    Loggfilen öppnas på en ny flik.
 
-1. Klicka på knappen **Kopiera logg**. Loggfilen kopieras till Urklipp.
+1. Välj knappen **Kopiera logg**. Loggfilen kopieras till Urklipp.
 1. Öppna en textredigerare och klistra in loggfilen i redigeraren.
 
 1. Bläddra igenom loggfilen och sök efter meddelanden.
 
-   Följande information hjälper dig att avgöra om det finns något fel i DITA-filen eller AEM Guides-processen:
+   Följande information hjälper dig att avgöra om det finns något fel i DITA-filen eller Experience Manager Guides-processen:
 
    - *DITA-mappningsfilrelaterat fel*: Om ett fel påträffas i DITA-mappningsfilen eller i någon annan fil som finns i DITA-mappningen innehåller loggfilen strängen &quot;BUILD FAILED&quot;. Du kan kontrollera informationen i loggfilen för att hitta den felaktiga filen och åtgärda problemet.
 
-   I följande exempelavsnitt av loggfilen visas meddelandet `BUILD FAILED` tillsammans med orsaken till felet.
+   I följande exempelavsnitt av loggfilen kan du visa meddelandet `BUILD FAILED` tillsammans med orsaken till felet.
 
    ![](images/dita-error-in-log-file.png){width="650" align="left"}
 
-   - *AEM Guides-relaterat fel*: Den andra typen av fel som du kan identifiera i loggfilen är relaterat till själva AEM Guides-processen. I det här fallet tolkas DITA-kartfilen, men utdatagenereringsprocessen misslyckas på grund av ett internt fel i AEM Guides. För sådana fel måste du be om hjälp från det tekniska supportteamet.
+   - *Experience Manager Guides-relaterat fel*: Den andra typen av fel som du kan identifiera i loggfilen är relaterat till själva Experience Manager Guides-processen. I det här fallet tolkas DITA-kartfilen, men utdatagenereringsprocessen misslyckas på grund av ett internt fel i Experience Manager Guides. För sådana fel måste du be om hjälp från det tekniska supportteamet.
 
-   I följande exempelavsnitt av loggfilen visas meddelandet `BUILD SUCCESSFUL`, följt av ett annat tekniskt fel.
+   I följande exempelavsnitt av loggfilen kan du visa meddelandet `BUILD SUCCESSFUL` följt av ett annat tekniskt fel.
 
    ![](images/process-error-in-log-file.png){width="650" align="left"}
 
 
 ## Åtgärda JSP-kompileringsfel
 
-Om DITA-avsnittet är för stort kanske JSP-kompileringsfelet \(`org.apache.sling.api.request.TooManyCallsException`\) visas i webbläsaren. Det här felet kan uppstå när du öppnar ett ämne för redigering, granskning eller publicering.
+Om DITA-avsnittet är för stort kan du visa JSP-kompileringsfelet \(`org.apache.sling.api.request.TooManyCallsException`\) i webbläsaren. Det här felet kan uppstå när du öppnar ett ämne för redigering, granskning eller publicering.
 
 Utför följande steg för att lösa problemet:
 
@@ -84,7 +84,7 @@ Utför följande steg för att lösa problemet:
 
    Sidan Konfigurera Adobe Experience Manager Web Console visas.
 
-1. Sök efter och klicka på komponenten *Apache Sling Main Servlet* .
+1. Sök efter och välj komponenten *Apache Sling Main Servlet* .
 
    De konfigurerbara alternativen för huvudservern för Apache Sling visas.
 

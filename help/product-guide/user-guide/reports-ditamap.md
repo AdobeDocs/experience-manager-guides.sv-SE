@@ -4,28 +4,28 @@ description: Generera DITA-kartrapporter från kartpanelen i AEM Guides. Lär di
 exl-id: 7fe52ee0-e940-467b-9b8d-3d2371de7a84
 feature: Report Generation
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '759'
 ht-degree: 0%
 
 ---
 
 # DITA-kartrapport från kartpanelen {#id205BB800EEN}
 
-AEM Guides förser administratörerna med rapporteringsfunktioner för att kontrollera dokumentationens övergripande integritet innan den publiceras eller görs tillgänglig för slutanvändarna. DITA-kartrapporten från kartkontrollpanelen i AEM Guides innehåller värdefull information, t.ex. saknade ämnen, ämnen med saknade element, UUID för refererade ämnen och mediefiler samt granskningsstatus för varje ämne. En detaljerad rapport på individuell ämnesnivå innehåller även DITA-innehållsrelaterad information som innehållsreferenser, saknade bilder eller korsreferenser.
+Adobe Experience Manager Guides förser administratörerna med rapporteringsfunktioner för att kontrollera dokumentationens övergripande integritet innan den publiceras eller görs tillgänglig för slutanvändarna. DITA-kartrapporten från kartkontrollpanelen i Experience Manager Guides innehåller värdefull information, t.ex. saknade ämnen, ämnen med saknade element, UUID för refererade ämnen och mediefiler samt granskningsstatus för varje ämne. En detaljerad rapport på individuell ämnesnivå innehåller även DITA-innehållsrelaterad information som innehållsreferenser, saknade bilder eller korsreferenser.
 
 >[!NOTE]
 >
-> AEM Guides uppdaterar den här rapporten för varje händelse som resulterar i en ändring i kartfilen eller när en referens i ämnesfilen uppdateras.
+>Experience Manager Guides uppdaterar den här rapporten för varje händelse som resulterar i en ändring i kartfilen eller när en referens i ämnesfilen uppdateras.
 
 Utför följande steg för att visa DITA-kartrapporten:
 
-1. Navigera till och klicka på den DITA-kartfil som du vill visa rapporten för i Assets-användargränssnittet.
+1. Navigera till och markera den DITA-kartfil som du vill visa rapporten för i Assets-gränssnittet.
 
-1. Klicka på **Rapporter**.
+1. Välj **Rapporter**.
 
-   ![](images/reports-page-uuid.png){width="800" align="left"}
+   ![](images/reports-page-uuid-new.png){width="800" align="left"}
 
    Rapportsidan är uppdelad i två delar:
 
@@ -35,9 +35,9 @@ Utför följande steg för att visa DITA-kartrapporten:
 
    - **Information:**
 
-     När du klickar på ett ämne visas en detaljerad rapport om det valda ämnet.
+     När du väljer ett ämne visas en detaljerad rapport om det valda ämnet.
 
-     ![](images/detailed-report-uuid.png){width="800" align="left"}
+     ![](images/detailed-report-uuid-new.png){width="800" align="left"}
 
      Objekt som är markerade under **A**, **B**, **C** och **D** beskrivs nedan:
 
@@ -51,26 +51,28 @@ Utför följande steg för att visa DITA-kartrapporten:
 
       - **Dokumenttillstånd**: Dokumentets aktuella tillstånd - Utkast, Under granskning eller Granskad.
 
-      - **Saknade ämnen \(B\)**: Om det finns ämnen med brutna referenser visas dessa ämnen i listan Saknade ämnen.
-
       - **Saknade element**: Visar antalet saknade bilder eller eventuella brutna korsreferenser.
 
-      - **Öppna i redigeraren \(D\)**: Om du klickar på den här ikonen öppnas ämnet i webbredigeraren.
+      - **Saknade ämnen \(B\)**: Om det finns ämnen med brutna referenser visas dessa ämnen i listan Saknade ämnen.
+
+      - **Öppna i FrameMaker \(C\)**: Visar antalet saknade bilder eller eventuella brutna korsreferenser.
+
+      - **Öppna i redigeraren \(D\)**: Om du väljer den här ikonen öppnas ämnet i redigeraren.
 
 
    Objekt som är markerade under **E** beskrivs nedan:
 
-   - **Multimedia**: Sökvägen till bilder som används i avsnittet visas tillsammans med dess UUID. Om du klickar på bildsökvägen öppnas motsvarande bild i ett popup-fönster. Brutna bildlänkar anges i röd färg.
+   - **Multimedia**: Sökvägen till bilder som används i avsnittet visas tillsammans med dess UUID. Om du markerar bildsökvägen öppnas motsvarande bild i ett popup-fönster. Brutna bildlänkar anges i röd färg.
 
-   - **Innehållsreferenser**: Sökvägen till innehållet som refereras i avsnittet visas tillsammans med dess UUID. Om du klickar på titeln för det refererade innehållet öppnas motsvarande ämne i förhandsgranskningsläget.
+   - **Innehållsreferenser**: Sökvägen till innehållet som refereras i avsnittet visas tillsammans med dess UUID. Om du väljer titeln för det refererade innehållet öppnas motsvarande ämne i förhandsgranskningsläget.
 
-   - **Korsreferens**: Sökvägen för det korsrefererade innehållet visas tillsammans med dess UUID. Om du klickar på titeln för det refererade innehållet öppnas motsvarande ämne i förhandsgranskningsläget. Brutna korsreferenser visas i röd färg.
+   - **Korsreferens**: Sökvägen för det korsrefererade innehållet visas tillsammans med dess UUID. Om du väljer titeln för det refererade innehållet öppnas motsvarande ämne i förhandsgranskningsläget. Brutna korsreferenser visas i röd färg.
 
-   - **Granskning**: Visar status för ämnesgranskningen. Du kan se status \(öppna eller stäng\), förfallodatum och tilldelad för det ämne som granskas. Om du klickar på ämneslänken öppnas ämnet i granskningsläge.
+   - **Granskning**: Visar status för ämnesgranskningen. Du kan visa status \(öppna eller stäng\), förfallodatum och tilldelad för det ämne som granskas. Om du väljer ämneslänken öppnas ämnet i granskningsläge.
 
    - **Används i**: Visar en lista över andra ämnen eller kartor där ämnet används. UUID för alla sådana ämnen och kartor visas också.
 
-Förutom rapporten för varje enskilt ämne har administratörer även tillgång till information som publiceringshistorik för en DITA-karta. Mer information om historiken för genererade utdata finns i [Visa status för utdatagenereringsaktiviteten](generate-output-for-a-dita-map.md#viewing_output_history).
+Förutom rapporten för varje enskilt ämne har administratörer även tillgång till information som publiceringshistorik för en DITA-karta. Mer information om historiken för genererade utdata finns i avsnittet [Visa status för aktiviteten för utdatagenerering](generate-output-for-a-dita-map.md#viewing_output_history).
 
 ## Generera en CSV-fil över DITA-kartrapport
 
@@ -78,21 +80,21 @@ Du kan hämta och exportera CSV-filen för en DITA-kartrapport. CSV-filen inneh�
 
 Utför följande steg för att generera CSV-filen för en DITA-kartrapport:
 
-1. Klicka på **Generera rapport** i det övre vänstra hörnet för att generera DITA-kartrapporten.
+1. Välj **Generera rapport** längst upp till vänster för att generera DITA-kartrapporten.
 
-   ![](images/generate-DITA-map-report.png){width="800" align="left"}
+   ![](images/generate-DITA-map-report-new.png){width="800" align="left"}
 
-1. Du får ett meddelande när rapporten är klar att hämtas. Klicka på **Hämta** om du vill hämta CSV-filen för den genererade rapporten.
+1. Du får ett meddelande när rapporten är klar att hämtas. Välj **Hämta** om du vill hämta CSV-filen för den genererade rapporten.
 
-   ![](images/download-report-dialog.png){width="550" align="left"}
+   ![](images/download-report-dialog-new.png){width="550" align="left"}
 
 
-   Du kan även hämta CSV-filen för den genererade rapporten senare från AEM.
+   Du kan även hämta CSV-filen för den genererade rapporten senare från Experience Manager Notification Inbox.
 
-   Klicka på den genererade rapporten i Inkorgen för att hämta rapporten.
+   Välj den genererade rapporten i Inkorgen för att hämta rapporten.
 
    ![](images/report-inbox--notification.png){width="300" align="left"}
 
 När rapporten har laddats ned i Inkorgen kan du även välja rapporten och använda ikonen Öppna längst upp för att öppna den valda rapporten.
 
-**Överordnat ämne:**[ Rapporter](reports-intro.md)
+**Överordnat ämne:**[ Introduktion till rapporter](reports-intro.md)

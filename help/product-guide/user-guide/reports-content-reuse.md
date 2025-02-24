@@ -4,9 +4,9 @@ description: Lär dig hur du visar rapporten om återanvändning av innehåll i 
 exl-id: ccae4303-75b1-4077-829a-7ef6a14fd8ad
 feature: Report Generation
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '422'
 ht-degree: 0%
 
 ---
@@ -21,17 +21,17 @@ En annan användbar rapport som du kan generera är återanvändningsrapporten f
 
 Utför följande steg för att visa rapporten för återanvändning av innehåll:
 
-1. Klicka på länken Adobe Experience Manager överst och välj **Verktyg**.
+1. Markera Adobe Experience Manager logotyp överst och välj **Verktyg**.
 
 1. Välj **Stödlinjer** i listan över verktyg.
 
-1. Klicka på rutan **Återanvänd rapport** för innehåll.
+1. Markera rutan **Återanvänd rapport** för innehåll.
 
-1. Klicka på **Bläddra** om du vill välja en sökväg där dina ämnen finns eller ange sökvägen manuellt.
+1. Välj **Bläddra** om du vill välja en sökväg där dina ämnen finns eller ange sökvägen manuellt.
 
    Rapporten skapas genom att innehållet i den överordnade och alla underordnade mappar genomsöks.
 
-1. Klicka på **Generera rapport** för att hämta rapporten för återanvändning av innehåll.
+1. Välj **Generera rapport** för att hämta rapporten för återanvändning av innehåll.
 
    ![](images/content-reuse-uuid.png){width="800" align="left"}
 
@@ -39,13 +39,13 @@ Utför följande steg för att visa rapporten för återanvändning av innehåll
 
    - **Rapportsammanfattning:**
 
-     Visar en lista över genomsnittlig återanvändning av innehåll, som beräknas som Instansen för återanvändning av innehåll/totalt ämnesantal. Den här rapporten tar hänsyn till alla direkta innehållsreferenser på första nivån och ämnesreferenser för beräkning. Instanserna för återanvändning av innehåll beräknas som summan av värdena i fältet Antal gånger som återanvänds. Det ämne som återanvänds mest finns också med i rapportsammanfattningen. Om du klickar på ämneslänken i det mest återanvända ämnet öppnas ämnesens förhandsgranskning.
+     Visar en lista över genomsnittlig återanvändning av innehåll, som beräknas som Instansen för återanvändning av innehåll/totalt ämnesantal. Den här rapporten tar hänsyn till alla direkta innehållsreferenser på första nivån och ämnesreferenser för beräkning. Instanserna för återanvändning av innehåll beräknas som summan av värdena i fältet Antal gånger som återanvänds. Det ämne som återanvänds mest finns också med i rapportsammanfattningen. Om du markerar temats länk i avsnittet Senast återanvänt ämne öppnas ämnesens förhandsgranskning.
 
    - **Information:**
 
      Avsnittet Detaljer innehåller följande kolumner:
 
-      - **Titel**: Ämnets namn. Om du klickar på ämneslänken öppnas ämnesförhandsgranskningen.
+      - **Titel**: Ämnets namn. Om du väljer avsnittets titellänk öppnas ämnesförhandsvisningen.
 
       - **UID**: Den universellt unika identifieraren \(UUID\) för filen.
 
@@ -55,11 +55,11 @@ Utför följande steg för att visa rapporten för återanvändning av innehåll
 
       - **Antal gånger som återanvänds**: Antal gånger som motsvarande ämne har återanvänts. Detta beräknas som summan av posterna i Refererad av kolumner minus 1.
 
-      - **Refererad av**: De ämnen i vilka motsvarande ämne har refererats. Här beaktas endast de direkta \(första nivån\) referenserna. Flera ämnen avgränsas med kommatecken. UUID för den refererade filen anges också i parenteser. Om du klickar på avsnittets titellänk öppnas ämnesförhandsvisningen.
+      - **Refererad av**: De ämnen i vilka motsvarande ämne har refererats. Här beaktas endast de direkta \(första nivån\) referenserna. Flera ämnen avgränsas med kommatecken. Den refererade filens UUID anges också inom parentes. Om du väljer ämneslänken öppnas ämnesförhandsvisningen.
 
 
 >[!NOTE]
 >
-> Du kan också exportera återanvändningsrapporten för innehåll i CSV-format. Klicka på länken Exportera till CSV längst upp till vänster på skärmen och välj en plats där du vill spara CSV-filen. Du kan sedan öppna den här CSV-filen i valfri CSV-redigerare.
+> Du kan också exportera återanvändningsrapporten för innehåll i CSV-format. Om du vill göra det väljer du Exportera till CSV-länk längst upp till vänster på skärmen och väljer en plats där du vill spara CSV-filen. Du kan sedan öppna den här CSV-filen i valfri CSV-redigerare.
 
-**Överordnat ämne:**[ Rapporter](reports-intro.md)
+**Överordnat ämne:**[ Introduktion till rapporter](reports-intro.md)

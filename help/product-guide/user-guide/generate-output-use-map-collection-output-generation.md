@@ -4,58 +4,65 @@ description: Lär dig skapa och ta bort en kartsamling och lägga till eller ta 
 exl-id: 41152fa4-f739-44d2-9ccd-74072f53e31b
 feature: Publishing
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1251'
 ht-degree: 0%
 
 ---
 
 # Använd kartsamling för generering av utdata {#id1723F20G0HS}
 
-I alla organisationer kan en produkt ha flera typer av dokumentation. Som publiceringsspecialist vill du kontrollera vilka utdata du vill generera för vilket dokument. Det bör också finnas ett sätt att grupppublicera flera dokument med ett enda klick.
+I alla organisationer kan en produkt ha flera typer av dokumentation. Som publiceringsspecialist vill du kontrollera vilka utdata du vill generera för vilket dokument. Det bör också finnas ett sätt att grupppublicera flera dokument på en gång.
 
-Med AEM Guides kan du ordna ditt innehåll för publicering med hjälp av en kontrollpanel som heter Map Collection. Med en kartsamling kan du samla alla olika typer av dokument i en enda enhet. Du kan välja vilken typ av utdata som du vill generera för varje dokument i kartsamlingen. Dessutom kan du generera utdata och se hur utdatagenereringen fortskrider på publiceringspanelen.
+Med Adobe Experience Manager Guides kan du ordna ditt innehåll för publicering med hjälp av en kontrollpanel som heter Map Collection. Med en kartsamling kan du samla alla olika typer av dokument i en enda enhet. Du kan välja vilken typ av utdata som du vill generera för varje dokument i kartsamlingen. Dessutom kan du generera utdata och visa förloppet för generering av utdata från publiceringspanelen.
 
-Med Kartsamling kan du visa om det finns några ändringar i kartor från den senaste publicerade utdata. Du kan visa informationen på fliken Kartor och förinställningar i din kartsamling och sedan publicera utdata igen om det behövs. Mer information finns i Lägga till en karta i en kartsamling.
+Med Kartsamling kan du visa om det finns några ändringar i kartor från den senaste publicerade utdata. Du kan visa informationen på fliken Kartor och förinställningar i din kartsamling och sedan publicera utdata igen om det behövs.
 
 ## Skapa en kartsamling och lägg till DITA-kartor
 
 Så här skapar du en kartsamling och lägger till DITA-kartor i samlingen:
 
-1. Klicka på **Mappa samlingar** i Assets-gränssnittet.
+1. Öppna [Experience Manager Guides hemsida](./intro-home-page.md#map-collections) och välj **Kartsamlingar**.
 
-   Om länken Kartsamlingar inte är tillgänglig väljer du alternativet **Navigering** i den vänstra listen och klickar sedan på **Kartsamlingar**.
+   Sidan **Kartsamlingar** öppnas på en ny flik.
 
-   ![](images/access-map-collection-left-rail.png){width="350" align="left"}
+   ![](images/map-collections-page.png){width="350" align="left"}
 
-1. Ange en titel för kartsamlingen.
-1. Klicka på **Skapa**.
+   >[!NOTE]
+   >
+   > Du kan också öppna Assets-gränssnittet och välja **Kartsamlingar**. Om sidan Kartsamlingar inte är tillgänglig väljer du alternativet **Navigering** i den vänstra listen och sedan **Kartsamlingar**.
+
+1. På sidan **Kartsamlingar** väljer du **Skapa** längst upp till höger och anger en **samlingstitel** för din kartsamling.
+1. Välj **Skapa**.
 
    Ett meddelande om att det lyckades visas när kartsamlingen skapades.
 
-1. Klicka på **Stäng** i meddelandet Slutfört.
+1. Välj **Stäng** i meddelandet Slutfört.
 
    Den nyligen skapade kartfilen visas på sidan Kartsamlingar.
 
-1. Klicka på den grå rutan i den del av samlingen som du vill redigera.
-1. Klicka på **Redigera** och sedan på **Lägg till kartor**.
+1. Markera den grå rutan i den del av samlingen som du vill redigera.
+1. Den valda kartsamlingen öppnas på kartsamlingens kontrollpanel.
+1. Välj **Redigera** och sedan **Lägg till kartor**.
 1. Leta reda på och lägg till de DITA-kartor som du vill lägga till i kartsamlingen.
 
    Som standard läggs alla förinställningar och språkinställningar som är kopplade till kartan till automatiskt.
 
 1. Välj önskade utdata genom att aktivera eller inaktivera skjutknappen.
-1. Klicka på **Klar**.
+1. Välj **Klar**.
 
    DITA-kartfilerna läggs till i din kartsamling.
 
    ![kartsamlingens kontrollpanel](./images/map-collection-dashboard.png){width="800" align="left"}
 
+**Filtreringsalternativ**
+
 Följande filtreringsalternativ och mappningsinformation visas på samlingssidan:
 
-- **Filter:** I den senaste rälen visas följande filter:
+- **Filter:** Följande filter visas i den vänstra listen:
    - **Ändrad**: Du kan välja Ja eller Nej. Om du väljer ja visas endast de ändrade DITA-kartorna i tabellen Kartor och förinställningar.
-   - **Förinställning**: Välj en förinställning som du vill filtrera ut kartfilerna för. Om du t.ex. väljer *AEM Plats* -förinställning visas bara de kartor som har *AEM Platsens* förinställning konfigurerad för.
+   - **Förinställning**: Välj en förinställning som du vill filtrera ut kartfilerna för. Om du t.ex. väljer förinställningen *AEM Site* visas bara de kartor som har förinställningen *AEM Site* konfigurerad.
    - **Språk**: Du kan välja någon av de tillgängliga språkkoderna och endast visa det valda språket i tabellen Kartor och förinställningar.
 - Tabellen **Kartor och förinställningar**: Tabellen Kartor och förinställningar innehåller information i följande kolumner:
    - **Karta**: Visar titeln på DITA-kartfilen.
@@ -70,32 +77,32 @@ Följande filtreringsalternativ och mappningsinformation visas på samlingssidan
 
 Så här konfigurerar och genererar du utdata med en kartsamling:
 
-1. Öppna kartsamlingen.Du kan visa olika förinställningar för utdata, t.ex. AEM, PDF (inklusive ursprunglig PDF), HTML 5, EPUB och anpassade förinställningar. Du kan även visa de förinställningar för global profil och mappprofil som har skapats av administratören.
+1. Öppna kartsamlingen. Du kan visa olika förinställningar för utdata, t.ex. AEM Sites, PDF (inklusive ursprungliga PDF), HTML5, EPUB och anpassade förinställningar. Du kan även visa de förinställningar för global profil och mappprofil som har skapats av administratören.
 
    Ikonen ![](images/global-preset-icon.svg) indikerar en förinställning på mappprofilnivå.
 1. \(Valfritt\) Gör något av följande beroende på dina behov:
    - Använd filter från den vänstra listen för att filtrera ändrade kartor, förinställningar eller språk.
-   - Om det behövs klickar du på **Redigera** och ändrar önskade utdata genom att aktivera eller inaktivera skjutknappen.
+   - Om det behövs väljer du **Redigera** och ändrar önskade utdata genom att aktivera eller inaktivera skjutknappen.
 
 
-
-     >[!NOTE]
-     >  
-     > Som standard är alla nya förinställningar inaktiverade.
+   >[!NOTE]
+   >  
+   > Som standard är alla nya förinställningar inaktiverade.
 
 1. Du kan aktivera förinställningarna för en DITA-karta på följande sätt:
 
    - Aktivera alla enskilda förinställningar.
    - Aktivera **Alla förinställningar** för en DITA-karta om du vill välja alla förinställningar på en gång. Det här alternativet är inaktiverat som standard.
    - Aktivera **mappprofilförinställningar** för en DITA-karta om du vill välja alla mappprofilförinställningar för den. Det här alternativet är inaktiverat som standard.
-     ![redigera en kartsamling i molntjänster](images/edit-map-collection-cs.png){width="800" align="left"}
+
+![redigera en kartsamling i molntjänster](images/edit-map-collection-cs.png){width="800" align="left"}
 
 
 
 1. Gör något av följande:
 
-   - Om du vill generera utdata för markerade kartor markerar du kartfilerna och klickar på **Generera markerade**.
-   - Om du vill generera utdata för alla DITA-kartor med deras konfigurerade förinställningar klickar du på **Generera alla**.
+   - Om du vill generera utdata för markerade kartor markerar du kartfilerna och väljer **Generera markerade**.
+   - Om du vill generera utdata för alla DITA-kartor med deras konfigurerade förinställningar väljer du **Generera alla**.
 
    >[!IMPORTANT]
    >
@@ -115,30 +122,30 @@ Utför följande steg för att konfigurera metadataegenskaperna:
 
 1. Uppdatera metadataegenskaperna.
 
-1. Klicka på **Spara och stäng** överst för att spara uppdateringarna.
+1. Välj **Spara och stäng** längst upp för att spara uppdateringarna.
 1. (Valfritt) När du uppdaterar taggarna kan du även välja Lägg till i listrutan **Spara och stäng** för att lägga till de nya taggarna i den befintliga listan.
-1. Klicka på **Skicka** i listrutan **Spara och stäng**.
+1. Välj **Skicka** i listrutan **Spara och stäng**.
 Metadataegenskaperna uppdateras för de DITA-kartor som du väljer gruppvis i kartsamlingen.
 
 >[!NOTE]
 > 
 >I listrutan **Dokumenttillstånd** kan du bara välja de dokumentlägen som är tillåtna för alla markerade DITA-kartor. Mer information finns i [**Dokumenttillstånd**](./web-editor-document-states.md).
 
-Metadataegenskaperna är synkroniserade med filegenskaperna. När du har uppdaterat dem kan du visa dem på panelen **Filegenskaper** i webbredigeraren.
+Metadataegenskaperna är synkroniserade med filegenskaperna. När du har uppdaterat dem kan du visa dem på panelen **Filegenskaper** i redigeraren.
 
 
 
 ## Ta bort en kartsamling eller en DITA-karta från kartsamlingen
 
-- Om du vill ta bort en kartsamling markerar du en samling på sidan Kartsamling och klickar på **Ta bort**.
-- Om du vill ta bort en DITA-karta från en kartsamling öppnar du kartsamlingen i redigeringsläge, markerar DITA-kartfilen och klickar på **Ta bort från samling**.
+- Om du vill ta bort en kartsamling markerar du en samling på sidan Kartsamling och väljer **Ta bort**.
+- Om du vill ta bort en DITA-karta från en kartsamling öppnar du kartsamlingen i redigeringsläge, markerar DITA-kartfilen och väljer **Ta bort från samling**.
 
 Detta tar även bort alla förinställningar eller språkområden som är kopplade till DITA-kartan från kartsamlingen.
 
 
 ## Avbryt en utdatagenereringsaktivitet från en kartsamling
 
-På samma sätt som du avbryter en utdatagenereringsaktivitet från [DITA-kartkonsolen](generate-output-for-a-dita-map.md#id2061H100T5Z) eller [Publish Dashboard](generate-output-publish-dashboard.md#) kan du avbryta en utdatagenereringsaktivitet från en kartsamling. Gå till fliken Utdata i en kartsamling, gå till den publiceringsaktivitet som du vill avbryta och klicka på ikonen **Avbryt det här jobbet** för att avbryta publiceringsaktiviteten.
+På samma sätt som du avbryter en utdatagenereringsaktivitet från [DITA-kartkonsolen](generate-output-for-a-dita-map.md#id2061H100T5Z) eller [Publish Dashboard](generate-output-publish-dashboard.md#) kan du avbryta en utdatagenereringsaktivitet från en kartsamling. Gå till fliken Utdata i en kartsamling, gå till den publiceringsaktivitet som du vill avbryta och välj ikonen **Avbryt det här jobbet** för att avbryta publiceringsaktiviteten.
 
 ![](images/cancel-publish-task-map-collection.png){width="800" align="left"}
 

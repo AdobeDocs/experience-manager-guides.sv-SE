@@ -1,70 +1,61 @@
 ---
-title: Starta Web Editor
-description: Lär dig hur du startar webbredigeraren från AEM Navigation Page, AEM Assets UI och DITA map Console i AEM Guides.
+title: Starta redigeraren
+description: Lär dig hur du startar redigeraren från AEM Navigation Page, AEM Assets UI och Map Console i Adobe Experience Manager Guides.
 exl-id: cdde7c29-ee49-4e17-902e-1e2bd6f32e8a
 feature: Authoring, Web Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '715'
 ht-degree: 0%
 
 ---
 
-# Starta Web Editor {#id2056B0140HS}
+# Starta redigeraren {#id2056B0140HS}
 
-Du kan starta Web Editor från följande platser:
+Du kan starta redigeraren från följande platser:
 
-- [AEM navigeringssida](#id2056BG00RZJ)
-- [AEM Assets UI](#id2056BG0307U)
-- [DITA map console](#id2056BG090BF)
+- [Adobe Experience Manager Navigation page](#adobe-experience-manager-navigation-page)
+- [Adobe Experience Manager Assets UI](#adobe-experience-manager-assets-ui)
+- [Kartkonsol](#map-console)
 
-I följande avsnitt beskrivs hur du kommer åt och startar webbredigeraren från olika platser.
+I följande avsnitt beskrivs hur du kommer åt och startar redigeraren från olika platser.
 
-## AEM navigeringssida {#id2056BG00RZJ}
+## Adobe Experience Manager Navigation page
 
-När du loggar in AEM visas navigeringssidan:
+När du loggar in i Experience Manager visas navigeringssidan:
 
 ![](images/web-editor-from-navigation-page.png){width="800" align="left"}
 
-Om du klickar på länken **Stödlinjer** dirigeras du direkt till webbredigeraren.
+Om du väljer länken **Stödlinjer** kommer du till [Adobe Experience Manager Guides hemsida](./intro-home-page.md).
+
+![](images/aem-home-page.png){width="800" align="left"}
+
+Om du vill starta redigeraren går du till navigeringsfältet och väljer **Redigeraren** i listrutan. Hemsidan är markerad som standard.
+
+![](images/editor-home-page-dropdown.png){width="350" align="left"}
+
+När du har startat redigeraren utan att välja någon fil visas en tom redigeringsskärm. Du kan öppna en fil för redigering från Experience Manager **databas** eller dina **samlingar**.
 
 ![](images/web-editor-launch-page.png){width="800" align="left"}
 
-När du har startat webbredigeraren utan att välja någon fil visas en tom webbredigeringsskärm. Du kan öppna en fil för redigering AEM databasen eller din favoritsamling.
-
-- Klicka på ikonen **Stödlinjer** (![](images/aem-guides-icon.png) ) för att gå tillbaka till AEM navigeringssida.
-
-- Knappen **Stäng** tar dig till ett mål baserat på dina inställningar:
+Du kan också starta redigeraren genom att öppna de befintliga filerna i widgeten **Senaste filer** och widgeten **Samlingar** i [Adobe Experience Manager Guides Home page experience](./intro-home-page.md) .
 
 
+Om du vill gå tillbaka till Experience Manager Navigation-sidan väljer du Adobe Experience Manager logotyp i det övre vänstra hörnet av sidhuvudet.
 
-  <details>
 
-  <summary> Cloud Service </summary>
+## Adobe Experience Manager Assets UI
 
-  Om du använder Cloud Service klickar du på knappen **Stäng** för att gå tillbaka till AEM navigeringssida.
-  </details>
+En annan plats där du kan starta redigeraren är från Experience Manager Assets-gränssnittet. Du kan markera ett eller flera ämnen och öppna dem direkt i redigeraren.
 
-  <details>
-
-  <summary> Lokal programvara</summary>
-
-  Om du använder AEM Guides On-Local Software (4.2.1 och senare) klickar du på knappen **Close** till höger för att gå tillbaka till den aktuella filsökvägen i Assets-gränssnittet.
-
-  </details>
-
-## AEM Assets UI {#id2056BG0307U}
-
-En annan plats där du kan starta Web Editor är från AEM Assets-gränssnittet. Du kan markera ett eller flera ämnen och öppna dem direkt i Web Editor. Så här öppnar du ett ämne i Web Editor:
+Så här öppnar du ett ämne i Redigeraren:
 
 1. Gå till det avsnitt du vill redigera i användargränssnittet för Assets.
 
    >[!NOTE]
    >
-   > Du kan också se Ämnets UUID.
-
-   .
+   > Du kan även visa Ämnets UUID.
 
    ![](images/assets_ui_with_uuid_cs.png){width="800" align="left"}
 
@@ -72,56 +63,74 @@ En annan plats där du kan starta Web Editor är från AEM Assets-gränssnittet.
    >
    > Kontrollera att du har läs- och skrivbehörighet för mappen som innehåller det ämne som du vill redigera.
 
-1. Om du vill låsa ämnet exklusivt markerar du ämnet och klickar på **Checka ut**.
+1. Om du vill låsa ämnet exklusivt markerar du ämnet och väljer **Checka ut**.
 
    >[!IMPORTANT]
    >
-   > Om administratören har konfigurerat alternativet **Inaktivera redigering utan utcheckning** måste du checka ut filen innan du redigerar. Om du inte checkar ut filen kan du inte se redigeringsalternativet.
+   > Om administratören har konfigurerat alternativet **Inaktivera redigering utan att låsa filen** måste du checka ut filen innan du redigerar. Om du inte checkar ut filen kan du inte visa redigeringsalternativet.
 
-1. Stäng resursurvalsläget och klicka på det ämne som du vill redigera.
+1. Stäng resursurvalsläget och markera det ämne som du vill redigera.
 
    Ämnets förhandsgranskning visas.
 
-   Du kan öppna Web Editor från listvyn, kortvyn och förhandsgranskningsläget.
+   Du kan öppna redigeraren från listvyn, kortvyn och förhandsgranskningsläget.
 
    >[!IMPORTANT]
    >
-   > Om du vill öppna flera ämnen för redigering väljer du önskade ämnen i resursgränssnittet och klickar på Redigera. Kontrollera att webbläsaren inte har aktiverat popup-blockering, annars öppnas bara det första avsnittet i den markerade listan för redigering.
+   > Om du vill öppna flera ämnen för redigering markerar du önskade ämnen i resursgränssnittet och väljer **Redigera**. Kontrollera att webbläsaren inte har någon blockering aktiverad, annars öppnas bara det första avsnittet i den markerade listan för redigering.
 
    ![](images/edit-from-preview_cs.png){width="800" align="left"}
 
-   Om du inte vill förhandsgranska ett ämne och vill öppna det direkt i Web Editor klickar du på ikonen Redigera på snabbmenyn i kortvyn:
+   Om du inte vill förhandsgranska ett ämne och vill öppna det direkt i redigeraren väljer du ikonen **Redigera** på snabbåtgärdsmenyn i kortvyn:
 
    ![](images/edit-topic-from-quick-action_cs.png){width="800" align="left"}
 
-1. Klicka på **Redigera** för att öppna ämnet i webbredigeraren.
+   Ämnet öppnas i Redigeraren.
 
    ![](images/edit-mode.png){width="800" align="left"}
 
+Du kan också öppna en kartfil i Assets-gränssnittet och starta redigeraren för att redigera avsnitten i kartfilen.
 
-## DITA map console {#id2056BG090BF}
+Så här öppnar du en karta i Editor:
 
-Så här öppnar du Web Editor från DITA-kartkonsolen:
-
-1. Navigera till och klicka på DITA-kartfilen som innehåller det avsnitt du vill redigera i Assets-användargränssnittet.
-
-   DITA-kartkonsolen visas.
-
-1. Klicka på **Ämnen**.
-
-   En lista med ämnen i kartfilen visas. UUID för ämnen visas under ämnesrubriken.
-
+1. Navigera till och markera kartfilen som innehåller det ämne du vill redigera i användargränssnittet för Assets.
+1. Gå till fliken **Ämnen** i DITA-kartkonsolen. En lista med ämnen i kartfilen visas.
 1. Markera ämnesfilen som du vill redigera.
-
-1. Klicka på **Redigera ämne**.
+1. Välj **Redigera ämne**.
 
    ![](images/edit-topics-map-console_cs.png){width="800" align="left"}
 
-1. Ämnet öppnas i webbredigeraren.
+1. Ämnet öppnas i Redigeraren.
 
    >[!IMPORTANT]
    >
-   > Om administratören har konfigurerat alternativet **Inaktivera redigering utan utcheckning** måste du checka ut filen innan du redigerar. Om du inte checkar ut filen öppnas dokumentet i redigeraren i skrivskyddat läge.
+   > Om administratören har konfigurerat alternativet **Inaktivera redigering utan att låsa filen** måste du checka ut filen innan du redigerar. Om du inte checkar ut filen öppnas dokumentet i redigeraren i skrivskyddat läge.
+
+## Kartkonsol
+
+Så här öppnar du redigeraren från kartkonsolen:
+
+1. Öppna hemsidan och starta kartkonsolen.
+
+   ![](images/editor-map-console-dropdown.png){width="350" align="left"}
+
+   När du har startat kartkonsolen utan att välja någon kartfil visas en tom kartkonsolskärm. Du kan också öppna en kartfil från Experience Manager **databas** eller dina **samlingar**.
+
+   ![](images/launch-map-console.png){width="500" align="left"}
+
+1. Välj **Markera karta** om du vill öppna en kartfil som innehåller de ämnen du vill redigera i redigeraren.
+1. Välj den sökväg där kartfilen finns. Den markerade kartfilen läggs till i kartkonsolen.
+1. Navigera till kartfilen och välj **Öppna i redigeraren** i listrutan.
+
+   ![](images/map-console-open-in-editor.png){width="800" align="left"}
+
+   Kartfilen som innehåller ämnena är öppen för redigering i Editor.
+
+   ![](images/map-console-edit-topics.png){width="800" align="left"}
 
 
-**Överordnat ämne:**[ Arbeta med webbredigeraren](web-editor.md)
+
+
+
+
+**Överordnat ämne**: [Introduktion till redigeraren](web-editor.md)

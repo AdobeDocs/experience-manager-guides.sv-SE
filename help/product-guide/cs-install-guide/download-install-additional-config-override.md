@@ -5,9 +5,9 @@ exl-id: dc5f81f7-5b0a-4d12-a944-ba66b0239d5c
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: dae38cf948b99c8b89c61472938ce97b571f9366
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,30 @@ Följande allmänna tillvägagångssätt bör användas för att göra konfigura
    ```
 
 1. Genomför ändringarna och kör Cloud Manager pipeline för att distribuera den uppdaterade konfigurationen.
+
+## Konfigurera användargränssnittet för Experience Manager Guides
+
+2025.02.0-utgåvan av Adobe Experience Manager Guides har ett omgjort användargränssnitt och förbättrade funktioner som hjälper dig att arbeta snabbare och effektivare än någonsin. Detta inkluderar en helt ny hemsida, ett renare och mer organiserat redigeringsverktygsfält, en dedikerad kartkonsol och förbättrade funktioner.
+
+För att säkerställa en smidig övergång och minimera avbrott tillhandahåller Experience Manager Guides ett konfigurationsalternativ som gör att du kan växla tillbaka till det gamla användargränssnittet ( och vice versa) efter behov.
+
+>[!IMPORTANT]
+>
+> Det här konfigurationsalternativet för att växla mellan det nya och gamla användargränssnittet är tillgängligt till version 2025.4.0. Efter det kommer det nya användargränssnittet att bli standard och alternativet att växla tillbaka till det tidigare användargränssnittet stöds inte längre.
+
+Så här konfigurerar du användargränssnittet i Experience Manager Guides:
+
+1. Öppna Adobe Experience Manager och välj sedan det program som innehåller den miljö du vill konfigurera.
+2. Växla till fliken **Miljö**.
+3. Välj det miljönamn som du vill konfigurera. Du bör navigera till sidan **Miljöinformation**.
+4. Växla till fliken **Konfiguration**.
+5. Välj **Lägg till/uppdatera**.
+6. Lägg till information om gränssnittskonfigurationen. Se till att du använder samma namn och konfiguration som i skärmbilden nedan.
+
+   ![](assets/enable-penultimate-ui.png){width="800" align="left"}
+
+   Om du anger värdet till **true** behålls det gamla användargränssnittet, medan **false** aktiverar det nya användargränssnittet.
+
 
 
 **Överordnat ämne:**[ Hämta och installera](download-install.md)

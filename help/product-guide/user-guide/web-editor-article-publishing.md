@@ -1,35 +1,49 @@
 ---
-title: Artikelbaserad publicering från webbredigeraren
-description: Lär dig hur du publicerar en eller flera artiklar från webbredigeraren. Generera utdata för ett eller flera ämnen i en DITA-karta i AEM Guides.
+title: Generera kunskapsbasutdata
+description: Lär dig hur du publicerar en eller flera artiklar från kartkonsolen. Generera utdata för ett eller flera ämnen i en DITA-karta i AEM Guides.
 exl-id: d89ce69d-8d4c-4265-bfca-60763f561afd
-feature: Authoring, Features of Web Editor, Publishing
+feature: Publishing
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 4fbc9c8e28f2b68af0307255eb842065e93fbc83
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '341'
 ht-degree: 0%
 
 ---
 
-# Artikelbaserad publicering från webbredigeraren {#id218CL05J0M1}
+# Generera kunskapsbasutdata {#id218CL05J0M1}
 
-AEM Guides innehåller en artikelbaserad publiceringsfunktion som är integrerad i Web Editor och som gör att användarna kan publicera ett eller flera ämnen samtidigt.
+Adobe Experience Manager Guides har en artikelbaserad publiceringsfunktion som gör att användare kan publicera en eller flera kunskapsbasartiklar samtidigt.
 
-Den här motorn har också en OOTB-innehållsmall, som bygger på AEM kärnkomponenter, med vilken användarna kan skapa ett kunskapsbaserat arkiv med det tekniska innehållet. Den här mallen kan anpassas efter kundernas behov.Med den här motorn kan användarna skapa DITA-kartan på ett additivt sätt och publicera ämnen när de är klara. Du kan enkelt skapa förinställningar för kartan som du har öppnat på panelen Kartvy och snabbt generera utdata för ett eller flera ämnen på samma karta.
+Den här motorn har också en OOTB-innehållsmall, som bygger på Adobe Experience Manager kärnkomponenter, med vilken man kan skapa ett kunskapsbaserat arkiv med det tekniska materialet. Den här mallen kan anpassas efter kundernas behov.Med den här motorn kan användarna skapa DITA-kartan på ett additivt sätt och publicera ämnen när de är klara.
 
-Om du bara har uppdaterat innehållet för ett fåtal ämnen på din DITA-karta behöver du inte alltid publicera hela kartan. Du kan bara välja och publicera de uppdaterade avsnitten från Web Editor.
+Om du bara har uppdaterat innehållet för ett fåtal ämnen på din DITA-karta behöver du inte alltid publicera hela kartan. Du kan bara välja och publicera de uppdaterade avsnitten.
 
->[!NOTE]
->
-> Artikelbaserad publicering gäller endast för AEM.
+För artikelbaserad publicering måste du skapa förinställningen för din Knowledge Base DITA-karta. Kartan måste innehålla de ämnen som du vill publicera. Du kan också använda villkor och ange AEM Sites-information för förinställningen. Sedan kan du generera utdata med funktionen **Generera utdata** .
 
-För artikelbaserad publicering måste du skapa förinställningen för DITA-kartan från Web Editor. Kartan måste innehålla de ämnen som du vill publicera. Du kan också använda villkor och ange information om AEM för utdatapanelen. Sedan kan du generera utdata med funktionen Generera förinställning.
+Utför följande steg för att generera artikelbaserade utdata:
 
-Du kan också använda de förinställningar för utdata som du har skapat för DITA-kartan för att generera utdata från panelen Databas eller panelen Kartvy. Du kan generera utdata för ett eller flera ämnen eller för hela DITA-kartan.
+1. [Skapa kunskapsbasförinställningen](./generate-output-knowledge-base.md) för artikelbaserade utdata.
+1. Navigera till fliken **Artiklar** och markera de ämnen som du vill generera utdata för.
+1. Välj **Generera utdata** längst upp för att generera utdata.
 
-- **[Skapa förinställningar för utdata från Web Editor](web-editor-article-publishing-presets.md)**
+   ![](images/add-preset-articles-tab_cs.png){width="800" align="left"}
 
-- **[Generera utdata från panelen Databas eller panelen Kartvy](web-editor-article-publishing-output.md)**
+1. Markera de filer som du vill publicera och bekräfta genom att välja **Publicera** i **Bekräfta filer för publicering** .
+
+   ![Nytt ](images/knowledge-base-confirm-files-for-publishing.png){width="800" align="left"}
+
+   Du visar status för genereringsprocessen för utdata. Kolumnen **Ämnen** visar ämnen som utdata genereras för medan kolumnen **Status** visar publiceringsstatusen för varje ämne.
 
 
-**Överordnat ämne:**[ Arbeta med webbredigeraren](web-editor.md)
+   ![](images/add-preset-output-generated_cs.png){width="800" align="left"}
+
+   Om du vill visa utdata stänger du dialogrutan **Utdata genererade** och väljer **Visa utdata** på förinställningssidan.
+
+
+   >[!NOTE]
+   >
+   > Du kan också byta namn på, duplicera eller ta bort en befintlig förinställning på Alternativ-menyn.
+
+
+**Överordnat ämne:**[ Arbeta med redigeraren](web-editor.md)

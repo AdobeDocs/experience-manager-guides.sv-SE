@@ -4,14 +4,18 @@ description: Generera utdata från databaspanelen eller kartvyn i AEM Guides. L�
 exl-id: f7a4be54-9c51-44e6-96bb-f25e3a6155da
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: a02a7310f5e332f88827a9d5a05034abec05b43a
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
 
 # Generera utdata från panelen Databas eller panelen Kartvy {#id218CL6010AE}
+
+>[!NOTE]
+>
+> Panelen Snabbgenerering, som tidigare fanns i Adobe Experience Manager Guides, har tagits bort från version 4.0 och 2502. Du har inte åtkomst till snabbgenereringspanelen för att generera utdata från panelen Databas eller panelen Kartvy.
 
 Du kan också använda de förinställningar för utdata som du har skapat för DITA-kartan för att generera utdata från panelen Databas eller panelen Kartvy.
 
@@ -23,7 +27,7 @@ Du kan också använda de förinställningar för utdata som du har skapat för 
 
 - Använd funktionen **Generera utdata** på panelen Kartvy om du vill generera utdata för de markerade ämnena.
 
-## Publish ett ämne som används över en eller flera DITA-kartor
+## Publicera ett ämne som används på en eller flera DITA-kartor
 
 Utför följande steg för att generera utdata för ett eller flera ämnen på din DITA-karta:
 

@@ -1,9 +1,10 @@
 ---
 title: Så här fungerar AEM Guides
-description: Läs om hur AEM Guides kan samarbeta med AEM och andra DITA-redigerare för att möjliggöra hantering, återanvändning, översättning och granskning av innehåll i ett företagsscenario.
+description: Läs om hur AEM Guides kan samarbeta med AEM och andra DITA-redigerare för att möjliggöra hantering, återanvändning, översättning och granskning av material i ett företagsscenario.
 feature: Introduction
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+exl-id: 531f7d2c-7b11-44b1-b4af-d3f660066643
+source-git-commit: cbcb55fc239d9469de45a224f14361db14ec5f76
 workflow-type: tm+mt
 source-wordcount: '68'
 ht-degree: 0%
@@ -17,4 +18,4 @@ I följande diagram visas hur AEM Guides fungerar tillsammans med AEM och en DIT
 ![](images/xml-add-on-how-it-works.png){width="800" align="center"}
 
 
-**Överordnat ämne:**[ Om Adobe Experience Manager Guides as a Cloud Service](intro.md)
+**Överordnat ämne:**[ Om Adobe Experience Manager Guides as a Cloud Service](../user-guide/intro.md)
