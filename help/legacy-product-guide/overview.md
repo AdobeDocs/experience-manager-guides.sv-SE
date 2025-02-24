@@ -4,18 +4,14 @@ description: Hitta självstudiekurser för Experience Manager Guides (tidigare X
 feature: AEM Guides Tutorials
 role: User
 exl-id: de7bda03-371b-4414-846b-86787f98fda8
-source-git-commit: 67d6b6f59e5d8c37389a181949ce4527760576e2
+source-git-commit: 293d2fd9c015a4ec516080b9e5dfed32b96639b7
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '236'
 ht-degree: 0%
 
 ---
 
 # AEM Guides - översikt
-
->[!NOTE]
->
->Det här är ett meddelande om den äldre guiden. Den kan användas i stället för eller som tillägg till metadatamärket.
 
 [!DNL Experience Manager Guides] (kallas _[!DNL AEM Guides]_nedan) är en kraftfull innehållshanteringslösning för komponenter i företagsklass. Det möjliggör inbyggt DITA-stöd i Experience Manager och ger AEM möjlighet att hantera DITA-baserad framtagning och leverans av innehåll. Man kan skapa material offline med valfritt DITA-verktyg, t.ex. Adobe FrameMaker eller en lättanvänd webbredigerare.
 
@@ -26,59 +22,6 @@ Med lösningen [!DNL AEM Guides] kan företag leverera sömlösa och personalise
 >[!NOTE]
 > 
 > Adobe Experience Manager Guides har tidigare klassats som _XML Documentation för Adobe Experience Manager_. Observera att vissa referenser i dokumentationen fortfarande kan avse tidigare branding men fortfarande gäller för det aktuella erbjudandet.
-
-<!--
-
-Dummy links cause validation to fail
-
-## Staff Picks
-
-<table>
-<tr>
-  <td>
-    <a href="#">
-      <img alt="400 x 225px" src="myimage.png" />
-    </a>
-    <div>
-      <a href="#">
-    <strong>Enablement Content 1</strong>
-    </a>
-    </div>
-    <p>
-    <em>A brief description of enablement content.</em>
-    <p>
-  </td>
-   <td>
-    <a href="#">
-      <img alt="400 x 225px" src="myimage.png" />
-    </a>
-    <div>
-      <a href="#">
-    <strong>Enablement Content 1</strong>
-    </a>
-    </div>
-    <p>
-    <em>A brief description of enablement content.</em>
-    <p>
-  </td>
-  <td>
-    <a href="#">
-      <img alt="400 x 225px" src="myimage.png" />
-    </a>
-    <div>
-      <a href="#">
-    <strong>Enablement Content 1</strong>
-    </a>
-    </div>
-    <p>
-    <em>A brief description of enablement content.</em>
-    <p>
-  </td>
-</tr>
-</table>
-
--->
-
 
 ## Ytterligare resurser
 

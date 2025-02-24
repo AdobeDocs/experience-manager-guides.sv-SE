@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Läs produktdokumentationen för Adobe Experience Manager Guides.
 breadcrumb-title: Dokumentation om AEM Guides
-source-git-commit: ab7e91306d9a5253205e773f148d789141b9b0d1
+source-git-commit: 293d2fd9c015a4ec516080b9e5dfed32b96639b7
 workflow-type: tm+mt
-source-wordcount: '2034'
+source-wordcount: '2040'
 ht-degree: 2%
 
 ---
@@ -126,7 +126,8 @@ ht-degree: 2%
       - [!DNL AEM Guides] fungerar och nyckelfunktioner {#aemg-works-features}
          - [Så här fungerar [!DNL AEM Guides] ](./user-guide/intro-how-dxml-works.md)
          - [Viktiga [!DNL AEM Guides] funktioner](./user-guide/intro-dxml-features.md)
-   - [[!DNL AEM Guides] - startsida](./user-guide/intro-home-page.md)
+   - Startsida {#home-page}
+      - [[!DNL AEM Guides] - startsida](./user-guide/intro-home-page.md)
    - Skapar innehåll {#author-content}
       - [Redigeringsöversikt](./user-guide/authoring-content.md)
       - [Olika sätt att skapa innehåll med AEM Guides](./user-guide/authoring-content-xml-doc.md)
@@ -158,7 +159,7 @@ ht-degree: 2%
          - [Använda DITAVAL-redigeraren](./user-guide/ditaval-editor.md)
       - Skrivbordsverktyg för att skapa innehåll {#author-using-desktop-tools}
          - [Skapa innehåll med hjälp av skrivbordsverktyg](./user-guide/author-desktop-tools.md)
-   - Granska {#review}
+   - Granska innehåll {#review}
       - [Introduktion till granskning](./user-guide/review.md)
       - [Skapa ett DITA-projekt](./user-guide/authoring-create-dita-project.md)
       - [Skicka ämnen för granskning](./user-guide/review-send-topics-for-review.md)
@@ -177,6 +178,19 @@ ht-degree: 2%
    - Karthantering och publicering {#map-management-publishing}
       - [Översikt över kartkonsolen](./user-guide/map-console-overview.md)
       - [Öppna filer i kartkonsolen](./user-guide/open-files-map-console.md)
+      - Rapporter {#reports-aem-guide}
+         - [Introduktion till rapporter](./user-guide/reports-intro.md)
+         - [DITA-kartrapport från kartkonsolen](./user-guide/reports-web-editor.md)
+         - [DITA-kartrapport från kartpanelen](./user-guide/reports-ditamap.md)
+         - [Återanvänd innehåll - rapport](./user-guide/reports-content-reuse.md)
+         - [Statusrapport för konvertering](./user-guide/reports-convertion-status.md)
+         - [Versionshistorik för återskapade filer](./user-guide/reports-reverted-file-version-history.md)
+      - Översättning av innehåll {#translate-content}
+         - [Översikt över översättning av innehåll](./user-guide/translation.md)
+         - [Bästa tillvägagångssätt för innehållsöversättning](./user-guide/translation-first-time.md)
+         - [Översätta dokument från kartkonsolen](./user-guide/translate-documents-web-editor.md)
+         - [Visa översättningsstatus](./user-guide/translation-view-trans-state-6234.md)
+         - [Översätt ändrade ämnen](./user-guide/translation-modified-topics-6234.md)
       - Utdatagenerering {#output-gen}
          - [Grundläggande om generering av utdata](./user-guide/generate-output.md)
          - Utdataförinställningar i AEM Guides {#output-presets-aemg}
@@ -203,19 +217,6 @@ ht-degree: 2%
          - [Hantera förinställningar för utdata för global profil och mappprofil](./user-guide/web-editor-manage-output-presets.md)
          - [Använd variabler för att ange alternativen Målsökväg, Platsnamn eller Filnamn](./user-guide/generate-output-use-variables.md)
          - [Skicka metadata till utdata med DITA-OT](./user-guide/pass-metadata-dita-ot.md)
-         - Rapporter {#reports-aem-guide}
-            - [Introduktion till rapporter](./user-guide/reports-intro.md)
-            - [DITA-kartrapport från kartkonsolen](./user-guide/reports-web-editor.md)
-            - [DITA-kartrapport från kartpanelen](./user-guide/reports-ditamap.md)
-            - [Återanvänd innehåll - rapport](./user-guide/reports-content-reuse.md)
-            - [Statusrapport för konvertering](./user-guide/reports-convertion-status.md)
-            - [Versionshistorik för återskapade filer](./user-guide/reports-reverted-file-version-history.md)
-         - Översättning av innehåll {#translate-content}
-            - [Översikt över översättning av innehåll](./user-guide/translation.md)
-            - [Bästa tillvägagångssätt för innehållsöversättning](./user-guide/translation-first-time.md)
-            - [Översätta dokument från kartkonsolen](./user-guide/translate-documents-web-editor.md)
-            - [Visa översättningsstatus](./user-guide/translation-view-trans-state-6234.md)
-            - [Översätt ändrade ämnen](./user-guide/translation-modified-topics-6234.md)
          - Generera utdata {#generate-output}
             - [Generera utdata för en DITA-karta](./user-guide/generate-output-for-a-dita-map.md)
             - [Generera kunskapsbasutdata](./user-guide/web-editor-article-publishing.md)
@@ -228,12 +229,12 @@ ht-degree: 2%
          - [Hantera genereringsprocess för utdata](./user-guide/generate-output-manage-process.md)
          - [Hantera publiceringsuppgifter med Publish Dashboard](./user-guide/generate-output-publish-dashboard.md)
          - [Grundläggande felsökning](./user-guide/generate-output-basic-troubleshooting.md)
-         - Massaktivering av innehållet {#bulk-activation}
-            - [Massaktivering av publicerat innehåll](./user-guide/conf-bulk-activation.md)
-            - [Skapa en gruppaktiveringskarta](./user-guide/conf-bulk-activation-create-map-collection.md)
-            - [Aktivera utdata](./user-guide/conf-bulk-activation-publish-map-collection.md)
-            - [Redigera en gruppaktiveringskarta](./user-guide/conf-bulk-activation-edit-map-collection.md)
-            - [Ta bort en gruppaktiveringskarta](./user-guide/conf-bulk-activation-delete-map-collection.md)
+      - Massaktivering av innehållet {#bulk-activation}
+         - [Massaktivering av publicerat innehåll](./user-guide/conf-bulk-activation.md)
+         - [Skapa en gruppaktiveringskarta](./user-guide/conf-bulk-activation-create-map-collection.md)
+         - [Aktivera utdata](./user-guide/conf-bulk-activation-publish-map-collection.md)
+         - [Redigera en gruppaktiveringskarta](./user-guide/conf-bulk-activation-edit-map-collection.md)
+         - [Ta bort en gruppaktiveringskarta](./user-guide/conf-bulk-activation-delete-map-collection.md)
    - Utdatagenerering av FrameMaker-dokument {#generate-fm-output}
       - [Grundläggande om generering av FrameMaker-utdata](./user-guide/fm-output-generatation.md)
       - Förinställningar som stöds {#fm-docs-generating-presets}
@@ -256,7 +257,8 @@ ht-degree: 2%
          - [Överför filer](./user-guide/authoring-upload-existing-files.md)
          - [Hantera filer och mappar](./user-guide/authoring-file-management.md)
          - [Hämta filer](./user-guide/authoring-download-assets.md)
-- [Användarhandbok (gammalt användargränssnitt)](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+- Användarhandbok (gammalt användargränssnitt) {#user-guide-old-ui}
+   - [AEM Guides - översikt)](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installation och konfiguration {#install-guide}
    - Lokal {#on-prem-ig}
       - [Grunderna på plats](./install-guide/introduction.md)

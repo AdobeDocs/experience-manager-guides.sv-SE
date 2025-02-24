@@ -1,13 +1,13 @@
 ---
 user-guide-title: Experience Manager Guides Old UI
-user-guide-description: Läs produktdokumentationen för Adobe Experience Manager Guides.
+user-guide-description: Läs produktdokumentationen för Adobe Experience Manager Guides i det gamla användargränssnittet.
 breadcrumb-title: Dokumentation om AEM Guides
 hide: true
 badgeAll: label="Gammal gränssnittshandbok - mer information" type="Informative" url="/help/legacy-product-guide/disclaimer.md" tooltip="Gammal gränssnittshandbok"
-source-git-commit: e1d6123991ddd8d25f76ee03befeb95f020a9834
+source-git-commit: 293d2fd9c015a4ec516080b9e5dfed32b96639b7
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 2%
+source-wordcount: '555'
+ht-degree: 0%
 
 ---
 
@@ -139,4 +139,5 @@ ht-degree: 2%
       - [Återanvänd innehåll - rapport](./user-guide/reports-content-reuse.md)
       - [Statusrapport för konvertering](./user-guide/reports-convertion-status.md)
       - [Rapport över versionshistorik för återskapade filer](./user-guide/reports-reverted-file-version-history.md)
-- [Användarhandbok (nytt användargränssnitt)](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/about-aem-guide/intro)
+- [ANVÄNDARHANDBOK (NYTT UI)](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/about-aemg/intro)
+
