@@ -2,7 +2,7 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Läs produktdokumentationen för Adobe Experience Manager Guides.
 breadcrumb-title: Dokumentation om AEM Guides
-source-git-commit: 293d2fd9c015a4ec516080b9e5dfed32b96639b7
+source-git-commit: 7252254443b5f1fee8c51e49efe23da418e46d50
 workflow-type: tm+mt
 source-wordcount: '2040'
 ht-degree: 2%
@@ -258,7 +258,7 @@ ht-degree: 2%
          - [Hantera filer och mappar](./user-guide/authoring-file-management.md)
          - [Hämta filer](./user-guide/authoring-download-assets.md)
 - Användarhandbok (gammalt användargränssnitt) {#user-guide-old-ui}
-   - [AEM Guides - översikt)](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [AEM Guides - översikt](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installation och konfiguration {#install-guide}
    - Lokal {#on-prem-ig}
       - [Grunderna på plats](./install-guide/introduction.md)
