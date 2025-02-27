@@ -3,7 +3,9 @@ title: Hantera publiceringsuppgifter med Publish Dashboard
 description: Hantera publiceringsuppgifter med Publish Dashboard i AEM Guides. Lär dig hur du kommer åt kontrollpanelen för publicering och avbryter en publiceringsåtgärd.
 feature: Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 9d311979-a7d7-47f5-945c-520eda99798f
+source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 0%
@@ -12,13 +14,13 @@ ht-degree: 0%
 
 # Hantera publiceringsuppgifter med Publish Dashboard {#id205CC08305Z}
 
-När du har ett stort antal publiceringsuppgifter som körs på datorn blir det praktiskt taget omöjligt att kontrollera varje DITA-karta individuellt för att övervaka dess publiceringsuppgift. AEM Guides ger administratörer och utgivare en enhetlig vy över alla publiceringsuppgifter som körs i systemet. En lista över alla aktiva publiceringsåtgärder finns i Publish Dashboard.
+När du har ett stort antal publiceringsuppgifter som körs på datorn blir det praktiskt taget omöjligt att kontrollera varje DITA-karta individuellt för att övervaka dess publiceringsuppgift. AEM Guides ger administratörer och utgivare en enhetlig vy över alla publiceringsuppgifter som körs i systemet. En lista över alla aktiva publiceringsåtgärder finns på Publish Dashboard.
 
-Publish Dashboard ger en fullständig översikt över alla publiceringsuppgifter som för närvarande körs i systemet.
+På Publish Dashboard finns en fullständig översikt över alla publiceringsåtgärder som för närvarande körs i systemet.
 
 ![](images/publish-dashboard.png){width="800" align="left"}
 
-Publish Dashboard innehåller följande information:
+Kontrollpanelen för publicering innehåller följande information:
 
 - **Karttitel** - titeln på en kartfil som publiceras eller finns i publiceringskön.
 
@@ -34,9 +36,9 @@ Publish Dashboard innehåller följande information:
 
 - **Ta bort ikon** - Avbryt eller avsluta en publiceringsaktivitet.
 
-Den vänstra panelen i Publish Dashboard innehåller följande filtreringsalternativ:
+Den vänstra panelen på kontrollpanelen Publicera innehåller följande filtreringsalternativ:
 
-- **Utdataförinställning** - Välj en eller flera förinställningar för vilka du vill se de publiceringsåtgärder som är aktiva. På följande skärmbild filtreras publiceringsaktiviteterna så att de endast visar de uppgifter som använder AEM webbplatsens utdataförinställning:
+- **Utdataförinställning** - Välj en eller flera förinställningar för vilka du vill se de publiceringsåtgärder som är aktiva. På följande skärmbild filtreras publiceringsaktiviteterna så att endast de uppgifter som använder förinställningen för utdata för AEM Site visas:
 
   ![](images/publish-dashboard-preset-filter.png){width="800" align="left"}
 
@@ -67,11 +69,11 @@ Utför följande steg för att komma åt Publish Dashboard:
 
 >[!NOTE]
 >
-> Du kan även komma åt Publish Dashboard från fliken Utdata när du genererar utdata från kartkontrollpanelen. Mer information finns i [Visa status för utdatagenereringsaktiviteten](generate-output-for-a-dita-map.md#viewing_output_history).
+> Du kan även öppna Publish Dashboard från fliken Outputs när du genererar utdata från kartkontrollpanelen. Mer information finns i [Visa status för utdatagenereringsaktiviteten](generate-output-for-a-dita-map.md#viewing_output_history).
 
 ## Avbryta en publiceringsaktivitet
 
-Utför följande steg för att avbryta en utdatagenereringsuppgift från Publish Dashboard:
+Utför följande steg för att avbryta en utdatagenereringsåtgärd från Publish Dashboard:
 
 1. [Öppna Publish Dashboard](#id205CC100DY4).
 
@@ -81,7 +83,7 @@ Utför följande steg för att avbryta en utdatagenereringsuppgift från Publish
 
 1. Klicka på **Ja** i meddelandet Bekräfta annullering.
 
-   Kommandot Avbryt accepteras och ett försök att avbryta görs så länge som aktiviteten är aktiv. När aktiviteten har avslutats tas den bort från den aktiva uppgiftslistan. Aktivitetens status uppdateras även i DITA-kartkonsolen som Avbruten. I skärmbilden nedan avbryts aktiviteten *HTML5* från Publish Dashboard och dess status ändras även i DITA-kartkonsolen.
+   Kommandot Avbryt accepteras och ett försök att avbryta görs så länge som aktiviteten är aktiv. När aktiviteten har avslutats tas den bort från den aktiva uppgiftslistan. Aktivitetens status uppdateras även i DITA-kartkonsolen som Avbruten. I skärmbilden nedan avbryts aktiviteten *HTML5* från kontrollpanelen för publicering och dess status ändras även i DITA-kartkonsolen.
 
    ![](images/cancelled-output-task.png){width="800" align="left"}
 

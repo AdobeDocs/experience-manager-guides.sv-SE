@@ -3,7 +3,9 @@ title: Arbeta med den grundläggande kartredigeraren
 description: Lär dig hur du arbetar med den grundläggande kartredigeraren i AEM Guides. Lär dig funktionerna i den grundläggande kartredigeraren på mappnivå och ämnesnivå. Skapa och redigera relationstabeller i en DITA-karta.
 feature: Authoring, Map Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 194caf31-15ae-436d-bbd4-3ea4907c7877
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '1471'
 ht-degree: 0%
@@ -17,7 +19,7 @@ ht-degree: 0%
 > Redigeraren för den grundläggande kartan, som tidigare fanns i Experience Manager Guides, har tagits bort från version 4.3 och 2307. Du har inte åtkomst till redigeraren för grundläggande kartor för att skapa och hantera DITA-kartor.
 >Du rekommenderas att använda den avancerade kartredigeraren. Avancerad kartredigerare har förbättrade funktioner och bättre alternativ för anpassning. Läs mer om hur du arbetar med [Avancerad kartredigerare](../user-guide/map-editor-advanced-map-editor.md).
 
-Med den grundläggande redigeringsfunktionen för kartor kan du enkelt dra och släppa för att lägga till ämnen från din AEM för att skapa en DITA-karta eller en bokkarta. Du kan lägga till kapslade ämnen, relationstabeller, attribut och metadatainformation och även validera kartan för att se om den är korrekt.
+Med den grundläggande redigeringsfunktionen för kartor kan du enkelt dra-och-släppa för att lägga till ämnen från AEM-databasen och skapa en DITA-karta eller en bokkarta. Du kan lägga till kapslade ämnen, relationstabeller, attribut och metadatainformation och även validera kartan för att se om den är korrekt.
 
 >[!NOTE]
 >

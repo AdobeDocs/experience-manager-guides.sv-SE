@@ -3,7 +3,9 @@ title: Grundläggande felsökning
 description: Lös problem med grundläggande felsökning i AEM Guides. Lär dig att visa, kopiera och kontrollera loggfilen i en textredigerare och åtgärda JSP-kompileringsfel.
 feature: Publishing, Troubleshooting
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: f85fee0f-30d1-453f-8700-781e0be8f616
+source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 0%

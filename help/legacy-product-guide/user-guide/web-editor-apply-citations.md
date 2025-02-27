@@ -3,7 +3,9 @@ title: Lägga till och hantera citat i ditt innehåll
 description: Lägg till och hantera citat i AEM Guides. Lär dig hur du använder, importerar, filtrerar, söker, ändrar format för citat, redigerar, förhandsgranskar, infogar, tar bort och genererar innehållsutdata med citationer.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: f8f1116efbf0c7c26f6ebacf6234dcc2fee636c1
+hide: true
+exl-id: 832dbc5d-85f7-41fd-8f5d-789732b46f80
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '1887'
 ht-degree: 0%
@@ -17,7 +19,7 @@ Citat är referenser till den informationskälla som har lagts till i innehålle
 I AEM Guides kan du lägga till och importera citat och använda dem i ditt innehåll. Du kan lägga till dessa citat från alla typer av böcker, webbplatser och journaler.
 
 
-AEM Guides hjälper dig att redigera, förhandsgranska och sortera dina citat. När du har lagt till dina citat i innehållet kan du generera utdata med hjälp av PDF. Du kan också lägga till litteraturförtecknings- eller referenssidan i utdata från PDF.
+AEM Guides hjälper dig att redigera, förhandsgranska och sortera dina citat. När du har lagt till dina citat i innehållet kan du generera utdata med PDF. Du kan också lägga till litteraturförtecknings- eller referenssidan i PDF-utdata.
 
 AEM Guides har stöd för många olika typer av citationer, som Modern Language Association (MLA), American Psychological Association (APA), Chicago, Institute for Electrical and Electronics Engineers (IEEE) och American Heart Association (AHA). Rekommendationen är att använda dem tydligt och konsekvent.
 
@@ -127,7 +129,7 @@ Panelen **Källhänvisningar** öppnas.
 ### Ändra format för citattecken {#change-citation-style}
 
 Systemadministratören kan ändra formatet på citat från listrutan **Citat** på fliken **Allmänna inställningar** i **redigeringsinställningarna**.
-Dessa format styr hur citat visas i förhandsgranskningsfönstret eller i utdata från PDF.
+Dessa format styr hur citat visas i förhandsgranskningsfönstret eller i PDF-utdata.
 
 Följande alternativ är tillgängliga i listrutan:
 
@@ -212,7 +214,7 @@ Den markerade texten läggs till vid markörens plats i ditt ämne.
 1. Markera de citat du vill infoga i dialogrutan **Citat**.
 1. Välj **Klar** om du vill lägga till dem i ämnet.
 
-När du har infogat citat i ämnet kan du förhandsgranska dem i webbredigeraren. Du kan också publicera innehåll med citat med hjälp av PDF.
+När du har infogat citat i ämnet kan du förhandsgranska dem i webbredigeraren. Du kan även publicera innehåll med citat med hjälp av PDF.
 
 
 
@@ -253,11 +255,11 @@ Placera markören i slutet av citattecknet.
 
 ## Generera utdata av innehåll med citationer
 
-När du har infogat citat i avsnittet kan du publicera innehåll med citat med hjälp av PDF.
+När du har infogat citat i ämnet kan du publicera innehåll med citat med hjälp av PDF.
 
-I utdata för PDF visas citaten i det innehåll där du infogat dem. Du kan också skapa en litteraturförteckningssida. När du klickar på ett citat omdirigeras du till litteraturförteckningssidan.
+I utdata från PDF visas citaten i det innehåll där du infogat dem. Du kan också skapa en litteraturförteckningssida. När du klickar på ett citat omdirigeras du till litteraturförteckningssidan.
 
-Skapa en sidlayout för **Källhänvisningar** i PDF-mallarna och inkludera den i dokumentet. Alla citat som används i boken listas på en sida som visas i utdata från PDF. Mer information om hur du skapar en sidlayout finns i [Skapa en sidlayout](/help/product-guide/native-pdf/components-pdf-template.md#create-page-layout).
+Skapa en sidlayout för **Källhänvisningar** i PDF-mallarna och inkludera den i dokumentet. Alla citat som används i boken listas på en sida som visas i PDF-utdata. Mer information om hur du skapar en sidlayout finns i [Skapa en sidlayout](/help/product-guide/native-pdf/components-pdf-template.md#create-page-layout).
 
 
 Visa [Anpassa PDF-mallar](/help/product-guide/native-pdf/pdf-template.md) om du vill ändra vyn och känslan för citatsidan.
@@ -268,7 +270,7 @@ Visa [Anpassa PDF-mallar](/help/product-guide/native-pdf/pdf-template.md) om du 
 
 Formatera källtexten när den läggs till i avsnittet.
 
-1. Välj **Formatmallar** på panelen **Mallar** i en förinställning för ursprungliga PDF.   Den öppnar panelen **FORMAT** som innehåller alla formatalternativ.
+1. Välj **Formatmallar** på panelen **Mallar** i en inbyggd förinställning för PDF-utdata.   Den öppnar panelen **FORMAT** som innehåller alla formatalternativ.
 
 1. Sök efter `<cite>` på sökpanelen.
 

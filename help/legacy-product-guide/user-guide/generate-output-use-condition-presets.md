@@ -3,7 +3,9 @@ title: Använda förinställningar för villkor
 description: Lär dig hur du använder förinställda villkor i AEM Guides. Lär dig att skapa, redigera, kopiera och ta bort förinställningar för villkor i AEM.
 feature: Publishing
 role: User
-source-git-commit: f8f1116efbf0c7c26f6ebacf6234dcc2fee636c1
+hide: true
+exl-id: 991179c7-186e-4b23-b918-248f596644ec
+source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
 workflow-type: tm+mt
 source-wordcount: '1210'
 ht-degree: 0%
@@ -71,7 +73,7 @@ Gör något av följande:
    >
    > Du kan visa en varning om du väljer en annan förinställning eller stänger förinställningen utan att spara den.
 
-När du har skapat en villkorsförinställning visas den i listrutan **Villkorsförinställningar** i Utdatainställningarna. Läs mer om hur du [skapar utdata för Publish PDF](/help/product-guide/web-editor/native-pdf-web-editor.md).
+När du har skapat en villkorsförinställning visas den i listrutan **Villkorsförinställningar** i Utdatainställningarna. Läs mer om hur du [publicerar PDF-utdata](/help/product-guide/web-editor/native-pdf-web-editor.md).
 
 ### Byta namn på en villkorsförinställning
 

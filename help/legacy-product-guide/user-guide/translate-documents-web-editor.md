@@ -3,7 +3,9 @@ title: Översätta dokument från Web Editor
 description: Översätt ditt innehåll till flera språk från webbredigeraren. Lär dig hur du skapar ett översättningsprojekt, lägger till regler, visar versioner och stänger osynkroniserade filer i AEM Guides.
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: a288a4d5-5c24-4021-8bfa-4b68cecf630f
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '2343'
 ht-degree: 0%
@@ -14,7 +16,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> Vi rekommenderar att du använder den här översättningsfunktionen i webbredigeraren om du har uppgraderat till AEM Guides as a Cloud Service February 2022 eller senare.
+> Vi rekommenderar att du använder den här översättningsfunktionen i webbredigeraren om du har uppgraderat till AEM Guides as a Cloud Service från februari 2022 eller senare.
 
 AEM Guides har en kraftfull funktion i Web Editor som gör att du kan översätta ditt innehåll till flera språk. Du kan skapa ett nytt översättningsprojekt och sedan lägga till översättningsjobben i det befintliga översättningsprojektet. Du kan också skapa ett flerspråkigt översättningsprojekt som innehåller översättningsjobb för alla valda språk.
 
@@ -136,7 +138,7 @@ Med AEM Guides kan dina administratörer konfigurera översättningsreglerna. SR
 SRX-filer ska namnges som `<language-code>.srx`. Exempel: en-US eller ar-AE.
 
 >[!NOTE]
->Titeln är inte skiftlägeskänslig, så du kan ha &#39;en-US&#39;, &#39;en-us&#39; eller &#39;EN-us&#39;. AEM kan också matcha &#39;-&#39; (bindestreck) eller &#39;_&#39; (understreck). Du kan alltså ha &#39;en-US&#39; eller &#39;en_US&#39;.
+>Titeln är inte skiftlägeskänslig, så du kan ha &#39;en-US&#39;, &#39;en-us&#39; eller &#39;EN-us&#39;. AEM stödlinjer kan också matcha &#39;-&#39; (bindestreck) eller &#39;_&#39; (understreck). Du kan alltså ha &#39;en-US&#39; eller &#39;en_US&#39;.
 
 Du kan också placera de här filerna i en mapp under AEM resursrot som är `./content/dam`.
 
@@ -205,7 +207,7 @@ Vissa av referenserna på översättningsinstrumentpanelen kanske håller på at
 
 >[!NOTE]
 >
-> Du kan se länken Pågår för de översatta projekt som har skapats i AEM Guides as a Cloud Service February 2023 eller senare.
+> Du kan se länken Pågår för de översatta projekt som har skapats i AEM Guides as a Cloud Service februari 2023 eller senare.
 
 Klicka på namnet på referensen i dialogrutan för att öppna den i förhandsgranskningsläge. Du kan också klicka på översättningsprojektet för att starta översättningen.
 

@@ -3,7 +3,9 @@ title: Använd DITAVAL-redigerare
 description: Lär dig skapa och redigera DITAVAL-filer med DIVATAL Editor i AEM Guides. Ta reda på hur DITAVAL-redigeraren stöder DITAVAL-filer i skribent- och källvyer.
 feature: Authoring, DITAVAL Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 8eee347d-840e-4eaf-9441-c7c53a7c3aa0
+source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 0%
@@ -14,7 +16,7 @@ ht-degree: 0%
 
 DITAVAL-filer används för att generera villkorsstyrda utdata. I ett enskilt ämne kan du lägga till villkor med elementattribut för att villkorsanpassa innehållet. Sedan skapar du en DITAVAL-fil där du anger villkoren som ska plockas upp för att generera innehåll och vilket villkor som ska utelämnas från det slutliga resultatet.
 
-Med AEM Guides kan du enkelt skapa och redigera DITAVAL-filer med DITAVAL-redigeraren. DITAVAL-redigeraren hämtar attributen \(eller taggar\) som är definierade i systemet, och du kan använda dem för att skapa eller redigera DITAVAL-filer. Mer information om hur du skapar och hanterar taggar i AEM finns i avsnittet [Administrera taggar](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) i AEM.
+Med AEM Guides kan du enkelt skapa och redigera DITAVAL-filer med DITAVAL-redigeraren. DITAVAL-redigeraren hämtar attributen \(eller taggar\) som är definierade i systemet, och du kan använda dem för att skapa eller redigera DITAVAL-filer. Mer information om hur du skapar och hanterar taggar i AEM finns i avsnittet [Administrera taggar](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) i AEM-dokumentationen.
 
 ## Skapa DITAVAL-fil
 
@@ -34,7 +36,7 @@ Så här skapar du en DITAVAL-fil:
 
 1. Klicka på **Skapa**. Meddelandet Ämnet har skapats visas.
 
-   Du kan välja att öppna DITAVAL-filen för redigering i DITAVAL-redigeraren eller att spara ämnesfilen i AEM.
+   Du kan välja att öppna DITAVAL-filen för redigering i DITAVAL-redigeraren eller att spara ämnesfilen i AEM-databasen.
 
 
 ## Redigera DITAVAL-fil
@@ -77,7 +79,7 @@ Om du vill lägga till alla villkorliga egenskaper eller attribut som definierat
 
    >[!NOTE]
    >
-   > Om du stänger filen utan att spara kommer ändringarna att gå förlorade. Om du inte vill spara ändringarna AEM databasen klickar du på **Stäng** och sedan på **Stäng utan att spara** i dialogrutan **Osparade ändringar**.
+   > Om du stänger filen utan att spara kommer ändringarna att gå förlorade. Om du inte vill spara ändringarna i AEM-databasen klickar du på **Stäng** och sedan på **Stäng utan att spara** i dialogrutan **Osparade ändringar**.
 
 
 ## DITAVAL-redigeringsvyer

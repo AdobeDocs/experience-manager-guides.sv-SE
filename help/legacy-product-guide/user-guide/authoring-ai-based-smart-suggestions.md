@@ -1,7 +1,9 @@
 ---
 title: AI-baserade smarta förslag för att skapa innehåll
 description: Lär dig hur du visar och använder AI-baserade smarta förslag i Web Editor.
-source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
+hide: true
+exl-id: 30c85d46-61ba-486c-979c-1a2ed95f5a32
+source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
 workflow-type: tm+mt
 source-wordcount: '684'
 ht-degree: 0%
@@ -37,7 +39,7 @@ Följ de här stegen för att visa smarta förslag på hur du lägger till lämp
    > Du kan bara visa förslagen för den aktuella visningsrutan (det innehåll som visas på skärmen). Om du vill visa förslag på annat innehåll i dokumentet rullar du uppåt eller nedåt för att visa det i visningsrutan och väljer sedan **Föreslå återanvändbart innehåll** ![ai Föreslå återanvändbar innehållsikon ](./images/ai-suggest-reusable-content-icon.svg) .
 
 
-1. Du kan visa smarta förslag på panelen med förslag.  Experience Manager Guides ger förslag på innehåll som i sitt sammanhang liknar eller har samma innebörd. Du kan t.ex. söka efter ämnet som innehåller det exakta versionsnumret, som&quot;release version 2023.03.12&quot;. Du kan också söka efter &quot;Adobe har huvudkontor i San Jose i Kalifornien&quot; och hitta liknande material som &quot;San Jose har kvartal av många programvaruföretag som Adobe.&quot;
+1. Du kan visa smarta förslag på panelen med förslag.  Experience Manager Guides ger förslag på innehåll som i sitt sammanhang liknar eller har samma innebörd. Du kan t.ex. söka efter ämnet som innehåller det exakta versionsnumret, som&quot;release version 2023.03.12&quot;. Du kan också söka efter&quot;Adobe har huvudkontor i San Jose i Kalifornien&quot; och hitta liknande material som&quot;San Jose har huvudkontor för många programvaruföretag som Adobe&quot;.
 1. Välj **Innehållsinformation** ![Innehållsinformation](images/smart-suggestions-content-info-icon.svg) om du vill visa informationen.
 
    ![Panelen Innehållsinformation](images/smart-suggestions-content-information.png){width="300" align="left"}

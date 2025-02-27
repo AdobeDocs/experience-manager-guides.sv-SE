@@ -1,9 +1,11 @@
 ---
 title: Skapa en gruppaktiveringskarta
-description: Lär dig hur du skapar en gruppaktiveringskarta i AEM.
+description: Lär dig hur du skapar en gruppaktiveringskarta i AEM guides.
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: a242efde-2b29-4d2b-8a50-fd4ae7e8f239
+source-git-commit: 4801f0d327b4bd0641aa195d39ec2c4be2a2ce74
 workflow-type: tm+mt
 source-wordcount: '735'
 ht-degree: 0%
@@ -18,7 +20,7 @@ Så här skapar du en gruppaktiveringskarta:
 
 1. Klicka på länken Adobe Experience Manager överst och välj **Verktyg**.
 
-1. Markera rutan **Massvis med Publish Dashboard**.
+1. Välj panelen **Masspubliceringspanel**.
 
    För första gången visas en tom samlingssida. Om du har skapat gruppaktiveringssamlingar tidigare visas de på den här sidan.
 
@@ -75,7 +77,7 @@ Fliken **Granskningshistorik** innehåller information om aktiverade mapputdata 
 - **Språk**: Visar språkkoden för DITA-kartan.
 - **Förinställning**: Visar titeln på förinställningen som konfigurerats på kartfilen. Ikonen visas också baserat på vilken typ av förinställning som används.
 - **Status**: Visar status för aktiveringen som slutförd eller misslyckad.
-- **Mål**: Om du genererar utdata på Experience Manager Guides as a Cloud Service kan du visa utdatans mål som Publish eller Förhandsgranska.
+- **Mål**: Om du genererar utdata på Experience Manager Guides as a Cloud Service kan du visa utdatans mål som Publicera eller Förhandsgranska.
 
   >[!NOTE]
   >
@@ -99,7 +101,7 @@ Fliken **Granskningshistorik** innehåller information om aktiverade mapputdata 
 Följande filteralternativ är tillgängliga på den vänstra panelen:
 
 - **Ändrad**: Du kan välja Ja eller Nej. Om du väljer ja visas bara de ändrade DITA-kartorna. En ändrad karta är en karta som har genererats sedan den publicerades senast.
-- **Förinställning**: Välj en förinställning som du vill filtrera ut kartfilerna för. I den här kolumnen visas rubriken på förinställningen för utdata som är konfigurerad på kartfilen. Om du t.ex. väljer *AEM Plats* -förinställning visas bara de kartor som har *AEM Platsens* förinställning konfigurerad för.
+- **Förinställning**: Välj en förinställning som du vill filtrera ut kartfilerna för. I den här kolumnen visas rubriken på förinställningen för utdata som är konfigurerad på kartfilen. Om du t.ex. väljer förinställningen *AEM Site* visas bara de kartor som har förinställningen *AEM Site* konfigurerad.
 - **Språk**: Du kan välja någon av de tillgängliga språkkoderna och endast visa det valda språket på fliken Kartor och förinställningar.
 
 Filtren uppdateras när du växlar från fliken **Kartor och förinställningar** till fliken **Granskningshistorik** och vice versa.

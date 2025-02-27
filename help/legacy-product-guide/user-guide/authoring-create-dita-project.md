@@ -3,7 +3,9 @@ title: Skapa ett DITA-projekt
 description: Skapa ett DITA-projekt med en mall i AEM Guides. Lär dig hur du använder ett DITA-projekt för att initiera granskningarna.
 feature: Reviewing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 1b29c50a-04d0-4052-b893-44fb8bcc3c97
+source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%

@@ -3,7 +3,9 @@ title: Profilering av villkorliga attribut
 description: Lär dig hur du skapar villkorsattribut i AEM Guides. Använd villkorsstyrda attribut i mappen och globala profiler för att anpassa innehållet.
 feature: Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: f8397acf-acd3-4e68-adce-9adbbef55337
+source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 0%

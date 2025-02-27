@@ -3,7 +3,9 @@ title: Skapa kartor baserade på anpassade mallar
 description: Lär dig att skapa en egen mall, använda dem för att skapa nya kartfiler och skicka den definierade titeln till en DITA-karta i AEM Guides.
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
+hide: true
+exl-id: 0f86ac98-7ba4-4e15-8a1f-83456afa7570
+source-git-commit: 4801f0d327b4bd0641aa195d39ec2c4be2a2ce74
 workflow-type: tm+mt
 source-wordcount: '1103'
 ht-degree: 0%
@@ -94,9 +96,9 @@ Administratören kan också skapa en mapp och konfigurera den så att den blir d
 
 Lär dig hur du konfigurerar en anpassad sökväg till en DITA-mallmapp baserat på konfigurationen:
 <details>
-    <summary> Cloud Service </summary>
+    <summary> Molntjänster </summary>
 
-Lär dig hur du [konfigurerar en anpassad DITA-mallmappsökväg](/help/product-guide/install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) i Cloud Servicens installations- och konfigureringshandbok.
+Lär dig hur du [konfigurerar en anpassad sökväg till en DITA-mallmapp](/help/product-guide/install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) i installations- och konfigureringshandboken för molntjänster.
 </details>
 
 <details>

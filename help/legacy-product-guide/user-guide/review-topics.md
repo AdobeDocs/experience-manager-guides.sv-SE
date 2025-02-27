@@ -3,7 +3,9 @@ title: Granska ämnen
 description: Lär dig hur du granskar ämnen och använder funktionerna som granskare, dokumentvy, ämnesvy, sammanhangsberoende verktygsfält, förhandsgranskningsläge, lägger till bilagor till kommentarer och villkorspanelen i AEM Guides.
 feature: Reviewing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 371d89b8-fe05-4477-9bf8-cc47c0899108
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '2351'
 ht-degree: 0%
@@ -22,7 +24,7 @@ Utför följande steg för att granska ett ämne:
 
    >[!NOTE]
    >
-   > Du kan även komma åt ämnesgranskningslänken från meddelandeområdet i Inkorgen i AEM användargränssnitt.
+   > Du kan även komma åt ämnesgranskningslänken från Inkorgsmeddelanden i AEM användargränssnitt.
 
 1. Beroende på hur ämnesgranskningen initieras kan du se någon av följande två skärmar:
 

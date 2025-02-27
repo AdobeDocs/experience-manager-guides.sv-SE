@@ -3,7 +3,9 @@ title: Skapa innehåll
 description: Skapa material i AEM Guides. Lär dig att skapa, förhandsgranska, redigera, spara versionen av dokumentet och dela för granskningar.
 feature: Authoring
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 861b1706-e4d2-488b-b188-a7746eeba082
+source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 0%

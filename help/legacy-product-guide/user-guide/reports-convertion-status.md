@@ -3,7 +3,9 @@ title: Statusrapport för konvertering
 description: Konvertera dokument i olika format till DITA i AEM Guides. Lär dig hur du lägger till filter och visar en konverteringsstatusrapport.
 feature: Report Generation
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: f6bf1033-9c2f-42c7-9ad5-e1060e2c9770
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 0%
@@ -30,7 +32,7 @@ Följ de här stegen för att visa rapporten om konverteringsstatus:
 
    - **Filter:**
 
-     Du kan filtrera rapportdata baserat på filtyp och konverteringsstatus. I filtypen kan du välja att visa rapportdata för Word-dokument, dokument av typen strukturerad HTML, XML och DocBook. I Status kan du välja att visa rapportdata för aktiviteter som har körts utan fel, misslyckats, aktiverats eller placerats i kö.
+     Du kan filtrera rapportdata baserat på filtyp och konverteringsstatus. I filtypen kan du välja att visa rapportdata för Word-dokument, strukturerade HTML-, XML- och DocBook-dokument. I Status kan du välja att visa rapportdata för aktiviteter som har körts utan fel, misslyckats, aktiverats eller placerats i kö.
 
      På följande skärmbild visas rapportdata för konverteringsåtgärder som har statusen Misslyckad, Aktiv och Köad.
 

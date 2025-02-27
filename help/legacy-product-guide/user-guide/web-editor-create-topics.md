@@ -3,7 +3,9 @@ title: Skapa ämnen
 description: Lär dig skapa olika typer av DITA-ämnen med hjälp av anpassade mallar i AEM Guides webbredigerare.
 feature: Authoring
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 70ab9226-82d4-4e6a-aa0b-0e298f266c2a
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 0%
@@ -42,7 +44,7 @@ Så här skapar du ett ämne:
 
 1. Klicka på **Skapa**. Meddelandet Ämnet har skapats visas.
 
-   Du kan välja att öppna ämnet för redigering i Web Editor eller att spara ämnesfilen i AEM.
+   Du kan öppna ämnet för redigering i Web Editor eller spara ämnesfilen i AEM-databasen.
 
    Varje nytt ämne som du skapar från Assets-gränssnittet **Skapa** \> **DITA-ämne** eller webbredigeraren tilldelas ett unikt ämne-ID. Värdet för detta ID är själva filnamnet. Ett nytt dokument sparas också som den senaste arbetskopian av ämnet i DAM. Om du inte sparar en revision av ett nyligen skapat ämne kommer du inte att se något versionsnummer i Tidigare versioner. Om du öppnar ämnet för redigering visas versionsinformationen i det övre högra hörnet på ämnesfilens flik:
 

@@ -3,7 +3,9 @@ title: Hantera innehåll
 description: Hantera innehåll och identifiera roller och behörigheter i AEM Guides. Lär dig de viktigaste begreppen för innehållshantering och att arbeta med globala profiler eller profiler på mappnivå.
 feature: Content Management
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 54b960cf-fb00-4d4a-a836-9de4738c49a8
+source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
 workflow-type: tm+mt
 source-wordcount: '717'
 ht-degree: 0%
@@ -20,7 +22,7 @@ Några viktiga begrepp inom innehållshantering i AEM är följande:
 
 **Resurshantering**
 
-AEM Guides använder AEM Digital Asset Management \(DAM\) för att hantera dina DITA-filer. Filerna som du överför eller checkar in i DAM lagras som digitala resurser. Du kan hantera och redigera dina resurser i AEM Assets. Mer information om resurshantering finns i [Hantera resurser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=en).
+AEM Guides använder AEM digitala resurshantering \(DAM\) för att hantera dina DITA-filer. Filerna som du överför eller checkar in i DAM lagras som digitala resurser. Du kan hantera och redigera dina resurser i AEM Assets. Mer information om resurshantering finns i [Hantera resurser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=en).
 
 **Länkhantering**
 
@@ -34,7 +36,7 @@ Mer information om hur du skapar versioner eller återgår till en viss version 
 
 **Inbyggd DITA-hantering**
 
-AEM Guides bibehåller strukturen i dina DITA-filer, men gör det även möjligt för AEM att hantera DITA direkt med hjälp av elementmappning för att mappa DITA-elementen till AEM. Den inbyggda DITA-hanteringen används i funktioner som ämnesförhandsgranskning, AEM Sites-publicering och granskningsarbetsflöden.
+AEM Guides bibehåller strukturen i dina DITA-filer, men gör det även möjligt för AEM att hantera DITA direkt med hjälp av elementmappning för att mappa DITA-elementen till AEM-komponenter. Den inbyggda DITA-hanteringen används i funktioner som ämnesförhandsgranskning, AEM Sites-publicering och granskningsarbetsflöden.
 
 ## Identifiera din roll och dina behörigheter {#id181TF0K0MHT}
 

@@ -1,16 +1,18 @@
 ---
-title: Publish ett ämne i ett innehållsfragment
-description: Publish ett ämne eller elementen i ett ämne till ett innehållsfragment i AEM Guides.  Lär dig hur du visar innehållsfragment för ett ämne och publicerar dem på nytt.
+title: Publicera ett ämne till ett innehållsfragment
+description: Publicera ett ämne eller elementen i ett ämne till ett innehållsfragment i AEM Guides.  Lär dig hur du visar innehållsfragment för ett ämne och publicerar dem på nytt.
 feature: Publishing
 role: User
-source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
+hide: true
+exl-id: f8a8dfd3-19de-49ff-b4d4-265b3ac09488
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%
 
 ---
 
-# Publish Content Fragments
+# Publicera innehållsfragment
 
 Innehållsfragment är separata innehållsdelar i Adobe Experience Manager. De är strukturerade innehåll baserat på en innehållsmodell. Innehållsfragment är rent innehåll utan design- eller layoutinformation. De kan redigeras och hanteras oberoende av de kanaler som Adobe Experience Manager stöder. Innehållsfragment är modulära, där innehållet delas upp i mindre komponenter.
 
@@ -39,7 +41,7 @@ Lägg till exempel till `/conf/we-retail` i molnkonfigurationen. Den här konfig
 1. I dialogrutan **Generera innehållsfragment** fyller du i följande information på flikarna **Allmänt** och **Mappning**.
 
    Fliken **Allmänt**
-   ![Lägg till fragmentmodellen och mappningsinformation i dialogrutan Publish som innehållsfragment](images/generate-content-fragment.png)
+   ![Lägg till fragmentmodellen och mappningsinformation i dialogrutan Publicera som innehållsfragment](images/generate-content-fragment.png)
    *Lägg till sökväg, namn, titel och villkorsfiltrering för att publicera ett ämne eller dess element som ett innehållsfragment.*
 
 
@@ -63,7 +65,7 @@ Lägg till exempel till `/conf/we-retail` i molnkonfigurationen. Den här konfig
 
    Fliken **Mappning**
 
-   ![Lägg till fragmentmodellen och mappningsinformation i dialogrutan Publish som innehållsfragment](images/content-fragment-mapping.png)
+   ![Lägg till fragmentmodellen och mappningsinformation i dialogrutan Publicera som innehållsfragment](images/content-fragment-mapping.png)
 
    *Välj innehållsfragmentmodellen och lägg till mappningsinformationen för att publicera ett ämne eller dess element som ett innehållsfragment.*
 

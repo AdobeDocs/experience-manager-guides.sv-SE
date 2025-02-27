@@ -3,7 +3,9 @@ title: Infoga ett innehållssfragment från datakällan
 description: Använd data från datakällan i AEM Guides. Lär dig hur du infogar ett innehållsavdrag från datakällan. Skapa ett ämne med ämnesgeneratorn.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
+hide: true
+exl-id: ca557b73-8608-4fdd-8e11-adc6de2ad82a
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '2389'
 ht-degree: 0%
@@ -23,12 +25,12 @@ Välj **Datakällor** ![datakälla](images/data-source-icon.svg) i den vänstra 
 Beroende på din konfiguration kan administratören konfigurera en datakällanslutning:
 
 <details>
-<summary> Cloud Service </summary>
+<summary> Molntjänster </summary>
 
 
-- Om du använder versionen från oktober 2023 eller senare, ska du lära dig hur du [konfigurerar en datakällanslutning från användargränssnittet](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md) i Cloud Servicens installations- och konfigureringshandbok.
+- Om du använder versionen från oktober 2023 eller senare, ska du lära dig hur du [konfigurerar en datakällanslutning från användargränssnittet](/help/product-guide/cs-install-guide/conf-data-source-connector-tools.md) i installations- och konfigureringshandboken för molntjänster.
 
-- Om du använder versionen från juli 2023 eller september 2023 ska du lära dig hur du [konfigurerar en datakällanslutning](/help/product-guide/cs-install-guide/conf-data-source-connector.md) i Cloud Servicens installations- och konfigureringshandbok.
+- Om du använder versionen från juli 2023 eller september 2023 ska du lära dig hur du [konfigurerar en datakällanslutning](/help/product-guide/cs-install-guide/conf-data-source-connector.md) i installations- och konfigureringshandboken för molntjänster.
 
 </details>
 

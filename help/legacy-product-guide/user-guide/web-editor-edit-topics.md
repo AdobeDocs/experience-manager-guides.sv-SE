@@ -3,7 +3,9 @@ title: Redigera ämnen i Web Editor
 description: Lär dig redigera ämnen i webbredigeraren. Lär dig olika redigeringsfunktioner för att ändra ämnesfilerna i AEM Guides.
 feature: Authoring, Web Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 0341bdec-9635-4ced-b1c6-789b4e1aded8
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '1055'
 ht-degree: 0%
@@ -32,7 +34,7 @@ Webbredigeraren innehåller en rad redigeringsfunktioner som du kan använda fö
 
    >[!NOTE]
    >
-   > Om du inte vill spara ändringarna AEM databasen klickar du på **Stäng** och sedan på **Stäng utan att spara** i dialogrutan Osparade ändringar.
+   > Om du inte vill spara ändringarna i AEM-databasen klickar du på **Stäng** och sedan på **Stäng utan att spara** i dialogrutan Osparade ändringar.
 
 
 ## Delvis markering av innehåll mellan element

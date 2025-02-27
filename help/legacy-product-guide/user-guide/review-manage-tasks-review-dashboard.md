@@ -3,7 +3,9 @@ title: Hantera granskningsåtgärder med hjälp av Kontrollpanelen
 description: Hantera granskningsuppgifter från Granska kontrollpanelen i AEM Guides. Lär dig hur du utför åtgärder under uppgiften, innehållet, fliken Granskare och kontrollera status för en granskningsåtgärd.
 feature: Reviewing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: f3ed7e82-8bb8-400f-9406-367da9e0052c
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '1300'
 ht-degree: 0%
@@ -118,7 +120,7 @@ Statusrapporten för granskningsaktiviteten innehåller följande information:
 - Statuskolumnen anger granskningsstatusen. Status kan vara något av följande:
    - **Inte igång**: Granskningslänken har inte öppnats än.
    - **Pågår**: Granskaren har öppnat granskningslänken och håller på att granska avsnittet.
-   - **Fullständig**: Granskaren har slutfört granskningen genom att slutföra den granskningsuppgift som tilldelats dem. Granskningsaktiviteten finns i AEM för varje granskare.
+   - **Fullständig**: Granskaren har slutfört granskningen genom att slutföra den granskningsuppgift som tilldelats dem. Granskningsaktiviteten finns i AEM meddelandeinkorg för varje granskare.
 - När en granskare öppnar en granskningslänk och navigerar till ett visst ämne läggs det ämnet till i listan Ämnen som granskats. Detta hjälper författarna att avgöra om granskarna har öppnat respektive avsnitt eller inte. Om några kommentarer ges visas de inom parentes.
 - Totalt antal kommentarer som gjorts i alla ämnen. Om det finns flera ämnen som är under granskning anges antalet kommentarer för varje ämne \(inom parentes\) mot temanamnet.
 - Det datum då granskaren senast öppnade ett ämne.

@@ -3,7 +3,9 @@ title: Visa status för utdatagenereringsaktiviteten
 description: Visa utdatagenereringskön för FrameMaker-dokument. Lär dig hur du visar status för en utdatagenereringsuppgift.
 feature: Publishing FrameMaker Documents
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: bf5a4365-0183-43d5-a39a-b9eb8a34b27d
+source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 0%
@@ -16,7 +18,7 @@ När du har initierat genereringsuppgiften för ett FrameMaker-dokument skickar 
 
 Utför följande steg för att visa kön för generering av utdata:
 
-1. I Assets-användargränssnittet navigerar du till och klickar på det FrameMaker-dokument som du vill kontrollera utdatagenereringsstatusen för.
+1. Navigera till och klicka på det FrameMaker-dokument som du vill kontrollera status för utdatagenerering för i Assets-användargränssnittet.
 
 1. Klicka på Utdata.
 

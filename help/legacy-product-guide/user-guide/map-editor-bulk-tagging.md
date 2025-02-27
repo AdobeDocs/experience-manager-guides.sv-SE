@@ -3,7 +3,9 @@ title: Masstaggning av DITA-innehåll
 description: Använd bulktaggning av innehåll i AEM Guides för att förbättra identifieringen av DITA-innehåll. Lär dig hur du använder, tar bort, visar eller döljer gruppmärkord i ett eller flera ämnen.
 feature: Metadata Management
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: b320e34f-ee0a-4cc3-b4f6-d322fbb29844
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
@@ -14,9 +16,9 @@ ht-degree: 0%
 
 Med taggar kan du gruppera eller klassificera innehåll i innehållsdatabasen och även i publicerade utdata. Om du har använt taggar på innehållet kan du enkelt hitta relaterade ämnen i en DITA-karta som kan hjälpa dig att skapa innehåll. Med publicerade utdata kommer slutanvändarna att kunna hitta rätt innehåll snabbare med rätt taggar på plats.
 
-Med AEM Guides kan du tagga DITA-innehåll med några få klick. Du kan använda funktionen för bulktaggning för att tillämpa flera taggar på flera ämnen, en DITA-karta eller på en underkarta. Du kan också lägga till märkord i ett enskilt ämne. Taggning är den inbyggda funktionen i AEM. Mer information om hur du skapar och hanterar taggar finns i avsnittet [Administrera taggar](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) i AEM.
+Med AEM Guides kan du tagga DITA-innehåll med några få klick. Du kan använda funktionen för bulktaggning för att tillämpa flera taggar på flera ämnen, en DITA-karta eller på en underkarta. Du kan också lägga till märkord i ett enskilt ämne. Taggning är den inbyggda funktionen i AEM. Mer information om hur du skapar och hanterar taggar finns i avsnittet [Administrera taggar](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) i AEM-dokumentationen.
 
-Som standard ger AEM Guides inte läsåtkomst till någon användare i den mapp där alla taggar i AEM lagras. Om du vill använda taggar som är definierade i den AEM databasen måste du be systemadministratören att ge åtkomst till mappen där taggarna lagras.
+Som standard ger AEM Guides inte läsåtkomst till någon användare i den mapp där alla taggar i AEM-databasen lagras. Om du vill använda taggar som definieras i AEM-databasen måste du be systemadministratören att ge åtkomst till den mapp där taggarna lagras.
 
 ## Använda gruppmärkord
 

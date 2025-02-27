@@ -3,7 +3,9 @@ title: Skapa en karta
 description: Skapa en karta med Karteredigeraren i AEM Guides. Hitta stegen för att skapa en kartfil baserat på en kartmall.
 feature: Authoring, Map Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 981ecaeb-9b1f-4c7a-8336-7746a739bedc
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%
@@ -46,7 +48,7 @@ Så här skapar du en kartfil:
 
    Versionsinformationen för en nyligen skapad karta visas som *ingen*. När du sparar en ny version tilldelas den ett versionsnummer som 1.0. Mer information om hur du sparar en ny version finns i [Spara som ny version](web-editor-features.md#save-as-new-version-id209ME400GXA).
 
-   Du kan välja att öppna kartan för redigering i den konfigurerade kartredigeraren eller spara kartefilen i AEM.
+   Du kan välja att öppna kartan för redigering i den konfigurerade kartredigeraren eller spara kartefilen i AEM-databasen.
 
    >[!NOTE]
    >

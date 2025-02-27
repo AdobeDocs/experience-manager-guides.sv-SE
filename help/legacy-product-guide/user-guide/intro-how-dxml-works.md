@@ -3,8 +3,9 @@ title: Så här fungerar AEM Guides
 description: Läs om hur AEM Guides kan samarbeta med AEM och andra DITA-redigerare för att möjliggöra hantering, återanvändning, översättning och granskning av material i ett företagsscenario.
 feature: Introduction
 role: User
+hide: true
 exl-id: 531f7d2c-7b11-44b1-b4af-d3f660066643
-source-git-commit: cbcb55fc239d9469de45a224f14361db14ec5f76
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '68'
 ht-degree: 0%

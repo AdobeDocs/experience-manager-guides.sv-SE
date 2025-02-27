@@ -3,7 +3,9 @@ title: Skapa och hantera baslinjer från Web Editor
 description: Skapa och hantera baslinjer i webbredigeraren i AEM Guides. Lär dig hur du skapar baslinjer baserat på etiketter och tillämpar filter på baslinjerna.
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: f43bc3ae-b7b6-4a8c-b42d-28ec02d0d1d6
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '1699'
 ht-degree: 0%
@@ -14,7 +16,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> Du bör använda den här baslinjefunktionen i webbredigeraren om du har uppgraderat till AEM Guides as a Cloud Service March eller senare.
+> Vi rekommenderar att du använder baslinjefunktionen i webbredigeraren om du har uppgraderat till AEM Guides as a Cloud Service March eller senare.
 
 AEM Guides har en integrerad baslinjefunktion i Web Editor som gör att användarna kan skapa baslinjer och använda dem för att publicera eller översätta ämnen från olika versioner. De kan också publicera flera förinställningar av samma DITA-karta parallellt.
 
@@ -153,4 +155,3 @@ Med ikonen Filter på panelen **Baslinjefilter** kan du använda filter på basl
 När du har redigerat baslinjen kan du klicka på knappen **Spara** överst för att spara ändringarna i baslinjen. Du kan klicka på knappen **Återställ** om du inte vill spara ändringen och återställa baslinjen. När du klickar på knappen **Återställ** visas en varning om att ändringar som inte sparats går förlorade.
 
 **Överordnat ämne:**[ Arbeta med webbredigeraren](web-editor.md)
-

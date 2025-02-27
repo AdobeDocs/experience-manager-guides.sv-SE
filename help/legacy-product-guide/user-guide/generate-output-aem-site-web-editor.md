@@ -3,7 +3,9 @@ title: AEM Sites
 description: Skapa och konfigurera AEM Sites-förinställningen i Web Editor och generera AEM Sites-utdata för DITA-kartor, valda ämnen och länkade ämnen.
 feature: Publishing
 role: User
-source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
+hide: true
+exl-id: 9a9ae44f-8fed-4a4e-812c-451bcf138d0a
+source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
 workflow-type: tm+mt
 source-wordcount: '2732'
 ht-degree: 0%
@@ -70,7 +72,7 @@ Fliken **Allmänt** innehåller följande konfigurationer som är relaterade til
 - Använd webbplatssökväg
 - Platssökväg
 - Plats
-- Publish-sökväg
+- Publiceringssökväg
 - Ämnessidmall
 - Generera sidnamn baserat på
    - Ämnesfilnamn
@@ -100,7 +102,7 @@ Mer information finns i [AEM Sites-konfiguration](#aem_sites_config).
 
 **Ämneslistan** visar en lista med ämnen som finns i den aktuella arbetskopian av DITA-kartan. Som standard inkluderas alla ämnen. Du kan välja ut specifika ämnen och generera utdata från AEM Sites endast för dem. Du har till exempel uppdaterat vissa avsnitt så att du bara kan publicera dessa ämnen i stället för att publicera hela DITA-kartan.
 
-Fliken **Ämneslista** finns i AEM förinställningar som inte har skapats baserat på äldre mappning.
+Fliken **Ämneslista** finns i AEM-förinställningar som inte har skapats baserat på äldre mappning.
 
 **Korsmappningsreferenser**
 Den här listan innehåller ämnen som innehåller korsmappsreferenser med `scope ="peer"`. Du kan ange publiceringskontext för en lista över korsmappsreferenser med `scope="peer"` till ämnen som är tillgängliga i andra DITA-kartor. Den här fliken visas om du använder Experience Manager Guides-versionen (UUID).
@@ -120,18 +122,18 @@ Följande alternativ är tillgängliga för AEM Sites-utdata:
 | AEM Sites-alternativ | Beskrivning |
 | --- | --- |
 | Använd webbplatssökväg | Använd det här alternativet om du vill publicera ditt innehåll på en Experience Manager-webbplats. Välj det här alternativet om du känner till den exakta platssökvägen där du vill att utdata ska publiceras. Ange också den fullständiga sökvägen i fältet Platssökväg. |
-| Platssökväg | Det här alternativet visas om du väljer alternativet **Använd webbplatssökväg**. Bläddra i den exakta sökvägen till Experience Manager-platsen där du vill att utdata ska publiceras. |
+| Platssökväg | Det här alternativet visas om du väljer alternativet **Använd webbplatssökväg**. Bläddra i den exakta Experience Manager Site-sökvägen där du vill att utdata ska publiceras. |
 | Plats | Namnet på den Experience Manager Sites som du vill publicera ditt innehåll på. Alternativen i listrutan fylls i baserat på listan med webbplatser som är tillgängliga i AEM Sites. <br>Välj **Uppdatera** ![referensikon](images/navtitle-refresh-icon.svg) om du vill hämta en ny lista med alternativ och spegla de uppdaterade data. |
-| Publish Path | Den sökväg i AEM där utdata lagras. Publish-sökvägen innehåller alla sökvägar som innehåller sidor som skapats baserat på hemsidmallen. AEM Sites-utdata från DITA-kartan genereras under den här sökvägen.  Om du till exempel anger platsen som `AEMG-Docs` och Publish-sökvägen som `aemg-docs-en/docs/product-abc.` genereras AEM Sites-utdata under noden `aemg-docs-en/docs/product-abc/` i `crx/de`. |
+| Publiceringssökväg | Den sökväg i AEM-databasen där utdata lagras. Publiceringssökvägen fylls i med alla sökvägar som innehåller sidor som skapats baserat på hemsidmallen. AEM Sites-utdata från DITA-kartan genereras under den här sökvägen.  Om du till exempel anger platsen som `AEMG-Docs` och publiceringssökvägen som `aemg-docs-en/docs/product-abc.`, genereras AEM Sites-utdata under noden `aemg-docs-en/docs/product-abc/` i `crx/de`. |
 | Ämnessidmall | De strukturella komponenter som du kan använda för att ordna innehåll på ett konsekvent sätt i flera dokument. De här mallarna är fördefinierade i Adobe Experience Manager Site-mallen. Alternativen är ifyllda med alla ämnessidmallar som är tillgängliga för den valda webbplatsen. Välj den mall som du vill använda för alla utdataämnen. |
-| Generera sidnamn baserat på | **Ämnesfilnamn**: Använder DITA-avsnittets filnamn för att skapa URL:en för platsen. <br> **Ämnestitel**: Använder DITA-avsnittets titel för att skapa webbplatsnamnen i Experience Manager. |
+| Generera sidnamn baserat på | **Ämnesfilnamn**: Använder DITA-avsnittets filnamn för att skapa URL:en för platsen. <br> **Ämnestitel**: Använder DITA-avsnittets titel för att skapa Experience Manager-webbplatsnamnen. |
 | Rensa tidigare genererade sidor | - **Ta bort tidigare genererade sidor för ämne som tagits bort från kartan**: Om strukturen för DTIA-kartan ändras kan du använda det här alternativet för att ta bort tidigare genererade sidor för de borttagna ämnena. Den här funktionen är endast tillgänglig för fullständig kartpublicering.<br><br>Säg att du har publicerat en DITA-karta som innehåller avsnitten a.dita, b.dita och c.dita. Innan du publicerade kartan igen tog du bort b.dita-ämnet från kartan. Om du har valt det här alternativet tas nu allt innehåll som är relaterat till b.dita bort från AEM Sites-utdata och bara a.dita och c.dita publiceras.<br><br>**Obs!**: Information om borttagna sidor hämtas också i loggarna för utdatagenerering. Mer information om åtkomst till loggfilerna finns i [Visa och kontrollera loggfilen](generate-output-basic-troubleshooting.md#id1821I0Y0G0A__id1822G0P0CHS). <br><br>**Varning**: När du tar bort ämnen blir sidorna otillgängliga från den publicerade webbplatsen. Innan ämnena tas bort visas en varning. Du måste bekräfta att du vill ta bort dem.<br><br>- **Ta bort alla sidor som skapats av andra källor på den här sökvägen**: Om du väljer det här alternativet tas alla sidor som publicerats på den här sökvägen bort från andra kartor, enskilda ämnen eller andra källor. Sidorna blir också otillgängliga från den publicerade webbplatsen. Innan ämnena tas bort visas en varning. Du måste bekräfta att du vill ta bort dem. |
-| Arbetsflöde efter generering | När du väljer det här alternativet visas en ny arbetsflödeslista som innehåller alla arbetsflöden som är konfigurerade i AEM. Du måste välja ett arbetsflöde som du vill köra när arbetsflödet för generering av utdata har slutförts. |
-| Använd baslinje | Om du har skapat en baslinje för den valda DITA-kartan väljer du det här alternativet för att ange vilken version du vill publicera.<br><br>**Viktigt**: När du genererar inkrementella utdata för den AEM platsen skapas utdata med den aktuella versionen av filerna och inte med den kopplade baslinjen.<br><br>Visa [Arbeta med baslinje](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) om du vill ha mer information. |
-| Villkorlig filtrering | Välj ett av följande alternativ:<br><br>**Inget**: Välj det här alternativet om du inte vill använda något villkor på publicerade utdata.<br>**Använder DITAVAL**: Välj DITAVal-filer för att generera villkorat innehåll. Du kan markera flera DITAVal-filer i dialogrutan Bläddra eller genom att skriva filsökvägen. Använd kryssikonen bredvid filnamnet för att ta bort den. DITAVal-filer utvärderas i den ordning som anges, så de villkor som anges i den första filen har företräde framför de matchande villkor som anges i senare filer. Du kan behålla filordningen genom att lägga till eller ta bort filer. Om DITAVal-filen flyttas till en annan plats eller tas bort, tas den inte automatiskt bort från kartkontrollpanelen. Du måste uppdatera platsen om filerna flyttas eller tas bort. Du kan hovra över filnamnet om du vill visa sökvägen i den AEM databasen där filen lagras. Du kan bara välja DITAVal-filer och ett fel visas om du väljer någon annan filtyp.<br>**Villkorsförinställning**: Välj en villkorsförinställning i listrutan om du vill använda ett villkor när du publicerar utdata. Det här alternativet är synligt om du har lagt till ett villkor för DITA-kartfilen. De villkorliga inställningarna finns på fliken Villkorsförinställningar i DITA-kartkonsolen. Visa [Använd förinställningar](generate-output-use-condition-presets.md#id1825FL004PN) om du vill veta mer om villkorsförinställningar. |
+| Arbetsflöde efter generering | När du väljer det här alternativet visas en ny arbetsflödeslista som innehåller alla arbetsflöden som konfigurerats i AEM. Du måste välja ett arbetsflöde som du vill köra när arbetsflödet för generering av utdata har slutförts. |
+| Använd baslinje | Om du har skapat en baslinje för den valda DITA-kartan väljer du det här alternativet för att ange vilken version du vill publicera.<br><br>**Viktigt**: När du genererar inkrementella utdata för AEM Site skapas utdata med den aktuella versionen av filerna och inte med den kopplade baslinjen.<br><br>Visa [Arbeta med baslinje](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) om du vill ha mer information. |
+| Villkorlig filtrering | Välj ett av följande alternativ:<br><br>**Inget**: Välj det här alternativet om du inte vill använda något villkor på publicerade utdata.<br>**Använder DITAVAL**: Välj DITAVal-filer för att generera villkorat innehåll. Du kan markera flera DITAVal-filer i dialogrutan Bläddra eller genom att skriva filsökvägen. Använd kryssikonen bredvid filnamnet för att ta bort den. DITAVal-filer utvärderas i den ordning som anges, så de villkor som anges i den första filen har företräde framför de matchande villkor som anges i senare filer. Du kan behålla filordningen genom att lägga till eller ta bort filer. Om DITAVal-filen flyttas till en annan plats eller tas bort, tas den inte automatiskt bort från kartkontrollpanelen. Du måste uppdatera platsen om filerna flyttas eller tas bort. Du kan hovra över filnamnet för att visa sökvägen i AEM-databasen där filen lagras. Du kan bara välja DITAVal-filer och ett fel visas om du väljer någon annan filtyp.<br>**Villkorsförinställning**: Välj en villkorsförinställning i listrutan om du vill använda ett villkor när du publicerar utdata. Det här alternativet är synligt om du har lagt till ett villkor för DITA-kartfilen. De villkorliga inställningarna finns på fliken Villkorsförinställningar i DITA-kartkonsolen. Visa [Använd förinställningar](generate-output-use-condition-presets.md#id1825FL004PN) om du vill veta mer om villkorsförinställningar. |
 | Ytterligare DITA-OT-kommandoradsargument | Ange de ytterligare argument som du vill att DITA-OT ska behandla när du genererar utdata. Mer information om vilka kommandoradsargument som stöds i DITA-OT finns i [DITA-OT-dokumentationen](https://www.dita-ot.org/). |
 | Metadata <br> <br>Filegenskaper (Assets) | Välj de egenskaper som du vill bearbeta som metadata. Dessa egenskaper ställs in från sidan Egenskaper i DITA-kartan eller bokmappningsfilen. Egenskaperna som du väljer i listrutan visas under fältet **Filegenskaper**. Markera kryssikonen bredvid egenskapen för att ta bort den. <br><br>**Obs!** Metadataegenskaperna är skiftlägeskänsliga.<br><br>*Om du har valt en baslinje baseras värdena för egenskaperna på versionen av den valda baslinjen.<br>* Om du inte har valt en baslinje baseras värdena för egenskaperna på den senaste versionen.<br><br>Du kan också skicka metadata till utdata med DITA-OT-publicering. Om du vill ha mer information kan du [skicka metadata till utdata med DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA).<br><br>**Obs!**: Om du inte har definierat `cq:tags` i alternativet Egenskaper hämtas värdena för `cq:tags` från den aktuella arbetskopian, även om du har valt en baslinje för publicering. |
-| Metadata <br> <br>Använd mappningsegenskaper som reserv | Om du väljer det här alternativet kopieras även de egenskaper som definierats för kartfilen till de avsnitt där sådana egenskaper inte har definierats. Tänk på följande punkter när du använder det här alternativet:<br><br>*Endast egenskaperna String, Date eller Long (en och flera värden) kan skickas till webbplatsens AEM.<br>* Metadatavärdena för en String-typegenskap stöder inte några specialtecken (till exempel `@, #, " "`).<br>* Det här alternativet bör användas tillsammans med alternativet `Properties`. |
+| Metadata <br> <br>Använd mappningsegenskaper som reserv | Om du väljer det här alternativet kopieras även de egenskaper som definierats för kartfilen till de avsnitt där sådana egenskaper inte har definierats. Tänk på följande när du använder det här alternativet:<br><br>*Endast egenskaperna String, Date eller Long (en och flera värden) kan skickas till AEM Site-sidorna.<br>* Metadatavärdena för en String-typegenskap stöder inte några specialtecken (till exempel `@, #, " "`).<br>* Det här alternativet bör användas tillsammans med alternativet `Properties`. |
 | Behåll tillfälliga filer | Välj det här alternativet om du vill behålla de temporära filer som genererats av DITA-OT. Om du får problem när du genererar utdata via DITA-OT väljer du det här alternativet om du vill behålla de tillfälliga filerna. Du kan sedan använda dessa filer för att felsöka fel vid generering av utdata.<br> <br> När du har skapat utdata väljer du ikonen **Hämta temporära filer** ![Hämta temporära filer](images/download-temp-files-icon.png) för att hämta ZIP-mappen som innehåller de temporära filerna. <br><br> **Obs!** Om filegenskaper läggs till under genereringen innehåller de tillfälliga utdatafilerna även en *metadata.xml*-fil som innehåller dessa egenskaper. |
 
 
@@ -153,7 +155,7 @@ Så här skapar och konfigurerar du en förinställning för AEM Sites:
    1. Välj **Plats** och välj sedan publiceringssökvägen och ämnessidmallarna bland de ifyllda alternativen:
       1. Markera platsen.
       1. Välj **Plats**. Exempel: `AEMG Docs`.
-      1. Alternativen **Publish-sökväg** och **Ämnessidmall** anges automatiskt i listrutan. Du kan också välja alternativ. Till exempel är `AEMG-Docs-Site/en/docs/product1` och `Topic page` inställda.
+      1. Alternativen **Publiceringssökväg** och **Ämnessidmall** anges automatiskt i listrutan. Du kan också välja alternativ. Till exempel är `AEMG-Docs-Site/en/docs/product1` och `Topic page` inställda.
    1. Välj den fullständiga sökvägen till platsen:
       1. Välj alternativet **Använd webbplatssökväg**.
       1. Markera den fullständiga sökvägen till platsen. Exempel: `/content/AEMG-Docs-Site/en/docs/product1`.
@@ -167,11 +169,11 @@ Så här skapar och konfigurerar du en förinställning för AEM Sites:
 
    >[!NOTE]
    >
-   > Om du publicerar innehåll på en AEM webbplats för första gången bör du publicera sidorna på webbplatsnivå. Detta garanterar att utdata visas korrekt på **Publish** -instansen utan några CSS-avbrott.
+   > Om du publicerar innehåll på en AEM-webbplats för första gången bör du publicera sidorna på webbplatsnivå. Detta garanterar att utdata visas korrekt på instansen **Publish** utan några CSS-avbrott.
 
 
 
-### Publish länkade ämnen
+### Publicera länkade ämnen
 
 Experience Manager Guides förenklar publiceringen av komplexa dokument genom att du kan skapa ämnesreferenser med `peer @scope`. Du kan sedan definiera publiceringskontexten för dessa referenser från AEM Sites-förinställningar och slutligen generera utdata för de länkade avsnitten.
 Mer information finns i [Generera utdata för att länka ämnen från andra kartor](../user-guide/generate-output-aem-site.md#generate-output-linking-topics-from-other-maps).

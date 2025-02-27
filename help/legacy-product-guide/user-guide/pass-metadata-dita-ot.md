@@ -3,7 +3,9 @@ title: Skicka metadata till utdata med DITA-OT
 description: Lär dig hur du skickar metadata till utdata med DITA-OT-publicering i AEM Guides.
 feature: Publishing, Metadata Management
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 55d70c6d-feb0-43f7-9f18-6d1ccdd1e728
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 0%
@@ -12,12 +14,12 @@ ht-degree: 0%
 
 # Skicka metadata till utdata med DITA-OT {#id21BJ00QD0XA}
 
-Metadata är ytterligare information om utdata. I AEM Guides kan du överföra befintliga metadata eller skapa anpassade metadatataggar. Du kan skicka metadata till AEM, PDF, HTML 5, EPUB och anpassade format via DITA-OT-publicering.
+Metadata är ytterligare information om utdata. I AEM Guides kan du överföra befintliga metadata eller skapa anpassade metadatataggar. Du kan skicka metadata till AEM, PDF, HTML5, EPUB och anpassade format med DITA-OT-publicering.
 
 Utför följande steg för att skicka metadata till utdata med DITA-OT-publicering:
 
 1. I **Assets-gränssnittet** går du till och klickar på den DITA-kartfil som du vill skicka metadata till DITA-OT.
-1. Markera och redigera en förinställning som du vill skicka metadatafälten till. Välj t.ex. förinställningen PDF.
+1. Markera och redigera en förinställning som du vill skicka metadatafälten till. Välj t.ex. PDF förinställning för utdata.
 1. Välj **DITA-OT** under Generera &lt;output\> Använda i den valda utdataförinställningen.
 
    ![](images/custom-meta-data-output-preset.png){width="800" align="left"}
@@ -32,7 +34,7 @@ Utför följande steg för att skicka metadata till utdata med DITA-OT-publiceri
 
    Den här filen kan överlappas av: `/apps/fmdita/config/metadataList`.
 
-   Om du vill skicka en anpassad egenskap som du redan har definierat värdena för läser du [Använd AEM metadata i DITA-OT PDF-utdata](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880).
+   Mer information om hur du skickar en anpassad egenskap som du redan har definierat värdena för finns i [Använd AEM-metadata i DITA-OT PDF-utdata](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880).
 
 1. Välj önskade anpassade egenskaper och standardegenskaper i listrutan **Egenskaper**. Välj till exempel `author`, `dc:title` och `dc:description`. Det här är standarden `metadata/properties` som skapas när vi skapar en fil. De valda egenskaperna visas under listrutan.
 

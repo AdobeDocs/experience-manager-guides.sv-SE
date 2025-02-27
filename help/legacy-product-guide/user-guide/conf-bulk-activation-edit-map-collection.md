@@ -3,7 +3,9 @@ title: Redigera en gruppaktiveringskarta
 description: Använd den publicerade kontrollpanelen i AEM Guides. Lär dig hur du redigerar en gruppaktiveringskarta genom att lägga till eller ta bort kartfiler.
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: a15ee164-ec60-483e-8760-b1c290625415
+source-git-commit: 4801f0d327b4bd0641aa195d39ec2c4be2a2ce74
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 0%
@@ -18,7 +20,7 @@ Du kan redigera en gruppaktiveringskarta genom att lägga till eller ta bort en 
 
 1. Klicka på länken Adobe Experience Manager överst och välj **Verktyg**.
 
-1. Klicka på panelen **Massvis med Publish Dashboard**.
+1. Klicka på panelen **Masspubliceringspanel**.
 
    En lista över massaktiveringskarta visas.
 
@@ -27,7 +29,7 @@ Du kan redigera en gruppaktiveringskarta genom att lägga till eller ta bort en 
 1. Klicka på **Redigera**.
 
    Samlingssidan för bulkaktiveringskarta visas där du visas kartorna tillsammans med deras förkonfigurerade förinställningar för varje tillgängligt språkområde.
-Du kan visa de olika typerna av förinställningar för utdata tillsammans med ikonerna för dem, till exempel AEM Site, PDF, Native PDF, HTML 5, Custom och JSON.
+Du kan visa de olika typerna av förinställningar för utdata tillsammans med ikonerna för dem, till exempel AEM Site, PDF, Native PDF, HTML5, Custom och JSON.
 .
 
    >[!NOTE]

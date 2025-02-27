@@ -3,7 +3,9 @@ title: Bekanta dig med Web Editors funktioner
 description: Upptäck webbredigeringsprogrammets funktioner i AEM Guides. Lär dig webbredigerarens gränssnitt, inklusive huvudverktygsfältet, det sekundära verktygsfältet, den vänstra panelen, området för innehållsredigering och den högra panelen.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
+hide: true
+exl-id: 045cafac-393f-49e9-9432-6533a4c6dc01
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '18802'
 ht-degree: 0%
@@ -98,7 +100,7 @@ Redigeringsinställningarna är bara tillgängliga för administrativa användar
 
   ![](images/editor-setting-general.png){width="650" align="left"}
 
-   - **Stavningskontroll**: Det finns två alternativ: **AEM Stavningskontroll** och **Stavningskontroll i webbläsare**. Som standard använder redigeraren funktionen Stavningskontroll i webbläsaren, där stavningskontrollen utförs med webbläsarens inbyggda ordlista. Du kan växla till AEM Stavningskontroll om du vill använda AEM ordlista, som också kan anpassas för att lägga till din egen ordlista. Mer information om hur du anpassar AEM lexikon finns i avsnittet *Anpassa AEM standardlexikon* i Installera och konfigurera Adobe Experience Manager Guides as a Cloud Service.
+   - **Stavningskontroll**: Det finns två alternativ: **AEM Stavningskontroll** och **Stavningskontroll i webbläsare**. Som standard använder redigeraren funktionen Stavningskontroll i webbläsaren, där stavningskontrollen utförs med webbläsarens inbyggda ordlista. Du kan växla till AEM stavningskontroll om du vill använda AEM ordlista, som också kan anpassas för att lägga till din egen ordlista. Mer information om hur du anpassar AEM-ordlistan finns i avsnittet *Anpassa AEM standardordlista* i Installera och konfigurera Adobe Experience Manager Guides as a Cloud Service.
 
 
    - **Villkor**
@@ -148,9 +150,9 @@ I skärmbilden nedan visas endast 3 av 4 konfigurerade element från den föreg�
 
   ![](images/editor-setting-add-attributes-list.png-to-element.PNG){width="300" align="left"}
 
-- **Publish-profil**: Detta innehåller de Publish-profiler som kan användas för att publicera **kunskapsbasutdata**. Du kan skapa en ny profil för en målkunskapsbas. Exempel: Salesforce eller ServiceNow.
+- **Publiceringsprofil**: Detta innehåller de publiceringsprofiler som kan användas för att publicera **kunskapsbasutdata**. Du kan skapa en ny profil för en målkunskapsbas. Exempel: Salesforce eller ServiceNow.
 
-   - **Skapa en Salesforce Publish-profil**
+   - **Skapa en Salesforce-publiceringsprofil**
 
      **Förutsättningar**
 
@@ -168,18 +170,18 @@ I skärmbilden nedan visas endast 3 av 4 konfigurerade element från den föreg�
 
   När appen har konfigurerats tillhandahåller Salesforce en **konsumentnyckel** och **konsumenthemlighet**.
 
-  Dessa kan användas för att skapa Salesforce Publish-profilen.
+  Dessa kan användas för att skapa Salesforce Publish Profile.
 
 
-   - Om du vill skapa en Salesforce Publish-profil väljer du **Salesforce** kunskapsbas i listrutan **Servertyp** . Ange ett profilnamn. Ange den konsumentwebbplats som du skulle använda för att publicera utdata i URL:en för **platsen** och lägg sedan till **konsumentnyckeln** och **konsumenthemligheten** från Salesforce konsumentwebbplats. **Validera** och **Spara** den nya profilen.
+   - Om du vill skapa en Salesforce-publiceringsprofil väljer du **Salesforce**-kunskapsbasen i listrutan **Servertyp** . Ange ett profilnamn. Ange den konsumentwebbplats som du skulle använda för att publicera utdata i URL:en för **platsen** och lägg sedan till **konsumentnyckeln** och **konsumenthemligheten** från Salesforce konsumentwebbplats. **Validera** och **Spara** den nya profilen.
      ![salesforce-publiceringsprofil i redigeringsinställningarna](./images/salesforce-publish-profile.png){width="550" align="left"}
 
      >[!NOTE]
      >
-     >Om du vill konfigurera en proxy för Salesforce i Experience Manager Guides använder du Apache HTTP Components Proxy Configuration i AEM. Lär dig hur du [konfigurerar proxy för AEM Länkkontroll](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
+     >Om du vill konfigurera en proxy för Salesforce i Experience Manager Guides använder du Apache HTTP Components Proxy Configuration i AEM. Lär dig hur du [konfigurerar proxy för AEM Link Checker](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
 
 
-   - **Skapa en ServiceNow Publish-profil**
+   - **Skapa en ServiceNow-publiceringsprofil**
 
      **Förutsättningar**
 
@@ -192,12 +194,12 @@ I skärmbilden nedan visas endast 3 av 4 konfigurerade element från den föreg�
 
       - Klicka på **Spara**.
 
-     Skapa Publish-profilen **ServiceNow** när du har konfigurerat appen.
-   - Om du vill skapa en Publish-profil väljer du ServiceNow Knowledge Base i listrutan **Servertyp**. Ange profilen **Namn**. I **ServiceNow URL** anger du den konsumentwebbplats som du skulle använda för att publicera utdata och lägger sedan till **Användarnamn** och **Lösenord** från ServiceNow-konsumentwebbplatsen. **Validera** och **Spara** den nya profilen.
+     Skapa **ServiceNow**-publiceringsprofilen när du har konfigurerat appen.
+   - Om du vill skapa en publiceringsprofil väljer du ServiceNow Knowledge Base i listrutan **Servertyp**. Ange profilen **Namn**. I **ServiceNow URL** anger du den konsumentwebbplats som du skulle använda för att publicera utdata och lägger sedan till **Användarnamn** och **Lösenord** från ServiceNow-konsumentwebbplatsen. **Validera** och **Spara** den nya profilen.
 
      ![ServiceNow-publiceringsprofil](./images/service-now-publish-profile.png){width="550" align="left"}
 
-  När du har validerat kan du välja Publish-profilen i utdatainställningarna för en DITA-karta och använda den för att generera utdata till den **Salesforce** - eller **ServiceNow** -server som du har valt.
+  När du har validerat kan du välja publiceringsprofilen i utdataförinställningarna för en DITA-karta och använda den för att generera utdata till den **Salesforce** - eller **ServiceNow** -server som du har valt.
 
   Läs mer om förinställningen för [kunskapsbas](../user-guide/generate-output-knowledge-base.md)-utdata.
 
@@ -290,7 +292,7 @@ Användarinställningarna är tillgängliga för alla författare. Med hjälp av
      >
      > Namnet på den aktuella mappprofilen visas som etikett för ikonen för användarinställningar i huvudverktygsfältet.
 
-   - **Bassökväg**: Som standard visas resurser från /content/dam-platsen när du öppnar AEM från Web Editor. Arbetsmappen finns förmodligen i mappen /content/dam/. Det krävs några klick för att komma till arbetsmappen varje gång. Du kan ange grundsökvägen till din arbetsmapp och i databasvyn visas sedan innehållet från den platsen direkt. Detta minskar tiden för åtkomst till din arbetsmapp. När du infogar en referens- eller mediefil i ditt ämne börjar filbläddringsplatsen med mappen inställd i bassökvägen.
+   - **Bassökväg**: När du öppnar AEM-databasen från Web Editor visas som standard resurser från /content/dam-platsen. Arbetsmappen finns förmodligen i mappen /content/dam/. Det krävs några klick för att komma till arbetsmappen varje gång. Du kan ange grundsökvägen till din arbetsmapp och i databasvyn visas sedan innehållet från den platsen direkt. Detta minskar tiden för åtkomst till din arbetsmapp. När du infogar en referens- eller mediefil i ditt ämne börjar filbläddringsplatsen med mappen inställd i bassökvägen.
 
    - **Välj rotkarta**: Välj en DITA-mappningsfil för att lösa nyckelreferenser eller ordlisteposter. Den markerade rotkartan har högsta prioritet för att lösa nyckelreferenser. Mer information finns i [Lös nyckelreferenser](map-editor-other-features.md#id176GD01H05Z).
 
@@ -465,7 +467,7 @@ När du väljer alternativet Ljud- eller videofil visas databasvyn där du kan b
 
 >[!NOTE]
 >
-> När du lägger till en YouTube-videolänk måste du ersätta strängen `watch?v=` med `embed` i URL:en. Om du till exempel vill lägga till en YouTube-videolänk: `https://www.youtube.com/**watch?v**=WlIKQOrmZcs` måste du lägga till den som: `https://www.youtube.com/**embed/**WlIKQOrmZcs`. Ändringen säkerställer att videon bäddas in i AEM och PDF.
+> När du lägger till en YouTube-videolänk måste du ersätta strängen `watch?v=` med `embed` i URL:en. Om du till exempel vill lägga till en YouTube-videolänk: `https://www.youtube.com/**watch?v**=WlIKQOrmZcs` måste du lägga till den som: `https://www.youtube.com/**embed/**WlIKQOrmZcs`. Ändringen säkerställer att videon bäddas in i utdata från AEM Site och PDF.
 
 Du kan också lägga till ljud- eller videofilen från dialogrutan Infoga multimedia. Välj alternativet Ljud-/videofil och klicka på bläddringsikonen för att öppna databasvyn. Markera ljud- eller videofilen från databasen och klicka på Välj för att lägga till länken för filen i fältet Ljud-/videofil. Om du väljer en videofil visas även en förhandsgranskning av filen i förhandsvisningsområdet. Du kan spela upp videofilen för att se dess förhandsvisning.
 
@@ -509,7 +511,7 @@ Om administratören har aktiverat alternativet UUID i *XMLEditorConfig* visas UU
 
 **Filtersökning**
 
-Du kan söka efter viss text i de filer som finns på den valda sökvägen i AEM. Till exempel genomsöks&quot;general&quot; i skärmbilden nedan. Du kan även begränsa sökningen med hjälp av förbättrade filter. Du kan söka efter alla DITA-filer som DITA-avsnitt och DITA-kartor som finns på den valda sökvägen.
+Du kan söka efter text i de filer som finns på den valda sökvägen i AEM-databasen. Till exempel genomsöks&quot;general&quot; i skärmbilden nedan. Du kan även begränsa sökningen med hjälp av förbättrade filter. Du kan söka efter alla DITA-filer som DITA-avsnitt och DITA-kartor som finns på den valda sökvägen.
 
 Du kan söka efter icke-DITA-filer som bildfiler, multimedia och dokument i den valda sökvägen. Du kan också söka efter specifika värden i attributen för DITA-element. Du kan också söka efter filer som har checkats ut av den angivna användaren.
 
@@ -1090,7 +1092,7 @@ De olika alternativen på Alternativ-menyn förklaras nedan:
   > Om administratören har gett dig behörighet för en mapp visas endast alternativen **Byt namn** eller **Flytta till**.
 
   <details>
-    <summary> Cloud Service </summary>
+    <summary> Molntjänster </summary>
 
   Om du byter namn på eller flyttar en fil bryts inte befintliga referenser från eller till filen, eftersom varje fil har ett unikt UUID.
   </details>
@@ -1147,9 +1149,9 @@ De olika alternativen på Alternativ-menyn förklaras nedan:
 
 - **Visa i Assets-gränssnitt**: Använd det här alternativet om du vill visa en förhandsvisning av en DITA/.xml-fil i Assets-gränssnittet. Om det är en .ditamap/.bookmap-fil visas alla ämnesfiler på kartan i en enda enhetlig sida-för-sida-vy.
 
-- **Hämta som PDF**: Använd alternativet för att generera utdata från PDF och hämta dem.
+- **Hämta som PDF**: Använd alternativet för att generera PDF-utdata och hämta dem.
 
-- **Publish As**: Använd alternativet för att publicera ett ämne eller elementen i ett ämne till ett innehållsfragment.
+- **Publicera som**: Använd alternativet för att publicera ett ämne eller elementen i ett ämne till ett innehållsfragment.
 
 - **Snabbgenerering**: Generera utdata för den valda filen. Utdata kan bara genereras för filer som är en del av en förinställning. Mer information finns i [Artikelbaserad publicering från webbredigeraren](web-editor-article-publishing.md#id218CK0U019I).
 
@@ -1281,7 +1283,7 @@ I dialogrutan **Hämta karta** kan du välja följande alternativ:
 
   >[!NOTE]
   >
-  >  Som standard finns de hämtade kartorna kvar i fem dagar i Inkorgen för AEM.
+  >  Som standard finns de hämtade kartorna kvar i fem dagar i AEM meddelandeinkorg.
 
 - **Generera utdata**: Generera utdata för den valda mappningsfilen. Utdata kan bara genereras för filer som är en del av en förinställning. Mer information finns i [Artikelbaserad publicering från webbredigeraren](web-editor-article-publishing.md#id218CK0U019I).
 - **Stäng**: Stänger kartfilen.
@@ -1387,7 +1389,7 @@ Med sökfunktionen kan du söka efter ett element med hjälp av dess namn, id, t
 
 Sökningen är skiftlägesokänslig och matchar strängen exakt. Sökresultaten sorteras utifrån elementets placering i dokumentet.
 
-Du kan söka efter en sträng i elementet om den visas på panelen Dispositionsvy. Om strängen &quot;Adobe&quot; till exempel finns i elementets text och visas på panelen Dispositionsvy (som du har valt **Visa text** i listrutan Visningsalternativ), filtreras elementet som finns i den. Men om texten inte visas på panelen Dispositionsvy (eftersom du inte har markerat **Visa text** i listrutan Visningsalternativ) filtreras inte elementet som innehåller. På samma sätt finns strängen i ID:t eller attributen om du har markerat dem.
+Du kan söka efter en sträng i elementet om den visas på panelen Dispositionsvy. Om strängen &quot;Adobe&quot; till exempel finns i elementets text och visas i dispositionsvyn (som du har valt **Visa text** i listrutan Visningsalternativ), filtreras elementet som finns i den. Men om texten inte visas på panelen Dispositionsvy (eftersom du inte har markerat **Visa text** i listrutan Visningsalternativ) filtreras inte elementet som innehåller. På samma sätt finns strängen i ID:t eller attributen om du har markerat dem.
 
 
 

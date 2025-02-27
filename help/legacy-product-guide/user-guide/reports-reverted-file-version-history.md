@@ -1,9 +1,11 @@
 ---
 title: Rapport över versionshistorik för återskapade filer
-description: Visa rapporter om versionshistorik för återskapade filer i AEM Guides. Lär dig hur du får åtkomst till loggar för återversioner från Assets-gränssnittet, förhandsgranskning av ämnen och AEM.
+description: Visa rapporter om versionshistorik för återskapade filer i AEM Guides. Lär dig hur du får åtkomst till loggar för återversioner från Assets användargränssnitt, förhandsgranskning av ämnen och val av AEM-verktyg.
 feature: Report Generation
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: c787947a-b235-4c12-a9cc-eac5136d31db
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%
@@ -24,7 +26,7 @@ Du kommer åt den här rapporten från följande platser:
 
 - **Förhandsgranskning av ämne**: När du förhandsgranskar ett ämne kan du även visa panelen **Versionshistorik** från den vänstra listen. Du får en panel som liknar användargränssnittet i Assets där du kan klicka på länken **Återställ versionsloggar** för att få åtkomst till det aktiva dokumentets återförda versionshistorik.
 
-- **AEM Verktyg-avsnittet**: du kan även komma åt den här rapporten från AEM Verktyg-avsnittet. I proceduren nedan beskrivs hur du kan få åtkomst till historiken för återställningsversioner i avsnittet AEM verktyg.
+- **AEM verktygsavsnittet**: du kan även komma åt den här rapporten från AEM verktygsavsnittet. I proceduren nedan beskrivs hur du kan få åtkomst till historiken för återversioner i avsnittet AEM-verktyg.
 
 
 Utför följande steg för att komma åt rapporten Återgå historik:

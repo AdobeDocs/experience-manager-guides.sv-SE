@@ -1,9 +1,11 @@
 ---
 title: Vyer i Web Editor
-description: Visa dokument i författarläge, källläge och förhandsgranskningsläge. Lär dig hur du visar innehåll baserat på villkorliga filter, visar ändringsmarkeringar för spår och exporterar ett ämne som PDF i AEM Guides.
+description: Visa dokument i författarläge, källläge och förhandsgranskningsläge. Lär dig hur du visar innehåll baserat på villkorsstyrda filter, visar ändringsmarkeringar och exporterar ett ämne som PDF i AEM Guides.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: dbc27856-6903-4694-9875-77dc778c80bd
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '1449'
 ht-degree: 0%
@@ -120,12 +122,12 @@ Det finns tre **spårningsalternativ** som du kan välja mellan:
 
 ### Exportera ett ämne som PDF {#id2114BL00B5U}
 
-PDF är ett av de vanligaste utdataformaten som används i alla möjliga steg i dokumentutvecklingscykeln. Med AEM Guides kan du skapa PDF för ett enskilt ämne eller en hel kartfil. Med funktionen Exportera som PDF kan författaren, utgivaren eller en administratör enkelt generera PDF-utdata för ett enskilt ämne. Den använder DITA-OT-konfigurationer som sparats i mappnivåprofilen för att generera PDF.
+PDF är ett av de vanligaste utdataformaten som används i alla möjliga faser av dokumentutvecklingscykeln. Med AEM Guides kan du skapa en PDF av ett enskilt ämne eller en hel kartfil. Med funktionen Exportera som PDF kan författaren, utgivaren eller en administratör enkelt generera PDF-utdata för ett enskilt ämne. Den använder de DITA-OT-konfigurationer som har sparats i mappnivåprofilen för att generera PDF.
 
 Den här funktionen har stöd för följande funktioner:
 
-- Generera PDF till den aktuella arbetskopian av ett ämne.
-- Acceptera DITA-OT-omformningsnamnet och kommandoradsargumenten för att generera PDF.
+- Generera en PDF av den aktuella arbetskopian av ett ämne.
+- Acceptera DITA-OT-transformeringsnamnet och kommandoradsargumenten för att generera PDF.
 - Spara genererade utdata på det lokala systemet.
 - Lös de nyckel- och innehållsreferenser som används i avsnittet innan utdata genereras.
 
@@ -147,7 +149,7 @@ Så här exporterar du ett ämne som PDF:
    >
    > Kontrollera att du har aktiverat popup-fönstret i webbläsarkonfigurationen, annars hämtas inte PDF.
 
-   PDF genereras och öppnas på en ny flik eller så visas en dialogruta där du kan spara PDF på ditt lokala system.
+   PDF genereras och öppnas på en ny flik eller så visas en dialogruta där du kan spara PDF på din dator.
 
 
 **Överordnat ämne:**[ Arbeta med webbredigeraren](web-editor.md)

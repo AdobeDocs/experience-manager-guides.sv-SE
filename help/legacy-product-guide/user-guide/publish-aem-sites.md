@@ -1,16 +1,17 @@
 ---
-title: Publish ett ämne på en AEM Sites-sida
-description: Publish ett ämne eller de element som finns i ett avsnitt i ett Adobe Experience Manager Sites-dokument.  Lär dig hur du visar Experience Manager Sites-sidan för ett ämne och publicerar dem igen.
+title: Publicera ett ämne på en AEM Sites-sida
+description: Publicera ett ämne eller element i ett ämne i ett Adobe Experience Manager Sites-utdata.  Lär dig hur du visar Experience Manager Sites-sidan för ett ämne och publicerar dem igen.
 feature: Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '638'
 ht-degree: 0%
 
 ---
 
-# Publish Adobe Experience Manager Sites
+# Publicera Adobe Experience Manager Sites-sidor
 
 
 Experience Manager Sites sida avser innehåll som publicerats på Adobe Experience Manager webbplats. Med Experience Manager Guides kan du publicera ett fristående ämne på en Sites-sida.

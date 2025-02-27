@@ -1,9 +1,11 @@
 ---
 title: Hämta filer
-description: Lär dig hur du hämtar filer från DITA-kartkonsolen i AEM Guides och exporterar en DITA-kartfil i AEM.
+description: Lär dig hur du hämtar filer från DITA-kartkonsolen i AEM Guides och exporterar en DITA-kartfil i AEM-databasen.
 feature: Content Management
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: b04a0abe-a029-44ac-b8f4-138d78908d44
+source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 0%
@@ -12,11 +14,11 @@ ht-degree: 0%
 
 # Hämta filer {#id216MC0H0BE8}
 
-Du kan hämta resurser, inklusive DITA-filer och andra filer. Det finns flera sätt att hämta resurser på, vissa metoder är inbyggda i AEM och andra stöds av AEM Guides. Inbyggd AEM hämtningsinformation finns i [Hämta resurser från Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html) i AEM. I följande avsnitt förklaras hur du hämtar filer via DITA-kartkonsolen i AEM Guides.
+Du kan hämta resurser, inklusive DITA-filer och andra filer. Du kan hämta resurser på flera olika sätt. Vissa metoder är inbyggda i AEM och andra stöds av AEM Guides. Inbyggd hämtningsinformation för AEM-resurser finns i [Hämta resurser från Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html) i AEM-dokumentationen. I följande avsnitt förklaras hur du hämtar filer via DITA-kartkonsolen i AEM Guides.
 
 ## Exportera en DITA-kartfil
 
-När du har DITA-mappningsfilen i AEM kan du hämta kartfilen tillsammans med dess underordnade filer. Detta ger dig flexibilitet att dela hela kartfilen för offlineredigering, validering, granskning eller att helt enkelt skapa en säkerhetskopia.
+När du har DITA-kartfilen i AEM-databasen kan du hämta kartfilen tillsammans med dess underordnade filer. Detta ger dig flexibilitet att dela hela kartfilen för offlineredigering, validering, granskning eller att helt enkelt skapa en säkerhetskopia.
 
 Följ de här stegen för att hämta en DITA-kartfil tillsammans med de beroende filerna:
 
@@ -46,11 +48,11 @@ Följ de här stegen för att hämta en DITA-kartfil tillsammans med de beroende
 
    - Klicka på **Hämta** om du vill hämta kartfilen i zip-format.
 
-   - Klicka på **Hämta senare** om du vill hämta kartfilen vid ett senare tillfälle. Du kommer åt nedladdningslänken via AEM. Klicka på det genererade kartmeddelandet i Inkorgen för att hämta kartan i ZIP-format.
+   - Klicka på **Hämta senare** om du vill hämta kartfilen vid ett senare tillfälle. Du kommer åt nedladdningslänken via AEM meddelandeinkorg. Klicka på det genererade kartmeddelandet i Inkorgen för att hämta kartan i ZIP-format.
 
    >[!NOTE]
    >
-   > Som standard finns de hämtade kartorna kvar i fem dagar i Inkorgen för AEM.
+   > Som standard finns de hämtade kartorna kvar i fem dagar i AEM meddelandeinkorg.
 
 ![](images/download-map-inbox.png){width="300" align="left"}
 

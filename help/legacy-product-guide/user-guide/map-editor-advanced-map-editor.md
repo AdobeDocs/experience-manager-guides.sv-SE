@@ -3,8 +3,9 @@ title: Arbeta med den avancerade kartredigeraren
 description: Lär dig arbeta med den avancerade kartredigeraren i AEM Guides. Lär dig funktionerna i den avancerade kartredigeraren. Redigera ämnen via en DITA-karta och använd layoutvyn, författarvyn och förhandsgranskningsläget.
 feature: Authoring, Map Editor
 role: User
+hide: true
 exl-id: b63d7c0f-9c29-4fb4-b8fe-9790b16f8726
-source-git-commit: ae49df3912a5a7a3a01e5eaa08fb9f05249da29f
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '3788'
 ht-degree: 0%
@@ -97,7 +98,7 @@ Utför följande steg för att skapa kartfilen med hjälp av den avancerade kart
 
      ![](images/move-topic-adv-map-editor.png){width="350" align="left"}
 
-   - Om du vill kontrollera kartfilens egenskaper högerklickar du var som helst i kartredigeringsområdet och väljer **Egenskaper** på snabbmenyn. Baserat på din AEM kan du se egenskaper som metadata, schemaaktivering, referenser, dokumenttillstånd med mera.
+   - Om du vill kontrollera kartfilens egenskaper högerklickar du var som helst i kartredigeringsområdet och väljer **Egenskaper** på snabbmenyn. Baserat på din AEM-version kan du se egenskaper som metadata, schemaaktivering, referenser, dokumenttillstånd med mera.
 
 1. Klicka på **Spara**.
 

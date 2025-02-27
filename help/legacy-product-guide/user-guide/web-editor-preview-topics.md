@@ -1,9 +1,11 @@
 ---
 title: Förhandsgranska ett ämne
-description: Lär dig hur du förhandsgranskar ett avsnitt i AEM Guides. Lär dig mer om de funktioner som är tillgängliga i förhandsgranskningsläget. Förgrena, återställ och efterföljande versionshantering i AEM.
+description: Lär dig hur du förhandsgranskar ett avsnitt i AEM Guides. Lär dig mer om de funktioner som är tillgängliga i förhandsgranskningsläget. Förgrena, backa och efterföljande versionshantering i AEM-guider.
 feature: Authoring
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: c2c24b6f-08e8-47be-be33-b3e9fb50052e
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '1859'
 ht-degree: 0%
@@ -27,7 +29,7 @@ Utför följande steg för att förhandsgranska ett ämne:
 
    >[!IMPORTANT]
    >
-   > Placeringen av följande funktioner i verktygsfältet Förhandsgranska kan variera beroende på AEM. Vissa av funktionerna kan finnas i huvudverktygsfältet, medan andra finns på Mer-menyn.
+   > Placeringen av följande funktioner i verktygsfältet Förhandsgranska kan variera beroende på hur AEM-servern är konfigurerad. Vissa av funktionerna kan finnas i huvudverktygsfältet, medan andra finns på Mer-menyn.
 
 ## Funktioner som är tillgängliga i förhandsgranskningsläge
 
@@ -37,7 +39,7 @@ Du kan utföra följande åtgärder från verktygsfältet i förhandsgransknings
 
 **Egenskaper**
 
-Visa egenskaperna för det markerade ämnet. Baserat på din AEM kan du se egenskaper som metadata, schemaaktivering, referenser, dokumenttillstånd med mera.
+Visa egenskaperna för det markerade ämnet. Baserat på din AEM-version kan du se egenskaper som metadata, schemaaktivering, referenser, dokumenttillstånd med mera.
 
 >[!NOTE]
 >

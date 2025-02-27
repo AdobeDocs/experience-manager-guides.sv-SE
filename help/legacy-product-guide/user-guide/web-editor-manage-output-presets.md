@@ -3,7 +3,9 @@ title: Hantera förinställningar för utdata för global profil och mappprofil
 description: Lär dig hur du skapar, redigerar, byter namn på, duplicerar och tar bort förinställningar för utdata i global profil och mappprofil som administrativa användare i AEM Guides.
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 4e9cd1d5-1c28-4363-917d-f58511c4f809
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 0%
@@ -39,13 +41,13 @@ Så här skapar du en förinställning för globala profiler och mappprofiler:
 
 >[!NOTE]
 >
-> AEM Guides har också en färdig förinställning för PDF för att generera utdata för dina DITA-kartor.
+> AEM Guides har också en färdig PDF-utdatainställning som genererar utdata för dina DITA-kartor.
 
 **Andra åtgärder på Alternativ-menyn**
 
 Du kan även utföra följande åtgärder på förinställningen på Alternativ-menyn:
 
-- Välj förinställningen som standardförinställning för PDF. Sedan används den valda förinställningen som standardförinställning för att generera utdata från PDF med alternativet **Hämta som PDF** för en karta.
+- Välj förinställningen som standardförinställning för PDF. Sedan används den valda förinställningen som standardförinställning för att generera PDF-utdata med alternativet **Hämta som PDF** för en karta.
 - **Redigera**, **Byt namn på**, **Duplicera** eller **Ta bort** en befintlig förinställning på menyn **Alternativ** .
 
 >[!NOTE]

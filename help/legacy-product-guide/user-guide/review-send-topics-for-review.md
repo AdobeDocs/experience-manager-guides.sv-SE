@@ -3,7 +3,9 @@ title: Skicka ämnen för granskning
 description: Lär dig hur du skapar en granskningsåtgärd och skickar ämnen för granskning i AEM Guides. Skicka ett eller flera ämnen i en DITA-karta för granskning.
 feature: Reviewing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 4e47536a-ad78-4c97-9cea-a6af854f6e2f
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '2752'
 ht-degree: 0%

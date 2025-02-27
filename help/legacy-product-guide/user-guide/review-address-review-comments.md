@@ -3,7 +3,9 @@ title: Adressgranskningskommentarer
 description: Läs om hur du hanterar granskningskommentarer som författare i AEM Guides. Upptäck hur en författare kan redigera, filtrera, godkänna eller avvisa kommentarer i ett dokument.
 feature: Reviewing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: a9551eb0-ad30-424d-b1c8-c079125d8118
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%

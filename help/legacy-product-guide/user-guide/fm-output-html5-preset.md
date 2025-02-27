@@ -1,9 +1,11 @@
 ---
 title: HTML5
-description: Generera och konfigurera utdata från HTML5 för FrameMaker dokument i AEM Guides.
+description: Generera och konfigurera HTML5-utdata för FrameMaker-dokument i AEM Guides.
 feature: Publishing FrameMaker Documents
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 284fafeb-cc0f-49c0-86a3-3aec7418a632
+source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 0%
@@ -12,18 +14,18 @@ ht-degree: 0%
 
 # HTML5 {#id205BB0U70MG}
 
-Följande alternativ är tillgängliga för utdata från HTML5:
+Följande alternativ är tillgängliga för HTML5-utdata:
 
 >[!NOTE]
 >
-> Om du vill öppna förinställningar för HTML 5 klickar du på FrameMakerna \(`.fm` eller `.book`\), sedan på Utdatainställningar och sedan på HTML 5.
+> Om du vill öppna förinställningar för HTML5 klickar du på en FrameMaker \(`.fm` eller `.book`\)-fil, sedan på Utdatainställningar och sedan på alternativet HTML5.
 
 | HTML5, alternativ | Beskrivning |
 |------------|-----------|
-| Utdatatyp | Den typ av utdata som du vill generera. Om du vill generera utdata för HTML5 väljer du HTML 5. |
-| Inställningsnamn | Ange ett beskrivande namn för de utdatainställningar för HTML5 som du skapar. Du kan till exempel ange *interna kunders utdata* eller *slutanvändares utdata*. |
-| Inställningsfil | Ange inställningsfilens plats \(.sts\) i AEM som ska användas för att generera HTML5-utdata. |
-| Målsökväg | Den sökväg i AEM där HTML5-utdata lagras. |
-| Kör arbetsflöde efter generering | När du väljer det här alternativet visas en ny arbetsflödeslista som innehåller alla arbetsflöden som är konfigurerade i AEM. Du måste välja ett arbetsflöde som du vill köra när arbetsflödet för generering av utdata har slutförts. |
+| Utdatatyp | Den typ av utdata som du vill generera. Om du vill generera utdata från HTML5 väljer du alternativet HTML5. |
+| Inställningsnamn | Ange ett beskrivande namn för de HTML5-utdatainställningar som du skapar. Du kan till exempel ange *interna kunders utdata* eller *slutanvändares utdata*. |
+| Inställningsfil | Ange inställningsfilens plats \(.sts\) i AEM-databasen som ska användas för att generera HTML5-utdata. |
+| Målsökväg | Den sökväg i din AEM-databas där HTML5-utdata lagras. |
+| Kör arbetsflöde efter generering | När du väljer det här alternativet visas en ny arbetsflödeslista som innehåller alla arbetsflöden som konfigurerats i AEM. Du måste välja ett arbetsflöde som du vill köra när arbetsflödet för generering av utdata har slutförts. |
 
 **Överordnat ämne:**[ Generera utdata för FrameMaker-dokument](fm-output-generatation.md)

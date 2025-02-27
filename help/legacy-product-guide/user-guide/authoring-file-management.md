@@ -3,7 +3,9 @@ title: Hantera filer och mappar
 description: Lär dig hantera filer och mappar i AEM Guides. Kopiera och klistra in, dra och släpp, ta bort, flytta flera filer och mappar samtidigt samt söka i DITA-innehåll.
 feature: Content Management
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 35663aa1-9e52-4909-aaee-0f01cf47dc64
+source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
 workflow-type: tm+mt
 source-wordcount: '3109'
 ht-degree: 0%
@@ -98,7 +100,7 @@ Om du väljer alternativet att skapa en version från den befintliga kopian när
 
 ## Flytta flera filer samtidigt {#move-files-bulk}
 
-AEM Guides har ett verktyg för flyttning av flera filer som hjälper en administratör att flytta en mapp med ett stort antal filer från en plats till en annan. Med det här verktyget kan du enkelt flytta filer i en eller flera mappar till en annan mapp i AEM. En av de viktigaste funktionerna i det här verktyget är att det inte bara flyttar ett stort antal filer, det bevarar även referenserna till och från de filer som flyttas. Du kan ändra antalet filer som du kan flytta i grupper utan att det påverkar redigerings- och publiceringsåtgärderna.
+AEM Guides har ett verktyg för flyttning av flera filer som hjälper en administratör att flytta en mapp med ett stort antal filer från en plats till en annan. Med det här verktyget kan du enkelt flytta filer i en eller flera mappar till en annan mapp i din AEM-databas. En av de viktigaste funktionerna i det här verktyget är att det inte bara flyttar ett stort antal filer, det bevarar även referenserna till och från de filer som flyttas. Du kan ändra antalet filer som du kan flytta i grupper utan att det påverkar redigerings- och publiceringsåtgärderna.
 
 >[!NOTE]
 >
@@ -130,7 +132,7 @@ Så här flyttar du flera filer samtidigt:
 
    <details>
 
-   <summary> Cloud Service och lokalt UUID-baserat filsystem </summary>
+   <summary> Molntjänster och lokalt UUID-baserat filsystem </summary>
 
    ![](images/bulk-move-tool-uuid.png){width="650" align="center"}
 
@@ -217,7 +219,7 @@ Så här flyttar du flera filer samtidigt:
 
 ## Sök i DITA-innehåll
 
-Som standard känner AEM inte igen DITA-innehåll, vilket innebär att det inte finns någon mekanism för att söka efter DITA-innehåll i dess databas. AEM Guides lägger till ett lager ovanpå AEM, vilket gör att AEM kan förstå och bearbeta DITA-innehåll. Med funktionen Sök i DITA-innehåll i AEM Guides kan du söka efter DITA-innehåll i AEM.
+Som standard känner AEM inte igen DITA-innehåll, vilket innebär att det inte finns någon mekanism för att söka efter DITA-innehåll i dess databas. AEM Guides lägger till ett lager ovanpå AEM, vilket gör att AEM kan förstå och bearbeta DITA-innehåll. Med funktionen Sök i DITA-innehåll i AEM Guides kan du söka efter DITA-innehåll i AEM-databaser.
 
 >[!NOTE]
 >
@@ -229,7 +231,7 @@ Med sökfunktionen kan du:
 - Sök efter DITA-innehåll baserat på ett attributvärde, till exempel `@platform`= fönster
 - Använd en kombination av DITA-element och attributvärde, till exempel `author`= xml `AND` `@platform`= fönster
 
-Utför följande steg för att söka efter DITA-innehåll i AEM:
+Utför följande steg för att söka efter DITA-innehåll i AEM-databasen:
 
 1. Öppna Assets UI.
 
@@ -275,7 +277,7 @@ Gör så här för att söka efter filer baserat på utcheckningsstatus:
 
 ## Ta bort filer
 
-Borttagning av filer från AEM är en begränsad funktion som styrs av systemadministratören. Beroende på konfigurationerna kan det vara svårt att ta bort filer om de är:
+Borttagning av filer från AEM-databasen är en begränsad funktion som styrs av systemadministratören. Beroende på konfigurationerna kan det vara svårt att ta bort filer om de är:
 
 - Utcheckad
 - Har inkommande eller utgående referenser

@@ -5,9 +5,9 @@ exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
 feature: Profiles
 role: Admin
 level: Experienced
-source-git-commit: e1d6123991ddd8d25f76ee03befeb95f020a9834
+source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
 workflow-type: tm+mt
-source-wordcount: '4755'
+source-wordcount: '4756'
 ht-degree: 0%
 
 ---
@@ -508,7 +508,7 @@ Som standard har XML-redigeraren många funktioner som hjälper dina författare
 
 Med den här inställningen kan du skapa JSON-tillägg som återspeglar ändringar som gjorts i filen `ui_config.json`. Du kan överföra dessa tillägg oberoende av varandra på mappprofilnivå, vilket ger ökad flexibilitet och anpassning. Om du till exempel ändrar **XML-redigerarkonfigurationen**, till exempel uppdaterar en knapp, identifieras skillnaderna automatiskt i systemet. Genom att överföra dessa ändringar till **XML-redigerarens gränssnittskonfiguration** och konvertera dem till JSON-tillägg med knappen **Konvertera gränssnittskonfiguration till JSON**, genererar systemet ett tillägg som innehåller den nya funktionen.
 
-Läs mer om **att anpassa JSON-konfigurationer och konvertera gränssnittskonfigurationer för den nya AEM Guides Editor**.
+Läs mer om [att anpassa JSON-konfigurationer och konvertera gränssnittskonfigurationer för den nya AEM Guides Editor](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
 
 **XML-redigerarens sidlayout**
 

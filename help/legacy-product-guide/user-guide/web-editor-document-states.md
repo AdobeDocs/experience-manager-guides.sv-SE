@@ -3,7 +3,9 @@ title: Dokumenttillstånd
 description: Lär dig olika typer av dokumentlägen i AEM Guides. Lär dig hur du ändrar eller visar dokumentläget och använder dokumentläget i DDLC.
 feature: Authoring, Features of Web Editor, Document State
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: f8367f84-dd46-4140-8748-c3bda0cf933a
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '936'
 ht-degree: 0%
@@ -24,7 +26,7 @@ Ett dokument kan ha något av de dokumentlägen som är definierade i dokumentl�
 
 Dessa lägen ställs in manuellt eller automatiskt enligt dokumentlägesprofilinställningarna. Om dokumentlägesprofilen till exempel är konfigurerad med startläge som utkast och läget Under granskning är definierat för dokument som granskas. När du sedan skapar ett dokument ställs dokumentläget in på *Utkast*. Om du initierar en granskningsåtgärd ändras dokumentets status till Under granskning.
 
-Du kan också ändra dokumentläget manuellt för ett eller flera dokument. Om du väljer att ändra dokumentläget för flera dokument bestäms emellertid det tillåtna läget av de gemensamma lägena som är tillåtna för de markerade dokumenten. Anta att du har definierat dokumentlägena som Utkast, Under granskning, Granskad och Klar för Publish i samma ordning. I dokument ett.dita är läget inställt på *Utkast* och i dokument två.dita är läget inställt på Granskad. När du väljer båda - one.dita och two.dita, blir det tillåtna dokumentläget *Klar för Publish*. Eftersom läget two.dita är i läget *Granskad* är nästa möjliga läge för two.dita bara *Klar för Publish*, som visas när båda dokumenten är markerade.
+Du kan också ändra dokumentläget manuellt för ett eller flera dokument. Om du väljer att ändra dokumentläget för flera dokument bestäms emellertid det tillåtna läget av de gemensamma lägena som är tillåtna för de markerade dokumenten. Anta att du har definierat dokumentlägena som Utkast, Granskning, Granskad och Klart att publicera i samma ordning. I dokument ett.dita är läget inställt på *Utkast* och i dokument två.dita är läget inställt på Granskad. När du väljer båda - en.dita och två.dita, blir det tillåtna dokumentläget *Klar att publicera*. Eftersom läget two.dita är i läget *Granskad* är nästa möjliga läge för two.dita bara *Klar att publicera*, som visas när båda dokumenten är markerade.
 
 >[!NOTE]
 >

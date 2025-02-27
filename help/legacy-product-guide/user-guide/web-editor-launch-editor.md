@@ -3,7 +3,9 @@ title: Starta Web Editor
 description: Lär dig hur du startar webbredigeraren från AEM Navigation Page, AEM Assets UI och DITA map Console i AEM Guides.
 feature: Authoring, Web Editor
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 374042e4-0f1c-44cf-926c-c9fefa4b1de0
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 0%
@@ -14,15 +16,15 @@ ht-degree: 0%
 
 Du kan starta Web Editor från följande platser:
 
-- [AEM navigeringssida](#id2056BG00RZJ)
+- [AEM Navigation page](#id2056BG00RZJ)
 - [AEM Assets UI](#id2056BG0307U)
 - [DITA map console](#id2056BG090BF)
 
 I följande avsnitt beskrivs hur du kommer åt och startar webbredigeraren från olika platser.
 
-## AEM navigeringssida {#id2056BG00RZJ}
+## AEM Navigation page {#id2056BG00RZJ}
 
-När du loggar in AEM visas navigeringssidan:
+När du loggar in i AEM visas navigeringssidan:
 
 ![](images/web-editor-from-navigation-page.png){width="800" align="left"}
 
@@ -30,7 +32,7 @@ Om du klickar på länken **Stödlinjer** dirigeras du direkt till webbredigerar
 
 ![](images/web-editor-launch-page.png){width="800" align="left"}
 
-När du har startat webbredigeraren utan att välja någon fil visas en tom webbredigeringsskärm. Du kan öppna en fil för redigering AEM databasen eller din favoritsamling.
+När du har startat webbredigeraren utan att välja någon fil visas en tom webbredigeringsskärm. Du kan öppna en fil för redigering från AEM-databasen eller din Favoriter-samling.
 
 - Klicka på ikonen **Stödlinjer** (![](images/aem-guides-icon.png) ) för att gå tillbaka till AEM navigeringssida.
 
@@ -40,9 +42,9 @@ När du har startat webbredigeraren utan att välja någon fil visas en tom webb
 
   <details>
 
-  <summary> Cloud Service </summary>
+  <summary> Molntjänster </summary>
 
-  Om du använder Cloud Service klickar du på knappen **Stäng** för att gå tillbaka till AEM navigeringssida.
+  Om du använder molntjänster klickar du på knappen **Stäng** för att gå tillbaka till AEM navigeringssida.
   </details>
 
   <details>

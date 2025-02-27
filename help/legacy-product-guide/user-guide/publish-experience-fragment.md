@@ -1,16 +1,18 @@
 ---
-title: Publish ett ämne i ett Experience Fragment
-description: Publish ett ämne eller elementen i ett ämne i ett Experience Fragment i AEM Guides.  Lär dig hur du visar de Experience Fragments som finns för ett ämne och publicerar dem igen.
+title: Publicera ett ämne till ett Experience Fragment
+description: Publicera ett ämne eller elementen i ett ämne till ett Experience Fragment i AEM Guides.  Lär dig hur du visar de Experience Fragments som finns för ett ämne och publicerar dem igen.
 feature: Publishing
 role: User
-source-git-commit: 324b9b1364c14117740a924e825395f7c9d5c424
+hide: true
+exl-id: c3c6c063-441c-413b-a63e-0acbd126ca6d
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 0%
 
 ---
 
-# Publish Experience Fragments
+# Publicera upplevelsefragment
 
 Experience Fragments är delar av modulärt innehåll i Adobe Experience Manager. Dessa innehållsblock är baserade på mallar och kapslar in både innehållet och layouten. Dessa återanvändbara innehållsdelar gör det möjligt för innehållsskapare att sammanställa och leverera enhetliga, skalbara upplevelser över flera kanaler som Experience Manager stöder. Med den här funktionen kan ni enkelt skapa enhetliga marknadsföringsupplevelser effektivt, som nyhetsbrev, kampanjbanners och kundutlåtanden.
 
@@ -45,10 +47,10 @@ Till exempel:
 
    >[!NOTE]
    >
-   > Du kan också publicera ett Experience Fragment från **databasvyn**. Välj det ämne som du vill publicera som ett Experience Fragment. På menyn **Alternativ** väljer du sedan **Publish som** > **Experience Fragment**.
+   > Du kan också publicera ett Experience Fragment från **databasvyn**. Välj det ämne som du vill publicera som ett Experience Fragment. På menyn **Alternativ** väljer du sedan **Publicera som** > **Upplevelsefragment**.
 
 1. Fyll i följande information i dialogrutan **Skapa Experience Fragment**:
-   ![Lägg till fragmentmodellen och mappningsinformationen i Publish som Experience Fragment-dialogrutan](images/experience-fragment-generate.png){width="500" align="left"}
+   ![Lägg till fragmentmodellen och mappningsinformationen i dialogrutan Publicera som Experience Fragment](images/experience-fragment-generate.png){width="500" align="left"}
 
    *Lägg till sökvägen, mallen och mappningsinformationen för att publicera ett ämne eller dess element som ett Experience Fragment. Du kan skriva över ett befintligt Experience Fragment.*
 

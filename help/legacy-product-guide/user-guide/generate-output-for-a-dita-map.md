@@ -3,7 +3,9 @@ title: Generera utdata för en DITA-karta från kartkonsolen
 description: Generera utdata för en DITA-karta från kartkonsolen i AEM Guides. Lär dig mer om inkrementell generering av utdata och hur du visar status, avbryter och tar bort en utdataåtgärd.
 feature: Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 5c2a8239-e6eb-482b-a11b-3732e667c880
+source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
 workflow-type: tm+mt
 source-wordcount: '1418'
 ht-degree: 0%
@@ -24,7 +26,7 @@ Utför följande steg för att generera utdata för en DITA-karta:
 
    >[!NOTE]
    >
-   > Om du genererar AEM platsutdata använder publiceringsprocessen strukturen som definierats i filen `.ditamap` för att skapa AEM platsstruktur.
+   > Om du genererar utdata för AEM Site används den struktur som definierats i filen `.ditamap` för att skapa en AEM Site-struktur.
 
 1. Klicka på ikonen Generera för att starta genereringsprocessen för utdata.
 
@@ -35,15 +37,15 @@ Du kan visa aktuell status för begäran om generering av utdata genom att klick
 >
 > Om en utdatagenereringsprocess för en förinställning antingen finns i kön eller pågår kan du inte initiera en annan utdatagenereringsåtgärd för samma förinställning.
 
-Du kan generera utdata från PDF för en eller flera förinställningar som skapats för en DITA-karta från webbredigeraren. Mer information finns i [Använda snabbgenereringspanelen för att generera och visa utdata för förinställningarna](web-editor-quick-generate-panel.md#).
+Du kan generera PDF-utdata för en eller flera förinställningar som skapats för en DITA-karta från webbredigeraren. Mer information finns i [Använda snabbgenereringspanelen för att generera och visa utdata för förinställningarna](web-editor-quick-generate-panel.md#).
 
-Du kan också generera AEM för ett eller flera avsnitt eller hela DITA-kartan från Web Editor. Mer information finns i [Artikelbaserad publicering från webbredigeraren](web-editor-article-publishing.md#id218CK0U019I).
+Du kan också generera utdata för en eller flera ämnen från AEM Site, eller hela DITA-kartan från Web Editor. Mer information finns i [Artikelbaserad publicering från webbredigeraren](web-editor-article-publishing.md#id218CK0U019I).
 
 ## Inkrementell utdatagenerering {#generating_standalone_topic}
 
 >[!NOTE]
 >
-> Inkrementell utdatagenerering gäller endast för AEM. Du kan också endast återskapa DITA-avsnitt \(.dita/.xml\) från en DITA-karta eller underkartor. Om du väljer en DITA-karta, delkarta, ämnesgrupp eller ett ämne med `@processing-role="resource-only"` är alternativet för att generera om inte tillgängligt.
+> Inkrementell generering av utdata gäller endast för utdata från AEM Site. Du kan också endast återskapa DITA-avsnitt \(.dita/.xml\) från en DITA-karta eller underkartor. Om du väljer en DITA-karta, delkarta, ämnesgrupp eller ett ämne med `@processing-role="resource-only"` är alternativet för att generera om inte tillgängligt.
 
 Det kan finnas ett antal tillfällen då du bara uppdaterar ett fåtal ämnen på din DITA-karta och bara överför dessa uppdaterade ämnen live. Om du vill hantera sådana scenarier kan du skapa inkrementella utdata i AEM Guides. Om du har uppdaterat några avsnitt behöver du inte generera om hela DITA-kartan. Du kan bara välja de uppdaterade avsnitten och återskapa dem.
 
@@ -53,7 +55,7 @@ Så här återskapar du utdata för ett visst ämne eller en grupp ämnen:
 
 >[!IMPORTANT]
 >
-> När du återskapar AEM platsutdata skapas utdata med den aktuella versionen av filerna och inte med den kopplade baslinjen.
+> När du återskapar utdata för AEM Site skapas utdata med den aktuella versionen av filerna och inte med den kopplade baslinjen.
 
 1. Navigera till och klicka på DITA-kartfilen i Assets-användargränssnittet.
 
@@ -104,7 +106,7 @@ Utför följande steg för att visa kön för generering av utdata:
 
      Visar utdata som väntar på att skapas eller som håller på att genereras. De köade eller pågående uppgifterna visas med en blå färgikon före förinställningens namn. Du kan också hitta den inställning eller förinställning för generering av utdata som används för uppgiften som står i kö, typ, användare som initierade uppgiften, tid sedan uppgiften placerades i kö samt aktuell status.
 
-     Klicka på länken för att komma åt **Publish Dashboard** och visa aktuell körningsstatus. En lista över alla aktiva publiceringsåtgärder finns i Publish Dashboard. Länken **Utdata i kö** och **Publish Dashboard** visas bara när det finns utdata som antingen väntar på att skapas eller som håller på att genereras. De visas inte när utdataaktiviteterna har slutförts.Mer information om Publish Dashboard finns i [Hantera publiceringsaktiviteter med Publish Dashboard](generate-output-publish-dashboard.md#).
+     Klicka på länken för att komma åt **Publish Dashboard** och visa aktuell körningsstatus. En lista över alla aktiva publiceringsåtgärder finns på Publish Dashboard. Länken **Köade utdata** och **Publish Dashboard** visas bara när det finns utdata som antingen väntar på att skapas eller som håller på att genereras. De visas inte när utdataaktiviteterna har slutförts.Mer information om Publish Dashboard finns i [Hantera publiceringsaktiviteter med Publish Dashboard](generate-output-publish-dashboard.md#).
 
    - **Genererade utdata**
 
@@ -116,7 +118,7 @@ Utför följande steg för att visa kön för generering av utdata:
 
      >[!NOTE]
      >
-     > När du klickar på en länk till det genererade PDF-utdata blir du ombedd att hämta PDF. Detta är standardbeteendet i AEM 6.5 och 6.4.
+     > När du klickar på en länk till de genererade PDF-utdata ombeds du ladda ned PDF. Detta är standardbeteendet i AEM 6.5 och 6.4.
 
 
 ## Avbryt en utdatagenereringsaktivitet {#id2061H100T5Z}

@@ -3,8 +3,9 @@ title: Självstudiekurser för Experience Manager Guides
 description: Hitta självstudiekurser för Experience Manager Guides (tidigare XML Documentation för Adobe Experience Manager). Lär dig mer om inbyggt DITA-stöd och strukturerad redigering i Experience Manager.
 feature: AEM Guides Tutorials
 role: User
+hide: true
 exl-id: de7bda03-371b-4414-846b-86787f98fda8
-source-git-commit: 293d2fd9c015a4ec516080b9e5dfed32b96639b7
+source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%

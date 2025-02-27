@@ -3,7 +3,9 @@ title: Arbeta med baslinje
 description: Lär känna användningen av baslinjer i AEM Guides. Lär dig hur du skapar, visar innehåll, redigerar, duplicerar, tar bort, lägger till etiketter och exporterar översatta baslinjer.
 feature: Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: d4892eca-2715-4bd6-8ac8-0a8edff2c4f8
+source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
 workflow-type: tm+mt
 source-wordcount: '1960'
 ht-degree: 0%
@@ -51,7 +53,7 @@ Så här skapar du en baslinje:
 
    När du väljer **Etikett** får du också ett extra alternativ för att använda den senaste versionen av ämnen som inte har den angivna etiketten. Om du inte markerar det här alternativet och det finns ämnen eller mediefiler som inte har den angivna etiketten, kommer baslinjen inte att kunna skapas. Mer information om hur du lägger till etiketter finns i [Använd etiketter](web-editor-use-label.md#).
 
-   - **Version på** &lt;*tidsstämpel*\>: Hämtar ämnesversionen som angivet datum och tid. Observera att den tidpunkt som du anger här motsvarar tidszonen för AEM. Om servern befinner sig i en annan tidszon hämtas ämnen enligt serverns tidszon och inte enligt den lokala tidszonen.
+   - **Version på** &lt;*tidsstämpel*\>: Hämtar ämnesversionen som angivet datum och tid. Observera att den tidpunkt som du anger här motsvarar tidszonen för din AEM-server. Om servern befinner sig i en annan tidszon hämtas ämnen enligt serverns tidszon och inte enligt den lokala tidszonen.
 
    När du har markerat en etikett eller version som den är, markeras alla refererade ämnen och mediefiler på kartan därefter. Det här valet av ämnen visas inte i användargränssnittet, men sparas i serverdelen.
 

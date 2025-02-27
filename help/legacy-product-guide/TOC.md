@@ -4,9 +4,9 @@ user-guide-description: Läs produktdokumentationen för Adobe Experience Manage
 breadcrumb-title: Dokumentation om AEM Guides
 hide: true
 badgeAll: label="Gammal gränssnittshandbok - mer information" type="Informative" url="/help/legacy-product-guide/disclaimer.md" tooltip="Gammal gränssnittshandbok"
-source-git-commit: 293d2fd9c015a4ec516080b9e5dfed32b96639b7
+source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '573'
 ht-degree: 0%
 
 ---
@@ -46,6 +46,8 @@ ht-degree: 0%
                - [Vyer i Web Editor](./user-guide/web-editor-views.md)
                - [Stöd för Schematron-filer](./user-guide/support-schematron-file.md)
                - [AI-baserade smarta förslag för att skapa innehåll](./user-guide/authoring-ai-based-smart-suggestions.md)
+               - [AI-baserad smart hjälp för att söka efter innehåll](./user-guide/ai-based-smart-help.md)
+               - [AI Assistant för att skapa dokument med smart effektivitet](./user-guide/ai-assistant-right-panel.md)
                - [Skapa markeringsdokument från webbredigeraren](./user-guide/web-editor-markdown-topic.md)
                - [Lägg till citat i innehållet](./user-guide/web-editor-apply-citations.md)
                - [Använd data från datakällor](./user-guide/web-editor-content-snippet.md)
@@ -117,6 +119,7 @@ ht-degree: 0%
       - [Grundläggande felsökning](./user-guide/generate-output-basic-troubleshooting.md)
       - [Publicera innehållsfragment](./user-guide/publish-content-fragment.md)
       - [Publicera upplevelsefragment](./user-guide/publish-experience-fragment.md)
+      - [Publicera AEM Sites-sidor](./user-guide/publish-aem-sites.md)
       - Massaktivering av innehållet {#bulk-activation}
          - [Massaktivering av publicerat innehåll](./user-guide/conf-bulk-activation.md)
          - [Skapa en gruppaktiveringskarta](./user-guide/conf-bulk-activation-create-map-collection.md)

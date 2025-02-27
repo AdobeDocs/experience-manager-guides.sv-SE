@@ -3,7 +3,9 @@ title: Använd kartsamling för generering av utdata
 description: Lär dig skapa och ta bort en kartsamling och lägga till eller ta bort en DITA-karta. Konfigurera, generera och avbryta en utdatagenereringsaktivitet från en kartsamling i AEM Guides.
 feature: Publishing
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 4215618f-2203-4c55-adba-cdec76322e9e
+source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
 workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 0%
@@ -54,7 +56,7 @@ Följande filtreringsalternativ och mappningsinformation visas på samlingssidan
 
 - **Filter:** I den senaste rälen visas följande filter:
    - **Ändrad**: Du kan välja Ja eller Nej. Om du väljer ja visas endast de ändrade DITA-kartorna i tabellen Kartor och förinställningar.
-   - **Förinställning**: Välj en förinställning som du vill filtrera ut kartfilerna för. Om du t.ex. väljer *AEM Plats* -förinställning visas bara de kartor som har *AEM Platsens* förinställning konfigurerad för.
+   - **Förinställning**: Välj en förinställning som du vill filtrera ut kartfilerna för. Om du t.ex. väljer förinställningen *AEM Site* visas bara de kartor som har förinställningen *AEM Site* konfigurerad.
    - **Språk**: Du kan välja någon av de tillgängliga språkkoderna och endast visa det valda språket i tabellen Kartor och förinställningar.
 - Tabellen **Kartor och förinställningar**: Tabellen Kartor och förinställningar innehåller information i följande kolumner:
    - **Karta**: Visar titeln på DITA-kartfilen.
@@ -69,7 +71,7 @@ Följande filtreringsalternativ och mappningsinformation visas på samlingssidan
 
 Så här konfigurerar och genererar du utdata med en kartsamling:
 
-1. Öppna kartsamlingen.Du kan visa olika förinställningar för utdata, t.ex. AEM, PDF (inklusive ursprunglig PDF), HTML 5, EPUB och anpassade förinställningar. Du kan även visa de förinställningar för global profil och mappprofil som har skapats av administratören.
+1. Öppna Kartsamlingen.Du kan visa olika förinställningar, t.ex. AEM Site, PDF (inklusive Native PDF), HTML5, EPUB och Custom. Du kan även visa de förinställningar för global profil och mappprofil som har skapats av administratören.
 
    Ikonen ![](images/global-preset-icon.svg) indikerar en förinställning på mappprofilnivå.
 1. \(Valfritt\) Gör något av följande beroende på dina behov:

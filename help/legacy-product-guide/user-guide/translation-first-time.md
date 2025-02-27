@@ -3,7 +3,9 @@ title: Bästa tillvägagångssätt för innehållsöversättning
 description: Lär dig de bästa sätten att översätta innehåll i AEM Guides. Lär dig hur du konfigurerar översättningstjänsten, skapar ett nytt översättningsprojekt och startar översättningsjobbet.
 feature: Translation
 role: User
-source-git-commit: fa07db6a9cb8d8f5b133258acd5647631b22e28a
+hide: true
+exl-id: 09e813fd-ec22-4d2e-9ee7-098d562ad44f
+source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
 workflow-type: tm+mt
 source-wordcount: '1295'
 ht-degree: 0%
@@ -21,7 +23,7 @@ Tänk på följande när du översätter innehåll:
 - Molnkonfigurationen bör vara densamma som för källmappen och det ska bara finnas en molnkonfiguration i en mapp. Du kan skapa flera mappar under /conf om du vill använda flera översättningskopplingar.
 - En mapp får inte innehålla fler än 1 000 filer.
 - Kontrollera att den användare som ansvarar för att initiera översättningsprocessen har behörigheterna Läs, Ändra, Skapa och Ta bort för käll- och målspråksmapparna.
-- Eftersom översättning av innehåll kräver att ett översättningsprojekt skapas, måste användaren ha tillgång till projektet i AEM.
+- Eftersom översättning av innehåll kräver att ett översättningsprojekt skapas måste användaren ha tillgång till projektet i AEM.
 - Om du vill använda villkorliga förinställningar tillsammans med kartan måste du skapa dem innan du startar översättningsprocessen. Eftersom villkorliga förinställningar också paketeras i den översatta versionen av kartan, kan du se till att de är tillgängliga i den översatta versionen genom att skapa förinställningarna innan översättningsprocessen påbörjas.
 - Översättningsprocessen för innehåll måste startas från DITA-kartkonsolen och inte från AEM Assets-gränssnittet.
 - Det komponentbaserade arbetsflödet för DITA-översättning får inte användas om du översätter innehåll via mänsklig översättning. Det här alternativet måste dock användas för maskinöversättning.
@@ -38,9 +40,9 @@ Utför följande steg för att konfigurera den mänskliga översättningstjänst
 
 1. I Assets-gränssnittet väljer du källspråksmappen.
 
-1. Öppna mappegenskaperna och gå till fliken **Cloud Service**.
+1. Öppna mappegenskaperna och gå till fliken **Cloud Services**.
 
-1. Konfigurera översättningstjänsten som du vill använda på fliken **Cloud Service**.
+1. Konfigurera översättningstjänsten som du vill använda på fliken **Cloud-tjänster**.
 
    Du kan konfigurera maskinbaserad eller mänsklig översättning.
 
@@ -48,7 +50,7 @@ Utför följande steg för att konfigurera den mänskliga översättningstjänst
 
    >[!NOTE]
    >
-   > Mer information om hur du integrerar med översättningstjänster finns i [Konfigurera översättningsintegreringsramverket](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en) i AEM.
+   > Mer information om hur du integrerar med översättningstjänster från tredje part finns i [Konfigurera TLF (Translation Integration Framework)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en) i AEM-dokumentationen.
 
 1. Klicka på **Spara och stäng** för att spara de uppdaterade mappegenskaperna.
 
