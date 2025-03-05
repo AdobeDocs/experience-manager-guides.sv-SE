@@ -4,9 +4,9 @@ description: Upptäck funktionerna i redigeraren i Adobe Experience Manager Guid
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
+source-git-commit: 236947dc7dd01d4f232058a98dcd2db99031c267
 workflow-type: tm+mt
-source-wordcount: '18656'
+source-wordcount: '18661'
 ht-degree: 0%
 
 ---
@@ -1253,7 +1253,7 @@ När du öppnar en karta i kartvyn visas den aktuella kartans titel i mitten av 
 
 När du definierar nyckelattribut för ämnet eller mappningsreferenserna kan du visa titeln, motsvarande ikon och nyckeln i den vänstra panelen. Nyckeln visas som `keys=<key-name>`.
 
-![tangenter i kartvyn](images/view-key-title-map-view.png){width="300" align="left"}
+![Tangenter i kartvyn](images/view-key-title-map-view.png){width="300" align="left"}
 
 Om du har redigeringsbehörighet för kartfilerna kan du även redigera filerna. Mer information om hur du öppnar och redigerar ett ämne via DITA-kartan finns i [Redigera ämnen via DITA-kartan](map-editor-advanced-map-editor.md#id17ACJ0F0FHS).
 
@@ -1265,7 +1265,7 @@ Följande alternativ är tillgängliga för en kartfil i Kartvyn:
 
 Du kan utföra följande åtgärder på Alternativ-menyn i kartfilen:
 
-![](images/options-menu-map-view_cs.png){width="800" align="left"}
+![Alternativ-menyn i Kartvyn](images/options-menu-map-view_cs.png){width="800" align="left"}
 
 - **Redigera**: Öppna kartfilen för redigering i kartredigeraren.
 
