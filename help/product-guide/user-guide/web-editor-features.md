@@ -4,9 +4,9 @@ description: Upptäck funktionerna i redigeraren i Adobe Experience Manager Guid
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 236947dc7dd01d4f232058a98dcd2db99031c267
+source-git-commit: 52b94c662f04499644f2806255521b3e68da1910
 workflow-type: tm+mt
-source-wordcount: '18661'
+source-wordcount: '18660'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Ett kraftfullt, AI-drivet verktyg som har utformats för att öka produktivitete
 
 >[!NOTE]
 >
-> AI-assistentfunktionen är för närvarande tillgänglig för Adobe Experience Manager Guides as a Cloud Service.
+>AI-assistentfunktionen är för närvarande tillgänglig för Adobe Experience Manager Guides as a Cloud Service.
 
 **Expandera vy**: Gör att du kan expandera sidvyn med hjälp av ikonen **Expandera** . I den här vyn är sidhuvudsfältet med Adobe Experience Manager logotyp dolt. Detta maximerar innehållsområdet för redigering. Om du vill gå tillbaka till standardvyn använder du ikonen **Avsluta den expanderade vyn** .
 
@@ -190,6 +190,7 @@ I skärmbilden nedan visas endast 3 av 4 konfigurerade element från den föreg�
       - Välj **Spara**.
 
      Skapa profilen **ServiceNow** när du har konfigurerat appen.
+
    - Om du vill skapa en profil väljer du ServiceNow Knowledge Base i listrutan **Servertyp**. Ange profilen **Namn**. I **ServiceNow URL** anger du den konsumentwebbplats som du skulle använda för att publicera utdata och lägger sedan till **Användarnamn** och **Lösenord** från ServiceNow-konsumentwebbplatsen. **Validera** och **Spara** den nya profilen.
 
      ![ServiceNow-publiceringsprofil](./images/service-now-publish-profile.png){width="550" align="left"}
@@ -204,6 +205,7 @@ I skärmbilden nedan visas endast 3 av 4 konfigurerade element från den föreg�
    - **Kör verifieringskontrollen innan du sparar filen**: Välj det här alternativet om du vill köra schematron-verifieringar med de valda Schematron-filerna innan någon sparåtgärd utförs. Du kan lägga till en Schematron-fil genom att välja ikonen +. De valda schematrons-filerna visas.
 
      >[!NOTE]
+     >
      >De markerade schematrons-filerna behålls för den valda mappprofilen.
 
      ![Validering i redigeringsinställningar](./images/editor-setting-validation.png){width="550" align="left"}
@@ -223,18 +225,21 @@ I skärmbilden nedan visas endast 3 av 4 konfigurerade element från den föreg�
 
   ![](images/editor-setting-translation.png){width="550" align="left"}
 
-   - **Språkgrupper**: Som administratör kan du skapa en grupp med språk och använda dem som en uppsättning för att översätta innehållet.\
+   - **Språkgrupper**: Som administratör kan du skapa en grupp med språk och använda dem som en uppsättning för att översätta innehållet.
+
      Så här skapar du en ny språkgrupp:
+
       1. Välj **Lägg till**.
       1. Ange språkgruppsnamnet. Varje språk ska ha ett unikt namn. Du kan visa ett fel om namnfältet är tomt eller om namnet inte är unikt.
       1. Välj språk i listrutan. Du kan välja flera språk.
 
-     Skriv de första tecknen i språket eller språkkoden för att filtrera de önskade språken. Skriv t.ex. &#39;en&#39; om du vill filtrera alla språk som innehåller &#39;en&#39; i början av namnet eller koden.
+         Skriv de första tecknen i språket eller språkkoden för att filtrera de önskade språken. Skriv t.ex. &#39;en&#39; om du vill filtrera alla språk som innehåller &#39;en&#39; i början av namnet eller koden.
+
       1. Välj ikonen Klar om du vill lägga till de valda språken i gruppen. Språken visas. När du lägger till tre eller fler språk visas alternativet **Visa fler**. Du kan välja **Visa mer** om du vill visa alla språk som finns i gruppen.
 
          >[!TIP]
          >
-         > Växla **Visa mer** till **Visa mindre** och visa endast ett fåtal språk.
+         >Växla **Visa mer** till **Visa mindre** och visa endast ett fåtal språk.
 
       1. Håll markören över språken i en grupp om du vill redigera ![redigeringsikonen](images/edit_pencil_icon.svg) eller ta bort ![ta bort](images/Delete_icon.svg) språkgrupperna.
       1. Spara **inställningarna**.
@@ -296,7 +301,7 @@ Funktionen **Sök och ersätt** är tillgänglig i redigeringsläge och Source-v
 
 ![](images/find-replace-bar.png){width="800" align="left"}
 
-Med inställningsikonen \(![](images/settings-find-replace-icon.svg)\) kan du växla sökalternativen **Ignorera skiftläge** och **Endast hela ord**. Om du vill utföra en skiftlägesokänslig sökning aktiverar du \(eller väljer\) alternativet **Ignorera skiftläge**. Annars, om du vill utföra den skiftlägeskänsliga sökningen, stänger du av \(eller avmarkerar\) alternativet **Ignorera skiftläge**. Du kan också söka efter ett helt ord.
+Med inställningsikonen \(![](images/settings-find-replace-icon.svg)\) kan du växla sökalternativen **Ignorera skiftläge** och **Endast hela ord**. Aktivera (eller markera) alternativet **Ignorera skiftläge** om du vill utföra den skiftlägeskänsliga sökningen. Annars, om du vill utföra den skiftlägeskänsliga sökningen, stänger av (eller avmarkerar) alternativet **Ignorera skiftläge**. Du kan också söka efter ett helt ord.
 
 Sökningen sker omedelbart, vilket innebär att när du skriver sökfrasen eller ordet i fältet **Sök** så söks termen igenom omedelbart och väljs i avsnittet. Om du vill ersätta en text i ett ämne anger du söktermen och dess ersättning i respektive fält och väljer knappen **Ersätt** eller **Ersätt alla** .
 
@@ -364,7 +369,7 @@ Så här får du åtkomst till versionshistoriken och återgår till en specifik
 
 **Versionsetiketter**
 
-Etiketter hjälper dig att identifiera i vilken fas ett visst ämne finns i DDLC \(Document Development Life Cycle\). När du till exempel arbetar med ett ämne kan du ange etiketten som &quot;Godkänd&quot;. När ett ämne har publicerats och gjorts tillgängligt för kunder kan du tilldela rubriken&quot;Släppt&quot; etikett.
+Etiketter hjälper dig att identifiera i vilken fas ett visst ämne finns i DDLC (Document Development Life Cycle). När du till exempel arbetar med ett ämne kan du ange etiketten som &quot;Godkänd&quot;. När ett ämne har publicerats och gjorts tillgängligt för kunder kan du tilldela rubriken&quot;Släppt&quot; etikett.
 
 I Experience Manager Guides kan du ange etiketter i ett frihandstextformat eller använda en uppsättning fördefinierade etiketter. Med den anpassade etiketten kan alla författare i systemet ange en etikett efter eget val. Detta ger flexibilitet, men medför inkonsekventa etiketter i systemet. För att lösa problemet kan administratörer konfigurera en uppsättning fördefinierade etiketter. Mer information om hur du konfigurerar fördefinierade etiketter finns i *Konfigurera och anpassa XML-webbredigeraren* i Installera och konfigurera Adobe Experience Manager Guides as a Cloud Service.
 
@@ -1865,9 +1870,9 @@ Utför följande steg om du vill söka och ersätta globalt:
 
 Om du vill aktivera ikonen **Ersätt alla** måste systemadministratören markera alternativet **Aktivera Ersätt alla** på fliken **Allmänt** i **Inställningar** .
 
-    >[!OBS!]
-    >
-    > Hovra över en fil från sökresultatlistan för att visa ikonen Ersätt alla i fil till höger om den. Du kan också visa ikonen Ignorera fil för att ta bort filen från sökresultatet. De filer som du ignorerar tas bort från listan och den sökta termen ersätts inte i dem.
+>[!NOTE]
+>
+> Håll pekaren över en fil från sökresultatlistan för att visa ikonen Ersätt alla i fil till höger om den. Du kan också visa ikonen Ignorera fil för att ta bort filen från sökresultatet. De filer som du ignorerar tas bort från listan och den sökta termen ersätts inte i dem.
 
 Det går bara att ersätta en åtgärd åt gången i hela systemet, och tills åtgärden utförs visas statusen Ersätt alla pågående. Du kan också avbryta åtgärden Ersätt alla däremellan eller visa loggrapporten. Om du avbryter åtgärden får du ett meddelande om det i Inkorgen. Du får ett meddelande om att åtgärden lyckades när alla förekomster i den valda filen har ersatts.
 
