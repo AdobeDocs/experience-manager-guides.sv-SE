@@ -4,7 +4,7 @@ description: Upptäck funktionerna i redigeraren i Adobe Experience Manager Guid
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 52b94c662f04499644f2806255521b3e68da1910
+source-git-commit: 14afe993292c78ed2f14178b3ab9dcbbaee7c372
 workflow-type: tm+mt
 source-wordcount: '18660'
 ht-degree: 0%
@@ -1722,8 +1722,6 @@ Använd till exempel följande uppräkning för att begränsa attributet `@platf
     </subjectdef>
   </enumerationdef>
 ```
-
-</details>
 
 
 **Listrutan Attribut**
