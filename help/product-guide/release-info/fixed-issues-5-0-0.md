@@ -1,21 +1,21 @@
 ---
-title: Versionsinformation | Korrigerade problem i Adobe Experience Manager Guides 2025.02.0
-description: Läs mer om felkorrigeringarna i version 2025.02.0 av Adobe Experience Manager Guides as a Cloud Service.
-exl-id: e7dec4a2-e11a-4b78-8111-a331d20ce73d
-source-git-commit: 09283ab7c76eca669b30ec92923456c11d53a10b
+title: Versionsinformation | Problem i Adobe Experience Manager Guides 5.0.0 har åtgärdats
+description: Läs mer om felkorrigeringarna i version 5.0.0 av Adobe Experience Manager Guides.
+source-git-commit: 5ae05935d254b03ad99221bd5f65dbb6a3580c5f
 workflow-type: tm+mt
-source-wordcount: '1311'
+source-wordcount: '1246'
 ht-degree: 0%
 
 ---
 
-# Problem i version 2025.02.0 har korrigerats
+# Åtgärdade problem i version 5.0.0 (mars 2025)
 
-Den här artikeln handlar om buggar som har åtgärdats i olika delar av version 2025.02.0 av Adobe Experience Manager Guides as a Cloud Service.
+Den här artikeln handlar om buggar som har åtgärdats i olika delar av version 5.0.0 av Adobe Experience Manager Guides.
 
-Mer information om de nya funktionerna och förbättringarna finns i [Nyheter i version 2025.02.0](whats-new-2025-02-0.md).
 
-Läs mer om [uppgraderingsinstruktioner för version 2025.02.0](upgrade-instructions-2025-02-0.md).
+Mer information om de nya funktionerna och förbättringarna finns i [Nyheter i version 5.0.0](whats-new-5-0-0.md).
+
+Läs mer om [uppgraderingsinstruktioner för version 5.0.0](upgrade-instructions-5-0-0.md).
 
 
 ## Redigering
@@ -62,16 +62,13 @@ Läs mer om [uppgraderingsinstruktioner för version 2025.02.0](upgrade-instruct
 
 ## Förvaltning
 
-- Resursläckor inträffar på grund av oavslutade **ResourceResolver**-fel i loggar. 18488
 - Titeln och ikonen för dialogrutan **Tvinga borttagning** är feljusterade i användargränssnittet i Assets. 21933
 - När en JSON uppdateras i mappprofilen för XML-redigerarkonfigurationen stör sparåtgärden konfigurationen av XML-redigeraren. (22414)
 - När du duplicerar en mappprofil kopieras även dess administratörsanvändarlista från den ursprungliga mappprofilen. (19067)
 - Ett fel inträffar när stora mappar (som innehåller en stor mängd DITA-innehåll, upp till 200 000 objekt) flyttas från Assets UI. (20107)
-- När du använder en dynamisk titel med `<conkeyref>` löses den inte korrekt i **listan med rapportämnen för guider**. (2014)
 - Om du redigerar **mappprofilen** med ett enhetligt gränssnitt aktiverat, blir gränssnittet tomt. (22212)
 - När du tar bort mappar som innehåller ett stort antal filer misslyckas åtgärden. 17107
 - När du avbryter/tar bort översättningsjobbet eller tar bort projektet visas statusen **Pågår** på översättningspanelen. 18417
-- När du aktiverar det enhetliga gränssnittet för en molninstans öppnas inte ämnesförhandsvisningen från kartkontrollpanelen. 18826
 - När du skickar två versioner av ett oöversatt ämne samtidigt med en icke-äldre översättning och godkänner den andra versionen före den första, bryts översättningsprojektet med den första versionen. (22200)
 
 
@@ -87,18 +84,20 @@ Läs mer om [uppgraderingsinstruktioner för version 2025.02.0](upgrade-instruct
 
 ## Kända fel
 
-Adobe har identifierat följande kända fel i version 2025.02.0:
+Adobe har identifierat följande kända problem i version 5.0.0:
 
+- I vissa fall fungerar inte låsfunktionen för CSS-filer som förväntat, vilket gör att andra användare kan redigera och spara filerna även när de är låsta av en annan användare.
+- Det går inte att stänga Kartkonsolvyn när Baslinjen är smutsig med autosparläge aktiverat.
+- När du tillämpar förinställda ändringar återspeglas de inte i förinställningarna som redan har skapats på kartan om förinställningsnamnet innehåller något versaltecken.
+- Positionen för bakgrundsfärgen är feljusterad i gränssnittet för **villkorspanelen**.
+- När du använder bilden som `<keyref>` visas inte bildens **referenstyp** i **multimedierapporten**.
 - När du använder bilder som variabler i PDF-mallen löses den inte i utdata.
-- Funktionen **Hitta i databas** fungerar inte när du öppnar redigeringsprogrammet för stödlinjer för första gången, men börjar fungera som förväntat när du har uppdaterat webbläsaren.
 - I rapporter för **ämneslista** misslyckas sortering efter titel för resurser med `<conref>` eller `<conkeyref>` i titeln, vilket gör att posterna alltid visas överst.
 - När du byter mappprofil återspeglas inte direkt ändringar i användargränssnittet utan att webbläsaren uppdateras.
-- Anpassningar av tilläggsramverket som gjorts före Guides 2025.02.x.x kanske inte fungerar som de ska.
+- De anpassningar av tilläggsramverket som gjordes före Guides 5.0.0 kanske inte fungerar som de ska.
 - Den fullständiga innehållsförteckningen för kartan uppdateras inte när du selektivt publicerar ämnen från kartan.
 - Publicering av en karta som innehåller en markeringsfil med interna bildreferenser misslyckas på Windows-servrar.
 - Punktlistan konverteras inte till numrerad lista i Markdown.
 - Publicering till AEM-webbplats misslyckas när markeringsfiler hänvisas till på en karta.
-- Positionen för bakgrundsfärgen är feljusterad i gränssnittet för **villkorspanelen**.
-- När du använder bilden som `<keyref>` visas inte bildens **referenstyp** i **multimedierapporten**.
-- I vissa fall fungerar inte låsfunktionen för CSS-filer som förväntat, vilket gör att andra användare kan redigera och spara filerna även när de är låsta av en annan användare.
-- När du tillämpar förinställda ändringar återspeglas de inte i förinställningarna som redan har skapats på kartan om förinställningsnamnet innehåller något versaltecken.
+
+
