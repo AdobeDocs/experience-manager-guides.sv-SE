@@ -2,7 +2,8 @@
 title: Versionsinformation | Nyheter i Adobe Experience Manager Guides 5.0.0
 description: Läs om de nya och förbättrade funktionerna i 5.0.0-utgåvan av Adobe Experience Manager Guides
 role: Leader
-source-git-commit: a5c18c228f68db9a3282a004dc56c8a0735e4926
+exl-id: 523667d9-fed4-4798-9554-2a27033c8027
+source-git-commit: 14641e72c4b488251c10318f4661e31b5d811cef
 workflow-type: tm+mt
 source-wordcount: '1706'
 ht-degree: 0%
@@ -27,7 +28,7 @@ De viktigaste högdagrarna är följande:
 
   Mer information finns i [Adobe Experience Manager Guides hemsida](../user-guide/intro-home-page.md).
 
-  ![](assets/aem-home-page-new.png){width="800" align="left"}
+  ![](assets/aem-home-page-whats-new.png){width="800" align="left"}
 
 
 - **Ny redigeringsupplevelse**: Upplev nu redigeraren med ett nytt utseende och en ny känsla. Det omgjorda redigeringsgränssnittet har ett renare och mer organiserat verktygsfält, smidig navigering och en övergripande intuitiv upplevelse som hjälper dig att skapa dokument snabbare och effektivare.
@@ -54,7 +55,7 @@ Integreringen ger dig även möjlighet att övervaka arbetsköerna så att du ä
 
 Mer information finns i [Integrering med Workfront](../user-guide/workfront-integration.md).
 
-![](assets/workfront-new-ui-whats-new.png){width="800" align="left"}
+![](assets/workfront-new.png){width="800" align="left"}
 
 
 ## Snabbare och skalbar Ny publiceringsmotor från AEM Sites

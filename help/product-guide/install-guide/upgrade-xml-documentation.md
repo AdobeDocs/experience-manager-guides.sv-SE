@@ -5,9 +5,9 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: de79a2d63328fc6142b475a776dafd7e6d12f911
+source-git-commit: fec62d9c14acbbfc632f08af003f386aa2a6ab35
 workflow-type: tm+mt
-source-wordcount: '8018'
+source-wordcount: '8021'
 ht-degree: 0%
 
 ---
@@ -1298,7 +1298,7 @@ Under den här uppgraderingen måste du, eftersom värdet `'order'` ändras frå
 
 ## Steg för att indexera om damAssetLucene
 
-Indexdefinitionen uppdateras för damAssetLucene med stödlinjer. Se https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460 för att indexera om damAssetLucene efter uppgradering till version 5.0.0.
+Indexdefinitionen uppdateras för damAssetLucene med stödlinjer. Mer information finns i [den här artikeln](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460) om du vill indexera om damAssetLucene efter uppgradering till version 5.0.0.
 
 >[!NOTE]
 >
