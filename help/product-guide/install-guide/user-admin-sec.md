@@ -5,9 +5,9 @@ exl-id: 1269a652-5261-413d-9ea0-b4f75003e9d8
 feature: User Management
 role: Admin
 level: Experienced
-source-git-commit: 462647f953895f1976af5383124129c3ee869fe9
+source-git-commit: 9b657b0530db8fafe3bb6d30a9002791acf8f226
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '710'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Om du vill komma åt och konfigurera funktioner i AEM Guides måste du skapa användare. Dessa användare kan sedan tilldelas behörighet att komma åt alla eller vissa funktioner i AEM Guides. Lär dig konfigurera och underhålla användarauktorisering och förstå också teorin bakom hur autentisering och auktorisering fungerar i AEM.
 
-Följande ämnen i AEM visar hur du kan förstå användaradministration och säkerhetsrelaterade koncept och funktioner:
+Följande avsnitt i AEM-dokumentationen hjälper dig att förstå användaradministration och säkerhetsrelaterade koncept och funktioner:
 
 - [Användare och grupper i AEM](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#UsersandGroupsinAEM)
 
@@ -29,7 +29,7 @@ Följande ämnen i AEM visar hur du kan förstå användaradministration och sä
 
 ## Användargrupper skapade av AEM Guides {#id181TF0K0MHT}
 
-AEM Guides har tre färdiga grupper för att hantera olika uppgifter i ett DITA-projekt. Dessa grupper är: *Författare*, *Granskare* och *Utgivare*. Beroende på vilken grupp en användare är kopplad till, kan de utföra specifika åtgärder. Publiceringsuppgifterna kan till exempel bara utföras av en utgivare, men inte av en författare eller granskare. På samma sätt kan en författare skapa ett nytt ämne, och en granskare kan bara granska ett ämne.
+AEM Guides har tre färdiga grupper. Dessa grupper är: *Författare*, *Granskare* och *Utgivare*. Beroende på vilken grupp en användare är kopplad till, kan de utföra specifika åtgärder. Publiceringsuppgifterna kan till exempel bara utföras av en utgivare, men inte av en författare eller granskare. På samma sätt kan en författare skapa ett nytt ämne, och en granskare kan bara granska ett ämne.
 
 >[!TIP]
 >
