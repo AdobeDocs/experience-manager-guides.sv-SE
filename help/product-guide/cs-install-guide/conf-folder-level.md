@@ -5,7 +5,7 @@ exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
 feature: Profiles
 role: Admin
 level: Experienced
-source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
+source-git-commit: 8ee4863470f69bca52a9b36cde52703e4d6643bc
 workflow-type: tm+mt
 source-wordcount: '4756'
 ht-degree: 0%
@@ -548,17 +548,13 @@ Med hjälp av konfigurationsfilen i det här avsnittet kan du skapa vissa standa
 
 Följande information krävs för att skapa ett fragment:
 
-snippetID
-:   Ett unikt ID för fragmentet. Det kan ta ett alfanumeriskt värde.
+**snippetID** - Ett unikt ID för fragmentet. Det kan ta ett alfanumeriskt värde.
 
-name
-:   Ett beskrivande namn som identifierar fragmentet. Namnet visas på fragmentpanelen.
+**name** - Ett beskrivande namn som identifierar fragmentet. Namnet visas på fragmentpanelen.
 
-description
-:   Lägg till en beskrivande information för fragmentet.
+**description** - Lägg till en beskrivande information för fragmentet.
 
-value
-:   Ange XML-koden för fragmentet.
+**value** - Ange XML-koden för fragmentet.
 
 >[!NOTE]
 >
