@@ -2,9 +2,9 @@
 title: Versionsinformation | Korrigerade problem i Adobe Experience Manager Guides 2025.02.0
 description: Läs mer om felkorrigeringarna i version 2025.02.0 av Adobe Experience Manager Guides as a Cloud Service.
 exl-id: e7dec4a2-e11a-4b78-8111-a331d20ce73d
-source-git-commit: 09283ab7c76eca669b30ec92923456c11d53a10b
+source-git-commit: 71971c25094b842cb7a0bd1f5bd2acbca4212a66
 workflow-type: tm+mt
-source-wordcount: '1311'
+source-wordcount: '1325'
 ht-degree: 0%
 
 ---
@@ -102,3 +102,4 @@ Adobe har identifierat följande kända fel i version 2025.02.0:
 - När du använder bilden som `<keyref>` visas inte bildens **referenstyp** i **multimedierapporten**.
 - I vissa fall fungerar inte låsfunktionen för CSS-filer som förväntat, vilket gör att andra användare kan redigera och spara filerna även när de är låsta av en annan användare.
 - När du tillämpar förinställda ändringar återspeglas de inte i förinställningarna som redan har skapats på kartan om förinställningsnamnet innehåller något versaltecken.
+- När du öppnar en DITA-karta med det enhetliga skalet aktiverat uppdateras redigeraren regelbundet.

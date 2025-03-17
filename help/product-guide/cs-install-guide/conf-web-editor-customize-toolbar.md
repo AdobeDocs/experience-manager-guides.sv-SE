@@ -5,9 +5,9 @@ exl-id: ba82af48-9357-4f29-90ce-6793366ab432
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 5778ed2855287d1010728e689abbe6020ad56574
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '1013'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 # Anpassa verktygsfältet {#id172FB00L0V6}
 
 Som standard levereras webbredigeraren med de vanligaste redigeringsfunktionerna som krävs av alla DITA-redigerare. Du kan använda funktioner som att infoga element av typen lista \(numrerad eller punktad\), korsreferens, innehållsreferens, tabell-, stycke- och teckenformatering i redigeraren. Förutom dessa grundläggande element kan du anpassa Web Editor för att infoga element som används i redigeringsmiljön.
+
+>[!NOTE]
+>
+> När du migrerar från det gamla användargränssnittet till det nya användargränssnittet i AEM Guides (som gäller från version 2502 och version 5.0 av AEM Guides) måste uppdateringarna av `ui_config` konverteras till mer flexibla och modulära användargränssnittskonfigurationer. Det här ramverket gör det enklare att implementera ändringar i editor_toolbar och andra målwidgetar efter behov. Mer information finns i [Översikt över konfigurationen för konvertering av användargränssnitt](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
 
 Det finns två sätt att anpassa Web Editors verktygsfält:
 
