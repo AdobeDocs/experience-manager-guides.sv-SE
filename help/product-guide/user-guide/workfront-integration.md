@@ -3,7 +3,8 @@ title: Integrering med Workfront
 description: Lär dig integrera Workfront med Adobe Experience Manager Guides och börja skapa arbetsmoment för redigering, publicering, granskning och översättning.
 feature: Authoring
 role: User
-source-git-commit: aa50c63588f18f2aabc03d8b81edca4281258876
+exl-id: fd988434-3ebd-40ac-a776-e62359dcb6ef
+source-git-commit: dea9876cf0afa615f3719637c909bbda0d1d40b5
 workflow-type: tm+mt
 source-wordcount: '2436'
 ht-degree: 0%
@@ -40,7 +41,7 @@ Så här får du åtkomst till dina Adobe Workfront-uppgifter:
 
    Sidan **Workfront tasks** visas.
 
-   ![](./images/workfront-sign-in.png){width="800" align="left"}
+   ![](./images/workfront-sign-in.png){align="left"}
 3. Välj **Logga in**.
 
    Du omdirigeras till Adobe Workfront inloggningssida.
@@ -48,7 +49,7 @@ Så här får du åtkomst till dina Adobe Workfront-uppgifter:
 
    Du omdirigeras automatiskt till sidan **Workfront tasks** på Experience Manager Guides.
 
-   ![](./images/workfront-tasks-page.png){width="800" align="left"}
+   ![](./images/workfront-tasks-page.png){align="left"}
 
 ## Funktioner som finns på Workfront uppgiftssida
 
@@ -72,7 +73,7 @@ Så här skapar du en ny Adobe Workfront-uppgift:
 
    Dialogrutan **Skapa uppgift** visas.
 
-   ![](./images/workfront-create-task.png){width="650" align="left"}
+   ![](./images/workfront-create-task.png){align="left"}
 2. Ange följande uppgiftsinformation på fliken **Allmänt**:
 
    * **Aktivitetstyp**: Välj den aktivitetstyp som du vill skapa. De tillgängliga alternativen är: **Redigering**, **Granskning**, **Publicering** och **Översättning**.
@@ -83,20 +84,20 @@ Så här skapar du en ny Adobe Workfront-uppgift:
    * **Tilldelad**: Välj en tilldelad för uppgiften.
 3. På fliken **Assets** väljer du **Lägg till** om du vill lägga till en resurs i den här aktiviteten.
 
-   ![](./images/workfront-create-tasks-asset.png){width="650" align="left"}
+   ![](./images/workfront-create-tasks-asset.png){align="left"}
 
    * För redigerings-, publicerings- och översättningsåtgärder uppmanas du att välja platsen för den obligatoriska filen i dialogrutan **Välj sökväg** . Den valda filen (ett ämne för redigering och mappning för publicering och översättning) läggs till i aktiviteten så snart knappen **Skapa** har valts.
 
-     ![](./images/attach-asset.png){width="650" align="left"}
+     ![](./images/attach-asset.png){align="left"}
 
    * För granskningsuppgifter uppmanas du först att välja resurstyp (karta eller ämnen) och sedan visas de valda filerna enligt följande:
 
 
-     ![Lägga till kartor i en granskningsaktivitet](./images/attach-asset-topics.png){width="650" align="left"}
+     ![Lägga till kartor i en granskningsaktivitet](./images/attach-asset-topics.png){align="left"}
 
      *Lägga till ämnen i en granskningsaktivitet*
 
-     ![Lägga till kartor i en granskningsaktivitet](./images/attach-asset-maps.png){width="650" align="left"}
+     ![Lägga till kartor i en granskningsaktivitet](./images/attach-asset-maps.png){align="left"}
 
      *Lägga till kartor i en granskningsaktivitet*
 
@@ -125,7 +126,7 @@ En ny uppgift skapas och visas under fliken **Skapad av dig**.
 
 Alla aktiviteter som du har skapat och fortfarande är aktiva visas på fliken **Skapat av dig** på aktivitetssidan för Workfront. Här visas viktig uppgiftsinformation som projektnamn, tilldelningar, datum när uppgiften skapades, datum då uppgiften slutfördes och aktivitetsstatus.
 
-![](./images/workfront-tasks-created-by-you.png){width="800" align="left"}
+![](./images/workfront-tasks-created-by-you.png){align="left"}
 
 Följande alternativ är tillgängliga när du hovrar över en åtgärd som finns på fliken Skapat av dig:
 
@@ -147,7 +148,7 @@ Visar aktivitetsinformation, inklusive information som anges när uppgifter skap
 
 Alla uppgifter som har tilldelats dig och som fortfarande är aktiva visas på fliken **Tilldelad till dig** på aktivitetssidan för Workfront, och du får viktig information om uppgifter som projektnamn, tilldelningar, förfallodatum och uppgiftsstatus.
 
-![](./images/workfront-tasks-assigned-to-you.png){width="800" align="left"}
+![](./images/workfront-tasks-assigned-to-you.png){align="left"}
 
 Följande alternativ är tillgängliga när du hovrar över en uppgift som finns på fliken Tilldelad till dig:
 
@@ -159,7 +160,7 @@ Gör att du kan öppna uppgiften. Beroende på vilken typ av uppgift det är, ö
 
 Visar aktivitetsinformation, inklusive information som anges när uppgifter skapas, aktivitetsstatus och eventuella tillagda resurser.
 
-![](images/task-details.png){width="800" align="left"}
+![](images/task-details.png){align="left"}
 
 #### Åtkomst till tilldelade uppgifter från avsnittet Översikt
 
@@ -167,7 +168,7 @@ Du kan även komma åt dina tilldelade Adobe Workfront-uppgifter från [översik
 
 **Dina aktiviteter** är en sådan widget där en lista över Adobe Workfront-aktiviteter (som är tilldelade dig och fortfarande är aktiva) visas tillsammans med viktig aktivitetsinformation, inklusive aktivitetens namn, associerat projekt, förfallodatum och aktuell status.
 
-![](./images/workfront-your-tasks-widget.png){width="800" align="left"}
+![](./images/workfront-your-tasks-widget.png){align="left"}
 
 På liknande sätt som på fliken Tilldelad till dig innehåller widgeten Dina uppgifter även alternativ för **Öppna** och visa **Uppgiftsinformation** när du hovrar över en uppgift.
 
@@ -194,11 +195,11 @@ Utför följande steg när du vill arbeta med en redigeringsåtgärd:
 
 1. Åtkomst till uppgiften antingen från [Översikt](#accessing-assigned-tasks-from-overview-section) eller [Tilldelad till dig](#managing-tasks-assigned-to-you)-fliken.
 
-   ![Redigeringsåtgärder på fliken Tilldelad till dig](./images/authoring-task-access.png){width="650" align="left"}
+   ![Redigeringsåtgärder på fliken Tilldelad till dig](./images/authoring-task-access.png){align="left"}
 
    *Redigeringsaktiviteten på fliken Tilldelad till dig*
 
-   ![Redigeringsåtgärder i widgeten Dina uppgifter](./images/authoring-task-access-your-tasks.png){width="650" align="left"}
+   ![Redigeringsåtgärder i widgeten Dina uppgifter](./images/authoring-task-access-your-tasks.png){align="left"}
 
    *Redigeringsaktivitet i widgeten Dina uppgifter*
 2. Håll muspekaren över den uppgift du vill arbeta med och markera  ![](images/Smock_OpenIn_18_N.svg)  för att öppna den. Du kan också öppna uppgiften genom att välja uppgiften.
@@ -206,7 +207,7 @@ Utför följande steg när du vill arbeta med en redigeringsåtgärd:
    Alla redigeringsåtgärder öppnas i Redigeraren.
 3. Granska uppgiftsinformationen på fliken **Detaljer** och markera filen **Resurs** för att öppna den.
 
-   ![](./images/authoring-task-review-details-editor.png){width="650" align="left"}
+   ![](./images/authoring-task-review-details-editor.png){align="left"}
 
 4. Gör önskade ändringar och välj **Markera som slutförd**.
 5. Växla till fliken **Kommentarer** om du vill lägga till en kommentar i den här aktiviteten. Dessa kommentarer, som läggs till på aktivitetsnivå, visas också på Adobe Workfront projektkontrollpanel.
@@ -223,18 +224,18 @@ Utför följande steg för att arbeta med en granskningsåtgärd som du har till
 
 1. Åtkomst till uppgiften antingen från [Översikt](#accessing-assigned-tasks-from-overview-section) eller [Tilldelad till dig](#managing-tasks-assigned-to-you)-fliken.
 
-   ![Granska uppgifter på fliken Tilldelad till dig](./images/review-task-access.png){width="650" align="left"}
+   ![Granska uppgifter på fliken Tilldelad till dig](./images/review-task-access.png){align="left"}
 
    *Granska aktiviteten på fliken Tilldelad till dig*
 
-   ![Granska uppgifter i din aktivitetswidget](./images/review-task-access-your-tasks.png){width="650" align="left"}
+   ![Granska uppgifter i din aktivitetswidget](./images/review-task-access-your-tasks.png){align="left"}
 
    *Redigeringsaktivitet i widgeten Dina uppgifter*
 2. Håll muspekaren över den uppgift du vill arbeta med och markera  ![](images/Smock_OpenIn_18_N.svg)  för att öppna den. Du kan också öppna uppgiften genom att välja uppgiften.
 
    Granskningsaktiviteten öppnas för granskare i **granskningsgränssnittet**.
 
-   ![](./images/review-task-access-review-ui.png){width="650" align="left"}
+   ![](./images/review-task-access-review-ui.png){align="left"}
 
 3. Genomför den granskning som krävs. Mer information om hur du granskar ett ämne finns i [Granska ämnen](./review-topics.md).
 4. När granskningen är klar väljer du **Markera som slutförd**.
@@ -248,13 +249,13 @@ Om du markerar uppgiften som den har gjorts av granskaren betyder det inte att u
 
 Granskningsåtgärder som har omtilldelats till skaparen/författarna för granskningsregistrering kan nås från avsnittet [Översikt](#accessing-assigned-tasks-from-overview-section) eller från fliken [Tilldelad till dig](#managing-tasks-assigned-to-you).
 
-![Granska uppgifter i redigeringsläget](./images/review-task-author-mode.png){width="800" align="left"}
+![Granska uppgifter i redigeringsläget](./images/review-task-author-mode.png){align="left"}
 
 *Granska uppgift som tilldelats författare igen*
 
 För sådana uppgifter ändras uppgiftstillståndet för den som tilldelas till **Redigering** medan uppgiftstypen förblir **Granska**. Den här lägesändringen inträffar när granskningen slutförs av alla granskare.
 
-![](./images/review-tasks-with-authoring-doc-state.png){width="300" align="left"}
+![](./images/review-tasks-with-authoring-doc-state.png){align="left"}
 
 
 Om du väljer uppgiften eller öppningsikonen ![](images/Smock_OpenIn_18_N.svg) öppnas uppgiften i redigeraren där författaren kan [adressera granskningskommentarer](../user-guide/review-address-review-comments.md), redigera uppgiften genom att uppdatera ämnesversionen och sedan återtilldela uppgiften till granskaren om det behövs.
@@ -271,21 +272,21 @@ Utför följande steg för att arbeta med en översättningsuppgift:
 
 1. Åtkomst till uppgiften antingen från [Översikt](#accessing-assigned-tasks-from-overview-section) eller [Tilldelad till dig](#managing-tasks-assigned-to-you)-fliken.
 
-   ![Översättningsaktiviteter på fliken Tilldelad till dig](./images/translation-tasks-access.png){width="650" align="left"}
+   ![Översättningsaktiviteter på fliken Tilldelad till dig](./images/translation-tasks-access.png){align="left"}
 
    *Översättningsaktivitet på fliken Tilldelad till dig*
 
-   ![Översättningsaktiviteter i widgeten Dina uppgifter](./images/translation-tasks-access-your-tasks.png){width="650" align="left"}
+   ![Översättningsaktiviteter i widgeten Dina uppgifter](./images/translation-tasks-access-your-tasks.png){align="left"}
 
    *Översättningsaktivitet i widgeten Dina uppgifter*
 
 2. Håll muspekaren över den uppgift du vill arbeta med och markera  ![](images/Smock_OpenIn_18_N.svg)  om du vill öppna den i **kartkonsolen** . Du kan också öppna uppgiften genom att välja uppgiften.
 3. Granska uppgiftsinformationen och filen som lagts till för översättning.
 
-   ![](./images/translation-tasks-review-details.png){width="650" align="left"}
+   ![](./images/translation-tasks-review-details.png){align="left"}
 4. Navigera till fliken **Översättning** för de olika översättningsalternativen. Lär dig [översätta innehåll](../user-guide/translation.md) i Experience Manager Guides.
 5. Utför den önskade översättningen och välj **Skicka för översättning**.
-   ![](./images/translation-tasks-send-translation.png){width="650" align="left"}
+   ![](./images/translation-tasks-send-translation.png){align="left"}
 6. Navigera till avsnittet **Workfront** och markera **Markera som slutförd** för att ange att uppgiften är slutförd.
 7. Växla till fliken **Kommentarer** om du vill lägga till en kommentar i den här aktiviteten. Dessa kommentarer, som läggs till på aktivitetsnivå, visas på Adobe Workfront projektkontrollpanel.
 
@@ -301,17 +302,17 @@ Utför följande steg när du vill arbeta med en publiceringsåtgärd:
 
 1. Åtkomst till uppgiften antingen från [Översikt](#accessing-assigned-tasks-from-overview-section) eller [Tilldelad till dig](#managing-tasks-assigned-to-you)-fliken.
 
-   ![Publicera uppgifter på fliken Tilldelad till dig](./images/publishing-tasks-access.png){width="650" align="left"}
+   ![Publicera uppgifter på fliken Tilldelad till dig](./images/publishing-tasks-access.png){align="left"}
 
    *Publiceringsuppgift på fliken Tilldelad till dig*
 
-   ![Publicera uppgifter i din aktivitetswidget](./images/publishing-tasks-access-your-tasks.png){width="650" align="left"}
+   ![Publicera uppgifter i din aktivitetswidget](./images/publishing-tasks-access-your-tasks.png){align="left"}
 
    *Publicera aktivitet i din aktivitetswidget*
 2. Håll muspekaren över den uppgift du vill arbeta med och markera  ![](images/Smock_OpenIn_18_N.svg)  om du vill öppna den i **kartkonsolen** . Du kan också öppna uppgiften genom att välja uppgiften.
 3. Granska aktivitetsinformationen och filen som lagts till för publicering.
 
-   ![](./images/publishing-tasks-review-details.png){width="650" align="left"}
+   ![](./images/publishing-tasks-review-details.png){align="left"}
 4. Navigera till **Utdataförinställningarna** och utför de publiceringsåtgärder som krävs för att publicera uppgiften. Mer information finns i [Om förinställningarna](../user-guide/generate-output-understand-presets.md/).
 5. När publiceringen är klar går du till avsnittet **Workfront** och väljer **Markera som slutförd** för att ange att aktiviteten är slutförd.
 6. Växla till fliken **Kommentarer** om du vill lägga till en kommentar i den här aktiviteten. Dessa kommentarer, som läggs till på aktivitetsnivå, visas på Workfront projektkontrollpanel.
