@@ -4,7 +4,7 @@ description: Visa rapporter om versionshistorik för återskapade filer i AEM Gu
 exl-id: 74bef625-acd6-49a6-b983-881a782f68d6
 feature: Report Generation
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Utför följande steg för att komma åt rapporten Återgå historik:
 
 1. Välj **Visa loggar** om du vill generera rapporten för den valda filen eller mappen.
 
-   ![](images/revert-version-history-report.png){width="800" align="left"}
+   ![](images/revert-version-history-report.png){align="left"}
 
    Rapporten innehåller följande information:
 

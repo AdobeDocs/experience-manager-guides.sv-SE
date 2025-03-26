@@ -4,7 +4,7 @@ description: Lär dig skapa och redigera DITAVAL-filer med DIVATAL Editor i Adob
 exl-id: f3901a4f-1925-42aa-b773-0d6f18175ce8
 feature: Authoring, DITAVAL Editor
 role: User
-source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1039'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Så här skapar du en DITAVAL-fil:
 
 1. På panelen Databas markerar du ikonen **Ny fil** och väljer sedan **Ämne** i listrutan.
 
-   ![](images/new-file-option.png){width="800" align="left"}
+   ![](images/new-file-option.png){align="left"}
 
    Du kan även komma åt det här alternativet från [Experience Manager Guides hemsida](./intro-home-page.md) och alternativmenyn för en mapp i databasvyn.
 
@@ -49,7 +49,7 @@ Så här skapar du en DITAVAL-fil:
 
 Ämnet skapas på den angivna sökvägen. Dessutom öppnas ämnet i Redigeraren för redigering.
 
-![](images/ditaval-file-editor.png){width="800" align="left"}
+![](images/ditaval-file-editor.png){align="left"}
 
 ## Redigera DITAVAL-fil
 

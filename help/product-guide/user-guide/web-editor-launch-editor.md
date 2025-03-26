@@ -4,7 +4,7 @@ description: Lär dig hur du startar redigeraren från AEM Navigation Page, AEM 
 exl-id: cdde7c29-ee49-4e17-902e-1e2bd6f32e8a
 feature: Authoring, Web Editor
 role: User
-source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 0%
@@ -25,11 +25,11 @@ I följande avsnitt beskrivs hur du kommer åt och startar redigeraren från oli
 
 När du loggar in i Experience Manager visas navigeringssidan:
 
-![](images/web-editor-from-navigation-page.png){width="800" align="left"}
+![](images/web-editor-from-navigation-page.png){align="left"}
 
 Om du väljer länken **Stödlinjer** kommer du till [Adobe Experience Manager Guides hemsida](./intro-home-page.md).
 
-![](images/aem-home-page.png){width="800" align="left"}
+![](images/aem-home-page.png){align="left"}
 
 Om du vill starta redigeraren går du till navigeringsfältet och väljer **Redigeraren** i listrutan. Hemsidan är markerad som standard.
 
@@ -37,7 +37,7 @@ Om du vill starta redigeraren går du till navigeringsfältet och väljer **Redi
 
 När du har startat redigeraren utan att välja någon fil visas en tom redigeringsskärm. Du kan öppna en fil för redigering från Experience Manager **databas** eller dina **samlingar**.
 
-![](images/web-editor-launch-page.png){width="800" align="left"}
+![](images/web-editor-launch-page.png){align="left"}
 
 Du kan också starta redigeraren genom att öppna de befintliga filerna i widgeten **Senaste filer** och widgeten **Samlingar** i [Adobe Experience Manager Guides Home page experience](./intro-home-page.md) .
 
@@ -57,7 +57,7 @@ Så här öppnar du ett ämne i Redigeraren:
    >
    > Du kan även visa Ämnets UUID.
 
-   ![](images/assets_ui_with_uuid_cs.png){width="800" align="left"}
+   ![](images/assets_ui_with_uuid_cs.png){align="left"}
 
    >[!IMPORTANT]
    >
@@ -79,15 +79,15 @@ Så här öppnar du ett ämne i Redigeraren:
    >
    > Om du vill öppna flera ämnen för redigering markerar du önskade ämnen i resursgränssnittet och väljer **Redigera**. Kontrollera att webbläsaren inte har någon blockering aktiverad, annars öppnas bara det första avsnittet i den markerade listan för redigering.
 
-   ![](images/edit-from-preview_cs.png){width="800" align="left"}
+   ![](images/edit-from-preview_cs.png){align="left"}
 
    Om du inte vill förhandsgranska ett ämne och vill öppna det direkt i redigeraren väljer du ikonen **Redigera** på snabbåtgärdsmenyn i kortvyn:
 
-   ![](images/edit-topic-from-quick-action_cs.png){width="800" align="left"}
+   ![](images/edit-topic-from-quick-action_cs.png){align="left"}
 
    Ämnet öppnas i Redigeraren.
 
-   ![](images/edit-mode.png){width="800" align="left"}
+   ![](images/edit-mode.png){align="left"}
 
 Du kan också öppna en kartfil i Assets-gränssnittet och starta redigeraren för att redigera avsnitten i kartfilen.
 
@@ -98,7 +98,7 @@ Så här öppnar du en karta i Editor:
 1. Markera ämnesfilen som du vill redigera.
 1. Välj **Redigera ämne**.
 
-   ![](images/edit-topics-map-console_cs.png){width="800" align="left"}
+   ![](images/edit-topics-map-console_cs.png){align="left"}
 
 1. Ämnet öppnas i Redigeraren.
 
@@ -122,11 +122,11 @@ Så här öppnar du redigeraren från kartkonsolen:
 1. Välj den sökväg där kartfilen finns. Den markerade kartfilen läggs till i kartkonsolen.
 1. Navigera till kartfilen och välj **Öppna i redigeraren** i listrutan.
 
-   ![](images/map-console-open-in-editor.png){width="800" align="left"}
+   ![](images/map-console-open-in-editor.png){align="left"}
 
    Kartfilen som innehåller ämnena är öppen för redigering i Editor.
 
-   ![](images/map-console-edit-topics.png){width="800" align="left"}
+   ![](images/map-console-edit-topics.png){align="left"}
 
 
 

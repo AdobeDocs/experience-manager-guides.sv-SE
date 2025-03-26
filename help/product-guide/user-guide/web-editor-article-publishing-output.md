@@ -4,7 +4,7 @@ description: Generera utdata från databaspanelen eller kartvyn i AEM Guides. L�
 exl-id: f7a4be54-9c51-44e6-96bb-f25e3a6155da
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: a02a7310f5e332f88827a9d5a05034abec05b43a
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 0%
@@ -52,7 +52,7 @@ Utför följande steg för att generera utdata för ett eller flera ämnen på d
    - **Karta**: Visar en lista över DITA-kartor som innehåller det markerade ämnet.
    - **Status**: Visar publiceringsstatus för varje ämne.
 Om du vill visa utdata för du muspekaren över avsnittet och klickar på Visa utdata.
-     ![](images/output-multiple-maps_cs.png){width="800" align="left"}
+     ![](images/output-multiple-maps_cs.png){align="left"}
 
 
 ## Generera utdata för en DITA-karta från webbredigeraren

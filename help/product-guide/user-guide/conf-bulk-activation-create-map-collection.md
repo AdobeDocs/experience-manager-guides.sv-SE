@@ -4,7 +4,7 @@ description: Lär dig hur du skapar en gruppaktiveringskarta i AEM guides.
 exl-id: ea0bd465-a2d9-488f-83e9-62b336233eb1
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: a00674a98e4ba87dbc5ddac3412cedca15a205bd
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 0%
@@ -48,7 +48,7 @@ Så här skapar du en gruppaktiveringskarta:
 
 DITA-kartfilerna läggs till i din gruppaktiveringskarta.
 
-![ skapade massaktiveringssamlingen ](images/bulk-activation-collection-created.png){width="800" align="left"}
+![ skapade massaktiveringssamlingen ](images/bulk-activation-collection-created.png){align="left"}
 
 ## Fliken Kartor och förinställningar
 
@@ -87,7 +87,7 @@ Fliken **Granskningshistorik** innehåller information om aktiverade mapputdata 
 
 - **Ändrad**: Anger om DITA-kartan uppdaterades efter den senaste publikationen. Baserat på den här informationen kan du bestämma om du vill aktivera utdata för den här DITA-kartan.
 - **Publicerad**: Visar datum och tid för det senaste publicerade (eller aktiverade) resultatet. Om du markerar länken visas sidan Aktiveringsresultat, som innehåller loggarna med information om rotsökvägen där innehållet aktiveras.
-  ![ skapade en samlingens granskningshistorik för gruppaktivering ](images/bulk-collection-audit-history.png){width="800" align="left"}
+  ![ skapade en samlingens granskningshistorik för gruppaktivering ](images/bulk-collection-audit-history.png){align="left"}
 
   *Visa information om aktiverade mapputdata på fliken **Granskningshistorik**.*
 

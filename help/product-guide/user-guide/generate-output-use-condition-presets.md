@@ -4,7 +4,7 @@ description: Lär dig hur du använder förinställda villkor i AEM Guides. Lär
 exl-id: f6865a34-abdd-4d23-b903-0211bebd13b7
 feature: Publishing
 role: User
-source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1152'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Du kan skapa villkorsförinställningar på två sätt:
 
 I Experience Manager Guides kan du skapa och hantera villkorsförinställningar från karningskonsolen och använda dem i **Utdatainställningarna** för att generera de slutliga villkorliga utdata.
 
-<img src="images/manage-condtions-presets.png" alt= "Förinställningar för villkor i kartkonsoler" width="800" border="1px">
+<img src="images/manage-condtions-presets.png" alt= "Förinställningar för villkor i kartkonsoler" border="1px">
 
 ### Skapa en villkorsförinställning
 

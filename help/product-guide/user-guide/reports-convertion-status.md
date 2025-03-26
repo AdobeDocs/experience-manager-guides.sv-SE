@@ -4,7 +4,7 @@ description: Konvertera dokument i olika format till DITA i AEM Guides. Lär dig
 exl-id: 0a4699e5-865f-40e1-a17f-5e1a248ea955
 feature: Report Generation
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Följ de här stegen för att visa rapporten om konverteringsstatus:
 
    Statusrapporten för konvertering visas för alla konverteringsåtgärder som körs i systemet.
 
-   ![](images/conversion-status-report-new.png){width="800" align="left"}
+   ![](images/conversion-status-report-new.png){align="left"}
 
 1. Rapportsidan är uppdelad i två delar:
 
@@ -35,7 +35,7 @@ Följ de här stegen för att visa rapporten om konverteringsstatus:
 
      På följande skärmbild visas rapportdata för konverteringsåtgärder med statusen Slutfört.
 
-     ![](images/conversion-report-failed-active-queued-new.png){width="800" align="left"}
+     ![](images/conversion-report-failed-active-queued-new.png){align="left"}
 
    - **Rapportera data:**
 

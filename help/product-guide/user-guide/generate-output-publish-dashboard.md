@@ -4,7 +4,7 @@ description: Hantera publiceringsuppgifter med Publish Dashboard i AEM Guides. L
 exl-id: d9e25e52-ba9d-4088-ac95-8df76b69f5d3
 feature: Publishing
 role: User
-source-git-commit: ff75aca9ddd7b405501a62e055fb99bd5ea2291c
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '564'
 ht-degree: 0%
@@ -17,7 +17,7 @@ När du har ett stort antal publiceringsuppgifter som körs på datorn blir det 
 
 På Publish Dashboard finns en fullständig översikt över alla publiceringsåtgärder som för närvarande körs i systemet.
 
-![](images/publish-dashboard.png){width="800" align="left"}
+![](images/publish-dashboard.png){align="left"}
 
 Kontrollpanelen för publicering innehåller följande information:
 
@@ -39,7 +39,7 @@ Den vänstra panelen på kontrollpanelen Publicera innehåller följande filtrer
 
 - **Utdataförinställning** - Välj en eller flera förinställningar för vilka du vill visa de publiceringsåtgärder som är aktiva. På följande skärmbild filtreras publiceringsaktiviteterna så att endast de uppgifter som använder förinställningen för utdata för AEM Site visas:
 
-  ![](images/publish-dashboard-preset-filter.png){width="800" align="left"}
+  ![](images/publish-dashboard-preset-filter.png){align="left"}
 
 - **Initierad av** - Välj ett användarnamn i listan för att visa de publiceringsåtgärder som initierats av den valda användaren.
 
@@ -65,7 +65,7 @@ Du kan även komma åt **Publish Dashboard** från Adobe Experience Manager **To
 
    Om du väljer länken Filnamn visas DITA-schemats kontrollpanel för den valda kartan.
 
-   ![](images/publish-dashboard-click-filename-link.png){width="800" align="left"}
+   ![](images/publish-dashboard-click-filename-link.png){align="left"}
 
 
 >[!NOTE]
@@ -80,13 +80,13 @@ Utför följande steg för att avbryta en utdatagenereringsåtgärd från Publis
 
 1. I listan med aktiva publiceringsuppgifter väljer du ikonen Ta bort för en uppgift som du vill avbryta.
 
-   ![](images/publish-dashboard-cancel-task.png){width="800" align="left"}
+   ![](images/publish-dashboard-cancel-task.png){align="left"}
 
 1. Välj **Ja** i meddelandet **Bekräfta annullering**.
 
    Kommandot Avbryt accepteras och ett försök att avbryta görs så länge som aktiviteten är aktiv. När aktiviteten har avslutats tas den bort från den aktiva uppgiftslistan. Aktivitetens status uppdateras även på DITA-kartkontrollpanelen som Avbruten. I skärmbilden nedan avbryts aktiviteten *HTML5* från kontrollpanelen för publicering och dess status ändras även på DITA-kartpanelen.
 
-   ![](images/cancelled-output-task.png){width="800" align="left"}
+   ![](images/cancelled-output-task.png){align="left"}
 
 
 **Överordnat ämne:**[ Utdatagenerering](generate-output.md)

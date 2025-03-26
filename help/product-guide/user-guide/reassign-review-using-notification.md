@@ -4,7 +4,7 @@ description: Tilldela om en granskningsuppgift med meddelanden i AEM Guides. Lä
 exl-id: 6cd01564-aa26-4773-9c95-9dc519706f27
 feature: Reviewing
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Utför följande steg för att omtilldela en granskningsåtgärd från inkorgsme
    >
    > Granskaren måste ha behörighet att tilldela om och vara en del av användar-administratörsgruppen.
 
-   ![](images/reassign-user-inbox.png){width="800" align="left"}
+   ![](images/reassign-user-inbox.png){align="left"}
 
 1. Välj **Tilldela om**.
 

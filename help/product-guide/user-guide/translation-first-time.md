@@ -4,7 +4,7 @@ description: Lär dig de bästa sätten att översätta innehåll i AEM Guides. 
 exl-id: f2a4df86-bba7-434c-b7f9-3587b8a4f9bc
 feature: Translation
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '838'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Tänk på följande när du översätter innehåll:
 
 Följande bild visar ett exempel på en mappstruktur i Adobe Experience Manager när du har globalt använt innehåll och tre språkversioner.
 
-![](images/aem-directory_structure.png){width="800" align="left"}
+![](images/aem-directory_structure.png){align="left"}
 
 ## Konfigurera översättningstjänst
 

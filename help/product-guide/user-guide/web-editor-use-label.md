@@ -4,7 +4,7 @@ description: Upptäck användningen av etiketter för olika versioner av en fil 
 exl-id: d116906d-b469-4a97-b0af-4fadbe15222b
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Utför följande steg för att lägga till en etikett i ämnet från Redigeraren
 
 Om du vill ta bort en versionsetikett från ett ämne använder du ikonen **Ta bort** för varje etikett som läggs till i dialogrutan Hantering av versionsetikett.
 
-![](images/remove-version-label.png){width="800" align="left"}
+![](images/remove-version-label.png){align="left"}
 
 
 ## Arbeta med etiketter från användargränssnittet i Assets

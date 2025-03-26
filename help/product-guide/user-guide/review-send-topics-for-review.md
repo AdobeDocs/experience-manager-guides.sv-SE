@@ -4,7 +4,7 @@ description: Lär dig hur du skapar en granskningsåtgärd och skickar ämnen f�
 exl-id: c486eb6a-7e1f-4faa-973d-b47252d3e7c5
 feature: Reviewing
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '2793'
 ht-degree: 0%
@@ -95,7 +95,7 @@ Så här skapar du en granskningsuppgift och skickar ämnen för granskning:
 
    Sidan Innehåll visas.
 
-   ![](images/content_page_review.png){width="800" align="left"}
+   ![](images/content_page_review.png){align="left"}
 
 1. På sidan Innehåll väljer du en version av ämnet som du vill dela för granskning.
 
@@ -214,7 +214,7 @@ Så här skickar du ett eller flera avsnitt tillsammans med kartfilen för grans
 
    Innehållssidan visas med alla ämnen som kartfilen refererar till. Om din DITA-karta innehåller kapslade kartor listas även ämnen från kapslade kartor här.
 
-   ![](images/content-page-map-review.png){width="800" align="left"}
+   ![](images/content-page-map-review.png){align="left"}
 
 1. På sidan Innehåll väljer du en version av ämnet som du vill dela för granskning.
 

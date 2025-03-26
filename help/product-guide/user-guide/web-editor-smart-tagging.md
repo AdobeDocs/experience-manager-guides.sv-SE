@@ -4,7 +4,7 @@ description: Lär dig hur du lägger till smarta taggar i AEM Guides. Extrahera 
 exl-id: 7fb4b881-0898-44eb-a0e8-85cb99d9593b
 feature: Metadata Management
 role: User
-source-git-commit: 9898f98d897da4da9ca76a89efd262239606ac2e
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Så här skapar du smarta taggar:
 1. Välj alternativet Kör efterbearbetning. Ett meddelande visas när verktyget har initierats.
 1. Taggarna extraheras automatiskt och kan visas på sidan Egenskaper i det markerade ämnet.
 
-   ![](images/properties-smart-tags.png){width="800" align="left"}
+   ![](images/properties-smart-tags.png){align="left"}
 
    >[!NOTE]
    >

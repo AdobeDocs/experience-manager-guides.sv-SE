@@ -4,7 +4,7 @@ description: Lär känna användningen av baslinjer i AEM Guides. Lär dig hur d
 exl-id: 0554947f-3038-4fd2-8a62-ac0d4b858e94
 feature: Publishing
 role: User
-source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1790'
 ht-degree: 0%
@@ -81,7 +81,7 @@ Utför följande steg för att redigera en befintlig baslinje:
 1. Gör önskade ändringar i baslinjen. Du kan ändra namn och version för ämnet eller det refererade innehållet.
 1. Om du vill använda en annan version för ett eller flera ämnen kan du göra det genom att manuellt markera de ämnena. Välj **Bläddra i ämne** och markera det ämne som du vill använda en annan version för. I listrutan Välj en version för det markerade ämnet väljer du en version av ämnet som du vill använda i baslinjen och sedan **OK**.
 
-   ![](images/baseline-select-version-drop-down.png){width="800" align="left"}
+   ![](images/baseline-select-version-drop-down.png){align="left"}
 
    Informationen om ämnet och den valda versionen lagras i serverdelen. Du kan upprepa det här steget om du vill ändra den valda versionen för flera ämnen.
 
@@ -128,7 +128,7 @@ Utför följande steg för att lägga till en etikett i flera ämnen och referer
 
 1. Välj **Lägg till etiketter**.
 
-   ![](images/add-label-baseline-uuid.png){width="800" align="left"}
+   ![](images/add-label-baseline-uuid.png){align="left"}
 
 1. I dialogrutan **Lägg till etikett** anger du en unik etikett som ska associeras med den här baslinjen.
 
@@ -158,7 +158,7 @@ Utför följande steg för att exportera en översatt baslinje:
 
 1. Utöka alternativet **Baslinje** i den vänstra listen på fliken **Översättning**.
 
-   ![](images/export-baseline-new.png){width="800" align="left"}
+   ![](images/export-baseline-new.png){align="left"}
 
 1. Markera alternativet **Använd baslinje** och välj den baslinje som du vill exportera.
 

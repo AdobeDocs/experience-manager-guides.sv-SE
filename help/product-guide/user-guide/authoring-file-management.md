@@ -4,7 +4,7 @@ description: Lär dig hantera filer och mappar i AEM Guides. Kopiera och klistra
 exl-id: e5b44286-7ac3-49e4-9e6f-7bc8ae2fc935
 feature: Content Management
 role: User
-source-git-commit: 99e42091490b28b5d5ee73472a7655e3feeafd25
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '3131'
 ht-degree: 0%
@@ -310,7 +310,7 @@ Om mediefilen har ändrats kan du söka efter och förhandsgranska filerna i **T
 1. Välj **Versionshistorik** i den vänstra listen och välj en version.
 1. Du kan även visa miniatyrbilder av de olika versionerna under Versionshistorik.
 
-   ![](images/media-version-history-icon.png){width="800" align="center"}
+   ![](images/media-version-history-icon.png){align="center"}
 
 1. Välj den som du vill använda som basversion i de listade versionerna och välj **Förhandsgranska version**. Förhandsgranskningen av den valda versionen visas i fönstret Förhandsgranska version.
 

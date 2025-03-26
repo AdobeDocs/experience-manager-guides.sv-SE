@@ -4,7 +4,7 @@ description: Lär dig hur du publicerar en eller flera artiklar från kartkonsol
 exl-id: d89ce69d-8d4c-4265-bfca-60763f561afd
 feature: Publishing
 role: User
-source-git-commit: 4fbc9c8e28f2b68af0307255eb842065e93fbc83
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 0%
@@ -27,16 +27,16 @@ Utför följande steg för att generera artikelbaserade utdata:
 1. Navigera till fliken **Artiklar** och markera de ämnen som du vill generera utdata för.
 1. Välj **Generera utdata** längst upp för att generera utdata.
 
-   ![](images/add-preset-articles-tab_cs.png){width="800" align="left"}
+   ![](images/add-preset-articles-tab_cs.png){align="left"}
 
 1. Markera de filer som du vill publicera och bekräfta genom att välja **Publicera** i **Bekräfta filer för publicering** .
 
-   ![Nytt ](images/knowledge-base-confirm-files-for-publishing.png){width="800" align="left"}
+   ![Nytt ](images/knowledge-base-confirm-files-for-publishing.png){align="left"}
 
    Du visar status för genereringsprocessen för utdata. Kolumnen **Ämnen** visar ämnen som utdata genereras för medan kolumnen **Status** visar publiceringsstatusen för varje ämne.
 
 
-   ![](images/add-preset-output-generated_cs.png){width="800" align="left"}
+   ![](images/add-preset-output-generated_cs.png){align="left"}
 
    Om du vill visa utdata stänger du dialogrutan **Utdata genererade** och väljer **Visa utdata** på förinställningssidan.
 

@@ -4,7 +4,7 @@ description: Skapa och konfigurera förinställningar för AEM-webbplatser i AEM
 feature: Publishing
 role: User
 exl-id: 641c98ca-b815-4176-abf5-a12c31ff4496
-source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '2404'
 ht-degree: 0%
@@ -47,7 +47,7 @@ Det är ett mycket vanligt scenario att ha en stor uppsättning dokumentation sp
 
 Ett annat sätt att länka innehåll är att skapa en länk med `peer` `@scope`. För sådant innehåll löses länken vid körning genom att filens namn och det konfigurerade sammanhanget för det länkade ämnet väljs från DITA-kartans publiceringskontext. På följande skärmbild visas egenskapspanelen för en länk med `peer` `@scope`:
 
-![](images/peer-link-scope-link-new.png){width="800" align="left"}
+![](images/peer-link-scope-link-new.png){align="left"}
 
 För att förenkla publiceringen av komplexa kartor och ämnen som länkar till andra ämnen i andra kartor kan du med Adobe Experience Manager Guides ange publiceringskontext för varje utdatapresentation.
 
@@ -65,7 +65,7 @@ Gör så här för att ange publiceringskontext för korslänkade filer:
 
    Du kan hämta inställningsinställningarna för AEM och publiceringskontextflikterna.
 
-   ![](images/aem-site-publish-settings.png){width="800" align="left"}
+   ![](images/aem-site-publish-settings.png){align="left"}
 
 1. Öppna fliken **Publiceringskontext**.
 
@@ -77,7 +77,7 @@ Gör så här för att ange publiceringskontext för korslänkade filer:
 
    Som standard är alla länkade ämnen markerade med sin senaste förinställning och karta för utdata.
 
-   ![](images/default-publish-context.png){width="800" align="left"}
+   ![](images/default-publish-context.png){align="left"}
 
 1. Om du vill ändra standardvalet för DITA-schema och förinställning väljer du **Redigera** \(i huvudverktygsfältet\).
 

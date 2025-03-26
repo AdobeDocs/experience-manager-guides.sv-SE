@@ -4,7 +4,7 @@ description: Visa ämnen i redigeringsläge, källläge och förhandsgransknings
 exl-id: 74db2902-4507-4904-85d8-6b52e4af4c55
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 594e348fc1188e66cf2f4648702ed2b17f1f8f33
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1447'
 ht-degree: 0%
@@ -104,7 +104,7 @@ Om du har använt villkor i ett ämne eller en karta visas dessa villkor på pan
 
 I följande bild visas ett ämne som använder två villkor: `Audience` och `Product`. Det villkorade innehållet markeras med gul bakgrund.
 
-![](images/preview-filters.png){width="800" align="left"}
+![](images/preview-filters.png){align="left"}
 
 ### Visa ändringsmarkeringar för spår {#id2114BJ00CE8}
 

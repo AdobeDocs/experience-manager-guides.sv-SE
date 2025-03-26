@@ -4,7 +4,7 @@ description: Lär dig skapa och ta bort en kartsamling och lägga till eller ta 
 exl-id: 41152fa4-f739-44d2-9ccd-74072f53e31b
 feature: Publishing
 role: User
-source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1251'
 ht-degree: 0%
@@ -54,7 +54,7 @@ Så här skapar du en kartsamling och lägger till DITA-kartor i samlingen:
 
    DITA-kartfilerna läggs till i din kartsamling.
 
-   ![kartsamlingens kontrollpanel](./images/map-collection-dashboard.png){width="800" align="left"}
+   ![kartsamlingens kontrollpanel](./images/map-collection-dashboard.png){align="left"}
 
 **Filtreringsalternativ**
 
@@ -95,7 +95,7 @@ Så här konfigurerar och genererar du utdata med en kartsamling:
    - Aktivera **Alla förinställningar** för en DITA-karta om du vill välja alla förinställningar på en gång. Det här alternativet är inaktiverat som standard.
    - Aktivera **mappprofilförinställningar** för en DITA-karta om du vill välja alla mappprofilförinställningar för den. Det här alternativet är inaktiverat som standard.
 
-![redigera en kartsamling i molntjänster](images/edit-map-collection-cs.png){width="800" align="left"}
+![redigera en kartsamling i molntjänster](images/edit-map-collection-cs.png){align="left"}
 
 
 
@@ -112,7 +112,7 @@ Så här konfigurerar och genererar du utdata med en kartsamling:
 
 I kartsamlingen kan du konfigurera flera metadataegenskaper för DITA-kartorna. Välj **Konfigurera metadata** för att öppna sidan **Resursmetadata**. På sidan **Resursmetadata** visas alla kartor som finns i samlingen till vänster.
 
-![konfigurera metadata](images/map-collection-asset-metadata.png){width="800" align="left"}
+![konfigurera metadata](images/map-collection-asset-metadata.png){align="left"}
 
 Utför följande steg för att konfigurera metadataegenskaperna:
 
@@ -147,6 +147,6 @@ Detta tar även bort alla förinställningar eller språkområden som är koppla
 
 På samma sätt som du avbryter en utdatagenereringsaktivitet från [DITA-kartkonsolen](generate-output-for-a-dita-map.md#id2061H100T5Z) eller [Publish Dashboard](generate-output-publish-dashboard.md#) kan du avbryta en utdatagenereringsaktivitet från en kartsamling. Gå till fliken Utdata i en kartsamling, gå till den publiceringsaktivitet som du vill avbryta och välj ikonen **Avbryt det här jobbet** för att avbryta publiceringsaktiviteten.
 
-![](images/cancel-publish-task-map-collection.png){width="800" align="left"}
+![](images/cancel-publish-task-map-collection.png){align="left"}
 
 **Överordnat ämne:**[ Utdatagenerering](generate-output.md)

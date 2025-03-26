@@ -4,7 +4,7 @@ description: Lär dig hur du skickar metadata till utdata med DITA-OT-publicerin
 exl-id: 70ca32dc-56c3-45ee-b6b9-0efb8cc79ea1
 feature: Publishing, Metadata Management
 role: User
-source-git-commit: e1d6123991ddd8d25f76ee03befeb95f020a9834
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '571'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Utför följande steg för att skicka metadata till utdata med DITA-OT-publiceri
 1. Markera och öppna en förinställning som du vill skicka metadatafälten till. Välj t.ex. PDF förinställning för utdata. Kontrollera att den har skapats med alternativet **DITA-OT** .
 1. I listrutan **Filegenskaper** väljer du de metadata som du vill skicka till DITA-OT-publicering.
 
-   ![](images/custom-metadata-output-preset-new.png){width="800" align="left"}
+   ![](images/custom-metadata-output-preset-new.png){align="left"}
 
    I listrutan Egenskaper visas både de anpassade egenskaperna och standardegenskaperna. I skärmbilden ovan är till exempel `dc:description`, `dc:language`, `dc:title` och `docstate` standardegenskaper.
 
@@ -61,7 +61,7 @@ Om du arbetar med **Assets-gränssnittet** utför du följande steg för att ski
 1. Markera och redigera en förinställning som du vill skicka metadatafälten till. Välj t.ex. PDF förinställning för utdata.
 1. Välj alternativet **DITA-OT** i den valda förinställningen.
 
-   ![](images/custom-meta-data-output-preset.png){width="800" align="left"}
+   ![](images/custom-meta-data-output-preset.png){align="left"}
 
 1. I listrutan Egenskaper väljer du de metadata som du vill skicka till DITA-OT-publicering.
 

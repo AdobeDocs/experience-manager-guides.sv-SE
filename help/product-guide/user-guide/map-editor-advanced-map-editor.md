@@ -4,7 +4,7 @@ description: Lär dig funktionerna i Kartredigeraren i Adobe Experience Manager 
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
-source-git-commit: e1d6123991ddd8d25f76ee03befeb95f020a9834
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '2570'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Följande alternativ är tillgängliga i verktygsfältet i layoutvyn:
 
 Visar dialogrutan för ämnessökning. Navigera till avsnittet/mappfilen som du vill infoga och välj **Markera** för att lägga till den på kartan.
 
-![](images/insert-topic-reference-dialog.png){width="800" align="left"}
+![](images/insert-topic-reference-dialog.png){align="left"}
 
 
 **Ämnesgrupp** - ![](images/topic-group.svg)
@@ -140,7 +140,7 @@ Om du har tillämpat några villkor för ett ämne visas en filterikon till hög
 
 I vyn **Författare** kan du redigera din DITA-karta i Redigeraren. Detta visar WYSIWYG-vyn i kartredigeraren och några av de ikoner som visas i redigeringsvyn är desamma som layoutvyn.
 
-![](images/map-editor-author-view.png){width="800" align="left"}
+![](images/map-editor-author-view.png){align="left"}
 
 Dessutom kan du visa följande ikoner och utföra relaterade uppgifter i redigeringsvyn:
 
@@ -243,7 +243,7 @@ Du kan skapa en granskningsåtgärd för det aktuella ämnet eller kartan direkt
 
 I den här vyn kan du redigera innehåll i Raw-format, vilket ger fullständig kontroll över strukturen och formateringen.
 
-![](images/map-editor-source-view.png){width="800" align="left"}
+![](images/map-editor-source-view.png){align="left"}
 
 
 I den här vyn innehåller verktygsfältet grundläggande alternativ för redigering och infogning av innehåll som är tillgängliga i listrutan **Meny**, inklusive Klipp ut, Kopiera, Ångra, Gör om, Ta bort, Sök och ersätt, Versionsetikett, Sammanfoga, Spara som ny version, Lås och Lås upp.
@@ -254,7 +254,7 @@ Förhandsgranskningsläget återger innehållet så som det kommer att se ut i d
 
 Förutom att kunna visa positionen för varje ämnesfil i en karta, är det önskvärt att kartinnehållet visas i ett sammanhängande flöde. Med funktionen Förhandsgranska karta kan du visa hela innehållet i kartfilen med ett enda klick. Du behöver inte generera utdata från kartfilen för att se hur hela kartan kommer att se ut när den har publicerats. Du kan enkelt öppna kartans förhandsgranskning och alla ämnen och undermappar återges i form av en bok.
 
-![](images/map-editor-preview.png){width="800" align="left"}
+![](images/map-editor-preview.png){align="left"}
 
 >[!NOTE]
 >
@@ -315,7 +315,7 @@ Så här redigerar du ämnen via en DITA-karta:
 
    Du kan öppna flera ämnen i redigeraren och varje ämne öppnas på en ny flik i redigeraren. Även om din DITA-karta innehåller underkartor öppnas även ämnen från underkartorna på en ny flik för redigering. Om du vill visa ämnen under en delmappning kan du markera och expandera delkartan.
 
-   ![](images/web-editor-multiple-topics.png){width="800" align="left"}
+   ![](images/web-editor-multiple-topics.png){align="left"}
 
    Om du väljer en kartfil öppnas kartan på en ny flik i Redigeraren.
 

@@ -4,7 +4,7 @@ description: Skapa en karta med Karteredigeraren i Experience Manager Guides. Hi
 exl-id: b9cda118-ab6f-4d6b-9616-a083180ba069
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1555'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Så här skapar du en karta:
 
 1. På panelen Databas markerar du ikonen **Ny fil** och väljer sedan **DITA-karta** i listrutan.
 
-   ![](images/create-map-options.png){width="800" align="left"}
+   ![](images/create-map-options.png){align="left"}
 
    Du kan även komma åt det här alternativet från [Experience Manager Guides hemsida](./intro-home-page.md) och alternativmenyn för en mapp i databasvyn.
 
@@ -38,7 +38,7 @@ Så här skapar du en karta:
 
 Kartan skapas på den angivna sökvägen. Kartan öppnas även i Kartredigeraren för redigering.
 
-![](images/map-file-in-map-editor.png){width="800" align="left"}
+![](images/map-file-in-map-editor.png){align="left"}
 
 ## Lägga till ämnen i en kartfil
 
@@ -53,7 +53,7 @@ Utför följande steg för att lägga till ämnen i en kartfil från kartkonsole
 
 1. Kartfilen öppnas i kartredigeraren. Om du har öppnat en ny kartfil visas endast kartans titel i redigeraren.
 
-   ![](images/new-map-file-in-editor.png){width="800" align="left"}
+   ![](images/new-map-file-in-editor.png){align="left"}
 
 
    - **A** - \(*Flikfält*\): Det här liknar redigerarens flikfält. Visa [flikfältet](./web-editor-features.md#tab-bar) i redigeraren om du vill ha mer information.
@@ -76,7 +76,7 @@ Utför följande steg för att lägga till ämnen i en kartfil från kartkonsole
 
    Ämnet läggs till på kartan.
 
-   ![mappningsredigeraren lägger till ämne](images/map-editor-add-topic.png){width="800" align="left"}
+   ![mappningsredigeraren lägger till ämne](images/map-editor-add-topic.png){align="left"}
 
 1. Om du vill lägga till efterföljande ämnen eller en undermappning drar och släpper du ämnet eller undermappningen till önskad plats på kartan.
 
@@ -84,7 +84,7 @@ Utför följande steg för att lägga till ämnen i en kartfil från kartkonsole
 
    - Filen läggs till på en plats där den streckade rektangeln visas i kartredigeringsområdet. I följande skärmbild kommer avsnittet *Ett exempelavsnitt* att läggas till mellan avsnitten *Smarta förslag 1* och *Smarta förslag 2*.
 
-     ![](images/horizontal-line-in-adv-map-editor.png){width="800" align="left"}
+     ![](images/horizontal-line-in-adv-map-editor.png){align="left"}
 
    - Om du vill ersätta ett ämne drar och släpper du det nya ämnet ovanpå det ämne som du vill ersätta. och släppa det över anger att det kommer att ersättas med det ämne som släpps på det.
 
@@ -94,7 +94,7 @@ Utför följande steg för att lägga till ämnen i en kartfil från kartkonsole
 
    - Om du vill ändra positionen för ett ämne markerar du ämnet \(genom att markera avsnittsikonen\) och drar och släpper det på önskad plats i kartfilen. På följande skärmbild flyttas ämnet *Smart Suite 1* efter *A Sample topic*.
 
-     ![](images/move-topic-adv-map-editor.png){width="800" align="left"}
+     ![](images/move-topic-adv-map-editor.png){align="left"}
 
    - Om du vill kontrollera kartfilens egenskaper högerklickar du var som helst i kartredigeringsområdet och väljer **Egenskaper** på snabbmenyn. Baserat på din Adobe Experience Manager-version kan du visa egenskaper som metadata, schemaaktivering, referenser, dokumenttillstånd med mera.
 
@@ -116,7 +116,7 @@ Så här skapar du en karta från Assets-gränssnittet:
    >
    > Hur ämnen hänvisas till i en kartfil beror på kartmallen. Om du till exempel väljer mappningsmallen används ämnesreferenserna \(`topicref`\) för att referera till ämnen. Om det är en bokmapp skapas ämnesreferenser med elementet `chapter` i DITA.
 
-   ![](images/map-template.png){width="800" align="left"}
+   ![](images/map-template.png){align="left"}
 
 1. Ange kartan **Titel** på sidan Egenskaper.
 
@@ -132,7 +132,7 @@ Så här skapar du en karta från Assets-gränssnittet:
 
    Alla nya mappningsfiler som du skapar från Assets-gränssnittet eller redigeraren tilldelas ett unikt mappnings-ID. Dessutom sparas den nya kartan som den senaste arbetskopian i DAM. Innan du sparar en revision av en nyligen skapad karta, kommer du inte att visa något versionsnummer i Tidigare versioner. Om du öppnar kartan för redigering visas versionsinformationen i det övre högra hörnet på mappningsfilens flik:
 
-   ![](images/first-version-map-none.png){width="800" align="left"}
+   ![](images/first-version-map-none.png){align="left"}
 
    Versionsinformationen för en nyligen skapad karta visas som *ingen*. När du sparar en ny version tilldelas den ett versionsnummer som 1.0. Mer information om hur du sparar en ny version finns i [Spara som ny version](web-editor-features.md#save-as-new-version).
 
@@ -160,11 +160,11 @@ Utför följande steg för att lägga till ämnen i en kartfil från Assets-grä
 
 1. Markera kartfilen och välj **Redigera ämnen**.
 
-   ![](images/edit-map-main-menu.png){width="800" align="left"}
+   ![](images/edit-map-main-menu.png){align="left"}
 
    Du kan också välja alternativet **Redigera ämnen** på Åtgärdsmenyn i kartfilen:
 
-   ![](images/edit-map-action-menu.png){width="800" align="left"}
+   ![](images/edit-map-action-menu.png){align="left"}
 
    Kartfilen öppnas för redigering i Redigeraren. Om du vill lägga till ämnen i kartfilen följer du stegen (4-8) i [Lägg till ämnen i en kartfil](#add-topics-to-a-map-file).
 

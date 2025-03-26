@@ -4,7 +4,7 @@ description: Lär dig hur du skapar utdata av .book- eller .fm-filer i AEM Guide
 exl-id: 24132198-52da-4c0b-bee3-5c728ec96995
 feature: Publishing FrameMaker Documents
 role: User
-source-git-commit: 462647f953895f1976af5383124129c3ee869fe9
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Så här genererar du utdata för FrameMaker-dokument:
 
    DITA-kartkonsolen visas med en lista över tillgängliga utdatapresentationer för att generera utdata.
 
-   ![](images/publish-fm-doc.png){width="800" align="left"}
+   ![](images/publish-fm-doc.png){align="left"}
 
 1. Välj en eller flera förinställningar som du vill använda för att generera utdata.
 

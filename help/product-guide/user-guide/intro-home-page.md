@@ -3,7 +3,8 @@ title: Adobe Experience Manager Guides hemsida
 description: Lär känna Adobe Experience Manager Guides hemsida.
 feature: Authoring
 role: User
-source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
+exl-id: 4e6e40ba-277b-43d5-a2a9-665f4586c7e3
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1853'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 Hemsidan är den första skärmen som visas när du loggar in på Experience Manager Guides. Den ger dig en enhetlig och intuitiv välkomstskärm, som innehåller en snabb vy av de filer du nyligen har öppnat, samlingar med mera.
 
-![](images/aem-home-page.png){width="800" align="left"}
+![](images/aem-home-page.png){align="left"}
 
 Experience Manager Guides hemsida är indelad i följande avsnitt:
 
@@ -26,7 +27,7 @@ Experience Manager Guides hemsida är indelad i följande avsnitt:
 
 Huvudfältet är det översta fältet på hemsidan som visar Adobe Experience Manager-logotypen (eller ett enhetligt gränssnitt om du använder det enhetliga skalet som Experience Manager Guides-gränssnitt). När du markerar logotypen dirigeras du till Experience Manager navigeringssida.
 
-![](images/aem-home-header.png){width="800" align="left"}
+![](images/aem-home-header.png){align="left"}
 
 ## Navigeringsfält
 
@@ -36,7 +37,7 @@ Verktygen för navigeringsfältets ytor för att växla navigering, anpassa öve
 >
 > Om du använder Adobe Experience Manager Guides as a Cloud Service visas ytterligare en funktion som heter **AI Assistant** i navigeringsfältet.
 
-![](images/aem-home-nav-bar.png){width="800" align="left"}
+![](images/aem-home-nav-bar.png){align="left"}
 
 De funktioner som är tillgängliga i navigeringsfältet förklaras på följande sätt:
 
@@ -88,11 +89,11 @@ Följande widgetar finns i widgetavsnittet:
 
 - **Senaste filer**: I widgeten finns en ögonblicksbild av nyligen öppnade filer (en lista med filer som du har öppnat i Redigeraren) tillsammans med nyckelfilinformationen, inklusive namn, filnamn, filtyp, filsökväg och datum för åtkomst.
 
-  ![](images/aem-home-recent-files.png){width="800" align="left"}
+  ![](images/aem-home-recent-files.png){align="left"}
 
   Du kan sortera och ändra storlek på kolumnerna genom att välja alternativ på den nedrullningsbara menyn för kolumner. Som standard sorteras data baserat på senaste åtkomstdatum och -tid.
 
-  ![](images/aem-home-recent-files-sort-resize-options.png){width="800" align="left"}
+  ![](images/aem-home-recent-files-sort-resize-options.png){align="left"}
 
 
   Från [Användarinställningar](#user-preferences) kan du ange det maximala antalet filer som kan visas i den här widgeten. Som standard är den här gränsen inställd på **20**.
@@ -110,11 +111,11 @@ Följande widgetar finns i widgetavsnittet:
 - **Samlingar**: Om du arbetar med en uppsättning filer eller mappar kan du lägga till dem i den här widgeten för att komma åt dem snabbt. När du har lagt till dem kan du visa filerna efter namn tillsammans med annan nyckelinformation som Ägare och Skapad den. När du väljer listrutan för kolumner kan du visa alternativen för att sortera och ändra storlek på kolumnen.
 
 
-  ![](images/aem-home-collections.png){width="800" align="left"}
+  ![](images/aem-home-collections.png){align="left"}
 
   Den markerade samlingens vägbeskrivningar visas högst upp i samlingswidgeten. Du kan markera den om du vill gå tillbaka till en viss mapp i hierarkin.
 
-  ![](images/aem-home-collections-breadcrumbs.png){width="800" align="left"}
+  ![](images/aem-home-collections-breadcrumbs.png){align="left"}
 
   Följande alternativ är tillgängliga när du hovrar över en samling och väljer ikonen Mer ![](images/Smock_MoreSmallList_18_N.svg):
 
@@ -158,7 +159,7 @@ Användarinställningarna är tillgängliga för alla författare. Med hjälp av
 
 - **Allmänt**: På fliken Allmänt kan du konfigurera följande inställningar:
 
-  ![](images/user_preference_editor.PNG){width="800" align="left"}
+  ![](images/user_preference_editor.PNG){align="left"}
 
    - **Mappprofil**: Mappprofilen styr olika konfigurationer som är relaterade till villkorsattribut, redigeringsmallar, förinställningar för utdata och redigeringskonfigurationer. Den globala profilen visas som standard. Om administratören har konfigurerat mappprofiler i systemet visas även dessa mappprofiler i listan Mappprofiler.
    - **Bassökväg**: När du öppnar Experience Manager Guides-databasen från Redigeraren visas som standard resurser från /content/dam-platsen. Arbetsmappen finns förmodligen i mappen /content/dam/. Du kan ange grundsökvägen till din arbetsmapp och i databasvyn visas sedan innehållet från den platsen direkt. Detta minskar tiden för åtkomst till din arbetsmapp. När du infogar en referens- eller mediefil i ditt ämne börjar filbläddringsplatsen med mappen inställd i bassökvägen.
@@ -168,7 +169,7 @@ Användarinställningarna är tillgängliga för alla författare. Med hjälp av
 
 - **Utseende**: På fliken Utseende kan du välja teman för programmet och källvyn för innehållets redigeringsområde. Använd den här fliken för att konfigurera följande inställningar:
 
-  ![](images/user_preference_editor_appearance.png){width="800" align="left"}
+  ![](images/user_preference_editor_appearance.png){align="left"}
 
    - **Redigerarfiler visar konfigurationen**: Välj standardsättet att visa filerna i Redigeraren. Du kan visa fillistan efter titlarna eller filnamnen från de olika panelerna i redigeringsvyn. Som standard visas filerna som titlar i Redigeraren.
    - **Programtema och Source-vy**: Du kan välja mellan ljusa eller mörka teman för programmet och källvyn. När det gäller ljustemat använder verktygsfälten och panelerna en ljusgrå bakgrund. När det gäller det mörka temat använder verktygsfälten och panelerna en svart färgbakgrund. Välj **Använd enhetstemat** om du vill att Experience Manager Guides ska kunna välja ljusa och mörka teman baserat på temat på din enhet.

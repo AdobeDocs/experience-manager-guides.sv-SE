@@ -4,7 +4,7 @@ description: Skapa och konfigurera AEM Sites-förinställningen i kartkonsolen m
 feature: Publishing
 role: User
 exl-id: f3657268-9dee-43af-b643-499dbc3ca948
-source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '3533'
 ht-degree: 0%
@@ -122,7 +122,7 @@ Fliken **Innehåll** innehåller följande konfigurationsalternativ:
 
 Fliken **Ämneslista** visar en lista med ämnen som finns i den aktuella arbetskopian av DITA-kartan. Som standard inkluderas alla ämnen. Du kan välja ut specifika ämnen och generera utdata från AEM Sites endast för dem. Du har till exempel uppdaterat vissa avsnitt så att du bara kan publicera dessa ämnen i stället för att publicera hela DITA-kartan.
 
-![Ämneslista för objektwebbplatser](images/aem-presets-topic-list.png) {width="800" align="left"}
+![Ämneslista för objektwebbplatser](images/aem-presets-topic-list.png) {align="left"}
 
 
 >[!NOTE]

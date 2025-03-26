@@ -4,7 +4,7 @@ description: Aktivera utdata från DITA-kartor i AEM Guides. Lär dig hur du akt
 exl-id: 4da644b9-8c5f-4976-a212-960085b693b8
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: a00674a98e4ba87dbc5ddac3412cedca15a205bd
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 0%
@@ -25,7 +25,7 @@ När du har skapat en kartsamling för massaktivering är nästa steg att aktive
 
 1. Markera samlingen som du vill publicera och välj **Öppna**.
 
-   ![](images/bulk-activation-collection-open.png){width="800" align="left"}
+   ![](images/bulk-activation-collection-open.png){align="left"}
 
 1. \(*Valfritt*\) Använd de filter som krävs från den vänstra listen för att filtrera kartan baserat på deras ändrade \(status\), utdataförinställning eller språk.
 

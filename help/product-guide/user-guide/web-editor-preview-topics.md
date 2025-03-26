@@ -4,7 +4,7 @@ description: Lär dig hur du förhandsgranskar ett avsnitt i Adobe Experience Ma
 exl-id: f4013ac6-226a-4e66-bd7b-604ac7c361ae
 feature: Authoring
 role: User
-source-git-commit: 67d6b6f59e5d8c37389a181949ce4527760576e2
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1988'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Utför följande steg om du vill förhandsgranska ett ämne i Redigeraren:
 
    Förhandsgranskningen av ämnet visas.
 
-   ![](images/preview-pop-up.png){width="800" align="left"}
+   ![](images/preview-pop-up.png){align="left"}
 
 **Förhandsgranska ämnen från förhandsgranskningsläget**
 
@@ -61,7 +61,7 @@ Utför följande steg för att förhandsgranska ett ämne:
 
 Följande åtgärder är tillgängliga i verktygsfältet när du använder förhandsvisningsfunktionen i Assets-gränssnittet:
 
-![](images/preview-screen.png){width="800" align="left"}
+![](images/preview-screen.png){align="left"}
 
 
 **Egenskaper**
@@ -78,7 +78,7 @@ Referenserna **Används i** visar de dokument där den aktuella filen refereras 
 
 Med ikonen \(+\) i avsnittet **Används i** referenser kan du navigera uppåt för att hitta var avsnittet används eller refereras.
 
-![](images/used-in-dialog_cs.png){width="800" align="left"}
+![](images/used-in-dialog_cs.png){align="left"}
 
 Om du väljer ikonen ![](images/right-arrow-used-in-dialog.svg) bredvid ett dokument visas karta- eller ämnesfilerna där dokumentet hänvisas vidare.
 
@@ -108,7 +108,7 @@ Om ditt ämne har villkorsstyrt innehåll visas A/B-ikonen i verktygsfältet. Om
   >
   > Om du vill visa källkodsvyn för en DITA-kartfil markerar du filen i Assets-gränssnittet och väljer Source.
 
-  ![](images/xml-source-code-view-from-preview_cs.png){width="800" align="left"}
+  ![](images/xml-source-code-view-from-preview_cs.png){align="left"}
 
 **Dela UUID-länk**
 
@@ -120,7 +120,7 @@ Om ditt ämne har villkorsstyrt innehåll visas A/B-ikonen i verktygsfältet. Om
 
 Ett nytt alternativ, **Dela UUID-länk**, visas i verktygsfältet för de ovannämnda områdena. På följande skärmbild visas alternativet **Dela UUID-länk** i förhandsgranskningsläget för ett ämne:
 
-![](images/share-uuid-link_cs.png){width="800" align="left"}
+![](images/share-uuid-link_cs.png){align="left"}
 
 I resursgränssnittet är det här alternativet synligt när du markerar en fil. I förhandsgranskningsläget är det här alternativet tillgängligt som standard i huvudverktygsfältet. I en DITA-kartkonsol är det här alternativet synligt i avsnittet Utdataförinställningar.
 
@@ -148,7 +148,7 @@ Utcheckad fil i listvyn:
 
 Om kolumnen Utcheckad inte visas väljer du **Visa inställningar** under **Listvy** och sedan **Utcheckad** i dialogrutan **Konfigurera kolumner** .
 
-![](images/list-view-settings-check-out_cs.png){width="800" align="left"}
+![](images/list-view-settings-check-out_cs.png){align="left"}
 
 >[!TIP]
 >
@@ -166,17 +166,17 @@ Om kolumnen Utcheckad inte visas väljer du **Visa inställningar** under **List
 
    1. Välj **Versionshistorik** i den vänstra listen och välj en version.
 
-      ![](images/timeline-versions62_cs.png){width="800" align="left"}
+      ![](images/timeline-versions62_cs.png){align="left"}
 
    1. Välj den som du vill använda som basversion i de listade versionerna och välj **Förhandsgranska version**. Förhandsgranskningen av den valda versionen visas i fönstret Förhandsgranska version.
 
    1. I listan **Visa skillnader** väljer du den version som du vill jämföra basversionen med.
 
-      ![](images/show-diff-list-cropped.png){width="800" align="left"}
+      ![](images/show-diff-list-cropped.png){align="left"}
 
       Det ändrade innehållet markeras i ämnesförhandsvisningen. Innehåll som är markerat med grönt innebär att det nya innehållet och det nya röda innehållet är det borttagna innehållet.
 
-      ![](images/version-difference.png){width="800" align="left"}
+      ![](images/version-difference.png){align="left"}
 
 
 ## Förgrena, återställ och efterföljande versionshantering

@@ -4,7 +4,7 @@ description: Lös problem med grundläggande felsökning i AEM Guides. Lär dig 
 exl-id: 57b88291-b5a3-4931-b3ed-f2b2ce7a463c
 feature: Publishing, Troubleshooting
 role: User
-source-git-commit: ff75aca9ddd7b405501a62e055fb99bd5ea2291c
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Utför följande steg för att visa och kontrollera loggfilen för generering av
 
    Loggfilen öppnas på en ny flik.
 
-   ![](images/log-file.png){width="800" align="left"}
+   ![](images/log-file.png){align="left"}
 
 1. Använd följande filter för att markera texten i loggfilen:
    - Allvarligt: markerar de allvarliga felen i loggfilen med rosa färg.

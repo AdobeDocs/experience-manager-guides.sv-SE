@@ -4,7 +4,7 @@ description: Hantera granskningsuppgifter från Granska kontrollpanelen i AEM Gu
 exl-id: 4fef5653-1c73-4b68-adf2-b24145555142
 feature: Reviewing
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1298'
 ht-degree: 0%
@@ -25,13 +25,13 @@ Utför följande steg för att komma åt och använda kontrollpanelen:
 
    En projektpanel med åtgärdsrutor visas.
 
-   ![](images/review-management.png){width="800" align="left"}
+   ![](images/review-management.png){align="left"}
 
 1. Markera de tre punkterna i rutan **Recensioner**.
 
    Kontrollpanelen för granskning visas. Kontrollpanelen visar alla granskningsåtgärder som du har skapat.
 
-   ![](images/review-dashboard.png){width="800" align="left"}
+   ![](images/review-dashboard.png){align="left"}
 
    På kontrollpanelen Granska visas information om granskningsaktiviteten, t.ex. aktivitetsnamn, vem som startade granskningen, datum när granskningen startades, förfallodatum, status, antal nya kommentarer som inte har godkänts eller avvisats av författaren samt namn på granskarna. Uppgifterna visas i ordningen för nyligen skapade uppgifter till äldre uppgifter.
 
@@ -50,7 +50,7 @@ Utför följande steg för att komma åt och använda kontrollpanelen:
 
 ## Fliken Uppgift
 
-![](images/review-task-page.png){width="800" align="left"}
+![](images/review-task-page.png){align="left"}
 
 Du kan utföra följande åtgärder på fliken **Aktivitet**:
 
@@ -71,7 +71,7 @@ Du kan utföra följande åtgärder på fliken **Aktivitet**:
 
 ## Fliken Innehåll
 
-![](images/review-content-page.png){width="800" align="left"}
+![](images/review-content-page.png){align="left"}
 
 Du kan utföra följande åtgärder på fliken **Innehåll**:
 
@@ -90,7 +90,7 @@ Du kan utföra följande åtgärder på fliken **Innehåll**:
 
 ## Fliken Granskare {#reviewer-tab-id199RF0N0MUI}
 
-![](images/reviewers-tab.png){width="800" align="left"}
+![](images/reviewers-tab.png){align="left"}
 
 Du kan utföra följande åtgärder på fliken **Granskare**:
 
@@ -111,7 +111,7 @@ Du kan utföra följande åtgärder på fliken **Granskare**:
 
 Om du väljer en granskningsaktivitet och väljer **Status** på huvudsidan på kontrollpanelen för granskning visas statusrapporten för granskningsaktiviteten.
 
-![](images/review-status-report.png){width="800" align="left"}
+![](images/review-status-report.png){align="left"}
 
 Statusrapporten för granskningsaktiviteten innehåller följande information:
 

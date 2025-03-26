@@ -4,7 +4,7 @@ description: Lär dig hur du skapar typer av DITA-ämnen med anpassade mallar i 
 exl-id: 84e9cfdf-e188-487f-9181-68708029c101
 feature: Authoring
 role: User
-source-git-commit: 67d6b6f59e5d8c37389a181949ce4527760576e2
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 0%
@@ -49,7 +49,7 @@ Utför följande steg för att skapa ett ämne från Redigeraren:
 
 Ämnet skapas på den angivna sökvägen. Dessutom öppnas ämnet i Redigeraren för redigering.
 
-![](images/new-topic-editor.png){width="800" align="left"}
+![](images/new-topic-editor.png){align="left"}
 
 ## Skapa ämnen från Assets användargränssnitt
 
@@ -61,7 +61,7 @@ Följ de här stegen för att skapa ett ämne från Assets-gränssnittet:
 
 1. På sidan Design väljer du den typ av DITA-dokument som du vill skapa och väljer **Nästa**.
 
-   ![](images/create_dita_topic.png){width="800" align="left"}
+   ![](images/create_dita_topic.png){align="left"}
 
    Som standard innehåller Experience Manager Guides de vanligaste DITA-ämnesmallarna. Du kan konfigurera fler ämnesmallar enligt organisationens krav i *Konfigurera redigeringsmallar* i Installera och konfigurera Adobe Experience Manager Guides för din konfiguration.
 

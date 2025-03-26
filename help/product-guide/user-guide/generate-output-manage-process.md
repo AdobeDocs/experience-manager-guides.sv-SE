@@ -3,7 +3,8 @@ title: Generering av utdata
 description: Hantera produktionsprocessen i AEM Sites, PDF, HTML5, EPUB, custom och JSON via DITA-OT, PDF-publicering och FMPS i AEM Guides.
 feature: Publishing
 role: User
-source-git-commit: b061bcbcefba1700665bed33f017a962e84a0433
+exl-id: 11bb3604-f45c-4df7-be74-588dbf8594af
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 0%
@@ -26,7 +27,7 @@ När du har initierat genereringsuppgiften för en karta eller återskapat valda
 
 1. Välj **UTDATA**.
 
-   ![](images/output-queued.png){width="800" align="left"}
+   ![](images/output-queued.png){align="left"}
 
    Sidan Utdata är uppdelad i två delar:
 
@@ -63,17 +64,17 @@ Utför följande steg för att avbryta en utdatagenereringsaktivitet från DITA-
 
 1. Välj ikonen **Avbryt det här jobbet** .
 
-   ![](images/cancel-publish-task-map-console.png){width="800" align="left"}
+   ![](images/cancel-publish-task-map-console.png){align="left"}
 
 1. Välj **Ja** i meddelandet **Bekräfta annullering**.
 
-   ![](images/confirm-cancel-output-map-console.png){width="800" align="left"}
+   ![](images/confirm-cancel-output-map-console.png){align="left"}
 
    Om aktiviteten inte har startats ännu körs kommandot cancel för uppgiften. För en uppgift som avbryts ställs statusen in på Avbryta.
 
    När aktiviteten har avbrutits flyttas den till listan **Genererade utdata** med statusen **Avbruten**. När du hovrar över den avbrutna uppgiften visas namnet på den användare som avbrutit uppgiften. I skärmbilden nedan avbryts aktiviteten *HTML5*.
 
-   ![](images/cancelled-output-task.png){width="800" align="left"}
+   ![](images/cancelled-output-task.png){align="left"}
 
 
 ## Ta bort en utdatauppgift
@@ -90,9 +91,8 @@ Så här tar du bort en utdatauppgift från listan Genererade utdata:
 
 1. Välj ikonen Ta bort.
 
-   ![](images/delete-output-task.png){width="800" align="left"}
+   ![](images/delete-output-task.png){align="left"}
 
 1. Välj **Ja** i meddelandet **Bekräfta borttagning**.
 
    Uppgiften tas bort från listan Genererade utdata.
-

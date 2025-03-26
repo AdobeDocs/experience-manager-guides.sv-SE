@@ -4,7 +4,7 @@ description: Upptäck funktionerna i redigeraren i Adobe Experience Manager Guid
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 1e3a957dffc7296210eea89814cf6ca83ff1200e
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '18659'
 ht-degree: 0%
@@ -299,7 +299,7 @@ När du redigerar ett ämne i Redigeraren kan du få åtkomst till olika rediger
 
 Funktionen **Sök och ersätt** är tillgänglig i redigeringsläge och Source-visningsläge. När alternativet är aktiverat visas textfältet Sök och ersätt längst ned i ämnesredigeringsområdet. Du kan använda kortkommandona **CTRL**+**F** för att aktivera fältet Sök och ersätt.
 
-![](images/find-replace-bar.png){width="800" align="left"}
+![](images/find-replace-bar.png){align="left"}
 
 Med inställningsikonen \(![](images/settings-find-replace-icon.svg)\) kan du växla sökalternativen **Ignorera skiftläge** och **Endast hela ord**. Aktivera (eller markera) alternativet **Ignorera skiftläge** om du vill utföra den skiftlägeskänsliga sökningen. Annars, om du vill utföra den skiftlägeskänsliga sökningen, stänger av (eller avmarkerar) alternativet **Ignorera skiftläge**. Du kan också söka efter ett helt ord.
 
@@ -365,7 +365,7 @@ Så här får du åtkomst till versionshistoriken och återgår till en specifik
 
    När du återgår till en tidigare version visas en visuell indikation på att den version du arbetar med för närvarande inte är den senaste versionen.
 
-   ![](images/older-version-visual-cue.png){width="800" align="left"}
+   ![](images/older-version-visual-cue.png){align="left"}
 
 **Versionsetiketter**
 
@@ -544,7 +544,7 @@ Du kan också skriva ett tecken eller en sträng i sökrutan och söka efter ele
 
 Om du arbetar i ett blockelement som `note` använder du ikonen Infoga element för att infoga ett nytt element efter `note`-elementet. I följande skärmbild har ett anteckningselement infogats i elementet p \(stycke\):
 
-![Infoga element i ett blockelement](images/note-in-para-insert-element_cs.png){width="800" align="left"}
+![Infoga element i ett blockelement](images/note-in-para-insert-element_cs.png){align="left"}
 
 Om du trycker på Retur i anteckningselementet skapas ett nytt stycke i själva anteckningselementet. Om du vill infoga ett nytt element utanför anteckningen, markerar du p-elementet \(markerat i skärmbild\) i elementbeskrivningen och väljer sedan elementikonen eller trycker på ***Alt***+***Retur*** för att öppna dialogrutan Infoga element. Markera sedan det önskade elementet och tryck på Retur för att infoga det markerade elementet efter anteckningselementet.
 
@@ -613,7 +613,7 @@ Du kan också definiera attribut för flera celler, hela rader eller kolumner i 
 1. Välj den textjustering du vill använda på de markerade tabellcellerna i listrutan Värde.
 1. Välj **Lägg till.**
 
-![](images/align-table-cell_cs.png){width="800" align="left"}
+![](images/align-table-cell_cs.png){align="left"}
 
 **Bild** - ![](images/Image_icon.svg)
 
@@ -636,7 +636,7 @@ Med alternativet **Välj fil** kan du söka efter den önskade bildfilen efter f
 
 När du har infogat en bild kan du ändra höjd, bredd, placering och attribut på panelen Innehållsegenskaper. Markera bildfilen och gör sedan ändringarna på panelen Innehållsegenskaper på den högra panelen.
 
-![](images/image-properties.png){width="800" align="left"}
+![](images/image-properties.png){align="left"}
 
 I fältet Source visas UUID för den infogade bildfilen. Du kan hitta hela sökvägen till den infogade bildfilen genom att hålla muspekaren över fältet Source. Sökvägen visas i verktygstipset.
 
@@ -713,7 +713,7 @@ Du kan också söka med UUID för filen som du vill referera till. För länkarn
 
 Om administratören har aktiverat alternativet UUID:n i *XMLEditorConfig* så visar du UUID:t för det refererade innehållet i egenskapen **Link** .
 
-![](images/ref-link-uuid_cs.png){width="800" align="left"}
+![](images/ref-link-uuid_cs.png){align="left"}
 
 >[!NOTE]
 >
@@ -816,12 +816,12 @@ Funktionen **Versionsinformation och Spara som ny version** kombinerar versionsh
 
   Versionsnumret ändras för varje ny version som skapas för ämne- eller mappfilen. Om du arbetar med ett nyligen skapat dokument visas versionsinformationen som **ingen**.
 
-  ![](images/version-information.png){width="800" align="left"}
+  ![](images/version-information.png){align="left"}
 
 
 - **Spara som ny version** är en knapp som sparar de ändringar du har gjort i ditt ämne och skapar även en ny version av ditt ämne.
 
-  ![](images/save-as-new-version.png){width="800" align="left"}
+  ![](images/save-as-new-version.png){align="left"}
 
 
 När du väljer att spara ett ämne eller en karta med **Spara som ny version** visas följande dialogruta:
@@ -842,7 +842,7 @@ Om ditt ämne är under granskning får granskarna ett meddelande om att det fin
 
 När du håller pekaren över ett ämnes titel visas filens titel, filsökväg och versionsnummer.
 
-![](images/mouse-hover-on-title_cs.png){width="800" align="left"}
+![](images/mouse-hover-on-title_cs.png){align="left"}
 
 >[!NOTE]
 >
@@ -852,7 +852,7 @@ När du håller pekaren över ett ämnes titel visas filens titel, filsökväg o
 
 Låser eller låser upp den aktuella filen. Genom att låsa en fil får du exklusiv skrivåtkomst till filen. Detta hindrar andra användare från att redigera filen. Lås upp filen om du vill att andra ska ha redigeringsåtkomst. När filen är olåst sparas ändringarna i den aktuella versionen av filen.
 
-![](images/web-editor-lock-button.png){width="800" align="left"}
+![](images/web-editor-lock-button.png){align="left"}
 
 Om du är i Kartvyn och expanderar den överordnade kartan kan du låsa alla filer på kartan med ett enda klick. Expandera bara den överordnade mappfilen och markera den överordnade filen, vilket gör att du kan markera alla filer på kartan. Sedan kan du välja **Lås** ![](images/LockClosed_icon.svg) för att låsa alla filer på kartan.
 
@@ -935,7 +935,7 @@ Om du vill lägga till en fil i samlingar använder du någon av följande metod
 
 - Högerklicka på en fils flik i redigeraren för att öppna snabbmenyn. Välj **Lägg till i** > **Samlingar** om du vill lägga till filen i favoritlistan.
 
-  ![](images/favorite-add-from-file-context-menu_cs.png){width="800" align="left"}
+  ![](images/favorite-add-from-file-context-menu_cs.png){align="left"}
 
 
 >[!NOTE]
@@ -1098,7 +1098,7 @@ Du kan utföra följande åtgärder på Alternativ-menyn som är tillgänglig f�
 
   Om administratören har aktiverat alternativet UUID:n i *XMLEditorConfig* så visar du UUID:t för den överförda bilden i egenskapen **Source** .
 
-  ![](images/uuid-in-source-upload-image_cs.png){width="800" align="left"}
+  ![](images/uuid-in-source-upload-image_cs.png){align="left"}
 
 - **Sök efter filer i mappen**: Flyttar fokus till databassökning där du kan ange söktermen. Sökningen utförs under den valda mappen i databasen. Du kan också använda ett filter för att returnera DITA-filer, bildfiler eller båda.
 
@@ -1150,7 +1150,7 @@ De olika alternativen på Alternativ-menyn förklaras nedan:
 
 - **Förhandsgranska**: Få en snabb förhandsvisning av filen (.dita, .xml, ljud, video eller bild) utan att öppna den. Du kan ändra storlek på förhandsgranskningsfönstret. Om innehållet innehåller `<xref>` eller `<conref>` kan du markera det och öppna det på en ny flik. Filens titel visas i fönstret. Om det inte finns någon titel visas filnamnet. Om du vill stänga **förhandsgranskningspanelen** kan du antingen välja stängningsikonen eller välja var som helst utanför rutan.
 
-  ![](images/quick-preview_cs.png){width="800" align="left"}
+  ![](images/quick-preview_cs.png){align="left"}
 
 - **Byt namn**: Använd det här alternativet om du vill byta namn på den markerade filen. Ange namnet på den nya filen i dialogrutan **Byt namn på resurs**.
    - Du kan byta namn på en fil av valfri typ.
@@ -1270,7 +1270,7 @@ Följande alternativ är tillgängliga för en kartfil i Kartvyn:
 
 Du kan utföra följande åtgärder på Alternativ-menyn i kartfilen:
 
-![Alternativ-menyn i Kartvyn](images/options-menu-map-view_cs.png){width="800" align="left"}
+![Alternativ-menyn i Kartvyn](images/options-menu-map-view_cs.png){align="left"}
 
 - **Redigera**: Öppna kartfilen för redigering i kartredigeraren.
 
@@ -1326,7 +1326,7 @@ Du kan utföra följande åtgärder på Alternativ-menyn i kartfilen:
 
 I följande skärmbild visas Alternativ-menyn för en fil i mappningsvyn:
 
-![](images/options-menu-file_cs.PNG){width="800" align="left"}
+![](images/options-menu-file_cs.PNG){align="left"}
 
 Du kan utföra följande åtgärder på Alternativ-menyn:
 
@@ -1436,11 +1436,11 @@ I dispositionsvyn finns följande funktioner:
 
 - Dra och släpp element. Du kan enkelt ersätta ett element genom att släppa ett annat element på det. Om du drar och släpper ett element över ett annat element och visar en streckad rektangelruta runt elementet, indikerar det att elementet kommer att ersättas. Den ersätter elementet som elementet släpps på.
 
-  ![](images/replace-element-outline-view_cs.png){width="800" align="left"}
+  ![](images/replace-element-outline-view_cs.png){align="left"}
 
   Om du drar och släpper ett element visar en streckad rektangel att elementet kan placeras på den aktuella platsen. Om dra och släpp-funktionen är ogiltig visas ett felmeddelande som anger att åtgärden inte är tillåten.
 
-  ![](images/drop-element-outline-view_cs.png){width="800" align="left"}
+  ![](images/drop-element-outline-view_cs.png){align="left"}
 
 - Med menyn **Alternativ** i vyn *Disposition* kan du utföra allmänna åtgärder som Klipp ut, Kopiera, Ta bort, Generera ID, Infoga element före eller efter det aktuella elementet, Byta namn på eller ersätta ett element, Bryt ned ett element och skapa ett utdrag ur det markerade elementet.
 
@@ -1523,7 +1523,7 @@ På villkorspanelen visas villkorsattributen som definierats av administratören
 
 Du kan också använda flera villkor för ett element genom att dra och släppa flera villkor för ett element. När du använder flera villkor för ett element visas de använda villkoren separerade med kommatecken på egenskapspanelen.
 
-![](images/multiple-conditions-applied_cs.png){width="800" align="left"}
+![](images/multiple-conditions-applied_cs.png){align="left"}
 
 I kodvyn avgränsas emellertid villkoren med en blankstegsavgränsare. När du lägger till eller redigerar ett villkor i kodvyn måste du se till att flera villkor avgränsas med ett mellanslag.
 
@@ -1531,7 +1531,7 @@ I kodvyn avgränsas emellertid villkoren med en blankstegsavgränsare. När du l
 >
 > Följande skärmbild är av en användare med administratörsbehörighet. Som användare med administratörsbehörighet kan du lägga till, redigera och ta bort villkor. Annars kan du som vanlig författare bara välja att använda villkor.
 
-![](images/conditional-content-through-panel_cs.png){width="800" align="left"}
+![](images/conditional-content-through-panel_cs.png){align="left"}
 
 Om du vill lägga till eller definiera ett villkor väljer du +-ikonen bredvid villkorspanelen för att öppna dialogrutan Definiera villkor:
 
@@ -1761,7 +1761,7 @@ Kodavsnitt är små innehållsfragment som kan återanvändas i olika ämnen i d
 >
 > Följande skärmbild är av en användare med administratörsbehörighet. Som användare med administratörsbehörighet kan du lägga till, redigera och ta bort fragment. I annat fall får du som vanlig författare bara alternativ för att förhandsgranska och infoga ett fragment.
 
-![](images/snippets-panel_cs.png){width="800" align="left"}
+![](images/snippets-panel_cs.png){align="left"}
 
 Om du vill lägga till ett fragment använder du någon av följande metoder:
 
@@ -1826,7 +1826,7 @@ Med Experience Manager Guides kan du skapa och hantera variabler för PDF-public
 
 Ikonen Sök och ersätt finns längst ned på den vänstra panelen. På panelen Sök och ersätt kan du söka efter och ersätta text mellan filer på en karta eller i en mapp i databasen. Du kan söka och ersätta i alla avsnitt av en karta samt i ämnen som finns i undermappningarna på kartan.
 
-![](images/map-find-replace.png){width="800" align="left"}
+![](images/map-find-replace.png){align="left"}
 
 Som standard kan du visa filerna efter namn. När du för muspekaren över en fil kan du visa filens namn och sökväg som ett verktygstips.
 
@@ -1919,7 +1919,7 @@ Så här visar du granskningskommentarerna i de aktiva granskningsuppgifterna so
 1. Du kan också ange söktermen eller texten som du vill söka efter i avsnittets rubrik eller filsökväg. De ämnen som innehåller termen i titeln eller filsökvägen visas.
 1. Dubbelklicka på ett ämne för att öppna det i författarvyn. Du kan visa kommentarerna på panelen **Kommentarer**.
 
-   ![](images/active-review-task-comments.png){width="800" align="left"}
+   ![](images/active-review-task-comments.png){align="left"}
 
    >[!NOTE]
    > 
@@ -1935,7 +1935,7 @@ Innehållsredigeringsområdet är där innehållet i ditt ämne eller din karta 
 
 Längst ned till vänster i området för innehållsredigering finns elementets bredd vid den aktuella markörpositionen. I det nedre högra hörnet visas tillgängliga redigeringsvyer.
 
-![](images/content-editing-area.png){width="800" align="left"}
+![](images/content-editing-area.png){align="left"}
 
 Om du vill veta mer om de redigeringsvyer som är tillgängliga för en ämnesfil i området för innehållsredigering kan du visa [redigeringsvyer](./web-editor-views.md).
 

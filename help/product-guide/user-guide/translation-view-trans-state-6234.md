@@ -4,7 +4,7 @@ description: Lär dig hur du visar översättningsstatus och översatta språkko
 exl-id: 6ed30bc6-3030-40fd-987a-928fd5b06ee6
 feature: Translation
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 0%
@@ -26,6 +26,6 @@ Utför följande steg för att visa översättningsstatusen för en DITA-karta:
    >
    > Du kan filtrera innehållet ytterligare baserat på översättningsstatus \(som kopia saknas, pågående eller synkroniserad), Source-typ \(som Alla, DITA, DITA-karta eller Resurs\) och ändringsdatum. Dessutom kan du ange nyckelord för att söka efter specifika ämnen. Du kan använda **Uppdatera** för att uppdatera statusen om några ändringar har gjorts.
 
-   ![](images/translation-status-new.png){width="800" align="left"}
+   ![](images/translation-status-new.png){align="left"}
 
 **Överordnat ämne:**[&#x200B;Översikt över innehållsöversättning](translation.md)

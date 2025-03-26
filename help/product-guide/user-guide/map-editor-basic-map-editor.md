@@ -4,7 +4,7 @@ description: Lär dig hur du arbetar med den grundläggande kartredigeraren i AE
 exl-id: 13da729d-e8f7-46ae-873a-1bfc32da974f
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 126cecdaa481b9da1add4ba3664c26c2bc5da068
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1471'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 > Redigeraren för den grundläggande kartan, som tidigare fanns i Experience Manager Guides, har tagits bort från version 4.3 och 2307. Du har inte åtkomst till redigeraren för grundläggande kartor för att skapa och hantera DITA-kartor.
 >Du rekommenderas att använda den avancerade kartredigeraren. Avancerad kartredigerare har förbättrade funktioner och bättre alternativ för anpassning. Läs mer om hur du arbetar med [Avancerad kartredigerare](../user-guide/map-editor-advanced-map-editor.md).
 
-Med den grundläggande redigeringsfunktionen för kartor kan du enkelt dra och släppa för att lägga till ämnen från din AEM för att skapa en DITA-karta eller en bokkarta. Du kan lägga till kapslade ämnen, relationstabeller, attribut och metadatainformation och även validera kartan för att se om den är korrekt.
+Med den grundläggande redigeringsfunktionen för kartor kan du enkelt dra-och-släppa för att lägga till ämnen från AEM-databasen och skapa en DITA-karta eller en bokkarta. Du kan lägga till kapslade ämnen, relationstabeller, attribut och metadatainformation och även validera kartan för att se om den är korrekt.
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ Utför följande steg för att skapa kartfilen:
 
    Kartfilen öppnas för redigering i kartredigeraren. Med hjälp av kartredigeraren kan du skapa en karta med hjälp av de ämnen som för närvarande är tillgängliga och som visas i referensfältet.
 
-   ![](images/dita-map-01.png){width="800" align="left"}
+   ![](images/dita-map-01.png){align="left"}
 
 1. Navigera till mappen som innehåller de ämnen eller undermappar som du vill lägga till med hjälp av **referenserna** .
 
@@ -73,13 +73,13 @@ Utför följande steg för att skapa kartfilen:
 
 I huvudverktygsfältet i redigeraren för grundläggande kartor kan du utföra följande åtgärder:
 
-![](images/ditamap-toolbar-actions.png){width="800" align="left"}
+![](images/ditamap-toolbar-actions.png){align="left"}
 
 **A: Sök**
 
 Du kan söka efter och ta med de ämnen som behövs från DAM. Om du klickar på den här ikonen visas dialogrutan Sök:
 
-![](images/search-dita-map.png){width="800" align="left"}
+![](images/search-dita-map.png){align="left"}
 
 Ange de nyckelord som du vill söka efter. Dessa nyckelord matchas i ämnets filnamn, innehåll och till och med attributvärden. När sökresultaten är tillgängliga markerar du det önskade ämnet och klickar på knappen Markera för att lägga till de markerade filerna i slutet av kartstrukturen. Du kan filtrera sökresultaten genom att ange parametrar för Ändra datum.
 

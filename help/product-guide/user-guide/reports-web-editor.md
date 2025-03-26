@@ -4,7 +4,7 @@ description: Generera DITA-kartrapporter från kartkonsolen i AEM Guides. Lär d
 exl-id: 2f202b41-85d9-4a5a-aa28-e25715ce5e2e
 feature: Report Generation
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '2568'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Du kan visa ämneslistan, hantera metadata för alla referenser, visa multimedie
 
 Du kan hitta alla fyra rapporterna på panelen **Rapporter**. Beroende på dina behov kan du välja vilken som helst av rapporterna som visas här.
 
-![](images/reports-demo.png){width="800" align="left"}
+![](images/reports-demo.png){align="left"}
 
 Panelen Rapporter ger tillgång till fyra olika typer av rapporter. Varje rapport, tillsammans med dess tillgänglighet och funktioner, beskrivs i detalj nedan.
 
@@ -44,7 +44,7 @@ Du kan visa rapporten med ämneslistan för en karta genom att utföra följande
 
 1. Välj **Ämneslista** på rapportpanelen. Listan med ämnen i DITA-kartan visas.
 
-   ![](images/web-editor-topiclist-panel-new.png){width="800" align="left"}
+   ![](images/web-editor-topiclist-panel-new.png){align="left"}
 
 1. På panelen **Filter** kan du filtrera ämnen baserat på **referenstypen** \(direkt eller indirekt\), **dokumentstatus** \(om du t.ex. använder läget Redigera, Granskning eller Granskad visas de här avsnitten\) eller Ämnets **Författare** .
 
@@ -78,7 +78,7 @@ Du kan visa metadatarapporten för en karta genom att utföra följande steg:
 1. Välj **Metadata** på rapportpanelen. Listan över alla referenser till en karta visas tillsammans med dess metadata som taggar, dokumenttillstånd och anpassade metadata. Mer information om hur du lägger till en ny anpassad metadatakolumn finns i avsnittet [Lägg till anpassade metadatakolumner](#add-custom-metadata-columns).
 
 
-   ![](images/web-editor-metadata-panel-new.png){width="800" align="left"}
+   ![](images/web-editor-metadata-panel-new.png){align="left"}
 
 
 1. På panelen **Filter** kan du filtrera ämnen baserat på **dokumenttillståndet** \(om t.ex. avsnitten är i läget Redigera, Granskning eller Granskad visas de här\), **Referenser** \(direkt eller indirekt\), **Filtyp** \(Karta, Ämne, Dokument, Bild, Video och annat\) i referensen.
@@ -127,7 +127,7 @@ Så här uppdaterar du metadata:
    >
    > Du kan inte markera några utcheckade filer. En utcheckningsikon visas också nära titeln på en utcheckad fil. Du kan hålla muspekaren över ikonen för att visa namnet på användaren.
 
-   ![](images/all-selection.png){width="800" align="left"}
+   ![](images/all-selection.png){align="left"}
 
 
 1. Välj **Hantera** överst.
@@ -225,13 +225,13 @@ Du kan visa rapporten för brutna länkar genom att utföra följande steg:
    - När du sorterar efter **Bruten länk** visas sökvägarna för de brutna länkarna i den första kolumnen och namnen på alla referenser där de har använts visas sedan i en annan kolumn på separata rader. Om samma brutna länk används i flera filer visas de på en rad och visas som grupperade eller underrader. På följande skärmbild visas två brutna länkar i den första kolumnen och referensen som de används i. `m_ElectricalSpecs_900.ditamap` visas i den tredje kolumnen på två separata rader.
 
 
-   ![](images/broken-link-report-new.png){width="800" align="left"}
+   ![](images/broken-link-report-new.png){align="left"}
 
 
    - Om du sorterar efter **Används i kolumnen**, kommer du att visa den omformade vyn där namnen på referenserna där de brutna länkarna har använts listas i den första kolumnen medan de brutna länkarna listas i en annan kolumn på samma rad. På följande skärmbild visas referensen (i vilken den brutna länken används) `m_ElectricalSpecs_900.ditamap` i den första kolumnen och de brutna länkarna visas i den tredje kolumnen på samma rad.
 
 
-   ![](images/broken-link-filter-usedin-new.png){width="800" align="left"}
+   ![](images/broken-link-filter-usedin-new.png){align="left"}
 
 
 1. Du kan filtrera brutna länkar baserat på **filtypen** och **länktypen**. Listan med brutna länkar visas baserat på ditt val i listrutan. Du kan t.ex. välja att bara visa innehållsreferenserna i DITA-kartan, och en fil visar bara de brutna innehållsreferenserna som används i den.

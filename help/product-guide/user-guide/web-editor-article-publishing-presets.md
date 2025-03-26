@@ -4,7 +4,7 @@ description: Skapa förinställningar från webbredigeraren. Lär dig hur du red
 exl-id: cd38b039-ef91-45c9-a226-433e57b09873
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: 5011481c25b4888a3e72b0e2238b10d8e2fbc191
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 0%
@@ -41,21 +41,21 @@ Följ de här stegen för att skapa förinställningar för DITA-kartan:
    Förinställningen för kunskapsbasen skapas.
 
 
-   ![Nytt ](images/knowledge-base-preset-dialog-box.png){width="800" align="left"}
+   ![Nytt ](images/knowledge-base-preset-dialog-box.png){align="left"}
 
 När du har skapat förinställningen kan du generera utdata för specifika kunskapsbasartiklar. Om du vill göra det går du till fliken **Artiklar** och markerar de ämnen som du vill generera utdata för.
 1. Välj **Generera utdata** längst upp för att generera utdata.
 
-   ![](images/add-preset-articles-tab_cs.png){width="800" align="left"}
+   ![](images/add-preset-articles-tab_cs.png){align="left"}
 
 1. Markera de filer som du vill publicera och bekräfta genom att välja **Publicera** i **Bekräfta filer för publicering** .
 
-   ![Nytt ](images/knowledge-base-confirm-files-for-publishing.png){width="800" align="left"}
+   ![Nytt ](images/knowledge-base-confirm-files-for-publishing.png){align="left"}
 
 Du visar status för genereringsprocessen för utdata. Kolumnen **Ämnen** visar ämnen som utdata genereras för medan kolumnen **Status** visar publiceringsstatusen för varje ämne.
 
 
-![](images/add-preset-output-generated_cs.png){width="800" align="left"}
+![](images/add-preset-output-generated_cs.png){align="left"}
 
 Om du vill visa utdata stänger du dialogrutan Genererade utdata och väljer **Visa utdata** på förinställningssidan.
 

@@ -4,7 +4,7 @@ description: Lär dig hur inkrementell generering av utdata för AEM Sites funge
 exl-id: 019d9fbf-2f23-4669-8022-d693be75c1c3
 feature: Publishing
 role: User
-source-git-commit: b061bcbcefba1700665bed33f017a962e84a0433
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Utför följande steg för att generera inkrementella utdata för AEM Sites med 
 1. Välj den förinställning för AEM Sites som du vill generera inkrementella utdata för.
 1. Välj de ämnen du vill publicera på fliken **Ämnen**.
 
-   ![Ämneslista för objektwebbplatser](images/aem-presets-topic-list.png) {width="800" align="left"}
+   ![Ämneslista för objektwebbplatser](images/aem-presets-topic-list.png) {align="left"}
 
    >[!NOTE]
    >
@@ -64,7 +64,7 @@ Utför följande steg för att generera inkrementella utdata för AEM Sites med 
    >
    > Om du har lagt till nya ämnen i DITA-kartan kan du inte generera dessa nya ämnen härifrån. Du måste först publicera de nya ämnena med DITA-kartpubliceringsfunktionen.
 
-   ![](images/regenerate-topics.png){width="800" align="left"}
+   ![](images/regenerate-topics.png){align="left"}
 
 1. Välj **Återskapa**.
 

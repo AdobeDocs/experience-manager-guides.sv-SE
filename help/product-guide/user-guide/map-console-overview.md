@@ -3,23 +3,23 @@ title: Kartkonsol i Adobe Experience Manager Guides
 description: Lär dig mer om kartkonsolen och de olika funktioner som du kan använda för att publicera och hantera kartor i Adobe Experience Manager Guides.
 feature: Publishing
 role: User
-source-git-commit: 4c13d0dab23c19fe2340128aaa05803bb711a486
+exl-id: b273b1ae-fbb2-4b35-abce-0df78eeb2e11
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 0%
 
 ---
 
-
 # Översikt över kartkonsolen
 
 Adobe Experience Manager Guides erbjuder en dedikerad konsol, som kallas **kartkonsolen**, för att effektivisera alla karthanterings- och publiceringsuppgifter. Detta centraliserade gränssnitt förbättrar produktiviteten och exaktheten i kartrelaterade aktiviteter genom att ge dig möjlighet att generera utdata, översätta innehåll, få åtkomst till rapporter och mycket mer - allt på ett och samma ställe.
 
-Fliken ![Alternativ för filegenskaper](./images/map-console-screen.png){width="800" align="left"}
+Fliken ![Alternativ för filegenskaper](./images/map-console-screen.png){align="left"}
 
 Kartkonsolens gränssnitt är i första hand uppdelat i två avsnitt - **Navigeringsfältet** och **vänsterpanelen**.
 
-![Nytt](images/map-console-sections.png){width="800" align="left"}
+![Nytt](images/map-console-sections.png){align="left"}
 
 - (**A**) **Navigeringsfält**: Verktyg för navigeringsfältets ytor för att växla navigering, justera sidvyn och visa namnet på den markerade kartfilen.
 

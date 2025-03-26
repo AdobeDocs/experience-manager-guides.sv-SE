@@ -4,7 +4,7 @@ description: Lär dig hur du granskar ämnen och använder funktionerna som gran
 exl-id: fc87fc37-f1cd-4a19-96c2-3a08a8222002
 feature: Reviewing
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '2423'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Utför följande steg för att granska ett ämne:
 
    Följande skärm visas när en DITA-karta används för att initiera granskningsarbetsflödet:
 
-   ![](images/multiple-topics-review.png){width="800" align="left"}
+   ![](images/multiple-topics-review.png){align="left"}
 
    Följande alternativ är tillgängliga på den här skärmen:
 
@@ -63,13 +63,13 @@ Utför följande steg för att granska ett ämne:
 
    Alla ämnen på kartan visas som ett sammansatt dokument. De ämnen som granskaren får granska visas normalt. De ämnen som granskningen inte får granska visas inte.
 
-   ![](images/review-read-only.png){width="800" align="left"}
+   ![](images/review-read-only.png){align="left"}
 
    På skärmbilden ovan delas ämnet Allmän beskrivning för granskning med den aktuella granskaren, som visas normalt. Nästa avsnitt, Historik över flyginnehåll, delas dock inte för granskning och visas i skrivskyddat läge. Det ämne som för närvarande är i fokus markeras också i innehållsförteckningen.
 
    Följande skärm visas när ett eller flera ämnen markeras och delas för granskning:
 
-   ![](images/review-composite-view.png){width="800" align="left"}
+   ![](images/review-composite-view.png){align="left"}
 
    >[!NOTE]
    >
@@ -92,7 +92,7 @@ Kommentarsrutan har stöd för flerradiga poster och gör att användarna kan ex
 
 När du visar ett enskilt ämne får du ytterligare ett alternativ för att växla tillbaka till dokumentvyn. På skärmbilden nedan öppnas ett visst ämne från en kartfil för granskning. Det markerade alternativet - **Visa dokumentvy** - gör att användaren kan växla tillbaka till dokumentvyn för mappningsfilen.
 
-![](images/switch-document-view.png){width="800" align="left"}
+![](images/switch-document-view.png){align="left"}
 
 **Arbeta med olika typer av kommentarverktyg** - Du kan lägga till textbundna kommentarer genom att markera text, stryka över text, infoga text eller lägga till en anteckning. De olika kommentarsverktygen som finns i verktygsfältet Kommentarer beskrivs nedan:
 
@@ -159,7 +159,7 @@ På följande skärmbild visas innehållet i läget *Förhandsgranska*:
 
 När du infogar någon av kommentarerna visas kommentarsfönstret. När du har angett ytterligare kommentarer eller information i popup-fönstret skickar du det genom att klicka på Retur. När kommentaren har lagts till kan du lägga till en bilaga till kommentaren.
 
-![](images/comment-pop-up-panel.png){width="800" align="left"}
+![](images/comment-pop-up-panel.png){align="left"}
 
 På skärmbilden ovan innehåller dokumentet popup-fönstret för markeringskommentaren och kommentaren läggs även till på panelen Kommentarer. Ikonen ![](images/file-attach-review.svg) för bifogad fil är tillgänglig tillsammans med kommentaren på båda platserna.
 
@@ -227,7 +227,7 @@ I förhandsgranskningsläget visas det icke-villkorade innehållet och det villk
 
 - Om du väljer ikonen för inaktuell kommentar \(![](images/outdated-comment-icon.svg)\) visas skillnaderna mellan den senaste och den kommenterade versionen av dokumentet. Versionsnumren \(för de versioner som jämförs\) visas högst upp i dokumenten.
 
-  ![](images/comments-page-review-mode.png){width="800" align="left"}
+  ![](images/comments-page-review-mode.png){align="left"}
 
   >[!NOTE]
   >

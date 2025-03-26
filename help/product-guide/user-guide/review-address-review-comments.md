@@ -4,7 +4,7 @@ description: Läs om hur du hanterar granskningskommentarer som författare i AE
 exl-id: 4c969788-f700-4fd6-8afa-8e5b411b59f3
 feature: Reviewing
 role: User
-source-git-commit: ae36a7fdff6ae147619340aa3a3d2bb6c7774fe0
+source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
 workflow-type: tm+mt
 source-wordcount: '1024'
 ht-degree: 0%
@@ -24,7 +24,7 @@ En författare kan adressera kommentarer i ett dokument från Web Editor. Visuel
 >
 > Se till att du inte öppnar ämnet i granskningen på flera flikar när du arbetar med granskningskommentarer \(för ett aktivt granskningsdokument\) och att du inte växlar mellan visningslägena för författare och Source.
 
-![](images/comments-page-web-editor_cs-new.png){width="800" align="left"}
+![](images/comments-page-web-editor_cs-new.png){align="left"}
 
 I webbredigeringsläget innehåller den högra panelen ikonerna Granska och Spåra ändringar. Granskningspanelen visar alla kommentarer som granskarna har gjort i dokumentet. På panelen **Spåra ändringar** visas status för alla infogade och borttagna kommentarer i dokumentet.
 
@@ -54,11 +54,11 @@ I webbredigeringsläget innehåller den högra panelen ikonerna Granska och Spå
 
   Om du vill infoga den föreslagna ändringen \(infoga eller ta bort\) en i taget högerklickar du bara på kommentaren i innehållet och väljer Acceptera ändring eller Ignorera ändring. Beroende på vad du väljer godkänns eller avvisas kommentaren. Om en kommentar godtas läggs innehållet till i innehållet och om den avvisas tas det bort från innehållet. Statusen för kommentaren ändras också på granskningspanelen.
 
-  ![](images/import-comment-accept-web-editor_cs-new.png){width="800" align="left"}
+  ![](images/import-comment-accept-web-editor_cs-new.png){align="left"}
 
   Du kan också använda panelen Spåra ändringar för att acceptera eller ignorera kommentarer. Om du markerar en kommentar markeras kommentaren i dokumentet.
 
-  ![](images/changes-tab_cs-new.png){width="800" align="left"}
+  ![](images/changes-tab_cs-new.png){align="left"}
 
   >[!IMPORTANT]
   >
