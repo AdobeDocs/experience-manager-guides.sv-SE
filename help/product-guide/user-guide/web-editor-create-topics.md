@@ -4,7 +4,7 @@ description: Lär dig hur du skapar typer av DITA-ämnen med anpassade mallar i 
 exl-id: 84e9cfdf-e188-487f-9181-68708029c101
 feature: Authoring
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: c6709ffb8e415c88931e732456e2f2a5e6b63729
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Utför följande steg för att skapa ett ämne från Redigeraren:
 
 1. På panelen Databas markerar du ikonen **Ny fil** och väljer sedan **Ämne** i listrutan.
 
-   ![](create-topic-option.png){width="500" align="left"}
+   ![](images/create-topic-option.png){width="500" align="left"}
 
    Du kan även komma åt det här alternativet från [Experience Manager Guides hemsida](./intro-home-page.md) och alternativmenyn för en mapp i databasvyn.
 
