@@ -4,9 +4,9 @@ description: Utforska andra funktioner i redigeraren i Adobe Experience Manager 
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 9e84617dcfc8bf596bdf0863883284b660cde2f1
 workflow-type: tm+mt
-source-wordcount: '2406'
+source-wordcount: '2399'
 ht-degree: 0%
 
 ---
@@ -213,9 +213,9 @@ Om du tar bort ett element kan du ta bort elementtaggen från den markerade text
 
 I XML-format innehåller blanksteg, tabbar, radbrytningar och tomma rader. Experience Manager Guides konverterar flera efterföljande blanksteg till ett blanksteg. Detta gör att du kan bevara WYSIWYG-vyn i Redigeraren.
 
-    >[!OBS!]
-    >
-    >I vissa element där blanksteg måste bevaras enligt DITA-reglerna behålls de flera efterföljande blankstegen. T.ex. `&lt;pre>` och `&lt;codeblock>`-element.
+>[!NOTE]
+>
+> I vissa element där blanktecken måste bevaras enligt DITA-reglerna behålls de efterföljande blanktecknen. Exempel: `<pre>` och `<codeblock>` element.
 
 
 **Bevarar radbrytningar och indrag**
