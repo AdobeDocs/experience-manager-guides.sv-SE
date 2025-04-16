@@ -3,7 +3,8 @@ title: Verktygsfält i redigeraren
 description: Lär dig mer om verktygsfältet i Redigeraren. Läs mer om redigeringsgränssnittet och funktionerna i Adobe Experience Manager Guides.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 74f3e6933b711f855e5a07bb7909678da4254207
+exl-id: 059ba78a-dbda-4276-bff2-847787ea41b1
+source-git-commit: ffc9a9e15f11e7059822b7cf6d4707b83d15a4f4
 workflow-type: tm+mt
 source-wordcount: '5909'
 ht-degree: 0%
@@ -38,7 +39,7 @@ När du redigerar ett ämne i Redigeraren kan du få åtkomst till olika rediger
 
 Funktionen **Sök och ersätt** är tillgänglig i redigeringsläge och Source-visningsläge. När alternativet är aktiverat visas textfältet Sök och ersätt längst ned i ämnesredigeringsområdet. Du kan använda kortkommandona **CTRL**+**F** för att aktivera fältet Sök och ersätt.
 
-![](images/find-replace-bar.png){width="800" align="left"}
+![](images/find-replace-bar.png){align="left"}
 
 Med inställningsikonen \(![](images/settings-find-replace-icon.svg)\) kan du växla sökalternativen **Ignorera skiftläge** och **Endast hela ord**. Om du vill utföra en skiftlägesokänslig sökning aktiverar du \(eller väljer\) alternativet **Ignorera skiftläge**. Annars, om du vill utföra den skiftlägeskänsliga sökningen, stänger du av \(eller avmarkerar\) alternativet **Ignorera skiftläge**. Du kan också söka efter ett helt ord.
 
@@ -107,7 +108,7 @@ Med funktionen **Versionshistorik** i redigeraren kan du kontrollera vilka versi
 
    När du återgår till en tidigare version visas en visuell indikation på att den version du arbetar med för närvarande inte är den senaste versionen.
 
-   ![](images/older-version-visual-cue.png){width="800" align="left"}
+   ![](images/older-version-visual-cue.png){align="left"}
 
 </details>
 
@@ -295,7 +296,7 @@ Du kan också skriva ett tecken eller en sträng i sökrutan och söka efter ele
 
 Om du arbetar i ett blockelement som `note` använder du ikonen Infoga element för att infoga ett nytt element efter `note`-elementet. I följande skärmbild har ett anteckningselement infogats i elementet p \(stycke\):
 
-![Infoga element i ett blockelement](images/note-in-para-insert-element_cs.png){width="800" align="left"}
+![Infoga element i ett blockelement](images/note-in-para-insert-element_cs.png){align="left"}
 
 Om du trycker på Retur i anteckningselementet skapas ett nytt stycke i själva anteckningselementet. Om du vill infoga ett nytt element utanför anteckningen, markerar du p-elementet \(markerat i skärmbild\) i elementbeskrivningen och väljer sedan elementikonen eller trycker på ***Alt***+***Retur*** för att öppna dialogrutan Infoga element. Markera sedan det önskade elementet och tryck på Retur för att infoga det markerade elementet efter anteckningselementet.
 
@@ -366,7 +367,7 @@ Du kan också definiera attribut för flera celler, hela rader eller kolumner i 
 1. Välj den textjustering du vill använda på de markerade tabellcellerna i listrutan Värde.
 1. Välj **Lägg till.**
 
-![](images/align-table-cell_cs.png){width="800" align="left"}
+![](images/align-table-cell_cs.png){align="left"}
 
 </details>
 
@@ -379,11 +380,11 @@ Infogar en bild vid den aktuella eller nästa giltiga plats. Välj ikonen Bild f
 > Du kan också lägga till en bild genom att dra och släppa den från det lokala systemet i artikeln. I det här fallet läggs bildfilen till med arbetsflödet **Överför Assets**.  Mer information finns i arbetsflödet **Överför Assets** i avsnittet [Vänster panel](#left-panel).
 
 
-![](images/insert-image.png){width="650" align="left"}
+![](images/insert-image.png){width="300" align="left"}
 
 Du kan lägga till en bild-/figurtitel och alternativ text för bilden i dialogrutan Infoga bild.
 
->
+>[!NOTE]
 >
 > När du infogar en bild och anger en alternativ text för samma bild, läggs den till i elementet `<alt>` i enlighet med de senaste DITA-standarderna. Användningen av attributet `@alt` för alternativ text är föråldrad, men stöds fortfarande i tidigare DITA-versioner.
 
@@ -391,7 +392,7 @@ Med alternativet **Välj fil** kan du söka efter den önskade bildfilen efter f
 
 När du har infogat en bild kan du ändra höjd, bredd, placering och attribut på panelen Innehållsegenskaper. Markera bildfilen och gör sedan ändringarna på panelen Innehållsegenskaper på den högra panelen.
 
-![](images/image-properties.png){width="800" align="left"}
+![](images/image-properties.png){align="left"}
 
 I fältet Source visas UUID för den infogade bildfilen. Du kan hitta hela sökvägen till den infogade bildfilen genom att hålla muspekaren över fältet Source. Sökvägen visas i verktygstipset.
 
@@ -468,7 +469,7 @@ Du kan också söka med UUID för filen som du vill referera till. För länkarn
 
 Om administratören har aktiverat alternativet UUID:n i *XMLEditorConfig* så visar du UUID:t för det refererade innehållet i egenskapen **Link** .
 
-![](images/ref-link-uuid_cs.png){width="800" align="left"}
+![](images/ref-link-uuid_cs.png){align="left"}
 
 >[!NOTE]
 >
@@ -523,7 +524,7 @@ Infogar specialtecken i ditt ämne. Välj symbolen för att öppna dialogrutan I
 >
 > Experience Manager Guides erbjuder rörliga och storleksändringsbara dialogrutor. Storleken på dialogrutor som har två tvärsnitt längst ned till höger kan ändras. Korslinjerna i dialogrutan Specialtecken visas nedan.
 
-![](images/insert-special-char.png){width="550" align="left"}
+![](images/insert-special-char.png){width="350" align="left"}
 
 I dialogrutan Infoga specialtecken kan du söka efter ett specialtecken med hjälp av dess namn. Alla specialtecken lagras i olika kategorier. Använd listrutan Välj kategori och välj en kategori. De specialtecken som finns i den valda kategorin visas. Du kan navigera i listan med specialtecken med piltangenterna eller välja det tecken som du vill infoga. Namnet och hexadecimala koden för det valda specialtecknet visas under listan. Välj **Infoga** om du vill infoga det markerade tecknet i dokumentet.
 
@@ -543,7 +544,7 @@ Du kan ändra nyckelordets attribut eller lägga till ett nytt attribut till nyc
 
 **Kodavsnitt** - ![](images/insert-snippet-icon.svg)
 
-Infoga ett fragment på aktuell eller nästa giltiga plats. För att den här funktionen ska fungera måste du ha definierat fragment i systemet. Mer information om hur du lägger till ett fragment finns i **funktionsbeskrivningen för fragment** i avsnittet [Vänster panel](web-editor-features.md#left-panel).
+Infoga ett fragment på aktuell eller nästa giltiga plats. För att den här funktionen ska fungera måste du ha definierat fragment i systemet. Mer information om hur du lägger till ett fragment finns i **funktionsbeskrivningen för fragment** i avsnittet [Vänster panel](./web-editor-left-panel.md).
 
 När du väljer alternativet Fragment visas katalogen Infoga fragment. Katalogen är sammanhangsberoende, vilket innebär att kodavsnitten endast visas om de tillåts på den aktuella platsen.
 
@@ -571,12 +572,12 @@ Funktionen **Versionsinformation och Spara som ny version** kombinerar versionsh
 
   Versionsnumret ändras för varje ny version som skapas för ämne- eller mappfilen. Om du arbetar med ett nyligen skapat dokument visas versionsinformationen som **ingen**.
 
-  ![](images/version-information.png){width="800" align="left"}
+  ![](images/version-information.png){align="left"}
 
 
 - **Spara som ny version** är en knapp som sparar de ändringar du har gjort i ditt ämne och skapar även en ny version av ditt ämne.
 
-  ![](images/save-as-new-version.png){width="800" align="left"}
+  ![](images/save-as-new-version.png){align="left"}
 
 
 När du väljer att spara ett ämne eller en karta med **Spara som ny version** visas följande dialogruta:
@@ -597,7 +598,7 @@ Om ditt ämne är under granskning får granskarna ett meddelande om att det fin
 
 När du håller pekaren över ett ämnes titel visas filens titel, filsökväg och versionsnummer.
 
-![](images/mouse-hover-on-title_cs.png){width="800" align="left"}
+![](images/mouse-hover-on-title_cs.png){align="left"}
 
 >[!NOTE]
 >
@@ -607,7 +608,7 @@ När du håller pekaren över ett ämnes titel visas filens titel, filsökväg o
 
 Låser eller låser upp den aktuella filen. Genom att låsa en fil får du exklusiv skrivåtkomst till filen. Detta hindrar andra användare från att redigera filen. Lås upp filen om du vill att andra ska ha redigeringsåtkomst. När filen är olåst sparas ändringarna i den aktuella versionen av filen.
 
-![](images/web-editor-lock-button.png){width="800" align="left"}
+![](images/web-editor-lock-button.png){align="left"}
 
 Om du är i Kartvyn och expanderar den överordnade kartan kan du låsa alla filer på kartan med ett enda klick. Expandera bara den överordnade mappfilen och markera den överordnade filen, vilket gör att du kan markera alla filer på kartan. Sedan kan du välja **Lås** ![](images/LockClosed_icon.svg) för att låsa alla filer på kartan.
 

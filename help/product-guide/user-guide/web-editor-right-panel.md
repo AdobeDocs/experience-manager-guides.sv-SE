@@ -3,7 +3,8 @@ title: Högerpanelen i redigeraren
 description: Lär känna den högra panelen i redigeraren. Läs mer om redigeringsgränssnittet och funktionerna i Adobe Experience Manager Guides.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 6e7d600da4373cb046e6adad3c5afe3164c9d0fa
+exl-id: 6a0f4ed2-6eca-4b3c-bd3a-3f72f6919b36
+source-git-commit: ffc9a9e15f11e7059822b7cf6d4707b83d15a4f4
 workflow-type: tm+mt
 source-wordcount: '965'
 ht-degree: 0%
@@ -130,7 +131,7 @@ Med funktionen Spårade ändringar i den högra panelen kan du visa information 
 
 >[!NOTE]
 >
-> Funktionen för spårade ändringar visar alla uppdateringar som har spårats med funktionen Aktivera/inaktivera spåra ändringar i [flikfältet](#tab-bar).
+> Funktionen för spårade ändringar visar alla uppdateringar som har spårats med funktionen Aktivera/inaktivera spåra ändringar i [flikfältet](./web-editor-tab-bar.md).
 
 ## Schematron
 

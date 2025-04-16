@@ -3,9 +3,10 @@ title: Vänster panel i redigeraren
 description: Lär känna den vänstra panelen i Editor. Läs mer om redigeringsgränssnittet och funktionerna i Adobe Experience Manager Guides.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 74f3e6933b711f855e5a07bb7909678da4254207
+exl-id: 92496d39-b423-4635-8b05-c67fd6af47de
+source-git-commit: ffc9a9e15f11e7059822b7cf6d4707b83d15a4f4
 workflow-type: tm+mt
-source-wordcount: '9325'
+source-wordcount: '9323'
 ht-degree: 0%
 
 ---
@@ -47,7 +48,7 @@ Mer information finns i [Integrering med Workfront](./workfront-integration.md).
 
 >[!NOTE]
 >
-> De funktioner som är tillgängliga i den vänstra panelen hanteras av administratören, vilket gör att du kan aktivera eller inaktivera de enskilda funktionerna i den vänstra panelen. Endast aktiverade funktioner visas i den vänstra panelen. Mer information finns i avsnittet **Paneler** i [flikfältet](#tab-bar).
+> De funktioner som är tillgängliga i den vänstra panelen hanteras av administratören, vilket gör att du kan aktivera eller inaktivera de enskilda funktionerna i den vänstra panelen. Endast aktiverade funktioner visas i den vänstra panelen. Mer information finns i avsnittet **Paneler** i [flikfältet](./web-editor-tab-bar.md).
 
 Den vänstra panelens funktioner beskrivs nedan:
 
@@ -89,7 +90,7 @@ Om du vill lägga till en fil i samlingar använder du någon av följande metod
 
 - Högerklicka på en fils flik i redigeraren för att öppna snabbmenyn. Välj **Lägg till i** > **Samlingar** om du vill lägga till filen i favoritlistan.
 
-  ![](images/favorite-add-from-file-context-menu_cs.png){width="800" align="left"}
+  ![](images/favorite-add-from-file-context-menu_cs.png){align="left"}
 
 
 >[!NOTE]
@@ -131,7 +132,7 @@ Du kan också välja och spela upp en ljud- eller videofil i Editor. Du kan änd
 videons vy. På snabbmenyn har du också möjlighet att hämta, ändra uppspelningen
 eller visa bild-i-bild.
 
-Markera en karta och tryck på Retur eller dubbelklicka för att öppna den i **kartvyn**. Mer information finns i funktionsbeskrivningen för **Kartvyn** i avsnittet [Vänster panel](#left-panel). Markera ett ämne och tryck på Enter eller dubbelklicka för att öppna det i [området för innehållsredigering](#content-editing-area). Du kan navigera och öppna en fil direkt i redigeraren vilket sparar tid och ökar produktiviteten.
+Markera en karta och tryck på Retur eller dubbelklicka för att öppna den i **kartvyn**. Mer information finns i funktionsbeskrivningen för **Kartvyn** i den vänstra panelen. Markera ett ämne och tryck på Enter eller dubbelklicka för att öppna det i [området för innehållsredigering](./web-editor-content-editing-area.md). Du kan navigera och öppna en fil direkt i redigeraren vilket sparar tid och ökar produktiviteten.
 
 **Filtersökning i databas**
 
@@ -164,7 +165,7 @@ Välj ikonen **Avancerad filtrering** ![Avancerat filter](images/advanced-filter
 
 Du kan visa följande alternativ på flikarna **Allmänt** och **Avancerat**.
 
-![avancerad filterdialogruta](images/repository-filter-search-advanced.png) {width="650" align="left"}
+![dialogruta för avancerat filter](images/repository-filter-search-advanced.png) {width="650" align="left"}
 
 
 **Allmänt**
@@ -220,7 +221,6 @@ Steg för att skapa ett nytt ämne:
    - En mall som ämnet baseras på. Om du till exempel har en färdig installation kan du välja bland mallarna Tom, Koncept, DITAVAL, Referens, Uppgift, Ämne, Markering, Ordlista och Felsökning. Om mappen har en konfigurerad mappprofil visas endast de ämnesmallar som har konfigurerats i mappprofilen.
 
    - Sökväg där du vill spara ämnesfilen. Som standard visas sökvägen till den markerade mappen i databasen i fältet Sökväg.
-
 4. Välj **Skapa**. Ämnet skapas på den angivna sökvägen. Dessutom öppnas ämnet i Redigeraren för redigering.
 
 </details>
@@ -269,7 +269,7 @@ Steg för att skapa en ny mapp:
 
   Om administratören har aktiverat alternativet UUID:n i *XMLEditorConfig* så visar du UUID:t för den överförda bilden i egenskapen **Source** .
 
-  ![](images/uuid-in-source-upload-image_cs.png){width="800" align="left"}
+  ![](images/uuid-in-source-upload-image_cs.png){align="left"}
 
 - **Sök efter filer i mappen**: Flyttar fokus till databassökning där du kan ange söktermen. Sökningen utförs under den valda mappen i databasen. Du kan också använda ett filter för att returnera DITA-filer, bildfiler eller båda.
 
@@ -321,7 +321,7 @@ De olika alternativen på Alternativ-menyn förklaras nedan:
 
 - **Förhandsgranska**: Få en snabb förhandsvisning av filen (.dita, .xml, ljud, video eller bild) utan att öppna den. Du kan ändra storlek på förhandsgranskningsfönstret. Om innehållet innehåller `<xref>` eller `<conref>` kan du markera det och öppna det på en ny flik. Filens titel visas i fönstret. Om det inte finns någon titel visas filnamnet. Om du vill stänga **förhandsgranskningspanelen** kan du antingen välja stängningsikonen eller välja var som helst utanför rutan.
 
-  ![](images/quick-preview_cs.png){width="800" align="left"}
+  ![](images/quick-preview_cs.png){align="left"}
 
 - **Byt namn**: Använd det här alternativet om du vill byta namn på den markerade filen. Ange namnet på den nya filen i dialogrutan **Byt namn på resurs**.
    - Du kan byta namn på en fil av valfri typ.
@@ -441,7 +441,7 @@ Följande alternativ är tillgängliga för en kartfil i Kartvyn:
 
 Du kan utföra följande åtgärder på Alternativ-menyn i kartfilen:
 
-![](images/options-menu-map-view_cs.png){width="800" align="left"}
+![](images/options-menu-map-view_cs.png){align="left"}
 
 - **Redigera**: Öppna kartfilen för redigering i kartredigeraren.
 
@@ -497,7 +497,7 @@ Du kan utföra följande åtgärder på Alternativ-menyn i kartfilen:
 
 I följande skärmbild visas Alternativ-menyn för en fil i mappningsvyn:
 
-![](images/options-menu-file_cs.PNG){width="800" align="left"}
+![](images/options-menu-file_cs.PNG){align="left"}
 
 Du kan utföra följande åtgärder på Alternativ-menyn:
 
@@ -607,11 +607,11 @@ I dispositionsvyn finns följande funktioner:
 
 - Dra och släpp element. Du kan enkelt ersätta ett element genom att släppa ett annat element på det. Om du drar och släpper ett element över ett annat element och visar en streckad rektangelruta runt elementet, indikerar det att elementet kommer att ersättas. Den ersätter elementet som elementet släpps på.
 
-  ![](images/replace-element-outline-view_cs.png){width="800" align="left"}
+  ![](images/replace-element-outline-view_cs.png){align="left"}
 
   Om du drar och släpper ett element visar en streckad rektangel att elementet kan placeras på den aktuella platsen. Om dra och släpp-funktionen är ogiltig visas ett felmeddelande som anger att åtgärden inte är tillåten.
 
-  ![](images/drop-element-outline-view_cs.png){width="800" align="left"}
+  ![](images/drop-element-outline-view_cs.png){align="left"}
 
 - Med menyn **Alternativ** i vyn *Disposition* kan du utföra allmänna åtgärder som Klipp ut, Kopiera, Ta bort, Generera ID, Infoga element före eller efter det aktuella elementet, Byta namn på eller ersätta ett element, Bryt ned ett element och skapa ett utdrag ur det markerade elementet.
 
@@ -634,7 +634,7 @@ Om ett blockelement har en egen text visas det tillsammans med det blockelemente
 Om administratören har skapat en profil för attribut får du dessa attribut tillsammans med deras konfigurerade värden. Du kan också tilldela visningsattribut som konfigurerats av administratören på fliken **Visningsattribut** i **Inställningar** . De attribut som är definierade för ett element visas i layoutvyn och dispositionsvyn.
 
 
-Mer information finns i *Visa attribut* i funktionsbeskrivningen för *Inställningar* i avsnittet [Vänster panel](#left-panel).
+Mer information finns i *Visa attribut* i funktionsbeskrivningen för *Inställningar* i den vänstra panelen.
 
 **Sökfunktion**
 
@@ -698,7 +698,7 @@ På villkorspanelen visas villkorsattributen som definierats av administratören
 
 Du kan också använda flera villkor för ett element genom att dra och släppa flera villkor för ett element. När du använder flera villkor för ett element visas de använda villkoren separerade med kommatecken på egenskapspanelen.
 
-![](images/multiple-conditions-applied_cs.png){width="800" align="left"}
+![](images/multiple-conditions-applied_cs.png){align="left"}
 
 I kodvyn avgränsas emellertid villkoren med en blankstegsavgränsare. När du lägger till eller redigerar ett villkor i kodvyn måste du se till att flera villkor avgränsas med ett mellanslag.
 
@@ -706,7 +706,7 @@ I kodvyn avgränsas emellertid villkoren med en blankstegsavgränsare. När du l
 >
 > Följande skärmbild är av en användare med administratörsbehörighet. Som användare med administratörsbehörighet kan du lägga till, redigera och ta bort villkor. Annars kan du som vanlig författare bara välja att använda villkor.
 
-![](images/conditional-content-through-panel_cs.png){width="800" align="left"}
+![](images/conditional-content-through-panel_cs.png){align="left"}
 
 Om du vill lägga till eller definiera ett villkor väljer du +-ikonen bredvid villkorspanelen för att öppna dialogrutan Definiera villkor:
 
@@ -929,7 +929,7 @@ Du kan också ändra värdena från attributets listruta i Source-vyn. I Source-
 
 Du kan också visa och använda ämnesschemat från villkorspanelen.
 
-Om du vill visa ämnesschemat från villkorspanelen måste systemadministratören markera alternativet **Visa ämnesschema på villkorspanelen** på fliken Allmänt i Inställningar. Mer information finns i avsnittet **Inställningar** i [flikfältet](#tab-bar).
+Om du vill visa ämnesschemat från villkorspanelen måste systemadministratören markera alternativet **Visa ämnesschema på villkorspanelen** på fliken Allmänt i Inställningar. Mer information finns i avsnittet **Inställningar** i [flikfältet](./web-editor-tab-bar.md).
 
 På villkorspanelen visas den platta lodräta strukturen för ämnesdefinitionerna i ämnesschemat.
 
@@ -943,7 +943,7 @@ Kodavsnitt är små innehållsfragment som kan återanvändas i olika ämnen i d
 >
 > Följande skärmbild är av en användare med administratörsbehörighet. Som användare med administratörsbehörighet kan du lägga till, redigera och ta bort fragment. I annat fall får du som vanlig författare bara alternativ för att förhandsgranska och infoga ett fragment.
 
-![](images/snippets-panel_cs.png){width="800" align="left"}
+![](images/snippets-panel_cs.png){align="left"}
 
 Om du vill lägga till ett fragment använder du någon av följande metoder:
 
@@ -1008,7 +1008,7 @@ Med Experience Manager Guides kan du skapa och hantera variabler för PDF-public
 
 Ikonen Sök och ersätt finns längst ned på den vänstra panelen. På panelen Sök och ersätt kan du söka efter och ersätta text mellan filer på en karta eller i en mapp i databasen. Du kan söka och ersätta i alla avsnitt av en karta samt i ämnen som finns i undermappningarna på kartan.
 
-![](images/map-find-replace.png){width="800" align="left"}
+![](images/map-find-replace.png){align="left"}
 
 Som standard kan du visa filerna efter namn. När du för muspekaren över en fil kan du visa filens namn och sökväg som ett verktygstips.
 
@@ -1111,7 +1111,7 @@ Så här visar du granskningskommentarerna i de aktiva granskningsuppgifterna so
 1. Du kan också ange söktermen eller texten som du vill söka efter i avsnittets rubrik eller filsökväg. De ämnen som innehåller termen i titeln eller filsökvägen visas.
 1. Dubbelklicka på ett ämne för att öppna det i författarvyn. Du kan visa kommentarerna på panelen **Kommentarer**.
 
-   ![](images/active-review-task-comments.png){width="800" align="left"}
+   ![](images/active-review-task-comments.png){align="left"}
 
    >[!NOTE]
    > 

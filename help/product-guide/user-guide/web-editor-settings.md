@@ -1,18 +1,19 @@
 ---
-title: Redigerarvyer för ämnen
-description: Visa ämnen i redigeringsläge, källläge och förhandsgranskningsläge. Lär dig hur du visar innehåll baserat på villkorsstyrda filter, visar ändringsmarkeringar och exporterar ett ämne som PDF i AEM Guides.
-Sfeature: Authoring, Features of Web Editor
+title: Redigeringsinställningar i Experience Manager Guides
+description: Läs mer om de olika inställningarna i redigeringsgränssnittet i Experience Manager Guides.
+feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 0fb079d08c31688046acf0e5a1e2ce7997d24cd6
+exl-id: fad2874f-dab5-4538-8502-f7112c51d941
+source-git-commit: ffc9a9e15f11e7059822b7cf6d4707b83d15a4f4
 workflow-type: tm+mt
-source-wordcount: '1990'
+source-wordcount: '1975'
 ht-degree: 0%
 
 ---
 
 # Redigeringsinställningar
 
-Alternativet **Inställningar** som finns i [flikfältet] i redigeraren är bara tillgängligt för administratörer och mappprofiladministratörer och tillåter konfigurering av följande inställningar:
+Alternativet **Inställningar** som finns i [flikfältet](./web-editor-tab-bar.md) i redigeraren är bara tillgängligt för administratörer och mappprofiladministratörer och tillåter konfigurering av följande inställningar:
 
 - [Allmänt](#general)
 - [Panel](#panels)
