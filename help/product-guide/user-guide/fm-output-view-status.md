@@ -4,22 +4,22 @@ description: Visa utdatagenereringskön för FrameMaker-dokument. Lär dig hur d
 exl-id: c358f747-f0a5-4d9e-a96f-20f30663101f
 feature: Publishing FrameMaker Documents
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: b78a34430476c15cadacb23d65bd978b3c25bd23
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
 
 # Visa status för utdatagenereringsaktiviteten {#viewing_output_history}
 
-När du har initierat genereringsuppgiften för ett FrameMaker-dokument skickar AEM Guides den här uppgiften till kön för utdatagenerering. Den här kön uppdateras i realtid och visar statusen för varje utdatagenereringsuppgift i kön.
+När du har initierat genereringsuppgiften för ett FrameMaker-dokument skickar Adobe Experience Manager Guides den här uppgiften till kön för utdatagenerering. Den här kön uppdateras i realtid och visar statusen för varje utdatagenereringsuppgift i kön.
 
 Utför följande steg för att visa kön för generering av utdata:
 
-1. Navigera till och klicka på det FrameMaker-dokument som du vill kontrollera status för utdatagenerering för i Assets-användargränssnittet.
+1. I Assets-användargränssnittet navigerar du till och väljer det FrameMaker-dokument som du vill kontrollera utdatagenereringsstatus för.
 
-1. Klicka på Utdata.
+1. Välj Utdata.
 
    ![](images/output-queued-fm.png){align="left"}
 
@@ -33,7 +33,7 @@ Utför följande steg för att visa kön för generering av utdata:
 
      Visar en lista över utdataaktiviteter som har slutförts. Informationen som visas här liknar den som visas i avsnittet Utdata i kö, med den enda skillnaden mellan genereringstiden för utdata.
 
-     I den här listan kan du ha uppgifter som har utförts eller uppgifter som misslyckats. För de uppgifter som har slutförts skapas en loggfil, \(logs.txt\), som du kommer åt genom att klicka på länken i kolumnen Genererad den.
+     I den här listan kan du ha uppgifter som har utförts eller uppgifter som misslyckats. För de uppgifter som har slutförts skapas en loggfil, \(logs.txt\), som du kommer åt genom att välja länken i kolumnen Genererad den.
 
 
 **Överordnat ämne:**[ Generera utdata för FrameMaker-dokument](fm-output-generatation.md)

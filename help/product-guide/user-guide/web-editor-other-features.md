@@ -4,9 +4,9 @@ description: Utforska andra funktioner i redigeraren i Adobe Experience Manager 
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: 9e84617dcfc8bf596bdf0863883284b660cde2f1
+source-git-commit: c8ea6eae180ce7045a0364713604711aae2bb6bd
 workflow-type: tm+mt
-source-wordcount: '2399'
+source-wordcount: '2556'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Det finns några andra användbara funktioner i Editor som du kan använda för att:
 
-**Snabbmenyfunktioner på en fils flik**
+## Snabbmenyfunktioner på en fils flik
 
 När du öppnar en fil i Redigeraren kan du utföra olika åtgärder på snabbmenyn. Du kan visa olika alternativ beroende på om du öppnar en mediefil, en DITA-fil eller flera filer.
 
@@ -142,19 +142,21 @@ Redigeraren innehåller en smart dialogruta för filbläddring. Redigeraren komm
 >
 > Om det gäller en bild-, ljud- eller videofil används filens plats som standard i dialogrutan för filbläddring, inte den plats som användes senast.
 
-**Stöd för artikelbaserad publicering**
+## Stöd för artikelbaserad publicering
 
 I redigeraren kan du generera utdata för ett eller flera ämnen, eller för hela DITA-kartan. Du måste skapa förinställningar för DITA-kartan och sedan enkelt generera utdata för ett eller flera ämnen. Om du har uppdaterat några avsnitt på kartan kan du även generera utdata endast för dessa ämnen från redigeraren. Mer information finns i [Artikelbaserad publicering](web-editor-article-publishing.md#id218CK0U019I).
 
-**Stöd för markeringsdokument**
+## Stöd för markeringsdokument
 
 I redigeraren kan du använda Markdown-dokument \(.md\) tillsammans med DITA-dokument. Du kan enkelt skapa och förhandsgranska ett markeringsdokument i redigeraren och även lägga till det i kartfilen via DITA-kartredigeraren. Mer information finns i [Författarmarkeringsdokument från redigeraren](web-editor-markdown-topic.md#).
 
-**Stöd för DITA-ordlisteämne**
+## Stöd för DITA ordlistetema
 
 Redigeraren stöder DITA-ordlistor som du kan infoga genom att lägga till `term`- eller `abbreviated-form`-element.
 
-**Infoga MathML-ekvationer**
+## Arbeta med MathML-ekvationer
+
+### Infoga MathML-ekvationer
 
 Experience Manager Guides har ett körklart stöd för att infoga MathML-ekvationer genom integrering med [MathType Web](https://docs.wiris.com/en/mathtype/mathtype_web/intro) -programmet. Om du vill infoga en MathML-ekvation väljer du ikonen **Element** och skriver mathml. När du väljer matematiska element i listan visas dialogrutan **Infoga MathML**:
 
@@ -164,22 +166,22 @@ Skapa ekvationen med MathML ekvationsverktyg och välj **Infoga** för att lägg
 
 Du kan när som helst uppdatera en ekvation genom att högerklicka på en befintlig ekvation och välja **Redigera MathML** på snabbmenyn.
 
-- **Validering av ekvationer i MathML Editor**
+### Validering av ekvationer i MathML Editor
 
-  Experience Manager Guides validerar MathML ekvationer när du sparar ett ämne som innehåller dem.
+Experience Manager Guides validerar MathML ekvationer när du sparar ett ämne som innehåller dem.
 När du infogar en ekvation med MathML Editor markeras ekvationen i rött om det finns syntaxproblem i Experience Manager Guides. Du kan korrigera det innan du infogar det. Om du inte gör några ändringar men väljer **Infoga** visas en varning.
 
-  ![validera matematisk ekvation](images/validate-mathml-equation.png){width="400" align="left"}
+![validera matematisk ekvation](images/validate-mathml-equation.png){width="400" align="left"}
 
-  Om du infogar den MathML-ekvation som innehåller ett syntaxfel inträffar ett valideringsfel när du försöker spara ämnet.
+Om du infogar den MathML-ekvation som innehåller ett syntaxfel inträffar ett valideringsfel när du försöker spara ämnet.
 
 
-**Infoga fotnoter**
+## Infoga fotnoter
 
 Infoga fotnot i innehållet med elementet `fn`. I redigeringsläget visas fotnotens värde i linje med innehållet. När du byter förhandsgranskningsläge eller publicerar dokumentet visas dock fotnoten i slutet av avsnittet.
 
 
-**Byt namn på eller ersätta ett element**
+## Byta namn på eller ersätta ett element
 
 Elementets vägbeskrivningar visas längst ned till vänster i avsnittet. Om du vill byta ut eller ersätta ett element mot ett annat element kan du göra det på snabbmenyn för vägbeskrivningsfilen. Du kan till exempel växla elementet `p` med `note` eller något annat giltigt element i kontexten.
 
@@ -195,9 +197,9 @@ Förutom snabbmenyn för den synliga sökvägen kan du även öppna dialogrutan 
 
 - Du kommer åt dialogrutan Byt namn på element genom att öppna Alternativ-menyn för ett element på panelen Kontur.
 
+## Bryta och dela upp ett element
 
-
-**Radbryt ett element**
+### Radbryta ett element
 
 - När du kapslar ett element kan du lägga till en elementtagg i den markerade texten. Du kan radbryta texten till vilket underordnat element som helst enligt DITA-standarder. Om du till exempel har text under ett `note`-element kan du kapsla in texten i ett `p` -element.
 
@@ -205,11 +207,11 @@ Förutom snabbmenyn för den synliga sökvägen kan du även öppna dialogrutan 
 
 - Du kan också markera texten eller elementet i innehållet och sedan välja alternativet **Radbryt element** på snabbmenyn.
 
-**Dela upp ett element**
+### Dela upp ett element
 
 Om du tar bort ett element kan du ta bort elementtaggen från den markerade texten och sammanfoga den med det överordnade elementet. Om du till exempel har ett `p`-element i ett `note` -element kan du dela upp `p`-elementet och sammanfoga texten direkt i `note` -elementet. Alternativet **Bryt upp element** är tillgängligt på snabbmenyn för avsnittets synliga del. Om du vill dela upp ett element högerklickar du på elementet för att öppna snabbmenyn och väljer sedan **Dela upp element** för att ta bort elementet och sammanfoga elementets text med dess överordnade element.
 
-**Hantering av tomt utrymme för DITA-element**
+## Hantering av tomt utrymme för DITA-element
 
 I XML-format innehåller blanksteg, tabbar, radbrytningar och tomma rader. Experience Manager Guides konverterar flera efterföljande blanksteg till ett blanksteg. Detta gör att du kan bevara WYSIWYG-vyn i Redigeraren.
 
@@ -218,7 +220,7 @@ I XML-format innehåller blanksteg, tabbar, radbrytningar och tomma rader. Exper
 > I vissa element där blanktecken måste bevaras enligt DITA-reglerna behålls de efterföljande blanktecknen. Exempel: `<pre>` och `<codeblock>` element.
 
 
-**Bevarar radbrytningar och indrag**
+## Bevara radbrytningar och indrag
 
 DITA-element som innehåller radbrytningar och blanksteg stöds och återges enligt definitionen i redigeringsläget, Source- eller förhandsgranskningsläget samt i det slutliga publicerade resultatet. På följande skärmbild visas innehållet i elementet `msgblock` där radbrytningarna och mellanrummen \(indrag\) har bevarats:
 
@@ -226,7 +228,7 @@ DITA-element som innehåller radbrytningar och blanksteg stöds och återges enl
 
 
 
-**Hantera fasta mellanslag i redigeraren**
+## Hantera fasta mellanslag i redigeraren
 
 - Du kan infoga fasta mellanslag i dokumentet med hjälp av ikonen **Symbol** ![](images/symbol-icon.svg) eller kortkommandona **Alt** + **Blanksteg** .  Dessa fasta mellanslag visas som en indikator när du redigerar ett ämne i redigeraren. Du kan inaktivera visningen av fasta mellanslag med alternativet **Visa fasta mellanslag i redigeringsläget** på fliken **Utseende** i [Användarinställningar](./intro-home-page.md#user-preferences).
 
@@ -234,7 +236,7 @@ DITA-element som innehåller radbrytningar och blanksteg stöds och återges enl
 Om du kopierar och klistrar in innehåll med fast mellanslag från vyn **Författare** bevaras det.
 
 
-**Generera element-ID automatiskt**
+## Generera element-ID automatiskt
 
 Du kan automatiskt generera ID:n för elementen i ditt DITA-avsnitt. Dessa ID:n är unika inom ett DITA-avsnitt. Om du till exempel genererar ID:n för ett styckeelement kommer ID:n att vara p\_1, p2, p\_3 och så vidare. Du kan välja flera element och generera ID:n för varje markerat element.
 
@@ -246,5 +248,24 @@ Gör följande för att automatiskt generera ID för ett eller flera element:
 
    Du kan också högerklicka i vägbeskrivningsfilen och välja **Generera ID**.
 
+
+
+## Hantera stora filer i Redigeraren
+
+De viktigaste funktionerna för att förbättra hanteringen av stora filer är följande:
+
+- För att förbättra prestanda är vissa funktioner som Ångra, Gör om, konturpanelen och den smutsiga markören inaktiverade. Vi rekommenderar att du delar upp ämnen i mindre ämnen för att få en optimal upplevelse.
+
+- Ett varningsmeddelande visas längst upp för stora filer, vilket visas i utdraget nedan. Den här varningen markerar antalet element baserat på det värde som anges i parametern **largeFileTagCount** i filen uiconfig.json. Som standard är **largeFileTagCount** inställt på 2 500.
+
+![](images/add-toast-notification.png){width="600" align="left"}
+
+
+- Dessutom visas antalet taggar i det nedre fältet i gränssnittet. När du hovrar över det här värdet för taggantal visas ett verktygstips. Om du väljer fliken **Läs mer** får du information om hur du hanterar stora filer.
+
+![](images/add-toast-tag-count.png){width="600" align="left"}
+
+
+- Varningsmeddelandet är bara tillgängligt för DITA-filer och är synligt i alla vyer: Författare, Source och Layout.
 
 **Överordnat ämne:**[ Introduktion till redigeraren](web-editor.md)

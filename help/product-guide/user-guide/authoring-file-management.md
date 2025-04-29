@@ -4,9 +4,9 @@ description: Lär dig hantera filer och mappar i AEM Guides. Kopiera och klistra
 exl-id: e5b44286-7ac3-49e4-9e6f-7bc8ae2fc935
 feature: Content Management
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 717d300c6e879bad573f67e3eb91dd266ab203c6
 workflow-type: tm+mt
-source-wordcount: '3131'
+source-wordcount: '3201'
 ht-degree: 0%
 
 ---
@@ -146,7 +146,7 @@ Så här flyttar du flera filer samtidigt:
 
    - **Source-sökväg\**: Ange platsen för de mappar som du vill flytta.
 
-      - Välj **Bläddra i mapp**  <img src="images/browse-folder-icon.svg" width="25">    för att öppna dialogrutan Bläddra efter filer. Markera de mappar som du vill flytta och välj **Markera** för att slutföra processen.
+      - Välj **Bläddra i mapp**  <img src="images/browse-folder-icon.svg" width="25">    för att öppna dialogrutan **Markera bana** . Markera de mappar som du vill flytta och välj **Markera** för att slutföra processen. Du kan markera flera mappar som placerats på olika platser i sökvägsläsaren. Sökvägen till de valda mapparna behålls så att du enkelt kan granska och ändra dem när du öppnar dialogrutan igen.
 
       - Du kan också skriva eller kopiera och klistra in källplatsen. Tryck på Retur för att lägga till mappen i listan.
 
@@ -195,7 +195,7 @@ Så här flyttar du flera filer samtidigt:
 
    - **Source-sökväg\**: Ange platsen för de mappar som du vill flytta.
 
-      - Välj **Bläddra i mapp**  <img src="images/browse-folder-icon.svg" width="25">    för att öppna dialogrutan Bläddra efter filer. Markera de mappar som du vill flytta och välj **Markera** för att slutföra processen.
+      - Välj **Bläddra i mapp**  <img src="images/browse-folder-icon.svg" width="25">    för att öppna dialogrutan **Markera bana** . Markera de mappar som du vill flytta och välj **Markera** för att slutföra processen. Du kan markera flera mappar som placerats på olika platser i sökvägsläsaren. Sökvägen till de valda mapparna behålls så att du enkelt kan granska och ändra dem när du öppnar dialogrutan igen.
 
       - Du kan också skriva eller kopiera och klistra in källplatsen. Tryck på Retur för att lägga till mappen i listan.
 

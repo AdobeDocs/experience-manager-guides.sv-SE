@@ -4,9 +4,9 @@ description: Hantera innehåll och identifiera roller och behörigheter i AEM Gu
 exl-id: 84926dc2-1180-48ef-85d0-50e3478bf26a
 feature: Content Management
 role: User
-source-git-commit: 99e42091490b28b5d5ee73472a7655e3feeafd25
+source-git-commit: 461692ce786f914dd196f289efef726e42bf9660
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '584'
 ht-degree: 0%
 
 ---
@@ -88,15 +88,3 @@ I följande tabell visas olika uppgifter och grupper som kan utföra dessa uppgi
 [1](#fnsrc_1) Om *Författare* och *Utgivare* bjuds in till en granskning.
 
 [2](#fnsrc_2) Beroende på vilka rättigheter användaren har i dokumentets tillståndsprofil.
-
-## Krav för innehållsutveckling
-
-**Arbeta med globala profiler eller mappprofiler**
-
-I ett företag kan olika grupper eller produkter använda olika redigeringsmallar, utdatamallar, villkorsattributprofiler \(eller ämnesscheman\) och Web Editor-konfigurationer. Om du konfigurerar dessa endast på Enterprise \(eller global\)-nivå kan det vara svårt för skribenterna eftersom de då kan visa mallar eller profiler som inte är relevanta för dem.
-
-I Experience Manager Guides kan du konfigurera mallar för att skapa \(ämne eller karta\), utdatamallar, villkorsattribut och Web Editor-konfigurationer på global nivå samt på mappnivå. På så sätt kan du dela upp konfigurationerna för olika avdelningar eller produkter i företaget.
-
-Du kan även delegera mappspecifika konfigurationer till en avdelning eller produktadministratörer för att decentralisera administrationen.
-
-Mer information om hur du konfigurerar globala profiler och profiler på mappnivå finns i *Konfigurera globala profiler och profiler på mappnivå* i Installera och konfigurera Adobe Experience Manager Guides as a Cloud Service.

@@ -4,9 +4,9 @@ description: Hantera granskningsuppgifter från Granska kontrollpanelen i AEM Gu
 exl-id: 4fef5653-1c73-4b68-adf2-b24145555142
 feature: Reviewing
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 717d300c6e879bad573f67e3eb91dd266ab203c6
 workflow-type: tm+mt
-source-wordcount: '1298'
+source-wordcount: '1312'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,8 @@ Du kan utföra följande åtgärder på fliken **Aktivitet**:
 - Ändra **förfallodatumet**. Du kan fördröja eller skjuta upp deadline för slutförandet av uppgiften.
 - Välj alternativet att begränsa användarnas behörighet till att endast granska de ämnen som är tilldelade dem.
 - Välj **Uppdatera** om du vill uppdatera den ändrade informationen.
+
+  Ett popup-meddelande visas som bekräftar om uppdateringen lyckades eller inte.
 - Välj **Slutför** om du vill markera granskningsaktiviteten som slutförd före förfallodatumet. När ett enskilt temats uppgift har markerats som Fullständig stängs granskningen av det valda ämnet. Om ämnen delas för granskning via en DITA-karta och DITA-kartan markeras som fullständig, kommer dock granskningen av alla ämnen på kartan som delats för granskning att stängas.
 - Välj **Duplicera** om du vill skapa en kopia av granskningsaktiviteten. Processen att skapa en dubblettgranskningsuppgift påminner om att skapa en ny granskningsuppgift. När du har startat det duplicerade arbetsflödet visas sidan Skapa granskningsuppgift. Du måste ange den nya uppgiftsinformationen enligt beskrivningen i [Skicka ämnen för granskning](review-send-topics-for-review.md#).
 

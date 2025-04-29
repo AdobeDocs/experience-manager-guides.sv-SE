@@ -4,9 +4,9 @@ description: Lär dig integrera Workfront med Adobe Experience Manager Guides oc
 feature: Authoring
 role: User
 exl-id: fd988434-3ebd-40ac-a776-e62359dcb6ef
-source-git-commit: dea9876cf0afa615f3719637c909bbda0d1d40b5
+source-git-commit: 62b1abd012f4bbf532480e2625505cdea1c70bc7
 workflow-type: tm+mt
-source-wordcount: '2436'
+source-wordcount: '2482'
 ht-degree: 0%
 
 ---
@@ -85,6 +85,8 @@ Så här skapar du en ny Adobe Workfront-uppgift:
 3. På fliken **Assets** väljer du **Lägg till** om du vill lägga till en resurs i den här aktiviteten.
 
    ![](./images/workfront-create-tasks-asset.png){align="left"}
+
+   Dialogrutan **Välj bana** visas. Välj en sökväg till den önskade resursen. Du kan lägga till flera resurser genom att markera de giltiga sökvägarna i sökvägsläsaren. De markerade banorna behålls så att du enkelt kan granska och ändra dem när du öppnar dialogrutan igen.
 
    * För redigerings-, publicerings- och översättningsåtgärder uppmanas du att välja platsen för den obligatoriska filen i dialogrutan **Välj sökväg** . Den valda filen (ett ämne för redigering och mappning för publicering och översättning) läggs till i aktiviteten så snart knappen **Skapa** har valts.
 

@@ -4,9 +4,9 @@ description: Skapa och hantera baslinjer från kartkonsolen i Adobe Experience M
 exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: f6ff978305d9a1587366acbe96d274408bf457f4
+source-git-commit: 154d4cb2c4c51581590048e1d368f4c744402847
 workflow-type: tm+mt
-source-wordcount: '1815'
+source-wordcount: '1831'
 ht-degree: 0%
 
 ---
@@ -137,7 +137,7 @@ Du kan duplicera en baslinje och ändra den enligt dina önskemål.
   > Processen att lägga till eller ta bort etiketter sker asynkront, så du kan fortsätta arbeta med andra filer. När etiketten har lagts till eller tagits bort visas ett popup-meddelande som bekräftar att etiketten har lagts till eller tagits bort, och du får även ett inkorgsmeddelande om detta.
 
 - **Redigera egenskaper** för en befintlig statisk baslinje som du angav när du skapade baslinjen.
-- Exportera ögonblicksbilden av en baslinje i en Microsoft Excel-fil med alternativet **Exportera baslinje** .
+- Alternativet **Exportera baslinje** exporterar en ögonblicksbild av baslinjen i Microsoft Excel-filen, inklusive all viktig information, till exempel titel, filnamn, filtyp, versionsnummer, dokumenttillstånd och annan relevant information.
 
 
 ### Förteckning över etiketter {#labels-list}
