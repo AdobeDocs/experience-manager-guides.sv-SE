@@ -17,19 +17,19 @@ Troligen har du en databas med befintligt DITA-innehåll som du vill använda me
 
 >[!IMPORTANT]
 >
-> Visa [Lägg till digitala resurser i Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html) om du vill ha mer information om de innehållsöverföringsmetoder som stöds i Adobe Experience Manager.
+> Visa [Lägg till digitala resurser i Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=sv-SE) om du vill ha mer information om de innehållsöverföringsmetoder som stöds i Adobe Experience Manager.
 
 ## Användargränssnittet i Assets Console
 
-Du kan markera innehåll på skrivbordet och dra Adobe Experience Manager användargränssnitt \(webbläsare\) till målmappen. Mer information finns i [Överför resurser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html#upload-assets) i Adobe Experience Manager-dokumentationen.
+Du kan markera innehåll på skrivbordet och dra Adobe Experience Manager användargränssnitt \(webbläsare\) till målmappen. Mer information finns i [Överför resurser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=sv-SE#upload-assets) i Adobe Experience Manager-dokumentationen.
 
 ## Adobe Experience Manager datorprogram
 
-Använd Adobe Experience Manager datorprogram om du är kreatör och vill hantera mediefiler på din dator. Du kan öppna och redigera dessa resurser med skrivbordsprogrammen. Du kan också underhålla versioner och dela filer med andra användare. Mer information finns i [Adobe Experience Manager-datorprogrammet](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html).
+Använd Adobe Experience Manager datorprogram om du är kreatör och vill hantera mediefiler på din dator. Du kan öppna och redigera dessa resurser med skrivbordsprogrammen. Du kan också underhålla versioner och dela filer med andra användare. Mer information finns i [Adobe Experience Manager-datorprogrammet](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html?lang=sv-SE).
 
 ## Massinhämtning av resurser
 
-Om du har storskalig migrering och ibland massimporteringar använder du Resursimport för att överföra ditt innehåll. Med det här verktyget kan du överföra massinnehåll från datalager som stöds, som Azure eller S3. Mer information finns i [Massinhämtning av resurser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=en#asset-bulk-ingestor).
+Om du har storskalig migrering och ibland massimporteringar använder du Resursimport för att överföra ditt innehåll. Med det här verktyget kan du överföra massinnehåll från datalager som stöds, som Azure eller S3. Mer information finns i [Massinhämtning av resurser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=sv-SE#asset-bulk-ingestor).
 
 ## Använd FrameMaker för massöverföring
 

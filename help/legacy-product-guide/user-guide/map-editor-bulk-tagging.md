@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Med taggar kan du gruppera eller klassificera innehåll i innehållsdatabasen och även i publicerade utdata. Om du har använt taggar på innehållet kan du enkelt hitta relaterade ämnen i en DITA-karta som kan hjälpa dig att skapa innehåll. Med publicerade utdata kommer slutanvändarna att kunna hitta rätt innehåll snabbare med rätt taggar på plats.
 
-Med AEM Guides kan du tagga DITA-innehåll med några få klick. Du kan använda funktionen för bulktaggning för att tillämpa flera taggar på flera ämnen, en DITA-karta eller på en underkarta. Du kan också lägga till märkord i ett enskilt ämne. Taggning är den inbyggda funktionen i AEM. Mer information om hur du skapar och hanterar taggar finns i avsnittet [Administrera taggar](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) i AEM-dokumentationen.
+Med AEM Guides kan du tagga DITA-innehåll med några få klick. Du kan använda funktionen för bulktaggning för att tillämpa flera taggar på flera ämnen, en DITA-karta eller på en underkarta. Du kan också lägga till märkord i ett enskilt ämne. Taggning är den inbyggda funktionen i AEM. Mer information om hur du skapar och hanterar taggar finns i avsnittet [Administrera taggar](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=sv-SE) i AEM-dokumentationen.
 
 Som standard ger AEM Guides inte läsåtkomst till någon användare i den mapp där alla taggar i AEM-databasen lagras. Om du vill använda taggar som definieras i AEM-databasen måste du be systemadministratören att ge åtkomst till den mapp där taggarna lagras.
 

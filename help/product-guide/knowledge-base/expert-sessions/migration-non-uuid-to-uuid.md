@@ -46,9 +46,9 @@ Steg för att gå från icke-uuid till uuid
 
 ### Dokumentation
 
-- [Migrerar innehåll från icke-UUID till UUID](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/on-prem-ig/content-migration/migration-process/migrate-non-uuid-uuid)
+- [Migrerar innehåll från icke-UUID till UUID](https://experienceleague.adobe.com/sv/docs/experience-manager-guides/using/install-guide/on-prem-ig/content-migration/migration-process/migrate-non-uuid-uuid)
 - [AEM Guides: Flytta UUID-innehåll från lokalt/AMS till molnet](../../cs-install-guide/migrate-on-premise-content-cloud.md)
-- [Flyttar till AEM Cloud](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/migration-journey/getting-started)
+- [Flyttar till AEM Cloud](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/migration-journey/getting-started)
 - [AEM Guides: Migrera icke-uuid-innehåll till molnet](../../install-guide/migrate-uuid-non-uuid.md)
 
 ### Community Forum

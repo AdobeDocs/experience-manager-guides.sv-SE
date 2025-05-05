@@ -19,9 +19,9 @@ Artikeln hjälper dig att konfigurera och köra FMPS med AEM Guides.
 
 ## FMPS-kompatibiliteten med AEM Guides
 
-- Kompatibilitet med 4.1 AEM Guides: [4.1-kompatibilitetsmatris](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/release-notes/on-prem-release-notes/release-notes-4.1.html?lang=en/#compatibility-matrix)
+- Kompatibilitet med 4.1 AEM Guides: [4.1-kompatibilitetsmatris](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/release-notes/on-prem-release-notes/release-notes-4.1.html?lang=sv-SE/#compatibility-matrix)
 - Kompatibilitet med 4.0 AEM Guides: [4.0-kompatibilitetsmatris](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html/#Compatibility%20matrix)
-- Senaste versionen: [Senaste versionsinformation](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/latest-release-info.html?lang=en)
+- Senaste versionen: [Senaste versionsinformation](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/latest-release-info.html?lang=sv-SE)
 
 ## Installation
 
@@ -91,7 +91,7 @@ Du kan publicera baslinjer som du redan skapat med FMPS2020.0.2 eller senare.
 
 ## Andra resurser:
 
-[Lär dig mer och support för FMPS](https://helpx.adobe.com/support/framemaker-publishing-server.html)
+[Lär dig mer och support för FMPS](https://helpx.adobe.com/se/support/framemaker-publishing-server.html)
 
 [AEM Guides studiematerial och support](https://helpx.adobe.com/in/support/xml-documentation-for-experience-manager.html)
 

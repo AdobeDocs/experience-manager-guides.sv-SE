@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Tänk på följande för prestandaoptimering:
 
-- Information om hur du optimerar innehåll och indexering finns i [Optimera innehållssökning och indexering](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/indexing.html) i AEM.
+- Information om hur du optimerar innehåll och indexering finns i [Optimera innehållssökning och indexering](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/indexing.html?lang=sv-SE) i AEM.
 
 - Patch Xerces Jar när anpassad DITA-OT används för publicering. Detta är en obligatorisk konfiguration, beroende på ditt användningssätt. Den här ändringen krävs bara om du använder anpassad DITA-OT för publicering av utdata.
 

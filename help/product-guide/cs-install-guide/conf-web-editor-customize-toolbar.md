@@ -18,7 +18,7 @@ Som standard levereras webbredigeraren med de vanligaste redigeringsfunktionerna
 
 >[!NOTE]
 >
-> När du migrerar från det gamla användargränssnittet till det nya användargränssnittet i AEM Guides (som gäller från version 2502 och version 5.0 av AEM Guides) måste uppdateringarna av `ui_config` konverteras till mer flexibla och modulära användargränssnittskonfigurationer. Det här ramverket gör det enklare att implementera ändringar i editor_toolbar och andra målwidgetar efter behov. Mer information finns i [Översikt över konfigurationen för konvertering av användargränssnitt](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
+> När du migrerar från det gamla användargränssnittet till det nya användargränssnittet i AEM Guides (som gäller från version 2502 och version 5.0 av AEM Guides) måste uppdateringarna av `ui_config` konverteras till mer flexibla och modulära användargränssnittskonfigurationer. Det här ramverket gör det enklare att implementera ändringar i editor_toolbar och andra målwidgetar efter behov. Mer information finns i [Översikt över konfigurationen för konvertering av användargränssnitt](https://experienceleague.adobe.com/sv/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
 
 Det finns två sätt att anpassa Web Editors verktygsfält:
 

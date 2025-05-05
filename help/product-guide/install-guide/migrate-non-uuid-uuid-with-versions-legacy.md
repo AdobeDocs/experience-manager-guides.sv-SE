@@ -90,7 +90,7 @@ Utför följande kontroller för den version som inte är UUID (4.1 icke-UID ell
 
 ### Steg 1: Uppdatera konfigurationen
 
-1. Se till att det lediga utrymmet är minst tio gånger så stort som det utrymme som AEM (crx-quickstart directory) tar under migreringen. När du är klar med migreringen kan du frigöra mer av diskutrymmet genom att köra en komprimering (se [Revision Cleanup](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en)).
+1. Se till att det lediga utrymmet är minst tio gånger så stort som det utrymme som AEM (crx-quickstart directory) tar under migreringen. När du är klar med migreringen kan du frigöra mer av diskutrymmet genom att köra en komprimering (se [Revision Cleanup](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=sv-SE)).
 
 1. Aktivera *Aktivera startprogram för arbetsflöde efter bearbetning* i `com.adobe.fmdita.config.ConfigManager` och *Aktivera efterbearbetning av version* i `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation.`
 
@@ -154,4 +154,4 @@ När servern har migrerats kan du aktivera efterbearbetning, taggning och följa
    ![Validera fliken för systemuppgradering i migreringen](assets/migration-validate-system-upgrade.png){width="800" align="left"}
 
 
-1. När valideringen är klar kan större delen av diskutrymmet återvinnas genom att en komprimering körs (se `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en`).
+1. När valideringen är klar kan större delen av diskutrymmet återvinnas genom att en komprimering körs (se `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=sv-SE`).

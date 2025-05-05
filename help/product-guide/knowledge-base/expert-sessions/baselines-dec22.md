@@ -40,7 +40,7 @@ Under den här sessionen får du lära dig mer om följande:
 
 ## Relaterade resurser
 
-- **Funktionsvideor** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
+- **Funktionsvideor** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=sv-SE)
 
 - **Användarhandbok** - [Arbeta med baslinjen](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html)
 

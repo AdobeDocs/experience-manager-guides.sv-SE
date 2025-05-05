@@ -22,7 +22,7 @@ Några viktiga begrepp inom innehållshantering i AEM är följande:
 
 **Resurshantering**
 
-AEM Guides använder AEM digitala resurshantering \(DAM\) för att hantera dina DITA-filer. Filerna som du överför eller checkar in i DAM lagras som digitala resurser. Du kan hantera och redigera dina resurser i AEM Assets. Mer information om resurshantering finns i [Hantera resurser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=en).
+AEM Guides använder AEM digitala resurshantering \(DAM\) för att hantera dina DITA-filer. Filerna som du överför eller checkar in i DAM lagras som digitala resurser. Du kan hantera och redigera dina resurser i AEM Assets. Mer information om resurshantering finns i [Hantera resurser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=sv-SE).
 
 **Länkhantering**
 

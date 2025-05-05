@@ -57,7 +57,7 @@ Använd mappprofilerna för att kontrollera *ui_config.json* på fliken XML-redi
 }
 ```
 
-[använd den här länken om du vill veta mer om mappprofilen och konfigurera ui_config.json](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=en)
+[använd den här länken om du vill veta mer om mappprofilen och konfigurera ui_config.json](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=sv-SE)
 
 
 ### Hantera on-click-händelsen för den nya knappen

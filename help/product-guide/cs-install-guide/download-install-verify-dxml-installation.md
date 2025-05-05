@@ -18,11 +18,11 @@ När du har installerat AEM Guides måste du kontrollera om installationen lycka
 
 1. Få tillgång till Cloud Servicens Developer Console.
 
-   Mer information om hur du får åtkomst till Developer Console finns i [Developer Console-åtkomst](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html) i AEM.
+   Mer information om hur du får åtkomst till Developer Console finns i [Developer Console-åtkomst](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=sv-SE) i AEM.
 
 1. Gå till listan över OSGi Bundles i AEM.
 
-   Mer information om hur du får åtkomst till paket finns i [Paket](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=en#bundles) i AEM.
+   Mer information om hur du får åtkomst till paket finns i [Paket](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/debugging/debugging-aem-as-a-cloud-service/developer-console.html?lang=sv-SE#bundles) i AEM.
 
 1. Sök efter fmdita i paketlistan och kontrollera status.
 

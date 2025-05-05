@@ -14,10 +14,10 @@ ht-degree: 13%
 
 # Konfigurera Dispatcher {#id213BCM0M05U}
 
-Dispatcher är Adobe Experience Managers verktyg för cachelagring och/eller belastningsutjämning. Mer information finns i [Dispatcher i molnet](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/content-delivery/disp-overview.html?lang=en).
+Dispatcher är Adobe Experience Managers verktyg för cachelagring och/eller belastningsutjämning. Mer information finns i [Dispatcher i molnet](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/content-delivery/disp-overview.html?lang=sv-SE).
 
-1. Information om hur du migrerar dispatcherkonfigurationen från AMS till molntjänsten finns i [Migrera Dispatcher-konfigurationen från AMS till AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/content-delivery/ams-aem.html?lang=en).
-1. Mer information om hur du konfigurerar dispatcher finns i [Konfigurera Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=en).
+1. Information om hur du migrerar dispatcherkonfigurationen från AMS till molntjänsten finns i [Migrera Dispatcher-konfigurationen från AMS till AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/content-delivery/ams-aem.html?lang=sv-SE).
+1. Mer information om hur du konfigurerar dispatcher finns i [Konfigurera Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=sv-SE).
 
 >[!NOTE]
 >

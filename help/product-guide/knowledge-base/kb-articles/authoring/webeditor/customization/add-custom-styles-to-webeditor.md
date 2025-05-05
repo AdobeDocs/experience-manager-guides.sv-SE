@@ -34,7 +34,7 @@ Låt oss förstå detta med ett exempel där vi vill visa den korta beskrivninge
 
 Använd mappprofilerna för att kontrollera *css_layout.css* under fliken XML-redigerarkonfiguration och lägg till CSS med anpassade format
 
-[använd den här länken om du vill veta mer om mappprofilen och hur du konfigurerar CSS-mallayouten](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=en#customize-the-css-template-layout)
+[använd den här länken om du vill veta mer om mappprofilen och hur du konfigurerar CSS-mallayouten](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=sv-SE#customize-the-css-template-layout)
 
 Använd följande för att konfigurera ovanstående format i din webbredigerare:
 - Använd [css_layout.css](../../../assets/authoring/webeditor-customstyles-css_layout.css) och överför den till den önskade mappprofilen
@@ -58,4 +58,4 @@ Please note this is compatible to AEM Guides version 4.2 and AEM Guides cloud ve
 
 ## Referenser
 
-Du kan också vara intresserad av expertsessionen runt webbredigerarkonfigurationer och anpassningar som ingår i [Expertsessionen på webbadministratören](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/webbased-authoring-jan2023.html?lang=en)
+Du kan också vara intresserad av expertsessionen runt webbredigerarkonfigurationer och anpassningar som ingår i [Expertsessionen på webbadministratören](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/webbased-authoring-jan2023.html?lang=sv-SE)

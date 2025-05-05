@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Överför befintligt DITA-innehåll {#id176FF000JUI}
 
-Troligen har du en databas med befintligt DITA-innehåll som du vill använda med AEM Guides. För sådant befintligt innehåll kan du använda någon av de metoder som beskrivs i [Lägg till digitalt material i Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html).
+Troligen har du en databas med befintligt DITA-innehåll som du vill använda med AEM Guides. För sådant befintligt innehåll kan du använda någon av de metoder som beskrivs i [Lägg till digitalt material i Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=sv-SE).
 
 ## Konfigurera UUID-filnamnsmönster
 

@@ -23,17 +23,17 @@ Automatisera översättning av sidinnehåll, resurser och användargenererat inn
 
 Översättning av innehåll omfattar följande steg:
 
-1. Anslut AEM till din [översättningstjänstleverantör](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConnectingtoaTranslationServiceProvider) och skapa [konfigurationer för översättningsintegreringsramverk](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#CreatingaTranslationIntegrationConfiguration).
+1. Anslut AEM till din [översättningstjänstleverantör](https://helpx.adobe.com/se/experience-manager/6-5/sites/administering/using/tc-tic.html#ConnectingtoaTranslationServiceProvider) och skapa [konfigurationer för översättningsintegreringsramverk](https://helpx.adobe.com/se/experience-manager/6-5/sites/administering/using/tc-tic.html#CreatingaTranslationIntegrationConfiguration).
 
-1. Associera sidorna i din språkinställning med [översättningstjänsten och ramverkskonfigurationerna](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation).
+1. Associera sidorna i din språkinställning med [översättningstjänsten och ramverkskonfigurationerna](https://helpx.adobe.com/se/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation).
 
-1. Identifiera typen av [innehåll som ska översättas](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-rules.html).
+1. Identifiera typen av [innehåll som ska översättas](https://helpx.adobe.com/se/experience-manager/6-5/sites/administering/using/tc-rules.html).
 
-1. [Förbered innehållet för översättning](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-prep.html) genom att skapa språkinställningen och skapa rotsidorna för språkkopior.
+1. [Förbered innehållet för översättning](https://helpx.adobe.com/se/experience-manager/6-5/sites/administering/using/tc-prep.html) genom att skapa språkinställningen och skapa rotsidorna för språkkopior.
 
-1. Skapa [översättningsprojekt](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-manage.html) om du vill samla in innehållet som ska översättas och förbereda översättningsprocessen.
+1. Skapa [översättningsprojekt](https://helpx.adobe.com/se/experience-manager/6-5/sites/administering/using/tc-manage.html) om du vill samla in innehållet som ska översättas och förbereda översättningsprocessen.
 
-1. Använd översättningsprojekten för att [hantera innehållsöversättningsprocessen](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-manage.html).
+1. Använd översättningsprojekten för att [hantera innehållsöversättningsprocessen](https://helpx.adobe.com/se/experience-manager/6-5/sites/administering/using/tc-manage.html).
 
 
 När översättningstjänstleverantören inte tillhandahåller någon koppling till integrering med AEM stöder AEM manuell export och import av översatt innehåll i XML-format.
@@ -88,7 +88,7 @@ Baserat på det översättningsarbetsflöde som används i konfigurationen bör 
 
    >[!NOTE]
    >
-   > Om du använder översättningskoppling kontrollerar du att du har konfigurerat kopplingen enligt beskrivningen i avsnittet *[Konfigurera översättningsintegreringsramverket](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html)* i AEM.
+   > Om du använder översättningskoppling kontrollerar du att du har konfigurerat kopplingen enligt beskrivningen i avsnittet *[Konfigurera översättningsintegreringsramverket](https://helpx.adobe.com/se/experience-manager/6-5/sites/administering/using/tc-tic.html)* i AEM.
 
 1. Klicka på **Spara**.
 

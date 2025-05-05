@@ -17,7 +17,7 @@ I ett verkligt scenario har författarna åtkomst till Adobe Experience Manager 
 
 >[!NOTE]
 >
-> Mer information om hur du konfigurerar författaren och publicerar instansen i Adobe Experience Manager finns i [Författare och Översikt över publiceringsarkitekturen](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#prerequisites).
+> Mer information om hur du konfigurerar författaren och publicerar instansen i Adobe Experience Manager finns i [Författare och Översikt över publiceringsarkitekturen](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=sv-SE#prerequisites).
 
 Med Experience Manager Guides funktion för massaktivering kan du snabbt och enkelt aktivera ditt innehåll från redigering till publicering. Med funktionen för massaktivering kan du
 

@@ -23,17 +23,17 @@ Automatisera översättning av sidinnehåll, resurser och användargenererat inn
 
 Översättning av innehåll omfattar följande steg:
 
-1. Anslut AEM till din [översättningstjänstleverantör](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en) och skapa konfigurationer för ramverk för översättningsintegrering.
+1. Anslut AEM till din [översättningstjänstleverantör](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=sv-SE) och skapa konfigurationer för ramverk för översättningsintegrering.
 
 1. Koppla sidorna i din språkinställning till översättningstjänsten och ramverkskonfigurationerna.
 
-1. Identifiera typen av [innehåll som ska översättas](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/rules.html?lang=en).
+1. Identifiera typen av [innehåll som ska översättas](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/rules.html?lang=sv-SE).
 
-1. [Förbered innehållet för översättning](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/preparation.html?lang=en) genom att skapa språkinställningen och skapa rotsidorna för språkkopior.
+1. [Förbered innehållet för översättning](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/preparation.html?lang=sv-SE) genom att skapa språkinställningen och skapa rotsidorna för språkkopior.
 
-1. Skapa [översättningsprojekt](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=en) om du vill samla in innehållet som ska översättas och förbereda översättningsprocessen.
+1. Skapa [översättningsprojekt](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=sv-SE) om du vill samla in innehållet som ska översättas och förbereda översättningsprocessen.
 
-1. Använd översättningsprojekten för att [hantera innehållsöversättningsprocessen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=en).
+1. Använd översättningsprojekten för att [hantera innehållsöversättningsprocessen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=sv-SE).
 
 
 När översättningstjänstleverantören inte tillhandahåller någon koppling till integrering med AEM stöder AEM manuell export och import av översatt innehåll i XML-format.
@@ -88,7 +88,7 @@ Använd instruktionerna i [Konfigurationsåsidosättningar](download-install-add
 
 >[!NOTE]
 >
-> Om du använder översättningskoppling kontrollerar du att du har konfigurerat kopplingen enligt beskrivningen i avsnittet *[Konfigurera översättningsintegreringsramverket](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en)* i Adobe Experience Manager-dokumentationen.
+> Om du använder översättningskoppling kontrollerar du att du har konfigurerat kopplingen enligt beskrivningen i avsnittet *[Konfigurera översättningsintegreringsramverket](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=sv-SE)* i Adobe Experience Manager-dokumentationen.
 
 >[!IMPORTANT]
 >

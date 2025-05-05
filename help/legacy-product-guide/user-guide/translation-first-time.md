@@ -50,7 +50,7 @@ Utför följande steg för att konfigurera den mänskliga översättningstjänst
 
    >[!NOTE]
    >
-   > Mer information om hur du integrerar med översättningstjänster från tredje part finns i [Konfigurera TLF (Translation Integration Framework)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en) i AEM-dokumentationen.
+   > Mer information om hur du integrerar med översättningstjänster från tredje part finns i [Konfigurera TLF (Translation Integration Framework)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=sv-SE) i AEM-dokumentationen.
 
 1. Klicka på **Spara och stäng** för att spara de uppdaterade mappegenskaperna.
 

@@ -456,7 +456,7 @@ Läs mer om hur du visar och lägger till [AI-baserade smarta förslag](../user-
 
 För ![AEM cloud ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service.
 
-Du kan konfigurera den AI-baserade smarta **hjälpen** så att författarna kan ställa frågor och enkelt hitta det innehåll som krävs från [Experience Manager Guides-dokumentationen](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
+Du kan konfigurera den AI-baserade smarta **hjälpen** så att författarna kan ställa frågor och enkelt hitta det innehåll som krävs från [Experience Manager Guides-dokumentationen](https://experienceleague.adobe.com/sv/docs/experience-manager-guides/using/overview).
 
 På fliken **XML-redigerarkonfiguration** kan du konfigurera standardfrågorna på panelen **Hjälp**.
 
@@ -508,7 +508,7 @@ Som standard har XML-redigeraren många funktioner som hjälper dina författare
 
 Med den här inställningen kan du skapa JSON-tillägg som återspeglar ändringar som gjorts i filen `ui_config.json`. Du kan överföra dessa tillägg oberoende av varandra på mappprofilnivå, vilket ger ökad flexibilitet och anpassning. Om du till exempel ändrar **XML-redigerarkonfigurationen**, till exempel uppdaterar en knapp, identifieras skillnaderna automatiskt i systemet. Genom att överföra dessa ändringar till **XML-redigerarens gränssnittskonfiguration** och konvertera dem till JSON-tillägg med knappen **Konvertera gränssnittskonfiguration till JSON**, genererar systemet ett tillägg som innehåller den nya funktionen.
 
-Läs mer om [att anpassa JSON-konfigurationer och konvertera gränssnittskonfigurationer för den nya AEM Guides Editor](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
+Läs mer om [att anpassa JSON-konfigurationer och konvertera gränssnittskonfigurationer för den nya AEM Guides Editor](https://experienceleague.adobe.com/sv/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
 
 **XML-redigerarens sidlayout**
 

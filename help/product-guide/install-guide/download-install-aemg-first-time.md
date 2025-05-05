@@ -32,7 +32,7 @@ Så här hämtar och installerar du AEM Guides första gången på en dator:
    http://<server name>:<port>/crx/packmgr/index.jsp
    ```
 
-   Pakethanteraren hanterar paketen i din lokala AEM. Mer information om hur du arbetar med pakethanteraren finns i [Arbeta med paket](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html) i AEM.
+   Pakethanteraren hanterar paketen i din lokala AEM. Mer information om hur du arbetar med pakethanteraren finns i [Arbeta med paket](https://helpx.adobe.com/se/experience-manager/6-5/sites/administering/using/package-manager.html) i AEM.
 
    ![](assets/package-manager.png){width="650" align="left"}
 

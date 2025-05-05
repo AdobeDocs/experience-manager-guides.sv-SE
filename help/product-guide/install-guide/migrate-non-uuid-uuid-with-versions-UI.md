@@ -63,7 +63,7 @@ Om du använder version 4.3.x eller senare utför du de här stegen för att mig
 
 ### Steg 1: Uppdatera konfigurationen
 
-1. Se till att det lediga utrymmet är minst 10 gånger så stort som det utrymme som AEM (crx-quickstart directory) tar under migreringen. När du är klar med migreringen kan du frigöra större delen av diskutrymmet genom att köra en komprimering (se [Revision Cleanup](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en)).
+1. Se till att det lediga utrymmet är minst 10 gånger så stort som det utrymme som AEM (crx-quickstart directory) tar under migreringen. När du är klar med migreringen kan du frigöra större delen av diskutrymmet genom att köra en komprimering (se [Revision Cleanup](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=sv-SE)).
 
 1. Aktivera *Aktivera Post Workflow Launcher* i `com.adobe.fmdita.config.ConfigManager` och *Aktivera Version Postprocessing* i `com.adobe.fmdita.postprocess.version.PostProcessVersionObservation.`
 
@@ -125,5 +125,5 @@ När migreringen är klar väljer du **Verifiera systemuppgradering** på den v�
 ![Validera fliken för systemuppgradering i migreringen](assets/migration-validate-system-upgrade.png){width="800" align="left"}
 
 
-1. När migreringen är klar kan större delen av diskutrymmet återvinnas genom att köra en komprimering (se `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en`).
+1. När migreringen är klar kan större delen av diskutrymmet återvinnas genom att köra en komprimering (se `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=sv-SE`).
 

@@ -13,7 +13,7 @@ ht-degree: 0%
 
 
 
-Experience Manager Guides tillhandahåller den GenAI-baserade smarta hjälpen, en konversationssökfunktion som hjälper dig att hitta relevant innehåll från [Adobe Experience Manager Guides-dokumentationen](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
+Experience Manager Guides tillhandahåller den GenAI-baserade smarta hjälpen, en konversationssökfunktion som hjälper dig att hitta relevant innehåll från [Adobe Experience Manager Guides-dokumentationen](https://experienceleague.adobe.com/sv/docs/experience-manager-guides/using/overview).
 Du kan ställa frågor och få svar på ett informativt sätt. Svaret på din fråga baseras på innehållet i produktdokumentationen. Den här sökningen är helt konversationell. Du kan ställa frågor och sedan, baserat på svaret, ställa ytterligare frågor. Svaret innehåller även länkar till källdokument, som du kan referera till för mer information.
 
 Du kan till exempel skapa ett ämne i Experience Manager Guides för din dokumentation. Du kan fråga, *Hur skapar du ett ämne?* Du får ett svar och länkar för de relaterade artiklarna. Om du sedan vill veta hur du genererar PDF-utdata för dokumentet kan du ställa frågor om det. *Så här publicerar du ett ämne till en PDF?* eller *Hur skapar jag PDF-utdata för ett ämne?*

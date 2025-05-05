@@ -18,7 +18,7 @@ I ett verkligt scenario har författarna åtkomst till AEM medan själva innehå
 
 >[!NOTE]
 >
-> Mer information om hur du konfigurerar författaren och publicerar instansen i AEM finns i [Skapa och publicera arkitekturöversikt](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#prerequisites).
+> Mer information om hur du konfigurerar författaren och publicerar instansen i AEM finns i [Skapa och publicera arkitekturöversikt](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=sv-SE#prerequisites).
 
 Med AEM Guides funktion för massaktivering kan du snabbt och enkelt aktivera ditt innehåll från redigering till publicering. Med funktionen för massaktivering kan du
 

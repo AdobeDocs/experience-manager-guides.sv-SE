@@ -72,11 +72,11 @@ Med AEM Connector i FrameMaker kan du hantera dina FrameMaker-filer. Med AEM Con
 
 ## Ytterligare resurser
 
-Nedan följer en lista över andra användbara resurser i Experience Manager Guides som finns på sidan [Lär dig mer och support](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html):
+Nedan följer en lista över andra användbara resurser i Experience Manager Guides som finns på sidan [Lär dig mer och support](https://helpx.adobe.com/se/support/xml-documentation-for-experience-manager.html):
 
 * Användarhandbok
 * Referenshandbok för API
 * Snabbstartsguide
-* [Hjälp* Arkiveringssida](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) (använd äldre versionsdokumentation)
+* [Hjälp* Arkiveringssida](https://helpx.adobe.com/se/xml-documentation-for-experience-manager/archive.html) (använd äldre versionsdokumentation)
 
 **Överordnat ämne:**&#x200B;[ Om Adobe Experience Manager Guides as a Cloud Service](intro.md)

@@ -49,7 +49,7 @@ Utför följande steg för att konfigurera den mänskliga översättningstjänst
 
    >[!NOTE]
    >
-   > Visa [Konfigurera översättningsintegreringsramverket](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en) i Adobe Experience Manager-dokumentationen för mer information om integrering med översättningstjänster från tredje part.
+   > Visa [Konfigurera översättningsintegreringsramverket](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=sv-SE) i Adobe Experience Manager-dokumentationen för mer information om integrering med översättningstjänster från tredje part.
 
 1. Välj **Spara och stäng** om du vill spara de uppdaterade mappegenskaperna.
 

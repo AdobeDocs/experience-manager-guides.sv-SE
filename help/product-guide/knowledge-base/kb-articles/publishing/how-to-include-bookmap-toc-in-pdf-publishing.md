@@ -93,8 +93,8 @@ Om du publicerar Ditamap har Native PDF funktioner för att automatiskt generera
 
 ## Ytterligare resurser:
 
-- [Dokumentation för layout för PDF-design](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/design-page-layout)
-- [Grundläggande PDF-sessioner med förinspelade experter](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23)
+- [Dokumentation för layout för PDF-design](https://experienceleague.adobe.com/sv/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/design-page-layout)
+- [Grundläggande PDF-sessioner med förinspelade experter](https://experienceleague.adobe.com/sv/docs/experience-manager-guides/using/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23)
 
 <br>
 <br>

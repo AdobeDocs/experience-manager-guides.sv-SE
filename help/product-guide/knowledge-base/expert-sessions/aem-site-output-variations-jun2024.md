@@ -44,7 +44,7 @@ Under den här sessionen kommer du att lära dig mer om följande:
 
 - [KB-utdatapublicering](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/output-presets-aemg/generate-output-knowledge-base)
 
-- [AEM mallar](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/templates/templates)
+- [AEM mallar](https://experienceleague.adobe.com/sv/docs/experience-manager-65/content/implementing/developing/platform/templates/templates)
 
 - **Community-forum** - Besök [AEM Guides-forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions) om du vill ha sessionsspecifik communityinteraktion på Experience League.
 

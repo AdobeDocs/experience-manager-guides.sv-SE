@@ -68,9 +68,9 @@ Informationen i den här handboken är ordnad enligt följande:
 
 ## Ytterligare resurser
 
-Nedan följer en lista över andra användbara resurser i AEM Guides som finns på sidan [Lär dig mer och support](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html):
+Nedan följer en lista över andra användbara resurser i AEM Guides som finns på sidan [Lär dig mer och support](https://helpx.adobe.com/se/support/xml-documentation-for-experience-manager.html):
 
 - Användarhandbok
 - Referenshandbok för API
 - Snabbstartsguide
-- [Hjälparkivsida](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) \(använd äldre versionsdokumentation\)
+- [Hjälparkivsida](https://helpx.adobe.com/se/xml-documentation-for-experience-manager/archive.html) \(använd äldre versionsdokumentation\)

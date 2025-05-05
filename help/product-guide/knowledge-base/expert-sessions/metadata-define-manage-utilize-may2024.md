@@ -40,11 +40,11 @@ Under den här sessionen får du veta mer om följande:
 
 ### Dokumentation
 
-- [Metadatascheman](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/metadata-schemas)
-- [Metadataprofiler](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/metadata-profiles)
-- [Hantera metadata i DITA-resurser](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/authoring/reports/manage-metadata)
-- [Extrahera DITA-metadata som metadata](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/cs-ig/aem-asset-search-cs/conf-dita-search#id192SF0G10YK)
-- [Använd metadata i DITA-OT-utdata](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/conf-output-generation#id191LF0U0TY4)
+- [Metadatascheman](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/manage/metadata-schemas)
+- [Metadataprofiler](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/manage/metadata-profiles)
+- [Hantera metadata i DITA-resurser](https://experienceleague.adobe.com/sv/docs/experience-manager-guides/using/knowledge-base/kb-articles/authoring/reports/manage-metadata)
+- [Extrahera DITA-metadata som metadata](https://experienceleague.adobe.com/sv/docs/experience-manager-guides/using/install-guide/cs-ig/aem-asset-search-cs/conf-dita-search#id192SF0G10YK)
+- [Använd metadata i DITA-OT-utdata](https://experienceleague.adobe.com/sv/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/conf-output-generation#id191LF0U0TY4)
 - [Använd metadata i PDF](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/web-editor/native-pdf-web-editor#native-pdf-publishing)
 
 

@@ -31,7 +31,7 @@ Så här hämtar och installerar du AEM Sites-mallar i Experience Manager Guides
    http://<server name>:<port>/crx/packmgr/index.jsp
    ```
 
-   Pakethanteraren hanterar paketen i din lokala AEM. Mer information om hur du arbetar med pakethanteraren finns i [Arbeta med paket](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html) i AEM.
+   Pakethanteraren hanterar paketen i din lokala AEM. Mer information om hur du arbetar med pakethanteraren finns i [Arbeta med paket](https://helpx.adobe.com/se/experience-manager/6-5/sites/administering/using/package-manager.html) i AEM.
 
 1. Klicka på **Överför paket** om du vill överföra paketet.
 
@@ -52,7 +52,7 @@ När paketen har installerats skapas en plats med namnet **AEMG** i webbplatsens
 
 
 **AEMG** innehåller följande komponenter.
-- Det finns en mapp för det engelska språket (en) i mappen **AEMG**. Du kan skapa liknande språkversioner som du vill. En flerspråkig webbplats innehåller t.ex. engelska (en), tyska (de) och franska (fr) språkkopior.  Läs mer om hur du skapar en språkkopia med [språkkopieringsguiden](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/introduction/tc-wizard).
+- Det finns en mapp för det engelska språket (en) i mappen **AEMG**. Du kan skapa liknande språkversioner som du vill. En flerspråkig webbplats innehåller t.ex. engelska (en), tyska (de) och franska (fr) språkkopior.  Läs mer om hur du skapar en språkkopia med [språkkopieringsguiden](https://experienceleague.adobe.com/sv/docs/experience-manager-65/content/sites/administering/introduction/tc-wizard).
 - I den engelska språkmappen (en) innehåller Experience Manager Guides många exempelsidor som **Sök**, **Logga in**, **Dokument** och **Support**.
 
 - **Dokument** är exempeldokumentationens startsida. Det är en central plats för all produktrelaterad dokumentation
@@ -97,7 +97,7 @@ Så här redigerar du ämnesmallarna:
 1. Välj den mall som du vill redigera.
 1. Välj ikonen **Redigera** längst upp.
 
-AEM mallredigeraren öppnas. Du kan redigera ämnesmallen. Läs mer om [Skapa sidmallar](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/siteandpage/templates#editing-a-template-structure-template-author).
+AEM mallredigeraren öppnas. Du kan redigera ämnesmallen. Läs mer om [Skapa sidmallar](https://experienceleague.adobe.com/sv/docs/experience-manager-65/content/sites/authoring/siteandpage/templates#editing-a-template-structure-template-author).
 
 
 ## Anpassa befintliga AEM Sites-mallar

@@ -16,16 +16,16 @@ ht-degree: 0%
 
 AEM Guides är en plugin som installeras ovanpå Adobe Experience Manager. För installation av AEM krävs att du förstår vissa grundläggande AEM och rekommenderade distributionsscenarier. Följande länkar hjälper dig att komma igång med AEM installation:
 
-- [Grundläggande AEM](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/deploy.html#BasicConcepts)
+- [Grundläggande AEM](https://helpx.adobe.com/se/experience-manager/6-5/sites/deploying/using/deploy.html#BasicConcepts)
 
-- [Rekommenderade AEM](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/recommended-deploys.html)
+- [Rekommenderade AEM](https://helpx.adobe.com/se/experience-manager/6-5/sites/deploying/using/recommended-deploys.html)
 
 
 >[!IMPORTANT]
 >
 > Om du använder Java 11 med AEM 6.5.x kan du råka ut för ett problem - *JDK 11 orsakar`NoClassDefFoundError`*. Referens [JDK 11 orsakar NoClassDefFoundError \| AEM 6.5 ](https://helpx.adobe.com/experience-manager/kb/jdk-11-causes-noclassdeffounderror---aem-6-5.html) -artikel som löser det här problemet.
 
-När du har identifierat den distributionsstrategi som fungerar bäst för din organisation ska du utföra installationsprocessen enligt beskrivningen i avsnittet *[Komma igång](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/deploy.html#GettingStarted)* i AEM.
+När du har identifierat den distributionsstrategi som fungerar bäst för din organisation ska du utföra installationsprocessen enligt beskrivningen i avsnittet *[Komma igång](https://helpx.adobe.com/se/experience-manager/6-5/sites/deploying/using/deploy.html#GettingStarted)* i AEM.
 
 Om du tänker uppgradera din AEM måste du följa den angivna sekvensen:
 

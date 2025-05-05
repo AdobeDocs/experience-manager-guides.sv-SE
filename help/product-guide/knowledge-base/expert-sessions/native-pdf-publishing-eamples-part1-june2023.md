@@ -44,9 +44,9 @@ Under den här sessionen får du veta mer om Native PDF:
 
 - **Inbyggda installationssteg för PDF** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.html?lang=en)
 
-- **Funktionell översikt över PDF-publicering** - [på Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23.html?lang=en)
+- **Funktionell översikt över PDF-publicering** - [på Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23.html?lang=sv-SE)
 
-- **Dokumenterade användningsfall** - [på Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/content-styles/stylesheet.html?lang=en)
+- **Dokumenterade användningsfall** - [på Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/content-styles/stylesheet.html?lang=sv-SE)
 
 - **Community-forum** - Besök [AEM Guides-forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions) om du vill ha sessionsspecifik communityinteraktion på Experience League.
 

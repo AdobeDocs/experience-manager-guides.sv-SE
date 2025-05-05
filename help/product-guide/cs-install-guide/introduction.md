@@ -66,16 +66,16 @@ Informationen i den här handboken är ordnad enligt följande:
 
 [Adobe Experience Manager \(AEM\)](https://business.adobe.com/products/experience-manager/adobe-experience-manager.html) är en omfattande innehållshanteringslösning för att skapa webbplatser, mobilappar och formulär. AEM hjälper er att hantera ert marknadsföringsinnehåll och era marknadsföringsresurser. AEM finns as a Cloud Service. AEM as a Cloud Service hjälper er att ge era kunder personaliserade, innehållsledda upplevelser genom att kombinera kraften i AEM Content Management System med AEM Digital Asset Management. Några av de viktigaste resurserna som kan hjälpa er att komma igång och driftsätta i AEM as a Cloud Service är följande:
 
-- [as a Cloud Service översikt för Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html?lang=en)
-- [Komma igång med migreringsresan till AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/migration-journey/getting-started.html?lang=en)
-- [Starta introduktionen till Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/home.html?lang=enhttps://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/home.html?lang=en)
-- [Implementera program för AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/home.html?lang=en)
-- [Distribuera till AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/deploying/overview.html?lang=en)
-- [Assets as a Cloud Service Guide](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/home.html?lang=en)
+- [as a Cloud Service översikt för Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html?lang=sv-SE)
+- [Komma igång med migreringsresan till AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/migration-journey/getting-started.html?lang=sv-SE)
+- [Starta introduktionen till Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/home.html?lang=sv-SEhttps://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/home.html?lang=en)
+- [Implementera program för AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/home.html?lang=sv-SE)
+- [Distribuera till AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/deploying/overview.html?lang=sv-SE)
+- [Assets as a Cloud Service Guide](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/home.html?lang=sv-SE)
 
 ## Ytterligare resurser
 
-Nedan följer en lista över andra användbara resurser i AEM Guides som finns på sidan [Lär dig mer och support](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html):
+Nedan följer en lista över andra användbara resurser i AEM Guides som finns på sidan [Lär dig mer och support](https://helpx.adobe.com/se/support/xml-documentation-for-experience-manager.html):
 
 - Användarhandbok
 - Referenshandbok för API

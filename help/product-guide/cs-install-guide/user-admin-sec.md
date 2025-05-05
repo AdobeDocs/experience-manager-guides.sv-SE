@@ -18,9 +18,9 @@ Om du vill komma åt och konfigurera funktioner i AEM Guides måste du skapa anv
 
 Följande avsnitt i AEM-dokumentationen hjälper dig att förstå användaradministration och säkerhetsrelaterade koncept och funktioner:
 
-- [AEM användare, grupper och behörigheter](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html)
+- [AEM användare, grupper och behörigheter](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html?lang=sv-SE)
 
-- [Användaradministration och -säkerhet](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html)
+- [Användaradministration och -säkerhet](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html?lang=sv-SE)
 
 
 ## Användargrupper skapade av AEM Guides {#id181TF0K0MHT}

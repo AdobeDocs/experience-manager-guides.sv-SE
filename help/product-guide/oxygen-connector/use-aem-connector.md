@@ -44,7 +44,7 @@ När du har installerat installationsprogrammet installerar du det på den lokal
 
 >[!IMPORTANT]
 >
->Om du har en äldre version av plugin-programmet installerad på datorn måste du avinstallera det innan du startar installationsprocessen. Avinstallationsanvisningar finns i avsnittet **Avinstallera paket** i artikeln [Arbeta med paket](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html) .
+>Om du har en äldre version av plugin-programmet installerad på datorn måste du avinstallera det innan du startar installationsprocessen. Avinstallationsanvisningar finns i avsnittet **Avinstallera paket** i artikeln [Arbeta med paket](https://helpx.adobe.com/se/experience-manager/6-4/sites/administering/using/package-manager.html) .
 
 Utför följande steg på datorn där Oxygen XML Author är installerat:
 
@@ -78,7 +78,7 @@ Utför följande steg på datorn där Oxygen XML Author är installerat:
 
 >[!IMPORTANT]
 >
->Om du har en äldre version av plugin-programmet installerad på datorn måste du avinstallera det innan du startar installationsprocessen. Se avsnittet **Avinstallera paket** i artikeln [Så här arbetar du med paket](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html) avinstallationsinstruktioner.
+>Om du har en äldre version av plugin-programmet installerad på datorn måste du avinstallera det innan du startar installationsprocessen. Se avsnittet **Avinstallera paket** i artikeln [Så här arbetar du med paket](https://helpx.adobe.com/se/experience-manager/6-4/sites/administering/using/package-manager.html) avinstallationsinstruktioner.
 
 Utför följande steg på datorn där Oxygen XML Author är installerat:
 
@@ -117,7 +117,7 @@ Som AEM administratör följer du de här stegen för att installera paketet:
 
    `http://<server name>:<port>/crx/packmgr/index.jsp`
 
-   Pakethanteraren hanterar paketen i din lokala AEM. Mer information om hur du arbetar med pakethanteraren finns i [Arbeta med paket](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developer-tools/package-manager.html?lang=en) i AEM.
+   Pakethanteraren hanterar paketen i din lokala AEM. Mer information om hur du arbetar med pakethanteraren finns i [Arbeta med paket](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developer-tools/package-manager.html?lang=sv-SE) i AEM.
 
    ![Pakethanteraren](images/package-manager.png) {width="650" align="left"}
 

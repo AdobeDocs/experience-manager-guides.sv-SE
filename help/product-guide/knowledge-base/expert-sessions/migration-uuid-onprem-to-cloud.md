@@ -50,9 +50,9 @@ Och steg för att flytta stödlinjer (uuid) till molnet:
 
 ### Dokumentation
 
-- [Flyttar till AEM Cloud](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/migration-journey/getting-started)
+- [Flyttar till AEM Cloud](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/migration-journey/getting-started)
 - [AEM Guides: Flytta UUID-innehåll från lokalt/AMS till molnet](../../cs-install-guide/migrate-on-premise-content-cloud.md)
-- [Verktyget Innehållsöverföring: Vanliga frågor](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/migration/moving-to-aem-as-a-cloud-service/content-migration/faq)
+- [Verktyget Innehållsöverföring: Vanliga frågor](https://experienceleague.adobe.com/sv/docs/experience-manager-learn/cloud-service/migration/moving-to-aem-as-a-cloud-service/content-migration/faq)
 - [AEM Guides: Migrera icke-uuid-innehåll till molnet](../../install-guide/migrate-uuid-non-uuid.md)
 
 ### Community Forum

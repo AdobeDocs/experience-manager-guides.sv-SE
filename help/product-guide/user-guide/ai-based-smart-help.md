@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Förbättra effektiviteten med smart hjälp i AI Assistant (Beta)
 
-Experience Manager Guides tillhandahåller den GenAI-baserade smarta hjälpen, en konversationssökfunktion som hjälper dig att hitta relevant innehåll från [Adobe Experience Manager Guides-dokumentationen](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
+Experience Manager Guides tillhandahåller den GenAI-baserade smarta hjälpen, en konversationssökfunktion som hjälper dig att hitta relevant innehåll från [Adobe Experience Manager Guides-dokumentationen](https://experienceleague.adobe.com/sv/docs/experience-manager-guides/using/overview).
 
 Du kan ställa frågor och få svar på ett informativt sätt. Svaret på din fråga baseras på innehållet i produktdokumentationen. Den här sökningen är helt konversationell. Du kan ställa frågor om de olika funktionerna i Experience Manager Guides eller ställa frågor om felsökning. Beroende på svaret kan du även ställa ytterligare frågor. Svaret innehåller även länkar till källdokument, som du kan referera till för mer information.
 

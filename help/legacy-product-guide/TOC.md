@@ -16,7 +16,7 @@ ht-degree: 0%
 
 - [Ansvarsfriskrivning](disclaimer.md)
 - [[!DNL AEM Guides] - översikt](overview.md)
-- [Versionsinformation](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/release-info/aem-guides-releases-roadmap){target="_blank"}
+- [Versionsinformation](https://experienceleague.adobe.com/sv/docs/experience-manager-guides/using/release-info/aem-guides-releases-roadmap){target="_blank"}
 - Användarhandbok (gammalt användargränssnitt) {#user-guide}
    - Introduktion {#about-aem-guide}
       - [Om [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
@@ -142,5 +142,5 @@ ht-degree: 0%
       - [Återanvänd innehåll - rapport](./user-guide/reports-content-reuse.md)
       - [Statusrapport för konvertering](./user-guide/reports-convertion-status.md)
       - [Rapport över versionshistorik för återskapade filer](./user-guide/reports-reverted-file-version-history.md)
-- [ANVÄNDARHANDBOK (NYTT UI)](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/about-aemg/intro)
+- [ANVÄNDARHANDBOK (NYTT UI)](https://experienceleague.adobe.com/sv/docs/experience-manager-guides/using/user-guide/about-aemg/intro)
 

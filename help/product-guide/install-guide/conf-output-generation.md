@@ -185,7 +185,7 @@ Utför följande steg för att ange en egen designmall som ska användas för at
 >
 > När du har skapat en anpassad designmallsnod måste du uppdatera designalternativet i AEM för webbplatsutdata för att kunna använda den anpassade designmallsnoden.
 
-Mer information finns i [Skapa din första Adobe Experience Manager 6.3-webbplats](https://helpx.adobe.com/experience-manager/using/first_aem63_website.html) och [Grunderna](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/the-basics.html) för att utveckla din egen webbplats på AEM.
+Mer information finns i [Skapa din första Adobe Experience Manager 6.3-webbplats](https://helpx.adobe.com/experience-manager/using/first_aem63_website.html) och [Grunderna](https://helpx.adobe.com/se/experience-manager/6-3/sites/developing/using/the-basics.html) för att utveckla din egen webbplats på AEM.
 
 ### Använd dokumenttitel för att generera AEM webbplatsutdata
 
@@ -642,11 +642,11 @@ AEM Guides tillhandahåller kategorin `apps.fmdita.dashboard-extn` för att anpa
 
 >[!NOTE]
 >
-> Mer information om hur du skapar AEM klientbibliotek finns i [Använda bibliotek på klientsidan](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/clientlibs.html).
+> Mer information om hur du skapar AEM klientbibliotek finns i [Använda bibliotek på klientsidan](https://helpx.adobe.com/se/experience-manager/6-4/sites/developing/using/clientlibs.html).
 
 ## Hantera bildåtergivning under generering av utdata {#id177BF0G0VY4}
 
-AEM innehåller en uppsättning standardarbetsflöden och mediehandtag för att bearbeta resurser. I AEM finns fördefinierade arbetsflöden för att hantera resursbearbetning för de vanligaste MIME-typerna. För varje bild som du överför skapas vanligtvis flera återgivningar av samma bild i binärt format AEM. Dessa återgivningar kan ha olika storlek, med olika upplösning, med vattenstämpel eller någon annan förändrad egenskap. Mer information om hur AEM hanterar resurser finns i [Bearbeta Assets med mediehanterare och arbetsflöden](https://helpx.adobe.com/experience-manager/6-5/assets/using/media-handlers.html) i AEM.
+AEM innehåller en uppsättning standardarbetsflöden och mediehandtag för att bearbeta resurser. I AEM finns fördefinierade arbetsflöden för att hantera resursbearbetning för de vanligaste MIME-typerna. För varje bild som du överför skapas vanligtvis flera återgivningar av samma bild i binärt format AEM. Dessa återgivningar kan ha olika storlek, med olika upplösning, med vattenstämpel eller någon annan förändrad egenskap. Mer information om hur AEM hanterar resurser finns i [Bearbeta Assets med mediehanterare och arbetsflöden](https://helpx.adobe.com/se/experience-manager/6-5/assets/using/media-handlers.html) i AEM.
 
 Med AEM Guides kan du konfigurera vilken bildåtergivning som ska användas när utdata genereras för dina dokument. Du kan till exempel välja mellan en av standardbildåtergivningarna eller skapa en och använda samma för att publicera dina dokument. Mappning av bildåtergivning för publicering av dina dokument lagras i filen `/libs/fmdita/config/ **renditionmap.xml**`. Ett fragment av filen `renditionmap.xml` är följande:
 

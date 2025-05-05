@@ -51,7 +51,7 @@ Under den här sessionen får du veta mer om följande:
 
 ## Relaterade resurser
 
-- **Funktionsvideor** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/folder-profiles.html)
+- **Funktionsvideor** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/folder-profiles.html?lang=sv-SE)
 
 - **Användarhandbok** - [Författarinnehåll](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Freports-intro.html)
 

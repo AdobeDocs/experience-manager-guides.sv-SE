@@ -25,10 +25,10 @@ Tack vare integreringen mellan Experience Manager Guides och Adobe Workfront kan
 
 * Planera, fördela och spåra arbetets förlopp utan att behöva använda flera olika, icke-integrerade verktyg.
 * Hantera alla Experience Manager Guides-arbetsflöden effektivare - redigering, granskning, publicering och översättning.
-* Få e-postmeddelanden från Adobe Workfront när nya uppgifter tilldelas. Mer information finns i [Översikt över meddelanden](https://experienceleague.adobe.com/en/docs/workfront/using/basics/use-notifications/wf-notifications).
+* Få e-postmeddelanden från Adobe Workfront när nya uppgifter tilldelas. Mer information finns i [Översikt över meddelanden](https://experienceleague.adobe.com/sv/docs/workfront/using/basics/use-notifications/wf-notifications).
 * Övervaka projekthälsan med Adobe Workfront intuitiva kontrollpanel som ger realtidsinsikter om projektresultaten.
 
-  Läs [Planera en projektöversikt](https://experienceleague.adobe.com/en/docs/workfront/using/manage-work/projects/plan-a-project/plan-project) om du vill veta mer om Adobe Workfront robusta projekthanteringsfunktioner som är aktiverade för projektledare i Experience Manager Guides.
+  Läs [Planera en projektöversikt](https://experienceleague.adobe.com/sv/docs/workfront/using/manage-work/projects/plan-a-project/plan-project) om du vill veta mer om Adobe Workfront robusta projekthanteringsfunktioner som är aktiverade för projektledare i Experience Manager Guides.
 
 ## Kom igång
 
@@ -61,7 +61,7 @@ Följande funktioner finns på Workfront uppgiftssida:
 
 På sidan för Workfront-uppgifter finns också en utlänningsikon ![](./images/Smock_LinkOut_18_N.svg) som tar dig till Adobe Workfront projektsida när du har valt den. Här kan du visa aktivitetsinformation, visa kommentarer, lägga till kommentarer och få tillgång till andra funktioner baserat på behörigheter som är mappade med ditt Adobe Workfront-konto.
 
-Mer information finns i [Översikt över Project-, Task- och Issue-datum i Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/navigate/definitions-pti-dates).
+Mer information finns i [Översikt över Project-, Task- och Issue-datum i Workfront](https://experienceleague.adobe.com/sv/docs/workfront/using/basics/navigate/definitions-pti-dates).
 
 ### Skapa Workfront-uppgifter
 
@@ -122,7 +122,7 @@ En ny uppgift skapas och visas under fliken **Skapad av dig**.
 
 >[!NOTE]
 >
-> Som projektledare kan du visa den här nyskapade uppgiften på Adobe Workfront-kontrollpanelen tillsammans med annan viktig information om aktiviteten. Mer information finns i [Förstå instrumentpaneler](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/dashboards/understand-dashboards/understand-dashboards).
+> Som projektledare kan du visa den här nyskapade uppgiften på Adobe Workfront-kontrollpanelen tillsammans med annan viktig information om aktiviteten. Mer information finns i [Förstå instrumentpaneler](https://experienceleague.adobe.com/sv/docs/workfront/using/reporting/dashboards/understand-dashboards/understand-dashboards).
 
 ### Hantera uppgifter som du har skapat
 

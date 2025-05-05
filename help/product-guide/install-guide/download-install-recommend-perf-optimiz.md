@@ -17,7 +17,7 @@ ht-degree: 0%
 ## Konfigurera datalager \(obligatoriskt\)
 
 **Vad är ändringen?**
-Ställ in egenskapen `minRecordLength` på värdet `100` under konfigurationen `org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.` Mer information om fillagring och S3-datalager finns i artikeln [Konfigurera nodarkiv och datalager i AEM 6](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/data-store-config.html) .
+Ställ in egenskapen `minRecordLength` på värdet `100` under konfigurationen `org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.` Mer information om fillagring och S3-datalager finns i artikeln [Konfigurera nodarkiv och datalager i AEM 6](https://helpx.adobe.com/se/experience-manager/6-5/sites/deploying/using/data-store-config.html) .
 
 >[!NOTE]
 >
