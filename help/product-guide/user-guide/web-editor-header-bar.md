@@ -23,4 +23,4 @@ Använd ikonen **Expandera** i verktygsfältet för att dölja rubrikfältet och
 
 
 
-**Överordnat ämne:**[ Introduktion till redigeraren](web-editor.md)
+**Överordnat ämne:**&#x200B;[ Introduktion till redigeraren](web-editor.md)

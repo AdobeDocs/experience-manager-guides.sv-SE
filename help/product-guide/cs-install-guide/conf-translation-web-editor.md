@@ -48,4 +48,4 @@ Så här döljer du fliken **Hantera** i Web Editor:
 
 Observera att filtret **Hantera** inte längre är tillgängligt.
 
-**Överordnat ämne:**[ Anpassa Web Editor](conf-web-editor.md)
+**Överordnat ämne:**&#x200B;[ Anpassa Web Editor](conf-web-editor.md)

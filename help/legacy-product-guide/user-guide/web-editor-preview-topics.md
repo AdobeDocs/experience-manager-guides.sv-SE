@@ -219,4 +219,4 @@ Om kolumnen Utcheckad inte visas väljer du **Visa inställningar** under **List
 
   En ny gren skapas från den valda versionen av ämnet. Processen ovan gäller även när du vill återgå till en specifik version av ett ämne. Att återgå till en viss version innebär tekniskt sett att du skapar en ny gren från den valda versionen och gör den versionen till aktuell arbetskopia av ämnet. Du kan också visa historiken för filer som har återförts i rapporten Återgå till tidigare version. Mer information om den här rapporten finns i [Versionshistorik för återskapade filer](reports-reverted-file-version-history.md#).
 
-**Överordnat ämne:**[ Skapa och förhandsgranska ämnen](create-preview-topics.md)
+**Överordnat ämne:**&#x200B;[ Skapa och förhandsgranska ämnen](create-preview-topics.md)

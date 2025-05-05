@@ -37,7 +37,7 @@ Du kan skapa mappnings- och ämnesmallar på följande sätt:
 
 ### Skapa anpassade mallar från Redigeraren
 
-Funktionen **Mallar** finns i den vänstra panelen i redigeraren](./web-editor-features.md#left-panel) och är bara tillgänglig för administratörer. [ Med den här panelen kan administratören enkelt skapa och hantera mallar som sedan kan användas av författarna. Som standard är mallarna kategoriserade under mallarna *map* och *topic* .
+Funktionen **Mallar** finns i den vänstra panelen i redigeraren[&#128279;](./web-editor-features.md#left-panel) och är bara tillgänglig för administratörer.  Med den här panelen kan administratören enkelt skapa och hantera mallar som sedan kan användas av författarna. Som standard är mallarna kategoriserade under mallarna *map* och *topic* .
 
 ![](images/templates-panel_cs.png){width="300" align="left"}
 
@@ -230,4 +230,4 @@ Kartan genererar alla resurser som refereras till inuti mallmappen. En del typer
 
 - Om en annan karta eller ett annat ämne skapas på samma nivå i mappen läggs namnen på de nyskapade resurserna till med 0,1,2 och så vidare. Du kan välja att öppna kartan för redigering eller spara kartfilen i databasen.
 
-**Överordnat ämne:**[ Introduktion till kartredigeraren](map-editor.md)
+**Överordnat ämne:**&#x200B;[ Introduktion till kartredigeraren](map-editor.md)

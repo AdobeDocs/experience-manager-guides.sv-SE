@@ -51,7 +51,7 @@ Parametrarna för JVM-start bör justeras noggrant baserat på infrastrukturen o
 
 - Ställ in JVM-stackstorleken på minst 1/4 av det totala tillgängliga minnet. Använd parametern `-Xmx<size>` för att ange heap-minnesstorleken. Ange värdet för -`Xms` är lika med `-Xmx`.
 
-- Aktivera `-XX:+HeapDumpOnOutOfMemoryError` och ange sökvägen för `-XX:HeapDumpPath=</path/to/folder``>`.
+- Aktivera `-XX:+HeapDumpOnOutOfMemoryError` och ange sökvägen för `-XX:HeapDumpPath=</path/to/folder` `>`.
 
 - Aktivera Java GC-logg som:
 
@@ -115,4 +115,4 @@ Detta kan göras vid körning via Felix Console eller via koddistribution.
 Ett ökat antal **Begränsa AEM webbplatssidor i heap** -egenskapen optimerar genereringsprocessen för AEM.
 
 
-**Överordnat ämne:**[ Hämta och installera](download-install.md)
+**Överordnat ämne:**&#x200B;[ Hämta och installera](download-install.md)

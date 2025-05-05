@@ -34,7 +34,7 @@ Gör så här för att kontrollera referenserna med det valideringsskript som fi
 1. Kör valideringsskriptet \[`/bin/fmdita/validatebtree?operation=validate`\] för att kontrollera om det finns några nya brutna referenser.
 1. Om valideringsskriptet rapporterar fel kan du åtgärda det med hjälp av korrigeringsskriptet.
 1. Registrera nedanstående uppgifter och dela dem vid behov med kundens framgångsgrupp:
-1. 
+1. &#x200B;
    - Loggar som skrivs ut med valideringsskript
 - Paket med `/content/fmdita/references`
 - Övriga obligatoriska uppgifter beroende på scenario som rapporteras
@@ -50,7 +50,7 @@ Utför följande steg för att korrigera eventuella brutna referenser med hjälp
 > Vi rekommenderar att du kopierar och sparar loggarna i referenssyfte.
 
 1. När korrigeringsskriptet har körts kan du utföra följande kontroller:
-1. 
+1. &#x200B;
    - Kontrollera att den nya noden `references_backup_<timestamp>"` har skapats under `/content/fmdita`
 - Kontrollera att referenserna har åtgärdats
 
@@ -344,7 +344,7 @@ I följande exempel visas hur du flyttar en `title` till en `table`:
 
 `paragraphStyleRule`-elementen beskrivs nedan:
 
-** `paraRule` element**
+**&#x200B; `paraRule` element**
 
 Elementet `paraRule` är obligatoriskt. Detta anger mappningsreglerna för alla styckeformat. I ett styckedokument finns all InDesign i en understruktur till styckeformat, även stycken utan format med namnet `\[No paragraph style\]`. Hakparenteserna anger ett inbyggt namn på InDesignen.
 

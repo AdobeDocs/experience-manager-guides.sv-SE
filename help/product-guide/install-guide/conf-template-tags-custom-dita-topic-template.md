@@ -77,4 +77,4 @@ Så här konfigurerar du en mapp för dina anpassade ämnesmallar i DITA:
 
 Om den angivna platsen finns i DAM kopieras alla standardmallar för kartor och ämnen till den mappen. Om platsen inte finns, skapas mappen med alla standardmallar för kartor och ämnen.
 
-**Överordnat ämne:**[ Konfigurera ämne- och mappningsmallar](conf-template-tags.md)
+**Överordnat ämne:**&#x200B;[ Konfigurera ämne- och mappningsmallar](conf-template-tags.md)

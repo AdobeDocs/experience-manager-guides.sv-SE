@@ -55,4 +55,4 @@ Så här hämtar och installerar du AEM Guides första gången på en dator:
 >
 > Utför installationsproceduren på alla instanser av AEM servrar i installationen.
 
-**Överordnat ämne:**[ Hämta och installera](download-install.md)
+**Överordnat ämne:**&#x200B;[ Hämta och installera](download-install.md)

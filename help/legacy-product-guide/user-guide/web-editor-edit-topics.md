@@ -49,6 +49,7 @@ Om du tar bort det markerade innehållet sammanfogas det återstående innehåll
 
    - Markera innehållet i ett element.
    - Välj ikonen ![lägg till](images/Add_icon.svg) i det sekundära verktygsfältet högst upp för att visa dialogrutan **Surround with Element** . I dialogrutan visas giltiga element för det markerade innehållet.
+
      >[!NOTE]
      >
      > Du kan också visa dialogrutan Surround med element genom att välja snabbmenyn för det markerade innehållet.
@@ -106,4 +107,4 @@ När du öppnar en fil i Web Editor kan du använda Experience Manager Guides f�
 Du kan inaktivera funktionen för att hitta filen med alternativet **Hitta alltid filer i databasen** på fliken **Utseende** i **Användarinställningarna**.
 
 
-**Överordnat ämne:**[ Arbeta med webbredigeraren](web-editor.md)
+**Överordnat ämne:**&#x200B;[ Arbeta med webbredigeraren](web-editor.md)

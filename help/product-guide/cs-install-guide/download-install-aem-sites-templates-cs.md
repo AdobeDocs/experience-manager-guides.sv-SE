@@ -113,8 +113,10 @@ Du behöver följande två typer av mallar:
   ![sidmall för avsnitt](assets/customize-existing-aem-templates-section.png)
    - Detaljsida eller mall för ämnessida: Använd den här mallen för innehållet i ett avsnitt i en karta. Alla webbplatssidor i DITA-/XML-innehåll skapas med ämnessidmallar. Det finns två krav för att skapa de här mallarna:
       - Lägg till en textkomponent i mallen, som finns i en behållarkomponent, med en obligatorisk egenskap. `text="$topic.content$"`.
+
         ![behållarsidmall](assets/customize-existing-aem-templates-container.png)
       - Återspegla samma behållare och textkomponent i strukturen för samma mall, vilket visas i följande skärmbild:
+
         ![behållarmallens struktur](assets/customize-existing-aem-templates-structure.png)
 
 ### Tagga kategorisida som dokumentationsbehållare

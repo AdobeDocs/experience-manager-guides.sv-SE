@@ -79,4 +79,4 @@ När översättningen är klar ändras översättningsjobbets status till *Klar 
 >- Om du avvisar, tar bort eller avbryter översättningsjobbet för ett ämne som finns i flera projekt (för något av projekten) återställs inte översättningsstatusen **Pågår** för ämnet, men projektet tas bort från projektlistan **Pågår** för den aktuella resursen.
 >- Om du dessutom avbryter eller tar bort översättningsjobbet eller tar bort hela projektet återställs översättningsstatusen **Pågår** till den ursprungliga statusen.
 
-**Överordnat ämne:**[&#x200B;Översikt över innehållsöversättning](translation.md)
+**Överordnat ämne:**&#x200B;[&#x200B;Översikt över innehållsöversättning](translation.md)

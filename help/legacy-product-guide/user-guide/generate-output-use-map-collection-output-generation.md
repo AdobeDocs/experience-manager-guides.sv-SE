@@ -89,6 +89,7 @@ Så här konfigurerar och genererar du utdata med en kartsamling:
    - Aktivera alla enskilda förinställningar.
    - Aktivera **Alla förinställningar** för en DITA-karta om du vill välja alla förinställningar på en gång. Det här alternativet är inaktiverat som standard.
    - Aktivera **mappprofilförinställningar** för en DITA-karta om du vill välja alla mappprofilförinställningar för den. Det här alternativet är inaktiverat som standard.
+
      ![redigera en kartsamling i molntjänster](images/edit-map-collection-cs.png){width="800" align="left"}
 
 
@@ -143,4 +144,4 @@ På samma sätt som du avbryter en utdatagenereringsaktivitet från [DITA-kartko
 
 ![](images/cancel-publish-task-map-collection.png){width="800" align="left"}
 
-**Överordnat ämne:**[ Utdatagenerering](generate-output.md)
+**Överordnat ämne:**&#x200B;[ Utdatagenerering](generate-output.md)

@@ -62,4 +62,4 @@ Följ de här stegen för att skapa ett markeringsämne från webbredigeraren:
 >
 > Om du inte har sparat ändringarna visas ett popup-fönster och du uppmanas att spara avsnittet innan du stänger det.
 
-**Överordnat ämne:**[ Arbeta med webbredigeraren](web-editor.md)
+**Överordnat ämne:**&#x200B;[ Arbeta med webbredigeraren](web-editor.md)

@@ -114,4 +114,4 @@ Du kan söka efter en sträng i AEM Sites-utdata. Som standard kan du bara söka
 
 Mer information finns i avsnittet *Konfigurera förenkling av nodstrukturen för AEM Site* i guiden Installera och konfigurera Adobe Experience Manager Guides.
 
-**Överordnat ämne:**[ Förstå förinställningarna för utdata](generate-output-understand-presets.md)
+**Överordnat ämne:**&#x200B;[ Förstå förinställningarna för utdata](generate-output-understand-presets.md)

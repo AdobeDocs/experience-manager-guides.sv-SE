@@ -54,4 +54,4 @@ Så här tar du med attributet `@navtitle` som standard i referensfilens egenska
 
 Med den här konfigurationen kommer alla referensfiler som du lägger till på en karta att innehålla attributet `@navtitle` som standard.
 
-**Överordnat ämne:**[ Anpassa Web Editor](conf-web-editor.md)
+**Överordnat ämne:**&#x200B;[ Anpassa Web Editor](conf-web-editor.md)

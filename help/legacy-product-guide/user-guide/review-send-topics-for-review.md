@@ -247,6 +247,7 @@ Så här skickar du ett eller flera avsnitt tillsammans med kartfilen för grans
    - **Tilldela om**: Visar dialogrutan Tilldela granskare igen. Du kan skriva namnet på en granskare eller användarroll \(eller grupp\) som du vill tilldela granskningsuppgiften till. Detta tar bort alla befintliga granskare från de markerade avsnitten och tilldelar de nyvalda granskarna till dessa ämnen.
    - **Exportera**: Gör att du kan exportera information om granskningsåtgärder i en CSV-fil. Filen innehåller information om ämnessökväg och rubrik, namn på granskare och version av ämnen som skickats för granskning.
    - **Redigera granskare**: Om du klickar på ikonen ![](images/edit_pencil_icon.svg) i ämneslistan visas dialogrutan Redigera granskare. Du kan lägga till eller ta bort granskare för det valda ämnet från den här dialogrutan.
+
    >[!IMPORTANT]
    >
    > Du måste tilldela minst en granskare för att skapa granskningsaktiviteten.
@@ -266,4 +267,4 @@ Så här skickar du ett eller flera avsnitt tillsammans med kartfilen för grans
 
 Ett e-postmeddelande skickas till alla granskare som meddelar att de har tilldelats ämnen för granskning. E-postmeddelandet innehåller en direkt länk som de kan klicka på och komma åt ämnet i ett webbläsarfönster. Ämnen tillsammans med DITA-kartan öppnas i granskningsläget.
 
-**Överordnat ämne:**[ Granska ämnen eller kartor](review.md)
+**Överordnat ämne:**&#x200B;[ Granska ämnen eller kartor](review.md)

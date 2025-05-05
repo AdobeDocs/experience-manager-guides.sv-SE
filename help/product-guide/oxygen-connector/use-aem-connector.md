@@ -255,6 +255,7 @@ Utför följande steg för att konfigurera profileringsattribut och korsreferens
 1. Gör följande ändringar på fliken **Tillägg**:
 
    - Klicka på **Välj** bredvid **tilläggspaketet** och välj   `LinkResolverExtensionBundle - com.adobe.o2.framework.extn` i listan **Klass** . Klicka på **OK**.
+
      ![Konfigurerat tillägg för DITA-ämnen](images/dita-map-extenstion-link-resolve.png) {width="650" align="left"}
    - Klicka på **Välj** intill **Författartilläggslägesavlyssnaren** under **Enskilda tillägg** och välj `CustomAuthorExtensionStateListener - com.adobe.o2.framework.extn` i listan **Klass**. Klicka på **OK**.
    - Klicka på **Välj** bredvid **redigeraren för anpassade attributvärden** under **Individuella tillägg** och välj `CustomValueEditor - com.adobe.o2.framework.extn` i listan **Klass**. Klicka på **OK**.

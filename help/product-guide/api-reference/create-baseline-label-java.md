@@ -122,7 +122,7 @@ public static void applyLabel(Session session,
 | `session` | javax.jcr.Session | En giltig JCR-session. |
 | `sourcePath` | Sträng | Absolut sökväg för DITA-mappningsfilen i AEM. |
 | ``baselineName`` | Sträng | Namnet på baslinjenoden som etiketten ska tillämpas på. Om du vill hämta namnet på baslinjenoden kan du använda metoden [\#id185NFF0085Z](#id185NFF0085Z) eller kontrollera baslinjenoden för DITA-kartan i CRXDE.<br> **Obs!** Etikett används på filversioner som refereras direkt från kartfilen i baslinjen. |
-| `label` | Sträng | En etikett som används på filer i baslinjen. Kontrollera att etiketten inte innehåller följande tecken: &amp;sol; &amp;komma; &amp;kolon; &amp;komma; komma; &amp;lbrack; &amp;komma; &amp;rbrack; &amp;komma; amp; &amp;vert; &amp;komma; &amp; amp;ast; <br> Om du vill ange flera etiketter ska du separera etiketterna med kommatecken, till exempel etikett 1, Etikett2. |
+| `label` | Sträng | En etikett som används på filer i baslinjen. Kontrollera att etiketten inte innehåller följande tecken: &sol; &komma; &kolon; &komma; komma; &lbrack; &komma; &rbrack; &komma; amp; &vert; &komma; &amp; amp;ast; <br> Om du vill ange flera etiketter ska du separera etiketterna med kommatecken, till exempel etikett 1, Etikett2. |
 
 **Undantag**:
 Utlöser `RepositoryException` .

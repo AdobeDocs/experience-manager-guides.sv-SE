@@ -195,4 +195,4 @@ Om du vill ta bort ett ämne från tabellen klickar du på kryssikonen bredvid �
 
 Om du vill ta bort relationstabellen klickar du utanför relationstabellen och klickar på Ta bort.
 
-**Överordnat ämne:**[ Arbeta med kartredigeraren](map-editor.md)
+**Överordnat ämne:**&#x200B;[ Arbeta med kartredigeraren](map-editor.md)

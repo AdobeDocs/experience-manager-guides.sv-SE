@@ -23,4 +23,4 @@ Dispatcher är Adobe Experience Managers verktyg för cachelagring och/eller bel
 >
 > AEM som molntjänst stöder inte dispatcher för författarinstansen.
 
-**Överordnat ämne:**[ Hämta och installera](download-install.md)
+**Överordnat ämne:**&#x200B;[ Hämta och installera](download-install.md)

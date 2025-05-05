@@ -42,6 +42,7 @@ Du kan skapa en ämnesrapport genom att utföra följande steg:
    - **Dokumenttillstånd** Ämnets aktuella tillstånd.
    - **Författare** Användaren som arbetade senast med ämnet.
    - **Överordnad karta** Listan över alla kartor där ämnet refereras direkt.
+
    >[!NOTE]
    >
    > Klicka på **Uppdatera** för att få en ny lista över ämnen och visa ändringar i kartfilen eller om en referens i ämnesfilen uppdateras.
@@ -137,6 +138,7 @@ Så här visar du metadata för referenserna i den aktuella DITA-kartan:
    - **Multimedietyp** \(vald som standard\) Multimedietyp. De tillgängliga alternativen är Ljud, Video eller Bild.
    - **Används i** \(markerat som standard\) Referenserna som multimediet har använts i. Du kan klicka på referensen för att redigera den.
    - **Referenstyp** \(valt som standard\) Referenstypen - direkt eller indirekt.
+
    >[!NOTE]
    >
    > Klicka på **Uppdatera** för att få en ny lista över multimedia och visa alla ändringar i kartfilen eller om några multimedia i DITA-kartan har uppdaterats.
@@ -159,9 +161,11 @@ Du kan visa rapporten för brutna länkar genom att utföra följande steg:
 1. På panelen **Filter** kan du sortera listan efter länkar eller efter namnen som används i referenser.
 
    - När du sorterar efter **Bruten länk** visas sökvägarna för de brutna länkarna i den första kolumnen och namnen på alla referenser där de har använts visas sedan i en annan kolumn på separata rader. Om samma brutna länk används i flera filer visas de på en rad och visas som grupperade eller underrader. På följande skärmbild visas tre brutna länkar i den första kolumnen och referensen som de används i visas `TestMap.ditamap` i den tredje kolumnen på tre separata rader.
+
    ![](images/broken-link-report.png){width="800" align="left"}
 
    - Om du sorterar efter kolumnen **Används i** visas den omformade vyn där namnen på referenserna där de brutna länkarna har använts listas i den första kolumnen medan de brutna länkarna listas i en annan kolumn på samma rad. På följande skärmbild visas referensen (i vilken den brutna länken används) `TestMap.ditamap` i den första kolumnen och de brutna länkarna visas i den tredje kolumnen på samma rad.
+
    ![](images/broken-link-filter-usedin.png){width="800" align="left"}
 1. Du kan filtrera brutna länkar baserat på **filtypen** och **länktypen**. Listan med brutna länkar visas baserat på ditt val i listrutan. Du kan t.ex. välja att bara visa innehållsreferenserna på DITA-kartan, och en fil visar bara de innehållsreferenser som används i den.
 
@@ -194,4 +198,4 @@ Klicka på **Uppdatera** för att få en ny lista över brutna länkar och visa 
 1. Klicka på **Hämta CSV** om du vill hämta den aktuella ögonblicksbilden av de brutna länkarna i DITA-kartan. CSV-filen innehåller de markerade kolumnerna och de brutna länkarna som filtreras i vyn Brutna länkar. Du kan sedan öppna och visa den här CSV-filen i valfri CSV-redigerare.
 
 
-**Överordnat ämne:**[ Rapporter](reports-intro.md)
+**Överordnat ämne:**&#x200B;[ Rapporter](reports-intro.md)

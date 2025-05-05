@@ -171,4 +171,4 @@ Utför följande steg för att exportera en översatt baslinje:
 1. \(Valfritt\) Om du vill exportera en baslinje som redan har exporterats väljer du **Skriv över befintlig baslinje** och sedan **Exportera baslinje**.
 
 
-**Överordnat ämne:**[ Utdatagenerering](generate-output.md)
+**Överordnat ämne:**&#x200B;[ Utdatagenerering](generate-output.md)

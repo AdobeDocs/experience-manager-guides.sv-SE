@@ -165,6 +165,7 @@ Utför följande steg för att utföra ovanstående åtgärder:
 1. Ändra egenskapen Visa rotation om du vill återge innehåll 90° medsols.
 
    1. Välj **Medsols 90°** i listrutan Vyrotation.
+
    <img src="./assets/view-rotation-page-props.png" width="300">
 
    1. Klicka på **Spara alla** för att spara de uppdaterade sidlayoutegenskaperna.
@@ -179,9 +180,11 @@ Utför följande steg för att utföra ovanstående åtgärder:
       Layoutformatmallen öppnas för redigering.
 
    1. Högerklicka på **Andra format** och välj **Nytt format**.
+
       <img src="./assets/stylesheet-other-new-style.png" width="300">
 
    1. Ange **liggande stil** i **klassnamnet** i popup-fönstret Lägg till stil.
+
       <img src="./assets/stylesheet-new-landscape-style.png" width="400">
 
    1. Klicka på **Klar**.
@@ -437,6 +440,7 @@ I följande exempel infogar vi ett sidnummer och en kapitelrubrik i sidfotsområ
    1. Klicka på **Innehållsegenskaper** i den högra panelen (<img src="./assets/content-properties-icon.png" width="25">).
 
    1. Expandera egenskapsavsnittet **Layout** och ange **Float**-egenskapsvärdet till **right**.
+
       <img src="./assets/float-prop-html-content.png" width="400">
 
       Fältet Kapiteltitel är justerat mot sidfotens högra sida.

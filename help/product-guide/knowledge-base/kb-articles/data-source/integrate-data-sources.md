@@ -53,6 +53,7 @@ Så här integrerar du innehållet i Experience Manager Guides:
 1. **Konfigurera datakällkopplingen**
    - Datakällans koppling fungerar som gränssnitt för att upprätta anslutning till externa datakällor. Du måste konfigurera anslutningen för att upprätta anslutningen och inkludera autentiseringsmetoder, som `Basic Auth` eller `API key Auth`. All konfigurationsinformation, inklusive krypterad information, lagras säkert i Adobe Experience Manager.
    - Kopplingslagret är utformat för att vara utbyggbart, så att du kan skapa implementeringar för att ansluta till olika system som inte levereras direkt från Experience Manager Guides.
+
      ![Kopplingslager](assets/data-source-connector-layer.jpg)
    >[!NOTE]
    >
@@ -98,8 +99,10 @@ Så här integrerar du innehållet i Experience Manager Guides:
         ```
 
       - Mallar
+
         ![Mallmotor](assets/data-source-TemplatingEngine.png){width="800" align="left"}
       - Data som genererats från samma datakälla men olika mallar
+
         ![Data genererade](assets/data-source-templates-topics.png){width="800" align="left"}
 
 1. **Generera innehåll med hjälp av mallar**

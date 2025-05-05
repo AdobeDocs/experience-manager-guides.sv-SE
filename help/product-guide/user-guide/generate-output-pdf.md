@@ -41,4 +41,4 @@ Mer information om hur du skapar PDF-förinställningar finns i [Skapa ursprungl
 
 
 
-**Överordnat ämne:**[ Förstå förinställningarna för utdata](generate-output-understand-presets.md)
+**Överordnat ämne:**&#x200B;[ Förstå förinställningarna för utdata](generate-output-understand-presets.md)

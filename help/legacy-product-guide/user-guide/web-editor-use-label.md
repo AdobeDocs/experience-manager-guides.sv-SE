@@ -16,7 +16,7 @@ ht-degree: 0%
 
 I AEM Guides kan du lägga till etiketter i olika versioner av en fil. Du kan använda dessa etiketter för att ange vilken version du vill ta med i en baslinje för publicering. Mer information om hur du använder etiketter för att skapa en baslinje finns i [Arbeta med baslinje](generate-output-use-baseline-for-publishing.md#).
 
-Om du till exempel vill använda *version 1.0* av ett ämne i *release 1.0* och *version 1.1* av samma ämne i *release 2.0* kan du lägga till etiketten *release 1.0* i *version 1.0* och *release 2.0{1* -etikett på *version 1.1* .
+Om du till exempel vill använda *version 1.0* av ett ämne i *release 1.0* och *version 1.1* av samma ämne i *release 2.0* kan du lägga till etiketten *release 1.0* i *version 1.0* och *release 2.0&lbrace;1* -etikett på *version 1.1* .
 
 När du har lagt till etiketterna kan du skapa en baslinje och ange vilken version av ämnet som ska inkluderas för publicering med den baslinjen. Om du vill se vilken version som ska inkluderas eller exkluderas i en baslinje kan du använda alternativet Tidigare versioner.
 
@@ -58,4 +58,4 @@ Så här tar du bort en etikett:
    ![](images/delete-labels.png){width="300" align="left"}
 
 
-**Överordnat ämne:**[ Arbeta med webbredigeraren](web-editor.md)
+**Överordnat ämne:**&#x200B;[ Arbeta med webbredigeraren](web-editor.md)

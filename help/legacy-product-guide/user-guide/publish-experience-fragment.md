@@ -37,6 +37,7 @@ Till exempel:
 
      Om du inte definierar en tillåten mall för en mapp hämtas mallarna som standard från den överordnade mappen eller mallmappen.
    * **Kan beställas**: Gör att du kan ändra ordningen på resurserna i en mapp.
+
      ![lägg till information om molnkonfiguration i mappegenskaperna](images/experience-fragment-folder-properties.png){width="650" align="left"}
      *Lägg till molnkonfigurationen i mappegenskaperna för att ansluta den till fragmentmallarna.*
 1. Om du vill generera ett Experience Fragment väljer du **Ny utdata** ![ny utdataikon](./images/Add_icon.svg) i avsnittet **Utdata** i **filegenskaper** för ett ämne.

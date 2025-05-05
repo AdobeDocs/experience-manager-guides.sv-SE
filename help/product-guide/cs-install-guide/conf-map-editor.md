@@ -33,4 +33,4 @@ Använd instruktionerna i [Konfigurationsåsidosättningar](download-install-add
 >
 > När en författare skapar en kartfil och väljer att öppna den för redigering startas som standard redigeringsprogrammet för grundläggande karta. När alternativet Redigera är markerat för en kartfil i Assets-gränssnittet öppnas det också i den grundläggande kartredigeraren.
 
-**Överordnat ämne:**[ Anpassa Web Editor](conf-web-editor.md)
+**Överordnat ämne:**&#x200B;[ Anpassa Web Editor](conf-web-editor.md)

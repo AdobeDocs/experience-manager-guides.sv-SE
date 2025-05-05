@@ -40,4 +40,4 @@ Så här skapar du smarta taggar:
 
 *Kontakta kundens framgångsgrupp för att aktivera den här funktionen i miljön. Detta är inte aktiverat som en del av det färdiga stödet.*
 
-**Överordnat ämne:**[ Hantera metadata](manage-metadata.md)
+**Överordnat ämne:**&#x200B;[ Hantera metadata](manage-metadata.md)

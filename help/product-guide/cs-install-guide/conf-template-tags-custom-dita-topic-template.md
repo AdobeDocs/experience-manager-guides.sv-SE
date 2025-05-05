@@ -64,4 +64,4 @@ Använd instruktionerna i [Konfigurationsåsidosättningar](download-install-add
 |---|------------|--------------|
 | `com.adobe.fmdita.config.ConfigManager` | `topic.templates` | Ange en plats där du vill lagra anpassade mallar.<br> Om den angivna platsen finns i DAM kopieras alla standardmappnings- och ämnesmallar till den mappen. Om platsen inte finns, skapas mappen med alla standardmallar för kartor och ämnen. |
 
-**Överordnat ämne:**[ Konfigurera ämne- och mappningsmallar](conf-template-tags.md)
+**Överordnat ämne:**&#x200B;[ Konfigurera ämne- och mappningsmallar](conf-template-tags.md)

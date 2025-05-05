@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Redigerare:
 
-- [&quot;other_attribute_list_item`](./jsons/editor/other_attribute_list_item.json)
+- [&quot;other_attribute_list_item&grave;](./jsons/editor/other_attribute_list_item.json)
 
   Anpassa attributkonfigurationen som visas på den högra panelen i Egenskaper för innehåll, under underavsnittet Attribut.
 
@@ -50,7 +50,7 @@ Snabbmenyer:
 
 Granskningsapp:
 
-- [&quot;inline_review_panel`](./jsons/review_app/inline_review_panel.json)
+- [&quot;inline_review_panel&grave;](./jsons/review_app/inline_review_panel.json)
 
   Justera den högra panelen på granskningssidan och användargränssnittet för stödlinjer för att visa kommentarer.
 
@@ -78,7 +78,7 @@ Granskningsapp:
 
   Ändra den vänstra panelen på granskningssidan och lägg till eller ta bort specifika paneler.
 
-- [&quot;review_left_panel_topics`](./jsons/review_app/review_left_panel_topics.json)
+- [&quot;review_left_panel_topics&grave;](./jsons/review_app/review_left_panel_topics.json)
 
   Anpassa hierarkin eller ämneslistan på granskningssidan och den vänstra panelen i redigeraren för stödlinjer.
 

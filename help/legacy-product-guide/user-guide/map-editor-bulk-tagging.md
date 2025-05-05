@@ -108,4 +108,4 @@ Utför följande steg för att ta bort alla taggar från ett eller flera ämnen:
 
 Om du har en lång lista med taggar som används i dina ämnen kan det vara lite besvärligt att navigera. Du kan enkelt dölja taggar i från DITA-kartkonsolvyn genom att klicka på ikonen Dölj taggar. Om taggarna inte visas visas visas alla taggar om du klickar på Visa taggar.
 
-**Överordnat ämne:**[ Hantera metadata](manage-metadata.md)
+**Överordnat ämne:**&#x200B;[ Hantera metadata](manage-metadata.md)

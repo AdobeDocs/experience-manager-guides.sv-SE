@@ -76,7 +76,7 @@ Om samma ämne refereras till mer än en gång i en fil kan du lägga till olika
 
 ![Äldre AEM Sites-förinställning](assets/aem-sites-legacy.png)
 
-*Ange publiceringskontext för de länkade avsnitten på fliken **Korsmappningsreferenser**i **AEM Sites**-förinställningen.*
+*Ange publiceringskontext för de länkade avsnitten på fliken **Korsmappningsreferenser**&#x200B;i **AEM Sites**-förinställningen.*
 
 Läs mer om [AEM Sites-förinställningar](../user-guide/generate-output-aem-site.md).
 

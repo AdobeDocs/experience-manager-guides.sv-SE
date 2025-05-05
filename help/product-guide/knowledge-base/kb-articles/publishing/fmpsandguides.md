@@ -86,8 +86,7 @@ Du kan publicera baslinjer som du redan skapat med FMPS2020.0.2 eller senare.
 
 >FMPS2020.0.2 eller senare versioner är kompatibla med baslinjepublicering.
 >Se till att baslinjen har skapats på rätt sätt. Gå till Map Dashboard - Ämnen - Hämta  Mappa och välj &quot;Använd baslinje&quot;.
-- ### Publish-uppgifter från FMPS tar längre tid än andra motorer
-
+>- ### Publish-uppgifter från FMPS tar längre tid än andra motorer
 >Vid publicering från FMPS är den idealiska fasta huvudtiden cirka 3-4 minuter. Om du tror att den är längre bör du kontakta FMPS-administratören eller kontakta Adobe Support.
 
 ## Andra resurser:

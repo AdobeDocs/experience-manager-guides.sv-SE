@@ -26,4 +26,4 @@ När den här konfigurationen är aktiverad är kryssrutan **Lås upp filen** ma
 
 Mer information finns i avsnittet *Stäng och spara scenarier* i Använda Adobe Experience Manager Guides as a Cloud Service Guide.
 
-**Överordnat ämne:**[ Anpassa Web Editor](conf-web-editor.md)
+**Överordnat ämne:**&#x200B;[ Anpassa Web Editor](conf-web-editor.md)

@@ -106,4 +106,4 @@ Följande filteralternativ är tillgängliga på den vänstra panelen:
 
 Filtren uppdateras när du växlar från fliken **Kartor och förinställningar** till fliken **Granskningshistorik** och vice versa.
 
-**Överordnat ämne: **[Massaktivering av publicerat innehåll](conf-bulk-activation.md)
+**Överordnat ämne: &#x200B;** [Massaktivering av publicerat innehåll](conf-bulk-activation.md)

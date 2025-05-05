@@ -332,7 +332,7 @@ Om du vill utesluta elementet `table` från förenkling lägger du till följand
 
 ### Konfigurera versionshantering för borttagna sidor AEM webbplatsutdata
 
-När du genererar AEM webbplatsutdata med alternativet **Ta bort och** Skapa ****valt för inställningen Befintliga utdatasidor skapas en version för sidan/sidorna som tas bort. Du kan konfigurera systemet så att det inte längre skapas en version innan du tar bort den.
+När du genererar AEM webbplatsutdata med alternativet **Ta bort och** Skapa **&#x200B;**&#x200B;valt för inställningen Befintliga utdatasidor skapas en version för sidan/sidorna som tas bort. Du kan konfigurera systemet så att det inte längre skapas en version innan du tar bort den.
 
 Utför följande steg för att stoppa skapandet av en version för den sida/de sidor som ska tas bort:
 

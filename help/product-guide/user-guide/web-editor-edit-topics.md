@@ -48,6 +48,7 @@ Om du tar bort det markerade innehållet sammanfogas det återstående innehåll
 
    - Markera innehållet i ett element.
    - Välj ikonen ![lägg till](images/Add_icon.svg) i verktygsfältet högst upp för att visa dialogrutan **Infoga element** . I dialogrutan visas giltiga element för det markerade innehållet.
+
      >[!NOTE]
      >
      > Du kan också visa dialogrutan Infoga element genom att välja snabbmenyn för det markerade innehållet.
@@ -114,4 +115,4 @@ När du öppnar en fil i Redigeraren kan du hitta filen i databasvyn i Experienc
 Du kan inaktivera funktionen för att hitta filen med alternativet **Hitta alltid filer i databasen** på fliken **Utseende** i **Användarinställningarna**.
 
 
-**Överordnat ämne:**[ Arbeta med redigeraren](web-editor.md)
+**Överordnat ämne:**&#x200B;[ Arbeta med redigeraren](web-editor.md)

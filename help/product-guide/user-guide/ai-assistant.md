@@ -1,5 +1,5 @@
 ---
-title: Använd AI-assistenten för att skapa dokument smart `
+title: Använd AI-assistenten för att skapa dokument smart &grave;
 description: Lär dig hur du använder AI Assistant för att söka efter och redigera dokument på ett smart sätt i Adobe Experience Manager Guides.
 exl-id: c18e8761-333e-40ef-9e16-e71a194a754a
 source-git-commit: aab7bc0c79d3c98f062d230d1d21ec7f4e6a01c3

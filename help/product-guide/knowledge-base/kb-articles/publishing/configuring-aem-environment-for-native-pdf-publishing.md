@@ -105,7 +105,7 @@ Publiceringsmotorn i PDF behöver Oracle-JDK för att generera nodmodulerna i AE
 
 10. Om kommandot unzip inte är installerat/känns igen kan det installeras med följande kommando
 
-   **yum install unzip**
+    **yum install unzip**
 
 11. Installera fontconfig-paketet.
 Kommando: teckensnittskonfiguration för yum-installation

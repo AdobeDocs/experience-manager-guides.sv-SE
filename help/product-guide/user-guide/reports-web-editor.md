@@ -63,6 +63,7 @@ Du kan visa rapporten med ämneslistan för en karta genom att utföra följande
    - **Dokumenttillstånd** Ämnets tillstånd.
    - **Författare** Användaren som arbetade senast med ämnet.
    - **Överordnad karta** Listan över alla kartor där ämnet refereras direkt.
+
    >[!NOTE]
    >
    > Välj **Uppdatera** om du vill få en ny lista över ämnen och visa ändringar i kartfilen eller om en referens i ämnesfilen uppdateras.
@@ -206,6 +207,7 @@ På samma sätt kan du följa ovanstående steg för att lägga till nya anpassa
    - **Multimedietyp** \(vald som standard\) Multimedietyp. De tillgängliga alternativen är Ljud, Video eller Bild.
    - **Används i** \(markerat som standard\) Referenserna som multimediet har använts i. Du kan markera referensen för att redigera den.
    - **Referenstyp** \(valt som standard\) Referenstypen - direkt eller indirekt.
+
    >[!NOTE]
    >
    > Välj **Uppdatera** om du vill få en ny lista över multimedia och visa alla ändringar i kartfilen eller om några multimedia på din DITA-karta har uppdaterats.
@@ -266,4 +268,4 @@ Du kan visa rapporten för brutna länkar genom att utföra följande steg:
 1. Välj **Hämta** om du vill hämta ögonblicksbilden av alla brutna länkar i DITA-kartan. Excel-filen innehåller de markerade kolumnerna och de brutna länkarna som filtreras i vyn Brutna länkar.
 
 
-**Överordnat ämne:**[ Introduktion till rapporter](reports-intro.md)
+**Överordnat ämne:**&#x200B;[ Introduktion till rapporter](reports-intro.md)

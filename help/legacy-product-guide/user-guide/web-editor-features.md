@@ -174,6 +174,7 @@ I skärmbilden nedan visas endast 3 av 4 konfigurerade element från den föreg�
 
 
    - Om du vill skapa en Salesforce-publiceringsprofil väljer du **Salesforce**-kunskapsbasen i listrutan **Servertyp** . Ange ett profilnamn. Ange den konsumentwebbplats som du skulle använda för att publicera utdata i URL:en för **platsen** och lägg sedan till **konsumentnyckeln** och **konsumenthemligheten** från Salesforce konsumentwebbplats. **Validera** och **Spara** den nya profilen.
+
      ![salesforce-publiceringsprofil i redigeringsinställningarna](./images/salesforce-publish-profile.png){width="550" align="left"}
 
      >[!NOTE]
@@ -1820,6 +1821,7 @@ Så här visar du granskningskommentarerna i de aktiva granskningsuppgifterna so
    - Ange söktermen eller texten som du vill hitta i projektets titel. Tryck sedan på Retur för att utföra sökningen. Du kan till exempel söka i alla projekt med termen&quot;space&quot; i titeln.
 
    - Välj ![](images/filter-search-icon.svg) för att öppna dialogrutan **Filter**. Du kan välja alla eller endast specifika projekt. De markerade projekten visas på panelen **Granska**.
+
      ![](images/active-review-select-project.png){width="300" align="left"}
 
      Alternativet **Uppgifter som initierats av mig** är aktiverat som standard. Du kan bara visa de uppgifter som du har initierat. Växlingsläget för det här alternativet behålls även efter att sidan har uppdaterats.
@@ -2047,4 +2049,4 @@ Med funktionen Spårade ändringar i den högra panelen kan du visa information 
 >
 > Funktionen Spårade ändringar visar alla uppdateringar som har spårats med funktionen Aktivera/inaktivera Spåra ändringar i huvudverktygsfältet. Mer information finns i [Aktivera/inaktivera spåra ändringar](#id205DF0203Y4).
 
-**Överordnat ämne:**[ Arbeta med webbredigeraren](web-editor.md)
+**Överordnat ämne:**&#x200B;[ Arbeta med webbredigeraren](web-editor.md)

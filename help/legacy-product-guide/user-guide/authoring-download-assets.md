@@ -38,6 +38,7 @@ Följ de här stegen för att hämta en DITA-kartfil tillsammans med de beroende
 
    - **Använd baslinje**: Välj det här alternativet om du vill visa en lista över baslinjer som skapats för DITA-kartan. Om du vill hämta kartfilen och dess innehåll baserat på en viss baslinje väljer du Baslinje i listrutan. Mer information om att arbeta med baslinjer finns i [Arbeta med baslinje](generate-output-use-baseline-for-publishing.md#).
    - **Förenkla filhierarkin**: Välj det här alternativet om du vill spara alla refererade ämnen och mediefiler i en enda mapp.
+
    >[!NOTE]
    >
    > Du kan även hämta kartfilen utan att välja något alternativ. I så fall hämtas den senaste beständiga versionen av de ämnen och mediefiler som refereras.
@@ -58,4 +59,4 @@ Följ de här stegen för att hämta en DITA-kartfil tillsammans med de beroende
 
 När kartan har laddats ned kan du markera kartan och använda ikonen Öppna längst upp för att öppna den markerade rapporten.
 
-**Överordnat ämne:**[ Hantera innehåll](authoring.md)
+**Överordnat ämne:**&#x200B;[ Hantera innehåll](authoring.md)

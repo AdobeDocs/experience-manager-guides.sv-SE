@@ -42,4 +42,4 @@ Den här rotmappningen kommer att gälla för alla resurser \(mappar och underma
 
 **Ämnesredigeringsvy** - Klicka på ikonen Tangentmatchning när du redigerar ett DITA-ämne och välj den DITA-fil som ska användas för att matcha nyckelreferenserna.
 
-**Överordnat ämne:**[ Arbeta med kartredigeraren](map-editor.md)
+**Överordnat ämne:**&#x200B;[ Arbeta med kartredigeraren](map-editor.md)

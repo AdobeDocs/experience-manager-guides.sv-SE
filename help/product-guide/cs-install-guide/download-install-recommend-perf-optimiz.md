@@ -25,4 +25,4 @@ Tänk på följande för prestandaoptimering:
   Ändringen minskar publiceringstiden och minnesanvändningen när DITA-kartor publiceras med ett stort antal ämnen.
 
 
-**Överordnat ämne:**[ Hämta och installera](download-install.md)
+**Överordnat ämne:**&#x200B;[ Hämta och installera](download-install.md)

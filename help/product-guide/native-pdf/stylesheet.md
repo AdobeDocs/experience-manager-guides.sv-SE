@@ -159,7 +159,7 @@ I följande exempel skapar vi en anfangsstil:
 
    >[!NOTE]
    >
-   Se [Anpassa ett fördefinierat eller nytt format](components-pdf-template.md#customize-style) för att öppna en formatmall för anpassning eller redigering.
+   >Se [Anpassa ett fördefinierat eller nytt format](components-pdf-template.md#customize-style) för att öppna en formatmall för anpassning eller redigering.
 
 1. Expandera **Styckeformat** i listan **Format**.
 
@@ -195,7 +195,7 @@ I följande exempel skapar vi ett textbundet teckenformat:
 
    >[!NOTE]
    >
-   Se [Anpassa ett fördefinierat eller nytt format](components-pdf-template.md#customize-style) för att öppna en formatmall för anpassning eller redigering.
+   >Se [Anpassa ett fördefinierat eller nytt format](components-pdf-template.md#customize-style) för att öppna en formatmall för anpassning eller redigering.
 
 1. Expandera **Teckenformat** i listan **Format**.
 
@@ -215,7 +215,7 @@ I följande exempel skapar vi ett textbundet teckenformat:
 
      >[!NOTE]
      >
-     Du kan också lägga till teckensnitt i mallen, som lagras i avsnittet Resurser i mallen. Mer information om hur du lägger till teckensnitt och arbetar med resurser finns i [Arbeta med resurser](components-pdf-template.md#work-with-resources).
+     >Du kan också lägga till teckensnitt i mallen, som lagras i avsnittet Resurser i mallen. Mer information om hur du lägger till teckensnitt och arbetar med resurser finns i [Arbeta med resurser](components-pdf-template.md#work-with-resources).
 
    * **Layout**: Du kan ange layoutrelaterade egenskaper som höjd och bredd, marginal, utfyllnad, justering med mera.
 
@@ -239,7 +239,7 @@ I följande exempel anpassar vi det numrerade eller ordnade listformatet:
 
    >[!NOTE]
    >
-   Se [Anpassa ett fördefinierat eller nytt format](components-pdf-template.md#customize-style) för att öppna en formatmall för anpassning eller redigering.
+   >Se [Anpassa ett fördefinierat eller nytt format](components-pdf-template.md#customize-style) för att öppna en formatmall för anpassning eller redigering.
 
 1. Expandera **Listformat** i listan **Format**.
 
@@ -277,7 +277,7 @@ I följande exempel anpassar vi det numrerade eller ordnade listformatet:
 
      >[!NOTE]
      >
-     Du kan ange värdet i pixlar, pt (punkter), rem, em, % (procent) eller in (tum).
+     >Du kan ange värdet i pixlar, pt (punkter), rem, em, % (procent) eller in (tum).
 
    * **Prefixbredd**: Detta är det område som upptas av nummerformatet. Den ställs automatiskt in på en storlek som lätt kan anpassas till det valda formatet. Om du vill öka storleken kan du ersätta standardvärdet.
 
@@ -299,7 +299,7 @@ I följande exempel ser vi hur du skapar ett tabellformat och de olika tabellfor
 
    >[!NOTE]
    >
-   Se [Anpassa ett fördefinierat eller nytt format](components-pdf-template.md#customize-style) för att öppna en formatmall för anpassning eller redigering.
+   >Se [Anpassa ett fördefinierat eller nytt format](components-pdf-template.md#customize-style) för att öppna en formatmall för anpassning eller redigering.
 
 1. Högerklicka på **tabellformatet** i listan **Format** och välj **Nytt format**.
 
@@ -315,7 +315,7 @@ I följande exempel ser vi hur du skapar ett tabellformat och de olika tabellfor
 
      >[!NOTE]
      >
-     Följande inställningar är tillgängliga under avsnittet **Allmänt** när **Använd formatering på** är inställt på **Hela tabellen**.
+     >Följande inställningar är tillgängliga under avsnittet **Allmänt** när **Använd formatering på** är inställt på **Hela tabellen**.
 
    * **Figursättning**: Välj hur text ska radbrytas runt tabellen. Detta är användbart när tabellen finns i ett annat blocknivåelement och tabellen måste återges tillsammans med annat innehåll i blockelementet. Radbrytningsalternativen är *vänster* eller *höger* justerade, eller *ingen*.
 
@@ -329,7 +329,7 @@ I följande exempel ser vi hur du skapar ett tabellformat och de olika tabellfor
 
      >[!NOTE]
      >
-     Följande inställningar är tillgängliga under avsnittet **Cell** när **Använd formatering för** är inställt på **Hela tabellen**.
+     >Följande inställningar är tillgängliga under avsnittet **Cell** när **Använd formatering för** är inställt på **Hela tabellen**.
 
    * **Utfyllnad**: Ange utfyllnaden mellan tabellceller. Du kan ange olika utfyllnadsvärden för de övre, nedre, vänstra och högra sidorna.
 
@@ -355,7 +355,7 @@ I följande exempel skapar vi ett nytt fönstertitelformat (`wintitle`):
 
    >[!NOTE]
    >
-   Se [Anpassa ett fördefinierat eller nytt format](components-pdf-template.md#customize-style) för att öppna en formatmall för anpassning eller redigering.
+   >Se [Anpassa ett fördefinierat eller nytt format](components-pdf-template.md#customize-style) för att öppna en formatmall för anpassning eller redigering.
 
 1. Expandera **Andra format** i listan **Format**.
 
@@ -406,7 +406,7 @@ Du kan till exempel definiera följande format för att definiera teckensnittsst
 
 >[!NOTE]
 >
-I föregående exempel är&quot;Framsida&quot; och&quot;Baksida&quot; exempelnamnen på de layoutfiler som du kan använda i mallarna.
+>I föregående exempel är&quot;Framsida&quot; och&quot;Baksida&quot; exempelnamnen på de layoutfiler som du kan använda i mallarna.
 
 
 ## Definiera anpassat CSS-format för prefix- och suffixinnehåll

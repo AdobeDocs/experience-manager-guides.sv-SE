@@ -40,7 +40,7 @@ Så här skapar du IMS-konfigurationer i **Adobe Developer Console**:
 
    <img src="assets/projects-tab.png" alt="fliken Projekt" width="500">
 
-   *Välj fliken **Projekt**på&#x200B;**Adobe Developer Console***
+   *Välj fliken **Projekt**&#x200B;på&#x200B;**Adobe Developer Console***
 
 1. Om du vill skapa ett nytt tomt projekt väljer du **Tomt projekt** i listrutan **Skapa nytt projekt** .
 

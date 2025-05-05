@@ -20,4 +20,4 @@ Adobe Experience Manager Guides har en kraftfull funktion för att skapa och fö
 - **[Förhandsgranska ett ämne](web-editor-preview-topics.md)**
 
 
-**Överordnat ämne:**[ Introduktion till redigeraren](web-editor.md)
+**Överordnat ämne:**&#x200B;[ Introduktion till redigeraren](web-editor.md)

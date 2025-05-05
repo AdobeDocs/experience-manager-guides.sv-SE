@@ -125,6 +125,7 @@ Till exempel:
       - Om du har valt mallen Jira-ordnad lista kan du visa en ordnad lista för Jira-problemen.
 
    1. I källvyn visas data i DITA-källvyn.
+
       ![](images/add-content-snippet-generator.png){width="800" align="left"}
       *Lägg till en generator för innehållsfragment. Visa data i käll- eller förhandsgranskningsläge.*
 

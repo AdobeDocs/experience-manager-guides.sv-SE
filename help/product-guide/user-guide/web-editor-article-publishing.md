@@ -46,4 +46,4 @@ Utför följande steg för att generera artikelbaserade utdata:
    > Du kan också byta namn på, duplicera eller ta bort en befintlig förinställning på Alternativ-menyn.
 
 
-**Överordnat ämne:**[ Arbeta med redigeraren](web-editor.md)
+**Överordnat ämne:**&#x200B;[ Arbeta med redigeraren](web-editor.md)

@@ -253,4 +253,4 @@ Gör följande för att automatiskt generera ID för ett eller flera element:
    Du kan också högerklicka i vägbeskrivningsfilen och välja **Generera ID**.
 
 
-**Överordnat ämne:**[ Arbeta med webbredigeraren](web-editor.md)
+**Överordnat ämne:**&#x200B;[ Arbeta med webbredigeraren](web-editor.md)

@@ -41,4 +41,4 @@ Förinställningar för JSON-utdata.
 - **[Ta bort en gruppaktiveringskarta](conf-bulk-activation-delete-map-collection.md)**
 
 
-**Överordnat ämne:**[ Utdatagenerering](generate-output.md)
+**Överordnat ämne:**&#x200B;[ Utdatagenerering](generate-output.md)

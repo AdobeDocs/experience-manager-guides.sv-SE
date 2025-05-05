@@ -56,4 +56,4 @@ Du kan även utföra följande åtgärder på förinställningen på Alternativ-
 >
 > När en förinställning för utdata i globala profiler och mappprofiler tas bort återspeglas den i alla relaterade kartor och visas inte på fliken **Utdatainställningar** .
 
-**Överordnat ämne:**[ Arbeta med webbredigeraren](web-editor.md)
+**Överordnat ämne:**&#x200B;[ Arbeta med webbredigeraren](web-editor.md)

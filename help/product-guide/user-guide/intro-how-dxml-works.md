@@ -18,4 +18,4 @@ I följande diagram visas hur Experience Manager Guides fungerar tillsammans med
 ![](images/xml-add-on-how-it-works.png){align="center"}
 
 
-**Överordnat ämne:**[ Om Adobe Experience Manager Guides as a Cloud Service](intro.md)
+**Överordnat ämne:**&#x200B;[ Om Adobe Experience Manager Guides as a Cloud Service](intro.md)

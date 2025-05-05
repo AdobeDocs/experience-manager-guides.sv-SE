@@ -154,4 +154,4 @@ Med ikonen Filter på panelen **Baslinjefilter** kan du använda filter på basl
 
 När du har redigerat baslinjen kan du klicka på knappen **Spara** överst för att spara ändringarna i baslinjen. Du kan klicka på knappen **Återställ** om du inte vill spara ändringen och återställa baslinjen. När du klickar på knappen **Återställ** visas en varning om att ändringar som inte sparats går förlorade.
 
-**Överordnat ämne:**[ Arbeta med webbredigeraren](web-editor.md)
+**Överordnat ämne:**&#x200B;[ Arbeta med webbredigeraren](web-editor.md)

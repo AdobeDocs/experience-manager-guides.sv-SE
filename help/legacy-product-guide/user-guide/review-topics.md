@@ -250,4 +250,4 @@ Välj ett eller flera av följande filtreringsalternativ i dialogrutan **Filtert
 
 Om du vill ta bort filtret och visa alla kommentarer avmarkerar du alla filter i dialogrutan **Filtertyp** och klickar på **Använd**.
 
-**Överordnat ämne:**[ Granska ämnen eller kartor](review.md)
+**Överordnat ämne:**&#x200B;[ Granska ämnen eller kartor](review.md)

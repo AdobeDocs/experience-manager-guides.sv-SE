@@ -154,7 +154,7 @@ De buggar som har åtgärdats i olika områden listas nedan:
 - PDF | Xref skriver ut innehållet i href-ämnesrubriken i stället för Xref-etiketten. (11322)
 - PDF | Det går inte att spara mallinställningarna för PDF. (10751)
 - PDF | Texten sträcker sig utanför kolumnbredden och inkluderar flera xrefs. (10876)
-- PDF | Elementet `<note>``</note>` genererar inte någon extra intervalltitel av sin typ. (10549)
+- PDF | Elementet `<note>` `</note>` genererar inte någon extra intervalltitel av sin typ. (10549)
 - PDF | Språkmetadata kan inte anges i det genererade PDF för att uppfylla kraven i WCAG 2.0. (12296)
 
 

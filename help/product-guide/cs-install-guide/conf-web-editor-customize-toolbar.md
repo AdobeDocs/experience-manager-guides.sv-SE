@@ -55,13 +55,13 @@ Gör så här för att lägga till en funktion i Web Editor-verktygsfältet:
        &quot;type&quot;: &quot;blockGroup&quot;, 
        &quot;extraclass&quot;:
        &quot;toolbar operations&quot;, 
-       &quot;objekt&quot;: [
-}       {
+       &quot;objekt&quot;: &lbrack;
+&rbrace;       &lbrace;
        &quot;type&quot;: &quot;buttonGroup&quot;, 
        &quot;extraclass&quot;: &quot;left-controls&quot;, 
        &quot;label&quot;: &quot;Left Controls&quot;, 
-       &quot;objekt&quot;: [
-]       &quot;
+       &quot;objekt&quot;: &lbrack;
+&rbrack;       &quot;
    
    I samlingen `items` måste du ange definitionen för en eller flera verktygsfältsikoner.
 
@@ -145,4 +145,4 @@ Så här tar du bort oönskade funktioner från verktygsfältet:
 1. Spara filen *ui\_config.json* och läs in webbredigeraren igen.
 
 
-**Överordnat ämne:**[ Anpassa Web Editor](conf-web-editor.md)
+**Överordnat ämne:**&#x200B;[ Anpassa Web Editor](conf-web-editor.md)

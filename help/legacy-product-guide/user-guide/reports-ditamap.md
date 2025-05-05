@@ -96,4 +96,4 @@ Utför följande steg för att generera CSV-filen för en DITA-kartrapport:
 
 När rapporten har laddats ned i Inkorgen kan du även välja rapporten och använda ikonen Öppna längst upp för att öppna den valda rapporten.
 
-**Överordnat ämne:**[ Rapporter](reports-intro.md)
+**Överordnat ämne:**&#x200B;[ Rapporter](reports-intro.md)

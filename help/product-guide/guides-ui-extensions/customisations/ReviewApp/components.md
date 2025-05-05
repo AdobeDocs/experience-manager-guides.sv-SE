@@ -35,12 +35,15 @@ Granska kommentaren i xml-redigeraren:
 
 - Granskningskommentarssvar: `id: comment_reply`
    - Widgeten för varje svar på granskningskommentar.
+
      ![Förhandsgranska kommentarsvar, skärmbild](./imgs/reply.png)
 
 - Nytt svar på granskningskommentar: `id: comment_new_reply`
    - Widgeten för svar på nya granskningskommentarer.
+
      ![Nytt svar på granskningskommentar, bild](./imgs/new_reply.png)
 
 - Anteckningsverktygslåda: `id: annotation_toolbox`
    - Det övre högra verktygsfältet i granskningsappen.
+
      ![Skärmbild för anteckningsverktygslåda](./imgs/annotation_toolbox.png)

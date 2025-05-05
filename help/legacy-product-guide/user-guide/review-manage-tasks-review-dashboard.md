@@ -125,4 +125,4 @@ Statusrapporten för granskningsaktiviteten innehåller följande information:
 - Totalt antal kommentarer som gjorts i alla ämnen. Om det finns flera ämnen som är under granskning anges antalet kommentarer för varje ämne \(inom parentes\) mot temanamnet.
 - Det datum då granskaren senast öppnade ett ämne.
 
-**Överordnat ämne:**[ Granska ämnen eller kartor](review.md)
+**Överordnat ämne:**&#x200B;[ Granska ämnen eller kartor](review.md)

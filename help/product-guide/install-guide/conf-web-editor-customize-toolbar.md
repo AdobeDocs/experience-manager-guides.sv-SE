@@ -49,7 +49,7 @@ Gör så här för att lägga till en funktion i Web Editor-verktygsfältet:
 
 1. I filen `ui_config.json` lägger du till definitionen för den nya funktionen i verktygsfältsavsnittet. Vanligtvis kan du skapa en ny verktygsfältsknappgrupp och lägga till en eller flera knappar i den. Du kan också lägga till en ny verktygsfältsknapp i en befintlig verktygsfältgrupp. Följande information krävs för att skapa en ny verktygsfältgrupp:
 
-   - **type:**Ange `blockGroup` som `type`-värde. Detta värde anger att du skapar en blockgrupp som skulle innehålla en eller flera verktygsfältsgrupper.
+   - **type:**&#x200B;Ange `blockGroup` som `type`-värde. Detta värde anger att du skapar en blockgrupp som skulle innehålla en eller flera verktygsfältsgrupper.
 
    - **extraclass:** Namnet på klassen eller klasserna avgränsade med blanksteg.
 
@@ -240,4 +240,4 @@ Filen `ui_config.json` har tre avsnitt:
 1. Spara filen *ui\_config.json* och läs in webbredigeraren igen.
 
 
-**Överordnat ämne:**[ Anpassa Web Editor](conf-web-editor.md)
+**Överordnat ämne:**&#x200B;[ Anpassa Web Editor](conf-web-editor.md)

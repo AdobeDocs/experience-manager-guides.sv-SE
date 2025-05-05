@@ -38,4 +38,4 @@ När granskningsaktiviteten har omtilldelats visas namnet på granskaren som upp
 
 Den tilldelade granskaren får ett meddelande i Inkorgen om den omtilldelade granskningsuppgiften.
 
-**Överordnat ämne:**[ Introduktion till granskning](review.md)
+**Överordnat ämne:**&#x200B;[ Introduktion till granskning](review.md)

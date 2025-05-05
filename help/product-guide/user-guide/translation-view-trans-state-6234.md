@@ -28,4 +28,4 @@ Utför följande steg för att visa översättningsstatusen för en DITA-karta:
 
    ![](images/translation-status-new.png){align="left"}
 
-**Överordnat ämne:**[&#x200B;Översikt över innehållsöversättning](translation.md)
+**Överordnat ämne:**&#x200B;[&#x200B;Översikt över innehållsöversättning](translation.md)

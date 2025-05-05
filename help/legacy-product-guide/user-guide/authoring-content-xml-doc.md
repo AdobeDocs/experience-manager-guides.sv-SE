@@ -27,4 +27,4 @@ AEM Guides levereras med de tre färdiga redigeringsprogrammen. kan du använda 
 - **[DITAVAL-redigerare](ditaval-editor.md)**
 
 
-**Överordnat ämne:**[ Författarinnehåll](authoring-content.md)
+**Överordnat ämne:**&#x200B;[ Författarinnehåll](authoring-content.md)

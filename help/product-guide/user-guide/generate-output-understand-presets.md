@@ -42,4 +42,4 @@ Följande förinställningsalternativ är tillgängliga för de utdataformat som
 
 Som administratör kan du med Experience Manager Guides skapa och hantera utdatapresentationer för globala profiler och mappprofiler. Mer information finns i [Hantera förinställningar för globala utdata och mappprofiler](./web-editor-manage-output-presets.md).
 
-**Överordnat ämne:**[ Utdatagenerering](generate-output.md)
+**Överordnat ämne:**&#x200B;[ Utdatagenerering](generate-output.md)

@@ -20,4 +20,4 @@ Du kan producera utdata i PDF, ePub, HTML och många andra format med samma käl
 
 *Kontakta kundens framgångsgrupp för att aktivera den här funktionen i miljön. Detta är inte aktiverat som en del av det färdiga stödet.*
 
-**Överordnat ämne:**[ Skapa innehåll med skrivbordsverktyg](author-desktop-tools.md)
+**Överordnat ämne:**&#x200B;[ Skapa innehåll med skrivbordsverktyg](author-desktop-tools.md)

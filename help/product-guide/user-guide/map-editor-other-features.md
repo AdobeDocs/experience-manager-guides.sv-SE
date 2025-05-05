@@ -41,4 +41,4 @@ Den här rotmappningen kommer att gälla för alla resurser \(mappar och underma
 
 **Ämnesredigeringsvy** - Välj ikonen för tangentupplösning när du redigerar ett DITA-ämne och markera den DITA-fil som ska användas för att matcha nyckelreferenserna.
 
-**Överordnat ämne:**[ Introduktion till kartredigeraren](map-editor.md)
+**Överordnat ämne:**&#x200B;[ Introduktion till kartredigeraren](map-editor.md)

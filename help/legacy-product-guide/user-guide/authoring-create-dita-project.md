@@ -77,4 +77,4 @@ Så här skapar du ett DITA-projekt:
 1. Klicka på **Öppna** för att öppna projektsidan.
 
 
-**Överordnat ämne:**[ Granska ämnen eller kartor](review.md)
+**Överordnat ämne:**&#x200B;[ Granska ämnen eller kartor](review.md)

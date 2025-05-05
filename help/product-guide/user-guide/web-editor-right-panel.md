@@ -141,4 +141,4 @@ Läs mer om hur du arbetar med Schematron-filer i Experience Manager Guides i [S
 
 
 
-**Överordnat ämne:**[ Introduktion till redigeraren](web-editor.md)
+**Överordnat ämne:**&#x200B;[ Introduktion till redigeraren](web-editor.md)

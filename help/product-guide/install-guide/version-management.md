@@ -212,7 +212,7 @@ Utför följande steg för att rensa de äldre versionerna:
 
    ![](assets/preview-purge-report.png){width="350" align="left"}
 
-1. 
+1. &#x200B;
    - **Antal versioner som ska behållas från den senaste versionen**: Ange antalet versioner som ska behållas och inte rensas. Om vi till exempel anger 5 behålls de senaste 5 versionerna och de tidigare versionerna är kvalificerade att rensas om andra rensningsvillkor uppfylls.
 - **Behåll versioner som skapats inom tidsintervallet \(i dagar\)**: Ange den maximala åldern för en version i dagar. Versioner som är äldre än det angivna antalet dagar kan rensas om andra rensningsvillkor uppfylls. Om vi till exempel anger 100 kvalificeras alla versioner som skapats före 100 dagar att rensas om andra rensningsvillkor uppfylls.
 - **Sökväg**: Välj sökvägen till filen eller mappen vars filer du vill rensa.

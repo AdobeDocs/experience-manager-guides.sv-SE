@@ -50,6 +50,7 @@ Lägg till exempel till `/conf/we-retail` i molnkonfigurationen. Den här konfig
    * **Namn**: Ange namnet på innehållsfragmentet. Som standard fylls namnet i med rubriken för ämnet och blankstegen ersätts med &#39;_&#39;. Exempel: *sample_content_fragment*. Du kan redigera det.  Det här namnet används för att generera URL:en för innehållsfragmentet.
 
    * Du kan välja olika villkor för att skapa varianter för innehållsfragment. Välj något av följande alternativ:
+
      >[!NOTE]
      > 
      > Villkor aktiveras bara om villkorsattribut definieras i avsnittet.

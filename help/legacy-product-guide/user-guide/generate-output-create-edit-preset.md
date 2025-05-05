@@ -78,4 +78,4 @@ Så här tar du bort en befintlig förinställning:
    Förinställningen tas bort från listan Utdataförinställningar.
 
 
-**Överordnat ämne:**[ Utdatagenerering](generate-output.md)
+**Överordnat ämne:**&#x200B;[ Utdatagenerering](generate-output.md)

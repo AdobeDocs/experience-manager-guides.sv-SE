@@ -99,7 +99,7 @@ Så här importerar du citat:
 
    >[!NOTE]
    > <ol><li> AEM Guides importerar endast de citat som är unika och inte redan finns.
-    &gt; <li> AEM Guides kan importera citat från en bok, journal eller en webbplats. För närvarande stöder den inte citat från andra källor.
+   > &gt; <li> AEM Guides kan importera citat från en bok, journal eller en webbplats. För närvarande stöder den inte citat från andra källor.
 
 ## Hantera citat
 

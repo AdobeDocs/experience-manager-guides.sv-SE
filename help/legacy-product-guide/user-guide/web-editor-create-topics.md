@@ -61,4 +61,4 @@ Så här skapar du ett ämne:
 >
 > När du har skapat ditt DITA-avsnitt kan du fortsätta spara ändringarna i arbetskopian och skapa en ny version när du har slutfört uppdateringarna av ämnet.
 
-**Överordnat ämne:**[ Skapa och förhandsgranska ämnen](create-preview-topics.md)
+**Överordnat ämne:**&#x200B;[ Skapa och förhandsgranska ämnen](create-preview-topics.md)

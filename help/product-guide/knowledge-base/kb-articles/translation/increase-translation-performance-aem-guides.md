@@ -24,10 +24,12 @@ Varje översättningsprojekt genererar flera användargrupper för åtkomst, vil
 
 - Markera alla projekt som&quot;inaktiva&quot; när översättningen är klar och godkänd. Projektet är fortfarande tillgängligt för granskning och markeras helt enkelt som inaktivt.
    - Följ dessa steg för att upprätthålla övergripande översättningsprestanda vid god hälsa.
+
      ![Inaktivt översättningsprojekt ](../assets/translation/translation-project-image1.png)
 
 - För äldre projektmapp, som är markerad som inaktiv, bör godkänd och granskad tas bort
    - Följ de här stegen för att behålla övergripande översättningsprestanda i god hälsa genom att rensa upp temporära översättningsfiler och användargrupper som är kopplade till den här projektmappen.
+
      ![Ta bort översättningsprojekt och mapp ](../assets/translation/translation-project-image2.png)
 
 

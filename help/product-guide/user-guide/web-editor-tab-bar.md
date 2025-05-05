@@ -52,4 +52,4 @@ Ett kraftfullt, AI-drivet verktyg som har utformats för att öka produktivitete
    - **Lokal programvara**: Om du använder Adobe Experience Manager Guides (4.2.1 och senare) kan du välja alternativet **Assets** för att komma till den aktuella filsökvägen i Assets användargränssnitt.
 - **Inställningar**: Öppnar dialogrutan Inställningar för Redigeraren. Mer information finns i [Arbeta med redigeringsinställningar](./web-editor-settings.md).
 
-**Överordnat ämne:**[ Introduktion till redigeraren](web-editor.md)
+**Överordnat ämne:**&#x200B;[ Introduktion till redigeraren](web-editor.md)

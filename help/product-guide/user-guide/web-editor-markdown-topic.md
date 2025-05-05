@@ -178,4 +178,4 @@ Följande Experience Manager Guides-funktioner gäller för närvarande inte fö
 > Funktionen **Sök och ersätt** bearbetar inte markeringsfiler på databasnivå. Detta inkluderar sökning efter en markeringsfil på en karta eller i en mapp. Den kan dock fortfarande användas i markeringsredigeraren. Dessutom bearbetar inte alternativen **Sök** och **Filter** i databasvyn markeringsfiler.
 
 
-**Överordnat ämne:**[ Introduktion till redigeraren](web-editor.md)
+**Överordnat ämne:**&#x200B;[ Introduktion till redigeraren](web-editor.md)

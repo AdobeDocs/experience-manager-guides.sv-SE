@@ -47,4 +47,4 @@ Så här konfigurerar du regx för giltiga \(eller tillåtna\) tecken i filnamn:
 >
 > På samma sätt som i listan med giltiga filnamnstecken kan du även ange en lista med giltiga filnamnstecken för AEM. Mer information finns i [Konfigurera giltiga filnamn för AEM ](conf-file-names-valid-regx-aem-site-output.md#).
 
-**Överordnat ämne:**[ Konfigurera filnamn](conf-file-names.md)
+**Överordnat ämne:**&#x200B;[ Konfigurera filnamn](conf-file-names.md)

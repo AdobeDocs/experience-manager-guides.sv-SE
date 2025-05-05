@@ -49,4 +49,4 @@ Så här rensar du de återstående filerna efter avinstallationen:
 1. Klicka på **Invalidera cache**.
 1. Rensa webbläsarens cache.
 
-**Överordnat ämne:**[ Hämta och installera](download-install.md)
+**Överordnat ämne:**&#x200B;[ Hämta och installera](download-install.md)

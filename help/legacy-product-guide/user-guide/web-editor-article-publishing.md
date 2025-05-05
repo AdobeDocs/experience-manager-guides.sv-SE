@@ -33,4 +33,4 @@ Du kan också använda de förinställningar för utdata som du har skapat för 
 - **[Generera utdata från panelen Databas eller panelen Kartvy](web-editor-article-publishing-output.md)**
 
 
-**Överordnat ämne:**[ Arbeta med webbredigeraren](web-editor.md)
+**Överordnat ämne:**&#x200B;[ Arbeta med webbredigeraren](web-editor.md)

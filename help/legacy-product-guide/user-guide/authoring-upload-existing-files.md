@@ -48,4 +48,4 @@ Mer information om hur de olika scenarierna för filöverföring beskrivs i [Öv
 
 Om du använder ett verktyg som AEM-skrivbordsprogram eller Resursprogram, styrs åtgärden som utförs på en duplicerad fil av en inställning på AEM-servern. Kontakta systemadministratören om du vill veta mer om den här konfigurationen.
 
-**Överordnat ämne:**[ Hantera innehåll](authoring.md)
+**Överordnat ämne:**&#x200B;[ Hantera innehåll](authoring.md)

@@ -85,4 +85,4 @@ Ett meddelande om att kartan lyckades visas när kartutdata är köade för publ
 
 När utdata har aktiverats för de markerade mappfilerna uppdateras fliken för granskningshistorik och de senaste aktiverade utdata visas överst. Kolumnen **Publicerad** uppdateras med publiceringsdatum och -tid.
 
-**Överordnat ämne: **[Massaktivering av publicerat innehåll](conf-bulk-activation.md)
+**Överordnat ämne: &#x200B;** [Massaktivering av publicerat innehåll](conf-bulk-activation.md)

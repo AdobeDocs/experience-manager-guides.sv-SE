@@ -122,7 +122,7 @@ Variablerna med samma ID importeras när du har importerat filen. Värdena för 
 >[!NOTE]
 > 
 ><ul><li>Om filen inte är en XML-fil, eller om filen innehåller ett felaktigt format som inte överensstämmer med språkvariablerna, visas ett felmeddelande om att det har uppstått ett problem med XML-filen. 
-&gt;<li>Om filen inte innehåller några variabler med samma ID visar du en varning om att det inte finns någon matchande språkvariabel i den importerade filen.
+>&gt;<li>Om filen inte innehåller några variabler med samma ID visar du en varning om att det inte finns någon matchande språkvariabel i den importerade filen.
 
 ### Alternativ för en språkvariabel
 
@@ -130,7 +130,7 @@ Håll pekaren över variabeln för att visa menyn **Alternativ** för den.
 
 <img width="550" alt="alternativmeny för språkvariabler" src="./assets/language-variable-user-options.png">
 
-*Använd menyn **Alternativ**för att ta bort, förhandsgranska eller duplicera en språkvariabel.*
+*Använd menyn **Alternativ**&#x200B;för att ta bort, förhandsgranska eller duplicera en språkvariabel.*
 
 Du kan förhandsgranska både program- och användarvariabler. Om du vill visa hur variabelns värde visas i utdata väljer du **Förhandsgranska** på menyn **Alternativ** för den valda variabeln.
 Du kan också välja att **ta bort** eller **duplicera** användarvariablerna. Om du tar bort en variabel från ett språk tas den automatiskt bort från alla språk.

@@ -152,4 +152,4 @@ Så här exporterar du ett ämne som PDF:
    PDF genereras och öppnas på en ny flik eller så visas en dialogruta där du kan spara PDF på din dator.
 
 
-**Överordnat ämne:**[ Arbeta med webbredigeraren](web-editor.md)
+**Överordnat ämne:**&#x200B;[ Arbeta med webbredigeraren](web-editor.md)

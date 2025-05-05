@@ -39,4 +39,4 @@ När granskningsaktiviteten har omtilldelats visas namnet på granskaren som upp
 
 Den tilldelade granskaren får ett meddelande i Inkorgen om den omtilldelade granskningsuppgiften.
 
-**Överordnat ämne:**[ Granska ämnen eller kartor](review.md)
+**Överordnat ämne:**&#x200B;[ Granska ämnen eller kartor](review.md)

@@ -30,7 +30,7 @@ En Experience Fragment är en modulär innehållsenhet inom Adobe Experience Man
 
 ![fliken med alternativ för filegenskaper](./assets/file-properties-outputs-4-6.png) {width="300" align="left"}
 
-*Publish och visa Experience Fragments för ett ämne från avsnittet **Outputs**i **File Properties**.*
+*Publish och visa Experience Fragments för ett ämne från avsnittet **Outputs**&#x200B;i **File Properties**.*
 
 Nu kan du publicera ett ämne eller dess element i ett Experience Fragment i Experience Manager Guides. Du kan skapa en JSON-baserad mappning mellan ett ämne eller dess element och en Experience Fragment-mall. Du kan också skapa Experience Fragment-variationer genom att använda villkorsfiltren.
 
@@ -81,7 +81,7 @@ Om samma ämne refereras till mer än en gång i en fil kan du lägga till olika
 
 ![Äldre AEM Sites-förinställning](assets/aem-sites-legacy.png)
 
-*Ange publiceringskontext för de länkade avsnitten på fliken **Korsmappningsreferenser**i **AEM Sites**-förinställningen.*
+*Ange publiceringskontext för de länkade avsnitten på fliken **Korsmappningsreferenser**&#x200B;i **AEM Sites**-förinställningen.*
 
 
 

@@ -18,4 +18,4 @@ Adobe Experience Manager Assets ger dig en funktion för att skapa resurser och 
 
 Mer information om metadatahantering i AEM finns i [Hantera metadata för dina digitala resurser](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/metadata.html?lang=en).
 
-**Överordnat ämne:**[ Hantera metadata](manage-metadata.md)
+**Överordnat ämne:**&#x200B;[ Hantera metadata](manage-metadata.md)

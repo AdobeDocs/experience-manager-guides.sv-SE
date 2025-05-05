@@ -65,6 +65,7 @@ Utför följande steg för att överföra ett anpassat DITA-OT-plugin-program ti
    - Kör integratorn \(för att installera det anpassade plugin-programmet\) i ett Mac/Linux OS för att undvika problem med filavgränsare - eftersom Windows och Linux OS har olika filavgränsare är det inbyggda plugin-programmet i Mac/Linux OS kompatibelt med både Windows- och Linux-installationen.
    - Kontrollera att filen `DITA-OT.ZIP` innehåller en mapp med namnet DITA-OT som har alla relevanta plugin-program och filer.
    - Kontrollera att filen `DITA-OT.ZIP` som du skapar är av mimeType: &quot;nt:file&quot; \(detta motsvarar den primära typen av ZIP-fil när den överförs till AEM\). Använd ett WebDAV-verktyg eller koddistribution för att överföra den här ZIP-filen till önskad sökväg i AEM. \(Använd inte AEM pakethanteraren för att distribuera den här ZIP-filen eftersom den inte är ett AEM innehållspaket utan bara en arkivfil.\)
+
    >[!NOTE]
    >
    > Vi rekommenderar att du inte skriver över DITA-OT-standardpaketet. Du bör överföra ditt anpassade DITA-OT-paket som innehåller ditt plugin-program till någon annan plats under mappen `apps`.
