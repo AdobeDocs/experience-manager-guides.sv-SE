@@ -2,7 +2,7 @@
 title: Konfigurera AI Assistant för smart hjälp och redigering
 description: Lär dig konfigurera AI-assistenten i Experience Manager Guides
 exl-id: a595ca1f-0123-40d3-a79c-a066bc6517b4
-source-git-commit: 7b217cfd52dbf716b626e66373fffcc1b9eff695
+source-git-commit: 018bd7c7bc3bb9161e5bedd42d50a5c501ca2919
 workflow-type: tm+mt
 source-wordcount: '880'
 ht-degree: 0%
@@ -84,7 +84,7 @@ Utför följande steg för att lägga till IMS-konfiguration i miljön:
 
 ## Aktivera AI-flagga i miljön
 
-Om du vill aktivera AI-assistentfunktionen i Experience Manager Guides-gränssnittet lägger du till flaggan `ENABLES_GUIDES_AI` i miljön.
+Om du vill aktivera AI-assistentfunktionen i Experience Manager Guides-gränssnittet lägger du till flaggan `ENABLE_GUIDES_AI` i miljön.
 
 Se till att du använder samma namn och konfiguration som i skärmbilden nedan.
 
