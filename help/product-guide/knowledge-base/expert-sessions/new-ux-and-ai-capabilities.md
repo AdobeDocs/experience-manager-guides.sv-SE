@@ -1,9 +1,10 @@
 ---
 title: Nya funktioner för användargränssnitt och AI i AEM Guides
 description: Upptäck hur den omdesignade användarupplevelsen och AI-assistenterna i AEM Guides effektiviserar redigeringen, förbättrar navigeringen och lägger in realtidsinformation i era innehållsflöden.
-source-git-commit: 87d1ff16daea5d40924ebb59669a3474ec5bafca
+exl-id: 26daaae5-1f10-42bf-91b5-93cdb6df6625
+source-git-commit: 1b41b2eb7e917c389c6f15ff73037f89353e8269
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '271'
 ht-degree: 0%
 
 ---
@@ -27,9 +28,9 @@ När ni skapar innehåll är ett enhetligt och högkvalitativt resultat beroende
 ## Viktiga uppgifter
 
 Under det här mötet gick vi igenom följande:
-- Den omdesignade skräddarsydda landningssidan för snabb åtkomst till nyligen använda filer, samlingar och arbetsytor.
+- Den omdesignade personliga landningssidan för snabb åtkomst till nyligen använda filer, samlingar och arbetsmoment.
 - Förenklad navigering för övergångar mellan redigering, publicering och innehållshantering.
-- Dedikerad kartkonsol som konsoliderar publicerings-, översättnings- och rapportaktiviteter på ett och samma ställe.
+- Dedikerad kartkonsol som konsoliderar publicerings-, översättnings- och rapporteringsfunktioner på ett och samma ställe.
 - Smartare återanvändning av innehåll med hjälp av AI-drivna förslag.
 - Innehållsförbättringar som översättningar, sammanfattningar och innehållsförbättringar i realtid vid redigering.
 - AI-driven hjälppanel med sammanhangsberoende hjälp i redigeringsmiljön.
@@ -37,11 +38,11 @@ Under det här mötet gick vi igenom följande:
 
 ## Relaterade resurser
 
-- [Ny startsida](https://experienceleague.adobe.com/sv/docs/experience-manager-guides/using/user-guide/home-page/intro-home-page)
+- [Ny startsida](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/home-page/intro-home-page)
 
-- [AI-funktioner](https://experienceleague.adobe.com/sv/docs/experience-manager-guides/using/user-guide/ai-assistant-aem/ai-assistant)
+- [AI-funktioner i AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/ai-assistant-aem/ai-assistant)
 
-- [Ny startsida](https://experienceleague.adobe.com/sv/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-smart-suggestions)
+- [Konfigurera AI-assistenten](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-smart-suggestions)
 
 
 
