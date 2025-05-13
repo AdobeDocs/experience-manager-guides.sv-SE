@@ -38,11 +38,11 @@ Under det här mötet gick vi igenom följande:
 
 ## Relaterade resurser
 
-- [Ny startsida](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/home-page/intro-home-page)
+- [Ny startsida](https://experienceleague.adobe.com/sv/docs/experience-manager-guides/using/user-guide/home-page/intro-home-page)
 
-- [AI-funktioner i AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/ai-assistant-aem/ai-assistant)
+- [AI-funktioner i AEM Guides](https://experienceleague.adobe.com/sv/docs/experience-manager-guides/using/user-guide/ai-assistant-aem/ai-assistant)
 
-- [Konfigurera AI-assistenten](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-smart-suggestions)
+- [Konfigurera AI-assistenten](https://experienceleague.adobe.com/sv/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-smart-suggestions)
 
 
 
