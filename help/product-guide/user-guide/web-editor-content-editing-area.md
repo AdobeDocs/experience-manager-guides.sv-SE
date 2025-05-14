@@ -25,4 +25,4 @@ Om du vill veta mer om de redigeringsvyer som är tillgängliga för en ämnesfi
 >
 > Om du arbetar med en kartfil visas olika alternativ eller vyer i innehållets redigeringsområde, inklusive en **layoutvy** för kartfilen. Mer information finns i [Karteditorfunktioner](./map-editor-advanced-map-editor.md).
 
-**Överordnat ämne:**[ Introduktion till redigeraren](web-editor.md)
+**Överordnat ämne:**&#x200B;[ Introduktion till redigeraren](web-editor.md)
