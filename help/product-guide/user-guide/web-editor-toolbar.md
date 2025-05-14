@@ -4,7 +4,7 @@ description: Lär dig mer om verktygsfältet i Redigeraren. Läs mer om redigeri
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 059ba78a-dbda-4276-bff2-847787ea41b1
-source-git-commit: ffc9a9e15f11e7059822b7cf6d4707b83d15a4f4
+source-git-commit: e49fde64cbbb2544afe23b820af6477ed1e900fc
 workflow-type: tm+mt
 source-wordcount: '5909'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Den detaljerade förklaringen till dessa funktioner är följande:
 
 **Redigerar åtgärder**
 
-När du redigerar ett ämne i Redigeraren kan du få åtkomst till olika redigeringsåtgärder, till exempel **Klipp ut** eller ***Ctrl***+***X*** , **Kopiera** eller ***Ctrl***+***C*** , **Ångra** eller ***Ctrl***+***&rbrace;Z*** , **Gör om** eller ***Ctrl***+***Y*** och **Ta bort** som finns i listrutan Meny.
+När du redigerar ett ämne i Redigeraren kan du få åtkomst till olika redigeringsåtgärder, till exempel **Klipp ut** eller ***Ctrl***+***X*** , **Kopiera** eller ***Ctrl***+***C*** , **Ångra** eller ***Ctrl***+***}Z*** , **Gör om** eller ***Ctrl***+***Y*** och **Ta bort** som finns i listrutan Meny.
 
 
 **Sök och ersätt**
@@ -88,7 +88,7 @@ Med funktionen **Versionshistorik** i redigeraren kan du kontrollera vilka versi
 
    >[!NOTE]
    >
-   > Systemadministratören kan ändra de metadata som ska visas på fliken Metadata i **Inställningar**. Mer information finns i avsnittet **Fler åtgärder** i [flikfältet](#tab-bar).
+   > Systemadministratören kan ändra de metadata som ska visas på fliken Metadata i **Inställningar**. Mer information finns i avsnittet **Fler åtgärder** i [flikfältet](./web-editor-tab-bar.md).
 
    Du kan även visa användar- och tidsinformation för den aktuella och den jämförda versionen.
 
@@ -132,7 +132,7 @@ Det finns olika metoder som du kan använda för att använda etiketter i dina �
 
    Dialogrutan Hantering av versionsetiketter visas.
 
-   ![](images/version-label-management-dialog.png){width="650" align="left"}
+   ![](images/version-label-management-dialog.png){width="350" align="left"}
 
    Dialogrutan Hantering av versionsetiketter är uppdelad i två delar - den vänstra panelen har en lista över tillgängliga versioner för ämnet tillsammans med listrutan Etikett \(eller en textruta där du kan ange en etikett\) och den högra panelen med en förhandsgranskning av ämnet.
 
@@ -249,7 +249,7 @@ Om du vill acceptera eller ignorera alla ändringar med ett enda klick väljer d
 
 >[!NOTE]
 >
-> I förhandsgranskningsläget kan du visa dokumentet med eller utan det ändrade innehållets markeringar. Mer information finns i [förhandsgranskningsläget](web-editor-views.md#preview-mode-id19AAGL00163).
+> I förhandsgranskningsläget kan du visa dokumentet med eller utan det ändrade innehållets markeringar. Mer information finns i [förhandsgranskningsläget](web-editor-views.md#preview-mode).
 
 **Taggar**
 
@@ -377,7 +377,7 @@ Infogar en bild vid den aktuella eller nästa giltiga plats. Välj ikonen Bild f
 
 >[!NOTE]
 >
-> Du kan också lägga till en bild genom att dra och släppa den från det lokala systemet i artikeln. I det här fallet läggs bildfilen till med arbetsflödet **Överför Assets**.  Mer information finns i arbetsflödet **Överför Assets** i avsnittet [Vänster panel](#left-panel).
+> Du kan också lägga till en bild genom att dra och släppa den från det lokala systemet i artikeln. I det här fallet läggs bildfilen till med arbetsflödet **Överför Assets**.  Mer information finns i arbetsflödet **Överför Assets** i avsnittet [Vänster panel](./web-editor-left-panel.md).
 
 
 ![](images/insert-image.png){width="300" align="left"}
@@ -621,4 +621,4 @@ Om en fil är låst av en annan användare och du håller pekaren över låsikon
 Som administratör får du även åtkomst till funktionen **Tvinga upplåsning** som gör att du kan låsa upp filen som låsts av andra användare. Använd den här funktionen för att komma åt redigeringsrättigheterna för en fil som har låsts av andra användare.
 
 ![](images/web-editor-force-unlock-new.png){width="350" align="left"}
-**Överordnat ämne:**&#x200B;[ Introduktion till redigeraren](web-editor.md)
+**Överordnat ämne:**[ Introduktion till redigeraren](web-editor.md)

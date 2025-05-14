@@ -3,7 +3,8 @@ title: Innehållsredigeringsområdet i redigeraren
 description: Lär dig mer om redigeringsområdet i redigeraren. Läs mer om redigeringsgränssnittet och funktionerna i Adobe Experience Manager Guides.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 410d7c059ff1219b73f2dc6199690c77d1ba0e48
+exl-id: 4f481438-618d-4291-b3aa-43ee0dd2e86d
+source-git-commit: e49fde64cbbb2544afe23b820af6477ed1e900fc
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 0%
@@ -16,7 +17,7 @@ Innehållsredigeringsområdet är där innehållet i ditt ämne eller din karta 
 
 Längst ned till vänster i området för innehållsredigering finns elementets bredd vid den aktuella markörpositionen. I det nedre högra hörnet visas tillgängliga redigeringsvyer.
 
-![](images/content-editing-area.png){width="800" align="left"}
+![](images/content-editing-area.png)
 
 Om du vill veta mer om de redigeringsvyer som är tillgängliga för en ämnesfil i området för innehållsredigering kan du visa [redigeringsvyer](./web-editor-views.md).
 
@@ -24,4 +25,4 @@ Om du vill veta mer om de redigeringsvyer som är tillgängliga för en ämnesfi
 >
 > Om du arbetar med en kartfil visas olika alternativ eller vyer i innehållets redigeringsområde, inklusive en **layoutvy** för kartfilen. Mer information finns i [Karteditorfunktioner](./map-editor-advanced-map-editor.md).
 
-**Överordnat ämne:**&#x200B;[ Introduktion till redigeraren](web-editor.md)
+**Överordnat ämne:**[ Introduktion till redigeraren](web-editor.md)
