@@ -3,9 +3,9 @@ title: Versionsinformation | Nyheter i Adobe Experience Manager Guides 2025.04.0
 description: Läs om de nya och förbättrade funktionerna i version 2025.04.0 av Adobe Experience Manager Guides
 role: Leader
 exl-id: 5d28119b-641f-402b-833c-6f7554e7c273
-source-git-commit: f4ed3c8b70c47beb1f97c6703ade4d4f49fa814e
+source-git-commit: fe7d81f1826fe4ee0c716df36daabe3c5efd8994
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
@@ -27,17 +27,6 @@ Adobe Experience Manager Guides lägger nu till ett **format**-attribut för ref
 - För filer med en **.dita** - eller **.ditamap** -fil ställs formatet in på **dita**
 
 Dessutom kommer filer med tillägget **.xml** också att ha formatet **dita**. För filer utan filtillägg lämnas formatet tomt. Dessutom, för alla referenslänkar med ett omfång inställt på **external**, kommer formatet att anges till **html** oavsett filtillägget i referenslänkarna.
-
-
-## Korrekt kommunikation för stora filer i Redigeraren
-
-Experience Manager Guides meddelar nu att en fil klassificeras som stor fil, och vissa funktioner, som Ångra, Gör om, konturpanelen och den snuskiga markören, kanske inte fungerar som förväntat. Ett varningsmeddelande visas högst upp i gränssnittet för stora filer, vilket visas i utdraget nedan, som anger antalet element baserat på parametern **largeFileTagCount** i filen **uiconfig.json** .
-
-Dessutom visas taggantalet i det nedre fältet, med ett verktygstips när du håller muspekaren över det. Om du väljer fliken **Läs mer** får du detaljerad information om hur du hanterar stora filer. Den här varningen är endast tillgänglig för DITA-filer och är synlig i alla vyer: Författare, Source och Layout.
-
-Mer information finns i [Hantera stora filer i redigeraren](../user-guide/web-editor-other-features.md#handling-large-files-in-the-editor).
-
-![](assets/add-toast-tag-count.png){width="800" align="left"}
 
 ## Den exporterade baslinjen innehåller nu dokumentläge
 
