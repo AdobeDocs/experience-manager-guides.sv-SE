@@ -1,9 +1,10 @@
 ---
 title: Versionsinformation | Korrigerade problem i Adobe Experience Manager Guides 2025.04.0
 description: Läs mer om felkorrigeringarna i version 2025.04.0 av Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 9a943a26a22b64035b61c72c47268a0de2c23b7f
+exl-id: ad3e95b5-4903-4387-8e4d-c4b9ba77fee2
+source-git-commit: 70078864379eedd82ae21da70614055c60f0b114
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '771'
 ht-degree: 0%
 
 ---
@@ -60,12 +61,10 @@ Adobe har identifierat följande kända fel i version 2025.04.0:
 - En tom rad infogas automatiskt när nytt innehåll klistras in på en ny rad i ett `codeblock`-element.27842
 - Om du växlar mellan förinställningar som använder samma baslinje inaktiveras knappen **Spara** för den aktuella förinställningen. 28025
 - Ett ämne i en DITA-karta kan inte publiceras i AEM Sites-utdata när det används både som `keydef` och `topicref` i dess undermappar. (22269)
-- I AEM Sites-utdata bryts bilder när Baslinje inte används vid publicering. 28043
 - Ett programfel inträffar när flera avsnitt i en karta redigeras och sedan stängs med alternativet **Stäng alla**, med inställningen **Fråga vid spara version vid stängning** aktiverad.27931
 
+Adobe har identifierat följande kända problem med en lösning:
 
-
-
-
-
-
++++I AEM Sites-utdata bryts bilder när Baslinje inte används vid publicering. 28043
+***Tillfällig lösning:*** Du kan publicera sådana resurser från **Assets-gränssnittet**, där länken kan användas.
++++
