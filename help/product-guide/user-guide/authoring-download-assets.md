@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Hämta filer {#id216MC0H0BE8}
 
-Du kan hämta resurser, inklusive DITA-filer och andra filer. Du kan hämta resurser på flera olika sätt. Vissa metoder är inbyggda i Adobe Experience Manager och andra stöds av Adobe Experience Manager Guides. Läs [Hämta resurser från Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html) i Adobe Experience Manager-dokumentationen om du vill ha information om Adobe Experience Manager inbyggda resurser. I följande avsnitt förklaras hur du hämtar filer i Experience Manager Guides.
+Du kan hämta resurser, inklusive DITA-filer och andra filer. Du kan hämta resurser på flera olika sätt. Vissa metoder är inbyggda i Adobe Experience Manager och andra stöds av Adobe Experience Manager Guides. Läs [Hämta resurser från Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html?lang=sv-SE) i Adobe Experience Manager-dokumentationen om du vill ha information om Adobe Experience Manager inbyggda resurser. I följande avsnitt förklaras hur du hämtar filer i Experience Manager Guides.
 
 ## Ladda ned en DITA-kartfil från Redigeraren
 
