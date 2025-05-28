@@ -72,4 +72,4 @@ En navigeringsreferens för den markerade kartfilen läggs till på den angivna 
 *Layoutvy*
 
 
-**Överordnat ämne:**[ Introduktion till kartredigeraren](map-editor.md)
+**Överordnat ämne:**&#x200B;[ Introduktion till kartredigeraren](map-editor.md)

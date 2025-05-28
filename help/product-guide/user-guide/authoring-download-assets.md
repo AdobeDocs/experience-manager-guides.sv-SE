@@ -111,4 +111,4 @@ Följ de här stegen för att hämta en DITA-kartfil tillsammans med de beroende
 
 När kartan har laddats ned kan du markera kartan och använda ikonen Öppna längst upp för att öppna den markerade rapporten.
 
-**Överordnat ämne:**[ Hantera innehåll](authoring.md)
+**Överordnat ämne:**&#x200B;[ Hantera innehåll](authoring.md)
