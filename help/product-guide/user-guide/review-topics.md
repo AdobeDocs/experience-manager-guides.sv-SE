@@ -4,9 +4,9 @@ description: Lär dig hur du granskar ämnen och använder funktionerna som gran
 exl-id: fc87fc37-f1cd-4a19-96c2-3a08a8222002
 feature: Reviewing
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 9197cb757e3b883d81eee8a72c797b74cf06e570
 workflow-type: tm+mt
-source-wordcount: '2423'
+source-wordcount: '2476'
 ht-degree: 0%
 
 ---
@@ -61,6 +61,7 @@ Utför följande steg för att granska ett ämne:
 
    - **G**: Antal kommentarer som tagits emot i ett ämne. Numret ändras beroende på vilket filter du använder.
 
+
    Alla ämnen på kartan visas som ett sammansatt dokument. De ämnen som granskaren får granska visas normalt. De ämnen som granskningen inte får granska visas inte.
 
    ![](images/review-read-only.png){align="left"}
@@ -91,6 +92,12 @@ Kommentarsrutan har stöd för flerradiga poster och gör att användarna kan ex
 **Dokumentvy och ämnesvy** - Om flera ämnen delas för granskning visas som standard en sammansatt dokumentvy med ämnen för granskarna. Vid en DITA-kartgranskning visas alla ämnen på kartan i form av ett enda dokument, som liknar en bokvy. Om du vill kan du även välja ett visst ämne och bara det ämnet visas sedan på granskningsskärmen.
 
 När du visar ett enskilt ämne får du ytterligare ett alternativ för att växla tillbaka till dokumentvyn. På skärmbilden nedan öppnas ett visst ämne från en kartfil för granskning. Det markerade alternativet - **Visa dokumentvy** - gör att användaren kan växla tillbaka till dokumentvyn för mappningsfilen.
+
+>[!NOTE]
+>
+> Alla skärmupplösningar med en bredd som är större än 1600px är kompatibla med standardpanelbredderna (vänster och höger), vilket säkerställer att ingen vågrät rullningslist visas och att innehållet förblir korrekt justerat i dokumentvyn. Du kan också alltid ändra storlek på skärmen för att behålla rätt dokumentvy i granskningsgränssnittet.
+
+
 
 ![](images/switch-document-view.png){align="left"}
 
@@ -250,4 +257,4 @@ Välj ett eller flera av följande filtreringsalternativ i dialogrutan **Filtert
 
 Om du vill ta bort filtret och visa alla kommentarer avmarkerar du alla filter i dialogrutan **Filtertyp** och väljer **Använd**.
 
-**Överordnat ämne:**&#x200B;[ Introduktion till granskning](review.md)
+**Överordnat ämne:**[ Introduktion till granskning](review.md)

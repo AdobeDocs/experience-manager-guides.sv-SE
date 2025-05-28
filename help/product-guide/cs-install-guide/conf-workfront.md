@@ -4,9 +4,10 @@ description: Så här konfigurerar du Workfront i Experience Manager Guides
 feature: Authoring
 role: Admin
 level: Experienced
-source-git-commit: 2748ecee0963028be5d9220f852f4dfbc122d4a0
+exl-id: 1f72642c-e694-47cd-9182-f4f4aaf69655
+source-git-commit: d5068ac73748ec7bc047450a947924b40977748f
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '480'
 ht-degree: 0%
 
 ---
@@ -22,7 +23,7 @@ Läs mer om [Adobe Workfront-integrering](../user-guide/workfront-integration.md
 Innan du börjar, se till att:
 
 1. Du har standardåtkomst till Adobe Workfront och administratörsåtkomst till Experience Manager Guides.
-2. Du [skapar ett nytt anpassat formulär i Adobe Workfront](https://experienceleague.adobe.com/sv/docs/workfront/using/administration-and-setup/customize/custom-forms/design-a-form/design-a-form) som krävs för Experience Manager Guides genom att använda följande fält:
+2. Du [skapar ett nytt anpassat formulär i Adobe Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/customize/custom-forms/design-a-form/design-a-form) som krävs för Experience Manager Guides genom att använda följande fält:
 
    | Fälttyp | Etikett | Namn | Alternativ (Visa värden är aktiverade) |
    |------------|------|------|-------------------------------|
@@ -31,10 +32,13 @@ Innan du börjar, se till att:
    | Text med formatering | Författarlista | författarlista | - |
    | Text med formatering | Granskarlista | granskarlista | - |
    | Enkelradig text | Granska URL | review-url | - |
+   | Enkelradig text | Aktivitets-URL | task-url | - |
+   | Enkelradstext | E-postämne | e-postämne | - |
 
 >[!NOTE]
 >
-> I tabellen ovan representerar alternativen tillgängliga under fältet **Åtgärdstyp**. För varje alternativ måste du ange **aktivitetsnamnet** och **aktivitetsvärdet**. Namnet och värdena för varje uppgiftstyp måste vara exakt desamma som i tabellen ovan. För uppgiftstypen Författare anger du till exempel **Författare** som namn och **FÖRFATTARE** som motsvarande värde.
+> * I tabellen ovan representerar alternativen tillgängliga under fältet **Åtgärdstyp**. För varje alternativ måste du ange **aktivitetsnamnet** och **aktivitetsvärdet**. Namnet och värdena för varje uppgiftstyp måste vara exakt desamma som i tabellen ovan. För uppgiftstypen Författare anger du till exempel **Författare** som namn och **FÖRFATTARE** som motsvarande värde.
+> * När du arbetar med prem-tjänster ska du alltid se till att `localhost` ersätts med rätt serveradress i konfigurationen **Day CQ Link Externalizer** för att kunna ta emot den lösta aktivitetslänken i e-postmeddelanden.
 
 ## Kom igång
 
@@ -51,7 +55,7 @@ Utför följande steg för att konfigurera Adobe Workfront i Experience Manager 
 
    Navigera till `Setup >> Systems>> oAuth2 Applications` om du vill komma åt nyckeln **Klient-ID** och **Klienthemlighet** som konfigurerats i din Adobe Workfront-konfiguration.
 
-   Mer information om hur du konfigurerar din Adobe Workfront-domän finns i avsnittet Auktoriseringskoder i [Skapa OAuth2-program för Workfront-integreringar](https://experienceleague.adobe.com/sv/docs/workfront/using/administration-and-setup/configure-integrations/create-oauth-application#create-an-oauth2-application-using-user-credentials-authorization-code-flow).
+   Mer information om hur du konfigurerar din Adobe Workfront-domän finns i avsnittet Auktoriseringskoder i [Skapa OAuth2-program för Workfront-integreringar](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/configure-integrations/create-oauth-application#create-an-oauth2-application-using-user-credentials-authorization-code-flow).
 
 4. Välj **Logga in och verifiera**.
 
@@ -63,7 +67,4 @@ Utför följande steg för att konfigurera Adobe Workfront i Experience Manager 
 6. I den anpassade formulärlistrutan väljer du det anpassade Adobe Workfront-formulär som du har skapat för Experience Manager Guides. Visa [Krav](#prerequisites).
 7. Välj **Spara och stäng** för att tillämpa och spara konfigurationsändringarna för Workfront.
 
-När konfigurationen är klar lägger [till användare i Adobe Workfront](https://experienceleague.adobe.com/sv/docs/workfront/using/administration-and-setup/add-users/create-manage-users/add-users) med samma e-postadresser som de har i Experience Manager Guides.
-
-
-
+När konfigurationen är klar lägger [till användare i Adobe Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/add-users/create-manage-users/add-users) med samma e-postadresser som de har i Experience Manager Guides.

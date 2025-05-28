@@ -4,7 +4,7 @@ description: Lär dig mer om verktygsfältet i Redigeraren. Läs mer om redigeri
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 059ba78a-dbda-4276-bff2-847787ea41b1
-source-git-commit: e49fde64cbbb2544afe23b820af6477ed1e900fc
+source-git-commit: b80737d6066008104ceea103edbc828bc8e632cb
 workflow-type: tm+mt
 source-wordcount: '5909'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Den detaljerade förklaringen till dessa funktioner är följande:
 
 **Redigerar åtgärder**
 
-När du redigerar ett ämne i Redigeraren kan du få åtkomst till olika redigeringsåtgärder, till exempel **Klipp ut** eller ***Ctrl***+***X*** , **Kopiera** eller ***Ctrl***+***C*** , **Ångra** eller ***Ctrl***+***&rbrace;Z*** , **Gör om** eller ***Ctrl***+***Y*** och **Ta bort** som finns i listrutan Meny.
+När du redigerar ett ämne i Redigeraren kan du få åtkomst till olika redigeringsåtgärder, till exempel **Klipp ut** eller ***Ctrl***+***X*** , **Kopiera** eller ***Ctrl***+***C*** , **Ångra** eller ***Ctrl***+***}Z*** , **Gör om** eller ***Ctrl***+***Y*** och **Ta bort** som finns i listrutan Meny.
 
 
 **Sök och ersätt**
@@ -380,7 +380,7 @@ Infogar en bild vid den aktuella eller nästa giltiga plats. Välj ikonen Bild f
 > Du kan också lägga till en bild genom att dra och släppa den från det lokala systemet i artikeln. I det här fallet läggs bildfilen till med arbetsflödet **Överför Assets**.  Mer information finns i arbetsflödet **Överför Assets** i avsnittet [Vänster panel](./web-editor-left-panel.md).
 
 
-![](images/insert-image.png){width="300" align="left"}
+![](images/insert-image-new-dialog.png){width="300" align="left"}
 
 Du kan lägga till en bild-/figurtitel och alternativ text för bilden i dialogrutan Infoga bild.
 
@@ -621,4 +621,4 @@ Om en fil är låst av en annan användare och du håller pekaren över låsikon
 Som administratör får du även åtkomst till funktionen **Tvinga upplåsning** som gör att du kan låsa upp filen som låsts av andra användare. Använd den här funktionen för att komma åt redigeringsrättigheterna för en fil som har låsts av andra användare.
 
 ![](images/web-editor-force-unlock-new.png){width="350" align="left"}
-**Överordnat ämne:**&#x200B;[ Introduktion till redigeraren](web-editor.md)
+**Överordnat ämne:**[ Introduktion till redigeraren](web-editor.md)

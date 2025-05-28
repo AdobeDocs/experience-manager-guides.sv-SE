@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Läs produktdokumentationen för Adobe Experience Manager Guides.
 breadcrumb-title: Dokumentation om AEM Guides
-source-git-commit: fd20f8d8dffd9ab566128ace61cb923279aa2d8b
+source-git-commit: b80737d6066008104ceea103edbc828bc8e632cb
 workflow-type: tm+mt
-source-wordcount: '2106'
+source-wordcount: '2122'
 ht-degree: 2%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 2%
       - Molntjänster {#cloud-release-notes}
          - [Distributionsanvisningar](./release-info/deploy-xml-on-aemaacs.md)
          - 2025 års utgåvor {#2025-releases}
+            - 2025.06.0-utgåvan {#2506-release}
+               - [Nyheter](./release-info/whats-new-2025-06-0.md)
+               - [Åtgärdade problem](./release-info/fixed-issues-2025-06-0.md)
+               - [Uppgraderingsinstruktioner](./release-info/upgrade-instructions-2025-06-0.md)
             - 2025.04.0-utgåvan {#2504-release}
                - [Nyheter](./release-info/whats-new-2025-04-0.md)
                - [Åtgärdade problem](./release-info/fixed-issues-2025-04-0.md)
@@ -129,8 +133,8 @@ ht-degree: 2%
                - [4.2.1 Versionsinformation](./release-info/release-notes-4-2-1.md)
                - [4.2 Versionsinformation](./release-info/release-notes-4-2.md)
          - [4.1.x Versionsinformation](./release-info/release-notes-4-1.md)
-         - [Versionsinformation för 4.0.x](https://helpx.adobe.com/se/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [3.8.x Versionsinformation](https://helpx.adobe.com/se/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [Versionsinformation för 4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [3.8.x Versionsinformation](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Användarhandbok (nytt användargränssnitt) {#user-guide}
    - Introduktion {#about-aemg}
       - [Om [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
@@ -173,6 +177,7 @@ ht-degree: 2%
          - [Skapa en karta](./user-guide/map-editor-create-map.md)
          - [Skapa kartor baserade på anpassade mallar](./user-guide/create-maps-customized-templates.md)
          - [Kartredigeraren](./user-guide/map-editor-advanced-map-editor.md)
+         - [Hämta filer](./user-guide/authoring-download-assets.md)
          - [Ytterligare funktioner i kartredigeraren](./user-guide/map-editor-other-features.md)
       - DITAVAL editor {#ditaval-editor}
          - [Använda DITAVAL-redigeraren](./user-guide/ditaval-editor.md)
@@ -275,9 +280,11 @@ ht-degree: 2%
          - [Viktiga begrepp, roller, behörigheter och krav](./user-guide/authoring.md)
          - [Överför filer](./user-guide/authoring-upload-existing-files.md)
          - [Hantera filer och mappar](./user-guide/authoring-file-management.md)
-         - [Hämta filer](./user-guide/authoring-download-assets.md)
+         - [Bearbeta eller bearbeta om resurser](./user-guide/asset-processor.md)
+      - Felsökning {#troubleshooting}
+         - [Tidsgräns för session](./user-guide/session-timeout-prompt.md)
 - Användarhandbok (gammalt användargränssnitt) {#user-guide-old-ui}
-   - [AEM Guides - översikt](https://experienceleague.adobe.com/sv/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [AEM Guides - översikt](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installation och konfiguration {#install-guide}
    - Lokalt {#on-prem-ig}
       - [Grunderna på plats](./install-guide/introduction.md)

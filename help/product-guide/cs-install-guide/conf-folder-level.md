@@ -5,9 +5,9 @@ exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
 feature: Profiles
 role: Admin
 level: Experienced
-source-git-commit: 8ee4863470f69bca52a9b36cde52703e4d6643bc
+source-git-commit: 10c0a105c09f5a20b5bf2ef9b3201e7747048a8a
 workflow-type: tm+mt
-source-wordcount: '4756'
+source-wordcount: '4794'
 ht-degree: 0%
 
 ---
@@ -456,7 +456,7 @@ Läs mer om hur du visar och lägger till [AI-baserade smarta förslag](../user-
 
 För ![AEM cloud ](assets/aem-cloud-icon.svg) Experience Manager Guides as a Cloud Service.
 
-Du kan konfigurera den AI-baserade smarta **hjälpen** så att författarna kan ställa frågor och enkelt hitta det innehåll som krävs från [Experience Manager Guides-dokumentationen](https://experienceleague.adobe.com/sv/docs/experience-manager-guides/using/overview).
+Du kan konfigurera den AI-baserade smarta **hjälpen** så att författarna kan ställa frågor och enkelt hitta det innehåll som krävs från [Experience Manager Guides-dokumentationen](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
 
 På fliken **XML-redigerarkonfiguration** kan du konfigurera standardfrågorna på panelen **Hjälp**.
 
@@ -508,7 +508,11 @@ Som standard har XML-redigeraren många funktioner som hjälper dina författare
 
 Med den här inställningen kan du skapa JSON-tillägg som återspeglar ändringar som gjorts i filen `ui_config.json`. Du kan överföra dessa tillägg oberoende av varandra på mappprofilnivå, vilket ger ökad flexibilitet och anpassning. Om du till exempel ändrar **XML-redigerarkonfigurationen**, till exempel uppdaterar en knapp, identifieras skillnaderna automatiskt i systemet. Genom att överföra dessa ändringar till **XML-redigerarens gränssnittskonfiguration** och konvertera dem till JSON-tillägg med knappen **Konvertera gränssnittskonfiguration till JSON**, genererar systemet ett tillägg som innehåller den nya funktionen.
 
-Läs mer om [att anpassa JSON-konfigurationer och konvertera gränssnittskonfigurationer för den nya AEM Guides Editor](https://experienceleague.adobe.com/sv/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
+Läs mer om [att anpassa JSON-konfigurationer och konvertera gränssnittskonfigurationer för den nya AEM Guides Editor](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
+
+>[!NOTE]
+>
+> När du anpassar programmet med hjälp av tilläggsramverket bör du bara använda de nödvändiga React Spectrum-komponenter som stöds, till exempel Tree, Table, Checkbox, radio button och radio group, för att undvika problem under distributionen.
 
 **XML-redigerarens sidlayout**
 

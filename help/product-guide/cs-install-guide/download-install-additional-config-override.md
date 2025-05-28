@@ -5,9 +5,9 @@ exl-id: dc5f81f7-5b0a-4d12-a944-ba66b0239d5c
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: dae38cf948b99c8b89c61472938ce97b571f9366
+source-git-commit: e4b213b5f0efda18fb24f100f3ee8237947890bf
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ För att säkerställa en smidig övergång och minimera avbrott tillhandahålle
 
 >[!IMPORTANT]
 >
-> Det här konfigurationsalternativet för att växla mellan det nya och gamla användargränssnittet är tillgängligt till version 2025.4.0. Efter det kommer det nya användargränssnittet att bli standard och alternativet att växla tillbaka till det tidigare användargränssnittet stöds inte längre.
+> Det här konfigurationsalternativet för att växla mellan det nya och gamla användargränssnittet stöds fram till version 2025.4.0. I version 2025.6.0 är den här inställningen föråldrad och kan inte längre användas för att återgå till det gamla användargränssnittet.
 
 Så här konfigurerar du användargränssnittet i Experience Manager Guides:
 
@@ -65,4 +65,4 @@ Så här konfigurerar du användargränssnittet i Experience Manager Guides:
 
 
 
-**Överordnat ämne:**&#x200B;[ Hämta och installera](download-install.md)
+**Överordnat ämne:**[ Hämta och installera](download-install.md)

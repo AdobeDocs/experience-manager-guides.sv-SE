@@ -4,9 +4,9 @@ description: Skapa och hantera baslinjer från kartkonsolen i Adobe Experience M
 exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: 154d4cb2c4c51581590048e1d368f4c744402847
+source-git-commit: c7e76de14a3dd63eff794ecca16ebbccb3cb2d8a
 workflow-type: tm+mt
-source-wordcount: '1831'
+source-wordcount: '1881'
 ht-degree: 0%
 
 ---
@@ -54,6 +54,10 @@ I **Markera versionen baserat på** väljer du ett av följande alternativ:
 
 - **Datum** : Hämtar ämnesversionen som angivet datum och angiven tid.
 - **Etikett**: Välj det här alternativet om du vill välja ämnen enligt den etikett som används för dem. Om rubrikerna har etiketter som är angivna för dem visas etiketterna i listrutan. Du kan välja en etikett i listan. Du kan också lägga till en etikett i textrutan.
+
+  >[!NOTE]
+  >
+  > När du väljer etiketter visas etikettinläsaren tills alla etiketter har hämtats och lästs in fullständigt. När etiketterna har lästs in visas de i en skiftlägesokänslig alfabetisk ordning. De hämtas i grupper om 20, med oändlig rullning aktiverat i listrutan för att läsa in ytterligare grupper när du rullar.
 
   För direkta referenser i statiska baslinjer hämtas etiketterna från den senaste sparade versionen av kartan. Om du till exempel har skapat etiketterna `Label Release 1.0` och `Label Release 1.1` för versionerna 1.0 och 1.1 i ämne A och sedan lägger till ämne A i kartan som sparats som version 1.0. I det här fallet kan du visa etiketterna `Label Release 1.0` och `Label Release 1.1` i listrutan för statiska baslinjeetiketter.
 
@@ -164,5 +168,5 @@ Med ikonen Filter på panelen **Baslinjefilter** kan du använda filter på basl
 
 När du har redigerat baslinjen väljer du **Spara** om du vill spara ändringarna i baslinjen. Du kan välja **Återställ** om du inte vill spara ändringen och återställa baslinjen. När du väljer **Återställ** visas en varning om att ändringar som inte sparats går förlorade.
 
-**Överordnat ämne:**&#x200B;[ Utdatagenerering](generate-output.md)
+**Överordnat ämne:**[ Utdatagenerering](generate-output.md)
 

@@ -1,12 +1,12 @@
 ---
-title: Andra funktioner i kartredigerarna
+title: Andra funktioner i kartredigeraren
 description: Upptäck några vanliga funktioner i kartredigeraren. Lär dig hur du löser nyckelreferenser i kartredigeraren.
 exl-id: f0e7a402-ac12-4c63-9d7f-92567ee29a39
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 594e348fc1188e66cf2f4648702ed2b17f1f8f33
+source-git-commit: 41c6e4edb470038c4934c01f1c28539f1e4d4f86
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '662'
 ht-degree: 0%
 
 ---
@@ -41,4 +41,35 @@ Den här rotmappningen kommer att gälla för alla resurser \(mappar och underma
 
 **Ämnesredigeringsvy** - Välj ikonen för tangentupplösning när du redigerar ett DITA-ämne och markera den DITA-fil som ska användas för att matcha nyckelreferenserna.
 
-**Överordnat ämne:**&#x200B;[ Introduktion till kartredigeraren](map-editor.md)
+## Lägg till navigeringsreferenser
+
+Elementet `navref` används i en DITA-karta för att inkludera navigeringsreferenser från en annan DITA-karta. Detta gör att författare kan återanvända navigeringsstrukturen, t.ex. delade menyer eller länkar, utan att det faktiska innehållet i den refererade kartan läggs samman med utdata.
+
+>[!NOTE]
+>
+> Elementet `navref` är endast avsett för navigering i kartstrukturen. Den bidrar inte till de genererade DITA-mappningsutdata och är exkluderad från bearbetning och visning i Kartvyn, Rapporter, Baslinje, Översättning och Förhandsgranskning.
+
+Så här lägger du till navigeringsreferenser till en karta:
+
+1. Öppna DITA-kartfilen där du vill lägga till en navigeringsreferens.
+
+   Kartfilen öppnas i kartredigeraren.
+1. Växla till redigeringsvyn och placera markören på en giltig plats för en navigeringsreferens.
+1. Välj alternativet **Element** i verktygsfältet.
+1. I dialogrutan **Infoga element** väljer du **navref**.
+
+   ![](./images/select-navref-element.png)
+1. Dialogrutan **Markera bana** visas. Markera en kartfil som du vill ta med som navigeringsreferens på kartan och välj **Markera**.
+
+En navigeringsreferens för den markerade kartfilen läggs till på den angivna platsen. Titeln på den refererade kartan visas även i både redigeringsvyn och layoutvyn.
+
+![](./images/navref-added-author-view.png)
+
+*Författarvy*
+
+![](./images/navref-added-layout-view.png)
+
+*Layoutvy*
+
+
+**Överordnat ämne:**[ Introduktion till kartredigeraren](map-editor.md)

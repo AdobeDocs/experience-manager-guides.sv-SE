@@ -2,9 +2,9 @@
 title: Konfigurera AI Assistant för smart hjälp och redigering
 description: Lär dig konfigurera AI-assistenten i Experience Manager Guides
 exl-id: a595ca1f-0123-40d3-a79c-a066bc6517b4
-source-git-commit: 018bd7c7bc3bb9161e5bedd42d50a5c501ca2919
+source-git-commit: b80737d6066008104ceea103edbc828bc8e632cb
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '926'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,10 @@ Utför följande steg för att konfigurera AI-assistenten:
 1. [Skapa IMS-konfiguration i Adobe Developer Console](#create-ims-configurations-in-adobe-developer-console).
 2. [Lägg till IMS-konfigurationer i miljön](#add-ims-configuration-to-the-environment)
 3. [Aktivera AI-flagga i miljön](#enable-ai-flag-in-the-environment)
-4. [Tillämpa miljöändringar](#apply-changes-to-the-environment)
-5. [Aktivera AI-assistenten i mappprofilen](#enable-ai-assistant-in-folder-profile)
-6. [Konfigurera smarta förslag i mappprofilen](./conf-folder-level.md#configure-ai-assistant-for-smart-help-and-authoring)
+4. [Lägg till variabeln GUIDES_AI_SITE_ID i miljön](#add-the-guides_ai_site_id-variable-in-the-environment)
+5. [Tillämpa miljöändringar](#apply-changes-to-the-environment)
+6. [Aktivera AI-assistenten i mappprofilen](#enable-ai-assistant-in-folder-profile)
+7. [Konfigurera smarta förslag i mappprofilen](./conf-folder-level.md#configure-ai-assistant-for-smart-help-and-authoring)
 
 ## Skapa IMS-konfigurationer i Adobe Developer Console
 
@@ -92,6 +93,14 @@ Se till att du använder samma namn och konfiguration som i skärmbilden nedan.
 
 Om du anger flaggan som **true** aktiveras funktionen, medan **false** inaktiveras.
 
+## Lägg till variabeln GUIDES_AI_SITE_ID i miljön
+
+Lägg till variabeln `GUIDES_AI_SITE_ID` i din miljö (Cloud Manager) och ställ in värdet på `id_f651abc807c84f52b425737bb93f87ba` för att aktivera den.
+
+Se till att du använder samma namn och konfiguration som i skärmbilden nedan.
+
+![](assets/conf-folder-guides-site-id.png){width="800" align="left"}
+
 ## Tillämpa miljöändringar
 
 När du har lagt till IMS-konfigurationen och aktiverat AI Assistant-flaggan i miljön gör du så här för att länka dessa egenskaper till AEM Guides med OSGi:
@@ -143,8 +152,8 @@ Mer information finns i [Konfigurera smarta förslag i mappprofilen](./conf-fold
   "related.link.threshold":0.5,
   "emerald.url":"https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1",
   "instance.type":"prod",
-  "chat.url":"https://aem-guides-ai.adobe.io"
-}
+  "chat.url":"https://aem-guides-ai-v2.adobe.io"
+  }
 ```
 
 ## Konfigurationsinformation för AI Assistant
@@ -154,7 +163,7 @@ Mer information finns i [Konfigurera smarta förslag i mappprofilen](./conf-fold
 | conref.inline.threshold | Tröskelvärde som styr precision/återkallande av förslag som hämtats för taggen som användaren skriver in just nu. | Alla värden mellan -1.0 och 1.0. | 0,6 |
 | conref.block.threshold | Tröskelvärde som styr precision/återkallande av förslag som hämtats för taggar i hela filen. | Alla värden mellan -1.0 och 1.0. | 0,7 |
 | emerald.url | Slutpunkt för vektordatabasen för smarta förslag | [https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1](https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1) | [https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1](https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1) |
-| chat.url | Slutpunkt för AI-assistenttjänsten | [https://aem-guides-ai.adobe.io](https://aem-guides-ai.adobe.io) | [https://aem-guides-ai.adobe.io](https://aem-guides-ai.adobe.io) |
+| chat.url | Slutpunkt för AI-assistenttjänsten | [https://aem-guides-ai-v2.adobe.io](https://aem-guides-ai-v2.adobe.io) | [https://aem-guides-ai-v2.adobe.io](https://aem-guides-ai-v2.adobe.io) |
 | instance.type | Typ av AEM-instans. Kontrollera att detta är unikt för varje AEM-instans som de smarta förslagen har konfigurerats för. Ett användningsexempel skulle vara att testa funktionen i scenmiljön med &quot;instance.type&quot; = &quot;stage&quot;, medan funktionen samtidigt är konfigurerad för &quot;prod&quot;. | En unik nyckel som identifierar miljön. Endast *alfanumeriska* värden tillåts. &quot;dev&quot;/&quot;stage&quot;/&quot;prod&quot;/&quot;test1&quot;/&quot;stage2&quot; | &quot;prod&quot; |
 
 När du har konfigurerat den visas AI Assistant-ikonen på Experience Manager Guides hemsida och i redigeraren. Mer information finns i avsnittet [AI Assistant](../user-guide/ai-assistant.md) i Experience Manager användarhandbok.
