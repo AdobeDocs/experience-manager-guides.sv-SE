@@ -18,20 +18,20 @@ Med arbetsflöden kan du automatisera Adobe Experience Manager \(AEM\)-aktivitet
 
 Mer information om arbetsflöden i AEM finns i:
 
-- [Administrera arbetsflöden](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html)
+- [Administrera arbetsflöden](https://helpx.adobe.com/se/experience-manager/6-5/sites/administering/using/workflows.html)
 
-- Tillämpar och deltar i arbetsflöden: [Arbeta med arbetsflöden](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/workflows.html).
+- Tillämpar och deltar i arbetsflöden: [Arbeta med arbetsflöden](https://helpx.adobe.com/se/experience-manager/6-5/sites/authoring/using/workflows.html).
 
-- Skapa arbetsflödesmodeller och utöka arbetsflödesfunktioner: [Utveckla och utöka arbetsflöden](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/workflows.html).
+- Skapa arbetsflödesmodeller och utöka arbetsflödesfunktioner: [Utveckla och utöka arbetsflöden](https://helpx.adobe.com/se/experience-manager/6-5/sites/developing/using/workflows.html).
 
-- Förbättrar prestanda för arbetsflöden som använder betydande serverresurser: [Samtidig arbetsflödesbearbetning](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance).
+- Förbättrar prestanda för arbetsflöden som använder betydande serverresurser: [Samtidig arbetsflödesbearbetning](https://helpx.adobe.com/se/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance).
 
 
 Avsnitten i det här avsnittet visar olika anpassningar som du kan göra i standardarbetsflödena som levereras i AEM Guides.
 
 ## Anpassa granskningsarbetsflödet {#id176NE0C00HS}
 
-Alla organisationers skribenter arbetar på ett specifikt sätt för att uppfylla sina verksamhetskrav. I vissa organisationer finns det en dedikerad redigerare, medan andra organisationer kan ha ett automatiserat system för redaktionell granskning. I en organisation kan t.ex. ett vanligt arbetsflöde för redigering och publicering omfatta uppgifter som - när en författare har redigerat innehållet går det automatiskt till granskarna och när granskningen är klar går det till utgivaren för att generera det slutliga resultatet. I AEM kan aktiviteter som du gör med ditt innehåll och dina resurser kombineras i form av en process och mappas till ett AEM-arbetsflöde. Mer information om arbetsflöden i AEM finns i [Administrera arbetsflöden](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html) i AEM-dokumentationen.
+Alla organisationers skribenter arbetar på ett specifikt sätt för att uppfylla sina verksamhetskrav. I vissa organisationer finns det en dedikerad redigerare, medan andra organisationer kan ha ett automatiserat system för redaktionell granskning. I en organisation kan t.ex. ett vanligt arbetsflöde för redigering och publicering omfatta uppgifter som - när en författare har redigerat innehållet går det automatiskt till granskarna och när granskningen är klar går det till utgivaren för att generera det slutliga resultatet. I AEM kan aktiviteter som du gör med ditt innehåll och dina resurser kombineras i form av en process och mappas till ett AEM-arbetsflöde. Mer information om arbetsflöden i AEM finns i [Administrera arbetsflöden](https://helpx.adobe.com/se/experience-manager/6-5/sites/administering/using/workflows.html) i AEM-dokumentationen.
 
 Med AEM Guides kan du anpassa standardarbetsflödet för granskning. Du kan använda följande fyra anpassade granskningsrelaterade processer tillsammans med dina andra arbetsflöden för redigering och publicering.
 
@@ -135,7 +135,7 @@ Mer information om hur du konfigurerar **Adobe Granite Workflow Renge Configurat
 
 ### Anpassa e-postmallar
 
-I ett antal av AEM Guides arbetsflöden används e-postmeddelanden. Om du till exempel initierar en granskningsåtgärd skickas ett e-postmeddelande till granskarna. Om du vill vara säker på att e-postmeddelandet skickas måste du aktivera den här funktionen i AEM. Information om hur du aktiverar e-postmeddelanden i AEM finns i artikeln [Konfigurera e-postmeddelande](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=en) i AEM-dokumentationen.
+I ett antal av AEM Guides arbetsflöden används e-postmeddelanden. Om du till exempel initierar en granskningsåtgärd skickas ett e-postmeddelande till granskarna. Om du vill vara säker på att e-postmeddelandet skickas måste du aktivera den här funktionen i AEM. Information om hur du aktiverar e-postmeddelanden i AEM finns i artikeln [Konfigurera e-postmeddelande](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=sv-SE) i AEM-dokumentationen.
 
 AEM Guides innehåller en uppsättning e-postmallar som du kan anpassa. Följ de här stegen för att anpassa de här mallarna:
 
