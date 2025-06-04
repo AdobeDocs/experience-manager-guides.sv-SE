@@ -5,9 +5,9 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: f43d8d01a9c3b29328641680f3ba7d96ce7ecd79
+source-git-commit: 579be351210f8a32d9cb66950b935bfad039f51b
 workflow-type: tm+mt
-source-wordcount: '8023'
+source-wordcount: '8041'
 ht-degree: 0%
 
 ---
@@ -18,14 +18,14 @@ ht-degree: 0%
 >
 > Följ uppgraderingsinstruktionerna för den licensierade versionen av din produkt.
 
-Du kan uppgradera din nuvarande version av Experience Manager Guides till version 5.0.0:
+Du kan uppgradera din nuvarande version av Experience Manager Guides till version 5.0.0 Service Pack 1:
 
 
-- Om du använder version 4.6.x, 4.6 eller 4.4 kan du uppgradera direkt till version 5.0.0.
+- Om du använder version 5.0.0, 4.6.x, 4.6 eller 4.4 kan du uppgradera direkt till version 5.0.0 Service Pack 1.
 - Om du använder version 4.3.x, 4.2, 4.2.1 (programfix 4.2.1.3), 4.1 eller 4.1.x måste du uppgradera till version 4.4 innan du uppgraderar till version 5.0.0.
 - Om du använder version 4.0 måste du uppgradera till version 4.2 innan du uppgraderar till version 4.3.x.
 - Om du använder version 3.8.5 måste du uppgradera till version 4.0 innan du uppgraderar till version 4.2.
-- Om du har en tidigare version än 3.8.5 kan du läsa mer i avsnittet Uppgradera Experience Manager Guides i den produktspecifika installationsguiden för [Adobe Experience Manager Guides Help PDF archive](https://helpx.adobe.com/se/xml-documentation-for-experience-manager/archive.html).
+- Om du har en tidigare version än 3.8.5 kan du läsa mer i avsnittet Uppgradera Experience Manager Guides i den produktspecifika installationsguiden för [Adobe Experience Manager Guides Help PDF archive](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 
 >[!NOTE]
@@ -58,11 +58,11 @@ Innan du kör processen måste du slutföra vissa uppgifter. I följande delavsn
 
 >[!NOTE]
 >
-> Denna uppgraderingsprocess gäller endast från version 3.8.5 till version 4.0. För uppgraderingsprocessen från version 3.4 eller senare till 3.8.5, se avsnittet *Uppgradera Experience Manager Guides* i den produktspecifika installationsguiden som finns i [Adobe Experience Manager Guides Help PDF archive](https://helpx.adobe.com/se/xml-documentation-for-experience-manager/archive.html).
+> Denna uppgraderingsprocess gäller endast från version 3.8.5 till version 4.0. För uppgraderingsprocessen från version 3.4 eller senare till 3.8.5, se avsnittet *Uppgradera Experience Manager Guides* i den produktspecifika installationsguiden som finns i [Adobe Experience Manager Guides Help PDF archive](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 
 
-**&#x200B;**&#x200B;Förutsättningar&#x200B;**&#x200B;**
+****Förutsättningar****
 
 Innan du påbörjar uppgraderingen av Experience Manager Guides bör du kontrollera att du har:
 
@@ -89,12 +89,12 @@ Detta API är utformat för att utvärdera den aktuella systemstatusen och rappo
 | Typ av begäran | **GET** Du kan använda en webbläsare där du är inloggad som administratör på AEM-instansen. |
 | Förväntat svar | -   Om alla nödvändiga noder kan flyttas får du en kontroll som du godkänt. <br>-   Om det finns en nod på målplatsen får du ett relevant fel. Rensa databasen \(delete node /var/dxml\) och installera om uppgraderingspaketet och utlösa sedan den här slutpunkten igen. <br>**Obs!** Detta är inte ett vanligt fel eftersom målplatsen inte används tidigare av 3.x Experience Manager Guides. <br> -   Om det här manuset inte lyckas ska du inte fortsätta och rapportera till ditt kundframgångsteam. |
 
-**API för migrering av systemdata**
+**API för systemdatamigrering**
 
-Det här API:et är utformat för att migrera systemdata enligt vad **som anges i avsnittet Migreringsmappning** .
+Detta API är utformat för att migrera systemdata enligt avsnittet **Migreringsmappning**.
 
-1. Kör inte det här skriptet om API:et för att kontrollera uppgraderingskompatibilitet misslyckas \(fortsätt inte\).
-1. När API:et för att kontrollera uppgraderingskompatibilitet returnerar framgång kan du köra uppgraderingsskriptet.
+1. Kör inte det här skriptet om API:t för kontroll av kompatibilitet misslyckas \(fortsätt inte\).
+1. När API:t för kontroll av uppgraderingskompatibilitet returneras kan du köra uppgraderingsskriptet.
 
 | Slutpunkt | /bin/dxml/upgrade/3xto4x |
 | --- | --- |
@@ -135,7 +135,7 @@ Uppgradering till version 4.2 beror på vilken version av Experience Manager Gui
 
 Om du använder version 4.0, 4.1 eller 4.1.x kan du uppgradera direkt till version 4.2.
 
-**&#x200B;**&#x200B;Förutsättningar&#x200B;**&#x200B;**
+****Förutsättningar****
 
 Innan du startar uppgraderingsprocessen för Experience Manager Guides 4.2 bör du kontrollera att du har:
 
@@ -170,7 +170,7 @@ Innan du startar uppgraderingsprocessen för Experience Manager Guides 4.2 bör 
 
 >[!IMPORTANT]
 >
-> Högteknologisk mall visas inte på den uppgraderade servern. För att inkludera den högteknologiska mallen på din server kan du kopiera den: Källa: /libs/fmdita/pdf/Hi-Tech Destination: /content/dam/dita-templates/pdf
+> Hi-tech-mallar visas inte på uppgraderad server. Om du vill inkludera hi-tech-mallen på servern kan du kopiera den: Source: /libs/fmdita/pdf/Hi-Tech Destination: /content/dam/dita-templates/pdf
 
 När du har installerat Experience Manager Guides kan du sammanfoga de olika konfigurationer som gäller från den nyinstallerade versionen till din installation.
 
@@ -186,12 +186,12 @@ När du har installerat Experience Manager Guides kan du sammanfoga de olika kon
    http://localhost:4502/libs/cq/workflow/admin/console/content/models.html
    ```
 
-1. Välj **arbetsflöde för DAM-uppdatering av resurs**.
+1. Välj **DAM-uppdateringsarbetsflöde**.
 1. Klicka på **Redigera**.
 1. Om komponenten **DXML Post Process Initiator** finns kontrollerar du att anpassningarna är synkroniserade.
-1. Om komponenten **DXML Post Process Initiator** saknas utför du följande steg för att infoga den:
+1. Om komponenten **DXML Post Process Initiator** inte finns utför du följande steg för att infoga den:
 
-1. Klicka på **Insert component** \(Responsible for Experience Manager Guides post-processing som det sista steget i processen\).
+1. Klicka på **Infoga komponent** \(Ansvarig för efterbearbetning av Experience Manager Guides som det sista steget i processen\).
 1. Konfigurera **processsteget** med information nedan:
 
    **fliken Allmänt**
@@ -305,27 +305,27 @@ och vänta tills den är `false` igen (detta anger att omindexeringen är klar).
 >
 >Vi rekommenderar att du installerar programfixen 4.2.1.3 ovanpå version 4.2.1.
 
-Uppgradering till version 4.2.1 beror på vilken version av Experience Manager Guides som är aktuell. Om du använder version 4.1 eller 4.1.x, eller 4.2, kan du uppgradera direkt till version 4.2.1.
+Uppgradering till version 4.2.1 beror på vilken version av Experience Manager Guides som är aktuell. Om du använder version 4.1, 4.1.x eller 4.2 kan du uppgradera direkt till version 4.2.1.
 
 >[!NOTE]
 >
->Efterbearbetningen och indexeringen kan ta några timmar. Vi rekommenderar att du startar uppgraderingsprocessen under tider med låg belastning.
+>Efterbearbetningen och indexeringen kan ta några timmar. Vi rekommenderar att du startar uppgraderingsprocessen under lågtider.
 
-**&#x200B;**&#x200B;Förutsättningar&#x200B;**&#x200B;**
+****Förutsättningar****
 
 Innan du startar uppgraderingsprocessen för Experience Manager Guides 4.2.1 bör du kontrollera att du har:
 
 1. Uppgraderat till Experience Manager Guides version 4.1, 4.1.x eller 4.2.
-1. Stängde alla översättningsuppgifter.
-1. Ändrade loggnivån till **INFO** för `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` klassen och lägger till dessa loggar i en ny loggfil, till exempel `logs/translation_upgrade.log.`
+1. Alla översättningsuppgifter stängdes.
+1. Loggnivån har ändrats till **INFO** för klassen `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` och loggarna läggs till i en ny loggfil, till exempel `logs/translation_upgrade.log.`
 
 >[!NOTE]
 >
-> Du bör stänga alla aktiva recensioner. Om granskningsuppgifterna inte stängs under uppgraderingen till 4.2 fortsätter de äldre pågående granskningsuppgifterna att ta användare på de äldre granskningssidorna, och de granskningsuppgifter som skapas efter uppgraderingen visar de senaste uppdateringarna i funktionerna.
+> Du bör stänga alla aktiva granskningar. Om granskningsuppgifterna inte stängs när du uppgraderar till 4.2 fortsätter de äldre pågående granskningsuppgifterna att ta användare på de äldre granskningssidorna, och de granskningsuppgifter som skapas efter uppgraderingen visar de senaste uppdateringarna i funktionen.
 
 ## Installera version 4.2.1
 
-1. Hämta versionspaketet för 4.2.1 från [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
+1. Hämta versionspaketet 4.2.1 från [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
 1. Installera paket för version 4.2.1.
 1. Du kan välja att HIT-aktivera utlösaren för att starta uppgraderingsjobbet för översättningskartan. Mer information finns i [Aktivera utlösare för skript via en server](#enable-trigger-of-script-via-a-servlet-for-421).
 
@@ -456,14 +456,14 @@ När du har installerat Experience Manager Guides kan du sammanfoga de olika kon
 
 1. När uppgraderingen är klar kontrollerar du att alla anpassningar/övertäckningar har validerats och uppdaterats så att de matchar den nya programkoden. Nedan följer några exempel:
    - Alla komponenter som överlappas av/libs/fmditor/libsska jämföras med den nya produktkoden och uppdateringar ska göras i överlagrade filer under/i appar.
-   - Alla clientlib-kategorier som används från produkten bör granskas för ändringar. Alla åsidosatta konfigurationer \(exempel nedan\) bör jämföras med de senaste för att få de senaste funktionerna:
+   - Alla kategorier av klientlib som används från produkten bör granskas för ändringar. Alla åsidosatta konfigurationer \(exempel nedan\) bör jämföras med de senaste för att få de senaste funktionerna:
    - elementmapping.xml
-   - ui\_config.json\(kan ha ställts in i mappprofiler\)
+   - ui\_config.json\(kan ha angetts i mappprofiler\)
    - ändrade `com.adobe.fmdita.config.ConfigManager`
    - Kontrollera om någon av de anpassade koderna använde några gamla sökvägar \(som nämns i avsnittet [Migreringsmappning](#id2244LE040XA)\) - ska uppdateras till de nya sökvägarna så att anpassningarna också fungerar som förväntat.
-1. Läs om alla nya konfigurationer som tas med i den aktuella versionen \(kontrollera [Viktig information](../release-info/release-notes-4-2-1.md)\) och se om någon funktionalitet påverkas och vidta sedan lämpliga åtgärder. Ett exempel kan vara att använda&quot;Förbättrad fil- och versionshantering&quot; som introducerades i version 4.0, som du måste aktivera en konfiguration för.
+1. Läs om nya konfigurationer som ingår i den aktuella versionen \(kontrollera [Versionsinformation](../release-info/release-notes-4-2-1.md)\) och se om någon funktion påverkas genom att vidta lämpliga åtgärder. Ett exempel kan vara att använda&quot;Förbättrad fil- och versionshantering&quot; som introducerades i version 4.0, som du måste aktivera en konfiguration för.
 
-## Steg för att indexera det befintliga innehållet för att använda den nya Sök och ersätt:
+## Steg för att indexera befintligt innehåll så att det använder den nya funktionen för att söka och ersätta:
 
 Utför följande steg för att indexera det befintliga innehållet och använd den nya sök- och ersätt-texten på mappningsnivå:
 
@@ -488,7 +488,7 @@ Uppgradering till version 4.3.0 beror på vilken version av Experience Manager G
 >
 >Efterbearbetningen och indexeringen kan ta några timmar. Vi rekommenderar att du startar uppgraderingsprocessen under lågtider.
 
-**&#x200B;**&#x200B;Förutsättningar&#x200B;**&#x200B;**
+****Förutsättningar****
 
 Innan du startar uppgraderingsprocessen för Experience Manager Guides 4.3.0 bör du kontrollera att du har:
 
@@ -546,7 +546,7 @@ Uppgradering till version 4.3.1 beror på vilken version av Experience Manager G
 >
 >Efterbearbetningen och indexeringen kan ta några timmar. Vi rekommenderar att du startar uppgraderingsprocessen under lågtider.
 
-**&#x200B;**&#x200B;Förutsättningar&#x200B;**&#x200B;**
+****Förutsättningar****
 
 Innan du startar uppgraderingsprocessen för Experience Manager Guides 4.3.1 bör du kontrollera att du har:
 
@@ -787,7 +787,7 @@ Uppgradering till version 4.4.0 beror på vilken version av Experience Manager G
 >
 >Efterbearbetningen och indexeringen kan ta några timmar. Vi rekommenderar att du startar uppgraderingsprocessen under lågtider.
 
-**&#x200B;**&#x200B;Förutsättningar&#x200B;**&#x200B;**
+****Förutsättningar****
 
 Innan du startar uppgraderingsprocessen för Experience Manager Guides 4.4.0 bör du kontrollera att du har:
 
@@ -980,7 +980,7 @@ Om du har en annan anpassad återskrivningsskrivare i kodbasen använder du ett 
 Under den här uppgraderingen måste du, eftersom värdet `'order'` ändras från 1 000 till 50, sammanfoga den befintliga anpassade omskrivaren, om sådan finns, med `'fmdita-rewriter'`.
 
 
-**Överordnat ämne:**&#x200B;[ Hämta och installera](download-install.md)
+**Överordnat ämne:**[ Hämta och installera](download-install.md)
 
 
 ## Uppgradera till version 4.6.0
@@ -995,19 +995,19 @@ Uppgradering till version 4.6.0 beror på vilken version av Experience Manager G
 >
 > Efterbearbetningen och indexeringen kan ta några timmar. Vi rekommenderar att du startar uppgraderingsprocessen under lågtider.
 
-**&#x200B;**&#x200B;Förutsättningar&#x200B;**&#x200B;**
+****Förutsättningar****
 
 Innan du startar uppgraderingsprocessen för Experience Manager Guides 4.6.0 bör du kontrollera att du har:
 
 1. Uppgraderat till Experience Manager Guides version 4.3.1, 4.3.0 eller 4.2.1 (programfix 4.2.1.3) och slutförde respektive installationssteg.
-1. (Valfritt) Stängde alla översättningsuppgifter.
-1. Ändrade loggnivån till **INFO** för `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` klassen och lägg till dessa loggar i en ny loggfil, `logs/translation_upgrade.log`till exempel .
+1. (Valfritt) Avslutade alla översättningsuppgifter.
+1. Loggnivån har ändrats till **INFO** för klassen `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` och loggarna läggs till i en ny loggfil, till exempel `logs/translation_upgrade.log`.
 
 
 ## Installera version 4.6.0
 
-1. Hämta versionspaketet för 4.6.0 från [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
-1. Installera version 4.6.0-paketet.
+1. Hämta versionspaketet 4.6.0 från [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
+1. Installera paket för version 4.6.0.
 1. Du kan välja att HIT-aktivera utlösaren för att starta uppgraderingsjobbet för översättningskartan. Mer information finns i [Aktivera utlösare för skript via en server](#enable-trigger-of-script-via-a-servlet).
 
 1. När du har slutfört paketinstallationen väntar du på följande meddelanden i loggarna:
@@ -1020,11 +1020,11 @@ Innan du startar uppgraderingsprocessen för Experience Manager Guides 4.6.0 bö
 
    - Fel i installationsskript efter distribution
    - Undantag vid portering av översättnings-MAP
-   - Det går inte att porta översättningskartan från v1 till v2 för egenskapen
-1. Uppgradera plugin-programmet för syreanslutning som släpptes med version 4.6.0 \(om det behövs\).
-1. Rensa webbläsarens cacheminne när du har installerat paketet.
+   - Det går inte att portera översättningskarta från v1 till v2 för egenskap
+1. Uppgradera plugin-programmet för syreanslutning som släppts med version 4.6.0 \(vid behov\).
+1. Rensa webbläsarcachen när paketet har installerats.
 
-## När du har installerat version 4.6.0
+## Efter installationen av version 4.6.0
 
 När du har installerat Experience Manager Guides kan du sammanfoga de olika konfigurationer som gäller från den nyinstallerade versionen till din installation.
 
@@ -1131,11 +1131,11 @@ Utför följande steg för att indexera det befintliga innehållet:
 
 
 
-## Steg för att hantera `'fmdita rewriter'` konflikten
+## Steg som ska hantera `'fmdita rewriter'`-konflikten
 
-Experience Manager Guides har en [**anpassad sling rewriter-modul**](../cs-install-guide/conf-output-generation.md#custom-rewriter) för att hantera länkar som genereras vid korskartor (länkar mellan ämnena i två olika kartor).
+Experience Manager Guides har en [**anpassad omskrivarmodul**](../cs-install-guide/conf-output-generation.md#custom-rewriter) för hantering av länkar som genereras vid korsmappningar (länkar mellan ämnen på två olika kartor).
 
-Om du har en annan anpassad sling-omskrivare i kodbasen använder du ett `'order'` värde som är större än 50, eftersom Experience Manager Guides sling-omskrivare använder `'order'` 50.  Om du vill åsidosätta detta måste du ange ett värde > 50. Mer information finns i [Skriva om utdata](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html).
+Om du har en annan anpassad återskrivningsskrivare i kodbasen använder du ett `'order'`-värde som är större än 50, eftersom Experience Manager Guides återskrivningsprogram använder `'order'` 50.  Om du vill åsidosätta detta måste du ange ett värde > 50. Mer information finns i [Skriva om utdata](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html).
 
 Under den här uppgraderingen måste du, eftersom värdet `'order'` ändras från 1 000 till 50, sammanfoga den befintliga anpassade omskrivaren, om sådan finns, med `'fmdita-rewriter'`.
 
@@ -1144,15 +1144,15 @@ Under den här uppgraderingen måste du, eftersom värdet `'order'` ändras frå
 
 >[!TIP]
 >
-> Uppgraderingen till version 5.0.0 beror på den aktuella versionen av Experience Manager Guides. Om du använder version 4.6.3, 4.6.1, 4.6.0 eller 4.4 kan du uppgradera direkt till version 5.0.0.
+> Uppgradering till version 5.0.0 av Service Pack 1 beror på vilken version av Experience Manager Guides som är aktuell. Om du använder version 5.0.0, 4.6.4, 4.6.3, 4.6.1, 4.6.0 eller 4.4 kan du uppgradera direkt till version 5.0.0 Service Pack 1.
 
 >[!NOTE]
 >
-> Efterbearbetningen och indexeringen kan ta några timmar. Vi rekommenderar att du startar uppgraderingsprocessen under tider med låg belastning.
+> Efterbearbetningen och indexeringen kan ta några timmar. Vi rekommenderar att du startar uppgraderingsprocessen under lågtider.
 
-**&#x200B;**&#x200B;Förutsättningar&#x200B;**&#x200B;**
+****Förutsättningar****
 
-Innan du påbörjar uppgraderingen av Experience Manager Guides 5.0.0 bör du se till att du har:
+Innan du startar uppgraderingsprocessen för Experience Manager Guides 5.0.0 måste du se till att du har:
 
 1. Uppgraderat till Experience Manager Guides version 4.6.3, 4.6.1, 4.6.0 eller 4.4 och slutförde respektive installationssteg.
 1. (Valfritt) Avslutade alla översättningsuppgifter.
@@ -1251,22 +1251,22 @@ När du har installerat Experience Manager Guides kan du sammanfoga de olika kon
    - Alla kategorier av klientlib som används från produkten bör granskas för ändringar. Alla åsidosatta konfigurationer \(exempel nedan\) bör jämföras med de senaste för att få de senaste funktionerna:
    - elementmapping.xml
    - ui\_config.json\(kan ha angetts i mappprofiler\)
-   - Ändrad `com.adobe.fmdita.config.ConfigManager`
+   - ändrade `com.adobe.fmdita.config.ConfigManager`
 
-1. Om du har lagt till några anpassningar i damAssetLucene kan du behöva tillämpa dem igen. När du har gjort dessa ändringar anger du omindexera som true. Detta indexerar om alla befintliga noder med anpassningarna. När du är klar anges omindexeringsflaggan till false igen. Detta kan ta några timmar beroende på antalet resurser i systemet.
+1. Om du har lagt till anpassningar i damAssetLucene kan du behöva använda dem igen. När du har gjort ändringarna anger du reindex som true. Detta indexerar om alla befintliga noder med anpassningarna. När du är klar anges omindexeringsflaggan till false igen. Detta kan ta några timmar beroende på antalet resurser i systemet.
 
 ## Steg för att indexera om Experience Manager Guides-index
 
 1. Öppna `crx/de` och navigera till indexsökvägen: `/oak:index/guidesAssetProperties`
 2. Ange egenskapen reindex som `true` (`false` som standard) och klicka på **Spara alla**.
-3. När omindexeringen är klar anges egenskapen reindex till `false` igen och antalet omindexerare ökas med 1.
+3. När omindexeringen är klar ställs egenskapen reindex in på `false` igen och antalet omindexeringar ökas med 1.
 
    >[!NOTE]
    >
-   > Det kan ta några minuter, beroende på hur mycket data som finns.
-4. Följ samma steg för andra tillagda eller ändrade index: `guidesBulkActivation`, `guidesPeerLinkIndex`, och `guidesKonnectTemplateIndex`.
+   > Detta kan ta några minuter, beroende på mängden data som finns.
+4. Följ samma steg för andra tillagda eller ändrade index: `guidesBulkActivation`, `guidesPeerLinkIndex` och `guidesKonnectTemplateIndex`.
 
-## Steg för att indexera det befintliga innehållet
+## Steg för indexering av befintligt innehåll
 
 
 
@@ -1298,7 +1298,7 @@ Under den här uppgraderingen måste du, eftersom värdet `'order'` ändras frå
 
 ## Steg för att indexera om damAssetLucene
 
-Indexdefinitionen uppdateras för damAssetLucene med stödlinjer. Mer information finns i [den här artikeln](https://experienceleague.adobe.com/sv/docs/experience-cloud-kcs/kbarticles/ka-16460) om du vill indexera om damAssetLucene efter uppgradering till version 5.0.0.
+Indexdefinitionen uppdateras för damAssetLucene med stödlinjer. Mer information finns i [den här artikeln](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460) om du vill indexera om damAssetLucene efter uppgradering till version 5.0.0.
 
 >[!NOTE]
 >

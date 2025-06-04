@@ -1,7 +1,8 @@
 ---
 title: Versionsinformation | Korrigerade problem i Adobe Experience Manager Guides, version 2025.06.0
 description: Läs mer om felkorrigeringarna i version 2025.06.0 av Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 78d8896982ff73e954de6d6daa9832faf30ed3b3
+exl-id: 0f362ab3-0fae-4eba-bbd6-0b64ae1f2599
+source-git-commit: 83be0a1e051bfc524ff2448397d87349f30b4301
 workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 0%
@@ -18,7 +19,6 @@ Läs mer om [uppgraderingsinstruktioner för version 2025.06.0](upgrade-instruct
 
 ## Redigering
 
-- När du öppnar en DITA-karta med det enhetliga skalet aktiverat uppdateras redigeraren regelbundet. (GUIDES-26919)
 - Om det inte går att stänga JCR-sessionsanslutningar när ämnen uppdateras eller skapas resulterar detta i minnesläckor och driftavbrott. (GUIDES-26282)
 - Om du drar kolumnerna ändras deras bredd från procent till pixelvärden, vilket resulterar i förvrängda eller feljusterade tabeller.(GUIDES-23128)
 - När innehåll klistras in i en `code block` eller när mellanslag läggs till i `code block` och vyn växlas, försvinner mellanrummet. (GUIDES-27478)
@@ -47,6 +47,8 @@ Läs mer om [uppgraderingsinstruktioner för version 2025.06.0](upgrade-instruct
 Adobe har identifierat följande kända fel i version 2025.06.0:
 
 - När du använder alternativet Sök och ersätt kan du inte utföra några fler åtgärder på panelen Sök och ersätt när du har använt åtgärden Ersätt enstaka förekomst på en fil. (GUIDES-28930)
+
+- När du öppnar en DITA-karta med det enhetliga skalet aktiverat uppdateras redigeraren regelbundet. (GUIDES-26919)
 
 - När en redan indexerad resurs tas bort från användargränssnittet i en mappprofil tas inte motsvarande indexerad sökväg bort och ett försök att indexera om misslyckas med ett felmeddelande. (GUIDES-29147) <br>**Tillfällig lösning:** Du måste ta bort den föråldrade sökvägen som inte längre finns innan du initierar omindexeringen.
 

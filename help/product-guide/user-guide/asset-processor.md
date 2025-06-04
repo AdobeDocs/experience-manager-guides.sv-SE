@@ -4,7 +4,8 @@ description: Lär dig hur du bearbetar resurser
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: b0e744baeb6867bfc9e7d212ec53e581812d8f63
+exl-id: 27786098-119c-4b7a-8275-8a89d435294f
+source-git-commit: 851dafc1f17864bf6a295de7be12ffe513c3af57
 workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 0%
@@ -27,7 +28,7 @@ Följ stegen nedan för att bearbeta eller bearbeta om mediefilerna:
 1. Välj **Stödlinjer** på panelen **Verktyg**.
 1. Välj **resursprocessorpanelen**.
 
-   ![flow-asset-processor](images/flow-asset-processor.png){width="550" align="left"}
+   ![flow-asset-processor](images/flow-asset-processor.png){align="left"}
 
 1. Fönstret Guides Asset Processor öppnas med informationen som visas nedan. I det här fönstret visas bara den information som gäller de senaste fem migreringarna.
 
@@ -43,7 +44,7 @@ Följ stegen nedan för att bearbeta eller bearbeta om mediefilerna:
 
    - **Status**: pekar på status för pågående ombearbetning, slutförd eller Avbruten.
 
-   ![Guides-asset-processor](images/guides-asset-processor.png){width="550" align="left"}
+   ![Guides-asset-processor](images/guides-asset-processor.png){align="left"}
 
 1. Välj fliken **Ny process** längst upp till höger i fönstret om du vill starta en ny bearbetningsåtgärd.
 
@@ -66,20 +67,16 @@ Det finns fler alternativ för bearbetningsuppgiften när den har initierats. Du
 
 - **Starta om** : Startar om den tidigare slutförda resurshanteringsuppgiften.
 
-  ![omstart-asset-processor](images/restart-asset-processor.png){width="550" align="left"}
+  ![omstart-asset-processor](images/restart-asset-processor.png){align="left"}
 
 - **Återuppta** : Återupptar den tidigare avbrutna eller misslyckade resurshanteringen.
 
-  ![resume-asset-processor](images/resume-asset-processor.png){width="550" align="left"}
+  ![resume-asset-processor](images/resume-asset-processor.png){align="left"}
 
 - **Avbryt** : Avbryter den pågående resurshanteringen.
 
-  ![cancel-asset-processor](images/cancel-asset-processor.png){width="550" align="left"}
+  ![cancel-asset-processor](images/cancel-asset-processor.png){align="left"}
 
 - **Visa loggar**: Visar loggarna för resurshanteringsuppgiften. För pågående uppgifter visar loggen detaljerad bearbetningsinformation, inklusive uppskattad återstående tid och resursstatus. Den här logglistan visar upp till de senaste 500 posterna. Den fullständiga loggen kan laddas ned.
 
-  ![logs-asset-processor](images/logs-asset-processor.png){width="550" align="left"}
-
-
-
-
+  ![logs-asset-processor](images/logs-asset-processor.png){align="left"}
