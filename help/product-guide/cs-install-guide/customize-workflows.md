@@ -104,7 +104,7 @@ Du kan skapa dessa skript i noden `/etc/workflows/scripts`. I följande tabell b
 | `startTime` | Lång | Använd funktionen `System.currentTimeMillis()` för att hämta den aktuella systemtiden. |
 | `projectPath` | Sträng | Sökväg till det granskningsprojekt som granskningsaktiviteten ska tilldelas till, t.ex.: /content/projects/samples_review project. |
 | `reviewType` | Sträng | Statiskt värde&quot;AEM&quot;. |
-| `versionJson` | JSON-objekt | versionJson är en lista med ämnen som ska behandlas i granskningen där varje ämnesobjekt har följande struktur: {path}: &quot;/content/dam/1-topic.dita&quot;, &quot;version&quot;: &quot;1.1&quot;, &quot;review&quot;: true, &quot;reviewers&quot;: [&quot;projects-we_retail-editor&quot;] } |
+| `versionJson` | JSON-objekt | versionJson är en lista med ämnen som ska behandlas i granskningen där varje ämnesobjekt har följande struktur: {path}: &quot;/content/dam/1-topic.dita&quot;, &quot;version&quot;: &quot;1.1&quot;, &quot;review&quot;: true, &quot;reviewers&quot;: [&quot;projects-we_retail-editor&quot;] &rbrace; |
 | `isDitamap` | Boolean | false/true |
 | `ditamapHierarchy` | JSON-objekt | Om kartan skickas för granskning bör värdet här vara:[ { &quot;path&quot;: &quot;GUID-f0df1513-fe07-473f-9960-477d4df29c87.ditamap&quot;, &quot;items&quot;: [ { &quot;path&quot;: &quot;GUID-99 747e8ab-8cf1-45dd-9e20-d47d482f667d.dita&quot;, &quot;title&quot;: &quot;&quot;, &quot;items&quot;: [] } ] } ]. |
 | `ditamap` | Sträng | Ange sökvägen för ändringslistan för granskningsaktiviteten |

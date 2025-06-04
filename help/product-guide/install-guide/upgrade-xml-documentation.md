@@ -62,7 +62,7 @@ Innan du kör processen måste du slutföra vissa uppgifter. I följande delavsn
 
 
 
-****Förutsättningar****
+**&#x200B;**&#x200B;Förutsättningar&#x200B;**&#x200B;**
 
 Innan du påbörjar uppgraderingen av Experience Manager Guides bör du kontrollera att du har:
 
@@ -135,7 +135,7 @@ Uppgradering till version 4.2 beror på vilken version av Experience Manager Gui
 
 Om du använder version 4.0, 4.1 eller 4.1.x kan du uppgradera direkt till version 4.2.
 
-****Förutsättningar****
+**&#x200B;**&#x200B;Förutsättningar&#x200B;**&#x200B;**
 
 Innan du startar uppgraderingsprocessen för Experience Manager Guides 4.2 bör du kontrollera att du har:
 
@@ -311,7 +311,7 @@ Uppgradering till version 4.2.1 beror på vilken version av Experience Manager G
 >
 >Efterbearbetningen och indexeringen kan ta några timmar. Vi rekommenderar att du startar uppgraderingsprocessen under lågtider.
 
-****Förutsättningar****
+**&#x200B;**&#x200B;Förutsättningar&#x200B;**&#x200B;**
 
 Innan du startar uppgraderingsprocessen för Experience Manager Guides 4.2.1 bör du kontrollera att du har:
 
@@ -488,7 +488,7 @@ Uppgradering till version 4.3.0 beror på vilken version av Experience Manager G
 >
 >Efterbearbetningen och indexeringen kan ta några timmar. Vi rekommenderar att du startar uppgraderingsprocessen under lågtider.
 
-****Förutsättningar****
+**&#x200B;**&#x200B;Förutsättningar&#x200B;**&#x200B;**
 
 Innan du startar uppgraderingsprocessen för Experience Manager Guides 4.3.0 bör du kontrollera att du har:
 
@@ -546,7 +546,7 @@ Uppgradering till version 4.3.1 beror på vilken version av Experience Manager G
 >
 >Efterbearbetningen och indexeringen kan ta några timmar. Vi rekommenderar att du startar uppgraderingsprocessen under lågtider.
 
-****Förutsättningar****
+**&#x200B;**&#x200B;Förutsättningar&#x200B;**&#x200B;**
 
 Innan du startar uppgraderingsprocessen för Experience Manager Guides 4.3.1 bör du kontrollera att du har:
 
@@ -787,7 +787,7 @@ Uppgradering till version 4.4.0 beror på vilken version av Experience Manager G
 >
 >Efterbearbetningen och indexeringen kan ta några timmar. Vi rekommenderar att du startar uppgraderingsprocessen under lågtider.
 
-****Förutsättningar****
+**&#x200B;**&#x200B;Förutsättningar&#x200B;**&#x200B;**
 
 Innan du startar uppgraderingsprocessen för Experience Manager Guides 4.4.0 bör du kontrollera att du har:
 
@@ -980,7 +980,7 @@ Om du har en annan anpassad återskrivningsskrivare i kodbasen använder du ett 
 Under den här uppgraderingen måste du, eftersom värdet `'order'` ändras från 1 000 till 50, sammanfoga den befintliga anpassade omskrivaren, om sådan finns, med `'fmdita-rewriter'`.
 
 
-**Överordnat ämne:**[ Hämta och installera](download-install.md)
+**Överordnat ämne:**&#x200B;[ Hämta och installera](download-install.md)
 
 
 ## Uppgradera till version 4.6.0
@@ -995,7 +995,7 @@ Uppgradering till version 4.6.0 beror på vilken version av Experience Manager G
 >
 > Efterbearbetningen och indexeringen kan ta några timmar. Vi rekommenderar att du startar uppgraderingsprocessen under lågtider.
 
-****Förutsättningar****
+**&#x200B;**&#x200B;Förutsättningar&#x200B;**&#x200B;**
 
 Innan du startar uppgraderingsprocessen för Experience Manager Guides 4.6.0 bör du kontrollera att du har:
 
@@ -1150,7 +1150,7 @@ Under den här uppgraderingen måste du, eftersom värdet `'order'` ändras frå
 >
 > Efterbearbetningen och indexeringen kan ta några timmar. Vi rekommenderar att du startar uppgraderingsprocessen under lågtider.
 
-****Förutsättningar****
+**&#x200B;**&#x200B;Förutsättningar&#x200B;**&#x200B;**
 
 Innan du startar uppgraderingsprocessen för Experience Manager Guides 5.0.0 måste du se till att du har:
 
