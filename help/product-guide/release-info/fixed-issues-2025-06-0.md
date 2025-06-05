@@ -2,9 +2,9 @@
 title: Versionsinformation | Korrigerade problem i Adobe Experience Manager Guides, version 2025.06.0
 description: Läs mer om felkorrigeringarna i version 2025.06.0 av Adobe Experience Manager Guides as a Cloud Service.
 exl-id: 0f362ab3-0fae-4eba-bbd6-0b64ae1f2599
-source-git-commit: 83be0a1e051bfc524ff2448397d87349f30b4301
+source-git-commit: c137f18d3cb85ed47547d5523c4dea08c22f9560
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '516'
 ht-degree: 0%
 
 ---
@@ -50,6 +50,6 @@ Adobe har identifierat följande kända fel i version 2025.06.0:
 
 - När du öppnar en DITA-karta med det enhetliga skalet aktiverat uppdateras redigeraren regelbundet. (GUIDES-26919)
 
-- När en redan indexerad resurs tas bort från användargränssnittet i en mappprofil tas inte motsvarande indexerad sökväg bort och ett försök att indexera om misslyckas med ett felmeddelande. (GUIDES-29147) <br>**Tillfällig lösning:** Du måste ta bort den föråldrade sökvägen som inte längre finns innan du initierar omindexeringen.
+- Om en redan indexerad resurs tas bort från användargränssnittet för en AI-konfiguration under mappprofilen tas inte motsvarande indexerade sökväg bort, och ett försök att indexera om misslyckas med ett felmeddelande. (GUIDES-29147) <br>**Tillfällig lösning:** Du måste ta bort den föråldrade sökvägen som inte längre finns innan du initierar omindexeringen.
 
-- Om en karta innehåller cykliska beroenden och du öppnar förhandsgranskningen av kartan, blir vyerna Source, Författare och Layout otillgängliga tills sidan uppdateras. (GUIDES-28334) <br>**Tillfällig lösning:** Du måste uppdatera sidan för att kunna återställa åtkomsten till dessa vyer.
+- Om en karta innehåller cykliska beroenden och du öppnar förhandsgranskningen av kartan blir vyerna Source, Författare och Layout otillgängliga tills webbläsaren uppdateras. (GUIDES-28334) <br>**Tillfällig lösning:** Du måste uppdatera webbläsaren för att kunna återställa åtkomsten till dessa vyer.
