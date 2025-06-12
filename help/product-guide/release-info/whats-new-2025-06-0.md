@@ -2,9 +2,10 @@
 title: Versionsinformation | Nyheter i Adobe Experience Manager Guides 2025.06.0
 description: Läs om de nya och förbättrade funktionerna i version 2025.06.0 av Adobe Experience Manager Guides
 role: Leader
-source-git-commit: 147bd8cce875178f94dae5742bc6573b51f24d3a
+exl-id: 48f27aa6-d870-4228-8e62-db81699a25f7
+source-git-commit: 158c2a99ac43fd70726bedf30f4de1a970a48864
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
@@ -47,3 +48,13 @@ Mer information finns i [Hämta filer](../user-guide/authoring-download-assets.m
 De senaste förbättringarna av redigeraren förbättrar hanteringen av `navref` element i en DITA-karta. När du lägger till ett `navref`-element på en karta öppnas dialogrutan **Välj sökväg** så att du enkelt kan välja vilka kartreferenser som ska inkluderas som navigeringslänkar på kartan. När du har lagt till titeln för den tillagda kartan visas den i både redigeringsvyn och layoutvyn, vilket ger bättre synlighet för den inkluderade navigeringen vid redigering.  Dessutom tolkas det tillagda `navref`-elementet automatiskt så att den refererade kartan visas i redigeraren.
 
 Mer information finns i [Lägg till navigeringsreferenser](../user-guide/map-editor-other-features.md#add-navigation-references).
+
+## Prestandaförbättringar i AI Assistant
+
+I den här versionen har AI Assistant-motorn förbättrats, vilket ger bättre prestanda och större stabilitet. Om du vill aktivera den här uppdateringen och fortsätta använda hjälpen för AI Assistant:
+
+- Uppdatera `chat.url`-konfigurationen så att den återspeglar den nya slutpunkts-URL:en.
+- Lägg till en ny miljövariabel `GUIDES_AI_SITE_ID` i Cloud Manager.
+
+Mer information finns i [Konfigurera AI-assistenten](../cs-install-guide/conf-smart-suggestions.md).
+
