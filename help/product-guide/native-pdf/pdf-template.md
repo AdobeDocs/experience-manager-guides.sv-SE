@@ -93,7 +93,7 @@ Välj det här alternativet om du vill visa mallen i användargränssnittet för
 
 När du har skapat den anpassade mallen kan du välja den bland sidlayouterna i PDF-förinställningen.
 
-Lär dig hur du [publicerar utdata från PDF](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=en).
+Lär dig hur du [publicerar utdata från PDF](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=sv-SE).
 
 >[!NOTE]
 >

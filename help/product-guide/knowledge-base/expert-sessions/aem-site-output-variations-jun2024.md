@@ -40,9 +40,9 @@ Under den här sessionen kommer du att lära dig mer om följande:
 ## Relaterade resurser
 
 
-- [AEM Site Output Publishing](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/output-presets-aemg/generate-output-aem-site#:~:text=To%20open%20output%20presets%20for,configurations%2C%20and%20then%20click%20Save.)
+- [AEM Site Output Publishing](https://experienceleague.adobe.com/sv/docs/experience-manager-guides/using/user-guide/output-gen/output-presets-aemg/generate-output-aem-site#:~:text=To%20open%20output%20presets%20for,configurations%2C%20and%20then%20click%20Save.)
 
-- [KB-utdatapublicering](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/output-gen/output-presets-aemg/generate-output-knowledge-base)
+- [KB-utdatapublicering](https://experienceleague.adobe.com/sv/docs/experience-manager-guides/using/user-guide/output-gen/output-presets-aemg/generate-output-knowledge-base)
 
 - [AEM mallar](https://experienceleague.adobe.com/sv/docs/experience-manager-65/content/implementing/developing/platform/templates/templates)
 

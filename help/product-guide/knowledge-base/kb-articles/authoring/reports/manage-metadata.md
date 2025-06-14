@@ -57,8 +57,8 @@ Du kan också ta bort befintliga taggar som är gemensamma för markerade filer.
 
 ## Andra användbara resurser
 
-- [Masstaggning med Map Dashboard (Assets UI)](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/manaege-metadata/map-editor-bulk-tagging.html?lang=en)
-- [Ditamap-rapporter i webbredigeraren](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/reports-aem-guide/reports-web-editor.html?lang=en)
+- [Masstaggning med Map Dashboard (Assets UI)](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/manaege-metadata/map-editor-bulk-tagging.html?lang=sv-SE)
+- [Ditamap-rapporter i webbredigeraren](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/reports-aem-guide/reports-web-editor.html?lang=sv-SE)
 - [Taggning i AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/configuring/tagging.html?lang=sv-SE)
 
 

@@ -48,7 +48,7 @@ Under den här sessionen får du veta mer om Native PDF:
 
 ## Relaterade resurser
 
-- **Inbyggda installationssteg för PDF** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.html?lang=en)
+- **Inbyggda installationssteg för PDF** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.html?lang=sv-SE)
 
 - **Funktionell översikt över PDF-publicering** - [på Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23.html?lang=sv-SE)
 

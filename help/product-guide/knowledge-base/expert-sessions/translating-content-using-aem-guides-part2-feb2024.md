@@ -37,7 +37,7 @@ Under den här sessionen får du veta mer om följande:
 
 ## Relaterade resurser
 
-- **Dokumentation** - [på Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides/using/user-guide/translate-content/translation.html?lang=en)
+- **Dokumentation** - [på Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides/using/user-guide/translate-content/translation.html?lang=sv-SE)
 
 - **Community-forum** - Besök [AEM Guides-forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions) om du vill ha sessionsspecifik communityinteraktion på Experience League.
 
