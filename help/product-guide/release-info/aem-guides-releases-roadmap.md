@@ -3,9 +3,9 @@ title: Adobe Experience Manager Guides släpper färdplan 2024
 description: Få information om live- och kommande versioner av Adobe Experience Manager Guides On-Prem och Adobe Experience Manager Guides as a Cloud Service
 role: Admin, Leader, Developer, User
 exl-id: cb6709ce-2732-45d0-adfd-5aeca520240e
-source-git-commit: 5a458fb644e435e418bef1a7e5b79a0ed280a80b
+source-git-commit: f6e5497e5fc7d5b21afb598220c21a6a505bea56
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,7 @@ Versionerna av Experience Manager Guides as a Cloud Service planeras enligt föl
 | Frigör | Händelse | Schema | Nyheter | Uppgraderingsinstruktioner | Åtgärdade problem | Status |
 |---|---|---|---|---|---|---|
 | Adobe Experience Manager Guides 2025.07.0 | Automatisk uppdatering | 15-17 juli 2025 |  |  |  | Mål |
+| Adobe Experience Manager Guides 2025.08.0 | Automatisk uppdatering | 25-27 augusti 2025 |  |  |  | Mål |
 
 ### Live-versioner
 
