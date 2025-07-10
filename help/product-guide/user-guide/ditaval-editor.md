@@ -4,9 +4,9 @@ description: Lär dig skapa och redigera DITAVAL-filer med DIVATAL Editor i Adob
 exl-id: f3901a4f-1925-42aa-b773-0d6f18175ce8
 feature: Authoring, DITAVAL Editor
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: a49234698e040c7441ea0f82265f4b7936a95dfc
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1501'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 DITAVAL-filer används för att generera villkorsstyrda utdata. I ett enskilt ämne kan du lägga till villkor med elementattribut för att villkorsanpassa innehållet. Sedan skapar du en DITAVAL-fil där du anger villkoren som ska plockas upp för att generera innehåll och vilket villkor som ska utelämnas från det slutliga resultatet.
 
-Med Adobe Experience Manager Guides kan du enkelt skapa och redigera DITAVAL-filer med DITAVAL-redigeraren. DITAVAL-redigeraren hämtar attributen \(eller taggar\) som är definierade i systemet, och du kan använda dem för att skapa eller redigera DITAVAL-filer. Mer information om hur du skapar och hanterar taggar i Adobe Experience Manager finns i avsnittet [Administrera taggar](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=sv-SE) i Adobe Experience Manager-dokumentationen.
+Med Adobe Experience Manager Guides kan du enkelt skapa och redigera DITAVAL-filer med DITAVAL-redigeraren. DITAVAL-redigeraren hämtar attributen (som kan användas som villkor) som definierats i systemet, och du kan använda dem för att skapa eller redigera DITAVAL-filer. Mer information om hur du skapar och hanterar villkor i Adobe Experience Manager finns i avsnittet [Administrera taggar](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) i Adobe Experience Manager-dokumentationen.
 
 I följande avsnitt beskrivs de alternativ som är tillgängliga för en DITAVAL-fil i Experience Manager Guides.
 
@@ -30,7 +30,7 @@ Så här skapar du en DITAVAL-fil:
 
 1. På panelen Databas markerar du ikonen **Ny fil** och väljer sedan **Ämne** i listrutan.
 
-   ![](images/new-file-option.png){align="left"}
+   ![](images/new-file-option.png){width="300" align="left"}
 
    Du kan även komma åt det här alternativet från [Experience Manager Guides hemsida](./intro-home-page.md) och alternativmenyn för en mapp i databasvyn.
 
@@ -55,37 +55,109 @@ Så här skapar du en DITAVAL-fil:
 
 När du skapar ett DITAVAL-ämne öppnas det i Redigeraren för redigering. Om du vill redigera ett befintligt DITAVAL-ämne går du till den mapp eller karta där DITAVAL-avsnittet finns och väljer sedan **Redigera** på **Alternativ** -menyn.
 
-Med DITAVAL-redigeraren kan du utföra följande uppgifter:
+Med DITAVAL-redigeraren kan du utföra flera åtgärder enligt nedan med alternativen i redigerarens verktygsfält.
 
-- Växla vänster panel
+### Alternativ i verktygsfältet Redigerare
 
-  Växla den vänstra panelvyn. Om du har öppnat DITAVAL-filen via DITA-kartan visas kartan och databasen på den här panelen. Mer information om hur du öppnar en fil via DITA-kartan finns i [Redigera ämnen via DITA-kartan](map-editor-advanced-map-editor.md#id17ACJ0F0FHS).
+#### Meny-listruta
 
-- Spara
+Menyn ger åtkomst till redigeringsåtgärderna Sök och ersätt, Versionshistorik, Versionsetikett, Sammanfoga, Skapa granskning, Spåra ändringar och Taggar.
+Mer information finns i [Alternativ för listrutor på menyn](./web-editor-toolbar.md#menu-dropdown)
 
-  Sparar de ändringar du har gjort i filen. Alla ändringar sparas i den aktuella versionen av filen.
+#### Lägg till egenskap
 
-- Lägg till egenskap
+Lägg till en enda egenskap i DITAVAL-filen.
 
-  Lägg till en enda egenskap i DITAVAL-filen.
+![](images/ditaval-editor-props-new.png){width="650" align="left"}
 
-  ![](images/ditaval-editor-props-new.png)
+I den första listrutan visas de tillåtna DITA-attribut som du kan använda i DITAVAL-filen.
 
-  I den första listrutan visas de tillåtna DITA-attribut som du kan använda i DITAVAL-filen. Det finns fem attribut som stöds - `audience`, `platform`, `product`, `props` och `otherprops`.
+I den andra listrutan visas de värden som konfigurerats för det valda attributet. I nästa nedrullningsbara lista visas de åtgärder som du kan konfigurera för det valda attributet. De tillåtna värdena i åtgärdslistrutan är - `include`, `exclude`, `passthrough` och `flag`. Mer information om dessa värden finns i definitionen av elementet [prop](http://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/ditaval/ditaval-prop.html#ditaval-prop) i dokumentationen för OASIS DITA. Mer information om åtgärden för egenskaperna som lagts till i attributen finns i [Åtgärder för egenskapen](#actions-for-property).
 
-  I den andra listrutan visas de värden som konfigurerats för det valda attributet. I nästa nedrullningsbara lista visas de åtgärder som du kan konfigurera för det valda attributet. De tillåtna värdena i åtgärdslistrutan är - `include`, `exclude`, `passthrough` och `flag`. Mer information om dessa värden finns i definitionen av elementet [prop](http://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/ditaval/ditaval-prop.html#ditaval-prop) i dokumentationen för OASIS DITA
+#### Lägg till Rev Prop
 
-- Lägg till alla egenskaper
+Om du vill lägga till ett specifikt versionsnummer i en tagg i XML kan du använda alternativet Lägg till rev.-förinställning. Detta lägger till ett varv-attribut till taggen, med det värde som definieras i fältet Värde tillsammans med den valda åtgärden för egenskapen. Det här revideringsattributet kan senare användas för att filtrera relevant XML-innehåll baserat på det angivna revisionsnumret när utdata genereras.
 
-  Om du vill lägga till alla villkorliga egenskaper eller attribut som definierats i systemet med ett enda klick använder du funktionen Lägg till alla egenskaper.
+![](images/ditaval-rev-props.png){width="650" align="left"}
 
-  >[!NOTE]
-  >
-  > Om alla definierade villkorliga egenskaper redan finns i DITAVAL-filen kan du inte lägga till fler egenskaper. Du får ett felmeddelande i det här scenariot.
+#### Lägg till alla utkast
 
-  ![](images/ditaval-all-props-new.png)
+Om du vill lägga till alla villkorliga egenskaper eller attribut som definieras i systemet med ett enda klick använder du funktionen Lägg till alla uttryck. De tillåtna värdena i åtgärdslistrutan är - `include`, `exclude`, `passthrough` och `flag` . Detaljerna för dessa åtgärder anges nedan.
 
-När du är klar med redigeringen av DITAVAL-filen väljer du **Spara**.
+>[!NOTE]
+>
+> Om alla definierade villkorliga egenskaper redan finns i DITAVAL-filen kan du inte lägga till fler egenskaper. Du får ett felmeddelande i det här scenariot.
+
+
+![](images/ditaval-all-props-new.png){width="650" align="left"}
+
+
+
+##### Åtgärder för egenskap
+
+Det finns i huvudsak fyra tillgängliga åtgärder för en viss egenskap som kan användas och som listas enligt följande:
+
+**Inkludera:** Inkludera innehållet i utdata. Det här är standardbeteendet om inget annat anges.
+
+**Exkludera:** Uteslut innehållet från utdata (om alla värden i det särskilda attributet utelämnas).
+
+**Genomströmning:** Inkludera innehållet i utdata och bevara attributvärdet som en del av utdataströmmen för vidare bearbetning av en körningsmotor, till exempel körtidsfiltrering baserad på individuella användarinställningar.
+
+**Lägg till flaggor:** Om du vill flagga innehåll i utdata kan du ange flagga som åtgärd för det önskade attributet i filen. Du kan också använda olika flaggformat med hjälp av listrutan **Flaggformat**, som visas i utdraget nedan.
+
+
+![](images/ditaval-flag-style.png){width="650" align="left"}
+
+
+- **Bakgrundsfärg**: Välj nyans, mättnad, kontrast från bakgrundsfärgen. Motsvarande HEX-värde uppdateras automatiskt baserat på ditt val. Du kan också växla färgrymdsformat med listrutan och välja mellan HEX, RGB och HSB.
+
+
+![](images/ditaval-background-color.png){width="650" align="left"}
+
+
+
+- **Textfärg**: Välj nyans, mättnad, kontrast från textfärgen. Motsvarande HEX-värde uppdateras automatiskt baserat på ditt val. Du kan också växla färgrymdsformat med listrutan och välja mellan HEX, RGB och HSB.
+
+
+![](images/ditaval-text-color.png){width="650" align="left"}
+
+
+
+- **Formateringsalternativ**: Du kan lägga till vissa formateringsalternativ, t.ex. Fet, Kursiv, Understruken, Överstruken och Dubbel understrykning.
+
+
+![](images/ditaval-styling-option.png){width="650" align="left"}
+
+
+
+- **Start- och slutflaggor**: Du kan infoga bilder som start- och slutflaggor med knappen **Lägg till flagga** . Om du vill välja bilder kan du antingen använda **Bläddra i Assets** och välja från databasen med stödlinjer eller **Lägg till fil** att överföra från ditt lokala system. Dessutom kan du ange alternativ text för bilderna.
+
+
+![](images/ditaval-start-end-flags.png){width="650" align="left"}
+
+
+
+- **Formatkonflikt**: Den löser de konflikter som uppstår när ett enskilt element innehåller flera egenskaper med olika flaggformat. I sådana fall väljs det värde som definieras i formategenskaperna, vilket i praktiken fungerar som standardvärdesväljare för bakgrunds- och textfärger.
+
+
+![](images/ditaval-style-conflict.png){width="650" align="left"}
+
+
+#### Versionsinformation och Spara som ny version
+
+Versionsinformation och Spara som ny version kombinerar versionshantering och innehållssparande i en enda funktion.
+Mer information finns i [Spara som ny version](./web-editor-toolbar.md#version-information-and-save-as-new-version)
+
+
+#### Lås/lås upp
+
+Låser eller låser upp den aktuella filen. Genom att låsa en fil får du exklusiv skrivåtkomst till filen.
+Mer information finns i [Lås upp filen](./web-editor-toolbar.md#lockunlock)
+
+
+### Spara innehållet
+
+När du är klar med redigeringen av DITAVAL-filen väljer du **Spara** på flikfältet.
 
 >[!NOTE]
 >

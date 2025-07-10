@@ -4,9 +4,9 @@ description: Lär dig hur inkrementell generering av utdata för AEM Sites funge
 exl-id: 019d9fbf-2f23-4669-8022-d693be75c1c3
 feature: Publishing
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 05d3246bd8b1e1b1d870b494aa09f6acff8a0f1d
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '662'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,7 @@ Om kartan är hackad och du har uppdaterat ett enskilt ämne på kartan, måste 
 
 Så här återskapar du utdata för ett visst ämne eller en grupp ämnen:
 
->[!IMPORTANT]
->
-> När du återskapar AEM Sites-utdata skapas utdata med den aktuella versionen av filerna och inte med den kopplade baslinjen.
-
-## Generera inkrementella utdata från kartkonsolen
+## Generera inkrementella utdata från kartkonsolen (för AEM-platser med hjälp av sammansatt komponentmappning)
 
 Utför följande steg för att generera inkrementella utdata för AEM Sites med hjälp av karskonsolen:
 
@@ -36,19 +32,26 @@ Utför följande steg för att generera inkrementella utdata för AEM Sites med 
 1. Välj den förinställning för AEM Sites som du vill generera inkrementella utdata för.
 1. Välj de ämnen du vill publicera på fliken **Ämnen**.
 
-   ![Ämneslista för objektwebbplatser](images/aem-presets-topic-list.png) {align="left"}
+   - Utan baslinje
+
+     ![Ämneslista för objektwebbplatser](images/aem-presets-topic-list.png) {align="left"}
+
+   - Med baslinje
+
+     ![Objektwebbplatsens ämneslista med baslinje](images/aem-presets-topic-list-new.png) {align="left"}
 
    >[!NOTE]
    >
    > När en baslinje har valts på fliken **Innehåll** visas ämnen och deras versioner från den kopplade baslinjen i ämneslistan.<br><br>
    > Den inkrementella publiceringen från ämneslistan bör endast användas när kartans struktur inte ändras. Om mappningsstrukturen/innehållsförteckningen ändras ska hela kartan publiceras en gång för att uppdatera innehållsförteckningen.
+
 1. Välj **Spara** om du vill spara ändringarna.
 1. Välj **Generera utdata** för att generera utdata.
 
 
-## Generera inkrementella utdata från kartpanelen
+## Generera inkrementella utdata från kontrollpanelen för kartor (för AEM-webbplatser som använder äldre komponentmappning)
 
-Utför följande steg för att generera inkrementella utdata för AEM Sites med hjälp av kontrollpanelen Karta:
+Utför följande steg för att generera inkrementella utdata för AEM Sites med hjälp av kartpanelen:
 
 1. Navigera till och markera DITA-kartfilen i Assets-gränssnittet.
 
@@ -71,6 +74,9 @@ Utför följande steg för att generera inkrementella utdata för AEM Sites med 
    Sidan **Återskapa markerade ämnen** visas.
 
 1. Välj den förinställning för utdata som du vill använda för att återskapa de valda ämnena.
+
+   Om du väljer en baslinje används ämnesversionerna som ingår i den valda baslinjen för att generera utdata för AEM Sites-förinställningar som använder äldre komponentmappning. Dessutom bör inkrementell publicering från ämneslistan endast användas när det inte finns några ändringar i kartstrukturen. Om mappningsstrukturen/innehållsförteckningen ändras ska hela kartan publiceras en gång för att uppdatera innehållsförteckningen. Mer information om hur du använder AEM-webbplatsförinställningar finns i [AEM Sites-förinställningar på kartkontrollpanelen](./generate-output-aem-site-map-dashboard.md).
+
 
 1. Välj **Återskapa** för att starta genereringsprocessen för utdata.
 

@@ -3,9 +3,9 @@ title: Adobe Experience Manager Guides släpper färdplan 2024
 description: Få information om live- och kommande versioner av Adobe Experience Manager Guides On-Prem och Adobe Experience Manager Guides as a Cloud Service
 role: Admin, Leader, Developer, User
 exl-id: cb6709ce-2732-45d0-adfd-5aeca520240e
-source-git-commit: 7510a830bdec0fb4473ee93d5f46f0aa15555a9e
+source-git-commit: b79084e369ecc92c4b20447069f8b0b52b4a42b8
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,6 @@ Versionerna av Experience Manager Guides as a Cloud Service planeras enligt föl
 
 | Frigör | Händelse | Schema | Nyheter | Uppgraderingsinstruktioner | Åtgärdade problem | Status |
 |---|---|---|---|---|---|---|
-| Adobe Experience Manager Guides 2025.07.0 | Automatisk uppdatering | 14-16 juli 2025 |  |  |  | Mål |
 | Adobe Experience Manager Guides 2025.08.0 | Automatisk uppdatering | 25-27 augusti 2025 |  |  |  | Mål |
 | Adobe Experience Manager Guides 2025.10.0 | Automatisk uppdatering | 6-08 oktober 2025 |  |  |  | Mål |
 | Adobe Experience Manager Guides 2025.11.0 | Automatisk uppdatering | 17-19 november 2025 |  |  |  | Mål |
@@ -36,6 +35,7 @@ Versionerna av Experience Manager Guides as a Cloud Service planeras enligt föl
 
 | Frigör | Händelse | Schema | Nyheter | Uppgraderingsinstruktioner | Åtgärdade problem | Status |
 |---|---|---|---|---|---|---|
+| Adobe Experience Manager Guides 2025.07.0 | Automatisk uppdatering | 14-16 juli 2025 | [Här](whats-new-2025-07-0.md) | [Här](upgrade-instructions-2025-07-0.md) | [Här](fixed-issues-2025-07-0.md) | Uppdaterat |
 | Adobe Experience Manager Guides 2025.6.0 | Automatisk uppdatering | 2-04 juni 2025 | [Här](whats-new-2025-06-0.md) | [Här](upgrade-instructions-2025-06-0.md) | [Här](fixed-issues-2025-06-0.md) | Uppdaterat |
 | Adobe Experience Manager Guides 2025.4.0 | Automatisk uppdatering | 5-7 maj 2025 | [Här](whats-new-2025-04-0.md) | [Här](upgrade-instructions-2025-04-0.md) | [Här](fixed-issues-2025-04-0.md) | Uppdaterat |
 | Adobe Experience Manager Guides 2025.2.0 | Automatisk uppdatering | 10-12 mars 2025 | [Här](whats-new-2025-02-0.md) | [Här](upgrade-instructions-2025-02-0.md) | [Här](fixed-issues-2025-02-0.md) | Uppdaterat |

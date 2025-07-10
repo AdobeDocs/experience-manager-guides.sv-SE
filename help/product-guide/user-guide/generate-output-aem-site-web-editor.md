@@ -4,9 +4,9 @@ description: Skapa och konfigurera AEM Sites-förinställningen i kartkonsolen m
 feature: Publishing
 role: User
 exl-id: f3657268-9dee-43af-b643-499dbc3ca948
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 8f2658bd3a724ff375d6d1a9b4474a5cdd8ce270
 workflow-type: tm+mt
-source-wordcount: '3533'
+source-wordcount: '3534'
 ht-degree: 0%
 
 ---
@@ -97,8 +97,8 @@ Fliken **Allmänt** innehåller följande konfigurationsalternativ:
 | AEM Sites-alternativ | Beskrivning |
 | --- | --- |
 | Använd webbplatssökväg | Använd det här alternativet om du vill publicera ditt innehåll på en Experience Manager-webbplats. |
-| Platssökväg | **Det här alternativet visas om du väljer alternativet** Använd webbplatssökväg **&#x200B;**. Bläddra i den fördefinierade sökvägen till Experience Manager-webbplatsen eller ange en anpassad sökväg där du vill att utdata ska publiceras. Med alternativet **Använd platser** kan du ange hela publiceringssökvägen även om den angivna sökvägen inte har skapats i förväg i AEM Sites-strukturen. I så fall skapar systemet den nödvändiga strukturen under publiceringsprocessen med hjälp av den valda mallen för kartstartsida. |
-| Mall för mappningssida | **Det här alternativet visas om du väljer alternativet** Använd webbplatssökväg **&#x200B;**. Välj en mall som du vill använda för att mappa hemsidor. |
+| Platssökväg | **Det här alternativet visas om du väljer alternativet** Använd webbplatssökväg ****. Bläddra i den fördefinierade sökvägen till Experience Manager-webbplatsen eller ange en anpassad sökväg där du vill att utdata ska publiceras. Med alternativet **Använd platser** kan du ange hela publiceringssökvägen även om den angivna sökvägen inte har skapats i förväg i AEM Sites-strukturen. I så fall skapar systemet den nödvändiga strukturen under publiceringsprocessen med hjälp av den valda mallen för kartstartsida. |
+| Mall för mappningssida | **Det här alternativet visas om du väljer alternativet** Använd webbplatssökväg ****. Välj en mall som du vill använda för att mappa hemsidor. |
 | Plats | Namnet på den Experience Manager Sites som du vill publicera ditt innehåll på. Alternativen i listrutan fylls i baserat på listan med webbplatser som är tillgängliga i AEM Sites. <br>Välj **Uppdatera** ![referensikon](images/navtitle-refresh-icon.svg) om du vill hämta en ny lista med alternativ och spegla de uppdaterade data. |
 | Publiceringssökväg | Den sökväg i AEM-databasen där utdata lagras. Publiceringssökvägen fylls i med alla sökvägar som innehåller sidor som skapats baserat på hemsidmallen. AEM Sites-utdata från DITA-kartan genereras under den här sökvägen.  Om du till exempel anger platsen som `AEMG-Docs` och publiceringssökvägen som `aemg-docs-en/docs/product-abc.`, genereras AEM Sites-utdata under noden `aemg-docs-en/docs/product-abc/` i `crx/de`. |
 | Ämnessidmall | Välj den mall som du vill använda för alla utdataämnen. |
@@ -131,7 +131,7 @@ Fliken **Ämneslista** visar en lista med ämnen som finns i den aktuella arbets
 
 **Korskartmappsreferenser**
 
-Den här listan innehåller ämnen som innehåller korsmappsreferenser med `scope =”peer”`. Du kan ange publiceringskontext för en lista över korsmappsreferenser med `scope=”peer”` till ämnen som är tillgängliga i andra DITA-kartor. Den här fliken visas om du använder Experience Manager Guides-versionen (UUID).
+Den här listan innehåller ämnen som innehåller korsmappsreferenser med `scope ="peer"`. Du kan ange publiceringskontext för en lista över korsmappsreferenser med `scope="peer"` till ämnen som är tillgängliga i andra DITA-kartor. Den här fliken visas om du använder Experience Manager Guides-versionen (UUID).
 
 Mer information finns i avsnittet [Arbeta med länkade ämnen](#working-with-linked-topics) nedan.
 
@@ -171,18 +171,20 @@ Fliken **Allmänt** innehåller följande konfigurationsalternativ:
 
 **Innehåll**
 
+![Nytt ](images/aem-sites-content-tab.png){width="650" align="left"}
+
 Fliken **Innehåll** innehåller följande konfigurationsalternativ:
 
 | AEM Sites-alternativ | Beskrivning |
 | --- | --- |
-| Använd baslinje | Om du har skapat en baslinje för den valda DITA-kartan väljer du det här alternativet för att ange vilken version du vill publicera.<br><br>Visa [Arbeta med baslinje](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) om du vill ha mer information. |
+| Använd baslinje | Om du har skapat en baslinje för den valda DITA-kartan väljer du det här alternativet för att ange vilken version du vill publicera.<br><br>Visa [Arbeta med baslinje](./web-editor-baseline.md) om du vill ha mer information. |
 | Villkorlig filtrering | Välj ett av följande alternativ:<br><br>**Inget**: Välj det här alternativet om du inte vill använda något villkor på publicerade utdata.<br>**Använder DITAVAL**: Välj DITAVal-filer för att generera villkorat innehåll. Du kan markera flera DITAVal-filer i dialogrutan Bläddra eller genom att skriva filsökvägen. Använd kryssikonen bredvid filnamnet för att ta bort den. DITAVal-filer utvärderas i den ordning som anges, så de villkor som anges i den första filen har företräde framför de matchande villkor som anges i senare filer. Du kan behålla filordningen genom att lägga till eller ta bort filer. Om DITAVal-filen flyttas till en annan plats eller tas bort, tas den inte automatiskt bort från kartkontrollpanelen. Du måste uppdatera platsen om filerna flyttas eller tas bort. Du kan hovra över filnamnet för att visa sökvägen i AEM-databasen där filen lagras. Du kan bara välja DITAVal-filer och ett fel visas om du väljer någon annan filtyp.<br>**Villkorsförinställning**: Välj en villkorsförinställning i listrutan om du vill använda ett villkor när du publicerar utdata. Det här alternativet är synligt om du har lagt till ett villkor för DITA-kartfilen. De villkorliga inställningarna finns på fliken Villkorsförinställningar i DITA-kartkonsolen. Visa [Använd förinställningar](generate-output-use-condition-presets.md#id1825FL004PN) om du vill veta mer om villkorsförinställningar. |
 | Metadata <br> <br>Filegenskaper (Assets) | Välj de egenskaper som du vill bearbeta som metadata. Dessa egenskaper ställs in från sidan Egenskaper i DITA-kartan eller bokmappningsfilen. Egenskaperna som du väljer i listrutan visas under fältet **Filegenskaper**. Markera kryssikonen bredvid egenskapen för att ta bort den. <br><br>**Obs!** Metadataegenskaperna är skiftlägeskänsliga.<br><br>*Om du har valt en baslinje baseras värdena för egenskaperna på versionen av den valda baslinjen.<br>* Om du inte har valt en baslinje baseras värdena för egenskaperna på den senaste versionen.<br><br>Du kan också skicka metadata till utdata med DITA-OT-publicering. Om du vill ha mer information kan du [skicka metadata till utdata med DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA).<br><br>**Obs!**: Om du inte har definierat `cq:tags` i alternativet Egenskaper hämtas värdena för `cq:tags` från den aktuella arbetskopian, även om du har valt en baslinje för publicering. |
 | Metadata <br> <br>Använd mappningsegenskaper som reserv | Om du väljer det här alternativet kopieras även de egenskaper som definierats för kartfilen till de avsnitt där sådana egenskaper inte har definierats. Tänk på följande när du använder det här alternativet:<br><br>*Endast egenskaperna String, Date eller Long (en och flera värden) kan skickas till AEM Site-sidorna.<br>* Metadatavärdena för en String-typegenskap stöder inte några specialtecken (till exempel `@, #, " "`).<br>* Det här alternativet bör användas tillsammans med alternativet `Properties`. |
 
 **Korskartmappsreferenser**
 
-Den här listan innehåller ämnen som innehåller korsmappsreferenser med `scope =”peer”`. Du kan ange publiceringskontext för en lista över korsmappsreferenser med `scope=”peer”` till ämnen som är tillgängliga i andra DITA-kartor. Den här fliken visas om du använder Experience Manager Guides-versionen (UUID).
+Den här listan innehåller ämnen som innehåller korsmappsreferenser med `scope ="peer"`. Du kan ange publiceringskontext för en lista över korsmappsreferenser med `scope="peer"` till ämnen som är tillgängliga i andra DITA-kartor. Den här fliken visas om du använder Experience Manager Guides-versionen (UUID).
 
 Mer information finns i avsnittet [Arbeta med länkade ämnen](#working-with-linked-topics) nedan.
 
@@ -208,7 +210,7 @@ Gör så här för att ange publiceringskontext för korslänkade filer:
 
    >[!NOTE]
    >
-   >Fliken **Korskartmappsreferenser** visar ämnen som endast är länkade med `scope=”peer”`. För länkar med `scope=”local”` behöver du inte ange publiceringskontext.
+   >Fliken **Korskartmappsreferenser** visar ämnen som endast är länkade med `scope="peer"`. För länkar med `scope="local"` behöver du inte ange publiceringskontext.
 
    Alla länkade ämnen har den senaste förinställningen och kartan för utdata markerat som standard. Publiceringskontexten för alla länkade ämnen är inställd på `<Most recently generated>`-karta som standard.
 
@@ -217,8 +219,8 @@ Gör så här för att ange publiceringskontext för korslänkade filer:
 1. Om du vill använda de senast publicerade utdata för varje beroende fil på kartan väljer du **Använd den senast genererade** publiceringskontexten för alla beroende ämnen.
 Du bör publicera kartan som valts som överordnad karta innan du publicerar kartan som innehåller länkade ämnen. Om kartan med länkade ämnen inte publiceras visas länkarna som normal text i stället för hyperlänkar i AEM Sites-utdata.
 Du bör välja samma typ av förinställning för AEM Sites för det länkade ämnet. Om den aktuella AEM Sites-förinställningen till exempel använder äldre komponentmappning väljer du en liknande AEM Sites-förinställning för det länkade avsnittet.
-1. I listrutan Överordnad karta markerar du den kartfil vars utdata du vill länka den aktuella kartans utdata.
-Om du väljer en kartfil visas kartans UUID i kolumnen Överordnad karta. De förinställningar för utdata som är associerade med den valda kartan visas i listan med förinställningar för den överordnade kartan. Ämne 1 i karta A innehåller till exempel en referens till ämne 2. Ämne 2 kan finnas på en eller flera kartor. Du kan välja den överordnade kartan och en viss förinställning eller de senast publicerade utdata för varje länk.
+1. I listrutan Överordnad karta markerar du den kartfil vars utdata du vill länka den aktuella kartan till.
+Om du väljer en kartfil visas kartans UUID i kolumnen Överordnad karta. De förinställningar för utdata som är associerade med den valda kartan visas i listan Förinställningar för överordnad karta. Ämne 1 i karta A innehåller till exempel en referens till ämne 2. Ämne 2 kan finnas på en eller flera kartor. Du kan välja den överordnade kartan och en viss förinställning eller de senast publicerade utdata för varje länk.
 
 1. Om samma ämne refereras till mer än en gång i en fil kan du lägga till olika publiceringskontexter för varje instans. Detta ger större flexibilitet och kontroll över innehållet. Ämne 3 finns t.ex. i både karta B och karta C. Ämne 1 innehåller två referenser till avsnitt 3. Du kan välja Map B som överordnad karta för den första länken och Map C som överordnad för den andra länken.
 
