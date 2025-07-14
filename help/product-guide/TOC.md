@@ -2,10 +2,10 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Läs produktdokumentationen för Adobe Experience Manager Guides.
 breadcrumb-title: Dokumentation om AEM Guides
-source-git-commit: 0cbeef94aa1c2300feae33ad3bc53bef82ebec47
+source-git-commit: b114cbcc0f637a71a9d9b7458686a06070179983
 workflow-type: tm+mt
-source-wordcount: '2139'
-ht-degree: 2%
+source-wordcount: '2277'
+ht-degree: 1%
 
 ---
 
@@ -140,8 +140,8 @@ ht-degree: 2%
                - [4.2.1 Versionsinformation](./release-info/release-notes-4-2-1.md)
                - [4.2 Versionsinformation](./release-info/release-notes-4-2.md)
          - [4.1.x Versionsinformation](./release-info/release-notes-4-1.md)
-         - [Versionsinformation för 4.0.x](https://helpx.adobe.com/se/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [3.8.x Versionsinformation](https://helpx.adobe.com/se/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [Versionsinformation för 4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [3.8.x Versionsinformation](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Användarhandbok (nytt användargränssnitt) {#user-guide}
    - Introduktion {#about-aemg}
       - [Om [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
@@ -282,6 +282,47 @@ ht-degree: 2%
       - [AI Assistant Authoring to author documents smart](./user-guide/ai-assistant-right-panel.md)
       - [AI-baserade smarta förslag för att skapa innehåll](./user-guide/authoring-ai-based-smart-suggestions.md)
       - [Vanliga frågor](./user-guide/ai-assistant-faq.md)
+   - Hantera utbildningsinnehåll {#learning-training-content}
+      - Guiden Komma igång {#get-started}
+         - Introduktion {#intro-lc}
+            - [Översikt över utbildningsmaterialet](./learning-content/intro.md)
+            - [Använd gränssnittet Utbildning och Utbildning](./learning-content/access-lc-interface.md)
+         - Konfigurera din kurs {#setup-course}
+            - [Kursöversikt](./learning-content/course-overview.md)
+            - [Skapa din första kurs](./learning-content/create-first-course.md)
+            - [Förstå grunderna för kurshanteraren](./learning-content/course-manager-basics.md)
+            - [Hantera din kurs](./learning-content/manage-course.md)
+         - Skapa och anpassa utbildningsmaterial {#customize-lc}
+            - [Översikt över utbildningsinnehåll](./learning-content/lc-overview.md)
+            - [Skapa utbildningsmaterial](./learning-content/create-content.md)
+            - [Redigera utbildningsmaterial](./learning-content/edit-content.md)
+            - [Lägg till grundläggande byggblock](./learning-content/lc-basic-blocks.md)
+            - [Använda interaktiva widgetar](./learning-content/lc-widgets.md)
+            - [Använda textbundna format](./learning-content/lc-inline-styles.md)
+         - Skapa och hantera frågor {#quiz}
+            - [Quiz - översikt](./learning-content/quiz-overview.md)
+            - [Skapa Quiz](./learning-content/create-quiz.md)
+            - [Redigera frågor](./learning-content/edit-quiz.md)
+            - [Infoga frågor i en Quiz](./learning-content/quiz-insert-questions.md)
+            - Frågebank {#question-bank}
+               - [Skapa frågebank](./learning-content/create-qb.md)
+               - [Infoga frågor från frågebanken](./learning-content/insert-questions.md)
+            - [Frågeformulärsegenskaper](./learning-content/quiz-properties.md)
+         - Publicera din kurs {#publish-course}
+            - [Om kurspublicering](./learning-content/publish-overview.md)
+            - [Förinställningar som stöds](./learning-content/course-presets.md)
+            - Publicera kurs i SCORM-format {#scorm-output}
+               - [Skapa förinställning för SCORM-utdata](./learning-content/create-scorm-preset.md)
+               - [Konfigurera förinställning för SCORM-utdata](./learning-content/config-scorm-preset.md)
+               - [Generera SCORM-utdata](./learning-content/generate-scorm-output.md)
+            - Publicera kursen i PDF-format {#pdf-output}
+               - [Skapa förinställning för PDF-utdata](./learning-content/create-course-pdf-preset.md)
+               - [Konfigurera förinställning för PDF-utdata](./learning-content/config-course-pdf-preset.md)
+               - [Generera PDF](./learning-content/generate-course-pdf.md)
+      - Konfigurationsguide {#config-lc}
+         - [Om den här guiden](./lc-config-guide/introduction.md)
+         - [Konfigurera mappprofiler](./lc-config-guide/lc-folder-profile.md)
+         - [Konfigurera andra inställningar](./lc-config-guide/lc-other-settings.md)
    - Bilaga {#appendix}
       - Hantera innehåll {#manage-content}
          - [Viktiga begrepp, roller, behörigheter och krav](./user-guide/authoring.md)
@@ -291,7 +332,7 @@ ht-degree: 2%
       - Felsökning {#troubleshooting}
          - [Tidsgräns för session](./user-guide/session-timeout-prompt.md)
 - Användarhandbok (gammalt användargränssnitt) {#user-guide-old-ui}
-   - [AEM Guides - översikt](https://experienceleague.adobe.com/sv/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [AEM Guides - översikt](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installation och konfiguration {#install-guide}
    - Lokalt {#on-prem-ig}
       - [Grunderna på plats](./install-guide/introduction.md)
@@ -462,7 +503,6 @@ ht-degree: 2%
       - Arbeta med AEM Assets-sökning {#aem-asset-search-cs}
          - [Konfigurera sökning i AEM Assets UI](./cs-install-guide/conf-dita-search.md)
       - [Bilaga](./cs-install-guide/appendix.md)
-
 - API-referens {#api-reference}
    - [Introduktion](./api-reference/introduction.md)
    - [REST API:er för utdatahantering](./api-reference/output-management.md)
