@@ -3,7 +3,8 @@ title: Hantera en kurs i utbildningsmaterial
 description: Lär dig mer om de olika funktionerna i Experience Manager Guides som gör att du kan hantera kursen effektivt.
 feature: Authoring
 role: User
-source-git-commit: 5f42540a32da6e85a5c8aa0831582ce871c9088a
+exl-id: 0f480d08-2f8a-494e-ab56-4965e5eeb960
+source-git-commit: 57ddd498cd06d7d8cb511b0c3108591280a35bdb
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 0%
@@ -36,24 +37,24 @@ Du kan lägga till befintligt innehåll från din innehållsdatabas i kursen. G�
 
 1. Välj menyn **Alternativ** > **Lägg till befintlig**.
 2. Välj vilken typ av kursinnehåll du vill skapa.
-3. I dialogrutan Välj sökväg navigerar du till innehållsplatsen och väljer önskat utbildningsinnehåll.
+3. I dialogrutan **Välj sökväg** navigerar du till innehållsplatsen och väljer önskat utbildningsinnehåll.
 
    ![](assets/add-existing-learning-content.png)
 4. Välj **Markera**.
 
-Det valda utbildningsinnehållet läggs till i kursen från databasen.
+Det valda kursinnehållet läggs till kursen från databasen.
 
 ## Ta bort innehåll
 
 Du kan ta bort alla ämnen från kursen genom att välja menyn **Alternativ** för det specifika ämnet och sedan välja **Ta bort** så som visas nedan.
 
-![](assets/remove-learning-content.png){width="350" align="left"}
+![](assets/remove-learning-content.png)
 
 ## Skapa kursversioner
 
 Du kan styra versionshanteringen av kursen genom att välja menyn **Alternativ** > **Versionshantering** .
 
-![](assets/course-versioning.png){width="650" align="left"}
+![](assets/course-versioning.png)
 
 Du får följande alternativ för att versionshantera en kurs:
 
@@ -70,7 +71,3 @@ Alternativet **Visa** avgör hur ämnen visas. Du kan välja att presentera dem 
 > De här visningsinställningarna används endast i kurshanteraren och påverkar inte publicerade utdata.
 
 ![](assets/course-display-settings.png)
-
-
-
-

@@ -3,7 +3,8 @@ title: Skapa förinställning för PDF
 description: Skapa en förinställning för PDF i utbildningsmaterialet
 feature: Authoring
 role: User
-source-git-commit: 4b581043d2577545b69773d33869dcd873a2ea3b
+exl-id: c353cee7-eee1-4e6d-92b4-73016cb8cfa3
+source-git-commit: 57ddd498cd06d7d8cb511b0c3108591280a35bdb
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 0%
@@ -18,7 +19,7 @@ Så här skapar du en förinställning för PDF-utdata:
 
    ![](assets/open-in-map-console.png){width="350" align="left"}
 
-1. Välj ikonen + på fliken **Utdataförinställningar** för att skapa en förinställning.
+1. Välj ikonen + på panelen **Utdataförinställningar** om du vill skapa en förinställning.
 1. Välj **PDF** i listrutan **Typ** i dialogrutan Ny förinställning.
 1. Ange ett namn för den här förinställningen i fältet **Namn**.
 1. I fältet **Skapa PDF med** väljer du **Inbyggd PDF**.
@@ -28,5 +29,3 @@ Så här skapar du en förinställning för PDF-utdata:
 Sidan med PDF-förinställningar öppnas där du kan göra de nödvändiga konfigurationerna.
 
 ![](assets/learning-pdf-preset.png){width="650" align="left"}
-
-
