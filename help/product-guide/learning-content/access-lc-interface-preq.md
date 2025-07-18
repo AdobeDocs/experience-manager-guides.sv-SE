@@ -3,7 +3,7 @@ title: Utforska gränssnittet och förutsättningarna
 description: Upptäck gränssnittet och förutsättningarna när du arbetar med utbildningsmaterial i Adobe Experience Manager Guides.
 feature: Authoring
 role: User
-source-git-commit: 200aae4c5d05531da5413c80a1cf254d2c0f0ec3
+source-git-commit: eda6c57d80359b1c70266708dc444f4880e1bf6c
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Utför följande steg för att komma åt användargränssnittet:
 
    Mer information finns i [Adobe Experience Manager Guides hemsida](../user-guide/intro-home-page.md).
 
-   ![](assets/aem-navigation-switcher.png){width="300" align="left"}
+   ![](assets/aem-navigation-switcher.png){width="350" align="left"}
 
 ## Förutsättningar
 
