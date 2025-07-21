@@ -1,9 +1,10 @@
 ---
 title: Versionsinformation | Korrigerade problem i Adobe Experience Manager Guides 2025.07.0
 description: Läs mer om felkorrigeringarna i version 2025.07.0 av Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: bf8b295444a1e21fc19bfbc04efaa20fe78f71bb
+exl-id: 0744e821-5aee-432b-a6c8-7ed6538935db
+source-git-commit: c4d3cdd2a0a98b7c9c937c66c5c3130bf4c5c164
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '527'
 ht-degree: 0%
 
 ---
@@ -50,6 +51,6 @@ Läs mer om [uppgraderingsinstruktioner för version 2025.07.0](upgrade-instruct
 Adobe har identifierat följande kända fel i version 2025.07.0:
 
 - När du arbetar med markeringsämnen visas en **ämnesreferens**-knapp i redigerarens verktygsfält, men den fungerar inte. (GUIDES-31038)
-- När mappar med versaler överförs med Adobe Experience Manager-datorprogrammet behålls inte versalerna och namnen visas med gemener i Editor. (GUIDES-30909)
+- Mappnodnamn visas felaktigt i stället för mapptitlar i Redigeraren. (GUIDES-30909)
 - I dialogrutan **Koppla** visas **Huvudinnehåll** felaktigt i listrutan i stället för de tillgängliga versionerna av det markerade ämnet. (GUIDES-30820)
 - När du öppnar en DITA-karta med det enhetliga skalet aktiverat uppdateras redigeraren regelbundet.(GUIDES-26919)
