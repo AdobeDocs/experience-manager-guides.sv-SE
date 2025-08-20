@@ -326,4 +326,4 @@ Om mediefilen har ändrats kan du söka efter och förhandsgranska filerna i **T
    ![](images/media-version-preview.png){width="650" align="center"}
 
 
-**Överordnat ämne:**[ Hantera innehåll](authoring.md)
+**Överordnat ämne:**&#x200B;[ Hantera innehåll](authoring.md)

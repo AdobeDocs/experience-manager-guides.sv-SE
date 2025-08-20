@@ -259,4 +259,4 @@ Ett fel visas om metadatasökvägen är tom. Om du lämnar etiketten tom väljs 
 Du kan också definiera i vilken ordning dessa metadatataggar ska visas. Om du vill ändra standardordningen för de här märkorden markerar du de prickade strecken för att dra och släppa märkorden på önskad plats.
 Metaetiketterna visas i samma sekvens i dialogrutan **Versionshistorik** i redigeraren.
 
-**Överordnat ämne:**[ Introduktion till redigeraren](web-editor.md)
+**Överordnat ämne:**&#x200B;[ Introduktion till redigeraren](web-editor.md)

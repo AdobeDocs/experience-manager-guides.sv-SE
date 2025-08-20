@@ -274,4 +274,4 @@ Välj ett eller flera av följande filtreringsalternativ i dialogrutan **Filtert
 
 Om du vill ta bort filtret och visa alla kommentarer avmarkerar du alla filter i dialogrutan **Filtertyp** och väljer **Använd**.
 
-**Överordnat ämne:**[ Introduktion till granskning](review.md)
+**Överordnat ämne:**&#x200B;[ Introduktion till granskning](review.md)

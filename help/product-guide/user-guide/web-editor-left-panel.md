@@ -1058,7 +1058,7 @@ Utför följande steg om du vill söka och ersätta globalt:
 
 Om du vill aktivera ikonen **Ersätt alla** måste systemadministratören markera alternativet **Aktivera Ersätt alla** på fliken **Allmänt** i **Inställningar** .
 
-    >[!OBS!]
+    >[ !OBS!]
     >
     > Hovra över en fil från sökresultatlistan för att visa ikonen Ersätt alla i fil till höger om den. Du kan också visa ikonen Ignorera fil för att ta bort filen från sökresultatet. De filer som du ignorerar tas bort från listan och den sökta termen ersätts inte i dem.
 
@@ -1130,4 +1130,4 @@ Så här visar du granskningskommentarerna i de aktiva granskningsuppgifterna so
 
 </details>
 
-**Överordnat ämne:**[ Introduktion till redigeraren](web-editor.md)
+**Överordnat ämne:**&#x200B;[ Introduktion till redigeraren](web-editor.md)

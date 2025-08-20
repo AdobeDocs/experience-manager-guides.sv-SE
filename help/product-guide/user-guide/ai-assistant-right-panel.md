@@ -1,5 +1,5 @@
 ---
-title: Använd AI-assistenten för att skapa dokument smart `
+title: Använd AI-assistenten för att skapa dokument smart &grave;
 description: Lär dig hur du kan använda AI Assistant för att skapa dokument på ett smart sätt.
 exl-id: 47d37323-20bf-4444-a2c9-41c44b2c8daf
 source-git-commit: 3d344a1d1b8d51ddadd618db5296531f549dc70b

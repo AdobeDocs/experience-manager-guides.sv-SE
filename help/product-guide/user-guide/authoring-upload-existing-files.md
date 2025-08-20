@@ -49,4 +49,4 @@ Mer information om hur de olika scenarierna för filöverföring fungerar finns 
 
 Om du använder ett verktyg som Adobe Experience Manager-skrivbordsprogram eller Resursprogram, styrs åtgärden som utförs på en duplicerad fil av en inställning på Adobe Experience Manager-servern. Kontakta systemadministratören om du vill veta mer om den här konfigurationen.
 
-**Överordnat ämne:**[ Hantera innehåll](authoring.md)
+**Överordnat ämne:**&#x200B;[ Hantera innehåll](authoring.md)

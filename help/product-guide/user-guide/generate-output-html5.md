@@ -108,4 +108,4 @@ Exempel: **Utdatasökväg/Målsökväg** - Här är **Utdatasökväg** den etike
 
 
 
-**Överordnat ämne:**[ Förstå förinställningarna för utdata](generate-output-understand-presets.md)
+**Överordnat ämne:**&#x200B;[ Förstå förinställningarna för utdata](generate-output-understand-presets.md)
