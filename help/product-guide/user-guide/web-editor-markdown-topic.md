@@ -4,9 +4,9 @@ description: Skapa markeringsdokument från Redigeraren. Lär dig hur du skapar,
 exl-id: def14e35-27c5-4b90-bc3d-eef7e8f317d2
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 779be011c078fb3c2fae4fc6a92e3e2d734672b0
 workflow-type: tm+mt
-source-wordcount: '1254'
+source-wordcount: '1197'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Markering är ett lättviktigt markeringsspråk som du kan använda för att lä
 Så här skapar du ett markeringsämne från Editor:
 
 1. Välj ![](images/Add_icon.svg) på panelen Databas och välj sedan **Ämne** i listrutan.
-1. Ange följande information i dialogrutan **Nytt ämne**:
+2. Ange följande information i dialogrutan **Nytt ämne**:
 
    ![](images/create-markdown-dialog.png){width="300" align="left"}
 
@@ -29,10 +29,10 @@ Så här skapar du ett markeringsämne från Editor:
    * **Mall**: Välj **Markdown** i listrutan. Mallen **Ämne** är markerad som standard.
    * **Sökväg**: Bläddra i sökvägen där du vill spara ämnesfilen. Som standard visas sökvägen till den markerade mappen i databasen i fältet Sökväg.
 
-   >
+   >[!NOTE]
    >
    > Om du uppgraderar måste du lägga till markeringsmallen i den aktuella mappprofilen som används. Du kan [skapa en ny markeringsmall i redigeraren](./web-editor-features.md#templates) eller använda en befintlig mall för markeringsredigering. Mer information om hur du lägger till redigeringsmallar i Experience Manager Guides finns i [Konfigurera globala profiler och profiler på mappnivå](../cs-install-guide/conf-folder-level.md).
-1. Välj **Skapa**.
+3. Välj **Skapa**.
 
    Avsnittet Markering skapas vid den markerade banan och är öppet för redigering.
 
@@ -158,7 +158,7 @@ I avsnittet Referenser får du tillgång till följande funktioner:
 * **Används i**: De dokument som används i referenser listar de dokument där den aktuella filen refereras eller används.
 * **Utgående länkar**: Utgående länkar listar de dokument som refereras till i det aktuella dokumentet.
 
->
+>[!NOTE]
 >
 > Alla länkreferenser som används in och ut är hyperlänkade till dokumenten. Du kan enkelt öppna och redigera länkade dokument.
 
@@ -170,12 +170,9 @@ Följande Experience Manager Guides-funktioner gäller för närvarande inte fö
 2. Sammanfoga
 3. AI Assistant
 4. Spåra ändringar
-5. Sök och ersätt
-6. Sök och filtrera
-
->[!NOTE]
->
-> Funktionen **Sök och ersätt** bearbetar inte markeringsfiler på databasnivå. Detta inkluderar sökning efter en markeringsfil på en karta eller i en mapp. Den kan dock fortfarande användas i markeringsredigeraren. Dessutom bearbetar inte alternativen **Sök** och **Filter** i databasvyn markeringsfiler.
 
 
-**Överordnat ämne:**&#x200B;[ Introduktion till redigeraren](web-editor.md)
+
+
+
+**Överordnat ämne:**[ Introduktion till redigeraren](web-editor.md)

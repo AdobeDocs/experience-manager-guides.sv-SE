@@ -4,9 +4,9 @@ description: Lär dig funktionerna i Kartredigeraren i Adobe Experience Manager 
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 02a149bbb40615c07d2744f0899a370c91eb83d2
 workflow-type: tm+mt
-source-wordcount: '2570'
+source-wordcount: '2578'
 ht-degree: 0%
 
 ---
@@ -146,7 +146,7 @@ Dessutom kan du visa följande ikoner och utföra relaterade uppgifter i rediger
 
 **Infoga före/Infoga efter** - ![](images/insert_element_before_icon.svg) / ![](images/insert_element_after_icon.svg)
 
-Visar elementet **Insert före eller &#x200B;** Insert efter dialogruta. Markera det element som du vill infoga på kartan. Beroende på åtgärden infogas det nya elementet före eller efter det aktuella elementet i kartan.
+Visar elementet **Insert före eller **Insert efter dialogruta. Markera det element som du vill infoga på kartan. Beroende på åtgärden infogas det nya elementet före eller efter det aktuella elementet i kartan.
 
 **Element** - ![](images/Add_icon.svg)
 
@@ -219,13 +219,11 @@ Visar dialogrutan **Återanvänd innehåll**. Använd den här dialogrutan för 
 
 **Uppdatera navigeringsrubrikattributet** - ![](images/refresh.svg)
 
-Synkroniserar elementet `title` i en refererad fil i en karta med det värde som anges i dess `@navtitle`-attribut. Du kan lägga till olika typer av referensfiler på en karta, till exempel avsnitt-, referens-, uppgift-, \(sub\)-kartor. De flesta av dessa filer stöder attributet `@navtitle`. Om en fil innehåller attributet `@navtitle` uppdateras attributet `@navtitle` för samma fil på kartan. Om attributet `@navtitle` inte finns med läggs attributet `@navtitle` till i referensfilen och dess `title` uppdateras även för att visa `@navtitle`.
+Gör att du kan synkronisera attributet `@navtitle` och elementet `title` i en refererad fil. Du kan lägga till olika typer av filer på en karta, t.ex. ämnen, uppgifter, referenser eller undermappar. De flesta av dessa har stöd för attributet `@navtitle`, som styr hur filnamnet visas på kartan eller i innehållsförteckningen. Om en fil innehåller attributet `@navtitle` uppdateras attributet `@navtitle` för samma fil på kartan. Om attributet `@navtitle` inte finns med läggs attributet `@navtitle` till i referensfilen och dess `title` uppdateras även för att visa `@navtitle`.
 
 >[!NOTE]
 >
-> Administratören kan konfigurera det automatiskt tillagda attributet `@navtitle` för varje referensfil som du lägger till på en karta. Mer information om hur du konfigurerar attributet `@navtitle` som läggs till automatiskt finns i *Inkludera @navtitle som standard* i Installera och konfigurera Adobe Experience Manager Guides as a Cloud Service.
-
-Markera ikonen Uppdatera navigeringsrubrikattribut om du vill synkronisera värdena för elementet `title` och attributet `@navtitle`.
+> Administratören kan välja att visa eller dölja knappen i kartredigerarens verktygsfält med hjälp av en konfigurationsegenskap. De kan även aktivera automatiskt tillägg av attributet `@navtitle` när filer läggs till på en karta. Mer information finns i [Inkludera @navtitle-attribut som standard](../cs-install-guide/auto-add-navtitle.md)* i Installera och konfigurera Adobe Experience Manager Guides as a Cloud Service.
 
 **Taggar**
 

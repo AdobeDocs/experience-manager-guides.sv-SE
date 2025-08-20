@@ -4,9 +4,10 @@ description: Läs om hur du konfigurerar mappprofiler när du arbetar med utbild
 feature: Authoring
 role: Admin
 level: Experienced
-source-git-commit: b114cbcc0f637a71a9d9b7458686a06070179983
+exl-id: dc26ae48-c953-492c-823a-5f65157b6902
+source-git-commit: f14ee85ccc49abd662a046b2bd4e7be2eece4902
 workflow-type: tm+mt
-source-wordcount: '1296'
+source-wordcount: '1451'
 ht-degree: 0%
 
 ---
@@ -17,12 +18,23 @@ Det krävs en mappprofil för att kunna dela upp konfigurationerna för olika av
 
 Om du vill komma igång med mappprofilkonfigurationen för utbildningsinnehåll måste du:
 
-1. [Skapa en mappprofil](../cs-install-guide/conf-folder-level.md#create-and-configure-a-folder-level-profile).
-2. **Välj den mappprofil som ska konfigureras**: När mappprofilen har skapats måste du välja mappprofilen på sidan [Användarinställningar](../user-guide/intro-home-page.md#user-preferences) för att se till att författare och utgivare har tillgång till rätt mallar.
+1. **Skapa olika mappar för att hantera redigerings- och utdatamallar**: Du kan skapa mappar för författare och utgivare som arbetar i olika avdelningar eller produkter i ditt företag. Mapparna kan mappas till specifika mappprofiler, som alla är konfigurerade med olika skribent- och utdatamallar som har stöd för avdelningsspecifika kurser och decentraliserad administration.
+
+   Du kan skapa en ny mapp från databaspanelen.
+
+   ![](assets/create-new-folder.png){width="350" align="left"}
+2. **Skapa språkmappar för att hantera översättning**: Om du översätter innehåll till olika språk måste du skapa mappar för varje språk. Var och en av dessa språkmappar kommer att innehålla det innehåll som motsvarar det språket.
+
+   Mer information finns i [Bästa tillvägagångssätt för innehållsöversättning](../user-guide/translation-first-time.md).
+3. **Skapa en mapp för att hantera Assets**: På samma sätt som för mappar kan du skapa olika Assets-mappar som passar olika avdelningars behov. På så sätt ser du även till att författare och utgivare har tillgång till rätt CSS som konfigurerats i deras mallar, bilder och andra resurser.
+
+   ![](assets/configure-assets-folder.png){width="350" align="left"}
+4. [Skapa en mappprofil](../cs-install-guide/conf-folder-level.md#create-and-configure-a-folder-level-profile) om du vill mappa olika mappar.
+5. **Välj den mappprofil som ska konfigureras**: När mappprofilen har skapats måste du välja mappprofilen på sidan [Användarinställningar](../user-guide/intro-home-page.md#user-preferences) för att se till att författare och utgivare har tillgång till rätt mallar.
 
    ![](assets/folder-profile.png){width="650" align="left"}
 
-3. **Konfigurera mappprofilinställningar**: Följande inställningar kan konfigureras på mappnivå för utbildningsinnehåll och utbildningsinnehåll:
+6. **Konfigurera mappprofilinställningar**: Följande inställningar kan konfigureras på mappnivå för utbildningsinnehåll och utbildningsinnehåll:
    - [Paneler](#configure-panels)
    - [Mallar](#configure-templates)
    - [Utdatainställningar](#configure-output-presets)

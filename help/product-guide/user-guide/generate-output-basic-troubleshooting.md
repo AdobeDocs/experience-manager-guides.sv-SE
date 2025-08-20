@@ -4,9 +4,9 @@ description: Lös problem med grundläggande felsökning i AEM Guides. Lär dig 
 exl-id: 57b88291-b5a3-4931-b3ed-f2b2ce7a463c
 feature: Publishing, Troubleshooting
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 262edba89ab4bf65cb6e109bd7c5df177e2e56fe
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: '721'
 ht-degree: 0%
 
 ---
@@ -21,24 +21,32 @@ Utför följande steg för att visa och kontrollera loggfilen för generering av
 
 1. När du har initierat genereringsprocessen för utdata väljer du **Utdata** i DITA-kartkonsolen.
 
-   Kolumnen **Allmänt** i **Genererade utdata** visar ikonerna för att ge en visuell indikator på om utdatagenereringen lyckades eller misslyckades.
+   Kolumnen **Genereringsinställning** i **Genererade utdata** visar färgen för att ge en visuell indikator på om utdatagenerationen lyckades eller misslyckades för olika utdatainställningar.
 
-   ![](images/output-general-settings.png){width="300" align="left"}
+   ![](images/output-general-settings-new.png){width="300" align="left"}
 
-   På skärmbilden ovan visar den första och tredje ikonen misslyckad generering av utdata. Den andra ikonen visar att det gick att generera utdata, men med meddelanden. Den sista genereringen är en lyckad utdatagenerering utan något meddelande.
+   På skärmbilden ovan:
+
+   - Rött indikerar misslyckad utdatagenerering.
+   - Grönt är en lyckad utdatagenerering.
+   - Amber indikerar en lyckad utdatagenerering med fel.
+
+   >[!NOTE]
+   >
+   > Färgerna på fliken **Utdata**, som anger status för olika utdataresultat, skiljer sig från färgerna som används för att kategorisera olika typer av fel i loggfilerna.
 
 1. Markera länken i kolumnen **Genererad** när jobbet är klart.
 
    Loggfilen öppnas på en ny flik.
 
-   ![](images/log-file.png){align="left"}
+   ![](images/log-file-new.png){align="left"}
 
 1. Använd följande filter för att markera texten i loggfilen:
-   - Allvarligt: markerar de allvarliga felen i loggfilen med rosa färg.
-   - Fel: Markerar felen i loggfilen med orange färg.
-   - Varning: Markerar varningarna i loggfilen med lila färg.
-   - Info: Markerar informationsmeddelanden i loggfilen med blå färg.
-   - Undantag: Markerar undantagen i loggfilen med gul färg.
+   - Allvarligt: markerar de allvarliga felen i loggfilen med mörkröd färg.
+   - Fel: Markerar felen i loggfilen med röd färg. Undantag behandlas som fel och markeras på liknande sätt i rött.
+   - Varning: Markerar varningarna i loggfilen med gul färg.
+   - Info: Markerar informationsmeddelanden i loggfilen med grön färg.
+
 1. Använd navigeringsknapparna uppåt och nedåt för att hoppa till den markerade texten i loggfilen.
 
    Du kan även bläddra igenom loggfilen och kontrollera meddelandena.
@@ -91,4 +99,4 @@ Utför följande steg för att lösa problemet:
 1. Öka värdet för parametern *Antal anrop per begäran* enligt dina krav.
 
 
-**Överordnat ämne:**&#x200B;[ Utdatagenerering](generate-output.md)
+**Överordnat ämne:**[ Utdatagenerering](generate-output.md)

@@ -4,9 +4,9 @@ description: Lär känna Adobe Experience Manager Guides hemsida.
 feature: Authoring
 role: User
 exl-id: 4e6e40ba-277b-43d5-a2a9-665f4586c7e3
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 03f117381bda7d31b50085b83f309e24f9a75210
 workflow-type: tm+mt
-source-wordcount: '1853'
+source-wordcount: '1824'
 ht-degree: 0%
 
 ---
@@ -159,22 +159,22 @@ Användarinställningarna är tillgängliga för alla författare. Med hjälp av
 
 - **Allmänt**: På fliken Allmänt kan du konfigurera följande inställningar:
 
-  ![](images/user_preference_editor.PNG){align="left"}
+  ![](images/user_preference_editor-new.png){align="left"}
 
    - **Mappprofil**: Mappprofilen styr olika konfigurationer som är relaterade till villkorsattribut, redigeringsmallar, förinställningar för utdata och redigeringskonfigurationer. Den globala profilen visas som standard. Om administratören har konfigurerat mappprofiler i systemet visas även dessa mappprofiler i listan Mappprofiler.
    - **Bassökväg**: När du öppnar Experience Manager Guides-databasen från Redigeraren visas som standard resurser från /content/dam-platsen. Arbetsmappen finns förmodligen i mappen /content/dam/. Du kan ange grundsökvägen till din arbetsmapp och i databasvyn visas sedan innehållet från den platsen direkt. Detta minskar tiden för åtkomst till din arbetsmapp. När du infogar en referens- eller mediefil i ditt ämne börjar filbläddringsplatsen med mappen inställd i bassökvägen.
-      - **Välj rotkarta**: Välj en DITA-mappningsfil för att lösa nyckelreferenser eller ordlisteposter. Den markerade rotkartan har högsta prioritet för att lösa nyckelreferenser. Mer information finns i [Lös nyckelreferenser](./map-editor-other-features.md).
-      - **Maximalt antal senaste filer**: Använd det här fältet om du vill ange en maxgräns för de filer som visas i widgeten Senaste filer.
-      - **Ange standardbeteende för att öppna kartor**: Här kan du välja ett standardbeteende som systemet ska följa när en DITA-kartfil öppnas.
+   - **Välj rotkarta**: Välj en DITA-mappningsfil för att lösa nyckelreferenser eller ordlisteposter. Den markerade rotkartan har högsta prioritet för att lösa nyckelreferenser. Mer information finns i [Lös nyckelreferenser](./map-editor-other-features.md).
+   - **Maximalt antal senaste filer**: Använd det här fältet om du vill ange en maxgräns för de filer som visas i widgeten Senaste filer.
+   - **Öppnar inställningar för kartor**: Här kan du välja ett standardbeteende som systemet kommer att följa när en DITA-kartfil öppnas.
 
 - **Utseende**: På fliken Utseende kan du välja teman för programmet och källvyn för innehållets redigeringsområde. Använd den här fliken för att konfigurera följande inställningar:
 
-  ![](images/user_preference_editor_appearance.png){align="left"}
+  ![](images/user_preference_editor_appearance-new.png){align="left"}
 
-   - **Redigerarfiler visar konfigurationen**: Välj standardsättet att visa filerna i Redigeraren. Du kan visa fillistan efter titlarna eller filnamnen från de olika panelerna i redigeringsvyn. Som standard visas filerna som titlar i Redigeraren.
    - **Programtema och Source-vy**: Du kan välja mellan ljusa eller mörka teman för programmet och källvyn. När det gäller ljustemat använder verktygsfälten och panelerna en ljusgrå bakgrund. När det gäller det mörka temat använder verktygsfälten och panelerna en svart färgbakgrund. Välj **Använd enhetstemat** om du vill att Experience Manager Guides ska kunna välja ljusa och mörka teman baserat på temat på din enhet.
 
      I alla teman visas området för innehållsredigering med vit färgbakgrund i redigeringsvyn.
 
+   - **Redigerarfiler visar konfigurationen**: Välj standardsättet att visa filerna i Redigeraren. Du kan visa fillistan efter filnamnen eller filnamnen från de olika panelerna i redigeringsvyn. Som standard visas filerna som titlar i Redigeraren.
+
    - **Hitta alltid filer i databasen**: Välj det här alternativet om du vill visa platsen för en fil i databasen när du redigerar den i Redigeraren.
-   - **Visa indikatorn för fast mellanslag i redigeringsläge**: Välj det här alternativet om du vill visa en indikator för fasta mellanslag när du redigerar det i redigeraren. Den är aktiverad som standard.

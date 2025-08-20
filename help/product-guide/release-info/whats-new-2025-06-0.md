@@ -3,9 +3,9 @@ title: Versionsinformation | Nyheter i Adobe Experience Manager Guides 2025.06.0
 description: Läs om de nya och förbättrade funktionerna i version 2025.06.0 av Adobe Experience Manager Guides
 role: Leader
 exl-id: 48f27aa6-d870-4228-8e62-db81699a25f7
-source-git-commit: 158c2a99ac43fd70726bedf30f4de1a970a48864
+source-git-commit: d418ffb254b11430509609b91e0174690815cf73
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---
@@ -17,14 +17,6 @@ I den här artikeln beskrivs de nya och förbättrade funktionerna som introduce
 En lista över problem som har åtgärdats i den här versionen finns i [Åtgärdade problem i version 2025.06.0](fixed-issues-2025-06-0.md).
 
 Läs mer om [uppgraderingsinstruktioner för version 2025.06.0](../release-info/upgrade-instructions-2025-06-0.md).
-
-## Tillfälliga filer för publicerade utdata inkluderar nu författar- och publicerings-URL:er i en ny konfigurationsfil
-
-De senaste publiceringsförbättringarna av Experience Manager Guides lägger nu till en ny `system_config.json`-fil till de temporära filer som genereras när HTML-, PDF- och JSON-utdata publiceras med DITA-OT, liksom utdata från PDF. Den här filen inkluderas automatiskt i publiceringsjobbet och är även tillgänglig via temporära filer när du aktiverar alternativet **Behåll temporära filer** för förinställningarna och genererar utdata.
-
-Filen `system_config.json` innehåller viktig instansinformation, inklusive författar-URL, lokal URL och publicerings-URL, som ger tydligare kontext och förbättrar spårbarheten för hämtade URL:er.
-
-Mer information finns i [Förstå förinställningarna](../user-guide/generate-output-understand-presets.md).
 
 ## Sessionstidsfråga för att förhindra oavsiktlig innehållsförlust
 

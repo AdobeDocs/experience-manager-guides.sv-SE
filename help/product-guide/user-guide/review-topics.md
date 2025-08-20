@@ -4,9 +4,9 @@ description: Lär dig hur du granskar ämnen och använder funktionerna som gran
 exl-id: fc87fc37-f1cd-4a19-96c2-3a08a8222002
 feature: Reviewing
 role: User
-source-git-commit: 9197cb757e3b883d81eee8a72c797b74cf06e570
+source-git-commit: b7648fe1d36de3c243ca5a55f42a41f7523056ce
 workflow-type: tm+mt
-source-wordcount: '2476'
+source-wordcount: '2655'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 0%
 # Granska ämnen {#id2056B0W0FBI}
 
 Om du är granskare får du ett e-postmeddelande med en länk till granskningsavsnitten. Med hjälp av den här länken kan du komma åt granskningssidan där du kan lägga till din feedback om de delade ämnena.
+
+>[!NOTE]
+>
+> När du får åtkomst till granskningsbegäran från meddelandet kan du välja att tilldela om den till en annan användare som ingår i samma granskningsprojekt. Mer information finns i [Tilldela om granskningsuppgift med meddelande](./reassign-review-using-notification.md).
 
 Utför följande steg för att granska ett ämne:
 
@@ -34,8 +38,6 @@ Utför följande steg för att granska ett ämne:
    > - Adobe Experience Manager Guides as a Cloud Service november 2022 eller tidigare
    > - Adobe Experience Manager Guides version 4.1 eller tidigare
 
-
-
    Följande skärm visas när en DITA-karta används för att initiera granskningsarbetsflödet:
 
    ![](images/multiple-topics-review.png){align="left"}
@@ -54,7 +56,7 @@ Utför följande steg för att granska ett ämne:
 
      >[!NOTE]
      >
-     > När du använder filtren visas bara de kommentarer som matchar de valda filtren på kommentarspanelen. Antalet filtrerade kommentarer visas till vänster i ämnespanelen.
+     > När du använder filtren visas bara de kommentarer som matchar de valda filtren på kommentarpanelen. Antalet filtrerade kommentarer visas till vänster i ämnespanelen.
 
    - **E**: Ett ämne som tilldelats den aktuella granskaren för granskning visas i svart och kan markeras. När granskaren väljer en ämneslänk visas det avsnittet högst upp på skärmen.
    - **F**: Ett ämne som inte är tillgängligt för granskning är nedtonat. Avsnittet visas i skrivskyddat läge och du kan inte lägga till granskningskommentarer om det.
@@ -162,6 +164,21 @@ På följande skärmbild visas innehållet i läget *Förhandsgranska*:
 
 ![](images/review-preview-mode.png){width="550" align="left"}
 
+
+**Tagga aktivitetsanvändare i en kommentar**
+
+När du samarbetar med flera granskare kan du förbättra kommunikationen genom att tagga specifika användare i både nya kommentarer och svar. Som granskare kan du initiera en kommentar eller svara på en befintlig kommentar samtidigt som du taggar andra användare som deltar i samma granskningsåtgärd för att dra deras uppmärksamhet till sig eller tilldela uppföljningar. Den här funktionen är bara tillgänglig för aktiva granskningsåtgärder.
+
+>[!NOTE]
+>
+> Om du vill visa listan över användare som tilldelats en granskningsaktivitet och tagga dem i en kommentar, måste du ha *läsåtkomst* på `/home/users and /home/groups` -noder. Mer information finns i [Användaradministration och -säkerhet](../cs-install-guide/user-admin-sec.md#additional-notes-on-user-groups). <br> Om taggning fortfarande inte är tillgänglig efter att du har bekräftat åtkomst kan din administratör behöva tilldela en `user-admin`-licens för att aktivera den här funktionen.
+
+![](images/tag-users-review-ui.png){width="350" align="left"}
+
+Taggade användare får både ett e-postmeddelande och ett AEM-meddelande så att de snabbt kan informeras. Mer information om hur granskningsmeddelanden utlöses finns i [Om granskningsmeddelanden](./review-understanding-review-notifications.md).
+
+![](images/mentioned-in-tags-author.png){width="350" align="left"}
+
 **Lägg till bifogade filer i kommentarer** -   Om du vill komplettera din kommentar genom att ange ytterligare information som är tillgänglig i en annan fil, kan du göra det genom att bifoga den med din kommentar. Som granskare kan du enkelt lägga till en eller flera filer från det lokala systemet i kommentaren. En fil kan läggas till i alla kommentarformer som stöds - Markera, Genomstruken, Infoga text eller Kommentar.
 
 När du infogar någon av kommentarerna visas kommentarsfönstret. När du har angett ytterligare kommentarer eller information i popup-fönstret skickar du det genom att klicka på Retur. När kommentaren har lagts till kan du lägga till en bilaga till kommentaren.
@@ -257,4 +274,4 @@ Välj ett eller flera av följande filtreringsalternativ i dialogrutan **Filtert
 
 Om du vill ta bort filtret och visa alla kommentarer avmarkerar du alla filter i dialogrutan **Filtertyp** och väljer **Använd**.
 
-**Överordnat ämne:**&#x200B;[ Introduktion till granskning](review.md)
+**Överordnat ämne:**[ Introduktion till granskning](review.md)

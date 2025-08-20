@@ -4,29 +4,28 @@ description: Läs om hur du hanterar granskningskommentarer som författare i AE
 exl-id: 4c969788-f700-4fd6-8afa-8e5b411b59f3
 feature: Reviewing
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: f8320d0e0b5982d932c9df46f8ccf35d5f44dbac
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1220'
 ht-degree: 0%
 
 ---
 
 # Adressgranskningskommentarer {#id2056B0X0KBI}
 
+Som författare kan du adressera kommentarer i ett ämne med redigeraren. Kommentarerna läses in baserat på den granskningsuppgift som valts på granskningspanelen. Mer information finns i funktionsbeskrivningen för **Granskningspanelen** ![](images/active-review-tasklist-icon.svg) i avsnittet [Vänster panel](../user-guide/web-editor-features.md#id2051EA0M0HS).
 
-Som författare kan du adressera kommentarer i ett ämne med hjälp av webbredigeraren. Kommentarerna läses in baserat på den granskningsuppgift som valts på granskningspanelen. Mer information finns i funktionsbeskrivningen för **Granskningspanelen** ![](images/active-review-tasklist-icon.svg) i avsnittet [Vänster panel](../user-guide/web-editor-features.md#id2051EA0M0HS).
+I följande avsnitt beskrivs olika sätt att hantera kommentarer i redigeraren.
 
-I följande avsnitt beskrivs olika sätt att adressera kommentarer i Web Editor.
-
-En författare kan adressera kommentarer i ett dokument från Web Editor. Visuella indikatorer visas som anger om kommentarer som infogats, tagits bort eller markerats. Även kommentarstypen anges längst upp i varje kommentarspost.
+En författare kan adressera kommentarer i ett dokument från Redigeraren. Visuella indikatorer visas som anger om kommentarer som infogats, tagits bort eller markerats. Även kommentarstypen anges längst upp i varje kommentarspost.
 
 >[!NOTE]
 >
-> Se till att du inte öppnar ämnet i granskningen på flera flikar när du arbetar med granskningskommentarer \(för ett aktivt granskningsdokument\) och att du inte växlar mellan visningslägena för författare och Source.
+> När du adresserar granskningskommentarer \(för ett aktivt granskningsdokument\) ska du se till att du inte öppnar ämnet i granskningen på flera flikar med full taggvy aktiverat, inte växla mellan redigeringsläget och visningsläget för Source.
 
 ![](images/comments-page-web-editor_cs-new.png){align="left"}
 
-I webbredigeringsläget innehåller den högra panelen ikonerna Granska och Spåra ändringar. Granskningspanelen visar alla kommentarer som granskarna har gjort i dokumentet. På panelen **Spåra ändringar** visas status för alla infogade och borttagna kommentarer i dokumentet.
+I redigeraren innehåller den högra panelen ikonerna för Granska och spåra ändringar. Granskningspanelen visar alla kommentarer som har gjorts i dokumentet av granskare. Panelen **Spåra ändringar** visar status för alla infogade och borttagna kommentarer i dokumentet.
 
 - **A**: Välj en granskningsåtgärd om du vill visa granskningskommentarer. Om ditt ämne har delats för granskning i flera granskningsåtgärder, kommer du att visa de uppgifter som listas i den här listrutan.
 
@@ -42,7 +41,7 @@ I webbredigeringsläget innehåller den högra panelen ikonerna Granska och Spå
   >
   > Om rotkartan för din granskningsåtgärd skiljer sig från rotkartan för redigering visas information om den för att ange att redigeringen och rotkartan för granskningen inte matchar.
 
-- **C**: Om du har uppdaterat ditt ämne efter att du har initierat granskningen och väljer ikonen Återställ ämne till granskningsversion, återställs din arbetskopia till den version som delats för granskning. Det gör det enklare för dig att lägga in granskningsfeedback direkt i den version som delats för granskning. När du har tagit med feedback kan du spara ändringarna i den återskapade versionen eller skapa en ny version av ämnet. Om du väljer att skapa en ny revision av ditt ämne skapas en ny gren av den ämnesversion som delats för granskning. Om du till exempel delade version `1.2` av ett ämne för granskning medan den aktuella redigeringsversionen är `1.3` kan du använda den här ikonen för att växla tillbaka till version `1.2` för att inkludera granskningskommentarer. Om du väljer att skapa en ny revision efter att ha infogat ändringar i version `1.2` skapas en ny gren med version `1.2.0` för ämnet.
+- **C**: Om du har uppdaterat ämnet efter att du startat granskningen återställer du arbetskopian till den version som delats för granskning genom att välja ikonen **Återställ ämne till granskningsversion** . Det gör det enklare för dig att lägga in granskningsfeedback direkt i den version som delats för granskning. När du har tagit med feedback kan du spara ändringarna i den återskapade versionen eller skapa en ny version av ämnet. Om du väljer att skapa en ny revision av ditt ämne skapas en ny gren av den ämnesversion som delats för granskning. Om du till exempel delade version `1.2` av ett ämne för granskning medan den aktuella redigeringsversionen är `1.3` kan du använda den här ikonen för att växla tillbaka till version `1.2` för att inkludera granskningskommentarer. Om du väljer att skapa en ny revision efter att ha infogat ändringar i version `1.2` skapas en ny gren med version `1.2.0` för ämnet.
 
   När du har infogat feedback på en granskning vill du vanligtvis sammanfoga ändringar från den senaste versionen av avsnittet. Om du vill göra det använder du funktionen [Sammanfoga](web-editor-features.md#id205DF04E0HS) för att hämta alla uppdateringar som gjorts efter att ämnet delats för granskning.
 
@@ -72,5 +71,23 @@ I webbredigeringsläget innehåller den högra panelen ikonerna Granska och Spå
 
 - **I**: Använd ett filter på kommentarerna. Du kan filtrera om du vill visa kommentarer baserat på granskningstyp \(all, markerad, borttagen, infogad eller anteckningsbar), granskningsstatus \(all, accepterad, avvisad eller ingen\), granskare \(alla eller vissa granskare\)\) eller ämnesversioner.
 
+**Svara på en kommentar genom att tagga andra användare**
 
-**Överordnat ämne:**&#x200B;[ Introduktion till granskning](review.md)
+Som författare och initierare av granskningsaktiviteten kan du svara på granskningskommentarer och tagga andra användare som deltar i samma granskningsåtgärd för att dirigera om deras uppmärksamhet eller tilldela uppföljningar. Den här funktionen är bara tillgänglig för aktiva granskningsåtgärder.
+
+>[!NOTE]
+>
+> Om du vill visa listan över användare som tilldelats en granskningsaktivitet och tagga dem i en kommentar, måste du ha *läsåtkomst* på `/home/users and /home/groups` -noder. Mer information finns i [Användaradministration och -säkerhet](../cs-install-guide/user-admin-sec.md#additional-notes-on-user-groups). <br> Om taggning fortfarande inte är tillgänglig efter att du har bekräftat åtkomst kan din administratör behöva tilldela en `user-admin`-licens för att aktivera den här funktionen.
+
+![](images/tag-users-review.png){width="350" align="left"}
+*Bildtextanvändare :Tag som initierare/författare*
+
+Taggade användare får både ett e-postmeddelande och ett AEM-meddelande så att de snabbt kan informeras. Mer information om hur granskningsmeddelanden utlöses finns i [Om granskningsmeddelanden](./review-understanding-review-notifications.md).
+
+**Få åtkomst till granskningskommentarer med granskningsgränssnittet**
+
+Om du är initierare eller författare för en granskningsåtgärd och öppnar den från **projektkonsolen**, startas avsnittet i granskningsgränssnittet. Eftersom den här uppgiften inte är tilldelad dig kan du visa och svara på kommentarer, men inte utföra några granskningsåtgärder. Verktygsfältet för kommentarer är inaktiverat för användare som inte är tilldelade uppgiften.
+
+![](images/review-comments-toolbar-disabled.png){width="350" align="left"}
+
+**Överordnat ämne:**[ Introduktion till granskning](review.md)

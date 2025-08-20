@@ -4,9 +4,9 @@ description: Lär dig hantera filer och mappar i AEM Guides. Kopiera och klistra
 exl-id: e5b44286-7ac3-49e4-9e6f-7bc8ae2fc935
 feature: Content Management
 role: User
-source-git-commit: 717d300c6e879bad573f67e3eb91dd266ab203c6
+source-git-commit: 14bbb3a055d8b528b6ed657be797c5fa96dd3e7e
 workflow-type: tm+mt
-source-wordcount: '3201'
+source-wordcount: '3263'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,6 @@ I det här avsnittet beskrivs hur Adobe Experience Manager Guides hanterar de gr
 - *Om filen med samma namn inte finns i målmappen* skapas en ny kopia av filen och ett nytt UUID tilldelas den på den nya platsen. Här är filnamnet samma som UUID.
 - *Om filen med samma namn redan finns i målmappen* skapas en ny kopia av filen och ett nytt UUID tilldelas den också. Filnamnet är samma som UUID.
 
-
 ## Kopiera och klistra in mappar
 
 **Kopiera och klistra in mapp på samma plats**
@@ -43,6 +42,16 @@ I det här avsnittet beskrivs hur Adobe Experience Manager Guides hanterar de gr
 - *Mappen innehåller filer med läsbara filnamn*: En ny kopia av mappen skapas och ett nytt UUID tilldelas till alla filer i mappen på den nya platsen. Här ändras inte mapp- eller filnamnen.
 
 - *Mappen innehåller filer med filnamn som baseras på ett UUID-mönster*: En ny kopia av mappen skapas med samma namn som den ursprungliga mappen. Ett nytt UUID tilldelas också till alla filer i den nya mappen. Filnamnen ändras också. Filnamnen är desamma som det nya UUID:t.
+
+**Meddelandet och meddelandet har slutförts**
+
+Kopiera och klistra in-åtgärden för mappar i Assets-gränssnittet körs asynkront i bakgrunden, vilket gör att du kan fortsätta arbeta medan begäran bearbetas i systemet. Ett popup-meddelande visas som anger att processen har initierats.
+
+![](images/copy-folders-success-popup.png){width="350" align="left"}
+
+När åtgärden är slutförd utlöses ett meddelande om att åtgärden lyckades eller misslyckades för att ange om den misslyckades.
+
+![](images/copy-folders-success-notification.png){width="650" align="left"}
 
 
 ## Dra och släppa filer
@@ -317,4 +326,4 @@ Om mediefilen har ändrats kan du söka efter och förhandsgranska filerna i **T
    ![](images/media-version-preview.png){width="650" align="center"}
 
 
-**Överordnat ämne:**&#x200B;[ Hantera innehåll](authoring.md)
+**Överordnat ämne:**[ Hantera innehåll](authoring.md)

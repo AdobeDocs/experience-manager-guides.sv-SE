@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Läs produktdokumentationen för Adobe Experience Manager Guides.
 breadcrumb-title: Dokumentation om AEM Guides
-source-git-commit: 200aae4c5d05531da5413c80a1cf254d2c0f0ec3
+source-git-commit: 3b306a873f3b71078256407d977e8bdd5af1180b
 workflow-type: tm+mt
-source-wordcount: '2282'
+source-wordcount: '2323'
 ht-degree: 1%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 1%
       - Molntjänster {#cloud-release-notes}
          - [Distributionsanvisningar](./release-info/deploy-xml-on-aemaacs.md)
          - 2025 års utgåvor {#2025-releases}
+            - 2025.08.0-utgåvan {#2508-release}
+               - [Nyheter](./release-info/whats-new-2025-08-0.md)
+               - [Åtgärdade problem](./release-info/fixed-issues-2025-08-0.md)
+               - [Uppgraderingsinstruktioner](./release-info/upgrade-instructions-2025-08-0.md)
             - 2025.07.0-utgåvan {#2507-release}
                - [Nyheter](./release-info/whats-new-2025-07-0.md)
                - [Åtgärdade problem](./release-info/fixed-issues-2025-07-0.md)
@@ -140,8 +144,8 @@ ht-degree: 1%
                - [4.2.1 Versionsinformation](./release-info/release-notes-4-2-1.md)
                - [4.2 Versionsinformation](./release-info/release-notes-4-2.md)
          - [4.1.x Versionsinformation](./release-info/release-notes-4-1.md)
-         - [Versionsinformation för 4.0.x](https://helpx.adobe.com/se/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [3.8.x Versionsinformation](https://helpx.adobe.com/se/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [Versionsinformation för 4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [3.8.x Versionsinformation](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Användarhandbok (nytt användargränssnitt) {#user-guide}
    - Introduktion {#about-aemg}
       - [Om [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
@@ -194,11 +198,14 @@ ht-degree: 1%
       - [Introduktion till granskning](./user-guide/review.md)
       - [Skapa ett DITA-projekt](./user-guide/authoring-create-dita-project.md)
       - [Skicka ämnen för granskning](./user-guide/review-send-topics-for-review.md)
-      - [Tilldela om granskningsuppgift med meddelande](./user-guide/reassign-review-using-notification.md)
       - [Granska ämnen](./user-guide/review-topics.md)
+      - [Tilldela om granskningsuppgift med meddelande](./user-guide/reassign-review-using-notification.md)
+      - [Slutför granskningsaktiviteten som en granskare](./user-guide/review-complete-review-tasks.md)
       - [Adressgranskningskommentarer](./user-guide/review-address-review-comments.md)
+      - [Stäng eller begär omgranskning för en granskningsåtgärd](./user-guide/review-close-review-task.md)
       - [Hantera granskningsåtgärder med hjälp av Kontrollpanelen](./user-guide/review-manage-tasks-review-dashboard.md)
       - [Visa en slutförd granskningsaktivitet](./user-guide/review-view-completed-task.md)
+      - [Om granskningsmeddelanden](./user-guide/review-understanding-review-notifications.md)
    - Samarbeta med Adobe Workfront {#workfront-integration}
       - [Workfront-integrering med Experience Manager Guides](./user-guide/workfront-integration.md)
    - Metadata och taggning {#manage-metadata}
@@ -335,7 +342,7 @@ ht-degree: 1%
       - Felsökning {#troubleshooting}
          - [Tidsgräns för session](./user-guide/session-timeout-prompt.md)
 - Användarhandbok (gammalt användargränssnitt) {#user-guide-old-ui}
-   - [AEM Guides - översikt](https://experienceleague.adobe.com/sv/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [AEM Guides - översikt](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installation och konfiguration {#install-guide}
    - Lokalt {#on-prem-ig}
       - [Grunderna på plats](./install-guide/introduction.md)
@@ -421,6 +428,7 @@ ht-degree: 1%
                - [Använda JavaScript för att arbeta med innehåll eller stil](./native-pdf/use-javascript-content-style.md)
                - [Använda format på fotnoter](./native-pdf/footnote-number-style.md)
          - [Konfigurera JVM-flaggor för PDF Publishing](./native-pdf/configure-jvm-flags.md)
+         - [Konfigurera basutdataplats för publicering av utdata](./native-pdf/configure-base-output-location.md)
          - Arbeta med anpassade arbetsflöden {#custom-workflow}
          - [Konfigurera och anpassa arbetsflöden](./install-guide/customize-workflows.md)
       - Arbeta med översättningskonfigurationer {#translate-config}
@@ -499,6 +507,7 @@ ht-degree: 1%
          - [Konfigurera nodprocess för PDF Publishing](./native-pdf/configure-node-options.md)
          - [Skapa en mappning mellan ett ämne och ett innehållsfragment](./cs-install-guide/conf-content-fragment-mapping-cs.md)
          - [Skapa en mappning mellan ett ämne och ett upplevelsefragment](./cs-install-guide/conf-experience-fragment-mapping-cs.md)
+         - [Konfigurera basutdataplats för publicering av utdata](./native-pdf/configure-base-location-cs.md)
       - Arbeta med anpassade arbetsflöden {#custom-workflow-cs}
          - [Konfigurera och anpassa arbetsflöden](./cs-install-guide/customize-workflows.md)
       - Arbeta med översättningskonfigurationer {#translate-config-cs}

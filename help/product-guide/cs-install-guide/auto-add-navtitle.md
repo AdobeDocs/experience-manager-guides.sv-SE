@@ -5,9 +5,9 @@ exl-id: 38711c0c-efa8-461a-92e1-ecfcdcdd36d3
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: a3c7973868549c72e868c05a3fc6ca8bdce9bce3
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '327'
 ht-degree: 0%
 
 ---
@@ -41,12 +41,13 @@ Så här tar du med attributet `@navtitle` som standard i referensfilens egenska
                            },
    ```
 
-1. Ändra parametern `required` som:
+1. Ändra parametern `required` enligt nedan:
 
    ```
    "required": {"navtitle": true}
    ```
 
+   Om `true` anges aktiveras knappen **Uppdatera navigeringsrubrikattribut** så att den visas i redigerarens verktygsfält. Om inställningen är `false` eller om den lämnas tom förblir knappen dold i redigeraren.
 1. Spara filen.
 
 1. Överför filen i motsvarande profil \(global eller mapp\).
@@ -54,4 +55,6 @@ Så här tar du med attributet `@navtitle` som standard i referensfilens egenska
 
 Med den här konfigurationen kommer alla referensfiler som du lägger till på en karta att innehålla attributet `@navtitle` som standard.
 
-**Överordnat ämne:**&#x200B;[ Anpassa Web Editor](conf-web-editor.md)
+
+
+**Överordnat ämne:**[ Anpassa Web Editor](conf-web-editor.md)

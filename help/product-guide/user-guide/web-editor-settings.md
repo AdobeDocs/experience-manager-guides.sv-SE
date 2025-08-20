@@ -4,9 +4,9 @@ description: Läs mer om de olika inställningarna i redigeringsgränssnittet i 
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: fad2874f-dab5-4538-8502-f7112c51d941
-source-git-commit: ffc9a9e15f11e7059822b7cf6d4707b83d15a4f4
+source-git-commit: 84cc3db0e14217a7ba92143cb63b94329d5c26e1
 workflow-type: tm+mt
-source-wordcount: '1975'
+source-wordcount: '2112'
 ht-degree: 0%
 
 ---
@@ -33,11 +33,34 @@ Alternativet **Inställningar** som finns i [flikfältet](./web-editor-tab-bar.m
 
 ## Allmänt
 
-Med de allmänna inställningarna kan du konfigurera det lexikon som ska användas med redigeraren. Fliken innehåller fyra avsnitt: **Stavningskontroll**, **Villkor**, **Redigering** och **Källhänvisningar** .
+Med de allmänna inställningarna kan du konfigurera inställningarna så att de använder redigeraren. Fliken innehåller fem avsnitt: **AI Assistant**, **Redigering**, **Källhänvisningar**, **Villkor** och **Stavningskontroll**.
 
-![](images/editor-setting-general.png){width="650" align="left"}
+![](images/editor-setting-general-new.png){width="350" align="left"}
 
-- **Stavningskontroll**: Det finns två alternativ: **AEM stavningskontroll** och **webbläsarstavningskontroll**. Som standard används stavningskontrollen i webbläsaren, där stavningskontrollen utförs med webbläsarens inbyggda ordlista. Du kan växla till AEM stavningskontroll om du vill använda Adobe Experience Manager ordlista, som också kan anpassas för att lägga till din egen ordlista. Mer information om hur du anpassar AEM-ordlistan finns i avsnittet [Anpassa AEM standardordlista](../cs-install-guide/customize-aem-custom-dictionary.md) i Installera och konfigurera Adobe Experience Manager Guides as a Cloud Service.
+- **AI-assistenten**
+Välj det här om du vill aktivera funktionen [ AI-assistenten ](./ai-assistant.md) i Experience Manager Guides. Avmarkera om du vill inaktivera funktionen.
+
+  När du har aktiverat växeln **AI Assistant** kan du konfigurera vilka alternativ som ska visas under **redigeringsfliken** för författare med hjälp av menyn **Snabbåtgärder för redigering** som visas nedan.\
+  De här ändringarna gäller för den specifika mappprofil som du arbetar med. Om du skapar en ny mappprofil ärver den redigeringsinställningarna som definierats i mappprofilen **Global** som standard. Du kan ändra de här inställningarna efter behov med **redigeringsinställningarna** och spara den uppdaterade konfigurationen.\
+  En detaljerad översikt över de tillgängliga alternativen för redigering med hjälp av AI Assistant finns i [Skapa dokument smart med AI Assistant](./ai-assistant-right-panel.md).
+
+  På menyn **Snabbåtgärder för redigering** kan du:
+
+   - Använd reglagen för att aktivera eller inaktivera specifika alternativ som författare kan komma åt när de arbetar med AI Assistant.
+
+   - ändra den ordning i vilken alternativen visas, dra och släpp dem efter behov.
+
+  ![](images/authoring-quick-actions.png){width="350" align="left"}
+
+
+
+- **Redigering**
+
+   - **Aktivera Ersätt alla**: Markera det här alternativet om du vill visa ikonen **Ersätt alla** på panelen **Sök och ersätt**.
+
+- **Citat**
+
+  Ändra format på citat. Välj den källstil i listrutan som du vill använda i ditt projekt. Mer information finns i [Ändra källhänvisningsformat](./web-editor-apply-citations.md#change-citation-style).
 
 - **Villkor**
 
@@ -51,16 +74,8 @@ Med de allmänna inställningarna kan du konfigurera det lexikon som ska använd
 
    - **Visa ämnesschema på villkorspanelen**: Välj det här om du vill visa ett ämnesschema på villkorspanelen. Om du avmarkerar detta visas de definierade villkoren på villkorspanelen.
 
-- **Redigering**
-
-   - **Aktivera Ersätt alla**: Markera det här alternativet om du vill visa ikonen **Ersätt alla** på panelen **Sök och ersätt**.
-
-- **Citat**
-
-  Ändra format på citat. Välj den källstil i listrutan som du vill använda i ditt projekt. Mer information finns i [Ändra källhänvisningsformat](./web-editor-apply-citations.md#change-citation-style).
-
-- **AI-assistenten**
-Välj det här om du vill aktivera funktionen [ AI-assistenten ](./ai-assistant.md) i Experience Manager Guides. Avmarkera om du vill inaktivera funktionen.
+- **Stavningskontroll**
+Det finns två alternativ: **AEM stavningskontroll** och **webbläsarstavningskontroll** . Som standard används stavningskontrollen i webbläsaren, där stavningskontrollen utförs med webbläsarens inbyggda ordlista. Du kan växla till AEM stavningskontroll om du vill använda Adobe Experience Manager ordlista, som också kan anpassas för att lägga till din egen ordlista. Mer information om hur du anpassar AEM-ordlistan finns i avsnittet [Anpassa AEM standardordlista](../cs-install-guide/customize-aem-custom-dictionary.md) i Installera och konfigurera Adobe Experience Manager Guides as a Cloud Service.
 
 
 ## Panel
@@ -116,7 +131,7 @@ Detta innehåller de profiler som kan användas för att publicera **kunskapsbas
 
 **Förutsättningar**
 
-- Skapa en ansluten app för Salesforce. Mer information finns i [Aktivera OAuth-inställningar för API-integrering](https://help.salesforce.com/s/articleView?id=sf.connected_app_create_api_integration.htm&amp;type=5).
+- Skapa en ansluten app för Salesforce. Mer information finns i [Aktivera OAuth-inställningar för API-integrering](https://help.salesforce.com/s/articleView?id=sf.connected_app_create_api_integration.htm&type=5).
 
 - När du konfigurerar den anslutna appen ska du se till följande:
 
@@ -244,4 +259,4 @@ Ett fel visas om metadatasökvägen är tom. Om du lämnar etiketten tom väljs 
 Du kan också definiera i vilken ordning dessa metadatataggar ska visas. Om du vill ändra standardordningen för de här märkorden markerar du de prickade strecken för att dra och släppa märkorden på önskad plats.
 Metaetiketterna visas i samma sekvens i dialogrutan **Versionshistorik** i redigeraren.
 
-**Överordnat ämne:**&#x200B;[ Introduktion till redigeraren](web-editor.md)
+**Överordnat ämne:**[ Introduktion till redigeraren](web-editor.md)

@@ -4,9 +4,10 @@ description: Lär dig hur du konfigurerar mappar, resursmappar, variabler, kodav
 feature: Authoring
 role: Admin
 level: Experienced
-source-git-commit: 5f42540a32da6e85a5c8aa0831582ce871c9088a
+exl-id: 15a0cd40-45be-4631-8d60-4a9474bc431c
+source-git-commit: f14ee85ccc49abd662a046b2bd4e7be2eece4902
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '220'
 ht-degree: 0%
 
 ---
@@ -15,18 +16,6 @@ ht-degree: 0%
 
 Som administratör kan du även konfigurera följande inställningar för Lärarskapare och utgivare:
 
-- **Mappinställningar**
-   - **Skapa olika mappar**: Du kan skapa mappar för författare och utgivare som arbetar i olika avdelningar eller produkter i ditt företag. Mapparna kan mappas till specifika mappprofiler, som alla är konfigurerade med olika skribent- och utdatamallar som har stöd för avdelningsspecifika kurser och decentraliserad administration.
-
-     Du kan skapa en ny mapp från databaspanelen.
-
-     ![](assets/create-new-folder.png){width="350" align="left"}
-   - **Skapa språkmappar**: Om du översätter innehåll till olika språk måste du skapa mappar för varje språk. Var och en av dessa språkmappar kommer att innehålla det innehåll som motsvarar det språket.
-
-     Mer information finns i [Bästa tillvägagångssätt för innehållsöversättning](../user-guide/translation-first-time.md).
-   - **Assets-hantering**: På samma sätt som för mappar kan du skapa olika Assets-mappar som passar olika avdelningars behov. På så sätt ser du även till att författare och utgivare har tillgång till rätt CSS som konfigurerats i deras mallar, bilder och andra resurser.
-
-     ![](assets/configure-assets-folder.png){width="350" align="left"}
 - **Kodavsnitt**: Du kan konfigurera kodavsnitt på mappnivå för att se till att författare har tillgång till rätt kodavsnitt. Endast administratörer kan skapa kodfragment i Experience Manager Guides, som sedan kan användas av författare i redigeraren.
 
   Du kommer åt Fragment från den vänstra panelen i Editor.

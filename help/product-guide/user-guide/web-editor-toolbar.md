@@ -4,9 +4,9 @@ description: Lär dig mer om verktygsfältet i Redigeraren. Läs mer om redigeri
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 059ba78a-dbda-4276-bff2-847787ea41b1
-source-git-commit: b80737d6066008104ceea103edbc828bc8e632cb
+source-git-commit: 3dee9b2c90515ff7681770247f215996dc2c8325
 workflow-type: tm+mt
-source-wordcount: '5909'
+source-wordcount: '5962'
 ht-degree: 0%
 
 ---
@@ -26,13 +26,15 @@ Verktygsfältet visas när du öppnar ett ämne eller en karta för redigering i
 
 ## Meny-listruta
 
-Menyn ger åtkomst till redigeringsåtgärderna Sök och ersätt, Versionshistorik, Versionsetikett, Sammanfoga, Skapa granskning, Spåra ändringar och Taggar.
+Menyn ger åtkomst till redigeringsåtgärderna Sök och ersätt, Versionshistorik, Versionsetikett, Sammanfoga, Skapa granskning och Visa (inklusive Spåra ändringar, Taggar, Fast blanksteg).
 
-Den detaljerade förklaringen till dessa funktioner är följande:
+![Meny-listrutan för redigerarens verktygsfält](images/editor-toolbar-menu-dropdown-new.png){width="350" align="left"}
+
+De detaljerade förklaringarna till dessa funktioner är följande:
 
 **Redigerar åtgärder**
 
-När du redigerar ett ämne i Redigeraren kan du få åtkomst till olika redigeringsåtgärder, till exempel **Klipp ut** eller ***Ctrl***+***X*** , **Kopiera** eller ***Ctrl***+***C*** , **Ångra** eller ***Ctrl***+***&rbrace;Z*** , **Gör om** eller ***Ctrl***+***Y*** och **Ta bort** som finns i listrutan Meny.
+När du redigerar ett ämne i Redigeraren kan du få åtkomst till olika redigeringsåtgärder, till exempel **Klipp ut** eller ***Ctrl***+***X*** , **Kopiera** eller ***Ctrl***+***C*** , **Ångra** eller ***Ctrl***+***}Z*** , **Gör om** eller ***Ctrl***+***Y*** och **Ta bort** som finns i listrutan Meny.
 
 
 **Sök och ersätt**
@@ -227,52 +229,52 @@ Så här sammanfogar du ändringar i en kartfil:
 
 Du kan [skapa en granskningsaktivitet](./review-send-topics-for-review.md) av det aktuella ämnet eller mappfilen direkt från redigeraren. Öppna filen som du vill skapa granskningsaktiviteten för och välj **Skapa granskningsaktivitet** i listrutan Meny för att starta granskningsprocessen.
 
-**Spåra ändringar**
+**Visa-menyn**
 
-Du kan hålla reda på alla uppdateringar som gjorts i ett dokument genom att aktivera läget Spåra ändringar. När du har aktiverat spårändringar hämtas alla infogningar och borttagningar i dokumentet. Allt borttaget innehåll markeras med Genomstruken och alla infogningar markeras med grön text. Dessutom visas ändringsfälten vid ämnessidans kant. Återigen visas ett rött fält för borttaget innehåll och ett grönt fält visas för tillagt innehåll. Om det finns ett tillägg och en borttagning på samma rad visas både gröna och röda staplar.
+Menyn Visa innehåller följande funktioner:
 
+- **Spåra ändringar:** Du kan hålla reda på alla uppdateringar som gjorts i ett dokument genom att aktivera läget Spåra ändringar. När du har aktiverat spårändringar hämtas alla infogningar och borttagningar i dokumentet. Allt borttaget innehåll markeras med Genomstruken och alla infogningar markeras med grön text. Dessutom visas ändringsfälten vid ämnessidans kant. Återigen visas ett rött fält för borttaget innehåll och ett grönt fält visas för tillagt innehåll. Om det finns ett tillägg och en borttagning på samma rad visas både gröna och röda staplar.
 I följande skärmbild markeras det borttagna och infogade innehållet tillsammans med ändringsfälten:
+  ![](images/track-changes-content.png){width="650" align="left"}
 
-![](images/track-changes-content.png){width="650" align="left"}
+  Ett typiskt användningssätt för att spåra ändringar i ett dokument kan vara att utföra peer-granskning. Du kan aktivera spåra ändringar och dela dokumentet för granskning, och granskaren gör sedan ändringar med Spåra ändringar PÅ. När du tar emot dokumentet bör du ha en funktion för att visa de föreslagna uppdateringarna tillsammans med ett praktiskt sätt att acceptera eller ignorera ändringar.
 
-Ett typiskt användningssätt för att spåra ändringar i ett dokument kan vara att utföra peer-granskning. Du kan aktivera spåra ändringar och dela dokumentet för granskning, och granskaren gör sedan ändringar med Spåra ändringar PÅ. När du tar emot dokumentet bör du ha en funktion för att visa de föreslagna uppdateringarna tillsammans med ett praktiskt sätt att acceptera eller ignorera ändringar.
+  Experience Manager Guides tillhandahåller funktionen Spårade ändringar som innehåller information om de uppdateringar som gjorts i dokumentet. Funktionen Spårade ändringar ger information om vilka uppdateringar som gjordes, vem som gjorde dem och vid vilken tidpunkt. Med funktionen Spårade ändringar kan du enkelt acceptera eller ignorera de föreslagna uppdateringarna i dokumentet.
 
-Experience Manager Guides tillhandahåller funktionen Spårade ändringar som innehåller information om de uppdateringar som gjorts i dokumentet. Funktionen Spårade ändringar ger information om vilka uppdateringar som gjordes, vem som gjorde dem och vid vilken tidpunkt. Med funktionen Spårade ändringar kan du enkelt acceptera eller ignorera de föreslagna uppdateringarna i dokumentet.
+  Om du vill komma åt funktionen väljer du ikonen **Spåra ändringar** i den högra panelen.
 
-Om du vill komma åt funktionen väljer du ikonen **Spåra ändringar** i den högra panelen.
+  ![](images/changes-panel_cs.png){width="300" align="left"}
 
-![](images/changes-panel_cs.png){width="300" align="left"}
+  Om du väljer en spårad ändring markeras det ändrade innehållet i dokumentet. Du kan acceptera en ändring genom att markera ikonen Acceptera ändring eller ignorera den genom att välja Ignorera ändring.
 
-Om du väljer en spårad ändring markeras det ändrade innehållet i dokumentet. Du kan acceptera en ändring genom att markera ikonen Acceptera ändring eller ignorera den genom att välja Ignorera ändring.
+  Om du vill acceptera eller ignorera alla ändringar med ett enda klick väljer du **Acceptera alla ändringar** eller **Ignorera alla ändringar**.
 
-Om du vill acceptera eller ignorera alla ändringar med ett enda klick väljer du **Acceptera alla ändringar** eller **Ignorera alla ändringar**.
+  >[!NOTE]
+  >
+  > I förhandsgranskningsläget kan du visa dokumentet med eller utan det ändrade innehållets markeringar. Mer information finns i [förhandsgranskningsläget](web-editor-views.md#preview-mode).
 
->[!NOTE]
->
-> I förhandsgranskningsläget kan du visa dokumentet med eller utan det ändrade innehållets markeringar. Mer information finns i [förhandsgranskningsläget](web-editor-views.md#preview-mode).
+- **Taggar:** Funktionen **Taggar** i redigeraren är en växlingsknapp som styr synligheten för DITA-element. När det här alternativet är aktiverat visas strukturella taggar i innehållet, vilket gör att du kan visa och hantera underliggande DITA-element mer effektivt. När det är inaktiverat döljs taggarna, vilket ger en renare och mer fokuserad redigeringsmiljö.
 
-**Taggar**
+  På följande skärmbild visas ett dokument med taggvyn aktiverad:
 
-Funktionen **Taggar** i redigeraren är en växlingsknapp som styr synligheten för DITA-element. När det här alternativet är aktiverat visas strukturella taggar i innehållet, vilket gör att du kan visa och hantera underliggande DITA-element mer effektivt. När det är inaktiverat döljs taggarna, vilket ger en renare och mer fokuserad redigeringsmiljö.
+  ![](images/tags-view.png){width="650" align="left"}
 
-På följande skärmbild visas ett dokument med taggvyn aktiverad:
+  Följande åtgärder kan utföras i ett dokument med taggar:
 
-![](images/tags-view.png){width="650" align="left"}
+   - **Markera ett element**: Markera den inledande eller avslutande taggen för ett element för att markera dess innehåll.
 
-Följande åtgärder kan utföras i ett dokument med taggar:
+   - **Expandera eller komprimera taggar**: Markera + eller - logga in en tagg för att utöka eller komprimera den.
 
-- **Markera ett element**: Markera den inledande eller avslutande taggen för ett element för att markera dess innehåll.
+   - **Använd snabbmenyn**: Snabbmenyn innehåller alternativ för att klippa ut, kopiera eller klistra in det markerade elementet. Du kan också infoga ett element före eller efter det markerade elementet. Med de andra alternativen kan du generera ett ID eller öppna egenskapspanelen för det markerade elementet.
 
-- **Expandera eller komprimera taggar**: Markera + eller - logga in en tagg för att utöka eller komprimera den.
-
-- **Använd snabbmenyn**: Snabbmenyn innehåller alternativ för att klippa ut, kopiera eller klistra in det markerade elementet. Du kan också infoga ett element före eller efter det markerade elementet. Med de andra alternativen kan du generera ett ID eller öppna egenskapspanelen för det markerade elementet.
-
-- **Dra och släpp element**: Markera ett elements tagg och dra och släpp den enkelt i dokumentet. Om släppplatsen är en giltig plats där elementet tillåts placeras elementet på släppplatsen.
+   - **Dra och släpp element**: Markera ett elements tagg och dra och släpp den enkelt i dokumentet. Om släppplatsen är en giltig plats där elementet tillåts placeras elementet på släppplatsen.
 
 
->[!NOTE]
->
-> Om en användare aktiverar taggvyn från redigeraren är den fortfarande aktiverad även i alla sessioner. Det innebär att du inte behöver aktivera taggvyn igen för att komma åt den senare. Standardvärdet för taggvyn för en ny användarsession bestäms av egenskapen `tagsView` i filen `ui\_config.json`. Mer information finns i avsnittet [Konfigurera standardvärde för taggvyn](../cs-install-guide/configure-default-value-tags-view.md) i Installera och konfigurera Adobe Experience Manager Guides as a Cloud Service.
+  >[!NOTE]
+  >
+  > Om en användare aktiverar taggvyn från redigeraren är den fortfarande aktiverad även i alla sessioner. Det innebär att du inte behöver aktivera taggvyn igen för att komma åt den senare. Standardvärdet för taggvyn för en ny användarsession bestäms av egenskapen `tagsView` i filen `ui\_config.json`. Mer information finns i avsnittet [Konfigurera standardvärde för taggvyn](../cs-install-guide/configure-default-value-tags-view.md) i Installera och konfigurera Adobe Experience Manager Guides as a Cloud Service.
+
+- **Fast mellanslag:** Aktivera det här alternativet om du vill visa en indikator för fasta mellanslag när du redigerar det i redigeraren. Den visas bara i vyn **Författare** för DITA-avsnitt och DITA-kartor.
 
 ## Alternativ för att infoga innehåll
 
@@ -621,4 +623,4 @@ Om en fil är låst av en annan användare och du håller pekaren över låsikon
 Som administratör får du även åtkomst till funktionen **Tvinga upplåsning** som gör att du kan låsa upp filen som låsts av andra användare. Använd den här funktionen för att komma åt redigeringsrättigheterna för en fil som har låsts av andra användare.
 
 ![](images/web-editor-force-unlock-new.png){width="350" align="left"}
-**Överordnat ämne:**&#x200B;[ Introduktion till redigeraren](web-editor.md)
+**Överordnat ämne:**[ Introduktion till redigeraren](web-editor.md)

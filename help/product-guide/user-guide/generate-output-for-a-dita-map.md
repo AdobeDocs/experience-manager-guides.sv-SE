@@ -4,9 +4,9 @@ description: Generera utdata för en DITA-karta från kartkonsolen och kartpanel
 exl-id: d6cbd44c-e74c-4192-bcc4-fb7752c59508
 feature: Publishing
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 358d38ca761661eaee7aeac2cc7d46c53105c543
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,15 @@ Du kan visa aktuell status för begäran om generering av utdata på fliken **Ut
 
 Du kan också generera AEM Sites-utdata för ett eller flera ämnen, eller hela DITA-kartan från kartkonsolen. Mer information finns i [Generera kunskapsbas-utdata](web-editor-article-publishing.md#id218CK0U019I).
 
+## Sammanfoga olika ämnen i en DITA-karta med attributet `chunk`
+
+En DITA-karta kan innehålla olika ämnestyper som referens, koncept och uppgift. Med attributet `chunk=to-content` kan du sammanfoga dessa ämnen för att skapa en utdatasida på AEM Sites. Om du vill publicera det sammanfogade ämnet på rätt sätt kontrollerar du att administratören har konfigurerat rätt XML-katalog i DITA-profilerna.
+
+Systemet kräver ett publikt ID med nyckelordet `composite` i XML-katalogen för att korrekt identifiera och tillämpa rätt DTD-regel.
+Den här konfigurationen ingår som standard i XML-standardkatalogen. Om du däremot använder en anpassad XML-katalog bör du kontrollera att administratören har lagt till detta offentliga ID i konfigurationen. Utan det kanske det sammanfogade ämnet inte publiceras korrekt.
+
+Mer information om hur du använder publikt ID och System ID i dina anpassade DTD-/XSD-filer finns i [Integrera DITA-specialisering](../cs-install-guide/dita-ot-specialization.md#integrate-dita-specialization-id211mb0e00xa).
 
 
 
-**Överordnat ämne:**&#x200B;[ Utdatagenerering](generate-output.md)
+**Överordnat ämne:**[ Utdatagenerering](generate-output.md)

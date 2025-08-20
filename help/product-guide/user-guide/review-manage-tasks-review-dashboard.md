@@ -4,9 +4,9 @@ description: Hantera granskningsuppgifter från Granska kontrollpanelen i AEM Gu
 exl-id: 4fef5653-1c73-4b68-adf2-b24145555142
 feature: Reviewing
 role: User
-source-git-commit: 717d300c6e879bad573f67e3eb91dd266ab203c6
+source-git-commit: 19e521ed790a7ac25afab88e8878250f943d9bff
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1348'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,10 @@ Utför följande steg för att komma åt och använda kontrollpanelen:
    En projektpanel med åtgärdsrutor visas.
 
    ![](images/review-management.png){align="left"}
+
+   >[!NOTE]
+   >
+   > Du kan även få direkt åtkomst till projektkontrollpanelen från den vänstra panelen i Redigeraren. Öppna [granskningspanelen](./web-editor-left-panel.md#review) och använd ikonen **Öppna projektkontrollpanelen** som placeras mot varje granskningsprojekt som visas på granskningspanelen.
 
 1. Markera de tre punkterna i rutan **Recensioner**.
 
@@ -126,4 +130,4 @@ Statusrapporten för granskningsaktiviteten innehåller följande information:
 - Totalt antal kommentarer som gjorts i alla ämnen. Om det finns flera ämnen som är under granskning anges antalet kommentarer för varje ämne \(inom parentes\) mot temanamnet.
 - Det datum då granskaren senast öppnade ett ämne.
 
-**Överordnat ämne:**&#x200B;[ Introduktion till granskning](review.md)
+**Överordnat ämne:**[ Introduktion till granskning](review.md)

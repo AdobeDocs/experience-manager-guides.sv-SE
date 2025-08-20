@@ -4,9 +4,9 @@ description: Granska effektivt ämnen och kartor i AEM Guides för smidig inneh�
 exl-id: 81ea0b52-52b0-4764-a6d8-a96d5c7693bf
 feature: Reviewing
 role: User
-source-git-commit: 38ea2eb35ebd75c1202c86d598ad953db3894d40
+source-git-commit: b7648fe1d36de3c243ca5a55f42a41f7523056ce
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Några av huvudfunktionerna som Adobe Experience Manager Guides erbjuder *initie
 - Dela en uppdaterad version av ämnet för granskning från Kontrollpanelen.
 
 - Få tillgång till kommentarer som delas i olika versioner av ämnet.
-
+- Märk enkelt in kommentarer och svar från användarna av specifika granskningsåtgärder för att snabbt kunna agera och följa upp dem. Taggade användare meddelas direkt via både AEM och e-postmeddelanden.
 - Gruppera och filtrera kommentarer baserat på ämnesversion.
 
 - Visa skillnader sida vid sida mellan olika versioner av ämnen som delas för granskning.
@@ -41,6 +41,7 @@ Funktioner som är tillgängliga för *granskarna*:
 - Växla mellan sammansatt vy och individuell ämnesvy.
 - Använd kommentarverktygen, t.ex. för att infoga, ta bort, markera och kommentera i text.
 - Bifoga en eller flera filer till en granskningskommentar.
+- Svara på en kommentar genom att tagga användare som deltar i samma granskningsåtgärd.
 - Hämta bilagor från en kommentar.
 - Använd granskningspanelen för att lägga till kommentarer eller svara på kommentarer från andra användare.
 - Lär dig enkelt vilken version av ämnet du granskar.
@@ -57,10 +58,18 @@ Funktioner som är tillgängliga för *granskarna*:
 
 - **[Skicka ämnen för granskning](review-send-topics-for-review.md)**
 
+- **[Granska ämnen](review-topics.md)**
+
 - **[Tilldela om granskningsuppgift med meddelande](reassign-review-using-notification.md)**
 
-- **[Granska ämnen](review-topics.md)**
+- **[Slutför granskningsaktiviteten som en granskare](review-complete-review-tasks.md)**
 
 - **[Adressgranskningskommentarer](review-address-review-comments.md)**
 
+- **[Stäng eller begär omgranskning för en granskningsaktivitet](review-close-review-task.md)**
+
 - **[Hantera granskningsåtgärder med hjälp av Kontrollpanelen](review-manage-tasks-review-dashboard.md)**
+
+- **[Visa en slutförd granskningsaktivitet](review-view-completed-task.md)**
+
+- **[Om granskningsmeddelanden](review-understanding-review-notifications.md)**

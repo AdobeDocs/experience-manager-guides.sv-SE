@@ -4,9 +4,9 @@ description: Lär känna den vänstra panelen i Editor. Läs mer om redigeringsg
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 92496d39-b423-4635-8b05-c67fd6af47de
-source-git-commit: ffc9a9e15f11e7059822b7cf6d4707b83d15a4f4
+source-git-commit: 97e80f9115f84291a7190cf4c4cf25426b3a83bb
 workflow-type: tm+mt
-source-wordcount: '9323'
+source-wordcount: '9390'
 ht-degree: 0%
 
 ---
@@ -113,7 +113,7 @@ Du kan även utföra många åtgärder med Alternativ-menyn som är tillgänglig
 
 >[!NOTE]
 >
-> Du kan även uppdatera listan med hjälp av ikonen Uppdatera högst upp.
+> Du kan uppdatera listan med ikonen **Uppdatera** längst upp. Om du dessutom uppdaterar listan läses samlingarna in igen, och därför komprimeras alla expanderade samlingar på panelen.
 
 
 ## Databas
@@ -158,6 +158,10 @@ Du har följande alternativ för att filtrera filerna och begränsa sökningen i
   ![snabbsökningsfilter ](images/repository-filter-search-quick.png) {width="300" align="left"}
 
   *Använd snabbfiltren för att söka efter DITA- och icke-DITA-filer.*
+
+>[!NOTE]
+>
+> Du kan också använda filtret **DITA-ämne** för att söka efter innehåll som är specifikt för Markdown-filer i databasen, inklusive titlar, ämnesinnehåll och egenskaper. Den här funktionen gäller för närvarande bara för nyligen skapade Markdown-filer.
 
 **Avancerad filtrering**
 
@@ -1006,7 +1010,7 @@ Med Experience Manager Guides kan du skapa och hantera variabler för PDF-public
 
 ## Sök och ersätt
 
-Ikonen Sök och ersätt finns längst ned på den vänstra panelen. På panelen Sök och ersätt kan du söka efter och ersätta text mellan filer på en karta eller i en mapp i databasen. Du kan söka och ersätta i alla avsnitt av en karta samt i ämnen som finns i undermappningarna på kartan.
+Ikonen Sök och ersätt finns längst ned på den vänstra panelen. På panelen Sök och ersätt kan du söka efter och ersätta text mellan filer på en karta eller i en mapp i databasen. Du kan utföra Sök och ersätt-åtgärder för alla ämnen på en karta, inklusive avsnitt i underkartor och markeringsfiler.
 
 ![](images/map-find-replace.png){align="left"}
 
@@ -1054,7 +1058,7 @@ Utför följande steg om du vill söka och ersätta globalt:
 
 Om du vill aktivera ikonen **Ersätt alla** måste systemadministratören markera alternativet **Aktivera Ersätt alla** på fliken **Allmänt** i **Inställningar** .
 
-    >[ !OBS!]
+    >[!OBS!]
     >
     > Hovra över en fil från sökresultatlistan för att visa ikonen Ersätt alla i fil till höger om den. Du kan också visa ikonen Ignorera fil för att ta bort filen från sökresultatet. De filer som du ignorerar tas bort från listan och den sökta termen ersätts inte i dem.
 
@@ -1094,6 +1098,10 @@ Så här visar du granskningskommentarerna i de aktiva granskningsuppgifterna so
 
    ![](images/web-editor-review-panel.png){width="300" align="left"}
 1. Välj ett granskningsprojekt och välj sedan en granskningsuppgift i listan för att öppna den.
+1. Du kan välja ikonen **Öppna projektkontrollpanel** för att öppna projektet i **projektkonsolen**.
+
+   ![](images/web-editor-project-dashboard.png){width="300" align="left"}
+
 1. Du kan även filtrera dina projekt på följande sätt:
 
    - Ange söktermen eller texten som du vill hitta i projektets titel. Tryck sedan på Retur för att utföra sökningen. Du kan till exempel söka i alla projekt med termen&quot;space&quot; i titeln.
@@ -1122,4 +1130,4 @@ Så här visar du granskningskommentarerna i de aktiva granskningsuppgifterna so
 
 </details>
 
-**Överordnat ämne:**&#x200B;[ Introduktion till redigeraren](web-editor.md)
+**Överordnat ämne:**[ Introduktion till redigeraren](web-editor.md)

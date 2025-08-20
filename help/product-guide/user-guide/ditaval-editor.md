@@ -4,7 +4,7 @@ description: Lär dig skapa och redigera DITAVAL-filer med DIVATAL Editor i Adob
 exl-id: f3901a4f-1925-42aa-b773-0d6f18175ce8
 feature: Authoring, DITAVAL Editor
 role: User
-source-git-commit: a49234698e040c7441ea0f82265f4b7936a95dfc
+source-git-commit: cbc9cd59e36dad63b25866b2d5c52a7380dc7d26
 workflow-type: tm+mt
 source-wordcount: '1501'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 DITAVAL-filer används för att generera villkorsstyrda utdata. I ett enskilt ämne kan du lägga till villkor med elementattribut för att villkorsanpassa innehållet. Sedan skapar du en DITAVAL-fil där du anger villkoren som ska plockas upp för att generera innehåll och vilket villkor som ska utelämnas från det slutliga resultatet.
 
-Med Adobe Experience Manager Guides kan du enkelt skapa och redigera DITAVAL-filer med DITAVAL-redigeraren. DITAVAL-redigeraren hämtar attributen (som kan användas som villkor) som definierats i systemet, och du kan använda dem för att skapa eller redigera DITAVAL-filer. Mer information om hur du skapar och hanterar villkor i Adobe Experience Manager finns i avsnittet [Administrera taggar](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=sv-SE) i Adobe Experience Manager-dokumentationen.
+Med Adobe Experience Manager Guides kan du enkelt skapa och redigera DITAVAL-filer med DITAVAL-redigeraren. DITAVAL-redigeraren hämtar attributen (som kan användas som villkor) som definierats i systemet, och du kan använda dem för att skapa eller redigera DITAVAL-filer. Mer information om hur du skapar och hanterar villkor i Adobe Experience Manager finns i avsnittet [Administrera taggar](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) i Adobe Experience Manager-dokumentationen.
 
 I följande avsnitt beskrivs de alternativ som är tillgängliga för en DITAVAL-fil i Experience Manager Guides.
 
@@ -30,7 +30,7 @@ Så här skapar du en DITAVAL-fil:
 
 1. På panelen Databas markerar du ikonen **Ny fil** och väljer sedan **Ämne** i listrutan.
 
-   ![](images/new-file-option.png){width="300" align="left"}
+   ![](images/new-file-option.png){width="350" align="left"}
 
    Du kan även komma åt det här alternativet från [Experience Manager Guides hemsida](./intro-home-page.md) och alternativmenyn för en mapp i databasvyn.
 
@@ -42,7 +42,7 @@ Så här skapar du en DITAVAL-fil:
    - En mall som ämnet baseras på. För en DITAVAL-fil väljer du **Ditaval** i listrutan.
    - Sökväg där du vill spara ämnesfilen. Som standard visas sökvägen till den markerade mappen i databasen i fältet Sökväg.
 
-   ![](images/new-topic-dialog-ditaval.png){width="300" align="left"}
+   ![](images/new-topic-dialog-ditaval.png){width="350" align="left"}
 
 
 4. Välj **Skapa**.
@@ -112,35 +112,35 @@ Det finns i huvudsak fyra tillgängliga åtgärder för en viss egenskap som kan
 - **Bakgrundsfärg**: Välj nyans, mättnad, kontrast från bakgrundsfärgen. Motsvarande HEX-värde uppdateras automatiskt baserat på ditt val. Du kan också växla färgrymdsformat med listrutan och välja mellan HEX, RGB och HSB.
 
 
-![](images/ditaval-background-color.png){width="650" align="left"}
+  ![](images/ditaval-background-color.png){width="350" align="left"}
 
 
 
 - **Textfärg**: Välj nyans, mättnad, kontrast från textfärgen. Motsvarande HEX-värde uppdateras automatiskt baserat på ditt val. Du kan också växla färgrymdsformat med listrutan och välja mellan HEX, RGB och HSB.
 
 
-![](images/ditaval-text-color.png){width="650" align="left"}
+  ![](images/ditaval-text-color.png){width="350" align="left"}
 
 
 
 - **Formateringsalternativ**: Du kan lägga till vissa formateringsalternativ, t.ex. Fet, Kursiv, Understruken, Överstruken och Dubbel understrykning.
 
 
-![](images/ditaval-styling-option.png){width="650" align="left"}
+  ![](images/ditaval-styling-option.png){width="350" align="left"}
 
 
 
 - **Start- och slutflaggor**: Du kan infoga bilder som start- och slutflaggor med knappen **Lägg till flagga** . Om du vill välja bilder kan du antingen använda **Bläddra i Assets** och välja från databasen med stödlinjer eller **Lägg till fil** att överföra från ditt lokala system. Dessutom kan du ange alternativ text för bilderna.
 
 
-![](images/ditaval-start-end-flags.png){width="650" align="left"}
+  ![](images/ditaval-start-end-flags.png){width="350" align="left"}
 
 
 
 - **Formatkonflikt**: Den löser de konflikter som uppstår när ett enskilt element innehåller flera egenskaper med olika flaggformat. I sådana fall väljs det värde som definieras i formategenskaperna, vilket i praktiken fungerar som standardvärdesväljare för bakgrunds- och textfärger.
 
 
-![](images/ditaval-style-conflict.png){width="650" align="left"}
+  ![](images/ditaval-style-conflict.png){width="650" align="left"}
 
 
 #### Versionsinformation och Spara som ny version
