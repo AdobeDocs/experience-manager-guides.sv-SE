@@ -39,9 +39,9 @@ Under det här mötet gick vi igenom följande:
 
 ## Relaterade resurser
 
-- [Grunderna för utdatagenerering](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/map-management-publishing/output-gen/generate-output)
+- [Grunderna för utdatagenerering](https://experienceleague.adobe.com/sv/docs/experience-manager-guides/using/user-guide/map-management-publishing/output-gen/generate-output)
 
-- [Installera nya AEM Sites-mallar](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/aem-site-templates/download-install-aem-sites-templates-cs-kb)
+- [Installera nya AEM Sites-mallar](https://experienceleague.adobe.com/sv/docs/experience-manager-guides/using/knowledge-base/kb-articles/publishing/aem-site-templates/download-install-aem-sites-templates-cs-kb)
 
 - [Publicering av enstaka ämne](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/map-management-publishing/output-gen/generate-output/single-topic-publishing/publish-content-fragment.html)
 
