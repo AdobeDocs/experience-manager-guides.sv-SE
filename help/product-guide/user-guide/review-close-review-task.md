@@ -3,9 +3,10 @@ title: Begär en ny granskning eller stäng en granskningsåtgärd som författa
 description: Lär dig mer om arbetsflödet för att stänga en granskningsuppgift eller begära en ny granskning som författare i Experience Manager Guides.
 feature: Reviewing
 role: User
-source-git-commit: b7648fe1d36de3c243ca5a55f42a41f7523056ce
+exl-id: d2119bbe-3a0c-4da3-b4f8-7872496fa61f
+source-git-commit: 439be49e8f4c8cfacb16679257352f4197574365
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '584'
 ht-degree: 0%
 
 ---
@@ -45,13 +46,18 @@ Utför följande steg för att begära en omgranskning eller stänga en granskni
 4. Välj **Uppdatera aktivitet** om du vill vidta ytterligare åtgärder för den valda granskningsaktiviteten.
 5. Välj en av följande åtgärder i dialogrutan **Uppdatera uppgift**:
 
-   - **Begär en ny granskning**: Initierar en ny granskningsrunda. Du kan välja en annan version av ämnet för granskning. Som standard är den senaste (eller den senast redigerade) versionen av det ämne eller den kartfil som skickats för granskning markerad. Granskare som slutfört den föregående granskningen får ett meddelande om att ge feedback om den uppdaterade versionen. Andra granskare som inte har markerat granskningen som slutförd får meddelanden om ämnesuppdateringen.
+   - **Begär en ny granskning**: Initierar en ny granskningsrunda. Du kan välja en annan version av ämnet för granskning. Som standard är den senaste (eller den senast redigerade) versionen av det ämne eller den kartfil som skickats för granskning markerad. Du kan också använda alternativet **Redigera versioner** för att ställa in versionen för markerade ämnen på **Senaste version**, **Version på** och **Baslinje** efter behov.  Granskare som slutfört den föregående granskningen får ett meddelande om att ge feedback om den uppdaterade versionen. Andra granskare som inte har markerat granskningen som slutförd får meddelanden om ämnesuppdateringen.
 
    - **Stäng granskning**: Stänger granskningsaktiviteten. Knappen **Uppdatera aktivitet** längst ned på granskningspanelen ändras till **Stängd** och ett meddelande skickas till alla användare som deltar i granskningen som indikerar att den har stängts.
 
-   Mer information om hur granskningsmeddelanden utlöses finns i [Om granskningsmeddelanden](./review-understanding-review-notifications.md).
+   Mer information om hur granskningsmeddelanden utlöser finns i [Om granskningsmeddelanden](./review-understanding-review-notifications.md).
 
-   ![](images/update-task-dialog.png).
+   ![](images/update-task-dialog.png){width="350" align="left"}
+
+   >[!NOTE]
+   >
+   > Dialogrutan **Uppdatera aktivitet** innehåller även en **dokumenttillståndskolumn** som anger det aktuella läget för de listade granskningsavsnitten när Experience Manager Guides används som molntjänster.
+
 
 6. Välj **Bekräfta**.
 

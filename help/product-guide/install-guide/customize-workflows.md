@@ -5,9 +5,9 @@ exl-id: 3be387b9-6ac2-4b61-afdf-fbe9d8b6cc1e
 feature: Workflow Configuration
 role: Admin
 level: Experienced
-source-git-commit: 01efb1f17b39fcbc48d78dd1ae818ece167f4fe5
+source-git-commit: 439be49e8f4c8cfacb16679257352f4197574365
 workflow-type: tm+mt
-source-wordcount: '1854'
+source-wordcount: '2126'
 ht-degree: 0%
 
 ---
@@ -18,20 +18,20 @@ Med arbetsflöden kan du automatisera Adobe Experience Manager \(AEM\)-aktivitet
 
 Mer information om arbetsflöden i AEM finns i:
 
-- [Administrera arbetsflöden](https://helpx.adobe.com/se/experience-manager/6-5/sites/administering/using/workflows.html)
+- [Administrera arbetsflöden](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html)
 
-- Tillämpar och deltar i arbetsflöden: [Arbeta med arbetsflöden](https://helpx.adobe.com/se/experience-manager/6-5/sites/authoring/using/workflows.html).
+- Tillämpar och deltar i arbetsflöden: [Arbeta med arbetsflöden](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/workflows.html).
 
-- Skapa arbetsflödesmodeller och utöka arbetsflödesfunktioner: [Utveckla och utöka arbetsflöden](https://helpx.adobe.com/se/experience-manager/6-5/sites/developing/using/workflows.html).
+- Skapa arbetsflödesmodeller och utöka arbetsflödesfunktioner: [Utveckla och utöka arbetsflöden](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/workflows.html).
 
-- Förbättrar prestanda för arbetsflöden som använder betydande serverresurser: [Samtidig arbetsflödesbearbetning](https://helpx.adobe.com/se/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance).
+- Förbättrar prestanda för arbetsflöden som använder betydande serverresurser: [Samtidig arbetsflödesbearbetning](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/configuring-performance.html#ConfiguringforPerformance).
 
 
 Avsnitten i det här avsnittet visar olika anpassningar som du kan göra i standardarbetsflödena som levereras i AEM Guides.
 
 ## Anpassa granskningsarbetsflödet {#id176NE0C00HS}
 
-Alla organisationers skribenter arbetar på ett specifikt sätt för att uppfylla sina verksamhetskrav. I vissa organisationer finns det en dedikerad redigerare, medan andra organisationer kan ha ett automatiserat system för redaktionell granskning. I en organisation kan t.ex. ett vanligt arbetsflöde för redigering och publicering omfatta uppgifter som - när en författare har redigerat innehållet går det automatiskt till granskarna och när granskningen är klar går det till utgivaren för att generera det slutliga resultatet. I AEM kan aktiviteter som du gör med ditt innehåll och dina resurser kombineras i form av en process och mappas till ett AEM-arbetsflöde. Mer information om arbetsflöden i AEM finns i [Administrera arbetsflöden](https://helpx.adobe.com/se/experience-manager/6-5/sites/administering/using/workflows.html) i AEM-dokumentationen.
+Alla organisationers skribenter arbetar på ett specifikt sätt för att uppfylla sina verksamhetskrav. I vissa organisationer finns det en dedikerad redigerare, medan andra organisationer kan ha ett automatiserat system för redaktionell granskning. I en organisation kan t.ex. ett vanligt arbetsflöde för redigering och publicering omfatta uppgifter som - när en författare har redigerat innehållet går det automatiskt till granskarna och när granskningen är klar går det till utgivaren för att generera det slutliga resultatet. I AEM kan aktiviteter som du gör med ditt innehåll och dina resurser kombineras i form av en process och mappas till ett AEM-arbetsflöde. Mer information om arbetsflöden i AEM finns i [Administrera arbetsflöden](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/workflows.html) i AEM-dokumentationen.
 
 Med AEM Guides kan du anpassa standardarbetsflödet för granskning. Du kan använda följande fyra anpassade granskningsrelaterade processer tillsammans med dina andra arbetsflöden för redigering och publicering.
 
@@ -64,6 +64,7 @@ workflowdata.getMetaDataMap().put("startTime", System.currentTimeMillis());
 workflowdata.getMetaDataMap().put("reviewType", "AEM");
 workflowdata.getMetaDataMap().put("versionJson", "[{\"path\":\"GUID-ca6ae229-889a-4d98-a1c6-60b08a820bb3.dita\",\"review\":true,\"version\":\"1.0\",\"reviewers\":[\"projects-samplereviewproject-owner\"]}]");
 workflowdata.getMetaDataMap().put("isDitamap","false");
+workflowdata.getMetaDataMap().put("reviewVersion","3.0");
 ```
 
 **För karta**
@@ -90,6 +91,7 @@ workflowdata.getMetaDataMap().put("isDitamap", "true");
 workflowdata.getMetaDataMap().put("ditamap", "GUID-17feb385-acf3-4113-b838-77b11fd6988d.ditamap");
 var ditamapHierarchy = "[{\"path\":\"GUID-17feb385-acf3-4113-b838-77b11fd6988d.ditamap\",\"items\":[{\"path\":\"GUID-db5787bb-5467-4dc3-b3e5-cfde562ee745.ditamap\",\"items\":[{\"path\":\"GUID-ae42f13c-7201-4453-9a3a-c87675a5868e.dita\",\"items\":[],\"title\":\"\"},{\"path\":\"GUID-28a6517b-1b62-4d3a-b7dc-0e823225b6a5.dita\",\"items\":[],\"title\":\"\"}],\"title\":\"\"},{\"path\":\"GUID-dd699e10-118d-4f1b-bf19-7f1973092227.dita\",\"items\":[],\"title\":\"\"}]}]";
 workflowdata.getMetaDataMap().put("ditamapHierarchy", ditamapHierarchy);
+workflowdata.getMetaDataMap().put("reviewVersion","3.0");
 ```
 
 Du kan skapa skriptet i noden `/etc/workflows/scripts`. I följande tabell beskrivs de egenskaper som tilldelas av detta ECMA-skript:
@@ -114,6 +116,7 @@ Du kan skapa skriptet i noden `/etc/workflows/scripts`. I följande tabell beskr
 | `ditamap` | Sträng | Ange sökvägen för ändringslistan för granskningsaktiviteten |
 | `allowAllReviewers` | Boolean | false/true |
 | `notifyViaEmail` | Boolean | false/true |
+| `reviewVersion` | Sträng | Anger den aktuella versionen av granskningsarbetsflödet. Standardvärdet är `3.0`.<br> Om du vill aktivera de nya funktionerna för granskningsarbetsflöde för [författare](../user-guide/review-close-review-task.md) och [granskare](../user-guide/review-complete-review-tasks.md) kontrollerar du att `reviewVersion` är inställt på `3.0`. |
 
 
 När du har skapat skriptet anropar du det innan du anropar processen Skapa granskning i arbetsflödet. Beroende på dina behov kan du sedan anropa de andra granskningsarbetsflödena.
@@ -133,29 +136,58 @@ Genom att lägga till ett arbetsflöde i **Adobe Granite Workflow Renge Configur
 
 Mer information om hur du konfigurerar **Adobe Granite Workflow Renge Configuration** finns i *Administrera arbetsflödesinstanser* i AEM-dokumentationen.
 
-### Anpassa e-postmallar
+### Anpassa e-post och AEM-meddelanden
 
-I ett antal av AEM Guides arbetsflöden används e-postmeddelanden. Om du till exempel initierar en granskningsåtgärd skickas ett e-postmeddelande till granskarna. Om du vill vara säker på att e-postmeddelandet skickas måste du aktivera den här funktionen i AEM. Information om hur du aktiverar e-postmeddelanden i AEM finns i artikeln [Konfigurera e-postmeddelande](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=sv-SE) i AEM-dokumentationen.
+I ett antal av AEM Guides arbetsflöden används e-postmeddelanden. Om du till exempel initierar en granskningsåtgärd skickas ett e-postmeddelande till granskarna. Om du vill vara säker på att e-postmeddelandet skickas måste du aktivera den här funktionen i AEM. Information om hur du aktiverar e-postmeddelanden i AEM finns i artikeln [Konfigurera e-postmeddelande](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=en) i AEM-dokumentationen.
 
-AEM Guides innehåller en uppsättning e-postmallar som du kan anpassa. Följ de här stegen för att anpassa de här mallarna:
+AEM Guides innehåller en uppsättning e-postmeddelanden och AEM-meddelanden som du kan anpassa. Följ de här stegen för att anpassa de här meddelandena:
 
-1. Logga in på AEM och öppna CRXDE Lite-läget.
-
-1. Gå till följande plats på fliken Överblick:
-
-   `/libs/fmdita/mail`
+1. Använd pakethanteraren för att hämta mappen `/libs/fmdita/mail/review`.
 
    >[!NOTE]
    >
    > Gör inga anpassningar i standardkonfigurationsfilerna tillgängliga i noden ``libs``. Du måste skapa en övertäckning av noden ``libs`` i noden ``apps`` och endast uppdatera de filer som krävs i noden ``apps``.
 
-1. E-postmappen innehåller följande anpassningsbara mallar:
+1. Mappen `review` innehåller följande undermappar:
 
-   | Mallfilnamn | Beskrivning |
+   - `aem-notification`
+   - `CSS`
+   - `email-notification`
+
+   En detaljerad beskrivning av dessa undermappar förklaras nedan:
+
+   | Granska undermappar | Beskrivning |
    |-----------------|-----------|
-   | closereview.html | Den här e-postmallen används när en granskningsuppgift stängs. |
-   | createreview.html | Den här e-postmallen används när en ny granskningsuppgift skapas. |
-   | reviewapproval.css | Den här CSS-filen innehåller formateringen för e-postmallar. |
+   | `aem-notification` | Innehåller olika AEM-meddelandetyper som är tillgängliga för anpassning. <br> `closed` <br> `content-updated` <br> `feedback-addressed` <br> `feedback-provided` <br> `requested` <br> `reviewer-removed` <br> `tag-mention` <br> I dessa undermappar finns `primary.vm`- och `secondary.vm`-filer som gör att du kan anpassa AEM meddelandetitel och beskrivning. |
+   | `CSS` | Innehåller filen `email-notification.css` som används för att anpassa formatet för e-postmeddelanden. |
+   | `email-notification` | Innehåller olika typer av e-postmeddelanden som är tillgängliga för anpassning. <br> `closed` <br> `content-updated` <br> `feedback-addressed` <br> `feedback-provided` <br> `requested` <br> `reviewer-removed` <br> `tag-mention` <br> I dessa undermappar finns `primary.vm`- och `secondary.vm`-filer som gör att du kan anpassa meddelandets ämne och brödtext. |
+
+Definitionen av varje meddelandetyp beskrivs nedan:
+
+- `closed`: Utlöses när en granskningsåtgärd stängs.
+- `content-updated`: Utlöses när en författare eller initierare uppdaterar innehållet.
+- `feedback-addressed`: Utlöses när författaren eller initieraren åtgärdar kommentarerna och begär en omgranskning från granskaren.
+- `feedback-provided` utlöses när granskaren markerar uppgiften som slutförd genom att skicka kommentarer på aktivitetsnivå till författaren eller initieraren av granskningsaktiviteten.
+- `requested`: Utlöses när en författare eller initierare skapar en granskningsaktivitet.
+- `reviewer-removed`: Utlöses när en granskare inte har tilldelats från granskningsaktiviteten.
+- `tag-mention`: Utlöses när en användare nämns eller taggas i granskningskommentarer.
+
+När du anpassar ett e-postmeddelande eller ett AEM-meddelande bör du kontrollera att du bara använder följande fördefinierade variabeluppsättning som används i `primary.vm`- och `secondary.vm`-filer.
+
+
+| **Variabelnamn** | **Beskrivning** | **Datatyp** |
+|-------------------------|---------------------------------------------------------------|---------------|
+| `projectPath` | Sökväg till projektet som innehåller granskningsaktiviteten | Sträng |
+| `reviewTitle` | Granskningsuppgiftens namn | Sträng |
+| `projectName` | Projektets namn | Sträng |
+| `commentator` | Namnet på den användare som lade till en kommentar | Sträng |
+| `commentExcerpt` | Kodstycke för kommentaren som lagts till | Sträng |
+| `taskLink` | Direktlänk till granskningsaktiviteten | URL |
+| `authorName` | Namnet på författaren som skapade eller uppdaterade granskningsaktiviteten | Sträng |
+| `dueDate` | Förfallodatum för granskningsaktiviteten | Datum |
+| `reviewerName` | Namn på granskaren som tilldelats uppgiften | Sträng |
+| `user` | Användare som deltar i granskningsaktiviteten, till exempel författare, granskare eller till och med administratör. | Sträng |
+| `recipient` | Specifik användare som tar emot meddelandet | Sträng |
 
 
 ## Anpassa arbetsflödet för efterhandsproduktion {#id17A6GI004Y4}
