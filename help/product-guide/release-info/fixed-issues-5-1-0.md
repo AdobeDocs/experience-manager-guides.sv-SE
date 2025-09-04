@@ -1,9 +1,9 @@
 ---
 title: Versionsinformation | Problem i Adobe Experience Manager Guides 5.1.0 har åtgärdats
 description: Läs mer om felkorrigeringarna i version 5.1.0 av Adobe Experience Manager Guides.
-source-git-commit: 64df76f371867469d738f59a174e7931176e8591
+source-git-commit: 6c29d5540f48c850416db279b4392b6042c8ca2c
 workflow-type: tm+mt
-source-wordcount: '1796'
+source-wordcount: '1789'
 ht-degree: 0%
 
 ---
@@ -109,7 +109,6 @@ Adobe har identifierat följande kända problem i version 5.1.0:
 
 - Den senaste åtgärdsnivåkommentaren visas i e-postmeddelandet till aktivitetsinitieraren om granskaren slutför uppgiften utan att lägga till någon kommentar. (GUIDES-33590)
 - I dialogrutan Sammanfoga visas huvudinnehållet felaktigt i listrutan i stället för de tillgängliga versionerna av det markerade ämnet. (GUIDES-30820)
-som länken blir operativ. (GUIDES-30820)
 - Om du växlar mellan förinställningar som använder samma baslinje inaktiveras knappen Spara för den aktuella förinställningen. (GUIDES-28025)
 - En tom rad infogas automatiskt när nytt innehåll klistras in på en ny rad i ett kodblockselement.(GUIDES-27842)
 - Ett ämne på en DITA-karta kan inte publiceras i AEM Sites-utdata när det används som både keydef och topicref i dess underpunkter. (GUIDES-2269)
