@@ -2,9 +2,9 @@
 title: Konfigurera AI Assistant för smart hjälp och redigering
 description: Lär dig konfigurera AI-assistenten i Experience Manager Guides
 exl-id: a595ca1f-0123-40d3-a79c-a066bc6517b4
-source-git-commit: b80737d6066008104ceea103edbc828bc8e632cb
+source-git-commit: b5b4c5484593a2f7d9121da1c7bfb28dd2c36a57
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '925'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ Utför följande steg för att lägga till IMS-konfiguration i miljön:
 1. Växla till fliken **Miljö**.
 1. Välj det miljönamn som du vill konfigurera. Du bör navigera till sidan **Miljöinformation**.
 1. Växla till fliken **Konfiguration**.
-1. Uppdatera JSON-fältet SERVICE_ACCOUNT_DETAILS. Se till att du använder samma namn och konfiguration som i skärmbilden nedan.
+1. Uppdatera JSON-fältet - `SERVICE_ACCOUNT_DETAILS`. Se till att du använder samma namn och konfiguration som i skärmbilden nedan.
 
    ![konfiguration av ims-tjänstkonto](assets/ims-service-account-config.png){width="800" align="left"}
 

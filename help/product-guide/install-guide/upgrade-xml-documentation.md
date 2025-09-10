@@ -5,9 +5,9 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: c9ea64eb0445ec5767ba62ac6f9c1871dc3e98a3
+source-git-commit: 1ef7379c71adcb73757ddc6d1fe34dc2f33fdc22
 workflow-type: tm+mt
-source-wordcount: '9118'
+source-wordcount: '9119'
 ht-degree: 0%
 
 ---
@@ -20,12 +20,12 @@ ht-degree: 0%
 
 Du kan uppgradera din nuvarande version av Experience Manager Guides till version 5.1.0:
 
-- Om du använder version 4.6.3, 4.6.4, 5.0.0 eller 5.0.0 Service Pack 1 kan du uppgradera direkt till version 5.1.0.
+- Om du använder version 4.6.3, 4.6.4, 5.0.0, 5.0.0 Service Pack 1 eller 5.0.0 Service Pack 2 kan du uppgradera direkt till version 5.1.0.
 - Om du använder version 4.6.0, 4.6.1 måste du uppgradera till version 4.6.3, 4.6.4 eller 5.0.0 innan du uppgraderar till version 5.1.0.
 - Om du använder version 4.3.x, 4.2, 4.2.1 (programfix 4.2.1.3), 4.1 eller 4.1.x måste du uppgradera till version 4.4 innan du uppgraderar till version 5.0.0.
 - Om du använder version 4.0 måste du uppgradera till version 4.2 innan du uppgraderar till version 4.3.x.
 - Om du använder version 3.8.5 måste du uppgradera till version 4.0 innan du uppgraderar till version 4.2.
-- Om du har en tidigare version än 3.8.5 kan du läsa mer i avsnittet Uppgradera Experience Manager Guides i den produktspecifika installationsguiden för [Adobe Experience Manager Guides Help PDF archive](https://helpx.adobe.com/se/xml-documentation-for-experience-manager/archive.html).
+- Om du har en tidigare version än 3.8.5 kan du läsa mer i avsnittet Uppgradera Experience Manager Guides i den produktspecifika installationsguiden för [Adobe Experience Manager Guides Help PDF archive](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 
 >[!NOTE]
@@ -59,11 +59,11 @@ Innan du kör processen måste du slutföra vissa uppgifter. I följande delavsn
 
 >[!NOTE]
 >
-> Denna uppgraderingsprocess gäller endast från version 3.8.5 till version 4.0. För uppgraderingsprocessen från version 3.4 eller senare till 3.8.5, se avsnittet *Uppgradera Experience Manager Guides* i den produktspecifika installationsguiden som finns i [Adobe Experience Manager Guides Help PDF archive](https://helpx.adobe.com/se/xml-documentation-for-experience-manager/archive.html).
+> Denna uppgraderingsprocess gäller endast från version 3.8.5 till version 4.0. För uppgraderingsprocessen från version 3.4 eller senare till 3.8.5, se avsnittet *Uppgradera Experience Manager Guides* i den produktspecifika installationsguiden som finns i [Adobe Experience Manager Guides Help PDF archive](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 
 
-**&#x200B;**&#x200B;Förutsättningar&#x200B;**&#x200B;**
+****Förutsättningar****
 
 Innan du påbörjar uppgraderingen av Experience Manager Guides bör du kontrollera att du har:
 
@@ -136,7 +136,7 @@ Uppgradering till version 4.2 beror på vilken version av Experience Manager Gui
 
 Om du använder version 4.0, 4.1 eller 4.1.x kan du uppgradera direkt till version 4.2.
 
-**&#x200B;**&#x200B;Förutsättningar&#x200B;**&#x200B;**
+****Förutsättningar****
 
 Innan du startar uppgraderingsprocessen för Experience Manager Guides 4.2 bör du kontrollera att du har:
 
@@ -312,7 +312,7 @@ Uppgradering till version 4.2.1 beror på vilken version av Experience Manager G
 >
 >Efterbearbetningen och indexeringen kan ta några timmar. Vi rekommenderar att du startar uppgraderingsprocessen under lågtider.
 
-**&#x200B;**&#x200B;Förutsättningar&#x200B;**&#x200B;**
+****Förutsättningar****
 
 Innan du startar uppgraderingsprocessen för Experience Manager Guides 4.2.1 bör du kontrollera att du har:
 
@@ -489,7 +489,7 @@ Uppgradering till version 4.3.0 beror på vilken version av Experience Manager G
 >
 >Efterbearbetningen och indexeringen kan ta några timmar. Vi rekommenderar att du startar uppgraderingsprocessen under lågtider.
 
-**&#x200B;**&#x200B;Förutsättningar&#x200B;**&#x200B;**
+****Förutsättningar****
 
 Innan du startar uppgraderingsprocessen för Experience Manager Guides 4.3.0 bör du kontrollera att du har:
 
@@ -547,7 +547,7 @@ Uppgradering till version 4.3.1 beror på vilken version av Experience Manager G
 >
 >Efterbearbetningen och indexeringen kan ta några timmar. Vi rekommenderar att du startar uppgraderingsprocessen under lågtider.
 
-**&#x200B;**&#x200B;Förutsättningar&#x200B;**&#x200B;**
+****Förutsättningar****
 
 Innan du startar uppgraderingsprocessen för Experience Manager Guides 4.3.1 bör du kontrollera att du har:
 
@@ -788,7 +788,7 @@ Uppgradering till version 4.4.0 beror på vilken version av Experience Manager G
 >
 >Efterbearbetningen och indexeringen kan ta några timmar. Vi rekommenderar att du startar uppgraderingsprocessen under lågtider.
 
-**&#x200B;**&#x200B;Förutsättningar&#x200B;**&#x200B;**
+****Förutsättningar****
 
 Innan du startar uppgraderingsprocessen för Experience Manager Guides 4.4.0 bör du kontrollera att du har:
 
@@ -981,7 +981,7 @@ Om du har en annan anpassad återskrivningsskrivare i kodbasen använder du ett 
 Under den här uppgraderingen måste du, eftersom värdet `'order'` ändras från 1 000 till 50, sammanfoga den befintliga anpassade omskrivaren, om sådan finns, med `'fmdita-rewriter'`.
 
 
-**Överordnat ämne:**&#x200B;[ Hämta och installera](download-install.md)
+**Överordnat ämne:**[ Hämta och installera](download-install.md)
 
 
 ## Uppgradera till version 4.6.0
@@ -996,7 +996,7 @@ Uppgradering till version 4.6.0 beror på vilken version av Experience Manager G
 >
 > Efterbearbetningen och indexeringen kan ta några timmar. Vi rekommenderar att du startar uppgraderingsprocessen under lågtider.
 
-**&#x200B;**&#x200B;Förutsättningar&#x200B;**&#x200B;**
+****Förutsättningar****
 
 Innan du startar uppgraderingsprocessen för Experience Manager Guides 4.6.0 bör du kontrollera att du har:
 
@@ -1145,13 +1145,13 @@ Under den här uppgraderingen måste du, eftersom värdet `'order'` ändras frå
 
 >[!TIP]
 >
-> Uppgradering till version 5.0.0 av Service Pack 1 beror på vilken version av Experience Manager Guides som är aktuell. Om du använder version 5.0.0, 4.6.4, 4.6.3, 4.6.1, 4.6.0 eller 4.4 kan du uppgradera direkt till version 5.0.0 Service Pack 1.
+> Uppgradering till version 5.0.0 Service Pack 2 beror på vilken version av Experience Manager Guides som är aktuell. Om du använder version 5.0.0 Service Pack 1 eller 5.0.0 kan du uppgradera direkt till version 5.0.0 Service Pack 2.
 
 >[!NOTE]
 >
 > Efterbearbetningen och indexeringen kan ta några timmar. Vi rekommenderar att du startar uppgraderingsprocessen under lågtider.
 
-**&#x200B;**&#x200B;Förutsättningar&#x200B;**&#x200B;**
+****Förutsättningar****
 
 Innan du startar uppgraderingsprocessen för Experience Manager Guides 5.0.0 måste du se till att du har:
 
@@ -1299,7 +1299,7 @@ Under den här uppgraderingen måste du, eftersom värdet `'order'` ändras frå
 
 ## Steg för att indexera om damAssetLucene
 
-Indexdefinitionen uppdateras för damAssetLucene med stödlinjer. Mer information finns i [den här artikeln](https://experienceleague.adobe.com/sv/docs/experience-cloud-kcs/kbarticles/ka-16460) om du vill indexera om damAssetLucene efter uppgradering till version 5.0.0.
+Indexdefinitionen uppdateras för damAssetLucene med stödlinjer. Mer information finns i [den här artikeln](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460) om du vill indexera om damAssetLucene efter uppgradering till version 5.0.0.
 
 >[!NOTE]
 >
@@ -1315,7 +1315,7 @@ Indexdefinitionen uppdateras för damAssetLucene med stödlinjer. Mer informatio
 >
 > Efterbearbetningen och indexeringen kan ta några timmar. Vi rekommenderar att du startar uppgraderingsprocessen under lågtider.
 
-**&#x200B;**&#x200B;Förutsättningar&#x200B;**&#x200B;**
+****Förutsättningar****
 
 Innan du startar uppgraderingsprocessen för Experience Manager Guides 5.1.0 bör du kontrollera att du har:
 
@@ -1463,7 +1463,7 @@ Under den här uppgraderingen måste du, eftersom värdet `'order'` ändras frå
 
 ## Steg för att indexera om damAssetLucene
 
-Indexdefinitionen uppdateras för damAssetLucene med stödlinjer. Mer information finns i [den här artikeln](https://experienceleague.adobe.com/sv/docs/experience-cloud-kcs/kbarticles/ka-16460) om du vill indexera om damAssetLucene efter uppgradering till version 5.1.0.
+Indexdefinitionen uppdateras för damAssetLucene med stödlinjer. Mer information finns i [den här artikeln](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460) om du vill indexera om damAssetLucene efter uppgradering till version 5.1.0.
 
 >[!NOTE]
 >
