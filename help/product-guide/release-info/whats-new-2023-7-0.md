@@ -4,14 +4,14 @@ description: Läs om de nya och förbättrade funktionerna i juli 2023-versionen
 exl-id: 4b907729-4fbf-48ed-a2e1-014bd1101c73
 feature: What's New
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 7d0ae0f13ab77a10beb89fcb0d8592b05c3828bd
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '687'
 ht-degree: 0%
 
 ---
 
-# Nyheter i juli 2023-utgåvan av Adobe Experience Manager Guides as a Cloud Service
+# Nyheter i juli 2023-versionen av Adobe Experience Manager Guides as a Cloud Service
 
 I den här artikeln beskrivs de nya och förbättrade funktionerna i Adobe Experience Manager Guides version från juli 2023 (kallas senare *AEM Guides as a Cloud Service*).
 
@@ -46,31 +46,31 @@ Mer information finns i beskrivningen av funktionen **Granska** i avsnittet [ V�
 
 Med en kartsamling kan du ordna flera kartor och grupppublicera dem. Många nya förbättringar har gjorts i kartsamlingen:
 
-- Nu kan du även lägga till förinställningar för inbyggda PDF-utdata i en kartsamling och använda dem för att generera utdata från PDF.
-- Du kan visa de förinställningar för global profil och mappprofil som har skapats av administratören och använda dem för att generera utdata från PDF.
+- Nu kan du även lägga till inbyggda PDF-utdataförinställningar i en kartsamling och använda dem för att generera PDF-utdata.
+- Du kan visa de förinställningar för global profil och mappprofil som har skapats av administratören och använda dem för att generera PDF-utdata.
 - Nu kan du inte bara välja en enskild förinställning, utan även aktivera alla förinställningar för mappprofiler för en DITA-karta på en gång.
   ![](assets/edit-map-collection.png){width="800" align="left"}
 
 Mer information finns i [Använd kartsamling för generering av utdata](../user-guide/generate-output-use-map-collection-output-generation.md).
 
-## Möjlighet att få åtkomst till temporära HTML-filer när du genererar PDF-utdata
+## Möjlighet att få tillgång till temporära HTML-filer samtidigt som man genererar PDF-filer
 
-Nu kan du ladda ned de temporära HTML-filer som skapas när du genererar utdata från PDF. Välj alternativet att hämta de temporära filerna i inställningarna för förinställningar för utdata.  I AEM Guides kan du sedan hämta de temporära filer som skapas när du genererar utdata med den förinställningen.
+Nu kan du ladda ned de temporära HTML-filer du skapat när du genererat PDF-utdata. Välj alternativet att hämta de temporära filerna i inställningarna för förinställningar för utdata.  I AEM Guides kan du sedan hämta de temporära filer som skapas när du genererar utdata med den förinställningen.
 
 Den här funktionen ger bättre insikter i genereringsprocessen med tillgång till tillfälliga format och layouter och hjälper dig att korrigera eller ändra dina CSS-format efter dina behov.
 
 ![](assets/native-pdf-advanced-settings.png){width="800" align="left"}
 
-Mer information finns i [Skapa en förinställning för utdata från PDF](../web-editor/native-pdf-web-editor.md#create-output-preset).
+Mer information finns i [Skapa en förinställning för PDF-utdata](../web-editor/native-pdf-web-editor.md#create-output-preset).
 
-## Microservice-baserad publicering för att generera utdata för HTML5 och Custom
+## Microservice-baserad publicering för att generera utdata från HTML5 och Custom
 
-Med den nya publiceringsmikrotjänsten kan du köra stora publiceringsarbetsbelastningar samtidigt på AEM Guides as a Cloud Service och utnyttja den branschledande Adobe I/O Runtime serverlösa plattform. Med mikrotjänsten kan du nu också generera utdata för HTML5 och Custom.
+Med den nya publiceringsmikrotjänsten kan du köra stora publiceringsarbetsbelastningar samtidigt på AEM Guides as a Cloud Service och utnyttja den branschledande serverlösa Adobe I/O Runtime-plattformen. Med mikrotjänsten kan du nu också generera HTML5 och anpassade utdata.
 Du kan köra flera publiceringsbegäranden och få bättre prestanda för att generera dessa utdataformat.
 Mer information finns i [Konfigurera mikrotjänstbaserad publicering för AEM Guides as a Cloud Service](../knowledge-base/publishing/configure-microservices.md).
 
 ## Visa versionsinformation om AEM Guides i Om-informationen
 
-Nu kan du tillsammans med AEM **Om**-information även visa versionsinformation för AEM Guides. Du kan visa den aktuella versionsinformationen i alternativet **Om** i **hjälpen** på AEM navigeringssida.
+Nu kan du tillsammans med AEM **Om**-informationen även visa versionsinformationen för AEM Guides. Du kan visa den aktuella versionsinformationen i alternativet **Om** i **hjälpen** på AEM navigeringssida.
 
-![](assets/about-aem-help.png)(width=&quot;800&quot; align=&quot;left&quot;)
+![](assets/about-aem-help.png){width="800" align="left"}
