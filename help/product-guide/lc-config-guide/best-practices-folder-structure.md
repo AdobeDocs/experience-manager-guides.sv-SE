@@ -73,5 +73,5 @@ Om du vill tilldela behörigheter går du till **Verktyg** > **Dokumentskydd** >
 
 Dessa behörigheter gör att användarna kan skapa och ändra innehåll endast i de mappar de har valt.
 
-Mer information finns i [Behörigheter i AEM](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/security/security#permissions-in-aem).
+Mer information finns i [Behörigheter i AEM](https://experienceleague.adobe.com/sv/docs/experience-manager-65/content/security/security#permissions-in-aem).
 
