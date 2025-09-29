@@ -5,9 +5,9 @@ feature: Authoring
 role: Admin
 level: Experienced
 exl-id: dc26ae48-c953-492c-823a-5f65157b6902
-source-git-commit: f14ee85ccc49abd662a046b2bd4e7be2eece4902
+source-git-commit: 64adc89966e60823f6b46fb062b7659ed150cfc3
 workflow-type: tm+mt
-source-wordcount: '1451'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 0%
 # Konfigurera mappprofiler
 
 Det krävs en mappprofil för att kunna dela upp konfigurationerna för olika avdelningar eller produkter i företaget. För utbildningsmaterial och utbildningsmaterial kan du skapa och konfigurera en profil på mappnivå för att hantera redigeringsmallar, utdatamallar, utdatainställningar och andra inställningar på mappnivå.
+
+Läs mer om [Bästa tillvägagångssätt för att konfigurera mappstrukturen](best-practices-folder-structure.md).
 
 Om du vill komma igång med mappprofilkonfigurationen för utbildningsinnehåll måste du:
 
@@ -25,7 +27,6 @@ Om du vill komma igång med mappprofilkonfigurationen för utbildningsinnehåll 
    ![](assets/create-new-folder.png){width="350" align="left"}
 2. **Skapa språkmappar för att hantera översättning**: Om du översätter innehåll till olika språk måste du skapa mappar för varje språk. Var och en av dessa språkmappar kommer att innehålla det innehåll som motsvarar det språket.
 
-   Mer information finns i [Bästa tillvägagångssätt för innehållsöversättning](../user-guide/translation-first-time.md).
 3. **Skapa en mapp för att hantera Assets**: På samma sätt som för mappar kan du skapa olika Assets-mappar som passar olika avdelningars behov. På så sätt ser du även till att författare och utgivare har tillgång till rätt CSS som konfigurerats i deras mallar, bilder och andra resurser.
 
    ![](assets/configure-assets-folder.png){width="350" align="left"}

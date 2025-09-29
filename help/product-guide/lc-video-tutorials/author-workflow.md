@@ -4,9 +4,9 @@ description: Läs mer om arbetsflödet för författare av utbildningsmaterial i
 feature: Authoring
 role: User
 exl-id: 18b7e018-287c-4e52-a05e-5472eedf1c54
-source-git-commit: 98a520a255c5587ac0de82685391c0fc153bc8d1
+source-git-commit: 2cb5d104c9a02feb2148018975ca51edda593634
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
@@ -21,8 +21,10 @@ På den här sidan får du snabb tillgång till videor som beskriver viktiga arb
 | Databas och hantera samlingar | Översikt över navigering i databasen och hantering av samlingar i AEM Guides, inklusive filåtgärder, sökning och innehållsorganisation. | [Starta video](https://video.tv.adobe.com/v/3469539/learning-content-aem-guides){target="_blank"} |
 | Skapa kurser i AEM Guides | Visar hur du skapar och hanterar kurser i AEM Guides, inklusive mallar, innehållshierarki, frågor, versionshantering och kursstruktur. | [Starta video](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content){target="_blank"} |
 | Skapa och redigera utbildningsmaterial | Praktisk genomgång av hur du skapar strukturerat innehåll i AEM Guides: mallar, formatering, media, hyperlänkar, tabeller och innehållsegenskaper. | [Starta video](https://video.tv.adobe.com/v/3469535/learning-content-aem-guides){target="_blank"} |
-| Skapa och redigera frågor | En stegvis guide till hur man skapar frågebatterier i AEM Guides som innehåller mallar, frågetyper, innehållsrikt innehåll, feedback och frågeformulärsegenskaper. | [Starta video](https://video.tv.adobe.com/v/3469541/aem-guides-learning-content){target="_blank"} |
-| Använda frågebanker | En översikt över hur du skapar och återanvänder frågebanker i AEM Guides, inklusive infogning, redigeringsbeteende, slumpgenerering och bästa praxis för unika ID:n. | [Starta video](https://video.tv.adobe.com/v/3469313/aem-guides-learning-content){target="_blank"} |
+| Lägga till utbildningsämne | En demonstration av hur du lägger till ett nytt ämne i kurser i AEM Guides. | [Starta video](https://video.tv.adobe.com/v/3475211/learning-content-aem-guides){target="_blank"} |
+| Ta bort ämne och utforska Visa inställningar | En översikt över hur du tar bort ett ämne från en kurs och utforskar alternativet Visa inställningar. | [Starta video](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides){target="_blank"} |
+| Skapa och redigera frågor | En stegvis guide till hur man skapar frågebatterier i AEM Guides som innehåller mallar, frågetyper, innehållsrikt innehåll, feedback och frågeformulärsegenskaper. | [Starta video](https://video.tv.adobe.com/v/3475209/aem-guides-learning-content){target="_blank"} |
+| Använda frågebanker | En översikt över hur du skapar och återanvänder frågebanker i AEM Guides, inklusive infogning, redigeringsbeteende, slumpgenerering och bästa praxis för unika ID:n. | [Starta video](https://video.tv.adobe.com/v/3475212/learning-content-aem-guides){target="_blank"} |
 | Förstå filegenskaper | Översikt över metadata på filnivå i AEM Guides, t.ex. dokumentstatus, taggar, attribut för utbildningsinnehåll, referenser och innehållsegenskaper. | [Starta video](https://video.tv.adobe.com/v/3469538/learning-content-aem-guides){target="_blank"} |
 | Formaterat utbildningsinnehåll och CSS-hantering | Visar hur du använder infogade och panelbaserade format i utbildningsinnehåll, hanterar begränsningar av frågeformulärsformat och konfigurerar format med CSS-redigeraren. | [Starta video](https://video.tv.adobe.com/v/3469533/aem-guides-learning-content){target="_blank"} |
 | Avancerad innehållsredigering | Visar hur du infogar och konfigurerar avancerade element i AEM Guides, inklusive widgetar (dragspelspanel, karusell, aktiveringspunkt), multimedia, iframes, kodblock och blockcitattecken. | [Starta video](https://video.tv.adobe.com/v/3469531/learning-content-aem-guides){target="_blank"} |

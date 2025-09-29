@@ -1,12 +1,12 @@
 ---
-title: Hantera en kurs i utbildningsmaterial
+title: Hantera en kurs i produktutbildning och -inlärning
 description: Lär dig mer om de olika funktionerna i Experience Manager Guides som gör att du kan hantera kursen effektivt.
 feature: Authoring
 role: User
 exl-id: 0f480d08-2f8a-494e-ab56-4965e5eeb960
-source-git-commit: 57ddd498cd06d7d8cb511b0c3108591280a35bdb
+source-git-commit: 0c3cb192391248adcca4b845b5e4237531fc0ab7
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '567'
 ht-degree: 0%
 
 ---
@@ -23,13 +23,15 @@ Gör så här för att lägga till nytt innehåll i kursen:
 
    ![](assets/learning-course-content.png)
 2. Välj den typ av innehåll som du vill skapa. De tillgängliga alternativen är:
-   - **Utbildningsinnehåll**: Huvudmaterialet i en kurs består av korta, fokuserade delar som steg, exempel eller förklaringar som lär ut en viss kunskap eller idé. Mer information finns i [Skapa och anpassa utbildningsinnehåll](./create-content.md).
-   - **Utbildningssammanfattning**: En snabb genomgång i slutet av ett kurskapitel som påminner eleverna om de viktigaste punkterna de just lärt sig.
+   - **Översikt**: Det första ämnet i kursen som ger en snabb introduktion till vad kursen omfattar.
+   - **Ämne**: Huvudmaterialet i en kurs består av korta, fokuserade delar som steg, exempel eller förklaringar som lär ut en viss skicklighet eller idé. Mer information finns i [Skapa och anpassa ämne](./create-content.md).
+   - **Sammanfattning**: En snabb genomgång i slutet av ett kurskapitel som påminner eleverna om de viktigaste punkterna de just lärt sig.
    - **Quiz**: En uppsättning frågor som används för att kontrollera hur väl någon förstår vad de har lärt sig. Mer information finns i [Skapa och hantera frågor](./create-quiz.md).
    - **Frågebank**: En delad pool med återanvändbara frågor som kan användas för att skapa frågor snabbt och konsekvent. Mer information finns i [Frågebank](./create-qb.md).
-   - **Utbildningsgrupp**: En utbildningsgrupp hjälper dig att ordna relaterat utbildningsinnehåll som kapitel, ämnen och andra moduler i en logisk ordning, vilket skapar en tydlig hierarki som gör det enklare att hantera och återanvända utbildningsmaterial.
+   - **Grupp**: En utbildningsgrupp hjälper dig att ordna relaterade ämnen som kapitel, ämnen och andra moduler i en logisk ordning och skapar en tydlig hierarki som gör det enklare att hantera och återanvända utbildningsmaterial.
 3. Välj **Skapa**.
-Det markerade innehållet skapas och läggs till i kursen.
+
+Det markerade innehållet skapas och läggs till i kursen. Se [Lägg till nytt innehåll i en kurs](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on) om du vill se en videoöversikt.
 
 ## Lägg till befintligt innehåll
 
@@ -44,11 +46,19 @@ Du kan lägga till befintligt innehåll från din innehållsdatabas i kursen. G�
 
 Det valda kursinnehållet läggs till kursen från databasen.
 
+>[!NOTE]
+>
+>Du kan också använda alternativet **Lägg till befintlig**>**Fil (endast resursen)** för att inkludera en ZIP-fil som packas upp och integreras i mappstrukturen för den slutliga SCORM-utdatafilen. Detta effektiviserar resursanvändningen under kurspubliceringen.
+
+Om du vill se en videoöversikt kan du visa [Lägg till befintligt innehåll i kurs](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on).
+
 ## Ta bort innehåll
 
-Du kan ta bort alla ämnen från kursen genom att välja menyn **Alternativ** för det specifika ämnet och sedan välja **Ta bort** så som visas nedan.
+Du kan ta bort alla ämnen från kursen genom att välja menyn **Alternativ** för det specifika ämnet och sedan välja **Ta bort post** enligt nedan.
 
 ![](assets/remove-learning-content.png)
+
+Visa [Ta bort innehåll från kurs](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides) om du vill se en videoöversikt.
 
 ## Skapa kursversioner
 
@@ -71,3 +81,5 @@ Alternativet **Visa** avgör hur ämnen visas. Du kan välja att presentera dem 
 > De här visningsinställningarna används endast i kurshanteraren och påverkar inte publicerade utdata.
 
 ![](assets/course-display-settings.png)
+
+Visa [Visa alternativ](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides) om du vill se en videoöversikt.

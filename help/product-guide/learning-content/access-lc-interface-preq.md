@@ -1,11 +1,12 @@
 ---
 title: Utforska gränssnittet och förutsättningarna
-description: Upptäck gränssnittet och förutsättningarna när du arbetar med utbildningsmaterial i Adobe Experience Manager Guides.
+description: Utforska gränssnittet och förutsättningarna när du arbetar med produktutbildning och -inlärning i Adobe Experience Manager Guides.
 feature: Authoring
 role: User
-source-git-commit: eda6c57d80359b1c70266708dc444f4880e1bf6c
+exl-id: b55af490-ebd5-4aa0-a5f3-84d835175dc9
+source-git-commit: 8edd9274cba3496015b3c730dcd9a2aafd6cb3bf
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -44,13 +45,3 @@ Sidan med användarinställningar består av två flikar:
 - **Utseende**: Ger dig möjlighet att välja teman för programmet och källvyn för utbildningsinnehållet.
 
 Mer information finns i [Användarinställningar](../user-guide/intro-home-page.md#user-preferences) i Experience Manager Guides.
-
-
-
-
-
-
-
-
-
-

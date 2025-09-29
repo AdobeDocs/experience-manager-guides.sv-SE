@@ -1,22 +1,25 @@
 ---
 title: Infoga frågor från frågebanken
-description: Lär dig hur du infogar frågor från en frågebank i Quiz för utbildningsmaterial
+description: Lär dig hur du infogar frågor från en frågebank i Quiz for Product Training and Learning
 feature: Authoring
 role: User
-source-git-commit: 4b581043d2577545b69773d33869dcd873a2ea3b
+exl-id: dfc247f7-31f9-4bcf-84e2-151993603b89
+source-git-commit: 74e5baaf1743986ab188f5c89644d7683f885d0a
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Infoga frågor från frågebanken
 
-Utför följande steg när du vill infoga frågor från frågesajt:
+Följ de här stegen för att infoga frågor från frågebanken i frågeformuläret:
 
-1. Välj alternativet **Infoga från frågebank** i listrutan **Frågor** i verktygsfältet enligt nedan. Dialogrutan **Infoga från frågebank** öppnas.
+1. Välj alternativet **Infoga från frågebank** i listrutan **Frågor** i verktygsfältet enligt nedan.
 
    ![](assets/insert-from-question-bank.png){width="350" align="left"}
+
+   Dialogrutan **Infoga från HTML frågebank** visas.
 
 1. Ange sökvägen till frågebanken som är lagrad i din databas och välj de frågor som du vill lägga in i ditt frågeformulär, som visas nedan. Du kan också välja alla frågor för frågebanken med **Markera alla**.
 
@@ -33,3 +36,5 @@ Utför följande steg när du vill infoga frågor från frågesajt:
    De slumpmässiga frågorna läggs till i frågeformuläret enligt nedan.
 
    ![](assets/inserted-question.png){width="650" align="left"}
+
+Om du vill få en snabb videoöversikt kan du visa [Använda frågebank](https://video.tv.adobe.com/v/3475212/learning-content-aem-guides).

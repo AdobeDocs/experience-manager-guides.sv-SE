@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Läs produktdokumentationen för Adobe Experience Manager Guides.
 breadcrumb-title: Dokumentation om AEM Guides
-source-git-commit: a437256345b923bbcdbfb3fcdd79d1e0f67bc9f7
+source-git-commit: fc250384e887f28ab22248e787d1b003d1fa966c
 workflow-type: tm+mt
-source-wordcount: '2370'
+source-wordcount: '2373'
 ht-degree: 1%
 
 ---
@@ -151,8 +151,8 @@ ht-degree: 1%
                - [4.2.1 Versionsinformation](./release-info/release-notes-4-2-1.md)
                - [4.2 Versionsinformation](./release-info/release-notes-4-2.md)
          - [4.1.x Versionsinformation](./release-info/release-notes-4-1.md)
-         - [Versionsinformation för 4.0.x](https://helpx.adobe.com/se/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [3.8.x Versionsinformation](https://helpx.adobe.com/se/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [Versionsinformation för 4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [3.8.x Versionsinformation](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Användarhandbok (nytt användargränssnitt) {#user-guide}
    - Introduktion {#about-aemg}
       - [Om [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
@@ -307,9 +307,9 @@ ht-degree: 1%
             - [Förstå grunderna för kurshanteraren](./learning-content/course-manager-basics.md)
             - [Hantera din kurs](./learning-content/manage-course.md)
          - Skapa och anpassa utbildningsmaterial {#customize-lc}
-            - [Översikt över utbildningsinnehåll](./learning-content/lc-overview.md)
-            - [Skapa utbildningsmaterial](./learning-content/create-content.md)
-            - [Redigera utbildningsmaterial](./learning-content/edit-content.md)
+            - [Ökning](./learning-content/lc-overview.md)
+            - [Skapa ämne](./learning-content/create-content.md)
+            - [Redigera ämne](./learning-content/edit-content.md)
             - [Lägg till grundläggande byggblock](./learning-content/lc-basic-blocks.md)
             - [Använda interaktiva widgetar](./learning-content/lc-widgets.md)
             - [Använda textbundna format](./learning-content/lc-inline-styles.md)
@@ -318,10 +318,10 @@ ht-degree: 1%
             - [Skapa Quiz](./learning-content/create-quiz.md)
             - [Redigera frågor](./learning-content/edit-quiz.md)
             - [Infoga frågor i en Quiz](./learning-content/quiz-insert-questions.md)
+            - [Frågeformulärsegenskaper](./learning-content/quiz-properties.md)
             - Frågebank {#question-bank}
                - [Skapa frågebank](./learning-content/create-qb.md)
                - [Infoga frågor från frågebanken](./learning-content/insert-questions.md)
-            - [Frågeformulärsegenskaper](./learning-content/quiz-properties.md)
          - Publicera din kurs {#publish-course}
             - [Om kurspublicering](./learning-content/publish-overview.md)
             - [Förinställningar som stöds](./learning-content/course-presets.md)
@@ -336,6 +336,7 @@ ht-degree: 1%
       - Konfigurationsguide {#config-lc}
          - [Om den här guiden](./lc-config-guide/introduction.md)
          - [Konfigurera mappprofiler](./lc-config-guide/lc-folder-profile.md)
+         - [Bästa tillvägagångssätt för att konfigurera mappstrukturen](./lc-config-guide/best-practices-folder-structure.md)
          - [Konfigurera andra inställningar](./lc-config-guide/lc-other-settings.md)
       - Videokurser {#lc-video}
          - [Författararbetsflöde](./lc-video-tutorials/author-workflow.md)
@@ -349,7 +350,7 @@ ht-degree: 1%
       - Felsökning {#troubleshooting}
          - [Tidsgräns för session](./user-guide/session-timeout-prompt.md)
 - Användarhandbok (gammalt användargränssnitt) {#user-guide-old-ui}
-   - [AEM Guides - översikt](https://experienceleague.adobe.com/sv/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [AEM Guides - översikt](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installation och konfiguration {#install-guide}
    - Lokalt {#on-prem-ig}
       - [Grunderna på plats](./install-guide/introduction.md)

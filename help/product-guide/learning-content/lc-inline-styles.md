@@ -1,11 +1,12 @@
 ---
 title: Använda textbundna format
-description: Lär dig hur du använder olika infogade format när du skapar utbildningsinnehåll i utbildningsmaterialet
+description: Lär dig hur du använder olika infogade format när du skapar utbildningsmaterial i produktutbildningar
 feature: Authoring
 role: User
-source-git-commit: 4b581043d2577545b69773d33869dcd873a2ea3b
+exl-id: 78b62eb3-bc61-4c39-96b2-c0511d659ebf
+source-git-commit: 8edd9274cba3496015b3c730dcd9a2aafd6cb3bf
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -18,9 +19,14 @@ Använd textbundna format för att anpassa utseendet på viss text direkt i kurs
 >
 > Dessa formatalternativ visas bara om de har aktiverats av administratören.
 
+
+>[!VIDEO](https://video.tv.adobe.com/v/3469533/aem-guides-learning-content)
+
+
+Följande alternativ för textbundna format är tillgängliga.
+
 ![](assets/content-properties-learning-content.png){width="350" align="left"}
 
-Följande alternativ är tillgängliga:
 
 - **Teckensnitt:** Används för att anpassa textutseendet med olika alternativ som teckensnittsfamilj, teckenbredd, textdekoration, teckensnittsstorlek med mera. Dessa inställningar hjälper dig att formatera ditt innehåll så som visas i exemplet nedan.
 

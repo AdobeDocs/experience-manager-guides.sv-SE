@@ -3,16 +3,22 @@ title: Använda interaktiva widgetar
 description: Lär dig mer om de interaktiva widgetar du kan använda i utbildningsinnehållet.
 feature: Authoring
 role: User
-source-git-commit: 54956963caf6384e129da97ed0f2100913893977
+exl-id: e7ca2df1-9d15-4718-9698-8a0f059a86d7
+source-git-commit: 74e5baaf1743986ab188f5c89644d7683f885d0a
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Använda interaktiva widgetar
 
-Du kan förbättra utbildningsinnehållet genom att lägga till flera widgetar för att göra kursen mer interaktiv. Välj menyn **Infoga** i verktygsfältet för att komma åt widgetarna. De tillgängliga widgetarna är:
+Du kan förbättra utbildningsinnehållet genom att lägga till flera widgetar för att göra kursen mer interaktiv. Här är en kort genomgång av de olika widgetarna som finns.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3469531/learning-content-aem-guides)
+
+
+De tillgängliga widgetarna som är utformade för att förbättra användarupplevelsen och effektivisera innehållsleveransen är bland annat:
 
 - **Dragspel:** Lägger till ett dragspel i innehållet. Du kan infoga lämplig text i både dragspelsrubriken och dess brödtext. Dess egenskaper kan hanteras med panelen **Innehållsegenskaper**, inklusive alternativ för att tillåta att enstaka eller flera dragspelspaneler öppnas samtidigt samt för att lägga till eller ta bort element.
 

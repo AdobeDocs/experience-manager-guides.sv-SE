@@ -1,20 +1,27 @@
 ---
-title: Lägga till grundläggande byggstenar i utbildningsmaterialet
-description: Läs mer om de grundläggande byggstenarna som du kan lägga till i ditt utbildningsinnehåll i Utbildning och Utbildning
+title: Lägg till grundläggande byggblock
+description: Lär dig mer om de grundläggande byggstenarna som du kan lägga till i ditt ämne eller ditt utbildningsinnehåll i produktutbildning och inlärning
 feature: Authoring
 role: User
-source-git-commit: 4b581043d2577545b69773d33869dcd873a2ea3b
+exl-id: 171b9df9-3782-4cfa-b450-7824e5fd390d
+source-git-commit: 74e5baaf1743986ab188f5c89644d7683f885d0a
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
 
-# Lägga till grundläggande byggstenar i utbildningsmaterialet
+# Lägg till grundläggande byggstenar i ditt ämne
 
-Du kan använda de grundläggande redigeringsfunktionerna som finns i verktygsfältet Utbildningsinnehåll enligt beskrivningen nedan:
+I följande video ges en kort översikt över de tillgängliga funktionerna så att du får en bättre förståelse för hur du skapar ett utbildningsämne och lägger till grundläggande byggstenar i det.
 
-- **Widgetar**: Lägg till widgetar som dragspelspanel, karusell, aktiveringspunkter med mera i ditt utbildningsinnehåll med hjälp av menyn **Infoga** som visas nedan. Mer information om interaktiva widgetar finns i [Använd interaktiva widgetar](./lc-widgets.md).
+
+>[!VIDEO](https://video.tv.adobe.com/v/3469535/learning-content-aem-guides)
+
+
+Du kan använda de grundläggande redigeringsfunktionerna som finns i redigeringsverktygsfältet enligt beskrivningen nedan:
+
+- **Widgetar**: Lägg till widgetar som dragspelspanel, karusell, aktiveringspunkter med mera i ditt ämne eller ditt utbildningsinnehåll med hjälp av menyn **Infoga** som visas nedan. Mer information om interaktiva widgetar finns i [Använd interaktiva widgetar](./lc-widgets.md).
 
   ![](assets/widgets-learning-content.png){width="650" align="left"}
 
@@ -50,5 +57,3 @@ Du kan använda de grundläggande redigeringsfunktionerna som finns i verktygsf�
 - **Hyperlänkar**: Lägger till hyperlänkar till den önskade platsen i ditt innehåll. Du kan använda den på menyn **Mer** i verktygsfältet. Det kan vara en filreferens, en webb-URL eller en e-postlänk enligt nedan.
 
   ![](assets/hyperlink-learning-content.png){width="650" align="left"}
-
-

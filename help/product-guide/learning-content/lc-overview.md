@@ -1,20 +1,16 @@
 ---
 title: Utbildningsmaterial - översikt
-description: Innehåller en översikt över utbildningsinnehållet i utbildningsmaterialet
+description: Innehåller en översikt över utbildningsdelen i produktutbildningen
 feature: Authoring
 role: User
-source-git-commit: 4b581043d2577545b69773d33869dcd873a2ea3b
+exl-id: a286a1a7-3f5f-420d-84ac-27701d58d43b
+source-git-commit: 8edd9274cba3496015b3c730dcd9a2aafd6cb3bf
 workflow-type: tm+mt
-source-wordcount: '52'
+source-wordcount: '66'
 ht-degree: 0%
 
 ---
 
 # Översikt över utbildningsinnehåll
 
-Med utbildningsmaterialet kan du skapa mallstyrt innehåll i eLearning-kursen. Med den kan du införliva olika element, som text, widgetar, bilder och multimedia, för att förbättra inlärningen.
-
-
-
-
-
+Utbildningsinnehållet eller **ämnet** som stöds i produktutbildnings- och inlärningsfunktionen i Experience Manager Guides gör att du kan skapa mallstyrt innehåll i din eLearning-kurs. Med den kan du införliva olika element, som text, widgetar, bilder och multimedia, för att förbättra inlärningen.

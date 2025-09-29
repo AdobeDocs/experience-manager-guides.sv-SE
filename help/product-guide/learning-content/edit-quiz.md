@@ -1,16 +1,23 @@
 ---
 title: Redigera frågor
-description: Lär dig hur du redigerar frågor i utbildningsmaterialet
+description: Lär dig hur du redigerar frågor i produktutbildning och -inlärning
 feature: Authoring
 role: User
-source-git-commit: 54956963caf6384e129da97ed0f2100913893977
+exl-id: a8d967ce-9850-445f-b5fc-63ee14ee0dfa
+source-git-commit: 74e5baaf1743986ab188f5c89644d7683f885d0a
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Redigera frågor
+
+Innan vi går vidare till steg-för-steg-processen finns det en kort genomgång som visar hur du redigerar ett frågeformulär i frågeredigeraren.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3475209/aem-guides-learning-content)
+
+**Steg för att redigera ett frågeformulär**
 
 Utför följande steg för att redigera frågan:
 
@@ -20,6 +27,5 @@ Utför följande steg för att redigera frågan:
    ![](assets/quiz-lock.png){width="650" align="left"}
 
 1. Du kan [lägga till frågor i frågeformuläret](./quiz-insert-questions.md) och [infoga frågor från frågebanken](./insert-questions.md).
-1. Om du vill spara ditt arbete använder du **Spara som ny version** för att skapa en ny version eller trycker på Ctrl+S för att skriva över den befintliga filen.
+1. Om du vill spara ditt arbete använder du **Spara som ny version** och skapar en ny version, eller trycker på `Ctrl+S` och skriver över den befintliga filen.
 1. När du har sparat frågeformuläret kan du **Lås upp** ämnet för andra att redigera.
-

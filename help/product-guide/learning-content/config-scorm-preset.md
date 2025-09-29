@@ -1,9 +1,10 @@
 ---
 title: SCORM-förinställd konfiguration
-description: Lär dig mer om de olika förinställda SCORM-konfigurationerna i utbildningsmaterialet
+description: Läs mer om de olika SCORM-förinställda konfigurationerna i produktutbildning och -inlärning
 feature: Authoring
 role: User
-source-git-commit: 110082f38f170d277dfd745a4fce77ad030707c3
+exl-id: b3000708-6120-4725-bea1-0b8e58048948
+source-git-commit: 8edd9274cba3496015b3c730dcd9a2aafd6cb3bf
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 0%
@@ -27,5 +28,3 @@ När du har skapat förinställningen konfigurerar du inställningarna för SCOR
   ![](assets/scorm-publish-tab.png){width="650" align="left"}
 
 När alla ändringar har konfigurerats sparar du ändringarna för SCORM-förinställningen med **Spara** till höger i verktygsfältet på sidan SCORM-förinställning.
-
-
