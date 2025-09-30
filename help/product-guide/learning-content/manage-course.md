@@ -4,7 +4,7 @@ description: Lär dig mer om de olika funktionerna i Experience Manager Guides s
 feature: Authoring
 role: User
 exl-id: 0f480d08-2f8a-494e-ab56-4965e5eeb960
-source-git-commit: 0c3cb192391248adcca4b845b5e4237531fc0ab7
+source-git-commit: 6a61f404892dee8256e969a0b3433b8425f84c6c
 workflow-type: tm+mt
 source-wordcount: '567'
 ht-degree: 0%
@@ -48,7 +48,7 @@ Det valda kursinnehållet läggs till kursen från databasen.
 
 >[!NOTE]
 >
->Du kan också använda alternativet **Lägg till befintlig**>**Fil (endast resursen)** för att inkludera en ZIP-fil som packas upp och integreras i mappstrukturen för den slutliga SCORM-utdatafilen. Detta effektiviserar resursanvändningen under kurspubliceringen.
+>Du kan också använda alternativet **Lägg till befintlig** > **Fil (endast resursen)** för att inkludera en ZIP-fil som packas upp och integreras i mappstrukturen för den slutliga SCORM-utdatafilen. Detta effektiviserar resursanvändningen under kurspubliceringen.
 
 Om du vill se en videoöversikt kan du visa [Lägg till befintligt innehåll i kurs](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on).
 

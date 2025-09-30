@@ -4,9 +4,9 @@ description: Lär dig hur du använder olika infogade format när du skapar utbi
 feature: Authoring
 role: User
 exl-id: 78b62eb3-bc61-4c39-96b2-c0511d659ebf
-source-git-commit: 8edd9274cba3496015b3c730dcd9a2aafd6cb3bf
+source-git-commit: 6a61f404892dee8256e969a0b3433b8425f84c6c
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,8 @@ ht-degree: 0%
 # Använda textbundna format
 
 Använd textbundna format för att anpassa utseendet på viss text direkt i kursinnehållet. På så sätt kan du göra snabba formateringsjusteringar som teckenstorlek, färg, justering med mera. Du kan ändra textbundna format för den markerade texten med panelen **Innehållsegenskaper** .
+
+Här är en kort genomgång av en video som visar olika typer av infogade format.
 
 >[!NOTE]
 >
@@ -23,10 +25,7 @@ Använd textbundna format för att anpassa utseendet på viss text direkt i kurs
 >[!VIDEO](https://video.tv.adobe.com/v/3469533/aem-guides-learning-content)
 
 
-Följande alternativ för textbundna format är tillgängliga.
-
-![](assets/content-properties-learning-content.png){width="350" align="left"}
-
+Beskrivningen av de tillgängliga alternativen för intern formatering är följande:
 
 - **Teckensnitt:** Används för att anpassa textutseendet med olika alternativ som teckensnittsfamilj, teckenbredd, textdekoration, teckensnittsstorlek med mera. Dessa inställningar hjälper dig att formatera ditt innehåll så som visas i exemplet nedan.
 
