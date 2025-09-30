@@ -4,9 +4,9 @@ description: Granska effektivt ämnen och kartor i AEM Guides för smidig inneh�
 exl-id: 81ea0b52-52b0-4764-a6d8-a96d5c7693bf
 feature: Reviewing
 role: User
-source-git-commit: b7648fe1d36de3c243ca5a55f42a41f7523056ce
+source-git-commit: 6f18b2e4b5cd095f5b446fa9a78badfcdbefc068
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '427'
 ht-degree: 0%
 
 ---
@@ -50,9 +50,6 @@ Funktioner som är tillgängliga för *granskarna*:
 - Visa kommentarer från andra granskare eller svar på kommentarer från författaren i realtid.
 - Kommentarer ges i äldre versioner av ämnet.
 
->[!NOTE]
->
-> Visa avsnittet *Granska* i guiden Bästa metoder för att skapa en granskningsaktivitet.
 
 - **[Skapa ett DITA-projekt](authoring-create-dita-project.md)**
 
