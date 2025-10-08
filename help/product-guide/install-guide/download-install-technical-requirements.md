@@ -5,20 +5,16 @@ exl-id: d69245b0-bf20-43c1-b46e-b6c220319690
 feature: Introduction, Installation
 role: Admin
 level: Experienced
-source-git-commit: 939991b48826df5bf760d3c59b365bfb9efa795f
+source-git-commit: a288462d4e17a2f5d1d1072d8e6a7221f1431884
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '474'
 ht-degree: 0%
 
 ---
 
 # Tekniska krav {#id213BCG003XA}
 
-Kontrollera att datorn uppfyller följande tekniska krav för den aktuella versionen innan du installerar Adobe Experience Manager Guides:
-
->[!IMPORTANT]
->
-> För utdatagenerering på AEM Site i version 5.1.0 måste din Adobe Experience Manager-publiceringsinstans ha Service Pack 23, 22, 21.
+Innan du installerar Adobe Experience Manager Guides måste du kontrollera att datorn uppfyller de tekniska krav som anges nedan för den aktuella versionen.
 
 **Webbläsare som stöds**
 
@@ -32,7 +28,7 @@ Kontrollera att datorn uppfyller följande tekniska krav för den aktuella versi
 
 | [!DNL AEM Guides]-version | Tekniska specifikationer |
 |---|---|
-| **AEM Guides 5.1.0** | **UUID 5.1.0** <ul><li> AEM 6.5 SP23, SP22 eller SP21 <br><br> <li>   Java: 1 eller 8 <br><br>   <li>Operativsystem: <ul><li>Microsoft Windows Server 2012 R2 <br> <li>Red Hat Linux 7 och 6</ul> |
+| **AEM Guides 5.1.0** | **UUID 5.1.0** <ul><li> AEM 6.5 LTS SP1<br><ul><li>Java: 17 eller 21</li></ul> <br> <li> AEM 6.5 SP23, SP22 eller SP21 <br> <ul><li>Java: 11 eller 8 </li></ul> <br> <li>Operativsystem: <br> <ul><li>Microsoft Windows Server 2012 R2 <br> <li>Red Hat Linux 7 och 6</ul> |
 | **AEM Guides 5.0.0** | **UID 5.0.0** <ul><li> AEM 6.5 SP 22, SP21 eller SP20 <br><br> <li>   Java: 1 eller 8 <br><br>   <li>Operativsystem: <ul><li>Microsoft Windows Server 2012 R2 <br> <li>Red Hat Linux 7 och 6</ul> |
 | **AEM Guides 4.6.0** | **Ej UUID och UUID 4.6.0** <ul><li> AEM 6.5 SP 21, SP20 eller SP19 <br><br> <li>   Java: 1 eller 8 <br><br>   <li>Operativsystem: <ul><li>Microsoft Windows Server 2012 R2 <br> <li>Red Hat Linux 7 och 6</ul> |
 | **AEM Guides 4.4.0** | **Ej UUID och UUID 4.4.0** <ul><li> AEM 6.5 SP20, SP19, SP18 eller SP17 <br><br> <li>   Java: 1 eller 8 <br><br>   <li>Operativsystem: <ul><li> Windows Server 2012 R2 <br> <li>Red Hat Linux 7 och 6</ul> |
