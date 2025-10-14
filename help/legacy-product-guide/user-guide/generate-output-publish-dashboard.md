@@ -88,4 +88,4 @@ Utför följande steg för att avbryta en utdatagenereringsåtgärd från Publis
    ![](images/cancelled-output-task.png){width="800" align="left"}
 
 
-**Överordnat ämne:**&#x200B;[ Utdatagenerering](generate-output.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Utdatagenerering](generate-output.md)

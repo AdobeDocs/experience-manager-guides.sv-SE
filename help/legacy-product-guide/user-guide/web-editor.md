@@ -47,4 +47,4 @@ Dessutom är Web Editor DITA-kompatibelt och stöder DITA 1.3, 1.2-standarderna,
 - **[Använd etiketter](web-editor-use-label.md)**
 
 
-**Överordnat ämne:**&#x200B;[ Skapa innehåll med AEM Guides](authoring-content-xml-doc.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Skapa innehåll med AEM Guides](authoring-content-xml-doc.md)

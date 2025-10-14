@@ -35,4 +35,4 @@ Funktionen för att spara automatiskt är inte aktiverad som standard och du må
 1. Klicka på **Spara**.
 
 
-**Överordnat ämne:**&#x200B;[ Anpassa Web Editor](conf-web-editor.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Anpassa Web Editor](conf-web-editor.md)

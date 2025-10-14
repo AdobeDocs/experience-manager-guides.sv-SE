@@ -209,7 +209,7 @@ Utför följande steg för att konfigurera anslutningsinställningarna i Syre-pl
 
 1. Klicka på inställningsikonen på panelen AEM Guides och välj sedan **Inställningar**.
 
-   ![Anslutningsinställningar ](images/settings.png){width="800" align="left"}
+   ![Anslutningsinställningar &#x200B;](images/settings.png){width="800" align="left"}
 
 1. Ange följande information:
    - **Server-URL**: URL för AEM server, till exempel:

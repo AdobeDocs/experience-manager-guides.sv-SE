@@ -230,4 +230,4 @@ Kartan genererar alla resurser som refereras till inuti mallmappen. En del typer
 
 - Om en annan karta eller ett annat ämne skapas på samma nivå i mappen läggs namnen på de nyskapade resurserna till med 0,1,2 och så vidare. Du kan välja att öppna kartan för redigering eller spara kartfilen i databasen.
 
-**Överordnat ämne:**&#x200B;[ Introduktion till kartredigeraren](map-editor.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Introduktion till kartredigeraren](map-editor.md)

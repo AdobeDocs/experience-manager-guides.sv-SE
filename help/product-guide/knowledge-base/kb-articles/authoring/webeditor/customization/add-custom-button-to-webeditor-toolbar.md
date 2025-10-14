@@ -32,7 +32,7 @@ Elementet &quot;change-request-id&quot; som innehåller JIRA ID ska hämtas frå
 
 När användaren klickar på knappen bör den visa en dialogruta där de möjliga alternativen kan väljas så att användaren kan välja önskat JIRA-ID, till exempel:
 
-![Prologgavsnittet Lägg till dialogrutan JIRA ID ](../../../assets/authoring/webeditor-add-customtoolbarbutton-prolog-insertjirareference-dialog.png)
+![Prologgavsnittet Lägg till dialogrutan JIRA ID &#x200B;](../../../assets/authoring/webeditor-add-customtoolbarbutton-prolog-insertjirareference-dialog.png)
 
 som sedan ska lägga till &quot;change-request-id&quot; i prologgen:
 

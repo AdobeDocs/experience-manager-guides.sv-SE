@@ -81,4 +81,4 @@ Om du vill ta bort en versionsetikett från ett ämne använder du knappen **Ta 
 ![](images/delete-labels.png){width="300" align="left"}
 
 
-**Överordnat ämne:**&#x200B;[ Introduktion till redigeraren](web-editor.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Introduktion till redigeraren](web-editor.md)

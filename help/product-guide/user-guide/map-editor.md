@@ -38,4 +38,4 @@ I det här avsnittet beskrivs hur du skapar en DITA-karta och sedan använder Ka
 - **[Ytterligare funktioner i kartredigeraren](map-editor-other-features.md)**
 
 
-**Överordnat ämne:**&#x200B;[ Skapa innehåll med AEM Guides](authoring-content-xml-doc.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Skapa innehåll med AEM Guides](authoring-content-xml-doc.md)

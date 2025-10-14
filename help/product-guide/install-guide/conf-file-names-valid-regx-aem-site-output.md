@@ -16,4 +16,4 @@ ht-degree: 0%
 
 På samma sätt som listan med giltiga filnamnstecken som tillåts för DITA-avsnitt kan du även konfigurera en lista med giltiga filnamnstecken för AEM. Vissa av de kända tecken som inte tillåts i en URL är: ```'<>`@$```. Dessa tecken konverteras automatiskt till understreck&quot;_&quot; när de påträffas när AEM webbplatsens utdatafilnamn genereras. Konfigurationen som gör att du kan ange giltiga tecken i AEM platsutdata finns i paketet `com.adobe.fmdita.common.SanitizeNodeNameImpl`. **Ange inställningen Otillåten teckenuppsättning för publicering till AEM Sites** om du vill inkludera tecken som du vill ersätta med ett understreck i AEM för webbplatsens utdatafiler.
 
-**Överordnat ämne:**&#x200B;[ Konfigurera filnamn](conf-file-names.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Konfigurera filnamn](conf-file-names.md)

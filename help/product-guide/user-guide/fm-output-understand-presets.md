@@ -17,4 +17,4 @@ Adobe Experience Manager Guides stöder framtagning av utdata för FrameMaker-do
 
 I följande avsnitt beskrivs de alternativ som är tillgängliga för de utdataformat som stöds.
 
-**Överordnat ämne:**&#x200B;[ Generera utdata för FrameMaker-dokument](fm-output-generatation.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Generera utdata för FrameMaker-dokument](fm-output-generatation.md)

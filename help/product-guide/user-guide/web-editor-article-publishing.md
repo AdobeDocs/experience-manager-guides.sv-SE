@@ -31,7 +31,7 @@ Utför följande steg för att generera artikelbaserade utdata:
 
 1. Markera de filer som du vill publicera och bekräfta genom att välja **Publicera** i **Bekräfta filer för publicering** .
 
-   ![Nytt ](images/knowledge-base-confirm-files-for-publishing.png){align="left"}
+   ![Nytt &#x200B;](images/knowledge-base-confirm-files-for-publishing.png){align="left"}
 
    Du visar status för genereringsprocessen för utdata. Kolumnen **Ämnen** visar ämnen som utdata genereras för medan kolumnen **Status** visar publiceringsstatusen för varje ämne.
 
@@ -46,4 +46,4 @@ Utför följande steg för att generera artikelbaserade utdata:
    > Du kan också byta namn på, duplicera eller ta bort en befintlig förinställning på Alternativ-menyn.
 
 
-**Överordnat ämne:**&#x200B;[ Arbeta med redigeraren](web-editor.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Arbeta med redigeraren](web-editor.md)

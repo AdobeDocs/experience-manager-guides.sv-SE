@@ -81,4 +81,4 @@ När du använder en Dispatcher med AEM Guides och din Author-instans har en dis
                 }
 ```
 
-**Överordnat ämne:**&#x200B;[ Hämta och installera](download-install.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Hämta och installera](download-install.md)

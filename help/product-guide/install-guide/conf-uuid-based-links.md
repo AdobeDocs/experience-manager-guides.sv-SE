@@ -35,4 +35,4 @@ Utför följande steg för att visa den relativa sökvägen eller UUID för det 
 1. Klicka på **Spara**.
 
 
-**Överordnat ämne:**&#x200B;[ Anpassa Web Editor](conf-web-editor.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Anpassa Web Editor](conf-web-editor.md)

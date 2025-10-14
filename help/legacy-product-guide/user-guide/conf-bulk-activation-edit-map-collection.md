@@ -50,4 +50,4 @@ Du kan visa de olika typerna av förinställningar för utdata tillsammans med i
 1. Klicka på **Klar**.
 
 
-**Överordnat ämne:**&#x200B;[ Massaktivering av publicerat innehåll](conf-bulk-activation.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Massaktivering av publicerat innehåll](conf-bulk-activation.md)

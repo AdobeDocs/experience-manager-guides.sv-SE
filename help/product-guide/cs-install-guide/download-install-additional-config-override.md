@@ -65,4 +65,4 @@ Så här konfigurerar du användargränssnittet i Experience Manager Guides:
 
 
 
-**Överordnat ämne:**&#x200B;[ Hämta och installera](download-install.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Hämta och installera](download-install.md)

@@ -61,4 +61,4 @@ Följ de här stegen för att skapa förinställningar för DITA-kartan:
 
 ![](images/edit-preset_cs.png){width="550" align="left"}
 
-**Överordnat ämne:**&#x200B;[ Artikelbaserad publicering från webbredigeraren](web-editor-article-publishing.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Artikelbaserad publicering från webbredigeraren](web-editor-article-publishing.md)

@@ -81,4 +81,4 @@ Ange följande parametrar för att lägga till metadatainformation:
 - `<metadata node path>`: Fullständig mappsökväg inklusive filnamnet och dess metadatanod. Om du till exempel anger sökvägen som `http://192.168.1.1:4502/content/dam/projects/AEM-Guides/intro.xml/jcr:content/metadata` anges den angivna metadatainformationen för filen `intro.xml`.
 
 
-**Överordnat ämne:**&#x200B;[ Migrera befintligt innehåll](migrate-content.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Migrera befintligt innehåll](migrate-content.md)

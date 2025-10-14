@@ -40,7 +40,7 @@ Mer information om alternativmenyn för en fil finns i funktionsbeskrivningen f�
 
 Nu kan du lägga till en vattenstämpel i utdata från PDF i dokumentet som ännu inte är godkänt. Den här vattenstämpeln visas inte om du genererar PDF för dokumentet i dokumentet Godkänt. Du kan till exempel lägga till en vattenstämpel i Utkast för PDF.
 
-Mer information finns i [Lägga till en vattenstämpel i PDF-utdata för utkast ](../native-pdf/use-javascript-content-style.md#watermark-draft-document).
+Mer information finns i [Lägga till en vattenstämpel i PDF-utdata för utkast &#x200B;](../native-pdf/use-javascript-content-style.md#watermark-draft-document).
 
 ### Stöd för språkvariabler
 

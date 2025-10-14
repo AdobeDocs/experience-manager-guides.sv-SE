@@ -74,4 +74,4 @@ I webbredigeringsläget innehåller den högra panelen ikonerna Granska och Spå
 - **I**: Använd ett filter på kommentarerna. Du kan filtrera om du vill se kommentarer baserat på granskningstyp \(all, markerad, borttagen, infogad eller anteckningsbar), granskningsstatus \(all, godkänd, avvisad eller ingen\), granskare \(alla eller vissa granskare\)\) eller ämnesversioner.
 
 
-**Överordnat ämne:**&#x200B;[ Granska ämnen eller kartor](review.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Granska ämnen eller kartor](review.md)

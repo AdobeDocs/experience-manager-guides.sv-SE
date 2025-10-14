@@ -34,4 +34,4 @@ Utför följande steg för att generera utdata från panelen **Snabbgenerering**
 1. Klicka på **Generera** för att generera utdata för de valda förinställningarna. Ett meddelande om att det lyckades visas när utdata genererades. Ett felmeddelande visas om genereringen misslyckas. Du kan även visa felloggen för att se information om felet som uppstod under genereringsprocessen.
 1. Klicka på ikonen **Visa utdata** \( ![](images/view-output-icon.svg)\) för en viss förinställning för att visa utdata som genererats för förinställningen.
 
-**Överordnat ämne:**&#x200B;[ Arbeta med webbredigeraren](web-editor.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Arbeta med webbredigeraren](web-editor.md)

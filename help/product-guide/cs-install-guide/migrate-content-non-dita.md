@@ -128,7 +128,7 @@ Konverteringsprocessen omfattar följande åtgärder i serverdelen:
 - Skapa och validera enskilda DITA-ämnen och DITA-kartfiler.
 - Borttagning av temporära filer.
 
-I konverteringsprocessen måste du dessutom [Förbered InDesign-filer för konvertering](appendix.md#id195DBF0045Z) [appendix.md\#id195DBF0045Z](appendix.md#id195DBF0045Z) och [Förbered mappningsfilen för InDesign till DITA-migrering](appendix.md#id194AF0003HT) [appendix.md\#id194AF003HT&lbrace;5 ](appendix.md#id194AF0003HT) måste du följa den angivna proceduren för att köra konverteringsprocessen.
+I konverteringsprocessen måste du dessutom [Förbered InDesign-filer för konvertering](appendix.md#id195DBF0045Z) [appendix.md\#id195DBF0045Z](appendix.md#id195DBF0045Z) och [Förbered mappningsfilen för InDesign till DITA-migrering](appendix.md#id194AF0003HT) [appendix.md\#id194AF003HT&lbrace;5 &#x200B;](appendix.md#id194AF0003HT) måste du följa den angivna proceduren för att köra konverteringsprocessen.
 
 Följ de här stegen för att konvertera befintliga InDesigner till ämnesdokument i DITA:
 
@@ -175,7 +175,7 @@ Följ de här stegen för att konvertera befintliga InDesigner till ämnesdokume
 
      >[!NOTE]
      >
-     > Mer information om strukturen för filen `stmap.adobeidml.xml` och hur du kan anpassa den finns i avsnittet [ appendix.md\#id194AF0003HT](appendix.md#id194AF0003HT) i bilagan.
+     > Mer information om strukturen för filen `stmap.adobeidml.xml` och hur du kan anpassa den finns i avsnittet [&#x200B; appendix.md\#id194AF0003HT](appendix.md#id194AF0003HT) i bilagan.
 
 1. Spara filen `idml2dita_io.xml`.
 
@@ -396,4 +396,4 @@ Så här konverterar du dina befintliga strukturerade dokument till DITA-format:
 
 Med `<config> </config>`-blocket kan du definiera ett eller flera block med konfigurationer för konvertering. Konverteringsarbetsflödet körs och det slutliga resultatet i form av ett DITA-avsnitt sparas på den plats som anges i `outputDir`-elementet.
 
-**Överordnat ämne:**&#x200B;[ Migrera befintligt innehåll](migrate-content.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Migrera befintligt innehåll](migrate-content.md)

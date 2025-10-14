@@ -115,4 +115,4 @@ När du öppnar en fil i Redigeraren kan du hitta filen i databasvyn i Experienc
 Du kan inaktivera funktionen för att hitta filen med alternativet **Hitta alltid filer i databasen** på fliken **Utseende** i **Användarinställningarna**.
 
 
-**Överordnat ämne:**&#x200B;[ Arbeta med redigeraren](web-editor.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Arbeta med redigeraren](web-editor.md)

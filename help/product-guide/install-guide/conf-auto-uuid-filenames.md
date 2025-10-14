@@ -37,4 +37,4 @@ Utför följande steg för att automatiskt tilldela det UUID-baserade filnamnet 
 >
 > Som standard är det här alternativet inaktiverat. När det här alternativet är aktiverat kan författare inte ange filnamnet när de skapar ett nytt ämne eller en ny mappningsfil. Du kan skapa ett nytt ämne eller en ny mappfil från Assets-gränssnittet och webbredigeraren.
 
-**Överordnat ämne:**&#x200B;[ Konfigurera filnamn](conf-file-names.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Konfigurera filnamn](conf-file-names.md)

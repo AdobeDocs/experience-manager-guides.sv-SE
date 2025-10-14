@@ -270,4 +270,4 @@ Så här skickar du ett eller flera avsnitt tillsammans med kartfilen för grans
 
 Ett e-postmeddelande skickas till alla granskare som meddelar att de har tilldelats ämnen för granskning. E-postmeddelandet innehåller en direkt länk som de kan använda för att komma åt ämnet i ett webbläsarfönster. Ämnen tillsammans med DITA-kartan öppnas i granskningsläget.
 
-**Överordnat ämne:**&#x200B;[ Introduktion till granskning](review.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Introduktion till granskning](review.md)

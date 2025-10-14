@@ -119,4 +119,4 @@ Om `((inherited_page_properties.jcr:language))` matchar `en` visas utdata:
 ### Resurser
 
 Mer information om **Sammanhangsberoende innehållsvariabler** finns i den officiella dokumentationen:\
-[Sammanhangsberoende innehållsvariabler i AEM ](https://adobe-consulting-services.github.io/acs-aem-commons/features/contextual-content-variables/index.html)
+[Sammanhangsberoende innehållsvariabler i AEM &#x200B;](https://adobe-consulting-services.github.io/acs-aem-commons/features/contextual-content-variables/index.html)

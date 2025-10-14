@@ -149,4 +149,4 @@ På samma sätt som du avbryter en utdatagenereringsaktivitet från [DITA-kartko
 
 ![](images/cancel-publish-task-map-collection.png){align="left"}
 
-**Överordnat ämne:**&#x200B;[ Utdatagenerering](generate-output.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Utdatagenerering](generate-output.md)

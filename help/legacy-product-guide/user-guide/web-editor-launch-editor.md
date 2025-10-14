@@ -125,4 +125,4 @@ Så här öppnar du Web Editor från DITA-kartkonsolen:
    > Om administratören har konfigurerat alternativet **Inaktivera redigering utan utcheckning** måste du checka ut filen innan du redigerar. Om du inte checkar ut filen öppnas dokumentet i redigeraren i skrivskyddat läge.
 
 
-**Överordnat ämne:**&#x200B;[ Arbeta med webbredigeraren](web-editor.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Arbeta med webbredigeraren](web-editor.md)

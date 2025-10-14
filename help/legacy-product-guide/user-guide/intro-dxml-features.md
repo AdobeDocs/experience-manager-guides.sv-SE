@@ -76,4 +76,4 @@ Nedan följer en lista över andra användbara resurser i AEM Guides som finns p
 * Snabbstartsguide
 * [Hjälp* Arkiveringssida](https://helpx.adobe.com/se/xml-documentation-for-experience-manager/archive.html) (använd äldre versionsdokumentation)
 
-**Överordnat ämne:**&#x200B;[ Om Adobe Experience Manager Guides as a Cloud Service](../user-guide/intro.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Om Adobe Experience Manager Guides as a Cloud Service](../user-guide/intro.md)

@@ -42,4 +42,4 @@ Så här skapar du en AEM webbplats för publicering av artikelbaserade utdata:
 
 Du kan använda den AEM webbplatsen för att publicera artikeln med hjälp av förinställningarna från Web Editor.
 
-**Överordnat ämne:**&#x200B;[ Anpassa Web Editor](conf-web-editor.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Anpassa Web Editor](conf-web-editor.md)

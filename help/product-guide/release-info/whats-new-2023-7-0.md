@@ -39,7 +39,7 @@ Nu gör AEM Guides granskningarna smidigare. Här finns panelen Recensioner i We
 
 Som författare kan du använda den här funktionen för att enkelt öppna granskningsuppgifterna, visa kommentarerna och snabbt hantera kommentarerna i en centraliserad vy.
 ![](assets/active-review-task-comments.png){width="800" align="left"}
-Mer information finns i beskrivningen av funktionen **Granska** i avsnittet [ Vänster panel ](../user-guide/web-editor-features.md#id2051EA0M0HS) .
+Mer information finns i beskrivningen av funktionen **Granska** i avsnittet [&#x200B; Vänster panel &#x200B;](../user-guide/web-editor-features.md#id2051EA0M0HS) .
 
 
 ## Förbättringar av kartsamling

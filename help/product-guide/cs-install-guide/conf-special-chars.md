@@ -46,4 +46,4 @@ Strukturen för filen `symbols.json` förklaras nedan:
   Du kan definiera flera definitioner av specialtecken i en kategori.
 
 
-**Överordnat ämne:**&#x200B;[ Anpassa Web Editor](conf-web-editor.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Anpassa Web Editor](conf-web-editor.md)

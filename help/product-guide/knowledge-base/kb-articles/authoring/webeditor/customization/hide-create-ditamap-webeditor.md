@@ -132,7 +132,7 @@ Det här användningsfallet har lagts till i GIT, se relaterade resurser nedan.
 
 - **Dokumenterade användningsfall** - [på Experience League](../../../../../guides-ui-extensions/aem_guides_framework/jui-framework.md)
 
-- **Offentlig databas med exempel** - [ i GIT](https://github.com/adobe/guides-extension/tree/sc-expert-session). Se session mellan en filial och en expert
+- **Offentlig databas med exempel** - [&#x200B; i GIT](https://github.com/adobe/guides-extension/tree/sc-expert-session). Se session mellan en filial och en expert
 
 ```
 

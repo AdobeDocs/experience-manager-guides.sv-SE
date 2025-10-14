@@ -49,7 +49,7 @@ Så här skapar du AEM Sites-förinställningen med hjälp av sammansatt kompone
    Förinställningen för AEM Sites skapas.
 
 
-   ![Nytt ](images/new-aem-sites-dialog-box.png){width="300" align="left"}
+   ![Nytt &#x200B;](images/new-aem-sites-dialog-box.png){width="300" align="left"}
 
 <!-----------------------
 ### Generate the AEM Sites output using the templates
@@ -88,7 +88,7 @@ I kartkonsolen ordnas de förinställda konfigurationsalternativen för sammansa
 - Ämneslista
 - Korsmappningsreferenser
 
-![Nytt ](images/aem-sites-new-config.png){width="650" align="left"}
+![Nytt &#x200B;](images/aem-sites-new-config.png){width="650" align="left"}
 
 **Allmänt**
 
@@ -153,7 +153,7 @@ I kartkonsolen ordnas de förinställda konfigurationsalternativen för äldre k
 - Innehåll
 - Korsmappningsreferenser
 
-![Nytt ](images/aem-sites-preset-legacy-config.png){width="500" align="left"}
+![Nytt &#x200B;](images/aem-sites-preset-legacy-config.png){width="500" align="left"}
 
 **Allmänt**
 
@@ -171,7 +171,7 @@ Fliken **Allmänt** innehåller följande konfigurationsalternativ:
 
 **Innehåll**
 
-![Nytt ](images/aem-sites-content-tab.png){width="650" align="left"}
+![Nytt &#x200B;](images/aem-sites-content-tab.png){width="650" align="left"}
 
 Fliken **Innehåll** innehåller följande konfigurationsalternativ:
 

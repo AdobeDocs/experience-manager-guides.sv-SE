@@ -48,7 +48,7 @@ Så här skapar du en gruppaktiveringskarta:
 
 DITA-kartfilerna läggs till i din gruppaktiveringskarta.
 
-![ skapade massaktiveringssamlingen ](images/bulk-activation-collection-created.png){align="left"}
+![&#x200B; skapade massaktiveringssamlingen &#x200B;](images/bulk-activation-collection-created.png){align="left"}
 
 ## Fliken Kartor och förinställningar
 
@@ -87,7 +87,7 @@ Fliken **Granskningshistorik** innehåller information om aktiverade mapputdata 
 
 - **Ändrad**: Anger om DITA-kartan uppdaterades efter den senaste publikationen. Baserat på den här informationen kan du bestämma om du vill aktivera utdata för den här DITA-kartan.
 - **Publicerad**: Visar datum och tid för det senaste publicerade (eller aktiverade) resultatet. Om du markerar länken visas sidan Aktiveringsresultat, som innehåller loggarna med information om rotsökvägen där innehållet aktiveras.
-  ![ skapade en samlingens granskningshistorik för gruppaktivering ](images/bulk-collection-audit-history.png){align="left"}
+  ![&#x200B; skapade en samlingens granskningshistorik för gruppaktivering &#x200B;](images/bulk-collection-audit-history.png){align="left"}
 
   *Visa information om aktiverade mapputdata på fliken **Granskningshistorik**.*
 

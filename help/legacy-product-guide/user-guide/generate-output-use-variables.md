@@ -31,4 +31,4 @@ I följande tabell visas de variabler som stöds i paketet:
 | `${system_time}` | Använder den aktuella servertiden för att skapa målsökvägen. | **DITA-mappningsfilens namn:** <br>`SampleDita.ditamap` <br> <br> **Sökväg till DITA-mappningsfil:** <br>`/content/dam/projects/AEM-Guides/en/user-guide/` <br><Br>**Målsökväg** konfigurerad som: <br> `/content/output/sites/${system_time}`<br><br>**Slutlig utdataplats:**<br>`/content/output/sites/055612/SampleDita.html` |
 
 Dessutom kan du använda metadata som definierats för DITA-kartan eller bokmappsfilen som variabler. Metadata finns under noden `/jcr:content/metadata` i DITA-mappnings- eller bokmappfilen. En av metadataegenskaperna som definieras i noden `/jcr:content/metadata` är till exempel `dc:title`. Du kan ange `${dc:title}` och titelvärdet används i det slutliga resultatet.
-**Överordnat ämne:**&#x200B;[ Utdatagenerering](generate-output.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Utdatagenerering](generate-output.md)

@@ -85,7 +85,7 @@ Innan du fortsätter med installationen bör du kontrollera att följande krav �
    2. Skapa en ny produktsida under OTB-webbplatsens struktur.
    3. Navigera till **AEMG-dokument** > **Engelska** > **Dokument**.
 
-      ![Skapa sida i AEM platsstruktur ](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-new-page.png){width="350" align="left"}
+      ![Skapa sida i AEM platsstruktur &#x200B;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-new-page.png){width="350" align="left"}
 
    4. Markera rutan **Hemsida** och välj sedan **Nästa**.
 

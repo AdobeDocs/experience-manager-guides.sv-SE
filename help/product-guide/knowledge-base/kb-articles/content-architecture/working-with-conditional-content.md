@@ -24,14 +24,14 @@ ht-degree: 0%
 **Steg 1**
 
 Definiera villkor som är relevanta för dokumentationen i [!UICONTROL Folder Profiles]:
-Se avsnittet **Konfigurera villkorliga attribut för globala profiler eller profiler på mappnivå** på [sidan 69 i installations- och konfigurationshandboken ](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_Installation-Configuration-Guide_EN.pdf)
+Se avsnittet **Konfigurera villkorliga attribut för globala profiler eller profiler på mappnivå** på [sidan 69 i installations- och konfigurationshandboken &#x200B;](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_Installation-Configuration-Guide_EN.pdf)
 
 ![Konfigurera villkor i mappprofiler](assets/conditions-in-profiles.png)
 
 **Steg 2**
 
 Markera **[!UICONTROL Folder Profile]** som definieras i steg 1 i **Användarinställningar** i XML-redigeraren:
-Se avsnittet **Användarinställningar** i [sidan 41 i användarhandboken ](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf)
+Se avsnittet **Användarinställningar** i [sidan 41 i användarhandboken &#x200B;](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_User-Guide_EN.pdf)
 
 
 **Steg 3**

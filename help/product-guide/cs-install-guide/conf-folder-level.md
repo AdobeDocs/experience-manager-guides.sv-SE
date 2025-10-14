@@ -411,7 +411,7 @@ Om du har uppdaterat en befintlig förinställning eller vill göra en ny förin
 
 ## Konfigurera AI Assistant för smart hjälp och redigering
 
-För Experience Manager Guides as a Cloud Service (![AEM cloud ](assets/aem-cloud-icon.svg)).
+För Experience Manager Guides as a Cloud Service (![AEM cloud &#x200B;](assets/aem-cloud-icon.svg)).
 
 AI Assistant i Adobe Experience Manager Guides är ett kraftfullt, AI-drivet verktyg som har utformats för att förbättra ditt innehåll genom smart redigering och återanvändning av innehåll. Här finns två kraftfulla AI-funktioner - **Redigering** och **Hjälp** - i Experience Manager Guides-gränssnittet, så att du kan skapa dokument och få tillgång till information snabbare och effektivare.
 
@@ -454,7 +454,7 @@ Läs mer om hur du visar och lägger till [AI-baserade smarta förslag](../user-
 
 **Anpassa standardfrågorna för smart hjälp**
 
-För Experience Manager Guides as a Cloud Service (![AEM cloud ](assets/aem-cloud-icon.svg)).
+För Experience Manager Guides as a Cloud Service (![AEM cloud &#x200B;](assets/aem-cloud-icon.svg)).
 
 Du kan konfigurera den AI-baserade smarta **hjälpen** så att författarna kan ställa frågor och enkelt hitta det innehåll som krävs från [Experience Manager Guides-dokumentationen](https://experienceleague.adobe.com/sv/docs/experience-manager-guides/using/overview).
 

@@ -198,4 +198,4 @@ Klicka på **Uppdatera** för att få en ny lista över brutna länkar och visa 
 1. Klicka på **Hämta CSV** om du vill hämta den aktuella ögonblicksbilden av de brutna länkarna i DITA-kartan. CSV-filen innehåller de markerade kolumnerna och de brutna länkarna som filtreras i vyn Brutna länkar. Du kan sedan öppna och visa den här CSV-filen i valfri CSV-redigerare.
 
 
-**Överordnat ämne:**&#x200B;[ Rapporter](reports-intro.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Rapporter](reports-intro.md)

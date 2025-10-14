@@ -44,7 +44,7 @@ Under den här sessionen får du veta mer om:
 
 ## Relaterade resurser
 
-- **Konfigurera datakällanslutning** - [ på Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-data-source-connector-tools.html?lang=sv-SE)
+- **Konfigurera datakällanslutning** - [&#x200B; på Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides/using/install-guide/cs-ig/web-editor-configs-cs/conf-data-source-connector-tools.html?lang=sv-SE)
 
 - **Dokumentation** - [på Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides/using/user-guide/author-content/create-preview-topics/author-content-aem-guides/work-with-web-editor/web-editor-content-snippet.html?lang=sv-SE)
 

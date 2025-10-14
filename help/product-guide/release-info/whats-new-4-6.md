@@ -187,7 +187,7 @@ Nu får du en bättre upplevelse när du filtrerar filer. Den förbättrade funk
 
 Få snabbare åtkomst till relevanta filer och ett mer intuitivt användargränssnitt, vilket gör sökningen smidigare och effektivare.
 
-![snabbsökningsfilter ](assets/repository-filter-search-quick.png) {width="300" align="left"}
+![snabbsökningsfilter &#x200B;](assets/repository-filter-search-quick.png) {width="300" align="left"}
 
 *Använd snabbfiltren för att söka efter DITA- och icke-DITA-filer.*
 

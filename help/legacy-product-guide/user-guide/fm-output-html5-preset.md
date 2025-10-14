@@ -28,4 +28,4 @@ Följande alternativ är tillgängliga för HTML5-utdata:
 | Målsökväg | Den sökväg i din AEM-databas där HTML5-utdata lagras. |
 | Kör arbetsflöde efter generering | När du väljer det här alternativet visas en ny arbetsflödeslista som innehåller alla arbetsflöden som konfigurerats i AEM. Du måste välja ett arbetsflöde som du vill köra när arbetsflödet för generering av utdata har slutförts. |
 
-**Överordnat ämne:**&#x200B;[ Generera utdata för FrameMaker-dokument](fm-output-generatation.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Generera utdata för FrameMaker-dokument](fm-output-generatation.md)

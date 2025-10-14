@@ -25,12 +25,12 @@ Varje översättningsprojekt genererar flera användargrupper för åtkomst, vil
 - Markera alla projekt som&quot;inaktiva&quot; när översättningen är klar och godkänd. Projektet är fortfarande tillgängligt för granskning och markeras helt enkelt som inaktivt.
    - Följ dessa steg för att upprätthålla övergripande översättningsprestanda vid god hälsa.
 
-     ![Inaktivt översättningsprojekt ](../assets/translation/translation-project-image1.png)
+     ![Inaktivt översättningsprojekt &#x200B;](../assets/translation/translation-project-image1.png)
 
 - För äldre projektmapp, som är markerad som inaktiv, bör godkänd och granskad tas bort
    - Följ de här stegen för att behålla övergripande översättningsprestanda i god hälsa genom att rensa upp temporära översättningsfiler och användargrupper som är kopplade till den här projektmappen.
 
-     ![Ta bort översättningsprojekt och mapp ](../assets/translation/translation-project-image2.png)
+     ![Ta bort översättningsprojekt och mapp &#x200B;](../assets/translation/translation-project-image2.png)
 
 
 ## Om du är på, bygg 4.6 eller 2404 eller senare:
@@ -39,4 +39,4 @@ Du kan fortsätta att följa samma steg som ovan. Från och med version 4.6/2404
 
 Referens: [Ta bort eller inaktivera ett slutfört översättningsprojekt automatiskt](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/author-content/create-preview-topics/author-content-aem-guides/work-with-web-editor/translate-documents-web-editor#automatically-delete-or-disable-a-completed-translation-project)
 
-![Automatiska inställningar för att ta bort och inaktivera översättningsprojekt i AEM Guides ](../assets/translation/translation-project-image3.png)
+![Automatiska inställningar för att ta bort och inaktivera översättningsprojekt i AEM Guides &#x200B;](../assets/translation/translation-project-image3.png)

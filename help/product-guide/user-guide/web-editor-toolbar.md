@@ -84,7 +84,7 @@ Med funktionen **Versionshistorik** i redigeraren kan du kontrollera vilka versi
 
    Fliken **Metadata**: De nya metadata som har lagts till är i grönt teckensnitt och de borttagna metadata är i rött teckensnitt.
 
-   ![Skillnad i metadata för versionerna ](images/metadata-version-diff.png){width="550" align="left"}
+   ![Skillnad i metadata för versionerna &#x200B;](images/metadata-version-diff.png){width="550" align="left"}
 
    *Jämför metadata för olika versioner i versionshistoriken.*
 
@@ -623,4 +623,4 @@ Om en fil är låst av en annan användare och du håller pekaren över låsikon
 Som administratör får du även åtkomst till funktionen **Tvinga upplåsning** som gör att du kan låsa upp filen som låsts av andra användare. Använd den här funktionen för att komma åt redigeringsrättigheterna för en fil som har låsts av andra användare.
 
 ![](images/web-editor-force-unlock-new.png){width="350" align="left"}
-**Överordnat ämne:**&#x200B;[ Introduktion till redigeraren](web-editor.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Introduktion till redigeraren](web-editor.md)

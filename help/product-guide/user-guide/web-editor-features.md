@@ -110,7 +110,7 @@ Alternativet **Inställningar** är bara tillgängligt för administratörer och
 Ändra format på citat. Välj den källstil i listrutan som du vill använda i ditt projekt. Mer information finns i [Ändra källhänvisningsformat](./web-editor-apply-citations.md#change-citation-style).
 
    - **AI-assistenten**
-Välj det här om du vill aktivera funktionen [ AI-assistenten ](./ai-assistant.md) i Experience Manager Guides. Avmarkera om du vill inaktivera funktionen.
+Välj det här om du vill aktivera funktionen [&#x200B; AI-assistenten &#x200B;](./ai-assistant.md) i Experience Manager Guides. Avmarkera om du vill inaktivera funktionen.
 
 **Paneler**: Den här inställningen kontrollerar panelerna som visas i den vänstra och högra panelen i redigeraren och kartekonsolen. Du kan växla knappen för att visa eller dölja den önskade panelen.
 
@@ -154,7 +154,7 @@ I skärmbilden nedan visas endast 3 av 4 konfigurerade element från den föreg�
 
      **Förutsättningar**
 
-      - Skapa en ansluten app för Salesforce. Mer information finns i [Aktivera OAuth-inställningar för API-integrering](https://help.salesforce.com/s/articleView?id=sf.connected_app_create_api_integration.htm&amp;type=5).
+      - Skapa en ansluten app för Salesforce. Mer information finns i [Aktivera OAuth-inställningar för API-integrering](https://help.salesforce.com/s/articleView?id=sf.connected_app_create_api_integration.htm&type=5).
 
       - När du konfigurerar den anslutna appen ska du se till följande:
 
@@ -341,7 +341,7 @@ Så här får du åtkomst till versionshistoriken och återgår till en specifik
 
    Fliken **Metadata**: De nya metadata som har lagts till är i grönt teckensnitt och de borttagna metadata är i rött teckensnitt.
 
-   ![Skillnad i metadata för versionerna ](images/metadata-version-diff.png){width="550" align="left"}
+   ![Skillnad i metadata för versionerna &#x200B;](images/metadata-version-diff.png){width="550" align="left"}
 
    *Jämför metadata för olika versioner i versionshistoriken.*
 
@@ -1000,7 +1000,7 @@ Du har följande alternativ för att filtrera filerna och begränsa sökningen i
 - **DITA-filer**: Du kan söka efter alla **DITA-avsnitt** och **DITA-kartor** som finns på den valda sökvägen. Dessa är markerade som standard.
 - **Icke-DITA-filer**: Du kan söka efter **Ditavala filer**, **Bildfiler**, **Multimedia**, **Dokument** och **JSON** i den valda sökvägen.
 
-  ![snabbsökningsfilter ](images/repository-filter-search-quick.png) {width="300" align="left"}
+  ![snabbsökningsfilter &#x200B;](images/repository-filter-search-quick.png) {width="300" align="left"}
 
   *Använd snabbfiltren för att söka efter DITA- och icke-DITA-filer.*
 
@@ -1975,7 +1975,7 @@ Du kommer åt funktionen **Innehållsegenskaper** genom att välja ikonen **Inne
 
 1. I listrutan **Attribut** väljer du attributet i listrutan och anger ett attributvärde.  Välj sedan **Lägg till**.
 
-   ![attributpanel med flera attribut ](images/attributes-multiple-properties.png){width="300" align="left"}
+   ![attributpanel med flera attribut &#x200B;](images/attributes-multiple-properties.png){width="300" align="left"}
 
 1. Om du vill redigera attributet för du pekaren över det och väljer **Redigera** ![redigeringsikon](images/edit_pencil_icon.svg) .
 

@@ -55,4 +55,4 @@ Så här skapar du en kartfil:
    > Om du vill använda den avancerade kartredigeraren öppnar du kartfilen i webbredigeraren. Om administratören har konfigurerat den avancerade kartredigeraren som standardredigerare i kartfilerna öppnas kartfilen direkt i den avancerade kartredigeraren för redigering. Se *Ange avancerad kartredigerare som standard* i Installera och konfigurera Adobe Experience Manager Guides as a Cloud Service.
 
 
-**Överordnat ämne:**&#x200B;[ Arbeta med kartredigeraren](map-editor.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Arbeta med kartredigeraren](map-editor.md)

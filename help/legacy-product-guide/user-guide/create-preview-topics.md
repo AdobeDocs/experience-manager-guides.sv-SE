@@ -21,4 +21,4 @@ AEM Guides har en kraftfull funktion för att skapa DITA-ämnen från Assets anv
 - **[Förhandsgranska ett ämne](web-editor-preview-topics.md)**
 
 
-**Överordnat ämne:**&#x200B;[ Författarinnehåll](authoring-content.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Författarinnehåll](authoring-content.md)

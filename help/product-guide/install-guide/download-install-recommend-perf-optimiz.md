@@ -115,4 +115,4 @@ Detta kan göras vid körning via Felix Console eller via koddistribution.
 Ett ökat antal **Begränsa AEM webbplatssidor i heap** -egenskapen optimerar genereringsprocessen för AEM.
 
 
-**Överordnat ämne:**&#x200B;[ Hämta och installera](download-install.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Hämta och installera](download-install.md)

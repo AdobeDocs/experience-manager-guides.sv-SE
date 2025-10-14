@@ -35,4 +35,4 @@ När du har installerat AEM Guides måste du kontrollera om installationen lycka
 >
 > Det finns ett antal rekommendationer för prestandaoptimering som du kan tänka dig för att förbättra systemets prestanda. Mer information finns i [Recommendations för prestandaoptimering](download-install-recommend-perf-optimiz.md#).
 
-**Överordnat ämne:**&#x200B;[ Hämta och installera](download-install.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Hämta och installera](download-install.md)

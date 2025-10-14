@@ -80,4 +80,4 @@ Så här konfigurerar du textfiltren:
 
 De konfigurerade filtren är tillgängliga på filterpanelen.
 
-**Överordnat ämne:**&#x200B;[ Anpassa Web Editor](conf-web-editor.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Anpassa Web Editor](conf-web-editor.md)

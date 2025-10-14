@@ -21,7 +21,7 @@ ht-degree: 0%
    - Introduktion {#about-aem-guide}
       - [Om [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - [!DNL AEM Guides] fungerar och nyckelfunktioner {#aemg-works-features}
-         - [Så här fungerar [!DNL AEM Guides] ](./user-guide/intro-how-dxml-works.md)
+         - [Så här fungerar [!DNL AEM Guides] &#x200B;](./user-guide/intro-how-dxml-works.md)
          - [Viktiga [!DNL AEM Guides] funktioner](./user-guide/intro-dxml-features.md)
    - Hantera innehåll {#manage-content}
       - [Viktiga begrepp, roller, behörigheter och krav](./user-guide/authoring.md)

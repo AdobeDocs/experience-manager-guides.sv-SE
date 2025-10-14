@@ -17,7 +17,7 @@ Gör så här för att öppna en DITA-kartfil i kartkonsolen:
 
 1. Öppna **kartkonsolen** från startsidan.
 
-   ![Nytt ](images/map-console-home-page.png){width="800"align="left"}
+   ![Nytt &#x200B;](images/map-console-home-page.png){width="800"align="left"}
 
 2. Eftersom ingen kartfil är markerad uppmanas du att välja en kartfil för att använda karthanterings- och publiceringsfunktionerna.
 
@@ -45,4 +45,4 @@ Du kan också öppna en befintlig kartfil i kartkonsolen från redigeraren.
 
    Kartfilen öppnas i kartkonsolen.
 
-   ![Nytt ](images/map-console.png){align="left"}
+   ![Nytt &#x200B;](images/map-console.png){align="left"}

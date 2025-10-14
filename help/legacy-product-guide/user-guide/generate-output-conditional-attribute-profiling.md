@@ -59,4 +59,4 @@ Attributet `platform` lagras i systemet. När en författare bestämmer sig för
 
 ![](images/properties-tab.png){width="350" align="left"}
 
-**Överordnat ämne:**&#x200B;[ Utdatagenerering](generate-output.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Utdatagenerering](generate-output.md)

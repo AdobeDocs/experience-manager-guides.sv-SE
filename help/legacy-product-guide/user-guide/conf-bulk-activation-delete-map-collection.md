@@ -33,4 +33,4 @@ Du kan ta bort en gruppaktiveringskarta när den inte längre behövs. Så här 
    Massaktiveringskartsamlingen tas bort från systemet.
 
 
-**Överordnat ämne:**&#x200B;[ Massaktivering av publicerat innehåll](conf-bulk-activation.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Massaktivering av publicerat innehåll](conf-bulk-activation.md)

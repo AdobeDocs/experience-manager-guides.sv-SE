@@ -124,7 +124,7 @@ Experience Manager Guides ger nu en förbättrad användarupplevelse när du ska
 Du kan också duplicera en baslinje baserat på etiketten. Referensversionen väljs baserat på den angivna etiketten (om den finns) när du duplicerar, eller också väljs versionen från den duplicerade baslinjen.
 
 
-![duplicera en baslinje ](assets/duplicate-baseline.png) {width="300" align="left"}
+![duplicera en baslinje &#x200B;](assets/duplicate-baseline.png) {width="300" align="left"}
 
 *Duplicera en baslinje baserat på en etikett eller skapa en exakt kopia.*
 
@@ -137,4 +137,4 @@ Korsmappslänkar (XREF med scope-peer) som återges i AEM webbplatsutdata tolkas
 
 ## Konfigurera URL:en för AEM som ska använda dokumenttiteln
 
-I Experience Manager Guides kan du som administratör konfigurera URL:en för AEM webbplatsutdata. Om filnamnet inte finns eller innehåller alla specialtecken kan du konfigurera så att de ersätts med en avgränsare i URL:en för AEM platsutdata. Du kan även ersätta dem med namnet på det första underordnade ämnet. Lär dig hur du [konfigurerar URL:en för AEM webbplatsutdata så att dokumenttiteln ](../cs-install-guide/conf-output-generation.md#configure-the-url-of-the-aem-site-output-to-use-the-document-title) används.
+I Experience Manager Guides kan du som administratör konfigurera URL:en för AEM webbplatsutdata. Om filnamnet inte finns eller innehåller alla specialtecken kan du konfigurera så att de ersätts med en avgränsare i URL:en för AEM platsutdata. Du kan även ersätta dem med namnet på det första underordnade ämnet. Lär dig hur du [konfigurerar URL:en för AEM webbplatsutdata så att dokumenttiteln &#x200B;](../cs-install-guide/conf-output-generation.md#configure-the-url-of-the-aem-site-output-to-use-the-document-title) används.

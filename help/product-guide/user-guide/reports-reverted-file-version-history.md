@@ -57,4 +57,4 @@ Utför följande steg för att komma åt rapporten Återgå historik:
    - **Kommentar**: Alla kommentarer från den användare som återställde filen.
 
 
-**Överordnat ämne:**&#x200B;[ Introduktion till rapporter](reports-intro.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Introduktion till rapporter](reports-intro.md)

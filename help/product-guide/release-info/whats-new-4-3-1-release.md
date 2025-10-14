@@ -94,7 +94,7 @@ Mer information om hur du hanterar hierarkiska definitioner för ämnesdefinitio
 
 Använd snabbmenyn för att snabbt förhandsgranska filen (.dita, .xml, audio, video eller image) utan att öppna den. Du kan nu ändra storlek på förhandsgranskningsfönstret, och om innehållet innehåller en referenslänk kan du markera den och öppna den på en ny flik.
 
-![Förhandsgranskningsfönster ](assets/quick-preview_cs.png){width="800" align="left"}
+![Förhandsgranskningsfönster &#x200B;](assets/quick-preview_cs.png){width="800" align="left"}
 
 *Förhandsgranska filen i rutan.*
 

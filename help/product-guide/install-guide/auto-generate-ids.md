@@ -45,4 +45,4 @@ Utför följande steg för att konfigurera element så att de har ett autogenere
 1. Klicka på **Spara**.
 
 
-**Överordnat ämne:**&#x200B;[ Anpassa Web Editor](conf-web-editor.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Anpassa Web Editor](conf-web-editor.md)

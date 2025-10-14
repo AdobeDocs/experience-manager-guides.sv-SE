@@ -45,7 +45,7 @@ Du kommer åt funktionen **Innehållsegenskaper** genom att välja ikonen **Inne
 
 1. I listrutan **Attribut** väljer du attributet i listrutan och anger ett attributvärde.  Välj sedan **Lägg till**.
 
-   ![attributpanel med flera attribut ](images/attributes-multiple-properties.png){width="300" align="left"}
+   ![attributpanel med flera attribut &#x200B;](images/attributes-multiple-properties.png){width="300" align="left"}
 
 1. Om du vill redigera attributet för du pekaren över det och väljer **Redigera** ![redigeringsikon](images/edit_pencil_icon.svg) .
 
@@ -141,4 +141,4 @@ Läs mer om hur du arbetar med Schematron-filer i Experience Manager Guides i [S
 
 
 
-**Överordnat ämne:**&#x200B;[ Introduktion till redigeraren](web-editor.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Introduktion till redigeraren](web-editor.md)

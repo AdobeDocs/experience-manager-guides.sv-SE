@@ -33,7 +33,7 @@ Installation och konfiguration, se: [4.1 installation och konfigurationer](https
 
 ### FMPS
 
-För FMPS-installation kan du hänvisa till angiven [YouTube-länk](https://www.youtube.com/watch?v=2deelyM5VA8&amp;t) eller [FMPS-installation och konfiguration](https://help.adobe.com/en_US/framemaker/server/index.html#t=fmps-user-guide%2Finstall_config_fmps.html%23install_config_fmps&amp;rhtocid=_2)
+För FMPS-installation kan du hänvisa till angiven [YouTube-länk](https://www.youtube.com/watch?v=2deelyM5VA8&t) eller [FMPS-installation och konfiguration](https://help.adobe.com/en_US/framemaker/server/index.html#t=fmps-user-guide%2Finstall_config_fmps.html%23install_config_fmps&amp;rhtocid=_2)
 
 ## Nödvändiga konfigurationer
 
@@ -41,7 +41,7 @@ FrameMaker Publishing Server (FMPS) kan användas för att generera DITA-innehå
 
 Öppna webbkonsolen genom att gå till http://\&lt;servernamn\>:\&lt;port\>/system/console/configMgr.
 
-**Konfigurationsegenskaper och deras beskrivning** [ 4.1-installation och konfiguration](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-1-2/Adobe-Experience-Manager-Guides_Installation-Configuration-Guide_EN.pdf#page=89)
+**Konfigurationsegenskaper och deras beskrivning** [&#x200B; 4.1-installation och konfiguration](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-1-2/Adobe-Experience-Manager-Guides_Installation-Configuration-Guide_EN.pdf#page=89)
 
 ## Kör test:
 
@@ -95,6 +95,6 @@ Du kan publicera baslinjer som du redan skapat med FMPS2020.0.2 eller senare.
 
 [AEM Guides studiematerial och support](https://helpx.adobe.com/in/support/xml-documentation-for-experience-manager.html)
 
-[FrameMaker- och FMPS-community](https://community.adobe.com/t5/framemaker/ct-p/ct-framemaker?page=1&amp;sort=latest_replies&amp;lang=all&amp;tabid=all)
+[FrameMaker- och FMPS-community](https://community.adobe.com/t5/framemaker/ct-p/ct-framemaker?page=1&sort=latest_replies&lang=all&tabid=all)
 
 [AEM Guides Community](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation)

@@ -27,7 +27,7 @@ Nu kan du förbättra redigeringsprocessen med smarta förslag, en ny AI-baserad
 
 För att innehållet ska bli korrekt och konsekvent begränsas sökningen och förslagen till det innehåll som ägs av organisationen och är nära matchade med de nyckelord som du söker efter.
 
-![Panelen Smarta förslag i Web Editor ](assets/web-editor-smart-suggestion.png) {width="800" align="left"}
+![Panelen Smarta förslag i Web Editor &#x200B;](assets/web-editor-smart-suggestion.png) {width="800" align="left"}
 
 
 *Visa smarta förslag för att hitta och lägga till matchande innehållsreferenser från din innehållsdatabas.*

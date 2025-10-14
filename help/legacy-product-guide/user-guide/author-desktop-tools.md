@@ -19,4 +19,4 @@ AEM Guides stöder också redigering med verktyg som Adobe FrameMaker och Oxygen
 - **[Arbeta med syre](author-desktop-oxygen.md)**
 
 
-**Överordnat ämne:**&#x200B;[ Författarinnehåll](authoring-content.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Författarinnehåll](authoring-content.md)

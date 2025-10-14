@@ -41,7 +41,7 @@ Följ de här stegen för att skapa förinställningar för DITA-kartan:
    Förinställningen för kunskapsbasen skapas.
 
 
-   ![Nytt ](images/knowledge-base-preset-dialog-box.png){align="left"}
+   ![Nytt &#x200B;](images/knowledge-base-preset-dialog-box.png){align="left"}
 
 När du har skapat förinställningen kan du generera utdata för specifika kunskapsbasartiklar. Om du vill göra det går du till fliken **Artiklar** och markerar de ämnen som du vill generera utdata för.
 1. Välj **Generera utdata** längst upp för att generera utdata.
@@ -50,7 +50,7 @@ När du har skapat förinställningen kan du generera utdata för specifika kuns
 
 1. Markera de filer som du vill publicera och bekräfta genom att välja **Publicera** i **Bekräfta filer för publicering** .
 
-   ![Nytt ](images/knowledge-base-confirm-files-for-publishing.png){align="left"}
+   ![Nytt &#x200B;](images/knowledge-base-confirm-files-for-publishing.png){align="left"}
 
 Du visar status för genereringsprocessen för utdata. Kolumnen **Ämnen** visar ämnen som utdata genereras för medan kolumnen **Status** visar publiceringsstatusen för varje ämne.
 
@@ -66,4 +66,4 @@ Om du vill visa utdata stänger du dialogrutan Genererade utdata och väljer **V
 
 
 
-**Överordnat ämne:**&#x200B;[ Artikelbaserad publicering från redigeraren](web-editor-article-publishing.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Artikelbaserad publicering från redigeraren](web-editor-article-publishing.md)

@@ -21,4 +21,4 @@ Experience Manager Guides levereras med de tre färdiga redigeringsprogrammen. k
 
 
 
-**Överordnat ämne:**&#x200B;[ Författarinnehåll](authoring-content.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Författarinnehåll](authoring-content.md)

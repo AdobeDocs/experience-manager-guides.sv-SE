@@ -63,4 +63,4 @@ Utför följande steg för att visa rapporten för återanvändning av innehåll
 >
 > Du kan också exportera återanvändningsrapporten för innehåll i CSV-format. Klicka på länken Exportera till CSV längst upp till vänster på skärmen och välj en plats där du vill spara CSV-filen. Du kan sedan öppna den här CSV-filen i valfri CSV-redigerare.
 
-**Överordnat ämne:**&#x200B;[ Rapporter](reports-intro.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Rapporter](reports-intro.md)

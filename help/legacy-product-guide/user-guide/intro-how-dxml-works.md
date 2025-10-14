@@ -19,4 +19,4 @@ I följande diagram visas hur AEM Guides fungerar tillsammans med AEM och en DIT
 ![](images/xml-add-on-how-it-works.png){width="800" align="center"}
 
 
-**Överordnat ämne:**&#x200B;[ Om Adobe Experience Manager Guides as a Cloud Service](../user-guide/intro.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Om Adobe Experience Manager Guides as a Cloud Service](../user-guide/intro.md)

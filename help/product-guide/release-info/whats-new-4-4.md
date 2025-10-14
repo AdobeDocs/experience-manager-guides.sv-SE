@@ -33,7 +33,7 @@ Läs mer om funktionsbeskrivningen för **versionshistorik** i avsnittet [Vänst
 
 Du kan definiera villkorsattribut i dina DITA-avsnitt. Använd sedan villkorsattributen i villkorsförinställningen för att publicera innehållet i en DITA-karta. Experience Manager Guides har nu också en förbättrad upplevelse i webbredigeraren, som hjälper dig att skapa och hantera villkorsförinställningar mer effektivt. Du kan också enkelt redigera, duplicera eller ta bort dem.
 
-![Förinställda villkor på fliken Hantera i webbredigeraren ](assets/web-editor-manage-condition-presets.png){width="550" align="left"}
+![Förinställda villkor på fliken Hantera i webbredigeraren &#x200B;](assets/web-editor-manage-condition-presets.png){width="550" align="left"}
 
 Mer information finns i [Använd förinställningar för villkor](../user-guide/generate-output-use-condition-presets.md).
 
@@ -80,7 +80,7 @@ Alternativen **Manuell uppdatering** och **Automatisk uppdatering** är mer intu
 Du kan också duplicera en baslinje baserat på etiketten. Referensversionen väljs baserat på den angivna etiketten (om den finns) när du duplicerar, eller också väljs versionen från den duplicerade baslinjen.
 
 
-![duplicera en baslinje ](assets/duplicate-baseline.png) {width="300" align="left"}
+![duplicera en baslinje &#x200B;](assets/duplicate-baseline.png) {width="300" align="left"}
 
 *Duplicera en baslinje baserat på en etikett eller skapa en exakt kopia.*
 
@@ -176,7 +176,7 @@ Korsmappslänkar (XREF med scope-peer) som återges i AEM webbplatsutdata tolkas
 
 ## Konfigurera URL:en för AEM som ska använda dokumenttiteln
 
-I Experience Manager Guides kan du som administratör konfigurera URL:en för AEM webbplatsutdata. Om filnamnet inte finns eller innehåller alla specialtecken kan du konfigurera så att de ersätts med en avgränsare i URL:en för AEM platsutdata. Du kan även ersätta dem med namnet på det första underordnade ämnet. Lär dig hur du [konfigurerar URL:en för AEM webbplatsutdata så att dokumenttiteln ](../cs-install-guide/conf-output-generation.md#configure-the-url-of-the-aem-site-output-to-use-the-document-title) används.
+I Experience Manager Guides kan du som administratör konfigurera URL:en för AEM webbplatsutdata. Om filnamnet inte finns eller innehåller alla specialtecken kan du konfigurera så att de ersätts med en avgränsare i URL:en för AEM platsutdata. Du kan även ersätta dem med namnet på det första underordnade ämnet. Lär dig hur du [konfigurerar URL:en för AEM webbplatsutdata så att dokumenttiteln &#x200B;](../cs-install-guide/conf-output-generation.md#configure-the-url-of-the-aem-site-output-to-use-the-document-title) används.
 
 
 ## Publish flera förinställningar parallellt

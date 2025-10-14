@@ -107,4 +107,4 @@ När du öppnar en fil i Web Editor kan du använda Experience Manager Guides f�
 Du kan inaktivera funktionen för att hitta filen med alternativet **Hitta alltid filer i databasen** på fliken **Utseende** i **Användarinställningarna**.
 
 
-**Överordnat ämne:**&#x200B;[ Arbeta med webbredigeraren](web-editor.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Arbeta med webbredigeraren](web-editor.md)

@@ -33,7 +33,7 @@ Så här skapar du AEM Sites-förinställningar i Web Editor:
 1. Välj **AEM Sites** i listrutan **Typ** i dialogrutan **Ny förinställning**.
 1. Avmarkera alternativet **Använd äldre komponentmappning** i dialogrutan **Ny förinställning** .
 
-![Nytt ](images/new-aem-sites-dialog-box.png)
+![Nytt &#x200B;](images/new-aem-sites-dialog-box.png)
 
 
 

@@ -68,7 +68,7 @@ Förutom att aktivera utdata för din massaktiveringssamling på publiceringsins
 Den här funktionen hjälper dig att aktivera ditt innehåll till en förhandsvisningsinstans, så att du kan kontrollera hur det ser ut och fungerar innan du aktiverar det till **Publish** -instansen.
 
 
-![ skapade en samlingens granskningshistorik för gruppaktivering ](assets/bulk-collection-audit-history.png){width="800" align="left"}
+![&#x200B; skapade en samlingens granskningshistorik för gruppaktivering &#x200B;](assets/bulk-collection-audit-history.png){width="800" align="left"}
 
 *Visa information om aktiverade mapputdata på fliken **Granskningshistorik**.*
 
@@ -160,7 +160,7 @@ Nu får du en bättre upplevelse när du filtrerar filer. Den förbättrade funk
 
 Få snabbare åtkomst till relevanta filer och ett mer intuitivt användargränssnitt, vilket gör sökningen smidigare och effektivare.
 
-![snabbsökningsfilter ](assets/repository-filter-search-quick.png) {width="300" align="left"}
+![snabbsökningsfilter &#x200B;](assets/repository-filter-search-quick.png) {width="300" align="left"}
 
 *Använd snabbfiltren för att söka efter DITA- och icke-DITA-filer.*
 

@@ -104,4 +104,4 @@ När ett dokument har markerats som godkänt går det inte längre att redigera.
    Dokumentets läge ändras till Utkast och dokumentet öppnas i webbredigeraren i redigeringsläge.
 
 
-**Överordnat ämne:**&#x200B;[ Arbeta med webbredigeraren](web-editor.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Arbeta med webbredigeraren](web-editor.md)

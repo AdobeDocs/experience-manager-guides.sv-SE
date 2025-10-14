@@ -227,4 +227,4 @@ För effektiv dokumenthantering kan Experience Manager Guides ta bort översätt
 Du kan även inaktivera översättningsprojekten om du vill använda dem senare. Om du tar bort ett projekt tas alla filer och mappar i projektet bort. Om du inaktiverar ett projekt tas det inte bort, utan behålls i databasen. Men du kan inte uppdatera eller redigera ett inaktiverat projekt.  Om du tar bort eller inaktiverar ett projekt påverkas inte översättningsstatusen för några referenser.
 
 
-**Överordnat ämne:**&#x200B;[ Arbeta med webbredigeraren](web-editor.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Arbeta med webbredigeraren](web-editor.md)

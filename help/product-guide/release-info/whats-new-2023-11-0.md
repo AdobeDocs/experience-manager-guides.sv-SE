@@ -66,7 +66,7 @@ Nu kan du välja standardsättet att visa filerna i Web Editor. Du kan visa fill
 
 Du kan definiera villkorsattribut i dina DITA-avsnitt. Använd sedan villkorsattributen i villkorsförinställningen för att publicera innehållet i en DITA-karta. I Experience Manager Guides kan du nu även skapa och hantera villkorsförinställningar från Web Editor. Du kan också enkelt redigera, duplicera eller ta bort dem.
 
-![Förinställda villkor på fliken Hantera i webbredigeraren ](assets/web-editor-manage-condition-presets.png){width="550" align="left"}
+![Förinställda villkor på fliken Hantera i webbredigeraren &#x200B;](assets/web-editor-manage-condition-presets.png){width="550" align="left"}
 
 Mer information finns i [Använd förinställningar för villkor](../user-guide/generate-output-use-condition-presets.md).
 

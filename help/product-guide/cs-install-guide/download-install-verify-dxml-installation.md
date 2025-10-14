@@ -29,4 +29,4 @@ När du har installerat AEM Guides måste du kontrollera om installationen lycka
    Statusen ska visa *Aktiv* för distribuerade paket. Om något av paketet inte har statusen Aktiv kontrollerar du AEM loggar för att felsöka installationsproblemet.
 
 
-**Överordnat ämne:**&#x200B;[ Hämta och installera](download-install.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Hämta och installera](download-install.md)

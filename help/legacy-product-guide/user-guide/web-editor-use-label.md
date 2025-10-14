@@ -58,4 +58,4 @@ Så här tar du bort en etikett:
    ![](images/delete-labels.png){width="300" align="left"}
 
 
-**Överordnat ämne:**&#x200B;[ Arbeta med webbredigeraren](web-editor.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Arbeta med webbredigeraren](web-editor.md)

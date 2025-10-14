@@ -240,4 +240,4 @@ Filen `ui_config.json` har tre avsnitt:
 1. Spara filen *ui\_config.json* och läs in webbredigeraren igen.
 
 
-**Överordnat ämne:**&#x200B;[ Anpassa Web Editor](conf-web-editor.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Anpassa Web Editor](conf-web-editor.md)

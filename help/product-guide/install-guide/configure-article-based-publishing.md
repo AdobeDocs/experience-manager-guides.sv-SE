@@ -21,4 +21,4 @@ Om du vill aktivera artikelbaserad publicering hämtar och installerar du följa
 - Kunskapsbasmall för artikelbaserad publicering
 - Komponentpaket för artikelbaserad publicering
 
-**Överordnat ämne:**&#x200B;[ Anpassa Web Editor](conf-web-editor.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Anpassa Web Editor](conf-web-editor.md)

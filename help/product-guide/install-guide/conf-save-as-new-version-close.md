@@ -37,4 +37,4 @@ När det här alternativet är markerat är kryssrutan **Spara som ny version** 
 
 Mer information finns i avsnittet *Stäng och spara scenarier* i Använda Adobe Experience Manager Guides as a Cloud Service Guide.
 
-**Överordnat ämne:**&#x200B;[ Anpassa Web Editor](conf-web-editor.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Anpassa Web Editor](conf-web-editor.md)

@@ -37,4 +37,4 @@ I det här avsnittet beskrivs hur du skapar en DITA-karta och sedan använder du
 - **[Andra funktioner i kartredigerarna](map-editor-other-features.md)**
 
 
-**Överordnat ämne:**&#x200B;[ Skapa innehåll med AEM Guides](authoring-content-xml-doc.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Skapa innehåll med AEM Guides](authoring-content-xml-doc.md)

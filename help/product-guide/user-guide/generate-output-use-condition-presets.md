@@ -169,4 +169,4 @@ Du kan ta bort en eller flera villkorsförinställningar från fliken **Villkors
 1. Välj knappen **Ta bort**.
 1. Bekräfta åtgärden genom att välja **Ta bort**.
 
-**Överordnat ämne:**&#x200B;[ Utdatagenerering](generate-output.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Utdatagenerering](generate-output.md)

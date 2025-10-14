@@ -20,4 +20,4 @@ I följande diagram visas hur Experience Manager Guides fungerar tillsammans med
 Om sessionen är inaktiv under en längre tid när du arbetar i ett arbetsflöde, utlöses en timeout-fråga för sessionen för att förhindra att innehåll går förlorat. Mer information finns i [Sessionstimeout](./session-timeout-prompt.md).
 
 
-**Överordnat ämne:**&#x200B;[ Om Adobe Experience Manager Guides as a Cloud Service](intro.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Om Adobe Experience Manager Guides as a Cloud Service](intro.md)

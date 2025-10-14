@@ -57,4 +57,4 @@ Följ de här stegen för att visa rapporten om konverteringsstatus:
       - **Utdata**: Sökväg till det konverterade dokumentet. Om du klickar på länken Utdata kommer du till den plats där utdata sparas.
 
 
-**Överordnat ämne:**&#x200B;[ Rapporter](reports-intro.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Rapporter](reports-intro.md)

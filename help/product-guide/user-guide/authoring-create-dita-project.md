@@ -76,4 +76,4 @@ Så här skapar du ett DITA-projekt:
 1. Välj **Öppna** för att öppna projektsidan.
 
 
-**Överordnat ämne:**&#x200B;[ Introduktion till granskning](review.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Introduktion till granskning](review.md)
