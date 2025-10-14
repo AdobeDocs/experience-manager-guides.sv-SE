@@ -155,7 +155,7 @@ Du har följande alternativ för att filtrera filerna och begränsa sökningen i
 - **DITA-filer**: Du kan söka efter alla **DITA-avsnitt** och **DITA-kartor** som finns på den valda sökvägen. Dessa är markerade som standard.
 - **Icke-DITA-filer**: Du kan söka efter **Ditavala filer**, **Bildfiler**, **Multimedia**, **Dokument** och **JSON** i den valda sökvägen.
 
-  ![snabbsökningsfilter ](images/repository-filter-search-quick.png) {width="300" align="left"}
+  ![snabbsökningsfilter &#x200B;](images/repository-filter-search-quick.png) {width="300" align="left"}
 
   *Använd snabbfiltren för att söka efter DITA- och icke-DITA-filer.*
 
@@ -1065,7 +1065,7 @@ Utför följande steg om du vill söka och ersätta globalt:
 
 Om du vill aktivera ikonen **Ersätt alla** måste systemadministratören markera alternativet **Aktivera Ersätt alla** på fliken **Allmänt** i **Workspace-inställningarna** (visas som **Inställningar** för **Lokalt**).
 
-    >[!OBS!]
+    >[ !OBS!]
     >
     > Hovra över en fil från sökresultatlistan för att visa ikonen Ersätt alla i fil till höger om den. Du kan också visa ikonen Ignorera fil för att ta bort filen från sökresultatet. De filer som du ignorerar tas bort från listan och den sökta termen ersätts inte i dem.
 
@@ -1142,4 +1142,4 @@ Så här visar du granskningskommentarerna i de aktiva granskningsuppgifterna so
 
 </details>
 
-**Överordnat ämne:**[ Introduktion till redigeraren](web-editor.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Introduktion till redigeraren](web-editor.md)

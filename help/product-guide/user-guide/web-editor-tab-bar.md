@@ -57,4 +57,4 @@ Ett kraftfullt, AI-drivet verktyg som har utformats för att öka produktivitete
 >
 > Om du använder Adobe Experience Manager Guides i en lokal konfiguration fortsätter alternativet Workspace-inställningar att visas som **Inställningar** på menyn Fler åtgärder.
 
-**Överordnat ämne:**[ Introduktion till redigeraren](web-editor.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Introduktion till redigeraren](web-editor.md)

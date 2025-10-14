@@ -146,7 +146,7 @@ Dessutom kan du visa följande ikoner och utföra relaterade uppgifter i rediger
 
 **Infoga före/Infoga efter** - ![](images/insert_element_before_icon.svg) / ![](images/insert_element_after_icon.svg)
 
-Visar elementet **Insert före eller **Insert efter dialogruta. Markera det element som du vill infoga på kartan. Beroende på åtgärden infogas det nya elementet före eller efter det aktuella elementet i kartan.
+Visar elementet **Insert före eller &#x200B;** Insert efter dialogruta. Markera det element som du vill infoga på kartan. Beroende på åtgärden infogas det nya elementet före eller efter det aktuella elementet i kartan.
 
 **Element** - ![](images/Add_icon.svg)
 

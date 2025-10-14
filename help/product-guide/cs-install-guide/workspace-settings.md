@@ -38,7 +38,7 @@ Med de allmänna inställningarna kan du konfigurera inställningarna så att de
 ![](../user-guide/images/editor-setting-general.png){width="350" align="left"}
 
 - **AI-assistenten**
-Välj det här om du vill aktivera funktionen [ AI-assistenten ](../user-guide/ai-assistant.md) i Experience Manager Guides. Avmarkera om du vill inaktivera funktionen.
+Välj det här om du vill aktivera funktionen [&#x200B; AI-assistenten &#x200B;](../user-guide/ai-assistant.md) i Experience Manager Guides. Avmarkera om du vill inaktivera funktionen.
 
   När du har aktiverat växeln **AI Assistant** kan du konfigurera vilka alternativ som ska visas under **redigeringsfliken** för författare med hjälp av menyn **Snabbåtgärder för redigering** som visas nedan.\
   De här ändringarna gäller för den specifika mappprofil som du arbetar med. Om du skapar en ny mappprofil ärver den Workspace-inställningarna som definierats i mappprofilen **Global** som standard. Du kan ändra inställningarna efter behov med **Workspace-inställningarna** och spara den uppdaterade konfigurationen.\

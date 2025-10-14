@@ -1,5 +1,5 @@
 ---
-title: Använd AI-assistenten för att skapa dokument smart `
+title: Använd AI-assistenten för att skapa dokument smart &grave;
 description: Lär dig hur du kan använda AI Assistant för att skapa dokument på ett smart sätt.
 exl-id: 47d37323-20bf-4444-a2c9-41c44b2c8daf
 source-git-commit: 8659035c57ce2b6f760b342fa9d88d656fcabf23
@@ -24,7 +24,7 @@ När du har markerat texten i ett ämne kan du välja att utföra någon av AI-a
 ## Föreslå återanvändbart innehåll
 
 
-Använd funktionen **Föreslå återanvändbart innehåll** ![ai föreslår återanvändbar innehållsikon ](./images/ai-suggest-reusable-content-icon.svg) för att skapa innehåll på ett konsekvent och korrekt sätt. Du kan markera innehållet och Experience Manager Guides ger förslag på hur du kan återanvända det befintliga innehållet i din databas.
+Använd funktionen **Föreslå återanvändbart innehåll** ![ai föreslår återanvändbar innehållsikon &#x200B;](./images/ai-suggest-reusable-content-icon.svg) för att skapa innehåll på ett konsekvent och korrekt sätt. Du kan markera innehållet och Experience Manager Guides ger förslag på hur du kan återanvända det befintliga innehållet i din databas.
 Läs mer om hur du använder [AI-baserade smarta förslag för att skapa innehåll](authoring-ai-based-smart-suggestions.md).
 
 

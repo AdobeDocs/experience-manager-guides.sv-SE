@@ -266,4 +266,4 @@ Du kan visa rapporten för brutna länkar genom att utföra följande steg:
 1. Välj **Hämta** om du vill hämta ögonblicksbilden av alla brutna länkar i DITA-kartan. Excel-filen innehåller de markerade kolumnerna och de brutna länkarna som filtreras i vyn Brutna länkar.
 
 
-**Överordnat ämne:**[ Introduktion till rapporter](reports-intro.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Introduktion till rapporter](reports-intro.md)
