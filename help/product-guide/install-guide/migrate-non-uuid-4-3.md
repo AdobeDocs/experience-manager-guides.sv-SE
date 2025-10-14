@@ -220,5 +220,5 @@ Mer information finns i [Rensa äldre versioner](../install-guide/version-manage
    > Om egenskapen **Använd titel för sidnamn på AEM-webbplatser** i `com.adobe.fmdita.config.ConfigManager` anges till *Falskt* före migreringen, måste den här egenskapen uppdateras efter migreringen.
 
 
-1. När valideringen är klar kan större delen av diskutrymmet återvinnas genom att en komprimering körs (se `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en`).
+1. När valideringen är klar kan större delen av diskutrymmet återvinnas genom att en komprimering körs (se `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=sv-SE`).
 
