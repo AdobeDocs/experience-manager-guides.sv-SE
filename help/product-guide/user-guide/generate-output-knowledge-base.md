@@ -4,9 +4,9 @@ description: Lär dig hur du skapar förinställningar för kunskapsbasen från 
 feature: Publishing
 role: User
 exl-id: 31fdfd96-377c-406b-96ed-59a80bf6e03e
-source-git-commit: 558cc1a724a483353eb5d912354e1ab37dab348a
+source-git-commit: 0d713f9ff4bd48aa90bce368d6ad7abf86ecbbf7
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: '1260'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ Följande konfigurationsalternativ visas för **ServiceNow** som mål:
 
 | ServiceNow-alternativ | Beskrivning |
 | --- | --- |
-| Publicera profil | Använd listrutan för att välja bland de ServiceNow-anslutningsprofiler som administratören konfigurerar. Mer information om hur administratören kan skapa en publiceringsprofil finns i funktionsbeskrivningen för **redigeringsinställningar** i avsnittet [Vänster panel](./web-editor-features.md#id2051EA0M0HS). |
+| Publicera profil | Använd listrutan för att välja bland de ServiceNow-anslutningsprofiler som administratören konfigurerar. Om du vill veta mer om hur administratören kan skapa en publiceringsprofil kan du visa funktionsbeskrivningen för **Workspace-inställningarna** (visas som **Inställningar** för **On-Prem**) i avsnittet [Vänster panel](./web-editor-features.md#id2051EA0M0HS). |
 | Knowledge Base | Använd det här fältet för att välja önskad ServiceNow Knowledge Base. Du kan konfigurera kunskapsbaser på ServiceNow-webbplatsen för att lagra innehållet baserat på behörigheter. Artiklarna från denna DITA-karta kan publiceras på dessa kunskapsbanker. |
 | Kategori och underkategori | Kategorierna är som hierarkiska träd som används för att hitta och klassificera artiklar i ServiceNow Knowledge Base. Lägg till en kategori och underkategori för att publicera ämnen och underämnen i innehållsförteckningen i den kategorin och underkategorin på ServiceNow-webbplatsen. |
 
@@ -96,7 +96,7 @@ Följande konfigurationsalternativ visas som mål för **Salesforce**:
 
 | Salesforce-alternativ | Beskrivning |
 | --- | --- |
-| Publicera profil | Använd listrutan för att välja bland de anslutningsprofiler för Salesforce som administratören konfigurerar. Mer information om hur administratören kan skapa en publiceringsprofil finns i funktionsbeskrivningen för **Inställningar** i avsnittet [Flikfält](./web-editor-features.md#tab-bar). |
+| Publicera profil | Använd listrutan för att välja bland de anslutningsprofiler för Salesforce som administratören konfigurerar. Om du vill veta mer om hur administratören kan skapa en publiceringsprofil kan du visa funktionsbeskrivningen för **Workspace-inställningarna** (visas som **Inställningar** för **Lokal**) i avsnittet [Tabbar](./web-editor-features.md#tab-bar). |
 | Posttyp | Använd listrutan för att välja bland de posttyper som har konfigurerats i Salesforce enligt synlighetsinställningarna som baseras på din användarprofil. Med posttyper i Salesforce kan du gruppera flera poster av samma typ för det objektet. De definierar hur publikationen är organiserad. Du kan till exempel välja Posttyp för vanliga frågor och publicera enligt sidlayouten och fälten för vanliga frågor. |
 | Artikelinnehållsfält | Du kan ha olika fält och en unik layout för varje posttypsmall. Använd dessa fält för att ange specifik information beroende på artikeltyp. Du kan till exempel visa en artikel med vanliga frågor och svar samt en ekvation. |
 | Kategorier | Välj en kategori i listrutan om du vill publicera ämnen i innehållsförteckningen i den kategorin på Salesforce webbplats. |

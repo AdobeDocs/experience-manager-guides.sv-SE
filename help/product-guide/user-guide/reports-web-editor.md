@@ -4,9 +4,9 @@ description: Generera DITA-kartrapporter från kartkonsolen i AEM Guides. Lär d
 exl-id: 2f202b41-85d9-4a5a-aa28-e25715ce5e2e
 feature: Report Generation
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 0d713f9ff4bd48aa90bce368d6ad7abf86ecbbf7
 workflow-type: tm+mt
-source-wordcount: '2568'
+source-wordcount: '2614'
 ht-degree: 0%
 
 ---
@@ -61,9 +61,8 @@ Du kan visa rapporten med ämneslistan för en karta genom att utföra följande
    - **Filplats** Ämnets fullständiga sökväg.
    - **Referenstyp** Referenstypen - direkt eller indirekt.
    - **Dokumenttillstånd** Ämnets tillstånd.
-   - **Författare** Användaren som arbetade senast med ämnet.
+   - **Författare** Användaren som arbetade senast med ämnet. Listan sidnumreras och läses in asynkront, med en begränsad uppsättning användare åt gången och fler hämtas när du rullar eller navigerar. Detta förbättrar inläsningshastigheten och övergripande prestanda, särskilt när du arbetar med ett stort antal användare.
    - **Överordnad karta** Listan över alla kartor där ämnet refereras direkt.
-
    >[!NOTE]
    >
    > Välj **Uppdatera** om du vill få en ny lista över ämnen och visa ändringar i kartfilen eller om en referens i ämnesfilen uppdateras.
@@ -149,7 +148,7 @@ Så här uppdaterar du metadata:
 
 Med den här funktionen kan du lägga till anpassade metadatakolumner efter behov, som sedan visas i metadatarapporten. Den ger också större flexibilitet vid rapportering av metadata. Så här lägger du till en ny anpassad metadatakolumn:
 
-1. Om du vill lägga till en anpassad metadatakolumn väljer du **Inställningar** från de tre punkterna i det övre högra hörnet på metadatasidan.
+1. Om du vill lägga till en anpassad metadatakolumn väljer du **Workspace-inställningar** (visas som **Inställningar** för **Lokal**) från de tre punkterna i det övre högra hörnet på metadatasidan.
 
    ![](images/custom-metadata-setting.png){width="600" align="left"}
 
@@ -207,7 +206,6 @@ På samma sätt kan du följa ovanstående steg för att lägga till nya anpassa
    - **Multimedietyp** \(vald som standard\) Multimedietyp. De tillgängliga alternativen är Ljud, Video eller Bild.
    - **Används i** \(markerat som standard\) Referenserna som multimediet har använts i. Du kan markera referensen för att redigera den.
    - **Referenstyp** \(valt som standard\) Referenstypen - direkt eller indirekt.
-
    >[!NOTE]
    >
    > Välj **Uppdatera** om du vill få en ny lista över multimedia och visa alla ändringar i kartfilen eller om några multimedia på din DITA-karta har uppdaterats.
@@ -268,4 +266,4 @@ Du kan visa rapporten för brutna länkar genom att utföra följande steg:
 1. Välj **Hämta** om du vill hämta ögonblicksbilden av alla brutna länkar i DITA-kartan. Excel-filen innehåller de markerade kolumnerna och de brutna länkarna som filtreras i vyn Brutna länkar.
 
 
-**Överordnat ämne:**&#x200B;[ Introduktion till rapporter](reports-intro.md)
+**Överordnat ämne:**[ Introduktion till rapporter](reports-intro.md)

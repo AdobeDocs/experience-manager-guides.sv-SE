@@ -4,9 +4,9 @@ description: Utforska andra funktioner i redigeraren i Adobe Experience Manager 
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: c8ea6eae180ce7045a0364713604711aae2bb6bd
+source-git-commit: b00f8ba0e27cc26c48e1b058e25c05c4b6e9dffd
 workflow-type: tm+mt
-source-wordcount: '2556'
+source-wordcount: '2652'
 ht-degree: 0%
 
 ---
@@ -246,8 +246,19 @@ Gör följande för att automatiskt generera ID för ett eller flera element:
 1. Markera innehållet som du vill tilldela ID:n till.
 1. Högerklicka och välj **Generera ID:n** på snabbmenyn.
 
-   Du kan också högerklicka i vägbeskrivningsfilen och välja **Generera ID**.
+Du kan också högerklicka i vägbeskrivningsfilen och välja **Generera ID**.
 
+## Identifiera duplicerade ID:n för element i en karta eller ett ämne i redigeringsvyn
+
+Om ett visst ämne eller en viss karta innehåller element med duplicerade ID:n visas knappen **Duplicera ID:n** längst ned till höger i området för innehållsredigering bredvid redigeringsvyerna.
+
+![](images/duplicate-element-IDs.png){width="350" align="left"}
+
+Om du väljer **Duplicerade ID:n** öppnas en portfölj med alla dubblett-ID:n. Du kan välja det visade ID:t från porten för att navigera till motsvarande element och uppdatera det med ett unikt ID.
+
+>[!NOTE]
+>
+> Knappen **Duplicera ID:n** är bara tillgänglig i vyn **Författare** och liknande element-ID:n tillåts i olika kapslade ämnen.
 
 
 ## Hantera stora filer i Redigeraren
@@ -268,4 +279,4 @@ De viktigaste funktionerna för att förbättra hanteringen av stora filer är f
 
 - Varningsmeddelandet är bara tillgängligt för DITA-filer och är synligt i alla vyer: Författare, Source och Layout.
 
-**Överordnat ämne:**&#x200B;[ Introduktion till redigeraren](web-editor.md)
+**Överordnat ämne:**[ Introduktion till redigeraren](web-editor.md)

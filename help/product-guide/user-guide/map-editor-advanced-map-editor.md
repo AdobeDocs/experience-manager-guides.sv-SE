@@ -4,9 +4,9 @@ description: Lär dig funktionerna i Kartredigeraren i Adobe Experience Manager 
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 02a149bbb40615c07d2744f0899a370c91eb83d2
+source-git-commit: 6235af9bf85b2d0e2007bd2279d8ac018f82ffc1
 workflow-type: tm+mt
-source-wordcount: '2578'
+source-wordcount: '2563'
 ht-degree: 0%
 
 ---
@@ -146,7 +146,7 @@ Dessutom kan du visa följande ikoner och utföra relaterade uppgifter i rediger
 
 **Infoga före/Infoga efter** - ![](images/insert_element_before_icon.svg) / ![](images/insert_element_after_icon.svg)
 
-Visar elementet **Insert före eller &#x200B;** Insert efter dialogruta. Markera det element som du vill infoga på kartan. Beroende på åtgärden infogas det nya elementet före eller efter det aktuella elementet i kartan.
+Visar elementet **Insert före eller **Insert efter dialogruta. Markera det element som du vill infoga på kartan. Beroende på åtgärden infogas det nya elementet före eller efter det aktuella elementet i kartan.
 
 **Element** - ![](images/Add_icon.svg)
 
@@ -343,12 +343,12 @@ På den högra panelen visas Innehållsegenskaper och Kartegenskaper i layoutvyn
 
 Panelen Innehållsegenskaper innehåller information om vilken typ av ämne som är markerat på kartan, dess länk-URL och dess attribut. Mer information finns i [Innehållsegenskaper](web-editor-features.md#right-panel) i redigeraren.
 
-- **Andra attribut** Om administratören har skapat en profil för attribut får du dessa attribut tillsammans med deras konfigurerade värden. Med innehållsegenskapspanelen kan du välja dessa attribut och tilldela dem till relevant innehåll i ditt ämne. Du kan också tilldela attribut som konfigurerats av administratören på fliken **Visningsattribut** i redigeringsinställningarna. De attribut som är definierade för ett element visas i layoutvyn och dispositionsvyn. Detta hjälper dig att snabbt få en överblick över alla ämnen i en karta för vilka ett visst attribut har definierats. Alla ämnen som har attributet `audience` definieras till exempel som `US`.
+- **Andra attribut** Om administratören har skapat en profil för attribut får du dessa attribut tillsammans med deras konfigurerade värden. Med innehållsegenskapspanelen kan du välja dessa attribut och tilldela dem till relevant innehåll i ditt ämne. Du kan också tilldela attribut som konfigurerats av administratören under **Visningsattribut**. De attribut som är definierade för ett element visas i layoutvyn och dispositionsvyn. Detta hjälper dig att snabbt få en överblick över alla ämnen i en karta för vilka ett visst attribut har definierats. Alla ämnen som har attributet `audience` definieras till exempel som `US`.
 
   ![layoutvy](images/layout-inline-attributes.png){width="650" align="left"}
 
 
-  Mer information finns i *Visningsattributen* i funktionsbeskrivningen för *Inställningar* i [redigeraren](web-editor-features.md#main-toolbar).
+  Mer information finns i [Visa attribut](../cs-install-guide/workspace-settings.md#display-attributes).
 
 - **Metadata** Du kan ange metadatainformation med hjälp av metadata. Du kan definiera navigeringsrubriken, länktexten, kortbeskrivningen och nyckelorden.
 

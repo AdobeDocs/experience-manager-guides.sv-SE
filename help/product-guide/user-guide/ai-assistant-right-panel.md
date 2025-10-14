@@ -1,8 +1,8 @@
 ---
-title: Använd AI-assistenten för att skapa dokument smart &grave;
+title: Använd AI-assistenten för att skapa dokument smart `
 description: Lär dig hur du kan använda AI Assistant för att skapa dokument på ett smart sätt.
 exl-id: 47d37323-20bf-4444-a2c9-41c44b2c8daf
-source-git-commit: 3d344a1d1b8d51ddadd618db5296531f549dc70b
+source-git-commit: 8659035c57ce2b6f760b342fa9d88d656fcabf23
 workflow-type: tm+mt
 source-wordcount: '1058'
 ht-degree: 0%
@@ -15,7 +15,7 @@ Adobe Experience Manager Guides har ett AI Assistant-verktyg som hjälper dig at
 
 >[!NOTE]
 >
-> Den här redigeringsfunktionen är bara tillgänglig för DITA-avsnitt och kan bara nås från redigeringsgränssnittet. På hemsidan och kartkonsolen visas bara panelen **Hjälp**. De alternativ som är tillgängliga under redigeringsfunktionen konfigureras på mappprofilnivå av administratörer med hjälp av inställningarna för redigeraren.
+> Den här redigeringsfunktionen är bara tillgänglig för DITA-avsnitt och kan bara nås från redigeringsgränssnittet. På hemsidan och kartkonsolen visas bara panelen **Hjälp**. De alternativ som är tillgängliga under redigeringsfunktionen konfigureras på mappprofilnivå av administratörer med hjälp av inställningarna för Workspace.
 
 När du har markerat texten i ett ämne kan du välja att utföra någon av AI-assistentåtgärderna:
 

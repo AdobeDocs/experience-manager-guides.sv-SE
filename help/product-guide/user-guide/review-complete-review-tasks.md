@@ -3,7 +3,8 @@ title: Slutför granskningsaktiviteten som en granskare
 description: Lär dig markera en uppgift som slutförd som en granskare i AEM Guides.
 feature: Reviewing
 role: User
-source-git-commit: 8e750fc6b20859ffd953c8c2b7a12cbe633ab02c
+exl-id: 99b64fb5-c509-41cf-b091-ba78b90db481
+source-git-commit: e38cd858201ea657ce276eb4b358b0d4eff502b2
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-> De nya funktionerna som beskrivs i den här artikeln är aktiverade som standard med 2508 års utgåva av Experience Manager Guides som molntjänster. Granskningar som skapades före migreringen påverkas inte och fortsätter att använda det tidigare arbetsflödet. Om du föredrar att fortsätta använda de befintliga funktionerna utan dessa uppdateringar kontaktar du ditt Customer Success-team för att inaktivera de nya funktionerna.
+> De nya funktionerna som beskrivs i den här artikeln aktiveras som standard i version 2508 av Experience Manager Guides as a Cloud Service. Granskningar som skapades före migreringen påverkas inte och fortsätter att använda det tidigare arbetsflödet. Om du föredrar att fortsätta använda de befintliga funktionerna utan dessa uppdateringar kontaktar du ditt Customer Success-team för att inaktivera de nya funktionerna.
 
 Som granskare kan du markera en granskningsåtgärd som slutförd när du har granskat allt innehåll och vill meddela författaren. Du kan även lämna eventuella slutkommentarer i det här skedet.
 
@@ -66,4 +67,3 @@ Kommentarerna i dialogrutan visas i kronologisk ordning med de senaste kommentar
 Dialogrutan **Uppgiftskommentarer** är tillgänglig för alla användare som deltar i granskningsaktiviteten, inklusive författaren eller initieraren av granskningsaktiviteten och andra granskare. Därför kan kommentarer från andra granskare (om de är inblandade) också visas i dialogrutan Uppgiftskommentarer. Detta bidrar till att säkerställa tydlig och spårbar kommunikation under hela granskningsprocessen.
 
 Efter att ha granskat feedback på aktivitetsnivå kan författaren antingen begära en ny granskning eller stänga granskningsaktiviteten. I båda fallen är alla kommentarer som samlats in under granskningsprocessen tillgängliga som referens i dialogrutan **Aktivitetskommentarer** .
-

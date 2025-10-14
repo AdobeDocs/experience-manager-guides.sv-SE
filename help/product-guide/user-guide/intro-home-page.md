@@ -4,9 +4,9 @@ description: Lär känna Adobe Experience Manager Guides hemsida.
 feature: Authoring
 role: User
 exl-id: 4e6e40ba-277b-43d5-a2a9-665f4586c7e3
-source-git-commit: 03f117381bda7d31b50085b83f309e24f9a75210
+source-git-commit: f9b879d6d374334a08a1d3b0a47b0cb419f02140
 workflow-type: tm+mt
-source-wordcount: '1824'
+source-wordcount: '1966'
 ht-degree: 0%
 
 ---
@@ -50,6 +50,18 @@ De funktioner som är tillgängliga i navigeringsfältet förklaras på följand
   Funktionen [AI-assistenten](./ai-assistant.md) är för närvarande bara tillgänglig för Adobe Experience Manager som Cloud Service.
 - **Anpassa översiktsavsnittet**: Gör att du kan dölja eller visa widgetar i widgetavsnittet.
 - **Mappprofilen används**: Visar den mappprofil som används för närvarande.
+- **Fler åtgärder**: Ger åtkomst till ytterligare alternativ. Om du väljer den här knappen öppnas en meny med följande alternativ:
+
+   - **Assets**: Flyttar dig till ett mål baserat på din konfiguration.
+      - **Molntjänster**: Om du använder molntjänster kan du gå till AEM navigeringssida genom att välja alternativet **Assets** .
+
+      - **Lokal programvara**: Om du använder Adobe Experience Manager Guides (4.2.1 och senare) kan du välja alternativet **Assets** för att komma till den aktuella filsökvägen i Assets användargränssnitt.
+   - **Workspace-inställningar**: Öppnar dialogrutan **Workspace-inställningar**. Mer information finns i [Konfigurera Workspace-inställningar](../cs-install-guide/workspace-settings.md).
+
+     >[!NOTE]
+     >
+     > På startsidan är alternativet för Workspace-inställningar bara tillgängligt för installation av molntjänster. I en lokal konfiguration är alternativet Fler åtgärder inte tillgängligt på hemsidan. Du kan dock fortfarande komma åt de relevanta inställningarna via redigeringsgränssnittet och kartkonsolen genom att gå till Fler alternativ > Inställningar.
+
 - **Expandera vy**: Gör att du kan expandera sidvyn med hjälp av ikonen **Expandera** . I den här vyn är sidhuvudsfältet dolt och innehållsområdet maximeras. Om du vill gå tillbaka till standardvyn använder du ikonen **Avsluta den expanderade vyn** .
 
 ## Vänster panel
@@ -169,7 +181,7 @@ Användarinställningarna är tillgängliga för alla författare. Med hjälp av
 
 - **Utseende**: På fliken Utseende kan du välja teman för programmet och källvyn för innehållets redigeringsområde. Använd den här fliken för att konfigurera följande inställningar:
 
-  ![](images/user_preference_editor_appearance-new.png){align="left"}
+  ![](images/user_preference_editor_appearance.png){align="left"}
 
    - **Programtema och Source-vy**: Du kan välja mellan ljusa eller mörka teman för programmet och källvyn. När det gäller ljustemat använder verktygsfälten och panelerna en ljusgrå bakgrund. När det gäller det mörka temat använder verktygsfälten och panelerna en svart färgbakgrund. Välj **Använd enhetstemat** om du vill att Experience Manager Guides ska kunna välja ljusa och mörka teman baserat på temat på din enhet.
 

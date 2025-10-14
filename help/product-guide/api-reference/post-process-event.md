@@ -5,9 +5,9 @@ exl-id: 3b105ff5-02d4-40e3-a713-206a7fcf18b2
 feature: Post-Processing Event Handler
 role: Developer
 level: Experienced
-source-git-commit: 8c992afc1cc56052e6c07ac3cea6e7d3412259b2
+source-git-commit: 8e57d4048f4aa13d7f77f25082d4e7aa329ee355
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '414'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,9 @@ Adobe Experience Manager Guides visar `com/adobe/guides/postprocess/complete`-h�
 - Skapa
 - Ändra
 
+>[!NOTE]
+>
+> Händelsen efter bearbetning aktiveras genom att flaggan `fire.processing.events` aktiveras, som är en konfigurationsparameter i `fmdita config manager`. Om värdet är true utlöses händelser (com/adobe/guides/postprocess/complete) för att spåra efterbearbetningen. Som standard är värdet false (inaktiverat).
 
 Du måste skapa en Adobe Experience Manager-händelsehanterare för att kunna läsa de egenskaper som är tillgängliga i den här händelsen och utföra ytterligare bearbetning.
 

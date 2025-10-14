@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Läs produktdokumentationen för Adobe Experience Manager Guides.
 breadcrumb-title: Dokumentation om AEM Guides
-source-git-commit: fc250384e887f28ab22248e787d1b003d1fa966c
+source-git-commit: fc262885e33f7874dd4a9a09cf3c90d3e6b805d5
 workflow-type: tm+mt
-source-wordcount: '2373'
+source-wordcount: '2401'
 ht-degree: 1%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 1%
       - Molntjänster {#cloud-release-notes}
          - [Distributionsanvisningar](./release-info/deploy-xml-on-aemaacs.md)
          - 2025 års utgåvor {#2025-releases}
+            - 2025.10.0-utgåvan {#2510-release}
+               - [Nyheter](./release-info/whats-new-2025-10-0.md)
+               - [Åtgärdade problem](./release-info/fixed-issues-2025-10-0.md)
+               - [Uppgraderingsinstruktioner](./release-info/upgrade-instructions-2025-10-0.md)
             - 2025.08.0-utgåvan {#2508-release}
                - [Nyheter](./release-info/whats-new-2025-08-0.md)
                - [Åtgärdade problem](./release-info/fixed-issues-2025-08-0.md)
@@ -151,8 +155,8 @@ ht-degree: 1%
                - [4.2.1 Versionsinformation](./release-info/release-notes-4-2-1.md)
                - [4.2 Versionsinformation](./release-info/release-notes-4-2.md)
          - [4.1.x Versionsinformation](./release-info/release-notes-4-1.md)
-         - [Versionsinformation för 4.0.x](https://helpx.adobe.com/se/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [3.8.x Versionsinformation](https://helpx.adobe.com/se/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [Versionsinformation för 4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [3.8.x Versionsinformation](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Användarhandbok (nytt användargränssnitt) {#user-guide}
    - Introduktion {#about-aemg}
       - [Om [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
@@ -180,8 +184,7 @@ ht-degree: 1%
             - [Vänster panel](./user-guide/web-editor-left-panel.md)
             - [Innehållsredigeringsområde](./user-guide/web-editor-content-editing-area.md)
             - [Höger panel](./user-guide/web-editor-right-panel.md)
-         - [Ytterligare funktioner i Editor](./user-guide/web-editor-other-features.md)
-         - [Arbeta med redigeringsinställningarna](./user-guide/web-editor-settings.md)
+         - [Ytterligare funktioner i redigeraren](./user-guide/web-editor-other-features.md)
          - [Kortkommandon i Redigeraren](./user-guide/web-editor-keyboard-shortcuts.md)
          - [Redigerarvyer](./user-guide/web-editor-views.md)
          - [Stöd för Schematron-filer](./user-guide/support-schematron-file.md)
@@ -350,7 +353,7 @@ ht-degree: 1%
       - Felsökning {#troubleshooting}
          - [Tidsgräns för session](./user-guide/session-timeout-prompt.md)
 - Användarhandbok (gammalt användargränssnitt) {#user-guide-old-ui}
-   - [AEM Guides - översikt](https://experienceleague.adobe.com/sv/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [AEM Guides - översikt](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installation och konfiguration {#install-guide}
    - Lokalt {#on-prem-ig}
       - [Grunderna på plats](./install-guide/introduction.md)
@@ -369,8 +372,8 @@ ht-degree: 1%
       - Migrering av innehåll {#content-migration}
          - [Migrering av icke-UID till UUID-innehåll](./install-guide/migrate-uuid-non-uuid.md)
          - Migreringsprocess {#migration-process}
-            - [Migrera icke-UID-innehåll med versioner](./install-guide/migrate-non-uuid-uuid.md)
-            - [Migrera icke-UID-innehåll med versioner (äldre)](./install-guide/migrate-non-uuid-uuid-with-versions-legacy.md)
+            - [4.3.1 migrering av icke-UID till 4.3.2 UUID-innehåll](./install-guide/migrate-non-uuid-4-3.md)
+            - [4.6.0 icke-UUID till 4.6.1-migrering av UUID-innehåll](./install-guide/migrate-non-uuid-uuid-4-6.md)
          - [Migrera befintligt innehåll](./install-guide/migrate-content.md)
          - [Överför befintligt DITA-innehåll](./install-guide/migrate-content-upload-existing-dita-content.md)
          - [Migrera icke-DITA-innehåll](./install-guide/migrate-content-non-dita.md)
@@ -475,6 +478,8 @@ ht-degree: 1%
          - [Konfigurera anpassad DITA-mappningsmall](./cs-install-guide/conf-template-tags-custom-dita-map-templates.md)
       - Arbeta med dokumentlägen {#doc-state-cs}
          - [Konfigurera dokumentlägen](./cs-install-guide/customize-doc-state.md)
+      - Konfigurera Workspace-inställningar {#workspace-configs}
+         - [Workspace-inställningar](./cs-install-guide/workspace-settings.md)
       - Arbeta med Web Editor-konfigurationer {#web-editor-configs-cs}
          - [Anpassa Web Editor](./cs-install-guide/conf-web-editor.md)
          - [Anpassa verktygsfältet](./cs-install-guide/conf-web-editor-customize-toolbar.md)
@@ -538,6 +543,7 @@ ht-degree: 1%
    - [Java-baserat API för att arbeta med mappprofiler](./api-reference/folder-profile-java.md)
    - [Java-baserat API för att skapa och aktivera paket](./api-reference/create-activate-package-java.md)
    - [Händelsehanterare efter bearbetning](./api-reference/post-process-event.md)
+   - [API för att spåra efterbearbetningsstatus för en mapp eller en resurs](./api-reference/track-post-processing-status.md)
    - [Händelsehanterare för slutförd gruppaktivering](./api-reference/bulk-activation-complete-event.md)
    - [Händelsehanterare för konverteringsprocess](./api-reference/conversion-complete-event.md)
 - Knowledge Base {#knowledge-base}

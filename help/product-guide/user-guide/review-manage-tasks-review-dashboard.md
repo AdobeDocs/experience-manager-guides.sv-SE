@@ -4,9 +4,9 @@ description: Hantera granskningsuppgifter från Granska kontrollpanelen i AEM Gu
 exl-id: 4fef5653-1c73-4b68-adf2-b24145555142
 feature: Reviewing
 role: User
-source-git-commit: 19e521ed790a7ac25afab88e8878250f943d9bff
+source-git-commit: e38cd858201ea657ce276eb4b358b0d4eff502b2
 workflow-type: tm+mt
-source-wordcount: '1348'
+source-wordcount: '1437'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,10 @@ Utför följande steg för att komma åt och använda kontrollpanelen:
 
    På kontrollpanelen Granska visas information om granskningsaktiviteten, t.ex. aktivitetsnamn, vem som startade granskningen, datum när granskningen startades, förfallodatum, status, antal nya kommentarer som inte har godkänts eller avvisats av författaren samt namn på granskarna. Uppgifterna visas i ordningen för nyligen skapade uppgifter till äldre uppgifter.
 
+   I kontrollpanelen för granskning kan fältet **Status** visa ett av följande värden:
+   - **Pågår**: Detta anger att granskningen fortfarande pågår.
+   - **Stängd**: Detta anger att granskningsaktiviteten har slutförts.
+
    >[!NOTE]
    >
    > Om du väljer länken Granska uppgift öppnas det ämne eller den kartfil som skickats för granskning.
@@ -59,7 +63,7 @@ Utför följande steg för att komma åt och använda kontrollpanelen:
 Du kan utföra följande åtgärder på fliken **Aktivitet**:
 
 - Ändra aktivitetens titel i fältet **Titel**.
-- Lägg till standardtilldelningar i listrutan **Tilldela till**. De granskare du lägger till härifrån får åtkomst till alla ämnen som ingår i denna granskningsuppgift. Du kan välja att ta bort eller selektivt lägga till fler granskare i specifika ämnen från fliken [Granskare](#reviewer-tab-id199RF0N0MUI).
+- Lägg till standardtilldelningar i listrutan **Tilldela till**. De granskare du lägger till härifrån får åtkomst till alla ämnen som ingår i denna granskningsuppgift. Du kan välja att ta bort eller selektivt lägga till fler granskare i specifika ämnen från fliken [Granskare](#Reviewer-tab-id199RF0N0MUI).
 - Uppdatera beskrivningen av aktiviteten i fältet **Beskrivning**.
 - Ändra **förfallodatumet**. Du kan fördröja eller skjuta upp deadline för slutförandet av uppgiften.
 - Välj alternativet att begränsa användarnas behörighet till att endast granska de ämnen som är tilldelade dem.
@@ -94,7 +98,7 @@ Du kan utföra följande åtgärder på fliken **Innehåll**:
 - Välj **Duplicera** om du vill skapa en ny granskningsaktivitet med den aktuella aktiviteten som bas.
 
 
-## Fliken Granskare {#reviewer-tab-id199RF0N0MUI}
+## Fliken Granskare {#Reviewer-tab-id199RF0N0MUI}
 
 ![](images/reviewers-tab.png){align="left"}
 
@@ -107,27 +111,33 @@ Du kan utföra följande åtgärder på fliken **Granskare**:
   >
   > Du kan också markera eller avmarkera ett ämne separat genom att markera kryssrutan bredvid ämnet.
 
-- **Lägg till**: Visar dialogrutan Lägg till granskare. Du kan skriva namnet på en granskare eller användarroll \(eller grupp\) som du vill lägga till som granskare i de valda avsnitten.
-- **Ta bort**: Visar dialogrutan Ta bort granskare. Du kan skriva namnet på en granskare eller användarroll \(eller grupp\) som du vill ta bort som granskare i de markerade avsnitten.
-- **Tilldela om**: Visar dialogrutan Tilldela granskare igen. Du kan skriva namnet på en granskare eller användarroll \(eller grupp\) som du vill tilldela granskningsuppgiften till. Detta tar bort alla befintliga granskare från de markerade avsnitten och tilldelar de nyvalda granskarna till dessa ämnen.
+- **Lägg till**: Visar dialogrutan Lägg till granskare. Du kan skriva namnet på en granskare eller användarroll \(eller grupp\) som du vill lägga till som granskare i de markerade avsnitten.
+- **Ta bort**: Visar dialogrutan Ta bort granskare. Du kan skriva namnet på en granskare eller användarroll \(eller grupp\) som du vill ta bort som granskare från de markerade avsnitten.
+- **Tilldela om**: Visar dialogrutan Tilldela granskare igen. Du kan skriva namnet på en granskare eller användarroll, \(eller grupp\), som du vill tilldela granskningsaktiviteten till. Detta tar bort alla befintliga granskare från de markerade avsnitten och tilldelar de nyvalda granskarna till dessa ämnen.
 - **Exportera**: Gör att du kan exportera information om granskningsåtgärder i en CSV-fil. Filen innehåller information om ämnessökväg och rubrik, namn på granskare och version av ämnen som skickats för granskning.
 - **Redigera granskare**: Om du väljer ikonen ![](images/edit_pencil_icon.svg) i ämneslistan visas dialogrutan Redigera granskare. Du kan lägga till eller ta bort granskare för det valda ämnet från den här dialogrutan.
 
 ## Kontrollera status för en granskningsaktivitet {#check-review-status-id199RF0A0UHS}
 
-Om du väljer en granskningsaktivitet och väljer **Status** på huvudsidan på kontrollpanelen för granskning visas statusrapporten för granskningsaktiviteten.
+I Experience Manager Guides har varje granskningsuppgift en status som återspeglar dess aktuella status. På kontrollpanelen för granskning kan du komma åt den här informationen genom att markera en uppgift och välja alternativet **Status**.
 
-![](images/review-status-report.png){align="left"}
+![](images/review-dashboard-select-option.png){width="650" align="left"}
+
+Då öppnas en statusrapport för granskningsaktiviteten enligt nedan:
+
+![](images/check-review-status-dashboard.png){width="650" align="left"}
+
+Du kan också komma åt statusrapporten direkt från [granskningspanelen](./web-editor-left-panel.md#review) i redigeraren. Öppna en aktiv granskningsuppgift på granskningspanelen, välj **Uppdatera aktivitet** och välj **Kontrollera granskningsstatus**.
 
 Statusrapporten för granskningsaktiviteten innehåller följande information:
 
 - Namn på den granskare som granskningsuppgiften är tilldelad.
 - Statuskolumnen anger granskningsstatusen. Status kan vara något av följande:
-   - **Inte igång**: Granskningslänken har inte öppnats än.
-   - **Pågår**: Granskaren har öppnat granskningslänken och håller på att granska avsnittet.
-   - **Fullständig**: Granskaren har slutfört granskningen genom att slutföra den granskningsuppgift som tilldelats dem. Granskningsaktiviteten finns i AEM meddelandeinkorg för varje granskare.
-- När en granskare öppnar en granskningslänk och navigerar till ett visst ämne läggs det ämnet till i listan Ämnen som granskats. Detta hjälper författarna att avgöra om granskarna har öppnat respektive avsnitt eller inte. Om några kommentarer ges visas de inom parentes.
+   - **Inte igång**: Granskningsfunktionen har inte öppnats än.
+   - **Pågår**: Granskaren har öppnat granskningsaktiviteten och håller på att granska avsnittet.
+   - **Fullständig**: Granskaren har slutfört granskningen och markerat aktiviteten som slutförd i granskningsgränssnittet. Granskningsaktiviteten finns i AEM meddelandeinkorg för varje granskare.
+- När en granskare öppnar en granskningslänk och navigerar till ett visst ämne läggs det ämnet till i listan Ämnen som har granskats. Detta hjälper författarna att avgöra om granskarna har öppnat respektive avsnitt eller inte. Om några kommentarer ges visas de inom parentes.
 - Totalt antal kommentarer som gjorts i alla ämnen. Om det finns flera ämnen som är under granskning anges antalet kommentarer för varje ämne \(inom parentes\) mot temanamnet.
-- Det datum då granskaren senast öppnade ett ämne.
+- Det datum då något ämne senast öppnades av granskaren.
 
-**Överordnat ämne:**&#x200B;[ Introduktion till granskning](review.md)
+**Överordnat ämne:**[ Introduktion till granskning](review.md)

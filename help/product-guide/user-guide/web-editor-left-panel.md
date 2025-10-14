@@ -4,9 +4,9 @@ description: Lär känna den vänstra panelen i Editor. Läs mer om redigeringsg
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 92496d39-b423-4635-8b05-c67fd6af47de
-source-git-commit: 97e80f9115f84291a7190cf4c4cf25426b3a83bb
+source-git-commit: 0d713f9ff4bd48aa90bce368d6ad7abf86ecbbf7
 workflow-type: tm+mt
-source-wordcount: '9390'
+source-wordcount: '9542'
 ht-degree: 0%
 
 ---
@@ -179,6 +179,15 @@ Du kan visa följande alternativ på flikarna **Allmänt** och **Avancerat**.
 Detta är synkroniserat med sökrutan i databasfönstret. Om du t.ex. skriver `general purpose` i sökrutan på databaspanelen visas den även i dialogrutan **Avancerat filter** och vice versa.
 
 - **Sök i**: Välj den sökväg där du vill söka efter filerna som finns i Adobe Experience Manager-databasen.
+- **DITA-filer**: Du kan söka efter alla **DITA-avsnitt** och **DITA-kartor** som finns på den valda sökvägen. Dessa är markerade som standard.
+- **Icke-DITA-filer**: Du kan söka efter **Ditavala filer**, **Bildfiler**, **Multimedia**, **Dokument** och **JSON** i den valda sökvägen.
+- **Låst av**: Visar en lista över användare. Listan sidnumreras och läses in asynkront, med en begränsad uppsättning användare åt gången och fler hämtas när du rullar eller navigerar. Detta förbättrar inläsningshastigheten och övergripande prestanda, särskilt när du arbetar med ett stort antal användare.
+- **Ändrad efter** / **Ändrad före**: Filtrera innehåll baserat på ändringsdatum. Välj ett datumintervall i kalendern eller välj något av följande alternativ för tidsram:
+   - De senaste två timmarna
+   - I förra veckan
+   - Under den senaste månaden
+   - Under förra året
+- **Taggar**: Filtrera innehåll baserat på taggar.
 
 **Avancerat**
 
@@ -635,10 +644,8 @@ Om ett blockelement har en egen text visas det tillsammans med det blockelemente
 
 ![](images/outline-view-block-element.png){width="550" align="left"}
 
-Om administratören har skapat en profil för attribut får du dessa attribut tillsammans med deras konfigurerade värden. Du kan också tilldela visningsattribut som konfigurerats av administratören på fliken **Visningsattribut** i **Inställningar** . De attribut som är definierade för ett element visas i layoutvyn och dispositionsvyn.
+Om administratören har skapat en profil för attribut får du dessa attribut tillsammans med deras konfigurerade värden. Du kan också tilldela visningsattribut som konfigurerats av administratören på fliken **Visningsattribut** i **Workspace-inställningarna** (visas som **Inställningar** för **På-plats**). De attribut som är definierade för ett element visas i layoutvyn och dispositionsvyn.
 
-
-Mer information finns i *Visa attribut* i funktionsbeskrivningen för *Inställningar* i den vänstra panelen.
 
 **Sökfunktion**
 
@@ -933,7 +940,7 @@ Du kan också ändra värdena från attributets listruta i Source-vyn. I Source-
 
 Du kan också visa och använda ämnesschemat från villkorspanelen.
 
-Om du vill visa ämnesschemat från villkorspanelen måste systemadministratören markera alternativet **Visa ämnesschema på villkorspanelen** på fliken Allmänt i Inställningar. Mer information finns i avsnittet **Inställningar** i [flikfältet](./web-editor-tab-bar.md).
+Om du vill visa ämnesschemat från villkorspanelen måste systemadministratören markera alternativet **Visa ämnesschema på villkorspanelen** under fliken Allmänt i **Workspace-inställningar** (visas som **Inställningar** för **Lokal**). Mer information finns i [flikfältet](./web-editor-tab-bar.md).
 
 På villkorspanelen visas den platta lodräta strukturen för ämnesdefinitionerna i ämnesschemat.
 
@@ -1056,9 +1063,9 @@ Utför följande steg om du vill söka och ersätta globalt:
 1. Välj **Ersätt en förekomst** \( ![](images/replace-icon.svg)\) om du vill ersätta den markerade söktermen i avsnittet eller välj Nästa matchning ![](images/next-match-in-search.png) eller ![](images/previous-match-in-search.png) Föregående matchning om du vill gå till nästa eller föregående förekomst av texten.
 1. Välj **Ersätt alla** \( ![](images/replace-all-in-file-icon.svg)\) om du vill ersätta alla förekomster av den sökta termen i en enda fil med ersättningstermen med ett enda klick. Du får ett meddelande när du har ersatt alla förekomster i den valda filen.
 
-Om du vill aktivera ikonen **Ersätt alla** måste systemadministratören markera alternativet **Aktivera Ersätt alla** på fliken **Allmänt** i **Inställningar** .
+Om du vill aktivera ikonen **Ersätt alla** måste systemadministratören markera alternativet **Aktivera Ersätt alla** på fliken **Allmänt** i **Workspace-inställningarna** (visas som **Inställningar** för **Lokalt**).
 
-    >[ !OBS!]
+    >[!OBS!]
     >
     > Hovra över en fil från sökresultatlistan för att visa ikonen Ersätt alla i fil till höger om den. Du kan också visa ikonen Ignorera fil för att ta bort filen från sökresultatet. De filer som du ignorerar tas bort från listan och den sökta termen ersätts inte i dem.
 
@@ -1110,7 +1117,12 @@ Så här visar du granskningskommentarerna i de aktiva granskningsuppgifterna so
 
      ![](images/active-review-select-project.png){width="300" align="left"}
 
-     Aktivera alternativet **Uppgifter som initierats av mig** om du bara vill visa de uppgifter som du har initierat. Växlingsläget för det här alternativet behålls även efter att sidan har uppdaterats. Aktivera alternativet **Visa endast aktiva aktiviteter** om du vill filtrera projektlistan så att aktiviteter som är aktiva visas.
+     Dialogrutan **Filter** innehåller även följande alternativ som kan aktiveras eller inaktiveras med växlingsknappen:
+
+      - **Uppgifter som har initierats av mig**: När det här alternativet är aktiverat visas endast de uppgifter som du har initierat.
+      - **Visa endast aktiva aktiviteter**: När det här alternativet är aktiverat filtreras projektlistan så att endast aktiva aktiviteter visas.
+
+     Som standard är båda alternativen inaktiverade. Dessutom behålls det markerade växlingsläget även efter att sidan har uppdaterats.
 
 1. Som standard visas en lista över ämnen som har kommentarer kopplade till sig i granskningsprojektet. Använd de filter som behövs från den vänstra listen för att filtrera ämnen baserat på granskningskommentarerna som finns i dem:
 
@@ -1130,4 +1142,4 @@ Så här visar du granskningskommentarerna i de aktiva granskningsuppgifterna so
 
 </details>
 
-**Överordnat ämne:**&#x200B;[ Introduktion till redigeraren](web-editor.md)
+**Överordnat ämne:**[ Introduktion till redigeraren](web-editor.md)

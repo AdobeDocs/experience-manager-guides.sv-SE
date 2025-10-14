@@ -4,9 +4,9 @@ description: Lär dig mer om kartkonsolen och de olika funktioner som du kan anv
 feature: Publishing
 role: User
 exl-id: b273b1ae-fbb2-4b35-abce-0df78eeb2e11
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: e14b19ff7c128899b4536d5b8c4290c476991bef
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,12 @@ Kartkonsolens gränssnitt är i första hand uppdelat i två avsnitt - **Naviger
 
    - **Navigeringsväxlare**: Gör det möjligt att navigera till andra sidor utan synliga skarvar - redigeraren eller hemsidan:
    - **Markerad mappningsfil**: Visar namnet på den markerade mappningsfilen. Du kan öppna den i redigeraren eller välja en annan kartfil för kartkonsolen.
-   - **Fler åtgärder**: Tillhandahåller alternativ för att navigera till **Assets-gränssnittet** och **inställningarna**. Mer information finns i avsnittet **Fler åtgärder** i dokumentet [Känn till redigeringsfunktioner](./web-editor-features.md#tab-bar) .
+   - **Fler åtgärder**: Tillhandahåller alternativ för att navigera till **Assets-gränssnittsinställningarna** och **Workspace-inställningarna**. Mer information finns i [flikfältet](./web-editor-tab-bar.md).
+
+  >[!NOTE]
+  >
+  > Om du använder Adobe Experience Manager Guides i en lokal konfiguration fortsätter alternativet Workspace-inställningar att visas som **Inställningar** på menyn Fler åtgärder.
+
    - **Expandera vy**: Gör att du kan expandera sidvyn med hjälp av ikonen **Expandera** . I den här vyn är sidhuvudsfältet dolt och innehållsområdet maximeras. Om du vill gå tillbaka till standardvyn använder du ikonen **Avsluta den expanderade vyn** .
 
   >[!NOTE]

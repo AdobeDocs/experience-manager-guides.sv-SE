@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 hide: true
 exl-id: f8a8dfd3-19de-49ff-b4d4-265b3ac09488
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: 1e08dce0bd64d1a15d42baf4c9720405a9eec146
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Med Experience Manager Guides kan du publicera ett ämne eller dess element i et
 
 Så här skapar du ett innehållsfragment:
 
-1. Skapa en [innehållsfragmentmodell](https://experienceleague.adobe.com/docs/experience-manager-65/assets/content-fragments/content-fragments-models.html?lang=sv-SE) i Adobe Experience Manager Assets.
+1. Skapa en [innehållsfragmentmodell](https://experienceleague.adobe.com/docs/experience-manager-65/assets/content-fragments/content-fragments-models.html?lang=en) i Adobe Experience Manager Assets.
 1. Skapa en mapp där du vill spara de innehållsfragment som du skapar baserat på modellen för innehållsfragment. Exempel:&quot;stock-content-fragments&quot;.
 1. Redigera mappens egenskaper (till exempel&quot;stock-content-fragments&quot;) och lägg till sökvägen till mappen, som innehåller modellen för innehållsfragment i molnkonfigurationen.
 Lägg till exempel till `/conf/we-retail` i molnkonfigurationen. Den här konfigurationen kopplar alla innehållsfragmentmodeller till mappen.\
@@ -34,7 +34,7 @@ Lägg till exempel till `/conf/we-retail` i molnkonfigurationen. Den här konfig
 
 1. Om du vill generera ett innehållsfragment väljer du **Ny utdata** ![ny utdataikon](./images/Add_icon.svg) i avsnittet **Utdata** i **filegenskaper** för ett ämne.
 1. Välj **Innehållsfragment**.\
-   ![fliken med alternativ för filegenskaper](./images/file-properties-outputs-tab.png) {width="300" align="left"}
+   Fliken ![Alternativ för filegenskaper](./images/file-properties-outputs-tab.png) {width="300" align="left"}
 
    *Lägg till ett nytt innehållsfragment från filegenskaperna för ett ämne*.
 
@@ -50,7 +50,6 @@ Lägg till exempel till `/conf/we-retail` i molnkonfigurationen. Den här konfig
    * **Namn**: Ange namnet på innehållsfragmentet. Som standard fylls namnet i med rubriken för ämnet och blankstegen ersätts med &#39;_&#39;. Exempel: *sample_content_fragment*. Du kan redigera det.  Det här namnet används för att generera URL:en för innehållsfragmentet.
 
    * Du kan välja olika villkor för att skapa varianter för innehållsfragment. Välj något av följande alternativ:
-
      >[!NOTE]
      > 
      > Villkor aktiveras bara om villkorsattribut definieras i avsnittet.
@@ -113,4 +112,4 @@ Du kan även utföra följande åtgärder för ett innehållsfragment på menyn 
 
 Det nya UUID-skriptet för innehållsmigrering har optimerats avsevärt, vilket gör att innehållsmigreringen från icke-UID till UUID är 30 gånger snabbare än det tidigare skriptet. Det innehåller funktioner som att återuppta kontroller, insikt i live-flöden, uppskattad slutförandetid och detaljerad rapportering, vilket säkerställer en harmonisk migreringsprocess. I synnerhet bevarar migreringsprocessen metadata för resurser utan ändringar. Skriptet har testats och verifierats på en stor datamängd på 3 miljoner resurser, vilket bekräftar dess effektivitet och tillförlitlighet för storskaliga migreringar.
 
-Läs mer om [Icke-UID till UUID-innehållsmigrering](/help/product-guide/install-guide/migrate-non-uuid-uuid.md).
+Läs mer om [Icke-UID till UUID-innehållsmigrering](/help/product-guide/install-guide/migrate-non-uuid-4-3.md).

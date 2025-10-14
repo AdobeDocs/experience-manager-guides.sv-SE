@@ -3,9 +3,10 @@ title: Flikfältet i redigeraren
 description: Lär dig mer om flikfältet i Redigeraren. Läs mer om redigeringsgränssnittet och funktionerna i Adobe Experience Manager Guides.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: b3597cac602cf5a22aff9d8db108e3652591d662
+exl-id: 02e45d34-898f-411c-bd80-bd4f2364b7d7
+source-git-commit: e14b19ff7c128899b4536d5b8c4290c476991bef
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
@@ -50,6 +51,10 @@ Ett kraftfullt, AI-drivet verktyg som har utformats för att öka produktivitete
    - **Molntjänster**: Om du använder molntjänster kan du gå till AEM navigeringssida genom att välja alternativet **Assets** .
 
    - **Lokal programvara**: Om du använder Adobe Experience Manager Guides (4.2.1 och senare) kan du välja alternativet **Assets** för att komma till den aktuella filsökvägen i Assets användargränssnitt.
-- **Inställningar**: Öppnar dialogrutan Inställningar för Redigeraren. Mer information finns i [Arbeta med redigeringsinställningar](./web-editor-settings.md).
+- **Workspace-inställningar**: Öppnar dialogrutan Workspace-inställningar. Mer information finns i [Konfigurera Workspace-inställningar](../cs-install-guide/workspace-settings.md).
 
-**Överordnat ämne:**&#x200B;[ Introduktion till redigeraren](web-editor.md)
+>[!NOTE]
+>
+> Om du använder Adobe Experience Manager Guides i en lokal konfiguration fortsätter alternativet Workspace-inställningar att visas som **Inställningar** på menyn Fler åtgärder.
+
+**Överordnat ämne:**[ Introduktion till redigeraren](web-editor.md)

@@ -4,9 +4,9 @@ description: Översätt ditt innehåll till flera språk från webbredigeraren. 
 exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 0d713f9ff4bd48aa90bce368d6ad7abf86ecbbf7
 workflow-type: tm+mt
-source-wordcount: '2365'
+source-wordcount: '2376'
 ht-degree: 0%
 
 ---
@@ -157,7 +157,7 @@ Mer information om hur du konfigurerar globala profiler och mappprofiler finns i
 
 I Experience Manager Guides kan du skicka källfilens etikett till målfilen. Det gör det enklare att identifiera källversionen för den översatta filen.
 
-Om du vill lägga till källversionsetiketten i målkopian måste systemadministratören aktivera alternativet **Sprid källversionsetiketter till målversionen** på fliken **Översättning** i **Inställningar**.
+Om du vill lägga till källversionsetiketten i målkopian måste systemadministratören aktivera alternativet **Sprid källversionsetiketter till målversionen** på fliken **Översättning** i **Workspace-inställningarna** (visas som **Inställningar** för **Lokal**).
 
 Om du till exempel har källfiler med versionsetiketten `Release 1.0` tillämpad på dem kan du även skicka källetiketten \(`Release 1.0`\) till den översatta filen.
 
@@ -219,11 +219,11 @@ Markera namnet på referensen i dialogrutan för att öppna den i förhandsgrans
 > 
 >Den här funktionen är tillgänglig för nya översättningsprojekt som du skapar med Experience Manager Guides 2404 eller senare.  Det påverkar inte befintliga projekt.
 
-Administratören kan konfigurera rensningen av översättningsprojektet **efter slutförande** på fliken **Översättning** i **Redigeringsinställningar** för att inaktivera eller ta bort översättningsprojekten automatiskt.
+Administratören kan konfigurera rensningen av översättningsprojektet **efter slutförande** på fliken **Översättning** i **Workspace-inställningarna** (visas som **Inställningar** för **lokal**) för att inaktivera eller ta bort översättningsprojekten automatiskt.
 
 För effektiv dokumenthantering kan Experience Manager Guides ta bort översättningsprojekten när du har slutfört översättningen.
 
 Du kan även inaktivera översättningsprojekten om du vill använda dem senare. Om du tar bort ett projekt tas alla filer och mappar i projektet bort. Om du inaktiverar ett projekt tas det inte bort, utan behålls i databasen. Men du kan inte uppdatera eller redigera ett inaktiverat projekt.  Om du tar bort eller inaktiverar ett projekt påverkas inte översättningsstatusen för några referenser.
 
 
-**Överordnat ämne:**&#x200B;[ Introduktion till redigeraren](web-editor.md)
+**Överordnat ämne:**[ Introduktion till redigeraren](web-editor.md)

@@ -2,7 +2,8 @@
 title: Versionsinformation | Nyheter i Adobe Experience Manager Guides 2025.08.0
 description: Läs om de nya och förbättrade funktionerna i version 2025.08.0 av Adobe Experience Manager Guides
 role: Leader
-source-git-commit: d418ffb254b11430509609b91e0174690815cf73
+exl-id: c3461d0a-6394-4275-9d54-b2b1545d7c18
+source-git-commit: 1a44af3522060ebc531393d4d01b1cd00eb02c10
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 0%
@@ -39,7 +40,7 @@ I den senaste uppdateringen introduceras förbättrad konfiguration för **redig
 
 När växlingsknappen **AI Assistant** är aktiverad kan administratörer välja vilka snabbåtgärder som ska vara synliga under fliken **Redigering**, vilket underlättar redigeringsinteraktionen. Dessa synlighetsinställningar är specifika för varje mappprofil.
 
-Läs mer om [AI-assistenten i redigeringsinställningarna](../user-guide/web-editor-settings.md#general) i Experience Manager Guides.
+Läs mer om [AI-assistenten i redigeringsinställningarna](../cs-install-guide/workspace-settings.md#general) i Experience Manager Guides.
 
 ![](assets/authoring-quick-actions.png){width="350" align="left"}
 
@@ -93,9 +94,3 @@ I den här versionen har inställningarna på **användarinställningarna** på 
 I redigerarens verktygsfält finns dessutom några snabbredigeringsreglage för att aktivera eller inaktivera Spåra ändringar, Taggar och Ej brytande mellanslag nu grupperade under alternativet **Visa** i menylistrutan för bättre användbarhet.
 
 Mer information finns i [Verktygsfältet i redigeraren](../user-guide/web-editor-toolbar.md#menu-dropdown).
-
-
-
-
-
-

@@ -3,17 +3,16 @@ title: Workspace-inställningar i Experience Manager Guides
 description: Läs mer om de olika inställningarna i redigeringsgränssnittet i Experience Manager Guides.
 feature: Authoring, Features of Web Editor
 role: User
-exl-id: fad2874f-dab5-4538-8502-f7112c51d941
-source-git-commit: a1e0571e596a44ee67d49658a718e24d9ab3b467
+source-git-commit: 1e08dce0bd64d1a15d42baf4c9720405a9eec146
 workflow-type: tm+mt
-source-wordcount: '2113'
+source-wordcount: '2132'
 ht-degree: 0%
 
 ---
 
 # Workspace-inställningar
 
-Alternativet **Workspace-inställningar** som finns i [flikfältet](./web-editor-tab-bar.md) i redigeraren är bara tillgängligt för administratörer och mappprofiladministratörer och tillåter konfigurering av följande inställningar:
+Alternativet **Workspace-inställningar** som finns i [flikfältet](../user-guide/web-editor-tab-bar.md) i redigeraren är bara tillgängligt för administratörer och mappprofiladministratörer och tillåter konfigurering av följande inställningar:
 
 - [Allmänt](#general)
 - [Panel](#panels)
@@ -29,20 +28,21 @@ Alternativet **Workspace-inställningar** som finns i [flikfältet](./web-editor
 
 >[!NOTE]
 >
-> Om du uppdaterar några standardinställningar bör du öppna dokumenten på nytt för att ändringarna ska börja gälla.
+> - Om du använder Adobe Experience Manager Guides i en lokal konfiguration fortsätter alternativet Workspace-inställningar att visas som **Inställningar** på menyn Fler åtgärder.
+> - Om du uppdaterar några standardinställningar bör du öppna dokumenten på nytt för att ändringarna ska börja gälla.
 
 ## Allmänt
 
 Med de allmänna inställningarna kan du konfigurera inställningarna så att de använder redigeraren. Fliken innehåller fem avsnitt: **AI Assistant**, **Redigering**, **Källhänvisningar**, **Villkor** och **Stavningskontroll**.
 
-![](images/editor-setting-general.png){width="350" align="left"}
+![](../user-guide/images/editor-setting-general.png){width="350" align="left"}
 
 - **AI-assistenten**
-Välj det här om du vill aktivera funktionen [ AI-assistenten ](./ai-assistant.md) i Experience Manager Guides. Avmarkera om du vill inaktivera funktionen.
+Välj det här om du vill aktivera funktionen [ AI-assistenten ](../user-guide/ai-assistant.md) i Experience Manager Guides. Avmarkera om du vill inaktivera funktionen.
 
   När du har aktiverat växeln **AI Assistant** kan du konfigurera vilka alternativ som ska visas under **redigeringsfliken** för författare med hjälp av menyn **Snabbåtgärder för redigering** som visas nedan.\
   De här ändringarna gäller för den specifika mappprofil som du arbetar med. Om du skapar en ny mappprofil ärver den Workspace-inställningarna som definierats i mappprofilen **Global** som standard. Du kan ändra inställningarna efter behov med **Workspace-inställningarna** och spara den uppdaterade konfigurationen.\
-  En detaljerad översikt över de tillgängliga alternativen för redigering med hjälp av AI Assistant finns i [Skapa dokument smart med AI Assistant](./ai-assistant-right-panel.md).
+  En detaljerad översikt över de tillgängliga alternativen för redigering med hjälp av AI Assistant finns i [Skapa dokument smart med AI Assistant](../user-guide/ai-assistant-right-panel.md).
 
   På menyn **Snabbåtgärder för redigering** kan du:
 
@@ -50,7 +50,7 @@ Välj det här om du vill aktivera funktionen [ AI-assistenten ](./ai-assistant.
 
    - ändra den ordning i vilken alternativen visas, dra och släpp dem efter behov.
 
-  ![](images/authoring-quick-actions-new.png){width="350" align="left"}
+  ![](../user-guide/images/authoring-quick-actions-new.png){width="350" align="left"}
 
 
 
@@ -60,7 +60,7 @@ Välj det här om du vill aktivera funktionen [ AI-assistenten ](./ai-assistant.
 
 - **Citat**
 
-  Ändra format på citat. Välj den källstil i listrutan som du vill använda i ditt projekt. Mer information finns i [Ändra källhänvisningsformat](./web-editor-apply-citations.md#change-citation-style).
+  Ändra format på citat. Välj den källstil i listrutan som du vill använda i ditt projekt. Mer information finns i [Ändra källhänvisningsformat](../user-guide/web-editor-apply-citations.md#change-citation-style).
 
 - **Villkor**
 
@@ -70,7 +70,7 @@ Välj det här om du vill aktivera funktionen [ AI-assistenten ](./ai-assistant.
 
    - **Visa nyckel med titeln på panelen Ämnesschema**: Välj det här om du vill visa nycklarna tillsammans med rubrikerna i ämnesschemat. Om du inte väljer det här alternativet visas bara rubrikerna. Här visas till exempel nycklarna &#39;os&#39;, &#39;målgrupp&#39; och &#39;other&#39; tillsammans med titlarna.
 
-     ![](images/subject-scheme-title.png){width="550" align="left"}
+     ![](../user-guide/images/subject-scheme-title.png){width="550" align="left"}
 
    - **Visa ämnesschema på villkorspanelen**: Välj det här om du vill visa ett ämnesschema på villkorspanelen. Om du avmarkerar detta visas de definierade villkoren på villkorspanelen.
 
@@ -82,11 +82,11 @@ Det finns två alternativ: **AEM stavningskontroll** och **webbläsarstavningsko
 
 Den här inställningen styr panelerna som visas på den vänstra och högra panelen i redigeraren och kartkonsolen. Du kan växla knappen för att visa eller dölja den önskade panelen.
 
-![](images/editor-setting-panel.png){width="650" align="left"}
+![](../user-guide/images/editor-setting-panel.png){width="650" align="left"}
 
 Du kan också ange i vilken ordning funktionerna i panelerna ska visas. Om du vill ändra standardordningen för de tillgängliga funktionerna på panelerna markerar du de prickade fälten för att dra och släppa funktionstabbarna på önskad plats. En funktion kan också flyttas från avsnittet **Mer** till huvudavsnittet på en panel, och tvärtom enligt kraven. När du har ändrat ordningen visas funktionerna i samma sekvens på respektive höger- och vänsterpanel.
 
-![](images/panels-screen.png){width="650" align="left"}
+![](../user-guide/images/panels-screen.png){width="650" align="left"}
 
 
 Högst åtta paneler kan visas samtidigt. Alla ändringar som görs i panelinställningarna tillämpas omedelbart.
@@ -100,23 +100,23 @@ Högst åtta paneler kan visas samtidigt. Alla ändringar som görs i panelinst�
 
 Som administratör kan du styra listan med element som en författare kan infoga i en fil och även definiera elementets visningsnamn. Med Elements-listinställningen kan du ange elementets namn enligt DITA-specifikationerna och en etikett som du vill använda i stället för det DITA-definierade elementnamnet:
 
-![](images/editor-setting-element-list.png){width="650" align="left"}
+![](../user-guide/images/editor-setting-element-list.png){width="650" align="left"}
 
 I skärmbilden ovan har elementet `p` fått etiketten Stycke och `codeblock` får etiketten Kodblock tillsammans med några andra element. Om du väljer alternativet **Använd endast ovanför element** visas endast de giltiga elementen \(vid den aktuella insättningspunkten\) i listan i dialogrutan **Infoga element**.
 
 I skärmbilden nedan visas endast 3 av 4 konfigurerade element från den föregående skärmbilden i det aktuella sammanhanget:
 
-![](images/editor-setting-insert-element-list.PNG){width="300" align="left"}
+![](../user-guide/images/editor-setting-insert-element-list.PNG){width="300" align="left"}
 
 ## Attributlista
 
 På samma sätt som elementlistan kan du styra listan med attribut och deras visningsnamn som ska visas i attributlistan för ett element. På följande skärmbild har bara tre attribut konfigurerats för att visas i ett elements attributlista:
 
-![](images/editor-setting-attributes-list.png){width="650" align="left"}
+![](../user-guide/images/editor-setting-attributes-list.png){width="650" align="left"}
 
 När du försöker lägga till ett attribut i ett element med den här inställningen visas bara listan med attribut som konfigurerats i listan.
 
-![](images/editor-setting-add-attributes-list.png){width="300" align="left"}
+![](../user-guide/images/editor-setting-add-attributes-list.png){width="300" align="left"}
 
 
 ## Färger
@@ -148,7 +148,7 @@ Detta innehåller de profiler som kan användas för att publicera **kunskapsbas
 
    - Om du vill skapa en Salesforce-profil väljer du **Salesforce** kunskapsbas i listrutan **Servertyp** . Ange ett profilnamn. Ange den konsumentwebbplats som du skulle använda för att publicera utdata i URL:en för **platsen** och lägg sedan till **konsumentnyckeln** och **konsumenthemligheten** från Salesforce konsumentwebbplats. **Validera** och **Spara** den nya profilen.
 
-     ![salesforce-publiceringsprofil i arbetsyteinställningarna](./images/salesforce-publish-profile.png){width="550" align="left"}
+     ![salesforce-publiceringsprofil i arbetsyteinställningarna](../user-guide/images/salesforce-publish-profile.png){width="550" align="left"}
 
      >[!NOTE]
      >
@@ -173,7 +173,7 @@ Konfigurera ServiceNow-servern för överföring av resurserna.
 
 - Om du vill skapa en profil väljer du ServiceNow Knowledge Base i listrutan **Servertyp**. Ange profilen **Namn**. I **ServiceNow URL** anger du den konsumentwebbplats som du skulle använda för att publicera utdata och lägger sedan till **Användarnamn** och **Lösenord** från ServiceNow-konsumentwebbplatsen. **Validera** och **Spara** den nya profilen.
 
-  ![ServiceNow-publiceringsprofil](./images/service-now-publish-profile.png){width="550" align="left"}
+  ![ServiceNow-publiceringsprofil](../user-guide/images/service-now-publish-profile.png){width="550" align="left"}
 
   När du har validerat kan du välja publiceringsprofilen i utdataförinställningarna för en DITA-karta och använda den för att generera utdata till den **Salesforce** - eller **ServiceNow** -server som du har valt.
 
@@ -190,7 +190,7 @@ Fliken innehåller alternativ för att konfigurera schematrons valideringar i Re
   >
   > De markerade schematrons-filerna behålls för den valda mappprofilen.
 
-  ![Verifiering i arbetsyteinställningar](./images/editor-setting-validation.png){width="550" align="left"}
+  ![Verifiering i arbetsyteinställningar](../user-guide/images/editor-setting-validation.png){width="550" align="left"}
 
   Detta förhindrar att användarna sparar filer som bryter en regel som definierats i de valda Schematron-filerna. Om detta inte är markerat kommer filen inte att valideras innan ändringarna sparas.
 
@@ -203,13 +203,13 @@ Precis som i attributlistan kan du styra listan med attribut som ska visas i att
 
 De attribut som är definierade för ett element visas i layoutvyn och dispositionsvyn.
 
-![](images/editor-settings-display-attributes.png){width="550" align="left"}
+![](../user-guide/images/editor-settings-display-attributes.png){width="550" align="left"}
 
 ## Översättning
 
 Fliken innehåller alternativ för att skapa språkgrupper, sprida källetiketterna till målversionen och rensa översättningsprojektet.
 
-![](images/editor-setting-translation.png){width="550" align="left"}
+![](../user-guide/images/editor-setting-translation.png){width="550" align="left"}
 
 - **Språkgrupper**: Som administratör kan du skapa en grupp med språk och använda dem som en uppsättning för att översätta innehållet.
 
@@ -227,7 +227,7 @@ Fliken innehåller alternativ för att skapa språkgrupper, sprida källetikette
       >
       > Växla **Visa mer** till **Visa mindre** och visa endast ett fåtal språk.
 
-   1. Håll markören över språken i en grupp om du vill redigera ![redigeringsikonen](images/edit_pencil_icon.svg) eller ta bort ![ta bort](images/Delete_icon.svg) språkgrupperna.
+   1. Håll markören över språken i en grupp om du vill redigera ![redigeringsikonen](../user-guide/images/edit_pencil_icon.svg) eller ta bort ![ta bort](../user-guide/images/Delete_icon.svg) språkgrupperna.
    1. Spara **inställningarna**.
 
       >[!NOTE]
@@ -250,7 +250,7 @@ Metadata kan hämtas från alla egenskaper under objektets `/jcr:content`-nod, s
 Ett fel visas om metadatasökvägen är tom. Om du lämnar etiketten tom väljs det sista elementet som etikett.
 
 
-![metadatafliken i arbetsytans inställningar](images/editor-setting-metadata.png){width="550" align="left"}
+![metadatafliken i arbetsytans inställningar](../user-guide/images/editor-setting-metadata.png){width="550" align="left"}
 
 *Konfigurera metadata för dialogrutan **Versionshistorik**.*
 
@@ -259,4 +259,4 @@ Ett fel visas om metadatasökvägen är tom. Om du lämnar etiketten tom väljs 
 Du kan också definiera i vilken ordning dessa metadatataggar ska visas. Om du vill ändra standardordningen för de här märkorden markerar du de prickade strecken för att dra och släppa märkorden på önskad plats.
 Metaetiketterna visas i samma sekvens i dialogrutan **Versionshistorik** i redigeraren.
 
-**Överordnat ämne:**[ Introduktion till redigeraren](web-editor.md)
+

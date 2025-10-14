@@ -1,8 +1,9 @@
 ---
-title: Använd AI-assistenten för att skapa dokument smart &grave;
+title: Använd AI-assistenten för att skapa dokument smart `
 description: Lär dig hur du använder AI Assistant för att skapa dokument på ett smart sätt i Web Editor.
 hide: true
-source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
+exl-id: c7d37da8-e838-47a2-b469-287bcd841933
+source-git-commit: 8659035c57ce2b6f760b342fa9d88d656fcabf23
 workflow-type: tm+mt
 source-wordcount: '1054'
 ht-degree: 0%
@@ -16,8 +17,8 @@ Experience Manager Guides har ett AI Assistant-verktyg som hjälper dig att skap
 
 >[!NOTE]
 >
-> Om du vill lägga till AI-assistentfunktionen på den högra panelen måste systemadministratören markera alternativet **AI-assistenten** på fliken **Paneler** i ikonen **Redigerarinställningar** ![Redigerarinställningar](./images/editor_settings_icon.svg) .
-> Du måste även checka ut dokumentet för att visa AI Assistant-ikonen.
+> Om du vill lägga till AI-assistentfunktionen på den högra panelen måste systemadministratören markera alternativet **AI-assistenten** på fliken **Paneler** i ikonen för **Workspace-inställningar** ![Workspace-inställningar](./images/editor_settings_icon.svg) .
+> > Du måste även checka ut dokumentet för att visa AI Assistant-ikonen.
 
 Den här funktionen är endast tillgänglig för DITA-avsnitt. När du har markerat texten i ett ämne kan du välja att utföra någon av AI-assistentåtgärderna:
 

@@ -4,9 +4,9 @@ description: Läs om hur du hanterar granskningskommentarer som författare i AE
 exl-id: 4c969788-f700-4fd6-8afa-8e5b411b59f3
 feature: Reviewing
 role: User
-source-git-commit: f8320d0e0b5982d932c9df46f8ccf35d5f44dbac
+source-git-commit: 35480e842f6c05811333a14e80c0e9b6431e9176
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '1228'
 ht-degree: 0%
 
 ---
@@ -69,9 +69,10 @@ I redigeraren innehåller den högra panelen ikonerna för Granska och spåra ä
 - **G**: Sök efter text i kommentarer.
 - **H**: Acceptera eller avvisa en kommentar.
 
-- **I**: Använd ett filter på kommentarerna. Du kan filtrera om du vill visa kommentarer baserat på granskningstyp \(all, markerad, borttagen, infogad eller anteckningsbar), granskningsstatus \(all, accepterad, avvisad eller ingen\), granskare \(alla eller vissa granskare\)\) eller ämnesversioner.
+- **I**: Använd ett filter på kommentarerna. Du kan filtrera om du vill visa kommentarer baserat på granskningstyp \(all, markerad, borttagen, infogad eller anteckningsbar), granskningsstatus \(all, accepterad, avvisad eller ingen\), granskare \(alla eller vissa granskare\)\) eller ämnesversioner. Som standard är inget av filtren markerat.
 
-**Svara på en kommentar genom att tagga andra användare**
+  ![](images/review-comments-author-filter.png){width="350" align="left"}
+  **Svara på en kommentar genom att tagga andra användare**
 
 Som författare och initierare av granskningsaktiviteten kan du svara på granskningskommentarer och tagga andra användare som deltar i samma granskningsåtgärd för att dirigera om deras uppmärksamhet eller tilldela uppföljningar. Den här funktionen är bara tillgänglig för aktiva granskningsåtgärder.
 
@@ -90,4 +91,4 @@ Om du är initierare eller författare för en granskningsåtgärd och öppnar d
 
 ![](images/review-comments-toolbar-disabled.png){width="350" align="left"}
 
-**Överordnat ämne:**&#x200B;[ Introduktion till granskning](review.md)
+**Överordnat ämne:**[ Introduktion till granskning](review.md)
