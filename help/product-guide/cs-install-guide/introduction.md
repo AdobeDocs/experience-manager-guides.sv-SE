@@ -64,7 +64,7 @@ Informationen i den här handboken är ordnad enligt följande:
 
 ## Adobe Experience Manager \(AEM\) - översikt
 
-[Adobe Experience Manager \(AEM\)](https://business.adobe.com/products/experience-manager/adobe-experience-manager.html) är en omfattande innehållshanteringslösning för att skapa webbplatser, mobilappar och formulär. AEM hjälper er att hantera ert marknadsföringsinnehåll och era marknadsföringsresurser. AEM finns as a Cloud Service. AEM as a Cloud Service hjälper er att ge era kunder personaliserade, innehållsledda upplevelser genom att kombinera kraften i AEM Content Management System med AEM Digital Asset Management. Några av de viktigaste resurserna som kan hjälpa er att komma igång och driftsätta i AEM as a Cloud Service är följande:
+[Adobe Experience Manager \(AEM\)](https://business.adobe.com/se/products/experience-manager/adobe-experience-manager.html) är en omfattande innehållshanteringslösning för att skapa webbplatser, mobilappar och formulär. AEM hjälper er att hantera ert marknadsföringsinnehåll och era marknadsföringsresurser. AEM finns as a Cloud Service. AEM as a Cloud Service hjälper er att ge era kunder personaliserade, innehållsledda upplevelser genom att kombinera kraften i AEM Content Management System med AEM Digital Asset Management. Några av de viktigaste resurserna som kan hjälpa er att komma igång och driftsätta i AEM as a Cloud Service är följande:
 
 - [as a Cloud Service översikt för Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html?lang=sv-SE)
 - [Komma igång med migreringsresan till AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/migration-journey/getting-started.html?lang=sv-SE)
