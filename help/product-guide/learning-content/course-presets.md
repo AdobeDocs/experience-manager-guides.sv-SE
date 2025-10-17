@@ -4,9 +4,9 @@ description: Ger en introduktion till de förinställningar som stöds för publ
 feature: Authoring
 role: User
 exl-id: 32f30bba-4600-4d75-b0bb-1093490ec11e
-source-git-commit: 40ce03adef1b9a50afd6698de49c09b65e565b3e
+source-git-commit: 26fe86ea790432dfef40ca404ff497722164b593
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '135'
 ht-degree: 0%
 
 ---
@@ -19,4 +19,4 @@ När du publicerar en kurs kan du välja SCORM och PDF för att leverera materia
 
 - **PDF:** Med förinställningen för PDF-utdata kan du publicera kursinnehåll i ett professionellt, tryckfärdigt format. PDF-formatet gör det idealiskt för granskning och arkivering.
 
-En videoöversikt om hur du skapar, konfigurerar och genererar utdata för en förinställning finns på [![](assets/Smock_VideoCheckedOut_18_N.svg)](https://video.tv.adobe.com/v/3469529/aem-guides-learning-content).
+Se [Förinställningar som stöds](https://video.tv.adobe.com/v/3469529/aem-guides-learning-content) ![](assets/Smock_VideoCheckedOut_18_N.svg) om du vill se en videoöversikt över hur du skapar, konfigurerar och genererar utdata för en förinställning.
