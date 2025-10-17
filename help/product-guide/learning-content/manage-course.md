@@ -4,9 +4,9 @@ description: Lär dig mer om de olika funktionerna i Experience Manager Guides s
 feature: Authoring
 role: User
 exl-id: 0f480d08-2f8a-494e-ab56-4965e5eeb960
-source-git-commit: 6a61f404892dee8256e969a0b3433b8425f84c6c
+source-git-commit: 40ce03adef1b9a50afd6698de49c09b65e565b3e
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Gör så här för att lägga till nytt innehåll i kursen:
    - **Grupp**: En utbildningsgrupp hjälper dig att ordna relaterade ämnen som kapitel, ämnen och andra moduler i en logisk ordning och skapar en tydlig hierarki som gör det enklare att hantera och återanvända utbildningsmaterial.
 3. Välj **Skapa**.
 
-Det markerade innehållet skapas och läggs till i kursen. Se [Lägg till nytt innehåll i en kurs](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on) om du vill se en videoöversikt.
+Det markerade innehållet skapas och läggs till i kursen. Visa [![](assets/Smock_VideoCheckedOut_18_N.svg)](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on) om du vill se en videoöversikt.
 
 ## Lägg till befintligt innehåll
 
@@ -50,7 +50,7 @@ Det valda kursinnehållet läggs till kursen från databasen.
 >
 >Du kan också använda alternativet **Lägg till befintlig** > **Fil (endast resursen)** för att inkludera en ZIP-fil som packas upp och integreras i mappstrukturen för den slutliga SCORM-utdatafilen. Detta effektiviserar resursanvändningen under kurspubliceringen.
 
-Om du vill se en videoöversikt kan du visa [Lägg till befintligt innehåll i kurs](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on).
+Visa [![](assets/Smock_VideoCheckedOut_18_N.svg)](https://video.tv.adobe.com/v/3469537/aem-guides-learning-content?quality=12&learn=on) om du vill se en videoöversikt.
 
 ## Ta bort innehåll
 
@@ -58,7 +58,8 @@ Du kan ta bort alla ämnen från kursen genom att välja menyn **Alternativ** f�
 
 ![](assets/remove-learning-content.png)
 
-Visa [Ta bort innehåll från kurs](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides) om du vill se en videoöversikt.
+Visa [![](assets/Smock_VideoCheckedOut_18_N.svg)](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides) om du vill se en videoöversikt.
+
 
 ## Skapa kursversioner
 
@@ -82,4 +83,4 @@ Alternativet **Visa** avgör hur ämnen visas. Du kan välja att presentera dem 
 
 ![](assets/course-display-settings.png)
 
-Visa [Visa alternativ](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides) om du vill se en videoöversikt.
+Visa [![](assets/Smock_VideoCheckedOut_18_N.svg)](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides) om du vill se en videoöversikt.
