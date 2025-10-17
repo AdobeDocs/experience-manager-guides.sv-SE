@@ -4,9 +4,9 @@ description: Talar om hur du skapar ett ämne i produktutbildning och -inlärnin
 feature: Authoring
 role: User
 exl-id: a08a165d-801b-4b35-9626-b27471349327
-source-git-commit: 75a35db1b81d71f3994c3a6763647b94a2b79b36
+source-git-commit: b914c69f9d29884382ce43f163a8f766567b10bf
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,7 @@ Innan vi går vidare till steg-för-steg-processen finns här en snabb videoöve
 
 >[!VIDEO](https://video.tv.adobe.com/v/3475211/learning-content-aem-guides)
 
+**Steg för att lägga till ett ämne i en kurs**
 
 Utför följande steg för att lägga till ett ämne i en kurs:
 

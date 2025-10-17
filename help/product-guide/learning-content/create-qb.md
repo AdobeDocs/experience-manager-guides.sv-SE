@@ -4,9 +4,9 @@ description: Lär dig hur du skapar en frågebank i produktutbildningar
 feature: Authoring
 role: User
 exl-id: c658af49-b0e6-4188-b3ba-8f3223b12632
-source-git-commit: 6f0643ca4b43f88ead42bbeade4e3e7252263f32
+source-git-commit: b914c69f9d29884382ce43f163a8f766567b10bf
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '230'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,9 @@ Innan vi går vidare till steg-för-steg-processen ska vi titta på en kort geno
 
 >[!VIDEO](https://video.tv.adobe.com/v/3475212/learning-content-aem-guides)
 
-Gör så här för att skapa en frågebank:
+**Steg för att skapa en frågebank**
 
->[!VIDEO](https://video.tv.adobe.com/v/3469321)
+Gör så här för att skapa en frågebank:
 
 1. Öppna en kurs i **Kurshanteraren** och välj **Lägg till ny** på **Alternativ-menyn**.
 1. Välj **Frågebank**.
