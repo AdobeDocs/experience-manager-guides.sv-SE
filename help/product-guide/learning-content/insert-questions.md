@@ -4,9 +4,9 @@ description: Lär dig hur du infogar frågor från en frågebank i Quiz for Prod
 feature: Authoring
 role: User
 exl-id: dfc247f7-31f9-4bcf-84e2-151993603b89
-source-git-commit: 26fe86ea790432dfef40ca404ff497722164b593
+source-git-commit: 757582f6bdcb64b004d430679eaf6e8a5fbdc807
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
@@ -38,4 +38,4 @@ Följ de här stegen för att infoga frågor från frågebanken i frågeformulä
    ![](assets/inserted-question.png){width="650" align="left"}
 
 
-Om du vill få en snabb videoöversikt kan du [infoga frågor från frågebanken](https://video.tv.adobe.com/v/3475212/learning-content-aem-guides) ![](assets/Smock_VideoCheckedOut_18_N.svg).
+Om du vill få en snabb videoöversikt kan du visa [Infoga frågor från frågebanken](https://video.tv.adobe.com/v/3475212/learning-content-aem-guides) ![](assets/Smock_VideoCheckedOut_18_N.svg).
