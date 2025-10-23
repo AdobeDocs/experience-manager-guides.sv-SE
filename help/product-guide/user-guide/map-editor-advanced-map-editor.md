@@ -4,7 +4,7 @@ description: Lär dig funktionerna i Kartredigeraren i Adobe Experience Manager 
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 6235af9bf85b2d0e2007bd2279d8ac018f82ffc1
+source-git-commit: 4cb5934fab1897bd36de33f2192ae2c4392c07eb
 workflow-type: tm+mt
 source-wordcount: '2563'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Kartredigeraren {#id1942D0S0IHS}
 
-Verktygsfältet i kartredigeraren liknar ämnet redigerare. Grundläggande åtgärder som att växla den vänstra panelen, spara karta, skapa en ny version av kartan, ångra/göra om senaste åtgärden och ta bort de markerade elementen är vanliga i båda redigerarna. Mer information om hur dessa åtgärder fungerar finns i avsnittet [Känn till redigeringsfunktioner](web-editor-features.md#).
+Verktygsfältet i kartredigeraren liknar ämnet redigerare. Grundläggande åtgärder som att växla den vänstra panelen, spara karta, skapa en ny version av kartan, ångra/göra om senaste åtgärden och ta bort de markerade elementen är vanliga i båda redigerarna. Mer information om hur de här åtgärderna fungerar finns i [Verktygsfältet i redigeraren](web-editor-toolbar.md#).
 
 De alternativ som du visar i redigeringsverktygsfältet baseras på Kartredigerarens vy. Det finns fyra tillgängliga vyer i kartredigeraren:
 
@@ -146,7 +146,7 @@ Dessutom kan du visa följande ikoner och utföra relaterade uppgifter i rediger
 
 **Infoga före/Infoga efter** - ![](images/insert_element_before_icon.svg) / ![](images/insert_element_after_icon.svg)
 
-Visar elementet **Insert före eller &#x200B;** Insert efter dialogruta. Markera det element som du vill infoga på kartan. Beroende på åtgärden infogas det nya elementet före eller efter det aktuella elementet i kartan.
+Visar elementet **Insert före eller **Insert efter dialogruta. Markera det element som du vill infoga på kartan. Beroende på åtgärden infogas det nya elementet före eller efter det aktuella elementet i kartan.
 
 **Element** - ![](images/Add_icon.svg)
 

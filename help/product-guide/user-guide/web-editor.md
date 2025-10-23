@@ -4,9 +4,9 @@ description: Skapa och redigera strukturerade dokument med redigeraren. Lär dig
 exl-id: 285d3ad3-fb4e-4cdd-ab83-493ffce891d6
 feature: Authoring, Web Editor
 role: User
-source-git-commit: 67d6b6f59e5d8c37389a181949ce4527760576e2
+source-git-commit: 4cb5934fab1897bd36de33f2192ae2c4392c07eb
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---
@@ -17,21 +17,7 @@ Experience Manager Guides har ett lättanvänt redigeringsprogram för att skapa
 
 Redigeraren är även DITA-medveten och stöder DITA 1.3, 1.2-standarderna, lätt DITA och även specialiserade DITA. Det innebär att du inte kan placera element på platser som inte uppfyller DITA-standarderna. Med redigeraren kan du även arbeta med de vanligaste blockelementen och textbundna elementen.
 
-- **[Starta redigeraren](web-editor-launch-editor.md)**
-
-- **[Skapa och förhandsgranska ämnen](create-preview-topics.md)**
-
-- **[Lär dig redigeringsfunktionerna](web-editor-features.md)**
-
-- **[Ytterligare funktioner i redigeraren](web-editor-other-features.md)**
-
-- **[Redigerarvyer](web-editor-views.md)**
-
-- **[Skapa markeringsdokument från redigeraren](web-editor-markdown-topic.md)**
-
-- **[Dokumentläge](web-editor-document-states.md)**
-
-- **[Använd etiketter](web-editor-use-label.md)**
 
 
-**Överordnat ämne:**&#x200B;[&#x200B; Skapa innehåll med Experience Manager Guides](authoring-content-xml-doc.md)
+
+**Överordnat ämne:**[ Skapa innehåll med Experience Manager Guides](authoring-content-xml-doc.md)
