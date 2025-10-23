@@ -91,4 +91,4 @@ Om du är initierare eller författare för en granskningsåtgärd och öppnar d
 
 ![](images/review-comments-toolbar-disabled.png){width="350" align="left"}
 
-**Överordnat ämne:**[ Introduktion till granskning](review.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Introduktion till granskning](review.md)
