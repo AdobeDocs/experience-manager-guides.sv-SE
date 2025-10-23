@@ -4,7 +4,7 @@ description: Visa ämnen i redigeringsläge, källläge och förhandsgransknings
 exl-id: 74db2902-4507-4904-85d8-6b52e4af4c55
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
 workflow-type: tm+mt
 source-wordcount: '1447'
 ht-degree: 0%
@@ -49,7 +49,7 @@ I Source-vyn visas den underliggande XML-koden som avsnittet består av. Om du k
   På skärmbilden ovan används en markering som pekar på raden som innehåller felaktig XML.
 
 * Med funktionen Sök och ersätt kan du söka efter text, element eller attribut i Source-vyn.
-Mer information finns i funktionsbeskrivningen för **Sök och ersätt** i avsnittet [Flikfält](web-editor-features.md#tab-bar).
+Mer information finns i funktionsbeskrivningen för **Sök och ersätt** i avsnittet [Flikfält](web-editor-tab-bar.md).
 
 * I Source-vyn finns många kortkommandon som du kan använda för att snabbt navigera och arbeta med dokument. I följande tabell visas vilka åtgärder som stöds och deras kortkommandon:
 
@@ -149,4 +149,4 @@ Så här exporterar du ett ämne som PDF:
    PDF genereras och öppnas på en ny flik eller så visas en dialogruta där du kan spara PDF på din dator.
 
 
-**Överordnat ämne:**&#x200B;[&#x200B; Introduktion till redigeraren](web-editor.md)
+**Överordnat ämne:**[ Introduktion till redigeraren](web-editor.md)

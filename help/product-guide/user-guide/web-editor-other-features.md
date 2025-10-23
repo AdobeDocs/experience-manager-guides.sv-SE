@@ -4,7 +4,7 @@ description: Utforska andra funktioner i redigeraren i Adobe Experience Manager 
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: b00f8ba0e27cc26c48e1b058e25c05c4b6e9dffd
+source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
 workflow-type: tm+mt
 source-wordcount: '2652'
 ht-degree: 0%
@@ -49,7 +49,7 @@ De olika alternativen på snabbmenyn förklaras nedan:
 
 ***Spara som ny version***
 
-Om du vill skapa en ny version av filen väljer du **Spara som ny version**. Mer information om **Spara** och **Spara som ny version** finns i [Känn till redigeringsfunktionerna](web-editor-features.md#).
+Om du vill skapa en ny version av filen väljer du **Spara som ny version**. Mer information om **Spara** och **Spara som ny version** finns i [Verktygsfältet i redigeraren](web-editor-toolbar.md).
 
 ***Kopiera***: Du kan välja bland följande alternativ:
 
@@ -66,9 +66,9 @@ Om du vill skapa en ny version av filen väljer du **Spara som ny version**. Mer
 
 ***Lägg till i***: Du kan välja bland följande alternativ:
 
-- **Samlingar**: Om du vill lägga till den markerade filen i samlingar väljer du **Lägg till i \> Samlingar**. Mer information finns i funktionsbeskrivningen för **samlingar** i avsnittet [Vänster panel](web-editor-features.md#left-panel).
+- **Samlingar**: Om du vill lägga till den markerade filen i samlingar väljer du **Lägg till i \> Samlingar**. Mer information finns i funktionsbeskrivningen för **samlingar** i avsnittet [Vänster panel](web-editor-left-panel.md).
 
-- **Återanvändbart innehåll**: Om du vill kopiera den markerade filen till listan över återanvändbart innehåll väljer du **Lägg till i \> Återanvändbart innehåll**. Mer information finns i funktionsbeskrivningen för **Återanvändbart innehåll** i avsnittet [Vänster panel](web-editor-features.md#left-panel).
+- **Återanvändbart innehåll**: Om du vill kopiera den markerade filen till listan över återanvändbart innehåll väljer du **Lägg till i \> Återanvändbart innehåll**. Mer information finns i funktionsbeskrivningen för **Återanvändbart innehåll** i avsnittet [Vänster panel](web-editor-left-panel.md).
 
 ***Egenskaper***
 
@@ -114,7 +114,7 @@ Hur du sparar filer beror på följande tre scenarier:
 Du kan visa följande alternativ beroende på om filen är låst/olåst och har sparade eller osparade ändringar:
 
 - **Lås upp och stäng**: Lås upp filen och filen stängs.
-- **Spara som ny version**: Detta sparar ändringarna som du har gjort i innehållet och skapar en ny version av filen. Du kan också lägga till etiketter och kommentarer för den nyligen sparade versionen. Mer information om hur du sparar en ny version finns i [Spara som ny version](web-editor-features.md#save-as-new-version).
+- **Spara som ny version**: Detta sparar ändringarna som du har gjort i innehållet och skapar en ny version av filen. Du kan också lägga till etiketter och kommentarer för den nyligen sparade versionen. Mer information om hur du sparar en ny version finns i [Spara som ny version](web-editor-toolbar.md#version-information-and-save-as-new-version).
 
 - **Lås upp filen**: Om du väljer att låsa upp en fil kommer den att låsa upp filen och ändringarna sparas i den aktuella versionen av filen.
 
@@ -279,4 +279,4 @@ De viktigaste funktionerna för att förbättra hanteringen av stora filer är f
 
 - Varningsmeddelandet är bara tillgängligt för DITA-filer och är synligt i alla vyer: Författare, Source och Layout.
 
-**Överordnat ämne:**&#x200B;[&#x200B; Introduktion till redigeraren](web-editor.md)
+**Överordnat ämne:**[ Introduktion till redigeraren](web-editor.md)

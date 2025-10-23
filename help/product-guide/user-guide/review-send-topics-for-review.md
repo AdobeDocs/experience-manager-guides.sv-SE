@@ -4,7 +4,7 @@ description: Lär dig hur du skapar en granskningsåtgärd och skickar ämnen f�
 exl-id: c486eb6a-7e1f-4faa-973d-b47252d3e7c5
 feature: Reviewing
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
 workflow-type: tm+mt
 source-wordcount: '2793'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Eftersom granskningsarbetsflödet är projektspecifikt måste granskningsinitier
 
 Du kan skapa en granskningsuppgift från:
 
-- **Redigeraren**: Gör att du kan skicka ett enskilt ämne eller en DITA-karta för granskning. Observera att arbetsflödet för att skapa en granskningsåtgärd är vanligt i redigeraren och Assets-gränssnittet. Det är bara metoden för att starta granskningsarbetsflödet som skiljer sig. Mer information om hur du startar granskningsarbetsflödet i Redigeraren finns i funktionen [Skapa granskningsaktivitet](web-editor-features.md#id215OCJ00JXA) i Redigeraren.
+- **Redigeraren**: Gör att du kan skicka ett enskilt ämne eller en DITA-karta för granskning. Observera att arbetsflödet för att skapa en granskningsåtgärd är vanligt i redigeraren och Assets-gränssnittet. Det är bara metoden för att starta granskningsarbetsflödet som skiljer sig. Mer information om hur du startar granskningsarbetsflödet i Redigeraren finns i funktionen [Skapa granskningsaktivitet](web-editor-left-panel.md#review) i Redigeraren.
 
 - **Assets-gränssnitt**: Gör att du kan skicka ett eller flera ämnen och DITA-karta för granskning. Delning av dokument för granskning från Assets användargränssnitt beskrivs i det här avsnittet.
 
@@ -250,7 +250,6 @@ Så här skickar du ett eller flera avsnitt tillsammans med kartfilen för grans
    - **Tilldela om**: Visar dialogrutan Tilldela granskare igen. Du kan skriva namnet på en granskare eller användarroll \(eller grupp\) som du vill tilldela granskningsuppgiften till. Detta tar bort alla befintliga granskare från de markerade avsnitten och tilldelar de nyvalda granskarna till dessa ämnen.
    - **Exportera**: Gör att du kan exportera information om granskningsåtgärder i en CSV-fil. Filen innehåller information om ämnessökväg och rubrik, namn på granskare och version av ämnen som skickats för granskning.
    - **Redigera granskare**: Om du väljer ikonen ![](images/edit_pencil_icon.svg) i ämneslistan visas dialogrutan Redigera granskare. Du kan lägga till eller ta bort granskare för det valda ämnet från den här dialogrutan.
-
    >[!IMPORTANT]
    >
    > Du måste tilldela minst en granskare för att skapa granskningsaktiviteten.
@@ -270,4 +269,4 @@ Så här skickar du ett eller flera avsnitt tillsammans med kartfilen för grans
 
 Ett e-postmeddelande skickas till alla granskare som meddelar att de har tilldelats ämnen för granskning. E-postmeddelandet innehåller en direkt länk som de kan använda för att komma åt ämnet i ett webbläsarfönster. Ämnen tillsammans med DITA-kartan öppnas i granskningsläget.
 
-**Överordnat ämne:**&#x200B;[&#x200B; Introduktion till granskning](review.md)
+**Överordnat ämne:**[ Introduktion till granskning](review.md)

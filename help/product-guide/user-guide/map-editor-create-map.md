@@ -4,7 +4,7 @@ description: Skapa en karta med Karteredigeraren i Experience Manager Guides. Hi
 exl-id: b9cda118-ab6f-4d6b-9616-a083180ba069
 feature: Authoring, Map Editor
 role: User
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
 workflow-type: tm+mt
 source-wordcount: '1555'
 ht-degree: 0%
@@ -56,17 +56,17 @@ Utför följande steg för att lägga till ämnen i en kartfil från kartkonsole
    ![](images/new-map-file-in-editor.png){align="left"}
 
 
-   - **A** - \(*Flikfält*\): Det här liknar redigerarens flikfält. Visa [flikfältet](./web-editor-features.md#tab-bar) i redigeraren om du vill ha mer information.
+   - **A** - \(*Flikfält*\): Det här liknar redigerarens flikfält. Visa [flikfältet](./web-editor-tab-bar.md) i redigeraren om du vill ha mer information.
 
    - **B** - \(*Verktygsfält*\) Det här är verktygsfältet som du kan använda för att arbeta med kartfiler. Mer information om de funktioner som är tillgängliga via verktygsfältet finns i [Funktioner i kartredigerarens verktygsfält](#features-available-in-the-map-editors-toolbar).
 
    - **C** - \(*Kartvyer*\): Gör att du kan växla mellan layouten, författaren, Source och förhandsgranskningen i Kartredigeraren. I vyn **Layout** kan du ordna ämnen i en DITA-karta. Detta ger kartans träd eller hierarkiska vy. I vyn **Författare** kan du redigera ämnen i Kartredigeraren. Detta ger även en WYSIWYG-vy över kartfilen. I vyn **Source** kan du arbeta med kartfilens underliggande XML. Med Förhandsgranska får du en samlad vy över alla avsnitt och undermappar i kartfilen.
 
-   - **D** - \(*Vänster panel*\): Ger åtkomst till den vänstra panelen, som ger dig tillgång till funktionerna Samlingar, Databas, Karta, Kontur och andra. Du kan expandera eller komprimera den genom att välja ikonen Expandera/Komprimera. Mer information om de funktioner som är tillgängliga i den vänstra panelen finns i [vänsterpanelen](./web-editor-features.md#left-panel) i redigeraren.
+   - **D** - \(*Vänster panel*\): Ger åtkomst till den vänstra panelen, som ger dig tillgång till funktionerna Samlingar, Databas, Karta, Kontur och andra. Du kan expandera eller komprimera den genom att välja ikonen Expandera/Komprimera. Mer information om de funktioner som är tillgängliga i den vänstra panelen finns i [vänsterpanelen](./web-editor-left-panel.md) i redigeraren.
 
    - **E** - \(*Mittområde*\): Mappa innehållets redigeringsområde.
 
-   - **F** - \(*Högerpanel*\): Ger åtkomst till panelen Egenskaper. Du kan visa innehållsegenskaperna och mappningsegenskaperna för det markerade ämnet eller kartan. Mer information om de funktioner som är tillgängliga på den här panelen finns i [Högerpanelen](web-editor-features.md#right-panel) i redigeraren.
+   - **F** - \(*Högerpanel*\): Ger åtkomst till panelen Egenskaper. Du kan visa innehållsegenskaperna och mappningsegenskaperna för det markerade ämnet eller kartan. Mer information om de funktioner som är tillgängliga på den här panelen finns i [Högerpanelen](web-editor-right-panel.md) i redigeraren.
 
 1. I den vänstra panelen växlar du till vyn **Databas**.
 

@@ -4,7 +4,7 @@ description: Läs om hur du hanterar granskningskommentarer som författare i AE
 exl-id: 4c969788-f700-4fd6-8afa-8e5b411b59f3
 feature: Reviewing
 role: User
-source-git-commit: 35480e842f6c05811333a14e80c0e9b6431e9176
+source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
 workflow-type: tm+mt
 source-wordcount: '1228'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Adressgranskningskommentarer {#id2056B0X0KBI}
 
-Som författare kan du adressera kommentarer i ett ämne med redigeraren. Kommentarerna läses in baserat på den granskningsuppgift som valts på granskningspanelen. Mer information finns i funktionsbeskrivningen för **Granskningspanelen** ![](images/active-review-tasklist-icon.svg) i avsnittet [Vänster panel](../user-guide/web-editor-features.md#id2051EA0M0HS).
+Som författare kan du adressera kommentarer i ett ämne med redigeraren. Kommentarerna läses in baserat på den granskningsuppgift som valts på granskningspanelen. Mer information finns i funktionsbeskrivningen för **Granskningspanelen** ![](images/active-review-tasklist-icon.svg) i avsnittet [Vänster panel](../user-guide/web-editor-left-panel.md).
 
 I följande avsnitt beskrivs olika sätt att hantera kommentarer i redigeraren.
 
@@ -83,7 +83,7 @@ Som författare och initierare av granskningsaktiviteten kan du svara på gransk
 ![](images/tag-users-review.png){width="350" align="left"}
 *Bildtextanvändare :Tag som initierare/författare*
 
-Taggade användare får både ett e-postmeddelande och ett AEM-meddelande så att de snabbt kan informeras. Mer information om hur granskningsmeddelanden utlöses finns i [Om granskningsmeddelanden](./review-understanding-review-notifications.md).
+Taggade användare får både ett e-postmeddelande och ett AEM-meddelande så att de snabbt informeras. Mer information om hur granskningsmeddelanden utlöses finns i [Om granskningsmeddelanden](./review-understanding-review-notifications.md).
 
 **Få åtkomst till granskningskommentarer med granskningsgränssnittet**
 
@@ -91,4 +91,4 @@ Om du är initierare eller författare för en granskningsåtgärd och öppnar d
 
 ![](images/review-comments-toolbar-disabled.png){width="350" align="left"}
 
-**Överordnat ämne:**&#x200B;[&#x200B; Introduktion till granskning](review.md)
+**Överordnat ämne:**[ Introduktion till granskning](review.md)
