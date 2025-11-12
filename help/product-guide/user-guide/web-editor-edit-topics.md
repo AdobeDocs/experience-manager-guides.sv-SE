@@ -4,9 +4,9 @@ description: Lär dig redigera ämnen i Redigeraren. Lär dig olika redigeringsf
 exl-id: 8da37a81-e8c3-434f-b3f4-4723d87c2ade
 feature: Authoring, Web Editor
 role: User
-source-git-commit: d203ca0e1a5ca90f30f33e25e425552141674fe5
+source-git-commit: bdf838da24d7e426c34265cdad454d52f657cfae
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '1029'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,6 @@ Om du tar bort det markerade innehållet sammanfogas det återstående innehåll
 
    - Markera innehållet i ett element.
    - Välj ikonen ![lägg till](images/Add_icon.svg) i verktygsfältet högst upp för att visa dialogrutan **Infoga element** . I dialogrutan visas giltiga element för det markerade innehållet.
-
      >[!NOTE]
      >
      > Du kan också visa dialogrutan Infoga element genom att välja snabbmenyn för det markerade innehållet.
@@ -108,11 +107,14 @@ You can access the **Layout** view for read-only DITA maps. This view lets you s
 
  -->
 
-## Leta reda på en öppen fil i databasvyn
+## Leta reda på en öppen fil i Utforskaren
 
-När du öppnar en fil i Redigeraren kan du hitta filen i databasvyn i Experience Manager Guides. Det söker till exempel efter det aktuella ämnet när du redigerar det.
+När du öppnar en fil i Redigeraren innehåller Experience Manager Guides en funktion för att hitta filen i Utforskaren. Det söker till exempel efter det aktuella ämnet när du redigerar det.
 
-Du kan inaktivera funktionen för att hitta filen med alternativet **Hitta alltid filer i databasen** på fliken **Utseende** i **Användarinställningarna**.
+Du kan inaktivera funktionen för att hitta filen med alternativet **Hitta alltid filer i Utforskaren** på fliken **Utseende** i **Användarinställningarna**.
 
+>[!NOTE]
+>
+>Från och med version 2025.11.0 har inställningen **Hitta alltid filer i databasen** bytt namn till **Hitta alltid filer i utforskaren**. Vid lokal installation är den fortfarande tillgänglig som Hitta alltid filer i databasen till version 5.1 av Experience Manager Guides.
 
-**Överordnat ämne:**&#x200B;[&#x200B; Arbeta med redigeraren](web-editor.md)
+**Överordnat ämne:**[ Arbeta med redigeraren](web-editor.md)

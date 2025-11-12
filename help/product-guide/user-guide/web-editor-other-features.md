@@ -4,9 +4,9 @@ description: Utforska andra funktioner i redigeraren i Adobe Experience Manager 
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
+source-git-commit: c84a95b4d0b5df5b29d16efa7478bbfdc953bc5b
 workflow-type: tm+mt
-source-wordcount: '2652'
+source-wordcount: '2678'
 ht-degree: 0%
 
 ---
@@ -61,8 +61,11 @@ Om du vill skapa en ny version av filen väljer du **Spara som ny version**. Mer
 
 - **Karta**: Om du har öppnat en stor DITA-karta och vill hitta den exakta platsen för en fil på kartan väljer du **Hitta i \> Karta**. När du väljer alternativet Hitta i karta, placeras filen \(från vilken alternativet anropas\) och markeras i karthierarkin. Om du vill kunna använda den här funktionen måste du öppna kartfilen i Redigeraren. Om Kartvyn är dold visas kartvyn när funktionen anropas och filen markeras i karthierarkin.
 
-- **Databas**: På samma sätt som Sök i karta visar **Hitta i \> databas** platsen för filen i databasen \(eller DAM\). Databasvyn öppnas och den valda filen markeras i databasen. Om filen finns i en mapp utökas den mappen så att den visar den valda filens plats i databasen.
+- **Utforskaren**: På samma sätt som när du söker efter på kartan visar **Hitta i \> Utforskaren** platsen för filen i Utforskaren \(eller DAM\). Utforskaren-vyn öppnas och den markerade filen markeras i Utforskaren. Om filen finns i en mapp expanderas den mappen så att den visar den valda filens plats i Utforskaren.
 
+  >[!NOTE]
+  >
+  >Från version 2025.11.0 har **databasnamnet** ändrats till **Utforskaren**. För lokal installation är den fortfarande tillgänglig som databas till version 5.1 av Experience Manager Guides.
 
 ***Lägg till i***: Du kan välja bland följande alternativ:
 
@@ -279,4 +282,4 @@ De viktigaste funktionerna för att förbättra hanteringen av stora filer är f
 
 - Varningsmeddelandet är bara tillgängligt för DITA-filer och är synligt i alla vyer: Författare, Source och Layout.
 
-**Överordnat ämne:**&#x200B;[&#x200B; Introduktion till redigeraren](web-editor.md)
+**Överordnat ämne:**[ Introduktion till redigeraren](web-editor.md)

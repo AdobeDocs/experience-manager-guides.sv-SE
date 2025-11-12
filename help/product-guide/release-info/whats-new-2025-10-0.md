@@ -2,9 +2,9 @@
 title: Versionsinformation | Nyheter i Adobe Experience Manager Guides 2025.10.0
 description: Läs om de nya och förbättrade funktionerna i version 2025.10.0 av Adobe Experience Manager Guides
 role: Leader
-source-git-commit: bf08a48cd00170bdbe8cde312aac9776f871dbf9
+source-git-commit: 6f212862855e5ce1125137f462b88c933d23ed26
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '522'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Mer information finns i [Begär en ny granskning eller stäng en granskningsakti
 
 Det finns nu ett nytt API för att spåra efterbearbetningsstatus för enskilda resurser och mappar. Detta är särskilt användbart för team som använder automatiserade arbetsflöden, där publicering bara behöver ske efter att innehållet har bearbetats fullständigt. API:t är ett tillförlitligt sätt att bekräfta beredskapen och minskar risken för publiceringsfel som orsakas av ofullständig bearbetning.
 
-I och med introduktionen av detta API kommer inte heller händelserna efter bearbetning av resurser att utlösas automatiskt. I stället kan administratörer nu aktivera den här händelsen via en inställning i `fmdita config manager`.
+I och med introduktionen av detta API kommer inte heller resurshanteringshändelserna att utlösas automatiskt. I stället kan administratörer nu aktivera den här händelsen via en inställning i `fmdita config manager`.
 
 Mer information finns i:
 

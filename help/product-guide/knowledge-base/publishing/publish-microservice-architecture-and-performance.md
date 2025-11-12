@@ -4,9 +4,9 @@ description: Förstå hur den nya mikrotjänsten möjliggör skalbar publicering
 exl-id: 948fce3f-b989-48f0-9a85-e921717e2986
 feature: Microservice in AEM Guides
 role: User, Admin
-source-git-commit: 462647f953895f1976af5383124129c3ee869fe9
+source-git-commit: a860507b71f25a22aac7c09824f94c4e1a2b0f6b
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '737'
 ht-degree: 0%
 
 ---
@@ -17,19 +17,21 @@ I den här artikeln får du information om arkitekturen och prestandanalen i den
 
 >[!NOTE]
 >
-> Microservice-baserad publicering i AEM Guides har stöd för PDF (både Native- och DITA-OT-baserade), HTML5, JSON och CUSTOM-baserade utdataförinställningar.
+> Microservice-baserad publicering i AEM Guides har stöd för PDF (både Native- och DITA-OT-baserad), AEM Site (med hjälp av komponentsammanställning), HTML5, JSON och CUSTOM-typer för utdatapresentationer.
 
 ## Problem med befintliga publiceringsarbetsflöden i molnet
 
-DITA Publishing är en resurskrävande process som huvudsakligen är beroende av tillgängligt systemminne och processor. Behovet av dessa resurser ökar ytterligare om utgivare publicerar stora kartor med många ämnen eller om flera parallella publiceringsbegäranden aktiveras.
+DITA Publishing är en resurskrävande process som huvudsakligen är beroende av tillgängligt systemminne och CPU. Behovet av dessa resurser ökar ytterligare om utgivare publicerar stora kartor med många ämnen eller om flera parallella publiceringsbegäranden aktiveras.
 
-Om du inte använder den nya tjänsten sker all publicering på samma Kubernetes(k8)-pod som också kör AEM molnserver. En vanlig k8-pod har en gräns för hur mycket minne och processor den kan använda. Om AEM Guides-användare publicerar stora eller parallella arbetsbelastningar kan den här gränsen bryta ut snabbt. K8 startar om poder som försöker använda fler resurser än den konfigurerade gränsen, vilket kan få allvarliga konsekvenser för själva AEM molninstansen.
+Om du inte använder den nya tjänsten sker all publicering på samma Kubernetes(k8)-pod som också kör AEM molnserver. En vanlig k8-pod har en gräns för hur mycket minne och CPU som den kan använda. Om AEM Guides-användare publicerar stora eller parallella arbetsbelastningar kan den här gränsen bryta ut snabbt. K8 startar om poder som försöker använda fler resurser än den konfigurerade gränsen, vilket kan få allvarliga konsekvenser för själva AEM molninstans.
 
 Resursbegränsningen var den främsta anledningen att komma på en dedikerad tjänst som gör att vi kan köra flera samtidiga och stora publiceringsarbetsbelastningar i molnet.
 
+Mer information om publiceringsarbetsflöden i molnet finns i [Vanliga frågor om publiceringsarbetsflöde och skalbarhet](/help/product-guide/user-guide/publishing-scalability-faq.md).
+
 ## Introduktion till ny arkitektur
 
-Tjänsten använder Adobe branschledande molnlösningar som App Builder, IO Eventing och IMS för att skapa ett serverlöst erbjudande. Dessa tjänster bygger i sig på de allmänt vedertagna branschstandarderna Kubernetes och Docker.
+Tjänsten använder Adobe ledande molnlösningar som App Builder, IO Eventing och IMS för att skapa ett serverlöst erbjudande. Dessa tjänster bygger i sig på de allmänt vedertagna branschstandarderna Kubernetes och Docker.
 
 Varje begäran till den nya publiceringsmikrotjänsten körs i en isolerad dockningsbehållare som endast kör en publiceringsbegäran åt gången. Flera nya behållare skapas automatiskt om nya publiceringsbegäranden tas emot. Denna enda behållare per begäran-konfiguration gör att mikrotjänsten kan leverera bästa prestanda till kunderna utan att medföra några säkerhetsrisker. Behållarna tas bort när publiceringen är klar och frigör därmed oanvända resurser.
 
@@ -39,7 +41,7 @@ All kommunikation skyddas av Adobe IMS med JWT-baserad autentisering och auktori
 
 >[!NOTE]
 >
-> Publiceringsprocessen kör vissa innehållsberoende delar av begäran på själva AEM, som generering av beroendelistor. De mest omfattande delarna av publiceringsprocessen, som att köra DITA-OT eller inbyggd motor, har dock avlästs till den nya tjänsten.
+> Publiceringsprocessen kör vissa innehållsberoende delar av begäran på själva AEM-servern, som generering av beroendelistor. De mest omfattande delarna av publiceringsprocessen, som att köra DITA-OT eller inbyggd motor, har dock avlästs till den nya tjänsten.
 
 
 ## Resultatanalys
@@ -78,6 +80,6 @@ Om du publicerar en stor karta lokalt kanske du måste justera Java-heap-paramet
 
 ## Ytterligare fördelar
 
-En del av varje publiceringsbegäran måste köras på den AEM instansen för att hämta korrekt publiceringsinnehåll som ska skickas till mikrotjänsten. Den nya molnarkitekturen använder AEM jobb i stället för AEM arbetsflöden, vilket var fallet i den gamla arkitekturen. Med den här ändringen kan AEM Guides-administratörer konfigurera köinställningar för molnpublicering separat utan att påverka andra AEM eller arbetsflödeskonfigurationer.
+En del av varje publiceringsbegäran måste köras på AEM-instansen för att hämta korrekt publiceringsinnehåll som ska skickas till mikrotjänsten. Den nya molnarkitekturen använder AEM-jobb istället för AEM arbetsflöden, vilket var fallet i den gamla arkitekturen. Med den här ändringen kan AEM Guides-administratörer konfigurera köinställningar för molnpublicering separat utan att det påverkar andra AEM-jobb eller arbetsflödeskonfigurationer.
 
 Information om hur du konfigurerar den nya publiceringsmikrotjänsten finns här: [Konfigurera Microservice](configure-microservices.md)

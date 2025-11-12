@@ -3,9 +3,9 @@ title: Workspace-inställningar i Experience Manager Guides
 description: Läs mer om de olika inställningarna i redigeringsgränssnittet i Experience Manager Guides.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 1e08dce0bd64d1a15d42baf4c9720405a9eec146
+source-git-commit: d838a7d6e576e0f9317ebe8c7a811c3efebe9f72
 workflow-type: tm+mt
-source-wordcount: '2132'
+source-wordcount: '2151'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Med de allmänna inställningarna kan du konfigurera inställningarna så att de
 ![](../user-guide/images/editor-setting-general.png){width="350" align="left"}
 
 - **AI-assistenten**
-Välj det här om du vill aktivera funktionen [&#x200B; AI-assistenten &#x200B;](../user-guide/ai-assistant.md) i Experience Manager Guides. Avmarkera om du vill inaktivera funktionen.
+Välj det här om du vill aktivera funktionen [ AI-assistenten ](../user-guide/ai-assistant.md) i Experience Manager Guides. Avmarkera om du vill inaktivera funktionen.
 
   När du har aktiverat växeln **AI Assistant** kan du konfigurera vilka alternativ som ska visas under **redigeringsfliken** för författare med hjälp av menyn **Snabbåtgärder för redigering** som visas nedan.\
   De här ändringarna gäller för den specifika mappprofil som du arbetar med. Om du skapar en ny mappprofil ärver den Workspace-inställningarna som definierats i mappprofilen **Global** som standard. Du kan ändra inställningarna efter behov med **Workspace-inställningarna** och spara den uppdaterade konfigurationen.\
@@ -86,7 +86,7 @@ Den här inställningen styr panelerna som visas på den vänstra och högra pan
 
 Du kan också ange i vilken ordning funktionerna i panelerna ska visas. Om du vill ändra standardordningen för de tillgängliga funktionerna på panelerna markerar du de prickade fälten för att dra och släppa funktionstabbarna på önskad plats. En funktion kan också flyttas från avsnittet **Mer** till huvudavsnittet på en panel, och tvärtom enligt kraven. När du har ändrat ordningen visas funktionerna i samma sekvens på respektive höger- och vänsterpanel.
 
-![](../user-guide/images/panels-screen.png){width="650" align="left"}
+![](../user-guide/images/panels-screen-new.png){width="650" align="left"}
 
 
 Högst åtta paneler kan visas samtidigt. Alla ändringar som görs i panelinställningarna tillämpas omedelbart.
@@ -188,13 +188,16 @@ Fliken innehåller alternativ för att konfigurera schematrons valideringar i Re
 
   >[!NOTE]
   >
-  > De markerade schematrons-filerna behålls för den valda mappprofilen.
+  >- De markerade schematrons-filerna behålls för den valda mappprofilen.
+  >- När en ogiltig Schematron-fil läggs till visas ett felmeddelande enligt nedan.
 
-  ![Verifiering i arbetsyteinställningar](../user-guide/images/editor-setting-validation.png){width="550" align="left"}
+  ![Verifiering i arbetsyteinställningar](../user-guide/images/editor-setting-validation-error.png){width="550" align="left"}
 
   Detta förhindrar att användarna sparar filer som bryter en regel som definierats i de valda Schematron-filerna. Om detta inte är markerat kommer filen inte att valideras innan ändringarna sparas.
 
 - **Tillåt alla användare att lägga till schematronfiler på valideringspanelen**: Välj det här om du vill tillåta användarna att lägga till schematronfiler på valideringspanelen i redigeraren. Detta gör att användarna kan lägga till Schematron-filer och sedan validera ämnena mot Schematron-filen. Om detta inte är markerat är alternativet att lägga till schematronfilen **Lägg till schematronfil** inte tillgängligt för användarna på **valideringspanelen** i redigeraren.
+
+  ![Verifiering i arbetsyteinställningar](../user-guide/images/editor-setting-validation.png){width="550" align="left"}
 
 
 ## Visningsattribut

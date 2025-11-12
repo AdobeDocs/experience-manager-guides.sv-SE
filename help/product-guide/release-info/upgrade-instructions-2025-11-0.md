@@ -1,37 +1,37 @@
 ---
-title: Versionsinformation | Uppgraderingsinstruktioner och åtgärdade fel i Adobe Experience Manager Guides, version 2025.10.0
-description: Läs om kompatibilitetsmatrisen och hur du uppgraderar till version 2025.10.0 av Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 25bfa20f469930b3b683e4753812227abdf36f24
+title: Versionsinformation | Uppgraderingsinstruktioner och åtgärdade fel i Adobe Experience Manager Guides, version 2025.11.0
+description: Läs om kompatibilitetsmatrisen och hur du uppgraderar till version 2025.11.0 av Adobe Experience Manager Guides as a Cloud Service.
+source-git-commit: b33f9385cd0364009a70c1a5fddcc1a5c118b08b
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1039'
 ht-degree: 0%
 
 ---
 
-# Uppgraderingsinstruktioner för version 2025.10.0
+# Uppgraderingsinstruktioner för version 2025.11.0
 
-I den här artikeln beskrivs uppgraderingsinstruktionerna och kompatibilitetsmatrisen för version 2025.10.0 av Adobe Experience Manager Guides as a Cloud Service.
+I den här artikeln beskrivs uppgraderingsinstruktionerna och kompatibilitetsmatrisen för version 2025.11.0 av Adobe Experience Manager Guides as a Cloud Service.
 
-Mer information om de nya funktionerna och förbättringarna finns i [Nyheter i version 2025.10.0](whats-new-2025-10-0.md).
+Mer information om de nya funktionerna och förbättringarna finns i [Nyheter i version 2025.11.0](whats-new-2025-11-0.md).
 
-En lista över problem som har åtgärdats i den här versionen finns i [Åtgärdade problem i version 2025.10.0](fixed-issues-2025-10-0.md).
+En lista över problem som har åtgärdats i den här versionen finns i [Åtgärdade problem i version 2025.11.0](fixed-issues-2025-11-0.md).
 
 ## Kompatibilitetsmatris
 
-I det här avsnittet beskrivs kompatibilitetsmatrisen för de program som stöds i version 2025.10.0 av Experience Manager Guides as a Cloud Service.
+I det här avsnittet beskrivs kompatibilitetsmatrisen för de program som stöds i version 2025.11.0 av Experience Manager Guides as a Cloud Service.
 
 ### FrameMaker och FrameMaker Publishing Server
 
 | Experience Manager Guides som Cloud-release | FMPS | FrameMaker |
 | --- | --- | --- |
-| 2025.10.0 | Inte kompatibel | 2022 eller senare |
+| 2025.11.0 | Inte kompatibel | 2022 eller senare |
 
 
 ### Syrgasanslutning
 
 | Experience Manager Guides som Cloud-release | Syrgasanslutningsfönster | Syrgasanslutning Mac | Redigera i syrgasfönster | Redigera i Syrgas Mac |
 | --- | --- | --- | --- | --- |
-| 2025.10.0 | 3.8 -uuuid 1 | 3.8 -uuuid 1 | 2,3 | 2,3 |
+| 2025.11.0 | 3.8 -uuuid 1 | 3.8 -uuuid 1 | 2,3 | 2,3 |
 
 
 ### Kunskapsbasmallens version
@@ -48,13 +48,9 @@ I det här avsnittet beskrivs kompatibilitetsmatrisen för de program som stöds
 | guides-components.all-1.4.0 | aemg-sites-template-1.3.0 |
 
 
-## Uppgradera till version 2025.10.0
+## Uppgradera till version 2025.11.0
 
 Experience Manager Guides uppgraderas automatiskt när du uppgraderar till den senaste utgåvan av Experience Manager as a Cloud Service.
-
->[!NOTE]
->
-> Den här versionen innehåller uppdateringar av mappprofilinställningarna (ui_config.json). Om du använder anpassade inställningar bör du göra en säkerhetskopia av dessa innan du uppgraderar. Efter uppdateringen granskar och justerar du inställningarna så att de överensstämmer med ändringarna i den senaste versionen.
 
 Utför följande steg för Experience Manager Guides as a Cloud Service om du inte har gjort det tidigare för din befintliga version:
 
@@ -177,7 +173,7 @@ http://<aem_domain>/var/dxml/executor-locks/cf-reference-store-btree-migration/1
 
 ### Steg för att använda sökfilter på DITAVAL-filer för alla förinställningar för utdata
 
-Om du vill vara säker på att sökfiltren fungerar korrekt för DITAVAL-filer ändrar du filen `ui_config.json` genom att använda följande uppdateringar under fältet **browseFilters** i avsnittet **Icke-DITA-filer** :
+Uppdatera ui_config.json för att se till att filterfunktionen fungerar korrekt. Ändra egenskaperna som listas under **browseFilters** > **Icke-DITA-filer** > **Ditaval-filer** enligt nedan:
 
 ```
 {

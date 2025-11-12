@@ -4,9 +4,9 @@ description: Lär känna Adobe Experience Manager Guides hemsida.
 feature: Authoring
 role: User
 exl-id: 4e6e40ba-277b-43d5-a2a9-665f4586c7e3
-source-git-commit: f9b879d6d374334a08a1d3b0a47b0cb419f02140
+source-git-commit: c2dbf53040abc3e5873fd81050ed7e59c4faaaf0
 workflow-type: tm+mt
-source-wordcount: '1966'
+source-wordcount: '2099'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Hemsidan är den första skärmen som visas när du loggar in på Experience Manager Guides. Den ger dig en enhetlig och intuitiv välkomstskärm, som innehåller en snabb vy av de filer du nyligen har öppnat, samlingar med mera.
 
-![](images/aem-home-page.png){align="left"}
+![](images/aem-home-page-new.png){align="left"}
 
 Experience Manager Guides hemsida är indelad i följande avsnitt:
 
@@ -66,9 +66,13 @@ De funktioner som är tillgängliga i navigeringsfältet förklaras på följand
 
 ## Vänster panel
 
-I den vänstra panelen får du snabb åtkomst till funktionerna Översikt, Kartsamlingar, Masspublicering, Publiceringskö och Användarinställningar. Du kan expandera panelen genom att markera ikonen **Expandera** som finns i det nedre vänstra hörnet av gränssnittet. När du har expanderat använder du ikonen **Komprimera** för att komprimera panelen.
+>[!NOTE]
+>
+> Databasen är bara tillgänglig i den vänstra panelen för konfiguration av molntjänster från och med version 2025.11.0. Vid lokal installation är databasen fortfarande tillgänglig via redigeringsgränssnittet.
 
-![](images/aem-home-left-panel.png){width="300" align="left"}
+På den vänstra panelen får du snabb åtkomst till funktionerna Översikt, Databas, Kartsamlingar, Publiceringskö och Användarinställningar. Du kan expandera panelen genom att markera ikonen **Expandera** som finns i det nedre vänstra hörnet av gränssnittet. När du har expanderat använder du ikonen **Komprimera** för att komprimera panelen.
+
+![](images/home-with-repository.png){width="300" align="left"}
 
 Vad du visar på den här panelen beror på din användarroll. I följande tabell visas de roller och de respektive avsnitt som visas på den vänstra panelen.
 
@@ -80,6 +84,7 @@ Vad du visar på den här panelen beror på din användarroll. I följande tabel
 De funktioner som är tillgängliga i den vänstra panelen förklaras på följande sätt:
 
 - [Ökning](#overview)
+- [Databas](#repository)
 - [Mappa samlingar](#map-collections)
 - [Masspublicera](#bulk-publish)
 - [Publiceringskö](#publish-queue)
@@ -151,6 +156,10 @@ Följande widgetar finns i widgetavsnittet:
 >
 > Om din administratör dessutom har konfigurerat Adobe Workfront-integrering i systemet visas **Widgeten** för dina uppgifter även i widgetavsnittet. Läs mer om [Adobe Workfront-integrering](./workfront-integration.md#working-with-the-your-tasks-widget) i Experience Manager Guides.
 
+### Databas
+
+Databasen fungerar som ett centralt nav för enkel identifiering av mappar och filer. Den innehåller en omfattande listvy i tabellformat över alla filer och mappar tillsammans med deras sammanhangsberoende information. I det enhetliga gränssnittet kan du enkelt bläddra bland filer och söka med robusta filtreringsalternativ, vilket ger ökad effektivitet och en förbättrad upplevelse. Läs mer om [Databas](./home-page-repository-view.md).
+
 ### Mappa samlingar
 
 I Experience Manager Guides kan du ordna ditt innehåll för publicering med hjälp av en kontrollpanel som kallas **Kartsamlingar**. Om du vill använda den här funktionen väljer du **Mappa samlingar** på den vänstra panelen. Den tar dig till sidan Kartsamlingar i **Assets-gränssnittet** där du kan [använda kartsamling för att generera utdata.](./generate-output-use-map-collection-output-generation.md)
@@ -189,4 +198,8 @@ Användarinställningarna är tillgängliga för alla författare. Med hjälp av
 
    - **Redigerarfiler visar konfigurationen**: Välj standardsättet att visa filerna i Redigeraren. Du kan visa fillistan efter filnamnen eller filnamnen från de olika panelerna i redigeringsvyn. Som standard visas filerna som titlar i Redigeraren.
 
-   - **Hitta alltid filer i databasen**: Välj det här alternativet om du vill visa platsen för en fil i databasen när du redigerar den i Redigeraren.
+   - **Leta alltid reda på filer i utforskaren**: Välj det här alternativet om du vill visa platsen för en fil i databasen när du redigerar den i Redigeraren.
+
+  >[!NOTE]
+  >
+  >Från och med version 2025.11.0 har inställningen **Hitta alltid filer i databasen** bytt namn till **Hitta alltid filer i utforskaren**. Vid lokal installation är den fortfarande tillgänglig som Hitta alltid filer i databasen till version 5.1 av Experience Manager Guides.

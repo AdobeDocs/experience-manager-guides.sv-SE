@@ -5,16 +5,16 @@ exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
 feature: Profiles
 role: Admin
 level: Experienced
-source-git-commit: 63e81b6213e293dd6b6e7e46b611b25d8cb6a815
+source-git-commit: 1ea27a0ca99e61049d08f89a0cf5e0584b38edae
 workflow-type: tm+mt
-source-wordcount: '4794'
+source-wordcount: '5127'
 ht-degree: 0%
 
 ---
 
 # Konfigurera globala profiler eller profiler på mappnivå {#id181AH2003PF}
 
-I ett företag kan olika grupper eller produkter använda olika redigeringsmallar, utdatamallar, villkorsattributprofiler \(eller ämnesscheman\) och Web Editor-konfigurationer. Om du konfigurerar dessa endast på Enterprise \(eller global\)-nivå kan det vara svårt för skribenterna eftersom de kommer att se mallar eller profiler som inte är relevanta för dem.
+I ett företag kan olika grupper eller produkter använda olika redigeringsmallar, utdatamallar, villkorsattributprofiler \(eller ämnesscheman\) och Web Editor-konfigurationer. Om du konfigurerar dessa endast på Enterprise \(eller global\)-nivå kan det bli svårt för författare eftersom de kommer att se mallar eller profiler som inte är relevanta för dem.
 
 I AEM Guides kan du konfigurera mallar för att skapa \(ämne eller karta\), utdatamallar, villkorsattribut och Web Editor-konfigurationer på global nivå samt på mappnivå. På så sätt kan du dela upp konfigurationerna för olika avdelningar eller produkter i företaget.
 
@@ -50,7 +50,7 @@ Med hjälp av panelen Mappprofiler i inställningarna för stödlinjer kan du ko
   >
   > Du kan använda någon av de befintliga mallarna som bas för att skapa nya mallar. Den tomma DITA-mallen innehåller inga strukturer eller element som de andra mallarna. Du kan använda valfri OTB DITA-mall som bas, göra ändringar i den och spara den med ett annat namn. När du har gjort de ändringar som krävs lägger du till den uppdaterade mallen i den globala mallkonfigurationen eller redigeringsmallkonfigurationen på mappnivå. Mallen blir sedan tillgänglig för redigering.
 
-  Förutom ämnesmallar kan du också definiera kartmallar som ska vara tillgängliga för författarna. Följande kartmallar finns färdiga:
+  Förutom ämnesmallar kan du också definiera kartmallar som ska vara tillgängliga för författare. Följande kartmallar finns färdiga:
 
    - Karta
 
@@ -94,7 +94,7 @@ Så här konfigurerar du den globala profilen:
 
 1. Klicka på länken Adobe Experience Manager överst och välj **Verktyg**.
 
-1. Välj **Stödlinjer** i listan över verktyg och klicka på **Mappprofiler**.
+1. Välj **Stödlinjer** i listan med verktyg och klicka på rutan **Mappprofiler** .
 
    För första gången visas sidan Mappprofiler med endast rutan Global profil.
 
@@ -411,15 +411,15 @@ Om du har uppdaterat en befintlig förinställning eller vill göra en ny förin
 
 ## Konfigurera AI Assistant för smart hjälp och redigering
 
-För Experience Manager Guides as a Cloud Service (![AEM cloud &#x200B;](assets/aem-cloud-icon.svg)).
+För Experience Manager Guides as a Cloud Service (![AEM cloud ](assets/aem-cloud-icon.svg)).
 
-AI Assistant i Adobe Experience Manager Guides är ett kraftfullt, AI-drivet verktyg som har utformats för att förbättra ditt innehåll genom smart redigering och återanvändning av innehåll. Här finns två kraftfulla AI-funktioner - **Redigering** och **Hjälp** - i Experience Manager Guides-gränssnittet, så att du kan skapa dokument och få tillgång till information snabbare och effektivare.
+AI Assistant i Adobe Experience Manager Guides är ett kraftfullt, AI-drivet verktyg som har utformats för att förbättra ditt innehåll genom smart redigering och återanvändning av innehåll. Här finns två kraftfulla AI-funktioner - **Redigering** och **Hjälp** - i Experience Manager Guides-gränssnittet, så att du kan autentisera dokument och få tillgång till information snabbare och effektivare.
 
 Mer konfigurationsinformation finns i [AI Assistant-konfigurationen](./conf-smart-suggestions.md).
 
 **Konfigurera AI-baserade smarta förslag**
 
-Du kan konfigurera de AI-baserade smarta förslagen och hjälpa författarna att återanvända det befintliga innehållet och enkelt skapa korrekta och konsekventa innehållsreferenser. På fliken **AI-konfiguration** kan du styra inställningarna för **Föreslå återanvändbart innehåll** från AI-assistentpanelen i Web Editor.
+Du kan konfigurera de AI-baserade smarta förslagen och hjälpa författarna att återanvända det befintliga innehållet och enkelt skapa korrekta och konsekventa innehållsreferenser. På fliken **AI-konfiguration** kan du styra inställningarna för **Föreslå återanvändbart innehåll** från AI-assistentpanelen i Redigeraren.
 
 Utför följande steg för att konfigurera AI-standardkonfigurationen på global nivå eller på mappnivå:
 1. Logga in i Adobe Experience Manager som administratör eller användare med administratörsbehörighet för en mappnivåprofil.
@@ -438,25 +438,68 @@ Utför följande steg för att konfigurera AI-standardkonfigurationen på global
 1. Välj **Redigera**.
 1. Som administratör kan du konfigurera följande inställningar:
 
-   **Minsta antal tecken**: Ange det minsta antal tecken som författarna måste ange för att få förslag. Om talet till exempel är 7 måste författaren lägga till minst 7 tecken för att kunna visa ett smart förslag.
+   **Minsta antal tecken**: Ange det minsta antal tecken som författaren måste välja för att få förslag. Om talet till exempel är 40 måste författaren markera minst 40 tecken för att kunna visa ett smart förslag.
 
-   **Maximalt antal förslag**: Ange maximalt antal förslag som författarna kan få när de redigerar innehållet. Om talet till exempel är 5 kan författaren visa fem eller färre smarta förslag.
+   För markeringar som inte uppfyller minimikraven för tecken visas följande meddelande på AI-assistentpanelen:
 
-   **Filer och mappar**: Markera de filer eller mappar som smarta förslag ska visas från. *För att innehållet ska bli konsekvent rekommenderar vi att det inte finns två poster i listan som har gemensamma filer mellan dem*. När du har valt filer och mappar visas de.
+   ![](assets/smart-suggestions-character-limit.png)
+
+   För allmänna val där det inte finns några förslag visas dock följande meddelande:
+
+   ![](assets/smart-suggestions-select-another-text-message.png)
+
+   Detta hjälper författare att förstå om förslag inte är tillgängliga på grund av otillräcklig teckenmarkering eller egentligen inget matchande innehåll.
+
+   **Maximalt antal förslag**: Ange maximalt antal förslag som författare kan få när innehållet redigeras. Om talet till exempel är 5 kan författaren visa fem eller färre smarta förslag.
+
+   **Filer och mappar**: Välj de mappar som smarta förslag ska visas från. Det går endast att markera underordnade mappar med den angivna mappsökvägen i en mappprofil. Mer information finns i [Begränsningar för mappprofiler](#folder-profile-restrictions).
+
+   *För att innehållet ska vara konsekvent rekommenderar vi att inga två poster i listan har gemensamma filer mellan dem*. När du har valt filer och mappar visas de.
 
 1. Klicka på **Spara**.
 
    >[!NOTE]
    >
-   > Den senaste indexerade statusinformationen visas högst upp när du har sparat filen.
+   > Mappprofilens senaste indexstatus visas högst upp när du har sparat filen.
 
 Läs mer om hur du visar och lägger till [AI-baserade smarta förslag](../user-guide/authoring-ai-based-smart-suggestions.md) för att lägga till innehållsreferenser vid redigering i webbredigeraren.
 
+### Begränsningar för mappprofiler
+
+Om du vill att smarta förslag ska fungera effektivt bör du tänka på följande när du indexerar mappar:
+
+1. Innehållet måste indexeras via mappprofiler för AI-assistenten för att kunna ge smarta förslag till författare.
+2. När du anger en mapp för indexering kan bara mappar som ligger under den aktuella mappprofilen läggas till. Om du försöker lägga till mappar utanför den här mappprofilen utlöses en varning.
+
+   ![](assets/warning-message-indexing.png)
+
+   Den här begränsningen gäller endast profiler på mappnivå. Den globala profilen tillämpar inga sökvägsbegränsningar och kan indexera mappar som inte finns i någon annan mappprofil.
+3. Om en överordnad mapp läggs till för indexering tas alla underordnade mappar som redan finns med automatiskt bort för att undvika duplicering. Om du lägger till en underordnad mapp till en redan indexerad överordnad mapp utlöses också en varning.
+
+   ![](assets/parent-child-warning-message-indexing.png)
+4. Eventuella uppdateringar, flyttningar eller borttagningar av filer i indexerade mappar utlöser automatisk omindexering eller borttagning från indexet.
+5. För varje indexeringsförsök visas följande indexeringsstatus:
+
+   - Pågår: Anger att indexeringen pågår.
+   - Indexeringen har slutförts: Anger att indexeringen har slutförts.
+   - Indexeringen misslyckades: Anger att indexeringen misslyckades.
+   - Inte synkroniserad: Anger att indexeringen inte är synkroniserad, vilket oftast visas efter en uppgradering eller migrering, när det inte gick att verifiera den aktuella indexeringsstatusen. Du kan försöka indexera igen för att uppdatera och uppdatera statusen.
+
+   När indexeringen misslyckas får du alternativen **Visa felloggar** och **Försök indexera igen** för att felsöka och lösa problemet.
+
+   ![](assets/indexing-failed-options.png)
+
+   Felloggarna visas enligt nedan:
+
+   ![Alt-text](index-error-log.png)
+
+6. En tidsstämpel för den senaste indextiden visas för varje mappprofil.
+
 **Anpassa standardfrågorna för smart hjälp**
 
-För Experience Manager Guides as a Cloud Service (![AEM cloud &#x200B;](assets/aem-cloud-icon.svg)).
+För Experience Manager Guides as a Cloud Service (![AEM cloud ](assets/aem-cloud-icon.svg)).
 
-Du kan konfigurera den AI-baserade smarta **hjälpen** så att författarna kan ställa frågor och enkelt hitta det innehåll som krävs från [Experience Manager Guides-dokumentationen](https://experienceleague.adobe.com/sv/docs/experience-manager-guides/using/overview).
+Du kan konfigurera den AI-baserade smarta **hjälpen** så att författarna kan ställa frågor och enkelt hitta det innehåll som krävs från [Experience Manager Guides-dokumentationen](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
 
 På fliken **XML-redigerarkonfiguration** kan du konfigurera standardfrågorna på panelen **Hjälp**.
 
@@ -508,7 +551,7 @@ Som standard har XML-redigeraren många funktioner som hjälper dina författare
 
 Med den här inställningen kan du skapa JSON-tillägg som återspeglar ändringar som gjorts i filen `ui_config.json`. Du kan överföra dessa tillägg oberoende av varandra på mappprofilnivå, vilket ger ökad flexibilitet och anpassning. Om du till exempel ändrar **XML-redigerarkonfigurationen**, till exempel uppdaterar en knapp, identifieras skillnaderna automatiskt i systemet. Genom att överföra dessa ändringar till **XML-redigerarens gränssnittskonfiguration** och konvertera dem till JSON-tillägg med knappen **Konvertera gränssnittskonfiguration till JSON**, genererar systemet ett tillägg som innehåller den nya funktionen.
 
-Läs mer om [att anpassa JSON-konfigurationer och konvertera gränssnittskonfigurationer för den nya AEM Guides Editor](https://experienceleague.adobe.com/sv/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
+Läs mer om [att anpassa JSON-konfigurationer och konvertera gränssnittskonfigurationer för den nya AEM Guides Editor](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
 
 >[!NOTE]
 >
@@ -581,7 +624,7 @@ Med versionsetikettkonfigurationen kan du överföra en lista över giltiga etik
 }
 ```
 
-I ovanstående exempel är &quot;label1&quot; identifieraren för etikettsekvensen och den läggs till av etiketten som visas för författarna där en etikett behövs. Spara den här filen och ladda upp den i avsnittet Etiketter för XML-innehållsversion.
+I exemplet ovan är &quot;label1&quot; identifieraren för etikettsekvensen och den läggs till av etiketten som visas för författarna där en etikett behövs. Spara den här filen och ladda upp den i avsnittet Etiketter för XML-innehållsversion.
 
 >[!IMPORTANT]
 >

@@ -4,9 +4,10 @@ description: Lär dig hur du hämtar och installerar AEM Sites-mallar för molnt
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 1cec8975e8aad56184793a023d066aa467d8cec5
+exl-id: 67f7ff26-fbc7-426c-aa7d-9bf4debf05d8
+source-git-commit: 4c564a0ffaa8f287bcaf012634d49dbf1e0682b4
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
@@ -45,7 +46,7 @@ Installera **komponentpaketet (guides-components.all-1.x.zip)** och utför följ
    3. Klona databasen till ditt lokala system med det angivna användarnamnet och lösenordet (generera lösenord om det behövs).
 2. **Lägg till paket i Maven Bundle:**
    1. Skapa ett nytt Maven-paket eller lägg till ett befintligt i din lokalt klonade databas.
-   2. Kontrollera att strukturen /jcr_root/apps/fmdita/install finns i Maven-projektet.
+   2. Kontrollera att installationen av strukturen `/jcr_root/apps/fmdita/` finns i Maven-projektet.
 
       ![Struktur i Maven-projekt](/help/product-guide/knowledge-base/kb-articles/assets/publishing/maven-structure.png){width="650" align="left"}
 
@@ -55,7 +56,7 @@ Installera **komponentpaketet (guides-components.all-1.x.zip)** och utför följ
 3. **Uppdatera filters.xml:**
 
    1. Öppna filen filters.xml i mappen META-INF i den överordnade innehållskatalogen.
-   2. Lägg till följande filter: filter root=&quot;/apps/fmdita&quot; mode=&quot;merge&quot;/
+   2. Lägg till följande filter: filterrot=`/apps/fmdita` läge=`merge`/
 
 
       ![Lägg till filter](/help/product-guide/knowledge-base/kb-articles/assets/publishing/add-filter-xml.png){width="650" align="left"}
@@ -98,14 +99,14 @@ Installera **komponentpaketet (guides-components.all-1.x.zip)** och utför följ
 
    1. Välj **Plats** som den som skapades ovan (t.ex. AEMG Docs Site).
    2. Kontrollera att mallen **Publiceringssökväg** och **Ämnessida** automatiskt är inställda på:
-      - Publiceringssökväg: /content/AEMG-Docs-Site/en/docs/product
+      - Publiceringssökväg: `/content/AEMG-Docs-Site/en/docs/product`
       - Ämnessidmall: Ämnessida
 
       ![Använd listrutan Plats för att konfigurera AEM Site](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-dropdown-cs.png){width="350" align="left"}
 
    **Alternativ 2: Använd webbplatssökvägen**
 
-   1. Ange **webbplatssökvägen** manuellt som /content/AEMG-Docs-Site/en/docs/product.
+   1. Ange **platssökvägen** manuellt som `/content/AEMG-Docs-Site/en/docs/product`.
    2. Kontrollera att mallen **Ämnessida** automatiskt är inställd på Ämnessida.
 
       ![Använd webbplatssökvägen för att konfigurera AEM-webbplatsen](/help/product-guide/knowledge-base/kb-articles/assets/publishing/use-site-path-cs.png){width="650" align="left"}
@@ -116,7 +117,7 @@ Installera **komponentpaketet (guides-components.all-1.x.zip)** och utför följ
 
 1. **Generera plats:**
    1. När förinställningen är konfigurerad genererar du AEM Site för motsvarande DITA-karta.
-   2. Den genererade webbplatsen finns på sökvägen: /content/AEMG-Docs-Site/en/docs/product.
+   2. Den genererade webbplatsen kommer att vara tillgänglig på sökvägen: `/content/AEMG-Docs-Site/en/docs/product`.
 2. **Ändra standardsökväg för generering (valfritt):** Utför följande steg om du vill ändra standardsökvägen för webbplatsgenerering:
    1. Navigera till **AEM Sites**.
    2. Skapa en ny produktsida under OTB-webbplatsens struktur.
@@ -133,4 +134,4 @@ Installera **komponentpaketet (guides-components.all-1.x.zip)** och utför följ
 
 >[!NOTE]
 >
-> Kontrollera att alla konfigurationer har testats i en icke-produktionsmiljö innan de distribueras till produktionen. <br><br> Mer information finns i den officiella [Distribuera till AEM as a Cloud Service-dokumentationen](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/implementing/deploying/overview).
+> Kontrollera att alla konfigurationer har testats i en icke-produktionsmiljö innan de distribueras till produktionen. <br><br> Mer information finns i den officiella [Distribuera till AEM as a Cloud Service-dokumentationen](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview).

@@ -4,7 +4,7 @@ description: Skapa markeringsdokument från Redigeraren. Lär dig hur du skapar,
 exl-id: def14e35-27c5-4b90-bc3d-eef7e8f317d2
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 779be011c078fb3c2fae4fc6a92e3e2d734672b0
+source-git-commit: 639cd235778f31b139889d615f93bde3334e4988
 workflow-type: tm+mt
 source-wordcount: '1197'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Markering är ett lättviktigt markeringsspråk som du kan använda för att lä
 Så här skapar du ett markeringsämne från Editor:
 
 1. Välj ![](images/Add_icon.svg) på panelen Databas och välj sedan **Ämne** i listrutan.
-2. Ange följande information i dialogrutan **Nytt ämne**:
+1. Ange följande information i dialogrutan **Nytt ämne**:
 
    ![](images/create-markdown-dialog.png){width="300" align="left"}
 
@@ -32,7 +32,7 @@ Så här skapar du ett markeringsämne från Editor:
    >[!NOTE]
    >
    > Om du uppgraderar måste du lägga till markeringsmallen i den aktuella mappprofilen som används. Du kan [skapa en ny markeringsmall i redigeraren](./web-editor-features.md#templates) eller använda en befintlig mall för markeringsredigering. Mer information om hur du lägger till redigeringsmallar i Experience Manager Guides finns i [Konfigurera globala profiler och profiler på mappnivå](../cs-install-guide/conf-folder-level.md).
-3. Välj **Skapa**.
+1. Välj **Skapa**.
 
    Avsnittet Markering skapas vid den markerade banan och är öppet för redigering.
 
@@ -175,4 +175,4 @@ Följande Experience Manager Guides-funktioner gäller för närvarande inte fö
 
 
 
-**Överordnat ämne:**&#x200B;[&#x200B; Introduktion till redigeraren](web-editor.md)
+**Överordnat ämne:**[ Introduktion till redigeraren](web-editor.md)

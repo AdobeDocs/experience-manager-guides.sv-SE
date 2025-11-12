@@ -4,24 +4,28 @@ description: Skapa en karta med Karteredigeraren i Experience Manager Guides. Hi
 exl-id: b9cda118-ab6f-4d6b-9616-a083180ba069
 feature: Authoring, Map Editor
 role: User
-source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
+source-git-commit: 21c45ac9ad32d8590f6ed180816853c24a4fa3dc
 workflow-type: tm+mt
-source-wordcount: '1555'
+source-wordcount: '1578'
 ht-degree: 0%
 
 ---
 
 # Skapa en karta {#id176FEN0D05Z}
 
+>[!INFO]
+>
+>Från version 2025.11.0 har **databasnamnet** ändrats till **Utforskaren**. För lokal installation är den fortfarande tillgänglig som databas till version 5.1 av Experience Manager Guides.
+
 Adobe Experience Manager Guides har två färdiga mallar för kartor - DITA-karta och Bookmap. Du kan också skapa egna mappningsmallar och dela dem med författarna för att skapa mappningsfiler.
 
 Så här skapar du en karta:
 
-1. På panelen Databas markerar du ikonen **Ny fil** och väljer sedan **DITA-karta** i listrutan.
+1. I Utforskarpanelen väljer du ikonen **Ny fil** och sedan **DITA-karta** i listrutan.
 
    ![](images/create-map-options.png){align="left"}
 
-   Du kan även komma åt det här alternativet från [Experience Manager Guides hemsida](./intro-home-page.md) och alternativmenyn för en mapp i databasvyn.
+   Du kan även komma åt det här alternativet från [Experience Manager Guides hemsida](./intro-home-page.md) och alternativmenyn för en mapp i Utforskaren-vyn.
 
 2. Dialogrutan **Ny karta** visas.
 
@@ -29,7 +33,7 @@ Så här skapar du en karta:
    - En titel för kartan.
    - \(Valfritt\)* Filnamnet för kartan. Filnamnet föreslås automatiskt baserat på ämnet Titel. Om administratören har aktiverat automatiska filnamn baserat på UUID-inställningen, kommer du inte att visa namnfältet.
    - En mall som ämnet baseras på. De tillgängliga alternativen för en kartfil är **Bookmap**, **Map** och **Subject scheme**.
-   - Sökväg där du vill spara kartfilen. Som standard visas sökvägen till den markerade mappen i databasen i fältet Sökväg.
+   - Sökväg där du vill spara kartfilen. Som standard visas sökvägen till den markerade mappen i Utforskaren i fältet Sökväg.
 
    ![](images/new-map-dialog.png){width="300" align="left"}
 
@@ -46,7 +50,7 @@ Förutom att redigera kartfiler direkt från redigeraren kan du även öppna äm
 
 Utför följande steg för att lägga till ämnen i en kartfil från kartkonsolen:
 
-1. Navigera till och öppna den mappningsfil som du vill redigera i databasvyn.
+1. I Utforskaren navigerar du till och öppnar den kartfil som du vill redigera.
 1. Välj ikonen **Redigera** .
 
    ![](images/edit-map-icon.png){width="450" align="left"}
@@ -62,17 +66,17 @@ Utför följande steg för att lägga till ämnen i en kartfil från kartkonsole
 
    - **C** - \(*Kartvyer*\): Gör att du kan växla mellan layouten, författaren, Source och förhandsgranskningen i Kartredigeraren. I vyn **Layout** kan du ordna ämnen i en DITA-karta. Detta ger kartans träd eller hierarkiska vy. I vyn **Författare** kan du redigera ämnen i Kartredigeraren. Detta ger även en WYSIWYG-vy över kartfilen. I vyn **Source** kan du arbeta med kartfilens underliggande XML. Med Förhandsgranska får du en samlad vy över alla avsnitt och undermappar i kartfilen.
 
-   - **D** - \(*Vänster panel*\): Ger åtkomst till den vänstra panelen, som ger dig tillgång till funktionerna Samlingar, Databas, Karta, Kontur och andra. Du kan expandera eller komprimera den genom att välja ikonen Expandera/Komprimera. Mer information om de funktioner som är tillgängliga i den vänstra panelen finns i [vänsterpanelen](./web-editor-left-panel.md) i redigeraren.
+   - **D** - \(*Vänster panel*\): Ger åtkomst till den vänstra panelen, som ger dig tillgång till funktionerna Samlingar, Utforskaren, Karta, Kontur och andra. Du kan expandera eller komprimera den genom att välja ikonen Expandera/Komprimera. Mer information om de funktioner som är tillgängliga i den vänstra panelen finns i [vänsterpanelen](./web-editor-left-panel.md) i redigeraren.
 
    - **E** - \(*Mittområde*\): Mappa innehållets redigeringsområde.
 
    - **F** - \(*Högerpanel*\): Ger åtkomst till panelen Egenskaper. Du kan visa innehållsegenskaperna och mappningsegenskaperna för det markerade ämnet eller kartan. Mer information om de funktioner som är tillgängliga på den här panelen finns i [Högerpanelen](web-editor-right-panel.md) i redigeraren.
 
-1. I den vänstra panelen växlar du till vyn **Databas**.
+1. I den vänstra panelen växlar du till vyn **Utforskaren**.
 
-1. I Adobe Experience Manager-databasen navigerar du till den mapp som innehåller de ämnen eller undermappar som du vill lägga till.
+1. I Utforskaren i Adobe Experience Manager navigerar du till den mapp som innehåller de ämnen eller undermappar som du vill lägga till.
 
-1. Markera ämne- eller mappfilen i vyn **Databas** och dra och släpp den i området för redigering av kartinnehåll.
+1. Markera ämne- eller mappfilen i **Utforskaren**-vyn och dra och släpp den i \(mitten\) redigeringsområdet för kartinnehåll.
 
    Ämnet läggs till på kartan.
 
@@ -136,7 +140,7 @@ Så här skapar du en karta från Assets-gränssnittet:
 
    Versionsinformationen för en nyligen skapad karta visas som *ingen*. När du sparar en ny version tilldelas den ett versionsnummer som 1.0. Mer information om hur du sparar en ny version finns i [Spara som ny version](web-editor-features.md#save-as-new-version).
 
-   Du kan välja att öppna kartan för redigering i den konfigurerade kartredigeraren eller spara kartefilen i Adobe Experience Manager-databasen.
+   Du kan välja att öppna kartan för redigering i den konfigurerade kartredigeraren eller spara kartefilen i Utforskaren.
 
    >[!NOTE]
    >

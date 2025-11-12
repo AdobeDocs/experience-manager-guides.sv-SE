@@ -4,9 +4,10 @@ description: Lär dig hur du anpassar befintliga AEM Site-mallar för AEM Guides
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 1cec8975e8aad56184793a023d066aa467d8cec5
+exl-id: d48709b8-f5b2-4545-ac65-838c5d8b1bae
+source-git-commit: 4c564a0ffaa8f287bcaf012634d49dbf1e0682b4
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '919'
 ht-degree: 0%
 
 ---
@@ -32,9 +33,9 @@ Om du använder den färdiga AEM Guides-mallen (AEMG Docs) finns konfigurationer
 
 Mallnamnen varierar beroende på projektinställningarna. I OTB AEMG Docs-konfigurationen:
 
-- Dokumentationsbehållarsida: /conf/AEMG-Docs-Site/settings/wcm/templates/kb-content
+- Dokumentationsbehållarsida: `/conf/AEMG-Docs-Site/settings/wcm/templates/kb-content`
 
-- Ämnessida: /conf/AEMG-Docs-Site/settings/wcm/templates/topic-content
+- Ämnessida: `/conf/AEMG-Docs-Site/settings/wcm/templates/topic-content`
 
 **Anpassning:** Anpassningsprocessen omfattar två viktiga steg:
 
@@ -85,7 +86,7 @@ Om du har ett DITA-avsnitt om &quot;Installationsanvisningar&quot;, kommer ämne
 
 >[!NOTE]
 >
-> Kontrollera att komponenter som använder sling:resourceType under wcm/Foundation/components migreras till motsvarande core/wcm/components.
+> Kontrollera att komponenter som använder snedning :resourceType under `wcm/foundation/components` migreras till motsvarande `core/wcm/components`.
 
 Lägg till samma (behållare- och textkomponent) i strukturen för samma mall:
 
@@ -139,4 +140,4 @@ Som standard används inte klientbiblioteken (klientbibliotek) som finns i AEM G
 
 >[!NOTE]
 >
-> Kontrollera att mallarna har testats i en icke-produktionsmiljö innan du distribuerar till produktionen.<br><br>Mer information finns i den officiella dokumentationen för [AEM Guides](https://experienceleague.adobe.com/sv/docs/experience-manager-guides/using/overview) och [AEM Sites](https://experienceleague.adobe.com/sv/docs/experience-manager-core-components/using/get-started/authoring).
+> Kontrollera att mallarna har testats i en icke-produktionsmiljö innan du distribuerar till produktionen.<br><br>Mer information finns i den officiella dokumentationen för [AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview) och [AEM Sites](https://experienceleague.adobe.com/en/docs/experience-manager-core-components/using/get-started/authoring).

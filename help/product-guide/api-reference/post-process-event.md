@@ -5,7 +5,7 @@ exl-id: 3b105ff5-02d4-40e3-a713-206a7fcf18b2
 feature: Post-Processing Event Handler
 role: Developer
 level: Experienced
-source-git-commit: 8e57d4048f4aa13d7f77f25082d4e7aa329ee355
+source-git-commit: 6f212862855e5ce1125137f462b88c933d23ed26
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 0%
@@ -42,7 +42,7 @@ com/adobe/guides/postprocess/complete
 |----|----|-----------|
 | `path` | Sträng | Sökvägen till filen som utlöste den här händelsen. Det här är vanligtvis den fil som en åtgärd har utförts på. |
 | `eventType` | Sträng | Typ av händelse, dvs. CREATE eller MODIFY. |
-| `status` | Sträng | Returstatus för den åtgärd som utfördes. Möjliga alternativ är: - <br> - LYCKADES: Efterbehandlingsåtgärden slutfördes utan fel. <br> - MISSLYCKADES: Efterbearbetningen misslyckades på grund av ett fel. |
+| `status` | Sträng | Returstatus för den åtgärd som utfördes. Möjliga alternativ är: <br> - LYCKADES: Efterbehandlingsåtgärden slutfördes utan fel. <br> - MISSLYCKADES: Efterbearbetningen misslyckades på grund av ett fel. |
 | `errorMsg` | Sträng | Felmeddelandet om efterbearbetningen misslyckas. |
 | `uuid` | Sträng | UUID för filen som utlöste den här händelsen. Det här är vanligtvis den fil som en åtgärd har utförts på. |
 
@@ -110,6 +110,6 @@ com/adobe/fmdita/postprocess/complete
 | Namn | Typ | Beskrivning |
 |----|----|-----------|
 | `path` | Sträng | Sökvägen till filen som utlöste den här händelsen. Det här är vanligtvis den fil som en åtgärd har utförts på. |
-| `status` | Sträng | Returstatus för den åtgärd som utfördes. Möjliga alternativ är: - <br> - LYCKADES: Efterbehandlingsåtgärden slutfördes utan fel. <br>- SLUTFÖRD MED FEL: Efterbearbetningen slutfördes men med vissa fel. <br> - MISSLYCKADES: Efterbearbetningen misslyckades på grund av ett fel. |
+| `status` | Sträng | Returstatus för den åtgärd som utfördes. Möjliga alternativ är: <br> - LYCKADES: Efterbehandlingsåtgärden slutfördes utan fel. <br>- SLUTFÖRD MED FEL: Efterbearbetningen slutfördes men med vissa fel. <br> - MISSLYCKADES: Efterbearbetningen misslyckades på grund av ett fel. |
 | `message` | Sträng | Om statusen är SLUTFÖRD MED FEL eller MISSLYCKAD innehåller den här parametern information om felet eller orsaken till felet. |
 | `operation` | Sträng | Efterbehandlingsåtgärden som utfördes på filen. Möjliga alternativ är: <br>- Tillägg <br>- Uppdatering <br> - Borttagning |

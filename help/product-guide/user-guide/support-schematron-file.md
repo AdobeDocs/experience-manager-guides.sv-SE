@@ -4,9 +4,9 @@ description: Lär dig hur du importerar och validerar ett DITA-ämne, använder 
 exl-id: ed07a5ec-6adc-43a3-8f03-248b8c963e9a
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: ee784edcbaef0641784cd1eb18748fc12a4f90bb
+source-git-commit: 64d2f0027c35396a549d11a0186e218dd513b22a
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '778'
 ht-degree: 0%
 
 ---
@@ -45,10 +45,19 @@ När du öppnar ett ämne i Redigeraren visas en schematrons valideringspanel ti
 
 1. Välj ikonen Schematron () för att öppna panelen Schematron.
 1. Använd **Lägg till schemafil** för att lägga till schemafiler.
+
+   >[!NOTE]
+   >
+   > När en ogiltig schemaläggarfil läggs till visas ett felmeddelande på valideringspanelen.
+
+   ![](images/schematron-panel-error.png){width="300" align="left"}
+
 1. Om det inte finns några fel i schemaläggarfilen läggs den till och visas på valideringspanelen. Ett felmeddelande visas för Schematron-filen som innehåller fel.
+
    >[!NOTE]
    >
    >Du kan använda kryssikonen bredvid Schematron-filnamnet för att ta bort den.
+
 1. Välj **Verifiera med Schematron** för att validera ämnet.
 
    * Om inga regler bryts visas ett meddelande om att valideringen lyckades för filen.

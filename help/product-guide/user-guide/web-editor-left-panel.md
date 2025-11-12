@@ -4,9 +4,9 @@ description: Lär känna den vänstra panelen i Editor. Läs mer om redigeringsg
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 92496d39-b423-4635-8b05-c67fd6af47de
-source-git-commit: 0d713f9ff4bd48aa90bce368d6ad7abf86ecbbf7
+source-git-commit: 565f7b9b8139bfa3e21c91c4b60b6c9757b67429
 workflow-type: tm+mt
-source-wordcount: '9542'
+source-wordcount: '9769'
 ht-degree: 0%
 
 ---
@@ -17,12 +17,13 @@ Den vänstra panelen ger dig snabb åtkomst till samlingar, databasvyn, kartvyn 
 
 >[!NOTE]
 >
-> Det går att ändra storlek på den vänstra panelen. Om du vill ändra storlek på panelen placerar du markören på panelkanten, pekaren ändras till en dubbelriktad pil, markerar och drar för att ändra storlek på panelbredden.
+>Det går att ändra storlek på den vänstra panelen. Om du vill ändra storlek på panelen placerar du markören på panelkanten, pekaren ändras till en dubbelriktad pil, markerar och drar för att ändra storlek på panelbredden.
 
 Den vänstra panelen ger dig tillgång till följande funktioner:
 
 - [Samlingar](#collections)
 - [Databas](#repository)
+- [Explorer](#explorer)
 - [Karta](#map)
 - [Återanvändbart innehåll](#reusable-content)
 - [Kontur](#outline)
@@ -118,6 +119,10 @@ Du kan även utföra många åtgärder med Alternativ-menyn som är tillgänglig
 
 ## Databas
 
+>[!NOTE]
+>
+> Från och med version 2025.11.0 kommer **Databasen** i redigeraren att bli inaktuell och ersättas av installationen av **Utforskaren** för **molntjänsten** . Under installationen av **On-Premise** fortsätter du att visa och använda databasen via redigeringsgränssnittet till version 5.1 av Experience Manager Guides.
+
 När du väljer ikonen Databas visas en lista med filer och mappar som är tillgängliga i DAM. Som standard kan du visa filerna efter namn. När du för muspekaren över en fil kan du visa filens namn och filnamnet som ett verktygstips.
 
 >[!NOTE]
@@ -134,7 +139,7 @@ eller visa bild-i-bild.
 
 Markera en karta och tryck på Retur eller dubbelklicka för att öppna den i **kartvyn**. Mer information finns i funktionsbeskrivningen för **Kartvyn** i den vänstra panelen. Markera ett ämne och tryck på Enter eller dubbelklicka för att öppna det i [området för innehållsredigering](./web-editor-content-editing-area.md). Du kan navigera och öppna en fil direkt i redigeraren vilket sparar tid och ökar produktiviteten.
 
-**Filtersökning i databas**
+## Filtersökning i databas
 
 Redigeraren har förbättrade filter för textsökning. Du kan söka efter och filtrera efter en text i de filer som finns på den valda sökvägen i Adobe Experience Manager-databasen. Det söker i titeln, filnamnet och innehållet i filerna.
 
@@ -155,7 +160,7 @@ Du har följande alternativ för att filtrera filerna och begränsa sökningen i
 - **DITA-filer**: Du kan söka efter alla **DITA-avsnitt** och **DITA-kartor** som finns på den valda sökvägen. Dessa är markerade som standard.
 - **Icke-DITA-filer**: Du kan söka efter **Ditavala filer**, **Bildfiler**, **Multimedia**, **Dokument** och **JSON** i den valda sökvägen.
 
-  ![snabbsökningsfilter &#x200B;](images/repository-filter-search-quick.png) {width="300" align="left"}
+  ![snabbsökningsfilter ](images/repository-filter-search-quick.png) {width="300" align="left"}
 
   *Använd snabbfiltren för att söka efter DITA- och icke-DITA-filer.*
 
@@ -206,7 +211,7 @@ Detta är synkroniserat med sökrutan i databasfönstret. Om du t.ex. skriver `g
   >
   >Listan med filtrerade filer som innehåller den sökta texten visas. Filerna som innehåller texten `personal spaceship` visas till exempel i den föregående skärmbilden. Du kan markera flera filer i den filtrerade listan om du vill dra och släppa dem på en karta som har öppnats för redigering.
 
-**Alternativ-menyn**
+### Alternativ-menyn
 
 Förutom att öppna filer från den vänstra panelen kan du även utföra många åtgärder med hjälp av Alternativ-menyn i databasvyn. Du kan visa olika alternativ beroende på om du väljer en mapp, ämnesfil eller mediefil.
 
@@ -427,6 +432,23 @@ De olika alternativen på Alternativ-menyn förklaras nedan:
 
 - **Generera**: Använd alternativet för att publicera en eller flera kartor inom en karta till en webbplatssida, ett innehållsfragment eller ett Experience Fragment.
 
+## Explorer
+
+>[!NOTE]
+>
+> Från och med version 2025.11.0 ersätts termen databas i redigeraren av **Utforskaren** för installation av molntjänster. Installationen på plats fortsätter att visa och komma åt databasen i redigeraren.
+
+Utforskaren har de flesta funktioner som tidigare fanns i Databas, bland annat:
+
+- Navigering mellan filer och mappar
+- Alternativ-menyn för filer och mappar
+
+Men det ger en förbättrad sök- och filtreringsupplevelse som är utformad för att förbättra användbarheten och effektiviteten.
+
+Mer information om snabbmenyn för filer och mappar finns i [Alternativ-menyn](#options-menu).
+
+Mer information om sökgränssnittet finns i [sökpanelen](./search-panel-explorer.md).
+
 ## Karta
 
 När du väljer ikonen Kartvy visas en lista med ämnen i kartvyn. Om du inte har öppnat någon kartfil visas kartvyn som tom. Om du dubbelklickar på en kartfil öppnas kartfilen i den här vyn. Du kan dubbelklicka på en fil på kartan för att öppna den i redigeraren.
@@ -474,7 +496,7 @@ Du kan utföra följande åtgärder på Alternativ-menyn i kartfilen:
    - **Kopiera UUID**: Kopiera UUID för mappningsfilen till Urklipp.
    - **Kopiera sökväg**: Kopiera hela sökvägen för mappningsfilen till Urklipp.
 
-- **Hitta i databasen**: Visar platsen för mappningsfilen i databasen \(eller DAM\).
+- **Hitta i Utforskaren**: Visar platsen för kartfilen i Utforskaren\(eller DAM\).
 
 - **Lägg till i**: Du kan välja bland följande alternativ:
    - **Samlingar**: Lägger till kartfilen i samlingar. Du kan lägga till den i en befintlig eller ny samling.
@@ -531,7 +553,7 @@ Du kan utföra följande åtgärder på Alternativ-menyn:
    - **Kopiera sökväg**: Kopiera hela sökvägen för den markerade filen till Urklipp.
 
 
-- **Hitta i databasen**: Visar platsen för den valda filen i databasen \(eller DAM\).
+- **Hitta i Utforskaren**: Visar platsen för den markerade filen i Utforskaren \(eller DAM\).
 - **Expandera alla**: Expandera alla ämnen i kartfilerna.
 
 - **Komprimera alla**: Komprimera alla ämnen som är en del av den aktuella kartfilen.
@@ -956,26 +978,32 @@ Kodavsnitt är små innehållsfragment som kan återanvändas i olika ämnen i d
 
 ![](images/snippets-panel_cs.png){align="left"}
 
+**Skapa ett fragment**
+
 Om du vill lägga till ett fragment använder du någon av följande metoder:
 
-- Öppna dialogrutan **Nytt fragment** genom att markera ikonen **+** bredvid Fragment.
+1. Öppna dialogrutan **Nytt fragment** genom att markera ikonen **+** bredvid Fragment.
 
-  ![](images/snippet-new-dialog.png){width="300" align="left"}
+   ![](images/snippet-new-dialog.png){width="300" align="left"}
 
-  I dialogrutan Nytt fragment anger du en rubrik som visas på fragmentpanelen, en beskrivning och en XML-kod för det fragmentinnehåll som du vill skapa. Välj **Skapa** om du vill spara och skapa fragmentet.
+   I dialogrutan Nytt fragment anger du en titel som visas på fragmentpanelen, en beskrivning, väljer ett format (DITA eller HTML) för ditt innehåll och anger en kod för fragmentinnehållet som du vill skapa. Välj **Skapa** om du vill spara och skapa fragmentet.
 
-- Högerklicka på elementets synliga del som du vill använda som fragment i området för innehållsredigering och välj **Skapa fragment** på snabbmenyn. Dialogrutan Nytt fragment visas med XML-koden för det valda elementet i fältet **Innehåll** . Ange **titeln** och **beskrivningen** för fragmentet och välj **Skapa** för att spara fragmentet.
+2. Högerklicka på elementets synliga del som du vill använda som fragment i området för innehållsredigering och välj **Skapa fragment** på snabbmenyn. Dialogrutan Nytt fragment visas med XML-koden för det valda elementet i fältet **Innehåll** . Ange **titeln** och **beskrivningen** för fragmentet och välj **Skapa** för att spara fragmentet.
 
-- I området för innehållsredigering högerklickar du var som helst på det innehåll som du vill använda som kodfragment och väljer **Skapa fragment** på snabbmenyn. Dialogrutan Nytt kodfragment visas med XML-koden för det valda elementet i fältet **Innehåll** . Ange **titeln** och **beskrivningen** för fragmentet och välj **Skapa** för att spara fragmentet.
+3. I området för innehållsredigering högerklickar du var som helst på det innehåll som du vill använda som kodfragment och väljer **Skapa fragment** på snabbmenyn. Dialogrutan Nytt kodfragment visas med XML-koden för det valda elementet i fältet **Innehåll** . Ange **titeln** och **beskrivningen** för fragmentet och välj **Skapa** för att spara fragmentet.
 
-  Följande skärmbild markerar vägbeskrivningen och innehållsområdet där du kan anropa snabbmenyn.
+   Följande skärmbild markerar vägbeskrivningen och innehållsområdet där du kan anropa snabbmenyn.
 
-  ![](images/snippet-create-from-breadcrumb-content.png){width="350" align="left"}
+   ![](images/snippet-create-from-breadcrumb-content.png){width="350" align="left"}
 
+**Infoga ett fragment**
 
 Om du vill infoga ett fragment använder du någon av följande metoder:
 
-- Välj ett fragment på fragmentpanelen och dra och släpp det på önskad plats i avsnittet.
+- Välj ett fragment på fragmentpanelen och dra och släpp det på önskad plats i avsnittet. Du kan också använda filteralternativen längst upp på panelen Kodavsnitt för att förfina vyn:
+
+   - **Visa alla fragment**: Visar alla tillgängliga fragment, inklusive både DITA- och HTML-format.
+   - **Visa endast tillämpliga fragment**: Filtrerar listan så att endast de fragment som är relevanta för det aktuella ämnet eller det aktuella sammanhanget visas. Om du till exempel arbetar med ett DITA-avsnitt kommer HTML-fragment att tas bort från listan för att säkerställa kontextuell precision.
 
 - Placera insättningspunkten där du vill infoga fragmentet och välj Infoga fragment på Alternativ-menyn för fragmentet.
 
@@ -1065,7 +1093,7 @@ Utför följande steg om du vill söka och ersätta globalt:
 
 Om du vill aktivera ikonen **Ersätt alla** måste systemadministratören markera alternativet **Aktivera Ersätt alla** på fliken **Allmänt** i **Workspace-inställningarna** (visas som **Inställningar** för **Lokalt**).
 
-    >[ !OBS!]
+    >[!OBS!]
     >
     > Hovra över en fil från sökresultatlistan för att visa ikonen Ersätt alla i fil till höger om den. Du kan också visa ikonen Ignorera fil för att ta bort filen från sökresultatet. De filer som du ignorerar tas bort från listan och den sökta termen ersätts inte i dem.
 
@@ -1142,4 +1170,4 @@ Så här visar du granskningskommentarerna i de aktiva granskningsuppgifterna so
 
 </details>
 
-**Överordnat ämne:**&#x200B;[&#x200B; Introduktion till redigeraren](web-editor.md)
+**Överordnat ämne:**[ Introduktion till redigeraren](web-editor.md)

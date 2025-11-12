@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Läs produktdokumentationen för Adobe Experience Manager Guides.
 breadcrumb-title: Dokumentation om AEM Guides
-source-git-commit: c0a75668d283458049d9b4a3bbc23335117ea660
+source-git-commit: e1b332b100cc8e3937557e4617d66352c1a0dc3c
 workflow-type: tm+mt
-source-wordcount: '2414'
+source-wordcount: '2428'
 ht-degree: 1%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 1%
       - Molntjänster {#cloud-release-notes}
          - [Distributionsanvisningar](./release-info/deploy-xml-on-aemaacs.md)
          - 2025 års utgåvor {#2025-releases}
+            - 2025.11.0-utgåvan {#2511-release}
+               - [Nyheter](./release-info/whats-new-2025-11-0.md)
+               - [Åtgärdade problem](./release-info/fixed-issues-2025-11-0.md)
+               - [Uppgraderingsinstruktioner](./release-info/upgrade-instructions-2025-11-0.md)
             - 2025.10.0-utgåvan {#2510-release}
                - [Nyheter](./release-info/whats-new-2025-10-0.md)
                - [Åtgärdade problem](./release-info/fixed-issues-2025-10-0.md)
@@ -158,16 +162,17 @@ ht-degree: 1%
                - [4.2.1 Versionsinformation](./release-info/release-notes-4-2-1.md)
                - [4.2 Versionsinformation](./release-info/release-notes-4-2.md)
          - [4.1.x Versionsinformation](./release-info/release-notes-4-1.md)
-         - [Versionsinformation för 4.0.x](https://helpx.adobe.com/se/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [3.8.x Versionsinformation](https://helpx.adobe.com/se/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [Versionsinformation för 4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [3.8.x Versionsinformation](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Användarhandbok (nytt användargränssnitt) {#user-guide}
    - Introduktion {#about-aemg}
       - [Om [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - [!DNL AEM Guides] funktioner och nyckelfunktioner {#aemg-works-features}
-         - [Så här fungerar [!DNL AEM Guides] &#x200B;](./user-guide/intro-how-dxml-works.md)
+         - [Så här fungerar [!DNL AEM Guides] ](./user-guide/intro-how-dxml-works.md)
          - [Viktiga [!DNL AEM Guides] funktioner](./user-guide/intro-dxml-features.md)
    - Startsida {#home-page}
       - [[!DNL AEM Guides] - startsida](./user-guide/intro-home-page.md)
+      - [Databasgränssnitt](./user-guide/home-page-repository-view.md)
    - Skapa innehåll {#author-content}
       - [Redigeringsöversikt](./user-guide/authoring-content.md)
       - [Olika sätt att skapa innehåll med AEM Guides](./user-guide/authoring-content-xml-doc.md)
@@ -181,12 +186,14 @@ ht-degree: 1%
             - [Förhandsgranska ett ämne](./user-guide/web-editor-preview-topics.md)
          - [Lär dig redigeringsfunktionerna](./user-guide/web-editor-features.md)
          - Lär dig redigeringsgränssnittet och funktionerna {#editor-interface-features}
+            - [Ökning](./user-guide/intro-editor-interface.md)
             - [Sidhuvudsfält](./user-guide/web-editor-header-bar.md)
             - [Flikfält](./user-guide/web-editor-tab-bar.md)
             - [Verktygsfält](./user-guide/web-editor-toolbar.md)
             - [Vänster panel](./user-guide/web-editor-left-panel.md)
             - [Innehållsredigeringsområde](./user-guide/web-editor-content-editing-area.md)
             - [Höger panel](./user-guide/web-editor-right-panel.md)
+            - [Sökpanel](./user-guide/search-panel-explorer.md)
          - [Ytterligare funktioner i redigeraren](./user-guide/web-editor-other-features.md)
          - [Kortkommandon i Redigeraren](./user-guide/web-editor-keyboard-shortcuts.md)
          - [Redigerarvyer](./user-guide/web-editor-views.md)
@@ -280,6 +287,7 @@ ht-degree: 1%
          - [Hantera genereringsprocess för utdata](./user-guide/generate-output-manage-process.md)
          - [Hantera publiceringsuppgifter med Publish Dashboard](./user-guide/generate-output-publish-dashboard.md)
          - [Grundläggande felsökning](./user-guide/generate-output-basic-troubleshooting.md)
+         - [Frågor och svar om publiceringsarbetsflöde och skalbarhet](./user-guide/publishing-scalability-faq.md)
       - Massaktivering av innehåll {#bulk-activation}
          - [Massaktivering av publicerat innehåll](./user-guide/conf-bulk-activation.md)
          - [Skapa en gruppaktiveringskarta](./user-guide/conf-bulk-activation-create-map-collection.md)
@@ -352,11 +360,11 @@ ht-degree: 1%
          - [Viktiga begrepp, roller, behörigheter och krav](./user-guide/authoring.md)
          - [Överför filer](./user-guide/authoring-upload-existing-files.md)
          - [Hantera filer och mappar](./user-guide/authoring-file-management.md)
-         - [Bearbeta eller bearbeta om resurser](./user-guide/asset-processor.md)
+         - [Bearbeta resurser](./user-guide/asset-processor.md)
       - Felsökning {#troubleshooting}
          - [Tidsgräns för session](./user-guide/session-timeout-prompt.md)
 - Användarhandbok (gammalt användargränssnitt) {#user-guide-old-ui}
-   - [AEM Guides - översikt](https://experienceleague.adobe.com/sv/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [AEM Guides - översikt](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installation och konfiguration {#install-guide}
    - Lokalt {#on-prem-ig}
       - [Grunderna på plats](./install-guide/introduction.md)
@@ -451,6 +459,10 @@ ht-degree: 1%
          - [Översätta innehåll](./install-guide/translation.md)
       - Arbeta med AEM Assets-sökning {#aem-asset-search}
          - [Konfigurera sökning i AEM Assets UI](./install-guide/conf-dita-search.md)
+      - Arbeta med tillgångsbearbetning {#asset-processing-on-prem}
+         - [Konfigurera bearbetning av resurser](./install-guide/configure-asset-processing.md)
+      - Arbeta med rensning av B-träd{#btree-cleanup}
+         - [Konfigurera rensning av B-träd](./install-guide/configure-btree-clean-up-job.md)
       - [Bilaga](./install-guide/appendix.md)
    - Molntjänster {#cs-ig}
       - [Om den här guiden](./cs-install-guide/introduction.md)
@@ -532,6 +544,10 @@ ht-degree: 1%
          - [Översätta innehåll](./cs-install-guide/translation.md)
       - Arbeta med AEM Assets-sökning {#aem-asset-search-cs}
          - [Konfigurera sökning i AEM Assets UI](./cs-install-guide/conf-dita-search.md)
+      - Arbeta med tillgångsbearbetning {#asset-processing-cloud}
+         - [Konfigurera funktionen för bearbetning av resurser](./cs-install-guide/configure-asset-processing-cs.md)
+      - Arbeta med rensning av B-träd{#btree-cleanup-cs}
+         - [Konfigurera rensning av B-träd](./cs-install-guide/configure-btree-cleanup-cs.md)
       - [Bilaga](./cs-install-guide/appendix.md)
 - API-referens {#api-reference}
    - [Introduktion](./api-reference/introduction.md)
@@ -541,14 +557,9 @@ ht-degree: 1%
    - [REST API för att arbeta med villkorsattribut](./api-reference/conditional-attribute.md)
    - [REST API:er för konverteringsarbetsflöde](./api-reference/convert-to-dita.md)
    - [REST API för att skapa och aktivera paket](./api-reference/create-activate-package.md)
-   - [Java-baserat API som fungerar med utdatagenerering](./api-reference/generate-output.md)
-   - [Java-baserade API:er för DITA-kartor](./api-reference/dita-map-management-java.md)
-   - [Java-baserade API:er för konverteringsarbetsflöde](./api-reference/convert-to-dita-java.md)
-   - [Java-baserade API:er som fungerar med baslinje och etiketter](./api-reference/create-baseline-label-java.md)
-   - [Java-baserat API för att arbeta med mappprofiler](./api-reference/folder-profile-java.md)
-   - [Java-baserat API för att skapa och aktivera paket](./api-reference/create-activate-package-java.md)
    - [Händelsehanterare efter bearbetning](./api-reference/post-process-event.md)
    - [API för att spåra efterbearbetningsstatus för en mapp eller en resurs](./api-reference/track-post-processing-status.md)
+   - [API för att starta massbearbetning av resurser](./api-reference/bulk-assets-processing.md)
    - [Händelsehanterare för slutförd gruppaktivering](./api-reference/bulk-activation-complete-event.md)
    - [Händelsehanterare för konverteringsprocess](./api-reference/conversion-complete-event.md)
 - Knowledge Base {#knowledge-base}
