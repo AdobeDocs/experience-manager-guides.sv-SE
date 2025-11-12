@@ -36,7 +36,7 @@ Innan du fortsätter med installationen bör du kontrollera att följande krav �
 ## Paketinstallation med CRX Package Manager
 
 1. **Installera komponentpaketet:**
-   1. Navigera till [**CRX Package Manager**](http://<your-aem-instance>/crx/packmgr).
+   1. Navigera till [**CRX Package Manager**](http://&lt;your-aem-instance>/crx/packmgr).
    2. Ladda upp och installera paketet on-prem-guides-components.all-1.x.0.zip.
 
 2. **Installera platspaketet:** Överför och installera paketet aemg-docs.all-1.x.0.zip med CRX Package Manager.
@@ -86,7 +86,7 @@ Innan du fortsätter med installationen bör du kontrollera att följande krav �
    2. Skapa en ny produktsida under OTB-webbplatsens struktur.
    3. Navigera till **AEMG-dokument** > **Engelska** > **Dokument**.
 
-      ![Skapa sida i AEM platsstruktur ](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-new-page.png){width="350" align="left"}
+      ![Skapa sida i AEM platsstruktur &#x200B;](/help/product-guide/knowledge-base/kb-articles/assets/publishing/create-new-page.png){width="350" align="left"}
 
    4. Markera rutan **Hemsida** och välj sedan **Nästa**.
 
