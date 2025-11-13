@@ -3,7 +3,7 @@ title: Sökpanelen i redigeringsgränssnittet
 description: Lär dig hur du använder sökpanelen i redigeringsgränssnittet.
 feature: Authoring
 role: User
-source-git-commit: bdf838da24d7e426c34265cdad454d52f657cfae
+source-git-commit: 5b4aebce91d6cad7c99bf97e3d6d592ad38fa373
 workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Du kommer åt sökpanelen på följande sätt:
 
   ![](images/search-icon-editor.png){align="left"}
 
-- **Hemsida**: Använder alternativet **Visa i sökpanelen** vid navigering från databasgränssnittet på hemsidan. Om du vill ha mer information kan du [söka från databasen](#search-from-repository-interface-on-the-home-page).
+- **Hemsida**: Använder alternativet **Visa i sökpanelen** vid navigering från databasgränssnittet på hemsidan. Om du vill ha mer information kan du [söka från databasen](#search-from-the-repository-interface-on-the-home-page).
 
   ![](images/search-panel-repo.png){align="left"}
 
