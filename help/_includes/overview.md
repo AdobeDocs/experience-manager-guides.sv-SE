@@ -13,7 +13,7 @@ ht-degree: 10%
 
 # Testöversikt
 
-[!DNL Experience Manager Guides] (kallas _[!DNL AEM Guides]_nedan) är en kraftfull innehållshanteringslösning för komponenter i företagsklass. Det möjliggör inbyggt DITA-stöd i Experience Manager och ger AEM möjlighet att hantera DITA-baserad framtagning och leverans av innehåll. Man kan skapa material offline med valfritt DITA-verktyg, t.ex. Adobe FrameMaker eller en lättanvänd webbredigerare.
+[!DNL Experience Manager Guides] (kallas _[!DNL AEM Guides]_&#x200B;nedan) är en kraftfull innehållshanteringslösning för komponenter i företagsklass. Det möjliggör inbyggt DITA-stöd i Experience Manager och ger AEM möjlighet att hantera DITA-baserad framtagning och leverans av innehåll. Man kan skapa material offline med valfritt DITA-verktyg, t.ex. Adobe FrameMaker eller en lättanvänd webbredigerare.
 
 [!DNL AEM Guides]-lösningen innehåller alla centrala CCMS-funktioner, som samarbete, granskning, översättning, sökning och rapporter för DITA-innehåll, vilket gör att författare kan göra mer på kortare tid genom effektiv återanvändning av innehåll och kraftfulla arbetsflöden. Dessutom kan man med ett enda klick skapa DITA-baserade utdata för de vanligaste formaten - Experience Manager Sites, PDF, HTML5, EPUB och skräddarsydda utdata via DITA-OT.
 
