@@ -61,4 +61,4 @@ Utför följande steg för att komma åt rapporten Återgå historik:
 
 
 
-**Överordnat ämne:**[ Rapporter](reports-intro.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Rapporter](reports-intro.md)
