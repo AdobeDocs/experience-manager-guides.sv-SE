@@ -5,7 +5,7 @@ feature: Report Generation
 role: User
 hide: true
 exl-id: c787947a-b235-4c12-a9cc-eac5136d31db
-source-git-commit: 67c4458180ff7e5690bc1ee51fe9e46bce57c9d5
+source-git-commit: 6261e1aa1966a81830fe8e5cf14337c8be4f81cb
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%
@@ -17,8 +17,6 @@ ht-degree: 0%
 När du arbetar med flera samtidiga utgåvor tillsammans med flera författare måste innehållet ha flera versioner. Det kan finnas viss gemensam information i flera versioner, som olika författare kan använda i sitt projekt. För att hantera sådana arbetsuppgifter kan författarna få flera versioner av filerna. Sådana versioner kan helt enkelt vara en nyare version av en fil eller en återställning till en tidigare version. Det är en komplex uppgift att identifiera när en fil har återställts och varför.
 
 Med AEM Guides kan du generera en versionshistorik för en enskild fil eller för alla filer i en mapp. Den här versionshistoriken ger dig en sammanslagen vy över alla versioner av en fil som har återförts och vem som har skapat dessa versioner, samt orsaken till att de har skapats.
-
-{{$include /help/_includes/overview.md}}
 
 Du kommer åt den här rapporten från följande platser:
 
@@ -61,4 +59,4 @@ Utför följande steg för att komma åt rapporten Återgå historik:
 
 
 
-**Överordnat ämne:**&#x200B;[&#x200B; Rapporter](reports-intro.md)
+**Överordnat ämne:**[ Rapporter](reports-intro.md)
