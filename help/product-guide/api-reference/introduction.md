@@ -122,9 +122,9 @@ Detaljerad information om API-användning, parametrar och exempelbegäranden fin
 
 ## Ytterligare resurser
 
-Nedan följer en lista över andra användbara resurser i AEM Guides som finns på sidan [Lär dig mer och support](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html):
+Nedan följer en lista över andra användbara resurser i AEM Guides som finns på sidan [Lär dig mer och support](https://helpx.adobe.com/se/support/xml-documentation-for-experience-manager.html):
 
 - Användarhandbok
 - Installations- och konfigureringshandbok
 - Snabbstartsguide
-- [Hjälparkivsida](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) \(använd äldre versionsdokumentation\)
+- [Hjälparkivsida](https://helpx.adobe.com/se/xml-documentation-for-experience-manager/archive.html) \(använd äldre versionsdokumentation\)
