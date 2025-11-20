@@ -14,7 +14,7 @@ ht-degree: 4%
 
 # Hämta och installera {#id1645E0O04MK}
 
-AEM Guides görs tillgängligt via Adobe Software Distribution Portal. Du kan ladda ned AEM Guides från ditt Adobe Software Distribution Portal-konto och installera det på alla Adobe Experience Manager \(AEM\)-instanser i installationen. I vanliga fall lagras redigeringsinstansen och produktionsinstansen för AEM på olika servrar. Du måste installera AEM Guides på alla instanser av AEM som du tänker använda.
+AEM Guides görs tillgängligt via Adobe Software Distribution Portal. Du kan hämta AEM Guides från ditt Adobe Software Distribution Portal-konto och installera det på alla Adobe Experience Manager \(AEM\)-instanser i installationen. Vanligtvis lagras din redigeringsinstans och produktionsinstans av AEM på olika servrar. Du måste installera AEM Guides på alla instanser av AEM som du tänker använda.
 
 Innan du påbörjar hämtningen och installationen måste du kontrollera att datorn uppfyller de tekniska kraven för att installera AEM Guides.
 
@@ -32,4 +32,4 @@ Innan du påbörjar hämtningen och installationen måste du kontrollera att dat
 
 - **[Avinstallera AEM Guides](download-install-unistall-aemg.md)**
 
-- **[Recommendations för prestandaoptimering](download-install-recommend-perf-optimiz.md)**
+- **[Rekommendationer för prestandaoptimering](download-install-recommend-perf-optimiz.md)**
