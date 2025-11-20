@@ -1,62 +1,64 @@
 ---
-title: Rapport över versionshistorik för återskapade filer
-description: Visa rapporter om versionshistorik för återskapade filer i AEM Guides. Lär dig hur du får åtkomst till loggar för återversioner från Assets användargränssnitt, förhandsgranskning av ämnen och val av AEM-verktyg.
+title: Versionshistorikrapport för återställda filer
+description: Visa rapporter om versionshistorik från återställda filer i AEM Guides. Lär dig hur du kommer åt loggar för återställningsversionen från Assets UI, ämnesförhandsgranskning och AEMs-verktygsval.
 feature: Report Generation
 role: User
 hide: true
 exl-id: c787947a-b235-4c12-a9cc-eac5136d31db
-source-git-commit: 6261e1aa1966a81830fe8e5cf14337c8be4f81cb
+source-git-commit: 5081aa032c13ca684c6882149448b05c77028a90
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%
 
 ---
 
-# Rapport över versionshistorik för återskapade filer {#id205BBC00PRK}
+# Versionshistorikrapport för återställda filer {#id205BBC00PRK}
 
-När du arbetar med flera samtidiga utgåvor tillsammans med flera författare måste innehållet ha flera versioner. Det kan finnas viss gemensam information i flera versioner, som olika författare kan använda i sitt projekt. För att hantera sådana arbetsuppgifter kan författarna få flera versioner av filerna. Sådana versioner kan helt enkelt vara en nyare version av en fil eller en återställning till en tidigare version. Det är en komplex uppgift att identifiera när en fil har återställts och varför.
+När du arbetar med flera samtidiga utgåvor tillsammans med flera författare är ditt innehåll oundvikligt att ha flera versioner. Det kan finnas gemensam information över flera utgåvor, som olika författare kan använda i sitt projekt. För att hantera sådana arbetsuppgifter kunde författare sluta med flera versioner av filer. Sådana versioner kan helt enkelt vara en nyare version av en fil eller en återgång till en tidigare version. Det är en komplex uppgift att identifiera när en fil återställdes och varför.
 
-Med AEM Guides kan du generera en versionshistorik för en enskild fil eller för alla filer i en mapp. Den här versionshistoriken ger dig en sammanslagen vy över alla versioner av en fil som har återförts och vem som har skapat dessa versioner, samt orsaken till att de har skapats.
+AEM Guides låter dig generera en versionshistorikrapport för en enskild fil eller för alla filer i en mapp. Denna versionshistorik ger dig en sammanslagen vy av alla versioner av en fil som återställdes, vem som skapade dessa versioner och anledningen till att de gjordes.
 
-Du kommer åt den här rapporten från följande platser:
+{{$include /help/_includes/overview.md}}
 
-- **Assets-gränssnitt**: genom att markera en fil och öppna **Versionshistorik** från den vänstra listen. Vyn **Versionshistorik** innehåller länken **Återställ versionsloggar** längst ned på panelen. När du klickar på den här länken visas den markerade filens historik för de återskapade versionerna.
+Du kan få tillgång till denna rapport från följande platser:
+
+- **Assets UI:** genom att välja en fil och öppna versionshistoriken **** från vänster sken. Versionshistorikvyn **** innehåller länken **Återställ versionsloggar** längst ner i panelen. När du klickar på denna länk visas den valda filens historik för de återställda versionerna.
 
   ![](images/revert-log-from-assets-ui.png){width="300" align="left"}
 
-- **Förhandsgranskning av ämne**: När du förhandsgranskar ett ämne kan du även visa panelen **Versionshistorik** från den vänstra listen. Du får en panel som liknar användargränssnittet i Assets där du kan klicka på länken **Återställ versionsloggar** för att få åtkomst till det aktiva dokumentets återförda versionshistorik.
+- **Ämnesförhandsvisning**: när du förhandsgranskar ett ämne kan du också öppna panelen **Version History** från vänster sken. Du får en panel liknande Assets UI där du kan klicka på länken **Återställ versionsloggar** för att komma åt den återställda versionshistoriken för det aktiva dokumentet.
 
-- **AEM verktygsavsnittet**: du kan även komma åt den här rapporten från AEM verktygsavsnittet. I proceduren nedan beskrivs hur du kan få åtkomst till historiken för återversioner i avsnittet AEM-verktyg.
+- **AEM:s Verktygssektion**: du kan också komma åt denna rapport från AEM:s Verktygssektion. Följande procedur förklarar hur du kan komma åt versionshistoriken för återställning från AEM:s Verktygssektion.
 
 
-Utför följande steg för att komma åt rapporten Återgå historik:
+Utför följande steg för att komma åt rapporten om återställ historik:
 
-1. Klicka på länken Adobe Experience Manager överst och välj **Verktyg**.
+1. Klicka på länken Adobe Experience Manager högst upp och välj **Verktyg.**
 
-1. Välj **Stödlinjer** i listan över verktyg.
+1. Välj **guider** från verktygslistan.
 
-1. Klicka på rutan **Återgå till tidigare version**.
+1. Klicka på rutan Version **Revert History** (versionsåterställning).
 
-   En tom sida för att återställa versionshistorik visas där du behöver bläddra till och välja en fil eller mapp för att generera rapporten.
+   En tom sida för Återställ versionshistorik visas där du behöver bläddra till och välja en fil eller mapp för att generera rapporten.
 
 1. Klicka på **Visa loggar** för att generera rapporten för den valda filen eller mappen.
 
    ![](images/revert-version-history-report.png){width="800" align="left"}
 
-   Rapporten innehåller följande information:
+   Rapporten innehåller följande detaljer:
 
-   - **Filnamn**: Ämnets namn. Om du klickar på ämneslänken öppnas ämnesförhandsgranskningen.
+   - **Filnamn**: Ämnets titel. Genom att klicka på ämnets titellänk öppnas ämnesförhandsvisningen.
 
    - **Tidsstämpel**: Datum och tid då ämnet återgick till en tidigare version.
 
-   - **Användare**: Namnet på den användare som återgick till en tidigare version.
+   - **Användare: Namnet** på användaren som återgick till en tidigare version.
 
-   - **Återgå från**: Det ursprungliga versionsnumret för filen som den återskapades från.
+   - **Återställ från**: Det ursprungliga versionsnumret för filen där den återställdes.
 
-   - **Återgå till**: Versionen som filen återgick till.
+   - **Återställ till**: Den version som filen återställdes till.
 
-   - **Kommentar**: Alla kommentarer från den användare som återställde filen.
+   - **Kommentar**: Alla kommentarer från användaren som återställde filen.
 
 
 
-**Överordnat ämne:**&#x200B;[&#x200B; Rapporter](reports-intro.md)
+**Föräldraämne:**[ Rapporter](reports-intro.md)
