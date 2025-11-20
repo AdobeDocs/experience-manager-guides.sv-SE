@@ -22,7 +22,7 @@ AEM Guides låter dig generera en versionshistorikrapport för en enskild fil el
 
 Du kan få tillgång till denna rapport från följande platser:
 
-- **Assets UI:** genom att välja en fil och öppna versionshistoriken **** från vänster sken. Versionshistorikvyn **** innehåller länken **Återställ versionsloggar** längst ner i panelen. När du klickar på denna länk visas den valda filens historik för de återställda versionerna.
+- **Assets UI:** genom att välja en fil och öppna versionshistoriken **&#x200B;**&#x200B;från vänster sken. Versionshistorikvyn **&#x200B;**&#x200B;innehåller länken **Återställ versionsloggar** längst ner i panelen. När du klickar på denna länk visas den valda filens historik för de återställda versionerna.
 
   ![](images/revert-log-from-assets-ui.png){width="300" align="left"}
 
@@ -61,4 +61,4 @@ Utför följande steg för att komma åt rapporten om återställ historik:
 
 
 
-**Föräldraämne:**[ Rapporter](reports-intro.md)
+**Föräldraämne:**&#x200B;[&#x200B; Rapporter](reports-intro.md)
