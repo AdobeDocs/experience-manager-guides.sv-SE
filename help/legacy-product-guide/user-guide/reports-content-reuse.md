@@ -5,31 +5,14 @@ feature: Report Generation
 role: User
 hide: true
 exl-id: 1a61fc05-b2b4-4665-a15a-0058fbbc2942
-source-git-commit: f867f2deceddf46b5242163c6ea0b4cc1c4f1ca2
+source-git-commit: 5081aa032c13ca684c6882149448b05c77028a90
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
 
 # Återanvänd innehåll - rapport {#id205BB900OQD}
-
-<table style="border-collapse: collapse;">
-  <tr>
-    <td style="width:150px; white-space: nowrap;">Gäller för:</td>
-    <td style="width:500px; white-space: nowrap;">Experience Manager Guides as a Cloud Service, Experience Manager Guides On Premise</td>
-  </tr>
-  <tr>
-    <td style="width:150px; white-space: nowrap;">Version:</td>
-    <td style="width:500px; white-space: nowrap;">2025.11.0, 2025.12.0</td>
-  </tr>
-  <tr>
-    <td style="width:150px; white-space: nowrap;">Version:</td>
-    <td style="width:500px; white-space: nowrap;">4.6.0, 5.1.0</td>
-  </tr>
-</table>
-
-![](./images/test-version-info-table.svg)
 
 En annan användbar rapport som du kan generera är återanvändningsrapporten för innehåll. Den här rapporten beräknar den genomsnittliga användningen av innehåll, vilket är mycket användbart för projektledare och affärsägare för att se hur mycket innehåll som återanvänds.
 
@@ -80,4 +63,4 @@ Utför följande steg för att visa rapporten för återanvändning av innehåll
 >
 > Du kan också exportera återanvändningsrapporten för innehåll i CSV-format. Klicka på länken Exportera till CSV längst upp till vänster på skärmen och välj en plats där du vill spara CSV-filen. Du kan sedan öppna den här CSV-filen i valfri CSV-redigerare.
 
-**Överordnat ämne:**&#x200B;[&#x200B; Rapporter](reports-intro.md)
+**Överordnat ämne:**[ Rapporter](reports-intro.md)
