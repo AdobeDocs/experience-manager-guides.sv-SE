@@ -1,7 +1,7 @@
 ---
 title: Versionsinformation | Problem i Adobe Experience Manager Guides 5.0.0 har åtgärdats
 description: Läs mer om felkorrigeringarna i version 5.0.0 av Adobe Experience Manager Guides.
-source-git-commit: 410d7c059ff1219b73f2dc6199690c77d1ba0e48
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1221'
 ht-degree: 0%
@@ -12,8 +12,7 @@ ht-degree: 0%
 
 Den här artikeln handlar om buggar som har åtgärdats i olika delar av version 5.0.0 av Adobe Experience Manager Guides.
 
-
-Mer information om de nya funktionerna och förbättringarna finns i [Nyheter i version 5.0.0](whats-new-5-0.md).
+Mer information om de nya funktionerna och förbättringarna finns i [Nyheter i version 5.0.0](/help/product-guide/release-info/whats-new-5-0-0.md).
 
 Läs mer om [uppgraderingsinstruktioner för version 5.0.0](upgrade-instructions-5-0-0.md).
 

@@ -4,7 +4,7 @@ description: Skapa och konfigurera förinställningar för AEM-webbplatser i AEM
 feature: Publishing
 role: User
 exl-id: 641c98ca-b815-4176-abf5-a12c31ff4496
-source-git-commit: ac83f613d87547fc7f6a18070545e40ad4963616
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '2404'
 ht-degree: 0%
@@ -103,7 +103,7 @@ Om du använder `conref` i ditt innehåll publiceras det som normalt eller inbä
 
 >[!NOTE]
 >
->Om du har genererat separata sidor för `conref`-innehållet med AEM Guides version 3.5 eller tidigare rekommenderar vi att du rensar/tar bort dessa sidor med alternativet [&#x200B; Ta bort enstaka webbplatssidor &#x200B;](#delete-orphan-page-aem-site) .
+>Om du har genererat separata sidor för `conref`-innehållet med AEM Guides version 3.5 eller tidigare rekommenderar vi att du rensar/tar bort dessa sidor med alternativet [ Ta bort enstaka webbplatssidor ](#delete-orphan-page-aem-site) .
 
 
 ### Söka efter en sträng i innehållet
@@ -114,4 +114,4 @@ Du kan söka efter en sträng i AEM Sites-utdata. Som standard kan du bara söka
 
 Mer information finns i avsnittet *Konfigurera förenkling av nodstrukturen för AEM Site* i guiden Installera och konfigurera Adobe Experience Manager Guides.
 
-**Överordnat ämne:**&#x200B;[&#x200B; Förstå förinställningarna för utdata](generate-output-understand-presets.md)
+**Överordnat ämne:**[ Förstå förinställningarna för utdata](generate-output-understand-presets.md)

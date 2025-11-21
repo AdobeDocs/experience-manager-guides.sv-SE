@@ -1,10 +1,10 @@
 ---
 title: Versionsinformation för  [!DNL AEM Guides], mars 2022
-description: Marsutgåva av  [!DNL Adobe Experience Manager Guides] as a Cloud Service
+description: Mars-utgåvan av [!DNL Adobe Experience Manager Guides] as a Cloud Service
 exl-id: 885edbb5-dfe4-4bdc-bb66-0df64addb094
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 0%
@@ -15,14 +15,14 @@ ht-degree: 0%
 
 ## Uppgradera till mars-utgåvan
 
-Uppgradera din nuvarande [!DNL Adobe Experience Manager Guides] as a Cloud Service (kallas senare *[!DNL AEM Guides]as a Cloud Service*)-konfiguration genom att utföra följande steg:
-1. Ta en titt på Cloud Servicens Git-kod och växla till den gren som är konfigurerad i Cloud Servicens pipeline för den miljö du vill uppgradera.
-1. Uppdatera `<dox.version>`-egenskapen i `/dox/dox.installer/pom.xml`-filen för dina Cloud Services Git-kod till 2022.3.123.
-1. Genomför ändringarna och kör Cloud Servicens pipeline för att uppgradera till marsversionen av [!DNL AEM Guides] as a Cloud Service.
+Uppgradera din nuvarande [!DNL Adobe Experience Manager Guides] as a Cloud Service-konfiguration (kallas senare *[!DNL AEM Guides]as a Cloud Service*) genom att utföra följande steg:
+1. Ta en titt på Git-koden för molntjänster och växla till den gren som konfigurerats i molntjänstflödet för den miljö du vill uppgradera.
+1. Uppdatera egenskapen `<dox.version>` i `/dox/dox.installer/pom.xml`-filen för Git-koden för molntjänster till 2022.3.123.
+1. Genomför ändringarna och kör molntjänstpipelinen för att uppgradera till marserutgåvan av [!DNL AEM Guides] as a Cloud Service.
 
 ## Kompatibilitetsmatris
 
-I det här avsnittet visas kompatibilitetsmatrisen för de program som stöds av utgåvan [!DNL AEM Guides] för as a Cloud Service mars 2022.
+I det här avsnittet visas kompatibilitetsmatrisen för de program som stöds i as a Cloud Service från den [!DNL AEM Guides] mars 2022.
 
 ### FrameMaker och FrameMaker Publishing Server
 
@@ -39,13 +39,13 @@ I det här avsnittet visas kompatibilitetsmatrisen för de program som stöds av
 | 2022.3.0 | 2.4.0 | 2.4.0 |
 |  |  |  |
 
-*Originalplan och villkor skapade i AEM stöds i FMPS-versioner från och med 2020.2.
+*Baslinje och villkor som skapats i AEM stöds i FMPS-versioner från och med 2020.2.
 
 ## Nya funktioner och förbättringar
 
 ### Ny kontrollpanel för baslinje
 
-[!DNL AEM Guides] as a Cloud Service mars innehåller baslinjefunktionen som är integrerad i webbredigeraren. Nu kan du skapa baslinjer från Web Editor och använda dem för att publicera eller översätta ämnen från olika versioner.
+[!DNL AEM Guides] as a Cloud Service Mars innehåller baslinjefunktionen som är integrerad i webbredigeraren. Nu kan du skapa baslinjer från Web Editor och använda dem för att publicera eller översätta ämnen från olika versioner.
 
 Obs! Uppdatera den senaste **ui_config.json** för mappprofil för uppgraderat system.
 
@@ -77,7 +77,7 @@ osparade ändringar öppnas för redigering. Du uppmanas att spara filerna eller
 
 Publiceringsprocessen har förbättrats ytterligare i mars-utgåvan av [!DNL AEM Guides] as a Cloud Service:
 
-* Baslinjer har använts för metadata AEM webbplatsens utdata. Du kan också bearbeta egenskaperna för en baslinjeversion som metadata. Om ingen baslinje har definierats bearbetas egenskaperna för den senaste versionen som metadata.
+* Baslinjer har använts för metadata för utdata från AEM-webbplatser. Du kan också bearbeta egenskaperna för en baslinjeversion som metadata. Om ingen baslinje har definierats bearbetas egenskaperna för den senaste versionen som metadata.
 
 * Kommandoradsargumenten **Filnamn** och **DITA-OT** har lagts till för HTML5, EPUB och anpassade förinställningar. Nu kan du ange filnamnet som du vill spara utdata med. Du kan också ange ytterligare argument som du vill att DITA-OT ska behandla när du genererar utdata.
 
@@ -95,7 +95,7 @@ De buggar som har åtgärdats i olika områden listas nedan:
 
 ## Kända fel
 
-Adobe har identifierat följande kända fel i as a Cloud Service March-versionen [!DNL AEM Guides].
+Adobe har identifierat följande kända fel i as a Cloud Service Mars-utgåvan [!DNL AEM Guides].
 
 * Om du tar bort etiketter i direkta referenser tas även etiketterna bort från indirekta referenser.
 

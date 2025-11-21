@@ -4,9 +4,9 @@ description: Lär dig mer om felkorrigeringarna och hur du uppgraderar till 4.3.
 exl-id: 3fb6dc31-ec6e-40f5-ab3f-a6e591da315e
 feature: Release Notes
 role: Leader
-source-git-commit: 1b25f1df67fa2442ab79830dc2ac5a6eabd0394c
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1307'
 ht-degree: 0%
 
 ---
@@ -57,9 +57,9 @@ Mer information finns i avsnittet *Tekniska krav* i guiden Installera och konfig
 | --- | --- | --- | --- | --- |
 | 4.3.1 (ej UUID) | 2022 eller senare | 2020.2 eller senare* | 2022 eller senare | 2020.3 eller senare |
 | 4.3.1 (UID) | 2022 eller senare | 2020.2 eller senare* | 2022 eller senare | 2020.4 eller senare |
-| | | | |
+| | | | | |
 
-*Originalplan och villkor skapade i AEM stöds i FMPS-versioner från och med 2020.2.
+*Baslinje och villkor som skapats i AEM stöds i FMPS-versioner från och med 2020.2.
 
 ### Syrgasanslutning
 
@@ -67,7 +67,7 @@ Mer information finns i avsnittet *Tekniska krav* i guiden Installera och konfig
 | --- | --- | --- |--- |--- |
 | 4.3.1 (ej UUID) | 2.3-regular-5 | 2.3-regular-5 | 1,6 | 1,6 |
 | 4.3.1 (UID) | 3.2-uuid-5 | 3.2-uuid-5 | 2,3 | 2,3 |
-|  |  |   |
+|  |  |   | | |
 
 
 
@@ -107,23 +107,23 @@ De buggar som har åtgärdats i olika områden listas nedan:
 
 ### Publicering
 
-- PDF | Ordningen på ämnena är inte fast när utdata från PDF skapas. 13157
-- Inbyggd PDF| Det finns ingen standardformattagg tillgänglig för elementet `<p>`. (12559)
+- PDF | Ordningen på ämnena är inte fast när PDF-utdata genereras. 13157
+- PDF| Det finns ingen standardformattagg tillgänglig för elementet `<p>`. (12559)
 - PDF | Textbundna format som används för innehållsområdet används inte för ämnen som placeras framför och bakom. (13510)
-- Attributet `DeliveryTarget` sprids inte när AEM genereras.  13132
-- Arbetsflödet **Publish** fastnar när AEM genereras för innehåll med vissa fel. (12000)
+- Attributet `DeliveryTarget` sprids inte när AEM Site-utdata genereras.  13132
+- Arbetsflödet **Publicera** fastnar när utdata för AEM Site genereras för innehåll med vissa fel. (12000)
 
 - PDF | Om du inkluderar flera xrefs utökas texten utanför kolumnbredden. 13004
-- PDF | När ämnet och titeln har samma ID leder det till en felaktig generering av utdata från PDF. 12644
+- PDF | När ämnet och titeln har samma ID leder det till en felaktig generering av PDF-utdata. 12644
 - PDF | När du lägger till en utdataklass till ett överordnat `<topicref>`-element i en DITA-karta och använder en anpassad stil på utdataklassen, tillämpas formatet på element i ämnesbrödtexten, inklusive avsnittsrubriker. (12166)
 - Inkrementell publicering fungerar inte om en DITA-karta har flera diavalrefs. (12117)
-- AEM | När du skapar en karta med nyckelord som pekar på ett ämne som en variabel och lägger till processing-role=resource-only skapas vissa oväntade sidor. (12099)
-- Om resurser från AEM DAM används i andra utdata än den AEM platsen, återspeglar inte metadata&quot;jcr:createdBy&quot; utgivarens namn eller namnet på den användare som senast ändrade DITA-kartan eller -avsnittet. (12090)
+- AEM Site | När du skapar en karta med nyckelord som pekar på ett ämne som en variabel och lägger till processing-role=resource-only skapas vissa oväntade sidor. (12099)
+- Om resurser från AEM DAM används i andra utdata än AEM-webbplatsen, återspeglar metadata&quot;jcr:createdBy&quot; inte utgivarens namn eller namnet på den användare som senast ändrade DITA-kartan eller DITA-avsnittet. (12090)
 - AEM Sites | DITA-kartan med topichad i navigeringsrubriken (med tecken som inte stöds) leder till felaktiga sidadresser. (11978)
 - PDF | Det finns problem med stöd för topichead / topicmeta / navtitle i Frontmatter och Backmatter. (11969)
-- PDF | Det tar tid att generera PDF för stora dokument. (11955)
-- PDF | Om du byter namn på en förinställning genereras ett NullPointerException-fel när du genererar utdata i PDF. 11889
-- `<conref>`-innehållet visas inte i utdata från PDF. (11131)
+- PDF | Att generera PDF-filer för stora dokument är tidskrävande. (11955)
+- PDF | Om du byter namn på en förinställning genereras ett NullPointerException-fel när en PDF-utdatafil genereras. 11889
+- Innehållet `<conref>` visas inte i PDF-utdata. (11131)
 - Ett extra utrymme läggs till i elementen `<div>` när du växlar mellan redigeringsvyn för författare och Source i sidlayoutredigeraren. 10750)
 - Innehållet som replikeras i AEM Cloud Manager visas inte i Publish-instansen. 9564
 

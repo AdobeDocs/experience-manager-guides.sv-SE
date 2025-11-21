@@ -5,7 +5,7 @@ exl-id: dab654f5-555d-4a89-bc94-55b1e938f255
 feature: Rest API Output Management
 role: Developer
 level: Experienced
-source-git-commit: 45ae1471fe0f0586764ede9dd96530b7f75f69ee
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1175'
 ht-degree: 0%
@@ -36,16 +36,16 @@ Returnerar en array med förinställda JSON-utdataobjekt, där varje objekt inne
 | Element | Beskrivning |
 |-------|-----------|
 | `outputName` | Namn på förinställningen. Utdatanamn är unika i DITA-kartans omfång som de definieras i. |
-| `outputType` | Typ av utdata som genereras med den här förinställningen, till exempel AEM Site, PDF, EPUB eller annat. De tillgängliga alternativen är:<br>-   AEMSITE <br>-   PDF <br>-   HTML5 <br>-   EPUB <br>-   ANPASSAD |
+| `outputType` | Typ av utdata som genereras med den här förinställningen, till exempel AEM Site, PDF, EPUB eller andra. De tillgängliga alternativen är:<br>-   AEMSITE <br>-   PDF <br>-   HTML5 <br>-   EPUB <br>-   ANPASSAD |
 | `outputTitle` | Ett beskrivande namn för inställningarna för förinställningen för utdata. Det här används för att definiera värdet för egenskapen Inställningsnamn för utdatafärgen. |
 | `ditaValPathList` | En array med DITAVAL-filsökvägar som ska användas för att generera önskade utdata. |
 | `targetPath` | Sökväg där utdata publiceras eller lagras. |
-| `siteName` | *\(För AEM platsutdata\)* Namnet på den AEM platsen. |
-| `templatePath` | *\(För AEM platsutdata\)* Sökväg till mallnoden som ska användas för att generera önskade utdata. |
+| `siteName` | *\(För utdata från AEM-webbplatsen\)* Namn på AEM-webbplatsen. |
+| `templatePath` | *\(För AEM Site-utdata\)* Sökväg till mallnoden som ska användas för att generera önskade utdata. |
 | `searchScope` | Ange omfattningen för sökåtgärden. Värdet för den här parametern måste anges till `local`. |
-| `generateTOC` | *\(För AEM platsutdata\)* Ange om en innehållsförteckning genereras \(true\) eller inte \(false\). |
-| `generateBreadcrumbs` | *\(För AEM platsutdata\)* Ange om breadcrumbs ska genereras \(true\) eller inte \(false\). |
-| `overwriteStrategy` | *\(För AEM platsutdata\)* Ange om filer på målet ska skrivas över \(true\) eller inte \(false\). |
+| `generateTOC` | *\(För AEM Site-utdata\)* Ange om en innehållsförteckning genereras \(true\) eller inte \(false\). |
+| `generateBreadcrumbs` | *\(För AEM Site-utdata\)* Ange om breadcrumbs ska genereras \(true\) eller inte \(false\). |
+| `overwriteStrategy` | *\(För utdata från AEM Site\)* Ange om filer på målet ska skrivas över \(true\) eller inte \(false\). |
 | `pdfGenerator` | Ange vilken PDF-genereringsmotor som ska användas. Möjliga värden är:<br>-   DITAOT <br>-   FMPS |
 
 >[!NOTE]
@@ -66,7 +66,7 @@ http://*&lt;aem-guides-server\>*: *&lt;portnummer\>*/bin/publishlistener
 | `:operation` | Sträng | Ja | Namnet på den åtgärd som anropas. Värdet för den här parametern är ``createoutput``.<br> **Obs!** Värdet är inte skiftlägeskänsligt. |
 | `sourcePath` | Sträng | Ja | Absolut sökväg för DITA-mappningsfilen. |
 | `outputTitle` | Sträng | Ja | Ett beskrivande namn för inställningarna för förinställningen för utdata. Detta används för att definiera värdet för inställningsnamnsegenskapen för utdatafärgen.<br> **Obs!** När en ny förinställning skapas, kör back-end-systemet ett unikt namn för utdataförinställningen från den angivna titeln. |
-| `outputType` | Sträng | Ja | Typ av utdata som genereras med den här förinställningen, till exempel AEM Site, PDF, EPUB eller annat. De tillgängliga alternativen är:<br>-   AEMSITE <br>-   PDF <br>-   HTML5 <br>-   EPUB <br>-   ANPASSAD |
+| `outputType` | Sträng | Ja | Typ av utdata som genereras med den här förinställningen, till exempel AEM Site, PDF, EPUB eller andra. De tillgängliga alternativen är:<br>-   AEMSITE <br>-   PDF <br>-   HTML5 <br>-   EPUB <br>-   ANPASSAD |
 
 **Svarsvärden**:
 
@@ -94,7 +94,7 @@ Returnerar ett HTTP 200 \(Slutförd\)-svar.
 
 ## Hämta en specifik förinställning
 
-En metod som hämtar en befintlig förinställning för POST.
+En POST-metod som hämtar en befintlig förinställning.
 
 **Begär URL**:
 http://*&lt;aem-guides-server\>*: *&lt;portnummer\>*/bin/publishlistener
@@ -112,17 +112,17 @@ http://*&lt;aem-guides-server\>*: *&lt;portnummer\>*/bin/publishlistener
 | Element | Beskrivning |
 |-------|-----------|
 | `outputName` | Namn på förinställningen. Utdatanamn är unika i DITA-kartans omfång som de definieras i. |
-| `outputType` | Typ av utdata som genereras med den här förinställningen, till exempel AEM Site, PDF, EPUB eller annat. De tillgängliga alternativen är:<br>-   AEMSITE <br>-   PDF <br>-   HTML5 <br>-   EPUB <br>-   ANPASSAD <br> |
+| `outputType` | Typ av utdata som genereras med den här förinställningen, till exempel AEM Site, PDF, EPUB eller andra. De tillgängliga alternativen är:<br>-   AEMSITE <br>-   PDF <br>-   HTML5 <br>-   EPUB <br>-   ANPASSAD <br> |
 | `outputTitle` | Ett beskrivande namn för inställningarna för förinställningen för utdata. Det här används för att definiera värdet för egenskapen Inställningsnamn för utdatafärgen. |
 | `ditaValPathList` | En array med DITAVAL-filsökvägar som ska användas för att generera önskade utdata. |
 | `targetPath` | Sökväg där utdata publiceras eller lagras. |
-| `siteName` | \(För AEM platsutdata\) Namnet på den AEM platsen. |
-| `siteTitle` | \(För AEM platsutdata\) Namnet på den AEM webbplatsen. |
-| `templatePath` | \(För AEM platsutdata\) Sökväg till mallnoden som ska användas för att generera önskat utvärde. |
+| `siteName` | \(För utdata från AEM Site\) Namnet på AEM Site. |
+| `siteTitle` | \(För AEM Site output\) Title of the AEM Site. |
+| `templatePath` | \(För AEM Site-utdata\) Sökväg till mallnoden som ska användas för att generera önskat utvärde. |
 | `searchScope` | Ange omfattningen för sökåtgärden. Värdet för den här parametern måste anges till `local`. |
-| `generateTOC` | \(För AEM platsutdata\) Ange om en innehållsförteckning genereras \(true\) eller inte \(false\). |
-| `generateBreadcrumbs` | \(För AEM platsutdata\) Ange om vägbeskrivningar ska genereras \(true\) eller inte \(false\). |
-| `overwriteFiles` | \(För AEM platsutdata\) Ange om filer på målet ska skrivas över \(true\) eller inte \(false\). |
+| `generateTOC` | \(För utdata från AEM Site\) Ange om en innehållsförteckning ska genereras \(true\) eller inte \(false\). |
+| `generateBreadcrumbs` | \(För AEM Site-utdata\) Ange om vägbeskrivningar ska genereras \(true\) eller inte \(false\). |
+| `overwriteFiles` | \(För utdata från AEM Site\) Ange om filer på målet ska skrivas över \(true\) eller inte \(false\). |
 | `pdfGenerator` | Ange vilken PDF-genereringsmotor som ska användas. Möjliga värden är:<br>-   DITAOT <br>-   FMPS |
 
 >[!NOTE]
@@ -142,14 +142,14 @@ http://*&lt;aem-guides-server\>*: *&lt;portnummer\>*/bin/publishlistener
 |----|----|--------|-----------|
 | `operation` | Sträng | Ja | Namnet på den åtgärd som anropas. Värdet för den här parametern är `GENERATEOUTPUT`.<br> **Obs!** Värdet är skiftlägeskänsligt. |
 | `source` | Sträng | Ja | Absolut sökväg för DITA-mappningsfilen. |
-| `outputName` | Sträng | Ja | Namnet på den/de förinställningar som ska användas för att generera utdata. Du kan ange flera förinställningar med en pipe \(&quot;\|&quot;\)-avgränsare, till exempel `aemsite|pdfoutput`. |
+| `outputName` | Sträng | Ja | Namnet på den/de förinställningar som ska användas för att generera utdata. Du kan ange flera förinställningar med en pipe \(&quot;\|&quot;\)-avgränsare, till exempel `aemsite\|pdfoutput`. |
 
 **Svarsvärden**:
 Returnerar ett HTTP 200 \(Slutförd\)-svar.
 
 ## Generera inkrementella utdata
 
-En GET-metod som genererar inkrementella utdata för en AEM webbplats med en eller flera utdatainställningar.
+En GET-metod som genererar inkrementella utdata för en AEM-plats med en eller flera förinställningar.
 
 **Begär URL**:
 http://*&lt;aem-guides-server\>*: *&lt;portnummer\>*/bin/publishlistener
@@ -194,7 +194,7 @@ Returnerar ett HTTP 200 \(Slutförd\)-svar.
 
 ## Ta bort förinställning för utdata
 
-En POST som tar bort en förinställning.
+En POST-metod som tar bort en förinställning.
 
 **Begär URL**:
 http://*&lt;aem-guides-server\>*: *&lt;portnummer\>*/bin/publishlistener

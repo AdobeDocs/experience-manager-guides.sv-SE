@@ -4,7 +4,7 @@ description: September-versionen av Adobe Experience Manager Guides as a Cloud S
 exl-id: f6247f91-43cc-43a4-a6f8-3b1f09d0533f
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1299'
 ht-degree: 0%
@@ -15,24 +15,24 @@ ht-degree: 0%
 
 ## Uppgradera till september-versionen
 
-Uppgradera din nuvarande Adobe Experience Manager Guides as a Cloud Service-konfiguration (kallas senare *AEM Guides as a Cloud Service*) genom att utföra följande steg:
-1. Ta en titt på Cloud Servicens Git-kod och växla till den gren som är konfigurerad i Cloud Servicens pipeline för den miljö som du vill uppgradera.
-1. Uppdatera `<dox.version>`-egenskapen i `/dox/dox.installer/pom.xml`-filen för dina Cloud Services Git-kod till 202.9.178.
-1. Genomför ändringarna och kör Cloud Servicen för att uppgradera till versionen från september av AEM Guides as a Cloud Service.
+Uppgradera din nuvarande konfiguration av Adobe Experience Manager Guides as a Cloud Service (kallas senare *AEM Guides as a Cloud Service*) genom att utföra följande steg:
+1. Ta en titt på Git-koden för molntjänster och växla till den gren som konfigurerats i molntjänstflödet för den miljö som du vill uppgradera.
+1. Uppdatera egenskapen `<dox.version>` i `/dox/dox.installer/pom.xml`-filen för Git-koden för molntjänster till 2022.9.178.
+1. Genomför ändringarna och kör Cloud Services-pipeline för att uppgradera till Septemberversionen av AEM Guides as a Cloud Service.
 
 ## Steg för indexering av befintligt innehåll
 
 Utför följande steg för att indexera det befintliga innehållet och använd den nya sök- och ersätt-texten på mappningsnivå:
-* Kör en POST-förfrågan till servern (med korrekt autentisering) - `http://<server:port>/bin/guides/map-find/indexin`.
+* Kör en POST-begäran till servern (med korrekt autentisering) - `http://<server:port>/bin/guides/map-find/indexin`.
 (Valfritt: Du kan skicka specifika sökvägar för mappningarna för att indexera dem. Som standard indexeras alla mappningar ||  Exempel:   `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
-* API:t returnerar ett jobId. Om du vill kontrollera statusen för jobbet kan du skicka en GET-förfrågan med jobb-ID till samma slutpunkt - `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
+* API:t returnerar ett jobId. Om du vill kontrollera jobbets status kan du skicka en GET-begäran med jobb-ID till samma slutpunkt - `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
 (Till exempel: `http://<_localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)`
-* När jobbet är klart kommer ovanstående GET-förfrågan att svara och ange om några kartor misslyckades. De korrekt indexerade mappningarna kan bekräftas från serverloggarna.
+* När jobbet är klart kommer ovanstående GET-förfrågan att besvaras med framgång och ange om några kartor misslyckades. De korrekt indexerade mappningarna kan bekräftas från serverloggarna.
 
 
 ## Kompatibilitetsmatris
 
-I det här avsnittet visas kompatibilitetsmatrisen för de program som stöds i AEM Guides as a Cloud Service version från september 2022.
+I det här avsnittet visas kompatibilitetsmatrisen för de program som stöds i AEM Guides as a Cloud Service från september 2022.
 
 ### FrameMaker och FrameMaker Publishing Server
 
@@ -41,14 +41,14 @@ I det här avsnittet visas kompatibilitetsmatrisen för de program som stöds i 
 | Inte kompatibel | 2020 uppdatering 4 och senare |
 | | |
 
-*Originalplan och villkor skapade i AEM stöds i FMPS-versioner från och med 2020.2.
+*Baslinje och villkor som skapats i AEM stöds i FMPS-versioner från och med 2020.2.
 
 ### Syrgasanslutning
 
 | AEM Guides som Cloud-release | Syrgasanslutningsfönster | Syrgasanslutning Mac | Redigera i syrgasfönster | Redigera i Syrgas Mac |
 | --- | --- | --- | --- | --- |
 | 2022.9.0 | 2.7.13 | 2.7.13 | 2,3 | 2,3 |
-|  |  |  |  |
+|  |  |  |  |  |
 
 
 ## Nya funktioner och förbättringar
@@ -82,10 +82,10 @@ På översättningens kontrollpanel ser du enkelt skillnaderna mellan den senast
 
 Beroende på skillnaderna kan du bestämma om du vill översätta ett ämne eller inte.
 
-### Metadatagränssnitt för förinställningar för PDF
+### Metadatagränssnitt för PDF-förinställningar
 
 Du kan ställa in metadata från utdataförinställningen för en DITA-karta. Du kan ange metadata för titel, författare, ämne och nyckelord. Dessa metadata mappas till metadata i filegenskaperna för utdata-PDF.
-Dessa metadata åsidosätter metadata som definierats på boknivå. Du kan definiera metadata specifikt för varje utdatainställning och skicka den vidare till PDF.
+Dessa metadata åsidosätter metadata som definierats på boknivå. Du kan definiera metadata specifikt för varje utdatainställning och skicka den vidare till utdata-PDF.
 
 ![Metadata i förinställning](assets/preset-metadata.png)
 
@@ -112,27 +112,27 @@ De buggar som har åtgärdats i olika områden listas nedan:
 * Sök och ersätt | Det mörka läget går inte att läsa för sökresultat i webbredigeraren. (9978)
 * Översättning | Metadata och taggar sprids inte till översatta kopior. 4696
 * Kopiera inklistring (ctrl+c/ctrl+v) ger ett fel i redigeringsläget. (10304)
-* PDF-mall | Om du lägger till bakgrundsbilder i en sidlayout visas bildsökvägen absolut och bilderna visas inte i PDF i utdata. (10297)
+* PDF-mall | Om du lägger till bakgrundsbilder i en sidlayout visas bildsökvägen absolut och bilderna visas inte i utdata-PDF. (10297)
 * PDF | Kapitelrubrik och kapitelrubrik fungerar inte i PDF. 9947
 * PDF | `xref` för ett koncept har inte matchats korrekt för ett specifikt DITA-ämne. (10229)
-* PDF | Det går inte att visa bildtext för en tabell i utdata från PDF. 9827
-* PDF | Referenser i bilagor visas inte som bilagor i utdata från PDF. (10182)
+* PDF | Det går inte att visa bildtext för en tabell i genererade PDF-utdata. 9827
+* PDF | Referenser i bilagor visas inte som bilagor i PDF-utdata. (10182)
 * PDF | Bildruteattributet för en tabell sprids inte till den temporära HTML (som klass). (10353)
 * PDF | temporära HTML-filer lägger till klasserna colsep och rowsep till td och även om deras värde är 0 i käll-DITA. (10352)
 * PDF |  Metadata för villkor som lagts till i sidlayouten respekteras inte. (10377)
-* PDF |  Genereringen av PDF misslyckas för visst innehåll. (9927)
-* PDF | Innehåll via conkeyref visas inte i utdata från PDF. 9836
+* PDF |  Generering av PDF misslyckas för specifikt innehåll. (9927)
+* PDF | Innehåll via conkeyref visas inte i PDF-utdata. 9836
 * PDF | Nyckelreferenser för nyckeldefinitioner med bilder eller externa länkar är inte lösta. (10063)
 * I redigeringsvyn för en karta visas inte platshållartext för tabeller och illustrationer. (10330)
 * När vi skapar en ny baslinje används inte det redan valda baslinjefärgfiltret. (9954)
 * Videofilen saknas från baslinjen om det överordnade mappnamnet har ett blankstegstecken. 10031)
 * När du skapar baslinje väljs inte den senaste versionen när användarens tidszon skiljer sig från serverns tidszon. (10190)
-* Kortkommandot Ctrl+F öppnar inte sökgränssnittet på Assets-konsolen när AEM Guides 4.1 har installerats på AEM 6.5.12. (10189)
+* Kortkommandot Ctrl+F öppnar inte sökgränssnittet på Assets-konsolen efter installation av AEM Guides 4.1 i AEM 6.5.12. (10189)
 
 
 ## Kända fel
 
-Adobe har identifierat följande kända problem i AEM Guides as a Cloud Service från september 2022.
+Adobe har identifierat följande kända fel i AEM Guides as a Cloud Service från september 2022.
 
 
 * Dynamisk baslinje är inte integrerad med kunskapsbaspublicering.

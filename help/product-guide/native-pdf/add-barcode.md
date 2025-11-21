@@ -1,10 +1,10 @@
 ---
-title: PDF Publish-funktion | Lägg till streckkod
+title: PDF publiceringsfunktion | Lägg till streckkod
 description: Lär dig hur du lägger till streckkoder.
 exl-id: 206bdcf9-2bcd-4bf1-815a-c97cdf0dc415
-source-git-commit: d525775afeeb89754762ff514126b1c3a3307b3f
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '778'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ En streckkod är ett datamönster som datorer kan läsa. Kunderna kan skanna str
 Du kan skapa ett format för streckkoden. och använda den för att infoga en streckkod i en sidlayout. Du kan använda formatet på en exempelstreckkod i den önskade sidlayouten.
 
 
-Den här självstudiekursen hjälper dig att lägga till streckkoder i utdata från PDF.
+Den här självstudiekursen hjälper dig att lägga till streckkoder i PDF-utdata.
 
 ## Steg för att generera en streckkod
 
@@ -24,7 +24,7 @@ Så här genererar du en streckkod:
 
 ### Uppdatera mallens CSS för att återge ett streckkodsvärde
 
-Ändra filen `layout.css` om du vill återge en streckkod under genereringen av PDF. Olika streckkodstyper som qrcode och pdf417 stöds.  Mer information finns i [Streckkodstyper](#barcode-types).
+Ändra filen `layout.css` om du vill återge en streckkod under PDF-genereringen. Olika streckkodstyper som qrcode och pdf417 stöds.  Mer information finns i [Streckkodstyper](#barcode-types).
 
 
 
@@ -62,9 +62,9 @@ Lägg till en streckkodsplatshållare i mallhuvudet och använd formatet:
 
 1. Ersätt `<Sample barcode>` med det värde som du vill att streckkodsläsaren ska läsa.
 
-Du kan visa streckkoden när du genererar utdata PDF med hjälp av mallen, som innehåller sidlayouten. När du har utfört de föregående stegen kan du generera PDF-utdata med en streckkod.
+Du kan visa streckkoden när du genererar utdata-PDF med hjälp av mallen som innehåller sidlayouten. När du har utfört de föregående stegen kan du generera PDF-utdata med en streckkod.
 
-I följande skärmbild visas en exempelstreckkod i utdata från PDF.
+På följande skärmbild visas ett exempel på en streckkod i en utskrift från PDF.
 
 <img src="./assets/barcode-output-sample.png" alt="Exempelutdata med streckkod" width="700" border="2px">
 
@@ -127,14 +127,14 @@ Några av de vanligaste streckkoderna är följande:
 | Typ | -ro-barcode-type | Ytterligare information |
 | ---| --- | --- |
 | QR-kod | qrcode | QR-kodens streckkodskodsymbolik enligt ISO/IEC 18004:2015. |
-| Kod 128 | kod128 | Streckkodssymbolen Code 128 enligt ISO/IEC 15417:2007. |
+| Kod 128 | kod128 | Streckkodssymbolen Code 128 enligt ISO/IEC 15417 :2007. |
 | Kod 32 | code32 | Kod 32, även kallad italiensk farmode. |
 | Kod 49 | code49 | Kod 49 enligt ANSI/AIM-BC6-2000. |
 | Kod 11 | code11 |                            |
 | Kod 93 | code93 |                            |
 | Code16k | code16k |                            |
 | PDF417 | pdf417 | Streckkodssymbolerna PDF417/MicroPDF417 enligt ISO/IEC 15438:2006 och ISO/IEC 24728:2006. |
-| Kod 3 av 9 | code39 | Kod 3 för 9-streckkodssymbolen enligt ISO/IEC 16388:2007. |
+| Kod 3 av 9 | code39 | Koden 3 i 9-streckkodssymbolen enligt ISO/IEC 16388:2007. |
 | MSI Plessey | msiplessey |                            |
 | Kanalkod | channelCode | Kanalkod enligt ANSI/AIM BC12-1998. |
 | Codabar | codabar | Codabar barcode symbology enligt BS EN 798:1996. |
@@ -144,15 +144,15 @@ Några av de vanligaste streckkoderna är följande:
 | UPC-E | upc-e | UPC-streckkodssymbolik enligt BS EN 797:1996. |
 | Ean/UPC Addon | addon | EAN/UPC-tilläggsstreckkodssymbolik enligt BS EN 797:1996. |
 | Telepen | telefonen | Kallas även Telepen Alpha. |
-| GS1-databas/databas 14 | databar | GS1 DataBar enligt ISO/IEC 24724:2011. |
-| GS1-databaret har utökats/databas 14 har utökats | databar-expanderad | GS1 DataBar har utökats enligt ISO/IEC 24724:2011. |
-| GS1 Databar Limited | databar-begränsad | GS1 DataBar Limited enligt ISO/IEC 24724:2011. |
+| GS1-databas/databas 14 | databar | GS1 DataBar enligt ISO/IEC 24724 :2011. |
+| GS1-databaret har utökats/databas 14 har utökats | databar-expanderad | GS1 DataBar har utökats enligt ISO/IEC 24724 :2011. |
+| GS1 Databar Limited | databar-begränsad | GS1 DataBar Limited enligt ISO/IEC 24724 :2011. |
 | POSTNET (postnumerisk kodningsteknik) | postnet | Den POSTNET-streckkodssymbol (Postal Numeric Encoding Technique) som används av United States Postal Service. |
 | Pharmazentralnummer (PZN-8) | pzn8 | En Code 39-baserad symbolik som används av läkemedelsindustrin i Tyskland. |
 | Farmakood | farmakologi |                            |
 | Kodablock F | codablockf | Symbolik enligt AIM Europe &quot;Uniform Symbology Specification Codablock F&quot;, 1995. |
 | Logmars | logmars | Standarden LOGMARS (Logistics Applications of Automated Marking and Reading Symbols) som används av USA:s försvarsdepartement. |
-| Aztec Runes | aztec-runes | Aztec kör en streckkodssymbol enligt bilaga A ISO/IEC 24778:2008. |
-| Aztec Code | aztec-code | Aztec Code bar code symbology Enligt ISO/IEC 24778:2008. |                            |
-| DataMatrix | data-matrix | Datamatris ECC 200 streckkodssymbol enligt ISO/IEC 16022:2006. |
+| Aztec Runes | aztec-runes | Aztec kör en streckkodssymbol enligt ISO/IEC 24778:2008 bilaga A. |
+| Aztec Code | aztec-code | Aztec Code bar code symbology Enligt ISO/IEC 24778:2008. |
+| DataMatrix | data-matrix | Datamatris ECC 200 streckkodssymbol enligt ISO/IEC 16022 :2006. |
 | Kod ett | code-one |                            |

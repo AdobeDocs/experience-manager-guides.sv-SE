@@ -5,7 +5,7 @@ exl-id: 1269a652-5261-413d-9ea0-b4f75003e9d8
 feature: User Management
 role: Admin
 level: Experienced
-source-git-commit: 9b657b0530db8fafe3bb6d30a9002791acf8f226
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 0%
@@ -18,13 +18,13 @@ Om du vill komma åt och konfigurera funktioner i AEM Guides måste du skapa anv
 
 Följande avsnitt i AEM-dokumentationen hjälper dig att förstå användaradministration och säkerhetsrelaterade koncept och funktioner:
 
-- [Användare och grupper i AEM](https://helpx.adobe.com/se/experience-manager/6-5/sites/administering/using/security.html#UsersandGroupsinAEM)
+- [Användare och grupper i AEM](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#UsersandGroupsinAEM)
 
-- [Behörigheter i AEM](https://helpx.adobe.com/se/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM)
+- [Behörigheter i AEM](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM)
 
-- [Hantera användare och grupper](https://helpx.adobe.com/se/experience-manager/6-5/sites/administering/using/security.html#ManagingUsersandGroups)
+- [Hantera användare och grupper](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#ManagingUsersandGroups)
 
-- [Hantera behörigheter](https://helpx.adobe.com/se/experience-manager/6-5/sites/administering/using/security.html#ManagingPermissions)
+- [Hantera behörigheter](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#ManagingPermissions)
 
 
 ## Användargrupper skapade av AEM Guides {#id181TF0K0MHT}
@@ -53,27 +53,27 @@ I följande tabell visas olika uppgifter och grupper som kan utföra dessa uppgi
 | Kopiera | Ja |   | Ja |
 | Ta bort | Ja |   | Ja |
 | Dela | Ja |   | Ja |
-| **Dokumentläge** |
+| **Dokumentläge** |  |  |  |
 | Skapa/redigera dokumenttillståndsprofil |   |   | Ja |
 | Ändra dokumentläge[2](#fntarg_2) | Ja | Ja | Ja |
-| **Tillgängliga funktioner i DITA-kartkonsolen \(fliken Utdatainställningar\)** |
+| **Tillgängliga funktioner i DITA-kartkonsolen \(fliken Utdatainställningar\)** |  |  |  |
 | Generera |   |   | Ja |
 | Redigera |   |   | Ja |
 | Duplicera |   |   | Ja |
 | Skapa |   |   | Ja |
 | Ta bort förinställning |   |   | Ja |
-| **Tillgängliga funktioner i DITA-kartkonsolen \(fliken Utdata\)** |
+| **Tillgängliga funktioner i DITA-kartkonsolen \(fliken Utdata\)** |  |  |  |
 | Visa genererade utdata | Ja |   | Ja |
-| **Tillgängliga funktioner i DITA-kartkonsolen \(fliken Ämnen\)** |
+| **Tillgängliga funktioner i DITA-kartkonsolen \(fliken Ämnen\)** |  |  |  |
 | Skapa granskningsaktivitet | Ja |   | Ja |
 | Redigera | Ja |   | Ja |
-| **Tillgängliga funktioner i DITA-kartkonsolen \(fliken Baslinjer\)** |
+| **Tillgängliga funktioner i DITA-kartkonsolen \(fliken Baslinjer\)** |  |  |  |
 | Skapa |   |   | Ja |
 | Redigera |   |   | Ja |
 | Duplicera |   |   | Ja |
 | Ta bort |   |   | Ja |
 | DITA map console \(Reports tab\) | Ja |   | Ja |
-| **Tillgängliga funktioner i DITA-kartkonsolen \(Villkorsförinställningar\)** |
+| **Tillgängliga funktioner i DITA-kartkonsolen \(Villkorsförinställningar\)** |  |  |  |
 | Skapa/redigera villkorsförinställning |   |   | Ja |
 
 ## Ytterligare information om användargrupper

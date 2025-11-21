@@ -1,7 +1,8 @@
 ---
 title: Versionsinformation | Uppgraderingsinstruktioner för Adobe Experience Manager Guides 5.0.0 Service Pack 1
 description: Läs mer om kompatibilitetsmatrisen och hur du uppgraderar till version 5.0.0 Service Pack 1 av Adobe Experience Manager Guides.
-source-git-commit: a7ac0da05a5e7b0949355ef43f3fa53aa509ecf5
+exl-id: abcae46f-052e-4a33-82af-4f2a3b0c9d1b
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 0%
@@ -60,7 +61,7 @@ Du kan enkelt uppgradera din nuvarande version av Guides till version 5.0.0 Serv
 - Om du använder version 4.3.x, 4.2, 4.2.1 (programfix 4.2.1.3), 4.1 eller 4.1.x måste du uppgradera till version 4.4 innan du uppgraderar till version 5.0.0.
 - Om du använder version 4.0 måste du uppgradera till version 4.2 innan du uppgraderar till version 4.3.x.
 - Om du använder version 3.8.5 måste du uppgradera till version 4.0 innan du uppgraderar till version 4.2.
-- Om du har en tidigare version än 3.8.5 kan du läsa mer i avsnittet Uppgradera Experience Manager Guides i den produktspecifika installationsguiden för [Adobe Experience Manager Guides Help PDF archive](https://helpx.adobe.com/se/xml-documentation-for-experience-manager/archive.html).
+- Om du har en tidigare version än 3.8.5 kan du läsa mer i avsnittet Uppgradera Experience Manager Guides i den produktspecifika installationsguiden för [Adobe Experience Manager Guides Help PDF archive](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 >[!NOTE]
 >

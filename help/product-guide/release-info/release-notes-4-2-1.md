@@ -4,7 +4,7 @@ description: Lär dig mer om felkorrigeringarna och hur du uppgraderar till 4.2.
 exl-id: a75ec83f-564b-4243-b5c5-341049521adb
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '876'
 ht-degree: 0%
@@ -53,9 +53,9 @@ Mer information finns i avsnittet *Tekniska krav* i guiden Installera och konfig
 | --- | --- | --- | --- | --- |
 | 4.2.1 (ej UUID) | 2022 eller senare | 2020.2 eller senare* | 2022 eller senare | 2020.3 eller senare |
 | 4.2.1 (UID) | 2022 eller senare | 2020.2 eller senare* | 2022 eller senare | 2020.4 eller senare |
-| | | | |
+| | | | |  |
 
-*Originalplan och villkor skapade i AEM stöds i FMPS-versioner från och med 2020.2.
+*Baslinje och villkor som skapats i AEM stöds i FMPS-versioner från och med 2020.2.
 
 ### Syrgasanslutning
 
@@ -63,7 +63,7 @@ Mer information finns i avsnittet *Tekniska krav* i guiden Installera och konfig
 | --- | --- | --- |--- |--- |
 | 4.2.1 (ej UUID) | 2.2-regular-3 | 2.2-regular-3 | 1,6 | 1,6 |
 | 4.2.1 (UID) | 2.9-uuid-2 | 2.9-uuid-2 | 2,3 | 2,3 |
-|  |  |   |
+|  |  |   |  |  |
 
 ## Åtgärdade problem
 
@@ -72,7 +72,7 @@ De buggar som har åtgärdats i olika områden listas nedan:
 ### Redigering
 
 * Navigeringsrubriken tas bort från innehållet när du växlar från layoutvyn till författaren eller källvyn. (12174)
-* Knappen Stäng i Web Editor leder inte till AEM navigeringssida. (11948)
+* Stängningsknappen i Web Editor leder inte till navigeringssidan för AEM. (11948)
 * Ibland inträffar programfel när du klickar på en DITA-karta. (11842)
 * Problem uppstår när du flyttar (drar och släpper) i stället för ett befintligt listobjekt med Spåra ändringar aktiverat. (11570)
 * Problem uppstår när du flyttar (drar och släpper) som ett nytt listobjekt med Spåra ändringar aktiverat. (11569)
@@ -81,7 +81,7 @@ De buggar som har åtgärdats i olika områden listas nedan:
 * Det är svårt att dra och släppa ett listobjekt. Texten flyttas istället för listobjektet. (11566)
 * Vid redigering i det element som visas i grönt (Spåra ändringar) visas det nya innehållet som spåra ändringar även om spårändringen är inaktiverad. 7021
 * Webbläsaren (webbredigeraren) låser sig när innehåll läses in med ett anpassat schema. (11211)
-* PDF | När du skapar en förinställning med alternativet Lägg till i mappprofil misslyckas genereringen av PDF med ett Null-pekarundantag. (10950)
+* PDF | När du skapar en förinställning med alternativet Lägg till i mappprofil misslyckas PDF-genereringen med ett Null-pekarundantag. (10950)
 * PDF | Bild-taggen lägger till attribut för inline-visning i alla bilder. (10653)
 * Det går inte att infoga multimediefiler för ljud och video i YouTube-format med ikonen **Infoga multimedia** . (11320)
 * Valideringsfel uppstår när en karta skapas med mallen som har ett specialiserat rubrikelement. (11212)
@@ -98,14 +98,14 @@ De buggar som har åtgärdats i olika områden listas nedan:
 
 * PDF | Publicering av innehåll som har en utdataklass med hakparenteser() resulterar i en publiceringsfrysning. (11936)
 * JSON-utdata | Mappningsmetadata med egenskapsvärdet `"value in spaces and double quotes"` leder till ett publiceringsfel. (11933)
-* Problem uppstår AEM webbplatssökningen (fungerar inte längre än 2-3 nivånoder). (11352)
-* Web Editor | Det går inte att markera utdatasökväg och -mall i AEM förinställning. (11530)
-* Vid uppgradering från 4.1.x till 4.2 fungerar inte motorn för Native PDF och genererar NullPointerException även för det operativsystem som stöds.(11526)
-* PDF-nedladdningsprocessen fungerar inte korrekt i Web Editor. (11496)
+* Problem uppstår i sökningar på AEM-webbplatser (fungerar inte längre än 2-3-nivånoder). (11352)
+* Web Editor | Det går inte att välja utdatasökväg och -mall i AEM-förinställningen. (11530)
+* Vid uppgradering från 4.1.x till 4.2 fungerar inte den inbyggda PDF-motorn och genererar NullPointerException även för det operativsystem som stöds.(11526)
+* Ladda ned PDF-processen fungerar inte korrekt i Web Editor. (11496)
 * PDF | Utkastkommentarer är dolda som standard i genererade utdata. (10560)
 * PDF | navtitle stöds inte för topichead. (10509)
-* PDF | Om du lägger till `xref` i en bild återges inte bilden på det genererade PDF. (11346)
-* PDF | fotnot i tabellhuvudet leder till fet och centrerad text i motsvarande sidfot i PDF-utdata. 10610
+* PDF | Om du lägger till `xref` i en bild återges inte bilden på den genererade PDF. (11346)
+* PDF | fotnot i tabellrubrik leder till fet och centrerad text i motsvarande sidfot i PDF-utdata. 10610
 
 ### Översättning
 

@@ -2,7 +2,7 @@
 title: Versionsinformation | Uppgraderingsinstruktioner för Adobe Experience Manager Guides 5.0.0
 description: Läs mer om kompatibilitetsmatrisen och hur du uppgraderar till 5.0.0-utgåvan av Adobe Experience Manager Guides.
 exl-id: 763db247-133e-40c0-807a-2f965b1ddb2f
-source-git-commit: ef8de789f8d6cf0cabc55f4d12c72b164619231c
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 0%
@@ -27,7 +27,7 @@ I det här avsnittet visas kompatibilitetsmatrisen för de program som stöds i 
 
 Version 6.5 Service Pack 22, Service Pack 21 och Service Pack 20
 
-Mer information finns i avsnittet [Tekniska krav](../install-guide/download-install-technical-requirements.md) i Installations- och konfigureringshandboken på plats.
+Mer information finns i avsnittet [Tekniska krav](/help/product-guide/install-guide/download-install-technical-requirements.md) i Installations- och konfigureringshandboken på plats.
 
 ### FrameMaker och FrameMaker Publishing Server
 
@@ -63,7 +63,7 @@ Du kan enkelt uppgradera din nuvarande version av Guides till version 5.0.0. Inn
 - Om du använder version 4.3.x, 4.2, 4.2.1 (programfix 4.2.1.3), 4.1 eller 4.1.x måste du uppgradera till version 4.4 innan du uppgraderar till version 5.0.0.
 - Om du använder version 4.0 måste du uppgradera till version 4.2 innan du uppgraderar till version 4.3.x.
 - Om du använder version 3.8.5 måste du uppgradera till version 4.0 innan du uppgraderar till version 4.2.
-- Om du har en tidigare version än 3.8.5 kan du läsa mer i avsnittet Uppgradera Experience Manager Guides i den produktspecifika installationsguiden för [Adobe Experience Manager Guides Help PDF archive](https://helpx.adobe.com/se/xml-documentation-for-experience-manager/archive.html).
+- Om du har en tidigare version än 3.8.5 kan du läsa mer i avsnittet Uppgradera Experience Manager Guides i den produktspecifika installationsguiden för [Adobe Experience Manager Guides Help PDF archive](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 >[!NOTE]
 >

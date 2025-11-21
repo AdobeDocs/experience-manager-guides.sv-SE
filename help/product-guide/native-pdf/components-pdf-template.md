@@ -5,9 +5,9 @@ exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 47a6819654877e9a4e3e542fa6e5e360b3f3938f
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '4716'
+source-wordcount: '4702'
 ht-degree: 0%
 
 ---
@@ -198,7 +198,7 @@ Den valda filen importeras och visas under mappen Resurser.
 Använd avsnittet Inställningar för att konfigurera de avancerade inställningarna för PDF sidlayout, från udda till jämna sidor, format för korsreferenserna och aktivering av utskriftsmärken i den slutliga PDF som genereras
 med hjälp av mallen.
 
->
+>[!NOTE]
 >
 > Från och med Experience Manager Guides 5.0/2025.02.0 har avsnittet **Skriv ut** i de avancerade PDF-inställningarna flyttats till panelen **Utdatainställningar** . Visa [Publicera PDF-utdata](../web-editor/native-pdf-web-editor.md#print) om du vill konfigurera utskriftsinställningar.
 
@@ -208,7 +208,7 @@ Om du vill konfigurera klickar du på **Inställningar** på panelen **Mallar** 
 
 Ange de grundläggande konfigurationsinställningarna för att starta ett kapitel från udda eller jämn sida, innehållsförteckningsstrukturen och definiera ledarradformatet för posterna i innehållsförteckningen. Du kan definiera följande inställning:
 
-* **Starta ett nytt kapitel från**: Gör att du kan definiera hur varje kapitel ska publiceras i den slutliga PDF. Du kan välja mellan alternativen **Ny sida**, **Udda sida**, **Jämn sida** eller **Aktuell sida** . Om du väljer att starta ett nytt kapitel från en udda sida infogas en tom sida efter ett kapitel som slutar på en udda sida. Om kapitlet till exempel slutar på sidan 15 infogar publiceringsprocessen en tom </sup>-<sup>th-sida så att det nya kapitlet kan börja på sidan 17<sup>th</sup>.  Om du väljer alternativet **Aktuell sida** kommer alla kapitel att publiceras utan sidbrytningar. Om ett kapitel t.ex. avslutas mitt på sidan 15, kommer nästa kapitel också att startas från den 15:e sidan.
+* **Starta ett nytt kapitel från**: Gör att du kan definiera hur varje kapitel ska publiceras i den slutliga PDF. Du kan välja mellan alternativen **Ny sida**, **Udda sida**, **Jämn sida** eller **Aktuell sida** . Om du väljer att starta ett nytt kapitel från en udda sida infogas en tom sida efter ett kapitel som slutar på en udda sida. Om kapitlet till exempel slutar på sidan 15 infogar publiceringsprocessen en tom <sup>-</sup>th-sida så att det nya kapitlet kan börja på sidan 17<sup>th</sup>.  Om du väljer alternativet **Aktuell sida** kommer alla kapitel att publiceras utan sidbrytningar. Om ett kapitel t.ex. avslutas mitt på sidan 15, kommer nästa kapitel också att startas från den 15:e sidan.
 
 * **Starta varje ämne från en ny sida**: Om du vill att varje ämne i kapitlet ska börja från en ny sida väljer du **Starta varje ämne från en ny sida** . Om du vill att dina ämnen ska fortsätta utan sidmellanrum avmarkerar du det här alternativet.
 
@@ -459,11 +459,11 @@ Du kan till exempel lägga till en språkvariabel,&quot;reference-label&quot;, o
 När du lägger till `${lng:<variable name>}` i avsnittet Stycke innehåller korsreferenserna i styckena i utdata den lokaliserade texten och sidnumret.\
 På följande skärmbilder visas korsreferenserna &quot;Visa på sidan 1&quot; på engelska och &quot;Einzelheiten finden Sie auf der Seite 1&quot; på tyska.
 
-<img src="./assets/english-output-corss-reference.png" alt="Engelska utdata för en korsreferens i en pragrah&quot; width =&quot;800" border="2px">
+<img src="./assets/english-output-corss-reference.png" alt="Engelska utdata för en korsreferens i en pragrah" width ="800" border="2px">
 
 *En korsreferens i ett stycke när den publiceras på engelska.*
 
-<img src="./assets/german-output-corss-reference.png" alt="Tyska utdata av en korsreferens i en pragrah&quot; width =&quot;800" border="2px">
+<img src="./assets/german-output-corss-reference.png" alt="Tyska utdata av en korsreferens i en pragrah" width ="800" border="2px">
 
 
 *En korsreferens i ett stycke när den publiceras på tyska.*

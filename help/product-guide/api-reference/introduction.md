@@ -5,9 +5,9 @@ exl-id: d8ee9cf7-1d67-4b4a-aa80-64e893a99463
 feature: API Introduction
 role: Developer
 level: Experienced
-source-git-commit: bf7838690d7632cd74fef0db3aaf7bdc48a50a2c
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '594'
 ht-degree: 0%
 
 ---
@@ -38,14 +38,13 @@ Du kan använda Java-baserade API:er som finns i Experience Manager Guides för 
 
 Om du vill konfigurera och använda tjänstens API JAR från Maven-databasen i dina projekt lägger du till API-SDK som ett projektberoende i projektets `pom.xml`-fil enligt nedan.
 
-    &quot;XML
-    &lt;beroende>
-    &lt;groupId>com.adobe.aem&lt;/groupId>
-    &lt;artifactId>aem-dox-sdk-api&lt;/artifactId>
-    &lt;version>${RELEASE}&lt;/version>
-    &lt;/beroenden>
-    
-    &quot;
+```XML
+<dependency>
+<groupId>com.adobe.aem</groupId>
+<artifactId>aem-dox-sdk-api</artifactId>
+<version>${RELEASE}</version>
+</dependency>
+```
 
 >[!NOTE]
 >
@@ -59,14 +58,13 @@ Om du vill konfigurera och använda tjänstens API JAR från Maven-databasen i d
 
 Om du vill konfigurera och använda tjänstens API JAR för lokala distributioner lägger du till tjänstens API JAR som ett projektberoende i projektets `pom.xml`-fil enligt nedan:
 
-    &quot;XML
-    &lt;beroende>
-    &lt;groupId>com.adobe.aem&lt;/groupId>
-    &lt;artifactId>aem-guides-sdk-api&lt;/artifactId>
-    &lt;version>${RELEASE}&lt;/version>
-    &lt;/beroenden>
-    
-    &quot;
+```XML
+<dependency>
+<groupId>com.adobe.aem</groupId>
+<artifactId>aem-guides-sdk-api</artifactId>
+<version>${RELEASE}</version>
+</dependency>
+```
 
 >[!NOTE]
 >
@@ -122,9 +120,9 @@ Detaljerad information om API-användning, parametrar och exempelbegäranden fin
 
 ## Ytterligare resurser
 
-Nedan följer en lista över andra användbara resurser i AEM Guides som finns på sidan [Lär dig mer och support](https://helpx.adobe.com/se/support/xml-documentation-for-experience-manager.html):
+Nedan följer en lista över andra användbara resurser i AEM Guides som finns på sidan [Lär dig mer och support](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html):
 
 - Användarhandbok
 - Installations- och konfigureringshandbok
 - Snabbstartsguide
-- [Hjälparkivsida](https://helpx.adobe.com/se/xml-documentation-for-experience-manager/archive.html) \(använd äldre versionsdokumentation\)
+- [Hjälparkivsida](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) \(använd äldre versionsdokumentation\)

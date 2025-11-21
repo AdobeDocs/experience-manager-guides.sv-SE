@@ -5,9 +5,9 @@ exl-id: 4d3e0fc1-b684-44f9-ab0d-411033024019
 feature: DITA-OT Configuration
 role: Admin
 level: Experienced
-source-git-commit: 3119ef32a753afac9405af31a241ae508f922ea7
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '1701'
+source-wordcount: '1700'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Utför följande steg för att överföra ett anpassat DITA-OT-plugin-program ti
 
    >[!NOTE]
    >
-   > Vi rekommenderar att du inte skriver över DITA-OT-standardpaketet. Du bör överföra ditt anpassade DITA-OT-paket som innehåller din plugin-mapp /var/dxml/dita\_resources/dita-ot-mapp. Du kan också göra det med Cloud Manager pipeline. Mer information finns i [Distribuera till AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html?lang=sv-SE) i AEM-dokumentationen.
+   > Vi rekommenderar att du inte skriver över DITA-OT-standardpaketet. Du bör överföra ditt anpassade DITA-OT-paket som innehåller din plugin-mapp /var/dxml/dita\_resources/dita-ot-mapp. Du kan också göra det med Cloud Manager pipeline. Mer information finns i [Distribuera till AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html) i AEM-dokumentationen.
 
 1. Du kan välja att redigera standardprofilen, skapa en ny profil eller duplicera inställningar från standardprofilen för att skapa en ny profil.
 
@@ -64,12 +64,12 @@ Utför följande steg för att överföra ett anpassat DITA-OT-plugin-program ti
 
    | Egenskapsnamn | Beskrivning |
    |-------------|-----------|
-   | **Profilegenskaper** |
+   | **Profilegenskaper** |  |
    | Profilnamn | Ange ett unikt namn för den här profilen. |
    | Återanvänd utdata | *\(Valfritt\)* Om din profil baseras på en befintlig profil väljer du det här alternativet. Om du väljer det här alternativet kan du vara säker på att AEM Guides inte extraherar innehållet i DITA-OT-paketet igen och återanvänder det befintliga DITA-OT-paketet. |
    | Sökväg för profilextrahering | *\(Valfritt\)* Ange sökvägen där DITA-OT finns på disken. Som standard paketerar AEM Guides ett DITA-OT-paket i sin databas och det extraheras på disken på den här sökvägen. <br> **Obs!** Du kan definiera den här sökvägen med hjälp av en befintlig systemvariabel eller systemegenskap. Mer information finns i beskrivningen av egenskapen [DITA-OT Environment Variables](#id181NH0YN0AX) . |
    | Tilldelad sökväg | \(*Valfritt*\) Ange sökvägen i innehållsdatabasen som den här profilen gäller för. Du kan ange flera platser. |
-   | **DITA-OT-egenskaper** |
+   | **DITA-OT-egenskaper** |  |
    | DITA-OT-timeout | \(*Valfritt*\) Ange tiden \(i sekunder\) som AEM Guides väntar på ett svar från plugin-programmet DITA-OT. Om inget svar tas emot under den angivna tiden avbryts publiceringsaktiviteten och aktiviteten flaggas som misslyckad. Felloggarna är också tillgängliga i loggfilen för generering av utdata. <br> Standardvärde: 300 sekunder \(5 minuter\) |
    | DITA-OT PDF Arguments | Ange kommandoradsargumenten som bearbetas av det anpassade DITA-OT-plugin-programmet för att generera PDF-utdata. Ange följande kommandoradsargument för alla anpassade DITA-OT-profiler:`-lib plugins/org.dita.pdf2.fop/lib/` |
    | DITA-OT AEM Arguments | \(*Valfritt*\) Ange egna kommandoradsargument som bearbetas av det anpassade plugin-programmet DITA-OT för att generera utdata för AEM Site. |
@@ -133,7 +133,7 @@ Så här skapar du en ny profil och konfigurerar den så att den använder speci
    >
    > Du kan inte ta bort standardprofilen. Alla nya profiler som du skapar kan dock redigeras och tas bort.
 
-1. Ange sökvägen för anpassade DTD- och XSD `catalog.xml`-filer i AEM-databasen i inställningarna **Schema** \> **Katalog** .
+1. Ange sökvägen för anpassade DTD- och XSD **-filer i AEM-databasen i inställningarna** Schema **\>** Katalog`catalog.xml` .
 
 1. Välj alternativet **Lägg till system-ID-katalog**.
 

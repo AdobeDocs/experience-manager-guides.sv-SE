@@ -4,14 +4,14 @@ description: Februariutgåva av Adobe Experience Manager Guides as a Cloud Servi
 exl-id: c639b136-11ed-4a8b-a595-4bb5da879747
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '869'
 ht-degree: 0%
 
 ---
 
-# Version av Adobe Experience Manager Guides as a Cloud Service från februari 2023
+# Version av Adobe Experience Manager Guides as a Cloud Service, släppt i februari 2023
 
 Den här versionsinformationen innehåller uppgraderingsinstruktioner, kompatibilitetsmatris och problem som åtgärdats i Adobe Experience Manager Guides version från februari 2023 (kallas senare *AEM Guides as a Cloud Service*).
 
@@ -20,25 +20,25 @@ Mer information om de nya funktionerna och förbättringarna finns i [Nyheter i 
 ## Uppgradera till februari 2023-versionen
 
 Uppgradera din nuvarande AEM Guides as a Cloud Service-konfiguration genom att utföra följande steg:
-1. Ta en titt på Cloud Servicens Git-kod och växla till den gren som är konfigurerad i Cloud Servicens pipeline för den miljö som du vill uppgradera.
-2. Uppdatera `<dox.version>`-egenskapen i `/dox/dox.installer/pom.xml`-filen för dina Cloud Services Git-kod till 2023.2.235.
-3. Genomför ändringarna och kör Cloud Servicen för att uppgradera till februari 2023-utgåvan av AEM Guides as a Cloud Service.
+1. Ta en titt på Git-koden för molntjänster och växla till den gren som konfigurerats i molntjänstflödet för den miljö som du vill uppgradera.
+2. Uppdatera egenskapen `<dox.version>` i `/dox/dox.installer/pom.xml`-filen för Git-koden för molntjänster till 2023.2.235.
+3. Genomför ändringarna och kör Cloud Services-pipeline för att uppgradera till februari 2023-utgåvan av AEM Guides as a Cloud Service.
 
 ## Steg för att indexera befintligt innehåll (endast om du använder en version som är tidigare än september-versionen av AEM Guides as a Cloud Service)
 
 Utför följande steg för att indexera det befintliga innehållet och använd den nya sök- och ersätt-texten på mappningsnivå:
 
-* Kör en POST-förfrågan till servern (med korrekt autentisering) - `http://<server:port>/bin/guides/map-find/indexing`.
+* Kör en POST-begäran till servern (med korrekt autentisering) - `http://<server:port>/bin/guides/map-find/indexing`.
 (Valfritt: Du kan skicka specifika sökvägar för mappningarna för att indexera dem. Som standard indexeras alla mappningar || Exempel: `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 
-* API:t returnerar ett jobId. Om du vill kontrollera statusen för jobbet kan du skicka en GET-förfrågan med jobb-ID till samma slutpunkt - `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
-(Exempel: http://&lt;_localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c183 79f11c42_678)
+* API:t returnerar ett jobId. Om du vill kontrollera jobbets status kan du skicka en GET-begäran med jobb-ID till samma slutpunkt - `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
+(Exempel: http://&lt;_localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c (42_678)
 
-* När jobbet är klart kommer ovanstående GET-förfrågan att svara och ange om några kartor misslyckades. De korrekt indexerade mappningarna kan bekräftas från serverloggarna.
+* När jobbet är klart kommer ovanstående GET-förfrågan att besvaras med framgång och ange om några kartor misslyckades. De korrekt indexerade mappningarna kan bekräftas från serverloggarna.
 
 ## Kompatibilitetsmatris
 
-I det här avsnittet visas kompatibilitetsmatrisen för de program som stöds i AEM Guides as a Cloud Service February 2023.
+I det här avsnittet listas kompatibilitetsmatrisen för de program som stöds av AEM Guides as a Cloud Service från februari 2023.
 
 ### FrameMaker och FrameMaker Publishing Server
 
@@ -47,14 +47,14 @@ I det här avsnittet visas kompatibilitetsmatrisen för de program som stöds i 
 | 2023.02.0 | Inte kompatibel | 2022 eller senare |
 | | | |
 
-*Originalplan och villkor skapade i AEM stöds i FMPS-versioner från och med 2020.2.
+*Baslinje och villkor som skapats i AEM stöds i FMPS-versioner från och med 2020.2.
 
 ### Syrgasanslutning
 
 | AEM Guides som Cloud-release | Syrgasanslutningsfönster | Syrgasanslutning Mac | Redigera i syrgasfönster | Redigera i Syrgas Mac |
 | --- | --- | --- | --- | --- |
 | 2023.02.0 | 2.8-uuid-8 | 2.8-uuid-8 | 2,3 | 2,3 |
-|  |  |  |  |
+|  |  |  |  |  |
 
 ## Åtgärdade problem
 
@@ -64,7 +64,7 @@ De buggar som har åtgärdats i olika områden listas nedan:
 
 * Ändringar i HTML-koden för Web Editor orsakar problem med `<dl>` och `<dlentry>`. (11024)
 * Vissa attribut behandlas inte som villkorliga och orsakar problem. (10895)
-* Tre nivåer eller fler kapslade `<indexterm>` är inte kapslade i export i PDF. (10799)
+* Tre nivåer eller fler kapslade `<indexterm>` är inte kapslade i PDF-export. (10799)
 * Innehållet försvinner i en uppgift när du växlar från redigeringsvyn till Source-vyn. (10735)
 * Granskningskommentarer placeras inte i en granskningsuppgift. 10625
 * **Ångra** eller **Gör om** fungerar inte korrekt på vissa filer. (10373)
@@ -83,7 +83,7 @@ De buggar som har åtgärdats i olika områden listas nedan:
 * Web Editor-Baseline | Beteendet för den senaste kolumnen skiljer sig åt på den nya baslinjepanelen i Web Editor. (10808)
 * Översättning | Översättningsjobbet kommer inte igång på grund av ogiltig /libs/fmdita/i18n/ja.json. (10543)
 * Översättning | Ett fel inträffar i ett omfångsöversättningsprojekt som har skapats från översättningsinstrumentpanelen (mänsklig översättning). (10526)
-* Översättning | Post-bearbetning blockeras för hela språkmappen vars resurser finns i ett aktivt översättningsprojekt. (10332)
+* Översättning | Efterbearbetning blockeras för hela språkmappen vars resurser finns i ett aktivt översättningsprojekt. (10332)
 * Flera popup-fönster visas för alla resurser om versionen ändras och sparas i Baslinjeredigeraren. (10399)
 * Sessionsläcka inträffar `com.day.cq.search.impl.builder.QueryBuilderImpl.createResourceResolver(QueryBuilderImpl.java:210)`. (10279)
 
@@ -91,12 +91,12 @@ De buggar som har åtgärdats i olika områden listas nedan:
 
 * Omgenerering av ämnen fungerar inte i vissa scenarier. (10635)
 * Publiceringslyssnaren visar inte begärda data i informationsloggar, och den innehåller även skräppostloggar.( 10567)
-* PDF | När du skapar en förinställning med alternativet Lägg till i mappprofil misslyckas genereringen av PDF med ett Null-pekarundantag. (10950)
+* PDF | När du skapar en förinställning med alternativet Lägg till i mappprofil misslyckas PDF-genereringen med ett Null-pekarundantag. (10950)
 * PDF | Problem uppstår när tabellrubriken roteras. (10555)
-* PDF | Kapslade `<indexterm>` är inte kapslade i export i PDF. (10521)
-* PDF | Kapslade topicref i tillägg omformas alla till h1 i det temporära HTML. 10454
-* Baslinjepublicering misslyckas för PDF som genereras med FrameMaker Publishing Server 2020. (10551)
-* PDF | Om du lägger till `xref` i en bild återges inte bilden på det genererade PDF. (11346)
+* PDF | Kapslade `<indexterm>` är inte kapslade i PDF-export. (10521)
+* PDF | Kapslade topicref i tillägg omformas alla till h1 i den temporära HTML. 10454
+* Originalpublicering misslyckas för PDF som genererats med FrameMaker Publishing Server 2020. (10551)
+* PDF | Om du lägger till `xref` i en bild återges inte bilden på den genererade PDF. (11346)
 * PDF | Bild-taggen lägger till attribut för inline-visning i alla bilder. (10653)
 * PDF | Utkastkommentarer är dolda som standard i genererade utdata. (10560)
 * PDF | navtitle stöds inte för topichead. (10509)

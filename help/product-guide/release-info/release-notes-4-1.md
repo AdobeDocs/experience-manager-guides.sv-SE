@@ -4,7 +4,7 @@ description: Senaste versionen av Adobe Experience Manager Guides
 exl-id: c70b3bbc-3332-4626-bc30-641034f8fd06
 feature: Release Notes
 role: Leader
-source-git-commit: 76c731c6a0e496b5b1237b9b9fb84adda8fa8a92
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '3644'
 ht-degree: 0%
@@ -49,9 +49,9 @@ Mer information finns i avsnittet Tekniska krav i guiden Installera och konfigur
 | --- | --- | --- | --- | --- |
 | 4.1.3 (ej UUID) | 2020.2 eller senare* | 2019 | 2020.3 eller senare | 2019.8 (senaste uppdateringen) |
 | 4.1.3 (UID) | 2020.2 eller senare* | Inte kompatibel | 2020.4 eller senare | Inte kompatibel |
-| | | | |
+| | | | |  |
 
-*Originalplan och villkor skapade i AEM stöds i FMPS-versioner från och med 2020.2.
+*Baslinje och villkor som skapats i AEM stöds i FMPS-versioner från och med 2020.2.
 
 ### Syrgasanslutning
 
@@ -59,7 +59,7 @@ Mer information finns i avsnittet Tekniska krav i guiden Installera och konfigur
 | --- | --- | --- |--- |--- |
 | 4.1.3 (ej UUID) | 2,0 | 2,0 | 1,6 | 1,6 |
 | 4.1.3 (UID) | 2,7 | 2,7 | 2,3 | 2,3 |
-|  |  |   |
+|  |  |   |  |  |
 
 
 ## Åtgärdade problem
@@ -92,9 +92,9 @@ Mer information finns i avsnittet Tekniska krav i guiden Installera och konfigur
 | --- | --- | --- | --- | --- |
 | 4.1.2 (ej UUID) | 2020.2 eller senare* | 2019 | 2020.3 eller senare | 2019.8 (senaste uppdateringen) |
 | 4.1.2 (UID) | 2020.2 eller senare* | Inte kompatibel | 2020.4 eller senare | Inte kompatibel |
-| | | | |
+| | | | |  |
 
-*Originalplan och villkor skapade i AEM stöds i FMPS-versioner från och med 2020.2.
+*Baslinje och villkor som skapats i AEM stöds i FMPS-versioner från och med 2020.2.
 
 ### Syrgasanslutning
 
@@ -102,7 +102,7 @@ Mer information finns i avsnittet Tekniska krav i guiden Installera och konfigur
 | --- | --- | --- |--- |--- |
 | 4.1.2 (ej UUID) | 2,0 | 2,0 | 1,6 | 1,6 |
 | 4.1.2 (UID) | 2,7 | 2,7 | 2,3 | 2,3 |
-|  |  |   |
+|  |  |   |  |  |
 
 
 ## Åtgärdade problem
@@ -149,9 +149,9 @@ Mer information finns i avsnittet Tekniska krav i guiden Installera och konfigur
 | --- | --- | --- | --- | --- |
 | 4.1 (ej UUID) | 2020.2 eller senare* | 2019 | 2020.3 eller senare | 2019.8 (senaste uppdateringen) |
 | 4.1 (UUID) | 2020.2 eller senare* | Inte kompatibel | 2020.4 eller senare | Inte kompatibel |
-| | | | |
+| | | | | |
 
-*Originalplan och villkor skapade i AEM stöds i FMPS-versioner från och med 2020.2.
+*Baslinje och villkor som skapats i AEM stöds i FMPS-versioner från och med 2020.2.
 
 ### Syrgasanslutning
 
@@ -159,7 +159,7 @@ Mer information finns i avsnittet Tekniska krav i guiden Installera och konfigur
 | --- | --- | --- |--- |--- |
 | 4.1 (ej UUID) | 2,0 | 2,0 | 1,6 | 1,6 |
 | 4.1 (UUID) | 2,7 | 2,7 | 2,3 | 2,3 |
-|  |  |  |
+|  |  |  | | |
 
 
 ## Nya funktioner och förbättringar
@@ -168,11 +168,12 @@ AEM Guides innehåller många förbättringar och nya funktioner i version 4.1:
 
 ### PDF
 
-Stöd för att skapa ett inbyggt PDF har också lagts till i version 4.1 av AEM Guides. En ny publiceringsmotor har lagts till med följande funktioner:
+Stöd för att skapa PDF har också lagts till i version 4.1 av AEM Guides. En ny publiceringsmotor har lagts till med följande funktioner:
+
 * Skapa en CSS-mall
 * Skapa olika sidmallar
 * Designa PDF-mallar med CSS och sidmallar
-* Publish karta och ämnesinnehåll i PDF-format
+* Publicera kartor och ämnesinnehåll i PDF-format
 
 ### Stöd för kunskapsbasens webbplatssökväg vid artikelbaserad publicering
 
@@ -300,19 +301,19 @@ Mer information om översättning finns i avsnittet *Översätta dokument från 
 
 ### Förbättrad publicering
 
-* Du kan även komma åt **Publish Dashboard** från fliken Utdata när du genererar utdata från kartkontrollpanelen. En lista över alla aktiva publiceringsåtgärder finns i Publish Dashboard.
+* Du kan även komma åt **Publish Dashboard** från fliken Outputs när du genererar utdata från kartkontrollpanelen. En lista över alla aktiva publiceringsåtgärder finns på Publish Dashboard.
 
 ![köade utdata](assets/queued-output.png)
 
-* På kartkontrollpanelen kan du välja flera DITAVAL-filer för att generera villkorat innehåll. Du kan behålla filordningen genom att lägga till eller ta bort filer. Du kan också hovra över filnamnet för att se sökvägen i den AEM databasen där filen lagras.
+* På kartkontrollpanelen kan du välja flera DITAVAL-filer för att generera villkorat innehåll. Du kan behålla filordningen genom att lägga till eller ta bort filer. Du kan också hovra över filnamnet för att se sökvägen i AEM-databasen där filen lagras.
 
-* Baslinjer har använts för metadata AEM webbplatsens utdata. Du kan också bearbeta egenskaperna för en baslinjeversion som metadata. Om ingen baslinje har definierats bearbetas egenskaperna för den senaste versionen som metadata.
+* Baslinjer har använts för metadata för utdata från AEM-webbplatser. Du kan också bearbeta egenskaperna för en baslinjeversion som metadata. Om ingen baslinje har definierats bearbetas egenskaperna för den senaste versionen som metadata.
 
 * Kommandoradsargumenten **Filnamn** och **DITA-OT** har lagts till för HTML5, EPUB och anpassade förinställningar. Nu kan du ange filnamnet som du vill spara utdata med. Du kan också ange ytterligare argument som du vill att DITA-OT ska behandla när du genererar utdata.
 
 ### Kartkontrollpanel
 
-När du väljer att hämta DITA-kartan köas begäran och du får ett meddelande när kartan är klar att hämtas. Du kan välja att ladda ned kartfilen direkt eller ladda ned den senare via länken i Inkorgen för AEM.
+När du väljer att hämta DITA-kartan köas begäran och du får ett meddelande när kartan är klar att hämtas. Du kan välja att ladda ned kartfilen direkt eller ladda ned den senare via länken i AEM meddelandeinkorg.
 
 ![Kartnedladdning](assets/download-map-prompt.png)
 
@@ -323,7 +324,7 @@ När du väljer att hämta DITA-kartan köas begäran och du får ett meddelande
 
 ### Inaktuell funktion
 
-AEM Guides stöder inte längre generering av DITA-utdataformat för FrameMaker. Det här DITA-alternativet har också tagits bort från förinställningarna för utdata på kontrollpanelen för kartor.
+AEM Guides stöder inte längre generering av DITA-utdataformat för FrameMaker-dokument. Det här DITA-alternativet har också tagits bort från förinställningarna för utdata på kontrollpanelen för kartor.
 
 ## Åtgärdade problem
 
@@ -331,10 +332,10 @@ De buggar som har åtgärdats i olika områden listas nedan:
 
 * Redigeringsstöd är inte tillgängligt som alternativ för filsökvägsbaserad referens för publicering. 8076
 * DITA Add on package förhindrar DAM-dubblettidentifiering av resurser. 8417
-* Efter incheckning av ett dokument från Syrgas till AEM ersätts japanskt innehåll i dokumentet med frågetecken (???). (9124)
+* Efter incheckning av ett dokument från Oxygen till AEM ersätts japanskt innehåll i dokumentet med frågetecken (???). (9124)
 * Det går inte att uppdatera utcheckade filer vid loggning med webbautentisering i Syrgas. (9179)
 * Filen checkas inte ut när den öppnas i syrgas. (9192)
-* Efter incheckning av ett dokument från Syrgas till AEM ersätts japanskt innehåll i dokumentet med frågetecken (???). 9276
+* Efter incheckning av ett dokument från Oxygen till AEM ersätts japanskt innehåll i dokumentet med frågetecken (???). 9276
 * Webbautentisering fungerar inte i syre. 9296
 * Återuppladdningen misslyckas i syre när filen/filerna redan finns i AEM på samma plats. 9328
 * Det går inte att synkronisera innehåll mellan AEM och det lokala systemet. 9439
@@ -361,19 +362,19 @@ De buggar som har åtgärdats i olika områden listas nedan:
 * Beskrivningen av granskningsaktiviteten visas inte i det e-postmeddelande som skickas när en ny granskningsaktivitet tilldelas. 8507
 * Hämta mappnings-API | Temporära mappar rensas inte bort om det skulle uppstå fel i hämtningsprocessen. 8523
 * `columnpreview.jsp` är beroende av SP.  8543
-* Utdatajobb med status Väntar eller Körning rensas inte i Publish Dashboard.  8569
+* Utdatafält med status Väntar eller Körning rensas inte på kontrollpanelen Publicera.  8569
 * Standardikonen väljs när en rapport genereras med knappen Generera, även när ikonegenskapen är definierad. 8573
 * Problem uppstår under granskningsprocessen när du uppgraderar från 3.8.X till 4.0. 8788
 * Om ett användarnamn är långt visas inte ikonerna för att acceptera/avvisa på panelen Granska i Web Editor tydligt. 8793
 * Referensträdet bryts när ett ämne har tagits bort och en flyttningsåtgärd har utförts. 8804
 * Anpassad DTD som definieras av användaren har inte högre prioritet än standard-DITA DTD som är inbäddad i DITA-OT. (9104)
 * Markeringens position är felaktig i vyn Sida vid sida. 9305
-* Fotnoter som kan användas som referenser rullar inte till fotnotsavsnittet i AEM. 9061
-* Fotnoternas ordning är felaktig i AEM. 9327
+* Fotnoter som kan användas som referens rullar inte till fotnotsavsnittet i utdata för AEM-webbplatser. 9061
+* Fotnotsordningen är felaktig i utdata för AEM Site. 9327
 * Nyligen skapade DITA-resurser checkas alltid ut av en annan användare. 9387
 * Fel loggas alltid när nytt innehåll skapas. 9388
 * Den tredje skärmen i processen för att skapa granskningsåtgärder visar inte listan med ordlistor. (4558)
-* Felaktiga UUID-referenser som tilldelats vid överföring av flera filer från FrameMaker-/syrekopplingen. 8269
+* Felaktiga UUID-referenser som tilldelats vid överföring av flera filer från FrameMaker/Syre Connector. 8269
 * E-postmeddelanden skickas inte när en granskningsuppgift omtilldelas i Inkorgen. 8376
 * Den andra administratörsanvändaren kan inte läggas till som den första administratörsanvändaren i en mapp. 8430
 * Dialogrutan **Använd etiketter** på fliken Baslinje visar inte etiketter i listrutan. 8455
@@ -392,7 +393,7 @@ De buggar som har åtgärdats i olika områden listas nedan:
 * Låsikonen visas i databasvyn även när filen har checkats in från redigeraren.  5756
 * Det går inte att lägga till förgrundselement, bakgrundselement i en bokmapp med hjälp av redigerarens redigeringsvy. 7652
 * Förhandsgranskningsläget stöder inte attributet `deliveryTarget` för villkorlig bearbetning i DITA. 7685
-* När du öppnar ett ordlisteämne i XML-redigeraren måste AEM spara det även om det inte har ändrats. 8105
+* När du öppnar ett ordlisteämne i XML-redigeraren tvingas AEM att spara det även om det inte har ändrats. 8105
 * Dialogrutan Infoga referenser öppnas när du lägger till subjekten på en karta med hjälp av användargränssnittet. 8212
 * Återanvänd innehållspanelen kraschar när specialtecken `[` eller `*` söks igenom.8279
 * Vid redigering av Glossentry visas innehållet i webbredigeraren som en anteckning. 8384
@@ -403,7 +404,7 @@ De buggar som har åtgärdats i olika områden listas nedan:
 * Attribut saknas när du lägger till ett kapitel i bokmappen med dra och släpp från favoritvyn. 8746
 * Dialogrutan Infoga nyckelord saknar sökfunktion och nyckelorden visas inte i sorterad ordning. (9094)
 * Om du gör en sökning i XML-redigeraren fryser sidan. 9452
-* Platser saknas i AEM förinställningar på fliken Utdata. 9567
+* Platser saknas i AEM-förinställningar på fliken Utdata. 9567
 * SVG-bilder som inte återges korrekt i redigeringsläge i XML-redigeraren. 9426
 * Baslinjen respekteras inte vid publicering via Salesforce. 8953
 * Det finns inte möjlighet att rensa rotkartan från användarinställningarna. 8534

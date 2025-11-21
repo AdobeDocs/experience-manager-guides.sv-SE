@@ -5,7 +5,7 @@ exl-id: 10ab0f3c-97dc-4293-ab73-75b438c03d99
 feature: User Management
 role: Admin
 level: Experienced
-source-git-commit: 6aaa5c1eeb9b74ababc7ebf427babfff101acc70
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
@@ -18,9 +18,9 @@ Om du vill komma åt och konfigurera funktioner i AEM Guides måste du skapa anv
 
 Följande avsnitt i AEM-dokumentationen hjälper dig att förstå användaradministration och säkerhetsrelaterade koncept och funktioner:
 
-- [AEM användare, grupper och behörigheter](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html?lang=sv-SE)
+- [AEM användare, grupper och behörigheter](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html)
 
-- [Användaradministration och -säkerhet](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html?lang=sv-SE)
+- [Användaradministration och -säkerhet](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html)
 
 
 ## Användargrupper skapade av AEM Guides {#id181TF0K0MHT}
@@ -48,27 +48,27 @@ I följande tabell visas olika uppgifter och grupper som kan utföra dessa uppgi
 | Kopiera | Ja |   | Ja |
 | Ta bort | Ja |   | Ja |
 | Dela | Ja |   | Ja |
-| **Dokumentläge** |
+| **Dokumentläge** |  |  |  |
 | Skapa/redigera dokumenttillståndsprofil |   |   | Ja |
 | Ändra dokumentläge[2](#fntarg_2) | Ja | Ja | Ja |
-| **Tillgängliga funktioner i DITA-kartkonsolen \(fliken Utdatainställningar\)** |
+| **Tillgängliga funktioner i DITA-kartkonsolen \(fliken Utdatainställningar\)** |  |  |  |
 | Generera |   |   | Ja |
 | Redigera |   |   | Ja |
 | Duplicera |   |   | Ja |
 | Skapa |   |   | Ja |
 | Ta bort förinställning |   |   | Ja |
-| **Tillgängliga funktioner i DITA-kartkonsolen \(fliken Utdata\)** |
+| **Tillgängliga funktioner i DITA-kartkonsolen \(fliken Utdata\)** |  |  |  |
 | Visa genererade utdata | Ja |   | Ja |
-| **Tillgängliga funktioner i DITA-kartkonsolen \(fliken Ämnen\)** |
+| **Tillgängliga funktioner i DITA-kartkonsolen \(fliken Ämnen\)** |  |  |  |
 | Skapa granskningsaktivitet | Ja |   | Ja |
 | Redigera | Ja |   | Ja |
-| **Tillgängliga funktioner i DITA-kartkonsolen \(fliken Baslinjer\)** |
+| **Tillgängliga funktioner i DITA-kartkonsolen \(fliken Baslinjer\)** |  |  |  |
 | Skapa |   |   | Ja |
 | Redigera |   |   | Ja |
 | Duplicera |   |   | Ja |
 | Ta bort |   |   | Ja |
 | DITA map console \(Reports tab\) | Ja |   | Ja |
-| **Tillgängliga funktioner i DITA-kartkonsolen \(Villkorsförinställningar\)** |
+| **Tillgängliga funktioner i DITA-kartkonsolen \(Villkorsförinställningar\)** |  |  |  |
 | Skapa/redigera villkorsförinställning |   |   | Ja |
 
 ## Ytterligare information om användargrupper

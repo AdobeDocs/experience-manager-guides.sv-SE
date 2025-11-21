@@ -4,7 +4,7 @@ description: Lär dig hur du använder PDF-publicering, skapar och genererar en 
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
 feature: Publishing, Native PDF Output
 role: User
-source-git-commit: e722ba35e27599566140709e060f3b391d50b4db
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '3232'
 ht-degree: 0%
@@ -184,7 +184,7 @@ Använd följande alternativ för att ange avancerade inställningar för att sa
 | **Skapa interaktivt PDF-formulär** | Välj det här alternativet om du vill inkludera interaktiva och anpassningsbara PDF-formulärfält för förbättrad användarinmatning i genererade PDF-utdata. |
 | **Inkludera spårningsändringar** | Välj det här alternativet om du vill inkludera spårade ändringar i den genererade PDF-filen för enkel granskning och jämförelse. |
 | **Behåll temporära filer** | Välj det här alternativet om du vill behålla de mellanliggande HTML-filer som skapas när de ursprungliga PDF-utdata skapas. Du kan hämta de tillfälliga filerna senare när du har genererat utdata. De hämtade filerna innehåller även `system_config.xml`-fil med information om författarens URL, lokal URL och publicerings-URL. Dessa URL:er har konfigurerats i inställningarna för AEM Externalization och återspeglas i filen `system_config.xml`. |
-| **PDF-överensstämmelse** | Det är den standard som du tänker spara din PDF så att den uppfyller kraven. I listrutan väljer du bland de tillgängliga PDF-standarderna. Mer information om vilka standarder som stöds finns i [Om PDF-standarder](https://helpx.adobe.com/se/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
+| **PDF-överensstämmelse** | Det är den standard som du tänker spara din PDF så att den uppfyller kraven. I listrutan väljer du bland de tillgängliga PDF-standarderna. Mer information om vilka standarder som stöds finns i [Om PDF-standarder](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
 | **Filegenskaper** | Välj de metadata som du vill skicka till PDF-publicering. I listrutan visas både de anpassade egenskaperna och standardegenskaperna. Till exempel är `dc:description`, `dc:language`, `dc:title` och `docstate` standardegenskaper medan du kan ha `author` som anpassad egenskap. De valda metadataegenskaperna skickas till PDF-filen som genereras med den inbyggda PDF-filen. <br> De här egenskaperna hämtas från `metadataList`-filen som är tillgänglig på:`/libs/fmdita/config/metadataList`. <br>Den här filen kan överlappas: `/apps/fmdita/config/metadataList`. |
 
 

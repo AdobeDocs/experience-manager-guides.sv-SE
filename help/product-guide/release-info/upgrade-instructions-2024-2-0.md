@@ -2,7 +2,7 @@
 title: Versionsinformation | Uppgraderingsinstruktioner och åtgärdade fel i Adobe Experience Manager Guides, version 2024.2.0
 description: Läs om kompatibilitetsmatrisen och hur du uppgraderar till version 2024.2.0 av Adobe Experience Manager Guides as a Cloud Service.
 exl-id: 7aaa4317-eb96-4fff-8a45-b38b9dfc234a
-source-git-commit: e40ebf4122decc431d0abb2cdf1794ea704e5496
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '866'
 ht-degree: 0%
@@ -35,7 +35,7 @@ I det här avsnittet visas kompatibilitetsmatrisen för de program som stöds i 
 | Experience Manager Guides som Cloud-release | Syrgasanslutningsfönster | Syrgasanslutning Mac | Redigera i syrgasfönster | Redigera i Syrgas Mac |
 | --- | --- | --- | --- | --- |
 | 2024.2.0 | 3.5-uuid 1 | 3.5-uuid 1 | 2,3 | 2,3 |
-|  |  |  |  |
+|  |  |  |  |  |
 
 
 ### Kunskapsbasmallens version
@@ -53,7 +53,7 @@ Utför följande steg för Experience Manager Guides as a Cloud Service om du in
 
 ### Steg för att aktivera utlösaren för ett skript via en serverlet
 
-(Endast om du är på en release före juni 2023-utgåvan av Experience Manager Guides as a Cloud Service)
+(Endast om du har en release före juni 2023-versionen av Experience Manager Guides as a Cloud Service)
 
 När du har slutfört installationen kan du välja att HIT-aktivera utlösaren för att starta översättningsjobbet:
 
@@ -88,7 +88,7 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 ### Steg för att bokföra det befintliga innehållet så att det använder den brutna länkrapporten
 
-(Endast om du är på en release före juni 2023-utgåvan av Experience Manager Guides as a Cloud Service)
+(Endast om du har en release före juni 2023-versionen av Experience Manager Guides as a Cloud Service)
 
 Utför följande steg för att efterbearbeta befintligt innehåll och använda den nya brutna länkrapporten:
 
@@ -102,26 +102,26 @@ Utför följande steg för att efterbearbeta befintligt innehåll och använda d
      | org.apache.jackrabbit.oak.query.QueryEngineSettingsService | queryLimitReads | Värde: 200000 Standardvärde: 100000 |
      | org.apache.jackrabbit.oak.query.QueryEngineSettingsService | queryLimitInMemory | Värde: 200000 Standardvärde: 100000 |
 
-1. Kör en POST-förfrågan till servern (med korrekt autentisering) - `http://<server>//bin/guides/reports/upgrade`.
+1. Kör en POST-begäran till servern (med korrekt autentisering) - `http://<server>//bin/guides/reports/upgrade`.
 
-1. API:t returnerar ett jobId. Om du vill kontrollera statusen för jobbet kan du skicka en GET-förfrågan med jobb-ID till samma slutpunkt - `http://<server>/bin/guides/reports/upgrade?jobId= {jobId}`
+1. API:t returnerar ett jobId. Om du vill kontrollera jobbets status kan du skicka en GET-begäran med jobb-ID till samma slutpunkt - `http://<server>/bin/guides/reports/upgrade?jobId= {jobId}`
 (Till exempel: `http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
-1. När jobbet är klart svarar den tidigare GETEN med framgång. Om jobbet misslyckas av någon anledning kan felet ses i serverloggarna.
+1. När jobbet är klart svarar den tidigare GET-förfrågan med framgång. Om jobbet misslyckas av någon anledning kan felet ses i serverloggarna.
 
 1. Återgå till standardvärdet eller det tidigare befintliga värdet `queryLimitReads` om du har ändrat det i steg 1.
 
 ### Steg för att indexera befintligt innehåll så att det använder den nya sök- och ersätt-listan och ämneslistan på fliken Rapporter:
 
-(Endast om du är på en release före juni 2023-utgåvan av Experience Manager Guides as a Cloud Service)
+(Endast om du har en release före juni 2023-versionen av Experience Manager Guides as a Cloud Service)
 
 Utför följande steg för att indexera det befintliga innehållet och använd den nya sök- och ersätt-texten på mappnivå och ämneslista på fliken Rapporter:
 
-1. Kör en POST-förfrågan till servern (med korrekt autentisering) - `http://<server:port>/bin/guides/map-find/indexing`. (Valfritt: Du kan skicka specifika sökvägar för kartorna för att indexera dem. Som standard indexeras alla kartor|| Till exempel: `https://<Server:port>/bin/guides/map-find/indexing?paths=<path of the MAP in repository>`)
+1. Kör en POST-begäran till servern (med korrekt autentisering) - `http://<server:port>/bin/guides/map-find/indexing`. (Valfritt: Du kan skicka specifika sökvägar för kartorna för att indexera dem. Som standard indexeras alla kartor|| Till exempel: `https://<Server:port>/bin/guides/map-find/indexing?paths=<path of the MAP in repository>`)
 
-1. API:t returnerar ett jobId. Om du vill kontrollera jobbets status kan du skicka en GET-förfrågan med jobb-ID till samma slutpunkt: `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`(Exempel: `http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
+1. API:t returnerar ett jobId. Om du vill kontrollera jobbets status kan du skicka en GET-begäran med jobb-ID till samma slutpunkt - `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`(Exempel: `http://localhost:8080/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
-1. När jobbet är klart svarar den tidigare GETEN med framgång. Om jobbet misslyckas av någon anledning kan fel ses från serverloggarna.
+1. När jobbet är klart svarar den tidigare GET-förfrågan med framgång. Om jobbet misslyckas av någon anledning kan fel ses från serverloggarna.
 
 1. Återgå till standardvärdet eller det tidigare befintliga värdet för queryLimitReads om du har ändrat det i steg 1.
 

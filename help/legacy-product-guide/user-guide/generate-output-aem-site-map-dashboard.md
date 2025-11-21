@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 41c0d4d5-5c46-4d2b-90b3-8c441fee8e99
-source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '2404'
 ht-degree: 0%
@@ -104,7 +104,7 @@ Om du använder `conref` i ditt innehåll publiceras det som normalt eller inbä
 
 >[!NOTE]
 >
->Om du har genererat separata sidor för `conref`-innehållet med AEM Guides version 3.5 eller tidigare rekommenderar vi att du rensar/tar bort dessa sidor med alternativet [&#x200B; Ta bort enstaka webbplatssidor &#x200B;](#delete-orphan-page-aem-site) .
+>Om du har genererat separata sidor för `conref`-innehållet med AEM Guides version 3.5 eller tidigare rekommenderar vi att du rensar/tar bort dessa sidor med alternativet [ Ta bort enstaka webbplatssidor ](#delete-orphan-page-aem-site) .
 
 
 ### Söka efter en sträng i innehållet
@@ -115,4 +115,4 @@ Du kan söka efter en sträng i AEM Sites-utdata. Som standard kan du bara söka
 
 Mer information finns i avsnittet *Konfigurera förenkling av nodstrukturen för AEM Site* i guiden Installera och konfigurera Adobe Experience Manager Guides.
 
-**Överordnat ämne:**&#x200B;[&#x200B; Förstå förinställningarna för utdata](generate-output-understand-presets.md)
+**Överordnat ämne:**[ Förstå förinställningarna för utdata](generate-output-understand-presets.md)

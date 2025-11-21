@@ -1,28 +1,28 @@
 ---
 title: Versionsinformation | Adobe Experience Manager Guides as a Cloud Service, aprilversion 2022
-description: April-utgåvan av Adobe Experience Manager Guides as a Cloud Service
+description: aprilversion av Adobe Experience Manager Guides as a Cloud Service
 exl-id: c735ba24-a803-454b-8723-57dacf90061b
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '809'
 ht-degree: 0%
 
 ---
 
-# April-utgåvan av Adobe Experience Manager Guides as a Cloud Service
+# aprilversion av Adobe Experience Manager Guides as a Cloud Service
 
 ## Uppgradera till aprilversionen
 
-Uppgradera din nuvarande [!DNL Adobe Experience Manager Guides] as a Cloud Service (kallas senare *[!DNL AEM Guides]as a Cloud Service*)-konfiguration genom att utföra följande steg:
-1. Ta en titt på Cloud Servicens Git-kod och växla till den gren som är konfigurerad i Cloud Servicens pipeline för den miljö du vill uppgradera.
-1. Uppdatera `<dox.version>`-egenskapen i `/dox/dox.installer/pom.xml`-filen för dina Cloud Services Git-kod till 2022.4.133.
-1. Genomför ändringarna och kör Cloud Servicens pipeline för att uppgradera till aprilversionen av [!DNL AEM Guides] as a Cloud Service.
+Uppgradera din nuvarande [!DNL Adobe Experience Manager Guides] as a Cloud Service-konfiguration (kallas senare *[!DNL AEM Guides]as a Cloud Service*) genom att utföra följande steg:
+1. Ta en titt på Git-koden för molntjänster och växla till den gren som konfigurerats i molntjänstflödet för den miljö du vill uppgradera.
+1. Uppdatera egenskapen `<dox.version>` i `/dox/dox.installer/pom.xml`-filen för Git-koden för molntjänster till 2022.4.133.
+1. Genomför ändringarna och kör molntjänstpipelinen för att uppgradera till aprilversionen av [!DNL AEM Guides] as a Cloud Service.
 
 ## Kompatibilitetsmatris
 
-I det här avsnittet visas kompatibilitetsmatrisen för de program som stöds i utgåvan av [!DNL AEM Guides] för as a Cloud Service april 2022.
+I det här avsnittet visas kompatibilitetsmatrisen för de program som stöds i as a Cloud Service version [!DNL AEM Guides] från april 2022.
 
 ### FrameMaker och FrameMaker Publishing Server
 
@@ -39,7 +39,7 @@ I det här avsnittet visas kompatibilitetsmatrisen för de program som stöds i 
 | 2022.4.0 | 2.5.6 | 2.5.6 |
 |  |  |  |
 
-*Originalplan och villkor skapade i AEM stöds i FMPS-versioner från och med 2020.2.
+*Baslinje och villkor som skapats i AEM stöds i FMPS-versioner från och med 2020.2.
 
 ## Nya funktioner och förbättringar
 
@@ -86,21 +86,21 @@ De buggar som har åtgärdats i olika områden listas nedan:
 * Om du söker medan du skriver uppstår oönskade sökningar i databasvyn. 9307
 * Problem uppstår när ett nyckelord används i titeln för fliken. 9318
 * Baslinjen kan inte användas när en etikett med blanksteg läggs till. 9362
-* AEM visar inte ordlisteanvändningselementet korrekt. 8936
+* Utdata från AEM webbplats visar inte ordlisteelement korrekt. 8936
 * Konsolfel inträffar när fliken **Utdata** öppnas i Web Editor. (8715)
 * Felmeddelandet som visas när en manuell posttyp publiceras via Salesforce är inte intuitivt. 8952
 * Validera med villkorsattribut öppnas inte direkt, utan användaren måste öppna filen igen för att kunna se valideringarna. (9300)
 * Det går inte att ta bort metadata när en DITA-karta har publicerats med metadata.  (9178)
 * Översättningspanelen visas även när DITA-kartan öppnas i kartredigeraren. 9053
 * Anpassad DTD som definieras av användaren har inte högre prioritet än standard-DITA DTD som är inbäddad i DITA-OT. (9104)
-* I funktionen Native PDF misslyckas överföringen i mallarna för filer som inte är DITA eller bilder. 9070)
+* I funktionen för PDF som stöds av det ursprungliga programmet misslyckas överföringen i mallarna för filer som inte är DITA eller bilder. 9070)
 * Auktoriseringsmekanismen kör två frågor i stället för en, i vissa specialscenarier. (9221)
-* Publicering av AEM webbplatsutdata misslyckas när anpassad DTD används. 9243
-* Fotnoter som kan användas som referenser rullar inte till fotnotsavsnittet i AEM. 9234
+* Publicering av utdata från AEM-webbplatsen misslyckas vid användning av anpassad DTD. 9243
+* Fotnoter som kan användas som referens rullar inte till fotnotsavsnittet i utdata för AEM-webbplatser. 9234
 
 ## Kända fel
 
-Adobe har identifierat följande kända fel i as a Cloud Service-aprilversionen av [!DNL AEM Guides].
+Adobe har identifierat följande kända fel i as a Cloud Service aprilutgåva [!DNL AEM Guides].
 
 * Webbredigeraren rapporterar inget fel när två eller flera baslinjer har skapats med samma namn, men det finns skillnader i mellanrum eller skiftläge. Till exempel&quot;adobe&quot; och&quot;Adobe&quot; eller&quot;Adobe&quot;.
 * Syrgaskontakten låser sig regelbundet när du ofta loggar in eller loggar ut eller växlar mellan olika autentiseringstyper.

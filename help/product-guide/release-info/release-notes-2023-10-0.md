@@ -4,7 +4,7 @@ description: Läs om felkorrigeringarna och hur du uppgraderar till oktober 2023
 exl-id: 536d2ec2-31a0-4533-9c29-16a27525acca
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1045'
 ht-degree: 0%
@@ -21,13 +21,13 @@ Mer information om de nya funktionerna och förbättringarna finns i [Nyheter i 
 
 Uppgradera din nuvarande AEM Guides as a Cloud Service-konfiguration genom att utföra följande steg:
 
-1. Ta en titt på Cloud Servicens Git-kod och växla till den gren som är konfigurerad i Cloud Servicens pipeline för den miljö som du vill uppgradera.
-2. Uppdatera `<dox.version>`-egenskapen i `/dox/dox.installer/pom.xml`-filen för dina Cloud Services Git-kod till 2023.10.0.373.
-3. Genomför ändringarna och kör Cloud Servicen för att uppgradera till oktober 2023-utgåvan av AEM Guides as a Cloud Service.
+1. Ta en titt på Git-koden för molntjänster och växla till den gren som konfigurerats i molntjänstflödet för den miljö som du vill uppgradera.
+2. Uppdatera egenskapen `<dox.version>` i `/dox/dox.installer/pom.xml`-filen för Git-koden för molntjänster till 2023.10.0.373.
+3. Genomför ändringarna och kör Cloud Services-pipeline för att uppgradera till oktober 2023-versionen av AEM Guides as a Cloud Service.
 
 ## Steg för att aktivera utlösaren för ett skript via en serverlet
 
-(Endast om du har en version som är tidigare än version från juni 2023 av AEM Guides as a Cloud Service)
+(Endast om du har en version som är tidigare än versionen från juni 2023 av AEM Guides as a Cloud Service)
 
 När du har slutfört installationen kan du välja att HIT-aktivera utlösaren för att starta översättningsjobbet:
 
@@ -62,7 +62,7 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 ## Steg för att bokföra det befintliga innehållet så att det använder den brutna länkrapporten
 
-(Endast om du har en version som är tidigare än version från juni 2023 av AEM Guides as a Cloud Service)
+(Endast om du har en version som är tidigare än versionen från juni 2023 av AEM Guides as a Cloud Service)
 
 Utför följande steg för att efterbearbeta befintligt innehåll och använda den nya brutna länkrapporten:
 
@@ -75,33 +75,33 @@ Utför följande steg för att efterbearbeta befintligt innehåll och använda d
      |---|---|---|
      | org.apache.jackrabbit.oak.query.QueryEngineSettingsService | queryLimitReads | Värde: 200000 Standardvärde: 100000 |
 
-1. Kör en POST-förfrågan till servern (med korrekt autentisering) - `http://<server:port>//bin/guides/reports/upgrade`.
+1. Kör en POST-begäran till servern (med korrekt autentisering) - `http://<server:port>//bin/guides/reports/upgrade`.
 
-1. API:t returnerar ett jobId. Om du vill kontrollera statusen för jobbet kan du skicka en GET-förfrågan med jobb-ID till samma slutpunkt - `http://<server:port>/bin/guides/reports/upgrade?jobId= {jobId}`
+1. API:t returnerar ett jobId. Om du vill kontrollera jobbets status kan du skicka en GET-begäran med jobb-ID till samma slutpunkt - `http://<server:port>/bin/guides/reports/upgrade?jobId= {jobId}`
 (Till exempel: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
 
-1. När jobbet är klart svarar den tidigare GETEN med framgång. Om jobbet misslyckas av någon anledning kan felet ses i serverloggarna.
+1. När jobbet är klart svarar den tidigare GET-förfrågan med framgång. Om jobbet misslyckas av någon anledning kan felet ses i serverloggarna.
 
 1. Återgå till standardvärdet eller det tidigare befintliga värdet `queryLimitReads` om du har ändrat det i steg 1.
 
 ## Steg för att indexera befintligt innehåll så att det använder den nya sök- och ersätt-listan och ämneslistan på fliken Rapporter:
 
-(Endast om du har en version som är tidigare än version från juni 2023 av AEM Guides as a Cloud Service)
+(Endast om du har en version som är tidigare än versionen från juni 2023 av AEM Guides as a Cloud Service)
 
 Utför följande steg för att indexera det befintliga innehållet och använd den nya sök- och ersätt-texten på mappnivå och ämneslista på fliken Rapporter:
 
-1. Kör en POST-förfrågan till servern \(med korrekt autentisering\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Valfritt: Du kan skicka specifika banor för mappningarna för att indexera dem. Som standard indexeras alla mappningar \|\| Till exempel: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+1. Kör en POST-begäran till servern \(med korrekt autentisering\) - `http://<server:port\>/bin/guides/map-find/indexing`. (Valfritt: Du kan skicka specifika banor för mappningarna för att indexera dem. Som standard indexeras alla mappningar \|\| Till exempel: `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
 1. Du kan också skicka en rotmapp för att indexera DITA-mappningarna för en viss mapp (och dess undermappar). Exempel: `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. Observera, att om både sökvägsparametern och rotparametern skickas, beaktas bara sökvägsparametern.
 
-1. API:t returnerar ett jobId. Om du vill kontrollera jobbets status kan du skicka en GET-förfrågan med jobb-ID till samma slutpunkt - `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(Exempel: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
+1. API:t returnerar ett jobId. Om du vill kontrollera jobbets status kan du skicka en GET-begäran med jobb-ID till samma slutpunkt - `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(Exempel: `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
 
 
-1. När jobbet är klart svarar den tidigare GETEN med framgång och anger om några kartor misslyckades. De korrekt indexerade mappningarna kan bekräftas från serverloggarna.
+1. När jobbet är klart svarar den tidigare GET-förfrågan med framgång och anger om några kartor misslyckades. De korrekt indexerade mappningarna kan bekräftas från serverloggarna.
 
 ## Kompatibilitetsmatris
 
-I det här avsnittet visas kompatibilitetsmatrisen för de program som stöds i AEM Guides as a Cloud Service oktober 2023.
+I det här avsnittet visas kompatibilitetsmatrisen för de program som stöds i AEM Guides as a Cloud Service oktoberversion 2023.
 
 ### FrameMaker och FrameMaker Publishing Server
 
@@ -116,7 +116,7 @@ I det här avsnittet visas kompatibilitetsmatrisen för de program som stöds i 
 | AEM Guides som Cloud-release | Syrgasanslutningsfönster | Syrgasanslutning Mac | Redigera i syrgasfönster | Redigera i Syrgas Mac |
 | --- | --- | --- | --- | --- |
 | 2023.10.0 | 3.2-uuid 5 | 3.2-uuid 5 | 2,3 | 2,3 |
-|  |  |  |  |
+|  |  |  |  |  |
 
 
 ### Kunskapsbasmallens version
@@ -139,11 +139,11 @@ De buggar som har åtgärdats i olika områden listas nedan:
 
 ### Publicering
 
-- PDF | Ordningen på ämnena är inte fast när utdata från PDF skapas. 13157
-- Inbyggd PDF| Det finns ingen standardformattagg tillgänglig för elementet `<p>`. (12559)
+- PDF | Ordningen på ämnena är inte fast när PDF-utdata genereras. 13157
+- PDF| Det finns ingen standardformattagg tillgänglig för elementet `<p>`. (12559)
 - PDF | Textbundna format som används för innehållsområdet används inte för ämnen som placeras framför och bakom. (13510)
-- Attributet `DeliveryTarget` sprids inte när AEM genereras.  13132
-- Arbetsflödet **Publish** fastnar när AEM genereras för innehåll med vissa fel. (12000)
+- Attributet `DeliveryTarget` sprids inte när AEM Site-utdata genereras.  13132
+- Arbetsflödet **Publicera** fastnar när utdata för AEM Site genereras för innehåll med vissa fel. (12000)
 
 ### Förvaltning
 

@@ -4,9 +4,9 @@ description: Januariversion av  [!DNL Adobe Experience Manager Guides] as a Clou
 exl-id: b2da77fa-f17c-440b-be59-acaafcd9a57c
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '2441'
+source-wordcount: '2440'
 ht-degree: 0%
 
 ---
@@ -15,14 +15,14 @@ ht-degree: 0%
 
 ## Uppgradera till januariversionen
 
-Uppgradera din nuvarande konfiguration av [!DNL Adobe Experience Manager Guides] as a Cloud Service (kallas senare [!DNL AEM Guides] as a Cloud Service) genom att utföra följande steg:
-1. Ta en titt på Cloud Servicens Git-kod och växla till den gren som är konfigurerad i Cloud Servicens pipeline för den miljö du vill uppgradera.
-1. Uppdatera `<dox.version>`-egenskapen i `/dox/dox.installer/pom.xml`-filen för dina Cloud Services Git-kod till 202.1.78.
-1. Genomför ändringarna och kör Cloud Servicens pipeline för att uppgradera till januariversionen av [!DNL AEM Guides] as a Cloud Service.
+Uppgradera din nuvarande [!DNL Adobe Experience Manager Guides] as a Cloud Service-konfiguration (kallas senare [!DNL AEM Guides] as a Cloud Service) genom att utföra följande steg:
+1. Ta en titt på Git-koden för molntjänster och växla till den gren som konfigurerats i molntjänstflödet för den miljö du vill uppgradera.
+1. Uppdatera egenskapen `<dox.version>` i `/dox/dox.installer/pom.xml`-filen för Git-koden för molntjänster till 2022.1.78.
+1. Genomför ändringarna och kör molntjänstpipelinen för att uppgradera till januariversionen av [!DNL AEM Guides] as a Cloud Service.
 
 ## Kompatibilitetsmatris
 
-I det här avsnittet visas kompatibilitetsmatrisen för de program som stöds i utgåvan [!DNL AEM Guides] för as a Cloud Service januari 2022.
+I det här avsnittet visas kompatibilitetsmatrisen för de program som stöds av [!DNL AEM Guides] as a Cloud Service från januari 2022.
 
 ### FrameMaker och FrameMaker Publishing Server
 
@@ -37,7 +37,7 @@ I det här avsnittet visas kompatibilitetsmatrisen för de program som stöds i 
 | [!DNL AEM Guides]-molnversionen | Syrgasanslutningsfönster | Syrgasanslutning Mac | Redigera i syrgasfönster | Redigera i Syrgas Mac |
 | --- | --- | --- | --- | --- |
 | 2022.1.0 | 2.4.0 | 2.4.0 | 2,2 | 2,2 |
-|  |  |  |  |  |
+|  |  |  |  |  |  |
 
 
 ## Nya funktioner och förbättringar
@@ -50,7 +50,7 @@ Med den här funktionen kan användarna skapa DITA-kartan på ett additivt sätt
 
 ![Artikelbaserad publicering](assets/article-based-publishing.png)
 
-Förutom AEM kan du använda den här unika funktionen för att publicera dina artiklar till alla kunskapsbasportaler, som Salesforce. Den här funktionen innehåller också en OOTB-innehållsmall, som bygger på AEM kärnkomponenter, med vilken du kan skapa en kunskapsbaserad databas med det tekniska innehållet. Det som är bra med den här mallen är att den är helt anpassningsbar för att passa organisationens behov och kan även stödja användningsfall som intranätsportaler.
+Förutom AEM kan du använda den här unika funktionen för att publicera dina artiklar i alla kunskapsbasportaler, som Salesforce. Den här funktionen innehåller också en OOTB-innehållsmall som bygger på AEM kärnkomponenter och som gör att du kan skapa en kunskapsbaserad databas med det tekniska innehållet. Det som är bra med den här mallen är att den är helt anpassningsbar för att passa organisationens behov och kan även stödja användningsfall som intranätsportaler.
 Du kan också filtrera artiklarna baserat på deras dokumenttillstånd och ändringsdatum.
 
 Denna välbehövliga artikelpublicering i farten ger dig inte bara fullständig kontroll över innehållspubliceringen utan minskar även den totala tiden för publicering av uppdaterat innehåll.
@@ -82,10 +82,10 @@ Det finns många förbättringar och nya funktioner i Web Editor:
 
 ### Skapa med FrameMaker
 
-Nu kan du skapa och publicera dina dokument i FrameMaker. FrameMakerna levereras med en färdig anslutning till Adobe Experience Manager. I FrameMaker får du ett lättanvänt gränssnitt där du kan underhålla dokumentversioner i en distribuerad och samarbetsorienterad miljö.
+Nu kan du skapa och publicera dina dokument i FrameMaker. FrameMaker levereras med en färdig anslutning till Adobe Experience Manager. I FrameMaker har du ett lättanvänt gränssnitt där du kan underhålla dokumentversioner i en distribuerad och samarbetsorienterad miljö.
 
 När du har skapat ditt innehåll kan du med FrameMaker publicera dina dokument i olika format - PDF, HTML5, EPUB och DITA. Du kan också utföra olika filhanteringsåtgärder som utcheckning, utcheckning med beroende personer, incheckning, uppdatering och så vidare.
-Om du vill skapa med FrameMaker i [!DNL AEM Guides] as a Cloud Service FrameMaker version 2020.4 och senare.
+Om du vill skapa med FrameMaker i [!DNL AEM Guides] as a Cloud Service använder du FrameMaker version 2020.4 och senare.
 
 ### Ny översättningsinstrumentpanel
 
@@ -101,11 +101,11 @@ En ny kontrollpanel för översättning har lagts till i Web Editor med följand
 
 ### Förbättrad publicering
 
-* Författare kan nu skicka metadata på mapps- och ämnesnivå till DITA-OT-publicering. Detta är praktiskt när anpassade PDF-mallar är utformade för att använda egenskaper för filmetadata som taggar, författare, dokumenttillstånd med mera.
+* Författare kan nu skicka metadata på mapps- och ämnesnivå till DITA-OT-publicering. Detta är praktiskt när anpassade PDF-mallar är utformade för att använda egenskaper för filmetadata som taggar, författare, dokumenttillstånd och mycket annat.
 
 ![DITA-OT-metadata](assets/custom-meta-data-output-preset.png)
 
-* En ny konfiguration har lagts till för att tillåta användare att behålla eller ta bort de versioner av ämnen som tas bort när alternativet **Ta bort och skapa** används i genereringen av AEM för webbplatsutdata.
+* En ny konfiguration har lagts till för att tillåta användare att behålla eller ta bort de versioner av ämnen som tas bort när alternativet **Ta bort och skapa** används i utdatagenereringen för AEM Site.
 
 ### Förbättrad filhantering
 
@@ -119,7 +119,7 @@ Följande förbättringar visas nu när du arbetar med filer i AEM Assets:
 
 ![Miniatyrbild för versionshistorik](assets/version-history-preview-image.png)
 
-* När användaren skapar en DITA-fil visas standardfilnamnet med ett litet skiftläge så att det är textbundet när AEM skapas.
+* När användaren skapar en DITA-fil visas standardfilnamnet med små bokstäver som är infogat i ett scenario där AEM-mappar skapas.
 
 ### Ny rapportexportfunktion
 
@@ -156,8 +156,8 @@ De buggar som har åtgärdats i olika områden listas nedan:
 * xref till ett element som själv är en conref tolkas inte i redigeraren. 7933
 * Titel som har en nyckel återges inte korrekt i redigerarens förhandsgranskning och på databaspanelen. 7909
 * Fragment med specialtecken lagras inte korrekt. 7908
-* Om du sparar ett ämne efter formatering av MathML-ekvationer uppstår ett fel. 7954
-* Tm (keydef having) återges inte korrekt i redigeraren och AEM platsutdata innehöll duplicerade TM-symboler. 7859
+* Om du sparar ett ämne när du har formaterat MathML-ekvationer uppstår ett fel. 7954
+* Tm (keydef having) renderas inte korrekt i redigeraren och utdata från AEM-webbplatsen innehöll duplicerade TM-symboler. 7859
 * Det går inte att dra och släppa ett fragment enligt DTD-dokumenten. 7758
 * HTML ignorerar anpassade definierade dimensioner för grafik. 7718
 * conrefend-attributet uppdateras inte när källfilen flyttas. 7698
@@ -165,8 +165,8 @@ De buggar som har åtgärdats i olika områden listas nedan:
 * DITAVAL-filer visas inte när författaren lägger till ditavalref i en karta. 7594
 * Oväntat utrymme hittades i varje tomt `<entry>`-element när OutputClass-attribut läggs till i `<tgroup>`-elementet. 7532
 * Source-knappen fungerar inte för ämnen som öppnas via kartpanelen. 7465
-* Kort utskrift infogar tomma rader och blanksteg som syns när filen öppnas i FrameMaker eller syrgas. 7408
-* Kartor med href=&quot;/&quot; i något av ämnena publiceras inte AEM webbplatser. 7405
+* Kort utskrift infogar tomma rader och blanksteg som syns när filen öppnas i FrameMaker eller Syrgas. 7408
+* Kartor med href=&quot;/&quot; i något av ämnena publiceras inte på AEM webbplatser. 7405
 * Prestandaproblem som hittas i redigeraren när rotkartan har ett stort antal nyckeldefinitioner. (7400)
 * Dokumenttillståndet för en karta med en anpassad mall ärvs inte från sin motsvarande lägesprofil. 7359
 * `<tm>`-element återges felaktigt som blockelement. 7286
@@ -197,7 +197,7 @@ De buggar som har åtgärdats i olika områden listas nedan:
 ### Kartkontrollpanel
 
 * Det går inte att se generiskt innehåll i titeln för ett ämne på fliken med ämnen eller rapporter på kontrollpanelen för kartor. 8263
-* AEM Sites Output | jcr:titeln för den genererade webbplatssidan uppdateras inte när DITA-avsnittets titel uppdateras. (8131)
+* AEM Sites Output | jcr:title för den genererade webbplatssidan uppdateras inte när ämnestiteln för DITA uppdateras. (8131)
 * Ladda ned MAP hämtar inte de videofiler som används i avsnitten. 8070
 * Mediefiler laddas inte ned när object-taggen används via hämtningsbokmapps-API:t. 8057
 * Felaktig rapport visas på fliken Rapporter om något ämne har konverterats till en fil vars titel börjar med conref. (4698)
@@ -205,9 +205,9 @@ De buggar som har åtgärdats i olika områden listas nedan:
 
 ### Publicering
 
-* Det går inte att skapa PDF för första gången när Aktivera versionshantering är markerat. (8053, 8294)
-* Blanksteg läggs automatiskt till efter taggen tm; AEM Site-utdata. 7964
-* Det går inte att visa YouTube-videor i AEM. 7401
+* Det går inte att skapa PDF för första gången när Aktivera versionshantering är valt. (8053, 8294)
+* Blanksteg läggs automatiskt till efter taggen tm; i utdata från AEM Site. 7964
+* Det går inte att visa YouTube-videor i AEM Site-utdata. 7401
 * Filtrera efter etikett misslyckas för refererat innehåll efter att användaren har klickat på Bläddra i alla ämnen på baslinjefliken på kartkontrollpanelen. 7388
 * Publiceringsämnet med elementet `<tm>` med egenskapsvärdet SM eller reg visas felaktigt i genererade utdata. 7239
 * Vid baslinjepublicering med bild väljs inte bildens senaste version i publicerade utdata. 7231
@@ -216,9 +216,9 @@ De buggar som har åtgärdats i olika områden listas nedan:
 * Sidtitel används inte för generering av utdata-URL trots att inställningen är markerad. 8257
 * Vid baslinjepublicering väljs den aktuella versionen av bilderna i stället för den frysta noden. Detta visas även om en bild har blanksteg eller specialtecken i filnamnet. 8274, 8322
 * Inkrementell publicering misslyckas för DITA-kartan med ett typämnesschema som har mapref. (8218)
-* Null läggs till när en karta läggs till i den grupperade Publish Dashboard. 8695
+* Null läggs till när en karta läggs till på kontrollpanelen för masspublicering. 8695
 * Om du använder baslinjepublicering med bilden som conref i avsnittet publiceras inte bilden i utdata. 8564
-* Publiceringen misslyckas med ett undantag om den baslinje som används AEM webbplatspubliceringen tas bort. 8572
+* Publiceringen misslyckas med ett undantag om baslinjen som används vid publicering på AEM-webbplatser tas bort. 8572
 * Omgenerering av ämnen fungerar inte. 8091
 * Det finns problem med att publicera fotnoter i tabeller. (4709)
 
@@ -237,13 +237,13 @@ De buggar som har åtgärdats i olika områden listas nedan:
 ### Innehållsimport
 
 * Konvertering från HTML till DITA | Tabell med tr med tomma td-poster ger upphov till ytterligare rader i utdata. 8132
-* Konvertering från HTML till DITA | HTML som har en tabell med flera förekomster misslyckas med ett undantag. (7940)
-* Konvertering från HTML till DITA | fel om HTML har kommentarer. 7937
+* Konvertering från HTML till DITA | HTML med en tabell med flera innehållsförteckningar misslyckas med ett undantag. (7940)
+* Konvertering från HTML till DITA | fel har uppstått om HTML har kommentarer. 7937
 * Om du importerar DITA 1.3 DITA-filer omvandlas en del href till felformaterade länkar. (8019)
 
 ## Kända fel
 
-Adobe har identifierat följande kända fel för versionen [!DNL AEM Guides] as a Cloud Service januari 2022.
+Adobe har identifierat följande kända fel för [!DNL AEM Guides] as a Cloud Service januariversion 2022.
 
 
 ### Kända problem med lösningar

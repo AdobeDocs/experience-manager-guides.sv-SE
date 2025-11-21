@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 hide: true
 exl-id: dbc082e9-e75e-414d-a1d1-41f919b345af
-source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 0%
@@ -49,4 +49,4 @@ Följande alternativ är tillgängliga för JSON-förinställningen:
 | Egenskaper att sprida i utdata | Välj de egenskaper som du vill bearbeta som metadata. Dessa egenskaper ställs in från sidan Egenskaper i DITA-kartan eller bokmappningsfilen. Egenskaperna som du väljer i listrutan visas under fältet Egenskaper.<br><br>**Obs!**: Du kan också definiera anpassade egenskaper och skicka metadata till utdata med DITA-OT-publicering. Mer information finns i [Arbeta med metadata](metadata-dita.md#id21BJ00QD0XA). |
 | Arbetsflöde efter generering | När du väljer det här alternativet visas en ny arbetsflödeslista som innehåller alla arbetsflöden som konfigurerats i AEM. Du måste välja ett arbetsflöde som du vill köra när arbetsflödet för generering av utdata har slutförts.<br><br>**Obs!**: Mer information om hur du skapar ett anpassat arbetsflöde för postutdatagenerering finns i _Anpassa arbetsflöde för efterutdatagenerering_ i guiden Installera och konfigurera Adobe Experience Manager Guides as a Cloud Service. |
 
-**Överordnat ämne:**&#x200B;[&#x200B; Förstå förinställningarna för utdata](generate-output-understand-presets.md)
+**Överordnat ämne:**[ Förstå förinställningarna för utdata](generate-output-understand-presets.md)

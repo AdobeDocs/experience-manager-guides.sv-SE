@@ -5,9 +5,9 @@ exl-id: b5cf4f6c-dc56-428e-a514-6c9f879ac03d
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: a2e52572edf0915c1701a384d396a32de2429f53
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '5620'
+source-wordcount: '5615'
 ht-degree: 0%
 
 ---
@@ -128,7 +128,7 @@ Gör så här för att ange en egen designmall som ska användas för att genere
 >
 > När du har skapat en anpassad designmallsnod måste du uppdatera designalternativet i förinställningarna för AEM Site-utdata för att kunna använda den anpassade designmallsnoden.
 
-Mer information finns i [Skapa din första Adobe Experience Manager-webbplats](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=sv-SE) och [Grunderna](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=sv-SE) för att utveckla din egen webbplats på AEM.
+Mer information finns i [Skapa din första Adobe Experience Manager-webbplats](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=en) och [Grunderna](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=en) för att utveckla din egen webbplats på AEM.
 
 ### Använd dokumenttitel för att generera utdata från AEM webbplats
 
@@ -146,7 +146,7 @@ Använd instruktionerna i [Konfigurationsåsidosättningar](download-install-add
 
 ### Konfigurera URL:en för AEM Site-utdata så att dokumenttiteln används
 
-Du kan använda dokumenttitlarna i URL:en för utdata från AEM Site. Om filnamnet inte finns eller innehåller alla specialtecken kan du konfigurera systemet så att specialtecknen ersätts med en avgränsare i URL:en för utdata från AEM Site. Du kan också konfigurera det så att det ersätter dem med namnet på det första underordnade ämnet.
+Du kan använda dokumenttitlarna i URL:en för utdata från AEM Site. Om filnamnet inte finns eller innehåller alla specialtecken kan du konfigurera systemet så att specialtecknen ersätts med en avgränsare i URL:en för utdata från AEM Site. Du kan också konfigurera den så att den ersätter dem med namnet på det första underordnade ämnet.
 
 
 Så här konfigurerar du sidnamnen:
@@ -269,7 +269,7 @@ Om du vill utesluta elementet `table` från förenkling lägger du till följand
 
 ### Konfigurera versionshantering för borttagna sidor i AEM Site-utdata
 
-När du genererar utdata för AEM-webbplatsen med alternativet **Ta bort och** Skapa **&#x200B;**&#x200B;valt för inställningen Befintliga utdatasidor skapas en version för sidan/sidorna som tas bort. Du kan konfigurera systemet så att det inte längre skapas en version innan du tar bort den.
+När du genererar utdata för AEM-webbplatsen med alternativet **Ta bort och** Skapa ****valt för inställningen Befintliga utdatasidor skapas en version för sidan/sidorna som tas bort. Du kan konfigurera systemet så att det inte längre skapas en version innan du tar bort den.
 
 Utför följande steg för att stoppa skapandet av en version för den sida/de sidor som ska tas bort:
 
@@ -330,7 +330,7 @@ Så här lägger du till de metadata som krävs i systemet:
 
    3. I **fältetikett** anger du metadatanamnet - målgrupp.
 
-   4. I inställningen **Mappa till egenskap** anger du ./jcr:content/metadata/&lt;namn på metadata\>. Vi kommer till exempel att ställa in den på ./jcr:content/metadata/audition.
+   4. I inställningen **Mappa till egenskap** anger du ./jcr:content/metadata/&lt;namn på metadata\>. Vi kommer till exempel att ställa in den på ./jcr:content/metadata/publik.
 
    Lägg till alla metadataparametrar som krävs med dessa steg.
 
@@ -349,7 +349,7 @@ Därefter måste du göra anpassade metadata tillgängliga i DITA-kartkonsolen. 
 
    >[!NOTE]
    >
-   > Filen metadataList innehåller en lista med egenskaper som visas i listrutan **Egenskaper** för en DITA-karta på kartkontrollpanelen. Som standard visas fyra egenskaper i den här filen: docstate, dc:language, dc:description och dc:title.
+   > Filen metadataList innehåller en lista med egenskaper som visas i listrutan **Egenskaper** för en DITA-karta på kartkontrollpanelen. Som standard visas fyra egenskaper i den här filen - docstate, dc:language, dc:description och dc:title.
 
 1. Lägg till anpassade metadata som du har lagt till på Forms-sidan Metadata Schema. Lägg till exempel till målgruppsparameter i slutet av standardlistan.
 
@@ -603,7 +603,7 @@ I följande tabell beskrivs elementen i DITA-elementschemat:
 | `<wrapelement>` | Det HTML-element som innehållet ska radbrytas i. |
 | `<wrapclass>` | Elementvärdet för egenskapen `wrapclass.` |
 | `<attributemap>` | Behållarnod som innehåller en eller flera `<attribute>`-noder. |
-| `<attribute from="attrname" to="propname" ispath="true|false" rel="source|target" />` | Mappar DITA-attributen till AEM-egenskaper: <br> -   **`from`**: DITA-attributnamn <br> -   **`to`**: AEM-komponentens egenskapsnamn <br> -   **`ispath`**: Om attributet är ett sökvägsvärde \(till exempel: *image*\) <br> -   **`rel`**: Om sökvägen är källan eller målet <br> **Obs!** Om `attrname` börjar med `%` mappar du `attrname minus '%'` till prop `propname`. |
+| `<attribute from="attrname" to="propname" ispath="true\|false" rel="source\|target" />` | Mappar DITA-attributen till AEM-egenskaper: <br> -   **`from`**: DITA-attributnamn <br> -   **`to`**: AEM-komponentens egenskapsnamn <br> -   **`ispath`**: Om attributet är ett sökvägsvärde \(till exempel: *image*\) <br> -   **`rel`**: Om sökvägen är källan eller målet <br> **Obs!** Om `attrname` börjar med `%` mappar du `attrname minus '%'` till prop `propname`. |
 
 **Ytterligare information**
 
@@ -630,11 +630,11 @@ AEM Guides tillhandahåller kategorin `apps.fmdita.dashboard-extn` för att anpa
 
 >[!NOTE]
 >
-> Mer information om hur du skapar AEM-klientbibliotek finns i [Använda klientbibliotek](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=sv-SE).
+> Mer information om hur du skapar AEM-klientbibliotek finns i [Använda klientbibliotek](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=en).
 
 ## Hantera bildåtergivning under generering av utdata {#id177BF0G0VY4}
 
-AEM innehåller en uppsättning standardarbetsflöden och mediehandtag för att bearbeta resurser. I AEM finns det fördefinierade arbetsflöden för att hantera resurshantering för de vanligaste MIME-typerna. För varje bild som du överför skapas vanligtvis flera återgivningar av samma bild i binärt format i AEM. Dessa återgivningar kan ha olika storlek, med olika upplösning, med vattenstämpel eller någon annan förändrad egenskap. Mer information om hur AEM hanterar resurser finns i [Bearbeta Assets med mediehanterare och arbetsflöden](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=sv-SE) i dokumentationen för AEM.
+AEM innehåller en uppsättning standardarbetsflöden och mediehandtag för att bearbeta resurser. I AEM finns det fördefinierade arbetsflöden för att hantera resurshantering för de vanligaste MIME-typerna. För varje bild som du överför skapas vanligtvis flera återgivningar av samma bild i binärt format i AEM. Dessa återgivningar kan ha olika storlek, med olika upplösning, med vattenstämpel eller någon annan förändrad egenskap. Mer information om hur AEM hanterar resurser finns i [Bearbeta Assets med mediehanterare och arbetsflöden](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=en) i dokumentationen för AEM.
 
 Med AEM Guides kan du konfigurera vilken bildåtergivning som ska användas när utdata genereras för dina dokument. Du kan till exempel välja mellan en av standardbildåtergivningarna eller skapa en och använda samma för att publicera dina dokument. Mappning av bildåtergivning för publicering av dina dokument lagras i filen `/libs/fmdita/config/ **renditionmap.xml**`. Ett fragment av filen `renditionmap.xml` är följande:
 
@@ -686,8 +686,8 @@ Använd instruktionerna i [Konfigurationsåsidosättningar](download-install-add
 
 | PID | Egenskapsnyckel | Egenskapsvärde |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `output.history.purgeperiod` | Ange efter hur många dagar som utdatahistoriken och utdataloggarna ska rensas. Om du vill inaktivera den här funktionen anger du egenskapen till 0.Daglig vid den angivna tidpunkten när rensningsprocessen körs på utdata som genererats före det antal dagar som anges i den här egenskapen. <br> **Standardvärde**: 5 |
-| `output.history.purgetime` | Ange den tid då rensningsprocessen initieras. <br> **Standardvärde**: 0:00 \(eller 12:00 midnatt\) |
+| `com.adobe.fmdita.config.ConfigManager\|output.history.purgeperiod` | Ange efter hur många dagar som utdatahistoriken och utdataloggarna ska rensas. Om du vill inaktivera den här funktionen anger du egenskapen till 0.Daglig vid den angivna tidpunkten när rensningsprocessen körs på utdata som genererats före det antal dagar som anges i den här egenskapen. | **Standardvärde**: 5 |
+| `output.history.purgetime` | Ange den tid då rensningsprocessen initieras. | **Standardvärde**: 0:00 \(eller 12:00 midnatt\) |
 
 ## Ändra gränsen för den nyligen genererade utdatalistan {#id1679JH0H0O2}
 

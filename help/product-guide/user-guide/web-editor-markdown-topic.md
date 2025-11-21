@@ -4,7 +4,7 @@ description: Skapa markeringsdokument från Redigeraren. Lär dig hur du skapar,
 exl-id: def14e35-27c5-4b90-bc3d-eef7e8f317d2
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 639cd235778f31b139889d615f93bde3334e4988
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1197'
 ht-degree: 0%
@@ -67,7 +67,7 @@ Features available in the tab bar are explained as follows:
 
 * **Topic tab**: Displays the currently opened topics in a tab. By default, you can view the file titles in the tab. As you hover over a file, you can view the file title and the file path as a tooltip.
 
-    >![NOTE]
+    >[!NOTE]
     >
     > As an administrator, you can also choose to view the list of files by filenames in the tabs. View [User preferences](./intro-home-page.md#user-preferences) for details.
 * **Save all**: Saves the changes you have made in all opened topics. If you have multiple topics opened in the Editor, selecting **Save all** or pressing `Crtl+S` shortcut keys saves all documents in one click. You do not have to individually save each document.
@@ -175,4 +175,4 @@ Följande Experience Manager Guides-funktioner gäller för närvarande inte fö
 
 
 
-**Överordnat ämne:**&#x200B;[&#x200B; Introduktion till redigeraren](web-editor.md)
+**Överordnat ämne:**[ Introduktion till redigeraren](web-editor.md)

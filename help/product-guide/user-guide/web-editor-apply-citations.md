@@ -4,7 +4,7 @@ description: Lägg till och hantera citat i AEM Guides. Lär dig hur du använde
 exl-id: 685d747d-e017-4350-a6bf-822fd55c76e8
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: b8f3756e0e8f0338942efb77f00600703be8f6d8
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1890'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Så här lägger du till citat:
 
    ![](images/citation-panel.png){width="350" align="left"}
 
-1. Välj ![Lägg till ikon](images/Add_icon.svg) på panelen **Källhänvisningar**. I listrutan kan du välja att lägga till en ny källhänvisning eller att importera en källhänvisning.
+1. Välj **Lägg till ikon** på panelen ![Källhänvisningar](images/Add_icon.svg). I listrutan kan du välja att lägga till en ny källhänvisning eller att importera en källhänvisning.
 
 1. Välj **Ny källhänvisning** om du vill lägga till en ny källhänvisning.
 
@@ -66,8 +66,8 @@ Så här lägger du till citat:
    | **År** <br> Lägg till året som boken publiceras i. | **Uppdaterat den** <br> Lägg till det datum då webbplatsens innehåll uppdateras. | **Sidor** <br> Lägg till det sidnummer eller sidintervall där artikeln finns. |
    | **Version** <br> Lägg till bokens version. | **Unikt ID** <br> Lägg till ett unikt ID för citatet. Ett unikt ID är en unik identifierare för den referensen. | **URL** <br>Lägg till webblänken i journalen. |
    | **Serie** <br>Lägg till bokens serie. |  | **Unikt ID** <br> Lägg till ett unikt ID för citatet. Ett unikt ID är en unik identifierare för den referensen. |
-   | **URL** <br> Lägg till webblänken i boken. |
-   | **Unikt ID** <br> Lägg till ett unikt ID för citatet. Ett unikt ID är en unik identifierare för den referensen. |
+   | **URL** <br> Lägg till webblänken i boken. |  |  |
+   | **Unikt ID** <br> Lägg till ett unikt ID för citatet. Ett unikt ID är en unik identifierare för den referensen. |  |  |
 
 1. Välj **Klar**.
 
@@ -85,7 +85,7 @@ Så här importerar du citat:
 
    Panelen **Källhänvisningar** öppnas.
 
-1. Välj ![Lägg till ikon](images/Add_icon.svg) på panelen **Källhänvisningar** och välj sedan **Importera** i listrutan.
+1. Välj **Lägg till ikon** på panelen ![Källhänvisningar](images/Add_icon.svg) och välj sedan **Importera** i listrutan.
 1. Bläddra i en bib-fil från datorn och importera den.
 
    >[!TIP]
@@ -96,7 +96,7 @@ Så här importerar du citat:
 
    >[!NOTE]
    > <ol><li> Experience Manager Guides importerar endast de citat som är unika och inte redan finns.
-   > &gt; <li> Experience Manager Guides kan importera citat från en bok, journal eller en webbplats. För närvarande stöder den inte citat från andra källor.
+    &gt; <li> Experience Manager Guides kan importera citat från en bok, journal eller en webbplats. För närvarande stöder den inte citat från andra källor.
 
 ## Hantera citat
 
@@ -186,7 +186,7 @@ Du kan infoga citat från huvudverktygsfältet eller den vänstra panelen i avsn
 
 ### Från huvudverktygsfältet
 
-1. Välj ikonen **Citat** ![&#x200B; &#x200B;](images/citations-icon.svg) i huvudverktygsfältet.
+1. Välj ikonen **Citat** ![ ](images/citations-icon.svg) i huvudverktygsfältet.
 1. Välj citat i dialogrutan **Citat**. Du kan också markera flera citat.
    ![citatdialogruta](images/citation-dialog-main-toolbar.png){width="300" align="left"}
 1. Du kan filtrera citat genom att skriva de första alfabeten på sökpanelen i dialogrutan **Citat** .
@@ -201,7 +201,7 @@ Den markerade texten läggs till vid markörens plats i ditt ämne.
 > 
 >Om du vill visa ikonen **Källhänvisningar** från den vänstra panelen måste systemadministratören aktivera alternativet **Källhänvisningar** på fliken **Paneler** i **Inställningar**.
 
-1. Välj ikonen **Citat** ![&#x200B; &#x200B;](images/citations-icon.svg) i den vänstra panelen.
+1. Välj ikonen **Citat** ![ ](images/citations-icon.svg) i den vänstra panelen.
 1. Dra citatet från panelen **Citat** och släpp det på lämplig plats i avsnittet.
 
    Du kan också välja **Infoga** från ![](images/options.svg) **Alternativ** om du vill infoga en hänvisning.

@@ -4,7 +4,7 @@ description: Augustiversionen av Adobe Experience Manager Guides as a Cloud Serv
 exl-id: a01bfe8a-4715-438c-bb94-aa1d31f6662d
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1169'
 ht-degree: 0%
@@ -15,14 +15,14 @@ ht-degree: 0%
 
 ## Uppgradera till augusti-versionen
 
-Uppgradera din nuvarande Adobe Experience Manager Guides as a Cloud Service-konfiguration (kallas senare *AEM Guides as a Cloud Service*) genom att utföra följande steg:
-1. Ta en titt på Cloud Servicens Git-kod och växla till den gren som är konfigurerad i Cloud Servicens pipeline för den miljö du vill uppgradera.
-1. Uppdatera `<dox.version>`-egenskapen i `/dox/dox.installer/pom.xml`-filen för dina Cloud Services Git-kod till 2022.8.167.
-1. Genomför ändringarna och kör Cloud Servicen för att uppgradera till augusti-utgåvan av AEM Guides as a Cloud Service.
+Uppgradera din nuvarande konfiguration av Adobe Experience Manager Guides as a Cloud Service (kallas senare *AEM Guides as a Cloud Service*) genom att utföra följande steg:
+1. Ta en titt på Git-koden för molntjänster och växla till den gren som konfigurerats i molntjänstflödet för den miljö du vill uppgradera.
+1. Uppdatera egenskapen `<dox.version>` i `/dox/dox.installer/pom.xml`-filen för Git-koden för molntjänster till 2022.8.167.
+1. Genomför ändringarna och kör molntjänsterna för att uppgradera till augusti-versionen av AEM Guides as a Cloud Service.
 
 ## Kompatibilitetsmatris
 
-I det här avsnittet visas kompatibilitetsmatrisen för de program som stöds i AEM Guides as a Cloud Service August 2022.
+I det här avsnittet listas kompatibilitetsmatrisen för de program som stöds av AEM Guides as a Cloud Service från augusti 2022.
 
 ### FrameMaker och FrameMaker Publishing Server
 
@@ -31,7 +31,7 @@ I det här avsnittet visas kompatibilitetsmatrisen för de program som stöds i 
 | Inte kompatibel | 2020 uppdatering 4 och senare |
 | | |
 
-*Originalplan och villkor skapade i AEM stöds i FMPS-versioner från och med 2020.2.
+*Baslinje och villkor som skapats i AEM stöds i FMPS-versioner från och med 2020.2.
 
 ### Syrgasanslutning
 
@@ -82,7 +82,7 @@ De konfigurerade infogade attribut som definieras för ett ämne visas mot ämne
 
 ### Ytterligare filter i databasvyn
 
-Nu har filtersökningen i databasvyn blivit kraftfullare. Två nya sökvillkor, **Senast ändrade** och **taggar**, har lagts till för att filtrera filerna och begränsa sökningen i AEM:
+Nu har filtersökningen i databasvyn blivit kraftfullare. Två nya sökvillkor, **Senast ändrade** och **taggar**, har lagts till för att filtrera filerna och begränsa sökningen i AEM-databasen:
 * **Senast ändrad**: Du kan söka efter filer som senast har ändrats efter ett valt datum men före ett valt datum. Du kan också använda de fördefinierade villkoren och söka efter filer som senast har ändrats under de senaste 2 timmarna, förra veckan, förra månaden eller förra året.
 * **Taggar**: Du kan också söka efter filer som har särskilda taggar. Du kan antingen skriva taggen eller välja den i listrutan.
 
@@ -97,8 +97,8 @@ De buggar som har åtgärdats i olika områden listas nedan:
 * Uppdaterad Node.js används inte för publicering. 9835
 * DITA-avsnittet uppdateras inte automatiskt med de ändringar som har gjorts på sidan **Egenskaper**. 8745
 * Frontmatter-elementet fungerar inte korrekt när det läggs till i en DITA-bokmapp. 9507
-* PDF | Ett tomt PDF genereras när **Snabbgenerering** används för flera filer när ett tomt element är markerat. 9822
-* PDF | Bilaga publiceras som ett kapitel i utdata från PDF. 9829
+* PDF | En tom PDF genereras när **Snabbgenerering** används för flera filer när ett tomt element väljs. 9822
+* PDF | Bilaga publiceras som ett kapitel i PDF-utdata. 9829
 * PDF | När en SVG-bild redigeras visas den inte i sidlayouten. (9069)
 * Ett vanligt bindestreck infogas när ett `Nonbreaking Hyphen`-tecken infogas med dialogrutan **Infoga specialtecken** . (8919)
 * Uppdaterade bilder i avsnitten visas inte i XML-redigeraren om de har redigerats. (9500)
@@ -109,7 +109,7 @@ De buggar som har åtgärdats i olika områden listas nedan:
 * Det finns inget alternativ för att bläddra bland ämnen eller kartor som finns inuti undermapparna för en karta eller ämnesmall. 9889
 * När en Schematron-fil uppdateras och sparas tillsammans med DITA-filen visas inte den högra panelen (om DITA-filen bryter valideringarna i Schematron-filen). (9986)
 * En ny förinställning för duplicerade utdata kan skapas om namnet är detsamma som en befintlig förinställning. (9997)
-* Bilderna i SVG skadas och publiceras inte korrekt när du genererar utdata från HTML. (9949)
+* SVG-bilder blir skadade och publiceras inte korrekt när HTML-utdata genereras. (9949)
 
 
 ## Kända fel

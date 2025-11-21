@@ -1,28 +1,28 @@
 ---
 title: Versionsinformation för  [!DNL AEM Guides], februari 2022
-description: Februariutgåva av  [!DNL Adobe Experience Manager Guides] as a Cloud Service
+description: Februariutgåva av [!DNL Adobe Experience Manager Guides] as a Cloud Service
 exl-id: eb7ff475-bb5b-4d32-b291-024147fbfed1
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '974'
 ht-degree: 0%
 
 ---
 
-# Februariversion av [!DNL Adobe Experience Manager Guides] as a Cloud Service
+# Februariutgåva av [!DNL Adobe Experience Manager Guides] as a Cloud Service
 
 ## Uppgradera till februari-versionen
 
-Uppgradera din nuvarande konfiguration av [!DNL Adobe Experience Manager Guides] as a Cloud Service (kallas senare [!DNL AEM Guides] as a Cloud Service) genom att utföra följande steg:
-1. Ta en titt på Cloud Servicens Git-kod och växla till den gren som är konfigurerad i Cloud Servicens pipeline för den miljö du vill uppgradera.
-1. Uppdatera `<dox.version>`-egenskapen i `/dox/dox.installer/pom.xml`-filen för dina Cloud Services Git-kod till 2022.2.114.
-1. Genomför ändringarna och kör Cloud Servicens pipeline för att uppgradera till februari-utgåvan av [!DNL AEM Guides] as a Cloud Service.
+Uppgradera din nuvarande [!DNL Adobe Experience Manager Guides] as a Cloud Service-konfiguration (kallas senare [!DNL AEM Guides] as a Cloud Service) genom att utföra följande steg:
+1. Ta en titt på Git-koden för molntjänster och växla till den gren som konfigurerats i molntjänstflödet för den miljö du vill uppgradera.
+1. Uppdatera egenskapen `<dox.version>` i `/dox/dox.installer/pom.xml`-filen för Git-koden för molntjänster till 2022.2.114.
+1. Genomför ändringarna och kör molntjänstpipelinen för att uppgradera till februariversionen av [!DNL AEM Guides] as a Cloud Service.
 
 ## Kompatibilitetsmatris
 
-I det här avsnittet visas kompatibilitetsmatrisen för de program som stöds av utgåvan [!DNL AEM Guides] från as a Cloud Service februari 2022.
+I det här avsnittet visas kompatibilitetsmatrisen för de program som stöds i as a Cloud Service-versionen från [!DNL AEM Guides], februari 2022.
 
 ### FrameMaker och FrameMaker Publishing Server
 
@@ -44,11 +44,11 @@ I det här avsnittet visas kompatibilitetsmatrisen för de program som stöds av
 
 ### PDF
 
-Stöd för att skapa ett inbyggt PDF har också lagts till i februari-versionen av [!DNL AEM Guides] as a Cloud Service. En ny publiceringsmotor har lagts till med följande funktioner:
+Stöd för att skapa ett PDF-program har också lagts till i februari-utgåvan av [!DNL AEM Guides] as a Cloud Service. En ny publiceringsmotor har lagts till med följande funktioner:
 * Skapa en CSS-mall
 * Skapa olika sidmallar
 * Designa PDF-mallar med CSS och sidmallar
-* Publish karta och ämnesinnehåll i PDF-format
+* Publicera kartor och ämnesinnehåll i PDF-format
 
 ### Stöd för kunskapsbasens webbplatssökväg vid artikelbaserad publicering
 
@@ -68,7 +68,7 @@ Beroende på konfigurationen kan du välja att spara ändringarna och skapa en n
 
 Mer information finns i *Stängningsscenarier för filer och sparscenarier* i användarhandboken.
 
-* Ett hårt blanksteg har lagts till i teckenpallen.  Ett **hårt**-blanksteg förhindrar en automatisk radbrytning vid en viss punkt i ett HTML-dokument. Web Editor stöder fasta mellanslag för både AEM Site och HTML5.
+* Ett hårt blanksteg har lagts till i teckenpallen.  Ett **hårt**-blanksteg förhindrar en automatisk radbrytning vid en viss punkt i ett HTML-dokument. Web Editor har stöd för fasta mellanslag för både AEM Site och HTML5.
 
 * När du överför en bild från Web Editor visas en bekräftelsedialogruta om det redan finns en bild med samma namn. Du kan antingen behålla båda filerna - befintliga och nya, eller skriva över befintliga filer och bara spara den nya.
 
@@ -76,7 +76,7 @@ Mer information finns i *Stängningsscenarier för filer och sparscenarier* i an
 
 ### Kartkontrollpanel
 
-När du väljer att hämta DITA-kartan köas begäran och du får ett meddelande när kartan är klar att hämtas. Du kan välja att ladda ned kartfilen direkt eller ladda ned den senare via länken i Inkorgen för AEM.
+När du väljer att hämta DITA-kartan köas begäran och du får ett meddelande när kartan är klar att hämtas. Du kan välja att ladda ned kartfilen direkt eller ladda ned den senare via länken i AEM meddelandeinkorg.
 
 ![Kartnedladdning](assets/download-map-prompt.png)
 
@@ -92,7 +92,7 @@ De buggar som har åtgärdats i olika områden listas nedan:
 
 * Artikelbaserad publicering publicerar inte artiklar baserat på den valda baslinjen. 8771
 * DITAVAL-filer respekteras inte vid artikelbaserad publicering. 8770
-* Det går inte att göra artikelbaserad publicering för Salesforce-profil när posttypen är Vanliga frågor och artikelfältets innehåll är Fråga. 8448
+* Det går inte att göra artikelbaserad publicering för Salesforce-profilen när posttypen är Vanliga frågor och artikelfältets innehåll är Fråga. 8448
 * Det går inte att göra artikelbaserad publicering för Salesforce-profilen när posttypen är Manuell. 8447
 
 ### Web Editor
@@ -112,7 +112,7 @@ De buggar som har åtgärdats i olika områden listas nedan:
 
 * Bildredigeringen fungerar inte som förväntat på molnservern. 8768
 * I panelen för versionshistorik visas en felaktig tidsstämpel i det aktuella versionsavsnittet och informationen ändras. 8765
-* DITAVAL-filöverföring på molnservern misslyckas när AEM datorverktyg används. 8707
+* DITAVAL-filöverföring på molnservern misslyckas när AEM skrivbordsverktyg används. 8707
 * Den andra administratörsanvändaren kan inte läggas till som den första administratörsanvändaren i en mapp. 8430
 * Icke-unika egenskaper för en resurs kopieras inte när resursen kopieras och klistras in. 8241
 

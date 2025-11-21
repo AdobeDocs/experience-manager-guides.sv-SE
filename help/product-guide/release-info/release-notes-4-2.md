@@ -4,9 +4,9 @@ description: Läs om felkorrigeringarna och hur du uppgraderar till 4.2-utgåvor
 exl-id: 8a7fef77-63af-462f-89c5-054ab31e079b
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '1391'
+source-wordcount: '1390'
 ht-degree: 0%
 
 ---
@@ -50,9 +50,9 @@ Mer information finns i avsnittet *Tekniska krav* i guiden Installera och konfig
 | --- | --- | --- | --- | --- |
 | 4.2 (ej UUID) | 2022 eller senare | 2020.2 eller senare* | 2022 eller senare | 2020.3 eller senare |
 | 4.2 (UUID) | 2022 eller senare | 2020.2 eller senare* | 2022 eller senare | 2020.4 eller senare |
-| | | | |
+| | | | | |
 
-*Originalplan och villkor skapade i AEM stöds i FMPS-versioner från och med 2020.2.
+*Baslinje och villkor som skapats i AEM stöds i FMPS-versioner från och med 2020.2.
 
 ### Syrgasanslutning
 
@@ -60,7 +60,7 @@ Mer information finns i avsnittet *Tekniska krav* i guiden Installera och konfig
 | --- | --- | --- |--- |--- |
 | 4.2 (ej UUID) | 2.1-regular-4 | 2.1-regular-4 | 1,6 | 1,6 |
 | 4.2 (UUID) | 2.8-uuid-8 | 2.8-uuid-8 | 2,3 | 2,3 |
-|  |  |   |
+|  |  |   |  |  |
 
 ## Åtgärdade problem
 
@@ -71,7 +71,7 @@ De buggar som har åtgärdats i olika områden listas nedan:
 * Vänster panel bryts när en flik läggs till. (11126)
 * Ändringar i HTML-koden för Web Editor orsakar problem med `<dl>` och `<dlentry>`. (11024)
 * Vissa attribut behandlas inte som villkorliga och orsakar problem. (10895)
-* Tre nivåer eller fler kapslade `<indexterm>` är inte kapslade i export i PDF. (10799)
+* Tre nivåer eller fler kapslade `<indexterm>` är inte kapslade i PDF-export. (10799)
 * Innehållet försvinner i en uppgift när du växlar från redigeringsvyn till Source-vyn. (10735)
 * Granskningskommentarer placeras inte i en granskningsuppgift. 10625
 * `<conref>` anteckning inuti en paragrack visas inte i förhandsgranskningsläget. (10559)
@@ -87,7 +87,7 @@ De buggar som har åtgärdats i olika områden listas nedan:
 * Navigeringsproblem uppstår i Web Editor efter 4.0-uppgraderingen. (10159)
 * Alternativet Ångra i XML-redigeraren tar användaren längst upp på sidan. (10091)
 * Nodegenskaper tas bort efter att en resurs har kopierats och klistrats in. (10053)
-* SVG-filer som lagts till i DITA-avsnitt visas inte i redigerarens förhandsgranskningsläge. (10010)
+* SVG-filer som läggs till i DITA-avsnitt visas inte i redigerarens förhandsgranskningsläge. (10010)
 * Sökresultaten för att söka och ersätta i Web Editor kan inte läsas i mörkt läge. (9978)
 * Det finns ingen inläsare när en karta skapas från mappningsmallen. 9891
 * Conref i ämnesmallen fungerar inte och det hash-id som kopieras uppdateras inte i innehållskopian. (9890)
@@ -108,7 +108,7 @@ De buggar som har åtgärdats i olika områden listas nedan:
 * Web Editor-Baseline | Beteendet för den senaste kolumnen skiljer sig åt på den nya baslinjepanelen i Web Editor. (10808)
 * Översättning | Översättningsjobbet kommer inte igång på grund av ogiltig /libs/fmdita/i18n/ja.json. (10543)
 * Översättning | Ett fel inträffar i ett omfångsöversättningsprojekt som har skapats från översättningsinstrumentpanelen (mänsklig översättning). (10526)
-* Översättning | Post-bearbetning blockeras för hela språkmappen vars resurser finns i ett aktivt översättningsprojekt. (10332)
+* Översättning | Efterbearbetning blockeras för hela språkmappen vars resurser finns i ett aktivt översättningsprojekt. (10332)
 * Översättning| Metadata och taggar sprids inte till översatta kopior. 4696
 * Flera popup-fönster visas för alla resurser om versionen ändras och sparas i Baslinjeredigeraren. (10399)
 * Sessionsläckan inträffar på com.day.cq.search.impl.builder.QueryBuilderImpl.createResourceResolver(QueryBuilderImpl.java:210). (10279)
@@ -117,26 +117,26 @@ De buggar som har åtgärdats i olika områden listas nedan:
 ### Publicering
 
 * Omgenerering av ämnen fungerar inte i vissa scenarier. (10635)
-* Publicering i PDF misslyckas när utdata genereras för en dubblettförinställning (för en befintlig förinställning). (10584)
-* Knappen Visa logg fungerar inte om genereringen av PDF misslyckas för en förinställning. (10576)
+* PDF publicering misslyckas när utdata genereras för en dubblettförinställning (för en befintlig förinställning). (10584)
+* Knappen Visa logg fungerar inte om det inte går att generera PDF för en förinställning. (10576)
 * Publiceringslyssnaren visar inte begärda data i informationsloggar, och den innehåller även skräppostloggar.( 10567)
-* PDF | Genereringen av PDF misslyckas med ett Null-pekarundantag. (10950)
+* PDF | PDF-genereringen misslyckas med ett Null-pekarundantag. (10950)
 * PDF | conkeyref löses inte i genererade utdata. (10564)
-* PDF | Problem uppstår med metadata för en karta som behöver refereras i utdata från PDF.( 10556)
+* PDF | Problem uppstår med metadata för en karta som behöver refereras till i PDF-utdata.( 10556)
 * PDF | Problem uppstår när tabellrubriken roteras. (10555)
 * PDF | Problem inträffar när ämnen som har procesrole=&#39;resource-only&#39; tas bort. (10554)
-* PDF | Tomma nyckelrutor visas i utdata från PDF. (10553)
-* PDF | Kapslade `<indexterm>` är inte kapslade i export i PDF. (10521)
-* PDF | Inbyggd PDF använder inline-format i stället för klassnamn för de genererade taggarna. (10498)
-* PDF | Kapslade topicref i tillägg omformas alla till h1 i det temporära HTML.( 10454)
+* PDF | Tomma nyckelrutor visas i PDF-utdata. (10553)
+* PDF | Kapslade `<indexterm>` är inte kapslade i PDF-export. (10521)
+* PDF | Inbyggt PDF-format används i stället för klassnamn för de genererade taggarna. (10498)
+* PDF | Kapslade topicref i tillägg omformas alla till h1 i den temporära HTML.( 10454)
 * PDF | Det går inte att dölja ämnen som ligger före varandra i innehållsförteckningen. (10355)
-* PDF | Tabellens bildruteattribut har inte spridits till det temporära HTML (som klass). (10353)
+* PDF | Tabellens ramattribut har inte spridits till den temporära HTML (som klass). (10353)
 * PDF | Temporära HTML-filer lägger till klasserna colsep och rowsep i <td> och <th> även om deras värde är 0 i käll-DITA. (10352)
 * PDF | Om du startar om sidnummer i kapitellayouten startas numreringen slumpmässigt från slutet av föregående kapitel. (10154)
 * PDF | Nyckelreferenser för nyckeldefinitioner med bilder eller externa länkar kommer inte att matchas. (10063)
-* PDF | Bilaga visas som ett kapitel i genererad PDF. 9829
+* PDF | Bilaga visas som ett kapitel i genererade PDF. 9829
 * Fliken Mall i xml-redigeraren visas inte för mappprofiladministratörer. (10266)
-* Baslinjepublicering misslyckas för PDF som genereras med FrameMaker Publishing Server 2020. (10551)
+* Originalpublicering misslyckas för PDF som genererats med FrameMaker Publishing Server 2020. (10551)
 * Ett programfel inträffar när du klickar på knappen Redigera efter att ha markerat alla förinställningar via kryssrutan Utdatainställningar i snabbgenereringsfönstret. (10388)
 * Om fliken Utdata i Web Editor har fler förinställningar går det inte att rulla avsnittet med förinställningar lodrätt och inte alla tillgängliga förinställningar visas. 9787
 * Det går inte att ta bort förinställningar från utdataarbetsflödet vid publicering via redigeraren. (9100)
@@ -144,6 +144,6 @@ De buggar som har åtgärdats i olika områden listas nedan:
 
 ## Känt fel
 
-Adobe har identifierat följande kända fel i AEM Guides 4.2:
+Adobe har identifierat följande kända problem i AEM Guides 4.2:
 
 * Användare kan utföra granskningsåtgärder även när granskningsuppgifterna har slutförts.

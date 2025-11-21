@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 9a9ae44f-8fed-4a4e-812c-451bcf138d0a
-source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '2732'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Så här skapar du AEM Sites-förinställningar i Web Editor:
 1. Välj **AEM Sites** i listrutan **Typ** i dialogrutan **Ny förinställning**.
 1. Avmarkera alternativet **Använd äldre komponentmappning** i dialogrutan **Ny förinställning** .
 
-![Nytt &#x200B;](images/new-aem-sites-dialog-box.png)
+![Nytt ](images/new-aem-sites-dialog-box.png)
 
 
 
@@ -42,8 +42,8 @@ Så här skapar du AEM Sites-förinställningar i Web Editor:
 >[!NOTE]
 >
 >Innan du konfigurerar AEM Sites-förinställningarna för Experience Manager Guides måste administratören skapa en AEM Sites-struktur med hjälp av mallarna.
->- **Lokal programvara**: Läs mer om hur du [hämtar och installerar AEM Sites-mallar](/help/product-guide/install-guide/download-install-aem-sites-templates.md) för lokal programvara.
->- **Cloud Service**: Läs mer om hur du [hämtar och installerar AEM Sites-mallar](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md) för Cloud Service.
+- **Lokal programvara**: Läs mer om hur du [hämtar och installerar AEM Sites-mallar](/help/product-guide/install-guide/download-install-aem-sites-templates.md) för lokal programvara.
+- **Cloud Service**: Läs mer om hur du [hämtar och installerar AEM Sites-mallar](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md) för Cloud Service.
 
 
 

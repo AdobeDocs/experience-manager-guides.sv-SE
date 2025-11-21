@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 5fc81de9-9ae0-4cd4-a7ef-b52eed2479f7
-source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1158'
 ht-degree: 0%
@@ -60,7 +60,6 @@ Du kan även visa följande alternativ i förinställningarna för Salesforce oc
 | Överför som utkast | Välj det här alternativet om du vill överföra ämnet för att dela det som ett utkast innan det görs tillgängligt för användarna. |
 | Överför bilder | Välj det här alternativet om du vill att bilder i ämnen ska inkluderas i publicerade utdata. |
 | Överför länkade dokument | Välj det här alternativet om du vill inkludera de dokument som är länkade i ämnen i publicerade utdata. |
-
 
 ### Adobe Experience Manager
 

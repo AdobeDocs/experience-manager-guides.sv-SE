@@ -5,7 +5,7 @@ exl-id: 1f0e023a-422c-47b9-917f-b0d80090471c
 feature: Rest API Conditional Attributes
 role: Developer
 level: Experienced
-source-git-commit: 6184bb98c9897e980a6fba2f97476570228188af
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 0%
@@ -18,10 +18,10 @@ Med följande REST API kan du lägga till villkorsattribut i en mappprofil.
 
 ## Lägg till villkorsattribut i en mappnivåprofil
 
-En mappmetod som lägger till villkorsstyrda attribut i en viss mappnivåprofil.
+En POST-metod som lägger till villkorliga attribut i en viss mappnivåprofil.
 
 **Begär URL**:\
-http://*&lt;aem-guides-server\>*: *&lt;portnummer\>*/bin/fmdita/folderprofiles
+http://*<aem-guides-server\>*: *<portnummer\>*/bin/fmdita/folderprofiles
 
 **Parametrar**:
 

@@ -4,9 +4,9 @@ description: Novemberversionen av Adobe Experience Manager Guides as a Cloud Ser
 exl-id: 9f329ec1-dd74-47cc-8567-3fadd962584a
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '1384'
+source-wordcount: '1383'
 ht-degree: 0%
 
 ---
@@ -15,22 +15,22 @@ ht-degree: 0%
 
 ## Uppgradera till november-versionen
 
-Uppgradera din nuvarande Adobe Experience Manager Guides as a Cloud Service-konfiguration (kallas senare *AEM Guides as a Cloud Service*) genom att utföra följande steg:
-1. Ta en titt på Cloud Servicens Git-kod och växla till den gren som är konfigurerad i Cloud Servicens pipeline för den miljö som du vill uppgradera.
-1. Uppdatera `<dox.version>`-egenskapen i `/dox/dox.installer/pom.xml`-filen för dina Cloud Services Git-kod till 2022.11.198.
-1. Genomför ändringarna och kör Cloud Servicens pipeline för att uppgradera till november-utgåvan av AEM Guides as a Cloud Service.
+Uppgradera din nuvarande konfiguration av Adobe Experience Manager Guides as a Cloud Service (kallas senare *AEM Guides as a Cloud Service*) genom att utföra följande steg:
+1. Ta en titt på Git-koden för molntjänster och växla till den gren som konfigurerats i molntjänstflödet för den miljö som du vill uppgradera.
+1. Uppdatera egenskapen `<dox.version>` i `/dox/dox.installer/pom.xml`-filen för Git-koden för molntjänster till 2022.11.198.
+1. Genomför ändringarna och kör molntjänstpipelinen för att uppgradera till november-versionen av AEM Guides as a Cloud Service.
 
 ## Steg för att indexera befintligt innehåll (endast om du använder en version som är tidigare än september-versionen av AEM Guides as a Cloud Service)
 
 Utför följande steg för att indexera det befintliga innehållet och använd den nya sök- och ersätt-texten på mappningsnivå:
 
-* Kör en POST-förfrågan till servern (med korrekt autentisering) - `http://<server:port>/bin/guides/map-find/indexing`.
+* Kör en POST-begäran till servern (med korrekt autentisering) - `http://<server:port>/bin/guides/map-find/indexing`.
 (Valfritt: Du kan skicka specifika sökvägar för mappningarna för att indexera dem. Som standard indexeras alla mappningar || Exempel: `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 
-* API:t returnerar ett jobId. Om du vill kontrollera statusen för jobbet kan du skicka en GET-förfrågan med jobb-ID till samma slutpunkt - `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
-(Exempel: http://&lt;_localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c183 79f11c42_678)
+* API:t returnerar ett jobId. Om du vill kontrollera jobbets status kan du skicka en GET-begäran med jobb-ID till samma slutpunkt - `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
+(Exempel: http://&lt;_localhost:8080_>/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c (42_678)
 
-* När jobbet är klart kommer ovanstående GET-förfrågan att svara och ange om några kartor misslyckades. De korrekt indexerade mappningarna kan bekräftas från serverloggarna.
+* När jobbet är klart kommer ovanstående GET-förfrågan att besvaras med framgång och ange om några kartor misslyckades. De korrekt indexerade mappningarna kan bekräftas från serverloggarna.
 
 ## Kompatibilitetsmatris
 
@@ -43,14 +43,14 @@ I det här avsnittet visas kompatibilitetsmatrisen för de program som stöds i 
 | Inte kompatibel | 2020 uppdatering 4 och senare |
 | | |
 
-*Originalplan och villkor skapade i AEM stöds i FMPS-versioner från och med 2020.2.
+*Baslinje och villkor som skapats i AEM stöds i FMPS-versioner från och med 2020.2.
 
 ### Syrgasanslutning
 
 | AEM Guides som Cloud-release | Syrgasanslutningsfönster | Syrgasanslutning Mac | Redigera i syrgasfönster | Redigera i Syrgas Mac |
 | --- | --- | --- | --- | --- |
 | 2022.11.0 | 2.7.13 | 2.7.13 | 2,3 | 2,3 |
-|  |  |  |  |
+|  |  |  |  |  |
 
 
 ## Nya funktioner och förbättringar
@@ -65,7 +65,7 @@ Nu kan du enkelt ta bort filer (en fil i taget) från menyn **Alternativ** för 
 
 En bekräftelse visas innan filen tas bort. Om det inte finns någon referens till filen från någon annan fil tas den bort och ett meddelande om att åtgärden lyckades visas.
 
-Om den markerade filen är utcheckad kan du inte ta bort den och ett felmeddelande visas. Om den markerade filen läggs till i en favoritsamling eller refereras från någon annan fil, AEM guider kontrollerar om du fått din bekräftelse och du har möjlighet att framtvinga borttagning. Om du tar bort ett refererat ämne och har öppnat filen som innehåller referenser för redigering, visas den brutna länken för den refererade filen.
+Om den markerade filen är utcheckad kan du inte ta bort den och ett felmeddelande visas. Om den markerade filen läggs till i en favoritsamling eller refereras från någon annan fil, söker AEM-guider efter din bekräftelse och ger dig möjlighet att framtvinga borttagning. Om du tar bort ett refererat ämne och har öppnat filen som innehåller referenser för redigering, visas den brutna länken för den refererade filen.
 
 **Obs!** Du kan även ta bort den markerade filen med tangenten Delete på tangentbordet.
 
@@ -93,7 +93,7 @@ I AEM Guides kan du skapa och hantera förinställningar för globala profiler o
 
 **Obs!** Endast administratörer på mappnivå kan skapa förinställningar för global profil och mappprofil.
 
-De här globala förinställningarna visas under fliken **Utdata** för alla relaterade kartor. Du kan använda dem för att generera utdata för alla relaterade kartor. Du kan välja förinställningen som standardförinställning för PDF för att generera utdata från PDF. Du kan också **Redigera**, **Byt namn**, **Duplicera** eller **Ta bort** en befintlig förinställning på menyn **Alternativ** .
+De här globala förinställningarna visas under fliken **Utdata** för alla relaterade kartor. Du kan använda dem för att generera utdata för alla relaterade kartor. Du kan välja förinställningen som standardförinställning för PDF för att generera PDF-utdata. Du kan också **Redigera**, **Byt namn**, **Duplicera** eller **Ta bort** en befintlig förinställning på menyn **Alternativ** .
 
 ### Kolumnen Versionsetikett har lagts till på översättningsinstrumentpanelen
 
@@ -104,7 +104,7 @@ På översättningens kontrollpanel kan du även se kolumnen Versionsetikett. D�
 
 ### PDF | PDF med ändringsfält som visar skillnaden mellan dokumentversioner
 
-Nu kan du skapa en PDF som visar skillnaderna i innehåll mellan två versioner med hjälp av ändringsfältet. Du kan välja att jämföra den aktuella versionen med en baslinje från den tidigare versionen eller jämföra de två valda baslinjeversionerna.
+Nu kan du skapa en PDF som visar skillnaderna i innehåll mellan två versioner med ändringsfältet. Du kan välja att jämföra den aktuella versionen med en baslinje från den tidigare versionen eller jämföra de två valda baslinjeversionerna.
 
 <img src="assets/pdf-change-version.png" alt="spdf-change-version" width="600">
 
@@ -125,27 +125,27 @@ Nu kan du även använda följande variabler för att definiera utdatasökväg o
 
 ### PDF | Generera innehållsförteckning för DITA-kartor och ändra ordning på sidlayouter
 
-Nu kan du även generera innehållsförteckningen i DITA-kartor med en avancerad PDF-inställning för mallen. Du kan välja att aktivera eller inaktivera visningen av de olika sidlayouterna och även ändra ordningen på deras position.
+Nu kan du även generera innehållsförteckningen i DITA-kartor med en avancerad PDF-inställning av mallen. Du kan välja att aktivera eller inaktivera visningen av de olika sidlayouterna och även ändra ordningen på deras position.
 
 ## Åtgärdade problem
 
 De buggar som har åtgärdats i olika områden listas nedan:
 
-* PDF | `conkeyref` löses inte i genererade PDF-utdata. (10564)
-* PDF | Problem uppstår vid åtkomst av metadata för en karta i utdata från PDF. (10556)
+* PDF | `conkeyref` löses inte i de genererade PDF-utdata. (10564)
+* PDF | Problem uppstår vid åtkomst av metadata för en karta i PDF-utdata. (10556)
 * PDF | Textbundna format används för att generera taggar i stället för klassnamn.  (10498)
 * Webbredigeraren läser in tomma sidor ibland. (10678)
-* Publicering i PDF misslyckas om vi skapar en förinställning genom att duplicera en befintlig förinställning. (10584)
-* **Knappen Visa logg** fungerar inte när PDF inte kan generera en förinställning. (10576)
+* PDF publicering misslyckas om vi skapar en förinställning genom att duplicera en befintlig förinställning. (10584)
+* **Knappen Visa logg** fungerar inte när det inte går att generera PDF för en förinställning. (10576)
 * Anteckning inuti en paragraf som är en konref visas inte i förhandsvisningen. (10559)
 * Hela listan tas bort om du placerar backstegstangenten i slutet av ett listobjekt. (10540)
-* Vid export av inbyggda PDF är inte kapslade `<indexterm>` kapslade i indexet. (10521)
+* När du använder en PDF-export kapslas inte `<indexterm>` in i indexet. (10521)
 * Knappen **Automatiskt indrag** i verktygsfältet saknas i Source-vyn. 10448
 * Det första tecknet i ett listobjekt försvinner när listan redigeras. 10447
 * Flera popup-fönster visas om någon DITA-resursversion ändras och sparas i redigeringsfönstret för baslinjen. (10399)
 * Ett programfel inträffar när du klickar på knappen **Redigera** efter att ha valt alla utdataförinställningar på snabbgenereringspanelen. (10388)
 * Anpassade metadata för DITA-avsnitt bevaras inte när en inklistringsåtgärd för kopiering utförs från Assets-gränssnittet. (10367)
-* Post-bearbetning blockeras för hela språkmappen vars resurser finns i ett aktivt översättningsprojekt. (10332)
+* Efterbearbetning blockeras för hela språkmappen vars resurser finns i ett aktivt översättningsprojekt. (10332)
 * Fliken Mall i XML-redigeraren är inte synlig för mappprofiladministratörer. (10266)
 * Navigeringsproblem uppstår i Web Editor efter 4.0-uppgraderingen. (10159)
 * SVG-filer visas inte i förhandsgranskningsläget. (10010)

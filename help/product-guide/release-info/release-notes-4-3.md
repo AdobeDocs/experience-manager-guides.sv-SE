@@ -4,9 +4,9 @@ description: Läs om felkorrigeringarna och hur du uppgraderar till 4.3.0-utgåv
 exl-id: 7fb568a0-0b88-4ea0-9b79-2625336348ff
 feature: Release Notes
 role: Leader
-source-git-commit: 5a444e88b0adba7fa3d498437df39b729b10b5eb
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '1086'
+source-wordcount: '1085'
 ht-degree: 0%
 
 ---
@@ -57,9 +57,9 @@ Mer information finns i avsnittet *Tekniska krav* i guiden Installera och konfig
 | --- | --- | --- | --- | --- |
 | 4.3.0 (ej UUID) | 2022 eller senare | 2020.2 eller senare* | 2022 eller senare | 2020.3 eller senare |
 | 4.3.0 (UID) | 2022 eller senare | 2020.2 eller senare* | 2022 eller senare | 2020.4 eller senare |
-| | | | |
+| | | | | |
 
-*Originalplan och villkor skapade i AEM stöds i FMPS-versioner från och med 2020.2.
+*Baslinje och villkor som skapats i AEM stöds i FMPS-versioner från och med 2020.2.
 
 ### Syrgasanslutning
 
@@ -67,7 +67,7 @@ Mer information finns i avsnittet *Tekniska krav* i guiden Installera och konfig
 | --- | --- | --- |--- |--- |
 | 4.3.0 (ej UUID) | 2.3-regular-5 | 2.3-regular-5 | 1,6 | 1,6 |
 | 4.3.0 (UID) | 3.0-uuid-4 | 3.0-uuid-3 | 2,3 | 2,3 |
-|  |  |   |
+|  |  |   |  |  |
 
 ## Åtgärdade problem
 
@@ -79,7 +79,7 @@ De buggar som har åtgärdats i olika områden listas nedan:
 - Det går inte att checka ut en fil i webbredigeraren, trots att du har valt alternativet NEJ för att ignorera ändringarna före incheckning. 12557
 - Verktygstipsen för filikonerna Lås och lås upp i huvudverktygsfältet i Web Editor är inte konsekventa med de ikoner som visas i databasvyn.(12555)
 - Alternativet Avbryt utcheckning och Lås upp visas för en fil i Web Editor som ännu inte är utcheckad i Kartvyn. (12556)
-- Det går inte att markera PDF-resurserna i de befintliga topicref-länkarna. (12477)
+- Det går inte att välja PDF-resurser i de befintliga topicref-länkarna. (12477)
 - När du sammanfogar och delar i tabeller genererar AEM Guides 4.2 ytterligare tabellceller. 11793
 - I databasvyn kan du inte dra ämnen eller bilder efter att du har använt funktionerna Sök/Filter. 12396)
 - Sökresultaten inaktiveras på panelen Sök och ersätt när du har öppnat en sökad fil. (12142)
@@ -111,28 +111,28 @@ De buggar som har åtgärdats i olika områden listas nedan:
 
 ### Publicering
 
-- Publiceringen misslyckas när namnet på en förinställning för inbyggda PDF ändras. (12564)
-- När du duplicerar en inbyggd PDF-mall dupliceras den till standardmallplatsen i stället för den angivna anpassade mallplatsen. 12563
-- PDF | Språkmetadata kan inte anges i det genererade PDF för att uppfylla kraven i WCAG 2.0. 12407
-- Publicering till AEM misslyckas när temporära filer från pod som kan ha uppdaterats eller startats om läses. (12113)
-- PDF | Anpassade attribut sprids inte till motorn för temporära HTML eller PDF. (DXML-12005)
+- Publiceringen misslyckas när namnet på en intern PDF-förinställning ändras. (12564)
+- När du duplicerar en ursprunglig PDF-mall dupliceras den till standardmallplatsen i stället för den angivna anpassade mallplatsen. 12563
+- PDF | Språkmetadata kan inte anges i den genererade PDF så att de överensstämmer med WCAG 2.0. 12407
+- Publicering på AEM-webbplats misslyckas när temporära filer från pod som kan ha uppdaterats eller startats om läses. (12113)
+- PDF | Anpassade attribut sprids inte till en temporär HTML- eller PDF-motor. (DXML-12005)
 - PDF |  Java OutOfMemoryError inträffar vid publicering av stort innehåll. 11789
 - PDF | Xref skriver ut innehållet i href-ämnesrubriken i stället för Xref-etiketten. (11322)
 - PDF | Det går inte att spara mallinställningarna för PDF. (10751)
 - PDF | Texten sträcker sig utanför kolumnbredden och inkluderar flera xrefs. (10876)
-- PDF | Elementet `<note>` `</note>` genererar inte någon extra intervalltitel av sin typ. (10549)
+- PDF | Elementet `<note>``</note>` genererar inte någon extra intervalltitel av sin typ. (10549)
 - JSON-utdata | Egenskapen `fmUuid` i JSON-noden jcr:content skiljer sig från id:t i JSON. (11564)
 - JSON-utdata | Om kartan och ämnet med samma filnamn finns, tas JSON bort för kartan. (11524)
 
 ## Känt fel
 
-Adobe har identifierat följande kända fel i AEM Guides 4.3.0:
+Adobe har identifierat följande kända problem i AEM Guides 4.3.0:
 
 - En gemensam sidlayout som definieras i den grundläggande mallen används inte som standardmall.
 
   Lösning:
 Lägg till gemensam sidlayout som fram- och baksida och börja sedan komma för varje sida.
-- Ett problem uppstår i Webbplatssökning när du söker på AEM webbplats utdatasida AEM Service Pack 16 eller 17.
+- Ett problem uppstår i Webbplatssökning när du söker på AEM webbplats utdatasida i AEM Service Pack 16 eller 17.
 
   Lösning:
 

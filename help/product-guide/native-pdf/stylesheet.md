@@ -1,11 +1,11 @@
 ---
-title: PDF Publish-funktion | Arbeta med vanliga innehållsformat
+title: PDF publiceringsfunktion | Arbeta med vanliga innehållsformat
 description: Lär dig hur du skapar formatmallar och skapar format för ditt innehåll.
 exl-id: 42ba7347-d81d-45d9-9627-8d164e4f9539
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: f98aa2b4b196ee0fd46542317894163b64b8a486
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '3778'
 ht-degree: 0%
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # Arbeta med vanliga innehållsformat {#work-with-common-styles}
 
-En formatmall innehåller definitioner av format för de element som används i utdata från PDF. Du kan välja att arbeta med exempelformatmallarna eller skapa nya. I de flesta fall kan du snabbt komma igång genom att skapa en kopia av OTB-exempelformatmallen.
+En formatmall innehåller definitioner av format för de element som används i dina PDF-utdata. Du kan välja att arbeta med exempelformatmallarna eller skapa nya. I de flesta fall kan du snabbt komma igång genom att skapa en kopia av OTB-exempelformatmallen.
 
-Formatredigeraren är en WYSIWYG-redigerare som döljer alla komplexa CSS-koder bakom användargränssnittet. Med stilredigeraren kan du enkelt och mycket snabbt anpassa stilarna för de element du vill använda. Formaten är kategoriserade under följande rubriker:
+Formatredigeraren är en WYSIWYG-redigerare som döljer alla komplexa element i en CSS-kod bakom användargränssnittet. Med stilredigeraren kan du enkelt och mycket snabbt anpassa stilarna för de element du vill använda. Formaten är kategoriserade under följande rubriker:
 
 * Rubrikformat
 * Styckeformat
@@ -49,7 +49,7 @@ Rubrikformaten kapslar in alla basformat för de rubriker som används i innehå
 
 I en bok (eller en bokmapp) arbetar du med kapitel. Basrubrikformaten är utformade på ett sådant sätt att de tillämpas på rubriker på kapitelnivå utan anpassningar. Men om du vill skapa rubriker för innehållet måste du skapa rubrikerna. Standardrubriken `h1.chapter` används till exempel på kapitlets rubrik. Om du vill att kapiteltiteln ska visas i ett annat format måste du anpassa formatet `h1.chapter`. På samma sätt kan du skapa egna format för underrubriker i kapitlet. Om du till exempel vill skapa ett anpassat format för alla rubriker på nivå 2<sup>nd</sup> och 3<sup>rd</sup> i kapitlet, måste du skapa ett nytt format som `h2.chatper` och `h3.chatper`.
 
-Eftersom publiceringsfunktionen för ursprungliga PDF innehåller basformatsdefinitionerna för de vanligaste formaten, används standardformatet för innehållet även om du av misstag tar bort ett format. Om det t.ex. inte finns någon formatdefinition för h2-formatet i din formatmall kommer publiceringsfunktionen för PDF att använda en grundstil för h2-innehåll.
+Eftersom den inbyggda PDF Publishing-funktionen innehåller basformatdefinitionerna för de vanligaste formaten, används standardformatet för innehållet även om du råkar ta bort ett format. Om det t.ex. inte finns någon formatdefinition för h2-formatet i din formatmall kommer den inbyggda PDF-publiceringsfunktionen att tillämpa en viss grundstil på h2-innehållet.
 
 I det här exemplet skapar vi en kapitelrubrikstil på den andra nivån:
 
@@ -141,7 +141,6 @@ Egenskaperna för formatet h1 visas på egenskapspanelen tillsammans med förhan
    |  | Format | `Section <2>.<x>:` |  |
    |  | Prefixbredd | 125 px |  |
    |  | Teckensnitt > Textjustering | Vänster | Kontrollera att Använd formatering på är inställt på Numrering |
-   |  |
 
    <img src="./assets/auto-number-output.png" width="500">
 
@@ -151,7 +150,7 @@ Du kan skapa ett styckeformat om du vill använda specialformatering för ett he
 
 ### Skapa anfangsstil {#drop-cap-style}
 
-En anfangsstil (eller en versalstil som tappats) används i tidskrifter och litterära dokument där det första tecknet i ett stycke eller avsnitt får en viss speciell formatering. Du kan uppnå samma effekt med publiceringsfunktionen för PDF.
+En anfangsstil (eller en versalstil som tappats) används i tidskrifter och litterära dokument där det första tecknet i ett stycke eller avsnitt får en viss speciell formatering. Du kan uppnå samma effekt med den inbyggda PDF-publiceringsfunktionen.
 
 I följande exempel skapar vi en anfangsstil:
 
@@ -165,7 +164,7 @@ I följande exempel skapar vi en anfangsstil:
 
 1. Högerklicka på **styckeformatet** och välj **Nytt format**.
 
-1. I dialogrutan *Lägg till format* behåller du namnet **Tagg** som p och väljer `::first-letter` i fältet **Pseudo** **Klass** .
+1. I dialogrutan *Lägg till format* behåller du namnet **Tagg** som p och väljer **i fältet** Pseudo **** Klass`::first-letter` .
 
 1. Klicka på **Klar**.
 
@@ -378,8 +377,8 @@ På följande skärmbild visas den wintitle-stil som används på texten &quot;P
 
 ## Definiera ett unikt format för en enda sidlayout
 
-När du publicerar utdata från det ursprungliga PDF sammanfogas alla format i det slutliga PDF, och det är viktigt att tilldela varje mall i CSS ett unikt format.
-Använd distinkta CSS-formatnamn för att använda specifika teckensnitt och format på olika avsnitt i PDF. Du kan till exempel definiera önskat teckensnitt för omslagssidan med följande CSS.
+När du publicerar PDF-utdata sammanfogas alla format i den slutliga PDF-versionen, och det är viktigt att tilldela varje mall i CSS ett unikt format.
+Använd distinkta CSS-formatnamn för att tillämpa specifika teckensnitt och format på olika avsnitt i en PDF. Du kan till exempel definiera önskat teckensnitt för omslagssidan med följande CSS.
 
 ```css
 ...
@@ -406,12 +405,12 @@ Du kan till exempel definiera följande format för att definiera teckensnittsst
 
 >[!NOTE]
 >
->I föregående exempel är&quot;Framsida&quot; och&quot;Baksida&quot; exempelnamnen på de layoutfiler som du kan använda i mallarna.
+> I föregående exempel är&quot;Framsida&quot; och&quot;Baksida&quot; exempelnamnen på de layoutfiler som du kan använda i mallarna.
 
 
 ## Definiera anpassat CSS-format för prefix- och suffixinnehåll
 
-Om du definierar de anpassade CSS-formaten får de den första prioriteten när du genererar utdata från det ursprungliga PDF.
+Om du definierar de anpassade CSS-formaten får de den första prioriteten när du genererar PDF-utdata.
 Följande standard-CSS-format döljer både prefix- och suffixinnehåll.
 
 ```css

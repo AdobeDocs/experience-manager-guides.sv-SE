@@ -5,7 +5,7 @@ feature: Migration
 role: Admin
 level: Experienced
 exl-id: f53f4eef-5e99-4342-9919-508b90ee3571
-source-git-commit: dfac88a4a1ca0247a4b1f07982e178fd7126d2e2
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1507'
 ht-degree: 0%
@@ -179,10 +179,10 @@ Mer information finns i [Rensa äldre versioner](../install-guide/version-manage
 
 | Sammanfattning efter slutförande av process | Hur ska jag tolka? | Åtgärd |
 |---|---|---|
-| Totalt antal filer: 4833 | Antal DITA-kartor med minst 1 baslinje. |
-| Antal filer som uppgraderats: 4705 | Antal DITA-kartor som uppgraderats med alla baslinjer. |
-| Antal filer som uppgraderats med fel: 0 | Antal DITA-kartor vars baslinjer inte uppgraderades. |
-| Antal överhoppade filer: 1647 | Antal DITA-kartor utan baslinje. |
+| Totalt antal filer: 4833 | Antal DITA-kartor med minst 1 baslinje. |  |
+| Antal filer som uppgraderats: 4705 | Antal DITA-kartor som uppgraderats med alla baslinjer. |  |
+| Antal filer som uppgraderats med fel: 0 | Antal DITA-kartor vars baslinjer inte uppgraderades. |  |
+| Antal överhoppade filer: 1647 | Antal DITA-kartor utan baslinje. |  |
 | Antal filer som inte kunde uppgraderas: 128 | Antalet baslinjeobjekt som inte var giltiga (de var tomma) visas i rapporten (Excel). | Kontrollera om det finns andra fel än: `baselineObj not found on` |
 
 
@@ -220,5 +220,5 @@ Mer information finns i [Rensa äldre versioner](../install-guide/version-manage
    > Om egenskapen **Använd titel för sidnamn på AEM-webbplatser** i `com.adobe.fmdita.config.ConfigManager` anges till *Falskt* före migreringen, måste den här egenskapen uppdateras efter migreringen.
 
 
-1. När valideringen är klar kan större delen av diskutrymmet återvinnas genom att en komprimering körs (se `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=sv-SE`).
+1. När valideringen är klar kan större delen av diskutrymmet återvinnas genom att en komprimering körs (se `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en`).
 

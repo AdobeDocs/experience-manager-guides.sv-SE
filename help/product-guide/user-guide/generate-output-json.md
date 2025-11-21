@@ -4,7 +4,7 @@ description: Lär dig hur du skapar JSON-förinställningar från kartkonsolen. 
 exl-id: 9eb426fc-ca0a-4932-8a55-fea731281a0a
 feature: Publishing
 role: User
-source-git-commit: 47927187ec0d9eb4f2f78e3cf6062f1992ad0615
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '915'
 ht-degree: 0%
@@ -63,4 +63,4 @@ Följande alternativ är tillgängliga för JSON-förinställningen:
 | Egenskaper som ska spridas i utdata | Välj de egenskaper som du vill bearbeta som metadata. Dessa egenskaper ställs in från sidan Egenskaper i DITA-kartan eller bokmappningsfilen. Egenskaperna som du väljer i listrutan visas under fältet Egenskaper.<br><br>**Obs!**: Du kan också definiera anpassade egenskaper och skicka metadata till utdata med DITA-OT-publicering. [Arbeta med metadata](metadata-dita.md#id21BJ00QD0XA) om du vill ha mer information. |
 | Arbetsflöde efter generering | När du väljer det här alternativet visas en ny arbetsflödeslista som innehåller alla arbetsflöden som konfigurerats i AEM. Du måste välja ett arbetsflöde som du vill köra när arbetsflödet för generering av utdata har slutförts.<br><br>**Obs!** Mer information om hur du skapar ett anpassat arbetsflöde för efterhandsgenerering finns i _Anpassa arbetsflöde för efterhandsgenerering_ i guiden Installera och konfigurera Adobe Experience Manager Guides as a Cloud Service. |
 
-**Överordnat ämne:**&#x200B;[&#x200B; Förstå förinställningarna för utdata](generate-output-understand-presets.md)
+**Överordnat ämne:**[ Förstå förinställningarna för utdata](generate-output-understand-presets.md)

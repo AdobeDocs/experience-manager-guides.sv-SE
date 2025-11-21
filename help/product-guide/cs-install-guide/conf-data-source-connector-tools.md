@@ -5,9 +5,9 @@ exl-id: d7cd412b-89ea-43a5-97b3-09944863bbee
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 873542cb2e8e1b7e80e0ecc113cae4f603b18592
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '902'
+source-wordcount: '883'
 ht-degree: 0%
 
 ---
@@ -35,8 +35,10 @@ Så här konfigurerar du en koppling:
    <img src="./assets/data-sources-create-window.png" alt= "datakällor som listas på sidan med datakällor" width="800">
 
    *Visa eller skapa en datakällkoppling.*
+
 1. Klicka på **Skapa**.
-1. Välj den databas som du vill skapa kopplingen för. Exempel: Elasticsearch-kopplingen.
+1. Välj den databas som du vill skapa kopplingen för. Exempel: Elasticsearch Connector.
+
    >[!NOTE]
    >
    >Alla tillgängliga färdiga databaser visas.
@@ -47,7 +49,7 @@ Så här konfigurerar du en koppling:
    >[!TIP]
    >
    >* Hovring <img src="./assets/info-details.svg" alt= "informationsikon" width="25"> nära fältet om du vill visa mer information om det.
-   > * Fält med * är obligatoriska. Du kan till exempel ange följande information för Elasticsearch-kopplingen.
+   >* Fält med * är obligatoriska. Du kan till exempel ange följande information för Elasticsearch-anslutningen.
 
    * **Namn**: Ange namnet på datakällan.
    * **Autentiseringstyp**: Välj autentiseringstyp i listrutan. Grundläggande autentisering av användarnamn och lösenord
@@ -57,12 +59,7 @@ Så här konfigurerar du en koppling:
 
 
 1. Välj alternativet **Uteslut fabriksmallar** om du vill exkludera fabriksmallarna från att användas för ämnesgenerering och fragmentgenerering. De visas inte i listrutan **Datamappningsmall** i **Skapa innehållsfragment** eller i dialogrutan **Lägg till ämnesgenerator**.
-
-
 1. Välj **Testa anslutningen**. Du kan bara visa knappen **Testa anslutning** när du har lagt till den information som krävs. Visa ett meddelande om att anslutningen är korrekt. Annars kan du visa ett felmeddelande.
-
-
-
 1. Välj **Spara** längst upp för att spara kopplingen.     Visa knappen **Spara** aktiverad när du har fyllt i all information och anslutningen har upprättats.
 
 
@@ -78,7 +75,6 @@ Så här skapar du en resurs:
 1. Konfigurera all information i dialogrutan **Lägg till resurs**.
 1. Klicka på **Lägg till**.
 1. Du kan redigera ![redigeringsikonen](assets/edit_pencil_icon.svg) eller ta bort ![ta bort](assets/Delete_icon.svg) resursen från URL-resurslistan.
-
 1. Du kan också använda standardresurserna som är tillgängliga för datakällor som Salsify, Akeneo och Microsoft ADO. Växla alternativen AV för den resurs som du inte vill konfigurera för en datakälla.
 
 Detta hjälper dig att snabbt hämta data från någon av resurserna för en viss datakälla i ett enda innehållskuvert eller ämne.
@@ -87,7 +83,7 @@ Detta hjälper dig att snabbt hämta data från någon av resurserna för en vis
 
 ## Installera en anslutning med öppen källkod{#install-open-source-connector}
 
-Om du vill publicera ett beroende som finns i [Maven Central-databasen](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides) till Cloud Servicen måste du inkludera och bädda in beroendet för en öppen källkodsanslutning.
+Om du vill publicera ett beroende på [Maven Central-databasen](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides) till molntjänsterna måste du inkludera och bädda in beroendet för en öppen källkodsanslutning.
 
 1. Lägg till beroendet i `all/pom.xml` i Git-projektkoden för din molnhanterare. Du kan till exempel lägga till följande beroende för datakällkopplingen för Microsoft Azure DevOps-kort.
 
@@ -103,16 +99,16 @@ Om du vill publicera ett beroende som finns i [Maven Central-databasen](https://
 
 1. Bädda in det tillagda beroendet.
 
-       &quot;
-       &lt;embedded>
-       &lt;groupId>com.adobe.aem.addon.guides&lt;/groupId>
-       &lt;artifactId>konnect-azure-devops&lt;/artifactId>
-       &lt;type>jar&lt;/type>
-       &lt;target>/apps/aemdoxonaemcsstageprogram-vendor-packages/content/install&lt;/target>
-       &lt;/embedded>
-       &quot;
-   
-1. Kör pipeline för att tillämpa ändringarna i Cloud Servicen.
+   ```
+   <embedded>
+       <groupId>com.adobe.aem.addon.guides</groupId>
+       <artifactId>konnect-azure-devops</artifactId>
+       <type>jar</type>
+       <target>/apps/aemdoxonaemcsstageprogram-vendor-packages/content/install</target>
+   </embedded> 
+   ```
+
+1. Kör pipelinen för att tillämpa ändringarna i molntjänsterna.
 Kopplingen är installerad i din miljö.
 
 

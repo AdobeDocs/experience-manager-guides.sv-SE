@@ -4,7 +4,7 @@ description: Skapa och konfigurera AEM Sites-förinställningen i kartkonsolen m
 feature: Publishing
 role: User
 exl-id: f3657268-9dee-43af-b643-499dbc3ca948
-source-git-commit: 358d38ca761661eaee7aeac2cc7d46c53105c543
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '3592'
 ht-degree: 0%
@@ -49,7 +49,7 @@ Så här skapar du AEM Sites-förinställningen med hjälp av sammansatt kompone
    Förinställningen för AEM Sites skapas.
 
 
-   ![Nytt &#x200B;](images/new-aem-sites-dialog-box.png){width="300" align="left"}
+   ![Nytt ](images/new-aem-sites-dialog-box.png){width="300" align="left"}
 
 <!-----------------------
 ### Generate the AEM Sites output using the templates
@@ -88,7 +88,7 @@ I kartkonsolen ordnas de förinställda konfigurationsalternativen för sammansa
 - Ämneslista
 - Korsmappningsreferenser
 
-![Nytt &#x200B;](images/aem-sites-new-config.png){width="650" align="left"}
+![Nytt ](images/aem-sites-new-config.png){width="650" align="left"}
 
 **Allmänt**
 
@@ -97,8 +97,8 @@ Fliken **Allmänt** innehåller följande konfigurationsalternativ:
 | AEM Sites-alternativ | Beskrivning |
 | --- | --- |
 | Använd webbplatssökväg | Använd det här alternativet om du vill publicera ditt innehåll på en Experience Manager-webbplats. |
-| Platssökväg | **Det här alternativet visas om du väljer alternativet** Använd webbplatssökväg **&#x200B;**. Bläddra i den fördefinierade sökvägen till Experience Manager-webbplatsen eller ange en anpassad sökväg där du vill att utdata ska publiceras. Med alternativet **Använd platser** kan du ange hela publiceringssökvägen även om den angivna sökvägen inte har skapats i förväg i AEM Sites-strukturen. I så fall skapar systemet den nödvändiga strukturen under publiceringsprocessen med hjälp av den valda mallen för kartstartsida.<br><br>Du kan också använda variabler när du anger platssökvägen. Mer information finns i [Använd variabler för att ange alternativen Målsökväg, Platsnamn eller Filnamn](./generate-output-use-variables.md) |
-| Mall för mappningssida | **Det här alternativet visas om du väljer alternativet** Använd webbplatssökväg **&#x200B;**. Välj en mall som du vill använda för att mappa hemsidor. |
+| Platssökväg | **Det här alternativet visas om du väljer alternativet** Använd webbplatssökväg ****. Bläddra i den fördefinierade sökvägen till Experience Manager-webbplatsen eller ange en anpassad sökväg där du vill att utdata ska publiceras. Med alternativet **Använd platser** kan du ange hela publiceringssökvägen även om den angivna sökvägen inte har skapats i förväg i AEM Sites-strukturen. I så fall skapar systemet den nödvändiga strukturen under publiceringsprocessen med hjälp av den valda mallen för kartstartsida.<br><br>Du kan också använda variabler när du anger platssökvägen. Mer information finns i [Använd variabler för att ange alternativen Målsökväg, Platsnamn eller Filnamn](./generate-output-use-variables.md) |
+| Mall för mappningssida | **Det här alternativet visas om du väljer alternativet** Använd webbplatssökväg ****. Välj en mall som du vill använda för att mappa hemsidor. |
 | Plats | Namnet på den Experience Manager Sites som du vill publicera ditt innehåll på. Alternativen i listrutan fylls i baserat på listan med webbplatser som är tillgängliga i AEM Sites. <br>Välj **Uppdatera** ![referensikon](images/navtitle-refresh-icon.svg) om du vill hämta en ny lista med alternativ och spegla de uppdaterade data. |
 | Publiceringssökväg | Den sökväg i AEM-databasen där utdata lagras. Publiceringssökvägen fylls i med alla sökvägar som innehåller sidor som skapats baserat på hemsidmallen. AEM Sites-utdata från DITA-kartan genereras under den här sökvägen.  Om du till exempel anger platsen som `AEMG-Docs` och publiceringssökvägen som `aemg-docs-en/docs/product-abc.`, genereras AEM Sites-utdata under noden `aemg-docs-en/docs/product-abc/` i `crx/de`. |
 | Ämnessidmall | Välj den mall som du vill använda för alla utdataämnen. |
@@ -153,7 +153,7 @@ I kartkonsolen ordnas de förinställda konfigurationsalternativen för äldre k
 - Innehåll
 - Korsmappningsreferenser
 
-![Nytt &#x200B;](images/aem-sites-preset-legacy-config.png){width="500" align="left"}
+![Nytt ](images/aem-sites-preset-legacy-config.png){width="500" align="left"}
 
 **Allmänt**
 
@@ -171,7 +171,7 @@ Fliken **Allmänt** innehåller följande konfigurationsalternativ:
 
 **Innehåll**
 
-![Nytt &#x200B;](images/aem-sites-content-tab.png){width="650" align="left"}
+![Nytt ](images/aem-sites-content-tab.png){width="650" align="left"}
 
 Fliken **Innehåll** innehåller följande konfigurationsalternativ:
 

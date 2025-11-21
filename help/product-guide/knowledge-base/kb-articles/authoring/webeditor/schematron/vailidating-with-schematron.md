@@ -4,7 +4,7 @@ description: Arbeta med Schematron i webbredigeraren
 exl-id: 3e61432f-d81e-446e-b0ad-560f5b9fa91a
 feature: Web Editor
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Förutom stöd för DITA-regler stöder webbredigeraren även validering av inne
 
 &quot;*Schematron*&quot; refererar till ett regelbaserat valideringsspråk som används för att definiera tester för en XML-fil. Du kan importera schemafilerna och redigera dem i Web Editor. Med hjälp av en &quot;Schematron&quot;-fil kan du definiera vissa regler och sedan validera dem för ett DITA-ämne eller en karta. Schematronreglerna kan säkerställa konsekvens i XML-strukturen genom att införa begränsningar som definieras som regler. Dessa begränsningar drivs av små och medelstora företag som äger innehållets kvalitet och enhetlighet.
 
-    Obs! Webbredigeraren stöder ISO-schemat.
+Obs! Webbredigeraren har stöd för ISO-schemat.
 
 
 ## Att veta hur &quot;Schematron&quot; fungerar i webbredigeraren
@@ -41,7 +41,7 @@ Med webbläsar-inställningarna kan användarna konfigurera schematrons regler/f
 
 Ja, som författare/användare när du skapar innehåll kan du använda panelen Schematron i webbredigeraren för att överföra en schematron-fil och köra valideringar för filen som är öppen i redigeraren.
 
-    För att detta ska fungera måste mappprofiladministratören tillåta alla användare att lägga till Schemtron-filer på valideringspanelen. Se redigeringsinställningar (skärmbild ovan)
+För att detta ska fungera måste mappprofiladministratören tillåta alla användare att lägga till Schemtron-filer på valideringspanelen. Se redigeringsinställningar (skärmbild ovan)
 
 ![Välj Schematron-fil](../../../assets/authoring/schematron-rightpanel-validation-addsch.png)
 ![Kör validering](../../../assets/authoring/schematron-rightpanel-validation-runsch.png)

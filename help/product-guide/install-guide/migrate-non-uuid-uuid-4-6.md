@@ -4,7 +4,7 @@ description: Lär dig hur du migrerar icke-UID till UUID-innehåll
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: e38cd858201ea657ce276eb4b358b0d4eff502b2
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1568'
 ht-degree: 0%
@@ -178,9 +178,9 @@ En lista över **Filer som har uppgraderats med fel** och **Filer som misslyckad
 
 | Sammanfattning efter slutförande av process | Hur ska jag tolka? | Åtgärd |
 |---|---|---|
-| Totalt antal filer: 288 | Antal DITA-kartor med minst 1 baslinje. |
-| Antal filer som migrerats: 13 | Antal DITA-kartor som uppgraderats med alla baslinjer. |
-| Antal överhoppade filer: 275 | Antal DITA-kartor utan baslinje. |
+| Totalt antal filer: 288 | Antal DITA-kartor med minst 1 baslinje. |  |
+| Antal filer som migrerats: 13 | Antal DITA-kartor som uppgraderats med alla baslinjer. |  |
+| Antal överhoppade filer: 275 | Antal DITA-kartor utan baslinje. |  |
 | Antal filer som inte kunde uppgraderas: 0 | Antalet baslinjeobjekt som inte var giltiga (de var tomma) visas i rapporten (Excel). | Kontrollera om det finns andra fel än: `baselineObj not found on` |
 
 En lista över **Filer som har uppgraderats med fel** och **Filer som misslyckades** under migreringsprocessen finns dessutom i sammanfattningstabellen för rapporten.
@@ -219,5 +219,5 @@ En lista över **Filer som har uppgraderats med fel** och **Filer som misslyckad
    > Om egenskapen **Använd titel för sidnamn på AEM-webbplatser** i `com.adobe.fmdita.config.ConfigManager` anges till *Falskt* före migreringen, måste den här egenskapen uppdateras efter migreringen.
 
 
-1. När valideringen är klar kan större delen av diskutrymmet återvinnas genom att en komprimering körs (se `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=sv-SE`).
+1. När valideringen är klar kan större delen av diskutrymmet återvinnas genom att en komprimering körs (se `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en`).
 

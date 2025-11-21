@@ -3,9 +3,9 @@ title: Versionsinformation | Uppgraderingsinstruktioner för Adobe Experience Ma
 description: Så här uppgraderar du till version 4.4.0 av Adobe Experience Manager Guides
 role: Leader
 exl-id: 884178b6-7a72-471a-a6e3-238a543fb227
-source-git-commit: 47c06dcc30b34780cbd26ded1ca400a5056a59ba
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '459'
 ht-degree: 0%
 
 ---
@@ -42,9 +42,9 @@ Mer information finns i avsnittet [Tekniska krav](../install-guide/download-inst
 | --- | --- | --- | --- | --- |
 | 4.4.0 (ej UUID) | 2022 eller senare | 2020.2 eller senare* | 2022 eller senare | 2020.3 eller senare |
 | 4.4.0 (UID) | 2022 eller senare | 2020.2 eller senare* | 2022 eller senare | 2020.4 eller senare |
-| | | | |
+| | | | | |
 
-*Originalplan och villkor skapade i AEM stöds i FMPS-versioner från och med 2020.2.
+*Baslinje och villkor som skapats i AEM stöds i FMPS-versioner från och med 2020.2.
 
 ### Syrgasanslutning
 
@@ -52,7 +52,7 @@ Mer information finns i avsnittet [Tekniska krav](../install-guide/download-inst
 | --- | --- | --- |--- |--- |
 | 4.4.0 (ej UUID) | 2.7-regular-1 | 2.7-regular-1 | 1,6 | 1,6 |
 | 4.4.0 (UID) | 3.4-uuid-1 | 3.4-uuid-1 | 2,3 | 2,3 |
-|  |  |   |
+|  |  |   | |  |
 
 
 
@@ -74,7 +74,7 @@ Du kan enkelt uppgradera din nuvarande version av Guides till version 4.4.0. Inn
 - Om du använder version 4.2, 4.1 eller 4.1.x måste du uppgradera till version 4.3.1, 4.3.0 eller 4.2.1 (programfix 4.2.1.3) innan du uppgraderar till version 4.4.0.
 - Om du använder version 4.0 måste du uppgradera till version 4.2 innan du uppgraderar till version 4.3.x.
 - Om du använder version 3.8.5 måste du uppgradera till version 4.0 innan du uppgraderar till version 4.2.
-- Om du har en tidigare version än 3.8.5 kan du läsa mer i avsnittet Uppgradera Experience Manager Guides i den produktspecifika installationsguiden som finns i [Adobe Experience Manager Guides Help PDF archive](https://helpx.adobe.com/se/xml-documentation-for-experience-manager/archive.html).
+- Om du har en tidigare version än 3.8.5 kan du läsa mer i avsnittet Uppgradera Experience Manager Guides i den produktspecifika installationsguiden för [Adobe Experience Manager Guides Help PDF archive](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 
 

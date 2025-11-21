@@ -1,24 +1,24 @@
 ---
 title: Versionsinformation | Adobe Experience Manager Guides as a Cloud Service, majversionen 2022
-description: majversionen av Adobe Experience Manager Guides as a Cloud Service
+description: Maj-utgåvan av Adobe Experience Manager Guides as a Cloud Service
 exl-id: 7928a300-5ec9-492c-b9be-02b6f87638c6
 feature: Release Notes
 role: Leader
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '1887'
 ht-degree: 0%
 
 ---
 
-# majversionen av Adobe Experience Manager Guides as a Cloud Service
+# Maj-utgåvan av Adobe Experience Manager Guides as a Cloud Service
 
 ## Uppgradera till majversionen
 
-Uppgradera din nuvarande Adobe Experience Manager Guides as a Cloud Service-konfiguration (kallas senare *AEM Guides as a Cloud Service*) genom att utföra följande steg:
-1. Ta en titt på Cloud Servicens Git-kod och växla till den gren som är konfigurerad i Cloud Servicens pipeline för den miljö du vill uppgradera.
-1. Uppdatera `<dox.version>`-egenskapen i `/dox/dox.installer/pom.xml`-filen för dina Cloud Services Git-kod till 2022.5.144.
-1. Genomför ändringarna och kör Cloud Servicens pipeline för att uppgradera till majversionen av AEM Guides as a Cloud Service.
+Uppgradera din nuvarande konfiguration av Adobe Experience Manager Guides as a Cloud Service (kallas senare *AEM Guides as a Cloud Service*) genom att utföra följande steg:
+1. Ta en titt på Git-koden för molntjänster och växla till den gren som konfigurerats i molntjänstflödet för den miljö du vill uppgradera.
+1. Uppdatera egenskapen `<dox.version>` i `/dox/dox.installer/pom.xml`-filen för Git-koden för molntjänster till 2022.5.144.
+1. Genomför ändringarna och kör molntjänsterna för att uppgradera till majversionen av AEM Guides as a Cloud Service.
 
 ## Kompatibilitetsmatris
 
@@ -31,7 +31,7 @@ I det här avsnittet visas kompatibilitetsmatrisen för de program som stöds i 
 | Inte kompatibel | 2020 uppdatering 4 och senare |
 | | |
 
-*Originalplan och villkor skapade i AEM stöds i FMPS-versioner från och med 2020.2.
+*Baslinje och villkor som skapats i AEM stöds i FMPS-versioner från och med 2020.2.
 
 ### Syrgasanslutning
 
@@ -67,7 +67,7 @@ Den anpassade mappningsmallen kan hjälpa dig att enkelt replikera mappningsmall
 
 ![läs in fler filer](assets/load-more-files.png)
 
-* Du kan återge bilder i SVG som innehåller inbäddade data eller länkar i alla XML-redigeringsskärmar, inklusive men inte begränsat till förhandsgransknings- och redigeringsvyn.
+* Du kan återge SVG-bilder som innehåller inbäddade data eller länkar i alla XML-redigeringsskärmar, inklusive men inte begränsat till förhandsgransknings- och redigeringsvyn.
 
 * XSD/DTD kan uppdateras till den senaste versionen
 
@@ -93,14 +93,14 @@ Mer information om översättning finns i avsnittet *Översätta dokument från 
 
 ### Förbättrad publicering
 
-* Du kan även komma åt **Publish Dashboard** från fliken Utdata när du genererar utdata från kartkontrollpanelen. En lista över alla aktiva publiceringsåtgärder finns i Publish Dashboard.
+* Du kan även komma åt **Publish Dashboard** från fliken Outputs när du genererar utdata från kartkontrollpanelen. En lista över alla aktiva publiceringsåtgärder finns på Publish Dashboard.
 
 ![köade utdata](assets/queued-output.png)
 
-* På kartkontrollpanelen kan du välja flera DITAVAL-filer för att generera villkorat innehåll. Du kan behålla filordningen genom att lägga till eller ta bort filer. Du kan också hovra över filnamnet för att se sökvägen i den AEM databasen där filen lagras.
+* På kartkontrollpanelen kan du välja flera DITAVAL-filer för att generera villkorat innehåll. Du kan behålla filordningen genom att lägga till eller ta bort filer. Du kan också hovra över filnamnet för att se sökvägen i AEM-databasen där filen lagras.
 
 * **Inaktuell funktion**
-AEM as a Cloud Service stöder inte längre generering av DITA-utdataformat för FrameMaker. Det här DITA-alternativet har också tagits bort från förinställningarna för utdata på kontrollpanelen för kartor.
+AEM as a Cloud Service stöder inte längre generering av DITA-utdataformat för FrameMaker-dokument. Det här DITA-alternativet har också tagits bort från förinställningarna för utdata på kontrollpanelen för kartor.
 
 ### Förbättrad artikelbaserad publicering
 
@@ -109,7 +109,7 @@ Med XML-redigeraren kan du mappa mer än en produktkategori till en artikel när
 ### Andra funktionsförbättringar
 
 * Förhandsgranskningsläget har även stöd för attributet `deliveryTarget` för villkorlig bearbetning i DITA. Det finns som ett alternativ i listrutan tillsammans med **målgrupp**, **plattform**, **produkt**, props, **andra props**.
-* Det finns ett alternativ för att synkronisera mellan AEM server i Syrgas och det lokala systemet.
+* Möjlighet att synkronisera mellan AEM-servern i Syrgas och det lokala systemet har angetts.
 
 ## Åtgärdade problem
 
@@ -119,7 +119,7 @@ De buggar som har åtgärdats i olika områden listas nedan:
 * Programmet blir tomt när du klickar på en tom mapp efter att ha uppdaterat den via Alternativ-menyn. 9639
 * En ny version skapas när vi **sparar och stänger** den incheckade filen. 9638
 * Knappen Stäng visas inte när kryssrutan **Spara som ny version** är aktiverad. 9637
-* Korrekt PDF publiceras inte om det först publiceras via ett separat PDF för varje kapitel och sedan en enda PDF-fil (Skapa separata PDF-filer avmarkeras). 9632
+* Den korrekta PDF-filen publiceras inte om den först publiceras via en separat PDF för varje kapitel och sedan en enda PDF-fil (Skapa separata PDF-filer avmarkeras). 9632
 * Kartpanelen genererar metadataproblem för icke-adminanvändare. (9620)
 * När en baslinje har skapats, ställs statusen in på Misslyckad i användargränssnittet (det går inte att hämta statusanropet) om servern har fler än 10000 filer. (9608)
 * Lagring av stora data i egenskaper resulterar i ett publiceringsfel eftersom ett delat publiceringsarbetsflöde misslyckas. 9586
@@ -138,7 +138,7 @@ De buggar som har åtgärdats i olika områden listas nedan:
 * I Versionshistorik visas inte versionsnummer och etikett för den aktuella versionen. 9446
 * Redigeraren låser sig när vissa innehållsfiler öppnas i redigeraren. 9443
 * Om du söker på panelen Databas och dialogrutan för att bläddra i utseendet på utseendet låses skärmen när innehållet är stort. 9432
-* Metadata som skickas AEM webbplatsens utdata följer inte innehållets baslinje. 9416
+* Metadata som skickas till utdata från AEM-webbplatsen följer inte innehållets baslinje. 9416
 * Syrgas kontrollerar en felaktig version av ett ämne efter en versionsåterställning i AEM. 9411
 * Om det inte går att använda baslinjen inaktiveras redigering på fliken Förinställning på kartkontrollpanelen. 9403
 * Fel loggas alltid när nytt innehåll skapas. 9388
@@ -152,7 +152,7 @@ De buggar som har åtgärdats i olika områden listas nedan:
 * Det går inte att söka efter filer med **Sök efter filer i mappen** på menyn **Fler alternativ** och programmet svarar inte. 9337
 * Dialogrutan Bläddra låses om det finns ett stort antal tangenter. 9332
 * DITAVAL-filer fungerar inte vid artikelbaserad publicering. 9330
-* Fotnoternas ordning är felaktig i AEM. 9327
+* Fotnotsordningen är felaktig i utdata för AEM Site. 9327
 * Sökningen utförs inte automatiskt när markeringssökvägen ändras. 9323
 * När översättningen är klar skapas ytterligare en version för den översatta resursen. 9310
 * Det går inte att ta bort administratörsanvändarna i mappprofilen. 9306
@@ -169,7 +169,7 @@ De buggar som har åtgärdats i olika områden listas nedan:
 * `xref` utan text visas inte i artikelbaserade publiceringsutdata. 8764
 * Referenser bryts vid rörliga bilder eller multimediefiler som har ett blanksteg i filnamnen. 8624
 * Referenser bryts när du väljer `Select All` och flyttar multimediafilerna eller DITA-innehållet till en annan mapp. (8622)
-* Utdata med status Väntar eller Körning rensas inte i Publish Dashboard.  8569
+* Utdatafält med status Väntar eller Körning rensas inte på kontrollpanelen Publicera.  8569
 * Funktionen för rensning av utdata fungerar inte om det finns ett stort antal noder för historik över utgående utdata. 8568
 * DITA Add on package förhindrar DAM-dubblettidentifiering av resurser. 8417
 * Knappen Skapa granskningsåtgärd har aktiverats för andra filer än DITA. 8401
@@ -177,13 +177,13 @@ De buggar som har åtgärdats i olika områden listas nedan:
 * Oväntat utrymme hittades i varje tomt `entry`-element när OutputClass-attribut läggs till i `tgroup`-elementet. 7532
 * Databaspanelen visar inte in- eller utcheckade fillås-ikoner så fort åtgärden har slutförts. 5817
 * Låsikonen visas i databasvyn även när filen har checkats in från redigeraren.  5756
-* Platser saknas i AEM förinställningar på fliken Utdata. 9567
+* Platser saknas i AEM-förinställningar på fliken Utdata. 9567
 * XML-redigeraren hänger sig vid försök att redigera vissa DITA-filer. 9537
 * Om du gör en sökning i XML-redigeraren fryser sidan. 9452
 * Hämta kartan med baslinjen fungerar inte om innehållet flyttas till en annan mapp. 9331
 * Återuppladdningen misslyckas i syre när filen/filerna redan finns i AEM på samma plats. 9328
 * Markeringens position är felaktig i vyn Sida vid sida. 9305
-* Efter incheckning av ett dokument från Syrgas till AEM ersätts japanskt innehåll i dokumentet med frågetecken (???). 9276
+* Efter incheckning av ett dokument från Oxygen till AEM ersätts japanskt innehåll i dokumentet med frågetecken (???). 9276
 * Det går inte att överföra filer från Syrgas till AEM. (9157)
 * E-postmeddelanden skickas inte när en granskningsuppgift omtilldelas i Inkorgen. 8376
 

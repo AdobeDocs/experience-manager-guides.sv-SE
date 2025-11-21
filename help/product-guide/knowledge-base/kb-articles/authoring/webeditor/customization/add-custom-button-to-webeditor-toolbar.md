@@ -4,9 +4,9 @@ description: Lär dig hur du lägger till en ny anpassad knapp i webbredigerings
 exl-id: 34999db6-027a-4d93-944f-b285b4a44288
 feature: Web Editor
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '527'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Elementet &quot;change-request-id&quot; som innehåller JIRA ID ska hämtas frå
 
 När användaren klickar på knappen bör den visa en dialogruta där de möjliga alternativen kan väljas så att användaren kan välja önskat JIRA-ID, till exempel:
 
-![Prologgavsnittet Lägg till dialogrutan JIRA ID &#x200B;](../../../assets/authoring/webeditor-add-customtoolbarbutton-prolog-insertjirareference-dialog.png)
+![Prologgavsnittet Lägg till dialogrutan JIRA ID ](../../../assets/authoring/webeditor-add-customtoolbarbutton-prolog-insertjirareference-dialog.png)
 
 som sedan ska lägga till &quot;change-request-id&quot; i prologgen:
 
@@ -57,12 +57,12 @@ Använd mappprofilerna för att kontrollera *ui_config.json* på fliken XML-redi
 }
 ```
 
-[använd den här länken om du vill veta mer om mappprofilen och konfigurera ui_config.json](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=sv-SE)
+[använd den här länken om du vill veta mer om mappprofilen och konfigurera ui_config.json](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=en)
 
 
 ### Hantera on-click-händelsen för den nya knappen
 
-    Obs! Steg som nämns nedan är tillgängliga som paket som bifogas i det här inlägget
+Obs! Steg som nämns nedan är tillgängliga som paket som bifogas i det här inlägget
 
 
 - När du har sparat mappprofilen skapar du en&quot;cq:ClientLibraryFolder&quot; under en projektkatalog (kan finnas under */apps*) och lägger till egenskaper enligt skärmbilden nedan:

@@ -6,9 +6,11 @@ product: Experience Manager
 type: Documentation
 solution: Experience Manager, Experience Manager Guides
 feature-set: Experience Manager Guides
+landing-page-name: experience-manager-guides
+landing-page-breadcrumb-title: AEM Guides
 role: User
 index: true
-source-git-commit: 2e9ef1c687a2bf5b027d83e5ca8132b61aad0e5b
+source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
 workflow-type: tm+mt
 source-wordcount: '53'
 ht-degree: 0%
@@ -20,4 +22,4 @@ ht-degree: 0%
 
 Filen metadata.md innehåller metadata på postnivå som skickas till TOC.md-filer för användarhandboken i svaret. Om du vill ändra metadata.md-innehåll för en användarhandbok gör du det i en TOC.md-fil.
 
-Se [Metadata](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/editing/user-guide-setup/metadata.html) för en lista över giltiga värden för **lösning**, **produkt** och **type**.
+I [Metadata](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/editing/user-guide-setup/metadata.html) finns en lista över giltiga värden för **solution**, **product** och **type**.
