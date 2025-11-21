@@ -52,7 +52,7 @@ Utför följande steg för att överföra ett anpassat DITA-OT-plugin-program ti
 
    >[!NOTE]
    >
-   > Vi rekommenderar att du inte skriver över DITA-OT-standardpaketet. Du bör överföra ditt anpassade DITA-OT-paket som innehåller din plugin-mapp /var/dxml/dita\_resources/dita-ot-mapp. Du kan också göra det med Cloud Manager pipeline. Mer information finns i [Distribuera till AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html) i AEM-dokumentationen.
+   > Vi rekommenderar att du inte skriver över DITA-OT-standardpaketet. Du bör överföra ditt anpassade DITA-OT-paket som innehåller din plugin-mapp /var/dxml/dita\_resources/dita-ot-mapp. Du kan också göra det med Cloud Manager pipeline. Mer information finns i [Distribuera till AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html?lang=sv-SE) i AEM-dokumentationen.
 
 1. Du kan välja att redigera standardprofilen, skapa en ny profil eller duplicera inställningar från standardprofilen för att skapa en ny profil.
 

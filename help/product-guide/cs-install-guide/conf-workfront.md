@@ -23,7 +23,7 @@ Läs mer om [Adobe Workfront-integrering](../user-guide/workfront-integration.md
 Innan du börjar, se till att:
 
 1. Du har standardåtkomst till Adobe Workfront och administratörsåtkomst till Experience Manager Guides.
-2. Du [skapar ett nytt anpassat formulär i Adobe Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/customize/custom-forms/design-a-form/design-a-form) som krävs för Experience Manager Guides genom att använda följande fält:
+2. Du [skapar ett nytt anpassat formulär i Adobe Workfront](https://experienceleague.adobe.com/sv/docs/workfront/using/administration-and-setup/customize/custom-forms/design-a-form/design-a-form) som krävs för Experience Manager Guides genom att använda följande fält:
 
    | Fälttyp | Etikett | Namn | Alternativ (Visa värden är aktiverade) |
    |------------|------|------|-------------------------------|
@@ -57,7 +57,7 @@ Utför följande steg för att konfigurera Adobe Workfront i Experience Manager 
 
    Navigera till **om du vill komma åt nyckeln** Klient-ID **och** Klienthemlighet`Setup >> Systems>> oAuth2 Applications` som konfigurerats i din Adobe Workfront-konfiguration.
 
-   Mer information om hur du konfigurerar din Adobe Workfront-domän finns i avsnittet Auktoriseringskoder i [Skapa OAuth2-program för Workfront-integreringar](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/configure-integrations/create-oauth-application#create-an-oauth2-application-using-user-credentials-authorization-code-flow).
+   Mer information om hur du konfigurerar din Adobe Workfront-domän finns i avsnittet Auktoriseringskoder i [Skapa OAuth2-program för Workfront-integreringar](https://experienceleague.adobe.com/sv/docs/workfront/using/administration-and-setup/configure-integrations/create-oauth-application#create-an-oauth2-application-using-user-credentials-authorization-code-flow).
 
 4. Välj **Logga in och verifiera**.
 
@@ -69,4 +69,4 @@ Utför följande steg för att konfigurera Adobe Workfront i Experience Manager 
 6. I den anpassade formulärlistrutan väljer du det anpassade Adobe Workfront-formulär som du har skapat för Experience Manager Guides. Visa [Krav](#prerequisites).
 7. Välj **Spara och stäng** för att tillämpa och spara konfigurationsändringarna för Workfront.
 
-När konfigurationen är klar lägger [till användare i Adobe Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/add-users/create-manage-users/add-users) med samma e-postadresser som de har i Experience Manager Guides.
+När konfigurationen är klar lägger [till användare i Adobe Workfront](https://experienceleague.adobe.com/sv/docs/workfront/using/administration-and-setup/add-users/create-manage-users/add-users) med samma e-postadresser som de har i Experience Manager Guides.
