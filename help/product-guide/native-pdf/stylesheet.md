@@ -164,7 +164,7 @@ I följande exempel skapar vi en anfangsstil:
 
 1. Högerklicka på **styckeformatet** och välj **Nytt format**.
 
-1. I dialogrutan *Lägg till format* behåller du namnet **Tagg** som p och väljer **i fältet** Pseudo **** Klass`::first-letter` .
+1. I dialogrutan *Lägg till format* behåller du namnet **Tagg** som p och väljer **i fältet** Pseudo **&#x200B;**&#x200B;Klass`::first-letter` .
 
 1. Klicka på **Klar**.
 

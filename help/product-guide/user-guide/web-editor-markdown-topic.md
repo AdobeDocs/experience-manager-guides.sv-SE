@@ -175,4 +175,4 @@ Följande Experience Manager Guides-funktioner gäller för närvarande inte fö
 
 
 
-**Överordnat ämne:**[ Introduktion till redigeraren](web-editor.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Introduktion till redigeraren](web-editor.md)

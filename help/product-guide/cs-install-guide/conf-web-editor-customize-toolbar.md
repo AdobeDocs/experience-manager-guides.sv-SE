@@ -144,4 +144,4 @@ Så här tar du bort oönskade funktioner från verktygsfältet:
 1. Spara filen *ui\_config.json* och läs in webbredigeraren igen.
 
 
-**Överordnat ämne:**[ Anpassa Web Editor](conf-web-editor.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Anpassa Web Editor](conf-web-editor.md)

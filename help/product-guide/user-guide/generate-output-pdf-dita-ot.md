@@ -102,4 +102,4 @@ Exempel: **Utdatasökväg/Målsökväg** - Här är **Utdatasökväg** den etike
 | Filegenskaper | Välj de egenskaper som du vill bearbeta som metadata. Dessa egenskaper ställs in från sidan Egenskaper i DITA-kartan eller bokmappningsfilen. Egenskaperna som du väljer i listrutan visas under fältet **Filegenskaper**. Markera kryssikonen bredvid egenskapen för att ta bort den. <br><br>Obs! Du kan också skicka metadata till utdata med DITA-OT-publicering. Om du vill ha mer information kan du [skicka metadata till utdata med DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
 
 
-**Överordnat ämne:**[ Förstå förinställningarna för utdata](generate-output-understand-presets.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Förstå förinställningarna för utdata](generate-output-understand-presets.md)
