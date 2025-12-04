@@ -4,9 +4,9 @@ description: Lär dig mer om de interaktiva widgetar du kan använda i utbildnin
 feature: Authoring
 role: User
 exl-id: e7ca2df1-9d15-4718-9698-8a0f059a86d7
-source-git-commit: 74e5baaf1743986ab188f5c89644d7683f885d0a
+source-git-commit: d4fd08c70c590496fef7a047745d4403546664fe
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
@@ -28,33 +28,22 @@ De tillgängliga widgetarna som är utformade för att förbättra användaruppl
 
   ![](assets/carousal-learning-content.png){width="650" align="left"}
 
-- **Aktiveringspunkter:** Lägg till aktiveringspunkter i en markerad bild. Börja med att välja en bild och gå sedan till **Infoga > Aktiveringspunkt**. Då öppnas dialogrutan Aktiveringspunkt, där du kan konfigurera olika alternativ, till exempel ställa in olika hotspot-storlekar, lägga till motsvarande länkar och justera lagret genom att flytta områden framåt eller bakåt.
+- **Aktiveringspunkt:** Lägger till aktiveringspunkt i en markerad bild. Börja med att välja en bild och gå sedan till **Infoga > Aktiveringspunkt**. Då öppnas dialogrutan Aktiveringspunkt, där du kan konfigurera olika alternativ, till exempel ställa in olika hotspot-storlekar, lägga till motsvarande länkar och justera lagret genom att flytta områden framåt eller bakåt.
 
   ![](assets/hotspot-learning-content.png){width="650" align="left"}
 
-- **Blockcitattecken:** Lägger till blockcitattecken tillsammans med citattecken i innehållet.
+- **Flik:** Används för att ordna innehåll i interaktiva avsnitt.  Varje flik kan representera ett visst ämne eller en viss kategori. Eleverna kan klicka eller trycka på flikarna för att visa motsvarande innehåll. Placera markören där du vill att flikwidgeten ska visas i innehållet och navigera sedan till **Infoga > Widget > Tabb**. Då läggs en flikbehållare till i innehållet. Börja nu lägga till innehåll på fliken som innehåller en tabbtitel och dess motsvarande innehåll.
 
-  ![](assets/block-quote-learning-content.png){width="650" align="left"}
+  ![](assets/insert-tab-lc.png)
 
-- **Kodblock:** Lägger till ett kodblock i innehållet.
+  Om du vill lägga till, ta bort och växla tabblayout (lodräta eller vågräta flikar) använder du avsnittet **Innehållsegenskaper** på den högra panelen.
+- **Vänd kort:** Lägger till ett interaktivt kort i ditt innehåll som vänds för att visa ytterligare information. Varje kort har två sidor - fram och bak - så att eleverna kan utforska informationen på ett engagerande sätt.  Om du vill infoga ett Vänd-kort placerar du markören på önskad plats och navigerar till **Infoga > Widget > Vänd kort**, som lägger till en Vänd kortbehållare i innehållet. Du kan sedan lägga till en titel och en valfri bild på framsidan och ange motsvarande innehåll på baksidan.
 
-  ![](assets/code-block-learning-content.png){width="650" align="left"}
+  ![](assets/insert-flip-card-lc.png)
 
-- **Iframes:** Infoga en iframe i innehållet för att bädda in externa webbsidor eller interaktiva resurser. Du kan konfigurera iframe-egenskaperna med panelen **Innehållsegenskaper** , inklusive käll-URL:en, bredden, höjden, justeringen och titeln. Du kan visa innehållet som lagts till i iframe genom att växla till **förhandsgranskningsläget** enligt nedan.
+  Om du vill lägga till eller ta bort kort eller ändra deras layout använder du avsnittet **Innehållsegenskaper** på den högra panelen.
+- **Klicka för att visa:** Infogar en interaktiv widget i ditt innehåll som döljer innehållet tills eleverna klickar för att visa det. Detta minskar störande detaljer och uppmuntrar till prospektering. Infoga widgeten genom att placera markören på önskad plats och välja **Infoga > Widget > Klicka för att visa**. Ange titeln för widgetens sidhuvud och definiera det dolda innehållet som visas när eleverna interagerar.
 
-  Vyn **Författare**:
+  ![](assets/insert-click-to-reveal-lc.png)
 
-  ![](assets/iframe-learning-content.png){width="650" align="left"}
-
-
-  **Förhandsgranska**-läge:
-
-  ![](assets/iframe-learning-content-preview.png){width="650" align="left"}
-
-- **Indatafält:** Lägg till ett textinmatningsfält tillsammans med en knapp i innehållet. Du kan använda den här kombinationen för att hämta användarindata och aktivera specifika åtgärder. En uppspelningsknapp läggs till i innehållet enligt nedan.
-
-  ![](assets/button-learning-content.png){width="650" align="left"}
-
-- **Fler alternativ:** Du har ytterligare alternativ för att förbättra ditt utbildningsinnehåll, bland annat infoga en vågrät linje, radbrytning, textruta, positionerad textruta och inbäddad HTML.
-
-  ![](assets/more-options-learning-content.png){width="650" align="left"}
+  Om du vill lägga till eller ta bort widgeten, eller hantera widgetens orientering, använder du avsnittet **Innehållsegenskaper** på den högra panelen.

@@ -4,9 +4,9 @@ description: Lär dig mer om de grundläggande byggstenarna som du kan lägga ti
 feature: Authoring
 role: User
 exl-id: 171b9df9-3782-4cfa-b450-7824e5fd390d
-source-git-commit: 74e5baaf1743986ab188f5c89644d7683f885d0a
+source-git-commit: 41ea5e91b5ee096ede2eb06dae7a44f01e0c0571
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,9 @@ I följande video ges en kort översikt över de tillgängliga funktionerna så 
 
 Du kan använda de grundläggande redigeringsfunktionerna som finns i redigeringsverktygsfältet enligt beskrivningen nedan:
 
-- **Widgetar**: Lägg till widgetar som dragspelspanel, karusell, aktiveringspunkter med mera i ditt ämne eller ditt utbildningsinnehåll med hjälp av menyn **Infoga** som visas nedan. Mer information om interaktiva widgetar finns i [Använd interaktiva widgetar](./lc-widgets.md).
+- **Infoga-alternativ**: Tillhandahåller alternativ för att lägga till [lägga till interaktiva widgetar](./lc-widgets.md) som dragspelspanel, Carousel, HotSpot, Tabbar, Flip-kort och Click-objekt, samt [strukturella element](./lc-other-insert-options.md) som Iframe, Block Quotes, Code Block med mera. Använd den här menyn för att lägga till funktionalitet och variation i undervisningsmaterialet, så att det blir engagerande och välstrukturerat.
 
-  ![](assets/widgets-learning-content.png){width="650" align="left"}
+  ![](assets/insert-menu-options-lc.png){width="650" align="left"}
 
 - **Textkomponenter**: Lägger till rubrik/titlar, stycke, textbundet citat, upphöjd, nedsänkt och citat i innehållet.
 
@@ -45,15 +45,33 @@ Du kan använda de grundläggande redigeringsfunktionerna som finns i redigering
 
   ![](assets/image-learning-content.png){width="650" align="left"}
 
-- **Multimedia**: Lägger till video och ljud i innehållet från menyn **Mer** i verktygsfältet. Du kan anpassa deras egenskaper med panelen **Innehållsegenskaper** .
+- **Multimedia**: Lägger till video och ljud i innehållet. Du kan anpassa deras egenskaper med panelen **Innehållsegenskaper** .
 
   ![](assets/video-learning-content.png){width="650" align="left"}
 
-- **Symboler**: Lägger till valfria symboler i innehållet från en lista enligt nedan. Du kan använda den på menyn **Mer** i verktygsfältet.
+- **Återanvändbart innehåll**: Gör att du kan införliva befintligt innehåll från dina resurser eller din databas för återanvändning. Följ de här stegen för att infoga ett återanvändbart innehåll:
+
+   1. Välj **Återanvändbart innehåll** i verktygsfältet.
+Dialogrutan **Återanvänd innehåll** öppnas.
+   2. Navigera och markera det önskade ämnet för att inkludera innehållet i kursen.
+   3. Markera ID:t för det innehåll som du vill lägga till. En förhandsvisning visas tillsammans som referens.
+
+      ![](assets/reuse-content-dialog.png){width="650" align="left"}
+
+   4. Välj **Markera**.
+
+  Innehållet infogas. Avsnittet om fordonsstruktur är t.ex. en innehållspunkt som återanvänds och läggs till i kursens ämne. Typen visas som **Referens** och dess **ID** återspeglas i panelen **Innehållsegenskaper**.
+
+  ![](assets/reusable-content.png){width="650" align="left"}
+
+
+- **Symboler**: Lägger till valfria symboler i innehållet från en lista enligt nedan.
 
   ![](assets/symbol-learning-content.png){width="350" align="left"}
 
 
-- **Hyperlänkar**: Lägger till hyperlänkar till den önskade platsen i ditt innehåll. Du kan använda den på menyn **Mer** i verktygsfältet. Det kan vara en filreferens, en webb-URL eller en e-postlänk enligt nedan.
+- **Hyperlänkar**: Lägger till hyperlänkar till den önskade platsen i ditt innehåll. Det kan vara en filreferens, en webb-URL eller en e-postlänk enligt nedan.
 
   ![](assets/hyperlink-learning-content.png){width="650" align="left"}
+
+Dessutom ger listrutan **Meny** åtkomst till redigeringsåtgärderna (Klipp ut, Kopiera, Ta bort), Sök och ersätt och Versionsetikett.

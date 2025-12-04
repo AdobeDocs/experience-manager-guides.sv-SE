@@ -4,9 +4,9 @@ description: Lär dig mer om de olika funktionerna i Experience Manager Guides s
 feature: Authoring
 role: User
 exl-id: 0f480d08-2f8a-494e-ab56-4965e5eeb960
-source-git-commit: 17d71e65e2f4f79a764d822f6f1ada136a7379d7
+source-git-commit: 0171f7b798686a0a16942e98133001a4c05bb76b
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '708'
 ht-degree: 0%
 
 ---
@@ -84,3 +84,15 @@ Alternativet **Visa** avgör hur ämnen visas. Du kan välja att presentera dem 
 ![](assets/course-display-settings.png)
 
 Visa [Visa inställningar](https://video.tv.adobe.com/v/3475210/learning-content-aem-guides) ![](assets/Smock_VideoCheckedOut_18_N.svg) om du vill se en videoöversikt.
+
+## Skapa granskningsaktivitet
+
+Som författare till en utbildningskurs eller administratör kan du skapa en granskningsuppgift för kursen och tilldela den till en granskare för feedback. Börja med att öppna kursen på panelen **Kurshanteraren** och välj sedan **Skapa granskningsaktivitet** på menyn **Alternativ** enligt nedan:
+
+![](assets/create-review-task-lc.png)
+
+Du dirigeras till sidan **Skapa granskningsaktivitet** där du måste lägga till uppgiftsinformation, till exempel granskningsaktivitetens titel, ange DITA-projektet som aktiviteten ingår i, definiera tidslinjer för uppgifter, tilldela granskare och mycket annat. När du är klar får granskarna ett meddelande om detta. De valda kurserna öppnas i granskningsgränssnittet där granskarna kan lägga till kommentarer och skicka tillbaka ämnen för uppdateringar.
+
+Om du vill veta mer om granskningsarbetsflödet i Experience Manager Guides kan du visa [Skicka ämnen för granskning](../user-guide/review-send-topics-for-review.md).
+
+
