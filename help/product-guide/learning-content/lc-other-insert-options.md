@@ -3,9 +3,9 @@ title: Andra alternativ på Infoga-menyn
 description: Lär dig mer om de alternativ för Infoga-menyn som du kan använda i utbildningsinnehållet.
 feature: Authoring
 role: User
-source-git-commit: 1fe46636a82b87b65fb5b29e7282636e7dec2358
+source-git-commit: e31f7744d4c01a2924a710f547375b1b497163ee
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
@@ -48,13 +48,13 @@ De andra alternativen som är tillgängliga på menyn Infoga i redigerarens verk
   > Det går inte att redigera eller skapa H5P-innehåll i Adobe Experience Manager Guides. Förbered H5P-paketet externt innan du överför det.
 
 
-- **Matematisk ekvation:** Infogar MathML-ekvationer i ditt innehåll. Du kan skapa en MathML-ekvation och välja **Infoga** för att lägga till den i dokumentet.
+- **MathML-ekvation:** Infogar MathML-ekvationer i ditt innehåll. Du kan skapa en MathML-ekvation och välja **Infoga** för att lägga till den i dokumentet.
 
   ![](./assets/insert-mathml.png){width="350" align="left"}
 
   Ekvationen infogas med ljusgrå bakgrund. Du kan när som helst uppdatera en ekvation genom att högerklicka på en befintlig ekvation och välja **Redigera matematisk ekvation** på snabbmenyn. Mer information om hur du validerar MathML-ekvationer i Experience Manager Guides finns i [Validering av ekvationer i MathML-redigeraren](../user-guide/web-editor-other-features.md#validation-of-equations-in-the-mathml-editor).
 
-- **Kunskapskontroll:** Gör att du kan lägga till frågor i tillgängliga format (Enkelkorrigering, Flera korrigeringar, Sant/falskt, Matcha följande eller infoga från frågebanken) i ditt ämne för granskning och bekräfta förståelsen utan klassificering eller rapportering. Dessa frågor speglar standardformat och utesluter poängsättning, vilket gör dem idealiska för självbedömning och lämpliga som en del av kursinnehållet eller ett ämne före ett prov eller en utvärdering senare, efter behov.
+- **Kunskapskontroll:** Gör att du kan lägga till frågor i tillgängliga format (Enkelkorrigering, Flera korrigeringar, Sant/falskt, Matcha följande eller infoga från frågebanken) i ditt ämne för granskning och bekräfta förståelsen utan gradering. Dessa frågor speglar standardformat och utesluter poängsättning, vilket gör dem idealiska för självbedömning och lämpliga som en del av kursinnehållet eller ett ämne före ett prov eller en utvärdering senare, om sådana finns.
 
   ![](assets/knowledge-check-topic.png){width="650" align="left"}
 
