@@ -3,7 +3,7 @@ title: Versionsinformation | Nyheter i december 2025-versionen av produktutbildn
 description: Läs om de nya och förbättrade funktionerna i december 2025-versionen av produktutbildnings- och utbildningsmaterial
 role: Leader
 hidefromtoc: true
-source-git-commit: fe7e1605933f925530d7767af22770dcde90b6df
+source-git-commit: a5a5202d652096ef4de1db78b8638e605e9d80f4
 workflow-type: tm+mt
 source-wordcount: '280'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Den här versionsinformationen innehåller nya och förbättrade funktioner som 
 
   Mer information finns i [Andra alternativ på Infoga-menyn](../learning-content/lc-other-insert-options.md).
 
-  ![](assets/knowledge-check-topic.png){width="350" align="left"}
+  ![](assets/knowledge-check-topic.png){width="650" align="left"}
 
 - **Nya interaktiva widgetar**: Du kan engagera eleverna med några nya interaktiva widgetar som gör innehållet mer engagerande: **Klicka för att visa**, **Flip-kort** och **Tabb**.
 
@@ -36,7 +36,7 @@ Den här versionsinformationen innehåller nya och förbättrade funktioner som 
 
   Mer information finns i [Frågetyper](../learning-content/quiz-insert-questions.md#question-types).
 
-  ![](assets/question-types.png){width="350" align="left"}
+  ![](assets/question-types.png){width="650" align="left"}
 
 ## Granska
 
@@ -44,7 +44,7 @@ Den här versionsinformationen innehåller nya och förbättrade funktioner som 
 
   Mer information finns i [Skapa granskningsaktivitet](../learning-content/manage-course.md#create-review-task).
 
-  ![](assets/create-review-task-lc.png){width="350" align="left"}
+  ![](assets/create-review-task-lc.png){width="650" align="left"}
 
 ## Innehållshantering
 
@@ -52,7 +52,7 @@ Den här versionsinformationen innehåller nya och förbättrade funktioner som 
 
   Mer information finns i [Lägg till grundläggande byggblock](../learning-content/lc-basic-blocks.md).
 
-  ![](assets/reusable-content.png){width="350" align="left"}
+  ![](assets/reusable-content.png){width="650" align="left"}
 
 
 
