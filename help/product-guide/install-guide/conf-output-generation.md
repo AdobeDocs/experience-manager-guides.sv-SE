@@ -5,9 +5,9 @@ exl-id: 6df31e3c-683c-4188-b917-9c1855d9b95b
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+source-git-commit: 9769a196346117237f2f72b6c88f8ac14fece740
 workflow-type: tm+mt
-source-wordcount: '5756'
+source-wordcount: '5824'
 ht-degree: 0%
 
 ---
@@ -185,7 +185,7 @@ Gör så här för att ange en egen designmall som ska användas för att genere
 >
 > När du har skapat en anpassad designmallsnod måste du uppdatera designalternativet i förinställningarna för AEM Site-utdata för att kunna använda den anpassade designmallsnoden.
 
-Mer information finns i [Skapa din första Adobe Experience Manager 6.3-webbplats](https://helpx.adobe.com/experience-manager/using/first_aem63_website.html) och [Grunderna](https://helpx.adobe.com/se/experience-manager/6-3/sites/developing/using/the-basics.html) för att utveckla din egen webbplats på AEM.
+Mer information finns i [Skapa din första Adobe Experience Manager 6.3-webbplats](https://helpx.adobe.com/experience-manager/using/first_aem63_website.html) och [Grunderna](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/the-basics.html) för att utveckla din egen webbplats på AEM.
 
 ### Använd dokumenttitel för att generera utdata från AEM webbplats
 
@@ -332,7 +332,7 @@ Om du vill utesluta elementet `table` från förenkling lägger du till följand
 
 ### Konfigurera versionshantering för borttagna sidor i AEM Site-utdata
 
-När du genererar utdata för AEM-webbplatsen med alternativet **Ta bort och** Skapa **&#x200B;**&#x200B;valt för inställningen Befintliga utdatasidor skapas en version för sidan/sidorna som tas bort. Du kan konfigurera systemet så att det inte längre skapas en version innan du tar bort den.
+När du genererar utdata för AEM-webbplatsen med alternativet **Ta bort och** Skapa ****valt för inställningen Befintliga utdatasidor skapas en version för sidan/sidorna som tas bort. Du kan konfigurera systemet så att det inte längre skapas en version innan du tar bort den.
 
 Utför följande steg för att stoppa skapandet av en version för den sida/de sidor som ska tas bort:
 
@@ -642,11 +642,11 @@ AEM Guides tillhandahåller kategorin `apps.fmdita.dashboard-extn` för att anpa
 
 >[!NOTE]
 >
-> Mer information om hur du skapar AEM-klientbibliotek finns i [Använda klientbibliotek](https://helpx.adobe.com/se/experience-manager/6-4/sites/developing/using/clientlibs.html).
+> Mer information om hur du skapar AEM-klientbibliotek finns i [Använda klientbibliotek](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/clientlibs.html).
 
 ## Hantera bildåtergivning under generering av utdata {#id177BF0G0VY4}
 
-AEM innehåller en uppsättning standardarbetsflöden och mediehandtag för att bearbeta resurser. I AEM finns det fördefinierade arbetsflöden för att hantera resurshantering för de vanligaste MIME-typerna. För varje bild som du överför skapas vanligtvis flera återgivningar av samma bild i binärt format i AEM. Dessa återgivningar kan ha olika storlek, med olika upplösning, med vattenstämpel eller någon annan förändrad egenskap. Mer information om hur AEM hanterar resurser finns i [Bearbeta Assets med mediehanterare och arbetsflöden](https://helpx.adobe.com/se/experience-manager/6-5/assets/using/media-handlers.html) i dokumentationen för AEM.
+AEM innehåller en uppsättning standardarbetsflöden och mediehandtag för att bearbeta resurser. I AEM finns det fördefinierade arbetsflöden för att hantera resurshantering för de vanligaste MIME-typerna. För varje bild som du överför skapas vanligtvis flera återgivningar av samma bild i binärt format i AEM. Dessa återgivningar kan ha olika storlek, med olika upplösning, med vattenstämpel eller någon annan förändrad egenskap. Mer information om hur AEM hanterar resurser finns i [Bearbeta Assets med mediehanterare och arbetsflöden](https://helpx.adobe.com/experience-manager/6-5/assets/using/media-handlers.html) i dokumentationen för AEM.
 
 Med AEM Guides kan du konfigurera vilken bildåtergivning som ska användas när utdata genereras för dina dokument. Du kan till exempel välja mellan en av standardbildåtergivningarna eller skapa en och använda samma för att publicera dina dokument. Mappning av bildåtergivning för publicering av dina dokument lagras i filen `/libs/fmdita/config/ **renditionmap.xml**`. Ett fragment av filen `renditionmap.xml` är följande:
 
@@ -661,6 +661,7 @@ Med AEM Guides kan du konfigurera vilken bildåtergivning som ska användas när
       <rendition output="AEMSITE">cq5dam.web.1280.1280.jpeg</rendition>
       <rendition output="PDF">original</rendition>
       <rendition output="HTML5">cq5dam.web.1280.1280.jpeg</rendition>
+      <rendition output="HTML5" outputName="ditahtml5">cq5dam.thumbnail.319.319.png</rendition>
       <rendition output="EPUB">cq5dam.web.1280.1280.jpeg</rendition>
       <rendition output="CUSTOM">cq5dam.web.1280.1280.jpeg</rendition>
    </mapelement>
@@ -669,6 +670,26 @@ Med AEM Guides kan du konfigurera vilken bildåtergivning som ska användas när
 ```
 
 Elementet `mimetype` anger filformatets MIME-typ. Elementet `rendition output` anger vilken typ av utdataformat och namnet på återgivningen \(till exempel `cq5dam.web.1280.1280.jpeg`\) som ska användas för att publicera den angivna utdatafilen. Du kan ange bildåtergivningarna som ska användas för alla utdataformat som stöds - AEMSITE, PDF, HTML5, EPUB och CUSTOM.
+
+Om du vill ange olika bildåtergivningar för en förinställning kan du använda attributet `outputName` för att definiera anpassade återgivningar för specifika förinställningar för samma utdatatyp. Detta är användbart när du behöver olika bildstorlekar eller format för olika publiceringsscenarier.
+
+Till exempel:
+
+
+```XML
+<renditionmap>
+   <mapelement>
+      <mimetype>image/png</mimetype>
+      
+      <rendition output="HTML5">cq5dam.web.1280.1280.jpeg</rendition>
+      <rendition output="HTML5" outputName="ditahtml5">cq5dam.thumbnail.319.319.png</rendition>
+      
+   </mapelement>
+...
+</renditionmap>
+```
+
+I renderingarna ovan, med attributet `outputName` definierat i renderingen, använder diktHTML5-förinställningen `cq5dam.thumbnail.319.319.png` och utan `outputName` använder alla utdata från HTML5 `cq5dam.web.1280.1280.jpeg`.
 
 Om den angivna återgivningen inte finns söker AEM Guides först efter webbåtergivningen av den angivna bilden. Om inte ens webbåtergivningen hittas används den ursprungliga återgivningen av bilden.
 
