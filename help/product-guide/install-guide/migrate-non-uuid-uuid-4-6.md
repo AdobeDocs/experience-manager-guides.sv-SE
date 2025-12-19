@@ -4,7 +4,7 @@ description: Lär dig hur du migrerar icke-UID till UUID-innehåll
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+source-git-commit: 56f1bd81e74ad9b479b2dcbcf04e1ee82e9a9041
 workflow-type: tm+mt
 source-wordcount: '1568'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Ladda ned de paket du behöver från Adobe Software Distribution Portal, baserat
 
 
 1. **Före migrering**: [com.adobe.guides.pre-uid-migration-2.0.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F4-0%2Fcom.adobe.guides.pre-uuid-migration-2.0.zip)
-1. **Hämta UUID version 4.6.1**: [com.adobe.fmdita.feature-uuid-4.6.1.4850.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F4-0%2Fcom.adobe.fmdita-6.5-uuid-4.6.1.4850.zip)
+1. **Hämta UUID version 4.6.1**: [com.adobe.fmdita.feature-uuid-4.6.1.5886.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F4-0%2Fcom.adobe.fmdita.feature-uuid-4.6.1.5886.zip)
 1. **Migrering**: [com.adobe.guides.uid-upgrade-2.0.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F4-0%2Fcom.adobe.guides.uuid-upgrade-2.0.zip)
 
 ## Kontroller före migrering
@@ -86,7 +86,7 @@ Mer information finns i [Rensa äldre versioner](../install-guide/version-manage
    * Kör **Offlinemålkomprimering** innan du startar den här aktiviteten.
    * Se till att ingen indexering eller inget systemunderhåll planeras under migreringens fönster.
 
-1. Installera UUID-versionen av den version som stöds över den version som inte är UUID. Om du till exempel använder 4.6.0 Service Pack 4-version som inte är UUID måste du installera UUID version 4.6.1 [com.adobe.fmdita.feature-uuid-4.6.1.4850.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F4-0%2Fcom.adobe.fmdita-6.5-uuid-4.6.1.4850.zip) och köra migreringen.
+1. Installera UUID-versionen av den version som stöds över den version som inte är UUID. Om du till exempel använder 4.6.0 Service Pack 4-version som inte är UUID måste du installera UUID version 4.6.1 [com.adobe.fmdita.feature-uuid-4.6.1.5886.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F4-0%2Fcom.adobe.fmdita.feature-uuid-4.6.1.5886.zip) och köra migreringen.
 
 
 1. Installera uppgraderingspaketet för UID-migrering [com.adobe.guides.uid-upgrade-2.0.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Faemdox%2Fother-packages%2Fuuid-migration%2F4-0%2Fcom.adobe.guides.uuid-upgrade-2.0.zip).
@@ -219,5 +219,5 @@ En lista över **Filer som har uppgraderats med fel** och **Filer som misslyckad
    > Om egenskapen **Använd titel för sidnamn på AEM-webbplatser** i `com.adobe.fmdita.config.ConfigManager` anges till *Falskt* före migreringen, måste den här egenskapen uppdateras efter migreringen.
 
 
-1. När valideringen är klar kan större delen av diskutrymmet återvinnas genom att en komprimering körs (se `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=sv-SE`).
+1. När valideringen är klar kan större delen av diskutrymmet återvinnas genom att en komprimering körs (se `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en`).
 
