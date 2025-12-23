@@ -4,9 +4,9 @@ description: Lär dig mer om verktygsfältet i Redigeraren. Läs mer om redigeri
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 059ba78a-dbda-4276-bff2-847787ea41b1
-source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
+source-git-commit: 172599c2bd99f1779b04255aac5e7d505614b463
 workflow-type: tm+mt
-source-wordcount: '5962'
+source-wordcount: '6011'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ De detaljerade förklaringarna till dessa funktioner är följande:
 
 **Redigerar åtgärder**
 
-När du redigerar ett ämne i Redigeraren kan du få åtkomst till olika redigeringsåtgärder, till exempel **Klipp ut** eller ***Ctrl***+***X*** , **Kopiera** eller ***Ctrl***+***C*** , **Ångra** eller ***Ctrl***+***&rbrace;Z*** , **Gör om** eller ***Ctrl***+***Y*** och **Ta bort** som finns i listrutan Meny.
+När du redigerar ett ämne i Redigeraren kan du få åtkomst till olika redigeringsåtgärder, till exempel **Klipp ut** eller ***Ctrl***+***X*** , **Kopiera** eller ***Ctrl***+***C*** , **Ångra** eller ***Ctrl***+***}Z*** , **Gör om** eller ***Ctrl***+***Y*** och **Ta bort** som finns i listrutan Meny.
 
 
 **Sök och ersätt**
@@ -84,7 +84,7 @@ Med funktionen **Versionshistorik** i redigeraren kan du kontrollera vilka versi
 
    Fliken **Metadata**: De nya metadata som har lagts till är i grönt teckensnitt och de borttagna metadata är i rött teckensnitt.
 
-   ![Skillnad i metadata för versionerna &#x200B;](images/metadata-version-diff.png){width="550" align="left"}
+   ![Skillnad i metadata för versionerna ](images/metadata-version-diff.png){width="550" align="left"}
 
    *Jämför metadata för olika versioner i versionshistoriken.*
 
@@ -471,6 +471,10 @@ Du kan också söka med UUID för filen som du vill referera till. För länkarn
 
 Om administratören har aktiverat alternativet UUID:n i *XMLEditorConfig* så visar du UUID:t för det refererade innehållet i egenskapen **Link** .
 
+>[!IMPORTANT]
+>
+> Enligt DITA:s standardbeteende får attributet scope=`external` inte tillämpas på interna länkar, eftersom det bara är avsett för referenser till externa resurser. Om du använder det här attributet på interna länkar kan arbetsflödena störas. Använd standardscopet=`local` eller nyckelbaserade referenser i stället för innehåll som hanteras i Experience Manager Guides.
+
 ![](images/ref-link-uuid_cs.png){align="left"}
 
 >[!NOTE]
@@ -623,4 +627,4 @@ Om en fil är låst av en annan användare och du håller pekaren över låsikon
 Som administratör får du även åtkomst till funktionen **Tvinga upplåsning** som gör att du kan låsa upp filen som låsts av andra användare. Använd den här funktionen för att komma åt redigeringsrättigheterna för en fil som har låsts av andra användare.
 
 ![](images/web-editor-force-unlock-new.png){width="350" align="left"}
-**Överordnat ämne:**&#x200B;[&#x200B; Introduktion till redigeraren](web-editor.md)
+**Överordnat ämne:**[ Introduktion till redigeraren](web-editor.md)

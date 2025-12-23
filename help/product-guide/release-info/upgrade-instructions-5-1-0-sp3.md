@@ -1,9 +1,9 @@
 ---
 title: Versionsinformation | Uppgraderingsinstruktioner för Adobe Experience Manager Guides 5.1.0 Service Pack 3
 description: Läs mer om kompatibilitetsmatrisen och hur du uppgraderar till version 5.1.0 Service Pack 3 av Adobe Experience Manager Guides.
-source-git-commit: 7ecf29537ddfbfcff644c4f6e3dff32750868282
+source-git-commit: 172599c2bd99f1779b04255aac5e7d505614b463
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
@@ -51,6 +51,9 @@ Mer information finns i avsnittet [Tekniska krav](../install-guide/download-inst
 |---|---|
 | guides-components.all-1.4.0 | aemg-docs.all-1.2.0 |
 
+## Förutsättningar
+
+Enligt DITA:s standardbeteende får attributet scope=`external` inte tillämpas på interna länkar, eftersom det bara är avsett för referenser till externa resurser. Om du använder det här attributet på interna länkar kan arbetsflödena störas. Använd standardscopet=`local` eller nyckelbaserade referenser i stället för innehåll som hanteras i Experience Manager Guides.
 
 ## Uppgradera till version 5.1.0 av Service Pack 3 av Experience Manager Guides
 
@@ -62,10 +65,10 @@ Du kan enkelt uppgradera din nuvarande version av Guides till version 5.1.0 Serv
 - Om du använder version 4.3.x, 4.2, 4.2.1 (programfix 4.2.1.3), 4.1 eller 4.1.x måste du uppgradera till version 4.4 innan du uppgraderar till version 5.0.0.
 - Om du använder version 4.0 måste du uppgradera till version 4.2 innan du uppgraderar till version 4.3.x.
 - Om du använder version 3.8.5 måste du uppgradera till version 4.0 innan du uppgraderar till version 4.2.
-- Om du har en tidigare version än 3.8.5 kan du läsa mer i avsnittet Uppgradera Experience Manager Guides i den produktspecifika installationsguiden för [Adobe Experience Manager Guides Help PDF archive](https://helpx.adobe.com/se/xml-documentation-for-experience-manager/archive.html).
+- Om du har en tidigare version än 3.8.5 kan du läsa mer i avsnittet Uppgradera Experience Manager Guides i den produktspecifika installationsguiden för [Adobe Experience Manager Guides Help PDF archive](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 >[!NOTE]
 >
->Du måste installera AEM Service Pack innan du uppgraderar Experience Manager Guides-versionen.
+> Du måste installera AEM Service Pack innan du uppgraderar Experience Manager Guides-versionen.
 
 Mer information finns i [Uppgraderingsinstruktioner för de lokala versionerna](../install-guide/upgrade-xml-documentation.md) av Experience Manager Guides.
