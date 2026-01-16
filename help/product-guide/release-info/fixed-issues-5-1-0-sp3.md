@@ -2,9 +2,9 @@
 title: Versionsinformation | Problem i Adobe Experience Manager Guides 5.1.0 Service Pack 3 har åtgärdats
 description: Läs mer om felkorrigeringarna i version 5.1.0 Service Pack 3 av Adobe Experience Manager Guides
 role: Leader
-source-git-commit: 64d7e4f8028ade36c4fee9bb3407e70b10da6869
+source-git-commit: 82eb0e18eb285006c66b1fe2b6ecc3ca86fefe61
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
@@ -40,6 +40,12 @@ Läs mer om [uppgraderingsinstruktioner för version 5.1.0 Service Pack 3](upgra
 ## Plattform
 
 - Om du använder `scope="external"` för en referens till DAM-innehåll i ett ämne eller en karta ersätts resursens relativa sökväg med ett GUID. (GUIDES-35605)
+
+## Känt fel
+
+Adobe har identifierat följande kända problem i version 5.1.0 Service Pack 3:
+
+- När du markerar en granskningsuppgift som slutförd på sidan med aktivitetsinformation, slutförs och stängs uppgiften, men dess status fortsätter att visas som **Pågår** på kontrollpanelen. (GUIDES-39375)
 
 
 
