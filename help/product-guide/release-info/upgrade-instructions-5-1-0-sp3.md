@@ -61,7 +61,7 @@ Du kan enkelt uppgradera din nuvarande version av Experience Manager Guides till
 
 >[!NOTE]
 >
-> Om du för närvarande använder AEM 6.5 och planerar att gå över till AEM 6.5 LTS läser du [Uppgradera till Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
+> Om du för närvarande använder AEM 6.5 och planerar att gå över till AEM 6.5 LTS läser du [Uppgradera till Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/sv/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
 
 Innan du uppgraderar till version 5.1.0 Service Pack 3 av Experience Manager Guides måste du tänka på följande:
 
@@ -71,7 +71,7 @@ Innan du uppgraderar till version 5.1.0 Service Pack 3 av Experience Manager Gui
 - Om du använder version 4.3.x, 4.2, 4.2.1 (programfix 4.2.1.3), 4.1 eller 4.1.x måste du uppgradera till version 4.4 innan du uppgraderar till version 5.0.0.
 - Om du använder version 4.0 måste du uppgradera till version 4.2 innan du uppgraderar till version 4.3.x.
 - Om du använder version 3.8.5 måste du uppgradera till version 4.0 innan du uppgraderar till version 4.2.
-- Om du har en tidigare version än 3.8.5 kan du läsa mer i avsnittet Uppgradera Experience Manager Guides i den produktspecifika installationsguiden för [Adobe Experience Manager Guides Help PDF archive](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
+- Om du har en tidigare version än 3.8.5 kan du läsa mer i avsnittet Uppgradera Experience Manager Guides i den produktspecifika installationsguiden för [Adobe Experience Manager Guides Help PDF archive](https://helpx.adobe.com/se/xml-documentation-for-experience-manager/archive.html).
 
 >[!NOTE]
 >
