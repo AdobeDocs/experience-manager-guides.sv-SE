@@ -99,7 +99,7 @@ Om du publicerar Ditamap har Native PDF funktioner för att automatiskt generera
 <br>
 <br>
 
-Post på AEM Guides Community [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) för alla frågor.
+Post på AEM Guides Community [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=sv) för alla frågor.
 
 
 

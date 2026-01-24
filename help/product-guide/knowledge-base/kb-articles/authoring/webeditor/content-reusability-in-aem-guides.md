@@ -167,4 +167,4 @@ Tilldela ID:n till fragment (Dita-element) som du vill återanvända i andra äm
 <br>
 
 
-Lägg upp [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) på AEM Guides Community för frågor.
+Lägg upp [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=sv) på AEM Guides Community för frågor.

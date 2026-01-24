@@ -44,7 +44,7 @@ Under den här sessionen får du lära dig mer om följande:
 
 - **Användarhandbok** - [Författarinnehåll](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map/authoring-content.html)
 
-- **Community-forum** - Besök [AEM Guides-forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions) om du vill ha sessionsspecifik communityinteraktion på Experience League.
+- **Community-forum** - Besök [AEM Guides-forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=sv) om du vill ha sessionsspecifik communityinteraktion på Experience League.
 
 >[!NOTE]
 >

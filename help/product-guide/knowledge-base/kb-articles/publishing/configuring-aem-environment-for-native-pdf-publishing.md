@@ -185,4 +185,4 @@ Validera timeout-egenskapsvärdet för nodatumnoden i /var/dxml/profiles/b1aad0a
 
 
 
-Om du får problem när du utför något av ovanstående steg kan du ställa din fråga på AEM Guides Community [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) för att få hjälp.
+Om du får problem när du utför något av ovanstående steg kan du ställa din fråga på AEM Guides Community [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=sv) för att få hjälp.

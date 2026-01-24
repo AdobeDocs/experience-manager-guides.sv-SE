@@ -38,7 +38,7 @@ Utför följande steg för att skicka metadata till utdata med DITA-OT-publiceri
 
    Den här filen kan överlappas av: `/apps/fmdita/config/metadataList`.
 
-   Visa [Använd AEM-metadata i DITA-OT PDF-utdata](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880) om du vill skicka en anpassad egenskap som du redan har definierat värdena för.
+   Visa [Använd AEM-metadata i DITA-OT PDF-utdata](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880?profile.language=sv) om du vill skicka en anpassad egenskap som du redan har definierat värdena för.
 
 1. De valda egenskaperna visas under listrutan.
 
@@ -73,7 +73,7 @@ Om du arbetar med **Assets-gränssnittet** utför du följande steg för att ski
 
    Den här filen kan överlappas av: `/apps/fmdita/config/metadataList`.
 
-   Visa [Använd AEM-metadata i DITA-OT PDF-utdata](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880) om du vill skicka en anpassad egenskap som du redan har definierat värdena för.
+   Visa [Använd AEM-metadata i DITA-OT PDF-utdata](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880?profile.language=sv) om du vill skicka en anpassad egenskap som du redan har definierat värdena för.
 
 1. Välj önskade anpassade egenskaper och standardegenskaper i listrutan **Egenskaper**. Välj till exempel `author`, `dc:title` och `dc:description`. Det här är standarden `metadata/properties` som skapas när vi skapar en fil. De valda egenskaperna visas under listrutan.
 

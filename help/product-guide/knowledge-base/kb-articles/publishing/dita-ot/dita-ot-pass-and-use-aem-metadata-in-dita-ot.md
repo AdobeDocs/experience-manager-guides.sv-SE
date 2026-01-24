@@ -166,7 +166,7 @@ När ovanstående kommando körs kan du kontrollera utdata i katalogen DITA-OT/b
 
 ### Distribution
 
-När du har utvecklat plugin-programmet DITA-OT kan du integrera det i DITA-OT med kommandot _dita —install_ under katalogen DITA-OT och distribuera det till AEM [se den här artikeln för mer information](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/steps-to-setup-a-custom-dita-ot/td-p/407659)
+När du har utvecklat plugin-programmet DITA-OT kan du integrera det i DITA-OT med kommandot _dita —install_ under katalogen DITA-OT och distribuera det till AEM [se den här artikeln för mer information](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/steps-to-setup-a-custom-dita-ot/td-p/407659?profile.language=sv)
 
 
 ## Resurser

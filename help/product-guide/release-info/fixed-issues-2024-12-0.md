@@ -59,7 +59,7 @@ Orsakad av: `org.apache.jackrabbit.oak.api.CommitFailedException`: `OakAccess000
 
 **Tillfällig lösning**: Utför följande steg för att lösa problemet:
 
-1. Lägg till en repoinit-fil. Om filen inte finns skapar du filen genom att utföra stegen [för att skapa konfigurationen för referenspunkter](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-cloud-questions/repoinit-configuration-for-property-set-on-aem-as-cloud-service/m-p/438854).
+1. Lägg till en repoinit-fil. Om filen inte finns skapar du filen genom att utföra stegen [för att skapa konfigurationen för referenspunkter](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-cloud-questions/repoinit-configuration-for-property-set-on-aem-as-cloud-service/m-p/438854?profile.language=sv).
 2. Lägg till följande rad i filen och distribuera koden:
 
    ```

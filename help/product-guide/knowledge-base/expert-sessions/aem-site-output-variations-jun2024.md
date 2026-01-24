@@ -46,7 +46,7 @@ Under den här sessionen kommer du att lära dig mer om följande:
 
 - [AEM mallar](https://experienceleague.adobe.com/sv/docs/experience-manager-65/content/implementing/developing/platform/templates/templates)
 
-- **Community-forum** - Besök [AEM Guides-forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions) om du vill ha sessionsspecifik communityinteraktion på Experience League.
+- **Community-forum** - Besök [AEM Guides-forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=sv) om du vill ha sessionsspecifik communityinteraktion på Experience League.
 
 >[!NOTE]
 >

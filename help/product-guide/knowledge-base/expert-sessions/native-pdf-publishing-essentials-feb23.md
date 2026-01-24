@@ -45,7 +45,7 @@ Under den här sessionen får du lära dig mer om följande:
 
 - **Användarhandbok** - [Inbyggd PDF-publicering](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/configuring/config-native-pdf-publish/pdf-template.html?lang=en)
 
-- **Community-forum** - Besök [AEM Guides-forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions) om du vill ha sessionsspecifik communityinteraktion på Experience League.
+- **Community-forum** - Besök [AEM Guides-forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=sv) om du vill ha sessionsspecifik communityinteraktion på Experience League.
 
 >[!NOTE]
 >

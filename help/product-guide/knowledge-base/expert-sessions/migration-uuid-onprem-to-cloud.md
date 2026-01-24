@@ -57,7 +57,7 @@ Och steg för att flytta stödlinjer (uuid) till molnet:
 
 ### Community Forum
 
-- Besök [AEM Guides Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions) om du vill ha sessionsspecifik communityinteraktion på Experience League.
+- Besök [AEM Guides Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=sv) om du vill ha sessionsspecifik communityinteraktion på Experience League.
 
 
 >[!NOTE]
