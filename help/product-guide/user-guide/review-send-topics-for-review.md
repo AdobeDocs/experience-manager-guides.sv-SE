@@ -306,4 +306,4 @@ När granskningsuppgifterna har uppdaterats får granskarna meddelanden (både A
 Mer information finns i [Om granskningsmeddelanden](./review-understanding-review-notifications.md).
 
 
-**Överordnat ämne:**[ Introduktion till granskning](review.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Introduktion till granskning](review.md)

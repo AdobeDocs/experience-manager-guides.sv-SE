@@ -168,5 +168,5 @@ Med ikonen Filter på panelen **Baslinjefilter** kan du använda filter på basl
 
 När du har redigerat baslinjen väljer du **Spara** om du vill spara ändringarna i baslinjen. Du kan välja **Återställ** om du inte vill spara ändringen och återställa baslinjen. När du väljer **Återställ** visas en varning om att ändringar som inte sparats går förlorade.
 
-**Överordnat ämne:**[ Utdatagenerering](generate-output.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Utdatagenerering](generate-output.md)
 

@@ -408,4 +408,4 @@ De viktigaste funktionerna för att förbättra hanteringen av stora filer är f
 
 - Varningsmeddelandet är bara tillgängligt för DITA-filer och är synligt i alla vyer: Författare, Source och Layout.
 
-**Överordnat ämne:**[ Introduktion till redigeraren](web-editor.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Introduktion till redigeraren](web-editor.md)

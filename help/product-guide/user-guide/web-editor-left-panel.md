@@ -160,7 +160,7 @@ Du har följande alternativ för att filtrera filerna och begränsa sökningen i
 - **DITA-filer**: Du kan söka efter alla **DITA-avsnitt** och **DITA-kartor** som finns på den valda sökvägen. Dessa är markerade som standard.
 - **Icke-DITA-filer**: Du kan söka efter **Ditavala filer**, **Bildfiler**, **Multimedia**, **Dokument** och **JSON** i den valda sökvägen.
 
-  ![snabbsökningsfilter ](images/repository-filter-search-quick.png) {width="300" align="left"}
+  ![snabbsökningsfilter &#x200B;](images/repository-filter-search-quick.png) {width="300" align="left"}
 
   *Använd snabbfiltren för att söka efter DITA- och icke-DITA-filer.*
 
@@ -1323,4 +1323,4 @@ Så här visar du granskningskommentarerna i de aktiva granskningsuppgifterna so
 
 </details>
 
-**Överordnat ämne:**[ Introduktion till redigeraren](web-editor.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Introduktion till redigeraren](web-editor.md)

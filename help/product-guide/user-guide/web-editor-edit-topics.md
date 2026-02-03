@@ -120,4 +120,4 @@ Du kan inaktivera funktionen för att hitta filen med alternativet **Hitta allti
 >
 >Från och med version 2025.11.0 har inställningen **Hitta alltid filer i databasen** bytt namn till **Hitta alltid filer i utforskaren**. Vid lokal installation är den fortfarande tillgänglig som Hitta alltid filer i databasen till version 5.1 av Experience Manager Guides.
 
-**Överordnat ämne:**[ Arbeta med redigeraren](web-editor.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Arbeta med redigeraren](web-editor.md)

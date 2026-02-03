@@ -27,38 +27,38 @@ Utför följande steg för att konfigurera dokumenttillståndsfilter:
 Se följande avsnitt i den hämtade `ui\_config.json`-filen:
 
        &quot;
-       &quot;databaseFilters&quot;: [
-       {
+       &quot;databaseFilters&quot;: &lbrack;
+       &lbrace;
        &quot;title&quot;: &quot;Document state&quot;,
        &quot;property&quot;: &quot;jcr:content/metadata/docstate&quot;,
-       &quot;underordnade&quot;: [
-]       {
+       &quot;underordnade&quot;: &lbrack;
+&rbrack;       &lbrace;
        &quot;title&quot;: &quot;Draft&quot;, 
        &quot;value&quot;: &quot;Draft&quot; 
        ,
-       {
+       &lbrace;
        &quot;title&quot;: &quot;Edit&quot;,
        &quot;value&quot;: &quot;Edit&quot; 
-       },
-       {
+       &rbrace;,
+       &lbrace;
        &quot;title&quot;: &quot;In-Review&quot;,
        &quot;value&quot;: &quot;In-Review&quot; 
-       },
-       {
+       &rbrace;,
+       &lbrace;
        &quot;title&quot;: &quot;Approved&quot;,
        &quot;value&quot;: &quot;Approved&quot;
-       },
-       {
-}       &quot;title&quot;: &quot;Reviewed&quot;, 
+       &rbrace;,
+       &lbrace;
+&rbrace;       &quot;title&quot;: &quot;Reviewed&quot;, 
        &quot;value&quot;: &quot;Reviewed&quot; 
        ,
-       {
+       &lbrace;
        &quot;title&quot;: &quot;Done&quot;,
        &quot;value&quot;: &quot;Done&quot; 
        
-       ]
+       &rbrack;
        
-       ]
+       &rbrack;
        &quot;
    Det här kodutdraget representerar standarddokumentlägesfilter som är tillgängliga i Experience Manager Guides.
 
@@ -75,4 +75,4 @@ Se följande avsnitt i den hämtade `ui\_config.json`-filen:
 
 De konfigurerade filtren visas på panelen **Filter** på startsidan i Databas.
 
-**Överordnat ämne:**[ Anpassa Web Editor](conf-web-editor.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Anpassa Web Editor](conf-web-editor.md)
