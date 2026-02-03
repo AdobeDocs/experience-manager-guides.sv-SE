@@ -175,7 +175,7 @@ ht-degree: 1%
    - Introduktion {#about-aemg}
       - [Om [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - [!DNL AEM Guides] funktioner och nyckelfunktioner {#aemg-works-features}
-         - [Så här fungerar [!DNL AEM Guides] ](./user-guide/intro-how-dxml-works.md)
+         - [Så här fungerar [!DNL AEM Guides] &#x200B;](./user-guide/intro-how-dxml-works.md)
          - [Viktiga [!DNL AEM Guides] funktioner](./user-guide/intro-dxml-features.md)
    - Startsida {#home-page}
       - [[!DNL AEM Guides] - startsida](./user-guide/intro-home-page.md)
