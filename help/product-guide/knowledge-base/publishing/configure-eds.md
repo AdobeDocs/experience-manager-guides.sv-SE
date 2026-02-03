@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Med Adobe Experience Manager Guides kan du publicera ditt DITA-innehåll direkt till Edge Delivery Services (EDS), som för närvarande är tillgängligt i *Beta*, via en dedikerad GitHub-baserad publiceringsprofil. Med den här funktionen kan organisationer leverera högpresterande, responsiva dokumentationsupplevelser samtidigt som DITA-baserade arbetsflöden i Experience Manager Guides upprätthålls.
 
-Mer information om hur du använder EDS i Adobe Experience Manager finns i [Edge Delivery Services Overview](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/edge-delivery/overview).
+Mer information om hur du använder EDS i Adobe Experience Manager finns i [Edge Delivery Services Overview](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/edge-delivery/overview).
 
 Om du vill aktivera publicering från Experience Manager Guides till EDS (Beta) måste du slutföra en serie konfigurationssteg i GitHub och Experience Manager Guides. I avsnitten nedan beskrivs varje steg i sekvensen och hur de fungerar tillsammans i det övergripande publiceringsarbetsflödet.
 
@@ -23,7 +23,7 @@ Om du vill aktivera publicering från Experience Manager Guides till EDS (Beta) 
 2. [Skapa och konfigurera en publiceringsprofil för EDS (Beta) i Experience Manager Guides](#create-and-configure-a-publish-profile-for-eds-beta-in-experience-manager)
 3. [Anpassa utdata med EDS-block](#customize-output-using-eds-blocks)
 
-Om du vill få en snabb genomgång av videon kan du visa [Publicera i AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25).
+Om du vill få en snabb genomgång av videon kan du visa [Publicera i AEM Guides](https://experienceleague.adobe.com/sv/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25).
 
 
 
