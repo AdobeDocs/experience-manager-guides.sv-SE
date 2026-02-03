@@ -4,9 +4,9 @@ description: Lär känna den högra panelen i redigeraren. Läs mer om redigerin
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 6a0f4ed2-6eca-4b3c-bd3a-3f72f6919b36
-source-git-commit: ffc9a9e15f11e7059822b7cf6d4707b83d15a4f4
+source-git-commit: 05a44af6982a9a23e6bbddeaac52b0700e2e2170
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '1095'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Du kommer åt funktionen **Innehållsegenskaper** genom att välja ikonen **Inne
 
 1. I listrutan **Attribut** väljer du attributet i listrutan och anger ett attributvärde.  Välj sedan **Lägg till**.
 
-   ![attributpanel med flera attribut &#x200B;](images/attributes-multiple-properties.png){width="300" align="left"}
+   ![attributpanel med flera attribut ](images/attributes-multiple-properties.png){width="300" align="left"}
 
 1. Om du vill redigera attributet för du pekaren över det och väljer **Redigera** ![redigeringsikon](images/edit_pencil_icon.svg) .
 
@@ -76,8 +76,20 @@ I avsnittet Allmänt får du tillgång till följande funktioner:
 
 - **Filnamn**: Visar filnamnet för det markerade ämnet. Filnamnet är hyperlänkat till egenskapssidan för den markerade filen.
 - **ID**: Visar ID:t för det markerade ämnet.
+- **Antal ord**: Visar det totala antalet ord i motsvarande DITA-avsnitt. Ord som avgränsas med blanksteg räknas som enskilda ord. Antalet uppdateras varje gång du sparar ändringar i ämnet. För korsreferenser inkluderas endast visningstexten i räkningen, medan nycklar exkluderas.
+
+  >[!NOTE]
+  >
+  > Funktionen **Antal ord** introducerades i version 2026.01.0 av Experience Manager Guides as a Cloud Service. Alla nya DITA-ämnen som du skapar efter att ha uppgraderat till den här versionen får automatiskt det beräknade antalet ord i den högra panelen. För befintliga ämnen krävs [ombearbetning av resurserna](./asset-processor.md).
+
 - **Taggar**: Detta är metadatataggar för ämnet. De anges från taggfältet på egenskapssidan. Du kan skriva eller välja dem i listrutan.  Taggarna visas under listrutan. Om du vill ta bort en tagg markerar du kryssikonen bredvid taggen.
-- **Redigera fler egenskaper**: Du kan redigera fler egenskaper på sidan för filegenskaper.
+- **Redigera fler egenskaper**: Du kan redigera fler egenskaper (för filer som inte är i läget **Skrivskyddad**) på sidan Filegenskaper.
+
+  >[!NOTE]
+  >
+  > Alla tillägg, borttagningar eller ändringar av metadataegenskaper (oavsett om de är standard eller anpassade) utlöser indikatorn för [arbetskopia](./web-editor-edit-topics.md#working-copy-indicator) för dokumentversionen.
+
+
 - **Språk**: Visar språket för ämnet. Den ställs in från språkfältet på egenskapssidan.
 - **Skapad**: Visar datum och tid då ämnet skapades.
 - **Ändrad**: Visar datum och tid då ämnet ändrades.
@@ -141,4 +153,4 @@ Läs mer om hur du arbetar med Schematron-filer i Experience Manager Guides i [S
 
 
 
-**Överordnat ämne:**&#x200B;[&#x200B; Introduktion till redigeraren](web-editor.md)
+**Överordnat ämne:**[ Introduktion till redigeraren](web-editor.md)

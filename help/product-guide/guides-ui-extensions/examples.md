@@ -1,13 +1,13 @@
 ---
 title: Exempel
 description: Lista med anpassningsexempel
-source-git-commit: fc0b19ac44ca9cbc1e9c5cf046f9a0a24f2a1794
+exl-id: 40cdc703-7a78-4979-a7b5-1158558d4868
+source-git-commit: 924c34a2ec6249b81cbdddf72392dac600e22e9f
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
-
 
 # Exempel
 
@@ -26,6 +26,9 @@ I det här exemplet har vi anpassat `right tab panel` så att en annan `tab` med
 
 5. [Verktygsfält](./examples/toolbar.ts)
 I det här exemplet har knapparna `Insert Element`, `Insert Paragraph`, `Insert Numbered List` och `Insert Bulleted List` ersatts med en enda `More Insert Options` -knapp som innehåller alla dessa.
+
+6. [Knappen Hantera på panelen Metadata](./examples/metadata_report_manage_button.ts)
+I det här exemplet har vi anpassat knappen **Hantera** (som finns på panelen Metadata på sidan Rapporter) så att den inaktiveras när de markerade filerna är i skrivskyddat läge. Detta förhindrar oavsiktliga redigeringar av metadata i filer som inte ska redigeras.
 
 [Granska appexempel]
 

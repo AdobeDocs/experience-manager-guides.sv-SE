@@ -4,9 +4,9 @@ description: Lär dig redigera ämnen i Redigeraren. Lär dig olika redigeringsf
 exl-id: 8da37a81-e8c3-434f-b3f4-4723d87c2ade
 feature: Authoring, Web Editor
 role: User
-source-git-commit: bdf838da24d7e426c34265cdad454d52f657cfae
+source-git-commit: df3da8a0b4dd50ac177c3b51f04a855e9638058e
 workflow-type: tm+mt
-source-wordcount: '1029'
+source-wordcount: '1050'
 ht-degree: 0%
 
 ---
@@ -74,8 +74,11 @@ Experience Manager Guides tillhandahåller en indikator för arbetskopian som vi
 
 Experience Manager Guides anger också om den senast sparade \(arbets\) kopian av filen är synkroniserad med den sparade versionen eller inte. Om du har gjort ändringar som inte har sparats mellan arbetskopian och den senast sparade versionen visas en \*-markering tillsammans med versionsinformationen som visas i det övre högra hörnet på avsnittets filflik. Den här indikatorn fungerar som en påminnelse om att spara och skapa en version av din aktuella \(arbetskopia\) av filen.
 
-![Versionsuppdateringsindikator](images/version-update-indicator.png){width="550" align="left"}
+>[!NOTE]
+>
+> Alla ändringar i metadatafälten som är tillgängliga under [Filegenskaper](./web-editor-right-panel.md#file-properties) utlöser också indikatorn för arbetskopia i dokumentversionen.
 
+![Versionsuppdateringsindikator](images/version-update-indicator.png){width="550" align="left"}
 
 ## Åtkomst till låsta filer i redigeringsläge och Source-läge
 
@@ -117,4 +120,4 @@ Du kan inaktivera funktionen för att hitta filen med alternativet **Hitta allti
 >
 >Från och med version 2025.11.0 har inställningen **Hitta alltid filer i databasen** bytt namn till **Hitta alltid filer i utforskaren**. Vid lokal installation är den fortfarande tillgänglig som Hitta alltid filer i databasen till version 5.1 av Experience Manager Guides.
 
-**Överordnat ämne:**&#x200B;[&#x200B; Arbeta med redigeraren](web-editor.md)
+**Överordnat ämne:**[ Arbeta med redigeraren](web-editor.md)

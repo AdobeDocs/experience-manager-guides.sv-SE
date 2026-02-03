@@ -4,9 +4,9 @@ description: Lär dig mer om arbetsflödet för att stänga en granskningsuppgif
 feature: Reviewing
 role: User
 exl-id: d2119bbe-3a0c-4da3-b4f8-7872496fa61f
-source-git-commit: e38cd858201ea657ce276eb4b358b0d4eff502b2
+source-git-commit: 6f9265b341b4122e7f13a429cc2fecacb14ae39c
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
@@ -33,9 +33,9 @@ Utför följande steg för att begära en omgranskning eller stänga en granskni
 
    >[!NOTE]
    >
-   > Du kan även öppna uppgiften i kontrollpanelen för uppgifter för att få en mer heltäckande bild. Det gör du genom att välja **Öppna i kontrollpanelen för uppgifter** på Alternativ-menyn för en aktiv granskningsåtgärd. Aktivitetsinformationen öppnas i projektkonsolen.
+   > Du kan komma åt sidan **Uppgiftsinformation** för att hantera granskningsaktiviteten. Det gör du genom att välja **Öppna aktivitetsinformation** på Alternativ-menyn för en aktiv granskningsaktivitet. Aktivitetsinformationen öppnas i projektkonsolen.
 
-   ![](images/task-dashboard-selection-author-view.png)
+   ![](images/task-details-selection-author-view.png)
 3. Markera ikonen **Aktivitetskommentarer** om du vill visa och granska de kommentarer på aktivitetsnivå som har lagts till av granskaren.
 
    ![](images/task-comments-selection-author-view.png).

@@ -4,7 +4,7 @@ description: Lär dig hantera filer och mappar i AEM Guides. Kopiera och klistra
 exl-id: e5b44286-7ac3-49e4-9e6f-7bc8ae2fc935
 feature: Content Management
 role: User
-source-git-commit: 14bbb3a055d8b528b6ed657be797c5fa96dd3e7e
+source-git-commit: 9e4fc7d482b6a37552d31ba2b07fae53018b4dc6
 workflow-type: tm+mt
 source-wordcount: '3263'
 ht-degree: 0%
@@ -104,7 +104,6 @@ Om du väljer alternativet **Skriv över befintlig fil\** ersätts den befintlig
 Om du väljer alternativet **Flytta fil\(er\) till ny plats** flyttas den befintliga filen till den aktuella platsen och skrivs sedan över med filen som överförs. När du flyttar en fil till den nya platsen bryts inte befintliga referenser från eller till filen.
 
 Om du väljer alternativet att skapa en version från den befintliga kopian när du ersätter eller flyttar filerna skapas en ny version från arbetskopian av dokumentet. Den nya filen ersätts antingen på den befintliga platsen eller flyttas till den nya platsen.
-
 
 ## Flytta flera filer samtidigt {#move-files-bulk}
 
@@ -326,4 +325,4 @@ Om mediefilen har ändrats kan du söka efter och förhandsgranska filerna i **T
    ![](images/media-version-preview.png){width="650" align="center"}
 
 
-**Överordnat ämne:**&#x200B;[&#x200B; Hantera innehåll](authoring.md)
+**Överordnat ämne:**[ Hantera innehåll](authoring.md)

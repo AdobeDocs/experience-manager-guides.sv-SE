@@ -4,9 +4,9 @@ description: Lär dig funktionerna i Kartredigeraren i Adobe Experience Manager 
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
-source-git-commit: 4cb5934fab1897bd36de33f2192ae2c4392c07eb
+source-git-commit: a487c81c5a49ec2b8ec780ffd73cc38fcb693acc
 workflow-type: tm+mt
-source-wordcount: '2563'
+source-wordcount: '2671'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Följande alternativ är tillgängliga i verktygsfältet i layoutvyn:
 
 **Ämnesreferens** - ![](images/topic-reference.svg)
 
-Visar dialogrutan för ämnessökning. Navigera till avsnittet/mappfilen som du vill infoga och välj **Markera** för att lägga till den på kartan.
+Visar dialogrutan Välj fil. Navigera till avsnittet/mappfilen som du vill infoga och välj **Markera** för att lägga till den på kartan.
 
 ![](images/insert-topic-reference-dialog.png){align="left"}
 
@@ -146,7 +146,7 @@ Dessutom kan du visa följande ikoner och utföra relaterade uppgifter i rediger
 
 **Infoga före/Infoga efter** - ![](images/insert_element_before_icon.svg) / ![](images/insert_element_after_icon.svg)
 
-Visar elementet **Insert före eller &#x200B;** Insert efter dialogruta. Markera det element som du vill infoga på kartan. Beroende på åtgärden infogas det nya elementet före eller efter det aktuella elementet i kartan.
+Visar elementet **Insert före eller **Insert efter dialogruta. Markera det element som du vill infoga på kartan. Beroende på åtgärden infogas det nya elementet före eller efter det aktuella elementet i kartan.
 
 **Element** - ![](images/Add_icon.svg)
 
@@ -260,15 +260,31 @@ Förutom att kunna visa positionen för varje ämnesfil i en karta, är det öns
 
 Du kan utföra följande åtgärder i förhandsgranskningsläget:
 
+**Öppna ämnen för redigering**
+
 - Högerklicka på ett ämne och välj **Redigera** för att öppna ämnet för redigering på en ny flik.
 
   >[!NOTE]
   >
   > Om du inte har redigeringsbehörighet öppnas avsnittet i skrivskyddat läge.
 
+  ![](images/edit-topic-preview-mode.png){width="650" align="left"}
+
 - Gå till önskat ämne genom att välja ämnesrubriken i schematrädet \(i den vänstra panelen\).
 
 - Det aktuella avsnittet i förhandsvisningen av kartan markeras också i schematrädet.
+
+**Uppdatera ämnen eller karta**
+
+När en karta öppnas i förhandsgranskningsläget och du växlar tillbaka till den från en annan flik i redigeraren, uppdateras inte förhandsgranskningen automatiskt. Om du vill läsa in förhandsgranskningen av kartan måste du uppdatera manuellt.
+
+Du kan använda uppdateringsfunktionen, som finns i förhandsgranskningsläget för kartan, på två sätt:
+
+- **Uppdatering på kartnivå**: Om du väljer knappen **Uppdatera** uppdateras förhandsvisningen av hela kartan (inklusive alla ämnen) och du kommer till den första rullningspositionen för en tydlig vy.
+  ![](images/refresh-map.png){width="650" align="left"}
+
+- **Uppdatering på ämnesnivå**: Om du väljer **Uppdatera ämne** på snabbmenyn uppdateras det specifika ämnet samtidigt som rullningspositionen ändras.
+  ![](images/refresh-topic.png){width="650" align="left"}
 
 **Andra sätt att förhandsgranska en kartfil**
 

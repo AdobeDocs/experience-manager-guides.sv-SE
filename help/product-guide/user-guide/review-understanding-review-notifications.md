@@ -3,9 +3,10 @@ title: Om granskningsmeddelanden
 description: Lär dig mer om olika typer av granskningsmeddelanden och hur de utlöses under olika faser av granskningsarbetsflödet i Experience Manager Guides.
 feature: Reviewing
 role: User
-source-git-commit: b7648fe1d36de3c243ca5a55f42a41f7523056ce
+exl-id: dc452e7d-a317-4168-8015-9fa4a06666ea
+source-git-commit: 16688221c35e0b24c51cbff27953a93892cd0944
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '732'
 ht-degree: 0%
 
 ---
@@ -35,8 +36,9 @@ Tabellen nedan ger en översikt över olika typer av granskningsmeddelanden, vil
 | Omgranskning begärd | Omgranskning begärd för **hemsidsgranskning** | Begärd av **författare** | Omgranskning begärd för **hemsidsgranskning** av **författare** | **Författaren** har uppdaterat dokumentet för uppgiften **Hemsidsgranskning** baserat på din feedback och begär en ny granskning. Granska i god tid före förfallodatumet **15 aug 2025**. | **Granskare** |
 | Granskningen har stängts | Granskningsaktiviteten har stängts: **Hemsidsgranskning** | Stängd av **författare** | Granskningsaktiviteten har stängts: **Hemsidsgranskning** | Granskningsaktiviteten **Hemsidsgranskning** under projektet **WebDocs Revamp** har stängts av **Författare**. | **Författare** eller **Initierare av uppgift** , **Granskare** |
 | Granskare ej tilldelad | Ej tilldelad från granskningsaktiviteten **hemsidesgranskning** | Ej tilldelad av **Författare** | Ej tilldelad från granskningsaktiviteten **hemsidesgranskning** | Du har tagits bort från granskningsaktiviteten **Hemsidsgranskning** under projektet **WebDocs Revamp** av **Författare**. | **Granskare** |
-| Taggbeteckning | Omnämns i granskningsuppgiftskommentar för **hemsidesgranskning** | Omnämnd av **Författare** | Omnämns i granskningsuppgiftskommentar för **hemsidesgranskning** | Du har fått en kommentar om aktiviteten **Hemsidsgranskning** under **WebDocs Revamp** av **Författare**. **Kommentarutdrag:** *&quot;Uppdatera rubrikstrukturen så att den följer riktlinjerna för hjälpmedel.&quot;* | **Användare som nämns** |
+| Taggbeteckning | Omnämns i granskningsuppgiftskommentar för **hemsidesgranskning** | Omnämnd av **Författare** | Omnämns i granskningsuppgiftskommentar för **hemsidesgranskning** | Du har omnämnts i en kommentar om aktiviteten **Hemsidsgranskning** under **WebDocs Revamp** av **Författare**. **Kommentarutdrag:** *&quot;Uppdatera rubrikstrukturen så att den följer riktlinjerna för hjälpmedel.&quot;* | **Användare som nämns** |
 | Innehåll som uppdaterats under granskning | Ämnet har uppdaterats i granskningsaktiviteten **Hemsidsgranskning** | Uppdaterat av **Författare** | Ämnet har uppdaterats i granskningsaktiviteten **Hemsidsgranskning** | **Författaren** har uppdaterat ämnesversionerna för granskningsaktiviteten **Hemsidsgranskning**. Granska i god tid före förfallodatumet **15 aug 2025**. | **Granskare** |
+| Ämnen som läggs till eller tas bort eller versionsuppdateras medan en granskningsuppgift pågår med granskare | Ämnen som har uppdaterats i granskningsaktiviteten **Hemsidsgranskning** | Uppdaterat av **Författare** | Ämnen som har uppdaterats i granskningsaktiviteten **Hemsidsgranskning** | **Författaren** har uppdaterat ämnesversionerna för granskningsaktiviteten **Hemsidsgranskning**. Granska i god tid före förfallodatumet **15 aug 2025**. | **Granskare** |
 
 
 I tabellen ovan representerar texten **i fet stil** exempelvärden och drivs av fördefinierade variabler som kan användas i meddelanden.
@@ -59,4 +61,4 @@ En fullständig lista över fördefinierade variabler och anpassning av granskni
 
 
 
-**Överordnat ämne:**&#x200B;[&#x200B; Introduktion till granskning](review.md)
+**Överordnat ämne:**[ Introduktion till granskning](review.md)

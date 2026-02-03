@@ -5,9 +5,9 @@ feature: Migration
 role: Admin
 level: Experienced
 exl-id: 27786098-119c-4b7a-8275-8a89d435294f
-source-git-commit: 32ed6c47f8193f955df8a60fc8cdc931b28fa7a4
+source-git-commit: 62221031e445ccdbf1f2567f38fa888ff52017d4
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -53,20 +53,29 @@ Följ stegen nedan för att bearbeta resurserna:
 
 1. Välj fliken **Ny process** längst upp till höger i fönstret om du vill starta en ny bearbetningsåtgärd.
 
+   Dialogrutan **Ny process** öppnas.
+
    ![New-process-asset-processor](images/new-asset-processor.png){width="350" align="left"}
 
-1. Markera den mapp som du vill bearbeta. Du kan också markera de mappar (i den överordnade markerade mappen) som du vill utesluta eller ignorera.
+1. Ange följande information i dialogrutan:
+
+   1. **Funktionstyp**: Välj **Resursbearbetning** i listrutan.
+   1. **Välj mappar och filer**: Navigera och välj en eller flera mappar och filer som ska bearbetas.
+   1. **Välj mappar som ska ignoreras**: Om du vill kan du välja att undermappar i den valda överordnade mappen ska exkluderas från bearbetning.
+   1. **Resurstyp**: I listrutan väljer du den specifika resurstyp som ska bearbetas (t.ex. DITA-ämne, DITA-karta, Markdown, HTML/CSS, DITAVAL eller andra filer). Endast den valda resurstypen bearbetas från mappen/mapparna som du angav tidigare.
+Exempel: Om du väljer DITA-ämne bearbetas endast DITA-ämnen i den valda mappen, vilket aktiverar riktad filtrering.
+   1. **Skapad efter/Skapad före**: Använd datumfilter för att bearbeta resurser som skapats inom den angivna tidsramen.
 
    >[!NOTE]
    >
-   >Det går endast att markera en mapp åt gången för bearbetning. För specifika åtgärder kan du exkludera flera mappar.
+   > Om en process redan körs för en mapp kan du inte starta en ny process för samma mapp förrän den aktuella uppgiften har slutförts.
 
-1. Välj **Skapa**. Du får ett popup-fönster som visar **Slutfört och processen har utlösts**, vilket visas i fragmentet. Samma sak visas i listan. Du kan se statusen för bearbetningsaktiviteten i fönstret.
+1. Välj **Skapa**. Du får ett popup-fönster som visar **Slutfört och processen har utlösts**. Du kan se statusen för bearbetningsaktiviteten i fönstret.
 
    ![Message-asset-processor](images/message-asset-processor.png){width="350" align="left"}
 
 
-## Ytterligare alternativ för bearbetning av uppgifter
+## Ytterligare alternativ för bearbetning av resurser
 
 Det finns fler alternativ för bearbetningsuppgiften när den har initierats. Du kan komma åt dessa alternativ genom att hovra över uppgifternas körnings-ID. Mer information om dessa alternativ finns nedan:
 

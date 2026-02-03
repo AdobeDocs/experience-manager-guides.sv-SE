@@ -4,7 +4,7 @@ description: Skapa och hantera baslinjer från kartkonsolen i Adobe Experience M
 exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: c7e76de14a3dd63eff794ecca16ebbccb3cb2d8a
+source-git-commit: eb68e4583083ff209fd717049c6e50b996cba8e8
 workflow-type: tm+mt
 source-wordcount: '1881'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Du kan skapa en baslinje från kartkonsolen genom att utföra följande steg:
    ![Panelen Baslinje](images/baseline-manage.png){width="500" align="left"}
 
    - Ange ett namn för baslinjen i fältet **Namn**.
-   - Välj [Manuell uppdatering](#configuring-baseline-for-manual-update) eller [Automatisk uppdatering](#configuring-baseline-for-automatic-update) i **Konfiguration**.
+   - Välj **Manuell uppdatering** eller [Automatisk uppdatering](#configuring-baseline-for-manual-update) i [Konfiguration](#configuring-baseline-for-automatic-update).
    - Välj **Använd**.
 
 Baslinjen skapas. Baslinjen skapas asynkront, så du kan fortsätta arbeta med andra filer. När baslinjen har skapats visas ett popup-meddelande som bekräftar att baslinjen har skapats, och du får även ett inkorgsmeddelande för det.
@@ -109,7 +109,7 @@ Du kan hantera befintliga baslinjer med hjälp av de olika funktionerna på kont
   >
   >Redigera om det är en dynamisk baslinje kan du redigera egenskaperna för baslinjen eftersom referenserna för dynamiska baslinjer genereras vid körning med hjälp av etiketterna.
 
-  ![alternativ för en baslinje](images/baseline-options.png){width="500" align="left"}
+  ![alternativ för en baslinje](images/baseline-options.png){align="left"}
 
 ### Tillgängliga åtgärder för en befintlig baslinje
 
@@ -168,5 +168,5 @@ Med ikonen Filter på panelen **Baslinjefilter** kan du använda filter på basl
 
 När du har redigerat baslinjen väljer du **Spara** om du vill spara ändringarna i baslinjen. Du kan välja **Återställ** om du inte vill spara ändringen och återställa baslinjen. När du väljer **Återställ** visas en varning om att ändringar som inte sparats går förlorade.
 
-**Överordnat ämne:**&#x200B;[&#x200B; Utdatagenerering](generate-output.md)
+**Överordnat ämne:**[ Utdatagenerering](generate-output.md)
 

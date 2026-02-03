@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Läs produktdokumentationen för Adobe Experience Manager Guides.
 breadcrumb-title: Dokumentation om AEM Guides
-source-git-commit: d56c5d92a05e8652e9ce1e8b5d508c1441daf012
+source-git-commit: 34a9fcb414831c3a6437ea39fa3541ef7994dd1c
 workflow-type: tm+mt
-source-wordcount: '2452'
+source-wordcount: '2492'
 ht-degree: 1%
 
 ---
@@ -19,6 +19,11 @@ ht-degree: 1%
    - Versionsinformation {#release-notes}
       - Molntjänster {#cloud-release-notes}
          - [Distributionsanvisningar](./release-info/deploy-xml-on-aemaacs.md)
+         - 2026 års utgåvor {#2026-releases}
+            - 2026.01.0-utgåvan {#2601-release}
+               - [Nyheter](./release-info/whats-new-2026-01-0.md)
+               - [Åtgärdade problem](./release-info/fixed-issues-2026-01-0.md)
+               - [Uppgraderingsinstruktioner](./release-info/upgrade-instructions-2026-01-0.md)
          - 2025 års utgåvor {#2025-releases}
             - 2025.11.0-utgåvan {#2511-release}
                - [Nyheter](./release-info/whats-new-2025-11-0.md)
@@ -169,13 +174,13 @@ ht-degree: 1%
                - [4.2.1 Versionsinformation](./release-info/release-notes-4-2-1.md)
                - [4.2 Versionsinformation](./release-info/release-notes-4-2.md)
          - [4.1.x Versionsinformation](./release-info/release-notes-4-1.md)
-         - [Versionsinformation för 4.0.x](https://helpx.adobe.com/se/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [3.8.x Versionsinformation](https://helpx.adobe.com/se/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [Versionsinformation för 4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [3.8.x Versionsinformation](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Användarhandbok (nytt användargränssnitt) {#user-guide}
    - Introduktion {#about-aemg}
       - [Om [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - [!DNL AEM Guides] funktioner och nyckelfunktioner {#aemg-works-features}
-         - [Så här fungerar [!DNL AEM Guides] &#x200B;](./user-guide/intro-how-dxml-works.md)
+         - [Så här fungerar [!DNL AEM Guides] ](./user-guide/intro-how-dxml-works.md)
          - [Viktiga [!DNL AEM Guides] funktioner](./user-guide/intro-dxml-features.md)
    - Startsida {#home-page}
       - [[!DNL AEM Guides] - startsida](./user-guide/intro-home-page.md)
@@ -374,7 +379,7 @@ ht-degree: 1%
       - Felsökning {#troubleshooting}
          - [Tidsgräns för session](./user-guide/session-timeout-prompt.md)
 - Användarhandbok (gammalt användargränssnitt) {#user-guide-old-ui}
-   - [AEM Guides - översikt](https://experienceleague.adobe.com/sv/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [AEM Guides - översikt](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installation och konfiguration {#install-guide}
    - Lokalt {#on-prem-ig}
       - [Grunderna på plats](./install-guide/introduction.md)
@@ -471,6 +476,8 @@ ht-degree: 1%
          - [Konfigurera bearbetning av resurser](./install-guide/configure-asset-processing.md)
       - Arbeta med rensning av B-träd{#btree-cleanup}
          - [Konfigurera rensning av B-träd](./install-guide/configure-btree-clean-up-job.md)
+      - Anpassad indexering{#custom-indexing}
+         - [Distribuerar anpassat index för Sök och ersätt (Source-vyn)](./install-guide/custom-indexing-prem.md)
       - [Bilaga](./install-guide/appendix.md)
    - Molntjänster {#cs-ig}
       - [Om den här guiden](./cs-install-guide/introduction.md)
@@ -503,6 +510,7 @@ ht-degree: 1%
          - [Konfigurera anpassad DITA-mappningsmall](./cs-install-guide/conf-template-tags-custom-dita-map-templates.md)
       - Arbeta med dokumentlägen {#doc-state-cs}
          - [Konfigurera dokumentlägen](./cs-install-guide/customize-doc-state.md)
+         - [Konfigurera dokumenttillståndsfilter](./cs-install-guide/config-doc-state-filters.md)
       - Konfigurera Workspace-inställningar {#workspace-configs}
          - [Workspace-inställningar](./cs-install-guide/workspace-settings.md)
       - Arbeta med Web Editor-konfigurationer {#web-editor-configs-cs}
@@ -540,7 +548,7 @@ ht-degree: 1%
          - [Konfigurera Workfront](./cs-install-guide/conf-workfront.md)
       - Arbeta med inställningar för utdatagenerering {#output-gen-config-cs}
          - [Konfigurera inställningar för utdatagenerering](./cs-install-guide/conf-output-generation.md)
-         - [Hämta och installera vanliga webbplatsmallar](./cs-install-guide/download-install-aem-sites-templates-cs.md)
+         - [Hämta och installera AEM Sites-mallar](./cs-install-guide/download-install-aem-sites-templates-cs.md)
          - [PDF Publishing](./cs-install-guide/native-pdf-publishing.md)
          - [Konfigurera nodprocess för PDF Publishing](./native-pdf/configure-node-options.md)
          - [Skapa en mappning mellan ett ämne och ett innehållsfragment](./cs-install-guide/conf-content-fragment-mapping-cs.md)
@@ -556,6 +564,8 @@ ht-degree: 1%
          - [Konfigurera funktionen för bearbetning av resurser](./cs-install-guide/configure-asset-processing-cs.md)
       - Arbeta med rensning av B-träd{#btree-cleanup-cs}
          - [Konfigurera rensning av B-träd](./cs-install-guide/configure-btree-cleanup-cs.md)
+      - Anpassad indexering{#custom-indexing-cs}
+         - [Distribuerar anpassat index för Sök och ersätt (Source-vyn)](./cs-install-guide/custom-indexing.md)
       - [Bilaga](./cs-install-guide/appendix.md)
 - API-referens {#api-reference}
    - [Introduktion](./api-reference/introduction.md)
@@ -570,6 +580,7 @@ ht-degree: 1%
    - [API för att starta massbearbetning av resurser](./api-reference/bulk-assets-processing.md)
    - [Händelsehanterare för slutförd gruppaktivering](./api-reference/bulk-activation-complete-event.md)
    - [Händelsehanterare för konverteringsprocess](./api-reference/conversion-complete-event.md)
+   - [Skapa översättningsprojekt](./api-reference/translation-project.md)
 - Knowledge Base {#knowledge-base}
    - Expertsession {#expert-session}
       - [Översikt över expertsessioner](./knowledge-base/expert-sessions/expert-session.md)

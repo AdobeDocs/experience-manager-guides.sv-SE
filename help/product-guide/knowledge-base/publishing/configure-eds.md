@@ -4,7 +4,7 @@ description: Förstå hur Edge Delivery Services (Beta) utvidgar möjligheterna 
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 5808d42c530e55e309f192c99a0e71334c888b57
+source-git-commit: 7ca2eeb0356f3c82a8d970f291006fc6d19aca23
 workflow-type: tm+mt
 source-wordcount: '1532'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Med Adobe Experience Manager Guides kan du publicera ditt DITA-innehåll direkt till Edge Delivery Services (EDS), som för närvarande är tillgängligt i *Beta*, via en dedikerad GitHub-baserad publiceringsprofil. Med den här funktionen kan organisationer leverera högpresterande, responsiva dokumentationsupplevelser samtidigt som DITA-baserade arbetsflöden i Experience Manager Guides upprätthålls.
 
-Mer information om hur du använder EDS i Adobe Experience Manager finns i [Edge Delivery Services Overview](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/edge-delivery/overview).
+Mer information om hur du använder EDS i Adobe Experience Manager finns i [Edge Delivery Services Overview](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/edge-delivery/overview).
 
 Om du vill aktivera publicering från Experience Manager Guides till EDS (Beta) måste du slutföra en serie konfigurationssteg i GitHub och Experience Manager Guides. I avsnitten nedan beskrivs varje steg i sekvensen och hur de fungerar tillsammans i det övergripande publiceringsarbetsflödet.
 
@@ -23,7 +23,7 @@ Om du vill aktivera publicering från Experience Manager Guides till EDS (Beta) 
 2. [Skapa och konfigurera en publiceringsprofil för EDS (Beta) i Experience Manager Guides](#create-and-configure-a-publish-profile-for-eds-beta-in-experience-manager)
 3. [Anpassa utdata med EDS-block](#customize-output-using-eds-blocks)
 
-Om du vill få en snabb genomgång av videon kan du visa [Publicera i AEM Guides](https://experienceleague.adobe.com/sv/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25).
+Om du vill få en snabb genomgång av videon kan du visa [Publicera i AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/publishing-in-aem-guides-aug25).
 
 
 
@@ -57,7 +57,7 @@ Så här installerar och konfigurerar du programmet *AEM Code Sync*:
 1. Gå till sidan [AEM Code Sync](https://github.com/apps/aem-code-sync) och välj **Install**.
 2. *AEM Code Sync* övervakar databasändringar och ser till att uppdateringar överförs korrekt till GitHub.
 
-   >
+   >[!NOTE]
    >
    > Se till att du använder samma GitHub-konto som äger databasen när du installerar programmet.
 
@@ -128,7 +128,7 @@ Så här konfigurerar du monteringspunktens URL i filen `fstab.yaml`:
    - `your-user-name`
    - `your-repo-name`
 
-   >
+   >[!NOTE]
    >
    > I URL:en för monteringspunkten anger `main` den gren där du vill publicera innehållet och `docs` anger rotmappen för den EDS-databas (Beta) som du arbetar med. Om du föredrar att ändra filialnamnet på GitHub måste du uppdatera samma filialnamn i URL:en *Mountpoint* (i filen `fstab.yaml`) och motsvarande EDS-publiceringsprofil i Experience Manager Guides.
 
@@ -148,7 +148,7 @@ I avsnitten nedan beskrivs varje steg i sekvensen och hur du konfigurerar EDS-pu
 
 ### Skapa EDS-publiceringsprofilen (Beta)
 
-1. Gå till **[Workspace-inställningar]** **>** **Publiceringsprofiler**.
+1. Gå till **[Workspace-inställningar](/help/product-guide/cs-install-guide/workspace-settings.md)** **>** **Publiceringsprofiler**.
 2. Välj ikonen **+** om du vill skapa en ny publiceringsprofil och ange följande information:
    - **Servertyp**: Välj **GitHub Edge Delivery Services (Beta)** i listrutan.
    - **Namn**: Ange ett namn för profilen.
@@ -184,7 +184,7 @@ Din EDS-publiceringsprofil (Beta) är nu konfigurerad.
 
 6. Välj **Spara** och sedan **Generera utdata**.
 
->
+>[!NOTE]
 >
 > De genererade utdata lagras i mappen **docs** i EDS-databasen (Beta).
 

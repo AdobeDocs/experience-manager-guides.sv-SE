@@ -4,9 +4,9 @@ description: Lär dig mer om verktygsfältet i Redigeraren. Läs mer om redigeri
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 059ba78a-dbda-4276-bff2-847787ea41b1
-source-git-commit: 172599c2bd99f1779b04255aac5e7d505614b463
+source-git-commit: a17f9c5d5143de2ca8836ef6282a796abb766d78
 workflow-type: tm+mt
-source-wordcount: '6011'
+source-wordcount: '6173'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ De detaljerade förklaringarna till dessa funktioner är följande:
 
 **Redigerar åtgärder**
 
-När du redigerar ett ämne i Redigeraren kan du få åtkomst till olika redigeringsåtgärder, till exempel **Klipp ut** eller ***Ctrl***+***X*** , **Kopiera** eller ***Ctrl***+***C*** , **Ångra** eller ***Ctrl***+***&rbrace;Z*** , **Gör om** eller ***Ctrl***+***Y*** och **Ta bort** som finns i listrutan Meny.
+När du redigerar ett ämne i Redigeraren kan du få åtkomst till olika redigeringsåtgärder, till exempel **Klipp ut** eller ***Ctrl***+***X*** , **Kopiera** eller ***Ctrl***+***C*** , **Ångra** eller ***Ctrl***+***}Z*** , **Gör om** eller ***Ctrl***+***Y*** och **Ta bort** som finns i listrutan Meny.
 
 
 **Sök och ersätt**
@@ -84,7 +84,7 @@ Med funktionen **Versionshistorik** i redigeraren kan du kontrollera vilka versi
 
    Fliken **Metadata**: De nya metadata som har lagts till är i grönt teckensnitt och de borttagna metadata är i rött teckensnitt.
 
-   ![Skillnad i metadata för versionerna &#x200B;](images/metadata-version-diff.png){width="550" align="left"}
+   ![Skillnad i metadata för versionerna ](images/metadata-version-diff.png){width="550" align="left"}
 
    *Jämför metadata för olika versioner i versionshistoriken.*
 
@@ -384,13 +384,30 @@ Infogar en bild vid den aktuella eller nästa giltiga plats. Välj ikonen Bild f
 
 ![](images/insert-image-new-dialog.png){width="300" align="left"}
 
-Du kan lägga till en bild-/figurtitel och alternativ text för bilden i dialogrutan Infoga bild.
+
+I dialogrutan **Välj fil** kan du bläddra i den önskade bildfilen från **Databas** eller **Samlingar**.
+
+>[!NOTE]
+>
+> Webbläsaren för fil- och mappsökväg introduceras med ett omgjort användargränssnitt i version 2601 av Experience Manager Guides as a Cloud Service. Det nya gränssnittet är aktiverat som standard. Om du föredrar att fortsätta använda det befintliga användargränssnittet utan dessa uppdateringar kontaktar du ditt Customer Success-team för att inaktivera den nya förbättringen.
+
+![](images/select-file-browser-images.png)
+
+Navigera enkelt mellan mapparna med hjälp av de synliga kolumnerna högst upp och mappnavigeringspanelen till vänster.
+
+![](images/select-file-browser-file-navigation.png)
+
+Du kan söka efter den önskade bildfilen med hjälp av Filnamn, Filtitel och Innehåll. Du kan också filtrera sökresultaten efter sökväg \(för att söka i\), dokumentläge, Låst av, Senast ändrad och Taggar. Filtypsfiltret är förtillämpat på **Bilder** och är inaktiverat för andra filtyper för att tillåta giltiga filval. Mer information om hur du använder filter i den här sökvägsläsaren finns i [Andra funktioner i redigeraren](./web-editor-other-features.md).
+
+![](images/select-file-dialog-image-filter.png)
+
+När du har hittat den önskade bildfilen markerar du filen och väljer **Välj** för att infoga bilden i dokumentet. Du kan infoga olika format för bildfiler, t.ex. `.png`, `.svg`, `.gif`, `.jpg`, `.eps`, `.ai`, `.psd` med flera.
+
+Du kan också lägga till en bild-/figurtitel och alternativ text för bilden i dialogrutan Infoga bild.
 
 >[!NOTE]
 >
 > När du infogar en bild och anger en alternativ text för samma bild, läggs den till i elementet `<alt>` i enlighet med de senaste DITA-standarderna. Användningen av attributet `@alt` för alternativ text är föråldrad, men stöds fortfarande i tidigare DITA-versioner.
-
-Med alternativet **Välj fil** kan du söka efter den önskade bildfilen efter filnamn. Du kan också filtrera sökresultaten efter sökväg \(för att söka i\), samlingar, filtyp och taggar. När du har hittat den önskade bildfilen markerar du filen och väljer **Välj** för att infoga bilden i dokumentet. Du kan infoga olika format för bildfiler, t.ex. `.png`, `.svg`, `.gif`, `.jpg`, `.eps`, `.ai`, `.psd` med flera.
 
 När du har infogat en bild kan du ändra höjd, bredd, placering och attribut på panelen Innehållsegenskaper. Markera bildfilen och gör sedan ändringarna på panelen Innehållsegenskaper på den högra panelen.
 
@@ -426,7 +443,7 @@ Markera en bild i det aktuella avsnittet och välj ikonen Infoga/redigera bildsc
 
 Välj önskad formrektangel ![](images/imagemap-rectangle-toolbar.png), cirkel ![](images/imagemap-circle-toolbar.png) eller polygon ![](images/imagemap-polygon-toolbr.png) för att definiera ett område över en bild som du vill använda som länk. När du har definierat ett område visas dialogrutan Referens där du måste ange länken till det interna eller externa innehållet:
 
-![](images/reference-dialog.png){width="650" align="left"}
+![](images/reference-dialog.png){width="350" align="left"}
 
 Om områden överlappar varandra kan du flytta formen framåt eller flytta den bakåt genom att klicka på respektive ikon i verktygsfältet. Du kan också ta bort ett område genom att markera det och klicka på ikonen Ta bort. Om du dubbelklickar på ett område öppnas dialogrutan Referens där du kan ändra mållänken. När du har markerat önskade områden på bilden sparar du ändringarna genom att välja **Klar**.
 
@@ -440,13 +457,19 @@ Infogar olika typer av multimediefiler. Välj ikonen Multimedia i listrutan och 
 - YouTube
 - Vimeo
 
-När du väljer alternativet Ljud- eller videofil visas databasvyn där du kan bläddra och välja önskad fil. Om du väljer YouTube eller Vimeo visas dialogrutan Infoga multimedia. Klistra in länken till videofilen i fältet Webblänk och välj Infoga för att lägga till videon på den aktuella eller nästa giltiga platsen i dokumentet.
+När du väljer alternativet för ljud- eller videofil visas dialogrutan **Välj fil** där du kan bläddra och välja önskad fil från databas eller samlingar.
+
+![](images/select-file-dialog-multimedia.png){width="650" align="left"}
+
+Om du väljer YouTube eller Vimeo visas dialogrutan **Infoga multimedia**. Klistra in länken till videofilen i fältet Webblänk och välj Infoga för att lägga till videon på den aktuella eller nästa giltiga platsen i dokumentet.
+
+![](images/insert-multimedia-dialog.png){width="350" align="left"}
 
 >[!NOTE]
 >
 > När du lägger till en YouTube-videolänk måste du ersätta strängen `watch?v=` med `embed` i URL:en. Om du till exempel vill lägga till en YouTube-videolänk: `https://www.youtube.com/**watch?v**=WlIKQOrmZcs` måste du lägga till den som: `https://www.youtube.com/**embed/**WlIKQOrmZcs`. Ändringen säkerställer att videon bäddas in i utdata från AEM Site och PDF.
 
-Du kan också lägga till ljud- eller videofilen från dialogrutan Infoga multimedia. Välj alternativet Ljud-/videofil och välj sedan bläddringsikonen för att starta databasvyn. Markera ljud- eller videofilen från databasen och välj **Välj** för att lägga till länken för filen i fältet Ljud-/videofil. Om du väljer en videofil visas även en förhandsgranskning av filen i förhandsvisningsområdet. Du kan spela upp videofilen för att visa förhandsgranskningen.
+Du kan också lägga till ljud- eller videofilen från dialogrutan **Infoga multimedia** . Välj alternativet Ljud-/videofil och välj sedan bläddringsikonen för att starta databasvyn. Markera ljud- eller videofilen från databasen och välj **Välj** för att lägga till länken för filen i fältet Ljud-/videofil. Om du väljer en videofil visas även en förhandsgranskning av filen i förhandsvisningsområdet. Du kan spela upp videofilen för att visa förhandsgranskningen.
 
 ![](images/insert-multimedia.png){width="650" align="left"}
 
@@ -489,20 +512,29 @@ Om administratören har aktiverat alternativet UUID:n i *XMLEditorConfig* så vi
 >
 > Se avsnittet Referenser i guiden om bästa praxis för att få information om hur du refererar till innehåll.
 
-**Filtersökning**
+**Filtersökning i databasvyn**
 
-Du kan söka efter text i de filer som finns på den valda sökvägen i AEM-databasen. Till exempel genomsöks&quot;general&quot; i skärmbilden nedan. Du kan även begränsa sökningen med hjälp av förbättrade filter. Du kan söka efter alla DITA-filer som DITA-avsnitt och DITA-kartor som finns på den valda sökvägen.
+I dialogrutan **Välj fil** kan du söka efter text i de filer som finns på den valda sökvägen för **databasen**. Till exempel genomsöks *bromsning* i skärmbilden nedan.
 
-Du kan söka efter icke-DITA-filer som bildfiler, multimedia och dokument i den valda sökvägen. Du kan också söka efter specifika värden i attributen för DITA-element. Du kan också söka efter filer som har checkats ut av den angivna användaren.
+>[!NOTE]
+>
+> Webbläsaren Fil och Sökväg introduceras med ett omgjort användargränssnitt i version 2601 av Experience Manager Guides as a Cloud Service. Det nya gränssnittet är aktiverat som standard. Om du föredrar att fortsätta använda det befintliga användargränssnittet utan dessa uppdateringar kontaktar du ditt Customer Success-team för att inaktivera den nya förbättringen.
 
 ![](images/reference-search-filters.png){width="650" align="left"}
+
+Du kan använda vägbeskrivningarna högst upp och mappnavigeringspanelen till vänster för att enkelt navigera mellan mapparna.
+
+![](images/select-file-browser-file-navigation.png)
+
+Du kan söka efter den önskade filen med hjälp av Filnamn, Filtitel och Innehåll. Du kan även begränsa sökningen med hjälp av förbättrade filter på den högra panelen. Mer information finns i [Andra funktioner i redigeraren](./web-editor-other-features.md).
+
+![](images/select-file-dialog-image-filter.png)
+
+Listan med filtrerade filer som innehåller den sökta texten visas. Du kan också förhandsgranska filens innehåll.
 
 >[!NOTE]
 >
 > Systemadministratören kan också konfigurera textfiltren och visa eller dölja andra filter. Mer information finns i avsnittet *Konfigurera textfilter* i Installera och konfigurera Adobe Experience Manager Guides as a Cloud Service.
-
-Listan med filtrerade filer som innehåller den sökta texten visas. På skärmbilden ovan visas t.ex. filerna som innehåller texten &quot;general&quot;. Du kan också förhandsgranska filens innehåll.
-
 
 **Återanvändbart innehåll** - ![](images/reusable-content.svg)
 
@@ -542,7 +574,7 @@ Infoga nyckelord som definieras i DITA-kartan. Välj alternativet Nyckelord för
 
 Nyckelorden visas i alfabetisk ordning och du kan även söka efter nyckelord genom att skriva en söksträng i sökrutan. Sökresultatet returnerar nyckelorden som innehåller strängen i ID eller Value. De nyckelord som definieras i DITA-kartan visas i den här dialogrutan. Välj det nyckelord som du vill infoga och välj **Infoga**.
 
-Du kan också ändra attributen för det infogade nyckelordet genom att högerklicka på nyckelordet och välja alternativet Attribut. Dialogrutan **Attribut för nyckelord öppnas:
+Du kan också ändra attributen för det infogade nyckelordet genom att högerklicka på nyckelordet och välja alternativet Attribut. Dialogrutan **Attribut för nyckelord** öppnas:
 
 ![](images/attributes-for-keyword.png){width="550" align="left"}
 
@@ -627,4 +659,4 @@ Om en fil är låst av en annan användare och du håller pekaren över låsikon
 Som administratör får du även åtkomst till funktionen **Tvinga upplåsning** som gör att du kan låsa upp filen som låsts av andra användare. Använd den här funktionen för att komma åt redigeringsrättigheterna för en fil som har låsts av andra användare.
 
 ![](images/web-editor-force-unlock-new.png){width="350" align="left"}
-**Överordnat ämne:**&#x200B;[&#x200B; Introduktion till redigeraren](web-editor.md)
+**Överordnat ämne:**[ Introduktion till redigeraren](web-editor.md)

@@ -4,9 +4,9 @@ description: Lär känna den vänstra panelen i Editor. Läs mer om redigeringsg
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 92496d39-b423-4635-8b05-c67fd6af47de
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+source-git-commit: f0ba8dce38a6eef5dedc8a81107c8e31ea6b26b3
 workflow-type: tm+mt
-source-wordcount: '9768'
+source-wordcount: '10929'
 ht-degree: 0%
 
 ---
@@ -160,7 +160,7 @@ Du har följande alternativ för att filtrera filerna och begränsa sökningen i
 - **DITA-filer**: Du kan söka efter alla **DITA-avsnitt** och **DITA-kartor** som finns på den valda sökvägen. Dessa är markerade som standard.
 - **Icke-DITA-filer**: Du kan söka efter **Ditavala filer**, **Bildfiler**, **Multimedia**, **Dokument** och **JSON** i den valda sökvägen.
 
-  ![snabbsökningsfilter &#x200B;](images/repository-filter-search-quick.png) {width="300" align="left"}
+  ![snabbsökningsfilter ](images/repository-filter-search-quick.png) {width="300" align="left"}
 
   *Använd snabbfiltren för att söka efter DITA- och icke-DITA-filer.*
 
@@ -228,18 +228,19 @@ Du kan utföra följande åtgärder på Alternativ-menyn som är tillgänglig f�
     <summary> Steg för att skapa ett nytt ämne </summary>
 
 Steg för att skapa ett nytt ämne:
+
 1. Välj **Nytt** > **Ämne**.
-2. Dialogrutan **Nytt ämne** visas.
+1. Dialogrutan **Nytt ämne** visas.
 
    ![](images/create-topic-dialog.png){width="300" align="left"}
 
-3. Ange följande information i dialogrutan **Nytt ämne**:
+1. Ange följande information i dialogrutan **Nytt ämne**:
    - En rubrik för ämnet.
    - \(Valfritt\)* Ämnets filnamn. Filnamnet föreslås automatiskt baserat på ämnet Titel. Om administratören har aktiverat automatiska filnamn baserat på UUID-inställningen, kommer du inte att visa namnfältet.
    - En mall som ämnet baseras på. Om du till exempel har en färdig installation kan du välja bland mallarna Tom, Koncept, DITAVAL, Referens, Uppgift, Ämne, Markering, Ordlista och Felsökning. Om mappen har en konfigurerad mappprofil visas endast de ämnesmallar som har konfigurerats i mappprofilen.
 
    - Sökväg där du vill spara ämnesfilen. Som standard visas sökvägen till den markerade mappen i databasen i fältet Sökväg.
-4. Välj **Skapa**. Ämnet skapas på den angivna sökvägen. Dessutom öppnas ämnet i Redigeraren för redigering.
+1. Välj **Skapa**. Ämnet skapas på den angivna sökvägen. Dessutom öppnas ämnet i Redigeraren för redigering.
 
 </details>
 
@@ -279,7 +280,7 @@ Steg för att skapa en ny mapp:
 
 </details>
 
-- **Överför Assets**: Överför en fil från ditt lokala system till den valda mappen i Adobe Experience Manager-databasen. Du kan också dra och släppa filer från ditt lokala system till ditt aktuella arbetspass. Det här är mycket användbart om du vill infoga bilder från ditt lokala system i avsnittet.
+- **Överför resurser**: Överför en fil från ditt lokala system till den valda mappen i Adobe Experience Manager-databasen. Du kan också dra och släppa filer från ditt lokala system till ditt aktuella arbetspass. Det här är mycket användbart om du vill infoga bilder från ditt lokala system i avsnittet.
 
   ![](images/upload-assets.png){width="300" align="left"}
 
@@ -289,6 +290,35 @@ Steg för att skapa en ny mapp:
 
   ![](images/uuid-in-source-upload-image_cs.png){align="left"}
 
+  När överföringen är klar visas följande bekräftelsedialogruta:
+
+  ![](images/upload-successful.png)
+
+  <details>
+
+  <summary>Hantera ogiltiga tecken i filnamn</summary>
+
+  Om filnamnet för resursen som överförs innehåller ogiltiga tecken (till exempel * / : [\]) | # % { } ?) kan följande scenarier inträffa:
+
+   - **Delvis överföring**: Anger att en eller flera resurser som överförs innehåller ogiltiga tecken i filnamnen.
+
+     ![](images/partial-asset-upload.png)
+
+   - **Överföringen misslyckades** : Anger att alla resurser som överförs innehåller ogiltiga tecken i filnamnen.
+
+     ![](images/upload-asset-failed.png)
+
+  Om du vill lösa de här konflikterna tar du bort ogiltiga tecken från resursernas filnamn och överför dem sedan till databasen igen.
+
+  </details>
+
+- **Uppdatera**: Hämta en ny lista med filer och mappar från databasen.
+- **Komprimera**: Komprimera den markerade mappen i databasen.
+
+  >[!NOTE]
+  >
+  > Använd ikonen **\>** bredvid en mapp för att expandera den.
+
 - **Sök efter filer i mappen**: Flyttar fokus till databassökning där du kan ange söktermen. Sökningen utförs under den valda mappen i databasen. Du kan också använda ett filter för att returnera DITA-filer, bildfiler eller båda.
 
   ![](images/find-files-in-folders-repo-view_cs.png){width="300" align="left"}
@@ -297,15 +327,9 @@ Steg för att skapa en ny mapp:
 
   ![](images/uuid-repo-search-image-topic-file_cs.png){width="300" align="left"}
 
-- **Komprimera**: Komprimera den markerade mappen i databasen.
-
-  >[!NOTE]
-  >
-  > Använd ikonen **\>** bredvid en mapp för att expandera den.
-
 - **Lägg till i samlingar**: Lägger till den markerade mappen i favoriter. Du kan lägga till den i en befintlig eller ny samling.
 
-- **Uppdatera**: Hämta en ny lista med filer och mappar från databasen.
+- **Återbearbeta resurser**: Utlöser bearbetningen av alla resurser i mappen.
 - **Visa i Assets-användargränssnitt**: Visa mappinnehållet i Assets användargränssnitt.
 
 **Alternativ för en fil**
@@ -324,6 +348,7 @@ Du får tillgång till olika alternativ på Alternativ-menyn beroende på om du 
 - Ladda ned som PDF
 - Lägg till i
 - Kopiera
+- Återbearbeta resurs
 - Visa i Assets användargränssnitt
 - Egenskaper
 
@@ -334,17 +359,24 @@ De olika alternativen på Alternativ-menyn förklaras nedan:
 
 - **Redigera**: Öppna filen för redigering. Om det är en .ditamap/.bookmap-fil öppnas den i [kartredigeraren](map-editor-advanced-map-editor.md#) för redigering.
 
-- **Duplicera**: Använd det här alternativet om du vill skapa en dubblett eller en kopia av den markerade filen. Du kan också ändra namn på den duplicerade filen i kommandotolken Duplicera resurs. Som standard skapas filen med suffixet \(som filnamn\_1.extension\). Filens namn är detsamma som källfilen och den nya filen börjar med version 1.0. Alla referenser, taggar och metadata kopieras medan baslinjerna inte kopieras i den duplicerade filen.
+- **Redigera i syre**: Välj det här alternativet om du vill redigera den valda filen i syreanslutningens plugin-program. Filen öppnas för redigering.
+
+  >[!NOTE]
+  >
+  >Kontakta kundgruppen för att aktivera den här funktionen i miljön. Detta är inte aktiverat som en del av det färdiga stödet. Mer information finns i avsnittet [Konfigurera alternativet att redigera i syre](../cs-install-guide/conf-edit-in-oxygen.md) i installations- och konfigurationshandboken.
+
+- **Öppna på kartkontrollpanelen**: Om den valda filen är en DITA-karta öppnas kartkontrollpanelen med det här alternativet.
+
+- **Öppna i kartkonsol**: Om den valda filen är en DITA-karta öppnas kartkonsolen med det här alternativet.
+
 - **Lås**: Lås den markerade filen för redigering. Om filen är låst när du håller muspekaren över låsikonen visas **Låst av dig** om du låst den, eller **Låst av [användarnamn]** om en annan användare har låst den.
 
 - **Förhandsgranska**: Få en snabb förhandsvisning av filen (.dita, .xml, ljud, video eller bild) utan att öppna den. Du kan ändra storlek på förhandsgranskningsfönstret. Om innehållet innehåller `<xref>` eller `<conref>` kan du markera det och öppna det på en ny flik. Filens titel visas i fönstret. Om det inte finns någon titel visas filnamnet. Om du vill stänga **förhandsgranskningspanelen** kan du antingen välja stängningsikonen eller välja var som helst utanför rutan.
 
   ![](images/quick-preview_cs.png){align="left"}
 
-- **Byt namn**: Använd det här alternativet om du vill byta namn på den markerade filen. Ange namnet på den nya filen i dialogrutan **Byt namn på resurs**.
-   - Du kan byta namn på en fil av valfri typ.
-   - Du kan inte ändra filtillägget.
-   - Två filer kan inte ha samma namn. Du kan alltså inte byta namn på en fil till ett namn som redan finns. Ett fel visas.
+
+- **Duplicera**: Använd det här alternativet om du vill skapa en dubblett eller en kopia av den markerade filen. Du kan också ändra namn på den duplicerade filen i kommandotolken Duplicera resurs. Som standard skapas filen med suffixet \(som filnamn\_1.extension\). Filens namn är detsamma som källfilen och den nya filen börjar med version 1.0. Alla referenser, taggar och metadata kopieras medan baslinjerna inte kopieras i den duplicerade filen.
 
 - **Flytta till**: Använd det här alternativet om du vill flytta den markerade filen till en annan mapp.
    - Du kan antingen skriva namnet på målmappen eller välja **Välj sökväg** för att välja målmappen.
@@ -377,6 +409,11 @@ De olika alternativen på Alternativ-menyn förklaras nedan:
   Om du byter namn på eller flyttar en fil bryts inte befintliga referenser från eller till filen, eftersom varje fil har ett unikt UUID.
   </details>
 
+- **Byt namn**: Använd det här alternativet om du vill byta namn på den markerade filen. Ange namnet på den nya filen i dialogrutan **Byt namn på resurs**.
+   - Du kan byta namn på en fil av valfri typ.
+   - Du kan inte ändra filtillägget.
+   - Två filer kan inte ha samma namn. Du kan alltså inte byta namn på en fil till ett namn som redan finns. Ett fel visas.
+
 - **Ta bort**: Använd det här alternativet om du vill ta bort den markerade filen. En bekräftelse visas innan filen tas bort.
 
    - En bekräftelse visas innan filen tas bort.
@@ -402,35 +439,30 @@ De olika alternativen på Alternativ-menyn förklaras nedan:
   >
   > Du kan även ta bort den markerade filen på liknande sätt med tangenten Delete på tangentbordet.
 
-- **Kopiera**: Du kan välja bland följande alternativ:
-
-   - **Kopiera UUID**: Kopiera UUID för den markerade filen till Urklipp.
-
-   - **Kopiera sökväg**: Kopiera den fullständiga sökvägen för den markerade filen till Urklipp.
+- **Generera**: Använd alternativet för att publicera en eller flera kartor inom en karta till en webbplatssida, ett innehållsfragment eller ett Experience Fragment.
 
 - **Lägg till i**: Du kan välja bland följande alternativ:
    - **Samlingar**: Lägger till den markerade filen i Samlingar. Du kan lägga till den i en befintlig eller ny samling.
 
    - **Återanvändbart innehåll**: Lägger till den markerade filen i listan Återanvändbart innehåll i den vänstra panelen.
 
-- **Egenskaper**: Använd detta för att öppna egenskapssidan för den markerade filen. Du kan även komma åt den här egenskapssidan från Assets-gränssnittet genom att markera en fil och sedan välja egenskapsikonen i verktygsfältet.
+- **Kopiera**: Du kan välja bland följande alternativ:
 
-- **Öppna på kartkontrollpanelen**: Om den valda filen är en DITA-karta öppnas kartkontrollpanelen med det här alternativet.
+   - **Kopiera UUID**: Kopiera UUID för den markerade filen till Urklipp.
 
-- **Öppna i kartkonsol**: Om den valda filen är en DITA-karta öppnas kartkonsolen med det här alternativet.
+   - **Kopiera sökväg**: Kopiera den fullständiga sökvägen för den markerade filen till Urklipp.
 
-- **Redigera i syre**: Välj det här alternativet om du vill redigera den valda filen i syreanslutningens plugin-program. Filen öppnas för redigering.
-
-  >[!NOTE]
-  >
-  >Kontakta kundgruppen för att aktivera den här funktionen i miljön. Detta är inte aktiverat som en del av det färdiga stödet. Mer information finns i avsnittet [Konfigurera alternativet att redigera i syre](../cs-install-guide/conf-edit-in-oxygen.md) i installations- och konfigurationshandboken.
-
+- **Bearbeta om resurs**: Startar bearbetningen för den valda resursen.
 
 - **Visa i Assets-gränssnitt**: Använd det här alternativet om du vill visa en förhandsvisning av en DITA/.xml-fil i Assets-gränssnittet. Om det är en .ditamap/.bookmap-fil visas alla ämnesfiler på kartan i en enda enhetlig sida-för-sida-vy.
 
-- **Hämta som PDF**: Använd alternativet för att generera PDF-utdata och hämta dem.
+- **Egenskaper**: Använd detta för att öppna egenskapssidan för den markerade filen.
 
-- **Generera**: Använd alternativet för att publicera en eller flera kartor inom en karta till en webbplatssida, ett innehållsfragment eller ett Experience Fragment.
+  Alla tillägg, borttagningar eller ändringar av metadataegenskaper på den här sidan (oavsett om de är standard eller anpassade) utlöser indikatorn för [arbetskopia](./web-editor-edit-topics.md#working-copy-indicator) för dokumentversionen.
+
+  Du kan även komma åt egenskapssidan från Assets-gränssnittet genom att markera en fil och sedan välja egenskapsikonen i verktygsfältet.
+
+- **Hämta som PDF**: Använd alternativet för att generera PDF-utdata och hämta dem.
 
 ## Explorer
 
@@ -587,12 +619,19 @@ Som standard kan du visa filerna efter namn. När du för muspekaren över en fi
 
 Om du vill lägga till en DITA-fil på panelen Återanvändbart innehåll använder du någon av följande metoder:
 
-- Välj ikonen **+** bredvid Återanvändbart innehåll för att öppna dialogrutan Bläddra i fil. Markera filen som du vill lägga till och välj sedan **Lägg till** för att slutföra processen.
+- Öppna dialogrutan **Välj fil** genom att markera ikonen **+** bredvid Återanvändbart innehåll.
+- Markera filen som du vill lägga till och välj sedan **Markera**. Du kan också söka efter specifika filer med filtersökningsalternativet. Mer information finns i [Andra funktioner i redigeraren](./web-editor-other-features.md).
 
+
+
+  ![](images/reusable-content-selection-left-panel.png){width="650" align="left"}
+
+  Du kan också använda ikonen **Ta bort** för att avmarkera vissa filer i förhandsvisningen.
+
+  ![](images/resusable-content-remove-preview.png){width="650" align="left"}
 - I databasvyn markerar du ikonen **Alternativ** för den önskade filen och väljer **Lägg till i** > **Återanvändbart innehåll** på snabbmenyn.
 
 - Högerklicka på en fils flik i redigeraren för att öppna snabbmenyn och välj **Lägg till i** > **Återanvändbart innehåll**.
-
 
 När filen har lagts till kan du visa alla återanvändbara innehållselement från filen på panelen Återanvändbart innehåll. Återanvändbart innehåll visas med deras ID:n och elementnamn.
 
@@ -1047,63 +1086,177 @@ Med Experience Manager Guides kan du skapa och hantera variabler för PDF-public
 
 Ikonen Sök och ersätt finns längst ned på den vänstra panelen. På panelen Sök och ersätt kan du söka efter och ersätta text mellan filer på en karta eller i en mapp i databasen. Du kan utföra Sök och ersätt-åtgärder för alla ämnen på en karta, inklusive avsnitt i underkartor och markeringsfiler.
 
-![](images/map-find-replace.png){align="left"}
-
 Som standard kan du visa filerna efter namn. När du för muspekaren över en fil kan du visa filens namn och sökväg som ett verktygstips.
 
 >[!NOTE]
 >
 > Som administratör kan du även välja att visa listan med filnamn i Redigeraren. Välj alternativet **Filnamn** för **redigeringsfilerna visar konfigurationsavsnittet** i **Användarinställningar**.
 
+Funktionen Sök och ersätt kan användas i två olika lägen beroende på dina behov:
+
+- **Med Source-läge:** Sökningen söker inte bara efter det synliga innehållet utan även efter det underliggande källinnehållet (XML-struktur, inklusive element, taggar och attributvärden) för den sökda strängen. Detta läge garanterar en omfattande sökning i hela innehållet. Om du vill använda den här funktionen måste du aktivera alternativet **Använd källäge** som finns på panelen Sök och ersätt.
+
+  >[!NOTE]
+  >
+  > Funktionen **Använd källäge** är tillgänglig i Experience Manager Guides as a Cloud Service med version 2026.01.0 och för lokal installation med version 5.2. Om du vill använda den här funktionen måste du först indexera innehållet beroende på vilken konfiguration du använder.
+  > - **För molntjänster**: En anpassad indexdistribution måste utföras. Mer information finns i [Distribuera anpassat index](/help/product-guide/cs-install-guide/custom-indexing.md). När du är klar kontaktar du ditt Customer Success-team för att aktivera den här funktionen.
+  > - **För lokal**: Omindexering av befintligt innehåll krävs innan funktionen kan användas. Mer information finns i [Indexera om innehåll](/help/product-guide/install-guide/custom-indexing-prem.md). När du är klar kontaktar du ditt Customer Success-team för att aktivera den här funktionen.
+
+  ![](images/map-find-replace-with-source-mode.png){align="left"}
+
+<br>
+
 <details>
-    <summary> Utför global sökning och ersätt </summary>
+    <summary> Sök och ersätt globalt i Source-läge</summary>
 
-
-Utför följande steg om du vill söka och ersätta globalt:
+Utför följande steg om du vill utföra global sökning och ersätta med Source-läget:
 
 1. Öppna den globala panelen **Sök och ersätt**.
-1. Välj listrutan **Leta i** och välj något av följande alternativ för att utföra sökningen.
-
-   - **Aktuell karta**: Om du vill söka i den karta som är öppen
-
-     >[!NOTE]
-     >
-     > Det här alternativet visas om du redan har öppnat en karta för redigering.
+1. Aktivera alternativet **Använd källäget**.
+1. Välj listrutan **Sökväg** och välj något av följande alternativ för att utföra sökningen.
 
    - **Sökväg**: Om du vill söka på den markerade sökvägen
-   - **Välj karta**: Om du vill söka i den markerade kartan
+   - **Karta**: Om du vill söka i en specifik karta från databasen eller samlingarna
+   - **Aktuell karta**: Om du vill söka i den karta som är öppen
 
-1. Du kan använda listrutan **Alternativ** och välja bland följande alternativ:
+   ![](images/path-dropdown-source-mode.png){width="350" align="left"}
 
-   - **Lås filen före ersättning**: Välj det här alternativet om du vill låsa en fil automatiskt innan du ersätter söktermen. Den här inställningen är mer relevant om administratören har aktiverat konfigurationen för att låsa en fil innan redigering. När backend-inställningen är aktiverad bör du välja det här alternativet. Det förhindrar att dialogrutan för fillås uppmanar dig att låsa alla filer innan du gör några ändringar. Om du inte markerar det här alternativet visas en uppmaning innan en fil öppnas för redigering.
+
+1. Ange söksträngen i fältet **Sök**. Om du vill begränsa resultaten markerar du ikonen **Filter** bredvid sökfältet och väljer följande filter:
+
+   ![](images/find-filters-source-mode.png){width="350" align="left"}
+
+   - **Filtyp**: Välj filtyp, **Ämnen** och **Kartor** där du vill söka i texten
+   - **Dokumentläge**: Du kan välja ett dokumentläge bland de tillgängliga alternativen. Vilka alternativ för dokumenttillstånd som visas hämtas från Mappprofiler. De representerar den kombinerade uppsättningen med alla möjliga dokumentlägen för alla dessa profiler. Standardlägena är Granskning, Klar, Utkast, Godkänd, Redigera och Granskad.
+   - **Senast ändrad**: Filtrera innehåll baserat på ändringsdatum. Välj ett datumintervall i kalendern eller välj något av följande alternativ för tidsram:
+
+      - De senaste 2 timmarna
+      - I förra veckan
+      - Under den senaste månaden
+      - Under förra året
+   - **Övriga**: Du kan konfigurera följande:
+      - **Taggar**: Filtrera innehåll baserat på taggar.
+      - **Skiftlägeskänslig sökning**: Aktiverar sökning för att säkerställa att resultatet matchar det exakta skiftläget som angetts.
+      - **Visa filer som låsts av andra**: Visar filer som för närvarande är låsta av andra användare och förhindrar redigeringar tills låset släpps.
+
+1. Tryck på Enter eller välj ikonen **Sök** för att utföra sökningen.
+
+   ![](images/search-icon.png){width="350" align="left"}
+
+1. Välj en fil i sökresultatlistan. Filen öppnas i Source-vyn med den sökta termen markerad i innehållet.
+
+1. Ange den term som du vill använda som ersättning i fältet **Ersätt med**. Klicka på ikonen **Inställningar** intill fältet och välj bland de tillgängliga alternativen om du vill anpassa hur ersättningar ska användas.
+
+   - **Ersätt olåsta filer**: Välj det här alternativet om du vill tillåta ersättning i olåsta filer.
+
+   - **Skapa ny version efter ersättning**: Välj det här alternativet om du vill skapa en ny version av det ämne som du väljer att ersätta texten i. Du kan också ange versionskommentarer som läggs till för varje uppdaterad fil. Om du inte markerar det här alternativet sparas ändringarna i den aktuella versionen av ämnet och ingen ny version skapas.
+
+   ![](images/replace-settings-source-mode.png){width="350" align="left"}
+
+
+1. Välj **Ersätt förekomst** om du vill ersätta den markerade söksträngen i avsnittet eller markera de övre och nedre pilarna om du vill gå till nästa eller föregående förekomst av texten.
+
+   ![](images/replace-occurrence.png){width="350" align="left"}
+
+1. Välj **Ersätt alla** om du vill ersätta alla förekomster av den sökda strängen i alla sökda filer med den angivna ersättningssträngen i ett enda försök. Du får ett meddelande när alla förekomster har ersatts.
+
+   ![](images/replace-all.png){width="350" align="left"}
+
+   >[!NOTE]
+   >
+   >Om du vill aktivera knappen **Ersätt alla** måste mappprofiladministratören eller systemadministratören markera alternativet **Aktivera Ersätt alla** på fliken **Allmänt** i **Workspace-inställningarna** (visas som **Inställningar** för **Lokalt**).
+
+1. Du kan också hovra över en fil från sökresultatlistan om du vill visa ikonen **Ersätt alla i filen** till höger om den, vilket gör att du kan ersätta alla förekomster av termen i en enda fil.
+
+   >[!NOTE]
+   >
+   > Du kan också visa ikonen **Ta bort** för att ta bort filen från sökresultatet. De filer som du tar bort flyttas bort från listan och den sökta termen ersätts inte i dem.
+
+   ![](images/replace-all-in-file.png){width="350" align="left"}
+
+1. När åtgärden Ersätt alla har slutförts genereras en hämtningsbar CSV-rapport med en ögonblicksbild av alla ersättningsåtgärder som har utförts. Du kan hämta rapporten för att visa detaljerad information om ersättningsåtgärderna, inklusive antalet förekomster som har ersatts, tillsammans med information om varje, samt eventuella fel och orsaken till dem. Åtgärden kan misslyckas på grund av vissa specifika orsaker, som att filen låses av en annan användare, valideringsfel som orsakas av ändringar som gjorts i filen under åtgärden eller andra liknande problem.
+
+   ![](images/snapshot-replace-all.png){width="350" align="left"}
+
+Det går bara att ersätta en åtgärd åt gången i hela systemet, och tills åtgärden utförs visas statusen Ersätt alla pågående. Du kan också avbryta åtgärden Ersätt alla däremellan. Om du avbryter åtgärden får du ett meddelande om det i Inkorgen.
+
+![](images/replace-all-in-progress-source-mode.png){width="350" align="left"}
+
+</details>
+
+<br>
+
+- **Utan Source-läge:** Sökningen är begränsad till den text som visas i redigeringsvyn och fokuserar enbart på det synliga innehållet som hoppar över källinnehåll som XML-element eller attribut. Det här läget är idealiskt för snabba, innehållsbaserade sökningar.
+
+  ![](images/map-find-replace-without-source-mode.png){align="left"}
+
+<br>
+<details>
+    <summary> Sök och ersätt globalt utan Source-läge</summary>
+
+
+Utför följande steg om du vill utföra global sökning och ersätta utan Source-läge:
+
+1. Öppna den globala panelen **Sök och ersätt**.
+1. Välj listrutan **Sökväg** och välj något av följande alternativ för att utföra sökningen.
+
+   - **Sökväg**: Om du vill söka på den markerade sökvägen
+   - **Karta**: Om du vill söka i en specifik karta från databasen eller samlingarna
+   - **Aktuell karta**: Om du vill söka i den karta som är öppen
+
+   ![](images/path-dropdown.png){width="350" align="left"}
+
+1. Ange söksträngen i fältet **Sök**. Om du vill begränsa resultaten markerar du ikonen **Filter** bredvid sökfältet och väljer följande filter:
+
+
    - **Endast hela ord**: Välj det här alternativet om du vill söka efter hela söksträngen. Om du t.ex. skriver över i söksträngen returnerar sökresultatet alla filer som innehåller ord som t.ex. over och overview. Om du vill begränsa sökningen till att returnera exakt den angivna termen väljer du det här alternativet.
-   - **Skapa ny version efter ersättning**: Välj det här alternativet om du vill skapa en ny version av det ämne som du väljer att ersätta texten i. Du kan också ange versionskommentarer som läggs till för varje uppdaterad fil.
-
-     Om du inte markerar det här alternativet sparas ändringarna i den aktuella versionen av ämnet och ingen ny version skapas.
 
    - **Inkludera indirekta referenser**: Välj det här alternativet om du vill söka efter strängen i de indirekta referenserna även inom DITA-kartan. Som standard är detta inaktiverat, så sökningen utförs endast på direktreferenser.
 
-1. Ange söktermen eller texten som du vill söka efter.
-1. Ange den text som du vill ersätta söktermen med.
-1. Tryck på Enter eller välj ikonen **Sök** \( ![](images/search-icon.svg)\) för att utföra sökningen.
-1. Välj en fil i sökresultatlistan. Filen öppnas i området för innehållsredigering där den sökta termen är markerad i innehållet.
+   ![](images/find-filters.png){width="350" align="left"}
 
-1. Välj **Ersätt en förekomst** \( ![](images/replace-icon.svg)\) om du vill ersätta den markerade söktermen i avsnittet eller välj Nästa matchning ![](images/next-match-in-search.png) eller ![](images/previous-match-in-search.png) Föregående matchning om du vill gå till nästa eller föregående förekomst av texten.
-1. Välj **Ersätt alla** \( ![](images/replace-all-in-file-icon.svg)\) om du vill ersätta alla förekomster av den sökta termen i en enda fil med ersättningstermen med ett enda klick. Du får ett meddelande när du har ersatt alla förekomster i den valda filen.
+1. Tryck på Enter eller välj ikonen **Sök** för att utföra sökningen.
 
-Om du vill aktivera ikonen **Ersätt alla** måste systemadministratören markera alternativet **Aktivera Ersätt alla** på fliken **Allmänt** i **Workspace-inställningarna** (visas som **Inställningar** för **Lokalt**).
+   ![](images/search-icon.png){width="350" align="left"}
 
->[!NOTE]
->
-> Håll pekaren över en fil från sökresultatlistan för att visa ikonen Ersätt alla i fil till höger om den. Du kan också visa ikonen Ignorera fil för att ta bort filen från sökresultatet. De filer som du ignorerar tas bort från listan och den sökta termen ersätts inte i dem.
+1. Välj en fil i sökresultatlistan. Filen öppnas i redigeringsvyn i området Innehållsredigering där den sökta termen är markerad i innehållet.
+
+1. Ange den term som du vill använda som ersättning i fältet **Ersätt med**. Klicka på ikonen **Inställningar** intill fältet och välj bland de tillgängliga alternativen om du vill anpassa hur ersättningar ska användas.
+
+   - **Lås filen före ersättning**: Välj det här alternativet om du vill låsa en fil automatiskt innan du ersätter söksträngen. Den här inställningen är mer relevant om administratören har aktiverat konfigurationen för att låsa en fil innan redigering. När backend-inställningen är aktiverad bör du välja det här alternativet. Det förhindrar att dialogrutan för fillås uppmanar dig att låsa alla filer innan du gör några ändringar. Om du inte markerar det här alternativet visas en uppmaning innan en fil öppnas för redigering.
+
+   - **Skapa ny version efter ersättning**: Välj det här alternativet om du vill skapa en ny version av det ämne som du väljer att ersätta texten i. Du kan också ange versionskommentarer som läggs till för varje uppdaterad fil. Om du inte markerar det här alternativet sparas ändringarna i den aktuella versionen av ämnet och ingen ny version skapas.
+
+   ![](images/replace-settings.png){width="350" align="left"}
+
+
+1. Välj **Ersätt förekomst** om du vill ersätta den markerade söksträngen i avsnittet eller markera de övre och nedre pilarna om du vill gå till nästa eller föregående förekomst av texten
+
+   ![](images/replace-occurrence.png){width="350" align="left"}
+
+1. Välj **Ersätt alla** om du vill ersätta alla förekomster av den sökta termen i en enda fil med termen Ersätt i en enda gång. Du får ett meddelande när du har ersatt alla förekomster i den valda filen.
+
+   >[!NOTE]
+   >
+   > Om du vill aktivera ikonen **Ersätt alla** måste mappprofiladministratören eller systemadministratören markera alternativet **Aktivera Ersätt alla** på fliken **Allmänt** i **Workspace-inställningarna** (visas som **Inställningar** för **Lokalt**). Om fel uppstår under ersättningsåtgärden hoppas dessa filer över på grund av XML-tolkningsproblem eller DITA-relaterade fel.
+
+   ![](images/replace-all.png){width="350" align="left"}
+
+1. Du kan också föra pekaren över en fil från sökresultatlistan för att visa ikonen **Ersätt alla i filen** till höger om den. På så sätt kan du ersätta alla förekomster av termen i en enda fil.
+
+   >[!NOTE]
+   >
+   > Du kan också visa ikonen **Ta bort** för att ta bort filen från sökresultatet. De filer som du tar bort flyttas bort från listan och den sökta termen ersätts inte i dem.
+
+   ![](images/replace-all-in-file-no-source.png){width="350" align="left"}
 
 Det går bara att ersätta en åtgärd åt gången i hela systemet, och tills åtgärden utförs visas statusen Ersätt alla pågående. Du kan också avbryta åtgärden Ersätt alla däremellan eller visa loggrapporten. Om du avbryter åtgärden får du ett meddelande om det i Inkorgen. Du får ett meddelande om att åtgärden lyckades när alla förekomster i den valda filen har ersatts.
 
-![](images/replace-all-in-progress.png){width="300" align="left"}
+![](images/replace-all-in-progress.png){width="350" align="left"}
 
 Du kan också använda alternativet **Sök på karta** på menyn **Alternativ** för en karta för att söka efter och ersätta text på en karta. Det här alternativet visas för en karta som öppnas på databaspanelen eller i kartvyn.
 
-![](images/map-options-menu.png){width="550" align="left"}
+![](images/map-options-menu.png){width="650" align="left"}
 
 </details>
 
@@ -1170,4 +1323,4 @@ Så här visar du granskningskommentarerna i de aktiva granskningsuppgifterna so
 
 </details>
 
-**Överordnat ämne:**&#x200B;[&#x200B; Introduktion till redigeraren](web-editor.md)
+**Överordnat ämne:**[ Introduktion till redigeraren](web-editor.md)

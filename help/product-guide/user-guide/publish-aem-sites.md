@@ -4,9 +4,9 @@ description: Publicera ett ämne eller element i ett ämne i ett Adobe Experienc
 feature: Publishing
 role: User
 exl-id: acbc48b7-93a2-41c6-8565-359fbbdd1fb9
-source-git-commit: 144ecbea83b2c649a00c6b88e533327f3ce111f4
+source-git-commit: e1bac3680afda837393d86ee5f19d5877237ffe9
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
@@ -21,13 +21,11 @@ Med den här funktionen kan du publicera ett ämne och dess element utan att ska
 Så här skapar du en platssida:
 
 
-1. Öppna ämnet i Redigeraren och välj Filegenskaper på den högra panelen.
+1. Öppna ämnet i Redigeraren och välj **Filegenskaper** på den högra panelen.
 1. Välj **Ny utdataikon** ![ny utdataikon](./images/Add_icon.svg) i avsnittet **Utdatafiler**.
 1. Välj sidan **Webbplatser**.
 1. Fyll i följande information i dialogrutan **Skapa platser**:
    ![Lägg till sökvägen och mallinformationen på sidan Generera platser](images/aem-sites-page-generate.png){width="500" align="left"}
-
-   *Lägg till sökvägen, titeln, namnet och mallinformationen för att publicera ett ämne eller dess element som en webbplatssida. *
 
    * **Sökväg**: Bläddra och välj sökvägen till mappen där du vill publicera sidan Platser.
    * **Titel**: Ange webbplatsens titel. Som standard fylls rubriken i med ämnestiteln. Du kan redigera det. Den här titeln används för att generera namnet på sidan Platser.
@@ -35,7 +33,7 @@ Så här skapar du en platssida:
    * **Sidmall**: Välj sidmallen Platser för att skapa din platssida. Du kan visa mallarna i mappen på den sökväg du väljer. Administratören kan även överföra egna mallar.
 
 
-   * Du kan också välja olika villkor för att publicera innehållet.  Välj något av följande alternativ:
+   * Du kan också välja olika villkor för att publicera innehållet. Välj något av följande alternativ:
 
 
       * **Inget**: Välj det här alternativet om du inte vill använda något villkor på publicerade utdata.
@@ -51,7 +49,7 @@ Så här skapar du en platssida:
 1. Välj **Generera** om du vill publicera sidan Webbplatser.
 1. Du kan visa sidan Webbplatser för ett avsnitt under avsnittet **Utdata** i **Filegenskaper**. Webbplatssidorna visas efter publiceringsdatum och -tid, med det senaste som det första.
 
-   ![Visa webbplatssidan för ett ämne](images/aem-sites-output-new.png){width=300 align=&quot;left&quot;}
+   ![Visa webbplatssidan för ett ämne](images/aem-sites-output-new.png){width=300 align="left"}
 
    *Visa webbplatssidan som finns för ett ämne och publicera dem igen.*
 

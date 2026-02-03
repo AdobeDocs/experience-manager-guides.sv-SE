@@ -4,9 +4,9 @@ description: Utforska andra funktioner i redigeraren i Adobe Experience Manager 
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: c84a95b4d0b5df5b29d16efa7478bbfdc953bc5b
+source-git-commit: f0ba8dce38a6eef5dedc8a81107c8e31ea6b26b3
 workflow-type: tm+mt
-source-wordcount: '2678'
+source-wordcount: '3653'
 ht-degree: 0%
 
 ---
@@ -145,6 +145,132 @@ Redigeraren innehåller en smart dialogruta för filbläddring. Redigeraren komm
 >
 > Om det gäller en bild-, ljud- eller videofil används filens plats som standard i dialogrutan för filbläddring, inte den plats som användes senast.
 
+## Bläddra bland filer och mappar i Experience Manager Guides
+
+Experience Manager Guides innehåller intuitiva dialogrutor - **Välj fil** och **Välj sökväg** - som hjälper dig att effektivt bläddra bland och välja filer eller mappar i innehållsdatabasen.
+
+>[!NOTE]
+>
+> Webbläsaren för fil- och mappsökväg introduceras med ett omgjort användargränssnitt i version 2601 av Experience Manager Guides as a Cloud Service. Det nya gränssnittet är aktiverat som standard. Om du föredrar att fortsätta använda det befintliga användargränssnittet utan dessa uppdateringar kontaktar du ditt Customer Success-team för att inaktivera den nya förbättringen.
+
+### Bläddra bland filer i Experience Manager Guides
+
+Med filläsaren kan du snabbt hitta och välja specifika filer i innehållsdatabasen. Den här funktionen är tillgänglig för uppgifter som att lägga till ett ämne på en karta, länka en bild eller korsreferens, skapa återanvändbart innehåll med mera.
+
+![](images/select-file-dialog-new.png){width="350" align="left"}
+
+När du startar filläsaren öppnas dialogrutan **Välj fil**. Den här dialogrutan innehåller två flikar: **Databas** och **Samlingar**. Fliken Databas är som standard markerad.
+
+![](images/select-file.png){width="650" align="left"}
+
+**Tillgängliga funktioner på fliken Databas för filbläddring**
+
+**Tabellvy över filer och mappar**
+
+På fliken Databas finns en tabellvy över filer och mappar från innehållsdatabasen, vilket gör det enklare att hitta rätt filsökväg. Du kan också använda de synliga kolumnerna högst upp och mappnavigeringspanelen till vänster för att flytta mellan mapparna.
+
+![](images/select-file-dialog-navigate-files.png){width="650" align="left"}
+
+**Markera en och flera filer**
+
+Om du vill använda en fil markerar du filen och väljer **Markera**.
+
+![](images/select-file-single-file-selection.png){width="650" align="left"}
+
+I vissa fall kan du även välja flera filer från den här sökvägsläsardialogrutan. Om du till exempel bläddrar bland filer för återanvändbart innehåll kan du markera flera filer och göra dem till en del av det återanvändbara innehållet.
+
+![](images/select-file-multiple-file-selection.png){width="650" align="left"}
+
+Det finns för närvarande flera filval för återanvändbart innehåll, ämnesreferenser, Schematron, Utdatainställningar (med DITAVAL) och Workfront.
+
+>[!NOTE]
+>
+> När du väljer filer från sökvägsläsarens dialogruta kan det finnas vissa mappar som är inaktiverade. Detta beteende begränsar åtkomsten till specifika filtyper för att säkerställa giltiga val. När du till exempel skapar återanvändbart innehåll får endast avsnitt- och mappfiler användas. Om du vill förhindra att en ogiltig filtyp används, till exempel en bild, visas inte motsvarande filer eller så är de inaktiverade för val i sökvägsläsaren.
+
+**Förhandsgranska markerade filer**
+
+Du kan förhandsgranska de filer du har markerat med knappen **Förhandsgranska** enligt nedan:
+
+![](images/select-file-preview-button.png){width="650" align="left"}
+
+Förhandsgranskningen av den valda filen visas till höger.
+
+![](images/select-file-dialog-preview.png){width="650" align="left"}
+
+För flera markeringar visas en förhandsvisning av alla markerade filer på förhandsgranskningspanelen för enkel granskning.
+
+![](images/reusable-content-selection-left-panel.png){width="650" align="left"}
+
+Du kan också använda ikonen **Ta bort** för att avmarkera vissa filer i förhandsvisningen.
+
+![](images/resusable-content-remove-preview.png){width="650" align="left"}
+
+**Sök och filtrera upplevelsen**
+
+När du bläddrar bland filer i databasen kan du söka efter filer efter namn, titel eller innehåll i den valda sökvägen. Du kan använda ett, två eller alla tre villkor för sökningen. Om inget av villkoren är markerat, kommer resultatet att innehålla gemensamma värden för alla tre kriterierna.
+
+![](images/select-file-search.png){width="650" align="left"}
+
+Välj ikonen **Filtersökning** \(![Sökfilterikon](images/filter-search-icon.svg)\) för att öppna filterpanelen till höger.
+
+![](images/select-file-filters.png){align="left"}
+
+Du har följande alternativ för att filtrera filerna och begränsa sökningen:
+
+- **Sök i**: Välj den sökväg där du vill söka efter filerna som finns i databasen.
+
+- **Filtyp**: Filtrera sökningen baserat på en viss filtyp. Tillgängliga alternativ är: **Ämne**, **Karta**, **DITAVAL**, **Bild**, **Multimedia**, **Dokument** och **Övriga**.
+
+  >[!NOTE]
+  >
+  > I vissa fall tillämpas filtret **Filtyp** i förväg på specifika filtyper baserat på uppgiften och kan inte ändras. När du t.ex. bläddrar efter en bild är filtret inställt på att endast visa bildfiler, och när du skapar återanvändbart innehåll är det inställt på att endast visa ämne- och mappfiler. Du kan fortfarande justera andra filter som dokumentläge, taggar eller datum för senaste ändring för att förfina sökresultaten.
+
+- **Dokumenttillstånd**: Du kan filtrera sökningen baserat på filernas aktuella dokumenttillstånd. De tillgängliga filtervärdena definieras i fältet `repositoryFilters` i `ui_config.json file` och är associerade med den mappprofil som du använder för närvarande.
+
+  Detta innebär:
+
+   - Om du använder den globala profilen tillämpas filtervärdena som konfigurerats i den globala profilen.
+   - Om du väljer en viss mappprofil hämtas filtervärdena som definierats i den profilen.
+
+  Standardfiltervärdena som är tillgängliga för dokumentläget är: Utkast, Redigera, Granskning, Godkänd, Granskad och Klar. Mer information om hur du anpassar filtervärden för dokumentlägen finns i [Konfigurera dokumenttillståndsfilter](../cs-install-guide/config-doc-state-filters.md).
+
+- **Låst av**: Visar en lista över användare. Listan sidnumreras och läses in asynkront, med en begränsad uppsättning användare åt gången och fler hämtas när du rullar eller navigerar. Detta förbättrar inläsningshastigheten och övergripande prestanda, särskilt när du arbetar med ett stort antal användare.
+
+- **Senast ändrad**: Filtrera innehåll baserat på ändringsdatum. Välj ett datumintervall i kalendern eller välj något av följande alternativ för tidsram:
+   - I förra veckan
+   - Under den senaste månaden
+   - Under förra året
+
+- **Taggar**: Filtrera innehåll baserat på taggar.
+
+- **DITA-element**: Filtrera innehåll baserat på olika DITA-element.
+
+När du har använt alla nödvändiga filter väljer du **Använd** längst ned till höger på panelen Filter.
+
+**Tillgängliga funktioner på fliken Samlingar för filbläddring**
+
+Fliken **Samlingar** innehåller en välstrukturerad vy med filer som är tillgängliga i dina samlingar så att du snabbt kan komma åt och återanvända dem. Till skillnad från fliken Databas, som visar hela mapphierarkin, kan du med samlingar välja ämnen, kartor och bilder som du använder ofta utan att behöva navigera i flera mappar.
+
+![](images/select-file-collections.png)
+
+På fliken Samlingar kan du:
+
+- Navigera smidigt genom dina samlingar med hjälp av länkarna längst upp och på mappnavigeringspanelen till höger.
+
+  ![](images/collections-folder-navigation-panel.png)
+- Markera filer som finns i en viss samlingssökväg och förhandsgranska dem i den högra panelen.
+
+  ![](images/collections-file-preview.png)
+
+
+
+### Webbläsarmappar i databasen
+
+Genom att bläddra bland mappar med dialogrutan **Välj mapp** kan du fokusera på att välja rätt mappsökväg i databasen för uppgifter som att skapa nya ämnen eller ange utdataplatser för publicerat innehåll. Den ger en tydlig, trädstrukturerad vy över mappar, vilket gör navigeringen intuitiv och säkerställer att innehållet placeras på rätt plats.
+
+![](images/select-path-dialog-new.png){width="300" align="left"}
+
+
 ## Stöd för artikelbaserad publicering
 
 I redigeraren kan du generera utdata för ett eller flera ämnen, eller för hela DITA-kartan. Du måste skapa förinställningar för DITA-kartan och sedan enkelt generera utdata för ett eller flera ämnen. Om du har uppdaterat några avsnitt på kartan kan du även generera utdata endast för dessa ämnen från redigeraren. Mer information finns i [Artikelbaserad publicering](web-editor-article-publishing.md#id218CK0U019I).
@@ -282,4 +408,4 @@ De viktigaste funktionerna för att förbättra hanteringen av stora filer är f
 
 - Varningsmeddelandet är bara tillgängligt för DITA-filer och är synligt i alla vyer: Författare, Source och Layout.
 
-**Överordnat ämne:**&#x200B;[&#x200B; Introduktion till redigeraren](web-editor.md)
+**Överordnat ämne:**[ Introduktion till redigeraren](web-editor.md)

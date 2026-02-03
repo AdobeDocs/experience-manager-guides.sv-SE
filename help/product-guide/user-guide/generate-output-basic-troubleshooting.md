@@ -4,9 +4,9 @@ description: Lös problem med grundläggande felsökning i AEM Guides. Lär dig 
 exl-id: 57b88291-b5a3-4931-b3ed-f2b2ce7a463c
 feature: Publishing, Troubleshooting
 role: User
-source-git-commit: 262edba89ab4bf65cb6e109bd7c5df177e2e56fe
+source-git-commit: e049cb1f3d091c701285dbe89194058b93d5e2e4
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '776'
 ht-degree: 0%
 
 ---
@@ -42,15 +42,17 @@ Utför följande steg för att visa och kontrollera loggfilen för generering av
    ![](images/log-file-new.png){align="left"}
 
 1. Använd följande filter för att markera texten i loggfilen:
-   - Allvarligt: markerar de allvarliga felen i loggfilen med mörkröd färg.
-   - Fel: Markerar felen i loggfilen med röd färg. Undantag behandlas som fel och markeras på liknande sätt i rött.
-   - Varning: Markerar varningarna i loggfilen med gul färg.
-   - Info: Markerar informationsmeddelanden i loggfilen med grön färg.
+   - **Allvarligt**: Markerar de allvarliga felen i loggfilen med mörkröd färg.
+   - **Fel**: Markerar felen i loggfilen med röd färg. Undantag behandlas som fel och markeras på liknande sätt i rött.
+   - **Varning**: Markerar varningarna i loggfilen med gul färg.
+   - **Info**: Markerar informationsmeddelanden i loggfilen med grön färg.
 
-1. Använd navigeringsknapparna uppåt och nedåt för att hoppa till den markerade texten i loggfilen.
+1. Använd navigeringsknapparna uppåt och nedåt för att hoppa till den markerade texten i loggfilen. Du kan även bläddra igenom loggfilen och kontrollera meddelandena.
 
-   Du kan även bläddra igenom loggfilen och kontrollera meddelandena.
+1. Du kan utföra följande åtgärder på loggfilen:
 
+   - **Hämtningslogg**: Om listan med loggar är lång väljer du **Hämta logg** för att hämta loggfilen till din enhet för enklare åtkomst och granskning.
+   - **Kopiera logg**: Kopierar listan med loggar till Urklipp så att du snabbt kan klistra in den i en textredigerare.
 
 ## Kopiera och kontrollera loggfilen i en textredigerare
 
@@ -82,6 +84,9 @@ Så här kopierar och kontrollerar du loggfilen för generering av utdata i en t
    ![](images/process-error-in-log-file.png){width="650" align="left"}
 
 
+
+
+
 ## Åtgärda JSP-kompileringsfel
 
 Om DITA-avsnittet är för stort kan du visa JSP-kompileringsfelet \(`org.apache.sling.api.request.TooManyCallsException`\) i webbläsaren. Det här felet kan uppstå när du öppnar ett ämne för redigering, granskning eller publicering.
@@ -99,4 +104,4 @@ Utför följande steg för att lösa problemet:
 1. Öka värdet för parametern *Antal anrop per begäran* enligt dina krav.
 
 
-**Överordnat ämne:**&#x200B;[&#x200B; Utdatagenerering](generate-output.md)
+**Överordnat ämne:**[ Utdatagenerering](generate-output.md)

@@ -4,9 +4,9 @@ description: Generera DITA-kartrapporter från kartkonsolen i AEM Guides. Lär d
 exl-id: 2f202b41-85d9-4a5a-aa28-e25715ce5e2e
 feature: Report Generation
 role: User
-source-git-commit: 0d713f9ff4bd48aa90bce368d6ad7abf86ecbbf7
+source-git-commit: 11b0082b160a35fee0fc9d6478f5fe896de80d31
 workflow-type: tm+mt
-source-wordcount: '2614'
+source-wordcount: '2645'
 ht-degree: 0%
 
 ---
@@ -121,11 +121,13 @@ Du kan lägga till taggar i ett enskilt ämne eller använda funktionen för gru
 
 Så här uppdaterar du metadata:
 
-1. Om du vill uppdatera metadata markerar du de filer som du vill uppdatera. Du kan markera de filer som visas på panelen Metadata genom att markera kryssrutan bredvid **Titel**. Om du vill markera alla poster använder du fliken **Markera alla** ovanför namnlisten enligt nedan.
+1. Om du vill uppdatera metadata markerar du den eller de filer som du vill uppdatera. Du kan markera de filer som visas på panelen Metadata genom att markera kryssrutan bredvid **Titel**.
+
+   Om du vill markera alla poster använder du fliken **Markera alla** ovanför namnlisten. Eftersom posterna läses in progressivt när du rullar, måste du bläddra till slutet av listan innan du använder **Markera alla**. Detta säkerställer att redigeringsbehörigheter och låsstatus utvärderas för alla filer, inte bara för de poster som är synliga just nu.
 
    >[!NOTE]
    >
-   > Du kan inte markera några utcheckade filer. En utcheckningsikon visas också nära titeln på en utcheckad fil. Du kan hålla muspekaren över ikonen för att visa namnet på användaren.
+   > Om en fil är låst av en annan användare kan den inte väljas för att uppdatera metadata. En låsikon visas också nära titeln på en låst fil. Du kan hålla muspekaren över ikonen för att visa namnet på användaren.
 
    ![](images/all-selection.png){align="left"}
 
@@ -136,9 +138,7 @@ Så här uppdaterar du metadata:
 
 1. Om du vill lägga till nya taggar väljer du nya taggar i listrutan för att använda dem i alla markerade avsnitt. Du kan också ta bort taggar genom att markera kryssikonen bredvid taggen.
 
-   >[!NOTE]
-   >
-   > De vanliga taggarna som används för alla markerade ämnen visas.
+
 
 1. Välj ett nytt dokumentläge om du vill ändra dokumentläget för alla markerade referenser. I listrutan visas det vanliga möjliga läget för alla valda ämnen. Om det aktuella läget för dina ämnen till exempel är Under granskning kan du visa läget Utkast, Godkänd eller Granskad.
 1. Välj **Uppdatera** för att uppdatera metadata. Ett bekräftelsemeddelande visas för metadatan, oavsett om de har uppdaterats eller inte. Du kan också välja **Hämta rapport** om du vill hämta ögonblicksbilden av rapporten. Den här ögonblicksbilden innehåller information om den uppdaterade statusen för de valda referenserna.
@@ -236,16 +236,16 @@ Du kan visa rapporten för brutna länkar genom att utföra följande steg:
 
 1. Du kan filtrera brutna länkar baserat på **filtypen** och **länktypen**. Listan med brutna länkar visas baserat på ditt val i listrutan. Du kan t.ex. välja att bara visa innehållsreferenserna i DITA-kartan, och en fil visar bara de brutna innehållsreferenserna som används i den.
 
-   DITA-avsnitt, DITA-karta, Filreferens, Nyckelreferens, Innehållsreferens, Innehållsnyckelreferens, Bildreferens, Multimediefilsreferens och Multimedienyckelreferens är tillgängliga värden för listrutan **Länktyp** och DITA-avsnitt, DITA-karta, Dokument, Bild, Video, Ljud med flera är tillgängliga värden för listrutan **Filtyp**.
+   DITA-avsnitt, DITA-karta, filreferens, nyckelreferens, innehållsreferens, referens för innehållsnyckel, bildreferens, multimediefilsreferens och multimedienyckelreferens är tillgängliga värden i listrutan **Länktyp** och Ämne, Karta, Dokument, Bild, Video, Ljud med flera är tillgängliga i listrutan **Filtyp** .
 1. Du kan också använda följande filtreringsalternativ för att välja att visa följande kolumner i listan:
 
    - **Bruten länk** (markerad som standard) Den brutna länkens sökväg anges i DITA-kartan.
 
-   - **Länktyp** (markerad som standard) Länktypen. De tillgängliga alternativen är DITA-avsnitt, DITA-karta, Filreferens, Nyckelreferens, Innehållsreferens, Innehållsnyckelreferens, Bildreferens, Multimediefilsreferens och Multimedienyckelreferens.
+   - **Länktyp** (markerad som standard) Länktypen. De tillgängliga alternativen är Ämne, Karta, Filreferens, Nyckelreferens, Innehållsreferens, Innehållsnyckelreferens, Bildreferens, Multimediefilsreferens och Multimedienyckelreferens.
 
    - **Används i** (markerat som standard) Referenserna där den brutna länken har använts. Du kan markera referensen för att visa den i redigeringsläge.
 
-   - **Filtyp** (markerad som standard) Referenstypen - DITA-ämne, DITA-karta, Dokument, Bild, Video, Ljud med flera.
+   - **Filtyp** (markerad som standard) Referenstypen - Ämne, Karta, Dokument, Bild, Video, Ljud med flera.
 
    Välj **Uppdatera** om du vill få en ny lista över brutna länkar och visa ändringar i kartfilen eller om någon bruten länk i DITA-kartan har uppdaterats.
 1. Du kan välja att åtgärda den brutna länken på ikonen **Åtgärda länk** (![](images/fix-broken-link.svg)).
@@ -266,4 +266,4 @@ Du kan visa rapporten för brutna länkar genom att utföra följande steg:
 1. Välj **Hämta** om du vill hämta ögonblicksbilden av alla brutna länkar i DITA-kartan. Excel-filen innehåller de markerade kolumnerna och de brutna länkarna som filtreras i vyn Brutna länkar.
 
 
-**Överordnat ämne:**&#x200B;[&#x200B; Introduktion till rapporter](reports-intro.md)
+**Överordnat ämne:**[ Introduktion till rapporter](reports-intro.md)

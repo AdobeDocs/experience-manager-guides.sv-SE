@@ -4,9 +4,9 @@ description: Lär dig hur du skapar en granskningsåtgärd och skickar ämnen f�
 exl-id: c486eb6a-7e1f-4faa-973d-b47252d3e7c5
 feature: Reviewing
 role: User
-source-git-commit: fd4612037581d1d554c9dc144b998ba8a2ab8ccf
+source-git-commit: cd536b9e27b3c422fc723e9f13b12ac432fa3fc9
 workflow-type: tm+mt
-source-wordcount: '2793'
+source-wordcount: '3055'
 ht-degree: 0%
 
 ---
@@ -269,4 +269,41 @@ Så här skickar du ett eller flera avsnitt tillsammans med kartfilen för grans
 
 Ett e-postmeddelande skickas till alla granskare som meddelar att de har tilldelats ämnen för granskning. E-postmeddelandet innehåller en direkt länk som de kan använda för att komma åt ämnet i ett webbläsarfönster. Ämnen tillsammans med DITA-kartan öppnas i granskningsläget.
 
-**Överordnat ämne:**&#x200B;[&#x200B; Introduktion till granskning](review.md)
+## Lägga till eller ta bort ämnen från en pågående granskningsåtgärd
+
+Som författare eller initierare av en granskningsuppgift kan du lägga till nya ämnen i en pågående granskningsuppgift (om de inte tidigare skickats för granskning) eller ta bort ämnen från en pågående granskningsuppgift utan att det påverkar granskningsflödet.
+
+Utför följande steg för att lägga till eller ta bort ämnen från en pågående granskningsåtgärd:
+
+1. Gå till den granskningsåtgärd som du vill ändra på panelen Granska och välj **Öppna aktivitetsinformation** på snabbmenyn.
+
+   Sidan **Uppgiftsinformation** visas.
+
+1. Välj fliken **CONTENT** om du vill visa de ämnen som för närvarande ingår i granskningsaktiviteten.
+1. Granska ämneslistan och ändra urvalet efter behov.
+
+   - Välj nya ämnen som inte tidigare skickats för granskning.
+   - Avmarkera ämnen som du vill ta bort från granskningsaktiviteten.
+
+   >[!NOTE]
+   >
+   > Minst ett ämne måste vara markerat för att du ska kunna uppdatera en pågående granskningsåtgärd.
+
+   ![](images/modify-review-topics.png)
+
+1. När du har ändrat ämneslistan sprids motsvarande uppdateringar automatiskt till fliken **GRANSKARE** på sidan Uppgiftsinformation.
+
+   ![](images/modify-reviewers.png)
+
+   Granska den uppdaterade ämneslistan på fliken Granskare. För nya ämnen som läggs till måste du tilldela granskare, såvida inte inställningen **Tillåt tilldelningar att granska alla ämnen** är aktiverad för din granskningsaktivitet.
+1. Välj **Uppdatera**.
+
+När granskningsuppgifterna har uppdaterats får granskarna meddelanden (både AEM och e-post) baserat på deras granskningsstatus:
+
+- **Pågår**: Granskare som fortfarande arbetar med uppgiften får ett meddelande om att uppgiften har uppdaterats.
+- **Slutförd**: Granskare som har slutfört sin granskning får ett meddelande som begär en ny granskning.
+
+Mer information finns i [Om granskningsmeddelanden](./review-understanding-review-notifications.md).
+
+
+**Överordnat ämne:**[ Introduktion till granskning](review.md)

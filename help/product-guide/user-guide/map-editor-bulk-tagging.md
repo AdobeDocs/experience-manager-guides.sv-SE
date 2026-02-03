@@ -4,18 +4,21 @@ description: Använd bulktaggning av innehåll i AEM Guides för att förbättra
 exl-id: 4c6639a3-333b-44ad-9aec-735a327c3320
 feature: Metadata Management
 role: User
-source-git-commit: 9898f98d897da4da9ca76a89efd262239606ac2e
+source-git-commit: 4b4abf5958f251da05257d34a68471d5f36969a3
 workflow-type: tm+mt
 source-wordcount: '706'
 ht-degree: 0%
 
 ---
 
+
 # Masstaggning av DITA-innehåll {#id179SG0TN05Z}
+
+![](images/test-version-info-table.svg){width="650" align="left"}
 
 Med taggar kan du gruppera eller klassificera innehåll i innehållsdatabasen och även i publicerade utdata. Om du har använt taggar på innehållet kan du enkelt hitta relaterade ämnen i en DITA-karta som kan hjälpa dig att skapa innehåll. Med publicerade utdata kommer slutanvändarna att kunna hitta rätt innehåll snabbare med rätt taggar på plats.
 
-Med Adobe Experience Manager Guides kan du tagga DITA-innehåll i några få steg. Du kan använda funktionen för bulktaggning för att tillämpa flera taggar på flera ämnen, en DITA-karta eller på en underkarta. Du kan också lägga till märkord i ett enskilt ämne. Taggning är den inbyggda funktionen i Adobe Experience Manager. Mer information om hur du skapar och hanterar taggar finns i avsnittet [Administrera taggar](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=sv-SE) i Adobe Experience Manager-dokumentationen.
+Med Adobe Experience Manager Guides kan du tagga DITA-innehåll i några få steg. Du kan använda funktionen för bulktaggning för att tillämpa flera taggar på flera ämnen, en DITA-karta eller på en underkarta. Du kan också lägga till märkord i ett enskilt ämne. Taggning är den inbyggda funktionen i Adobe Experience Manager. Mer information om hur du skapar och hanterar taggar finns i avsnittet [Administrera taggar](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) i Adobe Experience Manager-dokumentationen.
 
 Som standard ger Experience Manager Guides inte läsåtkomst till någon användare i den mapp där alla taggar i Adobe Experience Manager-databasen lagras. Om du vill använda taggar som definieras i Adobe Experience Manager-databasen måste du be systemadministratören att ge åtkomst till den mapp där taggarna lagras.
 
@@ -107,4 +110,4 @@ Utför följande steg för att ta bort alla taggar från ett eller flera ämnen:
 
 Om du har en lång lista med taggar som används i dina ämnen kan det vara lite besvärligt att navigera. Du kan enkelt dölja taggar i från DITA-kartkonsolvyn genom att välja ikonen Dölj taggar. På samma sätt visas alla taggar när taggarna inte visas om du markerar Visa taggar.
 
-**Överordnat ämne:**&#x200B;[&#x200B; Hantera metadata](manage-metadata.md)
+**Överordnat ämne:**[ Hantera metadata](manage-metadata.md)

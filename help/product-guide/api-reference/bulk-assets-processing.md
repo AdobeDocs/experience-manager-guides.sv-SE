@@ -4,9 +4,9 @@ description: Läs mer om API för att starta massbearbetning av resurser
 feature: Post-Processing Event Handler
 role: Developer
 level: Experienced
-source-git-commit: e2eca63a5dd56e358aeea047b37f4b0f88dc720b
+source-git-commit: 8671a26bfee2d9e3b4e70a8f2615568c08c0a370
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '587'
 ht-degree: 1%
 
 ---
@@ -26,6 +26,15 @@ En POST-metod som initierar massbearbetning av resurser för en angiven sökväg
 | `path` | Sträng | Ja | Absolut sökväg till den mapp eller resurs i AEM-databasen som ska bearbetas. |
 | `excludedPaths` | Sträng | Nej | Lista över sökvägar som ska uteslutas från bearbetning |
 | `type` | Sträng | Ja | Typ av bearbetning som ska utföras. Exempel: ASSET_PROCESSING. |
+| `filter` | Objekt | Nej | Filter som används på de valda resurserna |
+
+**Filtrera objektfält**
+
+| Namn | Typ | Beskrivning |
+|----|----|-----------|
+| fileTypes | Sträng | Resurstyper som ska bearbetas. Tillåtna värden: DITATOPIC, DITAMAP, MARKDOWN, HTML/CSS, DITAVAL, ÖVRIGT. |
+| startTime | Heltal | Lägre gräns för när tillgångar skapas |
+| endTime | Heltal | Övre gräns för när tillgångar skapas |
 
 **Exempel på begäran**
 
@@ -35,7 +44,12 @@ En POST-metod som initierar massbearbetning av resurser för en angiven sökväg
   "excludedPaths": [
     "content/dam/status-fetch1/excluded-folder"
   ],
-  "type": "ASSET_PROCESSING"
+  "type": "ASSET_PROCESSING",
+  "filter": {
+        "fileTypes": ["DITAMAP", "DITATOPIC"],
+        "startTime": 1758876933000
+        "endTime": 1764932039000
+    }
 }
 ```
 

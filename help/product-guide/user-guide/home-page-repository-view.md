@@ -3,9 +3,9 @@ title: Databas på startsidan
 description: Lär känna databasen på hemsidan. Läs mer om gränssnittet och funktionerna i Adobe Experience Manager Guides på hemsidan.
 feature: Authoring
 role: User
-source-git-commit: 1919e622b1b148d16bcdb85f79e2a1cd706fe33e
+source-git-commit: e45343812a67c6755c76f1b31b68c7201cdd8772
 workflow-type: tm+mt
-source-wordcount: '1298'
+source-wordcount: '1412'
 ht-degree: 0%
 
 ---
@@ -76,11 +76,11 @@ Databasen fungerar som en central plats med en lista i tabellformat över alla m
    - **Nytt**: Skapa ett nytt DITA-ämne, en DITA-karta eller en mapp.
    - **Överför Assets**: Överför en fil från ditt lokala system till den valda mappen i databasen.
    - **Lägg till i samlingar**: Lägger till den markerade mappen i favoriter. Du kan lägga till den i en befintlig eller ny samling.
-   - **Bearbeta om resurser**: Utlöser bearbetningen av alla nyskapade och obearbetade resurser.
+   - **Återbearbeta resurser**: Utlöser bearbetningen för alla resurser i mappen.
 
 - **Alternativ-menyn för filer**: Du kan utföra följande åtgärder med **Alternativ** -menyn för en fil:
 
-  ![](images/options-file-repo.png){width="350" align="left"}
+  ![](images/options-file-repo-new.png){width="350" align="left"}
 
    - **Redigera**: Öppna filen för redigering.
    - **Redigera i syre**: Välj det här alternativet om du vill redigera den valda filen i syreanslutningens plugin-program.
@@ -99,6 +99,7 @@ Databasen fungerar som en central plats med en lista i tabellformat över alla m
    - **Ta bort**: Använd det här alternativet om du vill ta bort den markerade filen.
    - **Lägg till i**: Välj om du vill lägga till i samlingar eller återanvändbart innehåll.
    - **Kopiera**: Kopierar filens UUID eller fullständiga sökväg.
+   - **Bearbeta om resurs**: Startar bearbetningen för den valda resursen.
    - **Egenskaper**: Använd det här alternativet om du vill öppna sidan Egenskaper för den markerade filen.
    - **Hämta som PDF**: Använd alternativet för att generera PDF-utdata och hämta dem.
 
@@ -116,7 +117,16 @@ Du har följande alternativ för att filtrera filerna och begränsa sökningen:
 
 - **Sök i**: Välj den sökväg där du vill söka efter filerna som finns i databasen.
 
-- **Filtyp**: Du kan söka efter alla **DITA-avsnitt**, **DITA-kartor**, **DITAVAL-filer**, **Bildfiler**, **Multimedia**, **Dokument** och **JSON**.
+- **Filtyp**: Filtrera sökningen baserat på en viss filtyp. Tillgängliga alternativ är: **Ämne**, **Karta**, **DITAVAL**, **Bild**, **Multimedia**, **Dokument** och **Övriga**.
+
+- **Dokumenttillstånd**: Du kan filtrera sökningen baserat på filernas aktuella dokumenttillstånd. De tillgängliga filtervärdena definieras i fältet `repositoryFilters` i `ui_config.json file` och är associerade med den mappprofil som du använder för närvarande.
+
+  Detta innebär:
+
+   - Om du använder den globala profilen tillämpas filtervärdena som konfigurerats i den globala profilen.
+   - Om du väljer en viss mappprofil hämtas filtervärdena som definierats i den profilen.
+
+  Standardfiltervärdena som är tillgängliga för dokumentläget är: Utkast, Redigera, Granskning, Godkänd, Granskad och Klar. Mer information om hur du anpassar filtervärden för dokumentlägen finns i [Konfigurera dokumenttillståndsfilter](../cs-install-guide/config-doc-state-filters.md).
 
 - **Låst av**: Visar en lista över användare. Listan sidnumreras och läses in asynkront, med en begränsad uppsättning användare åt gången och fler hämtas när du rullar eller navigerar. Detta förbättrar inläsningshastigheten och övergripande prestanda, särskilt när du arbetar med ett stort antal användare.
 
