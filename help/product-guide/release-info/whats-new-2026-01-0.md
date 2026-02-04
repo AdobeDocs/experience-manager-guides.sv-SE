@@ -2,9 +2,9 @@
 title: Versionsinformation | Nyheter i Adobe Experience Manager Guides 2026.01.0
 description: Läs om de nya och förbättrade funktionerna i version 2026.01.0 av Adobe Experience Manager Guides
 role: Leader
-source-git-commit: f0ba8dce38a6eef5dedc8a81107c8e31ea6b26b3
+source-git-commit: cb3b06e18391fdfc53eb5abd4096553781eab0b8
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1551'
 ht-degree: 0%
 
 ---
@@ -156,6 +156,8 @@ Mer information om hur du konfigurerar inbyggda PDF-utdatainställningar och kor
 ### Stöd för komponentmappning på elementnivå i publicering i nya AEM Sites (med hjälp av komponentmappning på sammansatt nivå)
 
 Experience Manager Guides har nu stöd för komponentmappning på elementnivå i AEM Sites-utdata (med hjälp av sammansatt komponentmappning), vilket ger team exakt kontroll över hur DITA-element återges med `componentmapping.json`. Genom att mappa `topicref`, titlar, bilder, tabeller med mera till rätt AEM Core-komponenter får du en renare struktur i stället för allt som är standard till Text-komponenten. Detta resulterar i bättre prestanda och ger en rikare och modernare webbplatsupplevelse.
+
+Mer information finns i [Komponentmappning i AEM Sites](../cs-install-guide/component-mapping.md).
 
 ## Förbättrad tillgångsbearbetning
 

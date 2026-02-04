@@ -5,7 +5,7 @@ exl-id: d7cd412b-89ea-43a5-97b3-09944863bbee
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+source-git-commit: c790d5edd1ab799564aebfa96f4a41288c977a6c
 workflow-type: tm+mt
 source-wordcount: '883'
 ht-degree: 0%
@@ -134,3 +134,4 @@ Du kan visa ett fel om det finns en koppling med samma namn.
 
 
 När du har konfigurerat datakällan visas kopplingen under panelen **Datakällor** i webbredigeraren. Sedan kan du ansluta till datakällan och infoga ett innehållskuvert i dina ämnen. Mer information finns i [Infoga ett innehållsfragment från datakällan](../user-guide/web-editor-content-snippet.md).
+
