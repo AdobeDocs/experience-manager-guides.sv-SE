@@ -4,14 +4,15 @@ description: Lär dig hur du gör komponentmappning för AEM Sites
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: c7157e04f758d08b6402a969a35d0c231a1ca476
+exl-id: f59e3ad5-bf9c-468d-aab7-144c8c2335ac
+source-git-commit: beb1ca15fdfb0e7ea30e6e685ac67a2a398cc064
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1042'
 ht-degree: 0%
 
 ---
 
-# Komponentmappning för AEM Sites (med sammansatt komponentmappning)
+# Komponentmappning för AEM Sites
 
 Artikeln handlar om de olika aspekterna av komponentmappning för AEM-platser (med hjälp av sammansatt komponentmappning).
 
