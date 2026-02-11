@@ -397,4 +397,4 @@ Så här konverterar du dina befintliga strukturerade dokument till DITA-format:
 
 Med `<config> </config>`-blocket kan du definiera ett eller flera block med konfigurationer för konvertering. Konverteringsarbetsflödet körs och det slutliga resultatet i form av ett DITA-avsnitt sparas på den plats som anges i `outputDir`-elementet.
 
-**Överordnat ämne:**[ Migrera befintligt innehåll](migrate-content.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Migrera befintligt innehåll](migrate-content.md)
