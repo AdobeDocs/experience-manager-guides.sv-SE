@@ -2,9 +2,10 @@
 title: Versionsinformation | Nyheter i Adobe Experience Manager Guides 2026.01.0
 description: Läs om de nya och förbättrade funktionerna i version 2026.01.0 av Adobe Experience Manager Guides
 role: Leader
-source-git-commit: cb3b06e18391fdfc53eb5abd4096553781eab0b8
+exl-id: f24a6f4a-2754-48d9-b0ce-79229dc8dba9
+source-git-commit: 2c20191ba998ad7da98587f1832e1fe8499d023c
 workflow-type: tm+mt
-source-wordcount: '1551'
+source-wordcount: '1591'
 ht-degree: 0%
 
 ---
@@ -106,9 +107,18 @@ Nu kan du spåra antalet ord som finns i en karta eller ämnesfil. Det nya fält
 
 Mer information finns i [Högerpanelen i redigeraren](../user-guide/web-editor-right-panel.md#file-properties).
 
-### Förbättrad hantering av skrivskyddade filer
+### Metadataegenskaper kan inte längre redigeras för skrivskyddade filer
 
-Redigering av filegenskaper är nu begränsad för filer i läget **Skrivskyddad**. Om en fil är låst av en annan användare (tillgänglig i skrivskyddat läge) kan du inte ändra någon metadataegenskap, vare sig det är från [högerpanelen](../user-guide/web-editor-right-panel.md#file-properties), alternativet **Egenskaper** på snabbmenyn [för en fil](../user-guide/web-editor-other-features.md#context-menu-functions-on-a-files-tab) eller [metadatarapport](../user-guide/reports-web-editor.md#metadata-report) . Detta förhindrar oavsiktliga ändringar i skrivskyddade filer.
+I den här versionen kan filegenskaper inte längre redigeras när inställningen `Disable Edit Without Checkout` är aktiverad om en fil är i läget **Skrivskyddad**.
+
+Den här begränsningen gäller för alla startpunkter där egenskaper kan ändras, inklusive:
+
+- **Högerpanelen** i redigeringsgränssnittet
+- Alternativet **Egenskaper** på filens snabbmeny
+- Metadatarapporten för en karta
+- Assets UI
+
+Om en fil är skrivskyddad måste du först checka ut filen innan du ändrar dess egenskaper. Den här ändringen medför striktare behörighetskontroller och säkerställer att egenskapsuppdateringar följer samma regler för utcheckning och låsning som innehållsredigeringar.
 
 ## Förbättrade granskningar
 
@@ -176,19 +186,3 @@ Följande API-förbättringar har gjorts i den här versionen:
 
 - Nya API:er introduceras för att skapa nya översättningsprojekt och spåra deras status. Dessa API:er hjälper till att automatisera översättningsprocessen, minska den manuella ansträngningen och förbättra effektiviteten. Mer information finns i [Skapa översättningsprojekt](../api-reference/translation-project.md)
 - Förbättrade API:er för materialbearbetning med förbättrad filtreringsmöjlighet för filer och mappar. Mer information finns i [Bearbeta resurser](../api-reference/bulk-assets-processing.md).
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

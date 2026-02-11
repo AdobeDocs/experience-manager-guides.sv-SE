@@ -5,9 +5,9 @@ exl-id: 4597d1be-5426-4eba-8490-e42d0e565427
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 77756fe76c3d615683dcd62627adfcf18bcbb633
+source-git-commit: 2c20191ba998ad7da98587f1832e1fe8499d023c
 workflow-type: tm+mt
-source-wordcount: '2393'
+source-wordcount: '2392'
 ht-degree: 0%
 
 ---
@@ -284,7 +284,9 @@ Med `<config> </config>`-blocket kan du definiera ett eller flera block med konf
 
 ## Migrera ostrukturerade FrameMaker-dokument {#id1949B050VUI}
 
-AEM Guides har stöd för migrering av ostrukturerat Adobe FrameMaker-innehåll (.fm och .book) till strukturerat DITA. Processen fokuserar på att utvärdera befintligt innehåll, använda en mallbaserad metod och mappa FrameMaker-format till DITA via konverteringstabeller. Efter konverteringen kan det strukturerade innehållet redigeras, valideras och publiceras i format som PDF och mobilklara HTML5, med stöd för anpassning av utdata. Mer information finns i [Migrerar teknisk dokumentation från ostrukturerad till DITA i Adobe FrameMaker](https://migrate-from-unstructured-to-dita-step-by-step-guide.meetus.adobeevents.com/).
+Om du vill konvertera ostrukturerat Adobe FrameMaker-innehåll (.fm och .book) till strukturerat DITA kan du använda FrameMaker konverteringstabellmekanism. Processen fokuserar på att utvärdera befintligt innehåll, använda en mallbaserad metod och mappa FrameMaker-format till DITA via konverteringstabeller. Mer information finns i [Migrerar teknisk dokumentation från ostrukturerad till DITA i Adobe FrameMaker](https://migrate-from-unstructured-to-dita-step-by-step-guide.meetus.adobeevents.com/).
+
+Efter konverteringen kan det strukturerade innehållet migreras till AEM Guides.  Mer information finns i [Överför befintligt DITA-innehåll](./migrate-content-upload-existing-dita-content.md).
 
 <!-- Deprecated information -
  //The first step is to create style mappings using FrameMaker and save those settings in a .sts file. Next, if you are using custom DITA, then you can map your custom elements with the source FrameMaker formats in the `ditaElems.xml` file. For example, if you have created a custom element named `impnote` to handle all important notes, then you can define this custom element in the `ditaElems.xml` file. Once this custom element is defined, AEM Guides would not raise an error while converting FrameMaker document containing `impnote` element.
@@ -395,4 +397,4 @@ Så här konverterar du dina befintliga strukturerade dokument till DITA-format:
 
 Med `<config> </config>`-blocket kan du definiera ett eller flera block med konfigurationer för konvertering. Konverteringsarbetsflödet körs och det slutliga resultatet i form av ett DITA-avsnitt sparas på den plats som anges i `outputDir`-elementet.
 
-**Överordnat ämne:**&#x200B;[&#x200B; Migrera befintligt innehåll](migrate-content.md)
+**Överordnat ämne:**[ Migrera befintligt innehåll](migrate-content.md)
