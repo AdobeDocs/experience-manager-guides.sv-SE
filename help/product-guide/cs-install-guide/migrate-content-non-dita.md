@@ -5,9 +5,9 @@ exl-id: cf437fb8-ed33-47af-aa7e-ffd8acd232da
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 85ba88f5659e066f970583d745a56ec8c51aad7a
+source-git-commit: 77756fe76c3d615683dcd62627adfcf18bcbb633
 workflow-type: tm+mt
-source-wordcount: '2480'
+source-wordcount: '2522'
 ht-degree: 0%
 
 ---
@@ -128,7 +128,7 @@ Konverteringsprocessen omfattar följande åtgärder i serverdelen:
 - Skapa och validera enskilda DITA-ämnen och DITA-kartfiler.
 - Borttagning av temporära filer.
 
-I konverteringsprocessen måste du dessutom [Förbered InDesign-filer för konvertering](appendix.md#id195DBF0045Z) [appendix.md\#id195DBF0045Z](appendix.md#id195DBF0045Z) och [Förbered mappningsfilen för InDesign till DITA-migrering](appendix.md#id194AF0003HT) [appendix.md\#id194AF003HT](appendix.md#id194AF0003HT) måste du följa den angivna proceduren för att köra konverteringsprocessen.
+I konverteringsprocessen måste du dessutom [Förbered InDesign-filer för konvertering](appendix.md#id195DBF0045Z)[appendix.md\#id195DBF0045Z](appendix.md#id195DBF0045Z) och [Förbered mappningsfilen för InDesign till DITA-migrering](appendix.md#id194AF0003HT)[appendix.md\#id194AF003HT](appendix.md#id194AF0003HT) måste du följa den angivna proceduren för att köra konverteringsprocessen.
 
 Så här konverterar du dina InDesign-dokument till ämnesdokument i DITA:
 
@@ -175,7 +175,7 @@ Så här konverterar du dina InDesign-dokument till ämnesdokument i DITA:
 
      >[!NOTE]
      >
-     > Mer information om strukturen för filen `stmap.adobeidml.xml` och hur du kan anpassa den finns i avsnittet [&#x200B; appendix.md\#id194AF0003HT](appendix.md#id194AF0003HT) i bilagan.
+     > Mer information om strukturen för filen `stmap.adobeidml.xml` och hur du kan anpassa den finns i avsnittet [ appendix.md\#id194AF0003HT](appendix.md#id194AF0003HT) i bilagan.
 
 1. Spara filen `idml2dita_io.xml`.
 
@@ -294,7 +294,7 @@ Med `<config> </config>`-blocket kan du definiera ett eller flera block med konf
 
 ## Migrera ostrukturerade FrameMaker-dokument {#id1949B050VUI}
 
-Med AEM Guides kan du konvertera dina befintliga ostrukturerade FrameMaker \(`.fm` och `.book`\)-dokument till DITA-dokument. Fullständig information om processen finns i [Migrera teknisk dokumentation från ostrukturerad till DITA i Adobe FrameMaker](https://migrate-from-unstructured-to-dita-step-by-step-guide.meetus.adobeevents.com/).
+AEM Guides har stöd för migrering av ostrukturerat Adobe FrameMaker-innehåll (.fm och .book) till strukturerat DITA. Processen fokuserar på att utvärdera befintligt innehåll, använda en mallbaserad metod och mappa FrameMaker-format till DITA via konverteringstabeller. Efter konverteringen kan det strukturerade innehållet redigeras, valideras och publiceras i format som PDF och mobilklara HTML5, med stöd för anpassning av utdata. Mer information finns i [Migrerar teknisk dokumentation från ostrukturerad till DITA i Adobe FrameMaker](https://migrate-from-unstructured-to-dita-step-by-step-guide.meetus.adobeevents.com/).
 
 <!-- Deprecated information -
  //The first step is to create style mappings using FrameMaker and save those settings in a .sts file. Next, if you are using custom DITA, then you can map your custom elements with the source FrameMaker formats in the `ditaElems.xml` file. For example, if you have created a custom element named `impnote` to handle all important notes, then you can define this custom element in the `ditaElems.xml` file. Once this custom element is defined, AEM Guides would not raise an error while converting FrameMaker document containing `impnote` element.
@@ -399,4 +399,4 @@ Så här konverterar du dina befintliga strukturerade dokument till DITA-format:
 
 Med `<config> </config>`-blocket kan du definiera ett eller flera block med konfigurationer för konvertering. Konverteringsarbetsflödet körs och det slutliga resultatet i form av ett DITA-avsnitt sparas på den plats som anges i `outputDir`-elementet.
 
-**Överordnat ämne:**&#x200B;[&#x200B; Migrera befintligt innehåll](migrate-content.md)
+**Överordnat ämne:**[ Migrera befintligt innehåll](migrate-content.md)
