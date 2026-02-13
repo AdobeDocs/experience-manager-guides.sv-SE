@@ -38,11 +38,11 @@ Under det här mötet gick vi igenom följande:
 
 ## Relaterade resurser
 
-- [Granska arbetsflödesdokumentation](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/review/review)
+- [Granska arbetsflödesdokumentation](https://experienceleague.adobe.com/sv/docs/experience-manager-guides/using/user-guide/review/review)
 
-- [AEM Guides-integrering med Workfront](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/workfront-integration/workfront-integration)
+- [AEM Guides-integrering med Workfront](https://experienceleague.adobe.com/sv/docs/experience-manager-guides/using/user-guide/workfront-integration/workfront-integration)
 
-- [Anpassa granskningsgränssnittet](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/extention-framework/customisations/review-app-customisations/customisation)
+- [Anpassa granskningsgränssnittet](https://experienceleague.adobe.com/sv/docs/experience-manager-guides/using/knowledge-base/kb-articles/extention-framework/customisations/review-app-customisations/customisation)
 
 
 
@@ -55,7 +55,7 @@ Under det här mötet gick vi igenom följande:
 
 ### Community Forum
 
-- Besök [AEM Guides Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions) om du vill ha sessionsspecifik communityinteraktion om Experience League.
+- Besök [AEM Guides Forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=sv) om du vill ha sessionsspecifik communityinteraktion om Experience League.
 
 
 ## Kontakta oss
