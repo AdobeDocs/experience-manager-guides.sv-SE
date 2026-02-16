@@ -4,9 +4,9 @@ description: Lär dig mer om de interaktiva widgetar du kan använda i utbildnin
 feature: Authoring
 role: User
 exl-id: e7ca2df1-9d15-4718-9698-8a0f059a86d7
-source-git-commit: d4fd08c70c590496fef7a047745d4403546664fe
+source-git-commit: 781c6b6632c857f2130ef27751f66bfe1527f334
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '564'
 ht-degree: 0%
 
 ---
@@ -20,24 +20,24 @@ Du kan förbättra utbildningsinnehållet genom att lägga till flera widgetar f
 
 De tillgängliga widgetarna som är utformade för att förbättra användarupplevelsen och effektivisera innehållsleveransen är bland annat:
 
-- **Dragspel:** Lägger till ett dragspel i innehållet. Du kan infoga lämplig text i både dragspelsrubriken och dess brödtext. Dess egenskaper kan hanteras med panelen **Innehållsegenskaper**, inklusive alternativ för att tillåta att enstaka eller flera dragspelspaneler öppnas samtidigt samt för att lägga till eller ta bort element.
+- **Dragspel:** Lägger till ett dragspel i innehållet. Du kan infoga lämplig text i både dragspelsrubriken och dess brödtext. Dess egenskaper kan hanteras med panelen **Innehållsegenskaper**, inklusive alternativ för att tillåta att enstaka eller flera dragspelspaneler öppnas samtidigt samt för att lägga till eller ta bort element. Om du vill ta bort ett element eller objekt i widgeten kan du även använda **Högerklicka > Ta bort objekt**.
 
   ![](assets/accordion-learning-content.png){width="650" align="left"}
 
-- **Carousel:** Lägger till Carousel i innehållet. Du kan infoga lämplig text både i korttiteln och i brödtexten. Dess egenskaper kan hanteras med panelen **Innehållsegenskaper** , inklusive alternativ för att lägga till eller ta bort element.
+- **Carousel:** Lägger till Carousel i innehållet. Du kan infoga lämplig text både i korttiteln och i brödtexten. Dess egenskaper kan hanteras med panelen **Innehållsegenskaper** , inklusive alternativ för att lägga till eller ta bort element. Om du vill ta bort ett element eller objekt i widgeten kan du även använda **Högerklicka > Ta bort objekt**.
 
   ![](assets/carousal-learning-content.png){width="650" align="left"}
 
-- **Aktiveringspunkt:** Lägger till aktiveringspunkt i en markerad bild. Börja med att välja en bild och gå sedan till **Infoga > Aktiveringspunkt**. Då öppnas dialogrutan Aktiveringspunkt, där du kan konfigurera olika alternativ, till exempel ställa in olika hotspot-storlekar, lägga till motsvarande länkar och justera lagret genom att flytta områden framåt eller bakåt.
+- **Aktiveringspunkt:** Lägger till aktiveringspunkt i en markerad bild. Börja med att välja en bild och gå sedan till **Infoga > Aktiveringspunkt**. Då öppnas dialogrutan Aktiveringspunkt, där du kan konfigurera olika alternativ, till exempel ställa in olika hotspot-storlekar, lägga till motsvarande länkar och justera lagret genom att flytta områden framåt eller bakåt. Om du vill ta bort ett element eller objekt i widgeten kan du även använda **Högerklicka > Ta bort objekt**.
 
   ![](assets/hotspot-learning-content.png){width="650" align="left"}
 
-- **Flik:** Används för att ordna innehåll i interaktiva avsnitt.  Varje flik kan representera ett visst ämne eller en viss kategori. Eleverna kan klicka eller trycka på flikarna för att visa motsvarande innehåll. Placera markören där du vill att flikwidgeten ska visas i innehållet och navigera sedan till **Infoga > Widget > Tabb**. Då läggs en flikbehållare till i innehållet. Börja nu lägga till innehåll på fliken som innehåller en tabbtitel och dess motsvarande innehåll.
+- **Flik:** Används för att ordna innehåll i interaktiva avsnitt.  Varje flik kan representera ett visst ämne eller en viss kategori. Eleverna kan klicka eller trycka på flikarna för att visa motsvarande innehåll. Placera markören där du vill att flikwidgeten ska visas i innehållet och navigera sedan till **Infoga > Widget > Tabb**. Då läggs en flikbehållare till i innehållet. Börja nu lägga till innehåll på fliken som innehåller en tabbtitel och dess motsvarande innehåll.  Om du vill ta bort ett element eller objekt i widgeten kan du även använda **Högerklicka > Ta bort objekt**.
 
   ![](assets/insert-tab-lc.png)
 
   Om du vill lägga till, ta bort och växla tabblayout (lodräta eller vågräta flikar) använder du avsnittet **Innehållsegenskaper** på den högra panelen.
-- **Vänd kort:** Lägger till ett interaktivt kort i ditt innehåll som vänds för att visa ytterligare information. Varje kort har två sidor - fram och bak - så att eleverna kan utforska informationen på ett engagerande sätt.  Om du vill infoga ett Vänd-kort placerar du markören på önskad plats och navigerar till **Infoga > Widget > Vänd kort**, som lägger till en Vänd kortbehållare i innehållet. Du kan sedan lägga till en titel och en valfri bild på framsidan och ange motsvarande innehåll på baksidan.
+- **Vänd kort:** Lägger till ett interaktivt kort i ditt innehåll som vänds för att visa ytterligare information. Varje kort har två sidor - fram och bak - så att eleverna kan utforska informationen på ett engagerande sätt.  Om du vill infoga ett Vänd-kort placerar du markören på önskad plats och navigerar till **Infoga > Widget > Vänd kort**, som lägger till en Vänd kortbehållare i innehållet. Du kan sedan lägga till en titel och en valfri bild på framsidan och ange motsvarande innehåll på baksidan. Om du vill ta bort ett element eller objekt i widgeten kan du även använda **Högerklicka > Ta bort objekt**.
 
   ![](assets/insert-flip-card-lc.png)
 
@@ -46,4 +46,4 @@ De tillgängliga widgetarna som är utformade för att förbättra användaruppl
 
   ![](assets/insert-click-to-reveal-lc.png)
 
-  Om du vill lägga till eller ta bort widgeten, eller hantera widgetens orientering, använder du avsnittet **Innehållsegenskaper** på den högra panelen.
+  Om du vill lägga till eller ta bort widgeten, eller hantera widgetens orientering, använder du avsnittet **Innehållsegenskaper** på den högra panelen. Om du vill ta bort ett element eller objekt i widgeten kan du även använda **Högerklicka > Ta bort objekt**.

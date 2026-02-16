@@ -4,7 +4,7 @@ description: Lär dig hur du infogar frågor från en frågebank i Quiz for Prod
 feature: Authoring
 role: User
 exl-id: dfc247f7-31f9-4bcf-84e2-151993603b89
-source-git-commit: 757582f6bdcb64b004d430679eaf6e8a5fbdc807
+source-git-commit: cb8789b0ee0ebdfb864ecac8b00a22c62faf3823
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 0%
@@ -17,7 +17,7 @@ Följ de här stegen för att infoga frågor från frågebanken i frågeformulä
 
 1. Välj alternativet **Infoga från frågebank** i listrutan **Frågor** i verktygsfältet enligt nedan.
 
-   ![](assets/insert-from-question-bank.png){width="350" align="left"}
+   ![](assets/question-types.png){width="350" align="left"}
 
    Dialogrutan **Infoga från HTML frågebank** visas.
 

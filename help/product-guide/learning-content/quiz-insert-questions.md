@@ -4,9 +4,9 @@ description: Lär dig infoga frågor i ett frågeformulär i produktutbildning o
 feature: Authoring
 role: User
 exl-id: dff38476-c078-4970-b967-05a902430015
-source-git-commit: 41ea5e91b5ee096ede2eb06dae7a44f01e0c0571
+source-git-commit: 1df47cf35590f10bdfe7fdbc3501d7c47137ed56
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Följ de här stegen för att infoga frågor i ett frågeformulär:
 
-1. Välj önskad frågetyp i listrutan **Frågor** i verktygsfältet. Beroende på dina behov kan du lägga till frågor med något av de fyra tillgängliga formaten: Sant eller Falskt, Enkelrätt, Flera korrekta och Matcha följande enligt nedan. Mer information finns i [Frågetyper](#question-types).
+1. Välj önskad frågetyp i listrutan **Frågor** i verktygsfältet. Beroende på dina behov kan du lägga till frågor i något av de fyra tillgängliga formaten: Sant eller Falskt, Enkelrätt, Flera korrekta, Matcha följande och Kort svar enligt nedan. Mer information finns i [Frågetyper](#question-types).
 
    ![](assets/question-types.png){width="650" align="left"}
 
@@ -25,11 +25,28 @@ Följ de här stegen för att infoga frågor i ett frågeformulär:
 
 1. En fråga infogas i det valda formatet. Du kan sedan redigera frågan utifrån dina önskemål.
 
-1. Du kan markera en fråga och konfigurera dess egenskaper med panelen **Innehållsegenskaper** . Du kan till exempel ange rätt svar, ange vilka märken som ska tilldelas och definiera eventuella påföljder för felaktiga svar.
+1. Du kan markera en fråga och konfigurera dess egenskaper med panelen **Innehållsegenskaper** .
 
    ![](assets/question-properties.png){width="650" align="left"}
 
 1. Spara alla ändringar du har gjort i frågeformuläret.
+
+
+## Frågeegenskaper
+
+Du kan konfigurera frågorna med följande frågeegenskaper från panelen **Innehållsegenskaper**:
+
+![](assets/question-properties-new.png){width="350" align="left"}
+
+- **Alternativ**: Ange rätt svar på frågan
+- **Fråga-ID**: Anger fråge-ID för varje fråga. Om det inte finns något fråge-ID bör du alltid lägga till det.
+- **Poäng för korrekt svar**: Ange poäng som ska tilldelas för rätt svar.
+- **Påföljd för felaktigt svar**: Ange vilka poäng som ska dras av för ett felaktigt svar.
+- **Frågeetikett**: Aktivera om du vill lägga till en frågeetikett.
+- **Feedback**: Aktivera för att ge feedback för korrekt eller felaktigt svar.
+- **Fäst alternativet vid position**: När ett visst alternativ för en fråga är fäst är det fortfarande fast på den angivna positionen i alternativlistan, även om **Slumpmässigt svarsalternativ för varje försök** är aktiverat i SCORM-förinställningskonfigurationen, som annars skulle ändra de tillgängliga alternativen. Du kan hålla muspekaren över önskat alternativ för en fråga på panelen Innehållsegenskaper och fästa den.
+
+  ![](assets/pin-question.png){width="350" align="left"}
 
 ## Infoga stycke i frågeformuläret
 
@@ -53,7 +70,7 @@ Så här tar du bort en fråga eller ett specifikt alternativ från ett frågefo
 
 Följande frågetyper stöds i en Quiz:
 
-- **Enkelkorrigering**: En fråga med flera alternativ där bara ett svar är korrekt.
+- **Enkelt korrekt**: En fråga med flera alternativ där bara ett svar är korrekt.
 
   ![](assets/single-correct.png){width="650" align="left"}
 
@@ -62,7 +79,7 @@ Följande frågetyper stöds i en Quiz:
   ![](assets/true-false.png){width="650" align="left"}
 
 
-- **Flera korrigeringar**: En fråga med flera alternativ där mer än ett svar kan vara korrekt.
+- **Flera korrekta**: En fråga med flera alternativ där mer än ett svar kan vara korrekt.
 
   ![](assets/multi-correct.png){width="650" align="left"}
 
@@ -73,3 +90,8 @@ Följande frågetyper stöds i en Quiz:
   I publicerade utdata visas frågan **Matcha följande** med en listruta för varje objekt, så att du kan välja rätt matchning bland de tillgängliga alternativen.
 
   ![](assets/question-type-publishing.png){width="650" align="left"}
+
+
+- **Kort svar**: Låter eleverna svara med en kort textinmatning. Den accepterar alfanumeriska svar, matchar svar inte skiftlägeskänsligt och för mycket långa svar innehåller den en vågrät rullningslist.
+
+  ![](assets/short-answer.png){width="650" align="left"}

@@ -4,9 +4,9 @@ description: Lär dig mer om de grundläggande byggstenarna som du kan lägga ti
 feature: Authoring
 role: User
 exl-id: 171b9df9-3782-4cfa-b450-7824e5fd390d
-source-git-commit: 41ea5e91b5ee096ede2eb06dae7a44f01e0c0571
+source-git-commit: 338213dd1e6f093a82bbf7d3283f81c3fdb96431
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '588'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,11 @@ Du kan använda de grundläggande redigeringsfunktionerna som finns i redigering
 
   ![](assets/insert-menu-options-lc.png){width="650" align="left"}
 
-- **Textkomponenter**: Lägger till rubrik/titlar, stycke, textbundet citat, upphöjd, nedsänkt och citat i innehållet.
+- **Textkomponenter**: Lägger till rubrik, stycke, inline-citat, upphöjd, nedsänkt och citat i innehållet.
+
+  >[!NOTE]
+  >
+  > Du kan även inkludera en titel och en undertitel i ditt utbildningsinnehåll. Mer information om hur du lägger till den i innehållet finns i [Lägg till rubrik och underrubrik i utbildningsinnehåll](#add-title-and-subtitle-to-learning-content).
 
   ![](assets/text-learning-content.png){width="650" align="left"}
 
@@ -75,3 +79,26 @@ Dialogrutan **Återanvänd innehåll** öppnas.
   ![](assets/hyperlink-learning-content.png){width="650" align="left"}
 
 Dessutom ger listrutan **Meny** åtkomst till redigeringsåtgärderna (Klipp ut, Kopiera, Ta bort), Sök och ersätt och Versionsetikett.
+
+## Lägga till titel och underrubrik i undervisningen
+
+Följ de här stegen för att inkludera titel och underrubrik i ditt utbildningsinnehåll:
+
+1. Öppna kursen i kartkonsolen.
+1. Öppna ämnet, frågeformuläret eller någon annan kurskomponent där du vill lägga till en titel eller en undertitel.
+1. Navigera till panelen File-egenskaper och välj **Lägg till titel**.
+
+   ![](assets/add-title-lc.png)
+1. Välj om du vill använda den befintliga rubriken som rubrik när du uppmanas till det.
+
+   >[!NOTE]
+   >
+   > Om du inte vill använda den befintliga rubriken som rubrik infogar du först en rubrik med komponenten Text i redigerarens verktygsfält och väljer sedan **Lägg till rubrik**. Detta lägger till ett exempel **Rubrik** som läggs till i innehållet, som du kan redigera efter behov.
+1. Välj **Lägg till underrubrik** i filegenskaperna.
+Ett exempel på **underrubrik** har lagts till i innehållet.
+
+   ![](assets/add-subtitles-lc.png)
+
+Om du vill ta bort en titel avmarkerar du alternativet **Lägg till titel** i filegenskaperna. Om du tar bort titeln tas den tillhörande underrubriken automatiskt bort.
+
+

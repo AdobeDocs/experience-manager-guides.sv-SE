@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Läs produktdokumentationen för Adobe Experience Manager Guides.
 breadcrumb-title: Dokumentation om AEM Guides
-source-git-commit: 0df85db362d0a4b786fa01209920438598e1b155
+source-git-commit: c034a95570c4e580bd4811684daaefc191e5ca84
 workflow-type: tm+mt
-source-wordcount: '2507'
+source-wordcount: '2509'
 ht-degree: 1%
 
 ---
@@ -174,13 +174,13 @@ ht-degree: 1%
                - [4.2.1 Versionsinformation](./release-info/release-notes-4-2-1.md)
                - [4.2 Versionsinformation](./release-info/release-notes-4-2.md)
          - [4.1.x Versionsinformation](./release-info/release-notes-4-1.md)
-         - [Versionsinformation för 4.0.x](https://helpx.adobe.com/se/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [3.8.x Versionsinformation](https://helpx.adobe.com/se/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [Versionsinformation för 4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [3.8.x Versionsinformation](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Användarhandbok (nytt användargränssnitt) {#user-guide}
    - Introduktion {#about-aemg}
       - [Om [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - [!DNL AEM Guides] funktioner och nyckelfunktioner {#aemg-works-features}
-         - [Så här fungerar [!DNL AEM Guides] &#x200B;](./user-guide/intro-how-dxml-works.md)
+         - [Så här fungerar [!DNL AEM Guides] ](./user-guide/intro-how-dxml-works.md)
          - [Viktiga [!DNL AEM Guides] funktioner](./user-guide/intro-dxml-features.md)
    - Startsida {#home-page}
       - [[!DNL AEM Guides] - startsida](./user-guide/intro-home-page.md)
@@ -326,6 +326,7 @@ ht-degree: 1%
       - Guiden Komma igång {#get-started}
          - Introduktion {#intro-lc}
             - [Versionsinformation](./release-info-lt/release-notes-lt-2025-12-v2.md)
+            - [Versionsinformation](./release-info-lt/release-notes-lt-2026-02-v3.md)
             - [Översikt över utbildningsmaterialet](./learning-content/intro.md)
          - Konfigurera din kurs {#setup-course}
             - [Kursöversikt](./learning-content/course-overview.md)
@@ -379,7 +380,7 @@ ht-degree: 1%
       - Felsökning {#troubleshooting}
          - [Tidsgräns för session](./user-guide/session-timeout-prompt.md)
 - Användarhandbok (gammalt användargränssnitt) {#user-guide-old-ui}
-   - [AEM Guides - översikt](https://experienceleague.adobe.com/sv/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [AEM Guides - översikt](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installation och konfiguration {#install-guide}
    - Lokalt {#on-prem-ig}
       - [Grunderna på plats](./install-guide/introduction.md)
