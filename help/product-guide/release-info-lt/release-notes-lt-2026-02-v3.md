@@ -3,9 +3,9 @@ title: Versionsinformation | Nyheter i februari 2026 av produktutbildnings- och 
 description: Läs om de nya och förbättrade funktionerna i februari 2026-versionen av produktutbildnings- och utbildningsmaterial
 role: Leader
 hidefromtoc: true
-source-git-commit: 5ba7ba00cbc9209aad9f17f0793d621f1f1838e2
+source-git-commit: 16e7f12ddc9e72e4344bf98e65718c0f3681b348
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '728'
 ht-degree: 0%
 
 ---
@@ -30,12 +30,14 @@ Följande funktioner introducerades i februari 2026-versionen av produktutbildni
 
   ![](assets/negative-scores-lc.png)
 
-- **Ta bort widgetar genom att högerklicka**: Förutom att ta bort frågor kan du nu ta bort widgetar som dragspelspaneler, Flip-kort och flikar med **Högerklicka > Ta bort objekt**. Den här förbättringen utökar den befintliga funktionen *Ta bort fråga* till widgetar, så att du kan ta bort dem med färre klick och minimal navigering.
+- **Ta bort widgetar med högerklick**: Förutom att ta bort frågor kan du nu ta bort widgetar som dragspelspaneler, Flip-kort och andra widgetar med **Högerklicka > Ta bort objekt**. Den här förbättringen utökar den befintliga funktionen *Ta bort fråga* till widgetar, så att du kan ta bort dem med färre klick och minimal navigering.
 
   Läs mer om [Använd interaktiva widgetar](../learning-content/lc-widgets.md).
 
   ![](assets/delete-widget-items.png)
 - **Fäst svarsalternativ**: Du kan nu fästa specifika svarsalternativ så att deras position förblir oförändrad, även när svaren slumpmässigt väljs under generering av SCORM-utdata. Det här är särskilt användbart för alternativ som *Alla ovan* eller *Inget av ovanstående*.
+
+  Läs mer om [Frågeegenskaper](../learning-content/quiz-insert-questions.md#question-properties).
 
   ![](assets/pin-question.png)
 - **Kort svarstyp**: Med den korta svarstypen kan eleverna svara med korta, beskrivande alfanumeriska svar i stället för att välja fördefinierade alternativ. Denna frågetyp uppmuntrar eleverna att aktivt uttrycka sin förståelse för sina egna ord och göra bedömningar mer engagerande för eleverna.
@@ -64,5 +66,5 @@ Följande problem har åtgärdats i februari 2026-versionen av produktutbildning
 - När du använder Experience Manager Guides i Mozilla Firefox visar Vänd-kortet texten på framsidan bakåt efter vändning. (GUIDES-39983)
 - När du klickar på Innehållsförteckning i den vänstra rutan för kursen fortsätter kursen att visa en slutförandestatus även om frågeformuläret har misslyckats. (GUIDES-40398)
 - Om du försöker att Matcha följande frågetyp i ett frågeformulär felaktigt i ALM visas inte de valda alternativen i rapporten. (GUIDES-38640)
-- När du genererar PDF-utdata bevaras inte de använda redigeringsformaten, vilket resulterar i inkonsekvenser i designen.(GUIDES-38642)
+- När du genererar PDF-utdata bevaras inte de använda redigeringsformaten, vilket resulterar i inkonsekvenser i designen. (GUIDES-38642)
 
