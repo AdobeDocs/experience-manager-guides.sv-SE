@@ -5,7 +5,7 @@ feature: Installation
 role: Admin
 level: Experienced
 exl-id: 726420e0-fe52-4334-b72a-8eb8bcae4d6c
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+source-git-commit: e0b0df19b7ec691a894130eb42df827921b4890c
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Utför följande steg för att täcka över och uppdatera filen `config.xml`:
 
 1. Navigera till konfigurationsfilen som finns på följande plats:
 
-   `/libs/fmdita/cq/xssprotection/config.xml`
+   `/libs/cq/xssprotection/config.xml`
 
 1. Skapa en överläggsnod av mappen `xssprotection` i appnoden.
 
@@ -143,4 +143,4 @@ Bildscheman:
 
 
 
-Läs mer om de bästa sätten att använda [Security](https://experienceleague.adobe.com/sv/docs/experience-manager-65/content/implementing/developing/introduction/security).
+Läs mer om de bästa sätten att använda [Security](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/security).
