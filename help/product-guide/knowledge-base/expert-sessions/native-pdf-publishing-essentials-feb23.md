@@ -41,11 +41,11 @@ Under den här sessionen får du lära dig mer om följande:
 
 ## Relaterade resurser
 
-- **Funktionsvideor** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
+- **Funktionsvideor** - [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=sv-SE)
 
-- **Användarhandbok** - [Inbyggd PDF-publicering](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/map-management-publishing/output-gen/output-presets-aemg/pdf-preset/native-pdf-web-editor)
+- **Användarhandbok** - [Inbyggd PDF-publicering](https://experienceleague.adobe.com/sv/docs/experience-manager-guides/using/user-guide/map-management-publishing/output-gen/output-presets-aemg/pdf-preset/native-pdf-web-editor)
 
-- **Community-forum** - Besök [AEM Guides-forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions) om du vill ha sessionsspecifik communityinteraktion på Experience League.
+- **Community-forum** - Besök [AEM Guides-forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions?profile.language=sv) om du vill ha sessionsspecifik communityinteraktion på Experience League.
 
 >[!NOTE]
 >
