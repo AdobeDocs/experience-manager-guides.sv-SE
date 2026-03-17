@@ -4,9 +4,9 @@ description: Lär känna den högra panelen i redigeraren. Läs mer om redigerin
 feature: Authoring, Features of Web Editor
 role: User
 exl-id: 6a0f4ed2-6eca-4b3c-bd3a-3f72f6919b36
-source-git-commit: 05a44af6982a9a23e6bbddeaac52b0700e2e2170
+source-git-commit: ddf28ee20b15ea8bb50c555d1196532ee00d34a5
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1290'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Du kommer åt funktionen **Innehållsegenskaper** genom att välja ikonen **Inne
 
 1. I listrutan **Attribut** väljer du attributet i listrutan och anger ett attributvärde.  Välj sedan **Lägg till**.
 
-   ![attributpanel med flera attribut &#x200B;](images/attributes-multiple-properties.png){width="300" align="left"}
+   ![attributpanel med flera attribut ](images/attributes-multiple-properties.png){width="300" align="left"}
 
 1. Om du vill redigera attributet för du pekaren över det och väljer **Redigera** ![redigeringsikon](images/edit_pencil_icon.svg) .
 
@@ -119,7 +119,23 @@ Som standard kan du visa filerna efter namn. När du för muspekaren över en fi
 >
 > Alla Använd in- och utgående referenser är hyperlänkade till dokumenten. Du kan enkelt öppna och redigera länkade dokument.
 
-Förutom att öppna filer kan du även utföra många åtgärder via menyn **Alternativ** i avsnittet Referenser. Några av de åtgärder du kan utföra är Redigera, Förhandsgranska, Kopiera UUID, Kopiera sökväg, Lägg till i samlingar, Egenskaper.
+Förutom att öppna filer kan du även utföra många åtgärder via menyn **Alternativ** i avsnittet Referenser. Några av de åtgärder du kan utföra är Redigera, Förhandsgranska, Kopiera UUID, Kopiera sökväg, Lägg till i samlingar och Egenskaper.
+
+**Översättningar**
+
+I det här avsnittet visas alla tillgängliga språkkopior för den resurs som är öppen i Redigeraren i alfabetisk ordning. Informationen visas i en tabellvy där varje språkkod visas tillsammans med motsvarande *filnamn* (eller *filnamn* om *filnamn* inte är tillgängligt).
+
+>[!INFO]
+>
+> Språkkopior skapas när en resurs skickas för översättning. Engelska (`en`) fungerar som källspråk och översatta kopior genereras i respektive målspråksmapp (till exempel `de` för tyska eller `fr` för franska). Om det bara finns en resurs i mappen `en` visas inga ytterligare språkkopior förrän översättningen har initierats och slutförts för målspråken. Om resursen inte finns i någon språkmapp visas **Inga tillgängliga översättningar**. Mer information finns i [Bästa tillvägagångssätt för innehållsöversättning](./translation-first-time.md).
+
+![](images/translations-right-panel.png){width="300" align="left"}
+
+För varje språkkopia kan du hovra över filen för att hitta sökvägen i databasen eller helt enkelt markera den för att öppna den i Redigeraren. Förutom att öppna filer kan du även utföra många åtgärder via menyn **Alternativ** i avsnittet Översättningar. Några av de åtgärder du kan utföra är Redigera, Förhandsgranska, Kopiera UUID, Kopiera sökväg, Lägg till i samlingar och Egenskaper.
+
+![](images/translations-right-panel-options-menu.png){width="300" align="left"}
+
+
 
 ## Granska
 
@@ -153,4 +169,4 @@ Läs mer om hur du arbetar med Schematron-filer i Experience Manager Guides i [S
 
 
 
-**Överordnat ämne:**&#x200B;[&#x200B; Introduktion till redigeraren](web-editor.md)
+**Överordnat ämne:**[ Introduktion till redigeraren](web-editor.md)
