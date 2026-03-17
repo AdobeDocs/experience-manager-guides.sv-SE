@@ -18,5 +18,5 @@ När utdata som genereras från DITA-innehåll publiceras med **Snabbpublicering
 
 För att förhindra oavsiktlig replikering av DITA-innehåll till publiceringsmiljön och för att undvika prestandaproblem måste administratörer uttryckligen hantera DITA-resursreplikering via Configuration Manager. Med den här konfigurationen kan administratörer styra replikeringen av DITA-resurstyper som stöds, inklusive DITA-kartor, DITA-avsnitt, XML-filer och Markdown-filer (.md).
 
-Om du vill konfigurera replikeringsfunktionen för DITA-resurser läser du [Konfigurera DITA-resursreplikering för Cloud Service](../cs-install-guide/configure-dita-assets-replication.md) eller [Konfigurera DITA-resursreplikering för lokal ](../install-guide/configure-dita-asset-replication.md) beroende på vilken konfiguration du använder
+Om du vill konfigurera replikeringsfunktionen för DITA-resurser läser du [Konfigurera DITA-resursreplikering för Cloud Service](../cs-install-guide/configure-dita-assets-replication.md) eller [Konfigurera DITA-resursreplikering för lokal &#x200B;](../install-guide/configure-dita-asset-replication.md) beroende på vilken konfiguration du använder
 
