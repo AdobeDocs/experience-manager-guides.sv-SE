@@ -4,9 +4,9 @@ description: Lär dig hur du skapar en granskningsåtgärd och skickar ämnen f�
 exl-id: c486eb6a-7e1f-4faa-973d-b47252d3e7c5
 feature: Reviewing
 role: User
-source-git-commit: cd536b9e27b3c422fc723e9f13b12ac432fa3fc9
+source-git-commit: c36dbb3861f904bda1aee176fc5f4c0dd69b97dc
 workflow-type: tm+mt
-source-wordcount: '3055'
+source-wordcount: '3135'
 ht-degree: 0%
 
 ---
@@ -53,19 +53,20 @@ Så här skapar du en granskningsuppgift och skickar ämnen för granskning:
    >
    > Du kan skapa en granskningsåtgärd för endast de ämnen som har en revision. Om det markerade ämnet inte har någon revidering visas ett meddelande.
 
-   ![](images/create-review-task-023.png){width="650" align="left"}
-
+   ![](images/create-review-task-023.png)
 1. Ange en **titel** för aktiviteten och välj ett DITA-projekt.
 
 1. I listrutan **Projekt** väljer du ett DITA-projekt för den här granskningsaktiviteten. Du kan också skriva projektnamnet för att snabbt hitta det i listrutan.
 
-1. I listrutan **Tilldela till** markerar du de granskare som du vill skicka ämnen till för granskning.
+1. I listrutan **Tilldela till** markerar du de granskare som du vill skicka ämnen till för granskning. Du kan också söka efter medlemsnamn eller rollnamn i det valda projektet när du skriver.
 
-   Du kan tilldela en granskningsuppgift till enskilda användare i projektet eller till användargrupper. Observera att du bara kan tilldela en granskningsuppgift till enskilda användare när du är en del av projektets administratörsgrupp, annars visas bara användargrupperna i fältet Tilldela till.
+   Fältet *Tilldela till* aktiveras bara när du har valt ett aktivt projekt i fältet *Projekt*. Listan över medlemmar eller roller hämtas baserat på det valda projektet. Om inget projekt är markerat är fältet *Tilldela till* fortfarande inaktiverat.
+
+   Du kan tilldela en granskningsuppgift till enskilda användare i projektet eller till användargrupper. Observera att du bara kan tilldela en granskningsuppgift till enskilda användare när du är en del av projektets administratörsgrupp, annars visas bara användargrupperna i fältet *Tilldela till*.
 
    >[!NOTE]
    >
-   > Granskningsarbetsflödet är projektspecifikt. När du skapar projekt lägger du till teammedlemmarna i projektet och tilldelar dem till grupper. När du väljer projektet här kan du alltså välja vilka medlemmar som är en del av projektet. Mer information om projekt finns i [Skapa ett DITA-projekt](authoring-create-dita-project.md#).
+   > Granskningsarbetsflödet är projektspecifikt. När du skapar projekt lägger du till teammedlemmarna i projektet och tilldelar dem till grupper. När du väljer projektet här kan du alltså välja vilka medlemmar som ingår i det projektet. Mer information om projekt finns i [Skapa ett DITA-projekt](authoring-create-dita-project.md#).
 
 1. Ange en **beskrivning** för aktiviteten.
 
@@ -92,6 +93,10 @@ Så här skapar du en granskningsuppgift och skickar ämnen för granskning:
    Om du inte markerar det här alternativet har granskare som lagts till i fältet **Tilldela till** bara åtkomst att granska de ämnen som de har tilldelats.
 
 1. Välj **Nästa**.
+
+   >[!NOTE]
+   >
+   > Knappen **Nästa** aktiveras bara när du har angett information för alla obligatoriska fält, inklusive *Titel*, *Projekt*, *Tilldela till* och *Förfallodatum*.
 
    Sidan Innehåll visas.
 
@@ -306,4 +311,4 @@ När granskningsuppgifterna har uppdaterats får granskarna meddelanden (både A
 Mer information finns i [Om granskningsmeddelanden](./review-understanding-review-notifications.md).
 
 
-**Överordnat ämne:**&#x200B;[&#x200B; Introduktion till granskning](review.md)
+**Överordnat ämne:**[ Introduktion till granskning](review.md)

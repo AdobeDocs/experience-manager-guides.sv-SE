@@ -4,14 +4,18 @@ description: Skapa och hantera baslinjer från kartkonsolen i Adobe Experience M
 exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: eb68e4583083ff209fd717049c6e50b996cba8e8
+source-git-commit: 24ed0edbfcbe968938473e31f3abf13779d04235
 workflow-type: tm+mt
-source-wordcount: '1881'
+source-wordcount: '1921'
 ht-degree: 0%
 
 ---
 
 # Skapa och hantera baslinjer från kartkonsolen {#id223MB0ZF043}
+
+>[!NOTE]
+>
+> Med Experience Manager Guides 2026.03.0 finns en ny baslinje (Beta) med förbättrade prestanda och stabilitet. Om du vill använda den här baslinjen kontaktar du Customer Success Team och aktiverar funktionen. Läs mer om [Ny baslinje (Beta)](./web-editor-baseline-v2.md).
 
 Med funktionen Baslinje kan du skapa en version av dina ämnen och resurser som sedan kan användas för publicering eller översättning. Om din DITA-karta till exempel har `topicA` och `imageA` kan du skapa en baslinje som använder den tredje versionen av `topicA`, men den fjärde versionen av `ImageA`. När du har en originalplan kan du publicera eller översätta ämnen från olika versioner i ett enda steg.
 
@@ -168,5 +172,5 @@ Med ikonen Filter på panelen **Baslinjefilter** kan du använda filter på basl
 
 När du har redigerat baslinjen väljer du **Spara** om du vill spara ändringarna i baslinjen. Du kan välja **Återställ** om du inte vill spara ändringen och återställa baslinjen. När du väljer **Återställ** visas en varning om att ändringar som inte sparats går förlorade.
 
-**Överordnat ämne:**&#x200B;[&#x200B; Utdatagenerering](generate-output.md)
+**Överordnat ämne:**[ Utdatagenerering](generate-output.md)
 

@@ -3,9 +3,10 @@ title: Workspace-inställningar i Experience Manager Guides
 description: Läs mer om de olika inställningarna i redigeringsgränssnittet i Experience Manager Guides.
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: d838a7d6e576e0f9317ebe8c7a811c3efebe9f72
+exl-id: 3c3880af-8d32-4d8a-9dca-8be12e9a5fd5
+source-git-commit: dedd253dba3d93beed162eb5258125928f6d315c
 workflow-type: tm+mt
-source-wordcount: '2151'
+source-wordcount: '2440'
 ht-degree: 0%
 
 ---
@@ -33,12 +34,12 @@ Alternativet **Workspace-inställningar** som finns i [flikfältet](../user-guid
 
 ## Allmänt
 
-Med de allmänna inställningarna kan du konfigurera inställningarna så att de använder redigeraren. Fliken innehåller fem avsnitt: **AI Assistant**, **Redigering**, **Källhänvisningar**, **Villkor** och **Stavningskontroll**.
+Med de allmänna inställningarna kan du konfigurera inställningarna så att de använder redigeraren. Fliken innehåller sju avsnitt: **AI Assistant**, **Redigering**, **Källhänvisningar**, **Villkor**, **HTML-redigerare**, **Utbildningsmaterial** och **Stavningskontroll**.
 
-![](../user-guide/images/editor-setting-general.png){width="350" align="left"}
+![](assets/workspace-settings.png){width="350" align="left"}
 
 - **AI-assistenten**
-Välj det här om du vill aktivera funktionen [&#x200B; AI-assistenten &#x200B;](../user-guide/ai-assistant.md) i Experience Manager Guides. Avmarkera om du vill inaktivera funktionen.
+Välj det här om du vill aktivera funktionen [ AI-assistenten ](../user-guide/ai-assistant.md) i Experience Manager Guides. Avmarkera om du vill inaktivera funktionen.
 
   När du har aktiverat växeln **AI Assistant** kan du konfigurera vilka alternativ som ska visas under **redigeringsfliken** för författare med hjälp av menyn **Snabbåtgärder för redigering** som visas nedan.\
   De här ändringarna gäller för den specifika mappprofil som du arbetar med. Om du skapar en ny mappprofil ärver den Workspace-inställningarna som definierats i mappprofilen **Global** som standard. Du kan ändra inställningarna efter behov med **Workspace-inställningarna** och spara den uppdaterade konfigurationen.\
@@ -77,6 +78,26 @@ Välj det här om du vill aktivera funktionen [&#x200B; AI-assistenten &#x200B;]
 - **Stavningskontroll**
 Det finns två alternativ: **AEM stavningskontroll** och **webbläsarstavningskontroll** . Som standard används stavningskontrollen i webbläsaren, där stavningskontrollen utförs med webbläsarens inbyggda ordlista. Du kan växla till AEM stavningskontroll om du vill använda Adobe Experience Manager ordlista, som också kan anpassas för att lägga till din egen ordlista. Mer information om hur du anpassar AEM-ordlistan finns i avsnittet [Anpassa AEM standardordlista](../cs-install-guide/customize-aem-custom-dictionary.md) i Installera och konfigurera Adobe Experience Manager Guides as a Cloud Service.
 
+- **Utbildningsinnehåll**: Med den här inställningen kan du aktivera eller inaktivera funktionen för produktutbildning och utbildningsinnehåll för din Experience Manager Guides-instans. Använd växlingsknappen **Aktivera utbildningsinnehåll** för att aktivera eller inaktivera funktionen på mappprofilnivå. Som standard är den här funktionen inaktiverad för alla instanser.
+
+  Läs mer om funktionen [Produktutbildning och utbildningsinnehåll](../learning-content/intro.md).
+
+  Följande funktioner/alternativ blir bara tillgängliga när inställningen Utbildningsinnehåll är aktiverad:
+
+   - **Kursredigering**: Aktiverar alternativ för att skapa och hantera kurser från både redigeraren och hemsidan.
+   - **SCORM-mallar**: Aktiverar alternativet att skapa SCORM-mallar under *Utdatamallar* i Redigeraren.
+   - **Innehållsmallar och utdataförinställningar**: Aktiverar konfigurationsalternativen för innehållsmallar och utdataförinställningar i dialogrutan Workspace-inställningar.
+
+När utbildningsinnehåll är inaktiverat blir alla ovanstående alternativ otillgängliga i Experience Manager Guides-gränssnittet.
+
+Mer information finns i [Konfigurera mappprofiler](../lc-config-guide/lc-folder-profile.md).
+
+- **HTML-redigerare**: För utbildningsinnehåll kan du med den här inställningen konfigurera redigeraren för HTML-baserad redigering. De viktigaste konfigurationsalternativen i den här inställningen är följande:
+
+   - **Dölj infogad formatering**: Aktivera det här alternativet om du inte vill att författare ska kunna använda infogad formatering i kursinnehållet. När det här alternativet är aktiverat döljs alla inbyggda formatalternativ som Teckensnitt, Kant, Layout, Bakgrund och Kolumner på den högra panelen i redigeraren för författare. Författare kan dock fortfarande använda de globala klassbaserade formateringsalternativ som finns på panelen **Format**. Detta bidrar till att upprätthålla enhetligheten med organisationens riktlinjer för stil.
+   - **Dölj Source-vyn för författare**: Aktivera det här alternativet om du vill begränsa åtkomsten till HTML källkod. Detta är användbart när du vill förenkla redigeringen eller undvika oavsiktliga ändringar av den underliggande koden.
+
+  Mer information finns i [skapa och anpassa utbildningsinnehåll](../learning-content/lc-overview.md).
 
 ## Panel
 
@@ -261,5 +282,3 @@ Ett fel visas om metadatasökvägen är tom. Om du lämnar etiketten tom väljs 
 
 Du kan också definiera i vilken ordning dessa metadatataggar ska visas. Om du vill ändra standardordningen för de här märkorden markerar du de prickade strecken för att dra och släppa märkorden på önskad plats.
 Metaetiketterna visas i samma sekvens i dialogrutan **Versionshistorik** i redigeraren.
-
-

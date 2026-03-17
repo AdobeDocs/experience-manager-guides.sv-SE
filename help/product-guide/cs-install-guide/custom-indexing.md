@@ -4,9 +4,10 @@ description: Lär dig hur du anpassar indexinnehåll
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 9a4f0391c464d69ea65ecfdaac6ecdcb17d1a3da
+exl-id: 682d58df-7404-4e84-9b5f-ab40c46bef84
+source-git-commit: 1bffdade37658bd44128cac9226a349f828abd45
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '439'
 ht-degree: 0%
 
 ---
@@ -34,6 +35,10 @@ Om du vill aktivera funktionen Sök och ersätt (Source-vyn) måste du distribue
 ```
 guidesAssetLucene-1-custom-1
 ```
+
+>[!NOTE]
+>
+> Öka indexvärdet om det redan finns ett anpassat index med samma namn.
 
 ### Indexdefinition (.content.xml)
 
@@ -153,6 +158,11 @@ Skapa följande indexdefinition i ditt projekt på:
                         jcr:primaryType="nt:unstructured"
                         mappedType="text/markdown+source"/>
             </text>
+            <text jcr:primaryType="nt:unstructured">
+   <html
+        jcr:primaryType="nt:unstructured"
+        mappedType="text/html+source"/>
+</text>
         </mimeTypes>
     </tika>
 </jcr:root>
@@ -160,7 +170,7 @@ Skapa följande indexdefinition i ditt projekt på:
 
 ## Distributionssteg
 
-Detaljerade anvisningar om hur du distribuerar anpassade index till AEM as a Cloud Service finns i [Innehållssökning och indexering - AEM as a Cloud Service](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/operations/indexing).
+Detaljerade anvisningar om hur du distribuerar anpassade index till AEM as a Cloud Service finns i [Innehållssökning och indexering - AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/indexing).
 
 ### Viktiga punkter för detta index
 
@@ -208,7 +218,7 @@ Den primära verifieringen är att testa funktionen:
 
 ## Ytterligare resurser
 
-- [AEM as a Cloud Service indexeringsdokumentation](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/operations/indexing)
+- [AEM as a Cloud Service indexeringsdokumentation](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/indexing)
 - [Indexeringshandbok för Apache Jackrabbit Oak](https://jackrabbit.apache.org/oak/docs/query/indexing.html)
-- [AEM Guides-dokumentation](https://experienceleague.adobe.com/sv/docs/experience-manager-guides)
+- [AEM Guides-dokumentation](https://experienceleague.adobe.com/en/docs/experience-manager-guides)
 - [Dokumentation om Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager)

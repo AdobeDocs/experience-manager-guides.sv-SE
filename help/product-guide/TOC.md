@@ -2,17 +2,17 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Läs produktdokumentationen för Adobe Experience Manager Guides.
 breadcrumb-title: Dokumentation om AEM Guides
-source-git-commit: c034a95570c4e580bd4811684daaefc191e5ca84
+source-git-commit: a4cb2e65813a0ee31d5f5a7a267be73dd0212534
 workflow-type: tm+mt
-source-wordcount: '2509'
-ht-degree: 1%
+source-wordcount: '2559'
+ht-degree: 2%
 
 ---
 
 
 # [!DNL Adobe Experience Manager Guides] {#using}
 
-- [[!DNL AEM Guides] - översikt](overview.md)
+- [[!DNL AEM Guides] översikt](overview.md)
 - [Ansvarsfriskrivning](./user-guide/rebranding-disclaimer.md)
 - Versionsinformation {#release-info}
    - [AEM Guides släpper färdplan](./release-info/aem-guides-releases-roadmap.md)
@@ -20,6 +20,10 @@ ht-degree: 1%
       - Molntjänster {#cloud-release-notes}
          - [Distributionsanvisningar](./release-info/deploy-xml-on-aemaacs.md)
          - 2026 års utgåvor {#2026-releases}
+            - 2026.03.0-utgåvan {#2603-release}
+               - [Nyheter](./release-info/whats-new-2026-03-0.md)
+               - [Åtgärdade problem](./release-info/fixed-issues-2026-03-0.md)
+               - [Uppgraderingsinstruktioner](./release-info/upgrade-instructions-2026-03-0.md)
             - 2026.01.0-utgåvan {#2601-release}
                - [Nyheter](./release-info/whats-new-2026-01-0.md)
                - [Åtgärdade problem](./release-info/fixed-issues-2026-01-0.md)
@@ -174,13 +178,13 @@ ht-degree: 1%
                - [4.2.1 Versionsinformation](./release-info/release-notes-4-2-1.md)
                - [4.2 Versionsinformation](./release-info/release-notes-4-2.md)
          - [4.1.x Versionsinformation](./release-info/release-notes-4-1.md)
-         - [Versionsinformation för 4.0.x](https://helpx.adobe.com/se/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [3.8.x Versionsinformation](https://helpx.adobe.com/se/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [Versionsinformation för 4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [3.8.x Versionsinformation](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Användarhandbok (nytt användargränssnitt) {#user-guide}
    - Introduktion {#about-aemg}
       - [Om [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - [!DNL AEM Guides] funktioner och nyckelfunktioner {#aemg-works-features}
-         - [Så här fungerar [!DNL AEM Guides] &#x200B;](./user-guide/intro-how-dxml-works.md)
+         - [Så här fungerar [!DNL AEM Guides] ](./user-guide/intro-how-dxml-works.md)
          - [Viktiga [!DNL AEM Guides] funktioner](./user-guide/intro-dxml-features.md)
    - Startsida {#home-page}
       - [[!DNL AEM Guides] - startsida](./user-guide/intro-home-page.md)
@@ -275,7 +279,7 @@ ht-degree: 1%
             - [Knowledge Base](./user-guide/generate-output-knowledge-base.md)
             - [HTML5](./user-guide/generate-output-html5.md)
             - [EPUB](./user-guide/generate-output-epub.md)
-            - [Egen](./user-guide/generate-output-custom.md)
+            - [Anpassad](./user-guide/generate-output-custom.md)
             - [JSON](./user-guide/generate-output-json.md)
          - [Redigera, duplicera eller ta bort en förinställning](./user-guide/generate-output-create-edit-preset.md)
          - Villkorligt innehåll {#conditional-content}
@@ -284,6 +288,7 @@ ht-degree: 1%
          - Använd baslinje {#work-with-baseline}
             - [Skapa och hantera baslinjer från kartkonsolen](./user-guide/web-editor-baseline.md)
             - [Skapa och hantera baslinjer från kartpanelen](./user-guide/generate-output-use-baseline-for-publishing.md)
+            - [Skapa och hantera nya baslinjer från kartkonsolen](./user-guide/web-editor-baseline-v2.md)
          - [Hantera förinställningar för utdata för global profil och mappprofil](./user-guide/web-editor-manage-output-presets.md)
          - [Använd variabler för att ange alternativen Målsökväg, Platsnamn eller Filnamn](./user-guide/generate-output-use-variables.md)
          - [Skicka metadata till utdata med DITA-OT](./user-guide/pass-metadata-dita-ot.md)
@@ -306,6 +311,7 @@ ht-degree: 1%
          - [Aktivera utdata](./user-guide/conf-bulk-activation-publish-map-collection.md)
          - [Redigera en gruppaktiveringskarta](./user-guide/conf-bulk-activation-edit-map-collection.md)
          - [Ta bort en gruppaktiveringskarta](./user-guide/conf-bulk-activation-delete-map-collection.md)
+         - [Hantera replikering av DITA-källresurser](./user-guide/dita-assets-replication-aem-sites.md)
    - Utdatagenerering av FrameMaker-dokument {#generate-fm-output}
       - [Grundläggande om generering av FrameMaker-utdata](./user-guide/fm-output-generatation.md)
       - Förinställningar som stöds {#fm-docs-generating-presets}
@@ -380,7 +386,7 @@ ht-degree: 1%
       - Felsökning {#troubleshooting}
          - [Tidsgräns för session](./user-guide/session-timeout-prompt.md)
 - Användarhandbok (gammalt användargränssnitt) {#user-guide-old-ui}
-   - [AEM Guides - översikt](https://experienceleague.adobe.com/sv/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [AEM Guides - översikt](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installation och konfiguration {#install-guide}
    - Lokalt {#on-prem-ig}
       - [Grunderna på plats](./install-guide/introduction.md)
@@ -479,7 +485,9 @@ ht-degree: 1%
       - Arbeta med rensning av B-träd{#btree-cleanup}
          - [Konfigurera rensning av B-träd](./install-guide/configure-btree-clean-up-job.md)
       - Anpassad indexering{#custom-indexing}
-         - [Distribuerar anpassat index för Sök och ersätt (Source-vyn)](./install-guide/custom-indexing-prem.md)
+         - [Distribuera anpassat index för Sök och ersätt (Source-vyn)](./install-guide/custom-indexing-prem.md)
+      - Arbeta med DITA-resursreplikering{#dita-assets-replication}
+         - [Konfigurera DITA-resursreplikering](./install-guide/configure-dita-asset-replication.md)
       - [Bilaga](./install-guide/appendix.md)
    - Molntjänster {#cs-ig}
       - [Om den här guiden](./cs-install-guide/introduction.md)
@@ -489,6 +497,7 @@ ht-degree: 1%
          - [Konfigurera Dispatcher](./cs-install-guide/download-install-configure-dispatcher.md)
          - [Verifiera installation av AEM Guides](./cs-install-guide/download-install-verify-dxml-installation.md)
          - [Uppgradera AEM Guides](./cs-install-guide/download-install-upgrade-dxml.md)
+         - [Ytterligare konfiguration för uppgradering av AEM Guides som Cloud Service](./cs-install-guide/additional-config-for-cloud-service.md)
          - [Konfigurationsåsidosättningar](./cs-install-guide/download-install-additional-config-override.md)
          - [Rekommendationer för prestandaoptimering](./cs-install-guide/download-install-recommend-perf-optimiz.md)
       - Arbeta med användargrupper och säkerhet {#user-group-sec-cs}
@@ -569,6 +578,8 @@ ht-degree: 1%
          - [Konfigurera rensning av B-träd](./cs-install-guide/configure-btree-cleanup-cs.md)
       - Anpassad indexering{#custom-indexing-cs}
          - [Distribuerar anpassat index för Sök och ersätt (Source-vyn)](./cs-install-guide/custom-indexing.md)
+      - Arbeta med DITA-resursreplikering{#dita-assets-replication-cs}
+         - [Konfigurera DITA-resursreplikering](./cs-install-guide/configure-dita-assets-replication.md)
       - [Bilaga](./cs-install-guide/appendix.md)
 - API-referens {#api-reference}
    - [Introduktion](./api-reference/introduction.md)

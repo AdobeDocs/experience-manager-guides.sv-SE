@@ -4,9 +4,9 @@ description: Lär dig hur du importerar och validerar ett DITA-ämne, använder 
 exl-id: ed07a5ec-6adc-43a3-8f03-248b8c963e9a
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 64d2f0027c35396a549d11a0186e218dd513b22a
+source-git-commit: dd058ef30707716054279f16527adb286a9deb8d
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '982'
 ht-degree: 0%
 
 ---
@@ -24,8 +24,6 @@ ht-degree: 0%
 
 Så här importerar du Schematron-filerna:
 
-![](images/schematron-panel.png){width="300" align="left"}
-
 1. Navigera till önskad mapp (där du vill överföra filerna) i *databasen*.
 1. Välj ikonen **Alternativ** för att öppna snabbmenyn och välj **Överför resurser**.
 1. I dialogrutan **Överför resurser** kan du ändra målmappen i fältet **Välj resursmapp**.
@@ -41,16 +39,16 @@ När du har importerat Schematron-filer kan du redigera dem i Redigeraren. Du ka
 
 När du öppnar ett ämne i Redigeraren visas en schematrons valideringspanel till höger. Utför följande steg för att lägga till och validera ett ämne eller en karta med en Schematron-fil:
 
-![](images/schematron-panel-file-validated.png){width="500" align="left"}
+![](images/schematron-panel.png){width="350" align="left"}
 
-1. Välj ikonen Schematron () för att öppna panelen Schematron.
+1. Välj ikonen Schematron för att öppna panelen Schematron.
 1. Använd **Lägg till schemafil** för att lägga till schemafiler.
 
    >[!NOTE]
    >
    > När en ogiltig schemaläggarfil läggs till visas ett felmeddelande på valideringspanelen.
 
-   ![](images/schematron-panel-error.png){width="300" align="left"}
+   ![](images/schematron-panel-error.png){width="350" align="left"}
 
 1. Om det inte finns några fel i schemaläggarfilen läggs den till och visas på valideringspanelen. Ett felmeddelande visas för Schematron-filen som innehåller fel.
 
@@ -58,14 +56,42 @@ När du öppnar ett ämne i Redigeraren visas en schematrons valideringspanel ti
    >
    >Du kan använda kryssikonen bredvid Schematron-filnamnet för att ta bort den.
 
-1. Välj **Verifiera med Schematron** för att validera ämnet.
+1. Välj **Validera** om du vill validera ämnet med de tillagda Schematron-filerna.
 
    * Om inga regler bryts visas ett meddelande om att valideringen lyckades för filen.
    * Om ämnet bryter en regel, till exempel om det inte innehåller någon titel och valideras för schematronen ovan, visas ett valideringsfel.
 
+   >[!NOTE]
+   >
+   > Valideringsresultaten visas baserat på rollattributet som är definierat i Schematron-filen. Mer information finns i [Förstå valideringsresultat och servernivåer](#understanding-validation-results-and-serverity-levels).
+
 1. Markera felmeddelandet för att markera elementet som innehåller felet i det öppna ämnet/kartan.
 
 Stödet för schemat i redigeraren hjälper dig att validera filerna mot en uppsättning regler och bibehålla konsekvens och korrekthet i alla ämnen.
+
+## Förstå valideringsresultat och servernivåer
+
+Valideringsresultaten visas baserat på rollattributet som är definierat i Schematron-filen. Ärendena kategoriseras som `Fatal`, `Error`, `Warn` eller `Info`, med ett synligt antal för varje kategori på valideringspanelen.
+
+![](images/schematron-validation-errors.png){width="350" align="left"}
+
+För att avgöra allvarlighetsgraden för ett problem utvärderas det _skiftlägeskänsliga_-värdet för rollattributet som är definierat i motsvarande Schematron-fil.
+
+Följande utdrag visar vilka rollattributvärden som stöds och som definierats i en schematransregel:
+
+* `<sch:assert role="error" test="@id">Element must have an ID.</sch:assert>`
+* `<sch:report role="info" test="not(@alt)">Image should have an alt attribute.</sch:report>`
+* `<sch:assert role= "fatal" test="b"> Bold must be there in <sch:name/> element</sch:assert>`
+* `<sch:assert role= "warn" test="b"> Recommended formatting is missing in <sch:name/> element</sch:assert>`
+
+Om rollattributet inte har angetts, eller om ett värde som inte stöds används, kategoriseras problemet som `Error` på valideringspanelen. Det här beteendet gäller även befintliga schematron-filer som inte definierar ett rollattribut. I sådana fall grupperas alla utgåvor under `Error`.
+
+**Scenarier för att spara filer**
+
+Om du vill spara en fil beror på **Kör valideringskontrollen innan du sparar filen** i [Workspace-inställningarna](../cs-install-guide/workspace-settings.md#validation):
+
+* När det här alternativet är aktiverat kan du inte spara filen förrän problemen på `Fatal`- eller `Error`-nivå inte har lösts.
+* När det är inaktiverat utförs inte valideringskontrollerna och filerna kan sparas även om det finns `Fatal`- eller `Error`-nivåproblem.
 
 ## Använd assert- och report-satser för att kontrollera regler{#schematron-assert-report}
 

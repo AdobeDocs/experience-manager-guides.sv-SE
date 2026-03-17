@@ -4,9 +4,9 @@ description: Översätt ditt innehåll till flera språk från webbredigeraren. 
 exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: 4165535976082c1e8f28bf15f16999b6bfe5bf9a
+source-git-commit: c619c518a3ae1629897eb90f5f15aa4742be5ef2
 workflow-type: tm+mt
-source-wordcount: '2446'
+source-wordcount: '2519'
 ht-degree: 0%
 
 ---
@@ -78,6 +78,11 @@ Innan du utför stegen i den här proceduren måste du se till att du har skapat
    **Använd den senaste versionen från och med**: Välj om du vill filtrera ämnesversionen utifrån datum och tid när de skapades. När du väljer ett datum och en tid visas endast den senaste versionen av filerna som skapades på eller före det valda datumet och tiden.
 
 1. Välj **Använd**. En lista med information om ämnen och associerade resurser visas.
+
+   >[!NOTE]
+   >
+   > När du översätter kartor med DITAVAL- och Markdown-filreferenser, och när översättningen baseras på arbetskopian, inkluderas referenser som bilder och andra länkade resurser, förutsatt att de finns i källspråksmappen. De här referenserna visas i översättningsinstrumentpanelens referenslista, vilket gör att du uttryckligen kan välja dem för översättning. Under översättning kopieras refererade resurser till målspråksmappen och hanteras på ett konsekvent sätt med standardbeteendet för bildöversättning.
+
 1. Markera de ämnen som du vill skicka för översättning. Du kan också använda alternativen för ämnesfiltrering för följande kolumner:
 
    - **Titel**: Källfilens namn.  Håll pekaren över källfilens namn för att visa målfilens eller den översatta filens namn.
@@ -234,4 +239,4 @@ För effektiv dokumenthantering kan Experience Manager Guides ta bort översätt
 Du kan även inaktivera översättningsprojekten om du vill använda dem senare. Om du tar bort ett projekt tas alla filer och mappar i projektet bort. Om du inaktiverar ett projekt tas det inte bort, utan behålls i databasen. Men du kan inte uppdatera eller redigera ett inaktiverat projekt.  Om du tar bort eller inaktiverar ett projekt påverkas inte översättningsstatusen för några referenser.
 
 
-**Överordnat ämne:**&#x200B;[&#x200B; Introduktion till redigeraren](web-editor.md)
+**Överordnat ämne:**[ Introduktion till redigeraren](web-editor.md)

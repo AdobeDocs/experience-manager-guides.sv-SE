@@ -4,9 +4,9 @@ description: Lägg till och hantera citat i AEM Guides. Lär dig hur du använde
 exl-id: 685d747d-e017-4350-a6bf-822fd55c76e8
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+source-git-commit: a90a461883cba0760990f8c86b3a0b9817f37ce2
 workflow-type: tm+mt
-source-wordcount: '1890'
+source-wordcount: '1923'
 ht-degree: 0%
 
 ---
@@ -51,12 +51,12 @@ Så här lägger du till citat:
 
    >[!NOTE]
    >
-   >Du kan också lägga till ISBN- eller DOI- eller PubMed-ID:t. De andra fälten fylls i automatiskt i av AEM Guides.
+   >Du kan också ange ISBN-, DOI- eller PubMed-ID:t. De andra fälten fylls i automatiskt i av AEM Guides.
 
    | Bok | Webbplats | Journal |
    | --- | ---|---|
    | **Source** <br> I listrutan väljer du källtexten till citatet som en bok. | **Source**<br> I listrutan väljer du källtexten för citattecknet som en webbplats. | **Source** <br> I listrutan väljer du källan för citatet som Journal. |
-   | **Sök på** <br> Välj **ISBN** eller **DOI** i listrutan för att söka efter det elektroniska ID som är länkat till citatet.  <br> DOI: ID för digitalt objekt <br> ISBN: Unik identifierare för numerisk bok | **Sök efter** <br> Välj **DOI** i listrutan om du vill söka efter det elektroniska ID som är länkat till citatet. | **Sök på** <br> Välj **DOI** eller PubMed ID i listrutan för att söka efter det elektroniska ID som är länkat till citatet. <br>  <br> |
+   | **Sök på** <br> Välj **ISBN** eller **DOI** i listrutan för att söka efter det elektroniska ID som är länkat till citatet.  <br> DOI: ID för digitalt objekt <br> ISBN: Unik identifierare för numerisk bok | **Sök efter** <br> Välj **DOI** i listrutan om du vill söka efter det elektroniska ID som är länkat till citatet. | **Sök efter** <ul><li>Välj **DOI** eller **PubMed ID** i listrutan för att söka efter det elektroniska ID som är länkat till citatet.</li><li>Välj **Alla fält** i listrutan om du vill söka i alla journalfält, till exempel *Titel*, *Journaltitel*, *Författare*, *År*, *Volym*, *Nummer* och *Sidor*. <br> Sökningen returnerar det närmaste matchande citattecknet baserat på den angivna texten.</li> |
    | **Författare** <br> Lägg till för- och efternamnet för författaren av citatet. Välj ![](images/Add_icon.svg) om du vill lägga till fler namn. | **Författare** <br> Lägg till för- och efternamnet för författaren av citatet. Välj ![](images/Add_icon.svg) om du vill lägga till fler namn. | **Författare** <br> Lägg till för- och efternamnet för författaren av citatet. Välj ![](images/Add_icon.svg) om du vill lägga till fler namn. |
    | **Titel** <br> Lägg till bokens titel. | **Titel** <br> Lägg till webbsidans rubrik. | **Titel** <br> Lägg till artikelns titel. |
    | **Redigeraren** <br> Lägg till bokens redigerare. | **Webbplatsnamn** <br> Lägg till webbplatsens namn. | **Journaltitel** <br> Lägg till titeln för det arbete som artikeln finns i. |
@@ -96,7 +96,7 @@ Så här importerar du citat:
 
    >[!NOTE]
    > <ol><li> Experience Manager Guides importerar endast de citat som är unika och inte redan finns.
-   > &gt; <li> Experience Manager Guides kan importera citat från en bok, journal eller en webbplats. För närvarande stöder den inte citat från andra källor.
+    &gt; <li> Experience Manager Guides kan importera citat från en bok, journal eller en webbplats. För närvarande stöder den inte citat från andra källor.
 
 ## Hantera citat
 
@@ -186,7 +186,7 @@ Du kan infoga citat från huvudverktygsfältet eller den vänstra panelen i avsn
 
 ### Från huvudverktygsfältet
 
-1. Välj ikonen **Citat** ![&#x200B; &#x200B;](images/citations-icon.svg) i huvudverktygsfältet.
+1. Välj ikonen **Citat** ![ ](images/citations-icon.svg) i huvudverktygsfältet.
 1. Välj citat i dialogrutan **Citat**. Du kan också markera flera citat.
    ![citatdialogruta](images/citation-dialog-main-toolbar.png){width="300" align="left"}
 1. Du kan filtrera citat genom att skriva de första alfabeten på sökpanelen i dialogrutan **Citat** .
@@ -201,7 +201,7 @@ Den markerade texten läggs till vid markörens plats i ditt ämne.
 > 
 >Om du vill visa ikonen **Källhänvisningar** från den vänstra panelen måste systemadministratören aktivera alternativet **Källhänvisningar** på fliken **Paneler** i **Inställningar**.
 
-1. Välj ikonen **Citat** ![&#x200B; &#x200B;](images/citations-icon.svg) i den vänstra panelen.
+1. Välj ikonen **Citat** ![ ](images/citations-icon.svg) i den vänstra panelen.
 1. Dra citatet från panelen **Citat** och släpp det på lämplig plats i avsnittet.
 
    Du kan också välja **Infoga** från ![](images/options.svg) **Alternativ** om du vill infoga en hänvisning.
@@ -211,7 +211,7 @@ Den markerade texten läggs till vid markörens plats i ditt ämne.
 1. Markera de citat du vill infoga i dialogrutan **Citat**.
 1. Välj **Klar** om du vill lägga till dem i ämnet.
 
-När du har infogat citat i ämnet kan du förhandsgranska dem i webbredigeraren. Du kan även publicera innehåll med citat med hjälp av PDF.
+När du har infogat citat i ämnet kan du förhandsgranska dem i redigeraren. Du kan även publicera innehåll med citat med hjälp av PDF.
 
 
 

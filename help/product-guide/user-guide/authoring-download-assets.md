@@ -4,16 +4,16 @@ description: Lär dig hur du hämtar filer från DITA-kartkonsolen i AEM Guides 
 exl-id: ae9eb355-d3ac-446a-958b-5f2da43f5533
 feature: Content Management
 role: User
-source-git-commit: e413a49a8ec5e2e129b86b50bc5750f41c101e5d
+source-git-commit: 5deb4411c82f07aa82e52b4608a71a78136c128d
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '850'
 ht-degree: 0%
 
 ---
 
 # Hämta filer {#id216MC0H0BE8}
 
-Du kan hämta resurser, inklusive DITA-filer och andra filer. Du kan hämta resurser på flera olika sätt. Vissa metoder är inbyggda i Adobe Experience Manager och andra stöds av Adobe Experience Manager Guides. Läs [Hämta resurser från Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html?lang=sv-SE) i Adobe Experience Manager-dokumentationen om du vill ha information om Adobe Experience Manager inbyggda resurser. I följande avsnitt förklaras hur du hämtar filer i Experience Manager Guides.
+Du kan hämta resurser, inklusive DITA-filer och andra filer. Du kan hämta resurser på flera olika sätt. Vissa metoder är inbyggda i Adobe Experience Manager och andra stöds av Adobe Experience Manager Guides. Läs [Hämta resurser från Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html) i Adobe Experience Manager-dokumentationen om du vill ha information om Adobe Experience Manager inbyggda resurser. I följande avsnitt förklaras hur du hämtar filer i Experience Manager Guides.
 
 ## Ladda ned en DITA-kartfil från Redigeraren
 
@@ -37,18 +37,17 @@ Följ de här stegen för att hämta en DITA-kartfil från redigeraren:
    - **Filhierarkialternativ**: Du kan också använda listrutan för filhierarki för att välja hur mappstrukturen ska hanteras för de hämtade mappfilerna. De tillgängliga alternativen är:
 
       - **Behåll filhierarkin**: Välj det här alternativet i listrutan om du vill behålla den befintliga mappstrukturen för de hämtade filerna.
+      - **Förenkla filhierarkin**: Välj det här alternativet i listrutan om du vill hämta alla refererade ämnen och mediefiler i en enda mapp.
 
-        Följande alternativ finns under den här metoden:
+     För varje alternativ kan du ytterligare ange hur filnamn ska hanteras för hämtade filer. Följande filnamnsalternativ är tillgängliga:
 
-         - **Använd GUID-filnamn** - Hämtar kartfilen med GUID som filnamn.
-
-         - **Använd det faktiska filnamnet** - Hämtar kartfilen med det ursprungliga filnamnet.
-
-      - **Förenkla filhierarkin**: Välj det här alternativet i listrutan om du vill hämta alla refererade ämnen och mediefiler i en enda mapp. Endast alternativet **Använd GUID-filnamn** är tillgängligt för mappningsfiler när den här metoden används.
+      - **Använd GUID-filnamn**: Hämtar kartfilen med GUID som filnamn.
+      - **Använd det faktiska filnamnet**: Hämtar kartfilen med det ursprungliga filnamnet. När det här alternativet används med förenklad filhierarki löses eventuella dubblettfilnamn på kartan automatiskt genom att numeriska suffix (_2, _3 och så vidare) läggs till för att säkerställa unika filnamn.
 
    >[!NOTE]
    >
    > Du kan även hämta kartfilen utan att välja något alternativ. I så fall hämtas den senaste beständiga versionen av de ämnen och mediefiler som refereras.
+
 
 1. Välj **Hämta**.
 
@@ -65,6 +64,8 @@ Följ de här stegen för att hämta en DITA-kartfil från redigeraren:
    >[!NOTE]
    >
    > Som standard finns de hämtade kartorna kvar i fem dagar i Adobe Experience Manager meddelandeinkorg.
+
+När kartan har laddats ned kan du markera kartan och använda ikonen Öppna längst upp för att öppna det hämtade innehållet. Om du vill visa associerade metadata för den hämtade kartan öppnar du filen `metdata.json` som ingår i det hämtade innehållet. Den här filen är tillgänglig för både *Filhierarki* -alternativ - Förenkla filhierarkin och Behåll filhierarkin.
 
 ## Hämta en DITA-kartfil från kontrollpanelen för kartor
 
@@ -109,6 +110,6 @@ Följ de här stegen för att hämta en DITA-kartfil tillsammans med de beroende
 
 ![](images/download-map-inbox.png){width="300" align="left"}
 
-När kartan har laddats ned kan du markera kartan och använda ikonen Öppna längst upp för att öppna den markerade rapporten.
+När kartan har laddats ned kan du markera kartan och använda ikonen Öppna längst upp för att öppna det hämtade innehållet.
 
-**Överordnat ämne:**&#x200B;[&#x200B; Hantera innehåll](authoring.md)
+**Överordnat ämne:**[ Hantera innehåll](authoring.md)

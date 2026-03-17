@@ -5,9 +5,9 @@ feature: Authoring
 role: Admin
 level: Experienced
 exl-id: dc26ae48-c953-492c-823a-5f65157b6902
-source-git-commit: 64adc89966e60823f6b46fb062b7659ed150cfc3
+source-git-commit: dedd253dba3d93beed162eb5258125928f6d315c
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1657'
 ht-degree: 0%
 
 ---
@@ -36,15 +36,28 @@ Om du vill komma igång med mappprofilkonfigurationen för utbildningsinnehåll 
    ![](assets/folder-profile.png){width="650" align="left"}
 
 6. **Konfigurera mappprofilinställningar**: Följande inställningar kan konfigureras på mappnivå för utbildningsinnehåll och utbildningsinnehåll:
+   - [Allmänt](#general)
    - [Paneler](#configure-panels)
-   - [Mallar](#configure-templates)
+   - [Innehållsmallar](#configure-content-templates)
    - [Utdatainställningar](#configure-output-presets)
    - [HTML-redigerare](#html-editor-settings)
    - [Publicera profiler](#manage-publish-profiles)
 
-Om du vill komma åt de här inställningarna växlar du till redigeringsvyn och väljer **Inställningar** på menyn **Alternativ** enligt nedan:
+Om du vill komma åt de här inställningarna växlar du till redigeringsvyn och väljer **Workspace-inställningar** på menyn **Alternativ** enligt nedan:
 
 ![](assets/access-editor-settings.png)
+
+## Allmänt
+
+På fliken Allmänt kan du konfigurera följande inställningar som är specifika för funktionen för produktutbildning och utbildningsinnehåll:
+
+![](assets/lc-config-settings-general.png){width="350" align="left"}
+
+- **Utbildningsinnehåll**: Använd **Aktivera utbildningsinnehåll** för att aktivera eller inaktivera funktionen på mappprofilnivå.
+- **HTML-redigerare**: Med den här inställningen kan du konfigurera redigeraren för HTML-baserad redigering. De viktigaste konfigurationsalternativen i den här inställningen är följande:
+
+   - **Dölj infogad formatering**: Aktivera det här alternativet om du inte vill att författare ska kunna använda infogad formatering i kursinnehållet. När det här alternativet är aktiverat döljs alla inbyggda formatalternativ som Teckensnitt, Kant, Layout, Bakgrund och Kolumner på den högra panelen i redigeraren för författare. Författare kan dock fortfarande använda de globala klassbaserade formateringsalternativ som finns på panelen **Format**. Detta bidrar till att upprätthålla enhetligheten med organisationens riktlinjer för stil.
+   - **Dölj Source-vyn för författare**: Aktivera det här alternativet om du vill begränsa åtkomsten till HTML källkod. Detta är användbart när du vill förenkla redigeringen eller undvika oavsiktliga ändringar av den underliggande koden.
 
 ## Konfigurera paneler
 
@@ -60,15 +73,24 @@ För utbildningsmaterial och utbildningsmaterial ska du se till att endast följ
 **Vänster panel**
 
 - **Samlingar**: Du kan ordna och spara filer som du använder ofta, eller snabbt komma åt delade filer.
-- **Databas**: Gör att du kan visa och komma åt alla kartor, ämnen, bilder och andra resurser som lagras i innehållsdatabasen.
+- **Utforskaren**: Gör att du kan visa och komma åt alla kartor, ämnen, bilder och andra resurser som lagras i innehållsdatabasen.
 - **Kurshanteraren**: Tillhandahåller en dedikerad arbetsyta för att skapa och hantera kurser.
+- **Karta**: Ger en kartvy över den kartfil som är öppen.
+- **Disposition**: Visar den strukturella hierarkin för det ämne eller den karta som är öppen, vilket ger snabb navigering och åtkomst på elementnivå.
+- **Workfront**: Ger tillgång till robusta projekthanteringsfunktioner utöver Experience Manager Guides centrala CCMS-funktioner.
+- **Återanvändbart innehåll**: Gör att du kan hantera och infoga återanvändbara element eller ämnen för att säkerställa konsekvens och minska antalet dubbletter i innehållet.
+- **Ordlista**: Gör att du kan skapa och hantera ordlistor och ta med dem mellan ämnen för att bibehålla en konsekvent terminologi.
 - **Kodavsnitt**: Gör att du kan skapa och återanvända små innehållsfragment för olika ämnen i dina utbildningskurser.
 - **Villkor**: Gör att du kan konfigurera villkorliga attribut på global nivå och på mappnivå.
+- **Mallar**: Används för att skapa och hantera kursmallar.
+- **Citat**: Gör att du kan lägga till och hantera citat i innehåll med hjälp av de källformat som stöds.
+- **Språkvariabler**: Gör att du kan definiera språkvariabler för publicerade utdata.
 - **Variabler**: Gör att du kan skapa och hantera variabler som ska användas i ditt utbildningsinnehåll.
-- **Språkvariabler**: Gör att du kan definiera lokaliserade strängar för publicerade utdata eller statisk text i mallar.
-- **Mallar**: Används för att skapa och hantera mallar som ska användas av författarna.
 - **Utdatamallar**: Gör att du kan skapa och hantera utdatamallar för att generera utdata i olika format.
 - **Sök och ersätt**: Innehåller alternativ för att söka efter och ersätta text mellan filer på en karta eller i en mapp i databasen. 
+- **Datakällor**: Gör att du kan ansluta externa datakällor och återanvända data i innehållet.
+- **Granska**: Gör att du kan skapa och hantera granskningsarbetsflöden i Experience Manager Guides.
+- **Systemrapporter**: Gör att du kan skapa och hantera rapporter.
 
 **Höger panel**
 
@@ -90,7 +112,11 @@ För utbildningsmaterial och utbildningsmaterial ska du se till att endast följ
 
 - **Filter**: Gör att du kan använda filter när du arbetar med rapporter och översättning.
 
-## Konfigurera mallar
+## Konfigurera innehållsmallar
+
+>[!NOTE]
+>
+> Den här inställningen är bara tillgänglig när utbildningsinnehållet är aktiverat i **Workspace-inställningarna** > **Allmänt**.
 
 Med den här inställningen kan du hantera de redigerings- och publiceringsmallar som finns i panelen [Vänster i redigeraren](../user-guide/web-editor-left-panel.md). Du kan lägga till, ta bort eller ändra ordning på skribent- och utdatamallar, som sedan är tillgängliga för författare och utgivare.
 
@@ -180,6 +206,10 @@ Du kan också definiera i vilken ordning mallarna i en kategori ska visas. Om du
 
 ## Konfigurera förinställningar för utdata
 
+>[!NOTE]
+>
+> Den här inställningen är bara tillgänglig när utbildningsinnehållet är aktiverat i **Workspace-inställningarna** > **Allmänt**.
+
 På fliken Utdataförinställningar kan du definiera vilka utdataformat som är tillgängliga för publicering av en kurs. Den innehåller två avsnitt: **Tillåtna förinställningstyper för utdata** och **Vanliga förinställningar för utdata**.
 
 ![](assets/configure-course-output-presets.png){width="350" align="left"}
@@ -191,15 +221,6 @@ På fliken Utdataförinställningar kan du definiera vilka utdataformat som är 
 - **Vanliga förinställningar för utdata**: I det här avsnittet visas de förinställningar för utdata som vanligtvis skapas och läggs till av utgivare i en viss mappprofil. Du kan också ta bort förinställningar som inte längre behövs.
 
   ![](assets/common-output-presets.png){width="350" align="left"}
-
-## Inställningar för HTML Editor
-
-Med den här inställningen kan du konfigurera redigeraren för HTML-baserad redigering. De viktigaste konfigurationsalternativen i den här inställningen är följande:
-
-![](assets/configure-html-editor-setting.png){width="350" align="left"}
-
-- **Dölj infogad formatering**: Aktivera det här alternativet om du inte vill att författare ska kunna använda infogad formatering i kursinnehållet. När det här alternativet är aktiverat döljs alla inbyggda formatalternativ som Teckensnitt, Kant, Layout, Bakgrund och Kolumner på den högra panelen i redigeraren för författare. Författare kan dock fortfarande använda de globala klassbaserade formateringsalternativ som finns på panelen **Format**. Detta bidrar till att upprätthålla enhetligheten med organisationens riktlinjer för stil.
-- **Dölj Source-vyn för författare**: Aktivera det här alternativet om du vill begränsa åtkomsten till HTML källkod. Detta är användbart när du vill förenkla redigeringen eller undvika oavsiktliga ändringar av den underliggande koden.
 
 ## Hantera publiceringsprofiler
 

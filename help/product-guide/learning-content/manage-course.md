@@ -4,7 +4,7 @@ description: Lär dig mer om de olika funktionerna i Experience Manager Guides s
 feature: Authoring
 role: User
 exl-id: 0f480d08-2f8a-494e-ab56-4965e5eeb960
-source-git-commit: 0171f7b798686a0a16942e98133001a4c05bb76b
+source-git-commit: f758ef6f2d238cbb71dc395add12fc7e30172871
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Du kan lägga till befintligt innehåll från din innehållsdatabas i kursen. G�
 
 1. Välj menyn **Alternativ** > **Lägg till befintlig**.
 2. Välj vilken typ av kursinnehåll du vill skapa.
-3. I dialogrutan **Välj sökväg** navigerar du till innehållsplatsen och väljer önskat utbildningsinnehåll.
+3. I dialogrutan **Välj fil** navigerar du till innehållsplatsen och väljer önskat utbildningsinnehåll.
 
    ![](assets/add-existing-learning-content.png)
 4. Välj **Markera**.
