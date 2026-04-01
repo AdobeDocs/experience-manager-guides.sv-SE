@@ -26,7 +26,7 @@ Du kan uppgradera din nuvarande version av Experience Manager Guides till versio
 - Om du använder version 4.3.x, 4.2, 4.2.1 (programfix 4.2.1.3), 4.1 eller 4.1.x måste du uppgradera till version 4.4 innan du uppgraderar till version 5.0.0.
 - Om du använder version 4.0 måste du uppgradera till version 4.2 innan du uppgraderar till version 4.3.x.
 - Om du använder version 3.8.5 måste du uppgradera till version 4.0 innan du uppgraderar till version 4.2.
-- Om du har en tidigare version än 3.8.5 kan du läsa mer i avsnittet Uppgradera Experience Manager Guides i den produktspecifika installationsguiden för [Adobe Experience Manager Guides Help PDF archive](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
+- Om du har en tidigare version än 3.8.5 kan du läsa mer i avsnittet Uppgradera Experience Manager Guides i den produktspecifika installationsguiden för [Adobe Experience Manager Guides Help PDF archive](https://helpx.adobe.com/se/xml-documentation-for-experience-manager/archive.html).
 
 
 >[!NOTE]
@@ -59,7 +59,7 @@ Innan du kör processen måste du slutföra vissa uppgifter. I följande delavsn
 
 >[!NOTE]
 >
-> Denna uppgraderingsprocess gäller endast från version 3.8.5 till version 4.0. För uppgraderingsprocessen från version 3.4 eller senare till 3.8.5, se avsnittet *Uppgradera Experience Manager Guides* i den produktspecifika installationsguiden som finns i [Adobe Experience Manager Guides Help PDF archive](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
+> Denna uppgraderingsprocess gäller endast från version 3.8.5 till version 4.0. För uppgraderingsprocessen från version 3.4 eller senare till 3.8.5, se avsnittet *Uppgradera Experience Manager Guides* i den produktspecifika installationsguiden som finns i [Adobe Experience Manager Guides Help PDF archive](https://helpx.adobe.com/se/xml-documentation-for-experience-manager/archive.html).
 
 
 
@@ -1299,7 +1299,7 @@ Under den här uppgraderingen måste du, eftersom värdet `'order'` ändras frå
 
 ## Steg för att indexera om damAssetLucene
 
-Indexdefinitionen uppdateras för damAssetLucene med stödlinjer. Mer information finns i [den här artikeln](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460) om du vill indexera om damAssetLucene efter uppgradering till version 5.0.0.
+Indexdefinitionen uppdateras för damAssetLucene med stödlinjer. Mer information finns i [den här artikeln](https://experienceleague.adobe.com/sv/docs/experience-cloud-kcs/kbarticles/ka-16460) om du vill indexera om damAssetLucene efter uppgradering till version 5.0.0.
 
 >[!NOTE]
 >
@@ -1309,7 +1309,7 @@ Indexdefinitionen uppdateras för damAssetLucene med stödlinjer. Mer informatio
 
 >[!IMPORTANT]
 >
-> Om du för närvarande använder AEM 6.5 och tänker gå över till AEM 6.5 LTS måste du först slutföra uppgraderingen av AEM innan du fortsätter med uppgraderingen av Experience Manager Guides 5.1.0. Mer information finns i [Uppgradera till Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
+> Om du för närvarande använder AEM 6.5 och tänker gå över till AEM 6.5 LTS måste du först slutföra uppgraderingen av AEM innan du fortsätter med uppgraderingen av Experience Manager Guides 5.1.0. Mer information finns i [Uppgradera till Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/sv/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
 
 **Förutsättningar**
 
@@ -1466,7 +1466,7 @@ Under den här uppgraderingen måste du, eftersom värdet `'order'` ändras frå
 
 ## Steg för att indexera om damAssetLucene
 
-Indexdefinitionen uppdateras för damAssetLucene med stödlinjer. Mer information finns i [den här artikeln](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460) om du vill indexera om damAssetLucene efter uppgradering till version 5.1.0.
+Indexdefinitionen uppdateras för damAssetLucene med stödlinjer. Mer information finns i [den här artikeln](https://experienceleague.adobe.com/sv/docs/experience-cloud-kcs/kbarticles/ka-16460) om du vill indexera om damAssetLucene efter uppgradering till version 5.1.0.
 
 >[!NOTE]
 >
