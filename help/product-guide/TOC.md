@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Läs produktdokumentationen för Adobe Experience Manager Guides.
 breadcrumb-title: Dokumentation om AEM Guides
-source-git-commit: a4cb2e65813a0ee31d5f5a7a267be73dd0212534
+source-git-commit: 75d2e6464224cafdb30e76848165cf057a83b308
 workflow-type: tm+mt
-source-wordcount: '2559'
+source-wordcount: '2567'
 ht-degree: 2%
 
 ---
@@ -130,6 +130,9 @@ ht-degree: 2%
             - [Nyheter](./release-info/whats-new-5-1-0.md)
             - [Åtgärdade problem](./release-info/fixed-issues-5-1-0.md)
             - [Uppgraderingsinstruktioner](./release-info/upgrade-instructions-5-1-0.md)
+         - 5.0.0 SP4 Release {#500-sp4-release}
+            - [Åtgärdade problem](./release-info/fixed-issues-5-0-0-sp4.md)
+            - [Uppgraderingsinstruktioner](./release-info/upgrade-instructions-5-0-0-sp4.md)
          - 5.0.0 SP3-utgåva {#500-sp3-release}
             - [Åtgärdade problem](./release-info/fixed-issues-5-0-0-sp3.md)
             - [Uppgraderingsinstruktioner](./release-info/upgrade-instructions-5-0-0-sp3.md)
@@ -178,13 +181,13 @@ ht-degree: 2%
                - [4.2.1 Versionsinformation](./release-info/release-notes-4-2-1.md)
                - [4.2 Versionsinformation](./release-info/release-notes-4-2.md)
          - [4.1.x Versionsinformation](./release-info/release-notes-4-1.md)
-         - [Versionsinformation för 4.0.x](https://helpx.adobe.com/se/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [3.8.x Versionsinformation](https://helpx.adobe.com/se/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [Versionsinformation för 4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [3.8.x Versionsinformation](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Användarhandbok (nytt användargränssnitt) {#user-guide}
    - Introduktion {#about-aemg}
       - [Om [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - [!DNL AEM Guides] funktioner och nyckelfunktioner {#aemg-works-features}
-         - [Så här fungerar [!DNL AEM Guides] &#x200B;](./user-guide/intro-how-dxml-works.md)
+         - [Så här fungerar [!DNL AEM Guides] ](./user-guide/intro-how-dxml-works.md)
          - [Viktiga [!DNL AEM Guides] funktioner](./user-guide/intro-dxml-features.md)
    - Startsida {#home-page}
       - [[!DNL AEM Guides] - startsida](./user-guide/intro-home-page.md)
@@ -202,7 +205,7 @@ ht-degree: 2%
             - [Förhandsgranska ett ämne](./user-guide/web-editor-preview-topics.md)
          - [Lär dig redigeringsfunktionerna](./user-guide/web-editor-features.md)
          - Lär dig redigeringsgränssnittet och funktionerna {#editor-interface-features}
-            - [Ökning](./user-guide/intro-editor-interface.md)
+            - [Översikt](./user-guide/intro-editor-interface.md)
             - [Sidhuvudsfält](./user-guide/web-editor-header-bar.md)
             - [Flikfält](./user-guide/web-editor-tab-bar.md)
             - [Verktygsfält](./user-guide/web-editor-toolbar.md)
@@ -341,7 +344,7 @@ ht-degree: 2%
             - [Förstå grunderna för kurshanteraren](./learning-content/course-manager-basics.md)
             - [Hantera din kurs](./learning-content/manage-course.md)
          - Skapa och anpassa utbildningsmaterial {#customize-lc}
-            - [Ökning](./learning-content/lc-overview.md)
+            - [Översikt](./learning-content/lc-overview.md)
             - [Skapa ämne](./learning-content/create-content.md)
             - [Redigera ämne](./learning-content/edit-content.md)
             - [Lägg till grundläggande byggblock](./learning-content/lc-basic-blocks.md)
@@ -386,7 +389,7 @@ ht-degree: 2%
       - Felsökning {#troubleshooting}
          - [Tidsgräns för session](./user-guide/session-timeout-prompt.md)
 - Användarhandbok (gammalt användargränssnitt) {#user-guide-old-ui}
-   - [AEM Guides - översikt](https://experienceleague.adobe.com/sv/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [AEM Guides - översikt](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installation och konfiguration {#install-guide}
    - Lokalt {#on-prem-ig}
       - [Grunderna på plats](./install-guide/introduction.md)

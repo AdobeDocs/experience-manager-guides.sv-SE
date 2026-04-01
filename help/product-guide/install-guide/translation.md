@@ -5,16 +5,16 @@ exl-id: 0d3a909c-3499-4ef4-b033-02e412dae959
 feature: Translation
 role: Admin
 level: Experienced
-source-git-commit: ea3083542e955a56c27cd833600370a7962c6b8d
+source-git-commit: bbdf4763e8202891eec0259a5f08a7efa9afc668
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '985'
 ht-degree: 0%
 
 ---
 
 # Översätta innehåll {#id181GB0400UI}
 
-Automatisera översättning av sidinnehåll, resurser och användargenererat innehåll för att skapa och underhålla flerspråkiga webbplatser. Om du vill automatisera arbetsflöden för översättning integrerar du översättare med AEM och skapar projekt för översättning av innehåll till flera språk. AEM har stöd för arbetsflöden för översättning mellan människor och datorer.
+Automatisera översättning av sidinnehåll, resurser och användargenererat innehåll för att skapa och underhålla flerspråkiga webbplatser. Om du vill automatisera översättningsarbetsflöden integrerar du översättningstjänster med AEM och skapar projekt för översättning av innehåll till flera språk. AEM har stöd för arbetsflöden för översättning till människor och datorer.
 
 - Översättning till människor: Innehållet skickas till din översättningsleverantör och översätts av professionella översättare. När det är klart returneras det översatta innehållet och importeras till AEM. När översättningsleverantören är integrerad med AEM utbyts innehåll automatiskt mellan AEM och översättningsleverantören
 
@@ -23,24 +23,24 @@ Automatisera översättning av sidinnehåll, resurser och användargenererat inn
 
 Översättning av innehåll omfattar följande steg:
 
-1. Anslut AEM till din [översättningstjänstleverantör](https://helpx.adobe.com/se/experience-manager/6-5/sites/administering/using/tc-tic.html#ConnectingtoaTranslationServiceProvider) och skapa [konfigurationer för översättningsintegreringsramverk](https://helpx.adobe.com/se/experience-manager/6-5/sites/administering/using/tc-tic.html#CreatingaTranslationIntegrationConfiguration).
+1. Anslut AEM till din [översättningstjänstleverantör](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConnectingtoaTranslationServiceProvider) och skapa [konfigurationer för översättningsintegreringsramverk](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#CreatingaTranslationIntegrationConfiguration).
 
-1. Associera sidorna i din språkinställning med [översättningstjänsten och ramverkskonfigurationerna](https://helpx.adobe.com/se/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation).
+1. Associera sidorna i din språkinställning med [översättningstjänsten och ramverkskonfigurationerna](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation).
 
-1. Identifiera typen av [innehåll som ska översättas](https://helpx.adobe.com/se/experience-manager/6-5/sites/administering/using/tc-rules.html).
+1. Identifiera typen av [innehåll som ska översättas](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-rules.html).
 
-1. [Förbered innehållet för översättning](https://helpx.adobe.com/se/experience-manager/6-5/sites/administering/using/tc-prep.html) genom att skapa språkinställningen och skapa rotsidorna för språkkopior.
+1. [Förbered innehållet för översättning](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-prep.html) genom att skapa språkinställningen och skapa rotsidorna för språkkopior.
 
-1. Skapa [översättningsprojekt](https://helpx.adobe.com/se/experience-manager/6-5/sites/administering/using/tc-manage.html) om du vill samla in innehållet som ska översättas och förbereda översättningsprocessen.
+1. Skapa [översättningsprojekt](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-manage.html) om du vill samla in innehållet som ska översättas och förbereda översättningsprocessen.
 
-1. Använd översättningsprojekten för att [hantera innehållsöversättningsprocessen](https://helpx.adobe.com/se/experience-manager/6-5/sites/administering/using/tc-manage.html).
+1. Använd översättningsprojekten för att [hantera innehållsöversättningsprocessen](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-manage.html).
 
 
-När översättningstjänstleverantören inte tillhandahåller någon koppling till integrering med AEM stöder AEM manuell export och import av översatt innehåll i XML-format.
+När översättningstjänsten inte har någon koppling till AEM stöder AEM manuell export och import av översatt innehåll i XML-format.
 
 >[!TIP]
 >
-> Se avsnittet *Översättning* s i guiden om bästa praxis för översättning av innehåll.
+> Mer information om de bästa sätten att översätta innehåll finns i avsnittet *Översättning* i guiden om bästa praxis.
 
 ## Konfigurera översättningsfliken på DITA-kartpanelen
 
@@ -88,7 +88,7 @@ Baserat på det översättningsarbetsflöde som används i konfigurationen bör 
 
    >[!NOTE]
    >
-   > Om du använder översättningskoppling kontrollerar du att du har konfigurerat kopplingen enligt beskrivningen i avsnittet *[Konfigurera översättningsintegreringsramverket](https://helpx.adobe.com/se/experience-manager/6-5/sites/administering/using/tc-tic.html)* i AEM.
+   > Om du använder översättningskoppling kontrollerar du att du har konfigurerat kopplingen enligt beskrivningen i avsnittet *[Konfigurera översättningsintegreringsramverket](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html)* i AEM-dokumentationen.
 
 1. Klicka på **Spara**.
 
@@ -123,6 +123,30 @@ Som standard är alternativet för äldre översättningsarbetsflöde inaktivera
 
 1. Klicka på **Spara**.
 
+## Konfigurera förstagångsöversättningsbeteende
+
+Som standard skapas tomma XML-filer för målspråket när du utför en översättning för första gången. Dessa filer översätts först efter godkännande. Om du vill styra det här beteendet kan du aktivera inställningen för `Initialize destination language copy with source content` med följande steg:
+
+>[!NOTE]
+>
+> Den här inställningen gäller endast när det äldre arbetsflödet för översättning är inaktiverat.
+
+1. Öppna konfigurationssidan för Adobe Experience Manager Web Console.
+
+   Standardwebbadressen för åtkomst till konfigurationssidan är:
+
+   ```http
+   http://<server name>:<port>/system/console/configMgr
+   ```
+
+1. Sök efter och klicka på paketet **com.adobe.fmdita.config.ConfigManager** .
+
+1. Välj inställningen `Initialize destination language copy with source content`.
+
+   - När det här alternativet är aktiverat skapas en kopia utan versionsnummer som innehåller källinnehållet från arbetskopian i stället för att tomma XML-filer genereras under den första översättningen.
+   - (*Standard*) När det är inaktiverat används standardbeteendet och tomma XML-filer skapas för målspråket under den första översättningen.
+
+1. Klicka på **Spara**.
 
 
 
