@@ -82,7 +82,7 @@ Välj **PDF** > **Native-PDF** > **Metadata** i Utdataförinställningarna om du
 
 * **Ange XMP-fil**
 
-  Du kan också fylla i metadatafälten direkt genom att importera filen [XMP](https://www.adobe.com/products/xmp.html) (Extensible Metadata Platform). Här kan du hämta en exempelfil för XMP.
+  Du kan också fylla i metadatafälten direkt genom att importera filen [XMP](https://www.adobe.com/se/products/xmp.html) (Extensible Metadata Platform). Här kan du hämta en exempelfil för XMP.
 
 [Ladda ned](assets/SampleXMP.xmp)
 
