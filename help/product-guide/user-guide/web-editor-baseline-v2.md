@@ -4,9 +4,9 @@ description: Skapa och hantera ny baslinje (Beta) från kartkonsolen i Adobe Exp
 feature: Authoring, Features of Web Editor, Publishing
 role: User
 exl-id: 574806bb-21c5-41fe-b8be-4c6506ce8cce
-source-git-commit: ddf28ee20b15ea8bb50c555d1196532ee00d34a5
+source-git-commit: d7e5af83e88de18cd8ac2e849c9d6e1807988099
 workflow-type: tm+mt
-source-wordcount: '1274'
+source-wordcount: '1294'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,9 @@ ht-degree: 0%
 >
 > Den här artikeln gäller den nya baslinjen, som för närvarande finns som en *Beta* -funktion, som ger bättre prestanda och stabilitet i Experience Manager Guides 2026.03.0. Om du vill aktivera den nya baslinjefunktionen i din konfiguration kontaktar du Customer Success Team.
 
-Den nya baslinjefunktionen åtgärdar viktiga tillförlitlighets- och prestandaproblem som är kopplade till stora, komplexa kartor. Den levereras med en omarbetad baslinjearkitektur som ger en snabbare, stabilare och mer enhetlig baslinjeupplevelse.
+Den nya baslinjefunktionen åtgärdar viktiga tillförlitlighets- och prestandaproblem som är kopplade till stora, komplexa kartor. Den levereras med en omarbetad baslinjearkitektur som ger en snabbare, stabilare och mer enhetlig baslinjeupplevelse. Innan vi går in på detaljerna ska vi titta på en kort genomgång som visar hur den nya baslinjefunktionen fungerar.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3483154/aem-guides)
 
 Den nya baslinjemodellen förstärker baslinjen genom att ta itu med de vanligaste smärtorna:
 
