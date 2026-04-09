@@ -77,7 +77,7 @@ Mer information finns i [Högerpanelen i redigeraren](../user-guide/web-editor-r
 
 ### Sök citat i alla journalfält
 
-Nu kan du söka efter citat i alla journalfält, t.ex. *Titel*, *Journaltitel*, *Författare*, *År*, *Volym*, *Nummer* och *Sidor*, med alternativet **Valfritt fält** i **16}Lägg till citat** . Sökningen returnerar det närmaste matchande citattecknet baserat på den angivna texten.
+Nu kan du söka efter citat i alla journalfält, t.ex. *Titel*, *Journaltitel*, *Författare*, *År*, *Volym*, *Nummer* och *Sidor*, med alternativet **Valfritt fält** i **16&rbrace;Lägg till citat** . Sökningen returnerar det närmaste matchande citattecknet baserat på den angivna texten.
 
 Mer information om hur du lägger till citat i Experience Manager Guides finns i [Lägg till och hantera citat i ditt innehåll](../user-guide/web-editor-apply-citations.md).
 
