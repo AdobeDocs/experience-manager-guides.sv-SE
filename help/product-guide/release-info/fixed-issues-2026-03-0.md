@@ -1,7 +1,9 @@
 ---
-title: Versionsinformation | Korrigerade problem i Adobe Experience Manager Guides, version 2026.03.0
+title: Versionsinformation | Åtgärdade problem i Adobe Experience Manager Guides, version 2026.03.0
 description: Läs mer om felkorrigeringarna i version 2026.03.0 av Adobe Experience Manager Guides as a Cloud Service.
-source-git-commit: 764f6cc0b061020b78cd2808e08a5d05bd183c81
+exl-id: 6eca85f5-d7d3-4486-8b32-8af3a6cce4ee
+hidefromtoc: true
+source-git-commit: 22ea3fe3ccb974fe3795299f7815e7aae78d41e7
 workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 0%
@@ -60,13 +62,3 @@ Adobe har identifierat följande kända fel i version 2026.03.0:
 - I Assets-gränssnittet aktiveras inte knappen **Flytta** vid det första försöket när fler än två filer eller mappar är markerade. (GUIDES-42721) <br> **Tillfällig lösning**: När du har markerat fler än två filer eller mappar väntar du några sekunder innan du väljer målmappen.
 - När du navigerar till **användarinställningar** i redigeraren och uppdaterar rotkartan när förhandsgranskningsläget är öppet i redigeraren, läses kartan in som en tom skärm när du återgår till redigeraren. (GUIDES-42412) <br> **Tillfällig lösning**: Problemet åtgärdas om du uppdaterar förhandsgranskningen med ikonen **Uppdatera** som finns i förhandsgranskningsläget.
 - Om du byter namn på en befintlig mall uppdateras inte namnet på panelen **Utdatamallar** förrän sidan uppdateras manuellt. (GUIDES-42528)<br> **Tillfällig lösning**: Uppdatera webbläsaren för att visa det uppdaterade mallnamnet på panelen Utdatamallar.
-
-
-
-
-
-
-
-
-
-

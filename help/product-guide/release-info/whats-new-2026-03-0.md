@@ -1,8 +1,10 @@
 ---
-title: Versionsinformation | Nyheter i Adobe Experience Manager Guides 2026.03.0
+title: Versionsinformation | Nyheter i Adobe Experience Manager Guides 2026.0.0
 description: Läs om de nya och förbättrade funktionerna i version 2026.03.0 av Adobe Experience Manager Guides
 role: Leader
-source-git-commit: dedd253dba3d93beed162eb5258125928f6d315c
+exl-id: ae26dd14-983e-4116-ac8d-729c1f4fad20
+hidefromtoc: true
+source-git-commit: 22ea3fe3ccb974fe3795299f7815e7aae78d41e7
 workflow-type: tm+mt
 source-wordcount: '824'
 ht-degree: 0%
@@ -75,7 +77,7 @@ Mer information finns i [Högerpanelen i redigeraren](../user-guide/web-editor-r
 
 ### Sök citat i alla journalfält
 
-Nu kan du söka efter citat i alla journalfält, t.ex. *Titel*, *Journaltitel*, *Författare*, *År*, *Volym*, *Nummer* och *Sidor*, med alternativet **Valfritt fält** i **16&rbrace;Lägg till citat** . Sökningen returnerar det närmaste matchande citattecknet baserat på den angivna texten.
+Nu kan du söka efter citat i alla journalfält, t.ex. *Titel*, *Journaltitel*, *Författare*, *År*, *Volym*, *Nummer* och *Sidor*, med alternativet **Valfritt fält** i **16}Lägg till citat** . Sökningen returnerar det närmaste matchande citattecknet baserat på den angivna texten.
 
 Mer information om hur du lägger till citat i Experience Manager Guides finns i [Lägg till och hantera citat i ditt innehåll](../user-guide/web-editor-apply-citations.md).
 
@@ -112,7 +114,3 @@ Mer information om hur du hämtar filer i Experience Manager Guides finns i [Hä
 Nu kan du använda regex för att aktivera eller inaktivera efterbearbetning för mappar. Den här förbättringen gör att administratörer kan definiera regler för efterbearbetning som gäller för flera mappar eller hela mapphierarkier med en enda konfiguration, i stället för att ange enskilda mappsökvägar.
 
 Mer information finns i [Använd regex för att aktivera eller inaktivera efterbearbetning](../cs-install-guide/conf-folder-post-processing.md#use-regex-to-enable-or-disable-post-processing).
-
-
-
-
