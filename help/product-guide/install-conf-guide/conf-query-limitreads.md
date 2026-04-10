@@ -32,4 +32,4 @@ Utför följande steg om du vill öka antalet noder som en fråga kan läsa samt
 
 När du ökar det här attributvärdet hjälper det dig att generera rapporten för större DITA-kartor.
 
-**Överordnat ämne:**[ Anpassa Web Editor](customize-overview.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Anpassa Web Editor](customize-overview.md)

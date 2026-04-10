@@ -63,4 +63,4 @@ Om du vill konfigurera ett mönster för automatiskt genererat ID skapar du en k
 
 >[!ENDTABS]
 
-**Överordnat ämne:**[ Anpassa Web Editor](customize-overview.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Anpassa Web Editor](customize-overview.md)

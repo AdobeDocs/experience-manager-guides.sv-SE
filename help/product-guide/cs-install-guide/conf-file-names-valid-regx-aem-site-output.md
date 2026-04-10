@@ -23,4 +23,4 @@ Använd instruktionerna i [Konfigurationsåsidosättningar](download-install-add
 |---|------------|--------------|
 | `com.adobe.fmdita.common.SanitizeNodeNameImpl` | `aemsite.DisallowedFileNameChars` | Lägg till tecken som du vill ersätta med ett understreck i utdatafilnamnen för AEM Site. <br> **Standardvärde**: ``'<\>\`@$`` |
 
-**Överordnat ämne:**[ Konfigurera filnamn](conf-file-names.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Konfigurera filnamn](conf-file-names.md)

@@ -57,4 +57,4 @@ Den här inställningen påverkar följande platser där du kan komma åt ämne-
 
 - Fliken Rapporter i DITA-kartkonsolen
 
-**Överordnat ämne:**[ Anpassa Web Editor](customize-overview.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Anpassa Web Editor](customize-overview.md)

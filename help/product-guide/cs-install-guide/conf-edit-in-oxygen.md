@@ -29,4 +29,4 @@ Använd instruktionerna i [Konfigurationsåsidosättningar](download-install-add
 >
 > Den här konfigurationen är inaktiverad som standard och alternativet är inte tillgängligt i Web Editor.
 
-**Överordnat ämne:**[ Anpassa Web Editor](conf-web-editor.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Anpassa Web Editor](conf-web-editor.md)

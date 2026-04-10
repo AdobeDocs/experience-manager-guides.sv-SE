@@ -73,11 +73,11 @@ Följande flikar innehåller anvisningar om hur du konfigurerar textfiltren base
 
       I ovanstående kodfragment är det första filtret för DITA-filer. Filterdefinitionen har följande parametrar:
 
-      ****Titel****: Filtrets visningsnamn. Titeln visas som filtreringsalternativ i dialogrutan för filbläddring.
+      **&#x200B;**&#x200B;Titel&#x200B;**&#x200B;**: Filtrets visningsnamn. Titeln visas som filtreringsalternativ i dialogrutan för filbläddring.
 
-      ****Egenskap****: Den egenskap som ska matchas i filens metadata. Om du till exempel bara vill tillåta de filer som har metadata för dita\_class i sin egenskap, använder egenskapsfiltret värdet&quot;jcr:content/metadata/dita\_class&quot;.
+      **&#x200B;**&#x200B;Egenskap&#x200B;**&#x200B;**: Den egenskap som ska matchas i filens metadata. Om du till exempel bara vill tillåta de filer som har metadata för dita\_class i sin egenskap, använder egenskapsfiltret värdet&quot;jcr:content/metadata/dita\_class&quot;.
 
-      ****Åtgärd **:**Ange &quot;finns&quot; för att matcha om värdet som anges i egenskapsparametern finns
+      **&#x200B;**&#x200B;Åtgärd **:**&#x200B;Ange &quot;finns&quot; för att matcha om värdet som anges i egenskapsparametern finns
 
 1. Överför den uppdaterade filen ui\_config.json som innehåller de tillagda filtren.
 
@@ -165,4 +165,4 @@ De konfigurerade filtren är tillgängliga på filterpanelen.
 
 >[!ENDTABS]
 
-**Överordnat ämne:**[ Anpassa Web Editor](customize-overview.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Anpassa Web Editor](customize-overview.md)

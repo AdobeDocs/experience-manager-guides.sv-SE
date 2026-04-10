@@ -19,4 +19,4 @@ Du kan börja med att distribuera Experience Manager Guides via Cloud Manager. O
 
 
 
-**Överordnat ämne:**[ Hämta och installera](download-install.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Hämta och installera](download-install.md)

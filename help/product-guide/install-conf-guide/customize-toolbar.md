@@ -58,13 +58,13 @@ På följande flikar finns instruktioner som baseras på din Experience Manager 
        &quot;type&quot;: &quot;blockGroup&quot;, 
        &quot;extraclass&quot;:
        &quot;toolbar operations&quot;, 
-       &quot;objekt&quot;: [
-}       {
+       &quot;objekt&quot;: &lbrack;
+&rbrace;       &lbrace;
        &quot;type&quot;: &quot;buttonGroup&quot;, 
        &quot;extraclass&quot;: &quot;left-controls&quot;, 
        &quot;label&quot;: &quot;Left Controls&quot;, 
-       &quot;objekt&quot;: [
-]       &quot;
+       &quot;objekt&quot;: &lbrack;
+&rbrack;       &quot;
    
    I samlingen `items` måste du ange definitionen för en eller flera verktygsfältsikoner.
 
@@ -132,7 +132,7 @@ På följande flikar finns instruktioner som baseras på din Experience Manager 
 
 1. I filen `ui_config.json` lägger du till definitionen för den nya funktionen i verktygsfältsavsnittet. Vanligtvis kan du skapa en ny verktygsfältsknappgrupp och lägga till en eller flera knappar i den. Du kan också lägga till en ny verktygsfältsknapp i en befintlig verktygsfältgrupp. Följande information krävs för att skapa en ny verktygsfältgrupp:
 
-   - **type:**Ange `blockGroup` som `type`-värde. Detta värde anger att du skapar en blockgrupp som skulle innehålla en eller flera verktygsfältsgrupper.
+   - **type:**&#x200B;Ange `blockGroup` som `type`-värde. Detta värde anger att du skapar en blockgrupp som skulle innehålla en eller flera verktygsfältsgrupper.
 
    - **extraclass:** Namnet på klassen eller klasserna avgränsade med blanksteg.
 

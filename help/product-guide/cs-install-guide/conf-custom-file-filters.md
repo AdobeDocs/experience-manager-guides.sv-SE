@@ -69,4 +69,4 @@ Gör så här för att lägga till egna filfiltreringsalternativ i dialogrutan f
    ![](assets/file-browse-custom-filters.png)
 
 
-**Överordnat ämne:**[ Anpassa Web Editor](conf-web-editor.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Anpassa Web Editor](conf-web-editor.md)

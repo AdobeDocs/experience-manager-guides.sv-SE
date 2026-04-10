@@ -48,4 +48,4 @@ Använd instruktionerna i [Konfigurationsåsidosättningar](download-install-con
 
 >[!ENDTABS]
 
-**Överordnat ämne:**[ Anpassa Web Editor](customize-overview.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Anpassa Web Editor](customize-overview.md)

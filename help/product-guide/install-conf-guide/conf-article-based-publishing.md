@@ -55,4 +55,4 @@ Om du vill aktivera artikelbaserad publicering hämtar och installerar du följa
 >[!ENDTABS]
 
 
-**Överordnat ämne:**[ Anpassa Web Editor](customize-overview.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Anpassa Web Editor](customize-overview.md)

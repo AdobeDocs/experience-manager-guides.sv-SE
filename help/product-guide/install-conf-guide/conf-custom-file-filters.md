@@ -126,4 +126,4 @@ Följande flikar innehåller anvisningar om hur du lägger till egna filfiltreri
 >[!ENDTABS]
 
 
-**Överordnat ämne:**[ Anpassa Web Editor](customize-overview.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Anpassa Web Editor](customize-overview.md)

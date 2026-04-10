@@ -99,4 +99,4 @@ Om den angivna platsen finns i DAM kopieras alla standardmallar för kartor och 
 >[!ENDTABS]
 
 
-**Överordnat ämne:**[ Konfigurera ämne- och mappningsmallar](conf-template-tags.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Konfigurera ämne- och mappningsmallar](conf-template-tags.md)

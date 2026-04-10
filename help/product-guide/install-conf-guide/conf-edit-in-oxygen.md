@@ -27,4 +27,4 @@ Använd instruktionerna i [Konfigurationsåsidosättningar](download-install-con
 >
 > Den här konfigurationen är inaktiverad som standard och alternativet är inte tillgängligt i Web Editor.
 
-**Överordnat ämne:**[ Anpassa Web Editor](customize-overview.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Anpassa Web Editor](customize-overview.md)

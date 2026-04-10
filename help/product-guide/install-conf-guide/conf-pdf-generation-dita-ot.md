@@ -58,4 +58,4 @@ Så här aktiverar du den gamla PDF-generationen via DITA-OT i läget för ämne
 
 När du har utfört stegen ovan och väljer samma mappprofil i Användarinställningar i Web Editor, visas alternativet för PDF-generering i förhandsgranskningsläget för ett ämne.
 
-**Överordnat ämne:**[ Anpassa Web Editor](customize-overview.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Anpassa Web Editor](customize-overview.md)

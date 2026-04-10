@@ -129,7 +129,7 @@ eller
 
 1. Klicka på **Spara**
 1. Markera **migreringsuppsättningen** och välj sedan **Extrahera** överst.
-   ![extrahering av migreringsuppsättning ](./assets/migration-extract.png)
+   ![extrahering av migreringsuppsättning &#x200B;](./assets/migration-extract.png)
 
 1. Kontrollera informationen i popup-fönstret **Extrahering av migreringsuppsättning** för de sökvägar och konfigurationer du har valt och klicka på **Extrahera**. Extraheringen tar några minuter och du ser statusen som uppdaterad.
    ![extrahering av migreringsuppsättning](./assets/migration-set-extraction.png)

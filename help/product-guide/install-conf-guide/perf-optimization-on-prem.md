@@ -50,7 +50,7 @@ Parametrarna för JVM-start bör justeras noggrant baserat på infrastrukturen o
 
 - Ställ in JVM-stackstorleken på minst 1/4 av det totala tillgängliga minnet. Använd parametern `-Xmx<size>` för att ange heap-minnesstorleken. Ange värdet för -`Xms` är lika med `-Xmx`.
 
-- Aktivera `-XX:+HeapDumpOnOutOfMemoryError` och ange sökvägen för `-XX:HeapDumpPath=</path/to/folder``>`.
+- Aktivera `-XX:+HeapDumpOnOutOfMemoryError` och ange sökvägen för `-XX:HeapDumpPath=</path/to/folder` `>`.
 
 - Aktivera Java GC-logg som:
 

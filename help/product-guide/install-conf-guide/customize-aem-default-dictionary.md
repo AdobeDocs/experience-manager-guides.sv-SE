@@ -61,4 +61,4 @@ Författare måste starta om sin Web Editor-session för att den anpassade ordli
 
 >[!ENDTABS]
 
-**Överordnat ämne:**[ Anpassa Web Editor](customize-overview.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Anpassa Web Editor](customize-overview.md)

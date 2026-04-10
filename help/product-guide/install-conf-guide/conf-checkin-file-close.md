@@ -58,4 +58,4 @@ Mer information finns i avsnittet *Stäng och spara scenarier* i guiden Använda
 
 >[!ENDTABS]
 
-**Överordnat ämne:**[ Anpassa Web Editor](customize-overview.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Anpassa Web Editor](customize-overview.md)
