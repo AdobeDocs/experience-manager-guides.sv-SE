@@ -43,7 +43,7 @@ Du kan hämta **innehållsöverföringsverktyget** som en ZIP-fil från **progra
 
 ![ladda ned innehållsöverföringsverktyg](./assets/content-transfer-tool-software-portal.png)
 Installera sedan paketet via **Package Manager** på Adobe Experience Manager-källinstansen. Glöm inte att hämta den senaste versionen.
-Mer information om den senaste versionen finns i [Versionsinformation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current.html?lang=en).
+Mer information om den senaste versionen finns i [Versionsinformation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current.html?lang=sv-SE).
 
 >[!NOTE]
 > 

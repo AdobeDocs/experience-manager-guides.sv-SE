@@ -272,7 +272,7 @@ Följande flikar innehåller anvisningar om hur du exkluderar den tillfälliga �
 
 >[!NOTE]
 >
-> Du kan lägga till andra mapplatser i exkluderingslistan med den här proceduren. Mer information om hur du arbetar med index finns i [Innehållssökning och indexering](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/indexing.html).
+> Du kan lägga till andra mapplatser i exkluderingslistan med den här proceduren. Mer information om hur du arbetar med index finns i [Innehållssökning och indexering](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/indexing.html?lang=sv-SE).
 
 1. Lägg till följande egenskap i det anpassade index för damAssetLucene:
 

@@ -160,7 +160,7 @@ Skapa följande indexdefinition i ditt projekt på:
 
 ## Distributionssteg
 
-Detaljerade anvisningar om hur du distribuerar anpassade index till AEM as a Cloud Service finns i [Innehållssökning och indexering - AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/indexing).
+Detaljerade anvisningar om hur du distribuerar anpassade index till AEM as a Cloud Service finns i [Innehållssökning och indexering - AEM as a Cloud Service](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/operations/indexing).
 
 ### Viktiga punkter för detta index
 
@@ -208,7 +208,7 @@ Den primära verifieringen är att testa funktionen:
 
 ## Ytterligare resurser
 
-- [AEM as a Cloud Service indexeringsdokumentation](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/indexing)
+- [AEM as a Cloud Service indexeringsdokumentation](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/operations/indexing)
 - [Indexeringshandbok för Apache Jackrabbit Oak](https://jackrabbit.apache.org/oak/docs/query/indexing.html)
-- [AEM Guides-dokumentation](https://experienceleague.adobe.com/en/docs/experience-manager-guides)
+- [AEM Guides-dokumentation](https://experienceleague.adobe.com/sv/docs/experience-manager-guides)
 - [Dokumentation om Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager)

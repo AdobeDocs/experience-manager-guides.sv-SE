@@ -45,7 +45,7 @@ Mer information finns i följande procedurer:
 
 >[!IMPORTANT]
 >
-> Om du för närvarande använder AEM 6.5 och tänker gå över till AEM 6.5 LTS måste du först slutföra uppgraderingen av AEM innan du fortsätter med uppgraderingen av Experience Manager Guides 5.1.0. Mer information finns i [Uppgradera till Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
+> Om du för närvarande använder AEM 6.5 och tänker gå över till AEM 6.5 LTS måste du först slutföra uppgraderingen av AEM innan du fortsätter med uppgraderingen av Experience Manager Guides 5.1.0. Mer information finns i [Uppgradera till Adobe Experience Manager (AEM) 6.5 LTS](https://experienceleague.adobe.com/sv/docs/experience-manager-65-lts/content/implementing/deploying/upgrading/upgrade).
 
 **Förutsättningar**
 
@@ -249,7 +249,7 @@ Under den här uppgraderingen måste du, eftersom värdet `'order'` ändras frå
 
 ### Steg för att indexera om damAssetLucene
 
-Indexdefinitionen uppdateras för damAssetLucene med AEM Guides. När du har uppgraderat till den version som krävs kan du läsa [den här artikeln](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16460) för att indexera om damAssetLucene.
+Indexdefinitionen uppdateras för damAssetLucene med AEM Guides. När du har uppgraderat till den version som krävs kan du läsa [den här artikeln](https://experienceleague.adobe.com/sv/docs/experience-cloud-kcs/kbarticles/ka-16460) för att indexera om damAssetLucene.
 
 >[!NOTE]
 >

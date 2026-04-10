@@ -175,4 +175,4 @@ Du kan visa ett fel om det finns en koppling med samma namn.
 
 När du har konfigurerat datakällan visas kopplingen under panelen **Datakällor** i webbredigeraren. Sedan kan du ansluta till datakällan och infoga ett innehållskuvert i dina ämnen. Mer information finns i [Infoga ett innehållsfragment från datakällan](../user-guide/web-editor-content-snippet.md).
 
-För lokal installation kan du även skapa anpassade kopplingar och använda dem med olika datakällor. Lär dig hur du [konfigurerar anpassade anslutningar](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/kb-articles/external-data-source/conf-custom-data-source-connector).
+För lokal installation kan du även skapa anpassade kopplingar och använda dem med olika datakällor. Lär dig hur du [konfigurerar anpassade anslutningar](https://experienceleague.adobe.com/sv/docs/experience-manager-guides/using/knowledge-base/kb-articles/external-data-source/conf-custom-data-source-connector).

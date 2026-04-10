@@ -17,7 +17,7 @@ Om du tänker använda en Dispatcher på AEM Author-instans tillsammans med AEM 
 
 >[!NOTE]
 >
-> Dispatcher är Adobe Experience Managers verktyg för cachelagring och/eller belastningsutjämning. Mer information om hur du använder Dispatcher finns i [Dispatcher Overview](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/dispatcher.html?lang=en).
+> Dispatcher är Adobe Experience Managers verktyg för cachelagring och/eller belastningsutjämning. Mer information om hur du använder Dispatcher finns i [Dispatcher Overview](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/dispatcher.html?lang=sv-SE).
 
 ## Aktivera AllowEncodedSlashes i URL:er
 

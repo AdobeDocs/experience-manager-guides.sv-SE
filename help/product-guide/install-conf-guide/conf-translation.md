@@ -26,32 +26,32 @@ Följande flikar innehåller anvisningar för översättning av innehåll basera
 
 >[!TAB Cloud Service]
 
-1. Anslut AEM till din [översättningstjänstleverantör](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en) och skapa konfigurationer för ramverk för översättningsintegrering.
+1. Anslut AEM till din [översättningstjänstleverantör](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=sv-SE) och skapa konfigurationer för ramverk för översättningsintegrering.
 
 1. Koppla sidorna i din språkinställning till översättningstjänsten och ramverkskonfigurationerna.
 
-1. Identifiera typen av [innehåll som ska översättas](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/rules.html?lang=en).
+1. Identifiera typen av [innehåll som ska översättas](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/rules.html?lang=sv-SE).
 
-1. [Förbered innehållet för översättning](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/preparation.html?lang=en) genom att skapa språkinställningen och skapa rotsidorna för språkkopior.
+1. [Förbered innehållet för översättning](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/preparation.html?lang=sv-SE) genom att skapa språkinställningen och skapa rotsidorna för språkkopior.
 
-1. Skapa [översättningsprojekt](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=en) om du vill samla in innehållet som ska översättas och förbereda översättningsprocessen.
+1. Skapa [översättningsprojekt](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=sv-SE) om du vill samla in innehållet som ska översättas och förbereda översättningsprocessen.
 
-1. Använd översättningsprojekten för att [hantera innehållsöversättningsprocessen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=en).
+1. Använd översättningsprojekten för att [hantera innehållsöversättningsprocessen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/managing-projects.html?lang=sv-SE).
 
 
 >[!TAB Lokal]
 
-1. Anslut AEM till din [översättningstjänstleverantör](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConnectingtoaTranslationServiceProvider) och skapa [konfigurationer för översättningsintegreringsramverk](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#CreatingaTranslationIntegrationConfiguration).
+1. Anslut AEM till din [översättningstjänstleverantör](https://helpx.adobe.com/se/experience-manager/6-5/sites/administering/using/tc-tic.html#ConnectingtoaTranslationServiceProvider) och skapa [konfigurationer för översättningsintegreringsramverk](https://helpx.adobe.com/se/experience-manager/6-5/sites/administering/using/tc-tic.html#CreatingaTranslationIntegrationConfiguration).
 
-1. Associera sidorna i din språkinställning med [översättningstjänsten och ramverkskonfigurationerna](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation).
+1. Associera sidorna i din språkinställning med [översättningstjänsten och ramverkskonfigurationerna](https://helpx.adobe.com/se/experience-manager/6-5/sites/administering/using/tc-tic.html#ConfiguringPagesforTranslation).
 
-1. Identifiera typen av [innehåll som ska översättas](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-rules.html).
+1. Identifiera typen av [innehåll som ska översättas](https://helpx.adobe.com/se/experience-manager/6-5/sites/administering/using/tc-rules.html).
 
-1. [Förbered innehållet för översättning](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-prep.html) genom att skapa språkinställningen och skapa rotsidorna för språkkopior.
+1. [Förbered innehållet för översättning](https://helpx.adobe.com/se/experience-manager/6-5/sites/administering/using/tc-prep.html) genom att skapa språkinställningen och skapa rotsidorna för språkkopior.
 
-1. Skapa [översättningsprojekt](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-manage.html) om du vill samla in innehållet som ska översättas och förbereda översättningsprocessen.
+1. Skapa [översättningsprojekt](https://helpx.adobe.com/se/experience-manager/6-5/sites/administering/using/tc-manage.html) om du vill samla in innehållet som ska översättas och förbereda översättningsprocessen.
 
-1. Använd översättningsprojekten för att [hantera innehållsöversättningsprocessen](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-manage.html).
+1. Använd översättningsprojekten för att [hantera innehållsöversättningsprocessen](https://helpx.adobe.com/se/experience-manager/6-5/sites/administering/using/tc-manage.html).
 
 >[!ENDTABS]
 
@@ -143,7 +143,7 @@ Baserat på det översättningsarbetsflöde som används i konfigurationen bör 
 
    >[!NOTE]
    >
-   > Om du använder översättningskoppling kontrollerar du att du har konfigurerat kopplingen enligt beskrivningen i avsnittet *[Konfigurera översättningsintegreringsramverket](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-tic.html)* i AEM-dokumentationen.
+   > Om du använder översättningskoppling kontrollerar du att du har konfigurerat kopplingen enligt beskrivningen i avsnittet *[Konfigurera översättningsintegreringsramverket](https://helpx.adobe.com/se/experience-manager/6-5/sites/administering/using/tc-tic.html)* i AEM-dokumentationen.
 
 1. Klicka på **Spara**.
 
@@ -176,7 +176,7 @@ Använd instruktionerna i [Konfigurationsåsidosättningar](download-install-con
 
 >[!NOTE]
 >
-> Om du använder översättningskoppling kontrollerar du att du har konfigurerat kopplingen enligt beskrivningen i avsnittet *[Konfigurera översättningsintegreringsramverket](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en)* i Adobe Experience Manager-dokumentationen.
+> Om du använder översättningskoppling kontrollerar du att du har konfigurerat kopplingen enligt beskrivningen i avsnittet *[Konfigurera översättningsintegreringsramverket](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=sv-SE)* i Adobe Experience Manager-dokumentationen.
 
 >[!IMPORTANT]
 >

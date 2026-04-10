@@ -178,4 +178,4 @@ Installera **komponentpaketet (guides-components.all-1.x.zip)** och utför följ
 
 >[!NOTE]
 >
-> Vid installation av Cloud Service ska du se till att alla konfigurationer testas i en icke-produktionsmiljö innan de distribueras till produktionen. <br><br> Mer information finns i den officiella [Distribuera till AEM as a Cloud Service-dokumentationen](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview).
+> Vid installation av Cloud Service ska du se till att alla konfigurationer testas i en icke-produktionsmiljö innan de distribueras till produktionen. <br><br> Mer information finns i den officiella [Distribuera till AEM as a Cloud Service-dokumentationen](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/implementing/deploying/overview).
