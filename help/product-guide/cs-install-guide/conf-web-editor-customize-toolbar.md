@@ -5,7 +5,8 @@ exl-id: ba82af48-9357-4f29-90ce-6793366ab432
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '989'
 ht-degree: 0%
@@ -18,7 +19,7 @@ Som standard levereras webbredigeraren med de vanligaste redigeringsfunktionerna
 
 >[!NOTE]
 >
-> När du migrerar från det gamla användargränssnittet till det nya användargränssnittet i AEM Guides (som gäller från version 2502 och version 5.0 av AEM Guides) måste uppdateringarna av `ui_config` konverteras till mer flexibla och modulära användargränssnittskonfigurationer. Det här ramverket gör det enklare att implementera ändringar i editor_toolbar och andra målwidgetar efter behov. Mer information finns i [Översikt över konfigurationen för konvertering av användargränssnitt](https://experienceleague.adobe.com/sv/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
+> När du migrerar från det gamla användargränssnittet till det nya användargränssnittet i AEM Guides (som gäller från version 2502 och version 5.0 av AEM Guides) måste uppdateringarna av `ui_config` konverteras till mer flexibla och modulära användargränssnittskonfigurationer. Det här ramverket gör det enklare att implementera ändringar i editor_toolbar och andra målwidgetar efter behov. Mer information finns i [Översikt över konfigurationen för konvertering av användargränssnitt](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
 
 Det finns två sätt att anpassa Web Editors verktygsfält:
 
@@ -144,4 +145,4 @@ Så här tar du bort oönskade funktioner från verktygsfältet:
 1. Spara filen *ui\_config.json* och läs in webbredigeraren igen.
 
 
-**Överordnat ämne:**&#x200B;[&#x200B; Anpassa Web Editor](conf-web-editor.md)
+**Överordnat ämne:**[ Anpassa Web Editor](conf-web-editor.md)

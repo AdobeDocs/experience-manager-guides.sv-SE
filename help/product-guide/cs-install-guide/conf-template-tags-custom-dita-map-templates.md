@@ -5,7 +5,8 @@ exl-id: a0eeb43c-06e4-4922-a005-704e8929063f
 feature: Template Configuration
 role: Admin
 level: Experienced
-source-git-commit: 83971ee35a19cf0146ddd034b1ae7a345f587663
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 0%
@@ -49,7 +50,7 @@ Följ de här stegen för att lägga till egna mappningsmallar:
    Du kan välja att öppna mallen för redigering i kartredigeraren eller spara mallfilen på malllagringsplatsen. När mallen har skapats kan du använda kartredigeraren för att anpassa mallen efter dina behov. När du har skapat en mall måste du associera den med en global profil eller en profil på mappnivå.
 
 
-Nästa gång du skapar en ny karta visas mallen på sidan Design. Mer information om hur du skapar en DITA-karta finns i as a Cloud Service om att använda Adobe Experience Manager Guides.
+Nästa gång du skapar en ny karta visas mallen på sidan Design. Mer information om hur du skapar en DITA-karta finns i handboken Använda Adobe Experience Manager Guides as a Cloud Service.
 
 >[!TIP]
 >

@@ -5,7 +5,8 @@ exl-id: 2a0ac0a0-b2a9-453e-851b-fb04c8903526
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 1eb4fcb33d6f905df3f543232e7040d1da42560b
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '539'
 ht-degree: 0%
@@ -28,7 +29,7 @@ Så här konfigurerar du en koppling:
 
    *Visa eller skapa en datakällkoppling.*
 1. Klicka på **Skapa**.
-1. Välj den databas som du vill skapa kopplingen för. Exempel: Elasticsearch-kopplingen.
+1. Välj den databas som du vill skapa kopplingen för. Exempel: Elasticsearch Connector.
    >[!NOTE]
    >
    >Alla tillgängliga färdiga databaser visas.
@@ -38,7 +39,7 @@ Så här konfigurerar du en koppling:
 
    >[!TIP]
    >* Hovring <img src="./assets/info-details.svg" alt= "informationsikon" width="25"> nära fältet om du vill visa mer information om det.
-   > * Fält med * är obligatoriska. Du kan till exempel ange följande information för Elasticsearch-kopplingen.
+   > * Fält med * är obligatoriska. Du kan till exempel ange följande information för Elasticsearch-anslutningen.
 
    * **Namn**: Ange namnet på datakällan.
    * Autentiseringstyp: Välj autentiseringstyp i listrutan. Grundläggande autentisering av användarnamn och lösenord

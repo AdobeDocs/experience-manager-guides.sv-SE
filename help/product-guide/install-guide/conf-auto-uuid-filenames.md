@@ -5,7 +5,8 @@ exl-id: 2a599228-6d46-494f-a57a-96c3f30e073a
 feature: Filename Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 0%
@@ -37,4 +38,4 @@ Utför följande steg för att automatiskt tilldela det UUID-baserade filnamnet 
 >
 > Som standard är det här alternativet inaktiverat. När det här alternativet är aktiverat kan författare inte ange filnamnet när de skapar ett nytt ämne eller en ny mappningsfil. Du kan skapa ett nytt ämne eller en ny mappfil från Assets-gränssnittet och webbredigeraren.
 
-**Överordnat ämne:**&#x200B;[&#x200B; Konfigurera filnamn](conf-file-names.md)
+**Överordnat ämne:**[ Konfigurera filnamn](conf-file-names.md)

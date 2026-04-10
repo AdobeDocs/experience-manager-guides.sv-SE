@@ -5,7 +5,8 @@ exl-id: 1269a652-5261-413d-9ea0-b4f75003e9d8
 feature: User Management
 role: Admin
 level: Experienced
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 0%
@@ -18,13 +19,13 @@ Om du vill komma åt och konfigurera funktioner i AEM Guides måste du skapa anv
 
 Följande avsnitt i AEM-dokumentationen hjälper dig att förstå användaradministration och säkerhetsrelaterade koncept och funktioner:
 
-- [Användare och grupper i AEM](https://helpx.adobe.com/se/experience-manager/6-5/sites/administering/using/security.html#UsersandGroupsinAEM)
+- [Användare och grupper i AEM](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#UsersandGroupsinAEM)
 
-- [Behörigheter i AEM](https://helpx.adobe.com/se/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM)
+- [Behörigheter i AEM](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM)
 
-- [Hantera användare och grupper](https://helpx.adobe.com/se/experience-manager/6-5/sites/administering/using/security.html#ManagingUsersandGroups)
+- [Hantera användare och grupper](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#ManagingUsersandGroups)
 
-- [Hantera behörigheter](https://helpx.adobe.com/se/experience-manager/6-5/sites/administering/using/security.html#ManagingPermissions)
+- [Hantera behörigheter](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#ManagingPermissions)
 
 
 ## Användargrupper skapade av AEM Guides {#id181TF0K0MHT}

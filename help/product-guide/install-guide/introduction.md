@@ -5,7 +5,8 @@ exl-id: 90d5ad94-eb68-4d73-9b23-a1f3d4b802ba
 feature: Introduction
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '580'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 # Om den här guiden {#id175MC0P0S5Z}
 
-Adobe Experience Manager Guides \(kallas senare *AEM Guides*\) är en kraftfull innehållshanteringslösning på enterprisenivå \(CCMS\). Det möjliggör inbyggt DITA-stöd i Adobe Experience Manager, vilket gör det möjligt för AEM att hantera DITA-baserad framtagning och leverans av innehåll. Man kan skapa material med hjälp av valfritt DITA-verktyg, t.ex. Adobe FrameMaker eller en lättanvänd webbredigerare.
+Adobe Experience Manager Guides \(kallas senare *AEM Guides*\) är en kraftfull innehållshanteringslösning på enterprisenivå \(CCMS\). Det möjliggör inbyggt DITA-stöd i Adobe Experience Manager och ger AEM möjlighet att hantera DITA-baserad framtagning och leverans av innehåll. Man kan skapa material med hjälp av valfritt DITA-verktyg, t.ex. Adobe FrameMaker eller en lättanvänd webbredigerare.
 
 Den här guiden innehåller anvisningar om hur du hämtar, installerar och konfigurerar AEM Guides. I den här guiden hittar du detaljerade anvisningar för hur du konfigurerar AEM Guides utifrån ditt företags skribent- och publiceringsbehov.
 
@@ -33,13 +34,13 @@ Informationen i den här handboken är ordnad enligt följande:
 
 - [Hämta och installera](download-install.md#): I det här avsnittet beskrivs hur du hämtar, installerar eller uppgraderar AEM Guides.
 
-- [Användaradministration och -säkerhet](user-admin-sec.md#): I det här avsnittet beskrivs grundkonceptet för användare och autentisering i AEM och standardanvändargrupper som skapats av AEM Guides.
+- [Användaradministration och -säkerhet](user-admin-sec.md#): Det här avsnittet beskriver grundkonceptet för användare och autentisering i AEM och de standardanvändargrupper som skapas av AEM Guides.
 
 - [Använd anpassad DITA-OT- och DITA-specialisering](dita-ot-specialization.md#): I det här avsnittet beskrivs hur du konfigurerar anpassade DITA-OT-plugin-program och använder DITA-specialisering.
 
 - [Konfigurera dokumenttillstånd](customize-doc-state.md#): I det här avsnittet beskrivs hur du konfigurerar anpassade lägen för DITA-dokument.
 
-- [Migrera befintligt innehåll](migrate-content.md#): I det här avsnittet beskrivs hur du infogar befintligt innehåll i AEM.
+- [Migrera befintligt innehåll](migrate-content.md#): I det här avsnittet beskrivs hur du infogar befintligt innehåll i AEM-databasen.
 
 - [Konfigurera filnamn](conf-file-names.md#): I det här avsnittet beskrivs hur du konfigurerar inställningar för att automatiskt tilldela filnamn och definiera regex för giltiga filnamnstecken.
 
@@ -61,16 +62,16 @@ Informationen i den här handboken är ordnad enligt följande:
 
 - [Konfigurera och anpassa arbetsflöden](customize-workflows.md#): I det här avsnittet beskrivs de olika konfigurationerna för att anpassa standardarbetsflödena som levereras i AEM Guides.
 
-- [Översätt innehåll](translation.md#): I det här avsnittet finns länkar till relevanta hjälpartiklar i AEM för att du ska kunna förstå och konfigurera översättningsramverket. Lär dig även hur du aktiverar komponentbaserade arbetsflöden för översättning.
+- [Översätt innehåll](translation.md#): Det här avsnittet innehåller länkar till relevanta hjälpartiklar i AEM-dokumentationen som hjälper dig att förstå och konfigurera översättningsramverket. Lär dig även hur du aktiverar komponentbaserade arbetsflöden för översättning.
 
 - [Konfigurera sökning efter AEM Assets-användargränssnitt](conf-dita-search.md#): I det här avsnittet beskrivs hur du konfigurerar DITA-innehållssökning i Assets-användargränssnittet och lägger till anpassade attribut i sökningen.
 
 
 ## Ytterligare resurser
 
-Nedan följer en lista över andra användbara resurser i AEM Guides som finns på sidan [Lär dig mer och support](https://helpx.adobe.com/se/support/xml-documentation-for-experience-manager.html):
+Nedan följer en lista över andra användbara resurser i AEM Guides som finns på sidan [Lär dig mer och support](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html):
 
 - Användarhandbok
 - Referenshandbok för API
 - Snabbstartsguide
-- [Hjälparkivsida](https://helpx.adobe.com/se/xml-documentation-for-experience-manager/archive.html) \(använd äldre versionsdokumentation\)
+- [Hjälparkivsida](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) \(använd äldre versionsdokumentation\)

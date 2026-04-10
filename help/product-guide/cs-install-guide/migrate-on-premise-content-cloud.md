@@ -1,22 +1,24 @@
 ---
-title: Migrera innehåll från lokalt till Cloud Service
-description: Lär dig hur du migrerar innehåll från lokal programvara till Cloud Service
+title: Migrera innehåll från lokala tjänster till molntjänster
+description: Lär dig hur du migrerar innehåll från lokal programvara till molntjänster
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 645d9983b66c740444f24e2283806b5ec4a4ee79
+exl-id: da3a6f83-b21a-4b19-8b54-ee96f11e7c09
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '1000'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Migrera innehåll från lokal till Cloud Service
+# Migrera innehåll från lokalt till Cloud Service
 
-Experience Manager as a Cloud Service utgör en skalbar, säker och flexibel teknikgrund för Experience Manager Guides, Assets, Forms och Screens. På så sätt kan marknadsförare och IT-personal fokusera på att leverera slagkraftiga upplevelser i stor skala.
+Experience Manager as a Cloud Service är en skalbar, säker och flexibel teknikgrund för Experience Manager Guides, Assets, Forms och Screens. På så sätt kan marknadsförare och IT-personal fokusera på att leverera slagkraftiga upplevelser i stor skala.
 Med Experience Manager as a Cloud Service kan era team fokusera på innovationer istället för att planera för produktuppgraderingar. De nya funktionerna testas grundligt och skickas till era team utan avbrott så att de alltid har tillgång till den senaste versionen av Adobe Experience Manager.
 
-I den här artikeln beskrivs hur du migrerar lokalt eller Managed Services Experience Manager Guides-innehåll till Cloud Service steg för steg, vilket ger en smidig övergång till den molnbaserade plattformen.
+I den här artikeln beskrivs en detaljerad, stegvis process för migrering av ditt lokalt eller Managed Services Experience Manager Guides-innehåll till molntjänster, vilket ger en smidig övergång till den molnbaserade plattformen.
 
 ## Krav
 
@@ -30,7 +32,7 @@ I den här artikeln beskrivs hur du migrerar lokalt eller Managed Services Exper
 
 ## Migreringsprocess
 
-**Verktyget Innehållsöverföring** är ett verktyg som utvecklats av Adobe och som du kan använda för att initiera migreringen av befintligt innehåll från en Adobe Experience Manager On-Local-källinstans eller Managed Services-Experience Manager Cloud Service till målinstansen.
+**Verktyget Innehållsöverföring** är ett verktyg som utvecklats av Adobe och som du kan använda för att initiera migreringen av befintligt innehåll från en Adobe Experience Manager On-Local-källinstans eller Managed Services-instans till Experience Manager Cloud Service-målinstansen.
 Med det här verktyget överförs även huvudkonton (användare eller grupper) automatiskt.
 
 Du kan hämta **innehållsöverföringsverktyget** som en ZIP-fil från **programdistributionsportalen**:
@@ -41,7 +43,7 @@ Du kan hämta **innehållsöverföringsverktyget** som en ZIP-fil från **progra
 
 ![ladda ned innehållsöverföringsverktyg](./assets/content-transfer-tool-software-portal.png)
 Installera sedan paketet via **Package Manager** på Adobe Experience Manager-källinstansen. Glöm inte att hämta den senaste versionen.
-Mer information om den senaste versionen finns i [Versionsinformation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current.html?lang=sv-SE).
+Mer information om den senaste versionen finns i [Versionsinformation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current.html?lang=en).
 
 >[!NOTE]
 > 
@@ -88,7 +90,7 @@ Utför följande steg för att migrera Experience Manager Guides-innehåll till 
    ![programdistributionsportal](./assets/migration-software-portal.png)
 
 
-1. På portalen **Programvarudistribution** väljer du **Adobe Experience Manager som Cloud Service**-flik, söker efter&quot;innehållsöverföringsverktyg&quot; och hämtar verktygspaketet för innehållsöverföring.
+1. På portalen **Programvarudistribution** väljer du **Adobe Experience Manager som fliken Cloud Service**, söker efter&quot;innehållsöverföringsverktyg&quot; och hämtar verktygspaketet för innehållsöverföring.
 
    >[!NOTE]
    >
@@ -129,7 +131,7 @@ eller
 
 1. Klicka på **Spara**
 1. Markera **migreringsuppsättningen** och välj sedan **Extrahera** överst.
-   ![extrahering av migreringsuppsättning &#x200B;](./assets/migration-extract.png)
+   ![extrahering av migreringsuppsättning ](./assets/migration-extract.png)
 
 1. Kontrollera informationen i popup-fönstret **Extrahering av migreringsuppsättning** för de sökvägar och konfigurationer du har valt och klicka på **Extrahera**. Extraheringen tar några minuter och du ser statusen som uppdaterad.
    ![extrahering av migreringsuppsättning](./assets/migration-set-extraction.png)
@@ -150,24 +152,24 @@ Om du vill ha mer information markerar du de tre punkterna och väljer sedan **V
 
    ![nytt förtäring](./assets/migration-new-ingestion.png)
 
-## Kör innehållsöverföringsverktyg på en Publish-instans
+## Kör innehållsöverföringsverktyg på en publiceringsinstans
 
-Installera verktyget Innehållsöverföring på Publish-källinstansen för att flytta innehåll till Publish-målinstansen.
-Verktyget Innehållsöverföring skiljer inte mellan publicerat och opublicerat innehåll när innehåll importeras till en Publish-miljö. Innehållet som anges i migreringsuppsättningen kapslas in i den valda målinstansen. Användaren kan importera en migreringsuppsättning till en Author-instans, Publish-instans eller båda.
+Installera verktyget Innehållsöverföring på källpubliceringsinstansen för att flytta innehåll till målpubliceringsinstansen.
+Verktyget Innehållsöverföring skiljer inte mellan publicerat och opublicerat innehåll när innehåll hämtas till en publiceringsmiljö. Innehållet som anges i migreringsuppsättningen kapslas in i den valda målinstansen. Användaren kan importera en migreringsuppsättning till en Author-instans, en Publish-instans eller båda.
 
 ### Rekommenderat tillvägagångssätt
 
 Tänk på följande rekommendationer:
 
 * Använd samma version av **innehållsöverföringsverktyget** som användes på författarinstansen.
-* Under importen till Publish skalas inte Publish-nivån ned (till skillnad från författaren).
-* Migrera endast en Publish-nod. Innan du påbörjar extraheringen ska du ta bort den från belastningsutjämnaren.
+* Publiceringsskiktet skalas inte ned vid inmatning till publicering (till skillnad från författaren).
+* Migrera endast en publiceringsnod. Innan du påbörjar extraheringen ska du ta bort den från belastningsutjämnaren.
 
 >[!NOTE]
 >
-> Som en försiktighetsåtgärd bör du se till att inga skrivåtgärder utförs på Publish-instanser, inklusive användarinitierade åtgärder som:
+> Som en försiktighetsåtgärd bör du se till att inga skrivåtgärder utförs på publiceringsinstanserna, inklusive användarinitierade åtgärder som:
 > * Innehållsdistribution från AEM as a Cloud Service Author till Publish i den miljön
-> * Användarsynkronisering mellan Publish-instanser
+> * Användarsynkronisering mellan publiceringsinstanser
 
 
 ## Felsökning
@@ -185,7 +187,3 @@ Om extraheringen misslyckas på grund av följande fel kan du lösa problemet ge
 
 
 *Aktivera SSL-loggning.*
-
-
-
-

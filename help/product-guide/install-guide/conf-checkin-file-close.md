@@ -5,7 +5,8 @@ exl-id: d184c97f-8405-4bcd-963d-635f17584897
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 0%
@@ -35,6 +36,6 @@ Kryssrutan **Lås upp filen** är inte aktiverad som standard och du måste akti
 
 När den här konfigurationen är aktiverad är kryssrutan **Lås upp filen** markerad som standard i dialogrutan.
 
-Mer information finns i avsnittet *Stäng och spara scenarier* i Använda Adobe Experience Manager Guides as a Cloud Service Guide.
+Mer information finns i avsnittet *Stäng och spara scenarier* i guiden Använda Adobe Experience Manager Guides as a Cloud Service.
 
-**Överordnat ämne:**&#x200B;[&#x200B; Anpassa Web Editor](conf-web-editor.md)
+**Överordnat ämne:**[ Anpassa Web Editor](conf-web-editor.md)

@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Läs produktdokumentationen för Adobe Experience Manager Guides.
 breadcrumb-title: Dokumentation om AEM Guides
-source-git-commit: 22ea3fe3ccb974fe3795299f7815e7aae78d41e7
+source-git-commit: 7b9efe58b04b6b4bf5b9c3eb9772aa88a3aa7bfd
 workflow-type: tm+mt
-source-wordcount: '2584'
+source-wordcount: '3232'
 ht-degree: 2%
 
 ---
@@ -188,13 +188,13 @@ ht-degree: 2%
                - [4.2.1 Versionsinformation](./release-info/release-notes-4-2-1.md)
                - [4.2 Versionsinformation](./release-info/release-notes-4-2.md)
          - [4.1.x Versionsinformation](./release-info/release-notes-4-1.md)
-         - [Versionsinformation för 4.0.x](https://helpx.adobe.com/se/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [3.8.x Versionsinformation](https://helpx.adobe.com/se/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [Versionsinformation för 4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [3.8.x Versionsinformation](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Användarhandbok (nytt användargränssnitt) {#user-guide}
    - Introduktion {#about-aemg}
       - [Om [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - [!DNL AEM Guides] funktioner och nyckelfunktioner {#aemg-works-features}
-         - [Så här fungerar [!DNL AEM Guides] &#x200B;](./user-guide/intro-how-dxml-works.md)
+         - [Så här fungerar [!DNL AEM Guides] ](./user-guide/intro-how-dxml-works.md)
          - [Viktiga [!DNL AEM Guides] funktioner](./user-guide/intro-dxml-features.md)
    - Startsida {#home-page}
       - [[!DNL AEM Guides] - startsida](./user-guide/intro-home-page.md)
@@ -396,7 +396,7 @@ ht-degree: 2%
       - Felsökning {#troubleshooting}
          - [Tidsgräns för session](./user-guide/session-timeout-prompt.md)
 - Användarhandbok (gammalt användargränssnitt) {#user-guide-old-ui}
-   - [AEM Guides - översikt](https://experienceleague.adobe.com/sv/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [AEM Guides - översikt](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installation och konfiguration {#install-guide}
    - Lokalt {#on-prem-ig}
       - [Grunderna på plats](./install-guide/introduction.md)
@@ -584,13 +584,135 @@ ht-degree: 2%
          - [Konfigurera sökning i AEM Assets UI](./cs-install-guide/conf-dita-search.md)
       - Arbeta med tillgångsbearbetning {#asset-processing-cloud}
          - [Konfigurera funktionen för bearbetning av resurser](./cs-install-guide/configure-asset-processing-cs.md)
-      - Arbeta med rensning av B-träd{#btree-cleanup-cs}
+      - Arbeta med rensning av B-träd {#btree-cleanup-cs}
          - [Konfigurera rensning av B-träd](./cs-install-guide/configure-btree-cleanup-cs.md)
-      - Anpassad indexering{#custom-indexing-cs}
+      - Anpassad indexering {#custom-indexing-cs}
          - [Distribuerar anpassat index för Sök och ersätt (Source-vyn)](./cs-install-guide/custom-indexing.md)
-      - Arbeta med DITA-resursreplikering{#dita-assets-replication-cs}
+      - Arbeta med DITA-resursreplikering {#dita-assets-replication-cs}
          - [Konfigurera DITA-resursreplikering](./cs-install-guide/configure-dita-assets-replication.md)
       - [Bilaga](./cs-install-guide/appendix.md)
+- Installation och konfiguration {#install-conf-guide}
+   - [Hämta, installera och uppgradera](./install-conf-guide/introduction.md)
+   - Installationsprocess för Cloud Service {#deploy-conf-aemg-cs}
+      - [Distributions- och dispatcherkonfiguration](./install-conf-guide/conf-deployment-dispatcher-cs.md)
+   - Installationsprocess för lokal installation {#deploy-conf-aemg-on-prem}
+      - [Tekniska krav](./install-conf-guide/aemg-technical-requirements.md)
+      - [Installera Adobe Experience Manager](./install-conf-guide/download-install-aem.md)
+      - [Ladda ned och installera AEM Guides för första gången](./install-conf-guide/download-install-aemg-first-time.md)
+      - [Konfigurera Dispatcher](./install-conf-guide/conf-dispatcher.md)
+      - [Avinstallera AEM Guides](./install-conf-guide/unistall-aemg.md)
+   - [Verifiera installation av AEM Guides](./install-conf-guide/verify-aemg-installation.md)
+   - Uppgradera AEM Guides {#upgrade-aemg}
+      - Cloud Service {#cloud-service}
+         - [Uppgradera AEM Guides Cloud Service](./install-conf-guide/download-install-upgrade-aemg.md)
+         - [Ytterligare konfiguration för uppgradering av AEM Guides som Cloud Service](./install-conf-guide/additional-config-for-upgrade.md)
+         - [Konfigurationsåsidosättningar för Cloud Service](./install-conf-guide/download-install-config-override.md)
+      - lokalt {#on-prem}
+         - [Uppgradera AEM Guides On-Premise 4.6.0 och senare](./install-conf-guide/upgrade-aemg-latest-version.md)
+         - [Uppgradera tidigare AEM Guides On-Premise-versioner](./install-conf-guide/upgrade-aemg-prev-versions.md)
+   - Rekommendationer för prestandaoptimering {#performance-optimization-aemg}
+      - [Prestandaoptimering för Cloud Service](./install-conf-guide/perf-optimization-cs.md)
+      - [Prestandaoptimering för lokal installation](./install-conf-guide/perf-optimization-on-prem.md)
+   - Innehållsmigrering {#migrate-content-cs}
+      - [Migrera befintligt innehåll](./install-conf-guide/migrate-content.md)
+      - [Överför befintligt DITA-innehåll med FrameMaker- och WebDav-verktyget (On-Prem)](./install-conf-guide/upload-dita-content.md)
+      - [Använd kommandot Rullande för att överföra DITA-innehåll](./install-conf-guide/use-curl-command.md)
+      - [Konfigurera UUID-filmönster](./install-conf-guide/conf-uuid-filename-pattern.md)
+      - [Migrera icke-DITA-innehåll](./install-conf-guide/non-dita-content.md)
+      - [Migrera innehåll från lokalt till Cloud Service](./install-conf-guide/migrate-on-premise-content-cloud.md)
+      - Migreringsprocess för lokal {#migration-process-on-prem}
+         - [Migrering av icke-UID till UUID-innehåll](./install-conf-guide/uuid-non-uuid.md)
+         - [4.3.1 migrering av icke-UID till 4.3.2 UUID-innehåll](./install-conf-guide/non-uuid-4-3.md)
+         - [4.6.0 icke-UUID till 4.6.1-migrering av UUID-innehåll](./install-conf-guide/non-uuid-uuid-4-6.md)
+   - Anpassad DITA-OT och specialisering {#custom-dita-ot-cs}
+      - [Använd anpassad DITA-OT- och DITA-specialisering](./install-conf-guide/dita-ot-specialization.md)
+   - Användargrupper och säkerhet {#user-group-sec-cs}
+      - [Användarhantering](./install-conf-guide/user-admin-sec.md)
+   - Systeminställningar {#aemg-system-settings}
+      - Konfigurera UUID- och icke UUID-baserade filnamn {#conf-filename}
+         - [Konfigurera filnamn](./install-conf-guide/conf-file-names-overview.md)
+         - [Konfigurera automatiska filnamn baserat på UUID](./install-conf-guide/auto-uuid-filenames.md)
+         - [Konfigurera Regx för giltiga filnamnstecken](./install-conf-guide/file-names-valid-regx.md)
+      - Resursbearbetning {#asset-processing}
+         - [Konfigurera funktionen för bearbetning av resurser](./install-conf-guide/conf-asset-processing.md)
+         - [Konfigurera efterbearbetning för en mapp](./install-conf-guide/conf-folder-post-processing.md)
+      - [Versionshantering](./install-conf-guide/version-management.md)
+      - [Konfigurera rensning av B-träd](./install-conf-guide/conf-btree-cleanup.md)
+      - [Konfigurera DITA-resursreplikering](./install-conf-guide/conf-dita-asset-replication.md)
+   - Redigerarkonfigurationer {#editor-configs}
+      - [Anpassa redigeraren](./install-conf-guide/customize-overview.md)
+      - [Anpassa verktygsfältet](./install-conf-guide/customize-toolbar.md)
+      - [Konfigurera en anpassad panel i den vänstra panelen](./install-conf-guide/conf-custom-panel.md)
+      - [Konfigurera standardvärde för taggvyn](./install-conf-guide/conf-default-value-tags-view.md)
+      - [Generera element-ID automatiskt](./install-conf-guide/auto-generate-element-ids.md)
+      - [Inkludera @navtitle-attribut som standard](./install-conf-guide/auto-add-navtitle.md)
+      - [Konfigurera visning av UUID-baserade länkar](./install-conf-guide/conf-uuid-based-links.md)
+      - [Öppna DITA-avsnitt eller DITA-kartfiler på samma flik](./install-conf-guide/open-dita-files-same-tab.md)
+      - [Ange avancerad kartredigerare som standard](./install-conf-guide/conf-default-map-editor.md)
+      - [Konfigurera autosparande av filer i Web Editor](./install-conf-guide/conf-auto-save-in-editor.md)
+      - [Konfigurera uppmaningen att spara som en ny version vid stängning](./install-conf-guide/conf-save-as-new-version-close.md)
+      - [Konfigurera en uppmaning om att checka in en fil vid stängning](./install-conf-guide/conf-checkin-file-close.md)
+      - [Konfigurera tillåtna specialtecken](./install-conf-guide/conf-special-chars.md)
+      - [Anpassa AEM standardordlista](./install-conf-guide/customize-aem-default-dictionary.md)
+      - [Konfigurera textfilter](./install-conf-guide/conf-text-filters.md)
+      - [Konfigurera filter för filbläddring](./install-conf-guide/conf-custom-file-filters.md)
+      - [Installera paket för artikelbaserad publicering](./install-conf-guide/conf-article-based-publishing.md)
+      - Redigeringsinställningar för Cloud Service {#editor-cloud-settings}
+         - [Konfigurera smarta förslag för AI-baserad redigering för Cloud Service](./install-conf-guide/conf-smart-suggestions.md)
+         - [Konfigurera den AI-baserade smarta hjälpen för att söka efter innehåll för Cloud Service](./install-conf-guide/conf-smart-help.md)
+         - [Konfigurera alternativet att redigera i Syrgas för Cloud Service](./install-conf-guide/conf-edit-in-oxygen.md)
+         - [Konfigurera visning av inklistrade tabeller för Cloud Service](./install-conf-guide/conf-pasted-tables.md)
+         - [Konfigurera single topic PDF generation for Cloud Service](./install-conf-guide/conf-pdf-generation-dita-ot.md)
+         - [Konfigurera översättningsfunktionen i Web Editor för Cloud Service](./install-conf-guide/conf-translation-editor.md)
+      - Redigeringsinställning för lokal användning {#editor-on-prem-settings}
+         - [Konfigurera ytterligare specialtecken för lokal användning](/help/product-guide/web-editor/conf-additional-special-characters.md)
+         - [Konfigurera titeln för ikonerna Checka in och Checka ut för lokal installation](./install-conf-guide/conf-checkin-checkout-title.md)
+         - [Konfigurera antalet LimitReads för en fråga om lokal åtkomst](./install-conf-guide/conf-query-limitreads.md)
+      - Datakällsanslutning {#data-source}
+         - [Konfigurera en datakällanslutning från användargränssnittet](./install-conf-guide/conf-data-source-connector-tools.md)
+         - [Konfigurera en datakällanslutning för Cloud Service](./install-conf-guide/conf-data-source-connector-cs.md)
+   - Globala profiler och profiler på mappnivå {#global-folder-profiles}
+      - [Konfigurera globala profiler eller mappprofiler](./install-conf-guide/conf-profiles.md)
+   - Mallar för ämnen och kartor {#topic-map-template}
+      - [Konfigurera ämne- och mappningsmallar](./install-conf-guide/conf-template-tags.md)
+      - [Konfigurera anpassad ämnesmall för DITA](./install-conf-guide/conf-template-tags-custom-dita-topic-template.md)
+      - [Konfigurera anpassad DITA-mappningsmall](./install-conf-guide/conf-template-tags-custom-dita-map-templates.md)
+   - Dokumenttillstånd {#doc-state}
+      - [Konfigurera dokumenttillstånd](./install-conf-guide/customize-doc-state.md)
+      - [Konfigurera dokumenttillståndsfilter för Cloud Service](./install-conf-guide/conf-doc-state-filters.md)
+   - Konfigurera Workspace-inställningar {#workspace-configs}
+      - [Workspace-inställningar](./install-conf-guide/workspace-settings.md)
+   - AEM Assets Search {#aem-asset-search}
+      - [Konfigurera sökning efter AEM Assets UI](./install-conf-guide/conf-dita-search.md)
+   - Inställningar för utdatagenerering {#output-gen-config}
+      - [Konfigurera inställningar för generering av utdata](./install-conf-guide/conf-output-generation.md)
+      - Konfigurera utdatainställningar för AEM Site {#conf-aem-sites-output}
+         - [Hämta och installera AEM Sites-mallar](./install-conf-guide/download-install-aem-sites-templates.md)
+         - [Allmänna instruktioner för att anpassa befintliga AEM Site-mallar](./install-conf-guide/customize-existing-site-template.md)
+         - [Anpassa nya utdata för AEM Site](./install-conf-guide/customize-aem-site-output.md)
+         - [Anpassa DITA-elementmappning med AEM-komponenter för tidigare AEM Site-utdata](./install-conf-guide/customize-dita-element-mapping-aem-components.md)
+         - [Lägg över HTML-taggar i AEM Sites-utdata för lokal användning](./install-conf-guide/overlay-html-tags-aem-sites-on-prem.md)
+         - [Konfigurera giltiga filnamn för utdata från AEM Site](./install-conf-guide/conf-file-names-valid-regx-aem-site-output.md)
+      - PDF Publishing {#config-native-pdf-publish}
+         - [PDF publiceringsmallar och innehållsformat](./install-conf-guide/template-content-styles.md)
+         - [Konfigurera nodprocessen för ursprunglig PDF-publicering för Cloud Service](./native-pdf/conf-node-options-cs.md)
+         - [Konfigurera JVM-flaggor för inbyggd PDF-publicering för lokal](./native-pdf/conf-jvm-flags-on-prem.md)
+      - Konfigurera innehåll och upplevelsefragment för Cloud Service {#conf-content-exp-fragment}
+         - [Skapa en mappning mellan ett ämne och ett innehållsfragment](./install-conf-guide/conf-mapping-topic-content-fragment-cs.md)
+         - [Skapa en mappning mellan ett ämne och ett upplevelsefragment](./install-conf-guide/conf-mapping-topic-content-exp-cs.md)
+   - Anpassa arbetsflöden {#workflow}
+      - [Konfigurera och anpassa arbetsflöden](./install-conf-guide/conf-customize-workflows.md)
+   - Integreringar {#aemg-integrations}
+      - [Integrera skrivbordsbaserade XML-redigerare](./install-conf-guide/integrate-desktop-editors.md)
+      - [Konfigurera Workfront för Cloud Service](./install-conf-guide/conf-workfront.md)
+      - [Konfigurera översättning](./install-conf-guide/conf-translation.md)
+   - Utöka funktionerna {#aemg-customization}
+      - [Distribuera anpassat index för funktionen Sök och ersätt för Cloud Service](./install-conf-guide/custom-indexing-cs.md)
+      - [Indexera om funktionen Sök och ersätt för lokal installation](./install-conf-guide/custom-indexing-on-prem.md)
+      - [Komponentmappning för AEM Sites](./install-conf-guide/component-mapping.md)
+   - Bilaga {#appendix}
+      - [Bilaga](./install-conf-guide/aemg-appendix.md)
+
 - API-referens {#api-reference}
    - [Introduktion](./api-reference/introduction.md)
    - [REST API:er för utdatahantering](./api-reference/output-management.md)

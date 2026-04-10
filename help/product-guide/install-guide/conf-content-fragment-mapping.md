@@ -5,7 +5,8 @@ exl-id: 21446bcb-e7df-4823-acc3-1fdc7473f0d1
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
@@ -94,4 +95,4 @@ Exempelfil:
 ]
 ```
 
-Du kan publicera hela avsnittet med standardmappningen. Välj mappningen `Full Topic` i listrutan i dialogrutan **Publish som innehållsfragment** och ha fältet&quot;topicData&quot; i innehållsfragmentmodellen.
+Du kan publicera hela avsnittet med standardmappningen. Välj mappningen `Full Topic` i listrutan i dialogrutan **Publicera som innehållsfragment** och ha fältet&quot;topicData&quot; i innehållsfragmentmodellen.

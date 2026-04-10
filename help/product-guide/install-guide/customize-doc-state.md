@@ -5,7 +5,8 @@ exl-id: d7603b4e-aae4-48ca-be84-8edb51626405
 feature: Document State
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '1131'
 ht-degree: 0%
@@ -126,12 +127,12 @@ Om du inte vill ändra dokumentens tillstånd manuellt kan du skapa ett arbetsfl
 
 Utför följande steg för att automatisera ändringen av dokumentets tillstånd:
 
-1. Öppna arbetsflödessidan från AEM server-URL.
+1. Öppna arbetsflödessidan från AEM server-URL:en.
 
    `<AEM_Server_URL>:<port>/workflow`
 
 1. Öppna ett arbetsflöde från arbetsflödessidan. Exempel: Granska ämne.
-1. Välj **Processsteg** under **Arbetsflöde** i AEM och dra och släpp i arbetsflödet.
+1. Välj **Processsteg** under **Arbetsflöde** i dialogrutan AEM och dra och släpp i arbetsflödet.
 
    ![](assets/process-step-workflow.png)
 
@@ -151,7 +152,7 @@ Utför följande steg för att automatisera ändringen av dokumentets tillstånd
 
 AEM Guides tillhandahåller ett arbetsflöde för dokumentgodkännande som hjälper dig att styra dokumentutvecklingsprocessens livscykel. Så här aktiverar du arbetsflödet för godkännande:
 
-1. Logga in AEM och öppna läget CRXDE Lite.
+1. Logga in på AEM och öppna CRXDE Lite-läget.
 
 1. Navigera till standardkonfigurationsfilen som finns på följande plats:
 

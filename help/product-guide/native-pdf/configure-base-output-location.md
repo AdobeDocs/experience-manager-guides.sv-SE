@@ -4,7 +4,9 @@ description: Konfigurera basutdataplats för publicering av utdata för lokala t
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: ab6f1f09de2ef758d7f05ba0a49194ac9f387dea
+exl-id: ae1d805a-7b79-4b76-8be2-a19c5552530c
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 0%
@@ -28,5 +30,3 @@ Utför följande steg för att konfigurera basutdataplatsen:
 1. Uppdatera egenskapen **Base Output Location** för att ange standardsökvägen i AEM-databasen där PDF ska sparas efter publicering. Om en ogiltig sökväg anges återgår den automatiskt till standardsökvägen: /content/dam/fmdita-outputs.
 
 1. Klicka på **Spara**.
-
-

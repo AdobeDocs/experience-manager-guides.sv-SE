@@ -1,11 +1,12 @@
 ---
-title: PDF publiceringsfunktion | Lägga till ett anpassat bokmärke i PDF-utdata
+title: Inbyggd publiceringsfunktion för PDF | Lägg till ett anpassat bokmärke i PDF-utdata
 description: Lär dig hur du skapar formatmallar och skapar format för ditt innehåll.
 exl-id: 6e6dbba3-da41-4066-b7b2-735a3d92b70a
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 1c96f25c3b970d04d23e8faf94a8f39095f6bd2c
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 0%

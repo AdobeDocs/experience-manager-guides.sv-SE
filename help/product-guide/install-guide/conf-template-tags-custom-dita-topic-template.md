@@ -5,7 +5,8 @@ exl-id: a9b2c479-7bf6-4c62-addd-fdfe74dc1f69
 feature: Template Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 34687ac8f8877d05e545b23cf0830aa0345a25f7
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 0%
@@ -77,4 +78,4 @@ Så här konfigurerar du en mapp för dina anpassade ämnesmallar i DITA:
 
 Om den angivna platsen finns i DAM kopieras alla standardmallar för kartor och ämnen till den mappen. Om platsen inte finns, skapas mappen med alla standardmallar för kartor och ämnen.
 
-**Överordnat ämne:**&#x200B;[&#x200B; Konfigurera ämne- och mappningsmallar](conf-template-tags.md)
+**Överordnat ämne:**[ Konfigurera ämne- och mappningsmallar](conf-template-tags.md)

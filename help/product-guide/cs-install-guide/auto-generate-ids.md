@@ -5,7 +5,8 @@ exl-id: a651db7f-228e-4de5-b569-3f1b4f86c418
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 0%
@@ -30,4 +31,4 @@ Om du vill konfigurera ett mönster för automatiskt genererat ID skapar du en k
 |---|------------|--------------|
 | `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.pattern` | Standardvärdet för det här fältet är `${elementName}_${id}`. Värdet `${elementName}` ersätts med elementets namn. Variabeln `${id}` genererar ett sekventiellt nummer för elementet. Om du till exempel tilldelar styckeelementet ett automatiskt genererat ID:n får det första stycket i avsnittet eller dokumentet ett ID som p\_1, nästa stycke får p\_2 osv. I ett annat dokument startar dock ID-genereringsprocessen om. Det innebär att i ett annat dokument kan ID:n som p\_1 och p\_2 tilldelas styckeelement. **Standardvärde**: ``${elementName}_${id}`` |
 
-**Överordnat ämne:**&#x200B;[&#x200B; Anpassa Web Editor](conf-web-editor.md)
+**Överordnat ämne:**[ Anpassa Web Editor](conf-web-editor.md)

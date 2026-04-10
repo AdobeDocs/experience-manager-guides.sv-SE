@@ -5,7 +5,8 @@ exl-id: 876dfc77-078f-4341-b99d-02a453d2e065
 feature: Filename Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 0%
@@ -45,6 +46,6 @@ Så här konfigurerar du regx för giltiga \(eller tillåtna\) tecken i filnamn:
 
 >[!NOTE]
 >
-> På samma sätt som i listan med giltiga filnamnstecken kan du även ange en lista med giltiga filnamnstecken för AEM. Mer information finns i [Konfigurera giltiga filnamn för AEM &#x200B;](conf-file-names-valid-regx-aem-site-output.md#).
+> På samma sätt som i listan med giltiga filnamnstecken kan du även ange en lista med giltiga filnamnstecken för utdata från AEM Site. Mer information finns i [Konfigurera giltiga filnamn för utdata från AEM Site](conf-file-names-valid-regx-aem-site-output.md#).
 
-**Överordnat ämne:**&#x200B;[&#x200B; Konfigurera filnamn](conf-file-names.md)
+**Överordnat ämne:**[ Konfigurera filnamn](conf-file-names.md)

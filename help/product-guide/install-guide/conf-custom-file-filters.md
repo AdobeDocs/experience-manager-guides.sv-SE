@@ -5,7 +5,8 @@ exl-id: 1ef09820-3b18-4762-b177-4d40926e21f0
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 0%
@@ -18,7 +19,7 @@ När du arbetar i Web Editor måste du använda dialogrutan för filbläddring f
 
 Gör så här för att lägga till egna filfiltreringsalternativ i dialogrutan för filbläddring:
 
-1. Logga in AEM och öppna läget CRXDE Lite.
+1. Logga in på AEM och öppna CRXDE Lite-läget.
 
 1. Navigera till standardkonfigurationsfilen som finns på följande plats:
 

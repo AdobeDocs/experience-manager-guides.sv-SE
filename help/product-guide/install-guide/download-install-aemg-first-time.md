@@ -5,7 +5,8 @@ exl-id: 830a4381-303c-419c-b87f-9563352a7eeb
 feature: Introduction, Installation
 role: Admin
 level: Experienced
-source-git-commit: dbcc625220c9ad1fa60942b2f43c38d3d6778541
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 0%
@@ -20,19 +21,19 @@ Så här hämtar och installerar du AEM Guides första gången på en dator:
 >
 > Om du vill använda Livefyre tillsammans med AEM Guides måste du installera Livefyre-versionerna tidigare än 3.0 innan du installerar AEM Guides. Om du använder Livefyre version 3.0 eller senare finns det ingen sådan begränsning.
 
-1. Hämta AEM Guides från [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
+1. Hämta AEM Guides från [Adobe portal för distribution av programvara](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
 
    >[!NOTE]
    >
    >Kontrollera att datorn uppfyller de [tekniska kraven](../install-guide/download-install-technical-requirements.md) innan du installerar Experience Manager Guides.
 
-1. Logga in i AEM och navigera till CRX Package Manager. Standardwebbadressen för att få åtkomst till pakethanteraren är:
+1. Logga in på din AEM-instans och navigera till CRX Package Manager. Standardwebbadressen för att få åtkomst till pakethanteraren är:
 
    ```http
    http://<server name>:<port>/crx/packmgr/index.jsp
    ```
 
-   Pakethanteraren hanterar paketen i din lokala AEM. Mer information om hur du arbetar med pakethanteraren finns i [Arbeta med paket](https://helpx.adobe.com/se/experience-manager/6-5/sites/administering/using/package-manager.html) i AEM.
+   Pakethanteraren hanterar paketen på din lokala AEM-installation. Mer information om hur du arbetar med pakethanteraren finns i [Arbeta med paket](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html) i AEM-dokumentationen.
 
    ![](assets/package-manager.png){width="650" align="left"}
 
@@ -40,7 +41,7 @@ Så här hämtar och installerar du AEM Guides första gången på en dator:
 
 1. I dialogrutan Överför paket går du till AEM Guides-filen som du hämtade i steg 1 och klickar på **OK**.
 
-   Paketet överförs till din AEM.
+   Paketet överförs till din AEM-instans.
 
 1. Klicka på **Installera** om du vill installera paketet.
 
@@ -53,6 +54,6 @@ Så här hämtar och installerar du AEM Guides första gången på en dator:
 
 >[!NOTE]
 >
-> Utför installationsproceduren på alla instanser av AEM servrar i installationen.
+> Utför installationsproceduren på alla instanser av AEM-servrar i installationen.
 
-**Överordnat ämne:**&#x200B;[&#x200B; Hämta och installera](download-install.md)
+**Överordnat ämne:**[ Hämta och installera](download-install.md)

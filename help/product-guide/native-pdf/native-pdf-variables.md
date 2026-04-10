@@ -1,11 +1,12 @@
 ---
-title: PDF | Använda variabler i PDF-utdata
+title: PDF | Använd variabler i PDF-utdata
 description: Använda variabler i PDF utdata- och utdatamallar
 feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: 96e54aee-52df-4af1-97fd-34986f553be4
-source-git-commit: 594248c42b14c960d858a2e0e6994aa9bb4acd4e
+hidefromtoc: true
+source-git-commit: 34687ac8f8877d05e545b23cf0830aa0345a25f7
 workflow-type: tm+mt
 source-wordcount: '1450'
 ht-degree: 0%
@@ -25,15 +26,15 @@ Så här skapar du en variabel:
 *Skapa variabler och definiera värden för dem.*
 
 
-1. I redigeraren navigerar du till den vänstra panelen och väljer **Variabler** <img alt= "variabelikon" src="./assets/variables-icon.svg" width="25">. Det här alternativet är tillgängligt under avsnittet Mer.
-1. Välj **Redigera** <img alt= "Ikon för redigering av penna" src="./assets/edit_pencil_icon.svg" width="25"> om du vill öppna redigeraren **Variabler**.
+1. Gå till den vänstra panelen i Editor och välj **Variabler** <img alt= "variabelikon" src="./assets/variables-icon.svg" width="25">. Det här alternativet är tillgängligt under avsnittet Mer.
+1. Välj **Redigera** <img alt= "Ikonen Redigera penna" src="./assets/edit_pencil_icon.svg" width="25"> om du vill öppna redigeraren **Variabler**.
 Variablerna listas i bokstavsordning.
 1. Ange variabelnamnet i kolumnen **Namn** och dess värde i kolumnen **Värde**.
    >[!TIP]
    >
-   >Du kan använda valfritt HTML-innehåll som ett variabelvärde för att visa variabelvärdet i specifik formatering. Du kan till exempel lägga till en `<b>` tagg i variabelvärdet för att visa värdet **Experience Manager Guides** i fetstil. Du kan också lägga till bilder från databasen som värden.
+   >Du kan använda valfritt HTML-innehåll som ett variabelvärde om du vill visa variabelvärdet i en viss formatering. Du kan till exempel lägga till en `<b>`-tagg i variabelvärdet för att visa värdet **Experience Manager Guides** i fet stil. Du kan också lägga till bilder från databasen som värden.
 
-1. Välj **Lägg till variabel** <img alt= "Lägg till ikon" src="./assets/add-icon.svg" width="25"> om du vill lägga till en ny variabel. Du kan inte skapa en variabel med samma namn som en befintlig variabel. Ett fel visas.
+1. Välj **Lägg till variabel** <img alt= "Ikonen Lägg till" src="./assets/add-icon.svg" width="25"> om du vill lägga till en ny variabel. Du kan inte skapa en variabel med samma namn som en befintlig variabel. Ett fel visas.
 
    >[!NOTE]
    >
@@ -112,14 +113,14 @@ Du kan ta bort en variabel på två sätt:
 
 **Från variabelredigeraren**
 
-1. Håll muspekaren över variabeln i listan för att visa **Alternativ-menyn** .
+1. Håll pekaren över variabeln i listan för att visa menyn **Alternativ** .
 1. Välj alternativet **Ta bort**.
 
 Variabeln tas bort från alla variabeluppsättningar.
 
 ## Variabeluppsättningar för förinställningar för utdata
 
-Adobe Experience Manager Guides har också stöd för variabeluppsättningar, som du använder för att tilldela variablerna alternativa värden. Ett företag kan till exempel sälja två produkter, A och B. Det har olika specifikationer för var och en av dem. Dessa specifikationer kan innehålla produktnamn, versionsnummer och utgivningsdatum. Det kan finnas andra skillnader i varumärkesbyggande. Med hjälp av variabeluppsättningar definierar du en annan uppsättning värden för dina variabler. När du genererar utdata väljer du lämplig variabeluppsättning och skapar de utdata som krävs.
+Adobe Experience Manager Guides har också stöd för variabeluppsättningar, som du använder för att tilldela variablerna alternativa värden. Ett företag kan till exempel sälja två produkter, A och B. Det har olika specifikationer för var och en av dem. Specifikationerna kan innehålla produktnamn, versionsnummer och releasedatum. Det kan finnas andra skillnader när det gäller varumärken. Med variabeluppsättningar kan du definiera en annan uppsättning värden för dina variabler. När du genererar utdata väljer du lämplig variabeluppsättning och skapar önskade utdata.
 
 ### Konfigurera variabeluppsättningar
 
@@ -194,7 +195,7 @@ Så här infogar du en variabel som ditt ProductName i sidhuvudsområdet:
    1. Välj **Infoga variabel/fält** <img alt= "variabelikon" src="./assets/variables-icon.svg" width="25">.
    1. I dialogrutan **Variabel** markerar du namnet på variabeln för att infoga den i sidhuvudsområdet.
    1. Du kan också ange söksträngen i textrutan. Variabelnamnen som innehåller den angivna strängen filtreras och visas i listan. Den markerade variabeln infogas i sidhuvudsområdet. Du kan visa standardvärdet för variabeln.
-   1. Om du vill ersätta en variabel dubbelklickar du på variabelvärdet och väljer en annan variabel i **dialogrutan Variabel** . Variabeln ersätts.
+   1. Om du vill ersätta en variabel dubbelklickar du på variabelvärdet och väljer en annan variabel i dialogrutan **Variabel** . Variabeln ersätts.
 
 
 ## Generera PDF-utdata med variabler
@@ -203,13 +204,13 @@ Du kan generera PDF-utdata med värden från olika variabler. Innan du genererar
 
 ![listruta för variabeluppsättning](assets/output-preset-variable-dropdown.png){width="550" align="left"}
 
-*Välj en variabeluppsättning i listrutan i den utdataförinställning som du vill använda för att generera PDF-utdata.*
+*Välj en variabeluppsättning i listrutan i förinställningen som du vill använda för att generera PDF-utdata.*
 
 >[!NOTE]
 >
 > Du kan också välja (Standard) i listrutan för att publicera standardvärdena för alla variabler.
 
-Beroende på vilken variabeluppsättning du har valt får du utdata som motsvarar de variabelvärden som definierats i variabeluppsättningen. Om du till exempel väljer variabeluppsättningen *Adobe-set1* visas variablernas värden enligt definitionen i den här uppsättningen i utdata.
+Beroende på vilken variabeluppsättning du väljer får du utdata som motsvarar de variabelvärden som definieras i variabeluppsättningen. Om du t.ex. väljer variabeluppsättningen *Adobe-set1* visas variabelvärdena i dina utdata enligt uppsättningen.
 
 
 <img src="assets/variable-pdf-output.png" alt="PDF-utdata med variabler" width="500" border="2px">

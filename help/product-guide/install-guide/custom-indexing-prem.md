@@ -4,7 +4,9 @@ description: Lär dig hur du anpassar indexinnehåll för lokala inställningar
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 8a9a82e79c757e403141e853aafbc64e1618c30a
+exl-id: 5b9e4936-f674-41d3-a7b2-3d42a2523693
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 0%

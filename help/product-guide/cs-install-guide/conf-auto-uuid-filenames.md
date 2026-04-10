@@ -5,7 +5,8 @@ exl-id: bdbdf119-b928-4ed2-bab3-d99370da8aa9
 feature: Filename Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 0%
@@ -26,4 +27,4 @@ Använd instruktionerna i [Konfigurationsåsidosättningar](download-install-add
 >
 > När det här alternativet är aktiverat kan författare inte ange filnamnet när de skapar ett nytt ämne eller en ny mappningsfil. Du kan skapa ett nytt ämne eller en ny mappfil från Assets-gränssnittet och webbredigeraren.
 
-**Överordnat ämne:**&#x200B;[&#x200B; Konfigurera filnamn](conf-file-names.md)
+**Överordnat ämne:**[ Konfigurera filnamn](conf-file-names.md)

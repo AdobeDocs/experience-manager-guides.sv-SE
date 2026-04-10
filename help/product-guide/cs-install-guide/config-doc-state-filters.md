@@ -4,7 +4,9 @@ description: Lär dig hur du konfigurerar dokumenttillståndsfilter
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 4942b914ff278ebcf09d00da32d6f9c7cc4d7ff9
+exl-id: 682c915b-bc42-4d2e-84a0-9e88734e278e
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 0%
@@ -27,38 +29,38 @@ Utför följande steg för att konfigurera dokumenttillståndsfilter:
 Se följande avsnitt i den hämtade `ui\_config.json`-filen:
 
        &quot;
-       &quot;databaseFilters&quot;: &lbrack;
-       &lbrace;
+       &quot;databaseFilters&quot;: [
+       {
        &quot;title&quot;: &quot;Document state&quot;,
        &quot;property&quot;: &quot;jcr:content/metadata/docstate&quot;,
-       &quot;underordnade&quot;: &lbrack;
-&rbrack;       &lbrace;
+       &quot;underordnade&quot;: [
+]       {
        &quot;title&quot;: &quot;Draft&quot;, 
        &quot;value&quot;: &quot;Draft&quot; 
        ,
-       &lbrace;
+       {
        &quot;title&quot;: &quot;Edit&quot;,
        &quot;value&quot;: &quot;Edit&quot; 
-       &rbrace;,
-       &lbrace;
+       },
+       {
        &quot;title&quot;: &quot;In-Review&quot;,
        &quot;value&quot;: &quot;In-Review&quot; 
-       &rbrace;,
-       &lbrace;
+       },
+       {
        &quot;title&quot;: &quot;Approved&quot;,
        &quot;value&quot;: &quot;Approved&quot;
-       &rbrace;,
-       &lbrace;
-&rbrace;       &quot;title&quot;: &quot;Reviewed&quot;, 
+       },
+       {
+}       &quot;title&quot;: &quot;Reviewed&quot;, 
        &quot;value&quot;: &quot;Reviewed&quot; 
        ,
-       &lbrace;
+       {
        &quot;title&quot;: &quot;Done&quot;,
        &quot;value&quot;: &quot;Done&quot; 
        
-       &rbrack;
+       ]
        
-       &rbrack;
+       ]
        &quot;
    Det här kodutdraget representerar standarddokumentlägesfilter som är tillgängliga i Experience Manager Guides.
 
@@ -75,4 +77,4 @@ Se följande avsnitt i den hämtade `ui\_config.json`-filen:
 
 De konfigurerade filtren visas på panelen **Filter** på startsidan i Databas.
 
-**Överordnat ämne:**&#x200B;[&#x200B; Anpassa Web Editor](conf-web-editor.md)
+**Överordnat ämne:**[ Anpassa Web Editor](conf-web-editor.md)

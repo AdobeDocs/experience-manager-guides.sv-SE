@@ -1,23 +1,24 @@
 ---
-title: Recommendations för prestandaoptimering
-description: Lär dig Recommendations för prestandaoptimering
+title: Rekommendationer för prestandaoptimering
+description: Läs rekommendationerna för prestandaoptimering
 exl-id: b2a836a0-de82-4d89-aae3-43276997da74
 feature: Performance Optimization
 role: Admin
 level: Experienced
-source-git-commit: b28b7d96cce69f677b0bcf891b94d7ac84eb1eb0
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '904'
 ht-degree: 0%
 
 ---
 
-# Recommendations för prestandaoptimering {#id213BD0JG0XA}
+# Rekommendationer för prestandaoptimering {#id213BD0JG0XA}
 
 ## Konfigurera datalager \(obligatoriskt\)
 
 **Vad är ändringen?**
-Ställ in egenskapen `minRecordLength` på värdet `100` under konfigurationen `org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.` Mer information om fillagring och S3-datalager finns i artikeln [Konfigurera nodarkiv och datalager i AEM 6](https://helpx.adobe.com/se/experience-manager/6-5/sites/deploying/using/data-store-config.html) .
+Ange `minRecordLength` -egenskapen till värdet `100` under konfigurationen `org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.` Mer information om fillagring och S3-datalager finns i artikeln [Konfigurera nodarkiv och datalager i AEM 6](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/data-store-config.html) .
 
 >[!NOTE]
 >
@@ -32,14 +33,14 @@ DITA-filerna sparas i datalagret i stället för segmentlagret. Detta håller se
 ## Uppdatera Lucene-index \(obligatoriskt\)
 
 **Vad är ändringen?**
-Uteslut /var/dxml från ek:index/lucene.
+Undanta /var/dxml från eken :index/lucen.
 
 >[!NOTE]
 >
 > AEM Guides använder aldrig Lucene-index för att söka efter innehåll i noden /var/dxml.
 
 **När ska jag konfigurera?**
-Om du gör den här ändringen på ett nytt system innan du migrerar innehåll behöver du bara uppdatera eken:index/lucene. I annat fall kan du återskapa index för Lucene \(*som kan ta några timmar att slutföra*\) efter att ha gjort ändringen i eke:index/lucene på ett befintligt system där innehållet redan har migrerats.
+Om du gör den här ändringen på ett nytt system innan du migrerar innehåll behöver du bara uppdatera eken :index/lucen. I annat fall kan du återskapa index för Lucene \(:indexsom kan ta några timmar att slutföra *\) i ett befintligt system där innehållet redan har migrerats och sedan efter att ha gjort ändringen i eken*/lucen.
 
 **Resultat av den här ändringen**
 Den här ändringen förhindrar att /var/dxml-noden indexeras och lagras i segmentlagret.
@@ -47,11 +48,11 @@ Den här ändringen förhindrar att /var/dxml-noden indexeras och lagras i segme
 ## Java-minnesoptimering \(obligatoriskt\)
 
 **Vad är ändringen?**
-Parametrarna för JVM-start bör justeras noggrant baserat på infrastrukturen och diskstorleken. Vi rekommenderar att du kontaktar Adobe Support för att få hjälp med att komma åt den idealiska konfigurationen. Du kan dock själv prova följande konfigurationer:
+Parametrarna för JVM-start bör justeras noggrant baserat på infrastrukturen och diskstorleken. Vi rekommenderar att du kontaktar Adobe Support för att få hjälp med att få tillgång till den idealiska konfigurationen. Du kan dock själv prova följande konfigurationer:
 
 - Ställ in JVM-stackstorleken på minst 1/4 av det totala tillgängliga minnet. Använd parametern `-Xmx<size>` för att ange heap-minnesstorleken. Ange värdet för -`Xms` är lika med `-Xmx`.
 
-- Aktivera `-XX:+HeapDumpOnOutOfMemoryError` och ange sökvägen för `-XX:HeapDumpPath=</path/to/folder` `>`.
+- Aktivera `-XX:+HeapDumpOnOutOfMemoryError` och ange sökvägen för `-XX:HeapDumpPath=</path/to/folder``>`.
 
 - Aktivera Java GC-logg som:
 
@@ -101,18 +102,18 @@ Detta kan göras vid körning via Felix Console eller via koddistribution.
 **Resultat av den här ändringen**
 Ändringen säkerställer att inga resurser allokeras för publiceringsåtgärderna på en författarinstans som körs. Detta gör att systemresurserna är tillgängliga även för författare, vilket ger en bättre användarupplevelse.
 
-## Konfigurera gruppstorlek för noder för generering AEM platsutdata \(obligatoriskt, beroende på användningsfall\)
+## Konfigurera batchstorlek för noder för generering av AEM Site-utdata \(Obligatoriskt, beroende på användningsfall\)
 
 **vad är ändringen?**
 Den här ändringen krävs om du genererar AEM Sites-utdata.
 
-Ange **Begränsa AEM webbplatssidor i egenskapen Heap** under `com.adobe.fmdita.config.ConfigManager` till ett nummer baserat på systemets konfiguration. Den här egenskapen definierar gruppstorleken för noder som ska verkställas när webbplatssidorna genereras. På ett system med ett större antal processorer och stackstorlek kan du öka standardvärdet från `500` till ett större värde. Du måste testa körningen med det ändrade värdet för att få ett optimalt värde för den här egenskapen.
+Ange egenskapen **Begränsa AEM-webbplatssidor i Heap** under `com.adobe.fmdita.config.ConfigManager` till ett nummer baserat på datorns konfiguration. Den här egenskapen definierar gruppstorleken för noder som ska verkställas när webbplatssidorna genereras. På ett system med ett större antal processorer och stackstorlek kan du öka standardvärdet från `500` till ett större värde. Du måste testa körningen med det ändrade värdet för att få ett optimalt värde för den här egenskapen.
 
 **När ska jag konfigurera?**
 Detta kan göras vid körning via Felix Console eller via koddistribution.
 
 **Resultat av den här ändringen**
-Ett ökat antal **Begränsa AEM webbplatssidor i heap** -egenskapen optimerar genereringsprocessen för AEM.
+Ett ökat antal av egenskapen **Begränsa AEM-webbplatssidor i heap** optimerar genereringsprocessen för AEM Site-utdata.
 
 
-**Överordnat ämne:**&#x200B;[&#x200B; Hämta och installera](download-install.md)
+**Överordnat ämne:**[ Hämta och installera](download-install.md)

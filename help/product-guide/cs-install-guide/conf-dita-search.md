@@ -5,9 +5,10 @@ exl-id: 125d247f-1017-4450-9e3f-9ecc7188ca8f
 feature: Search Configuration
 role: Admin
 level: Experienced
-source-git-commit: 8ee4863470f69bca52a9b36cde52703e4d6643bc
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
-source-wordcount: '1578'
+source-wordcount: '1576'
 ht-degree: 0%
 
 ---
@@ -219,7 +220,7 @@ Utför följande steg för att exkludera den tillfälliga översättningsmappen 
 
 >[!NOTE]
 >
-> Du kan lägga till andra mapplatser i exkluderingslistan med den här proceduren. Mer information om hur du arbetar med index finns i [Innehållssökning och indexering](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/indexing.html?lang=sv-SE).
+> Du kan lägga till andra mapplatser i exkluderingslistan med den här proceduren. Mer information om hur du arbetar med index finns i [Innehållssökning och indexering](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/indexing.html).
 
 1. Lägg till följande egenskap i det anpassade index för damAssetLucene:
 

@@ -5,7 +5,8 @@ exl-id: 1dde8a29-301f-461e-b598-2a8cab61bf3d
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '1201'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 # Överför befintligt DITA-innehåll {#id176FF000JUI}
 
-Troligen har du en databas med befintligt DITA-innehåll som du vill använda med AEM Guides. För sådant befintligt innehåll kan du använda någon av följande metoder för att massöverföra ditt innehåll till AEM.
+Troligen har du en databas med befintligt DITA-innehåll som du vill använda med AEM Guides. Om du har sådant innehåll kan du använda någon av följande metoder för att massöverföra ditt innehåll till AEM-databasen.
 
 ## Använda ett WebDAV-verktyg
 
@@ -30,11 +31,11 @@ Utför följande steg för att använda WinSCP för att överföra filer:
 
 1. I inloggningsdialogrutan anger du en ny platsinställning genom att välja WebDAV som **filprotokoll** och ange annan anslutningsinformation, till exempel:
 
-   - URL:en där din AEM är värd,
+   - URL:en där din AEM-server finns,
 
    - portnumret \(standard är 4502\), och
 
-   - användarnamn och lösenord för att komma åt AEM.
+   - användarnamn och lösenord för att komma åt din AEM-server.
 
 1. Klicka på **Logga in**.
 
@@ -43,26 +44,26 @@ Utför följande steg för att använda WinSCP för att överföra filer:
 
 ## Använd FrameMaker
 
-Adobe FrameMaker har en kraftfull AEM som gör att du enkelt kan överföra dina befintliga DITA-dokument och andra FrameMaker \(.book och .fm\) till AEM. Du kan använda olika funktioner för filöverföring, till exempel för att överföra en fil, överföra en hel mapp med eller utan beroenden \(som innehållsreferenser, korsreferenser och bilder\).
+Adobe FrameMaker har en kraftfull AEM-anslutning som gör att du enkelt kan överföra dina befintliga DITA-dokument och andra FrameMaker-dokument \(.book och .fm\) till AEM. Du kan använda olika funktioner för filöverföring, till exempel för att överföra en fil, överföra en hel mapp med eller utan beroenden \(som innehållsreferenser, korsreferenser och bilder\).
 
-Utför följande steg om du vill använda FrameMakernas AEM Connector för att överföra innehåll:
+Så här använder du FrameMaker AEM Connector för att överföra innehåll:
 
-1. Starta FrameMakerna.
+1. Starta FrameMaker.
 
 1. Öppna dialogrutan **Anslutningshanteraren**.
 
    ![](assets/fm-aem-connector.png){width="550" align="left"}
 
-1. Ange följande information för att ansluta till AEM databas:
+1. Ange följande information för att ansluta till AEM-databasen:
 
-   - **Namn**: Ange ett beskrivande namn som identifierar anslutningen till AEM.
-   - **Server**: Ange URL-adressen och portnumret för AEM.
+   - **Namn**: Ange ett beskrivande namn som identifierar anslutningen till din AEM-server.
+   - **Server**: Ange URL-adressen och portnumret för din AEM-server.
 
-   - **Användarnamn**/**Lösenord**: Ange användarnamn och lösenord för att komma åt AEM.
+   - **Användarnamn**/**Lösenord**: Ange användarnamn och lösenord för att komma åt AEM-servern.
 
 1. Klicka på **Anslut**.
 
-   När anslutningen har upprättats visas Assets från AEM i databashanterarfönstret.
+   När anslutningen har upprättats visas Assets från AEM-databasen i Databashanteraren.
 
    ![](assets/fm-repo-manager.png){width="550" align="left"}
 
@@ -100,13 +101,13 @@ Du kan använda någon av följande metoder för att överföra ditt innehåll m
 - Använd arbetsflödet **Skapa** \> **Filer** från AEM Assets-gränssnitt.
 - Använd ett verktyg som WinSCP.
 
-Om du använder ett verktyg som WinSCP kan du definiera åtgärden som ska utföras på en dubblettfil genom att ange alternativet **Flytta gammal fil med samma UUID till ny mapp** i configMgr. Det här alternativet definierar vilken åtgärd som utförs på en fil som är tillgänglig på någon annan plats i AEM. Den här inställningen är tillgänglig i paketet *com.adobe.fmdita.config.ConfigManager* i configMgr.
+Om du använder ett verktyg som WinSCP kan du definiera åtgärden som ska utföras på en dubblettfil genom att ange alternativet **Flytta gammal fil med samma UUID till ny mapp** i configMgr. Det här alternativet definierar vilken åtgärd som utförs på en fil som är tillgänglig på någon annan plats i AEM-databasen. Den här inställningen är tillgänglig i paketet *com.adobe.fmdita.config.ConfigManager* i configMgr.
 
 Som standard är alternativet **Flytta gammal fil med samma UUID till ny mapp** aktiverat. Det innebär att när filen som överförs finns i någon annan mapp i databasen flyttas den befintliga filen till den aktuella platsen och skrivs över med filen som överförs. Om du inte markerar det här alternativet skrivs filen över på sin befintliga plats.
 
 **Ytterligare information om att arbeta med UUID-baserade filer**:
 
-Följande punkter måste beaktas när innehåll flyttas eller kopieras i AEM:
+Följande punkter måste beaktas när innehåll flyttas eller kopieras inom AEM-databasen:
 
 - När du kopierar en eller flera filer från en plats till en annan skapas ett nytt UUID för filer som inte har något UUID. Detta UUID läggs till i filens metadata.
 
@@ -115,11 +116,11 @@ Följande punkter måste beaktas när innehåll flyttas eller kopieras i AEM:
 - Två filer kan inte ha samma UUID. Alla nya filer tilldelas ett unikt UUID.
 
 
-Följande punkter måste beaktas när du flyttar eller kopierar innehåll från ditt lokala system till AEM:
+Följande punkter måste beaktas när du flyttar eller kopierar innehåll från ditt lokala system till AEM-databasen:
 
 - Om en fil överförs av två olika användare samtidigt, kommer den fil som bearbetas senare att skriva över den tidigare filen. En sådan metod är dock sällsynt och bör undvikas.
 
-- När du checkar ut innehåll från den AEM databasen och gör ändringar i det lokala systemet, kontrollerar du att filnamnet inte ändras när du överför filen.
+- När du checkar ut innehåll från AEM-databasen och gör ändringar i det lokala systemet, kontrollerar du att filnamnet inte ändras när du överför filen.
 
 
 ## Använda vändkommandon
@@ -128,7 +129,7 @@ Du kan också använda kontrollkommandon för att skapa en mapp i DAM, överför
 
 **Skapa en mapp**
 
-Kör följande kommando för att skapa en mapp AEM databasen:
+Kör följande kommando för att skapa en mapp i AEM-databasen:
 
 ```curl
 curl --user <username>:<password> --data jcr:primaryType=sling:Folder "<server folder path>"
@@ -136,16 +137,16 @@ curl --user <username>:<password> --data jcr:primaryType=sling:Folder "<server f
 
 Ange följande parametrar för att skapa en mapp:
 
-- `<username>:<passowrd>`: Ange användarnamn och lösenord för att komma åt AEM. Användaren måste ha behörighet att skapa mappar.
+- `<username>:<passowrd>`: Ange användarnamn och lösenord för att komma åt AEM-databasen. Användaren måste ha behörighet att skapa mappar.
 
 - `jcr:primaryType=sling:Folder`: Ange den här parametern *som* om du vill skapa en mapptypresurs.
 
-- `<server folder path>`: Fullständig mappsökväg inklusive namnet på den nya mappen som du vill skapa i AEM. Om du till exempel anger sökvägen som `http://192.168.1.1:4502/content/dam/projects/AEM-Guides` skapas mappen `AEM-Guides` i mappen `projects` i DAM.
+- `<server folder path>`: Fullständig mappsökväg inklusive namnet på den nya mappen som du vill skapa i AEM-databasen. Om du till exempel anger sökvägen som `http://192.168.1.1:4502/content/dam/projects/AEM-Guides` skapas mappen `AEM-Guides` i mappen `projects` i DAM.
 
 
 **Överför en fil**
 
-Kör följande kommando för att överföra en fil i AEM:
+Kör följande kommando för att överföra en fil i AEM-databasen:
 
 ```curl
 curl --user <username>:<password> -T "<local file path>" "<server folder path>"
@@ -153,11 +154,11 @@ curl --user <username>:<password> -T "<local file path>" "<server folder path>"
 
 Ange följande parametrar för att överföra en fil:
 
-- `<username>:<passowrd>`: Ange användarnamn och lösenord för att komma åt AEM. Den här användaren måste ha skrivbehörighet för `server folder path`.
+- `<username>:<passowrd>`: Ange användarnamn och lösenord för att komma åt AEM-databasen. Den här användaren måste ha skrivbehörighet för `server folder path`.
 
 - ``local file path``: Slutför den filsökväg på det lokala systemet som du vill överföra.
 
-- `<server folder path>`: Slutför mappsökvägen på den AEM servern där du vill överföra filen.
+- `<server folder path>`: Slutför mappsökvägen på AEM-servern där du vill överföra filen.
 
 
 **Lägg till metadata**
@@ -170,11 +171,11 @@ curl --user <username>:<password> -F<attribute name>=<value> <metadata node path
 
 Ange följande parametrar för att lägga till metadatainformation:
 
-- `<username>:<passowrd>`: Ange användarnamn och lösenord för att komma åt AEM. Den här användaren måste ha skrivbehörighet för ``metadata node path``.
+- `<username>:<passowrd>`: Ange användarnamn och lösenord för att komma åt AEM-databasen. Den här användaren måste ha skrivbehörighet för ``metadata node path``.
 
 - ``-F<attribute name>=<value>``: `<attribute name>` är namnet på metadataattributet, till exempel `audience` och `<value>` kan vara `internal`. Du kan ange flera attributnamnvärdespar avgränsade med blanksteg.
 
 - `<metadata node path>`: Fullständig mappsökväg inklusive filnamnet och dess metadatanod. Om du till exempel anger sökvägen som `http://192.168.1.1:4502/content/dam/projects/AEM-Guides/intro.xml/jcr:content/metadata` anges den angivna metadatainformationen för filen `intro.xml`.
 
 
-**Överordnat ämne:**&#x200B;[&#x200B; Migrera befintligt innehåll](migrate-content.md)
+**Överordnat ämne:**[ Migrera befintligt innehåll](migrate-content.md)

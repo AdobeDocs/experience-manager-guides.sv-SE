@@ -1,11 +1,12 @@
 ---
-title: PDF Publish-funktion | Tillämpa egna format på innehållsförteckningsposter och ämnesinnehåll
+title: Inbyggd PDF-publiceringsfunktion | Använd anpassad formatering på innehållsförteckningsposter och ämnesinnehåll
 description: Lär dig hur du skapar formatmallar och skapar format för ditt innehåll.
 exl-id: f65c9683-a1fc-432a-854b-83e8f39d7dae
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: db4c823e592e249e1d828a7071fc0848a5e68c0f
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '399'
 ht-degree: 0%

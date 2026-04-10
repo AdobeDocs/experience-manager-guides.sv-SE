@@ -5,7 +5,8 @@ exl-id: 2335a7d5-251b-4266-8bba-9c9935e7bbf4
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 6e9c998aa5c36b7e0dbb9d594dbf223017164698
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '1594'
 ht-degree: 0%
@@ -122,7 +123,7 @@ Variablerna med samma ID importeras när du har importerat filen. Värdena för 
 >[!NOTE]
 > 
 ><ul><li>Om filen inte är en XML-fil, eller om filen innehåller ett felaktigt format som inte överensstämmer med språkvariablerna, visas ett felmeddelande om att det har uppstått ett problem med XML-filen. 
->&gt;<li>Om filen inte innehåller några variabler med samma ID visar du en varning om att det inte finns någon matchande språkvariabel i den importerade filen.
+&gt;<li>Om filen inte innehåller några variabler med samma ID visar du en varning om att det inte finns någon matchande språkvariabel i den importerade filen.
 
 ### Alternativ för en språkvariabel
 
@@ -130,7 +131,7 @@ Håll pekaren över variabeln för att visa menyn **Alternativ** för den.
 
 <img width="550" alt="alternativmeny för språkvariabler" src="./assets/language-variable-user-options.png">
 
-*Använd menyn **Alternativ**&#x200B;för att ta bort, förhandsgranska eller duplicera en språkvariabel.*
+*Använd menyn **Alternativ**för att ta bort, förhandsgranska eller duplicera en språkvariabel.*
 
 Du kan förhandsgranska både program- och användarvariabler. Om du vill visa hur variabelns värde visas i utdata väljer du **Förhandsgranska** på menyn **Alternativ** för den valda variabeln.
 Du kan också välja att **ta bort** eller **duplicera** användarvariablerna. Om du tar bort en variabel från ett språk tas den automatiskt bort från alla språk.

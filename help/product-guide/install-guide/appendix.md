@@ -1,11 +1,12 @@
 ---
 title: Bilaga
-description: Lär dig hur du förbereder InDesigner för konvertering
+description: Lär dig förbereda InDesign-filer för konvertering
 exl-id: 02da0e61-7a73-4c4c-9bd7-2664d90fa728
 feature: InDesign File Conversion
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '2851'
 ht-degree: 0%
@@ -16,19 +17,19 @@ ht-degree: 0%
 
 ## Förbered InDesign-filer för konvertering {#id195DBF0045Z}
 
-InDesign ger författarna en mängd funktioner för att skapa attraktiva och komplexa dokument. Det innebär ofta att de olika delarna av ett dokument placeras visuellt på sidan, men att inget försök görs att skapa något flöde mellan dessa textramar. När *läsordningen* för textramarna inte har definierats innehåller IDML-filen artiklar som kanske inte följer någon meningsfull ordning. Slutresultatet blir ett eller flera DITA-avsnitt med stycken, tabeller och bilder i slumpmässig ordning.
+InDesign har en mängd funktioner för framtagning av snygga och komplexa dokument. Det innebär ofta att de olika delarna av ett dokument placeras visuellt på sidan, men att inget försök görs att skapa något flöde mellan dessa textramar. När *läsordningen* för textramarna inte har definierats innehåller IDML-filen artiklar som kanske inte följer någon meningsfull ordning. Slutresultatet blir ett eller flera DITA-avsnitt med stycken, tabeller och bilder i slumpmässig ordning.
 
-Även om det går att redigera DITA-innehåll i en vettig ordning i en DITA-redigerare är det mycket enklare att åtgärda InDesignen innan du skapar IDML-filen. Detta kan du göra utan att ändra utseendet på källdokumentet. Det har också fördelen att göra källdokumentet tillgängligt genom att rätt definiera läsordningen.
+Även om det går att redigera DITA-innehållet i en vettig ordning i en DITA-redigerare är det mycket enklare att åtgärda InDesign-filen innan du skapar IDML-filen. Detta kan du göra utan att ändra utseendet på källdokumentet. Det har också fördelen att göra källdokumentet tillgängligt genom att rätt definiera läsordningen.
 
 ***Koppla textramar***
 
-I InDesignen används termen *&#39;threading&#39;* för att länka en bildruta till en annan. Mer information om hur du kopplar textramar finns i avsnittet *[Koppla text](https://helpx.adobe.com/in/indesign/using/threading-text.html)* i InDesignens dokumentation.
+InDesign använder termen *&#39;threading&#39;* för att länka en bildruta till en annan. Mer information om hur du kopplar textramar finns i avsnittet *[Koppla text](https://helpx.adobe.com/in/indesign/using/threading-text.html)* i InDesign-dokumentationen.
 
 ***Överlappande bildrutor***
 
-I vissa InDesigner används icke-kopplade överlappande bildrutor av layoutskäl. Det kan vara mycket svårt att sammanfoga det här innehållet i huvudtråden. Det bästa alternativet kan vara att redigera resultatet i DITA-miljön.
+I vissa InDesign-dokument används icke-kopplade överlappande ramar av layoutskäl. Det kan vara mycket svårt att sammanfoga det här innehållet i huvudtråden. Det bästa alternativet kan vara att redigera resultatet i DITA-miljön.
 
-***InDesigner***
+***InDesign-artiklar***
 
 Varje kopplat innehållsflöde i ett InDesign-dokument kallas *artikel*. För bästa resultat rekommenderar vi att du begränsar antalet artiklar. Det finns dock vissa delar av dokumentet som kanske inte behövs i DITA-utdata. Sidfötter behövs till exempel sällan, men de kan visas mitt i ett avsnitt om de inte hanteras försiktigt.
 
@@ -46,7 +47,7 @@ Det är viktigt att källdokumentet har minst ett styckeformat eller -element so
 
 ***Flera DITA-dokumenttyper***
 
-Om några av styckena *Rubrik1* behöver konverteras till olika DITA-dokumenttyper duplicerar du styckeformatet i InDesignen. Ge dessa format ett enkelt namn som *Rubrik1\_genTask* eller *Rubrik1\_troubleshooting* efter behov. Konfigurera sedan filen mapStyle enligt nedan:
+Om några av styckena *Rubrik1* behöver konverteras till olika DITA-dokumenttyper duplicerar du styckeformatet i InDesign. Ge dessa format ett enkelt namn som *Rubrik1\_genTask* eller *Rubrik1\_troubleshooting* efter behov. Konfigurera sedan filen mapStyle enligt nedan:
 
 ```XML
 <doctypes>
@@ -62,23 +63,23 @@ Om några av styckena *Rubrik1* behöver konverteras till olika DITA-dokumenttyp
 </doctypes>
 ```
 
-***Dokument med strukturerad InDesign***
+***Strukturerade InDesign-dokument***
 
-InDesignen har ett löst förhållande till XML. Även om ett dokument kan innehålla en DTD för XML och huvudartikeln kan vara giltig mot DTD-filen, går det också att skapa hybriddokument där en del av innehållet är XML, men inget DTD-dokument inkluderas. Detta är de oönskade fallen vid en lyckad konvertering till DITA. Om ett dokument innehåller XML-delar kan du försöka spara utdata i XML-format och se om resultaten är godtagbara. Annars kommer DITA-innehållet också att innehålla ogiltigt innehåll eller misslyckas helt.
+InDesign har ett löst förhållande till XML. Även om ett dokument kan innehålla en DTD för XML och huvudartikeln kan vara giltig mot DTD-filen, går det också att skapa hybriddokument där en del av innehållet är XML, men inget DTD-dokument inkluderas. Detta är de oönskade fallen vid en lyckad konvertering till DITA. Om ett dokument innehåller XML-delar kan du försöka spara utdata i XML-format och se om resultaten är godtagbara. Annars kommer DITA-innehållet också att innehålla ogiltigt innehåll eller misslyckas helt.
 
 ***Tabellformatering***
 
-Konverteringen från tabellformateringsregler för InDesign till motsvarande tabellformatering i DITA är en komplex process. Detta beror på de omfattande formateringsfunktioner som finns i källfilerna jämfört med de grundläggande alternativen i Oasis \(CALS\)-tabellmodellen som används i DITA. Lodrät och vågrät textjustering tillhandahålls och ger liknande resultat, även om Justerad text alltid justeras enligt textriktningen, medan InDesign tillåter Vänsterjusterad och Högerjusterad.
+Konverteringen från InDesign tabellformateringsregler till motsvarande tabellformatering i DITA är en komplex process. Detta beror på de omfattande formateringsfunktioner som finns i källfilerna jämfört med de grundläggande alternativen i Oasis \(CALS\)-tabellmodellen som används i DITA. Lodrät och vågrät textjustering tillhandahålls och ger liknande resultat även om Justerad text alltid justeras enligt textriktningen, medan InDesign tillåter Vänsterjusterad och Högerjusterad.
 
-InDesignens hantering av kolumn- och radavgränsare är nu ännu mer användbar än tabellmodellens grundläggande alternativ i Oasis. InDesign har fyra cellkanter - Kantlinjetyp \(heldragen eller mönster\), Kantbredd, Kantfärg, Kantfärg, Kantmellanrumsfärg och Kantmellanrumston. Alla dessa måste mappas nedåt till kantlinjer till höger och nederst i varje cell \(entry element\) där de enda alternativen är 0 eller 1 - dölj kantlinjen eller visa kantlinjen.
+InDesign hantering av kolumn- och radavgränsare är nu ännu mer användbar än tabellmodellens grundläggande alternativ i Oasis. InDesign har fyra cellkanter - Kantlinjetyp \(heldragen eller mönster\), Kantbredd, Kantfärg, Kantfärg, Kantmellanrumsfärg och Kantmellanrumston. Alla dessa måste mappas nedåt till kantlinjer till höger och nederst i varje cell \(entry element\) där de enda alternativen är 0 eller 1 - dölj kantlinjen eller visa kantlinjen.
 
-Kantlinjering i InDesign kan användas på följande nivåer:
+Kantlinjaler i InDesign kan användas på följande nivåer:
 
 - Tabellformat
 - Cellformat
 - Lokala åsidosättningar i varje cell
 
-InDesignen till DITA-konverteringsprocessen tillämpar kantlinjalen enligt följande:
+Konverteringsprocessen mellan InDesign och DITA tillämpar gränsreglerna enligt följande:
 
 - Tabellformat mappas till attributet `colspec/@colsep` för lodräta regler. Vågräta linjer mappas till attributet `row/@rowsep`. I båda fallen skapas inte attributet om kantlinjen inte är definierad.
 - Cellformat mappas till attributen `entry/@colsep` och `entry/@rowsep`. Dessa värden åsidosätter alla härledda kanter i tabellformat.
@@ -86,13 +87,13 @@ InDesignen till DITA-konverteringsprocessen tillämpar kantlinjalen enligt följ
 
 ***Alternerande mönster***
 
-Med tabellformat för InDesigner kan stapel- och cellinjer följa ett alternerande mönster. Den här funktionen stöds för konvertering, men resultatet blir bara tydligt när en mönstergrupp mappas till reglaget \(1\) och den andra mönstergruppen mappar till att dölja reglaget \(0\).
+Med InDesign tabellformat kan stapel- och cellinjer följa ett alternerande mönster. Den här funktionen stöds för konvertering, men resultatet blir bara tydligt när en mönstergrupp mappas till reglaget \(1\) och den andra mönstergruppen mappar till att dölja reglaget \(0\).
 
 ## Förbered mappningsfilen för InDesign till DITA-migrering {#id194AF0003HT}
 
-För korrekt DITA-konvertering krävs en mappningsfil som matchar innehållet i källdokumentet. För dokument med ostrukturerad InDesign innebär detta att alla tillgängliga styckeformat och teckenformat måste kopplas. För dokument med XML-strukturerad InDesign måste alla element i tillhörande DTD mappas.
+För korrekt DITA-konvertering krävs en mappningsfil som matchar innehållet i källdokumentet. För ostrukturerade InDesign-dokument innebär detta att alla tillgängliga styckeformat och teckenformat måste mappas. För XML-strukturerade InDesign-dokument måste alla element i tillhörande DTD mappas.
 
-Mappningsfilerna för ostrukturerade och strukturerade InDesigner är olika. Detta beror på de mer komplexa bearbetningskrav som ställs för att konvertera ostrukturerat källinnehåll till DITA.
+Mappningsfilerna för ostrukturerade och strukturerade InDesign-dokument skiljer sig åt. Detta beror på de mer komplexa bearbetningskrav som ställs för att konvertera ostrukturerat källinnehåll till DITA.
 
 Nedan visas ett exempel på mappningsfilen:
 
@@ -195,7 +196,7 @@ I ovanstående exempel finns två `paraRule`-element för `@style` = &quot;Rubri
 
 Attributen som används i `doctypeParaRule` förklaras nedan:
 
-- `@style`: Namnet på ett format i källdokumentet för InDesign.
+- `@style`: Namnet på ett format i InDesign-källdokumentet.
 - `@local`: Se [\#id194CG0V005Z](#id194CG0V005Z).
 - `@mapToDoctype`: Namnet på en DITA-ämnestyp från en numrerad lista med alla giltiga `doctypes`.
 
@@ -297,15 +298,15 @@ I följande exempel visas hur du flyttar en `title` till en `table`:
 
 ***`paraRule`element***
 
-Elementet `paraRule` är obligatoriskt. Detta anger mappningsreglerna för alla styckeformat. I ett styckedokument finns all InDesign i en understruktur till styckeformat, även stycken utan format med namnet `[No paragraph style]`. De här hakparenteserna anger ett inbyggt namn på InDesignen.
+Elementet `paraRule` är obligatoriskt. Detta anger mappningsreglerna för alla styckeformat. I ett InDesign-dokument finns all text i en understruktur till styckeformat, även stycken utan format namnges `[No paragraph style]`. De här hakparenteserna anger ett inbyggt InDesign-formatnamn.
 
 >[!NOTE]
 >
-> Hakparenteserna anger ett inbyggt namn på InDesignen.
+> Hakparenteserna anger ett inbyggt InDesign-formatnamn.
 
 Attributen som används i `paraRule` förklaras nedan:
 
-- `@style`: Namnet på ett format i källdokumentet för InDesign.
+- `@style`: Namnet på ett format i InDesign-källdokumentet.
 - `@local`: Se [\#id194CG0V005Z](#id194CG0V005Z).
 - `@mapTo`: Namnet på ett DITA-målelement.
 
@@ -334,11 +335,11 @@ Attributen som används i `paraRule` förklaras nedan:
 
 Detta är ett valfritt element.
 
-Detta är mappningsreglerna för alla teckenformat. I ett textdokument finns all InDesign i underordnade element till teckenformat.
+Detta är mappningsreglerna för alla teckenformat. I ett InDesign-dokument finns all text i underordnade element till teckenformat.
 
 Attributen som används i `charRule` förklaras nedan:
 
-- `@style`: Namnet på ett format i källdokumentet för InDesign.
+- `@style`: Namnet på ett format i InDesign-källdokumentet.
 - `@local`: Se [\#id194CG0V005Z](#id194CG0V005Z).
 - `@mapTo`: Namnet på ett DITA-målelement.
 - `@refactor`: Det här valfria attributet har två värden:
@@ -382,7 +383,7 @@ Attributen som används i `attributeRules` förklaras nedan:
 
 **Lokala formateringskoder**
 
-I alla slags InDesigner kan det finnas flera hundra olika formatåsidosättningar för styckeformat och teckenformat. De flesta av dessa egenskaper har ingen användbar roll i konverteringsprocessen. Vi har dock identifierat en viktig uppsättning formateringsfunktioner som påverkar dokumentets semantik och som måste påverka konverteringsprocessen.
+I alla InDesign-dokument går det att använda flera hundra olika formatåsidosättningar för styckeformat och teckenformat. De flesta av dessa egenskaper har ingen användbar roll i konverteringsprocessen. Vi har dock identifierat en viktig uppsättning formateringsfunktioner som påverkar dokumentets semantik och som måste påverka konverteringsprocessen.
 
 Attributen `@local` visas som ett särskilt avgränsat format där åtta fält anges tillsammans med ett prefix som visar typen av formateringsåsidosättning. Formateringskodfälten visas nedan:
 
@@ -392,7 +393,7 @@ Attributen `@local` visas som ett särskilt avgränsat format där åtta fält a
 - **Teckenposition** för upphöjd eller nedsänkt text.
 - **Under** för understreck.
 - **Genomstrykning** för genomstrykning.
-- **Visa kod** för att identifiera listtyp som punktlistor eller numrerade - används inte alltid som InDesign.
+- **Ange listkod** för att identifiera listtypen som punktlistor eller numrerade - används inte alltid av InDesign.
 - **Punktkod** visar alla definierade punkttyper i dokumentet.
 - **Nummerkod** visar alla definierade numreringsformat i dokumentet.
 
@@ -414,11 +415,11 @@ Elementet `mapDoctypeElemRule` är obligatoriskt. Det här elementets attribut f
 
 **`elementRules`element** Visar alla element.
 
-**`elementRule`element** Elementet `elementRule` är obligatoriskt. Detta är mappningsreglerna för alla källelement. Ett InDesign-dokument innehåller ostrukturerade formatelement, men dessa ignoreras för strukturerat innehåll om inte ***hybridlägesbearbetningen*** är aktiverad.
+**`elementRule`element** Elementet `elementRule` är obligatoriskt. Detta är mappningsreglerna för alla källelement. Ett InDesign-dokument innehåller ostrukturerade formatelement, men dessa ignoreras för strukturerat innehåll såvida inte bearbetningen ***hybridläge*** är aktiverad.
 
 Attributen som används i `elementRule` förklaras nedan:
 
-- `@elementName`: Namnet på ett element i källdokumentet för InDesign.
+- `@elementName`: Namnet på ett element i InDesign-källdokumentet.
 
 - `@local`: Se [\#id194CG0V005Z](#id194CG0V005Z). \(Endast användbart för hybrid-dokument\).
 
@@ -453,7 +454,7 @@ Gör så här för att kontrollera referenserna med det valideringsskript som fi
 1. Kör valideringsskriptet \[`/bin/fmdita/validatebtree?operation=validate`\] för att kontrollera om det finns några nya brutna referenser.
 1. Om valideringsskriptet rapporterar fel kan du åtgärda det med hjälp av korrigeringsskriptet.
 1. Registrera nedanstående uppgifter och dela dem vid behov med kundens framgångsgrupp:
-1. &#x200B;
+1. 
    - Loggar som skrivs ut med valideringsskript
 - Paket med `/content/fmdita/references`
 - Övriga obligatoriska uppgifter beroende på scenario som rapporteras
@@ -467,7 +468,7 @@ Utför följande steg för att korrigera eventuella brutna referenser med hjälp
    **Obs!* Vi rekommenderar att du kopierar och sparar loggarna i referenssyfte.
 
 1. När korrigeringsskriptet har körts kan du utföra följande kontroller:
-1. &#x200B;
+1. 
    - Kontrollera att den nya noden `references_backup_<timestamp>"` har skapats under `/content/fmdita`
 - Kontrollera att referenserna har åtgärdats
 

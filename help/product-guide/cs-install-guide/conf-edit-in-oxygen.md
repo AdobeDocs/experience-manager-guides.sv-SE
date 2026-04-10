@@ -5,7 +5,8 @@ exl-id: 96081a6d-39cf-4697-8b43-6494543ea187
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 0%
@@ -28,4 +29,4 @@ Använd instruktionerna i [Konfigurationsåsidosättningar](download-install-add
 >
 > Den här konfigurationen är inaktiverad som standard och alternativet är inte tillgängligt i Web Editor.
 
-**Överordnat ämne:**&#x200B;[&#x200B; Anpassa Web Editor](conf-web-editor.md)
+**Överordnat ämne:**[ Anpassa Web Editor](conf-web-editor.md)

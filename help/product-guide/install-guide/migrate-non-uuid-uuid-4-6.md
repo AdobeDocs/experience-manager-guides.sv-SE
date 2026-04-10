@@ -4,7 +4,9 @@ description: Lär dig hur du migrerar icke-UID till UUID-innehåll
 feature: Migration
 role: Admin
 level: Experienced
-source-git-commit: 56f1bd81e74ad9b479b2dcbcf04e1ee82e9a9041
+exl-id: f17a2e02-62de-4ed6-8d1f-4c72e7488437
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '1568'
 ht-degree: 0%
@@ -219,5 +221,4 @@ En lista över **Filer som har uppgraderats med fel** och **Filer som misslyckad
    > Om egenskapen **Använd titel för sidnamn på AEM-webbplatser** i `com.adobe.fmdita.config.ConfigManager` anges till *Falskt* före migreringen, måste den här egenskapen uppdateras efter migreringen.
 
 
-1. När valideringen är klar kan större delen av diskutrymmet återvinnas genom att en komprimering körs (se `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=sv-SE`).
-
+1. När valideringen är klar kan större delen av diskutrymmet återvinnas genom att en komprimering körs (se `https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html?lang=en`).

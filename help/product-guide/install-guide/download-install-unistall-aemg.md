@@ -5,7 +5,8 @@ exl-id: 6c6b9692-cdec-426f-bc3b-f09d0091da39
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 0%
@@ -18,7 +19,7 @@ Du kan avinstallera AEM Guides med CRX Package Manager. Under avinstallationen �
 
 Så här avinstallerar du AEM Guides:
 
-1. Logga in i AEM och navigera till CRX Package Manager. Standardwebbadressen för att få åtkomst till pakethanteraren är:
+1. Logga in på din AEM-instans och navigera till CRX Package Manager. Standardwebbadressen för att få åtkomst till pakethanteraren är:
 
    ```http
    http://<server name>:<port>/crx/packmgr/index.jsp
@@ -49,4 +50,4 @@ Så här rensar du de återstående filerna efter avinstallationen:
 1. Klicka på **Invalidera cache**.
 1. Rensa webbläsarens cache.
 
-**Överordnat ämne:**&#x200B;[&#x200B; Hämta och installera](download-install.md)
+**Överordnat ämne:**[ Hämta och installera](download-install.md)

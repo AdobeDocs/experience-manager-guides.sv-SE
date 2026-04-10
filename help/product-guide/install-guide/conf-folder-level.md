@@ -5,7 +5,8 @@ exl-id: d7bf7e69-fe12-4c48-8ce4-17b74a6c61e7
 feature: Profiles
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '3896'
 ht-degree: 0%
@@ -58,7 +59,7 @@ Med hjälp av panelen Mappprofiler i inställningarna för stödlinjer kan du ko
 
 - **Utdataförinställning**: På samma sätt som för redigeringsmallar finns det fem förkonfigurerade utdataförinställningar:
 
-   - AEM
+   - AEM Site
 
    - PDF
 
@@ -66,7 +67,7 @@ Med hjälp av panelen Mappprofiler i inställningarna för stödlinjer kan du ko
 
    - EPUB
 
-   - Egen
+   - Anpassad
 
   Utgivare kan publicera innehåll med hjälp av de här förinställningarna för färdiga utdata. Dessa förinställningar kan konfigureras av en administratör för den globala profilen eller profilen på mappnivå. När publiceringsförinställningarna har konfigurerats blir de tillgängliga för utgivaren för nya DITA-kartor. Du kan också använda förinställningar för publicering på befintliga DITA-kartor. Mer information finns i [Använda förinställda ändringar](#id18AGD0K0OHS).
 
@@ -363,7 +364,7 @@ Utför följande steg för att konfigurera globala eller mappspecifika förinst�
 
 1. På profilsidan. klicka på fliken **Utdatainställningar**.
 
-   En lista med färdiga förinställningar visas, som AEM Site, PDF, HTML 5, EPUB och CUSTOM.
+   En lista med färdiga förinställningar visas, t.ex. AEM Site, PDF, HTML5, EPUB och CUSTOM.
 
 1. Gör något av följande om du vill skapa eller redigera en förinställning för utdata:
 
@@ -399,7 +400,7 @@ Om du har uppdaterat en befintlig förinställning eller vill göra en ny förin
 
 1. På profilsidan. klicka på fliken **Utdatainställningar**.
 
-   En lista med färdiga förinställningar visas, som AEM Site, PDF, HTML 5, EPUB och CUSTOM.
+   En lista med färdiga förinställningar visas, t.ex. AEM Site, PDF, HTML5, EPUB och CUSTOM.
 
 1. Välj den förinställning för utdata som du vill använda på befintliga DITA-kartor.
 

@@ -5,7 +5,8 @@ exl-id: 9029b671-8ff8-45eb-b27e-ab89bd09e7ed
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 0%
@@ -24,6 +25,6 @@ Använd instruktionerna i [Konfigurationsåsidosättningar](download-install-add
 
 När den här konfigurationen är aktiverad är kryssrutan **Spara som ny version** markerad som standard i dialogrutan.
 
-Mer information finns i avsnittet *Stäng och spara scenarier* i Använda Adobe Experience Manager Guides as a Cloud Service Guide.
+Mer information finns i avsnittet *Stäng och spara scenarier* i guiden Använda Adobe Experience Manager Guides as a Cloud Service.
 
-**Överordnat ämne:**&#x200B;[&#x200B; Anpassa Web Editor](conf-web-editor.md)
+**Överordnat ämne:**[ Anpassa Web Editor](conf-web-editor.md)

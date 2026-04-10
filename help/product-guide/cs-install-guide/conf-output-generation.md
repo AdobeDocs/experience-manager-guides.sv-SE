@@ -5,7 +5,8 @@ exl-id: b5cf4f6c-dc56-428e-a514-6c9f879ac03d
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 1524533c6ffcdfc8aed3cf53cf3467dcdd22369f
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '5703'
 ht-degree: 0%
@@ -128,7 +129,7 @@ Gör så här för att ange en egen designmall som ska användas för att genere
 >
 > När du har skapat en anpassad designmallsnod måste du uppdatera designalternativet i förinställningarna för AEM Site-utdata för att kunna använda den anpassade designmallsnoden.
 
-Mer information finns i [Skapa din första Adobe Experience Manager-webbplats](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=sv-SE) och [Grunderna](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=sv-SE) för att utveckla din egen webbplats på AEM.
+Mer information finns i [Skapa din första Adobe Experience Manager-webbplats](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=en) och [Grunderna](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=en) för att utveckla din egen webbplats på AEM.
 
 ### Använd dokumenttitel för att generera utdata från AEM webbplats
 
@@ -269,7 +270,7 @@ Om du vill utesluta elementet `table` från förenkling lägger du till följand
 
 ### Konfigurera versionshantering för borttagna sidor i AEM Site-utdata
 
-När du genererar utdata för AEM-webbplatsen med alternativet **Ta bort och** Skapa **&#x200B;**&#x200B;valt för inställningen Befintliga utdatasidor skapas en version för sidan/sidorna som tas bort. Du kan konfigurera systemet så att det inte längre skapas en version innan du tar bort den.
+När du genererar utdata för AEM-webbplatsen med alternativet **Ta bort och** Skapa ****valt för inställningen Befintliga utdatasidor skapas en version för sidan/sidorna som tas bort. Du kan konfigurera systemet så att det inte längre skapas en version innan du tar bort den.
 
 Utför följande steg för att stoppa skapandet av en version för den sida/de sidor som ska tas bort:
 
@@ -630,11 +631,11 @@ AEM Guides tillhandahåller kategorin `apps.fmdita.dashboard-extn` för att anpa
 
 >[!NOTE]
 >
-> Mer information om hur du skapar AEM-klientbibliotek finns i [Använda klientbibliotek](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=sv-SE).
+> Mer information om hur du skapar AEM-klientbibliotek finns i [Använda klientbibliotek](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=en).
 
 ## Hantera bildåtergivning under generering av utdata {#id177BF0G0VY4}
 
-AEM innehåller en uppsättning standardarbetsflöden och mediehandtag för att bearbeta resurser. I AEM finns det fördefinierade arbetsflöden för att hantera resurshantering för de vanligaste MIME-typerna. För varje bild som du överför skapas vanligtvis flera återgivningar av samma bild i binärt format i AEM. Dessa återgivningar kan ha olika storlek, med olika upplösning, med vattenstämpel eller någon annan förändrad egenskap. Mer information om hur AEM hanterar resurser finns i [Bearbeta Assets med mediehanterare och arbetsflöden](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=sv-SE) i dokumentationen för AEM.
+AEM innehåller en uppsättning standardarbetsflöden och mediehandtag för att bearbeta resurser. I AEM finns det fördefinierade arbetsflöden för att hantera resurshantering för de vanligaste MIME-typerna. För varje bild som du överför skapas vanligtvis flera återgivningar av samma bild i binärt format i AEM. Dessa återgivningar kan ha olika storlek, med olika upplösning, med vattenstämpel eller någon annan förändrad egenskap. Mer information om hur AEM hanterar resurser finns i [Bearbeta Assets med mediehanterare och arbetsflöden](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html?lang=en) i dokumentationen för AEM.
 
 Med AEM Guides kan du konfigurera vilken bildåtergivning som ska användas när utdata genereras för dina dokument. Du kan till exempel välja mellan en av standardbildåtergivningarna eller skapa en och använda samma för att publicera dina dokument. Mappning av bildåtergivning för publicering av dina dokument lagras i filen `/libs/fmdita/config/ **renditionmap.xml**`. Ett fragment av filen `renditionmap.xml` är följande:
 

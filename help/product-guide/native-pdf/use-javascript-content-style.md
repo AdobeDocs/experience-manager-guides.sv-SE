@@ -1,11 +1,12 @@
 ---
-title: PDF Publish-funktion | Använda JavaScript för att arbeta med innehåll eller stil
+title: Inbyggd publiceringsfunktion i PDF | Använd JavaScript för att arbeta med innehåll eller stil
 description: Lär dig hur du skapar formatmallar och skapar format för ditt innehåll.
 exl-id: 2f301f6a-0d1c-4194-84c2-0fddaef8d3ec
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: ad12cac61d14bc68bf73dc407a74a22c8248d7b3
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 0%
@@ -14,11 +15,11 @@ ht-degree: 0%
 
 # Använda JavaScript för att arbeta med innehåll eller stil
 
-Med publiceringsfunktionen för PDF kan du köra JavaScript för att ändra innehåll eller format som används på innehåll innan det slutliga PDF skapas. Med den här funktionen får du fullständig kontroll över hur det slutliga resultatet genereras. Du kan till exempel lägga till juridisk information till utdata från PDF, som finns i andra PDF. Med JavaScript kan du lägga till juridisk information när PDF har skapats för basinnehållet, men innan det slutgiltiga PDF skapas.\
-Som stöd för JavaScript-körning ger publiceringsfunktionen Native PDF följande återanropsfunktioner:
+Med den inbyggda PDF Publishing-funktionen kan du köra JavaScript för att ändra innehåll eller format som används på innehåll innan den slutliga PDF genereras. Med den här funktionen får du fullständig kontroll över hur det slutliga resultatet genereras. Du kan till exempel lägga till juridisk information i utdata från PDF, som finns i en annan PDF. Med JavaScript kan du lägga till information om juridiska meddelanden när PDF har skapats för basinnehållet, men innan den slutliga PDF genereras.\
+Som stöd för körning av JavaScript ger den inbyggda PDF-publiceringsfunktionen följande återanropsfunktioner:
 
 * `window.pdfLayout.onBeforeCreateTOC(callback)`: Den här återanropsfunktionen körs innan innehållsförteckningen genereras.
-* `window.pdfLayout.onBeforePagination(callback)`: Den här återanropsfunktionen körs efter att innehållsförteckningen har genererats, men innan sidbrytningar läggs till i PDF.
+* `window.pdfLayout.onBeforePagination(callback)`: Den här återanropsfunktionen körs efter att innehållsförteckningen har skapats, men innan sidbrytningar läggs till i PDF.
 * `window.pdfLayout.onAfterPagination(callback)`: Den här återanropsfunktionen körs efter innehållsförteckningen och sidbrytningarna läggs till i PDF.
 
 >[!NOTE]
@@ -65,7 +66,7 @@ window.addEventListener('DOMContentLoaded', function () {
 >
 >Funktionen `window.addEventListener('DOMContentLoaded', function ()` måste anropas innan återanropsfunktionerna används.
 
-Sedan måste skriptet anropas från en mallfil som används för att generera utdata från PDF. Vi kommer till exempel att lägga till det i innehållsförteckningsmallen. Kontrollera att taggen `<script>` läggs till i en fördefinierad `<div>` -tagg inuti taggen `<body>`. Om du lägger till det i taggen `<head>` eller utanför taggen `<body>` körs inte skriptet.
+Sedan måste skriptet anropas från en mallfil som används för att generera PDF-utdata. Vi kommer till exempel att lägga till det i innehållsförteckningsmallen. Kontrollera att taggen `<script>` läggs till i en fördefinierad `<div>` -tagg inuti taggen `<body>`. Om du lägger till det i taggen `<head>` eller utanför taggen `<body>` körs inte skriptet.
 
 <img src="./assets/js-added-resources-template.png" width="500">
 
@@ -73,10 +74,10 @@ De utdata som skapas med den här koden och mallen visar figurtiteln nedanför b
 
 <img src="./assets/fig-title-below-image.png" width="500">
 
-## Lägga till en vattenstämpel i PDF för utkast till dokument {#watermark-draft-document}
+## Lägga till en vattenstämpel i PDF-utdata för utkast {#watermark-draft-document}
 
 Du kan också använda JavaScript för att lägga till villkorliga vattenstämplar. Dessa vattenstämplar läggs till i dokumentet när det definierade villkoret är uppfyllt.\
-Du kan t.ex. skapa en JavaScript-fil med följande kod för att skapa en vattenstämpel till utdata från PDF i dokumentet som ännu inte har godkänts. Den här vattenstämpeln visas inte om du genererar PDF för dokumentet i dokumentet Godkänt.
+Du kan till exempel skapa en JavaScript-fil med följande kod för att skapa en vattenstämpel för PDF-utdata av dokumentet som ännu inte har godkänts. Den här vattenstämpeln visas inte om du genererar PDF för dokumentet i dokumentläget Godkänd.
 
 ```css
 ...
@@ -101,6 +102,6 @@ window.addEventListener('DOMContentLoaded', function () {
 ...
 ```
 
-De PDF-utdata som skapas med den här koden visar en vattenstämpel, *Utkast*, på dokumentets försättssida:
+De PDF-utdata som skapas med den här koden visar vattenstämpeln *Utkast* på försättssidan för dokumentet:
 
 <img src="./assets/draft-watermark.png" width="500">

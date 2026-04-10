@@ -5,7 +5,8 @@ exl-id: 4d3e0fc1-b684-44f9-ab0d-411033024019
 feature: DITA-OT Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '1700'
 ht-degree: 0%
@@ -52,7 +53,7 @@ Utför följande steg för att överföra ett anpassat DITA-OT-plugin-program ti
 
    >[!NOTE]
    >
-   > Vi rekommenderar att du inte skriver över DITA-OT-standardpaketet. Du bör överföra ditt anpassade DITA-OT-paket som innehåller din plugin-mapp /var/dxml/dita\_resources/dita-ot-mapp. Du kan också göra det med Cloud Manager pipeline. Mer information finns i [Distribuera till AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html?lang=sv-SE) i AEM-dokumentationen.
+   > Vi rekommenderar att du inte skriver över DITA-OT-standardpaketet. Du bör överföra ditt anpassade DITA-OT-paket som innehåller din plugin-mapp /var/dxml/dita\_resources/dita-ot-mapp. Du kan också göra det med Cloud Manager pipeline. Mer information finns i [Distribuera till AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html) i AEM-dokumentationen.
 
 1. Du kan välja att redigera standardprofilen, skapa en ny profil eller duplicera inställningar från standardprofilen för att skapa en ny profil.
 

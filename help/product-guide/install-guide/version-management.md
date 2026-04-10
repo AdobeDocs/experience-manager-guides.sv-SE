@@ -5,7 +5,8 @@ exl-id: 24e44618-9c4e-4547-a00d-216ef3fb4854
 feature: Version Management
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '1662'
 ht-degree: 0%
@@ -42,7 +43,7 @@ Så här skapar du en ny version av den överförda filen:
 
    Som standard är det här alternativet inaktiverat.
 
-   När alternativet är markerat utförs en ny versionshanteringsmekanism och åsidosätter standardbeteendet för överföring, som är för alla efterföljande överföringar, så sparas innehållet i den överförda filen som en ny version. Om alternativet är avmarkerat används den AEM standardmekanismen för versionshantering i AEM Guides.
+   När alternativet är markerat utförs en ny versionshanteringsmekanism och åsidosätter standardbeteendet för överföring, som är för alla efterföljande överföringar, så sparas innehållet i den överförda filen som en ny version. Om alternativet är avmarkerat använder AEM Guides AEM standardmekanism för versionshantering.
 
 1. Klicka på **Spara**.
 
@@ -152,7 +153,7 @@ Förutom den nya indexegenskapen kontrollerar du att följande egenskaper har an
 
 ## Förhindra borttagning av refererade filer
 
-Som administratör kan du styra vem som kan ta bort filer från AEM. I synnerhet om en fil innehåller referenser eller refereras av någon annan fil, kan du definiera vem som kan ta bort sådana filer.
+Som administratör kan du styra vem som kan ta bort filer från AEM-databasen. I synnerhet om en fil innehåller referenser eller refereras av någon annan fil, kan du definiera vem som kan ta bort sådana filer.
 
 Med den här konfigurationen kan du tillåta eller neka alla användare att ta bort filer eller tillåta att endast en viss användargrupp tar bort filer. Om det är tillåtet att ta bort filer följer du följande process:
 
@@ -212,7 +213,7 @@ Utför följande steg för att rensa de äldre versionerna:
 
    ![](assets/preview-purge-report.png){width="350" align="left"}
 
-1. &#x200B;
+1. 
    - **Antal versioner som ska behållas från den senaste versionen**: Ange antalet versioner som ska behållas och inte rensas. Om vi till exempel anger 5 behålls de senaste 5 versionerna och de tidigare versionerna är kvalificerade att rensas om andra rensningsvillkor uppfylls.
 - **Behåll versioner som skapats inom tidsintervallet \(i dagar\)**: Ange den maximala åldern för en version i dagar. Versioner som är äldre än det angivna antalet dagar kan rensas om andra rensningsvillkor uppfylls. Om vi till exempel anger 100 kvalificeras alla versioner som skapats före 100 dagar att rensas om andra rensningsvillkor uppfylls.
 - **Sökväg**: Välj sökvägen till filen eller mappen vars filer du vill rensa.

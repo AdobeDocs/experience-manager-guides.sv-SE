@@ -4,7 +4,9 @@ description: Lär dig hur du anpassar visningen av inklistrade tabeller i redige
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: d03ac6ba3ec8e5c52c31a3239e2043bbae79622e
+exl-id: 839128b4-4889-4c61-b1c0-214ba1d3165e
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 0%
@@ -29,7 +31,7 @@ Så här uppdaterar du standardtabellformatet:
 4. Gå till fliken **XML-redigerarkonfiguration**.
 5. Välj ikonen **Redigera** längst upp.
 6. Välj ikonen **Hämta** om du vill hämta filen `ui_config.json` på din lokala dator.
-7. Uppdatera inställningen för `simpletable` i filen `ui_config.json` enligt nedan:
+7. Uppdatera inställningen för `ui_config.json` i filen `simpletable` enligt nedan:
 
    ```
    "htmlToDitaMapping":{ "table": {
@@ -43,4 +45,3 @@ Så här uppdaterar du standardtabellformatet:
 
 
 När filen har uppdaterats sparar du den och överför den.
-

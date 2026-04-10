@@ -5,7 +5,8 @@ exl-id: e5e50cb8-45a9-4045-abac-88a3de62803d
 feature: Filename Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '70'
 ht-degree: 0%
@@ -20,4 +21,4 @@ Det här avsnittet innehåller information om hur du arbetar med filnamn för DI
 
 - **[Konfigurera Regx för giltiga filnamnstecken](conf-file-names-valid-regx.md)**
 
-- **[Konfigurera giltiga filnamn för AEM webbplatsutdata](conf-file-names-valid-regx-aem-site-output.md)**
+- **[Konfigurera giltiga filnamn för AEM Site-utdata](conf-file-names-valid-regx-aem-site-output.md)**

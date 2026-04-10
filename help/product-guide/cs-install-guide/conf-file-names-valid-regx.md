@@ -5,7 +5,8 @@ exl-id: 05e9ca3c-28ff-4f82-8061-3d20307890ff
 feature: Filename Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 0%
@@ -30,6 +31,6 @@ Använd instruktionerna i [Konfigurationsåsidosättningar](download-install-add
 
 >[!NOTE]
 >
-> På samma sätt som i listan med giltiga filnamnstecken kan du även ange en lista med giltiga filnamnstecken för AEM. Mer information finns i [Konfigurera giltiga filnamn för AEM &#x200B;](conf-file-names-valid-regx-aem-site-output.md#).
+> På samma sätt som i listan med giltiga filnamnstecken kan du även ange en lista med giltiga filnamnstecken för utdata från AEM Site. Mer information finns i [Konfigurera giltiga filnamn för utdata från AEM Site](conf-file-names-valid-regx-aem-site-output.md#).
 
-**Överordnat ämne:**&#x200B;[&#x200B; Konfigurera filnamn](conf-file-names.md)
+**Överordnat ämne:**[ Konfigurera filnamn](conf-file-names.md)

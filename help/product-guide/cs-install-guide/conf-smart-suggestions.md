@@ -2,7 +2,8 @@
 title: Konfigurera AI Assistant för smart hjälp och redigering
 description: Lär dig konfigurera AI-assistenten i Experience Manager Guides
 exl-id: a595ca1f-0123-40d3-a79c-a066bc6517b4
-source-git-commit: 7d0ae0f13ab77a10beb89fcb0d8592b05c3828bd
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '937'
 ht-degree: 0%

@@ -5,9 +5,10 @@ exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: e8aecbdca448c321ac36804255416a4fb2561f79
+hidefromtoc: true
+source-git-commit: 34687ac8f8877d05e545b23cf0830aa0345a25f7
 workflow-type: tm+mt
-source-wordcount: '5017'
+source-wordcount: '5016'
 ht-degree: 0%
 
 ---
@@ -100,7 +101,7 @@ När du utformar en sidlayout är det viktigt att du har kontroll över olika si
 
 * **Vyrotation** : Ange den sida eller riktning som den ursprungliga översta sidan visas i efter rotation. Du kan välja mellan 90 grader medsols, 90 grader moturs eller 180 grader moturs. Detta är mycket användbart i en situation där du vill använda en kombination av stående och liggande layouter i utdata. Du kan till exempel använda stående som allmän sidlayout och du kan ange en liggande sidlayout för att återge breda tabeller. I så fall kan du ange att tabellinnehållet ska visas medsols 90 grader. På så sätt orienteras sidan liggande och innehållet roteras 90 grader för att kontinuiteten ska kunna bibehållas. Vi kommer att se hur detta uppnås som ett exempel senare i detta avsnitt.
 
-* **Sidnumrering**:Sidnumreringen är som standard kontinuerlig i en PDF. En PDF med 100 sidor kan till exempel ha kontinuerliga sidnummer mellan 1 och 100. Du kan också starta om numreringen från ett visst nummer i alla olika avsnitt eller den första förekomsten av ett avsnitt.
+* **Sidnumrering** :The är som standard löpande i en PDF. En PDF med 100 sidor kan till exempel ha kontinuerliga sidnummer mellan 1 och 100. Du kan också starta om numreringen från ett visst nummer i alla olika avsnitt eller den första förekomsten av ett avsnitt.
    * **Starta om från** : Ange det sidnummer från vilket sidlayouten ska börja. Du kan till exempel ange att sidnumret ska startas om för varje kapitel. I så fall måste du ställa in omstarten från egenskap till 1 på layoutvarianten för första sidan i kapitelsidans layout. Som standard fortsätter sidnumreringen från föregående sida.
 
    * **Använd endast på den första förekomsten**: Du kan också starta från ett visst nummer för den första förekomsten av ett avsnitt. Du kan t.ex. starta endast det första kapitlet från 1 och fortsätta med sidnumren för andra kapitel.
@@ -165,7 +166,6 @@ Utför följande steg för att utföra ovanstående åtgärder:
 1. Ändra egenskapen Visa rotation om du vill återge innehåll 90° medsols.
 
    1. Välj **Medsols 90°** i listrutan Vyrotation.
-
    <img src="./assets/view-rotation-page-props.png" width="300">
 
    1. Klicka på **Spara alla** för att spara de uppdaterade sidlayoutegenskaperna.
@@ -180,11 +180,9 @@ Utför följande steg för att utföra ovanstående åtgärder:
       Layoutformatmallen öppnas för redigering.
 
    1. Högerklicka på **Andra format** och välj **Nytt format**.
-
       <img src="./assets/stylesheet-other-new-style.png" width="300">
 
    1. Ange **liggande stil** i **klassnamnet** i popup-fönstret Lägg till stil.
-
       <img src="./assets/stylesheet-new-landscape-style.png" width="400">
 
    1. Klicka på **Klar**.
@@ -440,7 +438,6 @@ I följande exempel infogar vi ett sidnummer och en kapitelrubrik i sidfotsområ
    1. Klicka på **Innehållsegenskaper** i den högra panelen (<img src="./assets/content-properties-icon.png" width="25">).
 
    1. Expandera egenskapsavsnittet **Layout** och ange **Float**-egenskapsvärdet till **right**.
-
       <img src="./assets/float-prop-html-content.png" width="400">
 
       Fältet Kapiteltitel är justerat mot sidfotens högra sida.

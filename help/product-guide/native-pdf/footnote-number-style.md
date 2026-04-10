@@ -1,11 +1,12 @@
 ---
-title: PDF Publish-funktion | Använda anpassade format i fotnoter
+title: Inbyggd publiceringsfunktion i PDF | Använda anpassade format i fotnoter
 description: Lär dig hur du använder format på siffror i fotnoter.
 exl-id: f1068f2f-2ace-4bdb-b5a4-46b03d4e43d6
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '667'
 ht-degree: 0%
@@ -24,7 +25,7 @@ Alla fotnoter har en fotnotsmärke längst ned på sidan, vilket vanligtvis är 
 
 ## Ändra format för fotnotsanrop och -markörer
 
-Du kan ändra format för fotnotsanrop och fotnotsmärken och hantera deras utseende i utdata från PDF. Med de här formaten kan du snabbt identifiera fotnoterna i dokumentet.
+Du kan ändra format för fotnotsanrop och fotnotsmärken och hantera deras utseende i PDF-utdata. Med de här formaten kan du snabbt identifiera fotnoterna i dokumentet.
 
 
 **Exempel 1**:
@@ -49,7 +50,7 @@ content: "(" counter(footnote, decimal) ")";
 
 
 
-<img src="./assets/pdf-output-footer-numbers.png" alt="Sidfot i utdata från PDF" width="500" border="2px">
+<img src="./assets/pdf-output-footer-numbers.png" alt="Sidfot i PDF-utdata" width="500" border="2px">
 
 *Lägg till hakparenteser runt fotnotsanropet och fotnotsmärket.*
 
@@ -69,7 +70,7 @@ Du kan också flagga fotnotsanropet och fotnotsmärket med en asterisk eller en 
 
 I utdata kan du visa något som:
 
-<img src="./assets/footnote-number-2.png" alt="Sidfot i utdata från PDF" width="500" border="2px">
+<img src="./assets/footnote-number-2.png" alt="Sidfot i PDF-utdata" width="500" border="2px">
 
 *Lägg till asterisk i ett fotnotsanrop och en markör.*
 
@@ -80,7 +81,7 @@ Fotnotsanropet är dolt i huvudinnehållet, men fotnotsmärket visas längst ned
 
 ```css
 .fn[id]::footnote-call {
-		display: none;
+        display: none;
                         }
 ```
 
@@ -91,7 +92,7 @@ Fotnotsområdet är där alla fotnoter placeras, vanligtvis längst ned på en s
 
 ### Sidlayouter
 
-Du kan använda sidegenskaperna för sidlayouter för att formatera fotnotsområdet i olika avsnitt i ett PDF-dokument. Du kan till exempel ange marginaler och utfyllnadsegenskaper för fotnotsområdet i ett kapitel. Du kan också ändra kantlinjens sida, format, färg, bredd och radie.
+Du kan använda sidegenskaperna för sidlayouter för att formatera fotnotsområdet i de olika avsnitten i ett PDF-dokument. Du kan till exempel ange marginaler och utfyllnadsegenskaper för fotnotsområdet i ett kapitel. Du kan också ändra kantlinjens sida, format, färg, bredd och radie.
 
 Lär dig hur du [arbetar med sidegenskaperna i en sidlayout](./design-page-layout.md#page-props-page-layout).
 
@@ -100,13 +101,13 @@ Lär dig hur du [arbetar med sidegenskaperna i en sidlayout](./design-page-layou
 Du kan använda format och formatera fotnotsområdet i ett PDF-dokument. Du kan till exempel ändra kantlinjens längd, format, färg och bredd.
 
 ```css
-	@page {
-	  @footnote {
-   		border-top-style: solid;
-   		border-top-color: #FF0000;
-   		border-top-width: 3px;
- 		        }
-	      }
+   @page {
+     @footnote {
+           border-top-style: solid;
+           border-top-color: #FF0000;
+           border-top-width: 3px;
+                 }
+         }
 ```
 
 ## Starta om numreringen av fotnoter
@@ -137,15 +138,15 @@ Oftast visas varje fotnot som ett block eller börjar på en ny rad. Men du kan 
 
 ```css
 .fn{
-  	display: inline;
+      display: inline;
               }
 ```
 
 ## Använda format på fotnotskorsreferenser
 
-Du kan också korsreferera en fotnot och använda samma fotnot flera gånger i utdata från PDF. Det gör det lättare att referera till samma citat eller detaljerade anteckning flera gånger i dokumentet utan att du behöver skapa en fotnot för den igen.
+Du kan också korsreferera en fotnot och referera till samma fotnot flera gånger i dina PDF-utdata. Det gör det lättare att referera till samma citat eller detaljerade anteckning flera gånger i dokumentet utan att du behöver skapa en fotnot för den igen.
 
-På följande skärmbild visas hur samma fotnot korsrefereras till alla städer i utdata från PDF.
+På följande skärmbild visas hur samma fotnot korsrefereras till alla städer i PDF-utdata.
 <img width="550" alt="fotnotsreferenser i en PDF-fil" src="./assets/link-footnotes.png" border="2px">
 
 *Infoga korsreferensen i en fotnot.*
@@ -158,8 +159,8 @@ Med CSS-format kan du även formatera korsreferenserna till fotnoter. Du kan til
 
 ```css
     .xref-fn{
-	background-color: red;
-	}
+    background-color: red;
+    }
 ```
 
 

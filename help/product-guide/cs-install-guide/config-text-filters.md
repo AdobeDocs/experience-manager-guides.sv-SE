@@ -5,18 +5,19 @@ exl-id: 0963606c-010e-4a72-b7bf-850b86b34a84
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
 
 # Konfigurera textfilter {#id21BPD0FK0XA}
 
-I AEM Guides finns en funktion för att söka efter text i de filer som finns på den valda sökvägen i AEM. Du kan använda filtersökningar för att söka efter filer från databaspanelen eller för att bläddra bland filer. När du arbetar i Web Editor måste du använda dialogrutan för filbläddring för att infoga element som bild, referens eller nyckelreferens.
+I AEM Guides kan du söka efter text i de filer som finns på den valda sökvägen i AEM-databasen. Du kan använda filtersökningar för att söka efter filer från databaspanelen eller för att bläddra bland filer. När du arbetar i Web Editor måste du använda dialogrutan för filbläddring för att infoga element som bild, referens eller nyckelreferens.
 
-Som standard kan du använda vissa förbättrade filter för att söka efter filer i AEM. Du kan filtrera alla DITA-filer eller icke-DITA-filer som finns på den valda sökvägen. Du kan också söka efter specifika värden i attributen för DITA-element. Du kan också söka efter filer som har checkats ut av den angivna användaren.
+Som standard kan du använda vissa förbättrade filter för att söka efter filer i AEM-databasen. Du kan filtrera alla DITA-filer eller icke-DITA-filer som finns på den valda sökvägen. Du kan också söka efter specifika värden i attributen för DITA-element. Du kan också söka efter filer som har checkats ut av den angivna användaren.
 
 >[!NOTE]
 >
@@ -70,14 +71,14 @@ Så här konfigurerar du textfiltren:
 
       I ovanstående kodfragment är det första filtret för DITA-filer. Filterdefinitionen har följande parametrar:
 
-      **&#x200B;**&#x200B;Titel&#x200B;**&#x200B;**: Filtrets visningsnamn. Titeln visas som filtreringsalternativ i dialogrutan för filbläddring.
+      ****Titel****: Filtrets visningsnamn. Titeln visas som filtreringsalternativ i dialogrutan för filbläddring.
 
-      **&#x200B;**&#x200B;Egenskap&#x200B;**&#x200B;**: Den egenskap som ska matchas i filens metadata. Om du till exempel bara vill tillåta de filer som har metadata för dita\_class i sin egenskap, använder egenskapsfiltret värdet&quot;jcr:content/metadata/dita\_class&quot;.
+      ****Egenskap****: Den egenskap som ska matchas i filens metadata. Om du till exempel bara vill tillåta de filer som har metadata för dita\_class i sin egenskap, använder egenskapsfiltret värdet&quot;jcr:content/metadata/dita\_class&quot;.
 
-      **&#x200B;**&#x200B;Åtgärd **:**&#x200B;Ange &quot;finns&quot; för att matcha om värdet som anges i egenskapsparametern finns
+      ****Åtgärd **:**Ange &quot;finns&quot; för att matcha om värdet som anges i egenskapsparametern finns
 
 1. Överför den uppdaterade filen ui\_config.json som innehåller de tillagda filtren.
 
 De konfigurerade filtren är tillgängliga på filterpanelen.
 
-**Överordnat ämne:**&#x200B;[&#x200B; Anpassa Web Editor](conf-web-editor.md)
+**Överordnat ämne:**[ Anpassa Web Editor](conf-web-editor.md)

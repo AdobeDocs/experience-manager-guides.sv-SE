@@ -4,14 +4,15 @@ description: Lär dig hur du lägger till [!DNL AEM Guides] i din [!DNL AEM as a
 exl-id: a1e020c2-360c-4d71-b5fd-8179d9ceacda
 feature: Installation
 role: Leader
-source-git-commit: 1b25f1df67fa2442ab79830dc2ac5a6eabd0394c
+hidefromtoc: true
+source-git-commit: 55edd53d1dda7a68352e53b2e59eafd15b677fdd
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Experience Manager Guides] as a Cloud Service distribution
+# [!DNL Adobe Experience Manager Guides] as a Cloud Service-distribution
 
 Lär dig hur du lägger till [!DNL Experience Manager Guides] i din [!DNL Experience Manager as a Cloud Service]-miljö.
 
@@ -26,7 +27,7 @@ Lär dig hur du lägger till [!DNL Experience Manager Guides] i din [!DNL Experi
 
 1. Växla till fliken **[!UICONTROL Solutions and Add-ons]**.
 
-1. Klicka på **[!UICONTROL Assets]** i tabellen **[!UICONTROL Solutions and Add-ons]**.
+1. Klicka på **[!UICONTROL Solutions and Add-ons]** i tabellen **[!UICONTROL Assets]**.
 
 1. Välj **[!UICONTROL Guides]** och välj **[!UICONTROL Save]**.
 

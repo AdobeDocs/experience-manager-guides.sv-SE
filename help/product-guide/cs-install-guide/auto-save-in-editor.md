@@ -5,7 +5,8 @@ exl-id: 4d99c3d8-cf6a-4cf3-aaec-9009a0376c1e
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 0%
@@ -25,4 +26,4 @@ Använd instruktionerna i [Konfigurationsåsidosättningar](download-install-add
 | `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.autosave` | Boolean \(true/false\).<br> **Standardvärde**: false |
 | `xmleditor.autosaveinterval` | Ange tidsintervallet i sekunder för att aktivera funktionen för autosparande. |  |
 
-**Överordnat ämne:**&#x200B;[&#x200B; Anpassa Web Editor](conf-web-editor.md)
+**Överordnat ämne:**[ Anpassa Web Editor](conf-web-editor.md)

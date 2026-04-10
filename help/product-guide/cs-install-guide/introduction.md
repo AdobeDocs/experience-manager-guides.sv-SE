@@ -5,7 +5,8 @@ exl-id: cdd40267-3f0c-40d2-acbc-2ebe43633c2f
 feature: Introduction
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '663'
 ht-degree: 2%
@@ -14,7 +15,7 @@ ht-degree: 2%
 
 # Om den här guiden {#id175MC0P0S5Z}
 
-Adobe Experience Manager Guides \(kallas senare *AEM Guides*\) är en kraftfull, molnbaserad innehållshanteringslösning för komponenter i enterpriseklass \(CCMS\). Det möjliggör inbyggt DITA-stöd i Adobe Experience Manager, vilket gör det möjligt för AEM att hantera DITA-baserad framtagning och leverans av innehåll. Man kan skapa material med den inbyggda webbredigeraren som enkelt kan publiceras i olika format.
+Adobe Experience Manager Guides \(kallas senare *AEM Guides*\) är en kraftfull, molnbaserad innehållshanteringslösning för komponenter i enterpriseklass \(CCMS\). Det möjliggör inbyggt DITA-stöd i Adobe Experience Manager och ger AEM möjlighet att hantera DITA-baserad framtagning och leverans av innehåll. Man kan skapa material med den inbyggda webbredigeraren som enkelt kan publiceras i olika format.
 
 Den här guiden innehåller anvisningar om hur du hämtar, installerar och konfigurerar AEM Guides. I den här guiden hittar du detaljerade anvisningar för hur du konfigurerar AEM Guides utifrån ditt företags skribent- och publiceringsbehov.
 
@@ -33,13 +34,13 @@ Informationen i den här handboken är ordnad enligt följande:
 
 - [Hämta och installera](download-install.md#): I det här avsnittet beskrivs hur du hämtar, installerar eller uppgraderar AEM Guides.
 
-- [Användaradministration och -säkerhet](user-admin-sec.md#): I det här avsnittet beskrivs grundkonceptet för användare och autentisering i AEM och standardanvändargrupper som skapats av AEM Guides.
+- [Användaradministration och -säkerhet](user-admin-sec.md#): Det här avsnittet beskriver grundkonceptet för användare och autentisering i AEM och de standardanvändargrupper som skapas av AEM Guides.
 
 - [Använd anpassad DITA-OT- och DITA-specialisering](dita-ot-specialization.md#): I det här avsnittet beskrivs hur du konfigurerar anpassade DITA-OT-plugin-program och använder DITA-specialisering.
 
 - [Konfigurera dokumenttillstånd](customize-doc-state.md#): I det här avsnittet beskrivs hur du konfigurerar anpassade lägen för DITA-dokument.
 
-- [Migrera befintligt innehåll](migrate-content.md#): I det här avsnittet beskrivs hur du infogar befintligt innehåll i AEM.
+- [Migrera befintligt innehåll](migrate-content.md#): I det här avsnittet beskrivs hur du infogar befintligt innehåll i AEM-databasen.
 
 - [Konfigurera filnamn](conf-file-names.md#): I det här avsnittet beskrivs hur du konfigurerar inställningar för att automatiskt tilldela filnamn och definiera en regex för giltiga filnamnstecken.
 
@@ -57,25 +58,25 @@ Informationen i den här handboken är ordnad enligt följande:
 
 - [Konfigurera och anpassa arbetsflöden](customize-workflows.md#): I det här avsnittet beskrivs olika konfigurationer för att anpassa de standardarbetsflöden som levereras i AEM Guides.
 
-- [Översätt innehåll](translation.md#): I det här avsnittet finns länkar till relevanta hjälpartiklar i AEM för att du ska kunna förstå och konfigurera översättningsramverket. Lär dig även hur du aktiverar komponentbaserade arbetsflöden för översättning.
+- [Översätt innehåll](translation.md#): Det här avsnittet innehåller länkar till relevanta hjälpartiklar i AEM-dokumentationen som hjälper dig att förstå och konfigurera översättningsramverket. Lär dig även hur du aktiverar komponentbaserade arbetsflöden för översättning.
 
 - [Konfigurera sökning efter AEM Assets-användargränssnitt](conf-dita-search.md#): I det här avsnittet beskrivs hur du konfigurerar DITA-innehållssökning i Assets-användargränssnittet och lägger till anpassade attribut i sökningen.
 
 
 ## Adobe Experience Manager \(AEM\) - översikt
 
-[Adobe Experience Manager \(AEM\)](https://business.adobe.com/se/products/experience-manager/adobe-experience-manager.html) är en omfattande innehållshanteringslösning för att skapa webbplatser, mobilappar och formulär. AEM hjälper er att hantera ert marknadsföringsinnehåll och era marknadsföringsresurser. AEM finns as a Cloud Service. AEM as a Cloud Service hjälper er att ge era kunder personaliserade, innehållsledda upplevelser genom att kombinera kraften i AEM Content Management System med AEM Digital Asset Management. Några av de viktigaste resurserna som kan hjälpa er att komma igång och driftsätta i AEM as a Cloud Service är följande:
+[Adobe Experience Manager \(AEM\)](https://business.adobe.com/products/experience-manager/adobe-experience-manager.html) är en omfattande innehållshanteringslösning för att skapa webbplatser, mobilappar och formulär. AEM hjälper er att hantera marknadsföringsmaterial och resurser. AEM finns i as a Cloud Service. AEM as a Cloud Service hjälper er att ge era kunder personaliserade, innehållsledda upplevelser genom att kombinera kraften i AEM Content Management System med AEM Digital Asset Management. Några av de viktigaste resurserna som kan hjälpa er att komma igång och driftsätta i AEM as a Cloud Service är följande:
 
-- [as a Cloud Service översikt för Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html?lang=sv-SE)
-- [Komma igång med migreringsresan till AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/migration-journey/getting-started.html?lang=sv-SE)
-- [Starta introduktionen till Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/home.html?lang=sv-SEhttps://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/home.html?lang=en)
-- [Implementera program för AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/home.html?lang=sv-SE)
-- [Distribuera till AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/deploying/overview.html?lang=sv-SE)
-- [Assets as a Cloud Service Guide](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/home.html?lang=sv-SE)
+- [Experience Manager as a Cloud Service - översikt](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html?lang=en)
+- [Komma igång med migreringsresan till AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/migration-journey/getting-started.html?lang=en)
+- [Starta introduktionen till Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/home.html?lang=enhttps://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/home.html?lang=en)
+- [Implementera program för AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/home.html?lang=en)
+- [Distribuera till AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/deploying/overview.html?lang=en)
+- [Assets as a Cloud Service Guide](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/home.html?lang=en)
 
 ## Ytterligare resurser
 
-Nedan följer en lista över andra användbara resurser i AEM Guides som finns på sidan [Lär dig mer och support](https://helpx.adobe.com/se/support/xml-documentation-for-experience-manager.html):
+Nedan följer en lista över andra användbara resurser i AEM Guides som finns på sidan [Lär dig mer och support](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html):
 
 - Användarhandbok
 - Referenshandbok för API

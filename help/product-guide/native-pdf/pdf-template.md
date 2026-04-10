@@ -1,11 +1,12 @@
 ---
-title: Skapa och anpassa inbyggda PDF-mallar
-description: Lär dig hur du skapar och anpassar mallar för inbyggda PDF.
+title: Skapa och anpassa PDF-mallar
+description: Lär dig hur du skapar och anpassar PDF-mallar.
 exl-id: 7660da8e-8a1e-4493-b99b-9b5de9a7483f
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: a6c87e6f9a68962488e70985a0513dcb05eaa9cd
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '1151'
 ht-degree: 0%
@@ -14,9 +15,9 @@ ht-degree: 0%
 
 # PDF-mall {#PDF-template}
 
-En mall ger en konsekvent innehållslayout och innehållsstruktur. När mallarna är fördefinierade kan du undvika att arbeta om formateringsproblem som uppstår för varje nytt projekt eller uppdateringar. Med mallar kan du utforma sidlayouter, formatera innehåll och använda olika inställningar för att anpassa PDF.
+En mall ger en konsekvent innehållslayout och innehållsstruktur. När mallarna är fördefinierade kan du undvika att arbeta om formateringsproblem som uppstår för varje nytt projekt eller uppdateringar. Med mallar kan du utforma sidlayouter, formatera innehåll och använda olika inställningar för att anpassa din PDF.
 
-## Mallar för fabriksinstallationer och anpassade PDF
+## Fabriksmallar och anpassade PDF-mallar
 
 Det finns några färdiga mallar som utvecklarna kan använda som grundmallar för att skapa anpassade mallar efter organisationens behov.
 
@@ -24,7 +25,7 @@ Det finns några färdiga mallar som utvecklarna kan använda som grundmallar f�
 
 ## Skapa en ny PDF-mall {#create-pdf-template}
 
-Du kan skapa anpassade PDF-mallar med särskilda sidlayouter och definiera formatering för sidlayoutskomponenter (som innehållsförteckning, index, ordlista) eller DITA-komponenter (som rubrik, stycke, lista) med hjälp av formatmallar.
+Du kan skapa anpassade PDF-mallar med specifika sidlayouter och definiera formatering för sidlayoutskomponenter (som innehållsförteckning, index, ordlista) eller DITA-komponenter (som rubrik, stycke, lista) med hjälp av formatmallar.
 
 Så här skapar du en ny PDF-mall:
 
@@ -33,8 +34,8 @@ Så här skapar du en ny PDF-mall:
 
    <img src="assets/create-pdf-template.png" alt="Skapa PDF-mall" width="400">
 
-1. I fönstret **Mallar** väljer du ikonen **+** bredvid **Mallar** och sedan **PDF-mall**.
-1. I dialogrutan **Ny PDF-mall** väljer du en fabriksmall som du vill använda som bas för att skapa den anpassade mallen. Du kan också använda sökrutan för att söka efter en mall.
+1. I fönstret **Mallar** markerar du ikonen **+** bredvid **Mallar** och väljer **PDF-mall**.
+1. I dialogrutan **Ny PDF-mall** väljer du en standardmall som du vill använda som bas för att skapa den anpassade mallen. Du kan också använda sökrutan för att söka efter en mall.
 1. Ange en rubrik för mallen.
 
    >[!NOTE]
@@ -57,9 +58,9 @@ Så här duplicerar du en befintlig PDF-mall:
 
    Dialogrutan **Duplicera PDF-mall** öppnas.
 
-   <img src="assets/duplicate-template.png" alt="Mallen Duplicera PDF" width="350">
+   <img src="assets/duplicate-template.png" alt="Duplicera PDF-mall" width="350">
 
-   *Markera en mall som ska dupliceras, förhandsgranska miniatyrbilden och uppdatera titeln i dialogrutan **Duplicera PDF-mall**.*
+   *Välj en mall som ska dupliceras, förhandsgranska miniatyrbilden och uppdatera titeln i dialogrutan **Duplicera PDF-mall**.*
 
 1. Ange en rubrik för mallen.
 
@@ -76,7 +77,7 @@ Så här duplicerar du en befintlig PDF-mall:
 
 Du kan även utföra följande åtgärder på mallarna från menyn **Alternativ** :
 
-<img src="assets/PDF-template-options.png" alt="Mallen Duplicera PDF" width="350">
+<img src="assets/PDF-template-options.png" alt="Duplicera PDF-mall" width="350">
 
 ### Ta bort
 
@@ -91,9 +92,9 @@ Välj det här alternativet om du vill visa och redigera mallens egenskaper. Du 
 
 Välj det här alternativet om du vill visa mallen i användargränssnittet för Assets. När mallens rotplats öppnas kan du visa alla resurser i mallen.
 
-När du har skapat den anpassade mallen kan du välja den bland sidlayouterna i PDF-förinställningen.
+När du har skapat den anpassade mallen kan du välja den från sidlayouten i PDF utdatainställning.
 
-Lär dig hur du [publicerar utdata från PDF](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=sv-SE).
+Lär dig hur du [publicerar PDF-utdata](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=en).
 
 >[!NOTE]
 >
@@ -101,9 +102,9 @@ Lär dig hur du [publicerar utdata från PDF](https://experienceleague.adobe.com
 
 Beroende på din konfiguration kan administratören konfigurera mallarna:
 
-+++ Cloud Service
++++ Molntjänster
 
-Mer information om hur du konfigurerar globala profiler och profiler på mappnivå finns i avsnittet [Konfigurera mallar](../cs-install-guide/conf-folder-level.md#id1889D0IL0Y4) i installations- och konfigurationshandboken för Cloud Service.
+Mer information om hur du konfigurerar globala profiler och profiler på mappnivå finns i avsnittet [Konfigurera mallar](../cs-install-guide/conf-folder-level.md#id1889D0IL0Y4) i installations- och konfigurationsguiden för molntjänster.
 
 +++
 
@@ -141,20 +142,20 @@ Så här anpassar du en PDF-mall:
 
    De olika mallkomponenter du kan anpassa är kategoriserade under följande avsnitt:
 
-   * Sidlayouter: Ett vanligt PDF innehåller olika sidor, t.ex. ett försättsblad eller en titelsida, innehållsförteckning, kapitel, index, citat med mera. I delen Sidlayouter kan du designa utseendet på olika sidor som skulle utgöra PDF. Mer information finns i [Sidlayouter](../native-pdf/components-pdf-template.md#page-layouts).
+   * Sidlayouter: En vanlig PDF innehåller olika sidor, t.ex. ett försättsblad eller en titelsida, innehållsförteckning, kapitel, index, citat med mera. I delen Sidlayouter kan du designa utseendet på olika sidor som skulle utgöra din PDF. Mer information finns i [Sidlayouter](../native-pdf/components-pdf-template.md#page-layouts).
 
      Förutom utseendet kan du även definiera placeringen av sidelement som sidhuvud, sidfot och innehållsområden på en sida. Mer information om hur du anpassar en sidas layout finns i [Skapa och anpassa sidlayouter](components-pdf-template.md#create-customize-page-layout).
 
    * Formatmallar: Med inställningarna i avsnittet Formatmallar kan du anpassa utseende och känsla för sidlayoutskomponenter som innehållsförteckning, index, ordlista, citat och mycket annat. Dessutom kan du anpassa formaten för DITA-innehållet, till exempel rubriker, stycken, listor och annat. Mer information om hur du använder formatmallar finns i [Anpassa PDF med formatmallar](components-pdf-template.md#stylesheet-customization).
    * Resurser: Lagra resursfiler som du behöver för att anpassa eller utforma PDF-mallar. Assets som logotyper, anpassade teckensnitt, bakgrundsbilder med mera lagras i Resurser.
-Du kan också använda resurser som finns på någon annan plats i databasen. Du behöver inte skapa dubblettresurser för varje mall, och du kan behålla dem i en delad mapp och använda dem i alla mallar i PDF.
+Du kan också använda resurser som finns på någon annan plats i databasen. Du behöver inte skapa dubblettresurser för varje mall, och du kan behålla dem i en delad mapp och använda dem i alla PDF-mallar.
 
      Mer information om hur du använder resurser finns i [Arbeta med resurser](components-pdf-template.md#work-with-resources).
 
-   * Inställningar: Konfigurera utdatainställningarna för att skapa en PDF med hjälp av mallen. I det här avsnittet kan du definiera mallmappning för olika sidor på en PDF, startsida för kapitel, utskriftsmärken, citat och mycket annat.
+   * Inställningar: Konfigurera utdatainställningarna för generering av en PDF med hjälp av mallen. I det här avsnittet kan du definiera mallmappning för olika sidor i en PDF, startsida för kapitel, utskriftsmärken, citat och mycket annat.
 
-   Du kan också ordna i vilken ordning de ska visas i den slutliga utskriften för PDF.
-Mer information om hur du använder inställningar finns i [Avancerade inställningar för PDF](components-pdf-template.md#advanced-pdf-settings).
+   Du kan också ordna i vilken ordning de ska visas i dina slutliga PDF-utdata.
+Mer information om hur du tillämpar inställningar finns i [Avancerade PDF-inställningar](components-pdf-template.md#advanced-pdf-settings).
 
 
 1. Om du vill anpassa en mallkomponent dubbelklickar du på en mallkomponent eller väljer ikonen > före den.

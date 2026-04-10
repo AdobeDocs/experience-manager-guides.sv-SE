@@ -5,7 +5,8 @@ exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
 feature: Profiles
 role: Admin
 level: Experienced
-source-git-commit: 1ea27a0ca99e61049d08f89a0cf5e0584b38edae
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '5127'
 ht-degree: 0%
@@ -66,7 +67,7 @@ Med hjälp av panelen Mappprofiler i inställningarna för stödlinjer kan du ko
 
    - EPUB
 
-   - Egen
+   - Anpassad
 
   Utgivare kan publicera innehåll med hjälp av de här förinställningarna för färdiga utdata. Dessa förinställningar kan konfigureras av en administratör för den globala profilen eller profilen på mappnivå. När publiceringsförinställningarna har konfigurerats blir de tillgängliga för utgivaren för nya DITA-kartor. Du kan också använda förinställningar för publicering på befintliga DITA-kartor. Mer information finns i [Använda förinställda ändringar](#id18AGD0K0OHS).
 
@@ -411,7 +412,7 @@ Om du har uppdaterat en befintlig förinställning eller vill göra en ny förin
 
 ## Konfigurera AI Assistant för smart hjälp och redigering
 
-För Experience Manager Guides as a Cloud Service (![AEM cloud &#x200B;](assets/aem-cloud-icon.svg)).
+För Experience Manager Guides as a Cloud Service (![AEM cloud ](assets/aem-cloud-icon.svg)).
 
 AI Assistant i Adobe Experience Manager Guides är ett kraftfullt, AI-drivet verktyg som har utformats för att förbättra ditt innehåll genom smart redigering och återanvändning av innehåll. Här finns två kraftfulla AI-funktioner - **Redigering** och **Hjälp** - i Experience Manager Guides-gränssnittet, så att du kan autentisera dokument och få tillgång till information snabbare och effektivare.
 
@@ -497,9 +498,9 @@ Om du vill att smarta förslag ska fungera effektivt bör du tänka på följand
 
 **Anpassa standardfrågorna för smart hjälp**
 
-För Experience Manager Guides as a Cloud Service (![AEM cloud &#x200B;](assets/aem-cloud-icon.svg)).
+För Experience Manager Guides as a Cloud Service (![AEM cloud ](assets/aem-cloud-icon.svg)).
 
-Du kan konfigurera den AI-baserade smarta **hjälpen** så att författarna kan ställa frågor och enkelt hitta det innehåll som krävs från [Experience Manager Guides-dokumentationen](https://experienceleague.adobe.com/sv/docs/experience-manager-guides/using/overview).
+Du kan konfigurera den AI-baserade smarta **hjälpen** så att författarna kan ställa frågor och enkelt hitta det innehåll som krävs från [Experience Manager Guides-dokumentationen](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
 
 På fliken **XML-redigerarkonfiguration** kan du konfigurera standardfrågorna på panelen **Hjälp**.
 
@@ -551,7 +552,7 @@ Som standard har XML-redigeraren många funktioner som hjälper dina författare
 
 Med den här inställningen kan du skapa JSON-tillägg som återspeglar ändringar som gjorts i filen `ui_config.json`. Du kan överföra dessa tillägg oberoende av varandra på mappprofilnivå, vilket ger ökad flexibilitet och anpassning. Om du till exempel ändrar **XML-redigerarkonfigurationen**, till exempel uppdaterar en knapp, identifieras skillnaderna automatiskt i systemet. Genom att överföra dessa ändringar till **XML-redigerarens gränssnittskonfiguration** och konvertera dem till JSON-tillägg med knappen **Konvertera gränssnittskonfiguration till JSON**, genererar systemet ett tillägg som innehåller den nya funktionen.
 
-Läs mer om [att anpassa JSON-konfigurationer och konvertera gränssnittskonfigurationer för den nya AEM Guides Editor](https://experienceleague.adobe.com/sv/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
+Läs mer om [att anpassa JSON-konfigurationer och konvertera gränssnittskonfigurationer för den nya AEM Guides Editor](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
 
 >[!NOTE]
 >

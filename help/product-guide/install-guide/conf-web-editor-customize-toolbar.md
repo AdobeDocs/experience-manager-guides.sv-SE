@@ -5,7 +5,8 @@ exl-id: 14a82c7e-5c07-43a8-bd9e-b221d80f6d05
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 5778ed2855287d1010728e689abbe6020ad56574
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '951'
 ht-degree: 0%
@@ -18,7 +19,7 @@ Som standard levereras webbredigeraren med de vanligaste redigeringsfunktionerna
 
 >[!NOTE]
 >
-> När du migrerar från det gamla användargränssnittet till det nya användargränssnittet i AEM Guides (som gäller från version 2502 och version 5.0 av AEM Guides) måste uppdateringarna av `ui_config` konverteras till mer flexibla och modulära användargränssnittskonfigurationer. Det här ramverket gör det enklare att implementera ändringar i editor_toolbar och andra målwidgetar efter behov. Mer information finns i [Översikt över konfigurationen för konvertering av användargränssnitt](https://experienceleague.adobe.com/sv/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
+> När du migrerar från det gamla användargränssnittet till det nya användargränssnittet i AEM Guides (som gäller från version 2502 och version 5.0 av AEM Guides) måste uppdateringarna av `ui_config` konverteras till mer flexibla och modulära användargränssnittskonfigurationer. Det här ramverket gör det enklare att implementera ändringar i editor_toolbar och andra målwidgetar efter behov. Mer information finns i [Översikt över konfigurationen för konvertering av användargränssnitt](https://experienceleague.adobe.com/en/docs/experience-manager-guides-learn/videos/advanced-user-guide/conver-ui-config).
 
 Det finns två sätt att anpassa Web Editors verktygsfält:
 
@@ -49,7 +50,7 @@ Gör så här för att lägga till en funktion i Web Editor-verktygsfältet:
 
 1. I filen `ui_config.json` lägger du till definitionen för den nya funktionen i verktygsfältsavsnittet. Vanligtvis kan du skapa en ny verktygsfältsknappgrupp och lägga till en eller flera knappar i den. Du kan också lägga till en ny verktygsfältsknapp i en befintlig verktygsfältgrupp. Följande information krävs för att skapa en ny verktygsfältgrupp:
 
-   - **type:**&#x200B;Ange `blockGroup` som `type`-värde. Detta värde anger att du skapar en blockgrupp som skulle innehålla en eller flera verktygsfältsgrupper.
+   - **type:**Ange `blockGroup` som `type`-värde. Detta värde anger att du skapar en blockgrupp som skulle innehålla en eller flera verktygsfältsgrupper.
 
    - **extraclass:** Namnet på klassen eller klasserna avgränsade med blanksteg.
 
@@ -240,4 +241,4 @@ Filen `ui_config.json` har tre avsnitt:
 1. Spara filen *ui\_config.json* och läs in webbredigeraren igen.
 
 
-**Överordnat ämne:**&#x200B;[&#x200B; Anpassa Web Editor](conf-web-editor.md)
+**Överordnat ämne:**[ Anpassa Web Editor](conf-web-editor.md)

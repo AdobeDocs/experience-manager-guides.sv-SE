@@ -5,18 +5,19 @@ exl-id: 180e4ab5-5259-4a00-ac3c-bb1d6814ce0d
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '366'
 ht-degree: 0%
 
 ---
 
 # Konfigurera textfilter {#id21BPD0FK0XA}
 
-I AEM Guides finns en funktion för att söka efter text i de filer som finns på den valda sökvägen i AEM. Du kan använda filtersökningar för att söka efter filer från databaspanelen eller för att bläddra bland filer. När du arbetar i Web Editor måste du använda dialogrutan för filbläddring för att infoga element som bild, referens eller nyckelreferens.
+I AEM Guides kan du söka efter text i de filer som finns på den valda sökvägen i AEM-databasen. Du kan använda filtersökningar för att söka efter filer från databaspanelen eller för att bläddra bland filer. När du arbetar i Web Editor måste du använda dialogrutan för filbläddring för att infoga element som bild, referens eller nyckelreferens.
 
-Som standard kan du använda vissa förbättrade filter för att söka efter filer i AEM. Du kan filtrera alla DITA-filer eller icke-DITA-filer som finns på den valda sökvägen. Du kan också söka efter specifika värden i attributen för DITA-element. Du kan också söka efter filer som har checkats ut av den angivna användaren.
+Som standard kan du använda vissa förbättrade filter för att söka efter filer i AEM-databasen. Du kan filtrera alla DITA-filer eller icke-DITA-filer som finns på den valda sökvägen. Du kan också söka efter specifika värden i attributen för DITA-element. Du kan också söka efter filer som har checkats ut av den angivna användaren.
 
 >[!NOTE]
 >
@@ -102,4 +103,4 @@ Så här konfigurerar du textfiltren:
 
 De konfigurerade filtren är tillgängliga på filterpanelen.
 
-**Överordnat ämne:**&#x200B;[&#x200B; Anpassa Web Editor](conf-web-editor.md)
+**Överordnat ämne:**[ Anpassa Web Editor](conf-web-editor.md)

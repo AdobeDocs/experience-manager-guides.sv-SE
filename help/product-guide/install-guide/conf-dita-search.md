@@ -5,9 +5,10 @@ exl-id: b920ba7f-e8fc-4af6-aa8a-b8516b1cffc0
 feature: Search Configuration
 role: Admin
 level: Experienced
-source-git-commit: 8ee4863470f69bca52a9b36cde52703e4d6643bc
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
-source-wordcount: '1695'
+source-wordcount: '1692'
 ht-degree: 0%
 
 ---
@@ -178,7 +179,7 @@ Utför följande steg för att lägga till anpassade DITA-element eller attribut
 
 1. Öppna konfigurationssidan för Adobe Experience Manager Web Console. Standardwebbadressen för åtkomst till konfigurationssidan är:
 
-   http://&lt;servernamn\>:&lt;port\>/system/console/configMgr
+   http://<servernamn\>:<port\>/system/console/configMgr
 
 1. Sök efter och klicka på paketet *com.adobe.fmdita.config.ConfigManager*.
 
@@ -202,7 +203,7 @@ Utför följande steg för att aktivera alternativet för metadataextrahering i 
 
 1. Öppna konfigurationssidan för Adobe Experience Manager Web Console. Standardwebbadressen för åtkomst till konfigurationssidan är:
 
-   http://&lt;servernamn\>:&lt;port\>/system/console/configMgr
+   http://<servernamn\>:<port\>/system/console/configMgr
 
 1. Sök efter och klicka på paketet *com.adobe.fmdita.config.ConfigManager*.
 

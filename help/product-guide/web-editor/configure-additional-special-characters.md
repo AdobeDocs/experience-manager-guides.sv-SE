@@ -3,15 +3,15 @@ title: Konfigurera ytterligare specialtecken i verktygsfältet i Web Editor
 description: Lär dig hur du konfigurerar ytterligare specialtecken i webbredigeraren för AEM Guides.
 feature: Web Editor
 role: User
-exl-id: 0fbc05a5-a6b0-4f6b-bbc4-8fca03581d90
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '252'
 ht-degree: 0%
 
 ---
 
-# Konfigurera ytterligare specialtecken i Web Editor-verktygsfältet
+# Konfigurera ytterligare specialtecken i webbredigerarens verktygsfält för lokal redigering
 
 Det finns ett kortkommando i webbredigeringsverktygsfältet där författaren kan infoga specialtecknen.
 Detsamma visas på skärmbilden nedan:
@@ -21,7 +21,7 @@ Detsamma visas på skärmbilden nedan:
 
 Här kan du konfigurera teckenlistan. Följ stegen nedan om du behöver lägga till fler tecken:
 
-+ Logga in AEM och öppna läget CRXDE Lite.
++ Logga in på AEM och öppna CRXDE Lite-läget.
 
 + Skapa filen symbols.json på följande plats: &#39;/apps/fmdita/xmleditor/&#39; (du kan kopiera standardfilen från - &#39;/libs/fmdita/clientlibs/clientlibs/xmleditor/symbols.json&#39; plats)
 

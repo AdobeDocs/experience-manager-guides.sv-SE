@@ -5,7 +5,8 @@ feature: Output Generation
 role: Admin
 level: Experienced
 exl-id: 2b59db60-61b5-4a7e-bbf1-35cab8b89323
-source-git-commit: d525775afeeb89754762ff514126b1c3a3307b3f
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 0%
@@ -46,9 +47,9 @@ Adobe Experience Manager Guides tillhandahåller funktionen för att skapa en JS
 
 1. Spara filen och överför den.
 
-Experience Manager Guides konverterar hela avsnittet till HTML som sedan kan mappas till kärnkomponenterna som används i Experience Fragment. Innehållet i en `<p>`-tagg kan till exempel mappas för att skapa en textkomponent i Experience Fragment.
-* `name`: Ange elementet HTML. Till exempel `<div>`, `<img>`
-* `class`: Ange den DITA-elementtagg som motsvarar elementet HTML. Till exempel `<p>` `<image>`
+Experience Manager Guides konverterar hela avsnittet till HTML, som sedan kan mappas till kärnkomponenterna som används i Experience Fragment. Innehållet i en `<p>`-tagg kan till exempel mappas för att skapa en textkomponent i Experience Fragment.
+* `name`: Ange HTML-elementet. Till exempel `<div>`, `<img>`
+* `class`: Ange den DITA-elementtagg som motsvarar HTML-elementet. Till exempel `<p>` `<image>`
 * `resourceType`: Ange den resurstyp som gäller för komponenten som används i Experience Fragment. `wcm/foundation/components/text` är till exempel resourceType för wcm `text`-komponenten.
 * `attributeMap`: Ange ytterligare information för komponenten, t.ex. om en textkomponent ska återges som `RichText` eller innehåller `fileReference` för en bildkomponent.
 
@@ -159,4 +160,4 @@ Exempelfil:
 
 När du publicerar Experience Fragments från Web Editor väljer du `Template` i listrutan i dialogrutan **Generera Experience Fragment** för att visa mappningen som är tillgänglig för mallen i fältet **Mappning**. Om det inte finns någon anpassad mappning för en mall visas standardmappningen. Du kan använda standardmappningen för att publicera hela ämnet som ett Experience Fragment.
 
-Mer information finns i [Publish Experience Fragments](../user-guide/publish-experience-fragment.md).
+Mer information finns i [Publicera upplevelsefragment](../user-guide/publish-experience-fragment.md).

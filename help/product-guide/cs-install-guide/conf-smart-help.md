@@ -1,17 +1,18 @@
 ---
 title: Konfigurera den smarta hjälpen för att söka efter innehåll
 description: Lär dig hur du konfigurerar Smart Hjälp för att söka efter innehåll
-source-git-commit: 48f7b38448e821a7ad5931a685dedc95303aea95
+exl-id: b5836c02-027e-459a-a7f0-f7d631f999dc
+hidefromtoc: true
+source-git-commit: 564ee1731be2378744ffd2ed54a2fd423901a0b3
 workflow-type: tm+mt
 source-wordcount: '609'
 ht-degree: 0%
 
 ---
 
-
 # Konfigurera den AI-baserade smarta hjälpen för att söka efter innehåll
 
-Som administratör kan du konfigurera funktionen Smart hjälp för författarna. Tjänsten Smart Help skyddas av automatisk autentisering med Adobe IMS. Integrera miljön med Adobe säkra tokenbaserade autentiseringsarbetsflöden och börja använda den nya smarta hjälpfunktionen. Följande konfigurationer hjälper dig att lägga till fliken **AI-konfiguration** i en mappprofil. När du har lagt till den kan du använda funktionen Smart hjälp i Web Editor.
+Som administratör kan du konfigurera funktionen Smart hjälp för författarna. Tjänsten Smart Help skyddas av automatisk autentisering med Adobe IMS. Integrera din miljö med Adobe säkra tokenbaserade autentiseringsarbetsflöden och börja använda den nya smarta hjälpfunktionen. Följande konfigurationer hjälper dig att lägga till fliken **AI-konfiguration** i en mappprofil. När du har lagt till den kan du använda funktionen Smart hjälp i Web Editor.
 
 ## Skapa IMS-konfigurationer i Adobe Developer Console
 
@@ -63,7 +64,7 @@ Du har konfigurerat OAuth-autentiseringsinformationen och laddat ned JSON-tjäns
 
 Utför följande steg för att lägga till IMS-konfiguration i miljön:
 
-1. Öppna Experience Manager och välj sedan det program som innehåller den miljö som du vill konfigurera.
+1. Öppna Experience Manager och välj sedan det program som innehåller den miljö du vill konfigurera.
 1. Växla till fliken **Miljö**.
 1. Välj det miljönamn som du vill konfigurera. Du bör navigera till sidan **Miljöinformation**.
 1. Växla till fliken **Konfiguration**.
@@ -106,4 +107,4 @@ När du är klar bör du kunna använda funktionen **Smart hjälp**.
 
 
 När du har konfigurerat visas ikonen **Smart hjälp** ![Smart hjälp](assets/smart-help-icon.svg) i den högra panelen i Web Editor. Markera ikonen om du vill visa panelen **Smart hjälp** .
-Mer information finns i avsnittet [AI-baserad smart hjälp för att söka efter innehåll](../user-guide/ai-based-smart-help.md) i användarhandboken för Experience Manager.
+Mer information finns i avsnittet [AI-baserad smart hjälp för att söka efter innehåll](../user-guide/ai-based-smart-help.md) i Experience Manager användarhandbok.

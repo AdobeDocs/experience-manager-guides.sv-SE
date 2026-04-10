@@ -5,7 +5,8 @@ exl-id: 8e0afe18-5675-4c7e-b216-6de1a752bd01
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+hidefromtoc: true
+source-git-commit: 3aadc59f5034828cf319992b7acb32d5a88eaf93
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 0%
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 När du har installerat AEM Guides måste du kontrollera om installationen lyckades eller inte. Verifiera installationsprocessen genom att utföra följande steg:
 
-1. Logga in i AEM och gå till sidan AEM Web Console Bundles. Standardwebbadressen för åtkomst till paketsidan är:
+1. Logga in på din AEM-instans och gå till sidan AEM Web Console Bundles. Standardwebbadressen för åtkomst till paketsidan är:
 
    ```http
    http://<server name>:<port>/system/console/bundles
@@ -33,6 +34,6 @@ När du har installerat AEM Guides måste du kontrollera om installationen lycka
 
 >[!IMPORTANT]
 >
-> Det finns ett antal rekommendationer för prestandaoptimering som du kan tänka dig för att förbättra systemets prestanda. Mer information finns i [Recommendations för prestandaoptimering](download-install-recommend-perf-optimiz.md#).
+> Det finns ett antal rekommendationer för prestandaoptimering som du kan tänka dig för att förbättra systemets prestanda. Mer information finns i [Rekommendationer för prestandaoptimering](download-install-recommend-perf-optimiz.md#).
 
-**Överordnat ämne:**&#x200B;[&#x200B; Hämta och installera](download-install.md)
+**Överordnat ämne:**[ Hämta och installera](download-install.md)
