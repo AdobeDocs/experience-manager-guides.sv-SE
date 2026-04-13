@@ -4,7 +4,8 @@ description: Läs om den här guiden
 feature: Introduction
 role: Admin
 level: Experienced
-source-git-commit: 7e44e947348180c3954461a572efec84f34f7bf5
+exl-id: 43167f0e-158e-4599-8451-303750076731
+source-git-commit: 83ccc46ef8b3c2590fa769e43930181578ad96f9
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 0%
@@ -28,5 +29,4 @@ I följande tabell visas hela arbetsflödet baserat på din AEM Guides-konfigura
 
 | Cloud Service | lokalt |
 |-------------|------------|
-| <ul><li>[Distribution och dispatcherkonfiguration](./conf-deployment-dispatcher-cs.md)</li><li>[Verifiera AEM Guides](./verify-aemg-installation.md)</li><li>[Uppgradera AEM Guides](./download-install-upgrade-aemg.md)</li><li> [Rekommendation för prestandaoptimering](./perf-optimization-cs.md)</li></ul> | <ul><li>[Tekniska krav](./aemg-technical-requirements.md)</li><li>[Installera AEM](./download-install-aem.md)</li><li>[Hämta och installera AEM Guides för första gången](./download-install-aemg-first-time.md)</li><li>[Konfigurera dispatcher](./conf-dispatcher.md)</li><li>[Verifiera AEM Guides](./verify-aemg-installation.md)</li><li>[Avinstallera AEM Guides](./unistall-aemg.md)</li><li>[Uppgradera AEM Guides](./download-install-upgrade-aemg.md)</li><li>[Rekommendation för prestandaoptimering](./perf-optimization-on-prem.md)</li></ul> |
-
+| <ul><li>[Distribution och dispatcherkonfiguration](./conf-deployment-dispatcher-cs.md)</li><li>[Verifiera AEM Guides](./verify-aemg-installation.md)</li><li>[Uppgradera AEM Guides](./download-install-upgrade-aemg.md)</li><li> [Rekommendation för prestandaoptimering](./perf-optimization-cs.md)</li></ul> | <ul><li>[Tekniska krav](./aemg-technical-requirements.md)</li><li>[Installera AEM](./download-install-aem.md)</li><li>[Hämta och installera AEM Guides för första gången](./download-install-aemg-first-time.md)</li><li>[Konfigurera dispatcher](./conf-dispatcher.md)</li><li>[Verifiera AEM Guides](./verify-aemg-installation.md)</li><li>[Avinstallera AEM Guides](./uninstall-aemg.md)</li><li>[Uppgradera AEM Guides](./download-install-upgrade-aemg.md)</li><li>[Rekommendation för prestandaoptimering](./perf-optimization-on-prem.md)</li></ul> |
