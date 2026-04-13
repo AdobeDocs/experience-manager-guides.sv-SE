@@ -2,7 +2,7 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: Läs produktdokumentationen för Adobe Experience Manager Guides.
 breadcrumb-title: Dokumentation om AEM Guides
-source-git-commit: 7b9efe58b04b6b4bf5b9c3eb9772aa88a3aa7bfd
+source-git-commit: 2749c0df3bd5640c9491dce3ab6c96f707625969
 workflow-type: tm+mt
 source-wordcount: '3232'
 ht-degree: 2%
@@ -188,13 +188,13 @@ ht-degree: 2%
                - [4.2.1 Versionsinformation](./release-info/release-notes-4-2-1.md)
                - [4.2 Versionsinformation](./release-info/release-notes-4-2.md)
          - [4.1.x Versionsinformation](./release-info/release-notes-4-1.md)
-         - [Versionsinformation för 4.0.x](https://helpx.adobe.com/se/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [3.8.x Versionsinformation](https://helpx.adobe.com/se/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [Versionsinformation för 4.0.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [3.8.x Versionsinformation](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Användarhandbok (nytt användargränssnitt) {#user-guide}
    - Introduktion {#about-aemg}
       - [Om [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - [!DNL AEM Guides] funktioner och nyckelfunktioner {#aemg-works-features}
-         - [Så här fungerar [!DNL AEM Guides] &#x200B;](./user-guide/intro-how-dxml-works.md)
+         - [Så här fungerar [!DNL AEM Guides] ](./user-guide/intro-how-dxml-works.md)
          - [Viktiga [!DNL AEM Guides] funktioner](./user-guide/intro-dxml-features.md)
    - Startsida {#home-page}
       - [[!DNL AEM Guides] - startsida](./user-guide/intro-home-page.md)
@@ -396,7 +396,7 @@ ht-degree: 2%
       - Felsökning {#troubleshooting}
          - [Tidsgräns för session](./user-guide/session-timeout-prompt.md)
 - Användarhandbok (gammalt användargränssnitt) {#user-guide-old-ui}
-   - [AEM Guides - översikt](https://experienceleague.adobe.com/sv/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [AEM Guides - översikt](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installation och konfiguration {#install-guide}
    - Lokalt {#on-prem-ig}
       - [Grunderna på plats](./install-guide/introduction.md)
@@ -600,7 +600,7 @@ ht-degree: 2%
       - [Installera Adobe Experience Manager](./install-conf-guide/download-install-aem.md)
       - [Ladda ned och installera AEM Guides för första gången](./install-conf-guide/download-install-aemg-first-time.md)
       - [Konfigurera Dispatcher](./install-conf-guide/conf-dispatcher.md)
-      - [Avinstallera AEM Guides](./install-conf-guide/unistall-aemg.md)
+      - [Avinstallera AEM Guides](./install-conf-guide/uninstall-aemg.md)
    - [Verifiera installation av AEM Guides](./install-conf-guide/verify-aemg-installation.md)
    - Uppgradera AEM Guides {#upgrade-aemg}
       - Cloud Service {#cloud-service}
