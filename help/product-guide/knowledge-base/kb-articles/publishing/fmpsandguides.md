@@ -5,7 +5,7 @@ exl-id: 05d4d876-f83b-473c-bf31-14d6565e80e2
 feature: AEM Guides FrameMaker Publishing Server
 author: Pulkit Nagpal(punagpal)
 role: User, Admin
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 0%
@@ -19,9 +19,9 @@ Artikeln hjälper dig att konfigurera och köra FMPS med AEM Guides.
 
 ## FMPS-kompatibiliteten med AEM Guides
 
-- Kompatibilitet med 4.1 AEM Guides: [4.1-kompatibilitetsmatris](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/release-notes/on-prem-release-notes/release-notes-4.1.html?lang=sv-SE/#compatibility-matrix)
+- Kompatibilitet med 4.1 AEM Guides: [4.1-kompatibilitetsmatris](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/release-notes/on-prem-release-notes/release-notes-4.1.html?lang=en/#compatibility-matrix)
 - Kompatibilitet med 4.0 AEM Guides: [4.0-kompatibilitetsmatris](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html/#Compatibility%20matrix)
-- Senaste versionen: [Senaste versionsinformation](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/latest-release-info.html?lang=sv-SE)
+- Senaste versionen: [Senaste versionsinformation](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/latest-release-info.html?lang=en)
 
 ## Installation
 
@@ -41,7 +41,7 @@ FrameMaker Publishing Server (FMPS) kan användas för att generera DITA-innehå
 
 Öppna webbkonsolen genom att gå till http://\&lt;servernamn\>:\&lt;port\>/system/console/configMgr.
 
-**Konfigurationsegenskaper och deras beskrivning** [&#x200B; 4.1-installation och konfiguration](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-1-2/Adobe-Experience-Manager-Guides_Installation-Configuration-Guide_EN.pdf#page=89)
+**Konfigurationsegenskaper och deras beskrivning** [ 4.1-installation och konfiguration](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-1-2/Adobe-Experience-Manager-Guides_Installation-Configuration-Guide_EN.pdf#page=89)
 
 ## Kör test:
 
@@ -66,37 +66,37 @@ Du kan publicera baslinjer som du redan skapat med FMPS2020.0.2 eller senare.
 
 ## Vanliga frågor och felsökning:
 
-- ### FMPS-publicering misslyckas med Timeout-undantag
+### FMPS-publicering misslyckas med Timeout-undantag
 
 >Kontrollera och öka värdet för FMPS-timeout (sekunder) i /system/console/configMgr/com.adobe.fmdita.config.ConfigManager
 
-- ### Det gick inte att hämta FMPS-förinställningen i listrutan
+### Det gick inte att hämta FMPS-förinställningen i listrutan
 
 >Kontrollera att du har skapat en fördefinierad FMPS-förinställning på servern och att anslutningsinställningarna är korrekta.
 
-- ### Jag får tomma PDF:er när jag publicerar
+### Jag får tomma PDF:er när jag publicerar
 
 >Om du använder UUID ska du kontrollera att du har markerat&quot;Använd UUID-baserad referens&quot; i FrameMaker Redigera-inställningar och omvänt för icke-UUID AEM-stödlinjer.
 
-- ### Mina inställningar/ändringar tillämpas inte i det slutliga publicerade resultatet
+### Mina inställningar/ändringar tillämpas inte i det slutliga publicerade resultatet
 
 >Kontrollera att du inte väljer FMPS-förinställningen och inställnings-/diavalfilen samtidigt. Använd FrameMaker för att kontrollera utdata manuellt.
 
-- ### Baslinjen publiceras inte från FMPS
+### Baslinjen publiceras inte från FMPS
 
 >FMPS2020.0.2 eller senare versioner är kompatibla med baslinjepublicering.
 >Se till att baslinjen har skapats på rätt sätt. Gå till Map Dashboard - Ämnen - Hämta  Mappa och välj &quot;Använd baslinje&quot;.
 
-- ### Publiceringsuppgifter från FMPS tar längre tid än andra motorer
+### Publiceringsuppgifter från FMPS tar längre tid än andra motorer
 
 >Vid publicering från FMPS är den idealiska fasta huvudtiden cirka 3-4 minuter. Om du tror att den är längre bör du kontakta FMPS-administratören eller kontakta Adobe Support.
 
 ## Andra resurser:
 
-[Lär dig mer och support för FMPS](https://helpx.adobe.com/se/support/framemaker-publishing-server.html)
+[Lär dig mer och support för FMPS](https://helpx.adobe.com/support/framemaker-publishing-server.html)
 
 [AEM Guides studiematerial och support](https://helpx.adobe.com/in/support/xml-documentation-for-experience-manager.html)
 
 [FrameMaker- och FMPS-communityn](https://community.adobe.com/t5/framemaker/ct-p/ct-framemaker?page=1&sort=latest_replies&lang=all&tabid=all)
 
-[AEM Guides Community](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=sv)
+[AEM Guides Community](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation)

@@ -4,7 +4,7 @@ description: Den här korta artikeln visar hur AEM Guides och DITA hjälper dig 
 role: User, Admin
 author: Pulkit Nagpal(punagpal)
 exl-id: 1522ebf5-2aea-4d8f-ade7-367227b31dd9
-source-git-commit: f971be4be9e2d32618616727cd9c682941dd3fb2
+source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 0%
@@ -153,13 +153,13 @@ Steg 2: Dra och släpp det fragment som du vill återanvända i något av målä
 
 ## Vanliga frågor
 
-- ### Allt innehåll visas inte när du har valt fil/nyckel i dialogrutan Återanvänd innehåll
+### Allt innehåll visas inte när du har valt fil/nyckel i dialogrutan Återanvänd innehåll
 
 Tilldela ID:n till fragment (Dita-element) som du vill återanvända i andra ämnen
 
-- ## Tangenter visas inte i dialogrutan Återanvänd innehåll
+## Tangenter visas inte i dialogrutan Återanvänd innehåll
 
-  Kontrollera att du har öppnat rotmappningen/den överordnade kartan i kartvyn, som har en nyckeldefinition, eller lägg till rotmappssökvägen manuellt i samma dialogruta.
+Kontrollera att du har öppnat rotmappningen/den överordnade kartan i kartvyn, som har en nyckeldefinition, eller lägg till rotmappssökvägen manuellt i samma dialogruta.
 
 
 <br>
@@ -167,4 +167,4 @@ Tilldela ID:n till fragment (Dita-element) som du vill återanvända i andra äm
 <br>
 
 
-Lägg upp [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=sv) på AEM Guides Community för frågor.
+Lägg upp [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) på AEM Guides Community för frågor.

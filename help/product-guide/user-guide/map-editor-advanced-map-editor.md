@@ -4,7 +4,7 @@ description: Lär dig funktionerna i Kartredigeraren i Adobe Experience Manager 
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
 feature: Authoring, Map Editor
 role: User
-source-git-commit: a487c81c5a49ec2b8ec780ffd73cc38fcb693acc
+source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
 workflow-type: tm+mt
 source-wordcount: '2671'
 ht-degree: 0%
@@ -20,7 +20,7 @@ De alternativ som du visar i redigeringsverktygsfältet baseras på Kartredigera
 - [Layout](#layout-view)
 - [Författare](#author-view)
 - [Source](#source-view)
-- [Förhandsgranska](#preview)
+- [Förhandsgranskning](#preview)
 
 I följande avsnitt beskrivs de verktygsfältsalternativ som är tillgängliga i de olika vyerna i kartredigeraren:
 
@@ -146,7 +146,7 @@ Dessutom kan du visa följande ikoner och utföra relaterade uppgifter i rediger
 
 **Infoga före/Infoga efter** - ![](images/insert_element_before_icon.svg) / ![](images/insert_element_after_icon.svg)
 
-Visar elementet **Insert före eller &#x200B;** Insert efter dialogruta. Markera det element som du vill infoga på kartan. Beroende på åtgärden infogas det nya elementet före eller efter det aktuella elementet i kartan.
+Visar elementet **Insert före eller **Insert efter dialogruta. Markera det element som du vill infoga på kartan. Beroende på åtgärden infogas det nya elementet före eller efter det aktuella elementet i kartan.
 
 **Element** - ![](images/Add_icon.svg)
 
@@ -155,7 +155,7 @@ Visar dialogrutan **Infoga element**. Markera elementet som du vill infoga. Du k
 
 
 
-<!-----------------------------------------------------------
+<!--
 
 **Relationship table** - ![](images/relationship_table_icon.svg)
 
@@ -211,7 +211,7 @@ If you want to delete a topic from your table, click the cross icon next to the 
 **Delete the relationship table**
 
 If you want to delete the relationship table, click anywhere outside the relationship table and click Delete. For details, view [Work with relationship tables in the Map Editor](map-editor-basic-map-editor.md).
------>
+-->
 
 **Återanvändbart innehåll** - ![](images/reusable-content.svg)
 
@@ -246,7 +246,7 @@ I den här vyn kan du redigera innehåll i Raw-format, vilket ger fullständig k
 
 I den här vyn innehåller verktygsfältet grundläggande alternativ för redigering och infogning av innehåll som är tillgängliga i listrutan **Meny**, inklusive Klipp ut, Kopiera, Ångra, Gör om, Ta bort, Sök och ersätt, Versionsetikett, Sammanfoga, Spara som ny version, Lås och Lås upp.
 
-## Förhandsgranska
+## Förhandsgranskning
 
 Förhandsgranskningsläget återger innehållet så som det kommer att se ut i det slutliga resultatet, vilket gör att du kan granska layouten och formateringen innan du publicerar det.
 

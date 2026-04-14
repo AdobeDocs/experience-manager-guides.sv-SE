@@ -4,7 +4,7 @@ description: Hantera innehåll och identifiera roller och behörigheter i AEM Gu
 exl-id: 84926dc2-1180-48ef-85d0-50e3478bf26a
 feature: Content Management
 role: User
-source-git-commit: 461692ce786f914dd196f289efef726e42bf9660
+source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Några viktiga begrepp inom innehållshantering i Adobe Experience Manager är f
 
 **Resurshantering**
 
-Experience Manager Guides använder Adobe Experience Manager digitala resurshantering \(DAM\) för att hantera dina DITA-filer. Filerna som du överför eller checkar in i DAM lagras som digitala resurser. Du kan hantera och redigera dina resurser i Adobe Experience Manager Assets. Mer information om resurshantering finns i [Hantera resurser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=sv-SE).
+Experience Manager Guides använder Adobe Experience Manager digitala resurshantering \(DAM\) för att hantera dina DITA-filer. Filerna som du överför eller checkar in i DAM lagras som digitala resurser. Du kan hantera och redigera dina resurser i Adobe Experience Manager Assets. Mer information om resurshantering finns i [Hantera resurser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=en).
 
 **Länkhantering**
 
@@ -62,27 +62,27 @@ I följande tabell visas olika uppgifter och grupper som kan utföra dessa uppgi
 | Kopiera | Ja |   | Ja |
 | Ta bort | Ja |   | Ja |
 | Dela | Ja |   | Ja |
-| **Dokumentläge** |
+| **Dokumentläge** |  |  |  |
 | Skapa/redigera dokumenttillståndsprofil |   |   | Ja |
 | Ändra dokumentläge[2](#fntarg_2) | Ja | Ja | Ja |
-| **Tillgängliga funktioner i DITA-kartkonsolen \(fliken Utdatainställningar\)** |
+| **Tillgängliga funktioner i DITA-kartkonsolen \(fliken Utdatainställningar\)** |  |  |  |
 | Generera |   |   | Ja |
 | Redigera |   |   | Ja |
 | Duplicera |   |   | Ja |
 | Skapa |   |   | Ja |
 | Ta bort förinställning |   |   | Ja |
-| **Tillgängliga funktioner i DITA-kartkonsolen \(fliken Utdata\)** |
+| **Tillgängliga funktioner i DITA-kartkonsolen \(fliken Utdata\)** |  |  |  |
 | Visa genererade utdata | Ja |   | Ja |
-| **Tillgängliga funktioner i DITA-kartkonsolen \(fliken Ämnen\)** |
+| **Tillgängliga funktioner i DITA-kartkonsolen \(fliken Ämnen\)** |  |  |  |
 | Skapa granskningsaktivitet | Ja |   | Ja |
 | Redigera | Ja |   | Ja |
-| **Tillgängliga funktioner i DITA-kartkonsolen \(fliken Baslinjer\)** |
+| **Tillgängliga funktioner i DITA-kartkonsolen \(fliken Baslinjer\)** |  |  |  |
 | Skapa |   |   | Ja |
 | Redigera |   |   | Ja |
 | Duplicera |   |   | Ja |
 | Ta bort |   |   | Ja |
 | DITA map console \(Reports tab\) | Ja |   | Ja |
-| **Tillgängliga funktioner i DITA-kartkonsolen \(Villkorsförinställningar\)** |
+| **Tillgängliga funktioner i DITA-kartkonsolen \(Villkorsförinställningar\)** |  |  |  |
 | Skapa/redigera villkorsförinställning |   |   | Ja |
 
 [1](#fnsrc_1) Om *Författare* och *Utgivare* bjuds in till en granskning.

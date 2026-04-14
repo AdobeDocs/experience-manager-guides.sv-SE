@@ -4,7 +4,7 @@ description: Översätt ditt innehåll till flera språk från webbredigeraren. 
 exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: c619c518a3ae1629897eb90f5f15aa4742be5ef2
+source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
 workflow-type: tm+mt
 source-wordcount: '2519'
 ht-degree: 0%
@@ -95,9 +95,10 @@ Innan du utför stegen i den här proceduren måste du se till att du har skapat
 
      ![](images/unversioned-changes-translation.png){width="650" align="left"}
 
-     >
+     >[!NOTE]
      >
      > Om du bara vill visa filer med ändringar utan versionsnummer aktiverar du inställningen **Visa endast resurser med ändringar utan versionsnummer** på panelen Filter. Dessutom visas indikatorn för versionshantering bara när du översätter filer baserat på deras senaste versioner.
+
    - **Versionsetikett**: Etikett för den valda versionen av källfilen
    - **Målversion**: Målfilens versionsnummer
    - **Dokumenttillstånd**: Källfilens tillstånd. De tillgängliga alternativen är Utkast, Under granskning och Granskad.
@@ -239,4 +240,4 @@ För effektiv dokumenthantering kan Experience Manager Guides ta bort översätt
 Du kan även inaktivera översättningsprojekten om du vill använda dem senare. Om du tar bort ett projekt tas alla filer och mappar i projektet bort. Om du inaktiverar ett projekt tas det inte bort, utan behålls i databasen. Men du kan inte uppdatera eller redigera ett inaktiverat projekt.  Om du tar bort eller inaktiverar ett projekt påverkas inte översättningsstatusen för några referenser.
 
 
-**Överordnat ämne:**&#x200B;[&#x200B; Introduktion till redigeraren](web-editor.md)
+**Överordnat ämne:**[ Introduktion till redigeraren](web-editor.md)

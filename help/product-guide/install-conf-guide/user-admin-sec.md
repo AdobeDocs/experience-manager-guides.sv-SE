@@ -4,7 +4,8 @@ description: Se hur användaradministration och säkerhet fungerar
 feature: User Management
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: c5ac6537-d7e8-4408-b85d-b82d7c038591
+source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
 workflow-type: tm+mt
 source-wordcount: '731'
 ht-degree: 0%
@@ -19,7 +20,7 @@ Följande avsnitt i Adobe Experience Manager-dokumentationen hjälper dig att f�
 
 | Molntjänster | On Premises |
 |---|---|
-| [AEM-användare, -grupper och -behörigheter](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html?lang=sv-SE)<br>[Användaradministration och -säkerhet](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html?lang=sv-SE) | [Användare och grupper i AEM](https://helpx.adobe.com/se/experience-manager/6-5/sites/administering/using/security.html#UsersandGroupsinAEM)<br>[Behörigheter i AEM](https://helpx.adobe.com/se/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM)<br>[Hantera användare och grupper](https://helpx.adobe.com/se/experience-manager/6-5/sites/administering/using/security.html#ManagingUsersandGroups)<br>[Hantera behörigheter](https://helpx.adobe.com/se/experience-manager/6-5/sites/administering/using/security.html#ManagingPermissions) |
+| [AEM-användare, -grupper och -behörigheter](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html)<br>[Användaradministration och -säkerhet](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html) | [Användare och grupper i AEM](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#UsersandGroupsinAEM)<br>[Behörigheter i AEM](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM)<br>[Hantera användare och grupper](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#ManagingUsersandGroups)<br>[Hantera behörigheter](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#ManagingPermissions) |
 
 
 ## Användargrupper skapade av AEM Guides {#id181TF0K0MHT}
@@ -47,27 +48,27 @@ I följande tabell visas olika uppgifter och grupper som kan utföra dessa uppgi
 | Kopiera | Ja |   | Ja |
 | Ta bort | Ja |   | Ja |
 | Dela | Ja |   | Ja |
-| **Dokumentläge** |
+| **Dokumentläge** |  |  |  |
 | Skapa/redigera dokumenttillståndsprofil |   |   | Ja |
 | Ändra dokumentläge[2](#fntarg_2) | Ja | Ja | Ja |
-| **Tillgängliga funktioner i DITA-kartkonsolen \(fliken Utdatainställningar\)** |
+| **Tillgängliga funktioner i DITA-kartkonsolen \(fliken Utdatainställningar\)** |  |  |  |
 | Generera |   |   | Ja |
 | Redigera |   |   | Ja |
 | Duplicera |   |   | Ja |
 | Skapa |   |   | Ja |
 | Ta bort förinställning |   |   | Ja |
-| **Tillgängliga funktioner i DITA-kartkonsolen \(fliken Utdata\)** |
+| **Tillgängliga funktioner i DITA-kartkonsolen \(fliken Utdata\)** |  |  |  |
 | Visa genererade utdata | Ja |   | Ja |
-| **Tillgängliga funktioner i DITA-kartkonsolen \(fliken Ämnen\)** |
+| **Tillgängliga funktioner i DITA-kartkonsolen \(fliken Ämnen\)** |  |  |  |
 | Skapa granskningsaktivitet | Ja |   | Ja |
 | Redigera | Ja |   | Ja |
-| **Tillgängliga funktioner i DITA-kartkonsolen \(fliken Baslinjer\)** |
+| **Tillgängliga funktioner i DITA-kartkonsolen \(fliken Baslinjer\)** |  |  |  |
 | Skapa |   |   | Ja |
 | Redigera |   |   | Ja |
 | Duplicera |   |   | Ja |
 | Ta bort |   |   | Ja |
 | DITA map console \(Reports tab\) | Ja |   | Ja |
-| **Tillgängliga funktioner i DITA-kartkonsolen \(Villkorsförinställningar\)** |
+| **Tillgängliga funktioner i DITA-kartkonsolen \(Villkorsförinställningar\)** |  |  |  |
 | Skapa/redigera villkorsförinställning |   |   | Ja |
 
 ## Ytterligare information om användargrupper
@@ -103,8 +104,3 @@ Följande lista innehåller rekommendationer och punkter som rör användargrupp
 - Om du vill ge en användare behörighet att ändra ett dokumenttillstånd måste du lägga till användaren i avsnittet om tillståndsövergång i dokumentets tillståndsprofil.
 
 [1](#fnsrc_1) Om *Författare* och *Utgivare* bjuds in till en granskning.[2](#fnsrc_2) Beroende på vilka rättigheter användaren har i dokumentets tillståndsprofil.
-
-
-
-
-

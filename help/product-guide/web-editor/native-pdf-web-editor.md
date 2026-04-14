@@ -1,10 +1,10 @@
 ---
-title: PDF | Generering av PDF-filer
+title: PDF | PDF produktion
 description: Lär dig hur du använder PDF-publicering, skapar och genererar en förinställning för PDF-utdata, hämtar tillfälliga filer efter generering av PDF-utdata och använder språkvariabler i Adobe Experience Manager Guides.
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
 feature: Publishing, Native PDF Output
 role: User
-source-git-commit: a6dafe6c634b872001a2b82d9d081b3e52a75b80
+source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
 workflow-type: tm+mt
 source-wordcount: '3293'
 ht-degree: 0%
@@ -60,8 +60,7 @@ Används för att ange grundläggande utdatainställningar, t.ex. en utdatasökv
 | **Använd baslinje** | Om du har skapat en baslinje för den valda DITA-kartan väljer du det här alternativet för att ange vilken version du vill publicera. Visa [Arbeta med baslinjen](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html) om du vill ha mer information. |
 | **Skapa PDF med ändringsfältet mellan publicerade versioner** | Använd följande alternativ för att skapa en PDF som visar skillnaden i innehåll mellan två versioner med hjälp av ändringsfält:   <br><ul><li> **Baslinje för föregående version** Välj den baslinjeversion som du vill jämföra med den aktuella versionen eller en annan baslinje. Ett ändringsfält visas i PDF för att ange det ändrade innehållet. Ett ändringsfält är en lodrät linje som visuellt identifierar nytt eller ändrat innehåll. Ändringsfältet visas till vänster om innehållet som har infogats, ändrats eller tagits bort. <br> **Obs!** Om du väljer **Använd baslinje** och väljer en baslinje att publicera, görs jämförelsen mellan de två valda baslinjeversionerna. Om du till exempel väljer baslinje version 1.3 under **Använd baslinje** och version 1.1 under **Baslinje i föregående version**, görs jämförelsen mellan baslinje version 1.1 och baslinje version 1.3. <br><li> **Visa tillagd text** Markera om du vill visa den infogade texten i grön färg och understruken. Det här alternativet är markerat som standard. <br> <li> **Visa borttagen text** Markera om du vill visa borttagen text i röd färg och markerad med genomstrykning. Det här alternativet är markerat som standard. <br>**Obs!** Du kan också anpassa formateringen för ändringsfältet, infogat innehåll eller borttaget innehåll med formatmallen.<br></ul> |
 | **Språk** | Välj det språk som du vill att utdata ska översättas. <br> **Obs!** Korsreferenstexter som &quot;Se i kapitel&quot; eller &quot;Se på sida&quot; styrs av en språkvariabel. Variabeln använder det språk som definierats i ämnet via attributet `xml:lang`. Om inget språk anges där används det förinställda språket. Om båda saknas används engelska (en_US) som standard. |
-
-| **Arbetsflöde efter generering** |Välj det här alternativet om du vill visa en listruta som innehåller alla arbetsflöden som har konfigurerats i AEM. Du kan välja vilket arbetsflöde du vill köra när arbetsflödet för PDF-generering har slutförts.|
+| **Arbetsflöde efter generering** | Välj det här alternativet om du vill visa en nedrullningsbar lista som innehåller alla arbetsflöden som har konfigurerats i AEM. Du kan välja vilket arbetsflöde du vill köra när arbetsflödet för att skapa PDF har slutförts. |
 
 **Metadata**
 
@@ -82,9 +81,9 @@ Välj **PDF** > **Native-PDF** > **Metadata** i Utdataförinställningarna om du
 
 * **Ange XMP-fil**
 
-  Du kan också fylla i metadatafälten direkt genom att importera filen [XMP](https://www.adobe.com/se/products/xmp.html) (Extensible Metadata Platform). Här kan du hämta en exempelfil för XMP.
+  Du kan också fylla i metadatafälten direkt genom att importera filen [XMP](https://www.adobe.com/products/xmp.html) (Extensible Metadata Platform). Här kan du hämta en exempelfil för XMP.
 
-[Ladda ned](assets/SampleXMP.xmp)
+[Ladda ner](assets/SampleXMP.xmp)
 
   Du kan också generera en XMP-fil med Adobe Acrobat.
    1. Välj **Arkiv** > **Egenskaper** i Acrobat.
@@ -124,7 +123,7 @@ Används för att ange sidlayouter och ange alternativ för sidvisning för PDF-
 | Inställning | Beskrivning |
 | --- | --- |
 | **PDF-mall** | PDF-mallar har en tydlig struktur för att definiera sidlayouter, formatera innehåll och tillämpa olika inställningar på dina PDF-utdata. Välj en mall i listrutan PDF-mall. <br> Du kan också välja **Bläddra efter mall** <img src="./assets/browse-templates-icon.svg"  alt= "bläddra bland mallar, ikon" width="25"> om du vill välja en mall. I dialogrutan **Välj PDF-mall** kan du även förhandsgranska miniatyrbilden och visa den markerade mallens rubrik och beskrivning. |
-| **Sidvisning** | Använd Sidvisning för sidvyn som visar hur PDF visas när det öppnas. Välj en önskad vy i listrutan Sidvisning. <br><ul><li> **Standard** visas som standardinställningen för PDF-visningsprogrammet på en användares dator.  <br> <li> **Enkelsidig vy** Visar en sida i taget.   <br> <li> **Enkelsidig rullning** Visar en sida i en kontinuerlig lodrät kolumn.  <br> <li> **Dubbelsidig vy** Visar tvåsidigt uppslag sida vid sida. . <br> <li> **Dubbelsidig rullning** Visar tvåsidigt uppslag sida vid sida med kontinuerlig rullning. </ul> |
+| **Sidvisning** | Använd Sidvisning för sidvyn som visar hur PDF visas när det öppnas. Välj en önskad vy i listrutan Sidvisning. <br><ul><li> **Standard** visas som standardinställningen för PDF-visningsprogrammet på en användares dator.  <br> <li> **Enkelsidig vy** Visar en sida i taget.   <br> <li> **Enkelsidig rullning** Visar en sida i en kontinuerlig lodrät kolumn.  <br> <li> **Dubbelsidig vy** Visar tvåsidigt uppslag sida vid sida. <br> <li> **Dubbelsidig rullning** Visar tvåsidigt uppslag sida vid sida med kontinuerlig rullning. </ul> |
 | **Zooma** | Välj det här alternativet om du vill ändra storlek på sidvyn som visar hur PDF visas när det öppnas.  <br><ul><li> **Standard** visas som standardinställningen för PDF-visningsprogrammet på en användares dator    <br> <li> **100%** Visar sidan i verklig storlek.     <br> <li> **Anpassa sida** Anpassa sidans bredd och höjd så att den passar i dokumentrutan.   . <br> <li> **Anpassa sidbredd** Gör sidans bredd lika bred som dokumentfönstret.  <br> <li> **Anpassa sidhöjd** Gör sidhöjden till dokumentfönstrets höjd. </ul> |
 
 **Säkerhet**
@@ -186,13 +185,12 @@ Använd följande alternativ för att ange avancerade inställningar för att sa
 | **Skapa interaktivt PDF-formulär** | Välj det här alternativet om du vill inkludera interaktiva och anpassningsbara PDF-formulärfält för förbättrad användarinmatning i genererade PDF-utdata. |
 | **Inkludera spårningsändringar** | Välj det här alternativet om du vill inkludera spårade ändringar i den genererade PDF-filen för enkel granskning och jämförelse. |
 | **Behåll temporära filer** | Välj det här alternativet om du vill behålla de mellanliggande HTML-filer som skapas när de ursprungliga PDF-utdata skapas. Du kan hämta de tillfälliga filerna senare när du har genererat utdata. De hämtade filerna innehåller även `system_config.xml`-fil med information om författarens URL, lokal URL och publicerings-URL. Dessa URL:er har konfigurerats i inställningarna för AEM Externalization och återspeglas i filen `system_config.xml`. |
-| **PDF-överensstämmelse** | Det är den standard som du tänker spara din PDF så att den uppfyller kraven. I listrutan väljer du bland de tillgängliga PDF-standarderna. Mer information om vilka standarder som stöds finns i [Om PDF-standarder](https://helpx.adobe.com/se/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
+| **PDF-överensstämmelse** | Det är den standard som du tänker spara din PDF så att den uppfyller kraven. I listrutan väljer du bland de tillgängliga PDF-standarderna. Mer information om vilka standarder som stöds finns i [Om PDF-standarder](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
 | **Filegenskaper** | Välj de metadata som du vill skicka till PDF-publicering. I listrutan visas både de anpassade egenskaperna och standardegenskaperna. Till exempel är `dc:description`, `dc:language`, `dc:title` och `docstate` standardegenskaper medan du kan ha `author` som anpassad egenskap. De valda metadataegenskaperna skickas till PDF-filen som genereras med den inbyggda PDF-filen. <br> De här egenskaperna hämtas från `metadataList`-filen som är tillgänglig på:`/libs/fmdita/config/metadataList`. <br>Den här filen kan överlappas: `/apps/fmdita/config/metadataList`. |
 
 
 
-<!--------------
-
+<!--
 
 ### Additional notes for PDF output
 
@@ -217,4 +215,4 @@ Experience Manager Guides also provides support for your Markdown documents.  Ma
 
 You can add the Markdown topics to your DITA map and generate the PDF output using the Native PDF output presets.  Learn how to configure or [create a PDF output preset](#create-a-pdf-output-preset-create-output-preset). 
 
---------------->
+-->

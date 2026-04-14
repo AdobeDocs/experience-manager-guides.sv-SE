@@ -4,7 +4,7 @@ description: Januariversion av  [!DNL Adobe Experience Manager Guides] as a Clou
 exl-id: b2da77fa-f17c-440b-be59-acaafcd9a57c
 feature: Release Notes
 role: Leader
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
 workflow-type: tm+mt
 source-wordcount: '2440'
 ht-degree: 0%
@@ -37,8 +37,6 @@ I det här avsnittet visas kompatibilitetsmatrisen för de program som stöds av
 | [!DNL AEM Guides]-molnversionen | Syrgasanslutningsfönster | Syrgasanslutning Mac | Redigera i syrgasfönster | Redigera i Syrgas Mac |
 | --- | --- | --- | --- | --- |
 | 2022.1.0 | 2.4.0 | 2.4.0 | 2,2 | 2,2 |
-|  |  |  |  |  |  |
-
 
 ## Nya funktioner och förbättringar
 
@@ -50,7 +48,7 @@ Med den här funktionen kan användarna skapa DITA-kartan på ett additivt sätt
 
 ![Artikelbaserad publicering](assets/article-based-publishing.png)
 
-Förutom AEM kan du använda den här unika funktionen för att publicera dina artiklar i alla kunskapsbasportaler, som Salesforce. Den här funktionen innehåller också en OOTB-innehållsmall som bygger på AEM kärnkomponenter och som gör att du kan skapa en kunskapsbaserad databas med det tekniska innehållet. Det som är bra med den här mallen är att den är helt anpassningsbar för att passa organisationens behov och kan även stödja användningsfall som intranätsportaler.
+Förutom AEM kan du använda den här unika funktionen för att publicera dina artiklar i alla kunskapsbasportaler, som Salesforce. Den här funktionen innehåller också en OOTB-innehållsmall som bygger på AEM kärnkomponenter och som gör att du kan skapa en kunskapsbaserad databas med det tekniska innehållet. Vad som är bra med den här mallen är att den är helt anpassningsbar för att passa organisationens behov och kan även stödja användningsfall som intranätsportaler.
 Du kan också filtrera artiklarna baserat på deras dokumenttillstånd och ändringsdatum.
 
 Denna välbehövliga artikelpublicering i farten ger dig inte bara fullständig kontroll över innehållspubliceringen utan minskar även den totala tiden för publicering av uppdaterat innehåll.
@@ -236,9 +234,9 @@ De buggar som har åtgärdats i olika områden listas nedan:
 
 ### Innehållsimport
 
-* Konvertering från HTML till DITA | Tabell med tr med tomma td-poster ger upphov till ytterligare rader i utdata. 8132
-* Konvertering från HTML till DITA | HTML med en tabell med flera innehållsförteckningar misslyckas med ett undantag. (7940)
-* Konvertering från HTML till DITA | fel har uppstått om HTML har kommentarer. 7937
+* Konvertering från HTML till DITA | Tabell med tr utan td-poster orsakar ytterligare rader i utdata. 8132
+* Konvertering från HTML till DITA | HTML med flera tabeller misslyckas med undantag. (7940)
+* Konvertering från HTML till DITA | fel om HTML har kommentarer. 7937
 * Om du importerar DITA 1.3 DITA-filer omvandlas en del href till felformaterade länkar. (8019)
 
 ## Kända fel
