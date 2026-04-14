@@ -41,7 +41,7 @@ FrameMaker Publishing Server (FMPS) kan användas för att generera DITA-innehå
 
 Öppna webbkonsolen genom att gå till http://\&lt;servernamn\>:\&lt;port\>/system/console/configMgr.
 
-**Konfigurationsegenskaper och deras beskrivning** [ 4.1-installation och konfiguration](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-1-2/Adobe-Experience-Manager-Guides_Installation-Configuration-Guide_EN.pdf#page=89)
+**Konfigurationsegenskaper och deras beskrivning** [&#x200B; 4.1-installation och konfiguration](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-1-2/Adobe-Experience-Manager-Guides_Installation-Configuration-Guide_EN.pdf#page=89)
 
 ## Kör test:
 

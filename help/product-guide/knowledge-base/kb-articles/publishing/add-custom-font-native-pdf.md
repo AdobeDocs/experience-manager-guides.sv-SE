@@ -27,15 +27,15 @@ Den här processen omfattar tre steg:
 
 ## Steg 1: Överför det anpassade teckensnittet till mallens resursmapp
 
-![Anpassad teckensnittsuppladdning och import ](../assets/publishing/custom-font1.png)
+![Anpassad teckensnittsuppladdning och import &#x200B;](../assets/publishing/custom-font1.png)
 
 ## Steg 2: Gör nödvändiga ändringar i PDF-mallarnas formatmall
 
-![Teckensnitt i PDF mallens formatmall ](../assets/publishing/custom-font2.png)
+![Teckensnitt i PDF mallens formatmall &#x200B;](../assets/publishing/custom-font2.png)
 
 ## Steg 3 (valfritt): Bädda in använt teckensnitt i PDF
 
-![Anpassad teckensnittsinbäddning i DITA PDF ](../assets/publishing/custom-font3.png)
+![Anpassad teckensnittsinbäddning i DITA PDF &#x200B;](../assets/publishing/custom-font3.png)
 
 ## Vanliga frågor
 
