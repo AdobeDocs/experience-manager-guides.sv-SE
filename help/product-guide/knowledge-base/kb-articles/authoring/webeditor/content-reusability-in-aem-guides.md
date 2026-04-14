@@ -167,4 +167,4 @@ Kontrollera att du har öppnat rotmappningen/den överordnade kartan i kartvyn, 
 <br>
 
 
-Lägg upp [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) på AEM Guides Community för frågor.
+Lägg upp [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=sv) på AEM Guides Community för frågor.

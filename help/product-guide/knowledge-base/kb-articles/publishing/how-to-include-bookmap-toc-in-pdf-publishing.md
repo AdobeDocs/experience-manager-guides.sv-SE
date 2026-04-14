@@ -93,13 +93,13 @@ Om du publicerar Ditamap har Native PDF funktioner för att automatiskt generera
 
 ## Ytterligare resurser:
 
-- [Dokumentation för PDF designsidor](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/design-page-layout)
-- [Inbyggd PDF Essentials-session med en förinspelad expert](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23)
+- [Dokumentation för PDF designsidor](https://experienceleague.adobe.com/sv/docs/experience-manager-guides/using/install-guide/on-prem-ig/output-gen-config/config-native-pdf-publish/design-page-layout)
+- [Inbyggd PDF Essentials-session med en förinspelad expert](https://experienceleague.adobe.com/sv/docs/experience-manager-guides/using/knowledge-base/expert-session/native-pdf-publishing-essentials-feb23)
 
 <br>
 <br>
 
-Lägg upp [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) på AEM Guides Community för frågor.
+Lägg upp [forum](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation?profile.language=sv) på AEM Guides Community för frågor.
 
 
 

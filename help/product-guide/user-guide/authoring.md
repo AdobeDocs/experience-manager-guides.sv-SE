@@ -21,7 +21,7 @@ Några viktiga begrepp inom innehållshantering i Adobe Experience Manager är f
 
 **Resurshantering**
 
-Experience Manager Guides använder Adobe Experience Manager digitala resurshantering \(DAM\) för att hantera dina DITA-filer. Filerna som du överför eller checkar in i DAM lagras som digitala resurser. Du kan hantera och redigera dina resurser i Adobe Experience Manager Assets. Mer information om resurshantering finns i [Hantera resurser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=en).
+Experience Manager Guides använder Adobe Experience Manager digitala resurshantering \(DAM\) för att hantera dina DITA-filer. Filerna som du överför eller checkar in i DAM lagras som digitala resurser. Du kan hantera och redigera dina resurser i Adobe Experience Manager Assets. Mer information om resurshantering finns i [Hantera resurser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=sv-SE).
 
 **Länkhantering**
 
