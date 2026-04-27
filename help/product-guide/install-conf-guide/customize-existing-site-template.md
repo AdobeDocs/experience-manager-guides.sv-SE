@@ -140,4 +140,4 @@ Som standard används inte klientbiblioteken (klientbibliotek) som finns i AEM G
 
 >[!NOTE]
 >
-> Kontrollera att mallarna har testats i en icke-produktionsmiljö innan du distribuerar till produktionen.<br><br>Mer information finns i den officiella dokumentationen för [AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview) och [AEM Sites](https://experienceleague.adobe.com/en/docs/experience-manager-core-components/using/get-started/authoring).
+> Kontrollera att mallarna har testats i en icke-produktionsmiljö innan du distribuerar till produktionen.<br><br>Mer information finns i den officiella dokumentationen för [AEM Guides](https://experienceleague.adobe.com/sv/docs/experience-manager-guides/using/overview) och [AEM Sites](https://experienceleague.adobe.com/sv/docs/experience-manager-core-components/using/get-started/authoring).
