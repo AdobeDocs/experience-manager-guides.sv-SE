@@ -363,7 +363,7 @@ Om du vill utesluta elementet `table` från förenkling lägger du till följand
 
 ## Konfigurera versionshantering för borttagna sidor i AEM Site-utdata
 
-När du genererar utdata för AEM-webbplatsen med alternativet **Ta bort och** Skapa ****valt för inställningen Befintliga utdatasidor skapas en version för sidan/sidorna som tas bort. Du kan konfigurera systemet så att det inte längre skapas en version innan du tar bort den.
+När du genererar utdata för AEM-webbplatsen med alternativet **Ta bort och** Skapa **&#x200B;**&#x200B;valt för inställningen Befintliga utdatasidor skapas en version för sidan/sidorna som tas bort. Du kan konfigurera systemet så att det inte längre skapas en version innan du tar bort den.
 
 På följande flikar finns anvisningar om hur du stoppar skapandet av en version för de sidor som ska tas bort baserat på din Experience Manager Guides-konfiguration: Cloud Service eller On-Premise.
 
