@@ -4,15 +4,15 @@ description: Lär dig hur du konfigurerar inställningar för generering av utda
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 6f3f05419f4f5cdd45ab580cdee6fa869f20f01d
+exl-id: 0849544d-fa7b-4c66-b418-1ffcd1ca09df
+source-git-commit: d5dbd67ba44735cf1545291e9a03e3096acd8166
 workflow-type: tm+mt
-source-wordcount: '3098'
+source-wordcount: '3190'
 ht-degree: 0%
 
 ---
 
-
-# Anpassa utdata för AEM Site {#id166TG0B30WR}
+# Anpassa befintliga AEM Site-utdata {#id166TG0B30WR}
 
 AEM Guides har stöd för att skapa utdatafiler i följande format:
 
@@ -98,7 +98,7 @@ AEM Guides designmallsegenskaper beskrivs i följande tabell.
 >
 > När du har skapat en anpassad designmallsnod måste du uppdatera designalternativet i förinställningarna för AEM Site-utdata för att kunna använda den anpassade designmallsnoden.
 
-Mer information finns i [Skapa din första Adobe Experience Manager-webbplats](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=sv-SE) och [Grunderna](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=sv-SE) för att utveckla din egen webbplats på AEM.
+Mer information finns i [Skapa din första Adobe Experience Manager-webbplats](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=en) och [Grunderna](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/develop-wknd-tutorial.html?lang=en) för att utveckla din egen webbplats på AEM.
 
 ## Använd dokumenttitel för att generera utdata från AEM webbplats
 
@@ -220,7 +220,7 @@ Du kan också konfigurera andra egenskaper, till exempel använda gemener i filn
 
 1. Sök efter och klicka på paketet **com.adobe.fmdita.config.ConfigManager**.
 
-1. Kontrollera att egenskapen är inställd på **i egenskapen** Regex för giltiga tecken`[-a-zA-Z0-9_]` . Du kan lägga till fler tecken i den här listan, men den måste innehålla dessa grundläggande tecken och listan måste börja med ett bindestreck \(`-`\).
+1. Kontrollera att egenskapen är inställd på `[-a-zA-Z0-9_]` i egenskapen **Regex för giltiga tecken** . Du kan lägga till fler tecken i den här listan, men den måste innehålla dessa grundläggande tecken och listan måste börja med ett bindestreck \(`-`\).
 
    >[!NOTE]
    >
@@ -363,7 +363,7 @@ Om du vill utesluta elementet `table` från förenkling lägger du till följand
 
 ## Konfigurera versionshantering för borttagna sidor i AEM Site-utdata
 
-När du genererar utdata för AEM-webbplatsen med alternativet **Ta bort och** Skapa **&#x200B;**&#x200B;valt för inställningen Befintliga utdatasidor skapas en version för sidan/sidorna som tas bort. Du kan konfigurera systemet så att det inte längre skapas en version innan du tar bort den.
+När du genererar utdata för AEM-webbplatsen med alternativet **Ta bort och** Skapa ****valt för inställningen Befintliga utdatasidor skapas en version för sidan/sidorna som tas bort. Du kan konfigurera systemet så att det inte längre skapas en version innan du tar bort den.
 
 På följande flikar finns anvisningar om hur du stoppar skapandet av en version för de sidor som ska tas bort baserat på din Experience Manager Guides-konfiguration: Cloud Service eller On-Premise.
 
@@ -409,6 +409,3 @@ På följande flikar finns anvisningar om hur du stoppar skapandet av en version
 Experience Manager Guides har en anpassad [**rewriter**](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html)-modul för hantering av länkar som genereras vid korsmappningar (länkar mellan ämnen på två olika kartor). Denna omskrivarkonfiguration installeras på följande sökväg: <br> `/apps/fmdita/config/rewriter/fmdita-crossmap-link-patcher`.
 
 Om du har en annan anpassad återskrivningsskrivare i kodbasen använder du ett `'order'`-värde som är större än 50, eftersom Experience Manager Guides återskrivningsprogram använder `'order'` 50.  Om du vill åsidosätta detta måste du ange ett värde >50. Mer information finns i [Skriva om utdata](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html).
-
-
-

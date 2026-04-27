@@ -4,14 +4,15 @@ description: Lär dig hur du anpassar befintliga AEM Site-mallar för AEM Guides
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 834959a6a0e22cd5d2b2c5d0e57ceb6d45c0c666
+exl-id: eabaec57-e717-45a9-8321-4057b993d7fb
+source-git-commit: d5dbd67ba44735cf1545291e9a03e3096acd8166
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '944'
 ht-degree: 0%
 
 ---
 
-# Anpassa befintliga AEM Site-mallar
+# Anpassa nya AEM Site-mallar
 
 Den här guiden innehåller stegvisa instruktioner för att anpassa befintliga AEM Site-mallar för användning med AEM Guides för att generera AEM Sites från DITA-kartor och ämnen.
 
@@ -61,7 +62,7 @@ Mallen Dokumentationsbehållarsida används för att skapa produktdokumentations
 - Innehåller vanligtvis navigeringselement, t.ex. länkar till avsnitt eller ämnen i dokumentationen.
 - Den kan anpassas så att den omfattar varumärken, sidhuvuden, sidfötter och andra designelement.
 
-**Exempel på användningsfall:**
+**Exempel:**
 Om du har en DITA-karta för en produkthandbok, kommer dokumentationsbehållarsidmallen att generera startsidan för den handboken med en översikt och länkar till enskilda ämnen.
 
 ### Ämnessidmall
@@ -76,7 +77,7 @@ Om du har en DITA-karta för en produkthandbok, kommer dokumentationsbehållarsi
    - Textkomponenten placeras vanligtvis inuti en **behållarkomponent** för att säkerställa rätt layout och format.
    - Kan anpassas så att de innehåller konsekventa sidhuvuden, sidfötter och navigeringselement för alla ämnessidor.
 
-**Exempel på användningsfall:**
+**Exempel:**
 Om du har ett DITA-avsnitt om &quot;Installationsanvisningar&quot;, kommer ämnessidmallen att generera en sida som visar innehållet i det ämnet.
 
 **Behållarkomponent:**
@@ -139,4 +140,4 @@ Som standard används inte klientbiblioteken (klientbibliotek) som finns i AEM G
 
 >[!NOTE]
 >
-> Kontrollera att mallarna har testats i en icke-produktionsmiljö innan du distribuerar till produktionen.<br><br>Mer information finns i den officiella dokumentationen för [AEM Guides](https://experienceleague.adobe.com/sv/docs/experience-manager-guides/using/overview) och [AEM Sites](https://experienceleague.adobe.com/sv/docs/experience-manager-core-components/using/get-started/authoring).
+> Kontrollera att mallarna har testats i en icke-produktionsmiljö innan du distribuerar till produktionen.<br><br>Mer information finns i den officiella dokumentationen för [AEM Guides](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview) och [AEM Sites](https://experienceleague.adobe.com/en/docs/experience-manager-core-components/using/get-started/authoring).

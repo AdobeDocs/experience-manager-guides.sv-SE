@@ -1,11 +1,11 @@
 ---
 user-guide-title: Experience Manager Guides
 user-guide-description: Läs produktdokumentationen för Adobe Experience Manager Guides.
-breadcrumb-title: Dokumentation om AEM Guides
-source-git-commit: 33f261cafedf505f6d67cdb32d7529d9bfdfe305
+breadcrumb-title: AEM Guides Documentation
+source-git-commit: d5dbd67ba44735cf1545291e9a03e3096acd8166
 workflow-type: tm+mt
-source-wordcount: '3233'
-ht-degree: 2%
+source-wordcount: '3316'
+ht-degree: 0%
 
 ---
 
@@ -188,13 +188,13 @@ ht-degree: 2%
                - [4.2.1 Versionsinformation](./release-info/release-notes-4-2-1.md)
                - [4.2 Versionsinformation](./release-info/release-notes-4-2.md)
          - [4.1.x Versionsinformation](./release-info/release-notes-4-1.md)
-         - [Versionsinformation för 4.0.x](https://helpx.adobe.com/se/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         - [3.8.x Versionsinformation](https://helpx.adobe.com/se/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+         - [4.0.x Versionsinformation](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+         - [Versionsinformation om 3.8.x](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 - Användarhandbok (nytt användargränssnitt) {#user-guide}
    - Introduktion {#about-aemg}
       - [Om [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       - [!DNL AEM Guides] funktioner och nyckelfunktioner {#aemg-works-features}
-         - [Så här fungerar [!DNL AEM Guides] &#x200B;](./user-guide/intro-how-dxml-works.md)
+         - [Så här fungerar [!DNL AEM Guides] ](./user-guide/intro-how-dxml-works.md)
          - [Viktiga [!DNL AEM Guides] funktioner](./user-guide/intro-dxml-features.md)
    - Startsida {#home-page}
       - [[!DNL AEM Guides] - startsida](./user-guide/intro-home-page.md)
@@ -212,7 +212,7 @@ ht-degree: 2%
             - [Förhandsgranska ett ämne](./user-guide/web-editor-preview-topics.md)
          - [Lär dig redigeringsfunktionerna](./user-guide/web-editor-features.md)
          - Lär dig redigeringsgränssnittet och funktionerna {#editor-interface-features}
-            - [Översikt](./user-guide/intro-editor-interface.md)
+            - [Ökning](./user-guide/intro-editor-interface.md)
             - [Sidhuvudsfält](./user-guide/web-editor-header-bar.md)
             - [Flikfält](./user-guide/web-editor-tab-bar.md)
             - [Verktygsfält](./user-guide/web-editor-toolbar.md)
@@ -351,7 +351,7 @@ ht-degree: 2%
             - [Förstå grunderna för kurshanteraren](./learning-content/course-manager-basics.md)
             - [Hantera din kurs](./learning-content/manage-course.md)
          - Skapa och anpassa utbildningsmaterial {#customize-lc}
-            - [Översikt](./learning-content/lc-overview.md)
+            - [Ökning](./learning-content/lc-overview.md)
             - [Skapa ämne](./learning-content/create-content.md)
             - [Redigera ämne](./learning-content/edit-content.md)
             - [Lägg till grundläggande byggblock](./learning-content/lc-basic-blocks.md)
@@ -396,7 +396,7 @@ ht-degree: 2%
       - Felsökning {#troubleshooting}
          - [Tidsgräns för session](./user-guide/session-timeout-prompt.md)
 - Användarhandbok (gammalt användargränssnitt) {#user-guide-old-ui}
-   - [AEM Guides - översikt](https://experienceleague.adobe.com/sv/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
+   - [AEM Guides - översikt](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using-old-ui/overview){target="_blank"}
 - Installation och konfiguration {#install-guide}
    - Lokalt {#on-prem-ig}
       - [Grunderna på plats](./install-guide/introduction.md)
@@ -607,7 +607,7 @@ ht-degree: 2%
          - [Uppgradera AEM Guides Cloud Service](./install-conf-guide/download-install-upgrade-aemg.md)
          - [Ytterligare konfiguration för uppgradering av AEM Guides som Cloud Service](./install-conf-guide/additional-config-for-upgrade.md)
          - [Konfigurationsåsidosättningar för Cloud Service](./install-conf-guide/download-install-config-override.md)
-      - lokalt {#on-prem}
+      - Lokal {#on-prem}
          - [Uppgradera AEM Guides On-Premise 4.6.0 och senare](./install-conf-guide/upgrade-aemg-latest-version.md)
          - [Uppgradera tidigare AEM Guides On-Premise-versioner](./install-conf-guide/upgrade-aemg-prev-versions.md)
    - Rekommendationer för prestandaoptimering {#performance-optimization-aemg}
@@ -688,8 +688,8 @@ ht-degree: 2%
       - [Konfigurera inställningar för generering av utdata](./install-conf-guide/conf-output-generation.md)
       - Konfigurera utdatainställningar för AEM Site {#conf-aem-sites-output}
          - [Hämta och installera AEM Sites-mallar](./install-conf-guide/download-install-aem-sites-templates.md)
-         - [Allmänna instruktioner för att anpassa befintliga AEM Site-mallar](./install-conf-guide/customize-existing-site-template.md)
-         - [Anpassa nya utdata för AEM Site](./install-conf-guide/customize-aem-site-output.md)
+         - [Allmänna instruktioner för att anpassa nya AEM Site-mallar](./install-conf-guide/customize-existing-site-template.md)
+         - [Anpassa befintliga AEM Site-utdata](./install-conf-guide/customize-aem-site-output.md)
          - [Anpassa DITA-elementmappning med AEM-komponenter för tidigare AEM Site-utdata](./install-conf-guide/customize-dita-element-mapping-aem-components.md)
          - [Lägg över HTML-taggar i AEM Sites-utdata för lokal användning](./install-conf-guide/overlay-html-tags-aem-sites-on-prem.md)
          - [Konfigurera giltiga filnamn för utdata från AEM Site](./install-conf-guide/conf-file-names-valid-regx-aem-site-output.md)
