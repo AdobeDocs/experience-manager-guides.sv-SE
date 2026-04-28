@@ -18,19 +18,19 @@ Troligen har du en databas med befintligt DITA-innehåll som du vill använda me
 
 >[!IMPORTANT]
 >
-> Se [Lägga till digitala resurser i Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html) för mer information om de innehållsöverföringsmetoder som stöds i AEM.
+> Se [Lägga till digitala resurser i Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=sv-SE) för mer information om de innehållsöverföringsmetoder som stöds i AEM.
 
 ## Användargränssnittet i Assets Console
 
-Du kan markera innehåll på skrivbordet och dra AEM användargränssnitt \(webbläsare\) till målmappen. Mer information finns i [Överför resurser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html#upload-assets) i AEM-dokumentationen.
+Du kan markera innehåll på skrivbordet och dra AEM användargränssnitt \(webbläsare\) till målmappen. Mer information finns i [Överför resurser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=sv-SE#upload-assets) i AEM-dokumentationen.
 
 ## AEM datorprogram
 
-Använd AEM datorprogram om du är kreatör och vill hantera mediefiler på din dator. Du kan öppna och redigera dessa resurser med skrivbordsprogrammen. Du kan också underhålla versioner och dela filer med andra användare. Mer information finns i [AEM-datorprogrammet](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html).
+Använd AEM datorprogram om du är kreatör och vill hantera mediefiler på din dator. Du kan öppna och redigera dessa resurser med skrivbordsprogrammen. Du kan också underhålla versioner och dela filer med andra användare. Mer information finns i [AEM-datorprogrammet](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html?lang=sv-SE).
 
 ## Massinhämtning av resurser
 
-Om du har storskalig migrering och ibland massimporteringar använder du Resursimport för att överföra ditt innehåll. Med det här verktyget kan du överföra större mängder innehåll från datalager som stöds, som Azure eller S3. Mer information finns i [Massinhämtning av resurser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=en#asset-bulk-ingestor).
+Om du har storskalig migrering och ibland massimporteringar använder du Resursimport för att överföra ditt innehåll. Med det här verktyget kan du överföra större mängder innehåll från datalager som stöds, som Azure eller S3. Mer information finns i [Massinhämtning av resurser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=sv-SE#asset-bulk-ingestor).
 
 ## Använd FrameMaker för massöverföring
 

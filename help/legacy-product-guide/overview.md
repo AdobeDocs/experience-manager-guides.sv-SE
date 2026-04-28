@@ -26,6 +26,6 @@ Med lösningen [!DNL AEM Guides] kan företag leverera sömlösa och personalise
 
 ## Ytterligare resurser
 
-* [Användarhandbok för [!DNL AEM Guides] (nytt användargränssnitt)](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview)
-* [[!DNL AEM Guides] Läs mer och support](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)
-* [Experience League - Utforska AEM](https://business.adobe.com/products/experience-manager/adobe-experience-manager.html)
+* [Användarhandbok för [!DNL AEM Guides] (nytt användargränssnitt)](https://experienceleague.adobe.com/sv/docs/experience-manager-guides/using/overview)
+* [[!DNL AEM Guides] Läs mer och support](https://helpx.adobe.com/se/support/xml-documentation-for-experience-manager.html)
+* [Experience League - Utforska AEM](https://business.adobe.com/se/products/experience-manager/adobe-experience-manager.html)
