@@ -86,4 +86,4 @@ Utför följande steg för att generera utdata för mer än ett avsnitt på DITA
 1. Du ser status för genereringsprocessen för utdata.Om du vill visa utdata för du muspekaren över avsnittet och klickar på Visa utdata.
 
 
-**Överordnat ämne:**[ Artikelbaserad publicering från webbredigeraren](web-editor-article-publishing.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Artikelbaserad publicering från webbredigeraren](web-editor-article-publishing.md)

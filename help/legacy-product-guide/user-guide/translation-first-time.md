@@ -141,4 +141,4 @@ När översättningen är klar ändras översättningsjobbets status till *Klar 
 >
 > Om du avvisar översättningen för ett eller flera ämnen i ett översättningsjobb återställs översättningsstatusen **Pågår** för alla avvisade ämnen till den ursprungliga statusen. Statusen för de refererade ämnena kontrolleras och återställs enligt det senaste översättningstillståndet. Översättningsfilerna som skapats i målprojektet tas inte bort även om översättningen avvisas för dem.
 
-**Överordnat ämne:**[&#x200B;Översätta innehåll](translation.md)
+**Överordnat ämne:**&#x200B;[&#x200B;Översätta innehåll](translation.md)

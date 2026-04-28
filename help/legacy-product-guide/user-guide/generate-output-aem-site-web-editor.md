@@ -33,7 +33,7 @@ Så här skapar du AEM Sites-förinställningar i Web Editor:
 1. Välj **AEM Sites** i listrutan **Typ** i dialogrutan **Ny förinställning**.
 1. Avmarkera alternativet **Använd äldre komponentmappning** i dialogrutan **Ny förinställning** .
 
-![Nytt ](images/new-aem-sites-dialog-box.png)
+![Nytt &#x200B;](images/new-aem-sites-dialog-box.png)
 
 
 
@@ -42,8 +42,8 @@ Så här skapar du AEM Sites-förinställningar i Web Editor:
 >[!NOTE]
 >
 >Innan du konfigurerar AEM Sites-förinställningarna för Experience Manager Guides måste administratören skapa en AEM Sites-struktur med hjälp av mallarna.
-- **Lokal programvara**: Läs mer om hur du [hämtar och installerar AEM Sites-mallar](/help/product-guide/install-guide/download-install-aem-sites-templates.md) för lokal programvara.
-- **Cloud Service**: Läs mer om hur du [hämtar och installerar AEM Sites-mallar](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md) för Cloud Service.
+>- **Lokal programvara**: Läs mer om hur du [hämtar och installerar AEM Sites-mallar](/help/product-guide/install-guide/download-install-aem-sites-templates.md) för lokal programvara.
+>- **Cloud Service**: Läs mer om hur du [hämtar och installerar AEM Sites-mallar](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md) för Cloud Service.
 
 
 

@@ -752,7 +752,7 @@ Så här får du åtkomst till versionshistoriken och återgår till en specifik
    Fliken **Förhandsgranska**: Det nya innehållet är i grönt teckensnitt och det borttagna innehållet är i rött teckensnitt.
 
    Fliken **Metadata**: De nya metadata som har lagts till är i grönt teckensnitt och de borttagna metadata är i rött teckensnitt.
-   ![Metadataskillnad för versioner ](images/metadata-version-diff.png){width="550" align="left"}
+   ![Metadataskillnad för versioner &#x200B;](images/metadata-version-diff.png){width="550" align="left"}
    *Jämför metadata för olika versioner i versionshistoriken.*
 
    >[!NOTE]
@@ -936,7 +936,7 @@ Du har följande alternativ för att filtrera filerna och begränsa sökningen i
 - **DITA-filer**: Du kan söka efter alla **DITA-avsnitt** och **DITA-kartor** som finns på den valda sökvägen. Dessa är markerade som standard.
 - **Icke-DITA-filer**: Du kan söka efter **Ditavala filer**, **Bildfiler**, **Multimedia**, **Dokument** och **Json** i den valda sökvägen.
 
-![snabbsökningsfilter ](images/repository-filter-search-quick.png) {width="300" align="left"}
+![snabbsökningsfilter &#x200B;](images/repository-filter-search-quick.png) {width="300" align="left"}
 
 *Använd snabbfiltren för att söka efter DITA- och icke-DITA-filer.*
 
@@ -1969,7 +1969,7 @@ Du kommer åt funktionen **Innehållsegenskaper** genom att välja ikonen **Inne
 
 1. I listrutan **Attribut** väljer du attributet i listrutan och anger ett attributvärde.  Klicka sedan på **Lägg till**.
 
-   ![attributpanel med flera attribut ](images/attributes-multiple-properties.png){width="300" align="left"}
+   ![attributpanel med flera attribut &#x200B;](images/attributes-multiple-properties.png){width="300" align="left"}
 
 1. Om du vill redigera attributet för du pekaren över det och väljer **Redigera** ![redigeringsikon](images/edit_pencil_icon.svg) .
    ![redigera attribut](images/edit-attributes-content-properties.png){width="300" align="left"}
@@ -2004,7 +2004,7 @@ I avsnittet Allmänt får du tillgång till följande funktioner:
 - **Språk**: Visar språket för ämnet. Den ställs in från språkfältet på egenskapssidan.
 - **Skapad den**: Visar datum och tid då ämnet skapades.
 - **Utcheckad av**: Visar användaren som checkade ut ämnet.
-- **Dokumenttillstånd**: Du kan välja och uppdatera dokumenttillståndet för det öppna ämnet. Mer information finns i [Dokumenttillstånd ](web-editor-document-states.md#)*.*
+- **Dokumenttillstånd**: Du kan välja och uppdatera dokumenttillståndet för det öppna ämnet. Mer information finns i [Dokumenttillstånd &#x200B;](web-editor-document-states.md#)*.*
 
 **Obs!** Du kan kopiera attributvärdena för de olika fälten i filegenskaperna till Urklipp.
 
@@ -2047,4 +2047,4 @@ Med funktionen Spårade ändringar i den högra panelen kan du visa information 
 >
 > Funktionen Spårade ändringar visar alla uppdateringar som har spårats med funktionen Aktivera/inaktivera Spåra ändringar i huvudverktygsfältet. Mer information finns i [Aktivera/inaktivera spåra ändringar](#id205DF0203Y4).
 
-**Överordnat ämne:**[ Arbeta med webbredigeraren](web-editor.md)
+**Överordnat ämne:**&#x200B;[&#x200B; Arbeta med webbredigeraren](web-editor.md)

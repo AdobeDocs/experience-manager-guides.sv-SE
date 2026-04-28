@@ -26,4 +26,4 @@ Utför följande steg för att visa översättningsstatusen för en DITA-karta:
    >
    > Du kan filtrera innehållet ytterligare baserat på översättningsstatus \(som kopia saknas, pågår eller synkroniseras\), Source-typ \(som Alla, DITA, DITA-karta eller Resurs\), ändringsdatum. Du kan också ange nyckelord för att söka efter specifika ämnen.
 
-**Överordnat ämne:**[&#x200B;Översätta innehåll](translation.md)
+**Överordnat ämne:**&#x200B;[&#x200B;Översätta innehåll](translation.md)

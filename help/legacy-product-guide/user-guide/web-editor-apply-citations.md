@@ -99,7 +99,7 @@ Så här importerar du citat:
 
    >[!NOTE]
    > <ol><li> AEM Guides importerar endast de citat som är unika och inte redan finns.
-    &gt; <li> AEM Guides kan importera citat från en bok, journal eller en webbplats. För närvarande stöder den inte citat från andra källor.
+   > &gt; <li> AEM Guides kan importera citat från en bok, journal eller en webbplats. För närvarande stöder den inte citat från andra källor.
 
 ## Hantera citat
 
@@ -189,7 +189,7 @@ Du kan infoga citat från huvudverktygsfältet eller den vänstra panelen i avsn
 
 ### Från huvudverktygsfältet
 
-1. Välj ikonen **Citat** ![ ](images/citations-icon.svg) i huvudverktygsfältet.
+1. Välj ikonen **Citat** ![&#x200B; &#x200B;](images/citations-icon.svg) i huvudverktygsfältet.
 1. Välj citat i dialogrutan **Citat**. Du kan också markera flera citat.
    ![citatdialogruta](images/citation-dialog-main-toolbar.png){width="300" align="left"}
 1. Du kan filtrera citat genom att skriva de första alfabeten på sökpanelen i dialogrutan **Citat** .
@@ -204,7 +204,7 @@ Den markerade texten läggs till vid markörens plats i ditt ämne.
 > 
 >Om du vill visa ikonen **Källhänvisningar** från den vänstra panelen måste systemadministratören markera alternativet **Källhänvisningar** på fliken **Paneler** i **Redigeringsinställningar**.
 
-1. Välj ikonen **Citat** ![ ](images/citations-icon.svg) i den vänstra panelen.
+1. Välj ikonen **Citat** ![&#x200B; &#x200B;](images/citations-icon.svg) i den vänstra panelen.
 1. Dra citatet från panelen **Citat** och släpp det på lämplig plats i avsnittet.
 
    Du kan också välja **Infoga** från ![](images/options.svg) **Alternativ** om du vill infoga en hänvisning.

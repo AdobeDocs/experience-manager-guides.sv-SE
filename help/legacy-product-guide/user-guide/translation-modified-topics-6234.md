@@ -79,4 +79,4 @@ Utför följande steg för att skicka ett ändrat ämne för omöversättning:
 1. Gå tillbaka till DITA-mappningsfilen i källspråksmappen i Assets UI. De omöversatta ämnena är nu synkroniserade.
 
 
-**Överordnat ämne:**[&#x200B;Översätta innehåll](translation.md)
+**Överordnat ämne:**&#x200B;[&#x200B;Översätta innehåll](translation.md)

@@ -1,5 +1,5 @@
 ---
-title: Använd AI-assistenten för att skapa dokument smart `
+title: Använd AI-assistenten för att skapa dokument smart &grave;
 description: Lär dig hur du använder AI Assistant för att skapa dokument på ett smart sätt i Web Editor.
 hide: true
 exl-id: c7d37da8-e838-47a2-b469-287bcd841933
@@ -29,7 +29,7 @@ Den här funktionen är endast tillgänglig för DITA-avsnitt. När du har marke
 ## Föreslå återanvändbart innehåll
 
 
-Använd funktionen **Föreslå återanvändbart innehåll** ![ai föreslår återanvändbar innehållsikon ](./images/ai-suggest-reusable-content-icon.svg) för att skapa innehåll på ett konsekvent och korrekt sätt. Du kan markera innehållet och Experience Manager Guides ger förslag på hur du kan återanvända det befintliga innehållet i din databas.
+Använd funktionen **Föreslå återanvändbart innehåll** ![ai föreslår återanvändbar innehållsikon &#x200B;](./images/ai-suggest-reusable-content-icon.svg) för att skapa innehåll på ett konsekvent och korrekt sätt. Du kan markera innehållet och Experience Manager Guides ger förslag på hur du kan återanvända det befintliga innehållet i din databas.
 Läs mer om hur du använder [AI-baserade smarta förslag för att skapa innehåll](authoring-ai-based-smart-suggestions.md).
 
 
