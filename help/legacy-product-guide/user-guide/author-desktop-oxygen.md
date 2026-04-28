@@ -5,9 +5,9 @@ feature: Authoring, Desktop Tools
 role: User
 hide: true
 exl-id: c6395d35-b8fd-446e-a17a-df7f5a432053
-source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '85'
 ht-degree: 0%
 
 ---
@@ -20,4 +20,4 @@ Du kan producera utdata i PDF, ePub, HTML och många andra format med samma käl
 
 *Kontakta kundens framgångsgrupp för att aktivera den här funktionen i miljön. Detta är inte aktiverat som en del av det färdiga stödet.*
 
-**Överordnat ämne:**&#x200B;[&#x200B; Skapa innehåll med skrivbordsverktyg](author-desktop-tools.md)
+**Överordnat ämne:**[ Skapa innehåll med skrivbordsverktyg](author-desktop-tools.md)

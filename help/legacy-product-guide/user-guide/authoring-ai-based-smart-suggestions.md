@@ -3,9 +3,9 @@ title: AI-baserade smarta förslag för att skapa innehåll
 description: Lär dig hur du visar och använder AI-baserade smarta förslag i Web Editor.
 hide: true
 exl-id: 30c85d46-61ba-486c-979c-1a2ed95f5a32
-source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '687'
 ht-degree: 0%
 
 ---
@@ -25,18 +25,18 @@ Följ de här stegen för att visa smarta förslag på hur du lägger till lämp
 
 
 1. Markera innehållet i avsnittet för att visa relaterade förslag. Kontrollera att innehållets teckenlängd överskrider vad administratören har angett i mappprofilen för att innehållsförslagen ska visas.
-1. Välj **Föreslå återanvändningsbart innehåll** ![ai Föreslå återanvändningsbart innehåll &#x200B;](./images/ai-suggest-reusable-content-icon.svg) på AI-assistentpanelen.
+1. Välj **Föreslå återanvändningsbart innehåll** ![ai Föreslå återanvändningsbart innehåll ](./images/ai-suggest-reusable-content-icon.svg) på AI-assistentpanelen.
 
 1. Markera en tagg om du vill visa redigeringsförslagen för den aktuella taggen.  Förslagen för att visa och lägga till innehållsreferenser från de indexerade filerna visas baserat på innehållet i den aktuella taggen. Du kan också markera flera taggar.
 
 
-1. Markera alla taggar om du vill visa förslag baserat på innehållet i hela dokumentet.  Ikonen **Föreslå återanvändbart innehåll** ![ai föreslår att återanvändbart innehåll &#x200B;](./images/ai-suggest-reusable-content-icon.svg) visas bredvid innehållet där en lämplig matchning finns.
+1. Markera alla taggar om du vill visa förslag baserat på innehållet i hela dokumentet.  Ikonen **Föreslå återanvändbart innehåll** ![ai föreslår att återanvändbart innehåll ](./images/ai-suggest-reusable-content-icon.svg) visas bredvid innehållet där en lämplig matchning finns.
 
 
 
    >[!NOTE]
    >
-   > Du kan bara visa förslagen för den aktuella visningsrutan (det innehåll som visas på skärmen). Om du vill visa förslag på annat innehåll i dokumentet rullar du uppåt eller nedåt för att visa det i visningsrutan och väljer sedan **Föreslå återanvändbart innehåll** ![ai Föreslå återanvändbar innehållsikon &#x200B;](./images/ai-suggest-reusable-content-icon.svg) .
+   > Du kan bara visa förslagen för den aktuella visningsrutan (det innehåll som visas på skärmen). Om du vill visa förslag på annat innehåll i dokumentet rullar du uppåt eller nedåt för att visa det i visningsrutan och väljer sedan **Föreslå återanvändbart innehåll** ![ai Föreslå återanvändbar innehållsikon ](./images/ai-suggest-reusable-content-icon.svg) .
 
 
 1. Du kan visa smarta förslag på panelen med förslag.  Experience Manager Guides ger förslag på innehåll som i sitt sammanhang liknar eller har samma innebörd. Du kan t.ex. söka efter ämnet som innehåller det exakta versionsnumret, som&quot;release version 2023.03.12&quot;. Du kan också söka efter&quot;Adobe har huvudkontor i San Jose i Kalifornien&quot; och hitta liknande material som&quot;San Jose har huvudkontor för många programvaruföretag som Adobe&quot;.

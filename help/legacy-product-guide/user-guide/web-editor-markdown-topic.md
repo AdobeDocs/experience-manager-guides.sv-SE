@@ -5,9 +5,9 @@ feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: fe7b3b8d-a4bd-43d2-ad20-49fa6c258b7d
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
@@ -62,4 +62,4 @@ Följ de här stegen för att skapa ett markeringsämne från webbredigeraren:
 >
 > Om du inte har sparat ändringarna visas ett popup-fönster och du uppmanas att spara avsnittet innan du stänger det.
 
-**Överordnat ämne:**&#x200B;[&#x200B; Arbeta med webbredigeraren](web-editor.md)
+**Överordnat ämne:**[ Arbeta med webbredigeraren](web-editor.md)

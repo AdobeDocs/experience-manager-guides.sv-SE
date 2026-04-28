@@ -5,9 +5,9 @@ feature: Authoring, Web Editor
 role: User
 hide: true
 exl-id: 0341bdec-9635-4ced-b1c6-789b4e1aded8
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1060'
 ht-degree: 0%
 
 ---
@@ -49,13 +49,12 @@ Om du tar bort det markerade innehållet sammanfogas det återstående innehåll
 
    - Markera innehållet i ett element.
    - Välj ikonen ![lägg till](images/Add_icon.svg) i det sekundära verktygsfältet högst upp för att visa dialogrutan **Surround with Element** . I dialogrutan visas giltiga element för det markerade innehållet.
-
      >[!NOTE]
      >
      > Du kan också visa dialogrutan Surround med element genom att välja snabbmenyn för det markerade innehållet.
 
    - Välj ett element i dialogrutan. Det markerade innehållet kapslas under det elementet. Om du till exempel markerar innehållet i ett stycke och sedan väljer elementet `<note>` i dialogrutan **Surround with element** visas det markerade innehållet under en anteckning.\
-     ![Dialogrutan för surroundelement](./images/surround-element.png) {width="300" align="left"}
+     ![dialogrutan för surroundelement](./images/surround-element.png) {width="300" align="left"}
 
 ## Uppdatera webbläsaren när filerna redigeras
 
@@ -107,4 +106,4 @@ När du öppnar en fil i Web Editor kan du använda Experience Manager Guides f�
 Du kan inaktivera funktionen för att hitta filen med alternativet **Hitta alltid filer i databasen** på fliken **Utseende** i **Användarinställningarna**.
 
 
-**Överordnat ämne:**&#x200B;[&#x200B; Arbeta med webbredigeraren](web-editor.md)
+**Överordnat ämne:**[ Arbeta med webbredigeraren](web-editor.md)

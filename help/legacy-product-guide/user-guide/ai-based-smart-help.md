@@ -2,9 +2,10 @@
 title: AI-baserad smart hjälp för att söka efter innehåll
 description: Lär dig hur du visar och använder AI-baserad smart hjälp i Web Editor.
 hide: true
-source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
+exl-id: cf08f6a9-bf92-47d9-9952-da0301ea7023
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '439'
 ht-degree: 0%
 
 ---
@@ -13,10 +14,10 @@ ht-degree: 0%
 
 
 
-Experience Manager Guides tillhandahåller den GenAI-baserade smarta hjälpen, en konversationssökfunktion som hjälper dig att hitta relevant innehåll från [Adobe Experience Manager Guides-dokumentationen](https://experienceleague.adobe.com/sv/docs/experience-manager-guides/using/overview).
+Experience Manager Guides tillhandahåller den GenAI-baserade smarta hjälpen, en konversationssökfunktion som hjälper dig att hitta relevant innehåll från [Adobe Experience Manager Guides-dokumentationen](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview).
 Du kan ställa frågor och få svar på ett informativt sätt. Svaret på din fråga baseras på innehållet i produktdokumentationen. Den här sökningen är helt konversationell. Du kan ställa frågor och sedan, baserat på svaret, ställa ytterligare frågor. Svaret innehåller även länkar till källdokument, som du kan referera till för mer information.
 
-Du kan till exempel skapa ett ämne i Experience Manager Guides för din dokumentation. Du kan fråga, *Hur skapar du ett ämne?* Du får ett svar och länkar för de relaterade artiklarna. Om du sedan vill veta hur du genererar PDF-utdata för dokumentet kan du ställa frågor om det. *Så här publicerar du ett ämne till en PDF?* eller *Hur skapar jag PDF-utdata för ett ämne?*
+Du kan till exempel skapa ett ämne i Experience Manager Guides för din dokumentation. Du kan fråga, *Hur skapar du ett ämne?* Du får ett svar och länkarna för de relaterade artiklarna. Om du sedan vill veta hur du genererar PDF-utdata för dokumentet kan du ställa frågor om det. *Så här publicerar du ett ämne till en PDF?* eller *Hur skapar jag PDF-utdata för ett ämne?*
 
 
 

@@ -5,7 +5,7 @@ feature: Publishing, Bulk Activation
 role: User
 hide: true
 exl-id: a15ee164-ec60-483e-8760-b1c290625415
-source-git-commit: 4801f0d327b4bd0641aa195d39ec2c4be2a2ce74
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 0%
@@ -50,4 +50,4 @@ Du kan visa de olika typerna av förinställningar för utdata tillsammans med i
 1. Klicka på **Klar**.
 
 
-**Överordnat ämne:**&#x200B;[&#x200B; Massaktivering av publicerat innehåll](conf-bulk-activation.md)
+**Överordnat ämne:**[ Massaktivering av publicerat innehåll](conf-bulk-activation.md)

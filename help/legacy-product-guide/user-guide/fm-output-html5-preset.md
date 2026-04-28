@@ -5,9 +5,9 @@ feature: Publishing FrameMaker Documents
 role: User
 hide: true
 exl-id: 284fafeb-cc0f-49c0-86a3-3aec7418a632
-source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
@@ -28,4 +28,4 @@ Följande alternativ är tillgängliga för HTML5-utdata:
 | Målsökväg | Den sökväg i din AEM-databas där HTML5-utdata lagras. |
 | Kör arbetsflöde efter generering | När du väljer det här alternativet visas en ny arbetsflödeslista som innehåller alla arbetsflöden som konfigurerats i AEM. Du måste välja ett arbetsflöde som du vill köra när arbetsflödet för generering av utdata har slutförts. |
 
-**Överordnat ämne:**&#x200B;[&#x200B; Generera utdata för FrameMaker-dokument](fm-output-generatation.md)
+**Överordnat ämne:**[ Generera utdata för FrameMaker-dokument](fm-output-generatation.md)

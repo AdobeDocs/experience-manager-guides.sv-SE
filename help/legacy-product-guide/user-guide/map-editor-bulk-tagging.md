@@ -5,9 +5,9 @@ feature: Metadata Management
 role: User
 hide: true
 exl-id: b320e34f-ee0a-4cc3-b4f6-d322fbb29844
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '716'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Med taggar kan du gruppera eller klassificera innehåll i innehållsdatabasen och även i publicerade utdata. Om du har använt taggar på innehållet kan du enkelt hitta relaterade ämnen i en DITA-karta som kan hjälpa dig att skapa innehåll. Med publicerade utdata kommer slutanvändarna att kunna hitta rätt innehåll snabbare med rätt taggar på plats.
 
-Med AEM Guides kan du tagga DITA-innehåll med några få klick. Du kan använda funktionen för bulktaggning för att tillämpa flera taggar på flera ämnen, en DITA-karta eller på en underkarta. Du kan också lägga till märkord i ett enskilt ämne. Taggning är den inbyggda funktionen i AEM. Mer information om hur du skapar och hanterar taggar finns i avsnittet [Administrera taggar](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=sv-SE) i AEM-dokumentationen.
+Med AEM Guides kan du tagga DITA-innehåll med några få klick. Du kan använda funktionen för bulktaggning för att tillämpa flera taggar på flera ämnen, en DITA-karta eller på en underkarta. Du kan också lägga till märkord i ett enskilt ämne. Taggning är den inbyggda funktionen i AEM. Mer information om hur du skapar och hanterar taggar finns i avsnittet [Administrera taggar](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/tags.html?lang=en) i AEM-dokumentationen.
 
 Som standard ger AEM Guides inte läsåtkomst till någon användare i den mapp där alla taggar i AEM-databasen lagras. Om du vill använda taggar som definieras i AEM-databasen måste du be systemadministratören att ge åtkomst till den mapp där taggarna lagras.
 
@@ -108,4 +108,4 @@ Utför följande steg för att ta bort alla taggar från ett eller flera ämnen:
 
 Om du har en lång lista med taggar som används i dina ämnen kan det vara lite besvärligt att navigera. Du kan enkelt dölja taggar i från DITA-kartkonsolvyn genom att klicka på ikonen Dölj taggar. Om taggarna inte visas visas visas alla taggar om du klickar på Visa taggar.
 
-**Överordnat ämne:**&#x200B;[&#x200B; Hantera metadata](manage-metadata.md)
+**Överordnat ämne:**[ Hantera metadata](manage-metadata.md)

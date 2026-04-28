@@ -5,9 +5,9 @@ feature: Authoring, Web Editor
 role: User
 hide: true
 exl-id: 7639fa76-b319-44b5-9ff8-2b8c1a716b7b
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '2532'
+source-wordcount: '2564'
 ht-degree: 0%
 
 ---
@@ -253,4 +253,4 @@ Gör följande för att automatiskt generera ID för ett eller flera element:
    Du kan också högerklicka i vägbeskrivningsfilen och välja **Generera ID**.
 
 
-**Överordnat ämne:**&#x200B;[&#x200B; Arbeta med webbredigeraren](web-editor.md)
+**Överordnat ämne:**[ Arbeta med webbredigeraren](web-editor.md)

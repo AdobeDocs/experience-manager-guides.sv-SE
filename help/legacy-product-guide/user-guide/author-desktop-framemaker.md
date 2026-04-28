@@ -5,9 +5,9 @@ feature: Authoring, Desktop Tools
 role: User
 hide: true
 exl-id: e1375804-2e02-4f51-9097-0781ebeaf66d
-source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '122'
 ht-degree: 0%
 
 ---
@@ -16,4 +16,4 @@ ht-degree: 0%
 
 FrameMaker stöder framtagning och publicering av material i AEM Guides. FrameMaker levereras med en färdig anslutning till Adobe Experience Manager. FrameMaker har också ett lättanvänt gränssnitt med vilket man underhåller dokumentversioner i en distribuerad och samarbetsorienterad miljö. Du kan skapa innehåll i FrameMaker och publicera i olika format - PDF, HTML5, EPUB och DITA. Du kan också utföra olika filhanteringsåtgärder som utcheckning, utcheckning med beroende personer, incheckning, uppdatering och så vidare. Mer information finns i [FrameMaker Hjälp](https://help.adobe.com/en_US/framemaker/using/index.html).
 
-**Överordnat ämne:**&#x200B;[&#x200B; Skapa innehåll med skrivbordsverktyg](author-desktop-tools.md)
+**Överordnat ämne:**[ Skapa innehåll med skrivbordsverktyg](author-desktop-tools.md)

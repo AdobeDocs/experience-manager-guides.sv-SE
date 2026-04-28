@@ -5,9 +5,9 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 4215618f-2203-4c55-adba-cdec76322e9e
-source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1211'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,6 @@ Så här konfigurerar och genererar du utdata med en kartsamling:
    - Aktivera alla enskilda förinställningar.
    - Aktivera **Alla förinställningar** för en DITA-karta om du vill välja alla förinställningar på en gång. Det här alternativet är inaktiverat som standard.
    - Aktivera **mappprofilförinställningar** för en DITA-karta om du vill välja alla mappprofilförinställningar för den. Det här alternativet är inaktiverat som standard.
-
      ![redigera en kartsamling i molntjänster](images/edit-map-collection-cs.png){width="800" align="left"}
 
 
@@ -144,4 +143,4 @@ På samma sätt som du avbryter en utdatagenereringsaktivitet från [DITA-kartko
 
 ![](images/cancel-publish-task-map-collection.png){width="800" align="left"}
 
-**Överordnat ämne:**&#x200B;[&#x200B; Utdatagenerering](generate-output.md)
+**Överordnat ämne:**[ Utdatagenerering](generate-output.md)

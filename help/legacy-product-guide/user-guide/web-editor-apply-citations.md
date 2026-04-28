@@ -5,9 +5,9 @@ feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: 832dbc5d-85f7-41fd-8f5d-789732b46f80
-source-git-commit: 9c53ac725618db1164b0ed310a47b258a7224778
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '1887'
+source-wordcount: '1896'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Panelen **Källhänvisningar** öppnas.
 
    ![](images/citation-panel.png){width="300" align="left"}
 
-1. Välj **Lägg till ikon** på panelen ![Källhänvisningar](images/Add_icon.svg). I listrutan kan du välja att lägga till en ny källhänvisning eller att importera en källhänvisning.
+1. Välj ![Lägg till ikon](images/Add_icon.svg) på panelen **Källhänvisningar**. I listrutan kan du välja att lägga till en ny källhänvisning eller att importera en källhänvisning.
 
 1. Välj **Ny källhänvisning** om du vill lägga till en ny källhänvisning.
 Dialogrutan **Lägg till källhänvisning** öppnas.
@@ -88,7 +88,7 @@ Så här importerar du citat:
 
    Panelen **Källhänvisningar** öppnas.
 
-1. Välj **Lägg till ikon** på panelen ![Källhänvisningar](images/Add_icon.svg) och välj sedan **Importera** i listrutan.
+1. Välj ![Lägg till ikon](images/Add_icon.svg) på panelen **Källhänvisningar** och välj sedan **Importera** i listrutan.
 1. Bläddra i en bib-fil från datorn och importera den.
 
    >[!TIP]
@@ -99,7 +99,7 @@ Så här importerar du citat:
 
    >[!NOTE]
    > <ol><li> AEM Guides importerar endast de citat som är unika och inte redan finns.
-   > &gt; <li> AEM Guides kan importera citat från en bok, journal eller en webbplats. För närvarande stöder den inte citat från andra källor.
+    &gt; <li> AEM Guides kan importera citat från en bok, journal eller en webbplats. För närvarande stöder den inte citat från andra källor.
 
 ## Hantera citat
 
@@ -136,7 +136,7 @@ Följande alternativ är tillgängliga i listrutan:
 | MLA | APA | Chicago | IEEE | AHA |
 |---|---|---|---|---|
 | Kopplingsformat för modernt språk <br> | American Psychological Association Style | Chicago Manual of Style | Institute for Electrical and Electronics Engineers Style | American Heart Association Style |
-| Exempel: <br> Crawford, Claire, et al. *Emotional Content of Dark Memories*.Edited by Memory, 16, 2010, Amsterdam. | Exempel: <br> Crawford, C., J., &amp;, C. (2010). *Emotionellt innehåll i mörka minnen* (505-16 st.). 10.1080/ 09658210902067289 | Exempel: <br> Crawford, Claire, et al. *Emotionellt innehåll i mörka minnen*. 505-16, 2010. | Exempel: <br> C. Crawford, J. och C. , *Emotional Content of Dark Memories*. Amsterdam 2010. | Exempel: <br> C. Crawford, J. och C. , *Emotional Content of Dark Memories*. Amsterdam 2010. |
+| Exempel: <br> Crawford, Claire, et al. *Emotional Content of Dark Memories*.Edited by Memory, 16, 2010, Amsterdam. | Exempel: <br> Crawford, C., J., &amp;, C. (2010). *Emotionellt innehåll i mörka minnen* (505-16 st.). 10.1080/ 09658210902067289 | Exempel: <br> Crawford, Claire, et al. *Emotionellt innehåll i mörka minnen*. 505-16, 2010. | Exempel: <br> C. Crawford, J. och C. , *Emotionellt innehåll i mörka minnen*. Amsterdam 2010. | Exempel: <br> C. Crawford, J. och C. , *Emotionellt innehåll i mörka minnen*. Amsterdam 2010. |
 
 
 ## Redigera en källhänvisning
@@ -189,7 +189,7 @@ Du kan infoga citat från huvudverktygsfältet eller den vänstra panelen i avsn
 
 ### Från huvudverktygsfältet
 
-1. Välj ikonen **Citat** ![&#x200B; &#x200B;](images/citations-icon.svg) i huvudverktygsfältet.
+1. Välj ikonen **Citat** ![ ](images/citations-icon.svg) i huvudverktygsfältet.
 1. Välj citat i dialogrutan **Citat**. Du kan också markera flera citat.
    ![citatdialogruta](images/citation-dialog-main-toolbar.png){width="300" align="left"}
 1. Du kan filtrera citat genom att skriva de första alfabeten på sökpanelen i dialogrutan **Citat** .
@@ -204,7 +204,7 @@ Den markerade texten läggs till vid markörens plats i ditt ämne.
 > 
 >Om du vill visa ikonen **Källhänvisningar** från den vänstra panelen måste systemadministratören markera alternativet **Källhänvisningar** på fliken **Paneler** i **Redigeringsinställningar**.
 
-1. Välj ikonen **Citat** ![&#x200B; &#x200B;](images/citations-icon.svg) i den vänstra panelen.
+1. Välj ikonen **Citat** ![ ](images/citations-icon.svg) i den vänstra panelen.
 1. Dra citatet från panelen **Citat** och släpp det på lämplig plats i avsnittet.
 
    Du kan också välja **Infoga** från ![](images/options.svg) **Alternativ** om du vill infoga en hänvisning.

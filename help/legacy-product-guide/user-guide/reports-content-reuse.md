@@ -5,9 +5,9 @@ feature: Report Generation
 role: User
 hide: true
 exl-id: 1a61fc05-b2b4-4665-a15a-0058fbbc2942
-source-git-commit: 6050e2667698150df9f76068dce4ca9f9b56a443
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '428'
 ht-degree: 0%
 
 ---
@@ -58,11 +58,11 @@ Utför följande steg för att visa rapporten för återanvändning av innehåll
 
       - **Antal gånger som återanvänds**: Antal gånger som motsvarande ämne har återanvänts. Detta beräknas som summan av posterna i Refererad av kolumner minus 1.
 
-      - **Refererad av**: De ämnen i vilka motsvarande ämne har refererats. Här beaktas endast de direkta \(första nivån\) referenserna. Flera ämnen avgränsas med kommatecken. UUID för den refererade filen anges också i parenteser. Om du klickar på avsnittets titellänk öppnas ämnesförhandsvisningen.
+      - **Refererad av**: De ämnen i vilka motsvarande ämne har refererats. Här beaktas endast de direkta \(första nivån\) referenserna. Flera ämnen avgränsas med kommatecken. Den refererade filens UUID anges också inom hakparenteser.Om du klickar på ämneslänken öppnas ämnesförhandsgranskningen.
 
 
 >[!NOTE]
 >
 > Du kan också exportera återanvändningsrapporten för innehåll i CSV-format. Klicka på länken Exportera till CSV längst upp till vänster på skärmen och välj en plats där du vill spara CSV-filen. Du kan sedan öppna den här CSV-filen i valfri CSV-redigerare.
 
-**Överordnat ämne:**&#x200B;[&#x200B; Rapporter](reports-intro.md)
+**Överordnat ämne:**[ Rapporter](reports-intro.md)

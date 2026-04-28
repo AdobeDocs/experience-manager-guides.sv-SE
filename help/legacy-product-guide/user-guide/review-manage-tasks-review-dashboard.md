@@ -5,9 +5,9 @@ feature: Reviewing
 role: User
 hide: true
 exl-id: f3ed7e82-8bb8-400f-9406-367da9e0052c
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: '1302'
 ht-degree: 0%
 
 ---
@@ -125,4 +125,4 @@ Statusrapporten för granskningsaktiviteten innehåller följande information:
 - Totalt antal kommentarer som gjorts i alla ämnen. Om det finns flera ämnen som är under granskning anges antalet kommentarer för varje ämne \(inom parentes\) mot temanamnet.
 - Det datum då granskaren senast öppnade ett ämne.
 
-**Överordnat ämne:**&#x200B;[&#x200B; Granska ämnen eller kartor](review.md)
+**Överordnat ämne:**[ Granska ämnen eller kartor](review.md)

@@ -5,9 +5,9 @@ feature: Content Management
 role: User
 hide: true
 exl-id: fcb2cc43-6a36-42f2-a695-7a50ae1031a0
-source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '451'
 ht-degree: 0%
 
 ---
@@ -18,19 +18,19 @@ Troligen har du en databas med befintligt DITA-innehåll som du vill använda me
 
 >[!IMPORTANT]
 >
-> Se [Lägga till digitala resurser i Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=sv-SE) för mer information om de innehållsöverföringsmetoder som stöds i AEM.
+> Se [Lägga till digitala resurser i Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html) för mer information om de innehållsöverföringsmetoder som stöds i AEM.
 
 ## Användargränssnittet i Assets Console
 
-Du kan markera innehåll på skrivbordet och dra AEM användargränssnitt \(webbläsare\) till målmappen. Mer information finns i [Överför resurser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=sv-SE#upload-assets) i AEM-dokumentationen.
+Du kan markera innehåll på skrivbordet och dra AEM användargränssnitt \(webbläsare\) till målmappen. Mer information finns i [Överför resurser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html#upload-assets) i AEM-dokumentationen.
 
 ## AEM datorprogram
 
-Använd AEM datorprogram om du är kreatör och vill hantera mediefiler på din dator. Du kan öppna och redigera dessa resurser med skrivbordsprogrammen. Du kan också underhålla versioner och dela filer med andra användare. Mer information finns i [AEM-datorprogrammet](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html?lang=sv-SE).
+Använd AEM datorprogram om du är kreatör och vill hantera mediefiler på din dator. Du kan öppna och redigera dessa resurser med skrivbordsprogrammen. Du kan också underhålla versioner och dela filer med andra användare. Mer information finns i [AEM-datorprogrammet](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html).
 
 ## Massinhämtning av resurser
 
-Om du har storskalig migrering och ibland massimporteringar använder du Resursimport för att överföra ditt innehåll. Med det här verktyget kan du överföra massinnehåll från datalager som stöds, som Azure eller S3. Mer information finns i [Massinhämtning av resurser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=sv-SE#asset-bulk-ingestor).
+Om du har storskalig migrering och ibland massimporteringar använder du Resursimport för att överföra ditt innehåll. Med det här verktyget kan du överföra större mängder innehåll från datalager som stöds, som Azure eller S3. Mer information finns i [Massinhämtning av resurser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=en#asset-bulk-ingestor).
 
 ## Använd FrameMaker för massöverföring
 
@@ -48,4 +48,4 @@ Mer information om hur de olika scenarierna för filöverföring beskrivs i [Öv
 
 Om du använder ett verktyg som AEM-skrivbordsprogram eller Resursprogram, styrs åtgärden som utförs på en duplicerad fil av en inställning på AEM-servern. Kontakta systemadministratören om du vill veta mer om den här konfigurationen.
 
-**Överordnat ämne:**&#x200B;[&#x200B; Hantera innehåll](authoring.md)
+**Överordnat ämne:**[ Hantera innehåll](authoring.md)

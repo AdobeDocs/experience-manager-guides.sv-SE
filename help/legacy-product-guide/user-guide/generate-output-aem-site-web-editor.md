@@ -5,9 +5,9 @@ feature: Publishing
 role: User
 hide: true
 exl-id: 9a9ae44f-8fed-4a4e-812c-451bcf138d0a
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '2732'
+source-wordcount: '2755'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Så här skapar du AEM Sites-förinställningar i Web Editor:
 1. Välj **AEM Sites** i listrutan **Typ** i dialogrutan **Ny förinställning**.
 1. Avmarkera alternativet **Använd äldre komponentmappning** i dialogrutan **Ny förinställning** .
 
-![Nytt &#x200B;](images/new-aem-sites-dialog-box.png)
+![Nytt ](images/new-aem-sites-dialog-box.png)
 
 
 
@@ -42,8 +42,8 @@ Så här skapar du AEM Sites-förinställningar i Web Editor:
 >[!NOTE]
 >
 >Innan du konfigurerar AEM Sites-förinställningarna för Experience Manager Guides måste administratören skapa en AEM Sites-struktur med hjälp av mallarna.
->- **Lokal programvara**: Läs mer om hur du [hämtar och installerar AEM Sites-mallar](/help/product-guide/install-guide/download-install-aem-sites-templates.md) för lokal programvara.
->- **Cloud Service**: Läs mer om hur du [hämtar och installerar AEM Sites-mallar](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md) för Cloud Service.
+- **Lokal programvara**: Läs mer om hur du [hämtar och installerar AEM Sites-mallar](/help/product-guide/install-guide/download-install-aem-sites-templates.md) för lokal programvara.
+- **Cloud Service**: Läs mer om hur du [hämtar och installerar AEM Sites-mallar](/help/product-guide/cs-install-guide/download-install-aem-sites-templates-cs.md) för Cloud Service.
 
 
 
@@ -64,7 +64,7 @@ Vissa alternativ kan skilja sig åt för förinställningar som använder äldre
 
 Konfigurationerna ordnas under flikarna **Allmänt**, **Innehåll**, **Ämneslista** och **Korskarta**.
 
-![förinställningar för aem-webbplatser](images/aem-sites-new-config.png)
+Förinställningar för ![aem-webbplatser](images/aem-sites-new-config.png)
 **Allmänt**
 
 Fliken **Allmänt** innehåller följande konfigurationer som är relaterade till generering av utdata:
@@ -129,11 +129,11 @@ Följande alternativ är tillgängliga för AEM Sites-utdata:
 | Generera sidnamn baserat på | **Ämnesfilnamn**: Använder DITA-avsnittets filnamn för att skapa URL:en för platsen. <br> **Ämnestitel**: Använder DITA-avsnittets titel för att skapa Experience Manager-webbplatsnamnen. |
 | Rensa tidigare genererade sidor | - **Ta bort tidigare genererade sidor för ämne som tagits bort från kartan**: Om strukturen för DTIA-kartan ändras kan du använda det här alternativet för att ta bort tidigare genererade sidor för de borttagna ämnena. Den här funktionen är endast tillgänglig för fullständig kartpublicering.<br><br>Säg att du har publicerat en DITA-karta som innehåller avsnitten a.dita, b.dita och c.dita. Innan du publicerade kartan igen tog du bort b.dita-ämnet från kartan. Om du har valt det här alternativet tas nu allt innehåll som är relaterat till b.dita bort från AEM Sites-utdata och bara a.dita och c.dita publiceras.<br><br>**Obs!**: Information om borttagna sidor hämtas också i loggarna för utdatagenerering. Mer information om åtkomst till loggfilerna finns i [Visa och kontrollera loggfilen](generate-output-basic-troubleshooting.md#id1821I0Y0G0A__id1822G0P0CHS). <br><br>**Varning**: När du tar bort ämnen blir sidorna otillgängliga från den publicerade webbplatsen. Innan ämnena tas bort visas en varning. Du måste bekräfta att du vill ta bort dem.<br><br>- **Ta bort alla sidor som skapats av andra källor på den här sökvägen**: Om du väljer det här alternativet tas alla sidor som publicerats på den här sökvägen bort från andra kartor, enskilda ämnen eller andra källor. Sidorna blir också otillgängliga från den publicerade webbplatsen. Innan ämnena tas bort visas en varning. Du måste bekräfta att du vill ta bort dem. |
 | Arbetsflöde efter generering | När du väljer det här alternativet visas en ny arbetsflödeslista som innehåller alla arbetsflöden som konfigurerats i AEM. Du måste välja ett arbetsflöde som du vill köra när arbetsflödet för generering av utdata har slutförts. |
-| Använd baslinje | Om du har skapat en baslinje för den valda DITA-kartan väljer du det här alternativet för att ange vilken version du vill publicera.<br><br>**Viktigt**: När du genererar inkrementella utdata för AEM Site skapas utdata med den aktuella versionen av filerna och inte med den kopplade baslinjen.<br><br>Visa [Arbeta med baslinje](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) om du vill ha mer information. |
+| Använd baslinje | Om du har skapat en baslinje för den valda DITA-kartan väljer du det här alternativet för att ange den version som du vill publicera.<br><br>**Viktigt**: När du genererar inkrementella utdata för AEM-platsen skapas utdata med den aktuella versionen av filerna och inte med den kopplade baslinjen.<br><br>Visa [Arbeta med baslinjen](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) om du vill ha mer information. |
 | Villkorlig filtrering | Välj ett av följande alternativ:<br><br>**Inget**: Välj det här alternativet om du inte vill använda något villkor på publicerade utdata.<br>**Använder DITAVAL**: Välj DITAVal-filer för att generera villkorat innehåll. Du kan markera flera DITAVal-filer i dialogrutan Bläddra eller genom att skriva filsökvägen. Använd kryssikonen bredvid filnamnet för att ta bort den. DITAVal-filer utvärderas i den ordning som anges, så de villkor som anges i den första filen har företräde framför de matchande villkor som anges i senare filer. Du kan behålla filordningen genom att lägga till eller ta bort filer. Om DITAVal-filen flyttas till en annan plats eller tas bort, tas den inte automatiskt bort från kartkontrollpanelen. Du måste uppdatera platsen om filerna flyttas eller tas bort. Du kan hovra över filnamnet för att visa sökvägen i AEM-databasen där filen lagras. Du kan bara välja DITAVal-filer och ett fel visas om du väljer någon annan filtyp.<br>**Villkorsförinställning**: Välj en villkorsförinställning i listrutan om du vill använda ett villkor när du publicerar utdata. Det här alternativet är synligt om du har lagt till ett villkor för DITA-kartfilen. De villkorliga inställningarna finns på fliken Villkorsförinställningar i DITA-kartkonsolen. Visa [Använd förinställningar](generate-output-use-condition-presets.md#id1825FL004PN) om du vill veta mer om villkorsförinställningar. |
 | Ytterligare DITA-OT-kommandoradsargument | Ange de ytterligare argument som du vill att DITA-OT ska behandla när du genererar utdata. Mer information om vilka kommandoradsargument som stöds i DITA-OT finns i [DITA-OT-dokumentationen](https://www.dita-ot.org/). |
-| Metadata <br> <br>Filegenskaper (Assets) | Välj de egenskaper som du vill bearbeta som metadata. Dessa egenskaper ställs in från sidan Egenskaper i DITA-kartan eller bokmappningsfilen. Egenskaperna som du väljer i listrutan visas under fältet **Filegenskaper**. Markera kryssikonen bredvid egenskapen för att ta bort den. <br><br>**Obs!** Metadataegenskaperna är skiftlägeskänsliga.<br><br>*Om du har valt en baslinje baseras värdena för egenskaperna på versionen av den valda baslinjen.<br>* Om du inte har valt en baslinje baseras värdena för egenskaperna på den senaste versionen.<br><br>Du kan också skicka metadata till utdata med DITA-OT-publicering. Om du vill ha mer information kan du [skicka metadata till utdata med DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA).<br><br>**Obs!**: Om du inte har definierat `cq:tags` i alternativet Egenskaper hämtas värdena för `cq:tags` från den aktuella arbetskopian, även om du har valt en baslinje för publicering. |
-| Metadata <br> <br>Använd mappningsegenskaper som reserv | Om du väljer det här alternativet kopieras även de egenskaper som definierats för kartfilen till de avsnitt där sådana egenskaper inte har definierats. Tänk på följande när du använder det här alternativet:<br><br>*Endast egenskaperna String, Date eller Long (en och flera värden) kan skickas till AEM Site-sidorna.<br>* Metadatavärdena för en String-typegenskap stöder inte några specialtecken (till exempel `@, #, " "`).<br>* Det här alternativet bör användas tillsammans med alternativet `Properties`. |
+| Metadata <br> <br>Filegenskaper (Assets) | Välj de egenskaper som du vill bearbeta som metadata. Dessa egenskaper ställs in från sidan Egenskaper i DITA-kartan eller bokmappningsfilen. Egenskaperna som du väljer i listrutan visas under fältet **Filegenskaper**. Markera kryssikonen bredvid egenskapen för att ta bort den. <br><br>**Obs!**: Metadataegenskaperna är skiftlägeskänsliga.<br><br>*Om du har valt en baslinje baseras värdena för egenskaperna på den valda baslinjens version.<br>* Om du inte har valt en baslinje baseras värdena för egenskaperna på den senaste versionen.<br><br>Du kan också skicka metadata till utdata med DITA-OT-publicering. Om du vill ha mer information kan du [skicka metadata till utdata med DITA-OT](pass-metadata-dita-ot.md#id21BJ00QD0XA).<br><br>**Obs!**: Om du inte har definierat `cq:tags` i alternativet Egenskaper hämtas värdena för `cq:tags` från den aktuella arbetskopian, även om du har valt en baslinje för publicering. |
+| Metadata <br> <br>Använd mappningsegenskaper som reserv | Om du väljer det här alternativet kopieras även de egenskaper som definierats för kartfilen till de avsnitt där sådana egenskaper inte har definierats. Tänk på följande när du använder det här alternativet:<br><br>*Endast egenskaperna String, Date eller Long (en och flera värden) kan skickas till AEM Site-sidorna.<br>* Metadatavärdena för en String-typegenskap stöder inte specialtecken (till exempel `@, #, " "`).<br>* Det här alternativet bör användas tillsammans med alternativet `Properties`. |
 | Behåll tillfälliga filer | Välj det här alternativet om du vill behålla de temporära filer som genererats av DITA-OT. Om du får problem när du genererar utdata via DITA-OT väljer du det här alternativet om du vill behålla de tillfälliga filerna. Du kan sedan använda dessa filer för att felsöka fel vid generering av utdata.<br> <br> När du har skapat utdata väljer du ikonen **Hämta temporära filer** ![Hämta temporära filer](images/download-temp-files-icon.png) för att hämta ZIP-mappen som innehåller de temporära filerna. <br><br> **Obs!** Om filegenskaper läggs till under genereringen innehåller de tillfälliga utdatafilerna även en *metadata.xml*-fil som innehåller dessa egenskaper. |
 
 

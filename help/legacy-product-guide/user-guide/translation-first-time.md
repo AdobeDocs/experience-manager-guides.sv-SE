@@ -5,9 +5,9 @@ feature: Translation
 role: User
 hide: true
 exl-id: 09e813fd-ec22-4d2e-9ee7-098d562ad44f
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '1295'
+source-wordcount: '1315'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Utför följande steg för att konfigurera den mänskliga översättningstjänst
 
    >[!NOTE]
    >
-   > Mer information om hur du integrerar med översättningstjänster från tredje part finns i [Konfigurera TLF (Translation Integration Framework)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=sv-SE) i AEM-dokumentationen.
+   > Mer information om hur du integrerar med översättningstjänster från tredje part finns i [Konfigurera TLF (Translation Integration Framework)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en) i AEM-dokumentationen.
 
 1. Klicka på **Spara och stäng** för att spara de uppdaterade mappegenskaperna.
 
@@ -141,4 +141,4 @@ När översättningen är klar ändras översättningsjobbets status till *Klar 
 >
 > Om du avvisar översättningen för ett eller flera ämnen i ett översättningsjobb återställs översättningsstatusen **Pågår** för alla avvisade ämnen till den ursprungliga statusen. Statusen för de refererade ämnena kontrolleras och återställs enligt det senaste översättningstillståndet. Översättningsfilerna som skapats i målprojektet tas inte bort även om översättningen avvisas för dem.
 
-**Överordnat ämne:**&#x200B;[&#x200B;Översätta innehåll](translation.md)
+**Överordnat ämne:**[&#x200B;Översätta innehåll](translation.md)

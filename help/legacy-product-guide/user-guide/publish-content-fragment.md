@@ -5,9 +5,9 @@ feature: Publishing
 role: User
 hide: true
 exl-id: f8a8dfd3-19de-49ff-b4d4-265b3ac09488
-source-git-commit: 1e08dce0bd64d1a15d42baf4c9720405a9eec146
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1052'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Med Experience Manager Guides kan du publicera ett ämne eller dess element i et
 
 Så här skapar du ett innehållsfragment:
 
-1. Skapa en [innehållsfragmentmodell](https://experienceleague.adobe.com/docs/experience-manager-65/assets/content-fragments/content-fragments-models.html?lang=sv-SE) i Adobe Experience Manager Assets.
+1. Skapa en [innehållsfragmentmodell](https://experienceleague.adobe.com/docs/experience-manager-65/assets/content-fragments/content-fragments-models.html?lang=en) i Adobe Experience Manager Assets.
 1. Skapa en mapp där du vill spara de innehållsfragment som du skapar baserat på modellen för innehållsfragment. Exempel:&quot;stock-content-fragments&quot;.
 1. Redigera mappens egenskaper (till exempel&quot;stock-content-fragments&quot;) och lägg till sökvägen till mappen, som innehåller modellen för innehållsfragment i molnkonfigurationen.
 Lägg till exempel till `/conf/we-retail` i molnkonfigurationen. Den här konfigurationen kopplar alla innehållsfragmentmodeller till mappen.\
@@ -41,7 +41,7 @@ Lägg till exempel till `/conf/we-retail` i molnkonfigurationen. Den här konfig
 1. I dialogrutan **Generera innehållsfragment** fyller du i följande information på flikarna **Allmänt** och **Mappning**.
 
    Fliken **Allmänt**
-   ![Lägg till fragmentmodellen och mappningsinformation i dialogrutan Publicera som innehållsfragment](images/generate-content-fragment.png)
+   ![Lägg till fragmentmodellen och mappningsinformationen i dialogrutan Publicera som innehållsfragment](images/generate-content-fragment.png)
    *Lägg till sökväg, namn, titel och villkorsfiltrering för att publicera ett ämne eller dess element som ett innehållsfragment.*
 
 

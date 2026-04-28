@@ -5,9 +5,9 @@ feature: Reviewing
 role: User
 hide: true
 exl-id: 1b29c50a-04d0-4052-b893-44fb8bcc3c97
-source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
@@ -77,4 +77,4 @@ Så här skapar du ett DITA-projekt:
 1. Klicka på **Öppna** för att öppna projektsidan.
 
 
-**Överordnat ämne:**&#x200B;[&#x200B; Granska ämnen eller kartor](review.md)
+**Överordnat ämne:**[ Granska ämnen eller kartor](review.md)

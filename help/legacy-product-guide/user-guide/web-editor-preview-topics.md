@@ -5,9 +5,9 @@ feature: Authoring
 role: User
 hide: true
 exl-id: c2c24b6f-08e8-47be-be33-b3e9fb50052e
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '1859'
+source-wordcount: '1863'
 ht-degree: 0%
 
 ---
@@ -219,4 +219,4 @@ Om kolumnen Utcheckad inte visas väljer du **Visa inställningar** under **List
 
   En ny gren skapas från den valda versionen av ämnet. Processen ovan gäller även när du vill återgå till en specifik version av ett ämne. Att återgå till en viss version innebär tekniskt sett att du skapar en ny gren från den valda versionen och gör den versionen till aktuell arbetskopia av ämnet. Du kan också visa historiken för filer som har återförts i rapporten Återgå till tidigare version. Mer information om den här rapporten finns i [Versionshistorik för återskapade filer](reports-reverted-file-version-history.md#).
 
-**Överordnat ämne:**&#x200B;[&#x200B; Skapa och förhandsgranska ämnen](create-preview-topics.md)
+**Överordnat ämne:**[ Skapa och förhandsgranska ämnen](create-preview-topics.md)

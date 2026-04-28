@@ -5,7 +5,7 @@ feature: Publishing
 role: User
 hide: true
 exl-id: c3c6c063-441c-413b-a63e-0acbd126ca6d
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 0%
@@ -37,7 +37,6 @@ Till exempel:
 
      Om du inte definierar en tillåten mall för en mapp hämtas mallarna som standard från den överordnade mappen eller mallmappen.
    * **Kan beställas**: Gör att du kan ändra ordningen på resurserna i en mapp.
-
      ![lägg till information om molnkonfiguration i mappegenskaperna](images/experience-fragment-folder-properties.png){width="650" align="left"}
      *Lägg till molnkonfigurationen i mappegenskaperna för att ansluta den till fragmentmallarna.*
 1. Om du vill generera ett Experience Fragment väljer du **Ny utdata** ![ny utdataikon](./images/Add_icon.svg) i avsnittet **Utdata** i **filegenskaper** för ett ämne.
@@ -81,7 +80,7 @@ Till exempel:
 1. Klicka på **Generera** för att publicera Experience Fragment.
 1. Du kan visa Experience Fragments för ett ämne under avsnittet **Outputs** i **File Properties**. Experience Fragments visas efter datum och tid för publiceringen, med det senaste som det första.
 
-   ![Visa Experience Fragments för ett ämne](images/experience-fragment-outputs.png){width=300 align=&quot;left&quot;}
+   ![Visa Experience Fragments för ett ämne](images/experience-fragment-outputs.png){width=300 align="left"}
 
    *Visa de Experience Fragments som finns för ett ämne och publicera dem igen.*
 

@@ -5,9 +5,9 @@ feature: Authoring, Map Editor
 role: User
 hide: true
 exl-id: 0f86ac98-7ba4-4e15-8a1f-83456afa7570
-source-git-commit: 4801f0d327b4bd0641aa195d39ec2c4be2a2ce74
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1111'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Så här skapar du en mappningsmall:
 
 Så här skapar du en karta eller ämnesmall:
 
-1. Markera mappen **Karta** eller **Ämne** i den aktuella mallmappen. Till exempel, mappen `dita-templates`.
+1. Markera mappen **Karta** eller **Ämne** i den aktuella mallmappen. Till exempel mappen `dita-templates`.
 1. Välj **Skapa mappningsmall** eller **Skapa ämnesmall** på menyn **Alternativ**.
 
    Dialogrutan **Skapa ny mappningsmall** eller **Skapa ny ämnesmall** öppnas.
@@ -190,4 +190,4 @@ Kartan genererar alla resurser som refereras till inuti mallmappen. En del typer
 
 - Om en annan karta eller ett annat ämne skapas på samma nivå i mappen läggs namnen på de nyskapade resurserna till med 0,1,2 och så vidare. Du kan välja att öppna kartan för redigering eller spara kartfilen i databasen.
 
-**Överordnat ämne:**&#x200B;[&#x200B; Arbeta med kartredigeraren](map-editor.md)
+**Överordnat ämne:**[ Arbeta med kartredigeraren](map-editor.md)

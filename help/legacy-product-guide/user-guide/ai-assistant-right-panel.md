@@ -1,11 +1,11 @@
 ---
-title: Använd AI-assistenten för att skapa dokument smart &grave;
+title: Använd AI-assistenten för att skapa dokument smart `
 description: Lär dig hur du använder AI Assistant för att skapa dokument på ett smart sätt i Web Editor.
 hide: true
 exl-id: c7d37da8-e838-47a2-b469-287bcd841933
-source-git-commit: 8659035c57ce2b6f760b342fa9d88d656fcabf23
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1055'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Experience Manager Guides har ett AI Assistant-verktyg som hjälper dig att skap
 >[!NOTE]
 >
 > Om du vill lägga till AI-assistentfunktionen på den högra panelen måste systemadministratören markera alternativet **AI-assistenten** på fliken **Paneler** i ikonen för **Workspace-inställningar** ![Workspace-inställningar](./images/editor_settings_icon.svg) .
-> &#x200B;> Du måste även checka ut dokumentet för att visa AI Assistant-ikonen.
+> Du måste även checka ut dokumentet för att visa AI Assistant-ikonen.
 
 Den här funktionen är endast tillgänglig för DITA-avsnitt. När du har markerat texten i ett ämne kan du välja att utföra någon av AI-assistentåtgärderna:
 
@@ -29,7 +29,7 @@ Den här funktionen är endast tillgänglig för DITA-avsnitt. När du har marke
 ## Föreslå återanvändbart innehåll
 
 
-Använd funktionen **Föreslå återanvändbart innehåll** ![ai föreslår återanvändbar innehållsikon &#x200B;](./images/ai-suggest-reusable-content-icon.svg) för att skapa innehåll på ett konsekvent och korrekt sätt. Du kan markera innehållet och Experience Manager Guides ger förslag på hur du kan återanvända det befintliga innehållet i din databas.
+Använd funktionen **Föreslå återanvändbart innehåll** ![ai föreslår återanvändbar innehållsikon ](./images/ai-suggest-reusable-content-icon.svg) för att skapa innehåll på ett konsekvent och korrekt sätt. Du kan markera innehållet och Experience Manager Guides ger förslag på hur du kan återanvända det befintliga innehållet i din databas.
 Läs mer om hur du använder [AI-baserade smarta förslag för att skapa innehåll](authoring-ai-based-smart-suggestions.md).
 
 

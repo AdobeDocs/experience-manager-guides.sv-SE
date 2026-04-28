@@ -5,9 +5,9 @@ feature: Publishing, Bulk Activation
 role: User
 hide: true
 exl-id: 4b60bf50-f6c2-4e87-8af6-fd1c26d4898f
-source-git-commit: 4801f0d327b4bd0641aa195d39ec2c4be2a2ce74
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ I ett verkligt scenario har författarna åtkomst till AEM medan själva innehå
 
 >[!NOTE]
 >
-> Mer information om hur du konfigurerar författaren och publicerar instansen i AEM finns i [Skapa och publicera arkitekturöversikt](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=sv-SE#prerequisites).
+> Mer information om hur du konfigurerar författaren och publicerar instansen i AEM finns i [Skapa och publicera arkitekturöversikt](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#prerequisites).
 
 Med AEM Guides funktion för massaktivering kan du snabbt och enkelt aktivera ditt innehåll från redigering till publicering. Med funktionen för massaktivering kan du
 
@@ -42,4 +42,4 @@ Förinställningar för JSON-utdata.
 - **[Ta bort en gruppaktiveringskarta](conf-bulk-activation-delete-map-collection.md)**
 
 
-**Överordnat ämne:**&#x200B;[&#x200B; Utdatagenerering](generate-output.md)
+**Överordnat ämne:**[ Utdatagenerering](generate-output.md)

@@ -1,7 +1,7 @@
 ---
 cloud: Experience Cloud
 mini-toc-levels: 2
-git-repo: https://github.com/AdobeDocs/experience-manager-guides.sv-SE
+git-repo: https://github.com/AdobeDocs/experience-manager-guides.en
 product: Experience Manager
 type: Documentation
 solution: Experience Manager, Experience Manager Guides
@@ -10,9 +10,9 @@ landing-page-name: experience-manager-guides
 landing-page-breadcrumb-title: AEM Guides
 role: User
 index: true
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '53'
+source-wordcount: '70'
 ht-degree: 0%
 
 ---

@@ -5,7 +5,7 @@ feature: Publishing
 hide: true
 role: User
 exl-id: 682ca543-86f3-46b0-9e05-7e011a4cf7b8
-source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 0%
@@ -41,4 +41,4 @@ I följande avsnitt beskrivs de alternativ som är tillgängliga för de utdataf
 
 Som administratör kan du med Experience Manager Guides skapa och hantera utdatapresentationer för globala profiler och mappprofiler. Mer information finns i [Hantera förinställningar för globala utdata och mappprofiler](./web-editor-manage-output-presets.md).
 
-**Överordnat ämne:**&#x200B;[&#x200B; Utdatagenerering](generate-output.md)
+**Överordnat ämne:**[ Utdatagenerering](generate-output.md)

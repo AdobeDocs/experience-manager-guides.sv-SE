@@ -5,9 +5,9 @@ feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: dbc27856-6903-4694-9875-77dc778c80bd
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '1449'
+source-wordcount: '1460'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 AEM Guides Web Editor stöder visning av dokument i tre olika lägen eller vyer:
 
-## Författare
+## Upphovsman
 
 Det här är en typisk vy som du ser i vyn What You Get \(WYSISYG\) i Web Editor. Du kan redigera ämnen på samma sätt som i vanliga RTF-redigerare. I redigeringsvyn har du möjlighet att spara en revision av dokumentet, söka och ersätta innehåll, infoga element, infoga hyperlänk, infoga innehållsreferens och mycket annat.
 
@@ -85,7 +85,7 @@ Mer information finns i funktionsbeskrivningen för **Sök och ersätt** i avsni
   | Hitta det aktuella ordet rekursivt \(i bakåtriktning\) | **Skift**+**Ctrl**+**F3** |
 
 
-## Förhandsgranska
+## Förhandsgranskning
 
 När du öppnar ett ämne i förhandsgranskningsläget visas hur ett ämne kommer att visas när det visas av en användare i webbläsaren. Om det är en DITA-karta visas en förhandsvisning av kartan där ett sammansatt dokument med alla ämnen på kartan visas.
 
@@ -152,4 +152,4 @@ Så här exporterar du ett ämne som PDF:
    PDF genereras och öppnas på en ny flik eller så visas en dialogruta där du kan spara PDF på din dator.
 
 
-**Överordnat ämne:**&#x200B;[&#x200B; Arbeta med webbredigeraren](web-editor.md)
+**Överordnat ämne:**[ Arbeta med webbredigeraren](web-editor.md)

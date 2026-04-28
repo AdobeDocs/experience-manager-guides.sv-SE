@@ -5,9 +5,9 @@ feature: Publishing
 role: User
 hide: true
 exl-id: d4892eca-2715-4bd6-8ac8-0a8edff2c4f8
-source-git-commit: 1426cdaecdd358f06e76908b09330e65997e8452
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '1960'
+source-wordcount: '1972'
 ht-degree: 0%
 
 ---
@@ -183,4 +183,4 @@ Utför följande steg för att exportera en översatt baslinje:
 1. \(Valfritt\) Om du vill exportera en baslinje som redan har exporterats markerar du **Skriv över befintlig baslinje** och klickar sedan på **Exportera baslinje**.
 
 
-**Överordnat ämne:**&#x200B;[&#x200B; Utdatagenerering](generate-output.md)
+**Överordnat ämne:**[ Utdatagenerering](generate-output.md)

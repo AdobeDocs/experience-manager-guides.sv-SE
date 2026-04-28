@@ -5,16 +5,16 @@ feature: Content Management
 role: User
 hide: true
 exl-id: b04a0abe-a029-44ac-b8f4-138d78908d44
-source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
 
 # Hämta filer {#id216MC0H0BE8}
 
-Du kan hämta resurser, inklusive DITA-filer och andra filer. Du kan hämta resurser på flera olika sätt. Vissa metoder är inbyggda i AEM och andra stöds av AEM Guides. Inbyggd hämtningsinformation för AEM-resurser finns i [Hämta resurser från Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html?lang=sv-SE) i AEM-dokumentationen. I följande avsnitt förklaras hur du hämtar filer via DITA-kartkonsolen i AEM Guides.
+Du kan hämta resurser, inklusive DITA-filer och andra filer. Du kan hämta resurser på flera olika sätt. Vissa metoder är inbyggda i AEM och andra stöds av AEM Guides. Inbyggd hämtningsinformation för AEM-resurser finns i [Hämta resurser från Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html) i AEM-dokumentationen. I följande avsnitt förklaras hur du hämtar filer via DITA-kartkonsolen i AEM Guides.
 
 ## Exportera en DITA-kartfil
 
@@ -38,7 +38,6 @@ Följ de här stegen för att hämta en DITA-kartfil tillsammans med de beroende
 
    - **Använd baslinje**: Välj det här alternativet om du vill visa en lista över baslinjer som skapats för DITA-kartan. Om du vill hämta kartfilen och dess innehåll baserat på en viss baslinje väljer du Baslinje i listrutan. Mer information om att arbeta med baslinjer finns i [Arbeta med baslinje](generate-output-use-baseline-for-publishing.md#).
    - **Förenkla filhierarkin**: Välj det här alternativet om du vill spara alla refererade ämnen och mediefiler i en enda mapp.
-
    >[!NOTE]
    >
    > Du kan även hämta kartfilen utan att välja något alternativ. I så fall hämtas den senaste beständiga versionen av de ämnen och mediefiler som refereras.
@@ -59,4 +58,4 @@ Följ de här stegen för att hämta en DITA-kartfil tillsammans med de beroende
 
 När kartan har laddats ned kan du markera kartan och använda ikonen Öppna längst upp för att öppna den markerade rapporten.
 
-**Överordnat ämne:**&#x200B;[&#x200B; Hantera innehåll](authoring.md)
+**Överordnat ämne:**[ Hantera innehåll](authoring.md)

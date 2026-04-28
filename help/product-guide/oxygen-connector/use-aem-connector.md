@@ -6,16 +6,16 @@ hidefromtoc: true
 exl-id: 9a140564-27eb-404e-93a5-f5c81364e7f7
 feature: Oxygen Plugin, Authoring, Web Editor
 role: User, Admin
-source-git-commit: b2b26a85236245f989866ab8ee801a930ed8a8c4
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '6347'
+source-wordcount: '6522'
 ht-degree: 0%
 
 ---
 
 # Syrgas-plugin för Adobe Experience Manager Guides {#id1645H6010Q5}
 
-Med Syrgas-pluginen för Adobe Experience Manager Guides \(kallas senare för Syrgas-plugin för AEM Guides i guiden\) kan du ansluta Syrgas-XML-författaren till Adobe Experience Manager \(AEM\)-databasen för att skapa och hantera innehåll. Du kan använda plugin-programmet för att bläddra bland, söka efter och öppna filer, checka ut och in filer, överföra mappar och filer AEM databasen. På AEM Guides-panelen i skrivbordsprogrammet kan du markera önskade mappar \(från AEM databas\) i favoritmapplistan för snabb åtkomst. Dessutom kan du installera ett paket i AEM webbgränssnitt och öppna DITA-filerna i Sygen XML Author direkt från AEM webbgränssnitt.
+Med Syrgas-pluginen för Adobe Experience Manager Guides \(kallas senare för Syrgas-plugin för AEM Guides i guiden\) kan du ansluta Syrgas-XML-författaren till Adobe Experience Manager \(AEM\)-databasen för att skapa och hantera innehåll. Du kan använda plugin-programmet för att bläddra bland, söka efter och öppna filer, checka ut och in filer, överföra mappar och filer i AEM-databasen. På panelen AEM Guides i skrivbordsprogrammet kan du markera önskade mappar \(från AEM-databasen\) i listan med favoritmappar så att du snabbt kommer åt dem. Dessutom kan du installera ett paket i AEM webbgränssnitt och öppna dina DITA-filer i Oxygen XML Author direkt från AEM webbgränssnitt.
 
 ## Hämta och installera {#id1826M0L0PUI}
 
@@ -44,7 +44,7 @@ När du har installerat installationsprogrammet installerar du det på den lokal
 
 >[!IMPORTANT]
 >
->Om du har en äldre version av plugin-programmet installerad på datorn måste du avinstallera det innan du startar installationsprocessen. Avinstallationsanvisningar finns i avsnittet **Avinstallera paket** i artikeln [Arbeta med paket](https://helpx.adobe.com/se/experience-manager/6-4/sites/administering/using/package-manager.html) .
+>Om du har en äldre version av plugin-programmet installerad på datorn måste du avinstallera det innan du startar installationsprocessen. Avinstallationsanvisningar finns i avsnittet **Avinstallera paket** i artikeln [Arbeta med paket](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html) .
 
 Utför följande steg på datorn där Oxygen XML Author är installerat:
 
@@ -67,7 +67,7 @@ Utför följande steg på datorn där Oxygen XML Author är installerat:
 
    AEM Guides-panelen visas i Sygen XML Author.
 
-   ![AEM koppling](images/oxygen-aem-connector.png){width="800" align="left"}
+   ![AEM-anslutning](images/oxygen-aem-connector.png){width="800" align="left"}
 
    >[!NOTE]
    >
@@ -78,7 +78,7 @@ Utför följande steg på datorn där Oxygen XML Author är installerat:
 
 >[!IMPORTANT]
 >
->Om du har en äldre version av plugin-programmet installerad på datorn måste du avinstallera det innan du startar installationsprocessen. Se avsnittet **Avinstallera paket** i artikeln [Så här arbetar du med paket](https://helpx.adobe.com/se/experience-manager/6-4/sites/administering/using/package-manager.html) avinstallationsinstruktioner.
+>Om du har en äldre version av plugin-programmet installerad på datorn måste du avinstallera det innan du startar installationsprocessen. Se avsnittet **Avinstallera paket** i artikeln [Så här arbetar du med paket](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html) avinstallationsinstruktioner.
 
 Utför följande steg på datorn där Oxygen XML Author är installerat:
 
@@ -99,7 +99,7 @@ Utför följande steg på datorn där Oxygen XML Author är installerat:
 
    AEM Guides-panelen visas i Sygen XML Author.
 
-   ![AEM Mac](images/oxygen-aem-connector-mac.png) {width="800" align="left"}
+   ![AEM Connector Mac](images/oxygen-aem-connector-mac.png) {width="800" align="left"}
 
    >[!NOTE]
    >
@@ -108,23 +108,23 @@ Utför följande steg på datorn där Oxygen XML Author är installerat:
 
 ### Installera paketet för att aktivera dokumentredigeringsfunktionen från AEM webbgränssnitt {#id182CE0Q0TY4}
 
-Som författare kan du öppna och redigera dina DITA-kartor eller ämnen i Sygen XML Author direkt från AEM webbgränssnitt. Om du vill aktivera den här funktionen i AEM webbgränssnitt måste AEM-administratören installera ett paket i den AEM utvecklingsinstansen.
+Som författare kan du öppna och redigera dina DITA-kartor eller ämnen i Oxygen XML Author direkt från AEM webbgränssnitt. Om du vill aktivera den här funktionen i AEM webbgränssnitt måste AEM-administratören installera ett paket i din AEM-redigeringsinstans.
 
-Som AEM administratör följer du de här stegen för att installera paketet:
+Som AEM-administratör följer du de här stegen för att installera paketet:
 
 1. Hämta paketets ZIP-fil från IT-avdelningen.
-1. Logga in i AEM *\(som administratör\)* och navigera till CRX Package Manager. Standardwebbadressen för att få åtkomst till pakethanteraren är
+1. Logga in på din AEM-instans *\(som administratör\)* och navigera till CRX Package Manager. Standardwebbadressen för att få åtkomst till pakethanteraren är
 
    `http://<server name>:<port>/crx/packmgr/index.jsp`
 
-   Pakethanteraren hanterar paketen i din lokala AEM. Mer information om hur du arbetar med pakethanteraren finns i [Arbeta med paket](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developer-tools/package-manager.html?lang=sv-SE) i AEM.
+   Pakethanteraren hanterar paketen på din lokala AEM-installation. Mer information om hur du arbetar med pakethanteraren finns i [Arbeta med paket](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developer-tools/package-manager.html?lang=en) i AEM-dokumentationen.
 
    ![Pakethanteraren](images/package-manager.png) {width="650" align="left"}
 
 1. Klicka på **Överför paket** om du vill överföra syrepaketet.
 1. I dialogrutan Överför paket navigerar du till syrepaketfilen som du hämtade i steg 1 och klickar på OK.
 
-   Paketet överförs till din AEM.
+   Paketet överförs till din AEM-instans.
 
 1. Klicka på **Installera** om du vill starta installationsprocessen.
 
@@ -146,7 +146,7 @@ Som AEM administratör följer du de här stegen för att installera paketet:
 När du har hämtat och installerat plugin-programmet måste du konfigurera följande så att det fungerar med plugin-programmet:
 
 - **Webbautentiseringsinställningar**: Inställningar för enkel inloggning i plugin-programmet för AEM Guides.
-- **Allmänna inställningar**: Anslutningsinställningar för plugin-programmet, t.ex. URL för AEM server, inloggningsinformation osv.
+- **Allmänna inställningar**: Anslutningsinställningar för plugin-programmet, t.ex. AEM-serverns URL-adress, inloggningsinformation o.s.v.
 - **Inställningar för anpassning av profilattribut och filnamn i korsreferenser**: Den här konfigurationen krävs för profileringsattributscheman för dokumentationsuppsättningarna.
 
 ### Inställningar för webbautentisering
@@ -209,28 +209,28 @@ Utför följande steg för att konfigurera anslutningsinställningarna i Syre-pl
 
 1. Klicka på inställningsikonen på panelen AEM Guides och välj sedan **Inställningar**.
 
-   ![Anslutningsinställningar &#x200B;](images/settings.png){width="800" align="left"}
+   ![Anslutningsinställningar ](images/settings.png){width="800" align="left"}
 
 1. Ange följande information:
-   - **Server-URL**: URL för AEM server, till exempel:
+   - **Server-URL**: URL för AEM-servern, till exempel:
 
      ```http
      http[s]://<host>:<port>
      ```
 
-     Ange värdnamnet och porten för servern där AEM distribueras i ovanstående URL.
+     Ange värdnamnet och porten för den server där AEM-servern distribueras i ovanstående URL.
 
      >[!IMPORTANT]
      >
-     >Om AEM distribueras på port 80 eller 443 behöver du inte ange den i URL:en.
+     >Om din AEM-server distribueras på port 80 eller 443 behöver du inte ange den i URL:en.
 
    - **Autentisering:** Välj mellan **Grundläggande \(Användarnamn/lösenord\)** eller **Webbautentisering**. Om du väljer **Grundläggande** autentisering måste du ange **användarnamn** och **lösenord** i dialogrutan Inställningar.
 
-     Om du väljer Webbautentisering visas AEM inloggningsskärm. Ange dina inloggningsuppgifter och klicka på knappen **Logga in**. När inloggningen är klar stängs AEM inloggningsskärmen och AEM Guides-panelen visar fillistan från AEM.
+     Om du väljer Webbautentisering visas inloggningsskärmen för AEM. Ange dina inloggningsuppgifter och klicka på knappen **Logga in**. När inloggningen är klar stängs AEM inloggningsskärm och AEM Guides-panelen visar fillistan från AEM-servern.
 
-   - **Tidsgräns för anslutning**: Ange hur många sekunder klienten ska vänta på ett svar från AEM server. Om inget svar från servern tas emot inom den angivna tiden avslutas begäran. Standardvärdet är 20 sekunder.
+   - **Tidsgräns för anslutning**: Ange hur många sekunder klienten ska vänta på ett svar från AEM-servern. Om inget svar från servern tas emot inom den angivna tiden avslutas begäran. Standardvärdet är 20 sekunder.
 
-   - **Lokal mapp**: Plats på din lokala dator där filerna från AEM sparas efter utcheckning. Om du anger en plats som inte finns på enheten skapas platsen av plugin-programmet.
+   - **Lokal mapp**: Plats på din lokala dator där filer från AEM-databasen lagras efter utcheckning. Om du anger en plats som inte finns på enheten skapas platsen av plugin-programmet.
    - **Öppna fil vid utcheckning**: Om det här alternativet är markerat öppnas filerna vid utcheckning.
    - **Stäng filen vid incheckning**: Om det här alternativet är markerat stängs filerna vid incheckning. Innan du stänger filen visas ett popup-fönster där du kan ange versionskommentarerna.
    - **Visa dialogruta för incheckning vid stängning av fil**: Om du väljer det här alternativet visas ett popup-fönster när du stänger en fil. I popup-fönstret kan du välja att checka in filen eller stänga filen utan att checka in den.
@@ -239,7 +239,7 @@ Utför följande steg för att konfigurera anslutningsinställningarna i Syre-pl
 
 ### Inställningar för anpassning av profilattribut och filnamn i korsreferenser {#id1827K0D0OHT}
 
-Du måste konfigurera inställningarna i Sygen XML Author för att använda profileringsattributet som är kopplat till DITA-avsnitten i AEM. Du måste också konfigurera inställningen för att visa filnamn i stället för GUID i korsreferenserna.
+Du måste konfigurera inställningarna i Sygen XML Author för att använda profileringsattributet som är kopplat till DITA-avsnitten i AEM-databasen. Du måste också konfigurera inställningen för att visa filnamn i stället för GUID i korsreferenserna.
 
 Utför följande steg för att konfigurera profileringsattribut och korsreferenser:
 
@@ -255,7 +255,6 @@ Utför följande steg för att konfigurera profileringsattribut och korsreferens
 1. Gör följande ändringar på fliken **Tillägg**:
 
    - Klicka på **Välj** bredvid **tilläggspaketet** och välj   `LinkResolverExtensionBundle - com.adobe.o2.framework.extn` i listan **Klass** . Klicka på **OK**.
-
      ![Konfigurerat tillägg för DITA-ämnen](images/dita-map-extenstion-link-resolve.png) {width="650" align="left"}
    - Klicka på **Välj** intill **Författartilläggslägesavlyssnaren** under **Enskilda tillägg** och välj `CustomAuthorExtensionStateListener - com.adobe.o2.framework.extn` i listan **Klass**. Klicka på **OK**.
    - Klicka på **Välj** bredvid **redigeraren för anpassade attributvärden** under **Individuella tillägg** och välj `CustomValueEditor - com.adobe.o2.framework.extn` i listan **Klass**. Klicka på **OK**.
@@ -302,40 +301,40 @@ På följande skärm visas panelen AEM Guides.
 
 **A**\) Visar sökfältet.
 
-**B**\) Visar mappen Favoriter. Som standard är den tom. Du kan lägga till mappar från AEM databas som favoriter. Favoritmappar visas här.
+**B**\) Visar mappen Favoriter. Som standard är den tom. Du kan lägga till mappar från AEM-databasen som favoriter. Favoritmapparna visas här.
 
-**C**\) DAM-mappen visar AEM. Du kan expandera och komprimera mappvyn.
+**C**\) DAM-mappen visar AEM-databasen. Du kan expandera och komprimera mappvyn.
 
 **D**\) Ikonen Inställningar \(kugghjul\) med följande alternativ:
 
-- **Anslut**: Välj det här alternativet om du vill ansluta till AEM. Alternativet är inaktiverat när Sygen XML Author är ansluten till AEM Server.
-- **Uppdatera**: Välj det här alternativet om du vill hämta den senaste statusen för filerna och mappen från AEM.
+- **Anslut**: Välj det här alternativet om du vill ansluta till AEM-servern. Alternativet är inaktiverat när Sygen XML Author är anslutet till AEM Server.
+- **Uppdatera**: Välj det här alternativet om du vill få den senaste statusen för filerna och mappen från AEM-databasen.
 
   >[!NOTE]
   >
   >Spara filerna innan du uppdaterar dem. När du väljer alternativet **Uppdatera** får du en varning om att spara filerna innan du uppdaterar dem. Om du inte har sparat dina filer kan du klicka på **Avbryt** och spara dem.
 
 - **Inställningar**: Du kan använda det här alternativet för att öppna den allmänna dialogrutan Inställningar för plugin-programmet.
-- **Logga ut**: Välj det här alternativet om du vill stänga AEM. Det här alternativet är bara tillgängligt om du använder läget Webbautentisering.
+- **Logga ut**: Välj det här alternativet om du vill stänga AEM-serveranslutningen. Det här alternativet är bara tillgängligt om du använder läget Webbautentisering.
 
 ### Funktioner på snabbmenyn
 
-Funktionerna för Sygen-plugin-programmet för AEM Guides är tillgängliga när du högerklickar på en mapp eller fil i AEM. De funktioner som är tillgängliga för mapparna skiljer sig från filerna. Här är en fullständig lista över funktioner i Syre Plugin för AEM Guides snabbmeny:
+Funktionerna för Sygen-plugin-programmet för AEM Guides är tillgängliga när du högerklickar på en mapp eller fil i AEM-databasen. De funktioner som är tillgängliga för mapparna skiljer sig från filerna. Här är en fullständig lista över funktioner i Syre Plugin för AEM Guides snabbmeny:
 
 - **Öppna**: Öppnar den markerade filen eller expanderar den markerade mappen.
 - **Öppna i**: Du kan välja att öppna den markerade filen i AEM Guides webbredigerare, kartkontrollpanel eller kartredigeraren. Mer information om de här alternativen finns i [Öppna filen i AEM Guides redigerare](#id195GH0V30KX).
-- **Checka ut**: Checkar ut en fil från AEM. Mer information finns i [Checka ut filer](#id195HC020TS4).
+- **Checka ut**: Checkar ut en fil från AEM-databasen. Mer information finns i [Checka ut filer](#id195HC020TS4).
 - **Checka ut med underordnade**: Checkar ut en fil med dess direkta referenser. Mer information finns i [Checka ut filer](#id195HC020TS4).
 - **Checka ut med skrivskyddade beroenden**: Checkar ut den markerade filen tillsammans med tillhörande beroenden. Du kan inte göra några ändringar i de beroende filerna. Mer information finns i [Checka ut filer](#id195HC020TS4).
 - **Avbryt utcheckning**: Avbryter den utcheckade filen, stänger filen från redigeraren och återställer ändringarna till den senaste versionen av filen som sparats på servern.
-- **Uppdatera**: Om det är en fil hämtar den senaste kopian av filen från AEM. För en mapp hämtas mappstrukturen och filens status. Det innebär att en fil läggs till och sedan visas den i AEM Guides-vyn. Om en fil är utcheckad på AEM server visas filen som utcheckad när du uppdaterar i Syrgasförfattaren. Detta uppdaterar dock inte fillistan i *Utcheckade filer i AEM Guides*-vyn.
-- **Uppdatera utcheckade filer**: Uppdaterar listan över utcheckade filer i vyn *Utcheckade filer i AEM Guides*. Om en fil är utcheckad på AEM server uppdateras listan med utcheckade filer i vyn *Utcheckade filer i AEM Guides* när du gör en uppdatering. Om en ny fil har lagts till eller status för en fil har ändrats, uppdateras den inte i trädvyn i AEM Guides. Om du vill uppdatera status för filer på AEM måste du göra en uppdatering.
+- **Uppdatera**: Om det är en fil hämtar den senaste kopian av filen från AEM-databasen. För en mapp hämtas mappstrukturen och filens status. Det innebär att en fil läggs till och sedan visas den i AEM Guides-vyn. Om en fil är utcheckad på en AEM-server visas filen som utcheckad när du uppdaterar i syreförfattaren. Detta uppdaterar dock inte fillistan i *Utcheckade filer i AEM Guides*-vyn.
+- **Uppdatera utcheckade filer**: Uppdaterar listan över utcheckade filer i vyn *Utcheckade filer i AEM Guides*. Om en fil är utcheckad på AEM-servern uppdaterar en uppdatering listan över utcheckade filer i vyn *Utcheckade filer i AEM Guides* . Om en ny fil har lagts till eller status för en fil har ändrats, uppdateras den inte i trädvyn i AEM Guides. Om du vill uppdatera status för filer på AEM måste du göra en uppdatering.
 - **Incheckning**: Checkar in filer som du har checkat ut. Mer information finns i [Checka in en fil](#id182CF0J0FHS).
 - **Checka in med underordnade**: Om du har checkat ut filer med underordnade, checkar det här alternativet in huvudfilen tillsammans med tillhörande underordnade filer. Mer information finns i [Checka in en fil](#id182CF0J0FHS).
-- **Skapa mapp**: Skapar en mapp i AEM. Det här alternativet är bara tillgängligt på mappnivå.
+- **Skapa mapp**: Skapar en mapp i AEM-databasen. Det här alternativet är bara tillgängligt på mappnivå.
 - **Överför fil\**: Överför en eller flera filer. Mer information finns i [Överför filer och mappar](#id195HC03F03J).
 - **Överför med beroenden**: Överför DITA-filer \(XML, DITA, Book map, eller DITA-karta\) med tillhörande beroenden. Mer information finns i [Överför filer och mappar](#id195HC03F03J).
-- **Överför mapp**: Överför en mapp i AEM. Mer information finns i [Överför filer och mappar](#id195HC03F03J).
+- **Överför mapp**: Överför en mapp i AEM-databasen. Mer information finns i [Överför filer och mappar](#id195HC03F03J).
 - **Lägg till i Favoriter**: Lägger till en mapp i mappen *Favoriter* på panelen AEM Guides. Vi rekommenderar att du lägger till din arbetsmapp här, vilket gör det enklare att synkronisera filer och filens status från AEM.
 - **Ta bort från Favoriter**: Tar bort en mapp från *Favoriter*. Mer information finns i [Lägg till eller ta bort favoriter](#id195HC04405P).
 - **Visa metadata**: Visar metadata som DITA-klass, dokumentets titel, typ, UUID och annan information som är associerad med en fil. Mer information finns i [Visa metadata för en fil](#id195GHN0H05C).
@@ -343,7 +342,7 @@ Funktionerna för Sygen-plugin-programmet för AEM Guides är tillgängliga när
 
 ### Öppna en fil i Sygen XML Author {#id195GHJ0A0UB}
 
-När du har anslutit till AEM kan du öppna filer för redigering i Sygen XML Author. Så här öppnar du en fil för redigering i Sygen XML Author:
+När du har anslutit till AEM-databasen kan du öppna filer för redigering i Sygen XML Author. Så här öppnar du en fil för redigering i Sygen XML Author:
 
 1. Högerklicka på en fil i panelen AEM Guides som du vill öppna för redigering.
 
@@ -381,7 +380,7 @@ Om du vill använda de redigeringsprogram som är tillgängliga i AEM Guides kan
 
 ### Checka ut filer {#id195HC020TS4}
 
-När du checkar ut en fil lagras den lokalt på datorn och låses för redigering i AEM. Så här checkar du ut en fil:
+När du checkar ut en fil lagras den lokalt på datorn och låses för redigering i AEM-databasen. Så här checkar du ut en fil:
 
 1. Du kan checka ut dina filer på något av följande sätt:
    - Högerklicka på en fil på panelen AEM Guides.
@@ -390,7 +389,7 @@ När du checkar ut en fil lagras den lokalt på datorn och låses för redigerin
    - Högerklicka på filfliken när du öppnar en karta eller ett ämne i Redigeraren.
 
 1. Välj något av följande alternativ:
-   - **Checka ut:** Checkar ut en fil från AEM och gör den tillgänglig för redigering.
+   - **Checka ut:** Checkar ut en fil från AEM-databasen och gör den tillgänglig för redigering.
    - **Checka ut med underordnade**: Checkar ut en fil med dess direkta referenser. Du kan göra ändringar på överordnade och underordnade sidor med det här alternativet. Syrgas-plugin för AEM Guides har stöd för utcheckning av en nivå med beroenden. Karta A refererar till exempel till ämne A och ämne A refererar till ämne B. Om du checkar ut karta A checkas ämne A ut oavsett nivå i TOC-hierarkin. Ämne B kommer dock inte att checkas ut eftersom det inte är direkt länkat från A-karta.
    - **Checka ut med skrivskyddade beroenden**: Checkar ut en fil och hämtar dess beroenden till din lokala dator som skrivskyddade kopior. Du kan inte göra några ändringar i de beroende filerna.
 
@@ -410,7 +409,7 @@ På skärmbilden ovan visas en fil som har checkats ut av en annan användare me
 
 ### Checka in en fil {#id182CF0J0FHS}
 
-När du checkar in en fil lagras den lokala kopian från systemet i AEM och fillåset tas bort. Utför följande steg för att checka in en fil:
+När du checkar in en fil lagras den lokala kopian från ditt system i AEM-databasen och fillåset tas bort. Utför följande steg för att checka in en fil:
 
 1. Spara filen genom att klicka på **Arkiv** \> **Spara**.
 
@@ -422,7 +421,7 @@ När du checkar in en fil lagras den lokala kopian från systemet i AEM och fill
 
 1. Välj mellan följande två alternativ:
 
-   - **Incheckning**: Checkar in den valda filen från ditt lokala system i AEM.
+   - **Incheckning**: Checkar in den valda filen från ditt lokala system i AEM-databasen.
    - **Checka in med beroende:** Om du har checkat ut en fil tillsammans med dess underordnade, använder du det här alternativet för att checka in alla beroende filer i en enda åtgärd. När du väljer det här alternativet visas dialogrutan Checka in med alla beroende filer. Klicka på OK om du vill checka in alla filer samtidigt.
 
    Om du inte har checkat ut beroende filer och sedan väljer det här alternativet checkas bara de beroende filerna som du har \(separat\) utcheckade in. En lista över filer som inte kunde checkas in visas:
@@ -431,15 +430,15 @@ När du checkar in en fil lagras den lokala kopian från systemet i AEM och fill
 
    Vi rekommenderar att du inte flyttar en fil som är utcheckad. Om en utcheckad fil flyttas till en annan plats måste du dock avbryta utcheckningen av filen. Om du vill uppdatera filen checkar du ut den igen, gör ändringar och checkar sedan in den igen. Om du försöker checka in en fil som har flyttats från den ursprungliga platsen visas ett fel.
 
-   Om en beroende fil är utcheckad i AEM visas inte den beroende filen i dialogrutan Checka in med beroende. Om du vill visa en lista över beroende filer som är utcheckade i AEM måste du göra en mappuppdatering.
+   Om en beroende fil är utcheckad i AEM kommer Checka in med beroende inte att visa den beroende filen i dialogrutan Checka in. Om du vill visa en lista över beroende filer som är utcheckade i AEM måste du göra en mappuppdatering.
 
-   Om du har checkat in en beroende fil via AEM uppdateras inte fillistan i Syrgasförfattaren förrän du uppdaterar mappen Uppdatera och Uppdatera utcheckade filer. Om du gör en incheckning med beroende med vissa filer incheckade AEM visas ett felmeddelande med en lista över de filer som inte kunde checkas in.
+   Om du har checkat in en beroende fil via AEM uppdateras inte fillistan i Syrgasförfattaren förrän du uppdaterar en mapp Uppdatera och Uppdatera utcheckade filer. Om du gör en incheckning med beroende med vissa filer incheckade via AEM visas ett felmeddelande med en lista över de filer som inte kunde checkas in.
 
 1. \(Valfritt\) Lägg till en kommentar i textrutan **Versionskommentarer** i dialogrutorna **Checka in** eller **Checka in med underordnade**.
 
    >[!NOTE]
    >
-   >Den här kommentaren visas i filens AEM versionshistorik.
+   >Den här kommentaren visas i filens versionshistorik för AEM.
 
 1. Lägg till etiketter i textrutan **Etikett** i dialogrutan **Incheckning** eller i dialogrutan **Incheckning med underordnade** . Ange en etikett och tryck på Enter. Exempel: *2307 Release*.
 
@@ -452,7 +451,7 @@ Du kan dock inte lägga till samma etikett till olika versioner av ett ämne. Om
 
    >[!NOTE]
    > 
-   > Dessa etiketter visas i filens AEM versionshistorik.
+   > Dessa etiketter visas i filens versionshistorik för AEM.
 
 
 1. Klicka på **OK**.
@@ -463,7 +462,7 @@ Du kan dock inte lägga till samma etikett till olika versioner av ett ämne. Om
 
 ### Utcheckade filer i AEM Guides-vyn
 
-När du har flera mappar är det inte lätt att ta reda på hur många filer som är utcheckade i en vy. AEM Guides innehåller utcheckade filer i AEM Guides-vyn som ger en fullständig ögonblicksbild av de utcheckade filerna. I den här vyn kan du enkelt ta reda på vilka filer som har checkats in av dig i AEM med AEM Guides. Utför följande steg för att komma åt och arbeta med den här vyn:
+När du har flera mappar är det inte lätt att ta reda på hur många filer som är utcheckade i en vy. AEM Guides innehåller utcheckade filer i AEM Guides-vyn som ger en fullständig ögonblicksbild av de utcheckade filerna. I den här vyn kan du enkelt ta reda på vilka filer som har checkats in av dig i AEM-databasen med AEM Guides. Utför följande steg för att komma åt och arbeta med den här vyn:
 
 1. Klicka på **Fönster** \> **Visa** \> **Utcheckade filer i AEM Guides**.
 
@@ -485,7 +484,7 @@ När du har flera mappar är det inte lätt att ta reda på hur många filer som
 
 - *Utcheckade filer i AEM Guides*-vyn bevarar användarens sessioner. Detta innebär att filer som checkas ut av den aktuella användaren lagras och underhålls i vyn över samma användares sessioner \(eller cache\).
 
-- Om användaren ändrar inloggningsuppgifterna eller AEM server återställs den utcheckade filens data \(eller cache\) i vyn. Användaren måste manuellt köra kommandot *Uppdatera utcheckade filer* för varje mapp som filerna tidigare checkades ut från. För att förenkla detta rekommenderar vi att du lägger till dina arbetsmappar i *Favoriter*, där du snabbt kan göra en mappuppdatering.
+- Om användaren ändrar inloggningsuppgifterna för AEM-servern återställs den utcheckade filens data \(eller cache\) i vyn. Användaren måste manuellt köra kommandot *Uppdatera utcheckade filer* för varje mapp som filerna tidigare checkades ut från. För att förenkla detta rekommenderar vi att du lägger till dina arbetsmappar i *Favoriter*, där du snabbt kan göra en mappuppdatering.
 
 - Du kan sortera fillistan utifrån filnamn, titel eller sökväg. Om en ny fil är utcheckad visas filen i sorterad ordning i vyn.
 
@@ -496,13 +495,13 @@ Så här överför du filer eller mappar:
 
 1. Högerklicka på en mapp på panelen AEM Guides.
 1. Välj något av följande alternativ:
-   - **Överför fil\**: Välj det här alternativet om du vill överföra en eller flera filer till den valda mappen i AEM. I dialogrutan Välj filer \(er\) som ska överföras markerar du filerna och klickar på **Öppna**.
+   - **Överför fil\**: Välj det här alternativet om du vill överföra en eller flera filer till den valda mappen i AEM-databasen. I dialogrutan Välj filer \(er\) som ska överföras markerar du filerna och klickar på **Öppna**.
    - **Överför med beroenden**: Välj det här alternativet om du vill överföra en DITA-fil med tillhörande beroenden. I dialogrutan Välj fil som ska överföras markerar du filerna och klickar på **Öppna**.
-   - **Överför mapp**: Välj det här alternativet om du vill överföra en mapp i AEM. I dialogrutan Välj markerar du mappen och klickar på **Välj**.
+   - **Överför mapp**: Välj det här alternativet om du vill överföra en mapp i AEM-databasen. I dialogrutan Välj markerar du mappen och klickar på **Välj**.
 
 **Ytterligare information om att arbeta med UUID-baserade filer**:
 
-Följande punkter måste beaktas när innehåll flyttas eller kopieras från ditt lokala system till AEM:
+Följande punkter måste beaktas när du flyttar eller kopierar innehåll från ditt lokala system till AEM-databasen:
 
 - När du överför en eller flera filer genereras ett nytt UUID för filer som inte har något UUID. Detta UUID läggs till i `topic id` för en DITA-fil.
 
@@ -516,7 +515,7 @@ Följande punkter måste beaktas när innehåll flyttas eller kopieras från dit
 
 - Om en fil överförs av två olika användare samtidigt, kommer den fil som bearbetas senare att skriva över den tidigare filen. En sådan metod bör dock undvikas.
 
-- När du checkar ut innehåll från AEM databas och gör ändringar i det lokala systemet, kontrollerar du att filnamnet inte ändras när du överför filen.
+- När du checkar ut innehåll från AEM-databasen och gör ändringar i det lokala systemet, kontrollerar du att filnamnet inte ändras när du överför filen.
 
 - När du infogar en referens i DITA Maps Manager eller Editor visas filens namn och inte UUID:t. Om titeln inte finns visas filnamnet.
 
@@ -527,7 +526,7 @@ Gör så här för att lägga till eller ta bort en mapp i mappen Favoriter på 
 - Högerklicka på en mapp och välj **Lägg till i Favoriter**. Du kan lägga till en mapp i favoriter om den inte finns i Favoriter.
 - Du kan ta bort en mapp från favoriter på följande sätt:
    - Högerklicka på en mapp i mappen **Favoriter** och välj **Ta bort från Favoriter**.
-   - Högerklicka på en mapp i AEM databas under mappen **DAM** som redan har lagts till som favorit och välj **Ta bort från Favoriter**.
+   - Högerklicka på en mapp i AEM-databasen under mappen **DAM** som redan har lagts till som favorit och välj **Ta bort från Favoriter**.
 
 ### Visa versionshistorik för en fil {#id195GI000D5Q}
 
@@ -555,13 +554,13 @@ Så här visar du metadata för en fil:
    ![Visa metadata](images/metadata.png){width="550" align="left"}
 
 
-## Söka i ett ämne i AEM {#id1826J20405Z}
+## Söka i ett ämne i AEM-databasen {#id1826J20405Z}
 
-Du kan söka efter ämnen i den AEM databasen med hjälp av sökfältet på panelen AEM Guides. Du kan söka i hela DAM-mappen eller markera en mapp och sedan söka efter ett ämne i den mappen. Sökresultatet visar de ämnen som har textmatchning med sökfrågan.
+Du kan söka efter ämnen i AEM-databasen med hjälp av sökfältet på panelen AEM Guides. Du kan söka i hela DAM-mappen eller markera en mapp och sedan söka efter ett ämne i den mappen. Sökresultatet visar de ämnen som har textmatchning med sökfrågan.
 
 Utför följande steg för att söka efter ämnen:
 
-1. Välj en mapp i den AEM databasen där du vill söka efter ett ämne.
+1. Välj en mapp i AEM-databasen där du vill söka efter ett ämne.
 1. Ange sökfrågan \(t.ex. `introduction`\) i sökfältet i Syre-pluginen för AEM Guides.
 1. Klicka på sökknappen eller tryck på Retur.
 
@@ -570,9 +569,9 @@ Utför följande steg för att söka efter ämnen:
    ![Sökresultat](images/search.png){width="550" align="left"}
 
 1. \(Valfritt\) Dubbelklicka på en fil i sökresultatet för att öppna den i Sygen XML Author.
-1. Gör något av följande om du vill gå tillbaka till AEM.
-   - Klicka på fliken **Bläddra** om du vill visa vyn AEM databas utan att rensa sökresultaten.
-   - Om du vill ta bort sökresultaten och visa AEM databas klickar du på ikonen Ta bort sökning.
+1. Gör något av följande om du vill gå tillbaka till vyn AEM-databas:
+   - Klicka på fliken **Bläddra** om du vill visa vyn AEM-databas utan att rensa sökresultaten.
+   - Om du vill ta bort sökresultaten och visa AEM-databasen klickar du på ikonen Ta bort sökning.
 
 ## Öppna DITA-avsnittet i Sygen XML Author från AEM webbgränssnitt {#id182CE0I905Z}
 
@@ -592,7 +591,7 @@ Gör så här för att öppna ett DITA-ämne i Sygen XML Author:
    >
    >Om ämnet inte är utcheckat checkas det först ut och öppnas sedan i syrgas i redigeringsläge.
 
-1. Välj Syrgas-XML-författare *&lt;version\>* i meddelanderutan **Starta program**. Du kan välja alternativet **Kom ihåg mitt val AEM länkar** om du vill spara dina inställningar.
+1. Välj Författare av syre-XML *&lt;version\>* i meddelanderutan **Starta programmet**. Du kan välja alternativet **Kom ihåg mitt val för AEM-länkar** om du vill spara dina inställningar.
 
 **Redigera ett DITA-avsnitt**
 
@@ -605,7 +604,7 @@ Utför följande steg för att redigera ett DITA-ämne i Sygen XML Author:
    >
    >Om ämnet inte är utcheckat checkas det först ut och öppnas sedan i syrgas i redigeringsläge.
 
-1. Välj Syrgas-XML-författare *&lt;version\>* i meddelanderutan **Starta program**. Du kan välja alternativet **Kom ihåg mitt val AEM länkar** om du vill spara dina inställningar.
+1. Välj Författare av syre-XML *&lt;version\>* i meddelanderutan **Starta programmet**. Du kan välja alternativet **Kom ihåg mitt val för AEM-länkar** om du vill spara dina inställningar.
 1. Redigera ämnet i Syrgas XML Author.
 1. Kolla in ämnet från Syrgaspluginen för AEM Guides.
 
@@ -627,20 +626,20 @@ Följande element läggs till baserat på typen av referenser:
 Om du släpper till Redigeraren med ett öppet ämne:
 - En referens läggs till med elementet `<image>` för bilderna.
 - Ett objektelement läggs till för en video eller ett ljud.
-- Elementet `<xref>` har lagts till för alla andra referenser, till exempel ämne, map, DITAVAL, PDF, ZIP och XML.
+- Elementet `<xref>` har lagts till för alla andra referenser, till exempel ämne, karta, DITAVAL, PDF, ZIP och XML.
 
 Om du släpper till Editor eller DITA Maps Manager med en öppen karta:
 - Elementet `<mapref>` har lagts till för kartreferenser, som innehåller en DITA-karta, en bokkarta eller ett ämnesschema.
-- Elementet `<topicref>` har lagts till för alla andra referenser, till exempel ämne, map, DITAVAL, PDF, ZIP och XML.
+- Elementet `<topicref>` har lagts till för alla andra referenser, till exempel ämne, karta, DITAVAL, PDF, ZIP och XML.
 
 
 ## Arbeta med attributprofiler {#id1827JA002YK}
 
-Med AEM Guides kan du enkelt skapa och associera villkorliga attribut med relevanta DITA-attribut. Du kan definiera villkorliga attribut på global nivå eller på mappnivå. De globalt definierade villkoren visas i alla projekt och på mappnivå visas bara i projekt som skapats i den angivna mappen. Innehållsförfattare kan använda dessa villkorsstyrda attribut för att villkoralisera innehåll i sina DITA-avsnitt eller -kartor som de skapar eller använder. Mer information om hur du skapar villkorliga attribut i AEM med AEM Guides finns i avsnittet *Konfigurera villkorliga attribut för globala profiler och profiler på mappnivå* i Installera och konfigurera Adobe Experience Manager Guides.
+Med AEM Guides kan du enkelt skapa och associera villkorliga attribut med relevanta DITA-attribut. Du kan definiera villkorliga attribut på global nivå eller på mappnivå. De globalt definierade villkoren visas i alla projekt och på mappnivå visas bara i projekt som skapats i den angivna mappen. Innehållsförfattare kan använda dessa villkorsstyrda attribut för att villkoralisera innehåll i sina DITA-avsnitt eller -kartor som de skapar eller använder. Mer information om hur du skapar villkorsstyrda attribut i AEM med AEM Guides finns i avsnittet *Konfigurera villkorsstyrda attribut för globala profiler och profiler på mappnivå* i Installera och konfigurera Adobe Experience Manager Guides.
 
 >[!NOTE]
 >
->Kontrollera att du har lagt till villkorsattributen i AEM och angett [Inställningar för anpassning av profileringsattribut](#id1827K0D0OHT) innan du lägger till villkorsattribut i innehållet.
+>Kontrollera att du har lagt till villkorsattributen i AEM och angett [Inställningar för anpassning av profileringsattribut](#id1827K0D0OHT) innan du lägger till villkorsattribut i ditt innehåll.
 
 Följ de här stegen för att lägga till villkorliga attribut i innehållet i Sygen XML Author:
 
@@ -712,9 +711,9 @@ Utför följande steg för att ändra standardporten för proxyservern:
 
 ### AEM Guides-panelen bläddrar inte till den öppnade filplatsen
 
-Problem: När du väljer att öppna en fil för redigering i Sygen XML Author från AEM server öppnas filen för redigering i Sygen XML Author. Platsen för filen i navigeringsträdet visas dock inte på panelen i AEM Guides.
+Problem: När du väljer att öppna en fil för redigering i Sygen XML Author från AEM-servern öppnas filen för redigering i Sygen XML Author. Platsen för filen i navigeringsträdet visas dock inte på panelen i AEM Guides.
 
-Lösning: Det här problemet har observerats i scenarier där filsökvägen innehåller /content/dam två gånger. Som standard lagras alla resurser i AEM under mappen /content/dam. Om du överför eller skapar en mappstruktur som även innehåller /content/dam i mappen, observeras problemet. Du kan utföra alla normala åtgärder för sådana filer, men deras plats i navigeringsträdet visas inte som standard. Om du vill komma åt den filen i navigeringsträdet måste du bläddra till filens plats manuellt. Observera att dubblettsökvägen /content/dam ersätts med /content/assets i navigeringsträdet.
+Lösning: Det här problemet har observerats i scenarier där filsökvägen innehåller /content/dam två gånger. Som standard lagras alla resurser i AEM i mappen /content/dam. Om du överför eller skapar en mappstruktur som även innehåller /content/dam i mappen, observeras problemet. Du kan utföra alla normala åtgärder för sådana filer, men deras plats i navigeringsträdet visas inte som standard. Om du vill komma åt den filen i navigeringsträdet måste du bläddra till filens plats manuellt. Observera att dubblettsökvägen /content/dam ersätts med /content/assets i navigeringsträdet.
 
 ### Konfigurera loggning
 

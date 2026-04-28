@@ -5,9 +5,9 @@ feature: Authoring, Map Editor
 role: User
 hide: true
 exl-id: 194caf31-15ae-436d-bbd4-3ea4907c7877
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1508'
 ht-degree: 0%
 
 ---
@@ -196,4 +196,4 @@ Om du vill ta bort ett ämne från tabellen klickar du på kryssikonen bredvid �
 
 Om du vill ta bort relationstabellen klickar du utanför relationstabellen och klickar på Ta bort.
 
-**Överordnat ämne:**&#x200B;[&#x200B; Arbeta med kartredigeraren](map-editor.md)
+**Överordnat ämne:**[ Arbeta med kartredigeraren](map-editor.md)

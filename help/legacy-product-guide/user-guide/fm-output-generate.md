@@ -5,9 +5,9 @@ feature: Publishing FrameMaker Documents
 role: User
 hide: true
 exl-id: 9b5760bd-817c-4d8d-ab37-ab8699ac62fa
-source-git-commit: 26fa1e52920c1f1abd5655b9ca7341600a9bca67
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '127'
 ht-degree: 0%
 
 ---
@@ -31,4 +31,4 @@ Så här genererar du utdata för FrameMaker-dokument:
 >
 > Du kan visa aktuell status för begäran om generering av utdata genom att klicka på Utdata. Mer information finns i [Visa status för utdatagenereringsaktiviteten](fm-output-view-status.md).
 
-**Överordnat ämne:**&#x200B;[&#x200B; Generera utdata för FrameMaker-dokument](fm-output-generatation.md)
+**Överordnat ämne:**[ Generera utdata för FrameMaker-dokument](fm-output-generatation.md)

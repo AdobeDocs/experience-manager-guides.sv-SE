@@ -5,9 +5,9 @@ feature: Introduction
 role: User
 hide: true
 exl-id: b3e17f62-70d0-470e-9e52-73489510c62f
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '985'
 ht-degree: 0%
 
 ---
@@ -69,11 +69,11 @@ Med AEM Connector i FrameMaker kan du hantera dina FrameMaker-filer. Med AEM Con
 
 ## Ytterligare resurser
 
-Nedan följer en lista över andra användbara resurser i AEM Guides som finns på sidan [Lär dig mer och support](https://helpx.adobe.com/se/support/xml-documentation-for-experience-manager.html):
+Nedan följer en lista över andra användbara resurser i AEM Guides som finns på sidan [Lär dig mer och support](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html):
 
 * Användarhandbok
 * Referenshandbok för API
 * Snabbstartsguide
-* [Hjälp* Arkiveringssida](https://helpx.adobe.com/se/xml-documentation-for-experience-manager/archive.html) (använd äldre versionsdokumentation)
+* [Hjälp* Arkiveringssida](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) (använd äldre versionsdokumentation)
 
-**Överordnat ämne:**&#x200B;[&#x200B; Om Adobe Experience Manager Guides as a Cloud Service](../user-guide/intro.md)
+**Överordnat ämne:**[ Om Adobe Experience Manager Guides as a Cloud Service](../user-guide/intro.md)

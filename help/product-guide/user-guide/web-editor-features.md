@@ -6,9 +6,9 @@ feature: Authoring, Features of Web Editor
 role: User
 hidefromtoc: true
 hide: true
-source-git-commit: 6e23f52fc9124d0f07f8108da1b5fe574f553469
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '18659'
+source-wordcount: '18790'
 ht-degree: 0%
 
 ---
@@ -110,7 +110,7 @@ Alternativet **Inställningar** är bara tillgängligt för administratörer och
 Ändra format på citat. Välj den källstil i listrutan som du vill använda i ditt projekt. Mer information finns i [Ändra källhänvisningsformat](./web-editor-apply-citations.md#change-citation-style).
 
    - **AI-assistenten**
-Välj det här om du vill aktivera funktionen [&#x200B; AI-assistenten &#x200B;](./ai-assistant.md) i Experience Manager Guides. Avmarkera om du vill inaktivera funktionen.
+Välj det här om du vill aktivera [ AI-assistenten ](./ai-assistant.md) i Experience Manager Guides. Avmarkera om du vill inaktivera funktionen.
 
 **Paneler**: Den här inställningen kontrollerar panelerna som visas i den vänstra och högra panelen i redigeraren och kartekonsolen. Du kan växla knappen för att visa eller dölja den önskade panelen.
 
@@ -132,7 +132,7 @@ Högst åtta paneler kan visas samtidigt. Alla ändringar som görs i panelinst�
 
   ![](images/editor-setting-element-list.png){width="650" align="left"}
 
-I skärmbilden ovan har elementet `p` fått etiketten Stycke och `codeblock` får etiketten Kodblock tillsammans med några andra element. Om du väljer alternativet **Använd endast ovanför element** visas endast de giltiga elementen \(vid den aktuella insättningspunkten\) i listan i dialogrutan **Infoga element**.
+I skärmbilden ovan har elementet `p` fått etiketten Stycke och `codeblock` får etiketten Kodblock tillsammans med några andra element. Om du markerar alternativet **Använd endast ovanför element** visas endast de giltiga elementen \(vid den aktuella insättningspunkten\) i listan i dialogrutan **Infoga element** .
 
 I skärmbilden nedan visas endast 3 av 4 konfigurerade element från den föregående skärmbilden i det aktuella sammanhanget:
 
@@ -294,7 +294,7 @@ Den detaljerade förklaringen till dessa funktioner är följande:
 
 **Redigerar åtgärder**
 
-När du redigerar ett ämne i Redigeraren kan du få åtkomst till olika redigeringsåtgärder, till exempel **Klipp ut** eller ***Ctrl***+***X*** , **Kopiera** eller ***Ctrl***+***C*** , **Ångra** eller ***Ctrl***+***&rbrace;Z*** , **Gör om** eller ***Ctrl***+***Y*** och **Ta bort** som finns i listrutan Meny.
+När du redigerar ett ämne i Redigeraren kan du få åtkomst till olika redigeringsåtgärder, till exempel **Klipp ut** eller ***Ctrl***+***X*** , **Kopiera** eller ***Ctrl***+***C*** , **Ångra** eller ***Ctrl***+***}Z*** , **Gör om** eller ***Ctrl***+***Y*** och **Ta bort** som finns i listrutan Meny.
 
 
 **Sök och ersätt**
@@ -341,7 +341,7 @@ Så här får du åtkomst till versionshistoriken och återgår till en specifik
 
    Fliken **Metadata**: De nya metadata som har lagts till är i grönt teckensnitt och de borttagna metadata är i rött teckensnitt.
 
-   ![Skillnad i metadata för versionerna &#x200B;](images/metadata-version-diff.png){width="550" align="left"}
+   ![Skillnad i metadata för versionerna ](images/metadata-version-diff.png){width="550" align="left"}
 
    *Jämför metadata för olika versioner i versionshistoriken.*
 
@@ -893,7 +893,7 @@ Vissa av funktionerna i den vänstra panelen finns under avsnittet **Mer**. Väl
 - [Mallar](#templates)
 - [Citat](#citations)
 - [Språkvariabler](#language-variables)
-- [Variabel](#variables)
+- [Variabler](#variables)
 - [Sök och ersätt](#find-and-replace)
 - [PDF-mallar](#pdf-templates)
 - [Granska](#review)
@@ -1000,7 +1000,7 @@ Du har följande alternativ för att filtrera filerna och begränsa sökningen i
 - **DITA-filer**: Du kan söka efter alla **DITA-avsnitt** och **DITA-kartor** som finns på den valda sökvägen. Dessa är markerade som standard.
 - **Icke-DITA-filer**: Du kan söka efter **Ditavala filer**, **Bildfiler**, **Multimedia**, **Dokument** och **JSON** i den valda sökvägen.
 
-  ![snabbsökningsfilter &#x200B;](images/repository-filter-search-quick.png) {width="300" align="left"}
+  ![snabbsökningsfilter ](images/repository-filter-search-quick.png) {width="300" align="left"}
 
   *Använd snabbfiltren för att söka efter DITA- och icke-DITA-filer.*
 
@@ -1129,7 +1129,7 @@ Du får tillgång till olika alternativ på Alternativ-menyn beroende på om du 
 - Öppna i FrameMaker
 - Duplicera
 - Lås/lås upp
-- Förhandsgranska
+- Förhandsgranskning
 - Flytta till
 - Byt namn
 - Ta bort
@@ -1819,7 +1819,7 @@ I Experience Manager Guides finns en funktion för att använda språkvariabler 
 
 Mer information finns i [Stöd för språkvariabler](../native-pdf/native-pdf-language-variables.md).
 
-### Variabel
+### Variabler
 
 Med Experience Manager Guides kan du skapa och hantera variabler för PDF-publicering. Mer information finns i [Variabler i PDF-utdata](../native-pdf/native-pdf-variables.md).
 
@@ -1975,7 +1975,7 @@ Du kommer åt funktionen **Innehållsegenskaper** genom att välja ikonen **Inne
 
 1. I listrutan **Attribut** väljer du attributet i listrutan och anger ett attributvärde.  Välj sedan **Lägg till**.
 
-   ![attributpanel med flera attribut &#x200B;](images/attributes-multiple-properties.png){width="300" align="left"}
+   ![attributpanel med flera attribut ](images/attributes-multiple-properties.png){width="300" align="left"}
 
 1. Om du vill redigera attributet för du pekaren över det och väljer **Redigera** ![redigeringsikon](images/edit_pencil_icon.svg) .
 

@@ -5,9 +5,9 @@ feature: Publishing, Metadata Management
 role: User
 hide: true
 exl-id: 55d70c6d-feb0-43f7-9f18-6d1ccdd1e728
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '330'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Utför följande steg för att skicka metadata till utdata med DITA-OT-publiceri
 
    Den här filen kan överlappas av: `/apps/fmdita/config/metadataList`.
 
-   Mer information om hur du skickar en anpassad egenskap som du redan har definierat värdena för finns i [Använd AEM-metadata i DITA-OT PDF-utdata](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880?profile.language=sv).
+   Mer information om hur du skickar en anpassad egenskap som du redan har definierat värdena för finns i [Använd AEM-metadata i DITA-OT PDF-utdata](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880).
 
 1. Välj önskade anpassade egenskaper och standardegenskaper i listrutan **Egenskaper**. Välj till exempel `author`, `dc:title` och `dc:description`. Det här är standarden `metadata/properties` som skapas när vi skapar en fil. De valda egenskaperna visas under listrutan.
 
@@ -45,4 +45,4 @@ Utför följande steg för att skicka metadata till utdata med DITA-OT-publiceri
 
 De valda metadataegenskaperna skickas till utdata som genereras med DITA-OT.
 
-**Överordnat ämne:**&#x200B;[&#x200B; Utdatagenerering](generate-output.md)
+**Överordnat ämne:**[ Utdatagenerering](generate-output.md)

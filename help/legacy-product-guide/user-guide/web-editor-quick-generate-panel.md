@@ -5,9 +5,9 @@ feature: Authoring, Features of Web Editor, Publishing
 role: User
 hide: true
 exl-id: 8ba8eaa2-9ab0-4132-a751-48d2a527faf4
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -30,4 +30,4 @@ Utför följande steg för att generera utdata från panelen **Snabbgenerering**
 1. Klicka på **Generera** för att generera utdata för de valda förinställningarna. Ett meddelande om att det lyckades visas när utdata genererades. Ett felmeddelande visas om genereringen misslyckas. Du kan även visa felloggen för att se information om felet som uppstod under genereringsprocessen.
 1. Klicka på ikonen **Visa utdata** \( ![](images/view-output-icon.svg)\) för en viss förinställning för att visa utdata som genererats för förinställningen.
 
-**Överordnat ämne:**&#x200B;[&#x200B; Arbeta med webbredigeraren](web-editor.md)
+**Överordnat ämne:**[ Arbeta med webbredigeraren](web-editor.md)

@@ -5,9 +5,9 @@ feature: Reviewing
 role: User
 hide: true
 exl-id: 4e47536a-ad78-4c97-9cea-a6af854f6e2f
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '2752'
+source-wordcount: '2775'
 ht-degree: 0%
 
 ---
@@ -247,7 +247,6 @@ Så här skickar du ett eller flera avsnitt tillsammans med kartfilen för grans
    - **Tilldela om**: Visar dialogrutan Tilldela granskare igen. Du kan skriva namnet på en granskare eller användarroll \(eller grupp\) som du vill tilldela granskningsuppgiften till. Detta tar bort alla befintliga granskare från de markerade avsnitten och tilldelar de nyvalda granskarna till dessa ämnen.
    - **Exportera**: Gör att du kan exportera information om granskningsåtgärder i en CSV-fil. Filen innehåller information om ämnessökväg och rubrik, namn på granskare och version av ämnen som skickats för granskning.
    - **Redigera granskare**: Om du klickar på ikonen ![](images/edit_pencil_icon.svg) i ämneslistan visas dialogrutan Redigera granskare. Du kan lägga till eller ta bort granskare för det valda ämnet från den här dialogrutan.
-
    >[!IMPORTANT]
    >
    > Du måste tilldela minst en granskare för att skapa granskningsaktiviteten.
@@ -267,4 +266,4 @@ Så här skickar du ett eller flera avsnitt tillsammans med kartfilen för grans
 
 Ett e-postmeddelande skickas till alla granskare som meddelar att de har tilldelats ämnen för granskning. E-postmeddelandet innehåller en direkt länk som de kan klicka på och komma åt ämnet i ett webbläsarfönster. Ämnen tillsammans med DITA-kartan öppnas i granskningsläget.
 
-**Överordnat ämne:**&#x200B;[&#x200B; Granska ämnen eller kartor](review.md)
+**Överordnat ämne:**[ Granska ämnen eller kartor](review.md)

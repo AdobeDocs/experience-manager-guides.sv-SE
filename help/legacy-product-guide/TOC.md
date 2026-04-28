@@ -1,12 +1,12 @@
 ---
 user-guide-title: Experience Manager Guides Old UI
 user-guide-description: Läs produktdokumentationen för Adobe Experience Manager Guides i det gamla användargränssnittet.
-breadcrumb-title: Dokumentation om AEM Guides
+breadcrumb-title: AEM Guides Documentation
 hide: true
 badgeAll: label="Gammal gränssnittshandbok - mer information" type="Informative" url="/help/legacy-product-guide/disclaimer.md" tooltip="Gammal gränssnittshandbok"
-source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '599'
 ht-degree: 0%
 
 ---
@@ -15,13 +15,13 @@ ht-degree: 0%
 # [!DNL Adobe Experience Manager Guides Old UI] {#using-old-ui}
 
 - [Ansvarsfriskrivning](disclaimer.md)
-- [[!DNL AEM Guides] - översikt](overview.md)
-- [Versionsinformation](https://experienceleague.adobe.com/sv/docs/experience-manager-guides/using/release-info/aem-guides-releases-roadmap){target="_blank"}
+- [[!DNL AEM Guides] översikt](overview.md)
+- [Versionsinformation](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/release-info/aem-guides-releases-roadmap){target="_blank"}
 - Användarhandbok (gammalt användargränssnitt) {#user-guide}
    - Introduktion {#about-aem-guide}
       - [Om [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
-      - [!DNL AEM Guides] fungerar och nyckelfunktioner {#aemg-works-features}
-         - [Så här fungerar [!DNL AEM Guides] &#x200B;](./user-guide/intro-how-dxml-works.md)
+      - [!DNL AEM Guides] funktioner och nyckelfunktioner {#aemg-works-features}
+         - [Så här fungerar [!DNL AEM Guides] ](./user-guide/intro-how-dxml-works.md)
          - [Viktiga [!DNL AEM Guides] funktioner](./user-guide/intro-dxml-features.md)
    - Hantera innehåll {#manage-content}
       - [Viktiga begrepp, roller, behörigheter och krav](./user-guide/authoring.md)
@@ -30,13 +30,13 @@ ht-degree: 0%
       - [Hämta filer](./user-guide/authoring-download-assets.md)
    - Författarinnehåll {#author-content}
       - [Redigeringsöversikt](./user-guide/authoring-content.md)
-      - Skapa och förhandsgranska ämne {#create-preview-topics}
+      - Skapa och förhandsgranska ämnen {#create-preview-topics}
          - [Skapa och förhandsgranska ämnen](./user-guide/create-preview-topics.md)
          - [Skapa ämnen](./user-guide/web-editor-create-topics.md)
          - [Förhandsgranska ett ämne](./user-guide/web-editor-preview-topics.md)
-         - Skapar innehåll {#author-content-aem-guides}
+         - Skapa innehåll {#author-content-aem-guides}
             - [Hur man skapar innehåll med AEM Guides](./user-guide/authoring-content-xml-doc.md)
-            - Webbredigeraren {#work-with-web-editor}
+            - Web Editor {#work-with-web-editor}
                - [Arbeta med webbredigeraren](./user-guide/web-editor.md)
                - [Starta Web Editor](./user-guide/web-editor-launch-editor.md)
                - [Redigera ämnen i Web Editor](./user-guide/web-editor-edit-topics.md)
@@ -70,7 +70,7 @@ ht-degree: 0%
                - [Andra funktioner i kartredigerarna](./user-guide/map-editor-other-features.md)
             - DITAVAL Editor {#ditaval-editor}
                - [Arbeta med DITAVAL-redigeraren](./user-guide/ditaval-editor.md)
-         - Skrivbordsverktyg för att skapa innehåll {#author-using-desktop-tools}
+         - Skrivbordsverktyg för innehåll {#author-using-desktop-tools}
             - [Skapa innehåll med hjälp av skrivbordsverktyg](./user-guide/author-desktop-tools.md)
             - [Arbeta med FrameMaker](./user-guide/author-desktop-framemaker.md)
             - [Arbeta med syre](./user-guide/author-desktop-oxygen.md)
@@ -94,7 +94,7 @@ ht-degree: 0%
       - [Bästa tillvägagångssätt för innehållsöversättning](./user-guide/translation-first-time.md)
       - [Visa översättningsstatus](./user-guide/translation-view-trans-state-6234.md)
       - [Översätt ändrade ämnen](./user-guide/translation-modified-topics-6234.md)
-   - Utdatagenerering {#output-gen}
+   - Generera utdata {#output-gen}
       - [Grundläggande om generering av utdata](./user-guide/generate-output.md)
       - [Introduktion till förinställningar för utdata](./user-guide/generate-output-understand-presets.md)
       - Utdataförinställningar i AEM Guides {#output-presets-aemg}
@@ -105,7 +105,7 @@ ht-degree: 0%
          - [Knowledge Base](./user-guide/generate-output-knowledge-base.md)
          - [HTML5](./user-guide/generate-output-html5.md)
          - [EPUB](./user-guide/generate-output-epub.md)
-         - [Egen](./user-guide/generate-output-custom.md)
+         - [Anpassad](./user-guide/generate-output-custom.md)
          - [JSON](./user-guide/generate-output-json.md)
       - [Använd variabler för att ange alternativen Målsökväg, Platsnamn eller Filnamn](./user-guide/generate-output-use-variables.md)
       - [Skapa, redigera, duplicera eller ta bort en förinställning för utdata](./user-guide/generate-output-create-edit-preset.md)
@@ -120,7 +120,7 @@ ht-degree: 0%
       - [Publicera innehållsfragment](./user-guide/publish-content-fragment.md)
       - [Publicera upplevelsefragment](./user-guide/publish-experience-fragment.md)
       - [Publicera AEM Sites-sidor](./user-guide/publish-aem-sites.md)
-      - Massaktivering av innehållet {#bulk-activation}
+      - Massaktivering av innehåll {#bulk-activation}
          - [Massaktivering av publicerat innehåll](./user-guide/conf-bulk-activation.md)
          - [Skapa en gruppaktiveringskarta](./user-guide/conf-bulk-activation-create-map-collection.md)
          - [Aktivera utdata](./user-guide/conf-bulk-activation-publish-map-collection.md)
@@ -142,5 +142,5 @@ ht-degree: 0%
       - [Återanvänd innehåll - rapport](./user-guide/reports-content-reuse.md)
       - [Statusrapport för konvertering](./user-guide/reports-convertion-status.md)
       - [Rapport över versionshistorik för återskapade filer](./user-guide/reports-reverted-file-version-history.md)
-- [ANVÄNDARHANDBOK (NYTT UI)](https://experienceleague.adobe.com/sv/docs/experience-manager-guides/using/user-guide/about-aemg/intro)
+- [ANVÄNDARHANDBOK (NYTT UI)](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/user-guide/about-aemg/intro)
 

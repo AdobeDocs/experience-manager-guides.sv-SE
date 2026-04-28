@@ -5,16 +5,16 @@ feature: AEM Guides Tutorials
 role: User
 hide: true
 exl-id: de7bda03-371b-4414-846b-86787f98fda8
-source-git-commit: 7286c3fb36695caa08157296fd6e0de722078c2b
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '269'
 ht-degree: 0%
 
 ---
 
 # AEM Guides - översikt
 
-[!DNL Experience Manager Guides] (kallas _[!DNL AEM Guides]_&#x200B;nedan) är en kraftfull innehållshanteringslösning för komponenter i företagsklass. Det möjliggör inbyggt DITA-stöd i Experience Manager och ger AEM möjlighet att hantera DITA-baserad framtagning och leverans av innehåll. Man kan skapa material offline med valfritt DITA-verktyg, t.ex. Adobe FrameMaker eller en lättanvänd webbredigerare.
+[!DNL Experience Manager Guides] (kallas _[!DNL AEM Guides]_nedan) är en kraftfull innehållshanteringslösning för komponenter i företagsklass. Det möjliggör inbyggt DITA-stöd i Experience Manager och ger AEM möjlighet att hantera DITA-baserad framtagning och leverans av innehåll. Man kan skapa material offline med valfritt DITA-verktyg, t.ex. Adobe FrameMaker eller en lättanvänd webbredigerare.
 
 [!DNL AEM Guides]-lösningen innehåller alla centrala CCMS-funktioner, som samarbete, granskning, översättning, sökning och rapporter för DITA-innehåll, vilket gör att författare kan göra mer på kortare tid genom effektiv återanvändning av innehåll och kraftfulla arbetsflöden. Dessutom kan man med ett enda klick skapa DITA-baserade utdata för de vanligaste formaten - Experience Manager Sites, PDF, HTML5, EPUB och skräddarsydda utdata via DITA-OT.
 
@@ -26,6 +26,6 @@ Med lösningen [!DNL AEM Guides] kan företag leverera sömlösa och personalise
 
 ## Ytterligare resurser
 
-* [[!DNL AEM Guides] Användarhandbok (nytt användargränssnitt)](https://experienceleague.adobe.com/sv/docs/experience-manager-guides/using/overview)
-* [[!DNL AEM Guides] Lär dig mer och support](https://helpx.adobe.com/se/support/xml-documentation-for-experience-manager.html)
-* [Experience League - Utforska AEM](https://business.adobe.com/se/products/experience-manager/adobe-experience-manager.html)
+* [Användarhandbok för [!DNL AEM Guides] (nytt användargränssnitt)](https://experienceleague.adobe.com/en/docs/experience-manager-guides/using/overview)
+* [[!DNL AEM Guides] Läs mer och support](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)
+* [Experience League - Utforska AEM](https://business.adobe.com/products/experience-manager/adobe-experience-manager.html)

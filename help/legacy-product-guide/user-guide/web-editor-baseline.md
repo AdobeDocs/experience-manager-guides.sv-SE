@@ -5,9 +5,9 @@ feature: Authoring, Features of Web Editor, Publishing
 role: User
 hide: true
 exl-id: f43bc3ae-b7b6-4a8c-b42d-28ec02d0d1d6
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '1699'
+source-wordcount: '1707'
 ht-degree: 0%
 
 ---
@@ -154,4 +154,4 @@ Med ikonen Filter på panelen **Baslinjefilter** kan du använda filter på basl
 
 När du har redigerat baslinjen kan du klicka på knappen **Spara** överst för att spara ändringarna i baslinjen. Du kan klicka på knappen **Återställ** om du inte vill spara ändringen och återställa baslinjen. När du klickar på knappen **Återställ** visas en varning om att ändringar som inte sparats går förlorade.
 
-**Överordnat ämne:**&#x200B;[&#x200B; Arbeta med webbredigeraren](web-editor.md)
+**Överordnat ämne:**[ Arbeta med webbredigeraren](web-editor.md)

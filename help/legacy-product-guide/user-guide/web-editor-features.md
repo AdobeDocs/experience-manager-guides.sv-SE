@@ -5,9 +5,9 @@ feature: Authoring, Features of Web Editor
 role: User
 hide: true
 exl-id: 045cafac-393f-49e9-9432-6533a4c6dc01
-source-git-commit: ea597cd14469f21e197c700542b9be7c373aef14
+source-git-commit: a70b3ce942b3e69445ad1d7ba6c8f7542e0ff176
 workflow-type: tm+mt
-source-wordcount: '18802'
+source-wordcount: '18945'
 ht-degree: 0%
 
 ---
@@ -174,7 +174,6 @@ I skärmbilden nedan visas endast 3 av 4 konfigurerade element från den föreg�
 
 
    - Om du vill skapa en Salesforce-publiceringsprofil väljer du **Salesforce**-kunskapsbasen i listrutan **Servertyp** . Ange ett profilnamn. Ange den konsumentwebbplats som du skulle använda för att publicera utdata i URL:en för **platsen** och lägg sedan till **konsumentnyckeln** och **konsumenthemligheten** från Salesforce konsumentwebbplats. **Validera** och **Spara** den nya profilen.
-
      ![salesforce-publiceringsprofil i redigeringsinställningarna](./images/salesforce-publish-profile.png){width="550" align="left"}
 
      >[!NOTE]
@@ -632,7 +631,7 @@ Följande åtgärder kan utföras i ett dokument med taggvyn på:
 
 >[!NOTE]
 >
-> Om en användare aktiverar taggvyn från Web Editor är den fortfarande aktiverad även i alla sessioner. Det innebär att du inte behöver aktivera taggvyn igen för att komma åt den senare. Standardvärdet för taggvyn för en ny användarsession bestäms av egenskapen tagsView i filen ui\_config.json. Mer information finns i avsnittet *Konfigurera standardvärde för taggvyn* i Installera och konfigurera Adobe Experience Manager Guides as a Cloud Service.
+> Om en användare aktiverar taggvyn från Web Editor är den fortfarande aktiverad även i alla sessioner. Det innebär att du inte behöver aktivera taggvyn igen för att komma åt den senare.Standardvärdet för taggvyn för en ny användarsession bestäms av egenskapen tagsView i filen ui\_config.json. Mer information finns i avsnittet *Konfigurera standardvärde för taggvyn* i Installera och konfigurera Adobe Experience Manager Guides as a Cloud Service.
 
 **Aktivera/inaktivera spåra ändringar** ![](images/track-change-icon.svg)
 
@@ -753,7 +752,7 @@ Så här får du åtkomst till versionshistoriken och återgår till en specifik
    Fliken **Förhandsgranska**: Det nya innehållet är i grönt teckensnitt och det borttagna innehållet är i rött teckensnitt.
 
    Fliken **Metadata**: De nya metadata som har lagts till är i grönt teckensnitt och de borttagna metadata är i rött teckensnitt.
-   ![Skillnad i metadata för versionerna &#x200B;](images/metadata-version-diff.png){width="550" align="left"}
+   ![Metadataskillnad för versioner ](images/metadata-version-diff.png){width="550" align="left"}
    *Jämför metadata för olika versioner i versionshistoriken.*
 
    >[!NOTE]
@@ -937,7 +936,7 @@ Du har följande alternativ för att filtrera filerna och begränsa sökningen i
 - **DITA-filer**: Du kan söka efter alla **DITA-avsnitt** och **DITA-kartor** som finns på den valda sökvägen. Dessa är markerade som standard.
 - **Icke-DITA-filer**: Du kan söka efter **Ditavala filer**, **Bildfiler**, **Multimedia**, **Dokument** och **Json** i den valda sökvägen.
 
-![snabbsökningsfilter &#x200B;](images/repository-filter-search-quick.png) {width="300" align="left"}
+![snabbsökningsfilter ](images/repository-filter-search-quick.png) {width="300" align="left"}
 
 *Använd snabbfiltren för att söka efter DITA- och icke-DITA-filer.*
 
@@ -947,7 +946,7 @@ Välj ikonen **Avancerad filtrering** ![avancerad filtrering](images/advanced-fi
 
 Du kan visa följande alternativ på flikarna **Allmänt** och **Avancerat**.
 
-![avancerad filterdialogruta](images/repository-filter-search-advanced.png) {width="800" align="left"}
+![dialogruta för avancerat filter](images/repository-filter-search-advanced.png) {width="800" align="left"}
 
 
 **Allmänt**
@@ -1034,7 +1033,7 @@ Du kan se olika alternativ på Alternativ-menyn beroende på om du väljer en me
 
 - Duplicera
 - Checka ut/Checka in
-- Förhandsgranska
+- Förhandsgranskning
 - Flytta till
 - Byt namn
 - Ta bort
@@ -1350,7 +1349,7 @@ I dispositionsvyn finns följande funktioner:
 
 - Använd den nedrullningsbara filterlistan för att visa alla element eller endast brutna referenser:
 
-- Om du klickar på ett element i dispositionsvyn markeras elementets innehåll i författarvyn eller Source-vyn. Dispositionsvyn är fortfarande synkroniserad med författarvyn och Source-vyn. Om du gör några ändringar i en vy kan du se dem i dispositionsvyn. Om du till exempel lägger till ett stycke eller uppdaterar ett element i redigeringsvyn visas det i dispositionsvyn.
+- Om du klickar på ett element i dispositionsvyn markeras elementets innehåll i författarvyn eller Source-vyn.Dispositionsvyn är fortfarande synkroniserad med författarvyn och Source-vyn. Om du gör några ändringar i en vy kan du se dem i dispositionsvyn. Om du till exempel lägger till ett stycke eller uppdaterar ett element i redigeringsvyn visas det i dispositionsvyn.
 
   ![](images/select-element-content-outline-view_cs.png){width="650" align="left"}
 
@@ -1821,7 +1820,6 @@ Så här visar du granskningskommentarerna i de aktiva granskningsuppgifterna so
    - Ange söktermen eller texten som du vill hitta i projektets titel. Tryck sedan på Retur för att utföra sökningen. Du kan till exempel söka i alla projekt med termen&quot;space&quot; i titeln.
 
    - Välj ![](images/filter-search-icon.svg) för att öppna dialogrutan **Filter**. Du kan välja alla eller endast specifika projekt. De markerade projekten visas på panelen **Granska**.
-
      ![](images/active-review-select-project.png){width="300" align="left"}
 
      Alternativet **Uppgifter som initierats av mig** är aktiverat som standard. Du kan bara visa de uppgifter som du har initierat. Växlingsläget för det här alternativet behålls även efter att sidan har uppdaterats.
@@ -1971,7 +1969,7 @@ Du kommer åt funktionen **Innehållsegenskaper** genom att välja ikonen **Inne
 
 1. I listrutan **Attribut** väljer du attributet i listrutan och anger ett attributvärde.  Klicka sedan på **Lägg till**.
 
-   ![attributpanel med flera attribut &#x200B;](images/attributes-multiple-properties.png){width="300" align="left"}
+   ![attributpanel med flera attribut ](images/attributes-multiple-properties.png){width="300" align="left"}
 
 1. Om du vill redigera attributet för du pekaren över det och väljer **Redigera** ![redigeringsikon](images/edit_pencil_icon.svg) .
    ![redigera attribut](images/edit-attributes-content-properties.png){width="300" align="left"}
@@ -2006,7 +2004,7 @@ I avsnittet Allmänt får du tillgång till följande funktioner:
 - **Språk**: Visar språket för ämnet. Den ställs in från språkfältet på egenskapssidan.
 - **Skapad den**: Visar datum och tid då ämnet skapades.
 - **Utcheckad av**: Visar användaren som checkade ut ämnet.
-- **Dokumenttillstånd**: Du kan välja och uppdatera dokumenttillståndet för det öppna ämnet. Mer information finns i [Dokumenttillstånd &#x200B;](web-editor-document-states.md#)*.*
+- **Dokumenttillstånd**: Du kan välja och uppdatera dokumenttillståndet för det öppna ämnet. Mer information finns i [Dokumenttillstånd ](web-editor-document-states.md#)*.*
 
 **Obs!** Du kan kopiera attributvärdena för de olika fälten i filegenskaperna till Urklipp.
 
@@ -2049,4 +2047,4 @@ Med funktionen Spårade ändringar i den högra panelen kan du visa information 
 >
 > Funktionen Spårade ändringar visar alla uppdateringar som har spårats med funktionen Aktivera/inaktivera Spåra ändringar i huvudverktygsfältet. Mer information finns i [Aktivera/inaktivera spåra ändringar](#id205DF0203Y4).
 
-**Överordnat ämne:**&#x200B;[&#x200B; Arbeta med webbredigeraren](web-editor.md)
+**Överordnat ämne:**[ Arbeta med webbredigeraren](web-editor.md)
